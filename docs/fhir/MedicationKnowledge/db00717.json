@@ -1,0 +1,31 @@
+{
+  "resourceType": "MedicationKnowledge",
+  "id": "db00717",
+  "status": "active",
+  "code": {
+    "coding": [
+      {
+        "system": "https://artxgnn.yao.care/drugs",
+        "code": "db00717",
+        "display": "DB00717"
+      }
+    ]
+  },
+  "intendedJurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "AR",
+          "display": "Argentina"
+        }
+      ]
+    }
+  ],
+  "extension": [
+    {
+      "url": "https://artxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    }
+  ]
+}

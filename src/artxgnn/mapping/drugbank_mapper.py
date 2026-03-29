@@ -1312,7 +1312,7 @@ def map_ingredient_to_drugbank(
     if base_ingredient != ingredient and base_ingredient in name_index:
         return name_index[base_ingredient]
 
-    # 4. 嘗試轉換葡萄牙文後綴到英文
+    # 4. 嘗試轉換葡萄牙文/西班牙文後綴到英文
     pt_to_en_suffix = [
         (r"INA$", "INE"),      # ASPIRINA → ASPIRIN (但通常是 ASPIRINE)
         (r"OL$", "OL"),        # 保持不變
@@ -1328,7 +1328,210 @@ def map_ingredient_to_drugbank(
             if base_ingredient in name_index:
                 return name_index[base_ingredient]
 
+    # 5. 處理 PAMI 西班牙文格式的鹽類後綴
+    # PAMI 使用逗號+縮寫表示鹽類：如 "ALFUZOSINA,CLORH." = alfuzosina clorhidrato
+    es_salt_patterns = [
+        r",CLORH\.?$",          # clorhidrato (hydrochloride)
+        r",CLORHIDRATO$",
+        r",BESILATO$",          # besilate/besylate
+        r",MESILATO$",          # mesylate
+        r",SULFATO$",           # sulfate
+        r",FOSFATO$",           # phosphate
+        r",ACETATO$",           # acetate
+        r",CITRATO$",           # citrate
+        r",FUMARATO$",         # fumarate
+        r",MALEATO$",          # maleate
+        r",SUCCINATO$",        # succinate
+        r",TARTRATO$",         # tartrate
+        r",LACTATO$",          # lactate
+        r",NITRATO$",          # nitrate
+        r",BROMURO$",          # bromide
+        r",CLORURO$",          # chloride
+        r",CARBONATO$",        # carbonate
+        r",ÁC\.$",             # ácido (acid)
+        r",ÁCIDO$",
+    ]
+    base_ingredient = ingredient
+    for pattern in es_salt_patterns:
+        base_ingredient = re.sub(pattern, "", base_ingredient)
+    if base_ingredient != ingredient and base_ingredient in name_index:
+        return name_index[base_ingredient]
+
+    # 6. 移除西班牙文重音符號再嘗試
+    accent_map = {
+        "Á": "A", "É": "E", "Í": "I", "Ó": "O", "Ú": "U",
+        "Ñ": "N", "Ü": "U",
+    }
+    deaccented = ingredient
+    for acc, plain in accent_map.items():
+        deaccented = deaccented.replace(acc, plain)
+    if deaccented != ingredient:
+        result = map_ingredient_to_drugbank(deaccented, name_index)
+        if result:
+            return result
+
+    # 7. 西班牙文藥名直接對照
+    es_direct = _get_spanish_synonym_map()
+    if ingredient in es_direct:
+        target = es_direct[ingredient]
+        if target in name_index:
+            return name_index[target]
+
     return None
+
+
+def _get_spanish_synonym_map() -> Dict[str, str]:
+    """西班牙文藥名到英文 INN 的直接對照字典
+
+    涵蓋 PAMI (阿根廷) 常見的西班牙文藥名。
+    """
+    return {
+        # ===== 常見藥物西班牙文 → 英文 INN =====
+        "ACENOCUMAROL": "ACENOCOUMAROL",
+        "ACETILCARNITINA": "ACETYLCARNITINE",
+        "ACITRETINA": "ACITRETIN",
+        "AGOMELATINA": "AGOMELATINE",
+        "ALENDRONATO": "ALENDRONATE",
+        "ALMOTRIPTAN": "ALMOTRIPTAN",
+        "AMIKACINA": "AMIKACIN",
+        "ATORVASTATIN": "ATORVASTATIN",
+        "AZATIOPRINA": "AZATHIOPRINE",
+        "BENCIDAMINA": "BENZYDAMINE",
+        "BISACODILO": "BISACODYL",
+        "BRIMONIDINA": "BRIMONIDINE",
+        "BRINZOLAMIDA": "BRINZOLAMIDE",
+        "BUPRENORFINA": "BUPRENORPHINE",
+        "BUPROPION": "BUPROPION",
+        "CALCITONINA": "CALCITONIN",
+        "CALCIO": "CALCIUM",
+        "CANDESARTAN CILEXETIL": "CANDESARTAN",
+        "CARBOXIMETILCISTEINA": "CARBOCISTEINE",
+        "CEFADROXILO": "CEFADROXIL",
+        "CEFIXIMA": "CEFIXIME",
+        "CEFTRIAXONA": "CEFTRIAXONE",
+        "CELECOXIB": "CELECOXIB",
+        "CICLOFOSFAMIDA": "CYCLOPHOSPHAMIDE",
+        "CISPLATINO": "CISPLATIN",
+        "CLINDAMICINA": "CLINDAMYCIN",
+        "CLORANFENICOL": "CHLORAMPHENICOL",
+        "COLCHICINA": "COLCHICINE",
+        "DEFERASIROX": "DEFERASIROX",
+        "DENOSUMAB": "DENOSUMAB",
+        "DESMOPRESINA": "DESMOPRESSIN",
+        "DEXAMETASONA": "DEXAMETHASONE",
+        "DICLOFENAC": "DICLOFENAC",
+        "DORZOLAMIDA": "DORZOLAMIDE",
+        "DOXICICLINA": "DOXYCYCLINE",
+        "DULOXETINA": "DULOXETINE",
+        "ENALAPRIL": "ENALAPRIL",
+        "ENOXAPARINA": "ENOXAPARIN",
+        "ERITROPOYETINA": "ERYTHROPOIETIN",
+        "ERLOTINIB": "ERLOTINIB",
+        "ESCITALOPRAM": "ESCITALOPRAM",
+        "ESPIRONOLACTONA": "SPIRONOLACTONE",
+        "ETORICOXIB": "ETORICOXIB",
+        "EXEMESTANO": "EXEMESTANE",
+        "FEBUXOSTAT": "FEBUXOSTAT",
+        "FENOFIBRATO": "FENOFIBRATE",
+        "FENTANILO": "FENTANYL",
+        "FINASTERIDA": "FINASTERIDE",
+        "FLUCONAZOL": "FLUCONAZOLE",
+        "FLUTICASONA": "FLUTICASONE",
+        "FLUVOXAMINA": "FLUVOXAMINE",
+        "FOSFOMICINA": "FOSFOMYCIN",
+        "GABAPENTINA": "GABAPENTIN",
+        "GALANTAMINA": "GALANTAMINE",
+        "GANCICLOVIR": "GANCICLOVIR",
+        "GEMFIBROZILO": "GEMFIBROZIL",
+        "GENTAMICINA": "GENTAMICIN",
+        "GLIMEPIRIDA": "GLIMEPIRIDE",
+        "GRANISETRON": "GRANISETRON",
+        "HALOPERIDOL": "HALOPERIDOL",
+        "HIDROCLOROTIAZIDA": "HYDROCHLOROTHIAZIDE",
+        "HIDROCORTISONA": "HYDROCORTISONE",
+        "HIDROXICLOROQUINA": "HYDROXYCHLOROQUINE",
+        "IBUPROFENO": "IBUPROFEN",
+        "IMATINIB": "IMATINIB",
+        "INDAPAMIDA": "INDAPAMIDE",
+        "INDOMETACINA": "INDOMETHACIN",
+        "INSULINA": "INSULIN",
+        "INSULINA GLARGINA": "INSULIN GLARGINE",
+        "KETOROLAC": "KETOROLAC",
+        "LAMOTRIGINA": "LAMOTRIGINE",
+        "LANSOPRAZOL": "LANSOPRAZOLE",
+        "LATANOPROST": "LATANOPROST",
+        "LEFLUNOMIDA": "LEFLUNOMIDE",
+        "LENALIDOMIDA": "LENALIDOMIDE",
+        "LETROZOL": "LETROZOLE",
+        "LEVETIRACETAM": "LEVETIRACETAM",
+        "LEVOCETIRIZINA": "LEVOCETIRIZINE",
+        "LEVOFLOXACINA": "LEVOFLOXACIN",
+        "LEVOTIROXINA": "LEVOTHYROXINE",
+        "LINAGLIPTINA": "LINAGLIPTIN",
+        "LIRAGLUTIDA": "LIRAGLUTIDE",
+        "LISINOPRIL": "LISINOPRIL",
+        "LOSARTAN": "LOSARTAN",
+        "MEDROXIPROGESTERONA": "MEDROXYPROGESTERONE",
+        "MEMANTINA": "MEMANTINE",
+        "MERCAPTOPURINA": "MERCAPTOPURINE",
+        "MESALAZINA": "MESALAMINE",
+        "METILFENIDATO": "METHYLPHENIDATE",
+        "METILPREDNISOLONA": "METHYLPREDNISOLONE",
+        "METOTREXATO": "METHOTREXATE",
+        "METRONIDAZOL": "METRONIDAZOLE",
+        "MICOFENOLATO": "MYCOPHENOLIC ACID",
+        "MIRTAZAPINA": "MIRTAZAPINE",
+        "MONTELUKAST": "MONTELUKAST",
+        "NAPROXENO": "NAPROXEN",
+        "OLANZAPINA": "OLANZAPINE",
+        "OMEPRAZOL": "OMEPRAZOLE",
+        "ONDANSETRON": "ONDANSETRON",
+        "OSELTAMIVIR": "OSELTAMIVIR",
+        "OXALIPLATINO": "OXALIPLATIN",
+        "PANTOPRAZOL": "PANTOPRAZOLE",
+        "PAROXETINA": "PAROXETINE",
+        "PEMBROLIZUMAB": "PEMBROLIZUMAB",
+        "PIOGLITAZONA": "PIOGLITAZONE",
+        "PRAMIPEXOL": "PRAMIPEXOLE",
+        "PREDNISOLONA": "PREDNISOLONE",
+        "PREDNISONA": "PREDNISONE",
+        "PREGABALINA": "PREGABALIN",
+        "QUETIAPINA": "QUETIAPINE",
+        "RABEPRAZOL": "RABEPRAZOLE",
+        "RALOXIFENO": "RALOXIFENE",
+        "RAMIPRIL": "RAMIPRIL",
+        "RISEDRONATO": "RISEDRONATE",
+        "RISPERIDONA": "RISPERIDONE",
+        "RITUXIMAB": "RITUXIMAB",
+        "RIVASTIGMINA": "RIVASTIGMINE",
+        "RIVAROXABAN": "RIVAROXABAN",
+        "ROPINIROL": "ROPINIROLE",
+        "ROSUVASTATINA": "ROSUVASTATIN",
+        "SERTRALINA": "SERTRALINE",
+        "SEMAGLUTIDA": "SEMAGLUTIDE",
+        "SITAGLIPTINA": "SITAGLIPTIN",
+        "SORAFENIB": "SORAFENIB",
+        "SULFASALAZINA": "SULFASALAZINE",
+        "SUNITINIB": "SUNITINIB",
+        "TACROLIMUS": "TACROLIMUS",
+        "TAMOXIFENO": "TAMOXIFEN",
+        "TAMSULOSINA": "TAMSULOSIN",
+        "TELMISARTAN": "TELMISARTAN",
+        "TEMOZOLOMIDA": "TEMOZOLOMIDE",
+        "TERIPARATIDA": "TERIPARATIDE",
+        "TIOTROPIO": "TIOTROPIUM",
+        "TOBRAMICINA": "TOBRAMYCIN",
+        "TOPIRAMATO": "TOPIRAMATE",
+        "TRAMADOL": "TRAMADOL",
+        "TRASTUZUMAB": "TRASTUZUMAB",
+        "VALPROICO": "VALPROIC ACID",
+        "VALSARTAN": "VALSARTAN",
+        "VANCOMICINA": "VANCOMYCIN",
+        "VARENICLINA": "VARENICLINE",
+        "VENLAFAXINA": "VENLAFAXINE",
+        "VORICONAZOL": "VORICONAZOLE",
+        "ZOLEDRONICO": "ZOLEDRONIC ACID",
+    }
 
 
 def map_fda_drugs_to_drugbank(

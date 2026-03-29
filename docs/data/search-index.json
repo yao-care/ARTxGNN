@@ -1,7 +1,128 @@
 {
   "generated": "2026-03-29",
-  "drug_count": 0,
+  "drug_count": 15,
   "indication_count": 0,
-  "drugs": [],
+  "drugs": [
+    {
+      "name": "IBRUTINIB",
+      "slug": "ibrutinib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "CLONAZEPAM",
+      "slug": "clonazepam",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "IBUPROFENO",
+      "slug": "ibuprofeno",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "CAPECITABINA",
+      "slug": "capecitabina",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "GEFITINIB",
+      "slug": "gefitinib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "BICALUTAMIDA",
+      "slug": "bicalutamida",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "MEBENDAZOL",
+      "slug": "mebendazol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "LENALIDOMIDA",
+      "slug": "lenalidomida",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "BOSENTAN",
+      "slug": "bosentan",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "MISOPROSTOL",
+      "slug": "misoprostol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "PARACETAMOL",
+      "slug": "paracetamol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "LORATADINA",
+      "slug": "loratadina",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "MIGLUSTAT",
+      "slug": "miglustat",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "ELTROMBOPAG",
+      "slug": "eltrombopag",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "METFORMINA",
+      "slug": "metformina",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    }
+  ],
   "indications": []
 }

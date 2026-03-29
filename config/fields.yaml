@@ -5,33 +5,36 @@ language: "es"
 regulatory_agency: "ANMAT"
 
 data_source:
-  name: "Vademécum Nacional de Medicamentos - ANMAT"
-  page_url: "https://datos.salud.gob.ar/dataset?groups=vademecum-y-medicamentos"
+  name: "Listado de precios de Medicamentos - PAMI / ANMAT"
+  page_url: "https://datos.pami.org.ar/dataset/medicamentos-para-entidades"
   format: CSV
-  encoding: utf-8-sig
+  encoding: latin-1
   dataset_id: "vademecun-nacional-de-medicamentos-vnm"
   note: >
-    datos.salud.gob.ar CKAN API 提供 VNM 更新資料 (2018 年)，共約 60 筆。
-    完整資料庫 (49,000+ 筆) 需透過 PAMI Vademécum 查詢介面手動取得。
+    主要資料來源：PAMI 開放資料平台藥品價格清單（8,000+ 筆，960+ 種活性成分）。
+    備用：datos.salud.gob.ar CKAN API 的 VNM 更新資料 (2018 年，約 60 筆)。
 
-  # CKAN API 端點 (會自動查詢並找到 CSV 資源)
+  # PAMI 開放資料下載 URL (2026-03 版���)
+  pami_download_urls:
+    - "http://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20260302_092932.csv"
+
+  # CKAN API 端點 (備用，VNM 更���資料)
   ckan_api_urls:
     - "https://datos.salud.gob.ar"
     - "https://datos.gob.ar"
 
-  # 已知的直接下載 URL (2018-12 版本)
+  # 已知的直接下載 URL (2018-12 版���，僅備用)
   direct_download_urls:
     - "https://datos.salud.gob.ar/dataset/3e28c31c-2bcf-4a74-81cf-f992152f9e6a/resource/9d5a5ee0-5942-428e-84ad-67f0a10091a3/download/vnm-2018.csv"
-    - "https://datos.salud.gob.ar/dataset/3e28c31c-2bcf-4a74-81cf-f992152f9e6a/resource/7c95c566-e1fa-4ebc-a5b6-7a9f236a2f38/download/vnm-jun-2018-.csv"
 
 field_mapping:
-  # datos.salud.gob.ar VNM CSV 欄位 (標準化後的小寫名稱)
+  # 標準化後的欄位名稱 (process_fda_data.py 會將 PAMI/VNM 欄位統���轉換)
   license_id: "numero_certificado"
   brand_name_local: "nombre_comercial"
   brand_name_en: "nombre_generico"
   ingredients: "nombre_generico"
   indication: ""
-  dosage_form: "forma_farmaceutica"
+  dosage_form: "presentacion"
   manufacturer: "laboratorio_titular"
   approval_date: ""
   status: ""
@@ -41,6 +44,6 @@ withdrawn_statuses:
   - "Suspendido"
   - "Baja"
 
-ingredient_separator: " - "
+ingredient_separator: "+"
 date_format: "%d/%m/%Y"
-encoding: "utf-8-sig"
+encoding: "latin-1"

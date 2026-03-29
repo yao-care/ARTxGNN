@@ -44,7 +44,7 @@ def normalize_ingredient(name: str) -> str:
 def extract_ingredients(ingredient_str: str) -> List[str]:
     """從主成分略述欄位提取所有成分
 
-    FDA 資料中多成分以 ; 或 ;; 分隔
+    支援多種分隔符：; ;; + - （PAMI 資料使用 + 分隔複方藥）
 
     Args:
         ingredient_str: 主成分略述欄位原始值
@@ -56,8 +56,13 @@ def extract_ingredients(ingredient_str: str) -> List[str]:
         return []
 
     # 統一分隔符號
-    # 有些用 ;; 有些用 ;
+    # VNM 格式: ;; 或 ;
+    # PAMI 格式: + 或 - （如 "alprazolam+sulpirida"）
     ingredient_str = ingredient_str.replace(";;", ";").replace("；", ";")
+    # 將 + 也統一為 ;（但避免分割化學式中的 +，如 "Ca2+"）
+    ingredient_str = re.sub(r"\s*\+\s*", ";", ingredient_str)
+    # PAMI 有些用 " - " 分隔
+    ingredient_str = re.sub(r"\s+-\s+", ";", ingredient_str)
 
     # 分割
     parts = ingredient_str.split(";")
@@ -99,8 +104,10 @@ def get_all_synonyms(ingredient_str: str) -> List[Tuple[str, List[str]]]:
     if not ingredient_str:
         return []
 
-    # 統一分隔符號
+    # 統一分隔符號（同 extract_ingredients）
     ingredient_str = ingredient_str.replace(";;", ";").replace("；", ";")
+    ingredient_str = re.sub(r"\s*\+\s*", ";", ingredient_str)
+    ingredient_str = re.sub(r"\s+-\s+", ";", ingredient_str)
     parts = ingredient_str.split(";")
 
     results = []
