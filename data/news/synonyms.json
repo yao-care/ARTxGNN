@@ -1,0 +1,22 @@
+{
+  "description": "Disease and drug synonyms in Spanish",
+  "generated": "2026-03-29",
+  "indication_synonyms": {
+    "diabetes mellitus": ["diabetes", "diabetes mellitus", "diabetes tipo 2", "diabetes tipo 1", "azúcar en sangre"],
+    "hypertension": ["hipertensión", "presión arterial alta", "hipertensión arterial", "tensión alta"],
+    "cancer": ["cáncer", "tumor", "neoplasia", "carcinoma", "oncología"],
+    "heart disease": ["enfermedad cardíaca", "cardiopatía", "enfermedad del corazón", "insuficiencia cardíaca"],
+    "asthma": ["asma", "asma bronquial", "broncoespasmo"],
+    "depression": ["depresión", "trastorno depresivo", "depresión mayor"],
+    "arthritis": ["artritis", "artritis reumatoide", "artrosis", "osteoartritis"],
+    "stroke": ["accidente cerebrovascular", "ictus", "derrame cerebral", "ACV"],
+    "obesity": ["obesidad", "sobrepeso", "síndrome metabólico"],
+    "alzheimer disease": ["alzheimer", "enfermedad de Alzheimer", "demencia"]
+  },
+  "drug_synonyms": {
+    "metformin": ["metformina", "Glucophage"],
+    "aspirin": ["aspirina", "ácido acetilsalicílico", "AAS"],
+    "ibuprofen": ["ibuprofeno"],
+    "acetaminophen": ["paracetamol", "acetaminofén"]
+  }
+}

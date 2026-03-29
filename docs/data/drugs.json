@@ -1,0 +1,67 @@
+{
+  "generated": "2026-03-29",
+  "total_count": 6,
+  "source": "ARTxGNN",
+  "drugs": [
+    {
+      "slug": "db00317",
+      "name": "Gefitinib",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "lung cancer",
+      "txgnn_score": "",
+      "url": "/drugs/db00317/"
+    },
+    {
+      "slug": "db00419",
+      "name": "Miglustat",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "Gaucher disease",
+      "txgnn_score": "",
+      "url": "/drugs/db00419/"
+    },
+    {
+      "slug": "db00559",
+      "name": "Bosentan",
+      "evidence_level": "L5",
+      "indication_count": 5,
+      "original_indication": "",
+      "predicted_indication": "scleroderma (disease)",
+      "txgnn_score": "",
+      "url": "/drugs/db00559/"
+    },
+    {
+      "slug": "db01068",
+      "name": "Clonazepam",
+      "evidence_level": "L5",
+      "indication_count": 6,
+      "original_indication": "",
+      "predicted_indication": "visual epilepsy",
+      "txgnn_score": "",
+      "url": "/drugs/db01068/"
+    },
+    {
+      "slug": "db06210",
+      "name": "Eltrombopag",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "original_indication": "",
+      "predicted_indication": "autoimmune thrombocytopenic",
+      "txgnn_score": "",
+      "url": "/drugs/db06210/"
+    },
+    {
+      "slug": "db09053",
+      "name": "Ibrutinib",
+      "evidence_level": "L5",
+      "indication_count": 9,
+      "original_indication": "",
+      "predicted_indication": "macroglobulinemia",
+      "txgnn_score": "",
+      "url": "/drugs/db09053/"
+    }
+  ]
+}
