@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Drug Repurposing Predictions
+title: Predicciones de Reposicionamiento de Medicamentos
 nav_order: 1
-description: "AI-powered drug repurposing predictions for Argentina. Evidence-based analysis of approved medicines for potential new therapeutic indications."
+description: "Predicciones de reposicionamiento de medicamentos impulsadas por IA para Argentina. Análisis basado en evidencia de medicamentos aprobados para posibles nuevas indicaciones terapéuticas."
 permalink: /
 ---
 
-# Drug Repurposing Predictions — Argentina
+# Predicciones de Reposicionamiento de Medicamentos — Argentina
 
-This project uses the TxGNN knowledge graph to predict potential new therapeutic uses for medicines approved in Argentina.
+Este proyecto utiliza el grafo de conocimiento TxGNN para predecir posibles nuevos usos terapéuticos para medicamentos aprobados en Argentina.
 
-**Disclaimer**: This content is for research purposes only and does not constitute medical advice. All drug repurposing predictions require clinical validation before application.
+**Descargo de Responsabilidad**: Este contenido es solo para fines de investigación y no constituye consejo médico. Todas las predicciones de reposicionamiento de medicamentos requieren validación clínica antes de su aplicación.
