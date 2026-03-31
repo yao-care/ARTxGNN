@@ -595,41 +595,95 @@ class TxGNNPredictor:
                 return result_df
             return pd.DataFrame()
 
-        # 執行預測
-        predictions = []
-        for drug_info in tqdm(drugs_to_predict, desc="預測中"):
-            drug_predictions = []
-            try:
-                # 使用 predict_drug 方法取得預測分數
-                scores = self.predict_drug(
-                    drugbank_id=drug_info["drugbank_id"],
-                    top_k=top_k_per_drug,
+        # === 優化推理：GNN forward 一次 + 批次 pred（含 proto learning）===
+        import torch
+        import dgl
+        import numpy as np
+
+        BATCH_SIZE = 50
+        G = self.model.G.to(self.device)
+        self.model.model.eval()
+
+        # GNN forward 只跑一次，快取 node embeddings h
+        print("執行 GNN forward pass（僅一次）...")
+        with torch.no_grad():
+            h = self.model.model(G, G, return_h=True)
+
+        drug_id_list = [d["drugbank_id"] for d in drugs_to_predict]
+        n_dis = len(self.all_disease_indices)
+        n_batches = (len(drug_id_list) + BATCH_SIZE - 1) // BATCH_SIZE
+        print(f"批次推理（含 proto learning）: {len(drug_id_list)} 藥物, "
+              f"batch={BATCH_SIZE}, 共 {n_batches} 批")
+
+        all_results = []
+        for batch_idx in tqdm(range(n_batches), desc="批次推理中"):
+            batch_drugs = drug_id_list[batch_idx * BATCH_SIZE : (batch_idx + 1) * BATCH_SIZE]
+            drug_indices = [self.drugbank_to_idx[d] for d in batch_drugs]
+
+            all_x, all_y = [], []
+            for didx in drug_indices:
+                all_x.extend([didx] * n_dis)
+                all_y.extend(self.all_disease_indices)
+
+            df_in = pd.DataFrame({
+                'x_idx': all_x,
+                'relation': ['indication'] * len(all_x),
+                'y_idx': all_y,
+            })
+
+            out = {}
+            for etype in G.canonical_etypes:
+                df_temp = df_in[df_in['relation'] == etype[1]]
+                src = torch.tensor(df_temp['x_idx'].values, dtype=torch.int64, device=self.device)
+                dst = torch.tensor(df_temp['y_idx'].values, dtype=torch.int64, device=self.device)
+                out[etype] = (src, dst)
+            g_eval = dgl.heterograph(out, num_nodes_dict={
+                ntype: G.number_of_nodes(ntype) for ntype in G.ntypes
+            }).to(self.device)
+
+            with torch.no_grad():
+                scores_dict, _ = self.model.model.pred(
+                    g_eval, G, h, False, mode='test_pos'
                 )
 
-                for disease_name, score in scores.items():
-                    if score >= min_score:
-                        pred = {
-                            "drugbank_id": drug_info["drugbank_id"],
-                            "drug_name": drug_info["drug_name"],
-                            "disease_name": disease_name,
-                            "txgnn_score": score,
-                        }
-                        drug_predictions.append(pred)
-                        predictions.append(pred)
-
-                # 每個藥物處理完後儲存 checkpoint
-                if checkpoint_manager:
-                    checkpoint_manager.append(drug_predictions)
-
-            except Exception as e:
-                print(f"Error predicting for {drug_info['drug_name']}: {e}")
+            etype_key = ("drug", "indication", "disease")
+            if etype_key not in scores_dict:
                 continue
 
-        # 如果有 checkpoint，從 checkpoint 取得完整結果
+            scores_array = torch.sigmoid(scores_dict[etype_key]).cpu().numpy()
+
+            batch_results = []
+            for i, db_id in enumerate(batch_drugs):
+                start = i * n_dis
+                end = start + n_dis
+                drug_scores = scores_array[start:end]
+                drug_name = self.drugbank_to_name.get(db_id, db_id)
+
+                mask = drug_scores >= min_score
+                if not mask.any():
+                    continue
+                for j in np.where(mask)[0]:
+                    batch_results.append({
+                        "drugbank_id": db_id,
+                        "drug_name": drug_name,
+                        "disease_name": self.disease_idx_to_name.get(
+                            self.all_disease_indices[j],
+                            f"disease_{self.all_disease_indices[j]}"
+                        ),
+                        "txgnn_score": float(drug_scores[j]),
+                    })
+
+            all_results.extend(batch_results)
+            if checkpoint_manager and batch_results:
+                checkpoint_manager.append(batch_results)
+
+            torch.cuda.empty_cache()
+
+        # 合併 checkpoint 中的舊結果
         if checkpoint_manager:
             result_df = checkpoint_manager.get_results()
         else:
-            result_df = pd.DataFrame(predictions)
+            result_df = pd.DataFrame(all_results) if all_results else pd.DataFrame()
 
         if len(result_df) > 0:
             # 排序
