@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-05T21:33:32.751482+00:00",
+  "fetched_at": "2026-04-05T22:32:35.010448+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -94,16 +94,6 @@
       }
     },
     {
-      "id": "22cd508ecfe6",
-      "title": "Formosa Ahora - Formosa Ahora",
-      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNaDFrX2tfOF9BM3h2aUZiVXZFQmN1dGpPSjAzdlNLRHI3TVE2cDNHMTZFVkVwM1YyTHpOOU9HTGFvYVZWQlluMWVfT2RGMXJUbE5XWUlOQXByQlRiNk4ycEIzQms2TllUMmNEajdHdEQtOWFNX1k5T2oycS1PdTRMbWJfeWd4VHBJaHIycXdGS3ZvbHFJZnBtYjU2VDB5RE9fLWlNMVZzaTJNSjFJUGJzbjRaZE5JYmlFN29MYUtCbkM4S0pGN0hwbmhOYncxYkdGTWlWNDFoaWpKOGNCMERvbnhQMDhMTndOMjQ5NTF5ZTZIWFR2b0E?oc=5",
-      "published": "2026-04-05T00:39:51+00:00",
-      "source": {
-        "name": "Formosa Ahora",
-        "url": "https://formosaahora.com.ar"
-      }
-    },
-    {
       "id": "431607bdc900",
       "title": "Provincia refuerza con fondos propios la cobertura de medicamentos para pacientes con cáncer - Gobierno de Santa Fe",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1URTM5WF96QjRTT242TDFFY1BWSUNBOFVJTlpHVExJZF9NalhMSVBFSi1sOVpYN3E0NVNMQ3Zkc1BmNnNqUDgtTEZPM0JTWWtTU0pCekdTLVd1ZHVOV0JocQ?oc=5",
@@ -131,6 +121,16 @@
       "source": {
         "name": "DeGremiales.com",
         "url": "https://www.degremiales.com"
+      }
+    },
+    {
+      "id": "e1ab51dfc632",
+      "title": "Formosa Ahora - formosaahora.com.ar",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNaDFrX2tfOF9BM3h2aUZiVXZFQmN1dGpPSjAzdlNLRHI3TVE2cDNHMTZFVkVwM1YyTHpOOU9HTGFvYVZWQlluMWVfT2RGMXJUbE5XWUlOQXByQlRiNk4ycEIzQms2TllUMmNEajdHdEQtOWFNX1k5T2oycS1PdTRMbWJfeWd4VHBJaHIycXdGS3ZvbHFJZnBtYjU2VDB5RE9fLWlNMVZzaTJNSjFJUGJzbjRaZE5JYmlFN29MYUtCbkM4S0pGN0hwbmhOYncxYkdGTWlWNDFoaWpKOGNCMERvbnhQMDhMTndOMjQ5NTF5ZTZIWFR2b0E?oc=5",
+      "published": "2026-04-05T00:39:51+00:00",
+      "source": {
+        "name": "formosaahora.com.ar",
+        "url": "https://formosaahora.com.ar"
       }
     },
     {
@@ -174,16 +174,6 @@
       }
     },
     {
-      "id": "82ac12d41f8e",
-      "title": "Financiados fármacos para radiomarcaje, carcinomas nasofaríngeo y esofágico, y terapia hormonal y osteoporosis - farmacosalud.com",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQcGRtMDJMSUY2OGRvbnp5UG9iWS1vejJtZzdXN09lemdDUlU0QVZrNFctaFJHTzdOZnFSZ04telUwNmRIbFdsMENrMUtXRG5XaHFWMUlWN3hRWERvQ2Z4MVB3VmxPNHVwaWZRekF2dmZNUU1iWlFicEJUWXZlSXlJRDlIMnBtZ0cxcVZSQl9tcEVDOGNQRkY2V2tvdl82R19aV2NIaEpRQ3g5WXNfV0tFNnVHc19jbDc0OUpncktod0pmTVRxWmFELURYMkQ2Nms?oc=5",
-      "published": "2026-04-04T23:00:19+00:00",
-      "source": {
-        "name": "farmacosalud.com",
-        "url": "https://farmacosalud.com"
-      }
-    },
-    {
       "id": "eb831d85f9bb",
       "title": "\"Propofest\": el escándalo que sacude al sistema de salud - El Ancasti",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUWRLM0tSYThIQlc3SDUzMkU1Z1B0ek9rZ2pMQVp4bnRWaFpNc2NhSlNzNEhjNkdNOHE3YXY2M0IzaTZ4clh0a1lqNkN0RU1pX1N1U2MtNlpPX2NZVlJQMGRja0N3X2dOUVJ0VUJyLVNmZjdJUkxTM0hxaFJWYmhOdHlyRXJ4S2xJdEw1cnZYVlNncGhDVXlKUi1XX1Fwc2czLThMdC1n0gGrAUFVX3lxTE53bWhTZnppSkRkTV8yQzhFSjJhV19JcmlxZG5mOW1qaFNlUTZLLWV6R0RSZkNibGdsbTJpUDUwM0hSRXM0NFFXMFlISTFILXQtVExRTmt0eF84NGg5bEdUT1dJVW10UFBlUFcyQmdvdnZZU19vakNhRWR2VlBjRXdXVnRneWFkdzBtbW01LXNEcWF6ZTNtci1fWWFMQWozdWNZV3IzZnE0eFp4Yw?oc=5",
@@ -191,6 +181,16 @@
       "source": {
         "name": "El Ancasti",
         "url": "https://www.elancasti.com.ar"
+      }
+    },
+    {
+      "id": "d5ee50917825",
+      "title": "Financiados fármacos para radiomarcaje, carcinomas nasofaríngeo y esofágico, y terapia hormonal y osteoporosis - Farmacosalud",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQcGRtMDJMSUY2OGRvbnp5UG9iWS1vejJtZzdXN09lemdDUlU0QVZrNFctaFJHTzdOZnFSZ04telUwNmRIbFdsMENrMUtXRG5XaHFWMUlWN3hRWERvQ2Z4MVB3VmxPNHVwaWZRekF2dmZNUU1iWlFicEJUWXZlSXlJRDlIMnBtZ0cxcVZSQl9tcEVDOGNQRkY2V2tvdl82R19aV2NIaEpRQ3g5WXNfV0tFNnVHc19jbDc0OUpncktod0pmTVRxWmFELURYMkQ2Nms?oc=5",
+      "published": "2026-04-04T23:00:19+00:00",
+      "source": {
+        "name": "Farmacosalud",
+        "url": "https://farmacosalud.com"
       }
     },
     {
@@ -214,16 +214,6 @@
       }
     },
     {
-      "id": "00e56c392ff7",
-      "title": "Un chatbot de IA ahora prescribe fármacos psiquiátricos en Estados Unidos - Infobae",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcGpyYTNEdGNEbDVqNkQ0R1ZSUEFsU0Eybm9ncUpveEpCZTgtV2VwZ0UwU2pGZ3R6d0hQaWVyQXlVNVdCNUZKX3hNdVRLejAya3NvNGJaejFxMWo4RTVRLUFXVmtKUW9XZHFOU0JTWE9maGJfVmdNMlp2OFdjRlJ6Tkp3cHQ4ODZRdW5YUDUxRkUyT0hqUjZldlI0UmVQM0NpV1ZwRy0wME5MSW1teUVzaVg2c0FHQdIB0AFBVV95cUxNYUhURWtzWGhodl9GYW5GRm1oZE9neVZHb1lXWnhlMzUtd1JZRjFNclgwaVRhdV90bGkyT3ZEaTBudGdvOFBHT1FSUGFjUUVCQUd4Z2ZHekVfRV9hUFNnUTNTMVhuNDlhek95bUpEanhqdjJ0dFdKLTlSSUU1V2dCV2VQM2JmLW8yT3VUVmVZZ005RW5CbkoyWGxtbmowa0JINHZZQW03emxQTmVwZEZWYm56Q1FWcTJJbnk0WE9uTTJOcEVQRVhWV0Z1dUV6SFhx?oc=5",
-      "published": "2026-04-05T02:56:00+00:00",
-      "source": {
-        "name": "Infobae",
-        "url": "https://www.infobae.com"
-      }
-    },
-    {
       "id": "eb1aa9172b68",
       "title": "Cada cuánto se puede tomar ibuprofeno sin riesgos, según expertos - Infobae",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQ1JudDcyZ3FCNS1WTUgtWV9MSUtjQi1kUFdOQ3VJWnFPX0JmdGVubndFZ2NPM2hTVm52eUY1MGdQNWdFaE9hOFRDUFJrYWtoODc2SC1rWng5RHZSazNtenV0Sk14UVdGRWtSQkVETXd4S0tBVDQtdUlPbkZYTlhiMW9yS25NcXNEODRCOVdwaGpkUHEySjhBUlZKYWxSamp0SmZEdDRPekZvZ9IBxAFBVV95cUxPWWpSd2JhRDFNd0k0dGFvejFWU0pudVVKZ0o4YWI0aU45SUR0a2tnbTBSQzMyaER3LVZqc0NtQnNHS2I5Y0x0S2ZqcmFIbk5nYnMxeldYTWVEcXRCMUZONC1sRHZXRENCaXJ0bEpQMWFaSVU5R1FjNndkLXlQMEx1cEszdEFBME1RUDVhTmg3a1RmZ0JUd2tlMFo5ckZLbVhUTVpfY2E1b0JMZHdqT3Z4U2tIekU3QWVvOXlIRkppTi1rTzNR?oc=5",
@@ -234,12 +224,12 @@
       }
     },
     {
-      "id": "7bd171925cb0",
-      "title": "Estudio clínico muestra que un medicamento cubano alivia secuelas dolorosas del virus chikungunya - lacapitalmdp.com",
+      "id": "0b10839ac9e2",
+      "title": "Estudio clínico muestra que un medicamento cubano alivia secuelas dolorosas del virus chikungunya - Diario La Capital de Mar del Plata",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTnBIdVFLVlowc0k5NHBBdjNnaGJ0V293VFYtdE1vaTYtMThpSGlNX3Z3YUdhWGR5RkJjTGJ3SHBsUHZaTWJZanFqT1BhMkR1b1RqYnRqdlNKT0tJdVotWHpVQkFxR2t1cUI5eUZzNGltY0dKOUZOd2hidk1Ca01KSmMtR1I4NzNyZ0ticHFLeDkzR0x2WHVDUzhYWGJubUhtRXB3dEdXcXRSQkkyWG9aZm4ySjQ1UVViWl9tZmtJX0dJeEhuOUHSAcsBQVVfeXFMTlVoNG1iOVo1UHFUS3FabGJTelJDWmpiRU5QWjJKamNCZlB3VzNvQzNTN2Nscl9WTkRPdlF0dU5EMk5mcnBHQTI3M18xWk9zdUI4Q0hjaURpRnoyRVpXOWxMMnVGQ0tfLXk2MFR0c0gzTk83Wmo2VXlyVmRBV2dmbXgyUnoyaHdjR2w2NThoQkZvc2hEWEo4QjRhU3hObEJiUllQMHE0ZUlUcGlkMGh3TUMxUk9GeDk4OXZlaXNWb0pwZl92ZjlvaTN4NlE?oc=5",
       "published": "2026-04-05T13:03:39+00:00",
       "source": {
-        "name": "lacapitalmdp.com",
+        "name": "Diario La Capital de Mar del Plata",
         "url": "https://www.lacapitalmdp.com"
       }
     },
@@ -324,6 +314,16 @@
       }
     },
     {
+      "id": "2b37ff4ca1d1",
+      "title": "Propofol: la droga que vincula al anestesista muerto en Buenos Aires y a Michael Jackson - El Litoral",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQenJCbVJMN0hlVThvV0ZNbXpiVVU5aDE4V1AtdTNsMldSNTgzMVlROTJ5b05OUzBYNmY3bTQ5eXdQdE5tdC1RN0tZYk0yWXg3TVpwSE9Pc3JmNkRzZmNwa195YkZNMEUzcUJzZ2lJcUdaZFdPMzlwZkd6UzdPUEZ1MjBTa1pLZ21RbHVQTEw2bk1UOTYwMHNPTnBmYWdfb3NFOEZtQ1FLZmRQeTB4LTFkeU5NckluRE92WUhqYVlXdHNlRU5rWDA5YmpxQ0tfdE5mTUYxRW1ad2tSVFQ2SE9oetIB5gFBVV95cUxOcHdXeFJaakx1TkRGNzRQeERuemhvZm9XZEU5TU1GU1Ezc2YzaF92cUpvWWNPTHoyUDlIRHBhVENqWWpKaDhYd2xEWnNmVVU0d2IwX2ZDNHBWYnpGU280bTZmSFUwUkltSTVMYzFXX0FNZlc4WFFKamI2ampzamFfYkV4WVVkTmtBVXVramE1UGR1YkVTVXFyWUNQMk85SU1MRjByMERzZVpuM2R0V25OOFB3NXBwY1I1OHNicHM4SWNHSU1CVk9hU19SenR6XzNBYWdaeTRYZnpYOE9Ybms2N3BhUmtlQQ?oc=5",
+      "published": "2026-04-03T21:47:46+00:00",
+      "source": {
+        "name": "El Litoral",
+        "url": "https://www.ellitoral.com"
+      }
+    },
+    {
       "id": "84a4a7118bb7",
       "title": "Un medicamento 'altamente eficaz' para las secuelas del chikungunya podría no llegar a los cubanos - DIARIO DE CUBA",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9GZ2xreTlNZWY5VlZVQi1VdUpjUEdPU3FLRFYzMUpvdHR0M1VvWUNWQ29CQU5laHhkak53RmdmUTd0aWFURk50UEo1Wk1LMTZEMTI2SVYxOGdJaFl3RFNDUw?oc=5",
@@ -334,13 +334,13 @@
       }
     },
     {
-      "id": "2b37ff4ca1d1",
-      "title": "Propofol: la droga que vincula al anestesista muerto en Buenos Aires y a Michael Jackson - El Litoral",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQenJCbVJMN0hlVThvV0ZNbXpiVVU5aDE4V1AtdTNsMldSNTgzMVlROTJ5b05OUzBYNmY3bTQ5eXdQdE5tdC1RN0tZYk0yWXg3TVpwSE9Pc3JmNkRzZmNwa195YkZNMEUzcUJzZ2lJcUdaZFdPMzlwZkd6UzdPUEZ1MjBTa1pLZ21RbHVQTEw2bk1UOTYwMHNPTnBmYWdfb3NFOEZtQ1FLZmRQeTB4LTFkeU5NckluRE92WUhqYVlXdHNlRU5rWDA5YmpxQ0tfdE5mTUYxRW1ad2tSVFQ2SE9oetIB5gFBVV95cUxOcHdXeFJaakx1TkRGNzRQeERuemhvZm9XZEU5TU1GU1Ezc2YzaF92cUpvWWNPTHoyUDlIRHBhVENqWWpKaDhYd2xEWnNmVVU0d2IwX2ZDNHBWYnpGU280bTZmSFUwUkltSTVMYzFXX0FNZlc4WFFKamI2ampzamFfYkV4WVVkTmtBVXVramE1UGR1YkVTVXFyWUNQMk85SU1MRjByMERzZVpuM2R0V25OOFB3NXBwY1I1OHNicHM4SWNHSU1CVk9hU19SenR6XzNBYWdaeTRYZnpYOE9Ybms2N3BhUmtlQQ?oc=5",
-      "published": "2026-04-03T21:47:46+00:00",
+      "id": "f6179984973b",
+      "title": "Ante la imprevisibilidad nacional, la provincia planifica la compra de medicamentos de alto costo - CasildaPlus",
+      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxORnBYYXF4d0oySlFUUExucUFNcEVTbF96bnBaSW1DNHBBdVlSSUZmTlBOMmtadU9ld09LTktnRGt0am9SS2R3eDhUMU5tTWdZTmhWTkdDODduc3QzVDhadTU1Sjg1cHR5Yk5YY1FrS01ZUlJTX2RFTXMzREgyM1ktcXZLd0R2XzRVNDNmaHRFRXZJbl81dWIxVEF2Zk9OWXRPV3p2c19GNFRISXdtZTM0b3lybjhGTEhXYm5CX3lJdkZhWkpxY0FBakRaNHR0S1hYaV96bVZDV3pVdl9tc1RqVW1HNmhvd3djeTV1ejMwNU9PTnhzcmVuSlBKMC0xdjNl0gGPAkFVX3lxTE5paFBzQ1ptcUNzSldtSW5LcTh1X01LajJEYmFuaWMyWkp6UnBxUGU5XzQySzdRZzhDTmhkOG0td2p3YUZUOFNnSTJwUEw4WkZFWEVWamhObkUwRngxSWNsWDBwUVFuNTEyNkZ0Ty1oOW9PVWdDaHI0emF5LXBXdUY4SWY1X1pSS1NjOFFUZXBzMkNOZUNFU0REemhhbDRxY3gtdmZwTTllWkxjb01MczZHNm9rdDJtSGRyNGx3YWtKSEN4SVpYRHBWUkQtRnJVdEZETGNyRUFOVDRxMHoyM0E3UlpWSW0tcFo4N2hBckoxTnk3MmNjNnBqMkVtMmtZM0FaWkQxM0VPRUN3RG9NSzA?oc=5",
+      "published": "2026-04-04T11:31:47+00:00",
       "source": {
-        "name": "El Litoral",
-        "url": "https://www.ellitoral.com"
+        "name": "CasildaPlus",
+        "url": "https://www.casildaplus.com"
       }
     },
     {
@@ -354,13 +354,13 @@
       }
     },
     {
-      "id": "f6179984973b",
-      "title": "Ante la imprevisibilidad nacional, la provincia planifica la compra de medicamentos de alto costo - CasildaPlus",
-      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxORnBYYXF4d0oySlFUUExucUFNcEVTbF96bnBaSW1DNHBBdVlSSUZmTlBOMmtadU9ld09LTktnRGt0am9SS2R3eDhUMU5tTWdZTmhWTkdDODduc3QzVDhadTU1Sjg1cHR5Yk5YY1FrS01ZUlJTX2RFTXMzREgyM1ktcXZLd0R2XzRVNDNmaHRFRXZJbl81dWIxVEF2Zk9OWXRPV3p2c19GNFRISXdtZTM0b3lybjhGTEhXYm5CX3lJdkZhWkpxY0FBakRaNHR0S1hYaV96bVZDV3pVdl9tc1RqVW1HNmhvd3djeTV1ejMwNU9PTnhzcmVuSlBKMC0xdjNl0gGPAkFVX3lxTE5paFBzQ1ptcUNzSldtSW5LcTh1X01LajJEYmFuaWMyWkp6UnBxUGU5XzQySzdRZzhDTmhkOG0td2p3YUZUOFNnSTJwUEw4WkZFWEVWamhObkUwRngxSWNsWDBwUVFuNTEyNkZ0Ty1oOW9PVWdDaHI0emF5LXBXdUY4SWY1X1pSS1NjOFFUZXBzMkNOZUNFU0REemhhbDRxY3gtdmZwTTllWkxjb01MczZHNm9rdDJtSGRyNGx3YWtKSEN4SVpYRHBWUkQtRnJVdEZETGNyRUFOVDRxMHoyM0E3UlpWSW0tcFo4N2hBckoxTnk3MmNjNnBqMkVtMmtZM0FaWkQxM0VPRUN3RG9NSzA?oc=5",
-      "published": "2026-04-04T11:31:47+00:00",
+      "id": "226c149cadc1",
+      "title": "Caso propofol: hallan muerto a otro trabajador de la salud por presunto consumo de drogas hospitalarias - Border Periodismo",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQbmZSdDBlTTJ3Y0RGRzlTeHpwS002VmVOQ3kyQlFpOFV3dFV3dUcyem5qYlJTbGJkNjBybTNPLUFkaVBpREJaZ3FEYmVDQldiWEhKUGVTSklOVlo0R3FvYkw0Ui11T053cDF2UVR5bGdSZXg5a3B2X1VnSVVQd00xYjZTWjBDeFRDUDNCUlVYS0NLOG9ib0tFS2lscnB3TG10WXRIWFpLUzU1d1poeE9BVEwydF9pVnBDeGtQOGxOZGhPRUlVdHA4VFRKaHZieTNhdktZMnh2T095NUNwanUwSw?oc=5",
+      "published": "2026-04-04T01:01:57+00:00",
       "source": {
-        "name": "CasildaPlus",
-        "url": "https://www.casildaplus.com"
+        "name": "Border Periodismo",
+        "url": "https://www.borderperiodismo.com"
       }
     },
     {
@@ -444,23 +444,13 @@
       }
     },
     {
-      "id": "7cf2e3aa3710",
-      "title": "Salud: La gestión provincial licita medicamentos y suma telemedicina para fortalecer los hospitales - Gobierno de Santa Cruz",
+      "id": "973abe8a262f",
+      "title": "Salud: La gestión provincial licita medicamentos y suma telemedicina para fortalecer los hospitales - noticias.santacruz.gob.ar",
       "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQT2luNHN1YVN6WXB2T3BfY1l0VEMzaDZhMXp5N3p1M1VacGxGMzlmVFdZZlJZZmhlLWxELTFDVnQtdWh1d2x2bFgyWmlMdXYwQk12MVNJb3F2Q2JWUGdGRERpN0FxRFVHLWk3c0tnZXFfNE5HRllzd096bGR3b0xQNnQyTmhtdWV1ajR2MEQ5QVA5Z1VBbWdtVklrUWNlU2hxakJOZlJITVpuQlFENWdIajhUVXdyOWQ5TmhrRVdvb3VtX0JjcU43TW5kWDJPdk5KMFdBMjBUV0dNT0k5Q2UwM3VyNkUxME9Xb0llT1ZQOUZqdXNsa1ZXbllTbWE?oc=5",
       "published": "2026-03-01T08:00:00+00:00",
       "source": {
-        "name": "Gobierno de Santa Cruz",
+        "name": "noticias.santacruz.gob.ar",
         "url": "https://noticias.santacruz.gob.ar"
-      }
-    },
-    {
-      "id": "5cbd01fce797",
-      "title": "La Agencia del Medicamento articula la regulación y consolida la sostenibilidad del Sistema Nacional de Salud - gacetadesalud.com",
-      "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNNnpMeXZhWm40bWhmemkwYi1BbmJnREJicmg0SWwxQUU5R1ctM3FVU0lCVWlkVHhkcG1TNGVwTlhrX2JzLXVmcHZteDRHUWZpeU93MmxsQU1wZk9KaFpCRW9qTGRRMElhb0tWUVNZNHZWV1ZVWG1YcUNqUTdJX0lpLUNWR0dMeGVpeTI5V2drMTBjbGliVlNna1pLOUNUZGw3eVpIajdhV3dFajZOX0lMWjVaRm1ZQlpEVG5SdE5SWWU5c1djOXVJcE1rOVZnR2w3NW4wZ2FGQ2k5R3lyM2l0LXZDa3Rhc2lFdjlYckNMZG1zSnM3bDd4UmtKeGR0WElkd2ZDbEdGcmd4WlNudWhB?oc=5",
-      "published": "2026-04-05T05:00:05+00:00",
-      "source": {
-        "name": "gacetadesalud.com",
-        "url": "https://www.gacetadesalud.com"
       }
     },
     {
@@ -481,6 +471,16 @@
       "source": {
         "name": "OkDiario",
         "url": "https://okdiario.com"
+      }
+    },
+    {
+      "id": "5cbd01fce797",
+      "title": "La Agencia del Medicamento articula la regulación y consolida la sostenibilidad del Sistema Nacional de Salud - gacetadesalud.com",
+      "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNNnpMeXZhWm40bWhmemkwYi1BbmJnREJicmg0SWwxQUU5R1ctM3FVU0lCVWlkVHhkcG1TNGVwTlhrX2JzLXVmcHZteDRHUWZpeU93MmxsQU1wZk9KaFpCRW9qTGRRMElhb0tWUVNZNHZWV1ZVWG1YcUNqUTdJX0lpLUNWR0dMeGVpeTI5V2drMTBjbGliVlNna1pLOUNUZGw3eVpIajdhV3dFajZOX0lMWjVaRm1ZQlpEVG5SdE5SWWU5c1djOXVJcE1rOVZnR2w3NW4wZ2FGQ2k5R3lyM2l0LXZDa3Rhc2lFdjlYckNMZG1zSnM3bDd4UmtKeGR0WElkd2ZDbEdGcmd4WlNudWhB?oc=5",
+      "published": "2026-04-05T05:00:05+00:00",
+      "source": {
+        "name": "gacetadesalud.com",
+        "url": "https://www.gacetadesalud.com"
       }
     },
     {
@@ -514,16 +514,6 @@
       }
     },
     {
-      "id": "aed7ed1c61c2",
-      "title": "PAMI y ANDIS al borde del colapso por la entrega de medicamentos oncológicos - Cuestión Entrerriana",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTkkxLWtGeDdtWW5vNzUzWF9LbHIxN1lwNFBLNUxuWlRaZUROdWtrdFpVRU1kdm40TzJwUzBTOW5SM29UUmlQYUtVRGhKTmczQUQzZXNvY3lLTi12N2ZpcHlLU3RoRlZKU3FsbXd0bk1TU1VYWUYwY0dGRHhSU0EzRXMtWjU2UklrWnA0QmhaY1RqcUVJb2xkNFlBc3J3M3VlVWxldlMxWGo0eGJGUWQ2VnF3?oc=5",
-      "published": "2026-04-04T23:21:54+00:00",
-      "source": {
-        "name": "Cuestión Entrerriana",
-        "url": "https://cuestionentrerriana.com.ar"
-      }
-    },
-    {
       "id": "69ae7bbb37ea",
       "title": "EEUU cambia radicalmente programa mundial de suministro de medicamentos contra malaria y VIH - Yahoo",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdjJ6R0FqNWlTR01ucERJeFQtdWRrZG9qelpQSHdyX3VvY3dxVHd0cFJWRzJlTXpRX0RGX25SVGNFNENVeEhRMkZReTZKNWtURG1CcWU3Z3dQcl9qQ0c4ZURMaHNXdFlJbDNKUUVoMFZWbDhra0dlNWRpQmV0YVBsQjZMcDNjUjQ2SEVTcVlKTnBiMTA?oc=5",
@@ -534,13 +524,13 @@
       }
     },
     {
-      "id": "f3b1b2da3ce4",
-      "title": "Medicamentos PAMI: guía completa de cobertura y Vademécum 2026 - Ambito",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNenpZdWZjXzZiZzBnbld4WkZQTllNVHY1LWgyZlpfS1N3eGpvVDZfdjB6NERZSnE5VmtnT2ZST2pJSkktVVVPN0tLcUxqck9ubmN2SVQ0SzhrSHQ3U3pnRTJuMmdwOFdSUnpKVlVkVjltTEhFdVJxV2lqdEJWVXVwRmt2Q1dUWG81cG1nUS0wQnpVd092MElCdXdRUnJhUTNsbUVxbUZWMXhrU0VCb3Rz0gG0AUFVX3lxTE1LSXJvclVQSXpjUGFuTXZOa0dGTHQ2T0FYMUtjVXpiTmNQM2xGVjNjT2ROdGZxR25pdlFPaTJfdnJhTUd6TFdPWmM1SEowU0tuMWlLYXQ3bW1RN2E3T051VWRORk1BbklDTHRVUGFjM25JOEpZLVMtTGUxMEU2aXdUNDdGQ0VoTk9tcUpRbXZDbFI3V2tHdkM3aEIwTTRLdkRwZUVaS21WdHdEaDZqVGZSX2o1eQ?oc=5",
-      "published": "2026-04-03T02:00:00+00:00",
+      "id": "cdac00388c81",
+      "title": "Ante el incumplimiento de Nación, Santa Fe lanza una licitación de $13.000 millones para medicamentos críticos - Radiofonica 100.7",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQaU5WSlFGeVFtUlZ6bFUwZzRPUi1lekxfR2xMcS1MaXN1aS1mZ2pOYXUtV3N5Zmo0RkdHS2ZYRlNlejdmVENYeERGMG5Td01UdU94WWVYSGRSUUd0Zm5XWHdrbllHeHhHcGVtNEUxcnM0b0tWaFRaWjdaT0pGdW16ektsSm41OUdWTWNlUmtJM2phc2NLb1h5UjR6ZXJrdHp5STgyMVY5VUZpaHFic29yUTRTMmcyRkZtUUU1YTVla0M1RnJIMGMyRUd0LWVvZw?oc=5",
+      "published": "2026-04-03T13:34:44+00:00",
       "source": {
-        "name": "Ambito",
-        "url": "https://www.ambito.com"
+        "name": "Radiofonica 100.7",
+        "url": "https://radiofonica.com"
       }
     },
     {
@@ -551,6 +541,16 @@
       "source": {
         "name": "- Gobierno de Córdoba",
         "url": "https://prensa.cba.gov.ar"
+      }
+    },
+    {
+      "id": "f3b1b2da3ce4",
+      "title": "Medicamentos PAMI: guía completa de cobertura y Vademécum 2026 - Ambito",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNenpZdWZjXzZiZzBnbld4WkZQTllNVHY1LWgyZlpfS1N3eGpvVDZfdjB6NERZSnE5VmtnT2ZST2pJSkktVVVPN0tLcUxqck9ubmN2SVQ0SzhrSHQ3U3pnRTJuMmdwOFdSUnpKVlVkVjltTEhFdVJxV2lqdEJWVXVwRmt2Q1dUWG81cG1nUS0wQnpVd092MElCdXdRUnJhUTNsbUVxbUZWMXhrU0VCb3Rz0gG0AUFVX3lxTE1LSXJvclVQSXpjUGFuTXZOa0dGTHQ2T0FYMUtjVXpiTmNQM2xGVjNjT2ROdGZxR25pdlFPaTJfdnJhTUd6TFdPWmM1SEowU0tuMWlLYXQ3bW1RN2E3T051VWRORk1BbklDTHRVUGFjM25JOEpZLVMtTGUxMEU2aXdUNDdGQ0VoTk9tcUpRbXZDbFI3V2tHdkM3aEIwTTRLdkRwZUVaS21WdHdEaDZqVGZSX2o1eQ?oc=5",
+      "published": "2026-04-03T02:00:00+00:00",
+      "source": {
+        "name": "Ambito",
+        "url": "https://www.ambito.com"
       }
     },
     {
@@ -571,6 +571,16 @@
       "source": {
         "name": "americaretail-malls.com",
         "url": "https://americaretail-malls.com"
+      }
+    },
+    {
+      "id": "aed7ed1c61c2",
+      "title": "PAMI y ANDIS al borde del colapso por la entrega de medicamentos oncológicos - Cuestión Entrerriana",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTkkxLWtGeDdtWW5vNzUzWF9LbHIxN1lwNFBLNUxuWlRaZUROdWtrdFpVRU1kdm40TzJwUzBTOW5SM29UUmlQYUtVRGhKTmczQUQzZXNvY3lLTi12N2ZpcHlLU3RoRlZKU3FsbXd0bk1TU1VYWUYwY0dGRHhSU0EzRXMtWjU2UklrWnA0QmhaY1RqcUVJb2xkNFlBc3J3M3VlVWxldlMxWGo0eGJGUWQ2VnF3?oc=5",
+      "published": "2026-04-04T23:21:54+00:00",
+      "source": {
+        "name": "Cuestión Entrerriana",
+        "url": "https://cuestionentrerriana.com.ar"
       }
     },
     {
@@ -624,16 +634,6 @@
       }
     },
     {
-      "id": "19a0465a6a21",
-      "title": "Delfina “Fini” Lanusse: el video de TikTok que se viralizó en medio del escándalo por el robo de medicamentos - revistagente.com",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQZ1d1RTlhUkl1alU0ckZuOVdaVmVJcHp6akplSFNoejFNY0NBMk11QmJTbkgxWU1rYmVnbUxaSG1YbW1INExCT2tLamozT1c0VnB5dTgwREloR0dpcVprQjBnUUNBN09XZ0x5a3FYTTZwY0k5RDZMYUEyb3FDWkI5ZGwtbGVKNlIwTkZueWJfa0FZOGpYQ0RCTS1FUERiVHJJbUMwRWdzbzZxU05OWThfWDlSYzk0NHdpOEVtZDNYVTFxTTExN2V3LVpGcFI1LU9TQ1V6b1oxcUE5dzlaNTZyYQ?oc=5",
-      "published": "2026-04-03T14:15:42+00:00",
-      "source": {
-        "name": "revistagente.com",
-        "url": "https://www.revistagente.com"
-      }
-    },
-    {
       "id": "8b7214656dfb",
       "title": "Nueva provisión de medicamentos optimiza capacidad de respuesta en servicios de salud de Concepción - mspbs.gov.py",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNLTFWVWpTWmExc2Q3WDhnZ0JpVkJGU3J4VmhXaHBraGloMFRqblhfamNPUEV3a0xJY1dqak1obmRhaUs2WlZFdWxwWVVTVV8xLXdGTkdDZXU3MkU5eklRcjJqT25MUnZ3Z3gwZ2tOS25ZUzVLMTk2SmJDTEFFalpoUEhjSEE5dTg0OU5qMW9qTHVLTDZTUmFWSlRkS2FZM2R6ZF9BVGpiOGluZmpUakx5dGg0TlZpbk9iR3lBQTltM3dWY1c0N1JVdXFmRmdEN3FaZ3lCSkxKVlQydw?oc=5",
@@ -661,16 +661,6 @@
       "source": {
         "name": "Rosario3",
         "url": "https://www.rosario3.com"
-      }
-    },
-    {
-      "id": "2679d259ceed",
-      "title": "La inflación golpea a las clínicas veterinarias: menos revisiones y aumento de los precios de los medicamentos - Diario de Salud",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNdVE4RWRhLUp4Z2ZWUDVwSlo0SW9VSm5pejRUcy15NUNsWjN0SEt1MXhIcGg3UHZEWVM5Z1dsaGZhRnVxZ3czWDBIdGs1LW1JZjJOMUlEUkRhekZ3ZndpVTZya3J1eGJDQkxBV2ZWVnRtbzZPQTl4T1ZkWS05anJaT01NSk03RThST2RBVHU4Q2V3NXZYdUFfaE1yWkJSdkt1VGJmMHkxbG4tLXJZdURpd2c1QjE4dG1WM3lHeWNlOFJVNDNjcnJiU1U1RzR1dm5fN0hEeGxZNGllQllsUmNv?oc=5",
-      "published": "2026-04-05T03:38:00+00:00",
-      "source": {
-        "name": "Diario de Salud",
-        "url": "https://www.diariodesalud.com.do"
       }
     },
     {
@@ -704,6 +694,16 @@
       }
     },
     {
+      "id": "4f7d0e8b3228",
+      "title": "Con una nueva importación de medicamentos, Mendoza garantiza insumos para tratamientos críticos - prensa.mendoza.gob.ar",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdDd2TlU3X2ZhdFdlOUFzREd0VjZEOEswLVFWZnhNNk9xTmRDVG16c0o3b0lyaTZmd2U3QVBUaEQ1SUVqb0duUUJFNlpldTdoOFQ0dC1mOUlUMk4yTm9IeElKOUpzR1lxS3NPVXc3SGJZTHNObXlQTkdES19DeUJUYXo1cDFDNmtram5ONTJmRDhyeFlVczRZSi1wTG1hRWEyQXM1Z1h1UHBIbjVsRXV6amRXOHh3b0xVZXdhaVNwT2huRVk?oc=5",
+      "published": "2025-11-13T08:00:00+00:00",
+      "source": {
+        "name": "prensa.mendoza.gob.ar",
+        "url": "https://prensa.mendoza.gob.ar"
+      }
+    },
+    {
       "id": "6d46cd3e2ea4",
       "title": "Estudio clínico muestra que un medicamento cubano alivia secuelas dolorosas del virus chikungunya - 人民网",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBpc1N2aWItWjdBMlhRM0p3ck81M0h4X05IQWdVTnBrWkFubnVVRjRkSnFNMWZZRUtJbFUzWU9VQmJjdEVzMDlPNkxscS1ETmgwb09rZ2pTdkgyVGJ4NTVwSG5jaWZKc3NIaXNSX3p5Yng4OWgtaGc?oc=5",
@@ -714,13 +714,13 @@
       }
     },
     {
-      "id": "7f7fc41b34eb",
-      "title": "Con una nueva importación de medicamentos, Mendoza garantiza insumos para tratamientos críticos - PRENSA GOBIERNO DE MENDOZA",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdDd2TlU3X2ZhdFdlOUFzREd0VjZEOEswLVFWZnhNNk9xTmRDVG16c0o3b0lyaTZmd2U3QVBUaEQ1SUVqb0duUUJFNlpldTdoOFQ0dC1mOUlUMk4yTm9IeElKOUpzR1lxS3NPVXc3SGJZTHNObXlQTkdES19DeUJUYXo1cDFDNmtram5ONTJmRDhyeFlVczRZSi1wTG1hRWEyQXM1Z1h1UHBIbjVsRXV6amRXOHh3b0xVZXdhaVNwT2huRVk?oc=5",
-      "published": "2025-11-13T08:00:00+00:00",
+      "id": "2679d259ceed",
+      "title": "La inflación golpea a las clínicas veterinarias: menos revisiones y aumento de los precios de los medicamentos - Diario de Salud",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNdVE4RWRhLUp4Z2ZWUDVwSlo0SW9VSm5pejRUcy15NUNsWjN0SEt1MXhIcGg3UHZEWVM5Z1dsaGZhRnVxZ3czWDBIdGs1LW1JZjJOMUlEUkRhekZ3ZndpVTZya3J1eGJDQkxBV2ZWVnRtbzZPQTl4T1ZkWS05anJaT01NSk03RThST2RBVHU4Q2V3NXZYdUFfaE1yWkJSdkt1VGJmMHkxbG4tLXJZdURpd2c1QjE4dG1WM3lHeWNlOFJVNDNjcnJiU1U1RzR1dm5fN0hEeGxZNGllQllsUmNv?oc=5",
+      "published": "2026-04-05T03:38:00+00:00",
       "source": {
-        "name": "PRENSA GOBIERNO DE MENDOZA",
-        "url": "https://prensa.mendoza.gob.ar"
+        "name": "Diario de Salud",
+        "url": "https://www.diariodesalud.com.do"
       }
     },
     {
@@ -794,13 +794,13 @@
       }
     },
     {
-      "id": "e69bac26f70c",
-      "title": "Adiós a las agujas: llega una nueva pastilla para bajar de peso - Telemundo Miami (51)",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWUh6UVczX29PcEdwWHNhcW5hazRCWWRkNnBRWnBvNFY5eHlramhDN2dvcEJfcWQ3YTZjVGdqclZGZkNNNFdRd0FFWFR4Z2RTTnpDTi1jc1hub0trelF3RDg0OXNoSVQ2S0hFRy04djVjT3dHNmNCVm1hUnVRV29ObTE1d0wwX3k5WW1zYi1EQjNrejRLbmtkSTF1U3M2WkJ6bzNwOThxekE2TzJveldoU1JqX3fSAbwBQVVfeXFMTmw0QThqUDZ3cnFhTDg5dE5aa3FBT085WlR1WlpPOW9QX0RiNXdxaUljRHl0b0VyQ2ZGSmUxUG1yMzQyRFdzQXNPSFI3OVQxb19WdTZmNzVCdW9MdWFzWGRLMGIzdkoxVUJQRl8ycms0NUlER0JqYmdQNnc0dFRCdEdyeVctSC1sU3NNUGxQejVVU2dHalRQMFdsNHAyTTJZa3NNUEZsSzhaazk3ZGtIN0Y1dUo1NWFJRnRfci0?oc=5",
-      "published": "2026-04-05T01:29:32+00:00",
+      "id": "26e56b38e6d6",
+      "title": "Venezuela recibe de Brasil primer lote de medicamentos para pacientes renales - Pan American Health Organization (PAHO)",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQa0F6QzR3dkFnZEdPdjl1c01sZk9iS1I3VnRUVWpWZ0Z1cEpkNVRzcDBrTWp3aHozc0ZxYkh3QlZZdFhtMnhuU2lVSGtfNnNlcnc3TEtvcHFYdFZlOEVfVllUSmpfdlh1NzVubmhlWkg1cFhReG1zRXVxVjhPY1Ata0psRklkTUZ4NXZ2RnVvV3FicTh4dUtSb1lrTnFXNEpHT052X19NT0VISThmNnZaTE5QRE4?oc=5",
+      "published": "2026-01-12T08:00:00+00:00",
       "source": {
-        "name": "Telemundo Miami (51)",
-        "url": "https://www.telemundo51.com"
+        "name": "Pan American Health Organization (PAHO)",
+        "url": "https://www.paho.org"
       }
     },
     {
@@ -814,23 +814,13 @@
       }
     },
     {
-      "id": "26e56b38e6d6",
-      "title": "Venezuela recibe de Brasil primer lote de medicamentos para pacientes renales - Pan American Health Organization (PAHO)",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQa0F6QzR3dkFnZEdPdjl1c01sZk9iS1I3VnRUVWpWZ0Z1cEpkNVRzcDBrTWp3aHozc0ZxYkh3QlZZdFhtMnhuU2lVSGtfNnNlcnc3TEtvcHFYdFZlOEVfVllUSmpfdlh1NzVubmhlWkg1cFhReG1zRXVxVjhPY1Ata0psRklkTUZ4NXZ2RnVvV3FicTh4dUtSb1lrTnFXNEpHT052X19NT0VISThmNnZaTE5QRE4?oc=5",
-      "published": "2026-01-12T08:00:00+00:00",
+      "id": "e69bac26f70c",
+      "title": "Adiós a las agujas: llega una nueva pastilla para bajar de peso - Telemundo Miami (51)",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWUh6UVczX29PcEdwWHNhcW5hazRCWWRkNnBRWnBvNFY5eHlramhDN2dvcEJfcWQ3YTZjVGdqclZGZkNNNFdRd0FFWFR4Z2RTTnpDTi1jc1hub0trelF3RDg0OXNoSVQ2S0hFRy04djVjT3dHNmNCVm1hUnVRV29ObTE1d0wwX3k5WW1zYi1EQjNrejRLbmtkSTF1U3M2WkJ6bzNwOThxekE2TzJveldoU1JqX3fSAbwBQVVfeXFMTmw0QThqUDZ3cnFhTDg5dE5aa3FBT085WlR1WlpPOW9QX0RiNXdxaUljRHl0b0VyQ2ZGSmUxUG1yMzQyRFdzQXNPSFI3OVQxb19WdTZmNzVCdW9MdWFzWGRLMGIzdkoxVUJQRl8ycms0NUlER0JqYmdQNnc0dFRCdEdyeVctSC1sU3NNUGxQejVVU2dHalRQMFdsNHAyTTJZa3NNUEZsSzhaazk3ZGtIN0Y1dUo1NWFJRnRfci0?oc=5",
+      "published": "2026-04-05T01:29:32+00:00",
       "source": {
-        "name": "Pan American Health Organization (PAHO)",
-        "url": "https://www.paho.org"
-      }
-    },
-    {
-      "id": "33631f45cbbc",
-      "title": "La escasez de #medicamentos en #Cuba obliga a pacientes y médicos a depender de las redes ilegales, donde el precio de los fármacos compite con el de la #comida. Lee el reporte de Laura Sarmiento en #DiarioDeCubaL LINK en el primer comentario 👇 - Facebook",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQc0NGM3pEa1VveE0wUGVmVTVTOXM1MnZxQUJiblVveXJBT0hhNWlQbUtzTHJfbkJBdzlvcW81UEtLMEVxRTZ4Y0pqMXRWVW93a0FONFBkbVFUdGhDU1Y5ZXl6X011d3ZXOExaTk90Ny1nSl9pRWo5UEJETmNEM1luN0VIQnBkMWpnMEZ5OEZISnl6M2FqWnJWSUJxMTJYOXBISWVOcXRORWJMT1lFR2c5bE1sd05XWmdUU1VkMVVyMEJHdS1YbTJ2U21FT0Z4bFVhQTBsWjVYVlpOaHVWQzNCSA?oc=5",
-      "published": "2026-04-02T15:30:41+00:00",
-      "source": {
-        "name": "Facebook",
-        "url": "https://www.facebook.com"
+        "name": "Telemundo Miami (51)",
+        "url": "https://www.telemundo51.com"
       }
     },
     {
@@ -844,13 +834,13 @@
       }
     },
     {
-      "id": "0655ac37f89c",
-      "title": "Sueros vitaminados en Sonora, qué sabemos sobre estas sustancias tras la muerte de 6 personas - La Silla Rota",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNdF9ObVJkdDNQRFdlSjdYWnlzM3hCRUg5ejJPV1BzOFlRNS1nN0tMVzlKakYyX0tNWi1hN0RqQ2ZXUmdMVUlZbUR0V1FJR1M4TWNqYTAxY3B6bDI2ZFhvM0R0b2I4aG4xcUlBQWZiV000RmNRUzJWdS1ESkE4UjFRQzFYNDNnQ0ktM3B2Sjl1RzRHSFE3LTQ4ZWhpbDdpN1g4MXZvcnNveFVpV0hxUXRJMnhxQTlMS1dpUEFNbEJqWHdwc0xqR2dZOGd5ellnY290NkpOM0xheWcxOEk?oc=5",
-      "published": "2026-04-05T18:14:00+00:00",
+      "id": "33631f45cbbc",
+      "title": "La escasez de #medicamentos en #Cuba obliga a pacientes y médicos a depender de las redes ilegales, donde el precio de los fármacos compite con el de la #comida. Lee el reporte de Laura Sarmiento en #DiarioDeCubaL LINK en el primer comentario 👇 - Facebook",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQc0NGM3pEa1VveE0wUGVmVTVTOXM1MnZxQUJiblVveXJBT0hhNWlQbUtzTHJfbkJBdzlvcW81UEtLMEVxRTZ4Y0pqMXRWVW93a0FONFBkbVFUdGhDU1Y5ZXl6X011d3ZXOExaTk90Ny1nSl9pRWo5UEJETmNEM1luN0VIQnBkMWpnMEZ5OEZISnl6M2FqWnJWSUJxMTJYOXBISWVOcXRORWJMT1lFR2c5bE1sd05XWmdUU1VkMVVyMEJHdS1YbTJ2U21FT0Z4bFVhQTBsWjVYVlpOaHVWQzNCSA?oc=5",
+      "published": "2026-04-02T15:30:41+00:00",
       "source": {
-        "name": "La Silla Rota",
-        "url": "https://lasillarota.com"
+        "name": "Facebook",
+        "url": "https://www.facebook.com"
       }
     },
     {
@@ -884,16 +874,6 @@
       }
     },
     {
-      "id": "4db94e386a51",
-      "title": "ISP emite Alerta Farmacéutica por presencia de endotoxinas en medicamento para el cáncer - BioBioChile",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNMnM1dWtKQ1NicnpaS2dHaG9qeFhPXzY1MzJFeVgxNHFPM1JrMlNMSFJKRzlLU3NVRWZSUjhEMzVHNl9LanVnRzVxUUp1bkZpUXNtNi1RTU5wUWQ1d05yME1DUmVGSzVBRTl3WEFHWFdPTDJISURUN2d5ZTdNZUJDVVNCQlY0dWtueGUtNlZURlF2dlNiMUdleGthdW9hWjl1TXpQMEJhVDFwbDhsZ3Vqd2cwQmZuUUFGLVlPekNKYjA4YmJUbUhGQzA4ZEJob1U3QU9PZk4wZzhCWkZZRUlwcjV3cURXc2ZPWHJScmF2YXVjNVE?oc=5",
-      "published": "2026-04-04T22:07:12+00:00",
-      "source": {
-        "name": "BioBioChile",
-        "url": "https://www.biobiochile.cl"
-      }
-    },
-    {
       "id": "c359aa5cef70",
       "title": "Un nuevo método para controlar la hipertensión reduce ictus y muertes en miles de pacientes - Diario de León",
       "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOaEFKT2huWG9fNHdTNWtCeDM3OGdkQmU5Z2EwMTlHWmFkRmlNcm96SVE1djNnRVdfQjZSMWNDTnA3Zmk0Q1FtMDl2YnZoS0dsT3g0SGVCalhJNW1JdTZDbHA4akc3U0FTa3p1ODBpeUhtdDJmNmhkZTU0dURocld6Y29SOVFDOWVzY28wQXRfWFhVNm9yOVc0dmhHSDlQRHY2Q3RoYlBHUGlyanpVcTE3R3ZoUkRwNEFXSTJIUnpLUHRFT1Z2Y2Z3T09ZN1Y0OC1R0gHWAUFVX3lxTFA1MC00V3VQX3BPVXM3TlBjR2k3RW1WOWNOMlE2dFA3Nnp6blNqNHZKSmhkUEpEc19PU2dPWEU4TTY4eW5BTTVNZk90WU9UNHBEa0FEdTFZSmh4TXJvTU9tTmdKZGJYMUpzMVdNX0tjcFpzMmt4TUwzeW8yQ0VXNGpVY1d1R2pMT3pKSVNPWmF1cU4yYnl1OGxNd2pvSkk2Nzg2S2E0ZWdZb3FrTWZ4cXhWdldWT1JfRGRhMmxVelRGUDhuZDl3NWRaUjVWVWdrTkZoUmxDR1E?oc=5",
@@ -901,6 +881,16 @@
       "source": {
         "name": "Diario de León",
         "url": "https://www.diariodeleon.es"
+      }
+    },
+    {
+      "id": "4db94e386a51",
+      "title": "ISP emite Alerta Farmacéutica por presencia de endotoxinas en medicamento para el cáncer - BioBioChile",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNMnM1dWtKQ1NicnpaS2dHaG9qeFhPXzY1MzJFeVgxNHFPM1JrMlNMSFJKRzlLU3NVRWZSUjhEMzVHNl9LanVnRzVxUUp1bkZpUXNtNi1RTU5wUWQ1d05yME1DUmVGSzVBRTl3WEFHWFdPTDJISURUN2d5ZTdNZUJDVVNCQlY0dWtueGUtNlZURlF2dlNiMUdleGthdW9hWjl1TXpQMEJhVDFwbDhsZ3Vqd2cwQmZuUUFGLVlPekNKYjA4YmJUbUhGQzA4ZEJob1U3QU9PZk4wZzhCWkZZRUlwcjV3cURXc2ZPWHJScmF2YXVjNVE?oc=5",
+      "published": "2026-04-04T22:07:12+00:00",
+      "source": {
+        "name": "BioBioChile",
+        "url": "https://www.biobiochile.cl"
       }
     },
     {
@@ -924,16 +914,6 @@
       }
     },
     {
-      "id": "8e06dfea7a61",
-      "title": "Wegovy de Novo Nordisk: El medicamento revolucionario para la obesidad que transforma la salud y el - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOeVZhcGZESlRWdkxuSDRCQUQ0SjR4UlBtbjc5ekZia0lKMjRRMHdVekZnb2k3VmpOSjBmWExoNHhSQlU2S0p0NS1oSGRqNlJoUmFQdWxuOTRtakNKam9xTUZqS2tfeXY0c05iUDBVajVhWjNhbG1TN3k1TXgyWUdFcU1EYUgxQW15Sm5MdW5taE5UbHdVZlQ4THkzQ3N4bC1salhkRXF4c2M0NUZZUkZ2TU1keFJFZTNJTC00NXpsdDU4QVAtZlE?oc=5",
-      "published": "2026-04-04T08:26:14+00:00",
-      "source": {
-        "name": "AD HOC NEWS",
-        "url": "https://www.ad-hoc-news.de"
-      }
-    },
-    {
       "id": "c6dd37c100a9",
       "title": "En lo que va de 2025, Santa Fe compró más medicamentos y con un ahorro del 83 % - Gobierno de Santa Fe",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1US3ZEWmxWVDdWQWxnZENWQy12Z29DSFBNWm4tcHJ6N2FWOW1vQmJPb085ZmN1OUJOQzhlZkNNR1IzNkhLd3pfYTA1WUFpSkt0UHZlVlgwQWxlYmFQYi1lSA?oc=5",
@@ -941,6 +921,16 @@
       "source": {
         "name": "Gobierno de Santa Fe",
         "url": "https://www.santafe.gob.ar"
+      }
+    },
+    {
+      "id": "8e06dfea7a61",
+      "title": "Wegovy de Novo Nordisk: El medicamento revolucionario para la obesidad que transforma la salud y el - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOeVZhcGZESlRWdkxuSDRCQUQ0SjR4UlBtbjc5ekZia0lKMjRRMHdVekZnb2k3VmpOSjBmWExoNHhSQlU2S0p0NS1oSGRqNlJoUmFQdWxuOTRtakNKam9xTUZqS2tfeXY0c05iUDBVajVhWjNhbG1TN3k1TXgyWUdFcU1EYUgxQW15Sm5MdW5taE5UbHdVZlQ4THkzQ3N4bC1salhkRXF4c2M0NUZZUkZ2TU1keFJFZTNJTC00NXpsdDU4QVAtZlE?oc=5",
+      "published": "2026-04-04T08:26:14+00:00",
+      "source": {
+        "name": "AD HOC NEWS",
+        "url": "https://www.ad-hoc-news.de"
       }
     },
     {
@@ -954,33 +944,23 @@
       }
     },
     {
-      "id": "1b71df70c691",
+      "id": "f4310975a7a3",
+      "title": "Jusvinza: un medicamento seguro y altamente eficaz para el tratamiento de pacientes convalecientes de Chikungunya - Presidencia de Cuba",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxObW84Q0QyS2xyZ0h5dU16bFJ1Vkd1ZFRod2NQS2R2bUlabVp3OUo3Y19FYWhZZFdhNnRJZ1E3RmZRcU5BSTNnRzRZRl9vNXVtU1BNbGt0TFUySWhmQzUzdEJBcmFGcHpDM011MV9MdXVDX2owN1g2MjhUcnMzLWpnS3NGN3ZWcDAtdTR6aHlDMmFDSXJ3RVNnOVFWTG1waWVIcERmVjRIc05NSnA2QV8wT3MyQW9jb0F6Y1RmVzRyUzdTN29IYmV6SF9wSGxTaHJnckowMUdpMlVPN0czYzdyVWFhQk9SWTFYdFFOVQ?oc=5",
+      "published": "2026-04-03T01:45:28+00:00",
+      "source": {
+        "name": "Presidencia de Cuba",
+        "url": "https://www.presidencia.gob.cu"
+      }
+    },
+    {
+      "id": "8f3ddaeafa84",
       "title": "Menos ictus y muertes gracias a un nuevo método contra la hipertensión - msn.com",
-      "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQZG5NMWtDOWJzWEotUFd6MFVZajF3YUtlYkZZOU52Z0hJeERDNHpsNzFMeHZnYVhIaVViYkVuQTZROUF0eWVZdmNxelp3anJ0cm50TUtSRDNQQnIxX3d5cG03dVk2dm9WdkhUQVI4ZTBjVlgxTlZQYUs2NVB2OXdjNFg2aUhtNTFXTEx1azVmNnE2ZldRVjgydjQ5UVdUMTBON2xaZU9WZXZZTUtYX3Zmc2ZMY2ktWkRxWnFwUFZ1TUJCc3RvanhJOVlIMG5IbnBPMUdpU1d0UWVQMjdISjhIYmgxQUQ0QmR3bEJUa0ZYb2hOU2xxSDBMM1hheGlJSzk0YmxaX2FVQ3pEOENRLWtnQzZRWTVEQk0?oc=5",
-      "published": "2026-04-05T17:25:04+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOdjNYcGtvMEJzNmZ2ZHVCTFN5Uk5tLWVHS3dHUUROSUQ2ZVRwa3poNVRxRWdDZktpaFM4Y3RwOGlTSzZaTVMyMl82eTNjSWNNRVdDZ240akZIYy1ZaXE5SUFHTUtycnlxTmFZeVFLN29OcnB5SmxMZVIzVXVYWjB5Yi1HUTBpQXRINmFkczNwQWZ4cnFkcVN1OEgzQ0lRRTVGXzhXaXlOZUFMSXd1UEpocWxHTE5wNHRTdWRqOE5rZFVLQkhwcWtpRlhfOTlTOE81MkI2clVPZkloMmc4NTFmaTZCbEhkeUVCUUpRSGdDUm1iSVBzaGVhZmExYjhLeExCTnVLc3FKbDc2UzZIVDlrWk5oZDhyZVE?oc=5",
+      "published": "2026-04-05T17:29:53+00:00",
       "source": {
         "name": "msn.com",
         "url": "https://www.msn.com"
-      }
-    },
-    {
-      "id": "318f3da8884e",
-      "title": "Jusvinza demuestra ser un medicamento seguro y altamente eficaz para el tratamiento de pacientes convalecientes de Chikungunya - Cubadebate",
-      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQZi1LX0FJQnd1NXFTclFmU1BlYndaNFpBLVZyYUhrVHVQSUFkZFBpSG9VeFJiMk9LbjltTVQzLUhPNS1kX2ppeVpSQ3hmTWZRa3RSNzk1d0llbjZrOEJYS3ZPd05ObUFrWEFtdFZyazAySnQ2ak1YVjU4UjRncmxaQk5fS3plQ0QyMVl0SlFRNlRpejNtWWtOQ01STlpkb25sVENsUmFGU2NGWVlUTUxaX0ZSRVNLN1N5cWpxQlhrUXVJeDFOR19Kb2I5cWJNbUtHZ1RUaFdIenhsS3F1Yk1oSjZIS3Q3dGUySHlNdzltUzliTWdVeGJaTmtUN0RtUjN0VlHSAYcCQVVfeXFMTUxYaTB3WUZ1SlNmSVZwNmIxbTk5Nnl6OVN6enRpT0JTNHFzS05Cc3ExNDBHXzY3T3ZLeDBzWVJQcTV4NVFoSUhuM0xtRXZteElnbVdfZmFOSEtrS0sxZUtndEN1Sk5KYU5IVzh6Tm9WMURhbTRuV2xKMDRhMjdzMjFUYWNaN0tsZGJ3cGFrYWZ6dEtZaUZuVXZoQTRPRWJneEtZQlFJTGVWSjhCdmVtMjBWeWVOa2ZQVlRpc0JpM3RIam9hT2RESzY1ZFAyOXROTnFIOGRqUlpSZktzczFDaEU5ckQxVXJNTVRTMGhZTGdaeFlydzFjeG9hM0ZxMzA1NXFSOG0wUGM?oc=5",
-      "published": "2026-04-03T18:35:03+00:00",
-      "source": {
-        "name": "Cubadebate",
-        "url": "http://www.cubadebate.cu"
-      }
-    },
-    {
-      "id": "ff1aa7c5eb35",
-      "title": "Proponen crear programa emergente para garantizar abasto de medicamentos - El Heraldo de San Luis Potosí.",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQXzFTbllPSFA3V0ppb0hBZm5ibTFrbDMzYUk2Zi1HVjI5S1RTenJMbnUzd3J1Xy1PSDJfNndjNWppWUt6YlJpUFg1OVNOM0lDMV9IVGdoTXpKclByRGR0QWVJLUM5QWYtak5acHg0M0duUG9zSVphelM3M2tVa0pTdUF6SENYZ001a2RPUi1rYmZyNW14X2lDZVc3Ti1ucVAxd2JNaHYwN0FOUi1wU2VVcXM4ZFhhQTg?oc=5",
-      "published": "2026-04-05T04:15:20+00:00",
-      "source": {
-        "name": "El Heraldo de San Luis Potosí.",
-        "url": "https://elheraldoslp.com.mx"
       }
     },
     {
@@ -1001,6 +981,26 @@
       "source": {
         "name": "Gobierno de Río Negro",
         "url": "https://rionegro.gov.ar"
+      }
+    },
+    {
+      "id": "80c5a06458c2",
+      "title": "Conozca el trámite para pedir el reembolso a la EPS si le tocó comprar medicamentos con su dinero - Caracol Radio",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQUk9jMUZaMFBPWDFrZXFwbmVBMWVCaDNIRmc5X09KXzQ1ejl3NEhhYm13bzIxWFB0bVFmdzFveEVERHhFcmFPbXNTSmd3SGRXOFZ5ZjdkYW1zTVk5d3VWcl9qdHJVRnFKVENyX2hEM2NjcGtfQWx0WmJvMnRra2E1N0xxQi0zVjVmMUJfNlQwMEhxU2ZnWEQwQ2xBY2lXakktQTRBeEdNb21vbFlJRmhlVXVsSnRCRTI5bEpEOGRST2s3aTJRdlpBaTJXOEvSAeABQVVfeXFMTmc3eC1WMzY0MmMxZjNadUNXd0ppWW9CZENvaGszUXVhcEZpbWtzWmRZR0s4M29kM2VBUUpaMkFsbzlDT2E3Z3FXUjRVR1hKRkNxdVV1REp5TERIQkM5TWV6ZkhvLUNrckNXTjhGVzZVMVc4bV9FMEM5SVV5cWJxUlZLMXZON25hbWNia2k3cDVSeWQzMi1XSFdiNEFVdlZTd2NEeW0xRjZZNnQ0cVF3dFZJRnlnczN6RHdZbkpaYWUxS0ltTEd5VFFWMzcwR29QUlFzNGI0VjczQ1E4TldpZ1k?oc=5",
+      "published": "2026-04-04T14:01:49+00:00",
+      "source": {
+        "name": "Caracol Radio",
+        "url": "https://caracol.com.co"
+      }
+    },
+    {
+      "id": "335783c90541",
+      "title": "Calidad y eficiencia como ejes para ampliar el acceso a medicamentos genéricos, biológicos y biosimilares: desafíos y oportunidades - Pan American Health Organization (PAHO)",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeTJzV1RFYXRXb3I0RTlqSGljVGluZnJzY3dOVkRyS1h3djh0cF92Y0FTR0Mwb3ZzYXZoTjhxUXl6aXV2T3VQUG5uM1NlelNLR3FBNnNEYnEwbXY1cklmNmQ1UURLQWREYU11NnNHcTRWWG5sUndmczVYdkdzMXJwb0ZDaGFtemI5UjluS1VFSGktcGJ6N0N3ODVTVHdYN3MwazJZbXFLc0RkYUR2YjJfYmdKNy0?oc=5",
+      "published": "2025-11-11T22:33:06+00:00",
+      "source": {
+        "name": "Pan American Health Organization (PAHO)",
+        "url": "https://www.paho.org"
       }
     }
   ]
