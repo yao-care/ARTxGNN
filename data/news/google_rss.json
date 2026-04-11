@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-11T21:34:26.780596+00:00",
+  "fetched_at": "2026-04-11T22:33:42.893463+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -154,16 +154,6 @@
       }
     },
     {
-      "id": "833e64309ed8",
-      "title": "La Federación Nacional de Salud denunció el inminente cierre del Plan Remediar - El Eco",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcUxzajdNSHpaenREN1VNakFXQWR6UGdtUFFSMHpaYldGRnM4eVBiZm5kSGF1TS1ScXpNVUN3NEVuS2ZJNUptYWRkVjlGOGtaTGxTQ3g5OUFvR21FZkRLUDVQXzByY0lVdVNOWXR4dkpUZl9GcHV2UnZyWVRCUzVIcE9rY1lGZGNiQnFNR2llcWpwODU3bnBKTUVEZ2NwNnRJNG01VFVVVmtFblIwelQwQ29lb1A?oc=5",
-      "published": "2026-04-11T15:13:12+00:00",
-      "source": {
-        "name": "El Eco",
-        "url": "https://www.eleco.com.ar"
-      }
-    },
-    {
       "id": "41fc436783f4",
       "title": "La Secretaría de Salud entregará medicamentos con receta este sábado - El Comodorense",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRGZJbldxeEk0SXBfT1NfWTRoRE9JOVVqVUVMMERhWGxiaUZzSVlNMGpWSmFMTkdoQkFTRzZJM052SUVlejRTSDhfUkR2clJxUUNDV2xQUGtoMXdHbmYzUlZBeGJ4WmVlUTNsQk1UZEFySUFNbVlSYTFuREI2ZWhpbmtfUUt3bW4wclYyMkJQcF91eWFmV19JaFBqUGlMWHZp?oc=5",
@@ -171,6 +161,16 @@
       "source": {
         "name": "El Comodorense",
         "url": "https://www.elcomodorense.net"
+      }
+    },
+    {
+      "id": "833e64309ed8",
+      "title": "La Federación Nacional de Salud denunció el inminente cierre del Plan Remediar - El Eco",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcUxzajdNSHpaenREN1VNakFXQWR6UGdtUFFSMHpaYldGRnM4eVBiZm5kSGF1TS1ScXpNVUN3NEVuS2ZJNUptYWRkVjlGOGtaTGxTQ3g5OUFvR21FZkRLUDVQXzByY0lVdVNOWXR4dkpUZl9GcHV2UnZyWVRCUzVIcE9rY1lGZGNiQnFNR2llcWpwODU3bnBKTUVEZ2NwNnRJNG01VFVVVmtFblIwelQwQ29lb1A?oc=5",
+      "published": "2026-04-11T15:13:12+00:00",
+      "source": {
+        "name": "El Eco",
+        "url": "https://www.eleco.com.ar"
       }
     },
     {
@@ -214,16 +214,6 @@
       }
     },
     {
-      "id": "e1aeca75b4fc",
-      "title": "Procesaron a dos médicos por robo de medicamentos en el hospital Italiano - Chajarí Digital",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBHUlJVZC1vaElkV2p5TnNwOHRwSVJWVWd3Vl9qSWJnMV9JM2NRa2VDeWJXOFEtRWZfVDlLbmw4WXFjRFVkU1JldmxUOTVlQQ?oc=5",
-      "published": "2026-04-11T13:52:58+00:00",
-      "source": {
-        "name": "Chajarí Digital",
-        "url": "https://chajarialdia.com.ar"
-      }
-    },
-    {
       "id": "3932290cae7c",
       "title": "Precalificación de productos de salud - World Health Organization (WHO)",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRnZfY19GV3JXb0xiQWZ5YWgxU3dsUFRkN0M1MTBack9LNzV1M2FQSkxnZk51TldiVktXNWNMOWp5WUNINHN0cEg5Yld5NDl6TzE1ak45VVRLOTRyZnRaaGdZdG5QQnl4V1BvbFloTGdrVldxN1ViZEZDYUM2MC01MEdGOTRvVTR5UTdYYzdHeXhadw?oc=5",
@@ -244,13 +234,13 @@
       }
     },
     {
-      "id": "fc58c9c903ce",
-      "title": "Comodoro: cómo acceder a controles médicos y remedios gratuitos este fin de semana - ADNSUR",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPaW9RZnhEZFhLNEU4QTEyNXRLR0FLbU54bWNGODlRb1RQTzRFbGE2c0ZGdURJSVN5M0dBY09wb3g0WVc3ZzBYQzFYTFlCeDFOb240WUUtMy1NRHVEQjF0VlNKMEI1SGg5NGdTWXVTVVNhSTNBbXhhbEFaYUhEY0psRmNIOVBTNzBqMUc1MVZwN3A4YWVWOUVLazlUUk90R0ZiMl9MVmdJMlJFNVpGZFpoZ0d1VlBfNWJGWlBjdnpWUjZvM0RWUXp2UXVEQmxXWTAzOGtIVkFJekpxSVU?oc=5",
-      "published": "2026-04-11T14:27:40+00:00",
+      "id": "e1aeca75b4fc",
+      "title": "Procesaron a dos médicos por robo de medicamentos en el hospital Italiano - Chajarí Digital",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBHUlJVZC1vaElkV2p5TnNwOHRwSVJWVWd3Vl9qSWJnMV9JM2NRa2VDeWJXOFEtRWZfVDlLbmw4WXFjRFVkU1JldmxUOTVlQQ?oc=5",
+      "published": "2026-04-11T13:52:58+00:00",
       "source": {
-        "name": "ADNSUR",
-        "url": "https://www.adnsur.com.ar"
+        "name": "Chajarí Digital",
+        "url": "https://chajarialdia.com.ar"
       }
     },
     {
@@ -264,6 +254,16 @@
       }
     },
     {
+      "id": "fc58c9c903ce",
+      "title": "Comodoro: cómo acceder a controles médicos y remedios gratuitos este fin de semana - ADNSUR",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPaW9RZnhEZFhLNEU4QTEyNXRLR0FLbU54bWNGODlRb1RQTzRFbGE2c0ZGdURJSVN5M0dBY09wb3g0WVc3ZzBYQzFYTFlCeDFOb240WUUtMy1NRHVEQjF0VlNKMEI1SGg5NGdTWXVTVVNhSTNBbXhhbEFaYUhEY0psRmNIOVBTNzBqMUc1MVZwN3A4YWVWOUVLazlUUk90R0ZiMl9MVmdJMlJFNVpGZFpoZ0d1VlBfNWJGWlBjdnpWUjZvM0RWUXp2UXVEQmxXWTAzOGtIVkFJekpxSVU?oc=5",
+      "published": "2026-04-11T14:27:40+00:00",
+      "source": {
+        "name": "ADNSUR",
+        "url": "https://www.adnsur.com.ar"
+      }
+    },
+    {
       "id": "f4d8e6e0f301",
       "title": "Alerta sanitaria: FESINTRAS denuncia que el cierre del Plan Remediar dejará sin medicación a millones - Cadena Nueve - Diario Digital",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNLXh5NV81SHdoTFRwblFzVTk5ZWRyQm5jeGZ2dThWVFIxSHViYVNFWFJKelgwcEoxVXlSa2dfQmM1QlExQUtfa3BJY1VzczF1dEplMzY3Rlc5eHBWdE5ORmJyNjF2bHZtTDdfR3JtU2hnQkVGa2o1QncyZHR5TFZMSFVyVlMxVDdUc2ZpdzhCWlFzQ2JhZG04c3lMYjNDZ1N3Z2NuempEejVVQ09QNUh5Rk9KVUhacE5IUFNYX1l4ZzhlS0Qwd01vQmRjaFpkSnl1Z0VGYXI2cw?oc=5",
@@ -271,6 +271,16 @@
       "source": {
         "name": "Cadena Nueve - Diario Digital",
         "url": "https://www.cadenanueve.com"
+      }
+    },
+    {
+      "id": "00b296d245a9",
+      "title": "Las Marañas de Patentes y su Impacto en Medicamentos - Gestión y Economía de la Salud por Carlos Diaz",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPOHJiUzcyWl9YeHRlUlJsUU5TYlBqNHYwYkdjcnZIM0dSQ0tUUmc3YWhnUDlzaTJDV0U2Qlh2b0JESkVkRGJpdUs3bXpMRmJnVFpEME4yVWM3OUJEQ3h0SFhxMVlYajl2OTZTVWpLZVkwZEMyc2NXaUVLbC1YLTVGbUk1RjVUQlZvMDZNUjNlWlVqUQ?oc=5",
+      "published": "2026-04-09T18:24:19+00:00",
+      "source": {
+        "name": "Gestión y Economía de la Salud por Carlos Diaz",
+        "url": "https://saludbydiaz.com"
       }
     },
     {
@@ -294,16 +304,6 @@
       }
     },
     {
-      "id": "00b296d245a9",
-      "title": "Las Marañas de Patentes y su Impacto en Medicamentos - Gestión y Economía de la Salud por Carlos Diaz",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPOHJiUzcyWl9YeHRlUlJsUU5TYlBqNHYwYkdjcnZIM0dSQ0tUUmc3YWhnUDlzaTJDV0U2Qlh2b0JESkVkRGJpdUs3bXpMRmJnVFpEME4yVWM3OUJEQ3h0SFhxMVlYajl2OTZTVWpLZVkwZEMyc2NXaUVLbC1YLTVGbUk1RjVUQlZvMDZNUjNlWlVqUQ?oc=5",
-      "published": "2026-04-09T18:24:19+00:00",
-      "source": {
-        "name": "Gestión y Economía de la Salud por Carlos Diaz",
-        "url": "https://saludbydiaz.com"
-      }
-    },
-    {
       "id": "25cb3fe44ba2",
       "title": "Salud: ante la imprevisibilidad nacional, Provincia planifica la compra de medicamentos de alto costo - Gobierno de Santa Fe",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE51NVJnSnlLb2QxWHRvSlhnN2REdF8tLTE1R0s0V21xRnRtaDhHRENyV05ZaFMxa0V1Y19sU1lDYTBvTDhHYXFhWkVXNm1PQUpKdExNSVFqdDkteXQyamJQSg?oc=5",
@@ -321,6 +321,16 @@
       "source": {
         "name": "Identidad Correntina",
         "url": "https://www.identidadcorrentina.com.ar"
+      }
+    },
+    {
+      "id": "80e287e0f233",
+      "title": "Tras el nuevo alta médica, Floppy Tesouro reveló cómo evoluciona su estado de salud - a24.com",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcmxGYkluaUROLVFCSmg1WHg0Z2JzenpXMkdxT0paX2RjTVpwT1lPVUFPU2lRLVgtT0tiQVQ4T09aR0VJd2NrNlF5LTBHdGpnOWQ2TTZwSFJvUldZaHlHdWJCY3d1V1lEYTlfdGlMem11Vl96YjhIVDV5VHE2dDRTY0F3UlpCZUIzQ3ZRUVhZYUMwOF84eEc2RDJnSXZUaEJ4NHdDbE9jcVl3aXJZN1ZWM1EzVjNscER0VG1GbdIBwgFBVV95cUxPSmVJV0tXY0Zkemo4WnUtZ0ZyQ3FGLUpjMzBXdDNETWNSWVlNY1pjUzFEZkRYWDFhcVBlbWUzUmpHeFBMa0lXZUJZbm9ZSFd5a1hyWGVES2RGaTFjTUp3OFpoUlN6ekNPTlVQQ0ZDbUV5eDVFTm9uUGtJVThRa0EyaXNUcU9UN3FqdE1OV2JUdi1HUEdYUnZWRXhrbElxYjVLdDZNWXhnMGZLbW9HeWpSOE5xX1FtalNjRXZNN3g5MmdnUQ?oc=5",
+      "published": "2026-04-11T15:25:00+00:00",
+      "source": {
+        "name": "a24.com",
+        "url": "https://www.a24.com"
       }
     },
     {
@@ -444,16 +454,6 @@
       }
     },
     {
-      "id": "39ff1cb1d1c6",
-      "title": "Fentanilo contaminado: la Anmat confirmó la baja definitiva de los laboratorios HLB Pharma y Ramallo - Noticias de El Trébol",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOd040N291YXRCRlpPaHgzTGVtdlFVdXZ1NkxOczRmYWp1QXlXSW1KSzJ3SWl3VTBsVXVtSG5kV1BqTWhSYXpSQ0NVenVUNzdBTWJBWEJFME9wS2NHcWtWUzZlbTBWVlJaUVRaZUhNS0xGeFhsZVNkSVVxSEE2MGMwYkRUUFNtdDhBZHRIVmdKR0hGMDRPcFB2c215VmNNSzVlLU9kMkRlUzJSTXQ1Rm1qeDhRdTdmS2Z4aXV5bkZZWQ?oc=5",
-      "published": "2026-04-11T10:00:56+00:00",
-      "source": {
-        "name": "Noticias de El Trébol",
-        "url": "https://canal1.com.ar"
-      }
-    },
-    {
       "id": "2edf35cd71cd",
       "title": "La Provincia garantiza medicamentos gratuitos para adultos mayores y fortalece el acceso a la salud - Gobierno de la Provincia de Formosa",
       "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPVGZJd1BTbnRUamZ3Ukc0RkJyX0NtTnlLbUcxNDJkaFZnNkhaVGVzWFRiRGZWS016VzRUWFBhSFVGS0tKNTFKejdBSmRxNGV4cXpJRDJBSTcxQlhFVlU5Ylg3ZVY5RjhhUFRETWFwRElfQlhZUFNBeF9aNmd5WlJ4c2dEZUdDQkM0MnQ4RUhMWFBKUE9Mdk11N1BOdG9oV3pPc21sUG1BQ0tiNG1kakF1a1Y3UXk3ZGJ0aVhiLTlqOXpkNHFfVmdRTUtWRXlsamdObXFZbHBBMUJOV1Z6?oc=5",
@@ -464,13 +464,13 @@
       }
     },
     {
-      "id": "cf053db464b1",
-      "title": "Exámenes médicos gratuitos, consultas de salud y distribución de medicamentos para las mujeres socias. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMWQ3RFFhSm4yNkpGTlNiLVNCdV9XZng0dnRlSnJDOVJ1UWVuSHpabjV6QkJWaE51MEpzVkJxaTFIbmQ4TTVlVDNxS0dnQVp5YzZMYWRUVXFYT0U4c2VIVUpKMVVCY1VLUEZKVFZsRi1TWFFweV8ycE1TQ2JfaHJlMVltdTdyMXlYZHN1U1o4WnBxM2VSMk5wNU9Zdw?oc=5",
-      "published": "2026-04-11T06:34:42+00:00",
+      "id": "39ff1cb1d1c6",
+      "title": "Fentanilo contaminado: la Anmat confirmó la baja definitiva de los laboratorios HLB Pharma y Ramallo - Noticias de El Trébol",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOd040N291YXRCRlpPaHgzTGVtdlFVdXZ1NkxOczRmYWp1QXlXSW1KSzJ3SWl3VTBsVXVtSG5kV1BqTWhSYXpSQ0NVenVUNzdBTWJBWEJFME9wS2NHcWtWUzZlbTBWVlJaUVRaZUhNS0xGeFhsZVNkSVVxSEE2MGMwYkRUUFNtdDhBZHRIVmdKR0hGMDRPcFB2c215VmNNSzVlLU9kMkRlUzJSTXQ1Rm1qeDhRdTdmS2Z4aXV5bkZZWQ?oc=5",
+      "published": "2026-04-11T10:00:56+00:00",
       "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "Noticias de El Trébol",
+        "url": "https://canal1.com.ar"
       }
     },
     {
@@ -481,6 +481,16 @@
       "source": {
         "name": "Fenix 95.1",
         "url": "https://www.fenix951.com.ar"
+      }
+    },
+    {
+      "id": "cf053db464b1",
+      "title": "Exámenes médicos gratuitos, consultas de salud y distribución de medicamentos para las mujeres socias. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMWQ3RFFhSm4yNkpGTlNiLVNCdV9XZng0dnRlSnJDOVJ1UWVuSHpabjV6QkJWaE51MEpzVkJxaTFIbmQ4TTVlVDNxS0dnQVp5YzZMYWRUVXFYT0U4c2VIVUpKMVVCY1VLUEZKVFZsRi1TWFFweV8ycE1TQ2JfaHJlMVltdTdyMXlYZHN1U1o4WnBxM2VSMk5wNU9Zdw?oc=5",
+      "published": "2026-04-11T06:34:42+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -504,16 +514,6 @@
       }
     },
     {
-      "id": "cbacc381c0db",
-      "title": "OSDE negó tratamiento a una diabética de 76 años: la Justicia falló contra de la prepaga - iProfesional",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPb3dKUXNPTUdYc1lHbFAwMlNuVWotblRQRll6TGFTZ1FXSUVqZWIxaHh0dDBlMlIzTDBGdTk5aGVHNVhwWklTeTJsdk03dzRVbUdDOWxYVVZ6ME9oTTRxeUlBVlpMWG02UE5FamxxSWNfamFrMmhTTENiZURVU1NtazVoUkNOMzEweG5tRXU2QThMY3JtaGN3T2RSYnhhQXJTZ21NbVk0WmR0M2hmSlZLMHIzSHF0RG5FZjhqVUo1YlJOVmpaeDRrdtIBzgFBVV95cUxOa0NVT3NqelNWZzczRWY2c1pqX3dPdjFpWWpKczlMRXNUTVdhQ09nSl80MU82Z2w3MGkydjZlRUhkVlNTM2Etb1hTR3BCTF9NWTNwV2hMc3NQLU5KMmpEOGhrb0FGM2dacnRRVXNNX3hTb0N4TEt3azNkYkxDUkZIbm5pRkV3TUNVYllnb25lMXRlTWJRRnVheC1ncVJBMGF2TF9mRTlnc1hkWG0zeDNPZzI3aEYzWkliZUMtWUVzQVotRGIyU2J6Q0hHbWdsQQ?oc=5",
-      "published": "2026-04-10T22:55:00+00:00",
-      "source": {
-        "name": "iProfesional",
-        "url": "https://www.iprofesional.com"
-      }
-    },
-    {
       "id": "ff8404ac4e80",
       "title": "ANMAT: alerta sobre sistemas Medtrum - pharmabiz.net",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE94TE5Na05URmxySEVWVm1QWDFMTVBNWFNKZFdZLWRFNWhzVHJ0eUdBTDJGa0NxUG1WSUdvM0NQUDJIcC1SanRVZU1jTzEzaUZ6WGpHYjZUME1UOVV0a2thZTZmbGhCX2NkYUhUQ3BoSQ?oc=5",
@@ -531,26 +531,6 @@
       "source": {
         "name": "La Gaceta",
         "url": "https://www.lagaceta.com.ar"
-      }
-    },
-    {
-      "id": "ef8e61112f66",
-      "title": "Crisis en salud aumenta ante medicamentos vencidos y falta de infraestructura - Canal 6 Honduras",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVkpqa0NFbW1ZUDR4bUlSWEthclVQUVF5QWxLNFdJZ0s0VFV1UU16eEE0dHVfa3RGUzBlNEszMlprc1QwWUZIREZaMWxfRGVrY0N4aXVVRHVqUUlpcmZQQjJwTEJISjdTajFpaFZsdE9uc2xEVWNfZy1DZW5pblFWeDREbVl1dXlMRDg1Sm5lWGZCaXVvVVo0NVF1cVctOFMzRUs1R0RLWTFWYXBGbVNn?oc=5",
-      "published": "2026-04-11T00:55:24+00:00",
-      "source": {
-        "name": "Canal 6 Honduras",
-        "url": "https://canal6hn.com"
-      }
-    },
-    {
-      "id": "7e01b05065eb",
-      "title": "El director de Hospitales de Gaza afirma que la escasez de medicamentos alcanza el 50 por ciento y que las operaciones cardíacas se han paralizado por completo debido al bloqueo y a la agresión israelí. - Qatar news agency",
-      "link": "https://news.google.com/rss/articles/CBMi6wJBVV95cUxPOVVjUFd1bkk1aUFHSi1XTm1KQ1Jnem5nNjBDU0R2Y0JpQUlYSV9iYUxYYllyT0J6U2hZQzJsQXh5a2JNbjd3dmYxdjVMdzh2aDhkUmlyZDhUTmFXWnF0cW1obFFOMWVmeWFTSl9zeXBDT2NzRnNYV2lxekROVExiLU42UGo3cmp5OW5NVDRKU0Z6aGl5XzhZT0Y5a2UxRGRaWUZiOHJxY0N2cC1tMDhuZ2FfS0ZVTGEyc3d4QUtBQmtKRWZlVV9OdmdEWERkcHl1WE5TcTBsY0R4T0FsVE9TeEVBQnZ6dG1DSWFLVG00X1A4Z3cwM0JLVS1jZmVHc1FHNHE4ZlVudm9IdzhsVDNEV3dnSDBWSHNQMTFRVjdzT2ZvYlRNeUE5ZkM1TjZ4dlN6NUFBdmlnR2VlQ0ZCYVFKYl9RNVJ1ZzlTWFp4dzQ5NTlBWEllOFlrRGF5MTYyWVpZVXNWd1pNcUd2RkE?oc=5",
-      "published": "2026-04-11T18:35:45+00:00",
-      "source": {
-        "name": "Qatar news agency",
-        "url": "https://qna.org.qa"
       }
     },
     {
@@ -584,16 +564,6 @@
       }
     },
     {
-      "id": "f5af291e2d95",
-      "title": "ANMAT dio de baja a HLB Pharma y Laboratorios Ramallo por irregularidades críticas - El Litoral",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPd0Z6VUtaNmprX214YkJTbC1qX3Z0dm9MZF9mUFg3VUlYaWU0R1FxcklMUzAyLVk1UlFIR29BYWRQMEdDUzIwMVk0UWpCQjY5MWRBdnBlcXYtdHZsMEpHMWFENUlRZW1ILUx5VTYteVJoS25uZ0lSYXNsWWNScmY5cHp6OXRCOWpTT3haS1FCUHotWjVtWFk4NlVEeGVvdTJoRnBjdTdnc0tFUGlPRGc2RHY5WEhQd9IBuwFBVV95cUxPZEpVbThhUlUwVFJUZXM0MWJGeEtCclRLb1VrU29KWmtLeGw2OURMekxNOFhxTHRKMnNxY0FvbVhuYnJmUm4zTDNPTWZObnpYWmVqaE5BRVhmQ0IteTFyNTVfMjZRXzhld1c4VTVZbzROWjE0Uzl6UXlJVkVTTlJNbzVET1g1bDJLRk1GMDVoMXU3RDlKY1pHMmgtM2k1Q3JGdHVndGJJOUljcVNJbExfSVhyR3VQTDNoNWFF?oc=5",
-      "published": "2026-04-10T11:32:11+00:00",
-      "source": {
-        "name": "El Litoral",
-        "url": "https://www.ellitoral.com"
-      }
-    },
-    {
       "id": "10ced6f1a261",
       "title": "Plan Remediar: se encendieron las alarmas por el avance del final del programa - Diario Digital Conclusión",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQX2g4dlpsRldvYlFhZG81S2ZWeEY1VTdrZ0ZteXU5ZTJmRmhoYkdfZlVIeDY0OElMSlVwaVFvTDlUbTV3Z3NuS2dPYm5wMXd3V0xoaG92QzZaQkFYNUszZEdBdzdoQlZVOXVkbmNKeE5EYUJWcXJLaG16WHlFOTdHMzg0VmM5ZnFqTzlPVlA1dFlQMlVTd3RXdmY1VDl0TmtHZmZrMDV2czRRZGliYUJhODM4WEtUM1M5a3E1T1R2eXVUMGc?oc=5",
@@ -604,6 +574,26 @@
       }
     },
     {
+      "id": "f5af291e2d95",
+      "title": "ANMAT dio de baja a HLB Pharma y Laboratorios Ramallo por irregularidades críticas - El Litoral",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPd0Z6VUtaNmprX214YkJTbC1qX3Z0dm9MZF9mUFg3VUlYaWU0R1FxcklMUzAyLVk1UlFIR29BYWRQMEdDUzIwMVk0UWpCQjY5MWRBdnBlcXYtdHZsMEpHMWFENUlRZW1ILUx5VTYteVJoS25uZ0lSYXNsWWNScmY5cHp6OXRCOWpTT3haS1FCUHotWjVtWFk4NlVEeGVvdTJoRnBjdTdnc0tFUGlPRGc2RHY5WEhQd9IBuwFBVV95cUxPZEpVbThhUlUwVFJUZXM0MWJGeEtCclRLb1VrU29KWmtLeGw2OURMekxNOFhxTHRKMnNxY0FvbVhuYnJmUm4zTDNPTWZObnpYWmVqaE5BRVhmQ0IteTFyNTVfMjZRXzhld1c4VTVZbzROWjE0Uzl6UXlJVkVTTlJNbzVET1g1bDJLRk1GMDVoMXU3RDlKY1pHMmgtM2k1Q3JGdHVndGJJOUljcVNJbExfSVhyR3VQTDNoNWFF?oc=5",
+      "published": "2026-04-10T11:32:11+00:00",
+      "source": {
+        "name": "El Litoral",
+        "url": "https://www.ellitoral.com"
+      }
+    },
+    {
+      "id": "7e01b05065eb",
+      "title": "El director de Hospitales de Gaza afirma que la escasez de medicamentos alcanza el 50 por ciento y que las operaciones cardíacas se han paralizado por completo debido al bloqueo y a la agresión israelí. - Qatar news agency",
+      "link": "https://news.google.com/rss/articles/CBMi6wJBVV95cUxPOVVjUFd1bkk1aUFHSi1XTm1KQ1Jnem5nNjBDU0R2Y0JpQUlYSV9iYUxYYllyT0J6U2hZQzJsQXh5a2JNbjd3dmYxdjVMdzh2aDhkUmlyZDhUTmFXWnF0cW1obFFOMWVmeWFTSl9zeXBDT2NzRnNYV2lxekROVExiLU42UGo3cmp5OW5NVDRKU0Z6aGl5XzhZT0Y5a2UxRGRaWUZiOHJxY0N2cC1tMDhuZ2FfS0ZVTGEyc3d4QUtBQmtKRWZlVV9OdmdEWERkcHl1WE5TcTBsY0R4T0FsVE9TeEVBQnZ6dG1DSWFLVG00X1A4Z3cwM0JLVS1jZmVHc1FHNHE4ZlVudm9IdzhsVDNEV3dnSDBWSHNQMTFRVjdzT2ZvYlRNeUE5ZkM1TjZ4dlN6NUFBdmlnR2VlQ0ZCYVFKYl9RNVJ1ZzlTWFp4dzQ5NTlBWEllOFlrRGF5MTYyWVpZVXNWd1pNcUd2RkE?oc=5",
+      "published": "2026-04-11T18:35:45+00:00",
+      "source": {
+        "name": "Qatar news agency",
+        "url": "https://qna.org.qa"
+      }
+    },
+    {
       "id": "80889b0545d5",
       "title": "Ajuste feroz en Argentina: el Plan Remediar entregará solamente 3 medicamentos de 79 que entregada - Corrientes Hoy",
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZERyMDFzY1FqSUF4bnZ1WDlvQV9PTGx5YjVNTl9UUVpRd2Vub2UxVWhoS3R3SVV2QndJVWd2ZzhoQ29SRHNuWmdvcWpla21tZXl0bTBKdkF4dEt2Q201OGx4MmUxdXN6akREWFB3WDRQV2pIS2RlNDIwQktMeGFoOVJ6b0lDaGJodTI1c2NwN3h4Qjd0X1BtQ1VZOTFfT1NUQ0pCQktJcUlRS1lCd3BnWXo3Mk1nRnZ5Y0RmTWF3QjJCU2RzYkJCWWRDeGd5TzhQMkcw?oc=5",
@@ -611,6 +601,26 @@
       "source": {
         "name": "Corrientes Hoy",
         "url": "https://www.corrienteshoy.com"
+      }
+    },
+    {
+      "id": "cbacc381c0db",
+      "title": "OSDE negó tratamiento a una diabética de 76 años: la Justicia falló contra de la prepaga - iProfesional",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPb3dKUXNPTUdYc1lHbFAwMlNuVWotblRQRll6TGFTZ1FXSUVqZWIxaHh0dDBlMlIzTDBGdTk5aGVHNVhwWklTeTJsdk03dzRVbUdDOWxYVVZ6ME9oTTRxeUlBVlpMWG02UE5FamxxSWNfamFrMmhTTENiZURVU1NtazVoUkNOMzEweG5tRXU2QThMY3JtaGN3T2RSYnhhQXJTZ21NbVk0WmR0M2hmSlZLMHIzSHF0RG5FZjhqVUo1YlJOVmpaeDRrdtIBzgFBVV95cUxOa0NVT3NqelNWZzczRWY2c1pqX3dPdjFpWWpKczlMRXNUTVdhQ09nSl80MU82Z2w3MGkydjZlRUhkVlNTM2Etb1hTR3BCTF9NWTNwV2hMc3NQLU5KMmpEOGhrb0FGM2dacnRRVXNNX3hTb0N4TEt3azNkYkxDUkZIbm5pRkV3TUNVYllnb25lMXRlTWJRRnVheC1ncVJBMGF2TF9mRTlnc1hkWG0zeDNPZzI3aEYzWkliZUMtWUVzQVotRGIyU2J6Q0hHbWdsQQ?oc=5",
+      "published": "2026-04-10T22:55:00+00:00",
+      "source": {
+        "name": "iProfesional",
+        "url": "https://www.iprofesional.com"
+      }
+    },
+    {
+      "id": "ef8e61112f66",
+      "title": "Crisis en salud aumenta ante medicamentos vencidos y falta de infraestructura - Canal 6 Honduras",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVkpqa0NFbW1ZUDR4bUlSWEthclVQUVF5QWxLNFdJZ0s0VFV1UU16eEE0dHVfa3RGUzBlNEszMlprc1QwWUZIREZaMWxfRGVrY0N4aXVVRHVqUUlpcmZQQjJwTEJISjdTajFpaFZsdE9uc2xEVWNfZy1DZW5pblFWeDREbVl1dXlMRDg1Sm5lWGZCaXVvVVo0NVF1cVctOFMzRUs1R0RLWTFWYXBGbVNn?oc=5",
+      "published": "2026-04-11T00:55:24+00:00",
+      "source": {
+        "name": "Canal 6 Honduras",
+        "url": "https://canal6hn.com"
       }
     },
     {
@@ -674,16 +684,6 @@
       }
     },
     {
-      "id": "70c88f61351a",
-      "title": "Hija de un paciente crítico denuncia falta de medicamentos y sábanas en Hospital de Ñemby - ultimahora.com",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQT0lrazl3Q0hwN2ktdENVWkt5TEZxY0dYdXJWdnB4STE4aVc4M0NWV1N2Y1h6QThsZTJwR1pRZzZrTFZOX1d2YzFSVmNwNF9KRzV2eE9mRERaM3g4dkJ2eVF1Tl9IZkQ1NXJBVE9ONHJ2Q1JGb244WGROVVJMY3lYTFFDRm9mUnpvaHd6dzVXM05xYU9yY2VxU3BhVm5vTksxUmZGUTVzeHE5V3k2Y0EtejJBaUdwNVHSAcQBQVVfeXFMTUlfLUVyV0FhTnNYZ0djYzZ6ekFnM3dCQ2ZRQzM4bXJ3REFQMF9MTjhBWkZ5OG41SjQ3bFFIUld1eG91WUhsY2FoUDJOQmViXzVYT1U4b3RIcGl2bW1aTlhrUktNdW1wNEFZbVo1ejhJSDYzZl9TUi1NUUw1bzVzVklJOFpOSmZKNDRid3BhZnhVLTdTMUl2cVNnMU5JRG5aUWZ3TjlGcF91RXhrY192OEpISE45TGZscFdqcThSTFlWb0E0Yg?oc=5",
-      "published": "2026-04-11T19:34:00+00:00",
-      "source": {
-        "name": "ultimahora.com",
-        "url": "https://www.ultimahora.com"
-      }
-    },
-    {
       "id": "7cf2e3aa3710",
       "title": "Salud: La gestión provincial licita medicamentos y suma telemedicina para fortalecer los hospitales - Gobierno de Santa Cruz",
       "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQT2luNHN1YVN6WXB2T3BfY1l0VEMzaDZhMXp5N3p1M1VacGxGMzlmVFdZZlJZZmhlLWxELTFDVnQtdWh1d2x2bFgyWmlMdXYwQk12MVNJb3F2Q2JWUGdGRERpN0FxRFVHLWk3c0tnZXFfNE5HRllzd096bGR3b0xQNnQyTmhtdWV1ajR2MEQ5QVA5Z1VBbWdtVklrUWNlU2hxakJOZlJITVpuQlFENWdIajhUVXdyOWQ5TmhrRVdvb3VtX0JjcU43TW5kWDJPdk5KMFdBMjBUV0dNT0k5Q2UwM3VyNkUxME9Xb0llT1ZQOUZqdXNsa1ZXbllTbWE?oc=5",
@@ -694,13 +694,13 @@
       }
     },
     {
-      "id": "cd1c04a78287",
-      "title": "PAMI Chascomús llevó tranquilidad a sus afiliados: la atención médica y los medicamentos funcionan con normalidad - El Cronista | Chascomús",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZGJjWkk5dmo2WFg1VlYtU2duNUxKWklqcUlBUUt6ejljSXgwUlROQXVFTDFWSllBTWR2Z1B0VkNaRGJkU2VBX2FXSW0zWTQ5bklJYmtORXpYaFJRSmxfaFN5TnpIYlpRMEp2bmRUamVhQTdUVDlQazdTRDlhVHIwWE92LUk3NlJfOFNUajZWSUlFRXRha2JLdndMTEVpbnN4TVdmSlV0cWh3dnhsdGpaSjMxYmlySy1zMW5QMHk4UXprS1d0Vk1mX0d3R09LOW41b1RNOQ?oc=5",
-      "published": "2026-04-10T14:52:00+00:00",
+      "id": "70c88f61351a",
+      "title": "Hija de un paciente crítico denuncia falta de medicamentos y sábanas en Hospital de Ñemby - ultimahora.com",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQT0lrazl3Q0hwN2ktdENVWkt5TEZxY0dYdXJWdnB4STE4aVc4M0NWV1N2Y1h6QThsZTJwR1pRZzZrTFZOX1d2YzFSVmNwNF9KRzV2eE9mRERaM3g4dkJ2eVF1Tl9IZkQ1NXJBVE9ONHJ2Q1JGb244WGROVVJMY3lYTFFDRm9mUnpvaHd6dzVXM05xYU9yY2VxU3BhVm5vTksxUmZGUTVzeHE5V3k2Y0EtejJBaUdwNVHSAcQBQVVfeXFMTUlfLUVyV0FhTnNYZ0djYzZ6ekFnM3dCQ2ZRQzM4bXJ3REFQMF9MTjhBWkZ5OG41SjQ3bFFIUld1eG91WUhsY2FoUDJOQmViXzVYT1U4b3RIcGl2bW1aTlhrUktNdW1wNEFZbVo1ejhJSDYzZl9TUi1NUUw1bzVzVklJOFpOSmZKNDRid3BhZnhVLTdTMUl2cVNnMU5JRG5aUWZ3TjlGcF91RXhrY192OEpISE45TGZscFdqcThSTFlWb0E0Yg?oc=5",
+      "published": "2026-04-11T19:34:00+00:00",
       "source": {
-        "name": "El Cronista | Chascomús",
-        "url": "https://www.elcronista.ar"
+        "name": "ultimahora.com",
+        "url": "https://www.ultimahora.com"
       }
     },
     {
@@ -774,13 +774,13 @@
       }
     },
     {
-      "id": "7383778d1a27",
-      "title": "Alarma y preocupación por el drástico recorte en el Plan Remediar: de 79 medicamentos pasará a entregar solo tres - LT7Noticias",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOTVdPTzJMQ2VPYTU3M2R5Ri1weVRVUXpNTjR1R3FYb2lBU0NuRkEzRWJieDVDM2Y0MGxEcThON2ZPaDdIdnBiZklSazZUZWdEcjNxWndzcGdnandNcHd4bXU2NnhsS3huODR1OXl0eEh1MXNZVEJXUUphN1dUbE1TLXhGdG9YbWFFM0diTFVJXzlTYlo0VlpIMm9tWV9hbmRFU1VOVV9ZcVVUUnZXbUpnMDhYTldLVTN0TkhCQU9iVlZKM3dGXzlYeXl2Y1c2X3JEZVFWamZTa2JvYXZCTFRn?oc=5",
-      "published": "2026-04-09T13:06:10+00:00",
+      "id": "5451d1d452b2",
+      "title": "Medicamentos esenciales - World Health Organization (WHO)",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5SSmk4R0Z0OGVxMlMwNm1lNkN1d1Z3VC1vQV9xNWs0Umh2OVdyVE5ldVFsdUsxWnZvaXVpZTVzSzVJY1RnQTdzX0pfNFQ4OTBkWHRudnBpZWI2Wi0yR2FGWkpMSEQwRnpEeU1oUDBmVUdFVUZIN1h4WE1Gcw?oc=5",
+      "published": "2026-01-26T08:00:00+00:00",
       "source": {
-        "name": "LT7Noticias",
-        "url": "https://www.lt7noticias.com"
+        "name": "World Health Organization (WHO)",
+        "url": "https://www.who.int"
       }
     },
     {
@@ -794,16 +794,6 @@
       }
     },
     {
-      "id": "5451d1d452b2",
-      "title": "Medicamentos esenciales - World Health Organization (WHO)",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5SSmk4R0Z0OGVxMlMwNm1lNkN1d1Z3VC1vQV9xNWs0Umh2OVdyVE5ldVFsdUsxWnZvaXVpZTVzSzVJY1RnQTdzX0pfNFQ4OTBkWHRudnBpZWI2Wi0yR2FGWkpMSEQwRnpEeU1oUDBmVUdFVUZIN1h4WE1Gcw?oc=5",
-      "published": "2026-01-26T08:00:00+00:00",
-      "source": {
-        "name": "World Health Organization (WHO)",
-        "url": "https://www.who.int"
-      }
-    },
-    {
       "id": "4aec68027c70",
       "title": "El lecanemab para alzhéimer y otros 4 fármacos reciben un 'no' de la CIPM - Redacción Médica",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZkd5Vm5fVm5jNTBwaVlid0RWRXkwY0VJOHo2NlZDQm1JcTZsajJRRTNFNVQwYU96NFB5eVMzY214RERLM1FCeUlRT05IM0NfUG5mYWtWUUxEZlM4MWpmc2NRUjhXVUtjSlBEN2lVSHU0MHVHMDAtRzFxem80enVjWDNiX3dSdmt5cEN6ZktBUGFTN2VhdVVHQndjWXpFYXhFU00yb1Bfem1EWHVsUl9pdFhIRW9jNXBubkdTSjctc25uTGR3M01B0gHHAUFVX3lxTFBhXzZucm9YNmdXbHdZdVlDM3FsVkxYOGxhdjQyNXpNTmhWaHRSSmpFRHhKZ2U1ZHk4d1pSVGY0MVpfczAySXVya3g0Z3BXX0N3T1RwM0J0ZEFoTzJXbkowTVpLS2tlRE1fQ0R5eWNrM1hicVFrV2stTFVhVmhjZFFSdDBaZjFPTzIxb1JjRUVRRGE0Z3hXaFRJTG5IdGc1WHFFQ1ZaMEl0QTNvbElrQzB0NkZGRllGUzg2X0I3VTVLV2c4VVExYWs?oc=5",
@@ -814,16 +804,6 @@
       }
     },
     {
-      "id": "ec70b6db8bb1",
-      "title": "PAMI medicamentos gratis en abril 2026: ¿Quiénes acceden y qué cambió en Catamarca? - La Unión Digital",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZnJPQ2p4dEpCemxwMnBldldaV1VVWkJNMG9pQXJjZHF3QUZXTmVVaWhJNDEwQjNBVjFNeUVoTHY2TTZiTXdrcjEyWUJTSHpDUVlLOWJleTVYeEpwbDhBYV83NlQyRXpGYS1OQUFxV3F0blpEY2NXcEhUaFJ2YUFtQlVUdHhfRFh2WGZvVng5azNTbWlJVlotTmdMeDBZWl9Ob1BaVVQ4aW9WUy1zVWpzSEthONIBuAFBVV95cUxNa1ZYTXlCSDdLZGZVVzIycW5ER0ZhYURlTEgxeEt6MGFhWTMxTUdONndqQl9mLUNFQzNZU2pWRU1wd3lMWktwQXVhTkkwUl9UandibnZJUWFVcXhyV3JwOXQxOUVSRkw2R3huTlp5VFRhUm82TXZTRkZlZWpqeWVEQWE4T3VKemQxb2txaEltOURhcnFFS3BGai0yR1lJQjhtWS1HYWpkc19pMVp4WnFQamg5M213QWZV?oc=5",
-      "published": "2026-04-11T12:15:00+00:00",
-      "source": {
-        "name": "La Unión Digital",
-        "url": "https://www.launion.digital"
-      }
-    },
-    {
       "id": "32fab0b7b148",
       "title": "La ANMAT cerró definitivamente HLB Pharma y Ramallo por el caso del fentanilo contaminado - todojujuy.com",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNV3ZHaUhoQzhmQ0VzbWZaVk9kNE5GTjRCSTNMSTk0S0JGWEI2WFpETXJFdzQ3MnZudm1lS205U2o2bWNFMDk5LS1OR3B4Qnp2eU5WZW1leUZkTk41U2xCa2VzQXNGMjczMC10WTM5ZEM0djAtQVNuVlFnR1BmSTI0U3FIeFFOXzB3YXZHRzdwcnVMdm90aTFPa2loZEpydGFGTjRLRktReGp2TUt5ci0xa3dVMzIzV0tfbS03YTRiVVFnRUXSAcgBQVVfeXFMTlhzUTRUclJ6anowUnk5aTdQUGVNeVZBQUNEQ29YYU9rWnZJV1h0ZUJIT0NlclJoNFRzSmZMNVdjVEZJUU5fZFBiR1FhYjVDTUpUVmtqbjUxVE5mTDdyLUpUb2tOdmozanh4YXp2STdEaHVfSmM4WDBvdXZ0cEIwZm9zcFdVNldtcnZxU0txczI1WGd0MFNMWDlTVkltcllrLTRxV19Zc0dzejN5b3FpU0c2VTEwUktmcUF0TkdnOFJGRVA5RVFlVEE?oc=5",
@@ -831,6 +811,16 @@
       "source": {
         "name": "todojujuy.com",
         "url": "https://www.todojujuy.com"
+      }
+    },
+    {
+      "id": "ec70b6db8bb1",
+      "title": "PAMI medicamentos gratis en abril 2026: ¿Quiénes acceden y qué cambió en Catamarca? - La Unión Digital",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZnJPQ2p4dEpCemxwMnBldldaV1VVWkJNMG9pQXJjZHF3QUZXTmVVaWhJNDEwQjNBVjFNeUVoTHY2TTZiTXdrcjEyWUJTSHpDUVlLOWJleTVYeEpwbDhBYV83NlQyRXpGYS1OQUFxV3F0blpEY2NXcEhUaFJ2YUFtQlVUdHhfRFh2WGZvVng5azNTbWlJVlotTmdMeDBZWl9Ob1BaVVQ4aW9WUy1zVWpzSEthONIBuAFBVV95cUxNa1ZYTXlCSDdLZGZVVzIycW5ER0ZhYURlTEgxeEt6MGFhWTMxTUdONndqQl9mLUNFQzNZU2pWRU1wd3lMWktwQXVhTkkwUl9UandibnZJUWFVcXhyV3JwOXQxOUVSRkw2R3huTlp5VFRhUm82TXZTRkZlZWpqeWVEQWE4T3VKemQxb2txaEltOURhcnFFS3BGai0yR1lJQjhtWS1HYWpkc19pMVp4WnFQamg5M213QWZV?oc=5",
+      "published": "2026-04-11T12:15:00+00:00",
+      "source": {
+        "name": "La Unión Digital",
+        "url": "https://www.launion.digital"
       }
     },
     {
@@ -864,26 +854,6 @@
       }
     },
     {
-      "id": "103bb558e6f8",
-      "title": "El viceministro de Salud: Otra pérdida millonaria por más medicamentos vencidos - Diario La Tribuna Honduras",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSkZidVAzaWN3WmRPdXBNUkRjVUF4TXhVemlCUEl1V0ZfSDk0MmRSNjZ6OHdtTTJ0R0x6RDRnYTNEUTJWOTllMnBqMnh0VVdkcUQ2NnhZb1FJQzItT2NvT29KalFLUkdjV2FqUks5dTY2clh3YTVMRVRkbTFQc1dPMjJ0WWJONy1IZzVTQ0Z3MVJpQlg4YUhnVEh0MEVxcTVPel9abHIxckt6QWI3eGVJLUZtbF9qZw?oc=5",
-      "published": "2026-04-11T10:00:55+00:00",
-      "source": {
-        "name": "Diario La Tribuna Honduras",
-        "url": "https://www.latribuna.hn"
-      }
-    },
-    {
-      "id": "dedc4ae63215",
-      "title": "Nuevo estudio sobre resistencia a los fármacos de Leishmania donovani, con coautoría de la científica venezolana Dra. Alicia Ponte-Sucre - La Web de la Salud",
-      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPTWVFRnNibk9xV1RiUVlhNm1OWjhaWmhJSGNXMEFoLWRJUmE5UE5DQ3J4cno3YUxaUUpGQ3A4TUszaG9qaUhnSnNOZTRteHk3ZGRabGd4d2d3eThuSjVhM05aMUVZaU1oUDR0UGxscEswNlBPb2FRMFNieEJsNFN1RVM3Q0J2V0dfblFNMHVya1Bsek02U2tIZGxZSUFKVE5DV0lKRlNPUGJyaXVmd1NUVlZhSk81TkJDQ3ZEU1NMZ2ZjblFkMmJidUxFVzlKRkJyUzM2aktXUHJqODVBTWhPVG9GbDE4bGhLcWRfc0pQa09YX0N3?oc=5",
-      "published": "2026-04-10T18:26:22+00:00",
-      "source": {
-        "name": "La Web de la Salud",
-        "url": "https://lawebdelasalud.com"
-      }
-    },
-    {
       "id": "a026531ce4c3",
       "title": "ANMAT dispone la baja de habilitación de varios establecimientos de medicamentos y especialidades medicinales - Argentina.gob.ar",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQM1JyRDBKSlBma0p4cElsTlJ6NWRVLVZha3JiclVPSEZ1MUIyTlFaM09ESEd6NXVoQ2s0UGxEVEpGQXQ1ZGhjUWhCSjdNaXFMTkxHb0I0MVRSRmVORS1SRmRERVFzVV9hX2ZEdnFvQ093Q1lNTzI5NU5temEzdG90SzFjX1NlQzNhQlVOS1F2OUV6akJodXFZTUJTNGRBSGxFWlpXMmJVdjNmTGVGUXp6RmNrRGNXbnJhMHUxMw?oc=5",
@@ -894,6 +864,16 @@
       }
     },
     {
+      "id": "103bb558e6f8",
+      "title": "El viceministro de Salud: Otra pérdida millonaria por más medicamentos vencidos - Diario La Tribuna Honduras",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSkZidVAzaWN3WmRPdXBNUkRjVUF4TXhVemlCUEl1V0ZfSDk0MmRSNjZ6OHdtTTJ0R0x6RDRnYTNEUTJWOTllMnBqMnh0VVdkcUQ2NnhZb1FJQzItT2NvT29KalFLUkdjV2FqUks5dTY2clh3YTVMRVRkbTFQc1dPMjJ0WWJONy1IZzVTQ0Z3MVJpQlg4YUhnVEh0MEVxcTVPel9abHIxckt6QWI3eGVJLUZtbF9qZw?oc=5",
+      "published": "2026-04-11T10:00:55+00:00",
+      "source": {
+        "name": "Diario La Tribuna Honduras",
+        "url": "https://www.latribuna.hn"
+      }
+    },
+    {
       "id": "f230a26b994f",
       "title": "La IA en el desarrollo de medicamentos impulsa terapias más precisas en menos tiempo - iSanidad",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQejlFVzFMQTZ5LXBJVGg4Sk1fZHgtbEs2bThYYV9yRk5TWGZzZmY1V2Z4TWdfX0FZN3AyNFNqUWtKOHdBQUVoNHk4cU9FWUJxZEY1bEppX243RXItN2hWYTFwNGFvZ3pJVTMydVVVNnBZQnJNckVDYW9Qd0xKbklXcGhvQ0FLMS1oQlNFXzBsTUFibnZtelVhUkxXQXEydURwakxIYnBRLVRrNzhsQmw2cXR6UQ?oc=5",
@@ -901,6 +881,36 @@
       "source": {
         "name": "iSanidad",
         "url": "https://isanidad.com"
+      }
+    },
+    {
+      "id": "e2f6b8a4f695",
+      "title": "Traba legal frena la entrega de fármacos contra el VIH por la OPS, según Salud - ABC Color",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxON0poc3AycFZOVk9NWmh6bEpMOTZNUTFWSHFXamN3Rk13aGd1RGdINVhrTWFZc2J6U3JPa2FaNWpaOFd3bERKUG1LUXdtZVN2eXM2RUp5enh6dWhBS083azUtUEtpS3VtMHZRa2V2MXZxd09KeEdiU3otX0cyaGYtT1VCUDZoSDRCY09jRlozWlBObVJPOHV4RFBDZGFnOWNRTDgxNjJnRzNXNlVtUkNvTXR2WGIwenI3R3paeldGY3jSAdQBQVVfeXFMUDI2NTliNTV6SFVMODFYQ2ZiNTJETTJWUWJteEh4dTVMY1lmc3MzeExLX3M5T0lMcks2dDRWZzdGSWhUdlAwbExMXzc3ck5kaUpfVXFZZTVubVFiUVR3YlJGamVkTGpVcG9NbncteWFIM0EzdWo2OGl2anNRVlh5X1owYUNTMXVjb2VUT2VuOF91dHdieFZaWWdlRnRTU0Z5S09rcEt2dE5VNDdFZUJ5WUIzcDI1ZTZHNW1sdjg2N0xVLVUyVVJTa0hxR1FsNTdMQTZiVzk?oc=5",
+      "published": "2026-04-10T00:19:00+00:00",
+      "source": {
+        "name": "ABC Color",
+        "url": "https://www.abc.com.py"
+      }
+    },
+    {
+      "id": "f228c93f21df",
+      "title": "Salud Publica ante casos de intoxicación /Reforzaría controles en medicamentos de venta libre - laprensa.com.uy",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQakJxY3JDM3R1ak9nVXRsaG0zbkg1ODZ2RVlBQTN3bFZDdU9tOU9YSEhxV1haYjNyNHp3dGJmLWNkT3hTOVoxYkIyRDh5RU1Ic3doWnJfWW9YRWJlbVRRbnhpZnluSWh6WVFRMHpUSWZQZ3hVa2RpNy1TMjhEbW9PR2J1dGJkMDBMejFxcUFRN3lPTUY4c0N4NUxHSXVtaDlHSVozM3JuNjhHTkdWODVsT3Y5bUhGYmRLd0FQRWhkZ2Vua2dwOFJSSFJ0c291azFraEwzbFV3UTVXc3R1?oc=5",
+      "published": "2026-04-11T15:44:03+00:00",
+      "source": {
+        "name": "laprensa.com.uy",
+        "url": "https://laprensa.com.uy"
+      }
+    },
+    {
+      "id": "250633cf1050",
+      "title": "Desmantelan fábrica clandestina de medicinas vinculada a grupo delictivo en Guayaquil - El Comercio",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOUG5WRnVLOER6bEdULVFUVmxDalBtUV8yNURmVHM1MnpRZFNGaTV6cEUwb1BrNXRCV2JHRDF3Q2Y1TUlFWGNNVWZYbXpLdWhkVF9sSmF3dmhmdTRURkczYmRvTHpzRXptRGlGNkYzLTlYaG01dEQwZ0t6dTVPd294SEZVb1VxTV9WaVl1bUF4TWlpN2JQSXFsLXE3cG5RRlRBQkZ5M3BNeDVGVnhLM1JxY2xmeWVuQXZ3UE9tdlF3MHN5ZVZtMGpneWpjMUFqa0E?oc=5",
+      "published": "2026-04-11T21:30:49+00:00",
+      "source": {
+        "name": "El Comercio",
+        "url": "https://www.elcomercio.com"
       }
     },
     {
@@ -924,26 +934,6 @@
       }
     },
     {
-      "id": "483cf3f911eb",
-      "title": "No mezcles jugo de toronja con estas medicinas - El Informador",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRkhCSmUzSkxOY1JGWkJGekt2UG9nWVN5U3l4V08xblVpSEUxdURjVVl6dF9ESnpqQmp2RGM0ak96YVZHaWQ0MDZTVE8wOWF2bTN2NVlZTENRNFZHcVRjcV9URzluTF93WjZaTW1mQzdIMllSUnFndzE0S1pzV0lHYnctUHhJOVpOTUFkeVFuZlZEX2l0R1pXTE55c3UxR2vSAaQBQVVfeXFMTlc5czBXVktiUW9tVnZ0Q2xGaENpY2ZXZ09EMk5Za05KZXZxWDE2TGxtRGRickNHSVVKNmRwbGRkeFU5cnFjVTBMdlRUaS1WVE5zVWJPV3UxLWtDM1EwMTJlXy1raDQ1NWdoR3BfMUkyZGdWQnNvdWZ1V0NZekxUNnpIWURUSjRmWnhqMjN5Q0RkWUJXSHlHYUxsNGFHTThzQlFkMTk?oc=5",
-      "published": "2026-04-11T16:30:00+00:00",
-      "source": {
-        "name": "El Informador",
-        "url": "https://www.informador.mx"
-      }
-    },
-    {
-      "id": "81b00cc39e70",
-      "title": "Programa Remediar: el Gobierno avanza con la motosierra en la entrega de medicamentos gratuitos - El Intransigente",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNd2V3bTU0ZlQydDB4bXA1Tk5tTkwyWFJpaWh2SUxvMFhYS3FGdzFQTkVOREdrclFFRFFaYXVZbDU1VWtmeUw1cXhRTU9sV0NQS0dUamRMWmhYbzJrNjJPUnNXVHNkUUVMMXgwUkxybGVjbEdCOTVQTGF0MDlzbldaSHJ1cjE4N1ljTUpBSTVtQkNFNWZGN1p0QmtiaXRTOGJrN05YQXFhbWpsOS1aVnVlYzFJODJnU21zRTVvRkM0X25STWI0TF9UOUp5cw?oc=5",
-      "published": "2026-04-11T00:51:39+00:00",
-      "source": {
-        "name": "El Intransigente",
-        "url": "https://elintransigente.com"
-      }
-    },
-    {
       "id": "3983405ca308",
       "title": "MSP evalúa reforzar los controles de medicamentos de venta libre ante casos de intoxicación - Telenoche",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVkxnWGlTY3NiSzJOXy0zSWJDUi1yaC1fQUpWWDF4dXhSbTUyR2IwYk85RDBfVjJldjZ0RWEtNGNHcFFidkVQVldFSFhJWEZjOEdpU3l6dFdoUjVNYV9jWGMwN0U0cnRyQjVUVjk1QURaWmFTMndnT3k0YkZjUjFWaEdCN0NhRG5QSDBsVFZleWRWU1VfekM3aDdMUE9rem5JM0ZhRXpFWHVpeERuSXJzZHc3YWNLcHZ2cFpIUUhpRzk1ZlZU0gHKAUFVX3lxTE9MVzg0T0xfc1BkSmZCT0NNRzRNRGZXcU52S3pTM0pnLVl4dGpKdndvOEpFMmVvQ0ZPMFM0ZnJsa2VPaUtxMDBtSk9hdk9ldVpfZ0F5dzZUZDctXzJ3bFRPc2Y2eEFWY1ZKVzU5U29NN1RSRnNIZ0k4NDBSLW5CUHJmQ3pZRG5Id3JlcDNiSXNSS0dKSUNveUxFajlGOGF6SGRuVGlybzdXTDNpWWJ1OW1WOTRSQl9ZODBYakZsM1Y3SE9XcHBwTnkwT3c?oc=5",
@@ -961,6 +951,16 @@
       "source": {
         "name": "Comunicación Tucumán",
         "url": "https://www.comunicaciontucuman.gob.ar"
+      }
+    },
+    {
+      "id": "483cf3f911eb",
+      "title": "No mezcles jugo de toronja con estas medicinas - El Informador",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRkhCSmUzSkxOY1JGWkJGekt2UG9nWVN5U3l4V08xblVpSEUxdURjVVl6dF9ESnpqQmp2RGM0ak96YVZHaWQ0MDZTVE8wOWF2bTN2NVlZTENRNFZHcVRjcV9URzluTF93WjZaTW1mQzdIMllSUnFndzE0S1pzV0lHYnctUHhJOVpOTUFkeVFuZlZEX2l0R1pXTE55c3UxR2vSAaQBQVVfeXFMTlc5czBXVktiUW9tVnZ0Q2xGaENpY2ZXZ09EMk5Za05KZXZxWDE2TGxtRGRickNHSVVKNmRwbGRkeFU5cnFjVTBMdlRUaS1WVE5zVWJPV3UxLWtDM1EwMTJlXy1raDQ1NWdoR3BfMUkyZGdWQnNvdWZ1V0NZekxUNnpIWURUSjRmWnhqMjN5Q0RkWUJXSHlHYUxsNGFHTThzQlFkMTk?oc=5",
+      "published": "2026-04-11T16:30:00+00:00",
+      "source": {
+        "name": "El Informador",
+        "url": "https://www.informador.mx"
       }
     },
     {
@@ -984,13 +984,13 @@
       }
     },
     {
-      "id": "9f3fe1214ca4",
-      "title": "Ministros de Salud y jefes de gestión de medicamentos: la “herencia” para el próximo Gobierno - Gestión",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOMlFEZGQ2Unlqd016ZUFmRVFsZEJfMGJacnUyVXFfR2poT3JIaFRHSzFvd2JPeDM1Mkx1SFFtMFg2cE96eW5WNUkxazVVaEdRZUJFSFhWUWJqNTZRcWJnLVZoaFNaY3NGQ3JtaDhSamMtckctTTlIS3dfV3Q5Qm1hZVpBSGVIOURjNFRqR2F2S05RMU9aTlBnd1IxNnplVjVwNlJZLXpSbVRtbmlhb25SS00zaEFqSURPbW1hQmZtV0tuREw2Vk93QVR2dmF3VGZacjI5NnQzMnI1eWtLRzhDUmdYdV9qRTJE?oc=5",
-      "published": "2026-04-10T23:45:00+00:00",
+      "id": "81b00cc39e70",
+      "title": "Programa Remediar: el Gobierno avanza con la motosierra en la entrega de medicamentos gratuitos - El Intransigente",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNd2V3bTU0ZlQydDB4bXA1Tk5tTkwyWFJpaWh2SUxvMFhYS3FGdzFQTkVOREdrclFFRFFaYXVZbDU1VWtmeUw1cXhRTU9sV0NQS0dUamRMWmhYbzJrNjJPUnNXVHNkUUVMMXgwUkxybGVjbEdCOTVQTGF0MDlzbldaSHJ1cjE4N1ljTUpBSTVtQkNFNWZGN1p0QmtiaXRTOGJrN05YQXFhbWpsOS1aVnVlYzFJODJnU21zRTVvRkM0X25STWI0TF9UOUp5cw?oc=5",
+      "published": "2026-04-11T00:51:39+00:00",
       "source": {
-        "name": "Gestión",
-        "url": "https://gestion.pe"
+        "name": "El Intransigente",
+        "url": "https://elintransigente.com"
       }
     },
     {
