@@ -3,7 +3,7 @@ layout: default
 title: "CLONAZEPAM 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "CLONAZEPAM 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
+description: "CLONAZEPAM 的相關健康新聞報導。原適應症：。預測適應症 3 個。"
 permalink: /news/clonazepam/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/clonazepam/
 ---
 
 <p class="key-answer" data-question="CLONAZEPAM 有什麼相關新聞？">
-<strong>CLONAZEPAM</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
+<strong>CLONAZEPAM</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 3 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,11 @@ permalink: /news/clonazepam/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
+<li><strong>預測適應症</strong>（3 個）：<ul>
+<li>restless legs syndrome（99.7%）</li>
+<li>insomnia (disease)（99.3%）</li>
+<li>trigeminal nerve neoplasm（99.3%）</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/clonazepam/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>
