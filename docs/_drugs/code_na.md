@@ -1,0 +1,40 @@
+---
+layout: drug
+title: CODEÍNA
+drugbank_id: DB00318
+evidence_level: L5
+permalink: /drugs/code_na/
+---
+
+# CODEÍNA
+
+## Basic Information
+
+| Item | Value |
+|------|-------|
+| DrugBank ID | [DB00318](https://go.drugbank.com/drugs/DB00318) |
+| Evidence Level | L5 (Computational Prediction) |
+| Number of Predicted Indications | 7 |
+
+## Predicted Indications (TxGNN)
+
+The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
+
+| # | Indication | Source |
+|---|------------|--------|
+| 1 | allergic rhinitis | TxGNN Knowledge Graph |
+| 2 | rhinitis | TxGNN Knowledge Graph |
+| 3 | nasopharyngitis | TxGNN Knowledge Graph |
+| 4 | pharyngitis | TxGNN Knowledge Graph |
+| 5 | headache disorder | TxGNN Knowledge Graph |
+| 6 | common cold | TxGNN Knowledge Graph |
+| 7 | vasomotor rhinitis | TxGNN Knowledge Graph |
+
+## Disclaimer
+
+These predictions are for research purposes only and do not constitute medical advice.
+Clinical validation is required before any clinical application.
+
+---
+
+[← Back to Drug Search](/drugs/)

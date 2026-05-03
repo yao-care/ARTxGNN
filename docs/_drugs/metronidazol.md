@@ -1,0 +1,50 @@
+---
+layout: drug
+title: METRONIDAZOL
+drugbank_id: DB00916
+evidence_level: L5
+permalink: /drugs/metronidazol/
+---
+
+# METRONIDAZOL
+
+## Basic Information
+
+| Item | Value |
+|------|-------|
+| DrugBank ID | [DB00916](https://go.drugbank.com/drugs/DB00916) |
+| Evidence Level | L5 (Computational Prediction) |
+| Number of Predicted Indications | 17 |
+
+## Predicted Indications (TxGNN)
+
+The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
+
+| # | Indication | Source |
+|---|------------|--------|
+| 1 | amoebiasis due to Entamoeba histolytica | TxGNN Knowledge Graph |
+| 2 | bacterial vaginosis | TxGNN Knowledge Graph |
+| 3 | Peptostreptococcus infectious disease | TxGNN Knowledge Graph |
+| 4 | vulvovaginitis | TxGNN Knowledge Graph |
+| 5 | trichomoniasis | TxGNN Knowledge Graph |
+| 6 | giardiasis | TxGNN Knowledge Graph |
+| 7 | endometritis | TxGNN Knowledge Graph |
+| 8 | intracranial abscess | TxGNN Knowledge Graph |
+| 9 | rosacea | TxGNN Knowledge Graph |
+| 10 | vaginitis (disease) | TxGNN Knowledge Graph |
+| 11 | arthropathy | TxGNN Knowledge Graph |
+| 12 | endocarditis | TxGNN Knowledge Graph |
+| 13 | bacterial arthritis | TxGNN Knowledge Graph |
+| 14 | anaerobic bacteria infectious disease | TxGNN Knowledge Graph |
+| 15 | vulvitis | TxGNN Knowledge Graph |
+| 16 | subacute bacterial endocarditis | TxGNN Knowledge Graph |
+| 17 | peritonitis | TxGNN Knowledge Graph |
+
+## Disclaimer
+
+These predictions are for research purposes only and do not constitute medical advice.
+Clinical validation is required before any clinical application.
+
+---
+
+[← Back to Drug Search](/drugs/)

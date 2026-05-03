@@ -1,0 +1,35 @@
+---
+layout: drug
+title: PODOFILOX
+drugbank_id: DB01179
+evidence_level: L5
+permalink: /drugs/podofilox/
+---
+
+# PODOFILOX
+
+## Basic Information
+
+| Item | Value |
+|------|-------|
+| DrugBank ID | [DB01179](https://go.drugbank.com/drugs/DB01179) |
+| Evidence Level | L5 (Computational Prediction) |
+| Number of Predicted Indications | 2 |
+
+## Predicted Indications (TxGNN)
+
+The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
+
+| # | Indication | Source |
+|---|------------|--------|
+| 1 | anogenital human papillomavirus infection | TxGNN Knowledge Graph |
+| 2 | common wart | TxGNN Knowledge Graph |
+
+## Disclaimer
+
+These predictions are for research purposes only and do not constitute medical advice.
+Clinical validation is required before any clinical application.
+
+---
+
+[← Back to Drug Search](/drugs/)

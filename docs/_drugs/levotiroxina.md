@@ -1,0 +1,48 @@
+---
+layout: drug
+title: LEVOTIROXINA
+drugbank_id: DB00451
+evidence_level: L5
+permalink: /drugs/levotiroxina/
+---
+
+# LEVOTIROXINA
+
+## Basic Information
+
+| Item | Value |
+|------|-------|
+| DrugBank ID | [DB00451](https://go.drugbank.com/drugs/DB00451) |
+| Evidence Level | L5 (Computational Prediction) |
+| Number of Predicted Indications | 15 |
+
+## Predicted Indications (TxGNN)
+
+The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
+
+| # | Indication | Source |
+|---|------------|--------|
+| 1 | hypothyroidism | TxGNN Knowledge Graph |
+| 2 | thyroid gland undifferentiated (anaplastic) carcinoma | TxGNN Knowledge Graph |
+| 3 | congenital hypothyroidism | TxGNN Knowledge Graph |
+| 4 | familial papillary thyroid carcinoma with renal papillary neoplasia | TxGNN Knowledge Graph |
+| 5 | Hashimoto thyroiditis | TxGNN Knowledge Graph |
+| 6 | hyperlipidemia | TxGNN Knowledge Graph |
+| 7 | thyroid cancer | TxGNN Knowledge Graph |
+| 8 | goiter (disease) | TxGNN Knowledge Graph |
+| 9 | differentiated thyroid carcinoma | TxGNN Knowledge Graph |
+| 10 | familial papillary or follicular thyroid carcinoma | TxGNN Knowledge Graph |
+| 11 | medullary thyroid gland carcinoma | TxGNN Knowledge Graph |
+| 12 | thyroid gland disease | TxGNN Knowledge Graph |
+| 13 | familial hyperlipidemia | TxGNN Knowledge Graph |
+| 14 | familial thyroid carcinoma | TxGNN Knowledge Graph |
+| 15 | myxedema | TxGNN Knowledge Graph |
+
+## Disclaimer
+
+These predictions are for research purposes only and do not constitute medical advice.
+Clinical validation is required before any clinical application.
+
+---
+
+[← Back to Drug Search](/drugs/)
