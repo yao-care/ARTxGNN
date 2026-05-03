@@ -126,5 +126,10 @@ El Evidence Pack de Amantadina presenta brechas de datos bloqueantes: no hay pre
 - Obtener las **advertencias, contraindicaciones y precauciones** del prospecto oficial
 - **Re-ejecutar el modelo TxGNN** una vez completados los datos anteriores para generar predicciones de reposicionamiento válidas
 - Evaluar si las indicaciones internacionales no aprobadas localmente (ej. fatiga en esclerosis múltiple, lesión cerebral traumática) podrían constituir oportunidades de reposicionamiento prioritarias
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

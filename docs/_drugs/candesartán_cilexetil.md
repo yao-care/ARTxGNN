@@ -83,5 +83,10 @@ Las brechas de datos son de carácter bloqueante: sin DrugBank ID ni prediccione
 - Re-ejecutar TxGNN con el grafo actualizado para obtener predicciones de indicaciones
 - Descargar y parsear el prospecto (TFDA o ANMAT) para completar advertencias y contraindicaciones
 - Verificar si existe o puede tramitarse un registro ANMAT para el fármaco en Argentina
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

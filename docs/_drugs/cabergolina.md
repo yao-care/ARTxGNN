@@ -110,5 +110,10 @@ El Evidence Pack carece de los elementos mínimos para un análisis de reposicio
 - [ ] **Completar DG001 — Seguridad**: Descargar y parsear el prospecto (ANMAT o TFDA) para extraer advertencias y contraindicaciones
 - [ ] **Re-ejecutar el pipeline TxGNN** con los datos completos para generar `predicted_indications`
 - [ ] **Verificar presencia de mercado en Argentina** bajo nombres comerciales alternativos (ej. Dostinex, Cabaser) en el registro ANMAT
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

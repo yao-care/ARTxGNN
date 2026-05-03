@@ -120,5 +120,10 @@ Un estudio clínico prospectivo directo (PMID 22137494) y una revisión mecanís
 - Estratificar la población objetivo: FHA (hipogonadismo hipogonadotrófico) vs. insuficiencia ovárica prematura (POI) vs. amenorrea primaria, dado que el mecanismo aplica diferencialmente
 - Evaluar la vía regulatoria en Argentina para el registro inicial del fármaco (sin autorizaciones previas)
 - Definir la dosis, la vía de administración y la duración del tratamiento óptimas para la indicación de amenorrea
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

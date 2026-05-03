@@ -102,5 +102,10 @@ La predicción de TxGNN se basa exclusivamente en señales del modelo de grafo d
 - Resolver la ambigüedad ontológica: identificar a qué término diagnóstico vigente corresponde "obsolete susceptibility to ischemic stroke" (p. ej., ACV isquémico agudo, AIT, ACV cardioembólico) para acotar el alcance clínico real
 - Realizar una búsqueda bibliográfica ampliada sobre CCB de clase benzotiazepina en modelos preclínicos y estudios observacionales de ACV isquémico
 - Evaluar si diltiazem presenta ventajas farmacocinéticas o farmacodinámicas frente a otros CCB mejor estudiados para indicaciones neurológicas (p. ej., nimodipina) antes de considerar su desarrollo clínico
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

@@ -113,5 +113,10 @@ de reposicionamiento ni emitir una recomendación clínica.
 ---
 
 **Nota al operador:** Este informe refleja fielmente el estado del Evidence Pack recibido. Los datos críticos faltantes (DG001 Bloqueante, DG002 Alta) deben resolverse antes de poder generar un informe de reposicionamiento completo para Calcitriol.
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

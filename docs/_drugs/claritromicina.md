@@ -102,5 +102,10 @@ El Evidence Pack no contiene predicciones de TxGNN ni datos de seguridad o mecan
 - **[Bloqueante]** Obtener advertencias y contraindicaciones del prospecto oficial (DG001 — severidad Bloqueante): requisito para la evaluación de seguridad S1.
 - **Regen de predicciones TxGNN**: verificar por qué `predicted_indications` resultó vacío — puede ser un problema de mapeo del nombre INN (CLARITROMICINA vs. Clarithromycin en inglés) o ausencia del nodo en el grafo de conocimiento.
 - **Verificar cobertura de mercado**: confirmar si existen registros ANMAT bajo nombres alternativos (ej. Biaxin, Klaricid u otros nombres de marca).
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

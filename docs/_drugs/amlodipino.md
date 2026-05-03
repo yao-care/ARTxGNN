@@ -113,5 +113,10 @@ El modelo TxGNN no generó predicciones de nuevas indicaciones para AMLODIPINO. 
 - **Obtener datos del prospecto**: Resolver la brecha DG001 (severidad bloqueante) descargando el prospecto de la autoridad regulatoria
 - **Obtener mecanismo de acción desde DrugBank**: Resolver la brecha DG002 consultando la API de DrugBank con el ID correcto
 - **Re-ejecutar pipeline TxGNN**: Una vez resueltas las brechas anteriores, re-ejecutar el modelo predictivo para obtener indicaciones candidatas válidas
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

@@ -118,5 +118,10 @@ El Evidence Pack para Bromhexina carece de los datos mínimos necesarios para ej
 - Obtener datos de seguridad (advertencias, contraindicaciones) del prospecto oficial
 - Re-ejecutar el pipeline TxGNN una vez que los datos de entrada estén completos
 - Evaluar el estado regulatorio en Argentina o mercados de referencia (EMA, FDA) para determinar la viabilidad de acceso
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

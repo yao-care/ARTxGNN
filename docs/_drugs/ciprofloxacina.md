@@ -91,5 +91,10 @@ El Evidence Pack está incompleto en sus tres dimensiones críticas: sin predicc
 ---
 
 > ⚠️ **Nota metodológica:** Este informe refleja estrictamente los datos contenidos en el Evidence Pack `TW-UNKNOWN-multi v4` con fecha de corte 2026-04-19. El conocimiento general sobre ciprofloxacino no se incorpora como sustituto de los datos faltantes, en cumplimiento de las reglas de integridad del pipeline.
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

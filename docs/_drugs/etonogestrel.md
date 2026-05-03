@@ -107,5 +107,10 @@ La predicción de TxGNN refleja una asociación estadística real entre etonoges
 - Descarga y análisis del prospecto oficial para advertencias y contraindicaciones (DG001)
 - Investigación exploratoria sobre si existe algún subtipo específico de amenorrea (p.ej., amenorrea hipotalámica funcional con hiperandrogenismo) donde el perfil progestágeno de etonogestrel pudiera tener un rol terapéutico diferenciado
 - Evaluación de viabilidad regulatoria ante la ausencia total de registro en Argentina
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

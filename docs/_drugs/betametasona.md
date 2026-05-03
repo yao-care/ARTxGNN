@@ -109,5 +109,10 @@ No se dispone de predicciones TxGNN para nuevas indicaciones de betametasona, y 
 - Obtener las **advertencias, contraindicaciones e interacciones** desde el prospecto o fuentes regulatorias
 - Re-ejecutar el modelo **TxGNN** con el identificador correcto del fármaco para generar predicciones de nuevas indicaciones
 - Considerar ejecutar la predicción tanto para betametasona sola como para sus combinaciones de uso frecuente (e.g., betametasona + gentamicina, betametasona dipropionato)
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

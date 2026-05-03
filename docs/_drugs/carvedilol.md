@@ -83,5 +83,10 @@ El Evidence Pack está incompleto para generar un análisis de reposicionamiento
 - **[Crítico]** Descargar y analizar el prospecto oficial para extraer advertencias, contraindicaciones e indicaciones aprobadas (fuente recomendada: ANMAT / TFDA, según remediación DG001)
 - **[Alto]** Consultar DrugBank API para obtener el mecanismo de acción completo (remediación DG002)
 - **[Medio]** Verificar estado regulatorio vigente en Argentina (ANMAT) para confirmar si existe alguna presentación comercializada
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

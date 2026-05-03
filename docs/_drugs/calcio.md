@@ -84,5 +84,10 @@ El paquete de evidencia está incompleto en sus dimensiones críticas: no hay in
 - **Recuperar advertencias y contraindicaciones** del prospecto oficial (TFDA/ANMAT/EMA) — severidad bloqueante según DG001
 - **Re-ejecutar el pipeline TxGNN** una vez que el compuesto esté correctamente identificado, para generar predicciones de indicaciones candidatas
 - Verificar si el compuesto califica para búsqueda en ClinicalTrials.gov una vez resuelta la identidad del fármaco
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

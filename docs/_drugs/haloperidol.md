@@ -129,5 +129,10 @@ Cuatro ensayos clínicos de Fase 3 completados —con tamaños muestrales de 158
 - Evaluar **vía de registro en Argentina** (ANMAT): determinar si aplica registro nuevo, extensión de indicación o importación bajo autorización especial
 - Definir el **nicho terapéutico local**: comparar frente a antipsicóticos atípicos de segunda generación disponibles en Argentina (ej. risperidona, olanzapina, aripiprazol) para establecer ventajas diferenciales (costo, disponibilidad, perfil de EPS)
 - Establecer **plan de monitoreo de seguridad** específico: escala AIMS para discinesia tardía, monitoreo de intervalo QTc y función hepática en uso prolongado
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

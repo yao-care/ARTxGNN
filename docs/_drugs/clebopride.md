@@ -96,5 +96,10 @@ El Evidence Pack carece de los datos mínimos necesarios para una evaluación de
 - **Re-ejecutar el pipeline TxGNN** con datos completos de MOA y perfil de seguridad
 - **Verificar cobertura** de CLEBOPRIDE en el knowledge graph de TxGNN (nodos y aristas disponibles)
 - **Levantar indicaciones originales** aprobadas en mercados internacionales (p. ej., España o Japón) para anclar el análisis comparativo
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

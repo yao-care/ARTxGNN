@@ -122,5 +122,10 @@ El evidence pack de Bosentan presenta brechas de datos críticas y, fundamentalm
 - Verificar la cobertura de Bosentan en el grafo de conocimiento de TxGNN y, de ser necesario, enriquecer el nodo del fármaco con datos adicionales
 - Re-ejecutar el pipeline de predicción de TxGNN una vez que las brechas de datos hayan sido subsanadas
 - Evaluar la viabilidad regulatoria de importación/registro en Argentina si se identifican nuevas indicaciones prometedoras en futuras iteraciones
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

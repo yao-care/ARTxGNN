@@ -116,5 +116,10 @@ El modelo TxGNN asigna una puntuación muy elevada (99.92%) para la indicación 
 - Obtener las advertencias, contraindicaciones e interacciones farmacológicas de la ficha técnica internacional (EMA/FDA) ante la ausencia de registro en Argentina
 - Evaluar si los ensayos de vías aéreas pequeñas (NCT01620099, NCT01466712) pueden adaptarse como modelos de malformación funcional para una prueba de concepto
 - Iniciar el proceso de evaluación de registro ante ANMAT como paso previo indispensable a cualquier ensayo local
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

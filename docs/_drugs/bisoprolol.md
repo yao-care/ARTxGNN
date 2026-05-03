@@ -117,5 +117,10 @@ No existe una prediccion de nueva indicacion por parte del modelo TxGNN, y el fa
 - Monitorear si se registran nuevas autorizaciones de comercializacion en Argentina que habiliten una evaluacion futura
 - Resolver la brecha de datos bloqueante (DG001): obtener advertencias y contraindicaciones del prospecto de referencia internacional
 - Re-ejecutar la prediccion TxGNN una vez que las brechas de datos criticas hayan sido resueltas
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

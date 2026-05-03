@@ -113,5 +113,10 @@ No se generaron predicciones de nuevas indicaciones por parte del modelo TxGNN p
 - Verificar si existen datos adicionales en el grafo de conocimiento de TxGNN que puedan mejorar la representación de aliskiren
 - Evaluar si la ausencia de predicciones se debe a limitaciones del modelo o a una genuina falta de potencial de reposicionamiento
 - Considerar si el fármaco amerita una nueva ejecución del modelo una vez que se completen las brechas de datos
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

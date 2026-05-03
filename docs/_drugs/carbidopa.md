@@ -93,5 +93,10 @@ La ausencia de indicaciones predichas por TxGNN y las dos brechas de datos crít
 3. **Re-ejecutar TxGNN** — Verificar que el nodo `DB00190` esté correctamente enlazado en el grafo de conocimiento y re-lanzar el pipeline de predicción; si el compuesto solo está disponible como combinación (carbidopa+levodopa), evaluar si corresponde indexarlo bajo el DrugBank ID de la combinación
 4. **Re-consultar ANMAT** — Repetir la búsqueda bajo el término "carbidopa levodopa" para identificar registros de la combinación fija
 5. **Completar Evidence Pack v5** — Una vez resueltos los puntos anteriores, regenerar el Evidence Pack y relanzar este informe de evaluación
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

@@ -103,5 +103,10 @@ El Evidence Pack está incompleto: no contiene indicaciones predichas por TxGNN,
 - Ejecutar el pipeline TxGNN para generar indicaciones candidatas (`predicted_indications`) para este fármaco
 - Completar la consulta de interacciones farmacológicas (DDI query devolvió `not_found`)
 - Una vez disponibles las indicaciones predichas, reiniciar el ciclo de evaluación con un Evidence Pack completo
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

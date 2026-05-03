@@ -125,5 +125,10 @@ El Evidence Pack para Aripiprazol se encuentra en estado incompleto. No se dispo
 - Verificar la busqueda regulatoria en Argentina con variantes de nombre (ARIPIPRAZOLE, ARIPIPRAZOL, nombres comerciales como ABILIFY)
 - Re-ejecutar el modelo TxGNN una vez que el farmaco este correctamente mapeado en el grafo de conocimiento
 - Recopilar evidencia clinica y bibliografica una vez que existan indicaciones predichas
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

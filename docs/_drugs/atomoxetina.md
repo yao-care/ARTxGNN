@@ -104,5 +104,10 @@ No es posible avanzar con una evaluación de reposicionamiento dado que el model
 - Descargar y analizar el prospecto regulatorio para extraer advertencias y contraindicaciones
 - Re-ejecutar el modelo TxGNN con los datos completos del fármaco para generar predicciones
 - Evaluar el estado regulatorio en Argentina y la viabilidad de importación o registro
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

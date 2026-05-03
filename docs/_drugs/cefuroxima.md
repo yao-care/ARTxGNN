@@ -79,5 +79,10 @@ Sin indicaciones predichas, sin autorizaciones registradas y con dos vacíos blo
 - **[DG002 — Alto]** Incorporar los datos de DrugBank ya recuperados (1 resultado en el log) para obtener MOA, categorías farmacológicas y DrugBank ID
 - **Verificar el mapeo del nodo TxGNN**: confirmar si el identificador interno usa "Cefuroxime" (DB01112) en lugar de "CEFUROXIMA" y corregir el `candidate_id`
 - **Re-ejecutar el pipeline** con el identificador y los datos corregidos para generar `predicted_indications` y habilitar la evaluación completa
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

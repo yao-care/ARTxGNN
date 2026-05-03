@@ -92,5 +92,10 @@ El Evidence Pack carece de predicciones TxGNN y de los datos mínimos requeridos
 - **[Crítico]** Ejecutar o revisar el pipeline TxGNN para generar predicciones de indicación para Ciclobenzaprina — confirmar que el nodo del fármaco existe en el grafo de conocimiento
 - **[Opcional]** Verificar registros bajo nombres alternativos o combinaciones en ANMAT para determinar el estado real de mercado en Argentina
 - Recargar el Evidence Pack con los datos completos y regenerar este informe
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

@@ -111,5 +111,10 @@ El modelo TxGNN no generó predicciones de nuevas indicaciones para ampicilina. 
 - Verificar registros de comercialización bajo nombres comerciales alternativos o combinaciones (ej. ampicilina/sulbactam)
 - Re-ejecutar el modelo TxGNN una vez completada la integración de datos del fármaco en el grafo de conocimiento
 - Evaluar si la ausencia de DrugBank ID impactó la capacidad predictiva del modelo
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

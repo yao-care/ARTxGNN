@@ -84,5 +84,10 @@ El pipeline TxGNN no pudo generar predicciones de reposicionamiento para Cefadro
 - **[DG002 — Alta]** Consultar la API de DrugBank con el nombre genérico "Cefadroxil" (sin tilde, nombre INN en inglés) para obtener MOA, categorías farmacológicas y targets
 - **Re-ejecutar el pipeline TxGNN** una vez resueltas DG001 y DG002, con los datos de MOA y seguridad completados
 - **Verificar registros ANMAT** bajo nombres alternativos: *Cefadroxil*, *Duricef*, *Ultracef*, *Baxan*, ya que la búsqueda con el nombre en español pudo haber fallado por variación ortográfica
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

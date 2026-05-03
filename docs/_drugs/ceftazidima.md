@@ -82,5 +82,10 @@ El modelo TxGNN no generó predicciones de nuevas indicaciones para CEFTAZIDIMA,
 - **[Alta prioridad]** Completar el mecanismo de acción (MOA) consultando la API de DrugBank
 - **[Alta prioridad]** Descargar y parsear el prospecto oficial (el log indica que `tfda_package_insert` devolvió 1 resultado) para extraer advertencias, contraindicaciones e indicaciones aprobadas
 - **[Informativo]** Verificar si CEFTAZIDIMA está registrada en ANMAT bajo un nombre de marca diferente (ej. *Fortum*, *Tazicef*) y actualizar la consulta regulatoria con el nombre comercial correcto
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

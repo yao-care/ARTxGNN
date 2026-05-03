@@ -107,5 +107,10 @@ No se generaron predicciones de nuevas indicaciones para Atropina Sulfato. Adem�
 - Recuperar información de seguridad del prospecto oficial (advertencias, contraindicaciones)
 - Verificar si el fármaco se comercializa bajo otra denominación o formulación combinada en Argentina
 - Re-ejecutar el modelo TxGNN una vez que los datos de entrada estén completos para evaluar si se generan predicciones de reposicionamiento
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

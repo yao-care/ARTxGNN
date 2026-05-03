@@ -74,5 +74,10 @@ El modelo TxGNN no generó ninguna indicación de reposicionamiento para CEFTRIA
 - Descargar y parsear el prospecto oficial para completar las advertencias de seguridad y contraindicaciones
 - Re-ejecutar el pipeline TxGNN con los datos correctamente integrados
 - Confirmar el estado de registro en ANMAT mediante búsqueda directa en el portal oficial
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

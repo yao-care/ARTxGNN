@@ -106,5 +106,10 @@ No existe una indicación predicha por TxGNN para Alprazolam en esta ejecución 
 - Obtener las advertencias y contraindicaciones del prospecto desde la fuente regulatoria correspondiente (DG001)
 - Verificar el estado regulatorio actualizado de Alprazolam en Argentina (ANMAT)
 - Evaluar si la ausencia de predicción se debe a limitaciones del modelo o a la naturaleza farmacológica del compuesto
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

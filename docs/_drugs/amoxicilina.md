@@ -112,5 +112,10 @@ El modelo TxGNN no generó predicciones de nuevas indicaciones para Amoxicilina.
 - Verificar el estado de comercialización real en ANMAT con términos de búsqueda alternativos ("AMOXICILLIN", "AMOXICILINA TRIHIDRATO", nombres comerciales)
 - Confirmar si el modelo TxGNN tiene datos suficientes del grafo de conocimiento para este fármaco; de lo contrario, evaluar si es candidato viable para el pipeline de reposicionamiento
 - Considerar que los antibióticos convencionales pueden no ser candidatos óptimos para reposicionamiento en indicaciones no infecciosas, salvo evidencia emergente de efectos inmunomoduladores o anti-biofilm
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

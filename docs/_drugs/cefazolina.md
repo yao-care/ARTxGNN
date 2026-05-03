@@ -92,5 +92,10 @@ El modelo TxGNN no emitió predicciones para CEFAZOLINA en esta corrida, y los d
 - [ ] **Re-ejecutar el pipeline TxGNN** una vez que el nodo del fármaco esté correctamente mapeado en el grafo de conocimiento, para generar predicciones de indicaciones
 - [ ] **Verificar el `drugbank_id`**: el campo figura como `null`, lo que puede causar errores de mapeo en el modelo; confirmar el identificador correcto (p. ej. DB00512 para cefazolin)
 - [ ] **Confirmar el estado de mercado en Argentina (ANMAT)**: el registro consultado corresponde a TFDA (Taiwán); si el mercado objetivo es Argentina, repetir la consulta contra ANMAT/SINGAM
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

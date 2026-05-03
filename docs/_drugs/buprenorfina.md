@@ -93,5 +93,10 @@ El pipeline TxGNN no puede operar sin un DrugBank ID y un MOA estructurado; las 
 - **Extraer datos del prospecto:** El query a `tfda_package_insert` devolvió 1 resultado — parsear indicaciones aprobadas, advertencias y contraindicaciones desde ese documento
 - **Registrar indicaciones originales:** Completar el array `original_indications` con los datos extraídos del prospecto
 - **Re-ejecutar el pipeline TxGNN:** Con el perfil farmacológico completo, relanzar el ciclo de predicción para obtener candidatos de reposicionamiento y evidencia clínica asociada
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

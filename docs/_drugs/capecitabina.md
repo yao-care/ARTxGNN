@@ -85,5 +85,10 @@ La ausencia de datos de indicación original, mecanismo de acción y prediccione
 - Verificar si CAPECITABINA cuenta con registro en ANMAT bajo ese INN u otros nombres comerciales (ej. Xeloda), ya que la búsqueda TFDA retornó 0 resultados
 - Re-ejecutar el pipeline TxGNN una vez integrados los datos del fármaco para obtener predicciones de nuevas indicaciones
 - Completar la búsqueda DDI con el INN correcto o sinónimos farmacológicos
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

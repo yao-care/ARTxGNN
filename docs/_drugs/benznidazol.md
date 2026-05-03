@@ -123,5 +123,10 @@ El modelo TxGNN no ha generado predicciones de nuevas indicaciones para benznida
 ---
 
 *⚠️ Aviso: Este informe es únicamente para fines de investigación y no constituye consejo médico. Cualquier candidato a reposicionamiento requiere validación clínica rigurosa antes de su aplicación.*
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

@@ -109,5 +109,10 @@ No se dispone de predicciones de nuevas indicaciones por parte del modelo TxGNN 
 - Verificar si existen formulaciones combinadas de benazepril (ej. benazepril + amlodipino) registradas en Argentina que pudieran servir como punto de entrada regulatorio
 - Reevaluar con el modelo TxGNN una vez que se completen los datos del grafo de conocimiento para este fármaco
 - Considerar si otros inhibidores de la ECA con mayor disponibilidad local (ej. enalapril, ramipril) podrían ser candidatos más viables para reposicionamiento en el mercado argentino
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

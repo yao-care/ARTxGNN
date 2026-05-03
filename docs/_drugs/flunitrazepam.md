@@ -123,5 +123,10 @@ El vínculo mecanístico de flunitrazepam con el insomnio es robusto y está res
 - Evaluar el marco regulatorio vigente en Argentina para benzodiacepinas de alta potencia (Ley 17.818 de psicotrópicos) y determinar si existe vía legal para un eventual uso hospitalario restringido
 - Realizar análisis de beneficio-riesgo comparativo frente a hipnóticos actualmente disponibles en Argentina con perfil de seguridad superior (zolpidem, lormetazepam, melatonina)
 - Definir una estrategia formal de mitigación del riesgo de abuso (programa de acceso restringido, uso exclusivo hospitalario) antes de considerar cualquier solicitud de registro o protocolo de investigación clínica
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

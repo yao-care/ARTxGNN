@@ -102,5 +102,10 @@ La predicción de TxGNN para PLAN carece por completo de respaldo empírico: no 
 - Realizar una revisión narrativa de la literatura sobre respuesta a levodopa y al eje dopaminérgico en pacientes con mutaciones *PLA2G6*, para evaluar plausibilidad terapéutica
 - Diseñar estudios preclínicos en modelos de déficit de PLA2G6 que evalúen el efecto de la inhibición de COMT antes de considerar cualquier exploración clínica
 - Evaluar la viabilidad regulatoria de acceso en Argentina (importación, uso compasivo u otras vías ante la ausencia de registro ANMAT)
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

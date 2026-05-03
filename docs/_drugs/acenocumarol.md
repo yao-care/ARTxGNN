@@ -115,5 +115,10 @@ No existen predicciones de TxGNN para nuevas indicaciones de acenocumarol, el f�
 - Confirmar la integración del fármaco en el grafo de conocimiento de TxGNN con los datos completos de DrugBank
 - Re-ejecutar la predicción de TxGNN una vez resueltas las brechas de datos
 - Evaluar si existe interés regulatorio o comercial en introducir acenocumarol al mercado argentino antes de considerar cualquier estrategia de reposicionamiento
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

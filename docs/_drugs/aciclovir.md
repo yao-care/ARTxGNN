@@ -109,5 +109,10 @@ El modelo TxGNN no generó predicciones de nuevas indicaciones para Aciclovir. A
 - **Completar datos de MOA**: Registrar el mecanismo de acción estructurado (inhibidor de ADN polimerasa viral, análogo de nucleósido)
 - **Re-ejecutar la predicción TxGNN**: Una vez completados los datos anteriores, ejecutar nuevamente el modelo para evaluar si se generan predicciones válidas
 - **Verificar estado regulatorio**: Confirmar si existen formulaciones de Aciclovir registradas bajo otros nombres comerciales en Argentina
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

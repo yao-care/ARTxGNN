@@ -88,5 +88,10 @@ El paquete de evidencia actual no contiene predicciones de TxGNN ni datos de seg
 - Descargar y procesar el prospecto del fabricante desde TFDA o ANMAT para extraer advertencias, contraindicaciones y posología
 - Verificar el estado regulatorio vigente de CILOSTAZOL ante ANMAT (el query TFDA del 2026-03-29 devolvió 0 resultados)
 - Una vez completadas las brechas, reejecutar la generación del Evidence Pack y regenerar este informe
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

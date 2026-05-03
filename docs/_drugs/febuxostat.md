@@ -109,5 +109,10 @@ El mecanismo de inhibición XOR de Febuxostat es biológicamente coherente con l
 - Diseñar un estudio piloto prospectivo específico para RHUC con endpoints de función renal (incidencia de EIAKI, creatinina sérica, TFGe)
 - Evaluar la viabilidad regulatoria de solicitar registro en Argentina bajo la categoría de enfermedad rara/indicación huérfana
 - Consultar con nefrólogos y especialistas en metabolismo del urato para validación clínica independiente del racional mecanístico
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

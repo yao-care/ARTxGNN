@@ -126,5 +126,10 @@ La predicción TxGNN (99.24%) identifica una señal biológicamente plausible, r
 - Consulta de DrugBank API para completar datos de mecanismo de acción (MOA) y categorías farmacológicas detalladas
 - Evaluación de la vía y forma de administración viable para un uso crónico en SII (Glucagon es actualmente de uso parenteral/emergencia)
 - Revisión regulatoria en Argentina sobre la posibilidad de registrar una nueva indicación para un fármaco actualmente sin autorización local
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 
