@@ -1,0 +1,36 @@
+---
+layout: drug
+title: EPINASTINA
+drugbank_id: DB00751
+evidence_level: L5
+permalink: /drugs/epinastina/
+---
+
+# EPINASTINA
+
+## Basic Information
+
+| Item | Value |
+|------|-------|
+| DrugBank ID | [DB00751](https://go.drugbank.com/drugs/DB00751) |
+| Evidence Level | L5 (Computational Prediction) |
+| Number of Predicted Indications | 3 |
+
+## Predicted Indications (TxGNN)
+
+The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
+
+| # | Indication | Source |
+|---|------------|--------|
+| 1 | vernal conjunctivitis | TxGNN Knowledge Graph |
+| 2 | atopic conjunctivitis | TxGNN Knowledge Graph |
+| 3 | papillary conjunctivitis | TxGNN Knowledge Graph |
+
+## Disclaimer
+
+These predictions are for research purposes only and do not constitute medical advice.
+Clinical validation is required before any clinical application.
+
+---
+
+[← Back to Drug Search](/drugs/)

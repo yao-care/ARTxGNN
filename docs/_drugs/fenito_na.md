@@ -1,0 +1,42 @@
+---
+layout: drug
+title: FENITOÍNA
+drugbank_id: DB00252
+evidence_level: L5
+permalink: /drugs/fenito_na/
+---
+
+# FENITOÍNA
+
+## Basic Information
+
+| Item | Value |
+|------|-------|
+| DrugBank ID | [DB00252](https://go.drugbank.com/drugs/DB00252) |
+| Evidence Level | L5 (Computational Prediction) |
+| Number of Predicted Indications | 9 |
+
+## Predicted Indications (TxGNN)
+
+The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
+
+| # | Indication | Source |
+|---|------------|--------|
+| 1 | Lennox-Gastaut syndrome | TxGNN Knowledge Graph |
+| 2 | partial motor epilepsy | TxGNN Knowledge Graph |
+| 3 | visual epilepsy | TxGNN Knowledge Graph |
+| 4 | partial epilepsy | TxGNN Knowledge Graph |
+| 5 | epilepsy with generalized tonic-clonic seizures | TxGNN Knowledge Graph |
+| 6 | status epilepticus | TxGNN Knowledge Graph |
+| 7 | cutis verticis gyrata | TxGNN Knowledge Graph |
+| 8 | epilepsy | TxGNN Knowledge Graph |
+| 9 | primary motor cortex epilepsy | TxGNN Knowledge Graph |
+
+## Disclaimer
+
+These predictions are for research purposes only and do not constitute medical advice.
+Clinical validation is required before any clinical application.
+
+---
+
+[← Back to Drug Search](/drugs/)

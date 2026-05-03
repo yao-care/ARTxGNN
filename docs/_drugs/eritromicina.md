@@ -1,0 +1,55 @@
+---
+layout: drug
+title: ERITROMICINA
+drugbank_id: DB00199
+evidence_level: L5
+permalink: /drugs/eritromicina/
+---
+
+# ERITROMICINA
+
+## Basic Information
+
+| Item | Value |
+|------|-------|
+| DrugBank ID | [DB00199](https://go.drugbank.com/drugs/DB00199) |
+| Evidence Level | L5 (Computational Prediction) |
+| Number of Predicted Indications | 22 |
+
+## Predicted Indications (TxGNN)
+
+The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
+
+| # | Indication | Source |
+|---|------------|--------|
+| 1 | actinomycosis | TxGNN Knowledge Graph |
+| 2 | staphylococcus aureus infection | TxGNN Knowledge Graph |
+| 3 | listeriosis | TxGNN Knowledge Graph |
+| 4 | gonorrhea | TxGNN Knowledge Graph |
+| 5 | diphtheria | TxGNN Knowledge Graph |
+| 6 | bacterial pneumonia | TxGNN Knowledge Graph |
+| 7 | staphylococcal infection | TxGNN Knowledge Graph |
+| 8 | acute gonococcal cervicitis | TxGNN Knowledge Graph |
+| 9 | acne (disease) | TxGNN Knowledge Graph |
+| 10 | conjunctivitis | TxGNN Knowledge Graph |
+| 11 | urethritis (disease) | TxGNN Knowledge Graph |
+| 12 | streptococcal pneumonia | TxGNN Knowledge Graph |
+| 13 | streptococcal infection | TxGNN Knowledge Graph |
+| 14 | pneumonia caused by chlamydia | TxGNN Knowledge Graph |
+| 15 | erythrasma | TxGNN Knowledge Graph |
+| 16 | syphilis | TxGNN Knowledge Graph |
+| 17 | pertussis | TxGNN Knowledge Graph |
+| 18 | cat-scratch disease | TxGNN Knowledge Graph |
+| 19 | ophthalmia neonatorum | TxGNN Knowledge Graph |
+| 20 | acute gonococcal endometritis | TxGNN Knowledge Graph |
+| 21 | infectious otitis media | TxGNN Knowledge Graph |
+| 22 | Mycoplasma pneumoniae pneumonia | TxGNN Knowledge Graph |
+
+## Disclaimer
+
+These predictions are for research purposes only and do not constitute medical advice.
+Clinical validation is required before any clinical application.
+
+---
+
+[← Back to Drug Search](/drugs/)
