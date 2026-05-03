@@ -131,5 +131,10 @@ No se generaron predicciones de nuevas indicaciones por parte de TxGNN para Bima
 - Resolver la brecha de datos **DG002**: incorporar el mecanismo de acción detallado desde DrugBank para alimentar adecuadamente el modelo TxGNN
 - Re-ejecutar el modelo TxGNN una vez que se disponga de datos completos de MOA y perfil farmacológico
 - Evaluar la viabilidad regulatoria de registro ante ANMAT como paso previo a cualquier estrategia de reposicionamiento en Argentina
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

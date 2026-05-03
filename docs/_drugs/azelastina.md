@@ -111,5 +111,10 @@ No se dispone de una predicción de nueva indicación por parte de TxGNN, y el E
 - Verificar la inclusión de Azelastina en el grafo de conocimiento de TxGNN y, de ser necesario, incorporarla para generar predicciones en el próximo ciclo
 - Evaluar si existen formulaciones de Azelastina registradas en Argentina bajo otros nombres comerciales o combinaciones (p. ej., Azelastina + Fluticasona)
 - Considerar la búsqueda manual de literatura sobre usos off-label de Azelastina (p. ej., asma, urticaria crónica, dermatitis) para alimentar futuros ciclos del modelo
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

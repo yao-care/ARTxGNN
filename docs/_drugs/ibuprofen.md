@@ -92,5 +92,10 @@ No existe ninguna evidencia clínica, preclínica ni bibliográfica que respalde
 - Realizar búsqueda bibliográfica ampliada sobre AINEs/NSAIDs en displasias esqueléticas raras
 - Evaluar si estudios preclínicos en modelos GDF5/CDMP1 podrían justificar un ensayo exploratorio
 - Aclarar el estado regulatorio real de Ibuprofen en Argentina (resultado "0 registros" es atípico para un AINE de uso masivo y podría reflejar un error en la consulta a la base de datos regulatoria)
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

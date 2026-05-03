@@ -117,5 +117,10 @@ El modelo TxGNN no ha generado predicciones de nuevas indicaciones para bisacodi
 - Obtener información de seguridad (advertencias, contraindicaciones) desde prospectos de referencia internacionales
 - Re-ejecutar el modelo TxGNN una vez completados los datos para evaluar si se generan predicciones
 - Evaluar el estado regulatorio en otras jurisdicciones (FDA, EMA) como referencia complementaria
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

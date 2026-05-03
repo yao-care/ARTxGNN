@@ -119,5 +119,10 @@ No se generaron predicciones de reposicionamiento para amikacina. El Evidence Pa
 - Confirmar si amikacina está representada en el grafo de conocimiento (KG) de TxGNN; de no estarlo, evaluar su incorporación
 - Resolver la brecha DG001 (prospecto regulatorio) antes de cualquier evaluación de seguridad
 - Re-ejecutar el pipeline de predicción TxGNN una vez resueltas las brechas de datos
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

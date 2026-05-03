@@ -108,5 +108,10 @@ No es posible avanzar con la evaluación de reposicionamiento de Agomelatina en 
 - Evaluar la viabilidad regulatoria: verificar si existe trámite de registro ante **ANMAT** en curso o si se prevé su comercialización en Argentina
 - Una vez completados los datos anteriores, **re-ejecutar la predicción TxGNN** para obtener candidatos de reposicionamiento
 - Obtener e integrar los datos de **advertencias y contraindicaciones** del prospecto autorizado por la autoridad regulatoria correspondiente
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

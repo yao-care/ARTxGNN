@@ -96,5 +96,10 @@ El Evidence Pack no contiene indicaciones originales, MOA ni predicciones TxGNN,
 - Re-ejecutar el pipeline TxGNN con el MOA y las indicaciones originales completos para generar predicciones válidas
 - Ampliar la búsqueda ANMAT con variantes ortográficas y nombres comerciales conocidos (Suprax, Cefspan, etc.)
 - Resolver el data gap DG001 (severidad Bloqueante) antes de cualquier evaluación de seguridad
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

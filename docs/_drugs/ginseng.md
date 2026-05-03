@@ -111,5 +111,10 @@ La predicción de TxGNN está respaldada por una cadena mecanística coherente (
 - Diseño de un ensayo clínico específico para osteoporosis inducida por fármacos (separando cohortes por agente causante: corticosteroide, inhibidor de aromatasa, etc.)
 - Evaluación de formulación y ruta de administración óptima para alcanzar biodisponibilidad sistémica adecuada en el blanco óseo
 - Revisión regulatoria con ANMAT sobre el estatus de Ginseng como medicamento vs. suplemento dietético en Argentina, dado que esta distinción determina la vía de aprobación aplicable
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

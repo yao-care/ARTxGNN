@@ -91,5 +91,10 @@ El pipeline TxGNN no pudo ejecutarse para este farmaco debido a la ausencia de i
 - [ ] **Popular `original_indications`:** Registrar al menos una indicación aprobada como punto de entrada del grafo TxGNN
 - [ ] **Re-ejecutar el pipeline TxGNN** con el Evidence Pack completo para generar `predicted_indications`
 - [ ] **Verificar nombre de búsqueda:** El INN en español "CARBOCISTEÍNA" podría no coincidir exactamente con el término en bases de datos internacionales; probar también con "carbocisteine" (inglés) o "carbocisteine potassium"
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

@@ -108,5 +108,10 @@ Aunque el vínculo mecanístico entre dienogest y amenorrea es científicamente 
 - Definir la indicación específica dentro del espectro "amenorrea terapéutica" que se desea estudiar (ej. adenomiosis, dismenorrea severa, supresión menstrual en contextos específicos)
 - Completar el análisis de interacciones farmacológicas (DDI)
 - Diseñar un protocolo clínico que diferencie el uso de dienogest para amenorrea terapéutica más allá de la endometriosis
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

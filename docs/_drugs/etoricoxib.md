@@ -106,5 +106,10 @@ A pesar de la alta puntuación del modelo TxGNN (99,90%) y la existencia de una 
 - Obtención de datos completos de MOA y advertencias desde DrugBank y ficha técnica oficial (remediación de brechas DG001 y DG002)
 - Evaluación del perfil de riesgo cardiovascular de los inhibidores selectivos de COX-2, especialmente en pacientes con migraña con aura (población con mayor riesgo cerebrovascular)
 - Inicio del proceso de registro ante ANMAT para poder comercializar el fármaco en Argentina en caso de que la evidencia clínica avance favorablemente
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

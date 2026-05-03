@@ -113,5 +113,10 @@ El Evidence Pack presenta vacíos de datos críticos (DrugBank ID no vinculado, 
 ---
 
 > ⚠️ *Este informe es solo para fines de investigación y no constituye consejo médico. Los candidatos a reposicionamiento requieren validación clínica antes de su aplicación.*
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

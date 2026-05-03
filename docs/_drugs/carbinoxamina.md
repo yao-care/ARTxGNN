@@ -90,5 +90,10 @@ No existen predicciones de nueva indicación por TxGNN, el fármaco no está com
 - **[DG002 — Alta]** Confirmar DrugBank ID y extraer datos estructurados de MOA vía DrugBank API
 - **Re-ejecutar el pipeline TxGNN** una vez cargados el nodo DrugBank y las relaciones de MOA en el KG, para obtener predicciones de nueva indicación
 - Verificar si existe denominación INN alternativa ("carbinoxamine maleate") que pudiera estar indexada bajo otro identificador en el KG
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

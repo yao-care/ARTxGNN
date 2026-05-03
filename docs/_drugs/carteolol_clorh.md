@@ -74,5 +74,10 @@ El Evidence Pack no contiene predicciones de nuevas indicaciones generadas por T
 - **[Prioritario]** Cargar el mecanismo de acción (MOA) desde DrugBank (`drugbank`: 1 resultado en query_log) para habilitar el análisis de aplicabilidad mecanística
 - Ejecutar el pipeline TxGNN con el nodo de enfermedad correspondiente a Carteolol Clorhidrato para generar predicciones de reposicionamiento
 - Verificar si el fármaco está comercializado en Argentina bajo denominación alternativa o como componente de combinación
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

@@ -88,5 +88,10 @@ No existen predicciones de TxGNN para nuevas indicaciones de BIOTINA, ni autoriz
 - Verificar si BIOTINA está representada en el grafo de conocimiento de TxGNN y, de no estarlo, evaluar su incorporación
 - Obtener información de seguridad desde fuentes regulatorias internacionales (FDA, EMA)
 - Evaluar si la dosis farmacológica (alta dosis, e.g., 300 mg/día usada en esclerosis múltiple) versus la dosis nutricional justifica su inclusión como candidato de reposicionamiento
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

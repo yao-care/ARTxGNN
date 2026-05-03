@@ -89,5 +89,10 @@ El Evidence Pack está incompleto en aspectos críticos: ausencia de prediccione
 - **Resolver DG002:** Integrar los datos de DrugBank ya localizados (1 resultado disponible) para documentar el MOA, categorías farmacológicas y toxicidad
 - **Regenerar predicciones TxGNN:** Con el fármaco correctamente representado en el grafo de conocimiento, relanzar la inferencia para obtener indicaciones candidatas
 - **Verificar ortografía INN:** Confirmar que "CIPROFIBRATO" corresponde a la denominación internacional "Ciprofibrate" y que no existen variantes ortográficas que afecten las consultas
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

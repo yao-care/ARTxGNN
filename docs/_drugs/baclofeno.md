@@ -115,5 +115,10 @@ El Evidence Pack para baclofeno se encuentra en un estado preliminar con brechas
 - **Re-ejecutar el modelo TxGNN** una vez integrados los datos moleculares y farmacológicos completos
 - **Evaluar viabilidad regulatoria** en Argentina: determinar si existe interés en la importación o registro local del fármaco antes de invertir recursos en la evaluación de reposicionamiento
 - **Revisar literatura internacional** sobre usos off-label de baclofeno (e.g., trastorno por consumo de alcohol, neuralgia del trigémino, reflujo gastroesofágico) como punto de partida para futuras predicciones
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

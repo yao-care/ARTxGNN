@@ -98,5 +98,10 @@ No existen predicciones de nuevas indicaciones generadas por TxGNN para arginina
 - Identificar si existen formulaciones farmaceuticas de arginina autorizadas bajo otro nombre comercial o como parte de combinaciones en Argentina
 - Evaluar si arginina, como suplemento nutricional o aminoacido terapeutico, califica para el pipeline de reposicionamiento de farmacos, o si su naturaleza de nutriente endogeno la excluye del alcance del proyecto
 - Recopilar datos de seguridad (advertencias, contraindicaciones, interacciones) de fuentes regulatorias o del prospecto
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

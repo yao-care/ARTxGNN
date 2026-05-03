@@ -82,5 +82,10 @@ El Evidence Pack para CICLOSPORINA está incompleto en sus tres dimensiones crí
 - [ ] **Resolver DG001**: descargar e interpretar el prospecto oficial (TFDA o ANMAT) para obtener advertencias y contraindicaciones
 - [ ] **Resolver DG002**: consultar DrugBank API con el ID correcto para recuperar MOA, categorías farmacológicas y datos de toxicidad
 - [ ] **Re-ejecutar el pipeline completo** una vez subsanados los gaps anteriores, y volver a generar el Evidence Pack antes de emitir un nuevo informe
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

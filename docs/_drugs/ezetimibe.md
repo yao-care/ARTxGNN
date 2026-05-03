@@ -131,5 +131,10 @@ Ezetimibe cuenta con múltiples ensayos clínicos Fase 3 completados, guías de 
 - Revisar la situación de patentes vigentes y disponibilidad de formulaciones genéricas aprobadas internacionalmente para evaluar viabilidad comercial en Argentina
 - Definir población objetivo prioritaria (hipercolesterolemia primaria, hiperlipidemia mixta, hipercolesterolemia familiar heterocigota) en función del perfil epidemiológico local
 - Diseñar plan de farmacovigilancia y monitoreo post-comercializaciónpost-registro si se avanza hacia aprobación local
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

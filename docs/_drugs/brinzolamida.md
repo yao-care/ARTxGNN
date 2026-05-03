@@ -119,5 +119,10 @@ Brinzolamida no cuenta con predicciones de nuevas indicaciones por parte de TxGN
 - Evaluar si existe interés en reposicionamiento para otras indicaciones **oftálmicas** (donde la formulación actual sería directamente aplicable)
 - Considerar re-ejecución del modelo TxGNN con grafo de conocimiento actualizado que incluya nodos de enfermedades oftálmicas con mayor granularidad
 - En caso de que se busque reposicionamiento sistémico, evaluar la viabilidad de reformulación del fármaco (vía oral/parenteral), lo cual implicaría un programa de desarrollo significativamente más extenso
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

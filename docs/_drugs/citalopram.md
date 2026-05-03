@@ -104,5 +104,10 @@ El Evidence Pack no contiene predicciones TxGNN ni indicaciones originales docum
 - **[DG002 – Alto]** Consultar DrugBank API para recuperar el mecanismo de acción (MOA) completo y las categorías farmacológicas del fármaco
 - Re-ejecutar el pipeline TxGNN una vez cargados los datos anteriores para generar `predicted_indications` con puntaje de confianza
 - Verificar si existen registros ANMAT activos para Citalopram que no hayan sido capturados en la consulta TFDA actual (posible desfase de fuente de datos)
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

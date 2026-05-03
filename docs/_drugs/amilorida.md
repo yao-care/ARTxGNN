@@ -119,5 +119,10 @@ Amilorida no cuenta con predicciones de nuevas indicaciones por parte del modelo
 - Recuperar información de seguridad del prospecto oficial (advertencias, contraindicaciones)
 - Re-ejecutar el modelo TxGNN una vez que los datos de entrada estén completos
 - Evaluar la viabilidad regulatoria en Argentina si en el futuro se identifican indicaciones candidatas
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

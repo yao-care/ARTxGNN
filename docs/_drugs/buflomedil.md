@@ -88,5 +88,10 @@ El modelo TxGNN no generó predicciones para Buflomedil, y los datos de base (MO
 - Descargar y analizar el prospecto completo (TFDA o EMA) para extraer advertencias, contraindicaciones e interacciones farmacológicas
 - Evaluar formalmente el perfil de seguridad histórico (retiro de mercado europeo, riesgo de convulsiones) como criterio de elegibilidad para reposicionamiento
 - Confirmar si existe alguna indicación aprobada en mercados internacionales activos (ej. algunos países de Asia o América Latina) que pueda servir de ancla para el análisis
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

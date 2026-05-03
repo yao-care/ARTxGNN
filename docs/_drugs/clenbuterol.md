@@ -86,5 +86,10 @@ El Evidence Pack carece de predicciones TxGNN, datos de mecanismo de acción y r
 - Completar la consulta de MOA en DrugBank vía API (DG002 — Alta)
 - Re-ejecutar el pipeline TxGNN con el Evidence Pack completo para generar predicciones de nuevas indicaciones
 - Verificar registros en mercados de referencia (FDA, EMA) para identificar indicaciones aprobadas que sirvan como base comparativa
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

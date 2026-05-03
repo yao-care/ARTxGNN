@@ -117,5 +117,10 @@ No existen predicciones de reposicionamiento generadas por TxGNN para acetilcarn
 - Evaluar si existen autorizaciones en otros países de la región (ANVISA Brasil, INVIMA Colombia, ISP Chile) como referencia regulatoria
 - Ejecutar nuevamente el pipeline TxGNN una vez completados los datos faltantes para verificar si se generan predicciones
 - Considerar búsqueda manual en ClinicalTrials.gov con los términos "acetylcarnitine" o "acetyl-L-carnitine" para identificar evidencia clínica existente fuera del pipeline automatizado
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

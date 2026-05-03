@@ -83,5 +83,10 @@ El pipeline TxGNN no produjo predicciones debido a brechas críticas en los dato
 - Descargar y analizar el prospecto oficial (ANMAT / fuente equivalente) para extraer indicaciones aprobadas, advertencias y contraindicaciones
 - Verificar el estado regulatorio actualizado en el registro de ANMAT para confirmar si BUDESONIDA circula bajo otro nombre comercial o INN alternativo
 - Re-ejecutar el pipeline TxGNN con los datos completos para obtener indicaciones predichas válidas
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

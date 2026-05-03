@@ -114,5 +114,10 @@ El Evidence Pack para Azitromicina se encuentra en un estado preliminar con brec
 - Verificar el estado de comercialización real de Azitromicina en Argentina (consulta directa a ANMAT, ya que el fármaco es ampliamente disponible a nivel mundial)
 - Re-ejecutar el pipeline TxGNN con los datos completos para generar predicciones de reposicionamiento
 - Complementar con búsqueda de ensayos clínicos y literatura relevante en ClinicalTrials.gov y PubMed
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

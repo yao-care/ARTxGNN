@@ -83,5 +83,10 @@ El pipeline TxGNN no generó indicaciones predichas para este candidato y existe
 - **DG002 (Alta):** Consultar DrugBank API (`/drugs/DB01222`) para obtener el mecanismo de acción completo
 - **Re-ejecutar el pipeline TxGNN** con los datos completos para generar el listado de indicaciones predichas
 - **Verificar autorizaciones en Argentina** con una consulta actualizada al registro de ANMAT para confirmar el estado real de comercialización
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

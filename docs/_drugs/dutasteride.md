@@ -101,5 +101,10 @@ A pesar de que el puntaje numérico de TxGNN es extremadamente alto (99.998%), l
 - Obtener información de seguridad completa del prospecto de referencia (resolver brecha DG001)
 - Evaluar indicaciones alternativas con mayor respaldo mecanístico —en particular **alopecia androgenética** (rank 8, con literatura asociada) o **hypotrichosis simplex of the scalp** (rank 6)— para las cuales la vía DHT/5α-reductasa sí es clínicamente relevante
 - Verificar estado regulatorio en Argentina para eventuales indicaciones con mayor nivel de evidencia
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

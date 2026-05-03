@@ -85,5 +85,10 @@ El Evidence Pack está incompleto en dimensiones críticas — sin predicciones 
 - Consultar DrugBank API (DB11750) para obtener el mecanismo de acción completo (remediación identificada: DG002)
 - Descargar y parsear el prospecto oficial desde la fuente regulatoria correspondiente para obtener advertencias y contraindicaciones (remediación identificada: DG001)
 - Verificar si CLOBETASOL tiene nombre de marca registrado en Argentina bajo otra denominación (búsqueda por clase terapéutica: corticosteroide tópico)
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

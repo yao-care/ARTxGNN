@@ -107,5 +107,10 @@ No existen predicciones de reposicionamiento generadas por TxGNN para Ambroxol, 
 - Re-ejecutar el modelo TxGNN una vez incorporados los datos de MOA al grafo de conocimiento
 - Evaluar si existen autorizaciones en mercados de referencia (EMA, FDA) que puedan complementar la información regulatoria faltante en Argentina
 - Verificar la representación de Ambroxol en el Knowledge Graph del modelo para descartar problemas de cobertura
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

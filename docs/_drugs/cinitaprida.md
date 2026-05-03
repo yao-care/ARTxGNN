@@ -80,5 +80,10 @@ El Evidence Pack de CINITAPRIDA carece de los insumos mínimos necesarios para c
 - Registrar indicaciones originales aprobadas en países de referencia (México: dispepsia funcional; España: trastornos de la motilidad GI) en el campo `original_indications` para alimentar el modelo
 - Re-ejecutar el pipeline TxGNN con el Drug ID correctamente vinculado y verificar que las indicaciones semilla estén presentes
 - Evaluar la viabilidad de registro ante ANMAT como condición previa a cualquier estrategia de reposicionamiento en Argentina
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

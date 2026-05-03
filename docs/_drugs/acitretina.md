@@ -113,5 +113,10 @@ No existen predicciones TxGNN de nuevas indicaciones para acitretina en el prese
 - Evaluar la viabilidad regulatoria de registro en Argentina (consulta con ANMAT o búsqueda de antecedentes de importación)
 - Re-ejecutar el modelo TxGNN una vez que el fármaco esté correctamente representado en el grafo de conocimiento
 - Obtener información de seguridad del prospecto oficial (advertencias, contraindicaciones, interacciones farmacológicas)
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

@@ -112,5 +112,10 @@ No existen predicciones de nuevas indicaciones generadas por TxGNN para bencidam
 - Evaluar si existen autorizaciones en otros países de referencia (EMA, FDA) que puedan servir como base para el análisis
 - Verificar la representación del fármaco en el grafo de conocimiento (KG) del modelo
 - Si se obtienen predicciones tras la actualización, recopilar prospecto de seguridad desde la fuente regulatoria correspondiente
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

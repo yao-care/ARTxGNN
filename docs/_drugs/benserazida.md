@@ -90,5 +90,10 @@ No existen predicciones de TxGNN para nuevas indicaciones de benserazida. El fá
 - Completar datos de mecanismo de acción (MOA) detallado desde DrugBank
 - Re-ejecutar el modelo TxGNN una vez completados los datos anteriores para verificar si se generan predicciones
 - Evaluar si el reposicionamiento debe enfocarse en la combinación levodopa/benserazida en lugar de benserazida como monodroga
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

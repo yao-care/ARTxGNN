@@ -103,5 +103,10 @@ El Evidence Pack de Amiodarona se encuentra en un estado incompleto que impide l
 - Registrar el mecanismo de acción detallado (bloqueo multicanal: K⁺, Na⁺, Ca²⁺, β-adrenérgico)
 - Re-ejecutar el modelo TxGNN una vez completada la integración de datos
 - Verificar el estado regulatorio con ANMAT mediante consulta directa, dado que Amiodarona es un fármaco ampliamente utilizado a nivel mundial y su ausencia en los registros puede ser un artefacto de búsqueda
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

@@ -84,5 +84,10 @@ El ciclo de evaluacion no pudo completarse porque los datos criticos de MOA y la
 - **[DG002 — Alto]** Consultar la API de DrugBank con el ID `DB00482` para obtener el mecanismo de accion (MOA), categorias farmacologicas y toxicidad
 - Con ambas brechas resueltas, **re-ejecutar el pipeline TxGNN** para generar predicciones de nuevas indicaciones
 - Una vez generadas las predicciones, **re-emitir el Evidence Pack v5** e iniciar el ciclo de evaluacion estandar
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

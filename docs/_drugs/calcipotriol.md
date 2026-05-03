@@ -102,5 +102,10 @@ El Evidence Pack de Calcipotriol presenta dos brechas de datos críticas — una
 - Verificar el estado del pipeline TxGNN para este candidato: confirmar si la ausencia de predicciones es un resultado válido o un error de procesamiento
 - Confirmar el estado regulatorio en Argentina (ANMAT) para Calcipotriol con búsqueda directa en el registro de especialidades medicinales
 - Registrar las indicaciones originales conocidas (psoriasis) en el campo `original_indications` para enriquecer el contexto de entrada al modelo
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

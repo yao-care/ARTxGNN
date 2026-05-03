@@ -96,5 +96,10 @@ El Evidence Pack carece de predicciones de nuevas indicaciones y de datos de mec
 3. **[Bloqueante]** Integrar las advertencias y contraindicaciones del prospecto oficial — la consulta al prospecto también retornó 1 resultado sin procesar
 4. Verificar el registro ANMAT con variantes del nombre comercial (*Tegretol*, *Carbatrol*) para determinar el estado real de comercialización
 5. Re-generar este informe una vez disponibles las predicciones, el MOA y los datos de seguridad
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

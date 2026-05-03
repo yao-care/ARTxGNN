@@ -106,5 +106,10 @@ No es posible avanzar en la evaluación de reposicionamiento dado que el modelo 
 ---
 
 *Este informe fue generado el 2026-04-03. Los resultados son exclusivamente para fines de investigación y no constituyen consejo médico. Cualquier candidato a reposicionamiento requiere validación clínica antes de su aplicación.*
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

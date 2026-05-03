@@ -117,5 +117,10 @@ El Evidence Pack para Atorvastatín carece de los elementos fundamentales para u
 ---
 
 > ⚠️ **Aviso importante:** Este informe es únicamente para fines de investigación y no constituye asesoramiento médico. Los candidatos de reposicionamiento de fármacos requieren validación clínica antes de su aplicación.
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

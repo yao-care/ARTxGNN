@@ -109,5 +109,10 @@ No existe predicción de TxGNN para nuevas indicaciones, el fármaco no está co
 - Obtener las advertencias, contraindicaciones y datos de seguridad del prospecto oficial
 - Verificar si existe alguna formulación comercializada en Argentina bajo otro nombre o si el fármaco está disponible como importación
 - Re-ejecutar el modelo TxGNN una vez completadas las brechas de datos para determinar si se generan predicciones de nuevas indicaciones
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

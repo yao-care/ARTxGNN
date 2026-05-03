@@ -105,5 +105,10 @@ Al revisar el conjunto completo de predicciones del Evidence Pack, tres indicaci
 - Redirigir la evaluación principal hacia **Enfermedad de Raynaud** (mejor fundamentación mecanística y menor riesgo de seguridad)
 - Diseñar estudios preclínicos en modelos de vasoespasmo periférico como primer paso para la indicación de Raynaud
 - Evaluar la disponibilidad de rutas de administración compatibles con trastornos vasculares periféricos y cardíacos
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

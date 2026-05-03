@@ -113,5 +113,10 @@ No es posible avanzar con la evaluación de reposicionamiento de Acetazolamida e
 - Verificar el **estado regulatorio** en Argentina mediante fuentes locales (ANMAT)
 - Re-ejecutar el pipeline TxGNN con los datos completados para generar predicciones de nuevas indicaciones
 - Obtener información de seguridad del prospecto (advertencias, contraindicaciones, interacciones)
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

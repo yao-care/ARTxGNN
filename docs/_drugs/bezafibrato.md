@@ -109,5 +109,10 @@ Bezafibrato no cuenta con predicciones de nuevas indicaciones por parte del mode
 - Confirmar la inclusión de bezafibrato en el grafo de conocimiento de TxGNN para futuros ciclos de predicción
 - Evaluar la viabilidad regulatoria de introducción en el mercado argentino, dado que actualmente no está comercializado
 - Considerar la re-ejecución del modelo TxGNN una vez que se disponga de los datos faltantes y la entidad del fármaco esté correctamente mapeada en el grafo
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

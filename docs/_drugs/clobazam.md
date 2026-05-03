@@ -79,5 +79,10 @@ El Evidence Pack carece de indicaciones predichas por TxGNN y de datos de mecani
 - **DG002 (Alta prioridad):** Consultar DrugBank API para obtener el mecanismo de acción (MOA) de Clobazam
 - Re-ejecutar el pipeline TxGNN una vez completados los datos base, para generar predicciones de nuevas indicaciones
 - Verificar en registros internacionales (FDA, EMA, AEMPS) las indicaciones aprobadas para Clobazam, como punto de partida para el análisis de similitud
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

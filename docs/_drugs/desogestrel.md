@@ -115,5 +115,10 @@ La predicción de TxGNN refleja una asociación real entre desogestrel y amenorr
 - Ensayo clínico prospectivo que pruebe la hipótesis terapéutica (AOC con desogestrel para tratamiento de amenorrea hipotalámica), diferenciado del efecto adverso del POP
 - Evaluación del camino regulatorio en Argentina para una nueva indicación dado que el fármaco no tiene autorización vigente
 - Valoración del perfil riesgo-beneficio frente a las alternativas ya aprobadas (EE/LNG, EE/DRSP con indicación formal en amenorrea secundaria)
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

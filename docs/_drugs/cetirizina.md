@@ -102,5 +102,10 @@ El Evidence Pack está incompleto — sin indicaciones predichas por TxGNN y sin
 - [ ] **Resolver DG002**: Consultar DrugBank API con el INN correcto (`cetirizine`) para obtener MOA, categorías y datos de toxicidad
 - [ ] **Verificar la fuente regulatoria**: Confirmar si la búsqueda debe realizarse en ANMAT (Argentina) en lugar de TFDA (Taiwán), dado que el nombre `CETIRIZINA` corresponde a la nomenclatura en español
 - [ ] **Regenrar el Evidence Pack** una vez resueltas las brechas, y volver a solicitar este informe
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

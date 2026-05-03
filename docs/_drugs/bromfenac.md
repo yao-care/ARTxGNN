@@ -111,5 +111,10 @@ No existen predicciones de nuevas indicaciones generadas por TxGNN para Bromfena
 - Registrar las indicaciones originales aprobadas del fármaco (uso oftálmico como AINE)
 - Re-ejecutar el modelo TxGNN una vez que los datos de entrada estén completos
 - Evaluar la viabilidad regulatoria en Argentina dado que el fármaco no está comercializado actualmente
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

@@ -119,5 +119,10 @@ El Evidence Pack para amlodipina presenta brechas de datos críticas: no se reso
 - Consultar DrugBank API para obtener el mecanismo de acción detallado (DG002)
 - Verificar registros de comercialización en Argentina bajo nombres alternativos y combinaciones fijas
 - Una vez resueltas las brechas, re-generar el Evidence Pack y evaluar nuevamente
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

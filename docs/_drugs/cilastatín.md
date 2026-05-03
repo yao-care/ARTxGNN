@@ -103,5 +103,10 @@ El modelo TxGNN no generó predicciones para este fármaco, lo que junto con la 
 3. **Obtener MOA** — Consultar DrugBank para el mecanismo de acción (inhibición de DHP-I renal) y actualizar el campo `original_moa`
 4. **Re-buscar autorizaciones ANMAT bajo la combinación** — Repetir la búsqueda con el término "imipenem cilastatín" para detectar licencias bajo nombre de combinación fija
 5. **Descargar prospecto oficial** — Resolver DG001 extrayendo advertencias y contraindicaciones del PDF del prospecto autorizado
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

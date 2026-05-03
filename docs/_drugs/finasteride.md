@@ -103,5 +103,10 @@ La Hipertricosis Universalis Congénita tipo Ambras presenta una base patogénic
 - Obtención de datos completos del mecanismo de acción (MOA) desde DrugBank API
 - Obtención de advertencias de seguridad e información regulatoria de ANMAT (juzgado como Blocking en el Evidence Pack)
 - Evaluación de modelos in vitro o estudios mecanísticos antes de considerar cualquier protocolo clínico
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

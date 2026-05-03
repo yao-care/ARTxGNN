@@ -83,5 +83,10 @@ El Evidence Pack no contiene predicciones TxGNN ni datos de seguridad estructura
 - **[Alto]** Obtener el MOA estructurado desde DrugBank para habilitar el análisis de relacionamiento mecanístico
 - **[Alto]** Verificar el estado de comercialización real en Argentina vía ANMAT: Candesartán sí está comercializado históricamente (Atacand® y genéricos), por lo que los 0 resultados probablemente reflejan un problema de grafía en la consulta, no ausencia real de registro
 - **[Medio]** Recopilar advertencias, contraindicaciones y perfil de interacciones del prospecto ANMAT para completar la sección de seguridad
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

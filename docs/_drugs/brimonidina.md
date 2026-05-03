@@ -96,5 +96,10 @@ No existen predicciones de nuevas indicaciones generadas por TxGNN para brimonid
 - Resolver la brecha **DG002** (High): integrar el mecanismo de acción desde DrugBank (ID sugerido: DB00484) en el grafo de conocimiento
 - Verificar si existe comercialización del fármaco en Argentina bajo otro nombre comercial o a través de importación
 - Re-ejecutar el modelo TxGNN una vez que las brechas de datos hayan sido resueltas para evaluar posibles indicaciones de reposicionamiento
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

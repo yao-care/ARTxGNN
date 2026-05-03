@@ -93,5 +93,10 @@ Este Evidence Pack no contiene predicciones de TxGNN ni datos de mecanismo de ac
 - **[Bloqueante]** Re-ejecutar el pipeline TxGNN con datos de entrada completos para generar `predicted_indications`
 - **[Alta prioridad]** Descargar y analizar el prospecto oficial (PDF) para extraer advertencias y contraindicaciones
 - Verificar si existen presentaciones de CICLOPIROX en otros mercados de referencia (EMA, FDA) que puedan orientar la indicación original
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

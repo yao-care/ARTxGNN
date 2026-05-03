@@ -123,5 +123,10 @@ El Evidence Pack para ADAPALENO presenta brechas de datos críticas (severidad b
 - Descargar y analizar el prospecto para extraer advertencias, contraindicaciones y precauciones
 - Re-ejecutar el modelo TxGNN una vez completadas las brechas de datos
 - Evaluar la viabilidad regulatoria en Argentina, considerando que actualmente no existen autorizaciones vigentes
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

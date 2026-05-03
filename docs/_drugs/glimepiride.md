@@ -104,5 +104,10 @@ La predicción de TxGNN se sustenta únicamente en una conexión indirecta a tra
 - Realizar estudios preclínicos en modelos animales de SPS para evaluar si el bloqueo de canales KATP neuronales tiene algún efecto sobre la rigidez muscular o la actividad GABAérgica
 - Evaluar el riesgo de hipoglucemia severa en población sin diabetes (pacientes con SPS no son diabéticos), lo cual podría representar un riesgo de seguridad significativo
 - Gestionar el registro de Glimepiride en Argentina como prerrequisito regulatorio para cualquier ensayo clínico local
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

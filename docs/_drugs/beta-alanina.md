@@ -111,5 +111,10 @@ Beta-alanina no cuenta con autorizaciones de comercialización en Argentina, no 
 - Obtener información de seguridad de fuentes regulatorias (ANMAT u organismos equivalentes)
 - Evaluar si el compuesto califica como fármaco reposicionable o si su perfil corresponde exclusivamente al de suplemento nutricional
 - En caso de que se obtenga una predicción TxGNN futura, repetir el ciclo de evaluación completo
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

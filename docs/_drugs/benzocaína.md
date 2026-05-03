@@ -113,5 +113,10 @@ Benzocaína no cuenta con predicciones de nuevas indicaciones generadas por TxGN
 - Obtener información de seguridad (advertencias, contraindicaciones) desde prospectos oficiales
 - Evaluar si existen registros sanitarios vigentes en Argentina bajo denominaciones alternativas o combinaciones
 - Re-ejecutar el modelo TxGNN una vez resueltas las brechas de datos para verificar si se generan predicciones
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

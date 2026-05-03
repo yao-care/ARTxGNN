@@ -115,5 +115,10 @@ No existen indicaciones predichas por el modelo TxGNN para alopurinol en esta ve
 ---
 
 > ⚠️ **Disclaimer:** Este informe es de caracter investigativo y no constituye consejo medico. Cualquier candidato a reposicionamiento requiere validacion clinica rigurosa antes de su aplicacion.
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

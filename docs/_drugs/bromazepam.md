@@ -105,5 +105,10 @@ No existe predicción de nueva indicación generada por TxGNN para Bromazepam, y
 - Obtener información regulatoria completa (advertencias, contraindicaciones) de la fuente regulatoria correspondiente
 - Evaluar el estado de comercialización en mercados de referencia (EMA, FDA) como punto de partida para análisis regulatorio en Argentina
 - Considerar si el perfil de seguridad de las benzodiazepinas (riesgo de dependencia, interacciones con depresores del SNC) es compatible con estrategias de reposicionamiento a largo plazo
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

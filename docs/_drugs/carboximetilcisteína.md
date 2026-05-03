@@ -87,5 +87,10 @@ El Evidence Pack está incompleto: no hay indicaciones predichas, ni datos de se
 - Integrar los datos de DrugBank ya consultados (MOA, categorías farmacológicas, toxicidad)
 - Reejecutar el pipeline TxGNN con el identificador DrugBank correcto para generar predicciones de indicación
 - Confirmar si el fármaco tiene presencia en Argentina bajo nombres comerciales alternativos (p. ej. Mucofluid, Rinathiol, Pectox)
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

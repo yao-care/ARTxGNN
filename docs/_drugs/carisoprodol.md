@@ -89,5 +89,10 @@ El Evidence Pack carece de predicciones de TxGNN, indicacion original documentad
 2. **Resolver DG002 (Alta):** Consultar la API de DrugBank (ID: DB00395) para obtener el mecanismo de accion, categorias farmacologicas y targets moleculares.
 3. **Re-ejecutar el pipeline TxGNN** una vez completadas las brechas anteriores para obtener la lista de indicaciones predichas con puntajes de confianza.
 4. **Verificar estado de comercializacion**: Confirmar si CARISOPRODOL esta autorizado bajo algun nombre comercial en Argentina mediante busqueda en ANMAT Medicamentos.
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

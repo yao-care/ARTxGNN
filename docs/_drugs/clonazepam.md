@@ -120,5 +120,10 @@ La evidencia disponible incluye una revisión Cochrane, la guía AASM 2025, un E
 - Evaluar el perfil riesgo-beneficio específico en poblaciones vulnerables (adultos mayores, pacientes con insuficiencia renal, embarazadas)
 - Considerar el impacto regulatorio de la clasificación como sustancia controlada (psicotrópico) sobre la accesibilidad y el seguimiento clínico en Argentina
 - Diseñar protocolo de monitoreo de dependencia y criterios de discontinuación para uso a largo plazo en RLS
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

@@ -116,5 +116,10 @@ Existe al menos un ECA directo (PMID 6113175, 1981, N=100) y múltiples estudios
 - Diseñar protocolo de uso a corto plazo con criterios de exclusión explícitos para población geriátrica, pacientes con historial de abuso de sustancias y pacientes con riesgo oncológico
 - Evaluar estrategia de registro ante ANMAT para la indicación de insomnio, incluyendo requisitos de prescripción controlada (Ley 19.303 de psicotrópicos en Argentina)
 - Comparar perfil riesgo-beneficio frente a alternativas más modernas con mejor seguridad crónica (antagonistas duales de orexina, agonistas de melatonina) para orientar la posición clínica del producto
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

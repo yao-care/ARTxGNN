@@ -109,5 +109,10 @@ Existe un mecanismo biológico plausible y coherente (inhibición de P2Y12 → r
 - Seguimiento del resultado publicado del ensayo NCT02938182 (Phase 4, n=50, Clopidogrel en migraña con shunt derecha-izquierda) para verificar si es extensible a este subtipo
 - Evaluación del ensayo activo SPRING (NCT04946734, Phase 3, n=440) cuya finalización en 2025 podría aportar evidencia L1 para el espectro migraña-PFO, informando indirectamente sobre este subtipo
 - Consideración de registro inicial en Argentina como condición habilitante para cualquier desarrollo clínico local
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

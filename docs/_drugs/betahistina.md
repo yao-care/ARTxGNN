@@ -123,5 +123,10 @@ Betahistina no cuenta con predicciones de nuevas indicaciones generadas por TxGN
 - Obtener datos de MOA estructurados desde DrugBank para alimentar el modelo de predicción
 - Evaluar el estado regulatorio en detalle: si existe interés en el mercado argentino, considerar la vía de registro como producto importado
 - Re-ejecutar el pipeline TxGNN una vez resueltas las brechas de datos anteriores
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

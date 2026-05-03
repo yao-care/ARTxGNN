@@ -141,5 +141,10 @@ Diclofenac presenta una extensión farmacológica directamente justificada hacia
 - Identificar ensayos clínicos modernos (post-2000) de diclofenac específicamente en AIJ, dado que la evidencia directa existente data de los años 80-90
 - Definir formulación pediátrica apropiada (suspensión oral u otras formas de dosis ajustable por peso)
 - Establecer plan de monitoreo para uso prolongado en niños: hemograma, función hepática, función renal y evaluación gastrointestinal
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

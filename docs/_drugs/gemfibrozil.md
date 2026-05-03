@@ -107,5 +107,10 @@ La predicción de TxGNN posee plausibilidad biológica sustentada en el mecanism
 - Acceso a la ficha técnica/prospecto para completar advertencias, contraindicaciones e interacciones farmacológicas relevantes
 - Evaluación comparativa con otros fibratos (bezafibrate, fenofibrate) para determinar si el efecto antiartrítico es específico de gemfibrozil o un efecto de clase
 - Inicio de gestiones regulatorias ante ANMAT para evaluar viabilidad de comercialización en Argentina
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

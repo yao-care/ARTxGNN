@@ -91,5 +91,10 @@ El Evidence Pack no contiene predicciones de nuevas indicaciones ni datos regula
 3. **Resolver Data Gap DG001**: descargar e interpretar el prospecto local (ANMAT o TFDA) para obtener advertencias clave y contraindicaciones formales.
 4. **Verificar cobertura regulatoria en Argentina**: confirmar si existen registros bajo nombres comerciales alternativos (p. ej., Dalacin C, Cleocin) que no hayan sido capturados por la búsqueda con el nombre INN en español.
 5. Una vez completados los puntos anteriores, regenerar el Evidence Pack completo y re-ejecutar el pipeline de informe.
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

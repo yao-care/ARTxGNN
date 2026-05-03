@@ -99,5 +99,10 @@ El paquete de evidencia está incompleto en sus campos críticos: ausencia de in
 - Completar la información de mecanismo de acción (MOA) y categorías de DrugBank (brecha DG002)
 - Obtener advertencias, contraindicaciones y perfil de DDI desde prospecto oficial (brecha DG001 — clasificada como Bloqueante)
 - Verificar el estado regulatorio en ANMAT con variantes del nombre y por número de principio activo, ya que cefalexina tiene amplia disponibilidad genérica en Argentina
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

@@ -106,5 +106,10 @@ Aniracetam no cuenta con predicciones de nuevas indicaciones por parte de TxGNN,
 - Obtener información de seguridad del prospecto oficial (DG001)
 - Re-ejecutar el modelo TxGNN una vez completadas las brechas de datos para verificar si se generan predicciones
 - Evaluar si existen fuentes regulatorias alternativas (EMA, PMDA Japón) que proporcionen datos de indicaciones aprobadas en otras jurisdicciones para enriquecer el grafo de conocimiento
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

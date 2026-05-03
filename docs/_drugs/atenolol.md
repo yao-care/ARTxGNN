@@ -109,5 +109,10 @@ No se dispone de predicciones del modelo TxGNN para nuevas indicaciones de ateno
 - Verificar si existe registro regulatorio en Argentina bajo nombres comerciales alternativos
 - Re-ejecutar el modelo TxGNN una vez completados los datos de MOA para evaluar si se generan predicciones de reposicionamiento
 - Considerar la integración de datos regulatorios de jurisdicciones donde atenolol sí está aprobado (FDA, EMA) para enriquecer el perfil del fármaco
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 

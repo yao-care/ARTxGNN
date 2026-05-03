@@ -82,5 +82,10 @@ El modelo TxGNN no generó predicciones de nuevas indicaciones para CLOFIBRATO, 
 - Descargar y analizar el prospecto oficial para completar los datos de **advertencias, contraindicaciones e interacciones farmacológicas**
 - Consultar directamente a **ANMAT** para verificar si existe algún antecedente de registro o comercialización histórica en Argentina
 - Una vez obtenidas las predicciones TxGNN, re-emitir este informe con evidencia de ensayos clínicos y literatura
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
 ---
 
