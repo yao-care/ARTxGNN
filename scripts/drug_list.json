@@ -1,6 +1,6 @@
 {
-  "total": 360,
-  "generated_at": "2026-05-04T02:26:03.632245",
+  "total": 361,
+  "generated_at": "2026-05-04T13:46:36.181936",
   "drugs": [
     {
       "name": "Acenocumarol",
@@ -285,6 +285,13 @@
     {
       "name": "Benzocaína",
       "file": "benzocaína.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Beta-Alanina",
+      "file": "beta-alanina.md",
       "evidence_level": "L5",
       "indication_count": 0,
       "predicted_indication": ""
