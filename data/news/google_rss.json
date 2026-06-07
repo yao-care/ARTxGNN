@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-06-07T19:23:04.564578+00:00",
+  "fetched_at": "2026-06-07T21:13:13.076831+00:00",
   "source": "Google News Health RSS",
-  "count": 100,
+  "count": 92,
   "articles": [
     {
       "id": "db068fdd1012",
@@ -11,16 +11,6 @@
       "source": {
         "name": "Clarin.com",
         "url": "https://www.clarin.com"
-      }
-    },
-    {
-      "id": "f933c37471d5",
-      "title": "Cómo funcionará el nuevo sistema digital para retirar medicamentos en las farmacias - Perfil",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNWx5MWU2eXVBcHBtUGVfNEdLdlRZcVBZSGpLbzgwLWN6VnM5NHhfWUdOYzYxWnR4YjhSRndhYVZqa21xYWlEN0Z5ZEpTNlpPUEpUSUNScHR0Q3pVSlRFTWhvem50Y1F0a05jZFpabmpVbjlHX05iUFZZQ1BhRFhLZ0tsM2MxNndSR080TlA2ejdIdlpZeDFLOU5ScVkyRkJUUVE5WTktZ1VIZkdNckxCZnZzRGNyZE9EdkxB0gHAAUFVX3lxTE9pT3NVWFRfMGdhT01sNC1ReHdyZjlHUDNDeE9CYkdOUFBQX1Iwdmlpa1h5V0xWbkFxUFNXYU9kZXlTQ2RiSElpbjlHb2JlY0tGS0E5bTVtTks1Y2h0MXQ5dDhqNXpPZzA3RUFMQWYtNVBaRkFvbnlObV9nMXZ2b21ibjM4d3VjNmljdzJTbl8zakoyamtLbjNxWjRkYTh0RHlYc3diZEladzM1MEtaZl9TZTFpNWQ0Y1hXTUJ1RkRMOA?oc=5",
-      "published": "2026-06-06T18:03:00+00:00",
-      "source": {
-        "name": "Perfil",
-        "url": "https://www.perfil.com"
       }
     },
     {
@@ -34,16 +24,6 @@
       }
     },
     {
-      "id": "a581a29f3591",
-      "title": "Farmacéuticos piden precisiones sobre el nuevo sistema digital de medicamentos - Cadena 3 Argentina",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNTG1uaFgxdnBYRmN1VVRmMW5xcWRla0dZSGlpTGdMUk9JbXpuSFYzdW8wRy1BU0lxNGppUjh5WlN0eHhKYUhTRzlURklTbF9zUTBRWG83b21CUmVoUmRrVDktVGR3Z3k0bWF4b0xsemhKeVgzekUwZGN6MWVBMFNRTnpmWDAyTnQtS19BR1YwbnhPdE1QZHl2WkNRam9jY1NSSTNzSGYyaEdYQmdQMXpRX1hJTXpaNDdRdXN3bkZHbkRhLTVPbkVpTnE4Q05UUEF4Y3FqX093?oc=5",
-      "published": "2026-06-06T12:35:07+00:00",
-      "source": {
-        "name": "Cadena 3 Argentina",
-        "url": "https://www.cadena3.com"
-      }
-    },
-    {
       "id": "733de72f126b",
       "title": "#Legislación Farmacias: nuevo sistema digital para retirar medicamentos - al día | argentina",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaHVraXU4Ulh0ZVd3RVVWVmZsc1N3RDVVbExsMUJNc29qUmo5X21oVG0tZFZmZ01HdEhhM29COEpNeThLV2RjT0hUdnQtSGRSZDBIUDhRWThSVm5EUjIwcnJNbmszOEVxQzBZeUltUlNlSTlpTHYxWjRXZUtIMkswTzVhQWxnbkNxcTJzXzRlTGxyVVpZdEFrMHhLUVcxTU5LYmRFUmNCWnVrbGw3alpES09MVnQ5R2wyM1VF0gHAAUFVX3lxTE14TnRmRVVtdFM1My1qYVJUejRtX0cxRFZ2Y0E5blhMTHZLbENncG1udS1yYlUyTWFKLXF2NlBLWVAtZjVYOHBxRnJBYU9JUkNkRGVXRkUzekdzUzJ3NTZ3U2xJYWxjTWl3b2h2Yi0wR0htczA4a19WWHh5M3hnTmZBWl9seklyQThXQzJVU290aVc3V0pRbWg3N2RiYkR5Mkh6cW9OZkRidmEwYTd3MFFKdEl5UXhtOU1QaUpUXzc2aw?oc=5",
@@ -51,56 +31,6 @@
       "source": {
         "name": "al día | argentina",
         "url": "https://aldiaargentina.microjuris.com"
-      }
-    },
-    {
-      "id": "21ce9dfda8b9",
-      "title": "Avance histórico de la universidad pública: producirá un medicamento para pacientes con VIH - LM Neuquén",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQlpkSWVvX0ppdFJRLWlMcHEwa3JvRXh0VVo4Z0NpS1F4eERRNkFBTkYzaFhYQTJzM0hDWnlseTdwdWpjd00zWmw5M3djR1dVLTFFNHYyRVIxNkRXZnAwSF9TbzRzZ0Z0ekFFczRIRUxyaThnZjFadm9hVzdvNVBqdk9pUUx6RE9oa3lLZ3RBcDhwc2V3d0VaeUdNMDlvVG10eHItNUhrZFMwMDdMV0FXVzdYdW4zbzVKZVHSAb8BQVVfeXFMUE5mRmNIMGRUTllNN2RKc250UlZSMUt2QlJXeGRKNEZhQzZDOC13enlwRUxKN2hoSWp4aEpEZG9JdHI0akR4S01WTXlMTUVzY25xQ0VwaVpPX28zWkVRN1F3a0ZjeWdSUWdpaFN2LTJvclJHN0RVX1NQLThqTmRIWmNIT1JDMUh6MmFVVmtYaU5ySVZrcWlVN20zMThRN0QtWWxWQUJkV29oRVRHcWVRNm5RX3lWVGM4VEdBMFU0bTA?oc=5",
-      "published": "2026-06-05T19:15:00+00:00",
-      "source": {
-        "name": "LM Neuquén",
-        "url": "https://www.lmneuquen.com"
-      }
-    },
-    {
-      "id": "08903a150792",
-      "title": "Salud continúa con la distribución de medicamentos - Tiempo Sur",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdUZYYktWYTZkelRrdVFVWl9GRlh6SkhMU3BQc1VzZ3ZOVzU3X1c1Qkw2OW51QklfSFpHeVo0SGtKUnZKQ24wRGJSek9OVkdraHZuRGhILThxaWsxRERELXhEXzJZZ3RmNF9pMXR3cUJfQlRNZTJWTnh1Q0JoN3RfaHNYU1ZaYlFtRlVfRFQ2ck1FZk0waWhz0gGcAUFVX3lxTE9Yakh4YW15TDd2cmJxY0VfVE5WOHpOT0tUakRmbklsdVBRSXMweVdmWmJQZFprSno3Nk0yZ3lZME1XZzZ5T3gtd1ZFdHpLRWNaTWgtWV9rRHA4WmpSSDlSckJnT1cyUGpidERoeUM4VExlTUEzSzJVWW1qc252QTdGTmRRQ0RIQnpwdkdldFp0c0ZHNUxpeHRoSDdxdQ?oc=5",
-      "published": "2026-06-05T13:50:00+00:00",
-      "source": {
-        "name": "Tiempo Sur",
-        "url": "https://www.tiemposur.com.ar"
-      }
-    },
-    {
-      "id": "fa32625c42ff",
-      "title": "¿Adiós al papel? El cambio anunciado en la entrega de medicamentos en las farmacias - Los Andes",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQlNUQWtpMzZVREJ2MW5qRjBUYlVLT0NxQi1rWUlBNTVTaGV2ZHE4djVJUF96OE1QVkY0Rl9mN0tRS0xDSE5fbTV6T28wMHRxZnFNd0ppeDNSWWpNOFlTbkxvdld3M0gyY1ozNEJDaXJmWmMwRzJmM1g3aWdmVDZlTDVvRlduckJHMlVVdzlrdnZGMEhVVllScXRmdnd4aWR5VFA3TnFrV0VQRWhldGNGa1BuSUI0TkdqVEE?oc=5",
-      "published": "2026-06-05T13:39:00+00:00",
-      "source": {
-        "name": "Los Andes",
-        "url": "https://www.losandes.com.ar"
-      }
-    },
-    {
-      "id": "a25b3b1a0f52",
-      "title": "Nuevos mecanismos para validar y registrar la entrega de medicamentos en farmacias - Consenso Salud",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYmxwXzhfYzlMNHhIamFNd2c0dU5QeEtQUm1Bdmw4YmdyOWpaOGJrSG9FMW1lTlItX0FqOE1WSmJGZk1Jb3pia3l4eVF6OEp6cFlIMDJPMm1mZjR6VDBVczYxNmpjc0psX2o4TnN6cTl3eFh6bE9QOTZGUFlXaHBEejlFM09mYjJCcU9tWkJpT2F4azY1eXVla2M1MFZIVDRubGRybUsxMkVrUU9wMUN6VzB3?oc=5",
-      "published": "2026-06-05T13:29:01+00:00",
-      "source": {
-        "name": "Consenso Salud",
-        "url": "https://consensosalud.com.ar"
-      }
-    },
-    {
-      "id": "c17326e2b573",
-      "title": "Farmacias ya no sacarán el troquel de las cajitas de medicamentos - Primera Edición",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQTmtYeVlJSTVZOE5rYVF3WFJKcE1ScGRmZnhJRXlvX19QLWpuY2t4SEtvVXRuWTIwYXNETmo3ZmpKOEdvZDBGcDhlaWNRODZHcFBwa1pROEFWaGxoQndVakVkMGUyRlFDNVRGOUp0QXVJZ3hocmduWENGS1FLTnY5RFJFNmRxVjJpQkl0bXc2S2xwMWxPM255R3dn?oc=5",
-      "published": "2026-06-07T14:03:39+00:00",
-      "source": {
-        "name": "Primera Edición",
-        "url": "https://www.primeraedicion.com.ar"
       }
     },
     {
@@ -114,13 +44,13 @@
       }
     },
     {
-      "id": "7aa9eed2ed53",
-      "title": "Cómo funcionará el sistema digital que deberán implementar las farmacias para el retiro de medicamentos - Infobae",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQaEttb3ZlbDRWLTBhaEdnNUxMcnBRMnRpOG8tR01lNF9LQ2JiTVI0blF3c2dKTG45WVdvTEdwdnhEWUttWGUzLUROV1ZFaW9LdHd0ekZnQ1ZYQ0hYR2V6MkdzYlZORWtNS1VBWjljeVFjNkNZWEtWNWNnckd0RTRWMktZWFJYWVlPQzZqeHZUSGUyVjNCN0I4UEIxWTVPVThuRWYyOEsyX1ZaZ0VrcDFwRUxHSGIzVXdBRHNFZE1tT3VGRWQ1LXgtX1Y4VkVtbVFPQUVCOUNyeWNLdEJjWHFIUnNn0gH8AUFVX3lxTE50SDdKdUFTMnVlaG54S1R0dkMtcFQzVmRPcGJwY3hvQmpkYmtSZ2NuQmhTOTVPLTBEcWpnNXJYc1ZFQ3FJNWU4SmNPUE1lckZVZWxMX1EtLVNxejQxcXhOaS05Q051YVRkVlB4X0l2djNaOEVXSlRjZEdRYjhZVFJKUEFHYW1md3luZU45dWc1dEE3MjRnUkpYQzNTaXV5Y1NtTTZRT3EzS3U4WVN2eElGZDQ1SmtnaGxrZDE5SEhEZ0tQNjg1cDNjcnlKQVZuRjJpUEd6ZWZYQi1CdlNwZFZKSW5nZnYwU0w2QWxHZTZWWnFZSlNVQ1V0SUtsVw?oc=5",
-      "published": "2026-06-05T07:56:00+00:00",
+      "id": "6693726e01aa",
+      "title": "Cambia el retiro de medicamentos en las farmacias: así es el nuevo sistema - Mnews",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTnJ4U1ZCc0hLUmtud05WTDdnbFEzSXI0UVJzNmEtM2pCNTZEaVU2ck5wWHZpclpTc1BCOFVMUS1sTkVkTFIyb25SQUgxMW1qMjI3aDRfR1UxcWpZTHl3T0tqTW5SODJsbTl3Z2NyNDBjUjhjaGgxWVRXUHd3SURMR0dheDRiZDNGWHRHaXduVktnOWJmTk9ZSzJtQVhkS05UMnVBd2pIYlBYbGN3dTVr?oc=5",
+      "published": "2026-06-07T20:30:53+00:00",
       "source": {
-        "name": "Infobae",
-        "url": "https://www.infobae.com"
+        "name": "Mnews",
+        "url": "https://mnews.com.ar"
       }
     },
     {
@@ -144,13 +74,13 @@
       }
     },
     {
-      "id": "cc00d5f8a75c",
-      "title": "“Un medicamento mal tomado puede convertirse en un veneno”, advirtió el diputado que impulsa cambios en la actividad farmacéutica - CHACODIAPORDIA.COM",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNNXZ2LUtlcmh5d0xGWTh5YWUxc2Zhb0xHekxxTmMtaElEN3BuZVZ2TC1xYkxpc2xpbC0xOGRjbjM4Wk5IbGxiZ0hwdXdTdXlnTDlleDhybEo2M2FMTXB2QWl5RDlCbklOOTl6ckNwelVsQ0tMT3RqSDcwMlZ6Y0N6N3pvNUxXcEZocFRheUJ4azhHRE0wN0loMnFwTzdFcER0YWtHRGYwdDhoNEZja2FfWHNtS3ZTMllpTlZWbXd5dVVXQlZZdHRvVDlaWTRzMFVaZEFyVzZfeUFCaVJoOV92NkdkcldvSmVmemc?oc=5",
-      "published": "2026-06-07T12:00:00+00:00",
+      "id": "c17326e2b573",
+      "title": "Farmacias ya no sacarán el troquel de las cajitas de medicamentos - Primera Edición",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQTmtYeVlJSTVZOE5rYVF3WFJKcE1ScGRmZnhJRXlvX19QLWpuY2t4SEtvVXRuWTIwYXNETmo3ZmpKOEdvZDBGcDhlaWNRODZHcFBwa1pROEFWaGxoQndVakVkMGUyRlFDNVRGOUp0QXVJZ3hocmduWENGS1FLTnY5RFJFNmRxVjJpQkl0bXc2S2xwMWxPM255R3dn?oc=5",
+      "published": "2026-06-07T14:03:39+00:00",
       "source": {
-        "name": "CHACODIAPORDIA.COM",
-        "url": "https://chacodiapordia.com"
+        "name": "Primera Edición",
+        "url": "https://www.primeraedicion.com.ar"
       }
     },
     {
@@ -164,6 +94,16 @@
       }
     },
     {
+      "id": "cc00d5f8a75c",
+      "title": "“Un medicamento mal tomado puede convertirse en un veneno”, advirtió el diputado que impulsa cambios en la actividad farmacéutica - CHACODIAPORDIA.COM",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNNXZ2LUtlcmh5d0xGWTh5YWUxc2Zhb0xHekxxTmMtaElEN3BuZVZ2TC1xYkxpc2xpbC0xOGRjbjM4Wk5IbGxiZ0hwdXdTdXlnTDlleDhybEo2M2FMTXB2QWl5RDlCbklOOTl6ckNwelVsQ0tMT3RqSDcwMlZ6Y0N6N3pvNUxXcEZocFRheUJ4azhHRE0wN0loMnFwTzdFcER0YWtHRGYwdDhoNEZja2FfWHNtS3ZTMllpTlZWbXd5dVVXQlZZdHRvVDlaWTRzMFVaZEFyVzZfeUFCaVJoOV92NkdkcldvSmVmemc?oc=5",
+      "published": "2026-06-07T12:00:00+00:00",
+      "source": {
+        "name": "CHACODIAPORDIA.COM",
+        "url": "https://chacodiapordia.com"
+      }
+    },
+    {
       "id": "ad79f4adaabf",
       "title": "Retiro digital de medicamentos: qué cambiará en farmacias - La 97 Radio Fueguina",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPLVpDZmItR2NiVEdWMldQQmc4VFpsQUo1eW9pSGhEaUtySkdXRVczVzVZWG0xWEZyaEJNMVM0ZHBnejJRbk5oSEh3OXZKT0tobS1nWUZiLWZGSXVmMF9xWTVaNWppaDlEMnBfYU5pSGdyZk5oaE4yNWdORHJEbmZZdVdnY3NiQkZJbkx2NQ?oc=5",
@@ -171,16 +111,6 @@
       "source": {
         "name": "La 97 Radio Fueguina",
         "url": "https://www.radiofueguina.com"
-      }
-    },
-    {
-      "id": "19fe8c618118",
-      "title": "Salud oficializa el nuevo sistema digital para la dispensa de medicamentos - diariocronica.com.ar",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQNS16MVExYV84ZUl1c3VRMGZyRTgta2h0aGVORG8yV1lHNDI5SjV1b29PRFNreFJTc29rWTFfa2hJVXpNOGo4Z04xT3lzaEZtaHptcHdpcEVHVFRMazNhVEg0MmdIRnc5NW9Bb3NZUVg3RHhyNUduREJrUW9pQ0MtbDFMV3JEYnN1NFQ3QnBubWU2NlpSV2NIazVoQ1haZjN3TTJCVXRoS25xb0lkd29CUjlNR05lUmduckJJdDNhZXo4OE1FZHI0cVlWXzVVcWPSAdQBQVVfeXFMT2JyMGFiV2dOQXY0V2ptV3lwSm9KZUJVX0xTY1RucTJGZFRGYlpEdlczdUlERGNldXZpaDhueDlTREdTcE9uU3FCSHh5dm9vRF9UQ0lISFdSeWo4SW0wZDVXLU1PM3lLWTlsaHR4YlZQWU1xUkJMQWZGSnZFU3lwMTI2bWxPbjMwNXFTREo3U3h4d2laU0l6Y1dWcGR4VVBrMW1QV1JPMEpwc0toUkF4dDJndVdURzNtYWNFcFUtM0lvT1FUY1ZEdWxjRm9jLWFNMUNEVzI?oc=5",
-      "published": "2026-06-05T15:49:05+00:00",
-      "source": {
-        "name": "diariocronica.com.ar",
-        "url": "https://www.diariocronica.com.ar"
       }
     },
     {
@@ -194,13 +124,13 @@
       }
     },
     {
-      "id": "c2f50899121c",
-      "title": "Las farmacias deberán digitalizar la entrega de medicamentos: cómo funcionará el nuevo sistema - La Voz del Interior",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUWR2Q1V3OWhDcndTdzAySFpfVEQ5ZFVickNYNjFmTDkxWFFfYi1yTlRJdDhVLXl4OVVtU2RCalhvdDMzdkZ6V0lUNkpweDVYMG40TUtWSE9HQ195cDVickNEbzNuZm9mbTNUMGQwVmlIcHRxbmJDLURBeFF1R09ibUFOc1RwbW5YbDF2YjNtdTZOXzJQaUkwdkp5WlcwYlJ6N19aUVdBSm0zbEU3amZ2bFFmVlpWRGtjdUZaTWJ1Mm8wLWZyMGdn?oc=5",
-      "published": "2026-06-05T13:01:45+00:00",
+      "id": "19fe8c618118",
+      "title": "Salud oficializa el nuevo sistema digital para la dispensa de medicamentos - diariocronica.com.ar",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQNS16MVExYV84ZUl1c3VRMGZyRTgta2h0aGVORG8yV1lHNDI5SjV1b29PRFNreFJTc29rWTFfa2hJVXpNOGo4Z04xT3lzaEZtaHptcHdpcEVHVFRMazNhVEg0MmdIRnc5NW9Bb3NZUVg3RHhyNUduREJrUW9pQ0MtbDFMV3JEYnN1NFQ3QnBubWU2NlpSV2NIazVoQ1haZjN3TTJCVXRoS25xb0lkd29CUjlNR05lUmduckJJdDNhZXo4OE1FZHI0cVlWXzVVcWPSAdQBQVVfeXFMT2JyMGFiV2dOQXY0V2ptV3lwSm9KZUJVX0xTY1RucTJGZFRGYlpEdlczdUlERGNldXZpaDhueDlTREdTcE9uU3FCSHh5dm9vRF9UQ0lISFdSeWo4SW0wZDVXLU1PM3lLWTlsaHR4YlZQWU1xUkJMQWZGSnZFU3lwMTI2bWxPbjMwNXFTREo3U3h4d2laU0l6Y1dWcGR4VVBrMW1QV1JPMEpwc0toUkF4dDJndVdURzNtYWNFcFUtM0lvT1FUY1ZEdWxjRm9jLWFNMUNEVzI?oc=5",
+      "published": "2026-06-05T15:49:05+00:00",
       "source": {
-        "name": "La Voz del Interior",
-        "url": "https://www.lavoz.com.ar"
+        "name": "diariocronica.com.ar",
+        "url": "https://www.diariocronica.com.ar"
       }
     },
     {
@@ -234,6 +164,16 @@
       }
     },
     {
+      "id": "08903a150792",
+      "title": "Salud continúa con la distribución de medicamentos - Tiempo Sur",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdUZYYktWYTZkelRrdVFVWl9GRlh6SkhMU3BQc1VzZ3ZOVzU3X1c1Qkw2OW51QklfSFpHeVo0SGtKUnZKQ24wRGJSek9OVkdraHZuRGhILThxaWsxRERELXhEXzJZZ3RmNF9pMXR3cUJfQlRNZTJWTnh1Q0JoN3RfaHNYU1ZaYlFtRlVfRFQ2ck1FZk0waWhz0gGcAUFVX3lxTE9Yakh4YW15TDd2cmJxY0VfVE5WOHpOT0tUakRmbklsdVBRSXMweVdmWmJQZFprSno3Nk0yZ3lZME1XZzZ5T3gtd1ZFdHpLRWNaTWgtWV9rRHA4WmpSSDlSckJnT1cyUGpidERoeUM4VExlTUEzSzJVWW1qc252QTdGTmRRQ0RIQnpwdkdldFp0c0ZHNUxpeHRoSDdxdQ?oc=5",
+      "published": "2026-06-05T13:50:00+00:00",
+      "source": {
+        "name": "Tiempo Sur",
+        "url": "https://www.tiemposur.com.ar"
+      }
+    },
+    {
       "id": "d564c6256232",
       "title": "Salud supervisó la producción de Oseltamivir en la Farmacia Oficial y destacó su rol clave ante el aumento de casos de gripe A - Ministerio de Salud Pública de Tucumán",
       "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNdTNMYUpqNGxHSWZiMk03aDhJSEpyNzhwUVhmR0p4QlJ0NXNGcFR0RHJBQWlCRXZFVEo0cDljcHlIVGJNQWoza0NZeGptOEh5VUxHR05uMGhXT2RldFhmU1I0RTA4VEp3Sm1CT0tlUlNmcGpmbWFkeEx1MWxnMkxVNDVWWmE5SnZ4aGRTTXVmWENRV19JcmtocmZ3NFlYbkg5QzBuWFBIcTRCMGk3MkdBY2tlT2R2ZV9Hc1B2S2p2c1VOeFhyNXZCRDBEcmppUmRUWEYyV0dzd3BjRFltbXlxQW5JM1Jxb2F1?oc=5",
@@ -244,16 +184,6 @@
       }
     },
     {
-      "id": "bc3f6fdfff2c",
-      "title": "El Gobierno fijó un nuevo sistema digital para retirar medicamentos de las farmacias - Perfil",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNR1JfbWdmMjM0YmI5MTRqNDhFeFNRUXNuYmJyUjQ2WENIVWZJallhbXVYNEt0U2Y3RDd5RnM4dm5sZDhhTkFpWUZIN2dDSXduYnBwVmVLa1VPendoWEh0ZzcxTWxtVWRzNVpVOFZ1Y0NieUZOenJyMG9IbktCbFFBOFotbHAyTkNvMmU0c1BMVGgtbFI1dWEyYl9CMnluZklwYVlmMnprVE1LY1J3TUxyR2NuYXJSZWlfNFF3S3laRndMQzJ1OVRZZkx4M0NfQdIB0wFBVV95cUxQMjVpX1BXbEJDazNtTGtmdXRoLWREdXhpUS1qWnBKZW14eHFXTmZmSmNfZ0Q0S25QY3phTllPUUdLbG5jcVVrOGx2ZzNvX1N3MXZWSFc1U0Iza0FkMXRvNS0xeDI5NGZpSkYtWDBCWlBMX3VIUUVWNTB6dXo5enRTMDAtSzBGSDF3VmwyOS1UdW5LMnVYWlY0blhEV2V3Mm14Ui1uUHRtNzBZTWtLZTBPS1FoZEtOV2ZXLWFrenZZbHB3UlQweE1td3BzWWRTNElCWjhz?oc=5",
-      "published": "2026-06-05T09:22:01+00:00",
-      "source": {
-        "name": "Perfil",
-        "url": "https://www.perfil.com"
-      }
-    },
-    {
       "id": "07477756dc6d",
       "title": "Desde medicamentos esenciales hasta material descartable: cómo funciona el sistema de almacenamiento y distribución que puso en marcha Pullaro para abastecer la salud pública - Gobierno de Santa Fe",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBXTHJLc3JscG1lRW45MTJ3V1VBeHNwNmgxTDRtZzREc2tEa0ExR1BHS0pnMUZVbFpRM0p1YVFZUVNnX0JhOFVvcFhNb1FqZG55M0VIUmtGdi1KWGxHV0RiaA?oc=5",
@@ -261,26 +191,6 @@
       "source": {
         "name": "Gobierno de Santa Fe",
         "url": "https://www.santafe.gov.ar"
-      }
-    },
-    {
-      "id": "eaa873adbb53",
-      "title": "Ozempic se consigue en Instagram, no en la consulta: la abundancia de fármacos adelgazantes ha llegado a España - EL PAÍS",
-      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNZXNhUi1vY1NWZkFGSmRUWWZhQUFUSmZoR1dPSVQ1ZDRId05STUhQZnM0Qk1fRktKZXp4UkRfaE5YYzdFS0F3d1M5YzJlUU9NOEtrWXcxRlJFZWFVNEJndHlhR1lhT01GV0lUc2h4QmtZTEt3LW40VUZjRnN1dWkxQlZiMnVrMVcyM3pqYVBhQ01iUW5GSDI4Yk5mMDNmTHJsUnZvUGlSQmJ3WVAtYUJsaTQxM05YSGhIZXY1OG1wZXpJeUQ2WjBNUWxURWpET0ljM1hFSExqSkxVSjVWdlVvdng3X3VTRHNNelg0ZWRVelM2a0hQ0gGIAkFVX3lxTFBwMkstT0pzaXFFeWtueHh5NVB0MmlqcFVtNWtwRTRHME1vbE5uR09BVE43SmQ3aHRkampWZ0JQV2ctUmIzWEY4YzQ1OXlVNHE4N1ZDVmF2M0ZSbUo0Z1Vvd3BwZl83bmV3TkY0bl9SLVFvaWhHNW4ySnJ1dzdXaWw4Ti1hcE1HZkZWMGN4ZGd2b0txaGxBT3V5RnpIcmZvWUVYWnlQSndEeGtpSnR1YmtHMVp4SDg1RjRnR1R0LWM5X25hdGZHTWZFajNYaHBCN1M2S2ljOVZvdVIzWjl1TE1TWWo3Yk95UHgzU2o3MGlWZHBRY25PbllwYV9iczFQSldlakszeVNxdg?oc=5",
-      "published": "2026-06-07T03:30:01+00:00",
-      "source": {
-        "name": "EL PAÍS",
-        "url": "https://elpais.com"
-      }
-    },
-    {
-      "id": "b6ae1e3a6f39",
-      "title": "Salud digital: prueban en tiempo real el intercambio de historias clínicas entre provincias - Infofueguina",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOSE12Ung1aFZIS2RISHY5RS02S3JSTVFZX1dRZzVDT0RybkdOZlZSOUhWRDEybUhjbWtIMXJIRjM4SFdtbVA2YmVtZWRjWGlqSThWTWJRbjZGUDlUVTVrS1NOOEsyYmdzenVOODNOZ2F6MjRmOV96VlBjTUdXaFV3a2RHMDhNRFN3bmdtUVpoRHJzN1oyTjJ1NDNkX3NUVndSdngxVFEyTXZkRW5Ca1ljdjd5OTFlZDNyUVpjM2s2Ukg0SFRaOVJkNzg5RldkUFJrWV8zalgtV0NQUkZsYkhwNdIB4AFBVV95cUxOSE12Ung1aFZIS2RISHY5RS02S3JSTVFZX1dRZzVDT0RybkdOZlZSOUhWRDEybUhjbWtIMXJIRjM4SFdtbVA2YmVtZWRjWGlqSThWTWJRbjZGUDlUVTVrS1NOOEsyYmdzenVOODNOZ2F6MjRmOV96VlBjTUdXaFV3a2RHMDhNRFN3bmdtUVpoRHJzN1oyTjJ1NDNkX3NUVndSdngxVFEyTXZkRW5Ca1ljdjd5OTFlZDNyUVpjM2s2Ukg0SFRaOVJkNzg5RldkUFJrWV8zalgtV0NQUkZsYkhwNQ?oc=5",
-      "published": "2026-06-07T03:32:32+00:00",
-      "source": {
-        "name": "Infofueguina",
-        "url": "https://www.infofueguina.com"
       }
     },
     {
@@ -311,6 +221,26 @@
       "source": {
         "name": "El Globalfarma",
         "url": "https://elglobalfarma.com"
+      }
+    },
+    {
+      "id": "b6ae1e3a6f39",
+      "title": "Salud digital: prueban en tiempo real el intercambio de historias clínicas entre provincias - Infofueguina",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOSE12Ung1aFZIS2RISHY5RS02S3JSTVFZX1dRZzVDT0RybkdOZlZSOUhWRDEybUhjbWtIMXJIRjM4SFdtbVA2YmVtZWRjWGlqSThWTWJRbjZGUDlUVTVrS1NOOEsyYmdzenVOODNOZ2F6MjRmOV96VlBjTUdXaFV3a2RHMDhNRFN3bmdtUVpoRHJzN1oyTjJ1NDNkX3NUVndSdngxVFEyTXZkRW5Ca1ljdjd5OTFlZDNyUVpjM2s2Ukg0SFRaOVJkNzg5RldkUFJrWV8zalgtV0NQUkZsYkhwNdIB4AFBVV95cUxOSE12Ung1aFZIS2RISHY5RS02S3JSTVFZX1dRZzVDT0RybkdOZlZSOUhWRDEybUhjbWtIMXJIRjM4SFdtbVA2YmVtZWRjWGlqSThWTWJRbjZGUDlUVTVrS1NOOEsyYmdzenVOODNOZ2F6MjRmOV96VlBjTUdXaFV3a2RHMDhNRFN3bmdtUVpoRHJzN1oyTjJ1NDNkX3NUVndSdngxVFEyTXZkRW5Ca1ljdjd5OTFlZDNyUVpjM2s2Ukg0SFRaOVJkNzg5RldkUFJrWV8zalgtV0NQUkZsYkhwNQ?oc=5",
+      "published": "2026-06-07T03:32:32+00:00",
+      "source": {
+        "name": "Infofueguina",
+        "url": "https://www.infofueguina.com"
+      }
+    },
+    {
+      "id": "21ce9dfda8b9",
+      "title": "Avance histórico de la universidad pública: producirá un medicamento para pacientes con VIH - LM Neuquén",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQlpkSWVvX0ppdFJRLWlMcHEwa3JvRXh0VVo4Z0NpS1F4eERRNkFBTkYzaFhYQTJzM0hDWnlseTdwdWpjd00zWmw5M3djR1dVLTFFNHYyRVIxNkRXZnAwSF9TbzRzZ0Z0ekFFczRIRUxyaThnZjFadm9hVzdvNVBqdk9pUUx6RE9oa3lLZ3RBcDhwc2V3d0VaeUdNMDlvVG10eHItNUhrZFMwMDdMV0FXVzdYdW4zbzVKZVHSAb8BQVVfeXFMUE5mRmNIMGRUTllNN2RKc250UlZSMUt2QlJXeGRKNEZhQzZDOC13enlwRUxKN2hoSWp4aEpEZG9JdHI0akR4S01WTXlMTUVzY25xQ0VwaVpPX28zWkVRN1F3a0ZjeWdSUWdpaFN2LTJvclJHN0RVX1NQLThqTmRIWmNIT1JDMUh6MmFVVmtYaU5ySVZrcWlVN20zMThRN0QtWWxWQUJkV29oRVRHcWVRNm5RX3lWVGM4VEdBMFU0bTA?oc=5",
+      "published": "2026-06-05T19:15:00+00:00",
+      "source": {
+        "name": "LM Neuquén",
+        "url": "https://www.lmneuquen.com"
       }
     },
     {
@@ -354,16 +284,6 @@
       }
     },
     {
-      "id": "6949aa0bf134",
-      "title": "El Gobierno nacional dispuso que las farmacias adopten sistemas digitales para la entrega de medicamentos - Canal Doce Misiones",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVUp5NXozTno5Q3JNVjNkVEl3RFF1OTQ4RVFCalgwQ0Y5RTM3VGxqUDJJWlVaYjBLREFXeWpObkNJYWdKTlFqd0V5eGdlYTd6YjE1NU9HdmFKOW14RWVoT0ZHRDZSLUx3MkJkY01NdjROQ05pRjhQZV9rWng3MXFBOXc4dzUtenVHT2RQVlJpR3lVY25Dc184MTdSSlJGRjdwSWd3Wl93?oc=5",
-      "published": "2026-06-05T11:37:45+00:00",
-      "source": {
-        "name": "Canal Doce Misiones",
-        "url": "https://www.canal12misiones.com"
-      }
-    },
-    {
       "id": "91959f7b752a",
       "title": "UNR. Rosario: una universidad pública producirá por primera vez un medicamento contra el VIH infantil - La Voz del Interior",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQWmJvTnoxVFplME1tR0k5dXQ3NHhKRjVBUV8yMVJlbG9WWUNMY0ZLRGVjbXp2OXZ2MnZCSkR4MmRnYTVxQzNxXzdWQXhEUEh1bmhVb0M4OW9QTlRKb2tOQ3NBRmtaRVhObGFlaEJFZXcyRGZRZlNzek5jSlZOd053akVMY296RkZ0dkoxaTdlS1pWM2xJNURFVEtfOFFZS2tDQ2lLc1VMc21pUjZqSFlkRVRXbFBidVdycDJBbFFSRGNLdkJVQVI5djBDMXVGLWVGV1E?oc=5",
@@ -374,33 +294,13 @@
       }
     },
     {
-      "id": "ffb1cdcc1fb2",
-      "title": "ANMAT actualiza aranceles y reduce costos para el 75% de los importadores de medicamentos y productos médicos - Argentina.gob.ar",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQN0ZFUVl6RW5keEttbzB1OXFPQXJkdzg5QVFqaDBsZGhFMVJjbjN1TTVOZWpmN216bXVrRHhYUU5YMG5LXy03c3o5Tmt5SHU3dFlvQ2c3enlmZzlDOEZ0NDZLN0JGNlpaSEZ1WDFkZklpc29WZzctVFoxVk03SWlUWkRCdkU1VGM5Wk1qR2ZzejdrNFVSSTE2VWpyNXNWUVVpOFNyakxzTzI2RFN6eTQtdkZ2d2tJRlpDY3d0Zi1xRDM2NVNqTkVn?oc=5",
-      "published": "2026-05-19T07:00:00+00:00",
+      "id": "6949aa0bf134",
+      "title": "El Gobierno nacional dispuso que las farmacias adopten sistemas digitales para la entrega de medicamentos - Canal Doce Misiones",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVUp5NXozTno5Q3JNVjNkVEl3RFF1OTQ4RVFCalgwQ0Y5RTM3VGxqUDJJWlVaYjBLREFXeWpObkNJYWdKTlFqd0V5eGdlYTd6YjE1NU9HdmFKOW14RWVoT0ZHRDZSLUx3MkJkY01NdjROQ05pRjhQZV9rWng3MXFBOXc4dzUtenVHT2RQVlJpR3lVY25Dc184MTdSSlJGRjdwSWd3Wl93?oc=5",
+      "published": "2026-06-05T11:37:45+00:00",
       "source": {
-        "name": "Argentina.gob.ar",
-        "url": "https://www.argentina.gob.ar"
-      }
-    },
-    {
-      "id": "6b8a67a90ee9",
-      "title": "Medicamentos en farmacias: eliminan comprobantes en papel e implementan validación digital - AHORA Entre Ríos",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYWhqaTJDSy10SjQ5UXNDM1JIWkJkaXFCeEdwcDRWUG9FTVRhZU1DT0MtVTUwOUJsdmUzcm8zaXlpcVZERXNPNEJqclV3eldEWnMwc2x6alFjbE8xdUc1SkJ0cVNVWnhCNWNmSWFkTEFMWlBkUGdVbmNuUGgwMmhYc0VNNllGcU1oWFN6aGtvYmtaVWhYZ0ZIUUh5cVB2bjF4NjNsLTdiT1lscGJzaDZXcTdhTl83ZjZyYzNV?oc=5",
-      "published": "2026-06-05T12:18:02+00:00",
-      "source": {
-        "name": "AHORA Entre Ríos",
-        "url": "https://ahora.com.ar"
-      }
-    },
-    {
-      "id": "2f204ffdf941",
-      "title": "Avanza la receta electrónica: nuevas medidas para digitalizar la entrega de medicamentos - La Tecla",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNa1ctZFMyZkd1MG0wa19TaUVWYld4QTZSSGVhNk5iLXZSNlRNRDhPR2ktU2xVYndNcUhBY1ZLZE9WYmU4Wlh1cVBHV2VsZEhIdjlzZzNGVFZyWFZ2NExEM3pKYjBrb0hUVzRUT19tS3g5bGU5enhJdzJBenlrSGxaM05lRHhTbmoybS1QZlJFZXlmX0hNWjF3LWhvd2FpRXpaWlB3UkgtR1lGeDl2dHVxT1FkVFFBU3FzQ2tv?oc=5",
-      "published": "2026-06-05T16:20:39+00:00",
-      "source": {
-        "name": "La Tecla",
-        "url": "https://www.latecla.info"
+        "name": "Canal Doce Misiones",
+        "url": "https://www.canal12misiones.com"
       }
     },
     {
@@ -414,6 +314,26 @@
       }
     },
     {
+      "id": "2f204ffdf941",
+      "title": "Avanza la receta electrónica: nuevas medidas para digitalizar la entrega de medicamentos - La Tecla",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNa1ctZFMyZkd1MG0wa19TaUVWYld4QTZSSGVhNk5iLXZSNlRNRDhPR2ktU2xVYndNcUhBY1ZLZE9WYmU4Wlh1cVBHV2VsZEhIdjlzZzNGVFZyWFZ2NExEM3pKYjBrb0hUVzRUT19tS3g5bGU5enhJdzJBenlrSGxaM05lRHhTbmoybS1QZlJFZXlmX0hNWjF3LWhvd2FpRXpaWlB3UkgtR1lGeDl2dHVxT1FkVFFBU3FzQ2tv?oc=5",
+      "published": "2026-06-05T16:20:39+00:00",
+      "source": {
+        "name": "La Tecla",
+        "url": "https://www.latecla.info"
+      }
+    },
+    {
+      "id": "6b8a67a90ee9",
+      "title": "Medicamentos en farmacias: eliminan comprobantes en papel e implementan validación digital - AHORA Entre Ríos",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYWhqaTJDSy10SjQ5UXNDM1JIWkJkaXFCeEdwcDRWUG9FTVRhZU1DT0MtVTUwOUJsdmUzcm8zaXlpcVZERXNPNEJqclV3eldEWnMwc2x6alFjbE8xdUc1SkJ0cVNVWnhCNWNmSWFkTEFMWlBkUGdVbmNuUGgwMmhYc0VNNllGcU1oWFN6aGtvYmtaVWhYZ0ZIUUh5cVB2bjF4NjNsLTdiT1lscGJzaDZXcTdhTl83ZjZyYzNV?oc=5",
+      "published": "2026-06-05T12:18:02+00:00",
+      "source": {
+        "name": "AHORA Entre Ríos",
+        "url": "https://ahora.com.ar"
+      }
+    },
+    {
       "id": "c9e2f27a7fc5",
       "title": "El Gobierno cambia el sistema para retirar medicamentos en farmacias - La Nación",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZm5zMmJNdEQ5cW9PS3poaTdFdzhHQ1k3LWpDYjBMLUtMaERaY203Y3puejkxZF9CM20xVV84UnVhaktRVjRMRXV5WFUteWNJeFlHbThobWxSN3pyMldjNU5HNjVWOGsyMUFPUnFscG5zc1BtUkNXc1J3VGNhMVc1eE1OWEZUVjVqUzgtUmhxa0NhR3kzcUlod3drLVR4QWFXaHlWZllHUlgxa01PRHZsV1JLa0xwdGJZeEE?oc=5",
@@ -421,16 +341,6 @@
       "source": {
         "name": "La Nación",
         "url": "https://www.lanacion.com.ar"
-      }
-    },
-    {
-      "id": "9720c7b4930f",
-      "title": "Adiós al troquel: así será el nuevo sistema para retirar medicamentos en farmacias - Aire de Santa Fe",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdWpRNFQwRDNhb2RORXQyR0xIRHdQeFVFM3NzNVJIRTAweWNLWTZwQ2tjRVdMZlYxWjRqellFZzVETXp6Y0FtLTFJZVZ6OE9jb2hoWm52N0dIS0FpM3BvZGttMVJPSXdXTWx0V0lIYWhGTm5jSzkwWmtwcFlYSUZCV3gtM1RpV1Q4TE13NlAwdXQwTWpfd294cGdnektLMHFIdlBkMzdrSG1sQzhLbmY2N0lBUlZYVzdEZlh5VXpNTWcyTHc?oc=5",
-      "published": "2026-06-06T19:42:34+00:00",
-      "source": {
-        "name": "Aire de Santa Fe",
-        "url": "https://www.airedesantafe.com.ar"
       }
     },
     {
@@ -444,33 +354,13 @@
       }
     },
     {
-      "id": "7e4142d6b832",
-      "title": "Florencia Davel asume la presidencia de la Fundación de Ciencias de la Salud - El Globalfarma",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOazdLVGZDd01lZ1pfSWFlc0FZSDl3N1JqcHdvMnBYejBHRE5kMG1IUFo2dURoMUpLT1puYi1Cd1JVMVNvQ1ZJRDgwYVlUOVJqNEN3Zk04SXJXSUdCRGtQRnVQNnZJX3M2Uk1xbkVtVnM4a0gzOEZLd1RiOHFzQllUU3ZkUTlpVnR1alIyeVllMkw2ekU?oc=5",
-      "published": "2026-06-04T07:57:54+00:00",
+      "id": "9720c7b4930f",
+      "title": "Adiós al troquel: así será el nuevo sistema para retirar medicamentos en farmacias - Aire de Santa Fe",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdWpRNFQwRDNhb2RORXQyR0xIRHdQeFVFM3NzNVJIRTAweWNLWTZwQ2tjRVdMZlYxWjRqellFZzVETXp6Y0FtLTFJZVZ6OE9jb2hoWm52N0dIS0FpM3BvZGttMVJPSXdXTWx0V0lIYWhGTm5jSzkwWmtwcFlYSUZCV3gtM1RpV1Q4TE13NlAwdXQwTWpfd294cGdnektLMHFIdlBkMzdrSG1sQzhLbmY2N0lBUlZYVzdEZlh5VXpNTWcyTHc?oc=5",
+      "published": "2026-06-06T19:42:34+00:00",
       "source": {
-        "name": "El Globalfarma",
-        "url": "https://elglobalfarma.com"
-      }
-    },
-    {
-      "id": "771ffef615d2",
-      "title": "Cambio en las farmacias: cómo funciona el nuevo sistema para el retiro de medicamentos - La Nación",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNMjM4OXZuTm5Nc2VsV19BYmF4czZpQUt0bTFneGpoUk1LWENtN2YtUHd0QzhWNXBJbWRuckt1SkdReGRRQ2hqM2FNYTFvb3c0bTAya3VuanA1dDdGVFRsbmRrMWdQOFcwMzkxVFZhS0NsNS1tcXlnUzMxWXhSNWxtdm1qRUlnc0JDcFYweUdNQjdSSnNkT1JKNHJLSUpsbDFDZUxGdnZhN1JWUUZoTWZDX0h1dkxFVmJsa2t0SFp4UG1iYm1TZ1k5R3V5ZHZlWU5o?oc=5",
-      "published": "2026-06-05T17:02:00+00:00",
-      "source": {
-        "name": "La Nación",
-        "url": "https://www.lanacion.com.ar"
-      }
-    },
-    {
-      "id": "2040da0febd9",
-      "title": "Mendoza busca autorizar el delivery de medicamentos de venta libre - Diario El Sol Mendoza",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNb1Nsamg2ZFZYM0JwemRFZmdCd2pBZDg5dXNBbkR3VEZ3T3l5NXJUU0NDWTlUMU9Sb0hpd2xKSlNkcDM5VkVQb2pTWG1NWXY1a1psd3ZETkhFTnJscExFX2d1bFFvQWVUdmw4OTJuUy1rY3FTbkhGWm4tNkRadWQwdTN3ek5ySVRZbDlXRGF5OWQ2bjdnTkVwTVU0S0FjTWhzdkE?oc=5",
-      "published": "2026-06-07T11:03:41+00:00",
-      "source": {
-        "name": "Diario El Sol Mendoza",
-        "url": "https://www.elsol.com.ar"
+        "name": "Aire de Santa Fe",
+        "url": "https://www.airedesantafe.com.ar"
       }
     },
     {
@@ -484,16 +374,6 @@
       }
     },
     {
-      "id": "f50b096f6a22",
-      "title": "IOMA medicamentos: qué cubre el 100% y cómo acceder a los descuentos en junio - iProfesional",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQenRDbnc3ZHR5X1NNTjB5b0lrdzVoQ21xZW5NX2RjRkQxN3RfbFZTb3lrbDZyOFRNQzdDdGZ1akM2Z05ibUhDbXlNZmVlNkI3MTF4M0JZUUs4UW1RMjRlY01jRG03c3hTb0pUTWlQUzl1MFQ4QV9OUVBtODgwZU56Umw5ems4NFViVjlZeDBPU01zWlZFVjgzbnlJcUlEenh2cEU3ck85YlYtbTdmMThrd3RUSHhpUHB60gG-AUFVX3lxTE5LcEdldmlTdWxjQkRWYmM4R0pSV0s3V1RUZm4ydmxMVUo2alNNUVhwNVA1WUR0TFVPRTNyNXRCemEtZzA5ZElMVnlTTS1NNmNSTWtlYnNQc3EtQ2hNUU12MHVwaUR0U191ZXgyV2Z4UzUzQkh3YndITjN5ZTZZTXY0a1hsNTlDbmVEeUpRU2R0eF9Da1dqSVF6ZnQtV3FZZ1AtdTlPbndwYkhiZFNIbFp1QjRJQlNTWVg2UVlib2c?oc=5",
-      "published": "2026-06-05T12:33:00+00:00",
-      "source": {
-        "name": "iProfesional",
-        "url": "https://www.iprofesional.com"
-      }
-    },
-    {
       "id": "353523ead0d5",
       "title": "Las farmacias deberán validar la identidad de los pacientes de manera digital para entregar medicamentos - TN",
       "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNUUdTNnpvSXM4bjVydDdsbkVRczJHV3ptbmRWNFQ4SVdRRzRpdEFfclFhSW93Z0hNdHJQVHZ5cmQzQ0pBOTlSM2hSM1Z1QUVkWFY0WXBGWWt3OGZfZ3JnamdFUFZUYl9XOTJENVExd1RCNVJYUm9JdUFtc0J1SjF4aFI3Rzc1ZGV3Tm1LTUJSczlaMXkxVzdEYTEyOXZLcngtYUxLenhwMVNQLW1uUngzTFZnazl3Qk9mQjg0NWxqM0xWdmRpVVpUOThueEdGNVpGYjFYV0VDOVpKcHPSAe8BQVVfeXFMUDNvcmFKVmVGYjJ2TlN5bGdyekcxVVAzclhkTUdsN3FxbHI4OFVZeVVHQ2xSaHpXbHNoMTh5V1FJVmoyY0Utc09ZT01sUVd3QTNsQWZBZUYxTnA1UnZzemxPWWZqYWVGWlo1cEsxaHZObFBhTl9tT3ktMndGdmxVYThVVDVyRTlIMTc5RUZ4T2llM21OanA3Z1M0MFBCcjAwcDZ2YzdYV1JkWS1yNUZWdVlWa3hBbHNSR1hPNTNraEpYeUxUVGtpc3FxREFYWnZ3S1c4LVVYaUxuUm1HLWRNRTJIdTEzcmFrTnFFNUZsYXc?oc=5",
@@ -504,13 +384,13 @@
       }
     },
     {
-      "id": "b551c48b66c9",
-      "title": "Santa Cruz abrió la licitación para garantizar medicamentos en todos los hospitales provinciales - Gobierno de Santa Cruz",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPWUFpVjlFQW9ZY1lZcmVGQkNfN195eXlkVno5N2sxbFQtamROcVN3WGoyX2liT1l3Q1V5YWRGemZxdnRmUHYwNDlWNmlMTVBZbVJ1U0dCNDlIOVlrdjctWVR6T1JlOVJBN3k2X3NIMEI0dWR1SkVmV0hoZkttQ3JYUzdlTnJPdGllU3NkMHc0VGtJbUlMMGwwNzFGeTE0RnpjZS1ITkZUd2FVMHhZX0hPS0swY2x0U0k0YXljZmVpWDJGNWNfTUJGcTJ4ODBTUXBVMEVKM0tqeFZKS3l2XzBCUVJaUEJoSmhEUFZVbVpIOA?oc=5",
-      "published": "2026-03-16T07:00:00+00:00",
+      "id": "f50b096f6a22",
+      "title": "IOMA medicamentos: qué cubre el 100% y cómo acceder a los descuentos en junio - iProfesional",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQenRDbnc3ZHR5X1NNTjB5b0lrdzVoQ21xZW5NX2RjRkQxN3RfbFZTb3lrbDZyOFRNQzdDdGZ1akM2Z05ibUhDbXlNZmVlNkI3MTF4M0JZUUs4UW1RMjRlY01jRG03c3hTb0pUTWlQUzl1MFQ4QV9OUVBtODgwZU56Umw5ems4NFViVjlZeDBPU01zWlZFVjgzbnlJcUlEenh2cEU3ck85YlYtbTdmMThrd3RUSHhpUHB60gG-AUFVX3lxTE5LcEdldmlTdWxjQkRWYmM4R0pSV0s3V1RUZm4ydmxMVUo2alNNUVhwNVA1WUR0TFVPRTNyNXRCemEtZzA5ZElMVnlTTS1NNmNSTWtlYnNQc3EtQ2hNUU12MHVwaUR0U191ZXgyV2Z4UzUzQkh3YndITjN5ZTZZTXY0a1hsNTlDbmVEeUpRU2R0eF9Da1dqSVF6ZnQtV3FZZ1AtdTlPbndwYkhiZFNIbFp1QjRJQlNTWVg2UVlib2c?oc=5",
+      "published": "2026-06-05T12:33:00+00:00",
       "source": {
-        "name": "Gobierno de Santa Cruz",
-        "url": "https://noticias.santacruz.gob.ar"
+        "name": "iProfesional",
+        "url": "https://www.iprofesional.com"
       }
     },
     {
@@ -531,6 +411,26 @@
       "source": {
         "name": "El Eco",
         "url": "https://www.eleco.com.ar"
+      }
+    },
+    {
+      "id": "b551c48b66c9",
+      "title": "Santa Cruz abrió la licitación para garantizar medicamentos en todos los hospitales provinciales - Gobierno de Santa Cruz",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPWUFpVjlFQW9ZY1lZcmVGQkNfN195eXlkVno5N2sxbFQtamROcVN3WGoyX2liT1l3Q1V5YWRGemZxdnRmUHYwNDlWNmlMTVBZbVJ1U0dCNDlIOVlrdjctWVR6T1JlOVJBN3k2X3NIMEI0dWR1SkVmV0hoZkttQ3JYUzdlTnJPdGllU3NkMHc0VGtJbUlMMGwwNzFGeTE0RnpjZS1ITkZUd2FVMHhZX0hPS0swY2x0U0k0YXljZmVpWDJGNWNfTUJGcTJ4ODBTUXBVMEVKM0tqeFZKS3l2XzBCUVJaUEJoSmhEUFZVbVpIOA?oc=5",
+      "published": "2026-03-16T07:00:00+00:00",
+      "source": {
+        "name": "Gobierno de Santa Cruz",
+        "url": "https://noticias.santacruz.gob.ar"
+      }
+    },
+    {
+      "id": "771ffef615d2",
+      "title": "Cambio en las farmacias: cómo funciona el nuevo sistema para el retiro de medicamentos - La Nación",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNMjM4OXZuTm5Nc2VsV19BYmF4czZpQUt0bTFneGpoUk1LWENtN2YtUHd0QzhWNXBJbWRuckt1SkdReGRRQ2hqM2FNYTFvb3c0bTAya3VuanA1dDdGVFRsbmRrMWdQOFcwMzkxVFZhS0NsNS1tcXlnUzMxWXhSNWxtdm1qRUlnc0JDcFYweUdNQjdSSnNkT1JKNHJLSUpsbDFDZUxGdnZhN1JWUUZoTWZDX0h1dkxFVmJsa2t0SFp4UG1iYm1TZ1k5R3V5ZHZlWU5o?oc=5",
+      "published": "2026-06-05T17:02:00+00:00",
+      "source": {
+        "name": "La Nación",
+        "url": "https://www.lanacion.com.ar"
       }
     },
     {
@@ -564,6 +464,16 @@
       }
     },
     {
+      "id": "2040da0febd9",
+      "title": "Mendoza busca autorizar el delivery de medicamentos de venta libre - Diario El Sol Mendoza",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNb1Nsamg2ZFZYM0JwemRFZmdCd2pBZDg5dXNBbkR3VEZ3T3l5NXJUU0NDWTlUMU9Sb0hpd2xKSlNkcDM5VkVQb2pTWG1NWXY1a1psd3ZETkhFTnJscExFX2d1bFFvQWVUdmw4OTJuUy1rY3FTbkhGWm4tNkRadWQwdTN3ek5ySVRZbDlXRGF5OWQ2bjdnTkVwTVU0S0FjTWhzdkE?oc=5",
+      "published": "2026-06-07T11:03:41+00:00",
+      "source": {
+        "name": "Diario El Sol Mendoza",
+        "url": "https://www.elsol.com.ar"
+      }
+    },
+    {
       "id": "d879b39f323a",
       "title": "Adiós a un clásico: anuncian un cambio clave en la venta de medicamentos - ADNSUR",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNVzdWWVZWY0Eta1NZa2xqWm9nTEo1cUZiV1FVbmtqM0ltd2RIRXE5TEVWcGN3Vi1wYUFmSWdId2pxSUowcTJHTF8xOVNhX0V1RzJwYm9HWEZqbkUycGFib1ZhS2Q2WVVoYzlsbUR6UXBMWGgweHljWlA1M2JERWhfMUctUjUzay10TjhZLVBhS3poZF8ySGJCNEtUMkp2anBKQ2NUTFhFbWxacUJjVk9XX2VlTVJadlZValRPMXBSdGcteEZuMjlnZ3hqczhLX00?oc=5",
@@ -591,16 +501,6 @@
       "source": {
         "name": "Argentina.gob.ar",
         "url": "https://www.argentina.gob.ar"
-      }
-    },
-    {
-      "id": "1e8477ea8a00",
-      "title": "La industria farmacéutica avanza en su descarbonización ante el impacto del cambio climático en la salud - El Globalfarma",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORW95NnNpQ0hEYWpoZ0wtMW5tdF9iRlY0YjZSSlN0cDR5YXpFRnNQTW9IU3FrSTdJSC02aDRDbmctMGVibXo1WmNDTTJVZXRKZGtLWHRzclhCV0Jqc3JaUXZBaDEtUDJxTTMwSW1DSVVSZFgyNXJEOXhzU3hGcFdwLThISFl6RG5tTG5OOW5QaDBOQnR6bFZvRUt4dm5Iaks4?oc=5",
-      "published": "2026-06-05T08:22:51+00:00",
-      "source": {
-        "name": "El Globalfarma",
-        "url": "https://elglobalfarma.com"
       }
     },
     {
@@ -644,13 +544,13 @@
       }
     },
     {
-      "id": "7e96981f0f13",
-      "title": "El Gobierno implementa un sistema digital de entrega de medicamentos en farmacias que elimina el troquel físico - Canal 12 Web",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQNkl3VVI4Z1FSUlRseVhmMU43ZHQzQzdWOFZwYmVfbTRsZkkwVThucEgtUWYxSHpJLUlzcFlRRHhqTjg1dHJFYnVEX0JIOHhGeU9vdFN6d1dDd0lnbjB3NThnMkRGRlJGUEVWWUEtNjlfYTFtY3VkSElFRzVwc1VIZlJwTWNqcmZVZ3U4bHpBeno5RlFxQkUtYl85V0wwOVFDS0ZMMHlBTVNYMUdHZGc5alNBTUZORDdqRTVjMWRjZXhGTXRIUGppcXZaYXRYWXpB?oc=5",
-      "published": "2026-06-05T13:44:45+00:00",
+      "id": "bb04cea1d4ac",
+      "title": "Gobierno de Funes - Municipalidad de Funes.",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOWmxWRWVkS2gwcU5haDV1M2VybFdhMk9pUjdLMlV4amdRb1dMeXVPNExyLWt1aGt4VU9ERzl0LWNhYXFRQVdWbHA2amRKZkhEWkI0OTZTSlljRW1ZQWJyRlBpcnY3TVV4TVZLcmtDUXdYMXFuVGZqNFFjbkxoaWc4a3AxLV90RVRldjAzdVJrWDg3bTM2R3lpbU4wNVVtQ3ZpYmJBa3VYTjVzQm1RbzMtTnRYRXI1Uno1ZFZkZ0EzcE5tejVrNDY4cUlIeFdkSm96d19FaUxrNVZWZw?oc=5",
+      "published": "2026-05-18T15:57:04+00:00",
       "source": {
-        "name": "Canal 12 Web",
-        "url": "https://canal12web.com"
+        "name": "Municipalidad de Funes.",
+        "url": "https://funes.gob.ar"
       }
     },
     {
@@ -684,6 +584,26 @@
       }
     },
     {
+      "id": "bcbb61196d19",
+      "title": "Las farmacias deberán registrar digitalmente la entrega de medicamentos y podrán usar token para identificar pacientes - Primera Edición",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQR1N1TW5iYmJBMndBWUpfV05hVklHZTBpSW92U01BQ3IxNTNrM3Z0TE9CZE5URF96clVyQU1PaHZlY1UyRGpzMkpXaXNnSjNsUnZGVkZuY1BkMUhhVjhpMGhGMUN0RnotUE5nbVF4cGZkUUlrMjM1T0VaeW00aktvaHJVWWZYUVRjLWVpZ25xQjd5b0FUaTAwN19pa1JxaE5ObVZYR1hXRjhEUzVkdllWZnpDV3E?oc=5",
+      "published": "2026-06-05T11:21:53+00:00",
+      "source": {
+        "name": "Primera Edición",
+        "url": "https://www.primeraedicion.com.ar"
+      }
+    },
+    {
+      "id": "d86864c3803c",
+      "title": "Kicillof recorrió nuevas instalaciones en el Hospital Rossi y visitó el depósito de Medicamentos Bonaerenses - GBA.gob.ar",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQXzRXUFNfdkNIdFp1cmtsUXdQWmxrYWNNU2ZxZUVYX1RhVDhQYkFPRFhGdFFOZzhLNS1UWlQ0S0MyVDJWYzAyYUExTEhmU2w3VUtyNnJsemxkUEtweTdtOFM4SWZ6cDEyTE95bG1tS29TclZjOWtHZTM3b3hrQVptNE84VzdyVXJpUi1zMFZhU0hrYzQwSHlpdEZwVGdZbTM5UzZEYUhRQzZIcGtLRDNrS2MwS09Ob3RiUnlVRVE2b2wxUkU0RDNFOHFaeVhHQQ?oc=5",
+      "published": "2026-04-30T07:00:00+00:00",
+      "source": {
+        "name": "GBA.gob.ar",
+        "url": "https://www.gba.gob.ar"
+      }
+    },
+    {
       "id": "18c36a648422",
       "title": "Avanza la digitalización de las farmacias y el uso de tokens para retirar medicamentos - Eldebate.com.ar",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVFNxcmFmY0YyV3YwRzBneFhWQzdraWlsb2VGcDQzUXU4VFpUX1FJWFlDeXpUZDluaU1vazBNa2ZFUFBOMi0tUF9KejF2MWhTcGZPTkN2WXdGOXFUdEdQYmd0WmdFWTl2S2tOSGlzdFA4LWF3Y0U1MkNEd2dHSUZheFhXV3hKRVZLNlZOWm1UZzNIVEFsWFp4UlNKNVJiQThkcElXaTNnRDhOaVJ4ZzdtbQ?oc=5",
@@ -691,6 +611,16 @@
       "source": {
         "name": "Eldebate.com.ar",
         "url": "https://eldebate.com.ar"
+      }
+    },
+    {
+      "id": "5fa8eaaa6def",
+      "title": "Hispano arrestado por hacerse pasar por doctor y recetar medicamentos controlados en Gwinnett 👇 - facebook.com",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNMjY3ZTAyd2hadHNZeW1nUEhiOWlFdmE5OGhlcW56dFNMYmMwemZKejd4UFBzZzBnOExYUm5WNnVuaG13c0tadVZ4YWpMNUIxR1pyM21Hc1ItUnRZeS0tbFMzT2NKRFZlTGlmR1U4NWpPRVFmbWh4bDg0aVlBTG9CVVhXMld2YnRGZHNPSzVZWUhXOWF0YkRTN1FLSzdBd0M2TWlMVUxRbnBxcnhYRDNyRFBGZ2xtcm5YR3owV1Y0b0MxT3ZMRUlnYzQ5Qk9QdGlqR193RmNCVXJuaHlQNkZJ?oc=5",
+      "published": "2026-06-07T14:30:47+00:00",
+      "source": {
+        "name": "facebook.com",
+        "url": "https://www.facebook.com"
       }
     },
     {
@@ -704,16 +634,6 @@
       }
     },
     {
-      "id": "3ae7bc1f4929",
-      "title": "Las farmacias deberán registrar digitalmente la entrega de medicamentos y dejarán de usar troqueles físicos - elvocerohoy.com",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQeDQ0NW9xQzg5RG4tMkdVd1BuZUhFcGpZUVZXVEdzb1JXeWhrU19WSGUweWp6MkpKdzhwekhkOUt5eUJhSGpBS2RBcnRyNlhGOGRUOXZlUlU1RVBMeGhGNFVycVZpcUZWNzM2Vi1VRkxWdVgwR3NuZXpiTGlXNFl4ZDk0ZndYQWtzSFhiNmJVak5iZjR5cW5rcjd2ZTFRYmV1WjZhOExzRGJRM1liVmlSNWVuNTFld0Z0aVhmag?oc=5",
-      "published": "2026-06-06T04:15:00+00:00",
-      "source": {
-        "name": "elvocerohoy.com",
-        "url": "https://elvocerohoy.com"
-      }
-    },
-    {
       "id": "7b641897c9e1",
       "title": "Farmacias: así funcionará el sistema digital para retirar medicamentos y qué cambia para pacientes - Canal26",
       "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNOXdNSjNYcDJHWnBrVXRpWHN0Mm9hajJwd2lTdllHanFHUF9qdklXZUduN3JkWTZsUFlEdHQxa2dXbERpNkJoMm1jZWJxZDN4UjdHWmd0UmhpYjhsbXFoZXhERTZRYkxUbzF3X0VhSUxnSkFDYzJTTmZfTGJySTFOb2Z1bUZ4ZXhIS1VFbVdUeEFrQy1Yc0VOZklmT3k5dDl4WE1wWlFzcDZ3YkdVVjQ3cV9BOFg2WGJ6RU5uZ25ES185NlFkNm54eVdsOXpYb09taFRyU2lBLU4?oc=5",
@@ -721,6 +641,16 @@
       "source": {
         "name": "Canal26",
         "url": "https://www.canal26.com"
+      }
+    },
+    {
+      "id": "3ae7bc1f4929",
+      "title": "Las farmacias deberán registrar digitalmente la entrega de medicamentos y dejarán de usar troqueles físicos - elvocerohoy.com",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQeDQ0NW9xQzg5RG4tMkdVd1BuZUhFcGpZUVZXVEdzb1JXeWhrU19WSGUweWp6MkpKdzhwekhkOUt5eUJhSGpBS2RBcnRyNlhGOGRUOXZlUlU1RVBMeGhGNFVycVZpcUZWNzM2Vi1VRkxWdVgwR3NuZXpiTGlXNFl4ZDk0ZndYQWtzSFhiNmJVak5iZjR5cW5rcjd2ZTFRYmV1WjZhOExzRGJRM1liVmlSNWVuNTFld0Z0aVhmag?oc=5",
+      "published": "2026-06-06T04:15:00+00:00",
+      "source": {
+        "name": "elvocerohoy.com",
+        "url": "https://elvocerohoy.com"
       }
     },
     {
@@ -734,13 +664,13 @@
       }
     },
     {
-      "id": "e585d543adaa",
-      "title": "Una nueva campaña de recolección de medicamentos vencidos se desarrollará este miércoles - Municipalidad de Paraná",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPanFKclJNTmQ2QmtJV0ZudS1VUkpDZ21MVGpEMmZNNUd6TzNQZVZxMmdocGN6bWtUa2c0WDYyY25zaHJmUUFlTDJLb0Jmd0dDY1J4NHNzbktxa25iaWdtZXp5Z2dkaHZiODR2R0FQTkV4ZkxQM1RYZWNnMDlpY3JwZGpZVEhUUC1OamZ4VzZLS3pwTzRDMVhheTRHRURUNjViZWgzTWVvMTA?oc=5",
-      "published": "2026-05-15T07:00:00+00:00",
+      "id": "7e96981f0f13",
+      "title": "El Gobierno implementa un sistema digital de entrega de medicamentos en farmacias que elimina el troquel físico - Canal 12 Web",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQNkl3VVI4Z1FSUlRseVhmMU43ZHQzQzdWOFZwYmVfbTRsZkkwVThucEgtUWYxSHpJLUlzcFlRRHhqTjg1dHJFYnVEX0JIOHhGeU9vdFN6d1dDd0lnbjB3NThnMkRGRlJGUEVWWUEtNjlfYTFtY3VkSElFRzVwc1VIZlJwTWNqcmZVZ3U4bHpBeno5RlFxQkUtYl85V0wwOVFDS0ZMMHlBTVNYMUdHZGc5alNBTUZORDdqRTVjMWRjZXhGTXRIUGppcXZaYXRYWXpB?oc=5",
+      "published": "2026-06-05T13:44:45+00:00",
       "source": {
-        "name": "Municipalidad de Paraná",
-        "url": "https://www.parana.gob.ar"
+        "name": "Canal 12 Web",
+        "url": "https://canal12web.com"
       }
     },
     {
@@ -774,16 +704,6 @@
       }
     },
     {
-      "id": "caa92a3c3f5d",
-      "title": "Readecuación de la Comisión Asesora Técnica de Adquisición de Medicamentos, Insumos y Dispositivos - Argentina.gob.ar",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQYjN2c2RKOTA3S3dzeDU1Qlc4dzhBUGQ1SkZGclh0Z3hQb1V6VktmZ2pRUG1LOG4yMk5oQllhTGFwWjF4aVAyY2JUd3Z4VTF0OEVqWndZc2FCMFBSQ3hNSERjWEtoM1JLaWM5ZjVxQUVDOVBJcmNURzVlaUI5cWh4Yk1WQUg3V0xMOWV1V2o0MjlYVkJJdlJqTkU4VDZ6clBTZlpPZDBQU1dyMUJtd2RueERuN2sxdjQ3VkJNcGJGcw?oc=5",
-      "published": "2025-12-11T08:00:00+00:00",
-      "source": {
-        "name": "Argentina.gob.ar",
-        "url": "https://www.argentina.gob.ar"
-      }
-    },
-    {
       "id": "9dcdd3a74bfc",
       "title": "Salud: La gestión provincial licita medicamentos y suma telemedicina para fortalecer los hospitales - Gobierno de Santa Cruz",
       "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQT2luNHN1YVN6WXB2T3BfY1l0VEMzaDZhMXp5N3p1M1VacGxGMzlmVFdZZlJZZmhlLWxELTFDVnQtdWh1d2x2bFgyWmlMdXYwQk12MVNJb3F2Q2JWUGdGRERpN0FxRFVHLWk3c0tnZXFfNE5HRllzd096bGR3b0xQNnQyTmhtdWV1ajR2MEQ5QVA5Z1VBbWdtVklrUWNlU2hxakJOZlJITVpuQlFENWdIajhUVXdyOWQ5TmhrRVdvb3VtX0JjcU43TW5kWDJPdk5KMFdBMjBUV0dNT0k5Q2UwM3VyNkUxME9Xb0llT1ZQOUZqdXNsa1ZXbllTbWE?oc=5",
@@ -804,16 +724,6 @@
       }
     },
     {
-      "id": "4174704f35a0",
-      "title": "Receta electrónica: nuevas reglas para retirar medicamentos en farmacias - DataChaco",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTzlGLWFLNXk5QTg4ZW9fR3diUzJHRS1ObGxXazdDTmVfa05uLVRWZTkwZEhyVkRWNHhQNEt5WFJpY0x4X2pKVWFGZl8xYldrbXZQbFV3dzJsM1dOcUxabk0yb09WTVV1VkpyVjBiai1VVmZEMFA0ckxmOWNVc0pmYldSTUdCd1ZibU1lay01d2puNkpXUmY5NWEtOGQxZkZyRldvTmhPZw?oc=5",
-      "published": "2026-06-05T11:54:29+00:00",
-      "source": {
-        "name": "DataChaco",
-        "url": "https://www.datachaco.com"
-      }
-    },
-    {
       "id": "e2ddc20b14b4",
       "title": "Adiós al papel en las farmacias: establecen un nuevo sistema de entrega de medicamentos - La Capital",
       "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNdzV1ZG42d1NVV2ZfeEdPMFdEZmVZNmliMWZPYWQzYzg2UldaQlczNE5iaW1IRzVZOExUTXlqWXRKaWpxa011WFp1X3dqM1luX05NUmw1dzJnRWZLZEJOWG03NVoybHFaNi1taGFvQThRVy1qZjJXdmpiWTYweXlKQ0gyN3l2SFg4T2hxZlhsTHdmWnV6T1Z1V3dNaHpFQTRZT01kd21WNzBxNGdOOUJIRU1relBtQzc0U2FXbjVDRDFqTlhnR2lLNzhEWTlTZXAyeTdLUWt3dWbSAd4BQVVfeXFMTzFHZldVVTBvNkJiTk11Q29JdVRMRnM1cnd1bHBzVnFKWFRBOF8wbHhmTU15YnZROHlBSjZXU2pNN25FTXFuYU1PMUdLY1NvR2JMT0Q1NE9GYV9pc0JJMm50X25kM0QtN0Nad1oycFRiRU5ndmg0OXBCYXhDTGNOektZQ1luUEdvLWlkcGtYZnlqOWFGa1FBWk1NRTlRbzlsdW15M2hHM1o0M2RUemF4Zm9uSlhIbEw0dnhRUDFBdV9WNDdvem1PRFh2aVpiT3kzWnZYNTY1eWh6U0dWOURn?oc=5",
@@ -824,13 +734,13 @@
       }
     },
     {
-      "id": "a534def7bbfe",
-      "title": "Salud digital: el Gobierno implementa un nuevo sistema para la dispensa de medicamentos y elimina registros en papel - Cadena Nueve - Diario Digital",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQdWk2YnNwaWlzbXRzdG1FR2dYbkxJRVNieDVURzZZdnRSb25Fa0VpV2JCck43WWJNQ2drU2RjaEZqTk1nMWtSLVo5U05fdGduLUh0UEVwZnk4aWVaUVBza0RZVHI4TnZrMm9veUltRXFWUEVFSEpaQXhmWGZvalk0WlRqRUpPOHNVeC1hVC14WGZBX3RDNTJKTkZtdjFBaHp5ZHhxRTlkY2hKcFhZQ1BUSGhpRFhZTmNEWVR0bV92OGFBb1NzYzktd2dGTEljX3k0R3lqQ0sxZEpFWllyclhfZmNoS1JyM1dPZ0pj?oc=5",
-      "published": "2026-06-05T15:15:38+00:00",
+      "id": "caa92a3c3f5d",
+      "title": "Readecuación de la Comisión Asesora Técnica de Adquisición de Medicamentos, Insumos y Dispositivos - Argentina.gob.ar",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQYjN2c2RKOTA3S3dzeDU1Qlc4dzhBUGQ1SkZGclh0Z3hQb1V6VktmZ2pRUG1LOG4yMk5oQllhTGFwWjF4aVAyY2JUd3Z4VTF0OEVqWndZc2FCMFBSQ3hNSERjWEtoM1JLaWM5ZjVxQUVDOVBJcmNURzVlaUI5cWh4Yk1WQUg3V0xMOWV1V2o0MjlYVkJJdlJqTkU4VDZ6clBTZlpPZDBQU1dyMUJtd2RueERuN2sxdjQ3VkJNcGJGcw?oc=5",
+      "published": "2025-12-11T08:00:00+00:00",
       "source": {
-        "name": "Cadena Nueve - Diario Digital",
-        "url": "https://www.cadenanueve.com"
+        "name": "Argentina.gob.ar",
+        "url": "https://www.argentina.gob.ar"
       }
     },
     {
@@ -854,13 +764,33 @@
       }
     },
     {
-      "id": "6d742fbe7dda",
-      "title": "Sin trincheta ni troquel: así será el nuevo sistema para adquirir medicamentos en farmacias - Contexto Tucumán",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPX1BjMW8tSzRHWjlSWWQtOXdIWGJ6NUV3VnBxQmVLQ3VaZnlmNWM2cmJNVXVhREUxSWFpbzNPT0Y4S203Ymd4amNCNDZFdVhRc0lrYzBPRDJkbzl0TUhpUDBfZGhkM0lKckpLckpDcUk0SnBldlhScHBMdzd6aG8xTHY4dUstM0twUFVxUDJXVEZteVZXN1lrSEZmWUh0UTFFelFhRE54cnRjWDNkYTJpVmxqbFNObXZkSkZ6anVGbVFDTk5MRTJxZ0dTWWZEMEl5YS1JcFVR?oc=5",
-      "published": "2026-06-06T10:23:00+00:00",
+      "id": "4174704f35a0",
+      "title": "Receta electrónica: nuevas reglas para retirar medicamentos en farmacias - DataChaco",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTzlGLWFLNXk5QTg4ZW9fR3diUzJHRS1ObGxXazdDTmVfa05uLVRWZTkwZEhyVkRWNHhQNEt5WFJpY0x4X2pKVWFGZl8xYldrbXZQbFV3dzJsM1dOcUxabk0yb09WTVV1VkpyVjBiai1VVmZEMFA0ckxmOWNVc0pmYldSTUdCd1ZibU1lay01d2puNkpXUmY5NWEtOGQxZkZyRldvTmhPZw?oc=5",
+      "published": "2026-06-05T11:54:29+00:00",
       "source": {
-        "name": "Contexto Tucumán",
-        "url": "https://www.contextotucuman.com"
+        "name": "DataChaco",
+        "url": "https://www.datachaco.com"
+      }
+    },
+    {
+      "id": "a534def7bbfe",
+      "title": "Salud digital: el Gobierno implementa un nuevo sistema para la dispensa de medicamentos y elimina registros en papel - Cadena Nueve - Diario Digital",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQdWk2YnNwaWlzbXRzdG1FR2dYbkxJRVNieDVURzZZdnRSb25Fa0VpV2JCck43WWJNQ2drU2RjaEZqTk1nMWtSLVo5U05fdGduLUh0UEVwZnk4aWVaUVBza0RZVHI4TnZrMm9veUltRXFWUEVFSEpaQXhmWGZvalk0WlRqRUpPOHNVeC1hVC14WGZBX3RDNTJKTkZtdjFBaHp5ZHhxRTlkY2hKcFhZQ1BUSGhpRFhZTmNEWVR0bV92OGFBb1NzYzktd2dGTEljX3k0R3lqQ0sxZEpFWllyclhfZmNoS1JyM1dPZ0pj?oc=5",
+      "published": "2026-06-05T15:15:38+00:00",
+      "source": {
+        "name": "Cadena Nueve - Diario Digital",
+        "url": "https://www.cadenanueve.com"
+      }
+    },
+    {
+      "id": "244e83358794",
+      "title": "Cornejo presentó nuevos medicamentos importados y recorrió un operativo de vacunación y atención ciudadana - PRENSA GOBIERNO DE MENDOZA",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPQVExaHd3R21oZDBITUQ5OUZMREZXWjhuSmR3UV8yaTB6M2RLMnl6QWV2T3YzcTVhblRBM1pFVDZfQXg0RlkyQk1CQXUwWWNaZWZyZVQzaDdhUC1VNHN5OFQxQWIxTk9mZDNYanByLVFyMmhjaXNuWnlyQjJWUWpyc2JfZEV3STRxTWFtM0RlU2ZzVGdGampoLUI0LUJjOXhpeWNTeFBUSG9nTzU4WWpaV20yRU02M2w5azN6UlQ0ZmhSQzEyeDBHOWZ6QUVUejZQQW9J?oc=5",
+      "published": "2026-04-25T07:00:00+00:00",
+      "source": {
+        "name": "PRENSA GOBIERNO DE MENDOZA",
+        "url": "https://prensa.mendoza.gob.ar"
       }
     },
     {
@@ -874,13 +804,13 @@
       }
     },
     {
-      "id": "9030f3cb9b09",
-      "title": "Receta electrónica: cambian las reglas para retirar medicamentos en farmacias - Telesol Diario",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUkh1RDA5UHJQa3pjS05rdVBScnFSM3pwQndtd1hUbWJUN0NwakhrRWFBNEJkQ0VLbThLYUw5YTBJMnRuX19mNm56VEJPd3AxV3FtNkszcHBvUnlpY0NMbFNXaEpWRzkybjhYSDZYanQyZGRtd0RNMG50VGxhZWhhTFV2WTdTeU41a1c5WWdMQXJNaGtNUUYyWVNydkhwZDFnWHFWaElNR2tQS2RjZ0xVcDJ5WQ?oc=5",
-      "published": "2026-06-05T11:35:34+00:00",
+      "id": "2f049b35b571",
+      "title": "Boletín oficial: el Gobierno implementó un nuevo sistema digital para retirar medicamentos en farmacias - diariopopular.com.ar",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPR2l2QVBLRHhKMktmUERfSlNhUXJuckl2TXF4ZHFoMDBZb2hGZU04OFZ1cG9PcjFpWEdaYVVVSDQ0eFhmN2ZqaVlOQmJWY3UzT0gzU0RxTXE2SzZCWWdzd0JKeTBxODZ0cWdtRHkzQkFFZzlZb3ZkMVBsOWE3TEtUMEFwM0JLX0NVbTl0dmpqbE9yNC1kOFplVHIyeTl2OW9hRm5nbHpxOGFSdVZTcVdFcWRxTlNKOFNjc3AyMTFlYWVnQTNxWkVJdEFPLUw5ejNHMklBdUVQbkrSAdgBQVVfeXFMT0dpdkFQS0R4SjJLZlBEX0pTYVFybnJJdk1xeGRxaDAwWW9oRmVNODhWdXBvT3IxaVhHWmFVVUg0NHhYZjdmamlZTkJiVmN1M09IM1NEcU1xNks2Qllnc3dCSnkwcTg2dHFnbUR5M0JBRWc5WW92ZDFQbDlhN0xLVDBBcDNCS19DVW05dHZqamxPcjQtZDhaZVRyMnk5djlvYUZuZ2x6cThhUnVWU3FXRXFkcU5TSjhTY3NwMjExZWFlZ0EzcVpFSXRBTy1MOXozRzJJQXVFUG5K?oc=5",
+      "published": "2026-06-05T12:39:00+00:00",
       "source": {
-        "name": "Telesol Diario",
-        "url": "https://www.telesoldiario.com"
+        "name": "diariopopular.com.ar",
+        "url": "https://www.diariopopular.com.ar"
       }
     },
     {
@@ -894,6 +824,16 @@
       }
     },
     {
+      "id": "9030f3cb9b09",
+      "title": "Receta electrónica: cambian las reglas para retirar medicamentos en farmacias - Telesol Diario",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUkh1RDA5UHJQa3pjS05rdVBScnFSM3pwQndtd1hUbWJUN0NwakhrRWFBNEJkQ0VLbThLYUw5YTBJMnRuX19mNm56VEJPd3AxV3FtNkszcHBvUnlpY0NMbFNXaEpWRzkybjhYSDZYanQyZGRtd0RNMG50VGxhZWhhTFV2WTdTeU41a1c5WWdMQXJNaGtNUUYyWVNydkhwZDFnWHFWaElNR2tQS2RjZ0xVcDJ5WQ?oc=5",
+      "published": "2026-06-05T11:35:34+00:00",
+      "source": {
+        "name": "Telesol Diario",
+        "url": "https://www.telesoldiario.com"
+      }
+    },
+    {
       "id": "7634c5406f4f",
       "title": "Prescripción enfermera: todo lo que cambia con el Anteproyecto de Ley de los Medicamentos - Gaceta Médica",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOb1E1b0FVM0x2Mkh3azQtc0JDVDc0bHdQRXlwdDIySmxpaVoydlZWdTZ1ZU1jQW9Kb3RxMTVaeWZMYmZiQXVfNjZaZ29fNGpYdWJaS0xXRjhZbkE1QkdPTWZPbUZiN1AyVU9aT05kR0Rab0ljdXhIcVgzSDVRNXpZZlQ5TUVKbVh1?oc=5",
@@ -901,26 +841,6 @@
       "source": {
         "name": "Gaceta Médica",
         "url": "https://gacetamedica.com"
-      }
-    },
-    {
-      "id": "2f049b35b571",
-      "title": "Boletín oficial: el Gobierno implementó un nuevo sistema digital para retirar medicamentos en farmacias - diariopopular.com.ar",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPR2l2QVBLRHhKMktmUERfSlNhUXJuckl2TXF4ZHFoMDBZb2hGZU04OFZ1cG9PcjFpWEdaYVVVSDQ0eFhmN2ZqaVlOQmJWY3UzT0gzU0RxTXE2SzZCWWdzd0JKeTBxODZ0cWdtRHkzQkFFZzlZb3ZkMVBsOWE3TEtUMEFwM0JLX0NVbTl0dmpqbE9yNC1kOFplVHIyeTl2OW9hRm5nbHpxOGFSdVZTcVdFcWRxTlNKOFNjc3AyMTFlYWVnQTNxWkVJdEFPLUw5ejNHMklBdUVQbkrSAdgBQVVfeXFMT0dpdkFQS0R4SjJLZlBEX0pTYVFybnJJdk1xeGRxaDAwWW9oRmVNODhWdXBvT3IxaVhHWmFVVUg0NHhYZjdmamlZTkJiVmN1M09IM1NEcU1xNks2Qllnc3dCSnkwcTg2dHFnbUR5M0JBRWc5WW92ZDFQbDlhN0xLVDBBcDNCS19DVW05dHZqamxPcjQtZDhaZVRyMnk5djlvYUZuZ2x6cThhUnVWU3FXRXFkcU5TSjhTY3NwMjExZWFlZ0EzcVpFSXRBTy1MOXozRzJJQXVFUG5K?oc=5",
-      "published": "2026-06-05T12:39:00+00:00",
-      "source": {
-        "name": "diariopopular.com.ar",
-        "url": "https://www.diariopopular.com.ar"
-      }
-    },
-    {
-      "id": "5fa8eaaa6def",
-      "title": "Hispano arrestado por hacerse pasar por doctor y recetar medicamentos controlados en Gwinnett 👇 - facebook.com",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNMjY3ZTAyd2hadHNZeW1nUEhiOWlFdmE5OGhlcW56dFNMYmMwemZKejd4UFBzZzBnOExYUm5WNnVuaG13c0tadVZ4YWpMNUIxR1pyM21Hc1ItUnRZeS0tbFMzT2NKRFZlTGlmR1U4NWpPRVFmbWh4bDg0aVlBTG9CVVhXMld2YnRGZHNPSzVZWUhXOWF0YkRTN1FLSzdBd0M2TWlMVUxRbnBxcnhYRDNyRFBGZ2xtcm5YR3owV1Y0b0MxT3ZMRUlnYzQ5Qk9QdGlqR193RmNCVXJuaHlQNkZJ?oc=5",
-      "published": "2026-06-07T14:30:47+00:00",
-      "source": {
-        "name": "facebook.com",
-        "url": "https://www.facebook.com"
       }
     },
     {
@@ -934,16 +854,6 @@
       }
     },
     {
-      "id": "8e0d86736496",
-      "title": "SIGMAC: sistema oficial y obligatorio para la medicación de alto costo - Argentina.gob.ar",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZ3ZWdzQ4SnRaSG9vVlhvNkhPOC1ja01yWWJsaUxYQWI4cjJYakFPR2lNV1NOdVctM3V6dS1Zdnk5SEJJZG4ycGlUWENQdDV5SmF2OWxab05oc05SNmFCVTJiR1lWdU5MNkh5VUZOU2Fjc0hIbWRfLUJ1bDFoVWJxdGRNV1Z4MWZtNnppc3drRGZIQVZ4R05IeC1zUE9nN3pVQzRpSEZGcVRvLTg?oc=5",
-      "published": "2025-10-13T07:00:00+00:00",
-      "source": {
-        "name": "Argentina.gob.ar",
-        "url": "https://www.argentina.gob.ar"
-      }
-    },
-    {
       "id": "70d8321f9a0d",
       "title": "El Gobierno reglamentó nuevo cambio para retirar medicamentos en farmacias - CHACODIAPORDIA.COM",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZWI5b3ptWE16N3VoZXpLTEhaZjBQU09RTXQ3US1WdnBiSUtqTzFjS193S0pGQzdlelZZNXN4NGdoQzhkVll2cVo2QVlWZkoxejFfQjIxejBUajg0UkFXYkxvN0xkSTNfVVJLZzlFNFpRWVZJVzVjTldNQWN2TklqdjZHRjg4R0Z2MVluUDJvODVrRU0ybWlvRnp0NmVPLW1zWmlqNg?oc=5",
@@ -951,36 +861,6 @@
       "source": {
         "name": "CHACODIAPORDIA.COM",
         "url": "https://chacodiapordia.com"
-      }
-    },
-    {
-      "id": "6f75fac99941",
-      "title": "Cambia el sistema para retirar medicamentos en farmacias - Corrientes en el aire",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNDU4NHlOd0tKa0RKNDRJVWlWT2ZWLXNVMGpMUnhuaGxlbldhUERmX3RqUEpSODBhODJkN1JteW1WY2NiM09aRUxoMzJKS3l2RlVMb2xYcGZpbTQwdmdwelNWUmt5T3ZFTjZYdEZxTmtPaW54OC0wNW5laWlVa1FkLWY2a0NkOXJ4RUpZNHhMQlQ5TzdxSHdhSTNBRnpZcV8yaDZxLWdR?oc=5",
-      "published": "2026-06-06T04:21:30+00:00",
-      "source": {
-        "name": "Corrientes en el aire",
-        "url": "https://www.corrientesenelaire.com.ar"
-      }
-    },
-    {
-      "id": "4d22b9425e2a",
-      "title": "El Gobierno estableció nuevas pautas para retirar medicamentos con receta electrónica - Diario Mendoza",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRmFxV0tQZEFJd3N1N1o0U2RZX3lfRkpidjFWb1BMUjR4UlNobHN0T0tjMTZpQ1V0bzRQc1dJREt2X2QwOUFkclVuS1ZUeHVWelAzeHpGQkgxYXVJUjZibW5HX3FNMW94RlhoYzVybTZTM0pud3NRd1lWcTFBNFd2QXIwZVJwN3lYZG0zSF9SOG11WEdKTGg1aEEtaDdDTVBNV3I4UmRXdE1WcEE2SVVCY3NRaVpIcWJQUGkyamNibGzSAcYBQVVfeXFMTnpyZnlybEdZaHQwM3liV0RhY2N5Ym1OR2pHRllMdVlzdWpYREFuZlhvd3VVS3hObUVFcUM4WDBkRUlMV08zcURJemJvd2l5RW9WRlNreUtqV1d3RFlnRmUzUEtIVjRpbW5zZWdiNWJnLXVaOVhwRTNqRzNPZ0w2S1ZFX1RLYTViSU84elc3bjJISndOWHMzZm9zbGs4aWE1OTZLVVlnZ2xLaEVpLWRhaFBHZDV1bnJhUDNjQ2x0ck1aR3ZuYkdn?oc=5",
-      "published": "2026-06-05T10:47:00+00:00",
-      "source": {
-        "name": "Diario Mendoza",
-        "url": "https://www.diariomendoza.com.ar"
-      }
-    },
-    {
-      "id": "a3e85b417f43",
-      "title": "Salud: Llaryora presentó un programa de acceso a medicamentos gratuitos - · Gobierno de Córdoba",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcXZrZ2tYNlZWNlRfX2dORGFXT3VieDVFNHBZX1JRLWgzbDRMeURVWHVMMDhaY2dUTWNfcDhNVnRUeGhDT3cwNlJybERaWHRpbEZKUmF6bnRtZWlSa3NOU2QxcGNER21LRzduMDdNVUtXUFVmZHlBdjRrVmwyS1dqb01SSkFON1FVQlhkUzZBYjBiYkQyTldsVVc4NU9rNC1OQ2p4X2c5eU5mb0ZrNU0tQ3Z5NnB4ek1H?oc=5",
-      "published": "2026-02-01T08:00:00+00:00",
-      "source": {
-        "name": "· Gobierno de Córdoba",
-        "url": "https://prensa.cba.gov.ar"
       }
     },
     {
@@ -994,6 +874,26 @@
       }
     },
     {
+      "id": "8e0d86736496",
+      "title": "SIGMAC: sistema oficial y obligatorio para la medicación de alto costo - Argentina.gob.ar",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZ3ZWdzQ4SnRaSG9vVlhvNkhPOC1ja01yWWJsaUxYQWI4cjJYakFPR2lNV1NOdVctM3V6dS1Zdnk5SEJJZG4ycGlUWENQdDV5SmF2OWxab05oc05SNmFCVTJiR1lWdU5MNkh5VUZOU2Fjc0hIbWRfLUJ1bDFoVWJxdGRNV1Z4MWZtNnppc3drRGZIQVZ4R05IeC1zUE9nN3pVQzRpSEZGcVRvLTg?oc=5",
+      "published": "2025-10-13T07:00:00+00:00",
+      "source": {
+        "name": "Argentina.gob.ar",
+        "url": "https://www.argentina.gob.ar"
+      }
+    },
+    {
+      "id": "a3e85b417f43",
+      "title": "Salud: Llaryora presentó un programa de acceso a medicamentos gratuitos - · Gobierno de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcXZrZ2tYNlZWNlRfX2dORGFXT3VieDVFNHBZX1JRLWgzbDRMeURVWHVMMDhaY2dUTWNfcDhNVnRUeGhDT3cwNlJybERaWHRpbEZKUmF6bnRtZWlSa3NOU2QxcGNER21LRzduMDdNVUtXUFVmZHlBdjRrVmwyS1dqb01SSkFON1FVQlhkUzZBYjBiYkQyTldsVVc4NU9rNC1OQ2p4X2c5eU5mb0ZrNU0tQ3Z5NnB4ek1H?oc=5",
+      "published": "2026-02-01T08:00:00+00:00",
+      "source": {
+        "name": "· Gobierno de Córdoba",
+        "url": "https://prensa.cba.gov.ar"
+      }
+    },
+    {
       "id": "e41fd951f8ef",
       "title": "IPROSS actualizó la cobertura de medicamentos para garantizar tratamientos - Gobierno de Río Negro",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUjh5V0pkOXR0ZnBwYzVoTW9ITDVpU202WktZU1VvbDJjRU1yX1ZNY2kzM1lwdTRhTE5TMFo2c2pPTkR4akp4NHN3YlF0VWNyUHhtZndlNDdTcWd3RS1Jbk9hMVBVb1RfMWwwRk0wUHJzVW9Yek5XX1l5SVJxNkJnRkNES3FOMWlYdnpLNHdINDZlcC1FRmNPTlBnYmh6NEYtLTQzWHFGVjJrd3NQeEJidzBHSQ?oc=5",
@@ -1001,6 +901,26 @@
       "source": {
         "name": "Gobierno de Río Negro",
         "url": "https://rionegro.gov.ar"
+      }
+    },
+    {
+      "id": "4a386ad27709",
+      "title": "El Gobierno dispuso la digitalización de las farmacias y el uso de tokens para retirar medicamentos - HOY ROJAS",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9GSTAxRWVncTdqSXREbzhYakdsbTJDaVo1WUFlSVFOU3V5ZlRzem5jeldESTZmUzMtSU0wRm8wdl96WjFLczhaQWhoU0xVSVNMajhWMElHVjFwQXAtbmxmUkxSNE5Hbmc?oc=5",
+      "published": "2026-06-05T17:09:00+00:00",
+      "source": {
+        "name": "HOY ROJAS",
+        "url": "https://hoyrojas.com.ar"
+      }
+    },
+    {
+      "id": "f46f9a6e62c8",
+      "title": "Alerta por el acceso a la salud: Los medicamentos de personas mayores subieron hasta un 33% en 2025 - institutopatria.org.ar",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVWVrcS1JLURfNHBjTkR0WGxnWVB3TS1BeEZNZTVocmFCZUlPeGNZR1YwQmUzTnZLWWgwbDUya1B1elBfVEhmMUFXWDIyZVFRb0lKZi1CamFWWVQ5YkY3dlgwOTVXWS1KaUl1YjlDeWpxU0tVUWxSNXlJLVd6QkNoSVBBbmszMWdqSEVjOVQ4RWJ0clc4VzZObHVfV0xBbHBGWnNNQjNLb1p6RTJtbFJoYUROa2lpQi0wdExrZFBMSXVPa2Fva2pxblVlSWNOQQ?oc=5",
+      "published": "2026-04-08T07:00:00+00:00",
+      "source": {
+        "name": "institutopatria.org.ar",
+        "url": "https://www.institutopatria.org.ar"
       }
     }
   ]
