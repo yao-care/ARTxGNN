@@ -1,18 +1,8 @@
 {
-  "fetched_at": "2026-07-02T16:49:17.435410+00:00",
+  "fetched_at": "2026-07-02T18:24:51.875362+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
-    {
-      "id": "bd9a906797f4",
-      "title": "La EMA lanza un plan de mejora del desarrollo de fármacos dirigidos a la salud de la mujer - Infobae",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPMmZVMGFQQ3NtVWdfY0JYNDB2ZURZQ0xKQlJPbEJlZ2VDM2EteW5Yd2RnZHdiSERybTBYM1gtd3o3ZXNwa3dkX1lGY3dMS3ZNb21PUk5aSTZSbERzbmlDeEhYd0FZNE12R1Vxb2wxU2JkaGRQUVhKN0dtZktBSVVSb3VGdmRfLW00SmVpWjlzQ25ZODlSeFU4Qnd0ODgxZnRoZ1cxX3RMa0FoRGtxR2Jxd3k4ZjFWWkpJTjBxT09PV2w3QXNiYzF4NjBna25Yb0NLLTJhcHZ4SkJCamPSAfYBQVVfeXFMT2xFQnBZYVhFeEVWOTFCdUtkbU5VVGNMUksyZkNYcFYxdFB3eDlRc001aDNRM052MFNjcGh4U3UwbWRPa2VsRUIydXVhM0VNQWtpcnRoMTZmQmpZWjdQSXAxRkd0N19Oc2t1YV9YRWRmNlhLQkIzRTRTdVd2NXlteDdrbHRKc1NQTVJuMGdGV1hZZGhFd2wxQWZVNFFibHVMNzJkV3JDQnNhQl9ibUF2LXNad1RRZ2NURUVMNExCQ3ctdGpTUkFHaEVmaEl0RGtScEVSUTdWbWc3NE9HV1BfNkQ3eEc1dFk5SVNRUmVFLVFpTDlmeUV3?oc=5",
-      "published": "2026-07-02T14:39:28+00:00",
-      "source": {
-        "name": "Infobae",
-        "url": "https://www.infobae.com"
-      }
-    },
     {
       "id": "f7f2129ef65e",
       "title": "¿Los medicamentos para adelgazar también alargan la vida? - The New York Times",
@@ -21,6 +11,16 @@
       "source": {
         "name": "The New York Times",
         "url": "https://www.nytimes.com"
+      }
+    },
+    {
+      "id": "bd9a906797f4",
+      "title": "La EMA lanza un plan de mejora del desarrollo de fármacos dirigidos a la salud de la mujer - Infobae",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPMmZVMGFQQ3NtVWdfY0JYNDB2ZURZQ0xKQlJPbEJlZ2VDM2EteW5Yd2RnZHdiSERybTBYM1gtd3o3ZXNwa3dkX1lGY3dMS3ZNb21PUk5aSTZSbERzbmlDeEhYd0FZNE12R1Vxb2wxU2JkaGRQUVhKN0dtZktBSVVSb3VGdmRfLW00SmVpWjlzQ25ZODlSeFU4Qnd0ODgxZnRoZ1cxX3RMa0FoRGtxR2Jxd3k4ZjFWWkpJTjBxT09PV2w3QXNiYzF4NjBna25Yb0NLLTJhcHZ4SkJCamPSAfYBQVVfeXFMT2xFQnBZYVhFeEVWOTFCdUtkbU5VVGNMUksyZkNYcFYxdFB3eDlRc001aDNRM052MFNjcGh4U3UwbWRPa2VsRUIydXVhM0VNQWtpcnRoMTZmQmpZWjdQSXAxRkd0N19Oc2t1YV9YRWRmNlhLQkIzRTRTdVd2NXlteDdrbHRKc1NQTVJuMGdGV1hZZGhFd2wxQWZVNFFibHVMNzJkV3JDQnNhQl9ibUF2LXNad1RRZ2NURUVMNExCQ3ctdGpTUkFHaEVmaEl0RGtScEVSUTdWbWc3NE9HV1BfNkQ3eEc1dFk5SVNRUmVFLVFpTDlmeUV3?oc=5",
+      "published": "2026-07-02T14:39:28+00:00",
+      "source": {
+        "name": "Infobae",
+        "url": "https://www.infobae.com"
       }
     },
     {
@@ -74,16 +74,6 @@
       }
     },
     {
-      "id": "4f87340b6d76",
-      "title": "Vacunación, controles y entrega de medicamentos: Formosa reforzó la atención sanitaria en el interior provincial - El Destape",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNSGZCTnBrR3AyUm83RmZ6aUpwc3lUSC1lbGZITVRPbTh3dzJCVGVmZktEazJhWlNQaXFaRkRlY3NJSllHWjV0djRwanJ3NDR3alEtbXZ5clU0S3ltOURnMzQtOGlkTVFhUmtfLWRWNzJiRjZIRFVMcmdrWTR3LXBBWmJjbVlzdV9jd3Fva1h0eTZuUmNqRnY0OF9vQllqQUpNeHVHb0o2ZHZCSGVEbE1NcjBOVDZCdkEyaHA5RHpNWUtGdnY4VFdkUjdLX3BGTXNZNnfSAeYBQVVfeXFMT3ZhMTlnRklpYk1abEdEV1VYZ1lxd3cwRGpwTXB2Vk04RmE2ZXV2MHdVbGc4OWtDalZOdjE0ZnlGeVdtWTM1X1RxbHVDZHBDdndWZDAzc1k0TkxrN2JXUzlDUS1ObXdtVlQ1bGlEUWFpUWdINTI0WWRpeVh5aVlwYUVYT3ZZWEdXeWIzaFBTMU96aGZLMXhtdjMtaHFua2c1S0ZUOFRNMFF1M21UVDZ0anJ3S24xX0Y1TklRYjRBczlqblRRazhKc1VHRmhfTjAzcWcyWGpEUjJnTXF6UkktbGE1aHVyQmc?oc=5",
-      "published": "2026-07-01T14:31:51+00:00",
-      "source": {
-        "name": "El Destape",
-        "url": "https://www.eldestapeweb.com"
-      }
-    },
-    {
       "id": "8e064c5d42ba",
       "title": "Salud promueve el uso responsable de antibióticos para proteger la comunidad - SI San Juan",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQV001VUdETVJ0U1FBUWNCUzA1RTFwOElwQ1VuSVphMFZaeGV0VmpLSVZTNHBRMlc3TmE1TEl3cFlEY1JaUUk4cWpzUDBfb1B6S3ROcXJYZGxQLURDQzhOTHd0R1A0dnNQRFhyTGpqc2FaZi1XTUZHeC1OeHowTnduNnFNOG9GLVIwNDdGX2k5SGVMT0VTdFhDU0NlWTJKakdhLXQzQ2FQNmtrVjE1clhGWHFBRkNDV0M3WmdfSk42MHVnQVl2UXfSAcsBQVVfeXFMT3BNQ3l6akZyYjRXdlptbkpQSWRFcHpDbkQ5ZVhQY2RRdmdGTXd4dExOSTI4SVM0OGFRc3Y4aGdELXRTdDZadkR0dVo3MFlfa3JZd1IxQUlFRGl4ZzNvMVNDdHF5MHA3VjhFb1FSTDh2LVpUamdxZVJiaUgwU1BiWGw0ZzAtRERFZE5Sdzdxa21uWm9OeGFYWWpOQ0pNTTA0OXRRSy1ZQUg1bVJmOWVvcUtkTGtiRG5pWXlMMWVmWTBvUHBnSGlXZ09Xckk?oc=5",
@@ -104,6 +94,16 @@
       }
     },
     {
+      "id": "5109fe01c543",
+      "title": "El Ministerio de Salud y B’nai B’rith Argentina refuerzan el acceso a medicamentos - Noticias - 20 - Cadena 3 Argentina",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSXpNdFRxa3kxOEVMMldMcWRqeEVNSEZra3pNWWFjd21yRDE2RHNWTENrdFR3NElhdHJydi1HVGhYOHFoWmVJOV9aVHVXRExKVFhyUzU2ZkVtVnBMM1dqWEI4WGw2QlFvc3h1VEVncEs2ZlFJME1UQU9jY2h5YVUwMEZIM1NXLXNCM1ZSMTlDWGNkTjgwNklINE1rdWowTDNZNVAySmxJbF9RNGtLLWFjTUdWMkJ2UVhId1FyRElrcUdTRmxZOWtZ?oc=5",
+      "published": "2026-06-30T20:10:14+00:00",
+      "source": {
+        "name": "Cadena 3 Argentina",
+        "url": "https://www.cadena3.com"
+      }
+    },
+    {
       "id": "37c3d74d028c",
       "title": "Salud y B’nai B’rith firman acuerdo para fortalecer el acceso a medicamentos e insumos - Consenso Salud",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQ3ZXMWJ4d3pJNzFTaEdqQ2NQcnkyX1I0MGdOTEJLSHFPUjBzaDVKVmRKeHZwYVc3aXNwQTMwLVdfalFReTJCb1FlR05JcnNydTBSU2xab0JmY2lLaWExV0p2U0ZORDhPMnRxX2dMenI1WlQ2SzZVQVZ2WmtSM1pBWFdWVHBSN1czLTBrY0FXZkhCU3FNNFBLSUhhLV9fZkdvcU1oRTE4UWM0SWpvb0NDMElqS1U?oc=5",
@@ -114,6 +114,16 @@
       }
     },
     {
+      "id": "9e8fc7908b41",
+      "title": "El Salvador distribuyó más de 24 toneladas de medicamentos en hospitales venezolanos tras la emergencia por terremotos - Infobae",
+      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPUG5DZ1l2T0RRNHNqMDBlVDBIOXJudUtWTy1zS1dDaXFna0k2czR4TlFDeWR2ZEJ4RlktdWExdFNXLUJsd0F5UV9weGYtMnNOcjdoZ3lmQUYzcEsyYXplNTcybkRIcm9wcFFiUVNMaWNHNTlSMlppVy1JQ1BvTVJ3VVdlVHdHVXlWbk4yYkJ6U1Rsd0NpcXRIV1BtaDFoWklTXzFXSnFXU1lSai1saTZjNndOOFJBOEFuamJXZTNCakpaMGFqTDg0OTAxM1Y5WUlQTlFQQWs0eGk4bHZfd0RvNkYyZE41VzRKWUFfdnotTHdzMFdNSXZyNktR0gGUAkFVX3lxTE9QTko4WERKSGZnYVRfUldMSmF2VjJkREVpU2RwOWxRcEU1RERnblRIdDBzTGs3ODh2eU1obnlWbTlFNkJuOU5wT190ZUtnUE5CREpOVGhSdld2MF9GZ3QwcmZ4aERXdnU1dTJCVkRDemUtRld3Um9fSlg3M3pxNEFwbS1Kb1ZTbTRNUGdBX0ZqSlIxOVkyNjJUVHVWMTZkNDdSOVlTU2hvSGJwVXNEWlNlS3NaQU1qRzc3LTBITWxHWS1mZDVoSnpNbHhsYkZyWDJqVXFPeVRwU19Ld0ktd2hQVzllQzhZLUowcUNNUlhiVlNrXzZIZks2OUJHdmI0d0ZTZWdFdGY5SjhSWGdhSlcwNzZXVg?oc=5",
+      "published": "2026-07-02T17:07:48+00:00",
+      "source": {
+        "name": "Infobae",
+        "url": "https://www.infobae.com"
+      }
+    },
+    {
       "id": "64abdbec535b",
       "title": "El auge de las farmacias populares en Chile - Transnational Institute",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNm1fSWgtd05kZ1VLMGx3T0U0em9EZGpYRmpHQTFoMmw5eF9Rb0tFdEJHOE9FblFwaHVmUDVrdzFJYkZlNUo4M3hZV2tpTjZSZ0xZMHp6cU01Y185N0dzazFfQWtLMnJobGNHT0VPanlDUmxYVl9CdUhTd05iMHR4LTdybjRxYzA?oc=5",
@@ -121,16 +131,6 @@
       "source": {
         "name": "Transnational Institute",
         "url": "https://www.tni.org"
-      }
-    },
-    {
-      "id": "76ee506d9670",
-      "title": "Experto subraya que el nuevo marco regulatorio nacional incluye el valor social como criterio de evaluación de fármacos - Infobae",
-      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOUk01eG0zeFpROFhiY0FsY2ZOVlNkdXVXRHA5NTFvUURNcnphMDFObjdLN3daNGNuV1FTc1BtNlkyTGhpekZraWd2eE9TaExzNFV2QXNXZ0dsQy1sdTdpM3p0a2tNR0R3UFgzYnFKMGcxNlRJNnExaFBXTzJHN2d1MzhKTEpFd3hKeEotNWVoMGhRVVZORW1LUGZDSFVUa0tpbGpidkplNjF1WE5VR2VJMFJQa1loSWpJVVk5Q1c4c1NEdHh5OFhtaVF1Z2VFbk9JVHEzd0ZVcjloX2g1SkZOZXltSXB3OGc3YXdBaFBIZW9fMUdnM1NRbjdId1dqaHY1S1HSAZwCQVVfeXFMTTBGamI0a19RWmhVTEJsWC11VzNpYWFUbUlKX3plMXZ1SHlua1Q0REJyTXMxZlNCM3FZbk4tcnhxQklVSU1VMjJsRndWVEpfYm9ab3hXOFdGMUdIdkxUYkRIRFF1QnRoanNqNHBBQjYwRHIxdi1EZUt6aTNubGhHT3diR2JKV1FrejN3akEzOGxiOGpKYi1iZTQ0TkNmWU14UUlxX1dEWmFMR2JLd3J6dkV2ampPSTdOaHR2aWtzdlJhY0hVNUUyR241RWxCRHR0cGdBeTFwS2lURUVNd0tTYTZVUE9jYzVHODFULWJWb1JJcWtaRGN0TmdMUzhMT1VpOTlnRzhDXzZ1ZnhvdW94MkFoLUtMcnJUVUN0ZHg?oc=5",
-      "published": "2026-07-02T13:27:29+00:00",
-      "source": {
-        "name": "Infobae",
-        "url": "https://www.infobae.com"
       }
     },
     {
@@ -154,16 +154,6 @@
       }
     },
     {
-      "id": "f5259cc89c7e",
-      "title": "El pomelo no es solo una fruta más: puede interferir con ciertos medicamentos, así que conviene tenerlo en cuenta - Tua Saúde",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNQWk4UFQySWFJcWhTZ0hnZGx5SE5nemVJMjlUZ2o1RDJSaUJyYkphRnRmMFh1Vi1ZdGtyZE5EYnVSNjlKMm50MVp1ZzdXRGpVQk5WbVBLcUFjZlBYX05TaldYRHp6MFd6d2F6WFV2YVdsV1N4bGduN2NpcmVPSURVLVNiODRDM2hJUUFpenpYUlVlNU03MFhSOVRfSXhGOVUwcHZ5cG16OGoxZ0RiODVtZW9NQW12UGk2MHFMRHJCM0NDSmdNN3BDdVdncnlhZ2RNTnZBbzd6ZHZ1MmJwSmI0QVE3LXN2em0zdHBhVQ?oc=5",
-      "published": "2026-07-02T10:10:00+00:00",
-      "source": {
-        "name": "Tua Saúde",
-        "url": "https://www.tuasaude.com"
-      }
-    },
-    {
       "id": "50c4af7ecf7f",
       "title": "Los ministros de salud del MERCOSUR celebraron acuerdo para fortalecer la producción regional de insumos, medicamentos y nuevas tecnologías - Argentina.gob.ar",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPX2JZZUVQMnpES3BWcFlnS0gyRFZYdldYZXMteVlNeWdxNlYyeHhVNEdfRVRpaDJwUEo5Vlo3MF93N1pQMFFTV3VRQnpWa05BakRkdHh6TkRfRUU1eW9IRUN5aVlwSEpmUHhLNDZUXzNZOVRLWmNaTWVCWDI5bkhDVWd0Rmx2c0VpRFJ1NHRodEpveWNhQ1lVVDctTkxpZm42OXlxTjVFa1JrLUxkaG1OUG5BTzVNaFJnanhWOW5NUQ?oc=5",
@@ -174,33 +164,13 @@
       }
     },
     {
-      "id": "7547331f5230",
-      "title": "TIERRA DEL FUEGO: OSEF COMIENZA A ENTREGAR MEDICAMENTOS CON COBERTURA TOTAL PARA AFILIADOS CON DISCAPACIDAD, SALUD MENTAL E INTERNACIÓN DOMICILIARIA - JCA Noticias",
-      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOUzEzYlBpcTI5TnVoeVE3aUtKa25tRlR5ZWxfcVJGc21nVi1xVG9ySjQyT2xwOHZiTks2X3VtdldvdDk4SGxSc196czVDU2toMURKZTlVTFZvMkd0RzA2OC1JYmlZZ0RsZDBJS1FUT3l4c0lWRXVmbU85MFpJSVFPUVpQcEZ3endnNnpwZ05xOFZieHduMFF5bjNmWTFZeUROWFJhSlM4Ujlmc1F3dmxpQ0gyeVNna2VTemZzblpEZEx3NGRUbGdCS0hHM2NybmtQQ240a1oxSWQ5cnRBeFZZdkRKVlFadDlqdHpPWFFZTDZ2dU9ORm51VnpmRjBQb243S0otRw?oc=5",
-      "published": "2026-07-01T23:50:00+00:00",
+      "id": "f5259cc89c7e",
+      "title": "El pomelo no es solo una fruta más: puede interferir con ciertos medicamentos, así que conviene tenerlo en cuenta - Tua Saúde",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNQWk4UFQySWFJcWhTZ0hnZGx5SE5nemVJMjlUZ2o1RDJSaUJyYkphRnRmMFh1Vi1ZdGtyZE5EYnVSNjlKMm50MVp1ZzdXRGpVQk5WbVBLcUFjZlBYX05TaldYRHp6MFd6d2F6WFV2YVdsV1N4bGduN2NpcmVPSURVLVNiODRDM2hJUUFpenpYUlVlNU03MFhSOVRfSXhGOVUwcHZ5cG16OGoxZ0RiODVtZW9NQW12UGk2MHFMRHJCM0NDSmdNN3BDdVdncnlhZ2RNTnZBbzd6ZHZ1MmJwSmI0QVE3LXN2em0zdHBhVQ?oc=5",
+      "published": "2026-07-02T10:10:00+00:00",
       "source": {
-        "name": "JCA Noticias",
-        "url": "https://jcanoticias.com.ar"
-      }
-    },
-    {
-      "id": "977f179f2b74",
-      "title": "EMA lanza agenda para salud de la mujer - consultorsalud",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5fZnZVb3ZRU1c5RGpJV1ZPeUo2a3BYSkdHS3p2UThieTRxMHI2VnhESHdma1g4dWNMT1FjTzFpZnd0bE1kblhYTE5wWHpuU3NaWGxraVFKZHhSUXNiTVhTeDdwbnBKNHdPSUR2TEc2azhtbDA?oc=5",
-      "published": "2026-07-02T16:38:33+00:00",
-      "source": {
-        "name": "consultorsalud",
-        "url": "https://consultorsalud.com"
-      }
-    },
-    {
-      "id": "ebf4ac9298f4",
-      "title": "El valor social define el futuro de la evaluación de medicamentos en el SNS - Redacción Médica",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPa2NWZ3VsMDlhT1RtcjdWajlQRF9YdG5IeHVEWmNvQkhwZjhVLVI4QTlqb0phdVZsNGk3Q3Z3UGVRcFlSSGZnMHh1WnVsSmhpVHp2N1AzU1pJamtmZV9wQlcxRHVPUndmY05EdmhTTlRnUml0WkcyVlAxNGJZMkxnVW5EQTVVM0NLWXFxeHpmcXVTNll0SlF0LW4wZjRXTnp5Z21qWno3am5yRVUzV2tHblBrR3NBNXNQZWhmNGJqbzA2WDlfTUJzYjJJaFY?oc=5",
-      "published": "2026-07-02T11:30:00+00:00",
-      "source": {
-        "name": "Redacción Médica",
-        "url": "https://www.redaccionmedica.com"
+        "name": "Tua Saúde",
+        "url": "https://www.tuasaude.com"
       }
     },
     {
@@ -214,53 +184,63 @@
       }
     },
     {
-      "id": "7ba33e59b7eb",
-      "title": "LA PROVINCIA PRESENTÓ PROYECTOS DE LEY PARA LA FABRICACIÓN DE MEDICAMENTOS - Radio Provincia",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAyNkliMVU0Rmp2dThVWnBjNVJiYU5ad1ZpSXdGc3dVMGVQTWxBbHpxNWk0eTB6NlM3eVd0emRfQ0ZLTVNhUDBzOXkzazFaYUdnYm9PVlhBTEFNU0xqSWdrTHZYZHZlQQ?oc=5",
-      "published": "2026-06-29T14:32:01+00:00",
+      "id": "3fcfd9fa58cc",
+      "title": "El valor social se presenta como nuevo criterio para evaluar los medicamentos innovadores - Diariofarma",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPY3hFYWp1MW1XYk1xcjhqTm9YZ1ZPWU9FckhSSXVaZVZ4QmtXc01rYjV5RVRWc3B3dmxTU09YRHctTHpnaGJNS0pvSGtSUktjYVNIM0FlRncySzlyV01qZlJwajcwWGlsdUYzcVgwWTlNbGtnWVYtYmpZZ3pzSVBUa0p2SWNaWjhQakpBYlU3WlZFU1lYbmlDcGFWSW5ZMlFERkFxb3JZSWtPanBQMkgzVk83VUpHRlQ0NFA1ZERJdzRuZw?oc=5",
+      "published": "2026-07-02T17:15:00+00:00",
       "source": {
-        "name": "Radio Provincia",
-        "url": "https://provinciaradio.com.ar"
+        "name": "Diariofarma",
+        "url": "https://diariofarma.com"
       }
     },
     {
-      "id": "48bd584bdbff",
-      "title": "Receta electrónica, controles y distribución: los cambios que propone la nueva Ley de Farmacias en Jujuy - Somos Jujuy",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOWl9oQ3JDX0U2RGtRSlVrWnFVRFRGRkZzZ0hHbndpQ0hRbno1amljVHJ3bVFnZUlnZUR5Q3hSd2RTQzdPQ1ZLeHd3dUZHU1NYZ3c0NEh5U0xHc1ZTUV9XNzFsbkgyTUIxcWVSXzkyX1QwOG9jM211WlhvMWwtWVZ4Q2lRMHIwZHE5cC1zRTNwdG5jOHE0VEdtZHluWjg0SDY2VjhEUWJIci0yY1dXQ3RHekY2dGhmMFItUVBLcUc3bUJCemtheWfSAcsBQVVfeXFMTjgxUGMtM1BmMWNoa3lrcFZUUXhXRDVvU2xPbnc5SnRpeFFmZGZTUVN1OEJQZ0ttZmVDZ1Z5c3dCcmRxTWpKQlBndnVaZGtTQ1dyUFdDVF9hV29kQ3dDRTllcHpnRE80TURPbUVEeVBQTDNzT0J5NFYtRFlTZ3lLX2R3a1pMekZLUGlTQlV3NjRPcVB3dEFWWnpKczJvZUhLVkZhWXhUcmdWRjF1dmFJNHk0M19IU2Q0dUVob2FfUmFHdjRGaEhsaUFQWTg?oc=5",
-      "published": "2026-07-01T19:00:00+00:00",
+      "id": "977f179f2b74",
+      "title": "EMA lanza agenda para salud de la mujer - consultorsalud",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5fZnZVb3ZRU1c5RGpJV1ZPeUo2a3BYSkdHS3p2UThieTRxMHI2VnhESHdma1g4dWNMT1FjTzFpZnd0bE1kblhYTE5wWHpuU3NaWGxraVFKZHhSUXNiTVhTeDdwbnBKNHdPSUR2TEc2azhtbDA?oc=5",
+      "published": "2026-07-02T16:38:33+00:00",
       "source": {
-        "name": "Somos Jujuy",
-        "url": "https://www.somosjujuy.com.ar"
+        "name": "consultorsalud",
+        "url": "https://consultorsalud.com"
       }
     },
     {
-      "id": "b6db2a1d2c99",
-      "title": "Los medicamentos están cambiando la salud cardíaca en adultos con obesidad - abc.com.py",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcnhXdVhBUlhzTHRRVWpEZjdxSVd6Y18yS2FObDM3TGdRNzJPR3dkU0xOckVSQ0hqbmZFcmRSQnBRd2dzcXZpUVhTQ1Q3NjRLOWpxTlBRcDJfeDdINko3Q2hoeFNUU1EwcV8wRVB3cjJYWFhMdnNVcUxHa3U0RHVIRlJMTHpqOUFYa3gwQlUyVXl1S3gwNDBYSEVWY2hLcldmNmtLaVRWRVBPcW5IVEhQT0kzeDkzU1Vw0gHMAUFVX3lxTE84alRYOHYxdVhZRHcxQnlpNkh4TG04SWs3aGgydXVXdUlvV0QxbUI3Ull4TmRuaFZNR1NjTXh5QkVVc0RzZWtzYUZUMXlfYUtvQ1hNNUdrZ2cyYXpveDhyODNkR0V1aXhaNmdVdXhqSUZpajVBeWZKNFRjSW5ad2RYRVNLNUR5UGFEOFoyeDdUR3Nza0pWUGJ3WXVfLVFmelBhbTZXTHNnYmRhb0tWRXkzMHJKT2Q0WlBkQ3p5M3FlRDM3VGJrR19CRzBvbg?oc=5",
-      "published": "2026-07-02T13:57:28+00:00",
+      "id": "7547331f5230",
+      "title": "TIERRA DEL FUEGO: OSEF COMIENZA A ENTREGAR MEDICAMENTOS CON COBERTURA TOTAL PARA AFILIADOS CON DISCAPACIDAD, SALUD MENTAL E INTERNACIÓN DOMICILIARIA - JCA Noticias",
+      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOUzEzYlBpcTI5TnVoeVE3aUtKa25tRlR5ZWxfcVJGc21nVi1xVG9ySjQyT2xwOHZiTks2X3VtdldvdDk4SGxSc196czVDU2toMURKZTlVTFZvMkd0RzA2OC1JYmlZZ0RsZDBJS1FUT3l4c0lWRXVmbU85MFpJSVFPUVpQcEZ3endnNnpwZ05xOFZieHduMFF5bjNmWTFZeUROWFJhSlM4Ujlmc1F3dmxpQ0gyeVNna2VTemZzblpEZEx3NGRUbGdCS0hHM2NybmtQQ240a1oxSWQ5cnRBeFZZdkRKVlFadDlqdHpPWFFZTDZ2dU9ORm51VnpmRjBQb243S0otRw?oc=5",
+      "published": "2026-07-01T23:50:00+00:00",
       "source": {
-        "name": "abc.com.py",
-        "url": "https://www.abc.com.py"
+        "name": "JCA Noticias",
+        "url": "https://jcanoticias.com.ar"
       }
     },
     {
-      "id": "b050f9149dc1",
-      "title": "El uso de fármacos biosimilares en hospitales y farmacias se ha duplicado en cinco años - Infobae",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNkpnWGh0YTkybXh3QnpHSUgwM0NUdndvYklVMmtMY3hYRnl2UzdkTzFsZ2tRdHRmWWJldjF1YnU5VElxRTRQWnBoOTBlRXRLR1pPVTh5M09ZY3hYTWVMLWlmVFBRRmxkOWVRWVJJT0x2bmJ1QXBVbGhKMFYzajdRbFpCV2pGdjdUXzdOQmFoc0lVYXhVcXBpSXlaZEUzUHAxcEhpMGtpZ25UUnFQSG56MHBoanMtLUljQjJNWWlxdnFkamRWcmxsalh1VF81SVRTMGhGYWhR0gHwAUFVX3lxTE9tM2l0RC0wOThETVVXTG5Zbkl0MUR5WG9nX2pyUHBTak1xMVlBWWlDNC1XdGZKNGlkeEMyZTVOWlJEWm44N0FmXy1KT0F1ZklWNTFBcXpWT2huZl9wWVRvYXgwTG1zbERndEY5Z1ZSc0hmMUlNejFQVVJhM055WndKdXJRRkVaZGtrUVhPdzI5T013c2lzR1VVMzduaWMxeVJVS1pVYkJuZHVTeTgzQ2REODZ6YmZmVnBVMzd4LTZjdEtFMmJ6c3dnTFQ0R2lFUmk1bmVSYWVhak12bDhqaHRxYTR4MG5ydnpZZm9NSkt1WQ?oc=5",
-      "published": "2026-07-02T11:30:55+00:00",
+      "id": "ebf4ac9298f4",
+      "title": "El valor social define el futuro de la evaluación de medicamentos en el SNS - Redacción Médica",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPa2NWZ3VsMDlhT1RtcjdWajlQRF9YdG5IeHVEWmNvQkhwZjhVLVI4QTlqb0phdVZsNGk3Q3Z3UGVRcFlSSGZnMHh1WnVsSmhpVHp2N1AzU1pJamtmZV9wQlcxRHVPUndmY05EdmhTTlRnUml0WkcyVlAxNGJZMkxnVW5EQTVVM0NLWXFxeHpmcXVTNll0SlF0LW4wZjRXTnp5Z21qWno3am5yRVUzV2tHblBrR3NBNXNQZWhmNGJqbzA2WDlfTUJzYjJJaFY?oc=5",
+      "published": "2026-07-02T11:30:00+00:00",
+      "source": {
+        "name": "Redacción Médica",
+        "url": "https://www.redaccionmedica.com"
+      }
+    },
+    {
+      "id": "b1cc0cf791b6",
+      "title": "Gobierno de Trump propone norma que ahorraría dinero en medicamentos a pacientes de Medicare - Telemundo Nuevo México",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMlNMUy1fNWFMLXVPVlFVOGY2RmFvcUVoSVdKY09VSm1FdkRJVTQ2MTY1ZkVIcDBndGFvSm1HOUo1SnA0M0ZXRmp1anRCMlZmM0hfMWRPWU9faFhXcWF4b1pHbG8ybmVoZVpFSDFvWk50ZU1jXzMyVXZRdk1pMlhXd2YzNDVBa0drU0gzT20tcDR1RnVyMXVGR2JVX2xVN3lJRlhYOVRmSTJuRnJpcHRFNGZyTVZGckc40gHAAUFVX3lxTFBRb1FMTTBHOFA4dS1ETHctVXd6ck9KMWZZWldOWWxhT0ZYTVdqaE9qZ2xYaGZ0VlE2aHpMc2hMdWFhVWZWZ1VjTDFQY2wwM3p1aWpSZFdfb3RPSXVFZkFyZTlORFhEeTNYd2lRTVNBQkJuTXhxQ0ozZFhjZUZCQTFVZDFMZHZUSVhwbGVhNTIwUm9WX2V5aF9CUkQ0OERIQmhUaUlUSGxILVdfbGRnS0xVdk4tUEEtM1dvTnpLSXJXdg?oc=5",
+      "published": "2026-07-02T17:39:22+00:00",
+      "source": {
+        "name": "Telemundo Nuevo México",
+        "url": "https://www.telemundonuevomexico.com"
+      }
+    },
+    {
+      "id": "76ee506d9670",
+      "title": "Experto subraya que el nuevo marco regulatorio nacional incluye el valor social como criterio de evaluación de fármacos - Infobae",
+      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOUk01eG0zeFpROFhiY0FsY2ZOVlNkdXVXRHA5NTFvUURNcnphMDFObjdLN3daNGNuV1FTc1BtNlkyTGhpekZraWd2eE9TaExzNFV2QXNXZ0dsQy1sdTdpM3p0a2tNR0R3UFgzYnFKMGcxNlRJNnExaFBXTzJHN2d1MzhKTEpFd3hKeEotNWVoMGhRVVZORW1LUGZDSFVUa0tpbGpidkplNjF1WE5VR2VJMFJQa1loSWpJVVk5Q1c4c1NEdHh5OFhtaVF1Z2VFbk9JVHEzd0ZVcjloX2g1SkZOZXltSXB3OGc3YXdBaFBIZW9fMUdnM1NRbjdId1dqaHY1S1HSAZwCQVVfeXFMTTBGamI0a19RWmhVTEJsWC11VzNpYWFUbUlKX3plMXZ1SHlua1Q0REJyTXMxZlNCM3FZbk4tcnhxQklVSU1VMjJsRndWVEpfYm9ab3hXOFdGMUdIdkxUYkRIRFF1QnRoanNqNHBBQjYwRHIxdi1EZUt6aTNubGhHT3diR2JKV1FrejN3akEzOGxiOGpKYi1iZTQ0TkNmWU14UUlxX1dEWmFMR2JLd3J6dkV2ampPSTdOaHR2aWtzdlJhY0hVNUUyR241RWxCRHR0cGdBeTFwS2lURUVNd0tTYTZVUE9jYzVHODFULWJWb1JJcWtaRGN0TmdMUzhMT1VpOTlnRzhDXzZ1ZnhvdW94MkFoLUtMcnJUVUN0ZHg?oc=5",
+      "published": "2026-07-02T13:27:29+00:00",
       "source": {
         "name": "Infobae",
         "url": "https://www.infobae.com"
-      }
-    },
-    {
-      "id": "f18345668f03",
-      "title": "Los medicamentos biosimilares duplican su consumo en cinco años y copan más del 80% de los envases en hospitales - El Economista",
-      "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQLVBIeXI3TDdBQTlsbWRiSmk3VmJhMGxYMHlrSE1zdWZFSU5DMkdaelFGRFRUTHdLXzRwTXhLYWs4bExLaUtPak5zNTk3WkpRQVdMelZCdnNwZ25ySFRCaGxMeVhTcEUzUDk1QlFmbWptbHlKaHZFVTYxNW9CdGx2U1k2ckpkcW9OZW9BczZ0eU92d0JNdUxzM2N2MHJVSkU4dVpqeEI3TVZsaDBJcnl2akotVzM0SnZoYURPSDZnTjhnSGdxNWhyWERPdGlVWFdTYzdkTjRRYlQxV2hfZGJMSENNbzBwelU4bWhZU2hXcURpWk01a3ZQV29UYVprSHZIU1dMSzFFc2MtNDJ2dlZsU0ln0gH8AUFVX3lxTE9lM0V5ZFc0SWZHSjFScFhXQjd5Y25yZDQ0U1VpNTJpdC0zNFBaUEdlUHg0aEowUllnVW9oNFEyM2tCYkJMdDBEckQyUEdCcm9MSnVPRkN1andEam13M1pnZHU3OGc3OVUwY3VRbnRCbUZnYWNxSnZtUzdONUIxRTlwdDRaTDR2Q2lZcFlJeTl3M2R2OFU2aGcxNzJJUWpRTTI1bDFEQW5SSVlNOWM0TkNkTVBkcGFMVHpkLUotY3laWllWSHFTSGdwcGRxZExkTERIRERBVHRaZVN3bllkLVNQUEVPQVBaNTJ6cE40dW4tTXJwY3NlMTdtdmkwSg?oc=5",
-      "published": "2026-07-02T12:41:16+00:00",
-      "source": {
-        "name": "El Economista",
-        "url": "https://www.eleconomista.es"
       }
     },
     {
@@ -274,13 +254,33 @@
       }
     },
     {
-      "id": "652f70d1dd60",
-      "title": "La IA acelera el desarrollo de medicamentos y abre paso a la medicina personalizada - La Nación",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOR251QWxkTlVVOWNLb1RsWXFsN2hpTnlQaVhyX1R4MGJqUVJYdFhoQ0FUREY3cEdPN01vUjJRYk5tVjR5d2l5MDVlbXppanM5THU3SEJnUWFzdVNUMVMwajVSY2dobldmSTY0ZDRuc3JmcEwyaklTekUzNGpMSV9XRzFyZzFHalZHZFdNbjF0WGdHVzZwR1pIc3BaWlpnOUZPeGhQVXVGeGFjcVAwTGFlbHJaVjEzVnJseDhQdUI1cFYwcHFGcWZpWEV2VW9hVGhUYUE?oc=5",
-      "published": "2026-07-01T18:17:00+00:00",
+      "id": "48bd584bdbff",
+      "title": "Receta electrónica, controles y distribución: los cambios que propone la nueva Ley de Farmacias en Jujuy - Somos Jujuy",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOWl9oQ3JDX0U2RGtRSlVrWnFVRFRGRkZzZ0hHbndpQ0hRbno1amljVHJ3bVFnZUlnZUR5Q3hSd2RTQzdPQ1ZLeHd3dUZHU1NYZ3c0NEh5U0xHc1ZTUV9XNzFsbkgyTUIxcWVSXzkyX1QwOG9jM211WlhvMWwtWVZ4Q2lRMHIwZHE5cC1zRTNwdG5jOHE0VEdtZHluWjg0SDY2VjhEUWJIci0yY1dXQ3RHekY2dGhmMFItUVBLcUc3bUJCemtheWfSAcsBQVVfeXFMTjgxUGMtM1BmMWNoa3lrcFZUUXhXRDVvU2xPbnc5SnRpeFFmZGZTUVN1OEJQZ0ttZmVDZ1Z5c3dCcmRxTWpKQlBndnVaZGtTQ1dyUFdDVF9hV29kQ3dDRTllcHpnRE80TURPbUVEeVBQTDNzT0J5NFYtRFlTZ3lLX2R3a1pMekZLUGlTQlV3NjRPcVB3dEFWWnpKczJvZUhLVkZhWXhUcmdWRjF1dmFJNHk0M19IU2Q0dUVob2FfUmFHdjRGaEhsaUFQWTg?oc=5",
+      "published": "2026-07-01T19:00:00+00:00",
       "source": {
-        "name": "La Nación",
-        "url": "https://www.lanacion.com.ar"
+        "name": "Somos Jujuy",
+        "url": "https://www.somosjujuy.com.ar"
+      }
+    },
+    {
+      "id": "f18345668f03",
+      "title": "Los medicamentos biosimilares duplican su consumo en cinco años y copan más del 80% de los envases en hospitales - El Economista",
+      "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQLVBIeXI3TDdBQTlsbWRiSmk3VmJhMGxYMHlrSE1zdWZFSU5DMkdaelFGRFRUTHdLXzRwTXhLYWs4bExLaUtPak5zNTk3WkpRQVdMelZCdnNwZ25ySFRCaGxMeVhTcEUzUDk1QlFmbWptbHlKaHZFVTYxNW9CdGx2U1k2ckpkcW9OZW9BczZ0eU92d0JNdUxzM2N2MHJVSkU4dVpqeEI3TVZsaDBJcnl2akotVzM0SnZoYURPSDZnTjhnSGdxNWhyWERPdGlVWFdTYzdkTjRRYlQxV2hfZGJMSENNbzBwelU4bWhZU2hXcURpWk01a3ZQV29UYVprSHZIU1dMSzFFc2MtNDJ2dlZsU0ln0gH8AUFVX3lxTE9lM0V5ZFc0SWZHSjFScFhXQjd5Y25yZDQ0U1VpNTJpdC0zNFBaUEdlUHg0aEowUllnVW9oNFEyM2tCYkJMdDBEckQyUEdCcm9MSnVPRkN1andEam13M1pnZHU3OGc3OVUwY3VRbnRCbUZnYWNxSnZtUzdONUIxRTlwdDRaTDR2Q2lZcFlJeTl3M2R2OFU2aGcxNzJJUWpRTTI1bDFEQW5SSVlNOWM0TkNkTVBkcGFMVHpkLUotY3laWllWSHFTSGdwcGRxZExkTERIRERBVHRaZVN3bllkLVNQUEVPQVBaNTJ6cE40dW4tTXJwY3NlMTdtdmkwSg?oc=5",
+      "published": "2026-07-02T12:41:16+00:00",
+      "source": {
+        "name": "El Economista",
+        "url": "https://www.eleconomista.es"
+      }
+    },
+    {
+      "id": "b43a4121fda7",
+      "title": "Los medicamentos están cambiando la salud cardíaca en adultos con obesidad - abc.com.py",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcnhXdVhBUlhzTHRRVWpEZjdxSVd6Y18yS2FObDM3TGdRNzJPR3dkU0xOckVSQ0hqbmZFcmRSQnBRd2dzcXZpUVhTQ1Q3NjRLOWpxTlBRcDJfeDdINko3Q2hoeFNUU1EwcV8wRVB3cjJYWFhMdnNVcUxHa3U0RHVIRlJMTHpqOUFYa3gwQlUyVXl1S3gwNDBYSEVWY2hLcldmNmtLaVRWRVBPcW5IVEhQT0kzeDkzU1Vw?oc=5",
+      "published": "2026-07-02T13:57:28+00:00",
+      "source": {
+        "name": "abc.com.py",
+        "url": "https://www.abc.com.py"
       }
     },
     {
@@ -314,26 +314,6 @@
       }
     },
     {
-      "id": "54558fc95c96",
-      "title": "El uso de biosimilares en hospital y farmacia se dobla en un lustro, con 4,9 y 2,7 millones de envases, respectivamente - Infosalus",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOc05peFVKVEJDaVZZVHBlTGd1TXhkQXk2aVFMT2FsVjdoSnZDRF91Vmw0V3FqZkJoNURVaUh0VHhMOUlrbl9SN21PTzRTQUVYMVFfVjd0cmhkR01vU3p6M2FNLUFKMnlBMjVyMmI1OXQ5UEVub1VJcjNWVWdnbjk1N3hSQ0l1UFBTcXNRNlQyQi1DVnFVWWUyYlJxZC1XWDBOLWFTZHpZMm0yVnpKaGVWTVBNTXBsZHlqdXJkMFNLXzZuYmJpZHlia05sdUhwbW5RU2x6cjk2cU45RElfbGtZWFY2TQ?oc=5",
-      "published": "2026-07-02T09:43:41+00:00",
-      "source": {
-        "name": "Infosalus",
-        "url": "https://www.infosalus.com"
-      }
-    },
-    {
-      "id": "f9b67b697c8b",
-      "title": "Salud: ante el retiro de Nación, el gobierno de Pullaro inició el reparto de medicamentos a centros de salud y hospitales de toda la provincia - Gobierno de Santa Fe",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBIZ21PMjhRYjBmSWJIWjJWOXh3UTVTN0ppeHo0c2lBQ0h0MVRhQW00R29ZR1MwM25OcXBxYy1LMVhjYnFhUHB0MFc3T1JfaDhwVHBMZDZ5czZrYlFYN29oMA?oc=5",
-      "published": "2026-05-18T07:00:00+00:00",
-      "source": {
-        "name": "Gobierno de Santa Fe",
-        "url": "https://www.santafe.gob.ar"
-      }
-    },
-    {
       "id": "be5db154ac15",
       "title": "Quiénes califican para el nuevo plan de Medicare para adelgazar por USD 50 y cuál es la “letra chica” sobre las limitaciones - Infobae",
       "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOZUxTTmtQMklqeFp0VXhXb3huNVg4M1dZRVpobjJsRG15eFZXcmJwdzNPTHd1cUJnMWszdVhaVHVQT0JnNEFSWHpaTWpXNndyVjFvQ3haWTk5UXMzakwzY01NODFFNGFBU3B6Y1F5MHVNWTZ4TmlJNWFZUDRka0Ywb1pYVmFpZTVUWFFRMmlMcTlpWnJYYVo3TTlSbDNrRzFfczVqanlncHZlWTVVR01aSWpQczQtUTMwQ0MwYjZlZjRtMGZXQkxMUmo0dERUeGVRVGFkN05CWmR5VnQ1cFNvT0xTTHBlNDNYU3VjWVlXTEk3bFNBOGl3c3k0WHVTWEQxOWRR0gGeAkFVX3lxTFA4T0I1bVllcTk5ZlhYV0hQV2pmQmZBNlZDQ1l3bUNILUF1Nk54ME05a1Q2U2xKQ0IxUnc3MG11S0hHY05rLW9jTGUwWWlaS0JMMmgxZlNwcFBoZXE0RHdmemlWZk1Ibnh6NXNNV1gtOFh5bGR3V2pYakRqLUdEU0t2Ry00Nnk4RWpSTFVGN2RrY0xwQnVZUDFXQUI0MkhKN1pka3dzenh6ZkJHSVFHWnZtRGtjZWZBV0dSaU1ObTJnYklxSG82N0Rvbm13d1RKOWZSTmk0ZkRQckxqbFdRczNpM0tzQkhDcWctWDhZM1pxTGRlS0xteE8wZUFQdnZPWkttTFBIMFpBVE9WeXp0UTN6ZnpKWXljZDV2SmtSYkE?oc=5",
@@ -341,16 +321,6 @@
       "source": {
         "name": "Infobae",
         "url": "https://www.infobae.com"
-      }
-    },
-    {
-      "id": "5109fe01c543",
-      "title": "El Ministerio de Salud y B’nai B’rith Argentina refuerzan el acceso a medicamentos - Noticias - 20 - Cadena 3 Argentina",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSXpNdFRxa3kxOEVMMldMcWRqeEVNSEZra3pNWWFjd21yRDE2RHNWTENrdFR3NElhdHJydi1HVGhYOHFoWmVJOV9aVHVXRExKVFhyUzU2ZkVtVnBMM1dqWEI4WGw2QlFvc3h1VEVncEs2ZlFJME1UQU9jY2h5YVUwMEZIM1NXLXNCM1ZSMTlDWGNkTjgwNklINE1rdWowTDNZNVAySmxJbF9RNGtLLWFjTUdWMkJ2UVhId1FyRElrcUdTRmxZOWtZ?oc=5",
-      "published": "2026-06-30T20:10:14+00:00",
-      "source": {
-        "name": "Cadena 3 Argentina",
-        "url": "https://www.cadena3.com"
       }
     },
     {
@@ -364,23 +334,33 @@
       }
     },
     {
-      "id": "6ecd1bed7279",
-      "title": "Salud Pública garantiza la provisión de medicamentos ante la reestructuración del programa nacional Remediar - Gobierno de la Provincia de Salta, Argentina",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQb0FoWXFaQlhDNzJpa0ZIWEZyR3kzS3pQMUpJcldRVDhqUEF4QmV5VGo5NVJBREdlR0IyVFdrel9mRk9uU2tXUVktVTQxWTNvdW5JSnBrRzlFT3NSS2JQSXRCa0JEUkJseWgxVGhfZG1CZHA3N2dfSWFSODE1MzY5U1VHaUZxV01TU1RqZG1hS1RkUjkyR2djdXlVT0Jmd2Z6QXpvZVV4R1p1T3N2cWdHQmdObk5lbTRURHJwN2JEdm1XSmFPaUREaVpvVjQ4ak9leWxsY2tNZjVDMEk2OEFDc1daN1RySkdabjFVMA?oc=5",
-      "published": "2026-04-13T07:00:00+00:00",
+      "id": "652f70d1dd60",
+      "title": "La IA acelera el desarrollo de medicamentos y abre paso a la medicina personalizada - La Nación",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOR251QWxkTlVVOWNLb1RsWXFsN2hpTnlQaVhyX1R4MGJqUVJYdFhoQ0FUREY3cEdPN01vUjJRYk5tVjR5d2l5MDVlbXppanM5THU3SEJnUWFzdVNUMVMwajVSY2dobldmSTY0ZDRuc3JmcEwyaklTekUzNGpMSV9XRzFyZzFHalZHZFdNbjF0WGdHVzZwR1pIc3BaWlpnOUZPeGhQVXVGeGFjcVAwTGFlbHJaVjEzVnJseDhQdUI1cFYwcHFGcWZpWEV2VW9hVGhUYUE?oc=5",
+      "published": "2026-07-01T18:17:00+00:00",
       "source": {
-        "name": "Gobierno de la Provincia de Salta, Argentina",
-        "url": "https://www.salta.gob.ar"
+        "name": "La Nación",
+        "url": "https://www.lanacion.com.ar"
       }
     },
     {
-      "id": "276829260e83",
-      "title": "Los riesgos de los suplementos deportivos, un boom que crece de la mano de influencers - iProfesional",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOOEdhSVRjSGNtS0tiZUszdGNUa3VFZkl4MVpDNmpJSnhTbDJ2SGVEUXIwUHdDT1ZkNXZnaTBVOGZqNE44eFA0M1VvcFdHSjNyYjdBUWdJdTg0ek1NdFlQZkZKalhZeHFLdUdqRDZjbjRYbm5YeXkzSGNZTW5VcG1PX0NLZURDM3lOcnZjdjdBTGQ3MktTLUhGMVY5Y2RkQklZUnBnR21UY29rMU5ZUWlvN3Q2Uzg4WEtnMXF6aTVUYk9VRWZvLVHSAcsBQVVfeXFMUHNOc2V6ZUVlQXl1bmxlYmxiRkZXQ3JaMldCMmhHUkZLVE14b1dZSmZueUZrZGctbjY0akpQNnZzRlRvUUppM05DMktSa19xT0VORWRJdXJYRTlYdWhQdTNadFRSOWtYM19odFJTVDdsbWZpZFNQWXZ4bnY3MzUtcUhHNWx2Z2pBdVBlSXA4cXNJalQ4WFNpT3lNY3J1RmNnUUJIWWFURF9oN2lYektnNlQ3bzh0ZHVIQV85bHlmWjBfS0JoRVlZZlJHSkU?oc=5",
-      "published": "2026-07-01T21:30:00+00:00",
+      "id": "f9b67b697c8b",
+      "title": "Salud: ante el retiro de Nación, el gobierno de Pullaro inició el reparto de medicamentos a centros de salud y hospitales de toda la provincia - Gobierno de Santa Fe",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBIZ21PMjhRYjBmSWJIWjJWOXh3UTVTN0ppeHo0c2lBQ0h0MVRhQW00R29ZR1MwM25OcXBxYy1LMVhjYnFhUHB0MFc3T1JfaDhwVHBMZDZ5czZrYlFYN29oMA?oc=5",
+      "published": "2026-05-18T07:00:00+00:00",
       "source": {
-        "name": "iProfesional",
-        "url": "https://www.iprofesional.com"
+        "name": "Gobierno de Santa Fe",
+        "url": "https://www.santafe.gob.ar"
+      }
+    },
+    {
+      "id": "54558fc95c96",
+      "title": "El uso de biosimilares en hospital y farmacia se dobla en un lustro, con 4,9 y 2,7 millones de envases, respectivamente - Infosalus",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOc05peFVKVEJDaVZZVHBlTGd1TXhkQXk2aVFMT2FsVjdoSnZDRF91Vmw0V3FqZkJoNURVaUh0VHhMOUlrbl9SN21PTzRTQUVYMVFfVjd0cmhkR01vU3p6M2FNLUFKMnlBMjVyMmI1OXQ5UEVub1VJcjNWVWdnbjk1N3hSQ0l1UFBTcXNRNlQyQi1DVnFVWWUyYlJxZC1XWDBOLWFTZHpZMm0yVnpKaGVWTVBNTXBsZHlqdXJkMFNLXzZuYmJpZHlia05sdUhwbW5RU2x6cjk2cU45RElfbGtZWFY2TQ?oc=5",
+      "published": "2026-07-02T09:43:41+00:00",
+      "source": {
+        "name": "Infosalus",
+        "url": "https://www.infosalus.com"
       }
     },
     {
@@ -394,13 +374,13 @@
       }
     },
     {
-      "id": "77f276522993",
-      "title": "El Hospital Zonal de Caleta Olivia recibió una nueva carga de medicamentos - Gobierno de Santa Cruz",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOcTJWLXBZaGpOa3poRk5IZVVxQUNZVkVPQ3l6UHA2ODdrS3BaVHRZQWNOaUFMeTJNOWxXeFd6SHAtU0MwcHlVTkJyRUVtNm1FN0NmYXRpdFY4dDNzVW9IeHV6NldnRUJNVjJkSTNhenpIeFJWZ0ZsOS1PeEl6b2xiajJPU19UZjNaaGpoTGhfT2hHSFdVNWlveGx3YWhCQTY1Z0wyY2t6cVp4c3ZJcllwWXE4SWtVM211WVM0NkhhMEloUVllSjR1Ng?oc=5",
-      "published": "2026-06-25T20:00:30+00:00",
+      "id": "17866bc1556a",
+      "title": "Lo que los adultos mayores deben saber antes de tomar un medicamento GLP-1 para bajar de peso - CNN en Español",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOM2RrMVAxeEZoU3RSa2VuYkU4Vmw1N0dGQUtONF96N1hheDljRGZDdmUtMkZ4TWFBSU85Z2dnTFF0STh5WHVKcUhZQ2FPdWJmeUlkajJKTEdOVEc3dUp0Nm5MbHYySU1BTERCQ21vTy1mYmphUktJU19BT1AtTmd0UWZLeEE0RGsxX3o4TXNLTDVMUm5KVUJYZA?oc=5",
+      "published": "2026-07-01T13:33:00+00:00",
       "source": {
-        "name": "Gobierno de Santa Cruz",
-        "url": "https://noticias.santacruz.gob.ar"
+        "name": "CNN en Español",
+        "url": "https://cnnespanol.cnn.com"
       }
     },
     {
@@ -411,6 +391,56 @@
       "source": {
         "name": "Diario El Norte - San Nicolás",
         "url": "https://diarioelnorte.com.ar"
+      }
+    },
+    {
+      "id": "6ecd1bed7279",
+      "title": "Salud Pública garantiza la provisión de medicamentos ante la reestructuración del programa nacional Remediar - Gobierno de la Provincia de Salta, Argentina",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQb0FoWXFaQlhDNzJpa0ZIWEZyR3kzS3pQMUpJcldRVDhqUEF4QmV5VGo5NVJBREdlR0IyVFdrel9mRk9uU2tXUVktVTQxWTNvdW5JSnBrRzlFT3NSS2JQSXRCa0JEUkJseWgxVGhfZG1CZHA3N2dfSWFSODE1MzY5U1VHaUZxV01TU1RqZG1hS1RkUjkyR2djdXlVT0Jmd2Z6QXpvZVV4R1p1T3N2cWdHQmdObk5lbTRURHJwN2JEdm1XSmFPaUREaVpvVjQ4ak9leWxsY2tNZjVDMEk2OEFDc1daN1RySkdabjFVMA?oc=5",
+      "published": "2026-04-13T07:00:00+00:00",
+      "source": {
+        "name": "Gobierno de la Provincia de Salta, Argentina",
+        "url": "https://www.salta.gob.ar"
+      }
+    },
+    {
+      "id": "77f276522993",
+      "title": "El Hospital Zonal de Caleta Olivia recibió una nueva carga de medicamentos - Gobierno de Santa Cruz",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOcTJWLXBZaGpOa3poRk5IZVVxQUNZVkVPQ3l6UHA2ODdrS3BaVHRZQWNOaUFMeTJNOWxXeFd6SHAtU0MwcHlVTkJyRUVtNm1FN0NmYXRpdFY4dDNzVW9IeHV6NldnRUJNVjJkSTNhenpIeFJWZ0ZsOS1PeEl6b2xiajJPU19UZjNaaGpoTGhfT2hHSFdVNWlveGx3YWhCQTY1Z0wyY2t6cVp4c3ZJcllwWXE4SWtVM211WVM0NkhhMEloUVllSjR1Ng?oc=5",
+      "published": "2026-06-25T20:00:30+00:00",
+      "source": {
+        "name": "Gobierno de Santa Cruz",
+        "url": "https://noticias.santacruz.gob.ar"
+      }
+    },
+    {
+      "id": "276829260e83",
+      "title": "Los riesgos de los suplementos deportivos, un boom que crece de la mano de influencers - iProfesional",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOOEdhSVRjSGNtS0tiZUszdGNUa3VFZkl4MVpDNmpJSnhTbDJ2SGVEUXIwUHdDT1ZkNXZnaTBVOGZqNE44eFA0M1VvcFdHSjNyYjdBUWdJdTg0ek1NdFlQZkZKalhZeHFLdUdqRDZjbjRYbm5YeXkzSGNZTW5VcG1PX0NLZURDM3lOcnZjdjdBTGQ3MktTLUhGMVY5Y2RkQklZUnBnR21UY29rMU5ZUWlvN3Q2Uzg4WEtnMXF6aTVUYk9VRWZvLVHSAcsBQVVfeXFMUHNOc2V6ZUVlQXl1bmxlYmxiRkZXQ3JaMldCMmhHUkZLVE14b1dZSmZueUZrZGctbjY0akpQNnZzRlRvUUppM05DMktSa19xT0VORWRJdXJYRTlYdWhQdTNadFRSOWtYM19odFJTVDdsbWZpZFNQWXZ4bnY3MzUtcUhHNWx2Z2pBdVBlSXA4cXNJalQ4WFNpT3lNY3J1RmNnUUJIWWFURF9oN2lYektnNlQ3bzh0ZHVIQV85bHlmWjBfS0JoRVlZZlJHSkU?oc=5",
+      "published": "2026-07-01T21:30:00+00:00",
+      "source": {
+        "name": "iProfesional",
+        "url": "https://www.iprofesional.com"
+      }
+    },
+    {
+      "id": "4234ba65a6c0",
+      "title": "“El financiamiento de los programas del Ministerio de Salud de la Nación está garantizado” - Argentina.gob.ar",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQTEVpeTI5WktQektkVml2QUlrQVFaNGRQUGE1by1ScUpBNjR4NG05SDNELVNsbXBRc3FZY0t1OG5oeDNrRjNCajN1dGFMNFBOM2tlcGI3bTU1VG5aVWhxYTVjMUpUeEhtMjQ3MXRYU2IybWdCRVhqdWpFOHRVdGRiZ240eHB3bi12YzAwVlhGOVkxcDV4eXFQM3hPdXZBQXBNWFU3R0dtMDVrN0hiUThVd3FBbEp1Z1FQWDl3TVlvWVJYZ1VX?oc=5",
+      "published": "2026-05-18T07:00:00+00:00",
+      "source": {
+        "name": "Argentina.gob.ar",
+        "url": "https://www.argentina.gob.ar"
+      }
+    },
+    {
+      "id": "07477756dc6d",
+      "title": "Desde medicamentos esenciales hasta material descartable: cómo funciona el sistema de almacenamiento y distribución que puso en marcha Pullaro para abastecer la salud pública - Gobierno de Santa Fe",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBXTHJLc3JscG1lRW45MTJ3V1VBeHNwNmgxTDRtZzREc2tEa0ExR1BHS0pnMUZVbFpRM0p1YVFZUVNnX0JhOFVvcFhNb1FqZG55M0VIUmtGdi1KWGxHV0RiaA?oc=5",
+      "published": "2026-05-31T07:00:00+00:00",
+      "source": {
+        "name": "Gobierno de Santa Fe",
+        "url": "https://www.santafe.gov.ar"
       }
     },
     {
@@ -444,13 +474,13 @@
       }
     },
     {
-      "id": "17866bc1556a",
-      "title": "Lo que los adultos mayores deben saber antes de tomar un medicamento GLP-1 para bajar de peso - CNN en Español",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOM2RrMVAxeEZoU3RSa2VuYkU4Vmw1N0dGQUtONF96N1hheDljRGZDdmUtMkZ4TWFBSU85Z2dnTFF0STh5WHVKcUhZQ2FPdWJmeUlkajJKTEdOVEc3dUp0Nm5MbHYySU1BTERCQ21vTy1mYmphUktJU19BT1AtTmd0UWZLeEE0RGsxX3o4TXNLTDVMUm5KVUJYZA?oc=5",
-      "published": "2026-07-01T13:33:00+00:00",
+      "id": "733de72f126b",
+      "title": "#Legislación Farmacias: nuevo sistema digital para retirar medicamentos - al día | argentina",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaHVraXU4Ulh0ZVd3RVVWVmZsc1N3RDVVbExsMUJNc29qUmo5X21oVG0tZFZmZ01HdEhhM29COEpNeThLV2RjT0hUdnQtSGRSZDBIUDhRWThSVm5EUjIwcnJNbmszOEVxQzBZeUltUlNlSTlpTHYxWjRXZUtIMkswTzVhQWxnbkNxcTJzXzRlTGxyVVpZdEFrMHhLUVcxTU5LYmRFUmNCWnVrbGw3alpES09MVnQ5R2wyM1VF0gHAAUFVX3lxTE14TnRmRVVtdFM1My1qYVJUejRtX0cxRFZ2Y0E5blhMTHZLbENncG1udS1yYlUyTWFKLXF2NlBLWVAtZjVYOHBxRnJBYU9JUkNkRGVXRkUzekdzUzJ3NTZ3U2xJYWxjTWl3b2h2Yi0wR0htczA4a19WWHh5M3hnTmZBWl9seklyQThXQzJVU290aVc3V0pRbWg3N2RiYkR5Mkh6cW9OZkRidmEwYTd3MFFKdEl5UXhtOU1QaUpUXzc2aw?oc=5",
+      "published": "2026-06-05T07:00:00+00:00",
       "source": {
-        "name": "CNN en Español",
-        "url": "https://cnnespanol.cnn.com"
+        "name": "al día | argentina",
+        "url": "https://aldiaargentina.microjuris.com"
       }
     },
     {
@@ -464,26 +494,6 @@
       }
     },
     {
-      "id": "664f7e559982",
-      "title": "Santa Cruz abrió la licitación para garantizar medicamentos en todos los hospitales provinciales - Gobierno de Santa Cruz",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPZE5QZGdzdUxlQXFwVzBMVDJncHl5Y1VRSlVacHZVdXdvYmE1MExCR2lMMlMwVnBFRW5kNUNnekIwdEVUaUFIZUVnT3NQTnROMFdZWUQxaUNsU25BZXNpTGRBTWdPNkdPaTB0X1hKTnZ6ZjdtWHVPRDVCdW4tWHZLZnE5QXJVbFlvNTdYM0dkbXV0cUJ2UjNWM0NzbmpaVUtxTE85ZGRSWEVtNHIzc0VVTlY4RDFXNGc1d1hrczA4SUl4dkt3WDhCX3NxeTI0TWVqZFJ0dXZQajM3NnFjNkl1OW9rUmlJbkpF?oc=5",
-      "published": "2026-03-16T07:00:00+00:00",
-      "source": {
-        "name": "Gobierno de Santa Cruz",
-        "url": "https://noticias.santacruz.gob.ar"
-      }
-    },
-    {
-      "id": "1a8c9f858e39",
-      "title": "Salud: ante la fuerte reducción en los envíos de Nación, la Provincia amplió la compra de medicamentos esenciales - Gobierno de Santa Fe",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9GeHQ2S2JOQ1JEekM5X2NlU2hiWFFvUTJpdEtTWGxFVXZEMjZ0dXhsU0F1dEFRNGtlYXdvT0RjamJnMzNmV3dLR1RLMjdXOU44RDRBQ3I0alhhMjNfZC1uWQ?oc=5",
-      "published": "2026-03-23T07:00:00+00:00",
-      "source": {
-        "name": "Gobierno de Santa Fe",
-        "url": "https://www.santafe.gob.ar"
-      }
-    },
-    {
       "id": "e1e5d1264ac5",
       "title": "Cómo se garantiza el stock y la logística de medicamentos en los hospitales - Gobierno de Río Negro",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORUtmUFUzOUZDWmdEaGxJcXh1Q3ZOU2NneGRXcUZ0eFB4Y3BSdEd5Y1c3VklKM0t5Mi1VcDhmTWFtYnNkdFJzb3FhNGczWU5LZHo4TkQ4YUYxTkpKVDdWQlBiNFdkQWlhSXRmVjZ6WFBORERjcVppay1xSWhXbXN3MnQxZUdpOTlmUTJ2b08tSU5MMk5rU3dqT0YyMFZydnpFNzluaWVzcF9YeHR5RlVrN2xxTTM?oc=5",
@@ -494,23 +504,23 @@
       }
     },
     {
-      "id": "0470e7c5156c",
-      "title": "España encarece un fármaco de párkinson y rechaza otro de insomnio infantil - Redacción Médica",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQUjZVV2hNOXh4VW8xWFlwdk9kdDFSMUxDRWkyNTliN292MlB3VjJmWkJqRy1xTTdnazhoak9GMHZ1M3lTOWEtTXV0SWpsa05qR050RzJaV1kxU0VVdjR4Y2NuTjVmbllJNVR3dzI0eG5obXZ3NGIzTk0zZ2dkbzU5TUJTR0ttQXNLdkt6MnBCNU5YbWZ5cUJmY1BvZ1hscGtqZHdDUlBUby1yQmN2dmp5bTVUX20wa0cyaWd3TTBsXzVvWEllZkFoTF9vX2c?oc=5",
-      "published": "2026-07-02T13:45:00+00:00",
+      "id": "f998a392ea2e",
+      "title": "Ante la retracción de Nación, Santa Fe refuerza su sistema de salud con fondos propios - Gobierno de Santa Fe",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBzWFZvV2VibEk5VmxMcGQzRVYyRGtRRFp5Q3ZuS19GY0ZDTzczTFp4UnI4STAwNEV3b3VNMXdkY1FXbk1OcE1IdjNrQzByZC1yakZsUFBOWHpKNF80bmxxNQ?oc=5",
+      "published": "2026-03-19T07:00:00+00:00",
       "source": {
-        "name": "Redacción Médica",
-        "url": "https://www.redaccionmedica.com"
+        "name": "Gobierno de Santa Fe",
+        "url": "https://www.santafe.gob.ar"
       }
     },
     {
-      "id": "d96609a9b11a",
-      "title": "La OPS destacó la política de medicamentos provincial por su eficiencia y ahorro - Provincia de Buenos Aires |",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTks0ZU41YlNsTnRKN29QTzE5ZDFFQk5lb19zOGZCZll6Mkc3VEdjNlFmZHFGSHZmMGJMdHcxVHVzdUM3YmNBVlYxVjBrZE94WU9PQWJMZFVOMlRYUno4clR6UHRnMTU0b3Z4SUVFN3JGQ3pHaFBSdlZyY1N1WFpJbzVKYnN5ZnRZOEZ6LTVTWTJxTkZNNnZLUDk5NThmYkMwUHlSRUhsR1RPWHhIVjN2YVZGNFgwNlhCZFQyLUxvbGdFU3NkNV81UFNR?oc=5",
-      "published": "2026-03-21T07:00:00+00:00",
+      "id": "664f7e559982",
+      "title": "Santa Cruz abrió la licitación para garantizar medicamentos en todos los hospitales provinciales - Gobierno de Santa Cruz",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPZE5QZGdzdUxlQXFwVzBMVDJncHl5Y1VRSlVacHZVdXdvYmE1MExCR2lMMlMwVnBFRW5kNUNnekIwdEVUaUFIZUVnT3NQTnROMFdZWUQxaUNsU25BZXNpTGRBTWdPNkdPaTB0X1hKTnZ6ZjdtWHVPRDVCdW4tWHZLZnE5QXJVbFlvNTdYM0dkbXV0cUJ2UjNWM0NzbmpaVUtxTE85ZGRSWEVtNHIzc0VVTlY4RDFXNGc1d1hrczA4SUl4dkt3WDhCX3NxeTI0TWVqZFJ0dXZQajM3NnFjNkl1OW9rUmlJbkpF?oc=5",
+      "published": "2026-03-16T07:00:00+00:00",
       "source": {
-        "name": "Provincia de Buenos Aires |",
-        "url": "https://www.gba.gob.ar"
+        "name": "Gobierno de Santa Cruz",
+        "url": "https://noticias.santacruz.gob.ar"
       }
     },
     {
@@ -524,13 +534,23 @@
       }
     },
     {
-      "id": "3875d0b4cefa",
-      "title": "IA acelera el desarrollo de medicamentos y abre paso a la medicina personalizada - Rosario Finanzas",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNc0FLdmUyV2ZCOTdqbE5NcE5mYUxDQi01VUR1T0F0V1M3Tl9rT1FWb055X2pTTjdFcjRfRmU5MS16YlRpVXZqclBRZUdQeFVncmdxWEJkalFhS1JiQ1p1Q2lqekFrSDhuVndPZG1VM2Y3M2ZQRFZyN0ZqcC1rOTlPWWxPam5JdG11c1c2ZWQyWjJoNjVUbFV5NjBDOVhmZkpDWHVTYWR5VGg1Z1JBMFBNV2VqakRrU1E?oc=5",
-      "published": "2026-07-01T18:17:13+00:00",
+      "id": "0470e7c5156c",
+      "title": "España encarece un fármaco de párkinson y rechaza otro de insomnio infantil - Redacción Médica",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQUjZVV2hNOXh4VW8xWFlwdk9kdDFSMUxDRWkyNTliN292MlB3VjJmWkJqRy1xTTdnazhoak9GMHZ1M3lTOWEtTXV0SWpsa05qR050RzJaV1kxU0VVdjR4Y2NuTjVmbllJNVR3dzI0eG5obXZ3NGIzTk0zZ2dkbzU5TUJTR0ttQXNLdkt6MnBCNU5YbWZ5cUJmY1BvZ1hscGtqZHdDUlBUby1yQmN2dmp5bTVUX20wa0cyaWd3TTBsXzVvWEllZkFoTF9vX2c?oc=5",
+      "published": "2026-07-02T13:45:00+00:00",
       "source": {
-        "name": "Rosario Finanzas",
-        "url": "https://rosariofinanzas.ar"
+        "name": "Redacción Médica",
+        "url": "https://www.redaccionmedica.com"
+      }
+    },
+    {
+      "id": "1a8c9f858e39",
+      "title": "Salud: ante la fuerte reducción en los envíos de Nación, la Provincia amplió la compra de medicamentos esenciales - Gobierno de Santa Fe",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9GeHQ2S2JOQ1JEekM5X2NlU2hiWFFvUTJpdEtTWGxFVXZEMjZ0dXhsU0F1dEFRNGtlYXdvT0RjamJnMzNmV3dLR1RLMjdXOU44RDRBQ3I0alhhMjNfZC1uWQ?oc=5",
+      "published": "2026-03-23T07:00:00+00:00",
+      "source": {
+        "name": "Gobierno de Santa Fe",
+        "url": "https://www.santafe.gob.ar"
       }
     },
     {
@@ -541,6 +561,16 @@
       "source": {
         "name": "PRENSA GOBIERNO DE MENDOZA",
         "url": "https://prensa.mendoza.gob.ar"
+      }
+    },
+    {
+      "id": "d96609a9b11a",
+      "title": "La OPS destacó la política de medicamentos provincial por su eficiencia y ahorro - Provincia de Buenos Aires |",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTks0ZU41YlNsTnRKN29QTzE5ZDFFQk5lb19zOGZCZll6Mkc3VEdjNlFmZHFGSHZmMGJMdHcxVHVzdUM3YmNBVlYxVjBrZE94WU9PQWJMZFVOMlRYUno4clR6UHRnMTU0b3Z4SUVFN3JGQ3pHaFBSdlZyY1N1WFpJbzVKYnN5ZnRZOEZ6LTVTWTJxTkZNNnZLUDk5NThmYkMwUHlSRUhsR1RPWHhIVjN2YVZGNFgwNlhCZFQyLUxvbGdFU3NkNV81UFNR?oc=5",
+      "published": "2026-03-21T07:00:00+00:00",
+      "source": {
+        "name": "Provincia de Buenos Aires |",
+        "url": "https://www.gba.gob.ar"
       }
     },
     {
@@ -564,16 +594,6 @@
       }
     },
     {
-      "id": "40de54061ce7",
-      "title": "Genéricos y biosimilares sustentan al hospital pero encallan en la farmacia - Redacción Médica",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPLTFGTTY3enp0cUI1N2V6MHc4TVFIMGlORFE4eEVZOGRpdHhlZ2J6Wk9uY1ZMdjY2Z3B6QWxHVk9WWi16b0czMWItUkRaU1pxYmw5MVJlbE14YWRDN19pMW94em9OYUVERXVybzc5YmszZ2RKU1hEVjM3bkNrOWd1NmZaUF91TGhqX2VOVFhxanNqdV9XeU9OY3F1MzhqaWlHLWVUYnlWYS1lem9NdUpSTUhycmU3N1E2a0hwM2U0dWJTNWVjUUxka3RubzQ?oc=5",
-      "published": "2026-07-02T11:20:00+00:00",
-      "source": {
-        "name": "Redacción Médica",
-        "url": "https://www.redaccionmedica.com"
-      }
-    },
-    {
       "id": "0ba8913a2f88",
       "title": "La Receta Electrónica se incorpora a la app Mi Argentina - Argentina.gob.ar",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQd05UNVh4emtETGk4SFdQUFRZQWp3dU9VSkU4dkJPbFVPLUFaVERuR0ZpU1JOQzVPcWR0TkJFekU1ZzFtV3A0YnhPdXZnNkdVNkplZlQ0YzQ3TmprX19ZS3ZpRldsdXdFb0s4dXgwWHJpUTY5MTFxa0Z5dWxFNGEwbF9KV2ZNT3R2Q1RZVXJ2WHlvLUpCZURN?oc=5",
@@ -581,16 +601,6 @@
       "source": {
         "name": "Argentina.gob.ar",
         "url": "https://www.argentina.gob.ar"
-      }
-    },
-    {
-      "id": "5d6a1434e927",
-      "title": "Expertos defienden la prevención como la herramienta \"más eficaz\" frente a la resistencia a los antibióticos - Infosalus",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOaGl4NWI0R2szbjdGTVBrZlRtOG02Z1E0VTg1MXlHRDd3ZVJEcVZET2ZWeU9mVDREZHpVNld5QjludTN0bTljeUlJcjFXOEp3RUFqVl9uQXdRZG1YNnhCb3pvbV9IMXhMaGE4QlctajdKTnNDQk91VUZvSWo1MVJPcjc1bDRNZUZTWFRwWDB4amcyaGxhXzJHOF90b1hEWTJMUVdXOUcxUUdqbmp5anNGV0UyYkp1amlpaUw4TjJXRi0tMzRNN1Uxdk9pbHoyX0c5TF9GcjZfOEwwQmFJaWVtZnhkOA?oc=5",
-      "published": "2026-07-02T16:19:16+00:00",
-      "source": {
-        "name": "Infosalus",
-        "url": "https://www.infosalus.com"
       }
     },
     {
@@ -604,13 +614,23 @@
       }
     },
     {
-      "id": "aba83e3a9be7",
-      "title": "Salud Municipal cierra marzo con una nueva jornada de Medicamentos Solidarios en zona norte - comodoro.gov.ar",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQYVlKaG5USVJkSFMtZzFOUXBxTEhyRVhkck5mSWwzWTB5VHBXbm52SkZaOUdWYzN3M0ZDUzI5RDMtYkZIdHRfUG4tODBkTW9mRDk5ZlpRYU9hMlJhZTBObTQydjl1THJ5X1RMQ0xsTEl2dzhqdV9jVUFiLUpvb0lBLWZfZTlrTGZSQ3g0THE4YVFOSGx4T0w0VGloX3hXQlI0dXhtaDRvWklmWDVUd0tjZTJUdDI4ZjZvWjRLay02c191OGI1OS13OU8zOA?oc=5",
-      "published": "2026-03-26T07:00:00+00:00",
+      "id": "83e9189c020b",
+      "title": "Llegada de medicamentos: “Contar con este stock de medicamentos liberará fondos para otras coberturas esenciales”, afirmó Rivas - Gobierno de Santa Cruz",
+      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNUzlzSmdDM1NSdkpDT1BPSkFkdlFGZWpIVnQtbG1qS1NZcjlmNU5KeW11eFIzN1lBSnowZzB1cWU3ckZoc0RzLVJCbGMyRHV5STlKbWRfTDUxR0toUS00ZHlySTF1Nkg5LVQ4Q0ZvbjJybmVCOVpuNV9oVFVhY2JTQkdYdU9VWFhzcFdQTFcxS1NnQ1h6ZGM0U0pTM1lwR2hwWTF5R3V1eklHOG02aDNLcFRtbTYxMXJJdFVqQ2xjak5rVlRtNHJmTGVnRU95LWhzMEF6OE5Uam93Z0ZtLW8zZWd1WTVveHpHUENkVHpLSjByNEJISTNaYVVRTzVpUGRVVFZfWA?oc=5",
+      "published": "2026-06-05T07:00:00+00:00",
       "source": {
-        "name": "comodoro.gov.ar",
-        "url": "https://www.comodoro.gov.ar"
+        "name": "Gobierno de Santa Cruz",
+        "url": "https://noticias.santacruz.gob.ar"
+      }
+    },
+    {
+      "id": "40de54061ce7",
+      "title": "Genéricos y biosimilares sustentan al hospital pero encallan en la farmacia - Redacción Médica",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPLTFGTTY3enp0cUI1N2V6MHc4TVFIMGlORFE4eEVZOGRpdHhlZ2J6Wk9uY1ZMdjY2Z3B6QWxHVk9WWi16b0czMWItUkRaU1pxYmw5MVJlbE14YWRDN19pMW94em9OYUVERXVybzc5YmszZ2RKU1hEVjM3bkNrOWd1NmZaUF91TGhqX2VOVFhxanNqdV9XeU9OY3F1MzhqaWlHLWVUYnlWYS1lem9NdUpSTUhycmU3N1E2a0hwM2U0dWJTNWVjUUxka3RubzQ?oc=5",
+      "published": "2026-07-02T11:20:00+00:00",
+      "source": {
+        "name": "Redacción Médica",
+        "url": "https://www.redaccionmedica.com"
       }
     },
     {
@@ -621,6 +641,46 @@
       "source": {
         "name": "Gobierno de Tierra del Fuego",
         "url": "https://www.tierradelfuego.gob.ar"
+      }
+    },
+    {
+      "id": "60e13cb938d6",
+      "title": "FADSP rechaza el acuerdo de confidencialidad de precios de fármacos financiados aprobado en el Congreso de los Diputados - Infosalus",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNN293eGFERWxvT3lVMlVzbDUwODVWOWNEbERhMG9DZklDYnJDTEVuSTFsZF9XejllVkx4Nkt0R25hYVIxa2JjSmN2eEhyN3hJdU0xR01PUEFzVUNkZF9BTlBiQ1liUEdGakxqTzRQM2IyVkVIMnVSS0FXMnpOajJYLUxEejNFTTVIcE5NTXNRUUlXMlF2S3NBc3Z1SHJUU3RaYV9vN1Q3REJGZjdSNFRvV0xzZHg0dm9GZzh1WFpZOWVWeXdvM2Vnc0RzMElIRGJVcjBMTUVRQzVJMS1DNzBoR0NVZTk3eWFnTmItT0wwRQ?oc=5",
+      "published": "2026-07-02T11:53:57+00:00",
+      "source": {
+        "name": "Infosalus",
+        "url": "https://www.infosalus.com"
+      }
+    },
+    {
+      "id": "aba83e3a9be7",
+      "title": "Salud Municipal cierra marzo con una nueva jornada de Medicamentos Solidarios en zona norte - comodoro.gov.ar",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQYVlKaG5USVJkSFMtZzFOUXBxTEhyRVhkck5mSWwzWTB5VHBXbm52SkZaOUdWYzN3M0ZDUzI5RDMtYkZIdHRfUG4tODBkTW9mRDk5ZlpRYU9hMlJhZTBObTQydjl1THJ5X1RMQ0xsTEl2dzhqdV9jVUFiLUpvb0lBLWZfZTlrTGZSQ3g0THE4YVFOSGx4T0w0VGloX3hXQlI0dXhtaDRvWklmWDVUd0tjZTJUdDI4ZjZvWjRLay02c191OGI1OS13OU8zOA?oc=5",
+      "published": "2026-03-26T07:00:00+00:00",
+      "source": {
+        "name": "comodoro.gov.ar",
+        "url": "https://www.comodoro.gov.ar"
+      }
+    },
+    {
+      "id": "3875d0b4cefa",
+      "title": "IA acelera el desarrollo de medicamentos y abre paso a la medicina personalizada - Rosario Finanzas",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNc0FLdmUyV2ZCOTdqbE5NcE5mYUxDQi01VUR1T0F0V1M3Tl9rT1FWb055X2pTTjdFcjRfRmU5MS16YlRpVXZqclBRZUdQeFVncmdxWEJkalFhS1JiQ1p1Q2lqekFrSDhuVndPZG1VM2Y3M2ZQRFZyN0ZqcC1rOTlPWWxPam5JdG11c1c2ZWQyWjJoNjVUbFV5NjBDOVhmZkpDWHVTYWR5VGg1Z1JBMFBNV2VqakRrU1E?oc=5",
+      "published": "2026-07-01T18:17:13+00:00",
+      "source": {
+        "name": "Rosario Finanzas",
+        "url": "https://rosariofinanzas.ar"
+      }
+    },
+    {
+      "id": "52ae81ebd8e1",
+      "title": "Salud continúa con la distribución de medicamentos, ahora llegó el camión al hospital de Puerto Santa Cruz - Gobierno de Santa Cruz",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQMlA0TTBUY2JiTF9TbEQ1WGVjWUZpX2lMRnRtbUlsQk04d09LajY4UXl1WFdrQmlSejZUSmdjNHc2MXFlQm51R1BYX1hOZTZXYnVtWWl2TzdMUHFzTm53VmtNblhRUHNZVGxmeUNYZ3JveVcyNUpMRFlyclZUQnhDYkpkd1hCX083UXRLTjNlcjJGbWtfWFp4XzFpeEZpR3pfRGlTWExYeTVrMWNOMW9FcnlCYldZM0ZRT2xPOFIxNzgydERKVGtFaUY4ZVR1MU83WmZ4X3FEa1U0VmxGcWJHQ0dVV1VjLXdnZWJBUw?oc=5",
+      "published": "2026-06-05T07:00:00+00:00",
+      "source": {
+        "name": "Gobierno de Santa Cruz",
+        "url": "https://noticias.santacruz.gob.ar"
       }
     },
     {
@@ -644,36 +704,6 @@
       }
     },
     {
-      "id": "bc4fa235f893",
-      "title": "Enfermero de Miami es suspendido tras ser acusado de robar medicamentos en centro de rehabilitación - El Nuevo Herald",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMFVHNE94ZzJoZVc3cUpSMWdzZ3N6YkljNTJxUHV3Ym15SVI4RXdsaW9GZ2xrSWRScF9yLWUzRklxWEQ2bVdYSHZYZGNwT3o0MVNIVnAyalBjWGVjc0NJcGxZdUtBV25neG5VeGF6X2ZKZ1BURVAxNjkzQjVmMElqU0pQSzRJNENJODg4cDhSa9IBjwFBVV95cUxQZjBWREhFcDVzSFV3VFRHN3VleGlIMC0xNENyQW1iUnM5VGdFWDVuN2t0SXlHaDlQc0JSSk1XREx0VUNiMk05MTVyVzVYNmpTOFpYeG9kVnVfeUZUMEpnZGRHMGlEcWp2WHRKcU1nN2pMc1ktVVFRSHRFczE3TEQ1ZzNQdEVKU01na0V1N0FIWQ?oc=5",
-      "published": "2026-07-02T09:18:06+00:00",
-      "source": {
-        "name": "El Nuevo Herald",
-        "url": "https://www.elnuevoherald.com"
-      }
-    },
-    {
-      "id": "caa92a3c3f5d",
-      "title": "Readecuación de la Comisión Asesora Técnica de Adquisición de Medicamentos, Insumos y Dispositivos - Argentina.gob.ar",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQYjN2c2RKOTA3S3dzeDU1Qlc4dzhBUGQ1SkZGclh0Z3hQb1V6VktmZ2pRUG1LOG4yMk5oQllhTGFwWjF4aVAyY2JUd3Z4VTF0OEVqWndZc2FCMFBSQ3hNSERjWEtoM1JLaWM5ZjVxQUVDOVBJcmNURzVlaUI5cWh4Yk1WQUg3V0xMOWV1V2o0MjlYVkJJdlJqTkU4VDZ6clBTZlpPZDBQU1dyMUJtd2RueERuN2sxdjQ3VkJNcGJGcw?oc=5",
-      "published": "2025-12-11T08:00:00+00:00",
-      "source": {
-        "name": "Argentina.gob.ar",
-        "url": "https://www.argentina.gob.ar"
-      }
-    },
-    {
-      "id": "52ae81ebd8e1",
-      "title": "Salud continúa con la distribución de medicamentos, ahora llegó el camión al hospital de Puerto Santa Cruz - Gobierno de Santa Cruz",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQMlA0TTBUY2JiTF9TbEQ1WGVjWUZpX2lMRnRtbUlsQk04d09LajY4UXl1WFdrQmlSejZUSmdjNHc2MXFlQm51R1BYX1hOZTZXYnVtWWl2TzdMUHFzTm53VmtNblhRUHNZVGxmeUNYZ3JveVcyNUpMRFlyclZUQnhDYkpkd1hCX083UXRLTjNlcjJGbWtfWFp4XzFpeEZpR3pfRGlTWExYeTVrMWNOMW9FcnlCYldZM0ZRT2xPOFIxNzgydERKVGtFaUY4ZVR1MU83WmZ4X3FEa1U0VmxGcWJHQ0dVV1VjLXdnZWJBUw?oc=5",
-      "published": "2026-06-05T07:00:00+00:00",
-      "source": {
-        "name": "Gobierno de Santa Cruz",
-        "url": "https://noticias.santacruz.gob.ar"
-      }
-    },
-    {
       "id": "63b813811a37",
       "title": "Ciancio: “Ante los recortes de Nación, el gobierno de Pullaro compra medicamentos y seguirá haciéndolo a lo largo de nuestra gestión” - Gobierno de Santa Fe",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBvSFVCN3JKTHUzWHhzTVczVERPSWgzOXRidFRfeGdKNkZmLV9RVVBpamkxMThwaWF6a1VhMjBkOWhWYnA5QktWMWxjeXZ4TmZZeHY3OUlDWGxjZXVBeGJmTg?oc=5",
@@ -684,33 +714,23 @@
       }
     },
     {
-      "id": "07477756dc6d",
-      "title": "Desde medicamentos esenciales hasta material descartable: cómo funciona el sistema de almacenamiento y distribución que puso en marcha Pullaro para abastecer la salud pública - Gobierno de Santa Fe",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBXTHJLc3JscG1lRW45MTJ3V1VBeHNwNmgxTDRtZzREc2tEa0ExR1BHS0pnMUZVbFpRM0p1YVFZUVNnX0JhOFVvcFhNb1FqZG55M0VIUmtGdi1KWGxHV0RiaA?oc=5",
-      "published": "2026-05-31T07:00:00+00:00",
+      "id": "bc4fa235f893",
+      "title": "Enfermero de Miami es suspendido tras ser acusado de robar medicamentos en centro de rehabilitación - El Nuevo Herald",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMFVHNE94ZzJoZVc3cUpSMWdzZ3N6YkljNTJxUHV3Ym15SVI4RXdsaW9GZ2xrSWRScF9yLWUzRklxWEQ2bVdYSHZYZGNwT3o0MVNIVnAyalBjWGVjc0NJcGxZdUtBV25neG5VeGF6X2ZKZ1BURVAxNjkzQjVmMElqU0pQSzRJNENJODg4cDhSa9IBjwFBVV95cUxQZjBWREhFcDVzSFV3VFRHN3VleGlIMC0xNENyQW1iUnM5VGdFWDVuN2t0SXlHaDlQc0JSSk1XREx0VUNiMk05MTVyVzVYNmpTOFpYeG9kVnVfeUZUMEpnZGRHMGlEcWp2WHRKcU1nN2pMc1ktVVFRSHRFczE3TEQ1ZzNQdEVKU01na0V1N0FIWQ?oc=5",
+      "published": "2026-07-02T09:18:06+00:00",
       "source": {
-        "name": "Gobierno de Santa Fe",
-        "url": "https://www.santafe.gov.ar"
+        "name": "El Nuevo Herald",
+        "url": "https://www.elnuevoherald.com"
       }
     },
     {
-      "id": "ffb1cdcc1fb2",
-      "title": "ANMAT actualiza aranceles y reduce costos para el 75% de los importadores de medicamentos y productos médicos - Argentina.gob.ar",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQN0ZFUVl6RW5keEttbzB1OXFPQXJkdzg5QVFqaDBsZGhFMVJjbjN1TTVOZWpmN216bXVrRHhYUU5YMG5LXy03c3o5Tmt5SHU3dFlvQ2c3enlmZzlDOEZ0NDZLN0JGNlpaSEZ1WDFkZklpc29WZzctVFoxVk03SWlUWkRCdkU1VGM5Wk1qR2ZzejdrNFVSSTE2VWpyNXNWUVVpOFNyakxzTzI2RFN6eTQtdkZ2d2tJRlpDY3d0Zi1xRDM2NVNqTkVn?oc=5",
-      "published": "2026-05-19T07:00:00+00:00",
+      "id": "35122234495a",
+      "title": "El Ministerio de Salud y la Facultad de Bioquímica avanzan en acciones conjuntas para fortalecer la producción de medicamentos - Ministerio de Salud Pública de Tucumán",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPSXdFbnpSSjJGY3oyWXhyMF9wZkxKQldOR0lfb0EwUGFidnpzWVJwZmlWd2dGRE9QM2E1VzMwSmp4OXlUZi1rZmxSYUxYT2R0UnhPUFUyM1ZJa1RqRnRrbjVzU2hTMEZqcEhHd2hWclNBTkxHWGZnSUpzZ0J1ZmE3VmJRRGRNTnVxLVJ3OEdYdEFhS2plb2lKTUgyUEtOamlUbUplWlhTVklCWFdsUFRqTlpJQmF4aXlrd3IyYlJ0ZS1VWUdqVm1VbXF6THVJaU1Vb2NsSFIxTXhKVEEyMGlWUXR0Z3cwdHlt?oc=5",
+      "published": "2026-05-08T07:00:00+00:00",
       "source": {
-        "name": "Argentina.gob.ar",
-        "url": "https://www.argentina.gob.ar"
-      }
-    },
-    {
-      "id": "f1d7baead3fa",
-      "title": "Medicamentos esenciales - World Health Organization (WHO)",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5SSmk4R0Z0OGVxMlMwNm1lNkN1d1Z3VC1vQV9xNWs0Umh2OVdyVE5ldVFsdUsxWnZvaXVpZTVzSzVJY1RnQTdzX0pfNFQ4OTBkWHRudnBpZWI2Wi0yR2FGWkpMSEQwRnpEeU1oUDBmVUdFVUZIN1h4WE1Gcw?oc=5",
-      "published": "2026-01-26T08:00:00+00:00",
-      "source": {
-        "name": "World Health Organization (WHO)",
-        "url": "https://www.who.int"
+        "name": "Ministerio de Salud Pública de Tucumán",
+        "url": "https://msptucuman.gov.ar"
       }
     },
     {
@@ -724,33 +744,23 @@
       }
     },
     {
-      "id": "e703145c4302",
-      "title": "Salud: La gestión provincial licita medicamentos y suma telemedicina para fortalecer los hospitales - Gobierno de Santa Cruz",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPM3FyTW1vN2trbWtMMGxfRFB5ZU51dWRTT2F1UGxPMGgyWlp0MXcxazNyQTdaeVA4RXRBWG9YZzk1X1RvT244UlJLUmJhNWtadWFkQ1N5d3pCbVpsSmhrSkkxcXR3WXJSN2d1WDNvMWpnNlB0TG5VSmhmc0ViWTR3X0FTWGZHdXJGRVF6ZkF5NFd6ODRLWjVGUUxLalN6ZExxVmFPSUtDemRfeS1pandfeV96M3FTdTFuV3Y5RmY1UGJFY1U5WkVSSWxLMXNTNjBvRUdvbkVvbGdQMERXUUZjYXdwVQ?oc=5",
-      "published": "2026-03-01T08:00:00+00:00",
+      "id": "7fa5474ce7a6",
+      "title": "Llegada de medicamentos a Las Heras: “Lo que hace esta modalidad es optimizar los recursos y posibilitar el ahorro” para cubrir otras necesidades - Gobierno de Santa Cruz",
+      "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxNNWZlR2ZfNU5UNGxSTU1pNkljZHMxSkRHTG1pNGM1UmtkZzNxQmwyZ05oell0MnpXQUdFM0p2R3Qta0lrdXZodDQtQmE2dVFnTjRfYzlNWFNqNFN1SktqR3JyRURFRXZ5cTd2X3ZQMUhGNlFwVnZVZ3Fia25lYjduNXltSFFyaWdqUzBwRXJTTHc4WnpCT0hROFNxTmRWSUhYVE03alU2Sk9vYk5BRGJOcll5TE15V0xuWDNoOUtwbFRWN1kwQWs4WWk1cFYyOFRZczJ4Mk02RmtrUlBtWjhvcWh1TUktTUs0c284MThKQ0YzMF9jWGgzckgwaFV6aXI1X3plcTN1MDQ2MGlsNFhmU1dYck41NXJ3b192b3F3?oc=5",
+      "published": "2026-06-04T07:00:00+00:00",
       "source": {
         "name": "Gobierno de Santa Cruz",
         "url": "https://noticias.santacruz.gob.ar"
       }
     },
     {
-      "id": "8e0d86736496",
-      "title": "SIGMAC: sistema oficial y obligatorio para la medicación de alto costo - Argentina.gob.ar",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZ3ZWdzQ4SnRaSG9vVlhvNkhPOC1ja01yWWJsaUxYQWI4cjJYakFPR2lNV1NOdVctM3V6dS1Zdnk5SEJJZG4ycGlUWENQdDV5SmF2OWxab05oc05SNmFCVTJiR1lWdU5MNkh5VUZOU2Fjc0hIbWRfLUJ1bDFoVWJxdGRNV1Z4MWZtNnppc3drRGZIQVZ4R05IeC1zUE9nN3pVQzRpSEZGcVRvLTg?oc=5",
-      "published": "2025-10-13T07:00:00+00:00",
+      "id": "1bd87c7699f4",
+      "title": "Los medicamentos de venta libre y bajo receta deberán incluir un código QR para acceder al prospecto vigente, según dispuso la ANMAT - Infobae",
+      "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQOWFyY3o0WXlwN0VnQVk3aF91QkRrMkVNVVhFN3VqamVKTFJua09Ea0dLZTI5ckYwc3FzYTBYM19GRk83ZUUxYzlFaVN1THlNSDdPTnRXS0FhNmtWQTVrYTh0Sm9ibnJvS3hiYkN0TlBQN2tSOHZTTlU0TTllNWtUTmw5V3NIR0lla0NFZlFVRmx2U2k0M0hRU2p3X3lhdUg2UjkyTE1sV252eHo1N2dKYzZtd2hpV3RhV3I0MEVLWWJrRGNSVk1VamNtb1Q2OVI0T21LcjBGTHVKR0Zqdmd2eGZSbnBQdUYzSUR5SXdBY1JNWjJFUHVIeVV4NE5YNm5RZVlyMDFfQVRQcHRNOWfSAagCQVVfeXFMTUpaVjdaam9RZW01U283MzA1VU51MGtkYkI4TlJUSFBoVTd3dEdXVnZvYmZnbkZleEtjSUNpQ3FBWlJ2MUdGQXowblEwTmtua1JkSVA0U0ppNUFYeWdkN2tMd2hJdnJ5Tm5wM1RzWXR5Zi1sdWNHbTlUZC13RjhQZmlkLXdlaTZzUUd5TEg5a0FlMmdyUndXd1JrVC1rTUcwcGl3cWxIWmc3VmVnMk9BSjFsbFZuUHJ4eGVRcE9oWUZKNVJlamhvR3FDck1NSEpJODdRWmhseC1Cd2tGVGE0LWY5c2VnV3hMdjZBRy1MM0M2dmptLVlfSkJFV3A3elJsZUlFSFBYMW9PR042aU90dTFoakpLWnA0Y21TdG1lV3dzUHFJdEEwQ1Q?oc=5",
+      "published": "2026-06-10T07:00:00+00:00",
       "source": {
-        "name": "Argentina.gob.ar",
-        "url": "https://www.argentina.gob.ar"
-      }
-    },
-    {
-      "id": "986b84ae93b4",
-      "title": "ANMAT dispone la baja de habilitación de varios establecimientos de medicamentos y especialidades medicinales - Argentina.gob.ar",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQM1JyRDBKSlBma0p4cElsTlJ6NWRVLVZha3JiclVPSEZ1MUIyTlFaM09ESEd6NXVoQ2s0UGxEVEpGQXQ1ZGhjUWhCSjdNaXFMTkxHb0I0MVRSRmVORS1SRmRERVFzVV9hX2ZEdnFvQ093Q1lNTzI5NU5temEzdG90SzFjX1NlQzNhQlVOS1F2OUV6akJodXFZTUJTNGRBSGxFWlpXMmJVdjNmTGVGUXp6RmNrRGNXbnJhMHUxMw?oc=5",
-      "published": "2026-01-20T08:00:00+00:00",
-      "source": {
-        "name": "Argentina.gob.ar",
-        "url": "https://www.argentina.gob.ar"
+        "name": "Infobae",
+        "url": "https://www.infobae.com"
       }
     },
     {
@@ -764,6 +774,56 @@
       }
     },
     {
+      "id": "caa92a3c3f5d",
+      "title": "Readecuación de la Comisión Asesora Técnica de Adquisición de Medicamentos, Insumos y Dispositivos - Argentina.gob.ar",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQYjN2c2RKOTA3S3dzeDU1Qlc4dzhBUGQ1SkZGclh0Z3hQb1V6VktmZ2pRUG1LOG4yMk5oQllhTGFwWjF4aVAyY2JUd3Z4VTF0OEVqWndZc2FCMFBSQ3hNSERjWEtoM1JLaWM5ZjVxQUVDOVBJcmNURzVlaUI5cWh4Yk1WQUg3V0xMOWV1V2o0MjlYVkJJdlJqTkU4VDZ6clBTZlpPZDBQU1dyMUJtd2RueERuN2sxdjQ3VkJNcGJGcw?oc=5",
+      "published": "2025-12-11T08:00:00+00:00",
+      "source": {
+        "name": "Argentina.gob.ar",
+        "url": "https://www.argentina.gob.ar"
+      }
+    },
+    {
+      "id": "e703145c4302",
+      "title": "Salud: La gestión provincial licita medicamentos y suma telemedicina para fortalecer los hospitales - Gobierno de Santa Cruz",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPM3FyTW1vN2trbWtMMGxfRFB5ZU51dWRTT2F1UGxPMGgyWlp0MXcxazNyQTdaeVA4RXRBWG9YZzk1X1RvT244UlJLUmJhNWtadWFkQ1N5d3pCbVpsSmhrSkkxcXR3WXJSN2d1WDNvMWpnNlB0TG5VSmhmc0ViWTR3X0FTWGZHdXJGRVF6ZkF5NFd6ODRLWjVGUUxLalN6ZExxVmFPSUtDemRfeS1pandfeV96M3FTdTFuV3Y5RmY1UGJFY1U5WkVSSWxLMXNTNjBvRUdvbkVvbGdQMERXUUZjYXdwVQ?oc=5",
+      "published": "2026-03-01T08:00:00+00:00",
+      "source": {
+        "name": "Gobierno de Santa Cruz",
+        "url": "https://noticias.santacruz.gob.ar"
+      }
+    },
+    {
+      "id": "7c3400091e59",
+      "title": "Arriban medicamentos esenciales para asegurar el tratamiento continuo de niñas y niños con cáncer en Bolivia - Pan American Health Organization (PAHO)",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNX0I4clBZajVOMEI5ZXh3b0VIdHlPMmVub2piNFd5d3NYS2dWbGtHbzg4OXhWSmV3NHNfMDlqTTVER2ZNYUprcVMyZ2tEMTJ0RnI4WjVNMGU2QW5yR2JqQ3BJTENUa3NYdHBNVnRka2JMWXRiUW51clhxRVNPcnROa2dySzNrN1R6S1ZUYUlFRnFtVl83eG9CM3pvVTJWS2wwLXVDM3VGdHcxeEx6bWlGRllPem5QeFVmazVwaU5R?oc=5",
+      "published": "2026-06-25T20:42:34+00:00",
+      "source": {
+        "name": "Pan American Health Organization (PAHO)",
+        "url": "https://www.paho.org"
+      }
+    },
+    {
+      "id": "f36aaa323b68",
+      "title": "Gobierno de Entre Ríos - Gobierno de Entre Ríos",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9tV0hidWRtNXdOZmpwcDY1djVIcnlIdFlBSFdpU19oZmhObFF0bUtWTEl2T1ZQQXlfT19RcWdTbmFtQldOemdJX0hFUnpuSG4tWFg0OG11czFNQQ?oc=5",
+      "published": "2026-04-22T07:00:00+00:00",
+      "source": {
+        "name": "Gobierno de Entre Ríos",
+        "url": "https://portal.entrerios.gov.ar"
+      }
+    },
+    {
+      "id": "f1d7baead3fa",
+      "title": "Medicamentos esenciales - World Health Organization (WHO)",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5SSmk4R0Z0OGVxMlMwNm1lNkN1d1Z3VC1vQV9xNWs0Umh2OVdyVE5ldVFsdUsxWnZvaXVpZTVzSzVJY1RnQTdzX0pfNFQ4OTBkWHRudnBpZWI2Wi0yR2FGWkpMSEQwRnpEeU1oUDBmVUdFVUZIN1h4WE1Gcw?oc=5",
+      "published": "2026-01-26T08:00:00+00:00",
+      "source": {
+        "name": "World Health Organization (WHO)",
+        "url": "https://www.who.int"
+      }
+    },
+    {
       "id": "8b7cdb7689cf",
       "title": "Expertos analizan el impacto social de los medicamentos en el modelo de evaluación sanitaria - El Correo",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMC1wRWZiREdZNEdjalBoRFNlUHFfcEVONjl6T3RoT0NqN1JBR0hfRVNZY2NIaFM0RDdEUUk2RXVMUEJRa0VWdnhxQmpybkx6cmh3ZlZqTWlGeHItQnpZOXJpRjhmcVpqQ3RPbmVxaVZhU0lJdmFHaWJ3dFRlNUpTVkMyaW5JX3lMeXNvc29aNDFLbDk1dlFfVkFtT2Vad3Q5dmFjbmUwYXoxNEZiYVh4TEJDM1RzT2QxQUg0?oc=5",
@@ -771,16 +831,6 @@
       "source": {
         "name": "El Correo",
         "url": "https://www.elcorreo.com"
-      }
-    },
-    {
-      "id": "ddb5f4426b66",
-      "title": "Los sectores del medicamento y la cosmética sostienen que la Directiva de aguas residuales introduce incertidumbre - diarioestrategia.cl",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQbnNsazZrbkNkd3FUS09Udm00TVVQLXRXWEVwVjFwakFUVlVGWGxhSVFmWU1CZFlHZ25CYTBBdF9Za2hIWUgxbFBzNHpERkkwTXhtSmE4RTJwTjRJaFctV0NIdFpkT3BpMUlZNTZJaEtEUG54T1E5ZmhnWUJRanZUZ21tVWs0Rko5c3NFYmVZcHFYaVNkS1FIX0FBa3A2YnpDSm15Q29iY05Nb1BaZXVVWElFT001QkhIV19HdEpWbnpNcEJRN1BVdHNRaFFieU1ZUXJQbEVoOUNRNEhnZVFpdmxPZy1tZFE?oc=5",
-      "published": "2026-07-02T11:12:45+00:00",
-      "source": {
-        "name": "diarioestrategia.cl",
-        "url": "https://www.diarioestrategia.cl"
       }
     },
     {
@@ -794,6 +844,36 @@
       }
     },
     {
+      "id": "ddb5f4426b66",
+      "title": "Los sectores del medicamento y la cosmética sostienen que la Directiva de aguas residuales introduce incertidumbre - diarioestrategia.cl",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQbnNsazZrbkNkd3FUS09Udm00TVVQLXRXWEVwVjFwakFUVlVGWGxhSVFmWU1CZFlHZ25CYTBBdF9Za2hIWUgxbFBzNHpERkkwTXhtSmE4RTJwTjRJaFctV0NIdFpkT3BpMUlZNTZJaEtEUG54T1E5ZmhnWUJRanZUZ21tVWs0Rko5c3NFYmVZcHFYaVNkS1FIX0FBa3A2YnpDSm15Q29iY05Nb1BaZXVVWElFT001QkhIV19HdEpWbnpNcEJRN1BVdHNRaFFieU1ZUXJQbEVoOUNRNEhnZVFpdmxPZy1tZFE?oc=5",
+      "published": "2026-07-02T11:12:45+00:00",
+      "source": {
+        "name": "diarioestrategia.cl",
+        "url": "https://www.diarioestrategia.cl"
+      }
+    },
+    {
+      "id": "49171df5a0bc",
+      "title": "La Municipalidad de Córdoba capacita a equipos de salud en el uso de la app DispensAR - Municipalidad de Córdoba.",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaHNoU0k5Vmd6UjY2RkJkUW5fTjVXSDAzQ1M5REQzTVNjbGpNNjZGQ0s2NUdNNThydUg4M3NFOVJVT1YycXNKeV80Sm8ycWRDNks3UlB0dkd4dW51djdHX05yXzhYaDl4dVhEaklJTG44UV9rbzIyTUJWbmZqbGlfdU9fNHdiUnNpRGRHcTQ5NUdGamNvdnRBVVRtUkt5dXNVbHBXdlo1RF9iN0t3bGc?oc=5",
+      "published": "2026-04-24T07:00:00+00:00",
+      "source": {
+        "name": "Municipalidad de Córdoba.",
+        "url": "https://cordoba.gob.ar"
+      }
+    },
+    {
+      "id": "986b84ae93b4",
+      "title": "ANMAT dispone la baja de habilitación de varios establecimientos de medicamentos y especialidades medicinales - Argentina.gob.ar",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQM1JyRDBKSlBma0p4cElsTlJ6NWRVLVZha3JiclVPSEZ1MUIyTlFaM09ESEd6NXVoQ2s0UGxEVEpGQXQ1ZGhjUWhCSjdNaXFMTkxHb0I0MVRSRmVORS1SRmRERVFzVV9hX2ZEdnFvQ093Q1lNTzI5NU5temEzdG90SzFjX1NlQzNhQlVOS1F2OUV6akJodXFZTUJTNGRBSGxFWlpXMmJVdjNmTGVGUXp6RmNrRGNXbnJhMHUxMw?oc=5",
+      "published": "2026-01-20T08:00:00+00:00",
+      "source": {
+        "name": "Argentina.gob.ar",
+        "url": "https://www.argentina.gob.ar"
+      }
+    },
+    {
       "id": "e41fd951f8ef",
       "title": "IPROSS actualizó la cobertura de medicamentos para garantizar tratamientos - Gobierno de Río Negro",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUjh5V0pkOXR0ZnBwYzVoTW9ITDVpU202WktZU1VvbDJjRU1yX1ZNY2kzM1lwdTRhTE5TMFo2c2pPTkR4akp4NHN3YlF0VWNyUHhtZndlNDdTcWd3RS1Jbk9hMVBVb1RfMWwwRk0wUHJzVW9Yek5XX1l5SVJxNkJnRkNES3FOMWlYdnpLNHdINDZlcC1FRmNPTlBnYmh6NEYtLTQzWHFGVjJrd3NQeEJidzBHSQ?oc=5",
@@ -804,23 +884,33 @@
       }
     },
     {
-      "id": "a3e85b417f43",
-      "title": "Salud: Llaryora presentó un programa de acceso a medicamentos gratuitos - · Gobierno de Córdoba",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcXZrZ2tYNlZWNlRfX2dORGFXT3VieDVFNHBZX1JRLWgzbDRMeURVWHVMMDhaY2dUTWNfcDhNVnRUeGhDT3cwNlJybERaWHRpbEZKUmF6bnRtZWlSa3NOU2QxcGNER21LRzduMDdNVUtXUFVmZHlBdjRrVmwyS1dqb01SSkFON1FVQlhkUzZBYjBiYkQyTldsVVc4NU9rNC1OQ2p4X2c5eU5mb0ZrNU0tQ3Z5NnB4ek1H?oc=5",
-      "published": "2026-02-01T08:00:00+00:00",
+      "id": "9a0b84acd552",
+      "title": "La Crisis de Medicamentos en Argentina: Un Análisis Financiero - Gestión y Economía de la Salud",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOV3V5VmotT0NIMW1uZ2NmNThMWnlFRTU2MXlCQ3JmMVhjZXEtRGtKT1FuVlFfVUZxQnVsNVM3NFNYOTE1eXFncDJkb3gySnZLNGl2ckRobnpHNFdMMnFCX1ltYzJRNGxsaGh6UXpUbTB0UkdEU1ZwYW5nYXZxcW42NzdtOXE4QUdlOW81b0NtUEN6WE4waGNNZXktVTF1Zw?oc=5",
+      "published": "2026-04-07T07:00:00+00:00",
       "source": {
-        "name": "· Gobierno de Córdoba",
-        "url": "https://prensa.cba.gov.ar"
+        "name": "Gestión y Economía de la Salud",
+        "url": "https://saludbydiaz.com"
       }
     },
     {
-      "id": "60e13cb938d6",
-      "title": "FADSP rechaza el acuerdo de confidencialidad de precios de fármacos financiados aprobado en el Congreso de los Diputados - Infosalus",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNN293eGFERWxvT3lVMlVzbDUwODVWOWNEbERhMG9DZklDYnJDTEVuSTFsZF9XejllVkx4Nkt0R25hYVIxa2JjSmN2eEhyN3hJdU0xR01PUEFzVUNkZF9BTlBiQ1liUEdGakxqTzRQM2IyVkVIMnVSS0FXMnpOajJYLUxEejNFTTVIcE5NTXNRUUlXMlF2S3NBc3Z1SHJUU3RaYV9vN1Q3REJGZjdSNFRvV0xzZHg0dm9GZzh1WFpZOWVWeXdvM2Vnc0RzMElIRGJVcjBMTUVRQzVJMS1DNzBoR0NVZTk3eWFnTmItT0wwRQ?oc=5",
-      "published": "2026-07-02T11:53:57+00:00",
+      "id": "8e0d86736496",
+      "title": "SIGMAC: sistema oficial y obligatorio para la medicación de alto costo - Argentina.gob.ar",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZ3ZWdzQ4SnRaSG9vVlhvNkhPOC1ja01yWWJsaUxYQWI4cjJYakFPR2lNV1NOdVctM3V6dS1Zdnk5SEJJZG4ycGlUWENQdDV5SmF2OWxab05oc05SNmFCVTJiR1lWdU5MNkh5VUZOU2Fjc0hIbWRfLUJ1bDFoVWJxdGRNV1Z4MWZtNnppc3drRGZIQVZ4R05IeC1zUE9nN3pVQzRpSEZGcVRvLTg?oc=5",
+      "published": "2025-10-13T07:00:00+00:00",
       "source": {
-        "name": "Infosalus",
-        "url": "https://www.infosalus.com"
+        "name": "Argentina.gob.ar",
+        "url": "https://www.argentina.gob.ar"
+      }
+    },
+    {
+      "id": "276aaacba7c3",
+      "title": "Caleta Olivia: el Hospital Zonal recibió la primera entrega centralizada de medicamentos - Gobierno de Santa Cruz",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxORFVsTUtmNVBydXF3M1c3MmEzLUZnSlFiYVd5bHdtNnljVzAyM1FQVGpKQ0s2ajlmMHAxLU04U3g5STVtYkh1MW5QQmk1UVl6OFZOclhrN09ZRXdaelJJeTZwamdFeVhZT1ZWX2xDcklUWnFGWlNxTFNMWFpINEFoSEVkc0VhSVgxRlRLbERLaGRfZEhJZVNMRS01b0JoczZJRHdUSjhxMjEzLWxVdXBIdjJzSW11U3dnZ3QzaG9wWWlqdlF2a1g5cHdnSWR4eHc3SWFkUw?oc=5",
+      "published": "2026-05-27T07:00:00+00:00",
+      "source": {
+        "name": "Gobierno de Santa Cruz",
+        "url": "https://noticias.santacruz.gob.ar"
       }
     },
     {
@@ -834,6 +924,16 @@
       }
     },
     {
+      "id": "a3e85b417f43",
+      "title": "Salud: Llaryora presentó un programa de acceso a medicamentos gratuitos - · Gobierno de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcXZrZ2tYNlZWNlRfX2dORGFXT3VieDVFNHBZX1JRLWgzbDRMeURVWHVMMDhaY2dUTWNfcDhNVnRUeGhDT3cwNlJybERaWHRpbEZKUmF6bnRtZWlSa3NOU2QxcGNER21LRzduMDdNVUtXUFVmZHlBdjRrVmwyS1dqb01SSkFON1FVQlhkUzZBYjBiYkQyTldsVVc4NU9rNC1OQ2p4X2c5eU5mb0ZrNU0tQ3Z5NnB4ek1H?oc=5",
+      "published": "2026-02-01T08:00:00+00:00",
+      "source": {
+        "name": "· Gobierno de Córdoba",
+        "url": "https://prensa.cba.gov.ar"
+      }
+    },
+    {
       "id": "46db6409e01a",
       "title": "Pacientes con Esclerosis Múltiple piden intervención urgente por desabastecimiento de medicamentos - Edición Médica",
       "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOYVR5QVgxcFNVSG5JeFlESmg5dmZKWmtXWmdYWS0wS09FVWNyeENQYi04R09KN2x1VksxaUMyWUZaTXNtcE9BWjQ5LUhoakR2NllBOTBaZVlDZ1M0dXlnRXNZYm44M0U4M3B2X21CXzlJWFlnLVZVYlpuOFBVeUhPN0RxbHNWamI0S29lWXhHMXZINlBxMW0tSGRYQnpoa0hjbmU0eFVLNk1wQ3VJeTg2WTVVd2lnd0JHUDFwT3FBR1hYY25OZGZDT21NSkh0azdKV0VNVmVtaWUxX3JVRHJTTHcxNS0xZmQwOUlSaGt3?oc=5",
@@ -841,26 +941,6 @@
       "source": {
         "name": "Edición Médica",
         "url": "https://www.edicionmedica.ec"
-      }
-    },
-    {
-      "id": "23cfb540c32b",
-      "title": "El Rol de los Medicamentos Genéricos en el Mercado Farmacéutico Argentino - Gestión y Economía de la Salud",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQ3g1UGxDLVZJOXN1Y2YxNjZsNERlcDNnb0FuMmZRZ0E5RVdKbE5qbjI0OHItU21FeW5JZ2NTMkR3X2Y3ZHNxVWwyUkNKMGYzVllCcXFwV0VUd3BPc3BYV291OURpcEczWER3ZXZtZDZfYVZuT3RRb20weVRlZkdjaHRxNGhMWFh3dk1TQkg5SVI2YWtqVEpvXzg2U1BVSXNqVlhDZGZiMUFqRGk4eEE?oc=5",
-      "published": "2026-02-01T08:00:00+00:00",
-      "source": {
-        "name": "Gestión y Economía de la Salud",
-        "url": "https://saludbydiaz.com"
-      }
-    },
-    {
-      "id": "899d787bbcd0",
-      "title": "Hospitales de Santa Cruz contarán con un nuevo sistema de provisión de medicamentos - Gobierno de Santa Cruz",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOME5HaXpMeVpNdHRCVWFYaDNDYlFOQVA1TE5OZkhOdnRYUjg2T09PRl8xbDYtVTNDQ2ROLVpoZDRoSktjSHBTaUlGS2R0V1B4OEQ3QWZGZmUtZFhIajNvR1Y1RFFmWjFESUFaN3VQcjhLcWFWcHkweXBxOTFzTFNZR2RvY3B3NGp0Yzgya1JvNkUwZ1JWYWJmQ3gtT0ZFVmQ4cU1yYXZWczJ6Mlc5Tmx5QXo2Y29sNE1UZ3lGOWU2SzQ4OE15UjJob3ZGcGlvY1E?oc=5",
-      "published": "2026-03-16T07:00:00+00:00",
-      "source": {
-        "name": "Gobierno de Santa Cruz",
-        "url": "https://noticias.santacruz.gob.ar"
       }
     },
     {
@@ -874,43 +954,33 @@
       }
     },
     {
-      "id": "602893b8864b",
-      "title": "Aurelio Rojas, médico: \"Si tomas medicamentos, cuidado con estas comidas\" - Redacción Médica",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQnpWdDlFSTI4WEFRRzVaV0tTdU5CYkoyRXdmd3VCUTBnQW1BRWUtcm81RXFQZWdJMVVqeGJQRlk4VFhEXzFDZWJxZWlOdkFUQmZVQjc2N1ctbW93eTBQdkVFWU1nSUJzLThneVVZVnM2U2VkRFJNc1A4QW1vUnc0cU41Y2RBczhzaWxUVWtiYVZvM0laZVNHR09yVEhqamJ4aUp1enlQbjJjN2FXc2xOWDltUHppT1RZWkFvWDRaYw?oc=5",
-      "published": "2026-07-02T09:30:00+00:00",
+      "id": "811f148b7f9d",
+      "title": "Denuncian que Nación va a cortar el envío de medicamentos a las provincias: se termina el programa Remediar - Infocielo",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOa21nX2tmWUJBNWVzZjZxTDY0V1pkbTBaYXdNZjNsT3FuQ1h4RkZVdG41RHpYT1k4MmRYVzBJQURuYWp0NzF0YnY5ckxHUUl4cnNTY2pHaFc5SzJIOERyZnJub0Vwd2pwck1kZjR4OGludmVlZjVCRHJDTklCbWMzTk1QU2Y5VW9GejRRV0w1YkFBeXFheFRMNnFpSmVmVWd2aDMtVGdERXcwd0JvTWp4V1JJTDlLX3JQSjVCMFd5YzRIRU9hTXdndXRTNjcxV1hJNHdQNlp2MlJiTW84MUZDcFI1QnhIV0U?oc=5",
+      "published": "2026-04-10T13:49:30+00:00",
       "source": {
-        "name": "Redacción Médica",
-        "url": "https://www.redaccionmedica.com"
+        "name": "Infocielo",
+        "url": "https://www.infocielo.com"
       }
     },
     {
-      "id": "e8c5052dce75",
-      "title": "El Ministerio de Salud Pública garantiza la provisión de medicamentos en toda la provincia - Ministerio de Salud Pública de Tucumán",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTFk1Sk9faV92R1k2NkpHRHBpdDNWcGNGZzdEZ1c5WHc0N1pfekp6UlhaUmRld0IwYmk0LUt3NlhibG5GQk02RlBGN0pjNHF5UlgwaFlsUmNSdGZZSDlDX1pxUFVTYld6cUxKbXJ0YzE4a21VMUVJUXg2YzBJa1I4c3F3bkl2OF8zOWxkOUtHN0Z0VjEweG40UkMwRTNIcnF3R2hYR1pCeW1XUG1PSVowRUxsRWdST0d2?oc=5",
-      "published": "2026-02-24T08:00:00+00:00",
+      "id": "899d787bbcd0",
+      "title": "Hospitales de Santa Cruz contarán con un nuevo sistema de provisión de medicamentos - Gobierno de Santa Cruz",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOME5HaXpMeVpNdHRCVWFYaDNDYlFOQVA1TE5OZkhOdnRYUjg2T09PRl8xbDYtVTNDQ2ROLVpoZDRoSktjSHBTaUlGS2R0V1B4OEQ3QWZGZmUtZFhIajNvR1Y1RFFmWjFESUFaN3VQcjhLcWFWcHkweXBxOTFzTFNZR2RvY3B3NGp0Yzgya1JvNkUwZ1JWYWJmQ3gtT0ZFVmQ4cU1yYXZWczJ6Mlc5Tmx5QXo2Y29sNE1UZ3lGOWU2SzQ4OE15UjJob3ZGcGlvY1E?oc=5",
+      "published": "2026-03-16T07:00:00+00:00",
       "source": {
-        "name": "Ministerio de Salud Pública de Tucumán",
-        "url": "https://msptucuman.gov.ar"
+        "name": "Gobierno de Santa Cruz",
+        "url": "https://noticias.santacruz.gob.ar"
       }
     },
     {
-      "id": "7ec86ff7d347",
-      "title": "Provincia asegura medicamentos y coordina estrategias sanitarias anuales - Ministerio de Salud Pública de Tucumán",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOOHpJWTZybXRfY2Mwc05FYlUxYlA1UjYxUjZpREJRSUwzOFY3QzV4WExUYmYtaVVPTTcxeUdiSHVzQlU1U20wVXVtZkNzbmZ0X0dvWVYyaGhlSE1EQnk5azZMU3EtZ0xsbzJleVVqaVBMS2pfMTd5NmFrN0Z6dUV5VHJDcnFXdlhTQ29PRTZWaEQzVVQ2d3hXbTF5LVdHVU9X?oc=5",
-      "published": "2026-02-24T08:00:00+00:00",
+      "id": "23cfb540c32b",
+      "title": "El Rol de los Medicamentos Genéricos en el Mercado Farmacéutico Argentino - Gestión y Economía de la Salud",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQ3g1UGxDLVZJOXN1Y2YxNjZsNERlcDNnb0FuMmZRZ0E5RVdKbE5qbjI0OHItU21FeW5JZ2NTMkR3X2Y3ZHNxVWwyUkNKMGYzVllCcXFwV0VUd3BPc3BYV291OURpcEczWER3ZXZtZDZfYVZuT3RRb20weVRlZkdjaHRxNGhMWFh3dk1TQkg5SVI2YWtqVEpvXzg2U1BVSXNqVlhDZGZiMUFqRGk4eEE?oc=5",
+      "published": "2026-02-01T08:00:00+00:00",
       "source": {
-        "name": "Ministerio de Salud Pública de Tucumán",
-        "url": "https://msptucuman.gov.ar"
-      }
-    },
-    {
-      "id": "951b37fbd1c5",
-      "title": "La Helicobacter pylori se hace más fuerte: los antibióticos pierden eficacia frente a esta bacteria - El Economista",
-      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQdWJMWmZ5dWt0NC1zeUNTak42VDFLNnh2TDNiZ2xBeEcxLUdKOTBycVNpcUFydjU0UlRYN3REczlabHJSTDVfSTNueThhU09lU05ndGh4eTd4bE0tTnVjUkFmbHR6ZkNnV0d5azhOOGFqYlhNRl9scEpNRE5ObW85UEtTd1I5RWtmUEtZX0dMVmZnSHVzZGVYcE92LUZBNTBRNUk2U1Jjc2pQWUlmaXA5ckxnaHdtbkZzQ0dpZTFtUmd4Y2Z1TFZBVHktYl84UVZYekI4cjlTa05qX0RGeG5pWWlndkhpMUswRHEtQlVKNk9feS1lMTNYd012VzVVVVpa0gHrAUFVX3lxTFBaT1R5WC1SdE5ON3JMNm5LRjJTbWNsSkJ4bTF6dV9mSXRpaWc3OHpEangxWF9uZWtnZ1F3bThBbXN4WTZ2YUJvNXZ5cVE3R1I3eEMzY2NQTlpYUHlvMGQtcXFtWno5TnFRT09tdkhkMzN2Ykk0MVRrQ0xhT1VRSzR4SXdjbHQtUGtwc2tyWnc5NXFxQUs1c3FlTDFYVS1LMUtmOUpueS1ETEt2VUkzUHZCamdlTlBoV29fMUVoS1pKX1k2aHlNM2w1a0QzVWNFcnRpWkc0Nk5lMF9TREc2QzZWTTA4MUNzY3g2dDg?oc=5",
-      "published": "2026-07-02T14:14:34+00:00",
-      "source": {
-        "name": "El Economista",
-        "url": "https://www.eleconomista.es"
+        "name": "Gestión y Economía de la Salud",
+        "url": "https://saludbydiaz.com"
       }
     },
     {
@@ -924,83 +994,13 @@
       }
     },
     {
-      "id": "7a9845748f2f",
-      "title": "En lo que va de 2025, Santa Fe compró más medicamentos y con un ahorro del 83 % - Gobierno de Santa Fe",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1US3ZEWmxWVDdWQWxnZENWQy12Z29DSFBNWm4tcHJ6N2FWOW1vQmJPb085ZmN1OUJOQzhlZkNNR1IzNkhLd3pfYTA1WUFpSkt0UHZlVlgwQWxlYmFQYi1lSA?oc=5",
-      "published": "2025-10-21T07:00:00+00:00",
+      "id": "602893b8864b",
+      "title": "Aurelio Rojas, médico: \"Si tomas medicamentos, cuidado con estas comidas\" - Redacción Médica",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQnpWdDlFSTI4WEFRRzVaV0tTdU5CYkoyRXdmd3VCUTBnQW1BRWUtcm81RXFQZWdJMVVqeGJQRlk4VFhEXzFDZWJxZWlOdkFUQmZVQjc2N1ctbW93eTBQdkVFWU1nSUJzLThneVVZVnM2U2VkRFJNc1A4QW1vUnc0cU41Y2RBczhzaWxUVWtiYVZvM0laZVNHR09yVEhqamJ4aUp1enlQbjJjN2FXc2xOWDltUHppT1RZWkFvWDRaYw?oc=5",
+      "published": "2026-07-02T09:30:00+00:00",
       "source": {
-        "name": "Gobierno de Santa Fe",
-        "url": "https://www.santafe.gob.ar"
-      }
-    },
-    {
-      "id": "5c746b55df03",
-      "title": "Europa recomienda retirar del mercado un medicamento indicado para enfermedades raras al no ser «favorable» - El Debate",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPa1dRc1FsZVVjYkRCcXJ3bVJnbE1EblJmZEliVktSQXVVb3hzNWplZmJDZGhIMmJjU1ljWkduTVhSYjNJN3FpUEs0UlB2aDlLT1EwNHctcEpQajNaLVA1T2tLSUVXNUVkaU1jZXhKdl93Z19KemNlc0dYWXd1TWlHdXk2YU94emdFakNTWWhxN2RGcFlhNFFnVkFNU3Q0YmhfaHo2dVhkVV85ak9zWGpkTWY4SFV0ZGtNLXVTTnFka3J6aUNRU1FNbHFwX0JjU0F1R0JrbmE1M0PSAd4BQVVfeXFMT0pHR01sX2V0Z2hkUFlHRV9UVGUtUkJlOUh3SF9EYkV2RDRuZUFWZUZmcWlDUzVfbnVteGxXaWkyczRZNEsxV1paQUFPTDVVcXY2cEk2Rl9IcU5qTTdwN3FycS1XY2J3MEQxTmRrcG5jd1hQY0ZSeHB1aVBaNjU2bzhJaGE4bTJhZ3JRVUpvVFZlVUlMdkV0TjVsYXFKNFNPV2lEZm1Nbl9MdmtheEh1SjVCRjFqc09yU1BTSHQyc2cxUFJPdXA0bmh4MTZyaFZrLXo5S3RlbVpSTmRHZU5R?oc=5",
-      "published": "2026-07-02T14:47:49+00:00",
-      "source": {
-        "name": "El Debate",
-        "url": "https://www.eldebate.com"
-      }
-    },
-    {
-      "id": "c7b396bf3e4b",
-      "title": "Ante reportes de uso indebido de medicamentos GLP-1 indicados para tratar la obesidad en adultos, la OPS pide reforzar la farmacovigilancia - Pan American Health Organization (PAHO)",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa2poT3dYVC1ZRHpSVkJ4elN1YmthUXBpY1hMNnlZMmY1akNFRmFCR3lXUjN6ZGo2cWRNS21fNHdTbFM4andZM0hSYVdqWk5lRjdwQkdYWWthVHlqZEFOb1h3Y0RHcnRkbXJ3RVY1UF9MWlFuUXZDUF9BZzN5TE5QLXFSZHhIbm5kNUFadk9ubWd5Y0loem5qZ1VfOTVPU3lURl9SdEJpQVFQXzdZUGs1cno4RGExNENaNXc?oc=5",
-      "published": "2026-03-03T08:00:00+00:00",
-      "source": {
-        "name": "Pan American Health Organization (PAHO)",
-        "url": "https://www.paho.org"
-      }
-    },
-    {
-      "id": "f07c45c9a9db",
-      "title": "Ley Cenabast suma 32 medicamentos para enfermedades respiratorias y amplía ahorro en farmacias adheridas - Canal 9 Bío Bío Televisión",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOcU9mRGE0Vk03akVjRnRFY2IwcmJCWjNJV1dpTEpZNTRTY1V2OVJmX0o0aW5lV0tUbTlUUTVmZ1FJdmdkdmtEWXBJYjJXMHhZSFRfc0dVcHpNeGp6QU1lRERqVXBDSFVRbTlURk12RmItaWtWdi14RW5lb0EtTW5ncXdxRGRHYjZDUmdZVGJ2cWw2T0lBaGhYbVBCQ1prTjZGT0ZmbG9Bd240T0N0VWtDNE93aWJmZTUtaUo0aW1XMERPeU9GVl9mY2F5NUNEQmtGVTlpT1lkRmg3Vnd5MnpSQjlCaE9GNGp3bXFwN2VQODZaZw?oc=5",
-      "published": "2026-07-02T16:27:49+00:00",
-      "source": {
-        "name": "Canal 9 Bío Bío Televisión",
-        "url": "https://www.canal9.cl"
-      }
-    },
-    {
-      "id": "56aaf2c782d6",
-      "title": "Precalificación de productos de salud - World Health Organization (WHO)",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRnZfY19GV3JXb0xiQWZ5YWgxU3dsUFRkN0M1MTBack9LNzV1M2FQSkxnZk51TldiVktXNWNMOWp5WUNINHN0cEg5Yld5NDl6TzE1ak45VVRLOTRyZnRaaGdZdG5QQnl4V1BvbFloTGdrVldxN1ViZEZDYUM2MC01MEdGOTRvVTR5UTdYYzdHeXhadw?oc=5",
-      "published": "2026-06-11T07:00:00+00:00",
-      "source": {
-        "name": "World Health Organization (WHO)",
-        "url": "https://www.who.int"
-      }
-    },
-    {
-      "id": "0216989b5d39",
-      "title": "La OMS respalda el uso de medicamentos para bajar de peso, calificando de enfermedad crónica la obesidad - UN News",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE90MDczcXlJWVB3ekdmZUIzMWxta2U0UWhLdnFlbkZxNlpDV3FBZlUzeXNoMk5KZ2hZdkw4cmNsUm5OMFNXcFVXUmM3SHBKNzZGbGRLaWdFUQ?oc=5",
-      "published": "2025-12-01T08:00:00+00:00",
-      "source": {
-        "name": "UN News",
-        "url": "https://news.un.org"
-      }
-    },
-    {
-      "id": "96294b88e0ac",
-      "title": "La Provincia garantiza medicamentos gratuitos para adultos mayores y fortalece el acceso a la salud - Gobierno de la Provincia de Formosa",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOdGxCSEtGWEtnSW1XUVFsdDk2VjFhSWRiNEY4NzZ1RTAxWmJEcDBlUWNzak1vTjF1bG81ZGRjeWQ2blNTa0NDczVpdjlpMWhGMkNaWkl3VUt1MFEybUR6R3dCSTlzdUh1a0ZjdXVoRGlKLS0tUVotZGVCSUVmNlY2UWNJd2FrcnUySHRybWNlM2dHTTZydFA3dDBWWEFTRGhyeWVTME9yb3NiZl8tMmdYOGxLb2g0R0Q4QVhQSFJ4Q0k5bDZRdjU5NXdiRG9ZUmxhZDl2NE9ZY1hWdFVHOEE?oc=5",
-      "published": "2026-03-26T07:00:00+00:00",
-      "source": {
-        "name": "Gobierno de la Provincia de Formosa",
-        "url": "https://www.formosa.gob.ar"
-      }
-    },
-    {
-      "id": "cced2badcf63",
-      "title": "Hospital Juárez del Centro apuesta por actualización científica para mejorar el uso de medicamentos - consultorsalud.com.mx",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1COGl6ajNqQ25lc2R3WGpUSG8xUGEtMm1RcFhfRno0MElDVUhrd3ZsZDh3RWw1bFhqRWdLakhKUTRxSWdCS1lFbDVvVDJvZG81eHg2QXNLVTVXOUctNmZOMnFrbkl4V1dRSjBqME9EQzh3LVNud3Y1TkppajEtQQ?oc=5",
-      "published": "2026-07-01T21:26:20+00:00",
-      "source": {
-        "name": "consultorsalud.com.mx",
-        "url": "https://consultorsalud.com.mx"
+        "name": "Redacción Médica",
+        "url": "https://www.redaccionmedica.com"
       }
     }
   ]
