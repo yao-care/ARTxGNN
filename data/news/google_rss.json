@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-10T10:54:29.192780+00:00",
+  "fetched_at": "2026-07-10T13:11:57.665941+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -94,6 +94,16 @@
       }
     },
     {
+      "id": "b2a9fefb3b9e",
+      "title": "Mucho más que ahorro: el valor estratégico de los medicamentos genéricos e híbridos - Diariofarma",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUTBHN1ZHLW4xQWZ0ekJmQmtmOFJZd2hyQU1GSkFoc1E0cFBHTGxKYV92OGtCSDFSMFA1TXhQalBVY08xU2VNc0tCOW9FcE5seTBKN1ByZTZjMDlPU003OWVaeXlkWE9RNFVWUmh4UlNaeEp5RzJucmZ1M05GMzN2YTQ0Nkdpd0h6dThFZ21xLW90VTF1T3JDUjJQUk1OOFBoMDVzYTB4YzlYTDJ5UG0tbzFXU2FNWURZ?oc=5",
+      "published": "2026-07-10T12:02:29+00:00",
+      "source": {
+        "name": "Diariofarma",
+        "url": "https://diariofarma.com"
+      }
+    },
+    {
       "id": "d190fc646b44",
       "title": "PAMI mantiene medicamentos gratuitos para jubilados en julio - El Diario Paraná",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQMUZtODNtZ2dBREVOYWJoWVJ2RzhpWm1QUm5SMDJscXpzc1RUVmI0U2dFQ0lLVW54dkIxWTczcG93bml0d2hKamc2MlQyZ0pQd0JYSms4S1B5cUJ1TzB4YUh0dGh1dDJmeVdUdzZoaWNfTXhXVm9ZSkJBQTkyWkFRTWpWemNxTnM4OF81MUV1TEJCR2RWQXFaM1Zfa3hLRG93SUE?oc=5",
@@ -121,16 +131,6 @@
       "source": {
         "name": "GUB.UY",
         "url": "https://www.gub.uy"
-      }
-    },
-    {
-      "id": "c40da7dc371c",
-      "title": "¿Tu seguro médico dejó de cubrir los medicamentos para bajar de peso? Esto es lo que necesitas saber - KFF Health News",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPYTBJR3RSY0ZhMHBtSTZDUEFRSG5oWEczTUh6ZmV2cmJad3hXMENqX09aenpIemVETmFKMEQ3cXlOT0VLNnJsTDJXSm5KekRob1FFTGRic0xsd2NCVzdQTHNleE55eWFxa1hCMjZYM2ZXQkxySVIzeG5VamNMc2JIS0NSeUlJVUlmLTN5RklhcVVPMjJkUVFxWV9zek9nSFdndmhDaXRGd1Y5aGpyWmFBQjlDb2VLYXRNUWo4VGlaNUFMdDVqNDh0Q3h4cWxkMEk4RVZkb2g2LXA5VG5Ua0tVZEl3?oc=5",
-      "published": "2026-07-07T15:05:21+00:00",
-      "source": {
-        "name": "KFF Health News",
-        "url": "https://kffhealthnews.org"
       }
     },
     {
@@ -274,16 +274,6 @@
       }
     },
     {
-      "id": "f1d495b19313",
-      "title": "Jubilados: qué medicamentos continúan con cobertura del 100 por ciento de Pami - examedia.com.ar",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5nM3ZTa3QxQlViZ1N0QkxsRldsYkJnd3JhaVpLbUREeFRJak9lU1NhUUMxd0stbnVVUUhudXdMdklSWHY1TkV6TTF4V042S0Rhbms3ckRHcDRJekJTMVE?oc=5",
-      "published": "2026-07-10T10:06:00+00:00",
-      "source": {
-        "name": "examedia.com.ar",
-        "url": "https://www.examedia.com.ar"
-      }
-    },
-    {
       "id": "f998a392ea2e",
       "title": "Ante la retracción de Nación, Santa Fe refuerza su sistema de salud con fondos propios - Gobierno de Santa Fe",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBzWFZvV2VibEk5VmxMcGQzRVYyRGtRRFp5Q3ZuS19GY0ZDTzczTFp4UnI4STAwNEV3b3VNMXdkY1FXbk1OcE1IdjNrQzByZC1yakZsUFBOWHpKNF80bmxxNQ?oc=5",
@@ -304,23 +294,13 @@
       }
     },
     {
-      "id": "c10b3f682359",
-      "title": "El color de la orina: qué dice cada tono sobre tu hidratación - Tua Saúde",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUjJ3bW9Ca0lnSFJ4SGVsYWd4cmY1WV9lTk5sZGFtNV9ZbE9paVdaUER6aXNKaXRQU2Z5OEVCeE13X3oxY2xZTWVFLXIySUMwYTQ4dnh2amswYUluQU03RkFUSzlTczdDMXBjb3VabVk5VFVqZnotQjAwVVluUG50MFA4REpOd09PTnFPM2pBdmh4cWtPalNUdWg3bFhrcl8yYmZ2Q2wxd1g?oc=5",
-      "published": "2026-07-09T12:10:00+00:00",
+      "id": "199a39eb3b9c",
+      "title": "Celia Diz, farmacéutica: «A las doce semanas de uso, la dependencia a las benzodiazepinas aumenta muchísimo» - La Voz de Galicia",
+      "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNcFF0ckZhZFhrdkZpcFZxdE5yREJDbXB1SWFMYUZoUFVwZHk1NkhtcjdicnEtWmRtRGc1RVFobVVMTlJVSmtMa0tnWWk5dlFwZnBkRkxjNk9EUUZzQkp0MHdQUnVHcXpqZzYyWHpLaFhjODYyNFVNaktyWEVRWGx6M2tDWEVNdHpWeGhHTWZFcGZjUUk0cE1FdTRtcFdaOXpReThNQ05rdDIwa0RiZU5NbEU1NTdlRWxiRWJSNEdkSHZFYUdzeUx3SFQxcE54ZENsRmllYzVSOGZxcEZmdkR4bklmc2lFQUlNT3FKbGVVM09VSnlmakxIbWxRdl9Bam92TEExTXpqVmdzcjRMVHZnV0xYeTDSAZoCQVVfeXFMTjVoUEdvWG5ZNnI5dnV1QmhWWFZ0Q2JFWGd2allydnNqM2MtbzZ2bG43SVVUN2k4N2tLUnRPcGZqMzhtR2p4b0hfWk9xZTJsYnhhbUhJVnowdFI1Q1hVczFNWWNJam5WQkRDN3pVcXhNUzNhUzBVZHUzWWlDbUtLQXZyQnJyNGFQdlVpN1BPR19LcG8xaE00dkFwVEZiWmQxaWI3N2s2TXl6YWFXdlJ3VklLQWFCdnlfenQ4V3pIc2tualhaZVBBcXFuTnJzNUZZVjM4VGt0SmV4NFhHQXM4TmlIQnBheVplLVZMQmJDcGpQUm1VVTM3ek11Y3lRQmU5aDBzYnhiOURicElRenFzY2FkV2pQeERub0VR?oc=5",
+      "published": "2026-07-10T03:00:48+00:00",
       "source": {
-        "name": "Tua Saúde",
-        "url": "https://www.tuasaude.com"
-      }
-    },
-    {
-      "id": "87d2caa23f63",
-      "title": "Profesora con acromegalia esperó casi un año para recibir medicamento de EsSalud: “Crecen mis órganos, manos y pies” - Infobae",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQSnZxV3VsQ1lCcWdkbkJUcHlkUkZmOUQ5TG1hSjZWNm1KUHRJSXN2SHJfT08zQkdVVUpKamhHem1VVW5yV19wZUtDLTFMaXlTMU5tMUpXYnBScjlpWVFMRThod2ZuajgtVlR4NkJFNDU5OHZRdkYtYWVoTkxaRmUxVjE0TVVVSk1vUVNicWZwdnlGMElRdDJiQndFNnlYWGdqVGhDUldCbTJWeDF0TC1KWFU5Z2wtV0lNU3owTkx2a2hBTmNtbkNqV3JWaE5fVzA4SFc3XzBSdWxxamFmT3BBWk5qS0FhRlJJ0gGDAkFVX3lxTFB6c253ai1Rb1dJVGhwWGF4RktzSUxCcEQ1WTdwWmwwdnprUml0QlItc2JndDlHWnFMcFJJYWZJSFJENXI2bUxTSVJaLWRyTUxhZWVDMmRGYWs4TjZTaXMtb3hkUVczV3plSFhvZXB2TFUzdXBnVHdmbFRoRnpMQXNBYVZWTkhlTzRyUmFqenI1YlVfTlUwMlZoQmNjanRSVFZoY0o4ckVBYmVpaHRHSEhyN0RnWGlMZlhfRUdFYXNvaFp0NkwydEpFMmpoSHB6Z1l1YnhyVVJSdWdpN29nRHR1TmRVWGhHWDI4enJsc3ZQbDBGUzJhODZVaE5vcTNiSnRUSEE?oc=5",
-      "published": "2026-07-08T22:23:00+00:00",
-      "source": {
-        "name": "Infobae",
-        "url": "https://www.infobae.com"
+        "name": "La Voz de Galicia",
+        "url": "https://www.lavozdegalicia.es"
       }
     },
     {
@@ -341,16 +321,6 @@
       "source": {
         "name": "Gobierno de Santa Fe",
         "url": "https://www.santafe.gob.ar"
-      }
-    },
-    {
-      "id": "199a39eb3b9c",
-      "title": "Celia Diz, farmacéutica: «A las doce semanas de uso, la dependencia a las benzodiazepinas aumenta muchísimo» - La Voz de Galicia",
-      "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNcFF0ckZhZFhrdkZpcFZxdE5yREJDbXB1SWFMYUZoUFVwZHk1NkhtcjdicnEtWmRtRGc1RVFobVVMTlJVSmtMa0tnWWk5dlFwZnBkRkxjNk9EUUZzQkp0MHdQUnVHcXpqZzYyWHpLaFhjODYyNFVNaktyWEVRWGx6M2tDWEVNdHpWeGhHTWZFcGZjUUk0cE1FdTRtcFdaOXpReThNQ05rdDIwa0RiZU5NbEU1NTdlRWxiRWJSNEdkSHZFYUdzeUx3SFQxcE54ZENsRmllYzVSOGZxcEZmdkR4bklmc2lFQUlNT3FKbGVVM09VSnlmakxIbWxRdl9Bam92TEExTXpqVmdzcjRMVHZnV0xYeTDSAZoCQVVfeXFMTjVoUEdvWG5ZNnI5dnV1QmhWWFZ0Q2JFWGd2allydnNqM2MtbzZ2bG43SVVUN2k4N2tLUnRPcGZqMzhtR2p4b0hfWk9xZTJsYnhhbUhJVnowdFI1Q1hVczFNWWNJam5WQkRDN3pVcXhNUzNhUzBVZHUzWWlDbUtLQXZyQnJyNGFQdlVpN1BPR19LcG8xaE00dkFwVEZiWmQxaWI3N2s2TXl6YWFXdlJ3VklLQWFCdnlfenQ4V3pIc2tualhaZVBBcXFuTnJzNUZZVjM4VGt0SmV4NFhHQXM4TmlIQnBheVplLVZMQmJDcGpQUm1VVTM3ek11Y3lRQmU5aDBzYnhiOURicElRenFzY2FkV2pQeERub0VR?oc=5",
-      "published": "2026-07-10T03:00:48+00:00",
-      "source": {
-        "name": "La Voz de Galicia",
-        "url": "https://www.lavozdegalicia.es"
       }
     },
     {
@@ -444,26 +414,6 @@
       }
     },
     {
-      "id": "195d5e5fe1cd",
-      "title": "Medicamentos y coche: estos son los riesgos que la mayoría de la población ignora - La Razón",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPTHJFMzhRYkg4VnIxVTc0VXlQM2J0Uk84bDlkdUNzUVctLUYyUERHanpjWFJKZEFuekM4RmJZMThiblVROWhDZlhzVGxYN2QwWFZ3QjU5azZYbUNvNzhxa3dKME5xZWJOXzNPd0xITUl1eVIybUtwYlpTTzgtTUljUUdTeFd5MGpkd0VUbk5XWGY2anEyenJ3NGtnMHAwZV9leEJDYVpxRFEzazEySi1pSW1GWnNPX19PN3F5SzlFZEkwZGJXS1E5SVVpT2zSAeABQVVfeXFMTTVwQ2ZrSE9ERFNwSG41am9HcXZuSXQzWkI3YUF2eTV3QVNjdmlaUmpwVnU5bmQ2enUxQmNuNmpkSWk1UDFyRTFTVkY5X1BSUjVzX0tUTTV5dVRzczhreDFrbDAwWk13YWlIN3RBcnpheEJWb1JMU28xQ3dTTU05Y19pVVBkdE5pcHdXWExEU212ZjRydGtDNXk3a016M2F0N1V2VVBrUVdjeTV1WHlOUkNacEJhQXNEOXdPWWQ0c2djakpldUhwWDlVUUk3SjZNdGMtaEphSURmQ1RpSzBfNjc?oc=5",
-      "published": "2026-07-09T18:07:24+00:00",
-      "source": {
-        "name": "La Razón",
-        "url": "https://www.larazon.es"
-      }
-    },
-    {
-      "id": "4949657c5077",
-      "title": "Un tercio de conductores coge el volante bajo los efectos de medicamentos que pueden afectar a la conducción - La Vanguardia",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTjBFZ0d6MmNVMUNVdS1YdWI2d01USjhxY2h2SHpKUDB6cHRXMDZfOE83WGJXTHFsc2stZEJUdmZWRXBOZW1QREVQWWM5S3NhbzNkWXVlTF90TzhERGM1RERrNm5zZFhuMjQ5a2N3cVRZMWZJOUt6eHhTRVZkbmVJbFpjekFRQXZTNmVhd1hSSndhYTlLRFFIMHFSWXZ6TVl5QWFRMzVKSTRVUHp2ckhoemRETnZROVJDNmtiNXRwNWoxTkdSSHVZ0gHMAUFVX3lxTE9aMW1wRmZaeG1EQVVaTkhvY2xXS3dtY2RYRHJCNmdpWEZUYmdDeExQRHhoVWtyZW5jZDN3VXBLQ2d4end3LVB4bzN0eHVvY3pRQk9NcXZPeXVVT0FWNVJaRHRiTTQtWkN2dHFWOTNCQkpscWhYUHR6Mm41bG92bFItRExjVU95d0RwU1h0SWVlUGtUZFU1cHRpZWM0Z2M2Vnc2VC03UkVPTHF6cmZOb2hXRktBOTBoOThsYmJSN3hKWHBra0pjQXRUMEZoNA?oc=5",
-      "published": "2026-07-09T14:34:05+00:00",
-      "source": {
-        "name": "La Vanguardia",
-        "url": "https://www.lavanguardia.com"
-      }
-    },
-    {
       "id": "46ad78f633f2",
       "title": "¿Cuánto conocemos sobre los medicamentos para perder peso? - Universidad Nacional del Litoral",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOb01mQzdzRkNWMUZqZi16S0F4T0JzUGFrOHNCaG5ZWDc2Y3V0MVluVi1tcGM0VGNzWmFoaUNfaHVyMTdGNnpPZ2VOTzE1bnlNZ2ZyN3FUTnBVRG40M1o2X0IzRFVYVnB3TnoySmhZYXNmSkgzRGJzUG5odWZlYTVub0lRdkNkX21uWlFkQnk3aHNqbFlJdGhYU3E1Qml6QUhZSWtTX0RVVUVLak5xZlE?oc=5",
@@ -474,13 +424,13 @@
       }
     },
     {
-      "id": "4df37dba13da",
-      "title": "Pacientes reclaman mayor agilidad en entrega de medicamentos de alto costo - diariosalud.do",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOandITXNuRU8xcHVKRjB0Tm1RazQwLTh3QzVzYnFWZ3lrTDFCaWE0enVkWmUzb0RaTkVFNzFyczY3enZhaDgyUGtRRlZ2NUNad0tLbWY0OU9kMThKNWZfbm4xTWxjOXFGVHBIUlFNQ1VzQ01qNE5yYVFvc1VCMnNZRGlDUTI3dmdOQnhfTXVkdzQxYUxrX2VIVFB1SndiUEU?oc=5",
-      "published": "2026-07-10T08:53:56+00:00",
+      "id": "c10b3f682359",
+      "title": "El color de la orina: qué dice cada tono sobre tu hidratación - Tua Saúde",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUjJ3bW9Ca0lnSFJ4SGVsYWd4cmY1WV9lTk5sZGFtNV9ZbE9paVdaUER6aXNKaXRQU2Z5OEVCeE13X3oxY2xZTWVFLXIySUMwYTQ4dnh2amswYUluQU03RkFUSzlTczdDMXBjb3VabVk5VFVqZnotQjAwVVluUG50MFA4REpOd09PTnFPM2pBdmh4cWtPalNUdWg3bFhrcl8yYmZ2Q2wxd1g?oc=5",
+      "published": "2026-07-09T12:10:00+00:00",
       "source": {
-        "name": "diariosalud.do",
-        "url": "https://diariosalud.do"
+        "name": "Tua Saúde",
+        "url": "https://www.tuasaude.com"
       }
     },
     {
@@ -494,13 +444,13 @@
       }
     },
     {
-      "id": "e0c34bd4da67",
-      "title": "A partir del 10 de julio, ¿qué pacientes podrán recibir medicamentos gratuitos? - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQaS1CSlZYSnRMaGJESE4tbERGRzJPUXRwS3p5MC1Qc3RyMDVxWlo4emFjeVFtRmxVWW9TREhZM2NLbWtmbGxoUC14NnFtZE9KLXZ2bnUwSHBRLVlwZVdKZnF3cDlfdHFWMHhZVHIza3ZZd01EbzhxWnlob3pWX2ZBVw?oc=5",
-      "published": "2026-07-10T02:09:28+00:00",
+      "id": "86275399caf3",
+      "title": "Uno de cada tres conductores coge el volante bajo los efectos de medicamentos que pueden afectar a la conducción, pero solo el 3% los percibe como un riesgo - Corresponsables",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOeFZ2UWtya0RCb180WUwyX0hXQ3pCeFNIZkdDRXZvWVo3Vm41VFI3SFluYm9iWDZDdVNFUm1YVDRCOVRScGdXR0stbUQ3Y3RrdDFIVldiWTFfQTRqU3o2cUsxNkRFUmRRZXJ1OGZXeGVXekRXdjFibUs0bTcwMWJ3Ym1sZjFzVFdtNTVZWWJvUE93LTllVkpCM3BIdFYtQQ?oc=5",
+      "published": "2026-07-09T08:12:37+00:00",
       "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "Corresponsables",
+        "url": "https://www.corresponsables.com"
       }
     },
     {
@@ -511,16 +461,6 @@
       "source": {
         "name": "Gobierno de Santa Fe",
         "url": "https://www.santafe.gob.ar"
-      }
-    },
-    {
-      "id": "b6e9909cb1bd",
-      "title": "Uno de cada tres conductores toma medicamentos que pueden afectar a la conducción - La Voz de Galicia",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQSUs2QlFYRy1yN2p2SFJZWVRWUXZ3MklqaWpxS0pWYkNtSjlBSWw5N004SDNsRV96NVk4UWZEUTlQb01BNVlCMGFkX2xvQ0VMSno5YnBMY2c2ZkVoTXFZMldTbk55TUJ1WUgzaVUyRl9YQXhnWGJxRWVma29SNUZvMGwwNnNKVzdadC1yYlhxOTc2ZC1IdlBKdmh5Tjc4azY1R1lxaUZVVG5BQW9qenJQYWNkSGhvdkZVNXQ5LTdWbXpvdjZESGZZZG40TTRDSGs1ajVEQ0hJcGgxdF9LbVdhX19JT3hMTDZSLXR6TmdmdEFjR1HSAfgBQVVfeXFMUG1DR1huem9IQTZ4OVRTajZZN1ZzVXVlQ2FtdHZHaXRfa0ZHM1JvX3Q3eXZ2X0R0emNNUElSYmlnUEM5YlFyYThabms3YW9LcGFvTGZ6Y21BeV9SaHpZUWxoT0VlWkJNX0I4UGxuQkpSYnI1ZWw2OHZsVnFZUVZ2eXBPZTJWdURmTHVPWmpCV0F5VU41eUtoLVo0bEhJcXNaS0RxWDE1QkJzZzU4am5UVVY4MjVMdU9sOEJfLXdNcFhBTUFBSlZFV2pCYlF0ZUxzek10SWtLZnp6Q1UtandyNnFJWFZPX19OeGFpRnhmNkRTdm0xN0sxRWM?oc=5",
-      "published": "2026-07-09T14:22:24+00:00",
-      "source": {
-        "name": "La Voz de Galicia",
-        "url": "https://www.lavozdegalicia.es"
       }
     },
     {
@@ -544,23 +484,23 @@
       }
     },
     {
-      "id": "d4acff65ee89",
-      "title": "PAMI: cómo tramitar medicamentos gratis por subsidio social - Perfil",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUjlkMEhkZDZKeFhXaEZKbk53NWFVVk1ndGVkX3VXYkVJbzJ0cUxSeE5sN3pTdVpLMlRHdkcxYzcyR09YWUYza2RFckx3elU3aWJzTVgzYXNLdEdYRUc1cURFdHpEYmdSajlzR2VDWk5GelNkakVxSXh0cXppN1U5VHJkYlZnWmpkTU1ZOTk5bnlJYURQa2xQb0ZyNldpcGRVSlZCRkdiMXlfWUFTR0dKNGRXNkpoQUtFOUF0SNIBwgFBVV95cUxQbzltbGgxQVJ6ZEg5QWQ1WlJDRzMzSXY3NE5FY2dEZ1hPeVVGZm52U3RaN1ZWT1JEM0puY3NRajZjT2wyNU9PNkFmSmticGFYeHpQWkJydGtpQkZCaFRWSDRlaFVzU0VYUEdHMmVmdy1aazVqUzFLQXh4YU5KZ2JlbDRyTV9iMjBVUmhIYWFDV0o4ckpfRDIzZ2RZZVJwNzNtbkc1OVIzYVVEOEUtdjNrRHR2WF82UzRRSXVNMjh2dmVPZw?oc=5",
-      "published": "2026-07-08T10:34:00+00:00",
+      "id": "e0c34bd4da67",
+      "title": "A partir del 10 de julio, ¿qué pacientes podrán recibir medicamentos gratuitos? - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQaS1CSlZYSnRMaGJESE4tbERGRzJPUXRwS3p5MC1Qc3RyMDVxWlo4emFjeVFtRmxVWW9TREhZM2NLbWtmbGxoUC14NnFtZE9KLXZ2bnUwSHBRLVlwZVdKZnF3cDlfdHFWMHhZVHIza3ZZd01EbzhxWnlob3pWX2ZBVw?oc=5",
+      "published": "2026-07-10T02:09:28+00:00",
       "source": {
-        "name": "Perfil",
-        "url": "https://www.perfil.com"
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
-      "id": "916bb23c5476",
-      "title": "Registro sanitario de medicamentos mantiene la burocracia pese a la digitalización, afirman empresarios - Prensa Libre",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPRVhPcUFiUE5lZkZHcmJrQ3ZsQnh3UlBlb096bF9XQjVuNlRsSW55eXBZRnA2a0VHMVJVZjgyVW51Wm9YUjRsczRnMUtEckRQeng2S01xbU93V3VRZUhMekZfN3FYLThWby1JMXEydnVIMkdBMThHS3RKUnNXd2tGRWxwQU84WGh5WkVJSzA0THFreURFazhRNVludjI3bFlKdGFJc3BNeVJaYTJrOUh1NEhhMXBsbFFQcnVTdmZTY2I3dDNYWjc1QVhjUmR3ZHd1QldVTGFROFFDcXNnM0JMcFJQUnQzTkp2?oc=5",
-      "published": "2026-07-09T21:00:28+00:00",
+      "id": "4df37dba13da",
+      "title": "Pacientes reclaman mayor agilidad en entrega de medicamentos de alto costo - diariosalud.do",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOandITXNuRU8xcHVKRjB0Tm1RazQwLTh3QzVzYnFWZ3lrTDFCaWE0enVkWmUzb0RaTkVFNzFyczY3enZhaDgyUGtRRlZ2NUNad0tLbWY0OU9kMThKNWZfbm4xTWxjOXFGVHBIUlFNQ1VzQ01qNE5yYVFvc1VCMnNZRGlDUTI3dmdOQnhfTXVkdzQxYUxrX2VIVFB1SndiUEU?oc=5",
+      "published": "2026-07-10T08:53:56+00:00",
       "source": {
-        "name": "Prensa Libre",
-        "url": "https://www.prensalibre.com"
+        "name": "diariosalud.do",
+        "url": "https://diariosalud.do"
       }
     },
     {
@@ -571,6 +511,16 @@
       "source": {
         "name": "Argentina.gob.ar",
         "url": "https://www.argentina.gob.ar"
+      }
+    },
+    {
+      "id": "195d5e5fe1cd",
+      "title": "Medicamentos y coche: estos son los riesgos que la mayoría de la población ignora - La Razón",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPTHJFMzhRYkg4VnIxVTc0VXlQM2J0Uk84bDlkdUNzUVctLUYyUERHanpjWFJKZEFuekM4RmJZMThiblVROWhDZlhzVGxYN2QwWFZ3QjU5azZYbUNvNzhxa3dKME5xZWJOXzNPd0xITUl1eVIybUtwYlpTTzgtTUljUUdTeFd5MGpkd0VUbk5XWGY2anEyenJ3NGtnMHAwZV9leEJDYVpxRFEzazEySi1pSW1GWnNPX19PN3F5SzlFZEkwZGJXS1E5SVVpT2zSAeABQVVfeXFMTTVwQ2ZrSE9ERFNwSG41am9HcXZuSXQzWkI3YUF2eTV3QVNjdmlaUmpwVnU5bmQ2enUxQmNuNmpkSWk1UDFyRTFTVkY5X1BSUjVzX0tUTTV5dVRzczhreDFrbDAwWk13YWlIN3RBcnpheEJWb1JMU28xQ3dTTU05Y19pVVBkdE5pcHdXWExEU212ZjRydGtDNXk3a016M2F0N1V2VVBrUVdjeTV1WHlOUkNacEJhQXNEOXdPWWQ0c2djakpldUhwWDlVUUk3SjZNdGMtaEphSURmQ1RpSzBfNjc?oc=5",
+      "published": "2026-07-09T18:07:24+00:00",
+      "source": {
+        "name": "La Razón",
+        "url": "https://www.larazon.es"
       }
     },
     {
@@ -594,6 +544,26 @@
       }
     },
     {
+      "id": "4afe52f05d16",
+      "title": "EL IMPENETRABLE: EL GOBIERNO PROVINCIAL DISTRIBUYÓ MÁS MEDICAMENTOS E INSUMOS EN TODA LA REGIÓN V - Gobierno Del Chaco",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNcy04T2NrNXdCWDFVdk5sbjNuT3ZLczBiQzJXVm5FZXlwanhYVEd5d1VyNXhEWkZNR19QOC1veVVGX2RlMnlmamdCMWlmYVZPaWRsUFd6Z1JkS3B6Tk1OWWlEUFNOcFFId2F6RlAwZlUxTTl4T08yR3hEaU9oclhkRkZya1dzOUVNdGgzVHZOX2czTF9YNWZTN2dRWkVCcFdoM1lxRVBUeG1obUdVZVF1X19idlB0QXVBVXdKNjk5cXpqYW5SUEhBTFd5cE5pWVJ1ZngyWk5lMFQ5Zw?oc=5",
+      "published": "2026-05-04T07:00:00+00:00",
+      "source": {
+        "name": "Gobierno Del Chaco",
+        "url": "https://chaco.gob.ar"
+      }
+    },
+    {
+      "id": "b174191901ee",
+      "title": "NICE revisa la financiación de sotorasib y reabre el debate sobre el valor de la innovación en cáncer de pulmón - El Globalfarma",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBTdC0xTTBsSGZvMU9VNGdjcmJuWFFxNFBlTTRWM0JNa2xFVUJSeHZFenFhTlRxSXRwc2xhWV8wMXVYT2JsakZxNy1nSHhNb3RUOGdxUkx2alhub3R6UUFvcGZLcHVZQ2QzUmFEM3B5anllazdoMFVj?oc=5",
+      "published": "2026-07-10T06:43:18+00:00",
+      "source": {
+        "name": "El Globalfarma",
+        "url": "https://elglobalfarma.com"
+      }
+    },
+    {
       "id": "1c15ed9bbb48",
       "title": "A pesar de la pérdida de peso, la mayoría de los medicamentos para la obesidad no mejoran significativamente la calidad de vida, según un estudio - Science Media Centre España",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQeFpwTTZOc2FtcUhIMXhmTzJ6eFdWbzZLRmFIMEhDZ1hDbnIxUTcwYVVsZ0hqdkJ5bUFsWWplNmhKSV9Jc0piQUlTSTFsTTVEcjRueEhRNkpmUmhDY2FobXppbDFfTmE5NmgzY3RPSFZfZjgteURxdVNLd0k1d2FHSEh6cF9seE1xZ3BsODZJb2UxcmN0U2ZzODZOa1FmcVpLc0FGNXFXOGswZWhqN0dRamxlVGk4cTg?oc=5",
@@ -601,16 +571,6 @@
       "source": {
         "name": "Science Media Centre España",
         "url": "https://sciencemediacentre.es"
-      }
-    },
-    {
-      "id": "5a2c7f82cf8c",
-      "title": "EL IMPENETRABLE: EL GOBIERNO PROVINCIAL DISTRIBUYÓ MÁS MEDICAMENTOS E INSUMOS EN TODA LA REGIÓN V - Gobierno del Chaco",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNcy04T2NrNXdCWDFVdk5sbjNuT3ZLczBiQzJXVm5FZXlwanhYVEd5d1VyNXhEWkZNR19QOC1veVVGX2RlMnlmamdCMWlmYVZPaWRsUFd6Z1JkS3B6Tk1OWWlEUFNOcFFId2F6RlAwZlUxTTl4T08yR3hEaU9oclhkRkZya1dzOUVNdGgzVHZOX2czTF9YNWZTN2dRWkVCcFdoM1lxRVBUeG1obUdVZVF1X19idlB0QXVBVXdKNjk5cXpqYW5SUEhBTFd5cE5pWVJ1ZngyWk5lMFQ5Zw?oc=5",
-      "published": "2026-05-04T07:00:00+00:00",
-      "source": {
-        "name": "Gobierno del Chaco",
-        "url": "https://chaco.gob.ar"
       }
     },
     {
@@ -634,13 +594,13 @@
       }
     },
     {
-      "id": "4fe36ba8f768",
-      "title": "Defensa de la Sanidad Pública rechaza el Real Decreto de financiación y fijación de precios de medicamentos - Infosalus",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPR2tKXzhBZGgwOHhQblMzUUdDLV9JYzQzM1ZhM0Z4eHJISzlVVUhNOHJuV3A1U0ctdnB3Y0NvTTNibWVIUGJ0V2l3WjN5ZElrX3FVdmJzTlVxRzJTamY5cUVyOE9LY1hoM1Z5cmdDdFFtUTg5RGg2UjNaY3hmWDk1cjJwOE1MNzBiYk5ZNjRZMkRmNy1EZ1lpWU9weEw2dmgzSW10R1BvQTZTRk03eHVLMDRtU3JydFRqdVVJNkJ3SXh6TDA3LUh6WkUtUVNaYXpocHFUNmxDNXZvV2YxeWkwYzRSb1lkTzA?oc=5",
-      "published": "2026-07-08T16:42:41+00:00",
+      "id": "916bb23c5476",
+      "title": "Registro sanitario de medicamentos mantiene la burocracia pese a la digitalización, afirman empresarios - Prensa Libre",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPRVhPcUFiUE5lZkZHcmJrQ3ZsQnh3UlBlb096bF9XQjVuNlRsSW55eXBZRnA2a0VHMVJVZjgyVW51Wm9YUjRsczRnMUtEckRQeng2S01xbU93V3VRZUhMekZfN3FYLThWby1JMXEydnVIMkdBMThHS3RKUnNXd2tGRWxwQU84WGh5WkVJSzA0THFreURFazhRNVludjI3bFlKdGFJc3BNeVJaYTJrOUh1NEhhMXBsbFFQcnVTdmZTY2I3dDNYWjc1QVhjUmR3ZHd1QldVTGFROFFDcXNnM0JMcFJQUnQzTkp2?oc=5",
+      "published": "2026-07-09T21:00:28+00:00",
       "source": {
-        "name": "Infosalus",
-        "url": "https://www.infosalus.com"
+        "name": "Prensa Libre",
+        "url": "https://www.prensalibre.com"
       }
     },
     {
@@ -651,6 +611,26 @@
       "source": {
         "name": "· Gobierno de Córdoba",
         "url": "https://prensa.cba.gov.ar"
+      }
+    },
+    {
+      "id": "f67a9ffdf252",
+      "title": "Sanidad y las CC.AA. acuerdan el protocolo para fármacos de más de 80.000 euros anuales - Diariofarma",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQekR5Z1VNa1pmNVhTeVcwVmZpSUlGc2tUSTlKeTVxRHpKdnJnV0JjaVUxenFZX0RKdTZ3bHNDMjloSEdZVEhLVFhSNmNvamJGS0tZTms1UWpmLVNubndxeU5xRVlVdjJGdTJRa2pYYngwWnZiV3phUFBMS3U3QTNBMXBnSW9fSEdYeWN0VDlPZFdsOXZ6R3Rpa2I3YzZPYTh4dUVpSG54VEk5Sm1YcHNCd3N2RzhKS05DRDlqT09B?oc=5",
+      "published": "2026-07-10T12:06:38+00:00",
+      "source": {
+        "name": "Diariofarma",
+        "url": "https://diariofarma.com"
+      }
+    },
+    {
+      "id": "4949657c5077",
+      "title": "Un tercio de conductores coge el volante bajo los efectos de medicamentos que pueden afectar a la conducción - La Vanguardia",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTjBFZ0d6MmNVMUNVdS1YdWI2d01USjhxY2h2SHpKUDB6cHRXMDZfOE83WGJXTHFsc2stZEJUdmZWRXBOZW1QREVQWWM5S3NhbzNkWXVlTF90TzhERGM1RERrNm5zZFhuMjQ5a2N3cVRZMWZJOUt6eHhTRVZkbmVJbFpjekFRQXZTNmVhd1hSSndhYTlLRFFIMHFSWXZ6TVl5QWFRMzVKSTRVUHp2ckhoemRETnZROVJDNmtiNXRwNWoxTkdSSHVZ0gHMAUFVX3lxTE9aMW1wRmZaeG1EQVVaTkhvY2xXS3dtY2RYRHJCNmdpWEZUYmdDeExQRHhoVWtyZW5jZDN3VXBLQ2d4end3LVB4bzN0eHVvY3pRQk9NcXZPeXVVT0FWNVJaRHRiTTQtWkN2dHFWOTNCQkpscWhYUHR6Mm41bG92bFItRExjVU95d0RwU1h0SWVlUGtUZFU1cHRpZWM0Z2M2Vnc2VC03UkVPTHF6cmZOb2hXRktBOTBoOThsYmJSN3hKWHBra0pjQXRUMEZoNA?oc=5",
+      "published": "2026-07-09T14:34:05+00:00",
+      "source": {
+        "name": "La Vanguardia",
+        "url": "https://www.lavanguardia.com"
       }
     },
     {
@@ -684,16 +664,6 @@
       }
     },
     {
-      "id": "6091a42329a8",
-      "title": "¿Tomas vitaminas o suplementos todos los días? Estos errores podrían poner en riesgo tu salud - Noticias de Puerto Rico hoy",
-      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNU3dvRzNpYmtsTXNESjliTGMtUXNfTTloS3Fhdjh3UVBUR05yT0NqT1RvZDZrTDhmcWotbWhlN3I2MklTQV91UWZQXzhsNzcxV2g1SGlhZW95NnlxSEZ6S0FSM25OcHdiYzB1X0FHUUYzcmlPeW5FTjVGZ21OZzU1dGg4dDhIeDlUWGZVb1ZjREdKTUVDNUdXRDBMM0lwVm5JM0pfbVJHeXN3aEVPb2NGWGRQMkRMRm5NRkN6N1dyYS15OWVOUGxVeDUtZDRQZWczNzJuV3NtU2VrM1owUTFGWGhDUXM2R1JZLVFzVnZzMmhTRXRCSmVN?oc=5",
-      "published": "2026-07-10T03:10:00+00:00",
-      "source": {
-        "name": "Noticias de Puerto Rico hoy",
-        "url": "https://www.elnuevodia.com"
-      }
-    },
-    {
       "id": "986b84ae93b4",
       "title": "ANMAT dispone la baja de habilitación de varios establecimientos de medicamentos y especialidades medicinales - Argentina.gob.ar",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQM1JyRDBKSlBma0p4cElsTlJ6NWRVLVZha3JiclVPSEZ1MUIyTlFaM09ESEd6NXVoQ2s0UGxEVEpGQXQ1ZGhjUWhCSjdNaXFMTkxHb0I0MVRSRmVORS1SRmRERVFzVV9hX2ZEdnFvQ093Q1lNTzI5NU5temEzdG90SzFjX1NlQzNhQlVOS1F2OUV6akJodXFZTUJTNGRBSGxFWlpXMmJVdjNmTGVGUXp6RmNrRGNXbnJhMHUxMw?oc=5",
@@ -701,6 +671,16 @@
       "source": {
         "name": "Argentina.gob.ar",
         "url": "https://www.argentina.gob.ar"
+      }
+    },
+    {
+      "id": "b6e9909cb1bd",
+      "title": "Uno de cada tres conductores toma medicamentos que pueden afectar a la conducción - La Voz de Galicia",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQSUs2QlFYRy1yN2p2SFJZWVRWUXZ3MklqaWpxS0pWYkNtSjlBSWw5N004SDNsRV96NVk4UWZEUTlQb01BNVlCMGFkX2xvQ0VMSno5YnBMY2c2ZkVoTXFZMldTbk55TUJ1WUgzaVUyRl9YQXhnWGJxRWVma29SNUZvMGwwNnNKVzdadC1yYlhxOTc2ZC1IdlBKdmh5Tjc4azY1R1lxaUZVVG5BQW9qenJQYWNkSGhvdkZVNXQ5LTdWbXpvdjZESGZZZG40TTRDSGs1ajVEQ0hJcGgxdF9LbVdhX19JT3hMTDZSLXR6TmdmdEFjR1HSAfgBQVVfeXFMUG1DR1huem9IQTZ4OVRTajZZN1ZzVXVlQ2FtdHZHaXRfa0ZHM1JvX3Q3eXZ2X0R0emNNUElSYmlnUEM5YlFyYThabms3YW9LcGFvTGZ6Y21BeV9SaHpZUWxoT0VlWkJNX0I4UGxuQkpSYnI1ZWw2OHZsVnFZUVZ2eXBPZTJWdURmTHVPWmpCV0F5VU41eUtoLVo0bEhJcXNaS0RxWDE1QkJzZzU4am5UVVY4MjVMdU9sOEJfLXdNcFhBTUFBSlZFV2pCYlF0ZUxzek10SWtLZnp6Q1UtandyNnFJWFZPX19OeGFpRnhmNkRTdm0xN0sxRWM?oc=5",
+      "published": "2026-07-09T14:22:24+00:00",
+      "source": {
+        "name": "La Voz de Galicia",
+        "url": "https://www.lavozdegalicia.es"
       }
     },
     {
@@ -714,16 +694,6 @@
       }
     },
     {
-      "id": "24c054fcb290",
-      "title": "Los errores más comunes al guardar medicamentos en casa (y por qué el baño es el peor lugar) - lavozdelnorte.cl",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOOVVDdThUblc1VEdxRXctMjNBUlNkckFrV0NzejdwcGE0N0NJWF9LMnpEaHRvMWhzM0xJaVk4RlJNMHF3T1hyNzhxWk94Tnk4TWZTdzZDTDZQczRiS1FoM2NmQ3QtVXhxaVRhY3hRMU1Dd1MxTWNKMkh6VVRCZ3dtOUxBWW9vM3BmTW1OcUxHYzBjemNLeXF2ZGhYRWpQczR5Tkl3LV9DYmhDdE1sQms5U2ZaZXVjM3ZiRXZmVk1TTzdvZkVPck5F?oc=5",
-      "published": "2026-07-10T00:37:57+00:00",
-      "source": {
-        "name": "lavozdelnorte.cl",
-        "url": "https://www.lavozdelnorte.cl"
-      }
-    },
-    {
       "id": "9a0b84acd552",
       "title": "La Crisis de Medicamentos en Argentina: Un Análisis Financiero - Gestión y Economía de la Salud",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOV3V5VmotT0NIMW1uZ2NmNThMWnlFRTU2MXlCQ3JmMVhjZXEtRGtKT1FuVlFfVUZxQnVsNVM3NFNYOTE1eXFncDJkb3gySnZLNGl2ckRobnpHNFdMMnFCX1ltYzJRNGxsaGh6UXpUbTB0UkdEU1ZwYW5nYXZxcW42NzdtOXE4QUdlOW81b0NtUEN6WE4waGNNZXktVTF1Zw?oc=5",
@@ -731,6 +701,16 @@
       "source": {
         "name": "Gestión y Economía de la Salud",
         "url": "https://saludbydiaz.com"
+      }
+    },
+    {
+      "id": "6091a42329a8",
+      "title": "¿Tomas vitaminas o suplementos todos los días? Estos errores podrían poner en riesgo tu salud - Noticias de Puerto Rico hoy",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNU3dvRzNpYmtsTXNESjliTGMtUXNfTTloS3Fhdjh3UVBUR05yT0NqT1RvZDZrTDhmcWotbWhlN3I2MklTQV91UWZQXzhsNzcxV2g1SGlhZW95NnlxSEZ6S0FSM25OcHdiYzB1X0FHUUYzcmlPeW5FTjVGZ21OZzU1dGg4dDhIeDlUWGZVb1ZjREdKTUVDNUdXRDBMM0lwVm5JM0pfbVJHeXN3aEVPb2NGWGRQMkRMRm5NRkN6N1dyYS15OWVOUGxVeDUtZDRQZWczNzJuV3NtU2VrM1owUTFGWGhDUXM2R1JZLVFzVnZzMmhTRXRCSmVN?oc=5",
+      "published": "2026-07-10T03:10:00+00:00",
+      "source": {
+        "name": "Noticias de Puerto Rico hoy",
+        "url": "https://www.elnuevodia.com"
       }
     },
     {
@@ -754,16 +734,6 @@
       }
     },
     {
-      "id": "cd93d6672d94",
-      "title": "Minsa con apoyo de OPS fortalece uso racional de medicamentos - La Web de la Salud",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZl9wSDRxcjFTWGNzVFNFYnVIalBEa3dKMHZ0TkhGQ0RKWG0xeVdmeUlUV0FEeVg2dnl4aE5rQ1VXU3J4RUo5M29rMkdpYk5ZMW1CUGlDV2tWZHFHOUNXZEJrdDA0UU5BRl8zTFpIdlBQdVZMTU90eTZEck8wOW5lbjFIbzhHUGhQT19Ta1BDcVJ3Y1U?oc=5",
-      "published": "2026-07-08T11:00:47+00:00",
-      "source": {
-        "name": "La Web de la Salud",
-        "url": "https://lawebdelasalud.com"
-      }
-    },
-    {
       "id": "811f148b7f9d",
       "title": "Denuncian que Nación va a cortar el envío de medicamentos a las provincias: se termina el programa Remediar - Infocielo",
       "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOa21nX2tmWUJBNWVzZjZxTDY0V1pkbTBaYXdNZjNsT3FuQ1h4RkZVdG41RHpYT1k4MmRYVzBJQURuYWp0NzF0YnY5ckxHUUl4cnNTY2pHaFc5SzJIOERyZnJub0Vwd2pwck1kZjR4OGludmVlZjVCRHJDTklCbWMzTk1QU2Y5VW9GejRRV0w1YkFBeXFheFRMNnFpSmVmVWd2aDMtVGdERXcwd0JvTWp4V1JJTDlLX3JQSjVCMFd5YzRIRU9hTXdndXRTNjcxV1hJNHdQNlp2MlJiTW84MUZDcFI1QnhIV0U?oc=5",
@@ -774,6 +744,16 @@
       }
     },
     {
+      "id": "cd93d6672d94",
+      "title": "Minsa con apoyo de OPS fortalece uso racional de medicamentos - La Web de la Salud",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZl9wSDRxcjFTWGNzVFNFYnVIalBEa3dKMHZ0TkhGQ0RKWG0xeVdmeUlUV0FEeVg2dnl4aE5rQ1VXU3J4RUo5M29rMkdpYk5ZMW1CUGlDV2tWZHFHOUNXZEJrdDA0UU5BRl8zTFpIdlBQdVZMTU90eTZEck8wOW5lbjFIbzhHUGhQT19Ta1BDcVJ3Y1U?oc=5",
+      "published": "2026-07-08T11:00:47+00:00",
+      "source": {
+        "name": "La Web de la Salud",
+        "url": "https://lawebdelasalud.com"
+      }
+    },
+    {
       "id": "e63e6ecfadbd",
       "title": "Importante respuesta ciudadana en la campaña de recolección de medicamentos vencidos - Municipalidad de Paraná",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQN1dlZGlVUGRSYzBQZG96aGhYOEdsYzh4NkVLZlRxdy05X2NEeDlSMGpyOVRPdzdzVDEweHZScmJOVE9mUE9IMDlrckhoRFhQcF9reVhrU2VjSmVKZkFIMXVwU0FRUnlVenRkUWNrM3FLTFJNMV9LUlhVb2VvSjZ1Ty1aS25YVTNEdjJ3Q0tMaFJ6VUVvN2FMMXY1bUJXZW1Udi1ydHBFd2RDVmVCOGFtU0JPWVVkTUszMzNJ?oc=5",
@@ -781,16 +761,6 @@
       "source": {
         "name": "Municipalidad de Paraná",
         "url": "https://www.parana.gob.ar"
-      }
-    },
-    {
-      "id": "92ec166d6d68",
-      "title": "Conducir bajo los efectos de medicamentos: un riesgo que supone entre el 5% y el 10% de los siniestros - ConSalud.es",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQYjhNbDB5NFBpSS1FM0x4ZmVhWDFPWTNScUUydnpXajBRTUMxbnZURURhc2xUbXhDUmVWSkMzeGpmdUh3bVNkT2J5bkNHajJIOGdCajRwQXJ6N29UcTZfWnBtRFNtMjVFb0k3TmNGbTFXR0o4dlVhVjVITVhIY0RjeTdjaXExNjliV09RWXM2WncwaGpQaFBPOWhSY1hpS1pUS1Z5VERKekx3cG5LTTJVNzVXdVlpQlhHVjVpc0tSYmJWNmN2SGU4QXBpYXVpY2NWcUtHcw?oc=5",
-      "published": "2026-07-09T11:16:00+00:00",
-      "source": {
-        "name": "ConSalud.es",
-        "url": "https://www.consalud.es"
       }
     },
     {
@@ -824,16 +794,6 @@
       }
     },
     {
-      "id": "484996599cbe",
-      "title": "Un análisis revela que los medicamentos para la obesidad apenas mejoran la calidad de vida - La Razón",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPT0NsLXZkam9QX3k4d194TGVteDlfYlNNTnBlUWlnMjlHOXk5cGp6U0paOVU0TDNDSFFXYjhGdU5tR1lPLWRMUTRONlg1bkxZbDBzMUNsdXJqNXZPMUxuR2NBMmhUYjRCZUdnTS13cS1RSFZCNTFnUHZicll1RjZHTThQQ1M5TnJNRmR4b0w3eDJLdjcyRkFwWmdVNVF4d1VVZVRoOFZPZ2JGMElYeGZaYzZ3OTFmSm5ocHJzLU82NDRrM1J0VzFMNkNjYXY3TTdRc2fSAeYBQVVfeXFMTzRyX3Mtd013UlhPREs3UGtObEtjbGVnb3JBU29PYUZ1VHJ0d0VqRURUT1cwc2lUWm1IWmFhNGNMWm5UOWpOVGRSNExOWGFlYTlQSDI3N21vVlA0SXZhMGtIbWpfSDhNMkwyZnozcmI2ODZwamIybllOWDBFUXNyOUgyNHBxbkE0Y0VlTmhNV3ZJWHEwbmtqaTBoWjNuLTdPVVU5ZGxLeHZYM3M4c2NNSHdaaTlfSUh2M1RUUUlsQUw5UVZsMVUwZjBJNzRLSGxVT3JUVEtWQ1hDUHVnR1kxaUdOYlpHMHc?oc=5",
-      "published": "2026-07-09T14:45:14+00:00",
-      "source": {
-        "name": "La Razón",
-        "url": "https://www.larazon.es"
-      }
-    },
-    {
       "id": "0b426195fda5",
       "title": "IPROSS mantiene la cobertura de medicamentos: hasta 70% en crónicos - Gobierno de Río Negro",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSEVPdzZIQTBSX3g4aVpBcEgxY0FWMU9rRW5ETEltbkhiLWM1RjBwdWVlbEppX3ZWZG4wa0YyS3pVaHdPbTlTSk1CVUFPbzhWYk5ZSzJqamNrMUk1WUdpUkxqeU5fUHQwaTd4bG5YZXpLZml3anZmN09vUXNVMHpkZ1Jyc2FFc1BFWE80S2Zydi1rOHNnd0NwZGowSWhFLVNLSGpxak9rVQ?oc=5",
@@ -844,6 +804,16 @@
       }
     },
     {
+      "id": "d302b463a30c",
+      "title": "Conducir bajo los efectos de medicamentos: un riesgo que supone entre el 5% y el 10% de los siniestros - consalud.es",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQYjhNbDB5NFBpSS1FM0x4ZmVhWDFPWTNScUUydnpXajBRTUMxbnZURURhc2xUbXhDUmVWSkMzeGpmdUh3bVNkT2J5bkNHajJIOGdCajRwQXJ6N29UcTZfWnBtRFNtMjVFb0k3TmNGbTFXR0o4dlVhVjVITVhIY0RjeTdjaXExNjliV09RWXM2WncwaGpQaFBPOWhSY1hpS1pUS1Z5VERKekx3cG5LTTJVNzVXdVlpQlhHVjVpc0tSYmJWNmN2SGU4QXBpYXVpY2NWcUtHcw?oc=5",
+      "published": "2026-07-09T11:16:00+00:00",
+      "source": {
+        "name": "consalud.es",
+        "url": "https://www.consalud.es"
+      }
+    },
+    {
       "id": "df05f20472be",
       "title": "Desde 2026 regirá plenamente la receta electrónica en Entre Ríos - Gobierno de Entre Ríos",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBkdjlKQWdlcXlUUUVnVDFZRS1EVnl4SkJZcXlsc3g5b1VQOG1Xbm9pUXlyZS1na2lQSzU2Y21EOUUtWUlDUHV0Q3V5NVZ6N2hqYVRIaURhZjd3UQ?oc=5",
@@ -851,16 +821,6 @@
       "source": {
         "name": "Gobierno de Entre Ríos",
         "url": "https://portal.entrerios.gov.ar"
-      }
-    },
-    {
-      "id": "f577f2cbe06a",
-      "title": "Ministerio de Salud Pública garantiza medicamentos para pacientes trasplantados mediante entrega de Everolimus - Ecuador Comunicación",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQd3ZjUEZIaHpwb0lHcG9yX1FTS0RSR1pMRTduZjhPWTJJc0xwcFh1UmtjQ3FDd2lDbG5LR1BaUU14S0w2dDRSUDNWUFRtbWtXUGxLcm03Q1RMQkhUSEs5WElQeGJlelRWSVNMQmVyY3NtZW9mR2UtRzlCOE5qQkxCZnJaQ3NHQXFvSjhUa3hGSkJna3EybHY0OGFVWHdxa0lQOWZ1N1BXM1p0UmpIdkxUdzJjcnlQQ3VOczZndXRObkJHZjdoM3VYTkZkc1pCZkFWcDNlY0VLUHVlUQ?oc=5",
-      "published": "2026-07-09T22:20:00+00:00",
-      "source": {
-        "name": "Ecuador Comunicación",
-        "url": "https://ecuadorcomunicacion.com"
       }
     },
     {
@@ -914,6 +874,16 @@
       }
     },
     {
+      "id": "f577f2cbe06a",
+      "title": "Ministerio de Salud Pública garantiza medicamentos para pacientes trasplantados mediante entrega de Everolimus - Ecuador Comunicación",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQd3ZjUEZIaHpwb0lHcG9yX1FTS0RSR1pMRTduZjhPWTJJc0xwcFh1UmtjQ3FDd2lDbG5LR1BaUU14S0w2dDRSUDNWUFRtbWtXUGxLcm03Q1RMQkhUSEs5WElQeGJlelRWSVNMQmVyY3NtZW9mR2UtRzlCOE5qQkxCZnJaQ3NHQXFvSjhUa3hGSkJna3EybHY0OGFVWHdxa0lQOWZ1N1BXM1p0UmpIdkxUdzJjcnlQQ3VOczZndXRObkJHZjdoM3VYTkZkc1pCZkFWcDNlY0VLUHVlUQ?oc=5",
+      "published": "2026-07-09T22:20:00+00:00",
+      "source": {
+        "name": "Ecuador Comunicación",
+        "url": "https://ecuadorcomunicacion.com"
+      }
+    },
+    {
       "id": "7a9845748f2f",
       "title": "En lo que va de 2025, Santa Fe compró más medicamentos y con un ahorro del 83 % - Gobierno de Santa Fe",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1US3ZEWmxWVDdWQWxnZENWQy12Z29DSFBNWm4tcHJ6N2FWOW1vQmJPb085ZmN1OUJOQzhlZkNNR1IzNkhLd3pfYTA1WUFpSkt0UHZlVlgwQWxlYmFQYi1lSA?oc=5",
@@ -934,23 +904,13 @@
       }
     },
     {
-      "id": "27ff76c0a166",
-      "title": "Sanidad cubre todas las plazas de Farmacia en la fase extraordinaria de la FSE 2025/2026 - Diariofarma",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOa0pQWDZDanVSMUh0cVljcWVMZmVrZERfNWZ2VVFoMDZFVFFqMnlhc3JTSDlGYi00a0FhclFCTWJzMXNZUWMyeU96bkk1d3N1VklhamZZSWdXNFBRa29kb0tGcXBrZ2owR1g0ZHZlSEVrMEZaS1VzYnJXM2FKa1BITlZ3Wm4xZjZSb3Q1WGk1bktua0ZqSHpEQ2hqSEFuUzlkSEJkVXlxZ2VzQU9ENlJQaTNTQlI3R21QVmVBR05zd3Y?oc=5",
-      "published": "2026-07-09T15:22:17+00:00",
+      "id": "484996599cbe",
+      "title": "Un análisis revela que los medicamentos para la obesidad apenas mejoran la calidad de vida - La Razón",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPT0NsLXZkam9QX3k4d194TGVteDlfYlNNTnBlUWlnMjlHOXk5cGp6U0paOVU0TDNDSFFXYjhGdU5tR1lPLWRMUTRONlg1bkxZbDBzMUNsdXJqNXZPMUxuR2NBMmhUYjRCZUdnTS13cS1RSFZCNTFnUHZicll1RjZHTThQQ1M5TnJNRmR4b0w3eDJLdjcyRkFwWmdVNVF4d1VVZVRoOFZPZ2JGMElYeGZaYzZ3OTFmSm5ocHJzLU82NDRrM1J0VzFMNkNjYXY3TTdRc2fSAeYBQVVfeXFMTzRyX3Mtd013UlhPREs3UGtObEtjbGVnb3JBU29PYUZ1VHJ0d0VqRURUT1cwc2lUWm1IWmFhNGNMWm5UOWpOVGRSNExOWGFlYTlQSDI3N21vVlA0SXZhMGtIbWpfSDhNMkwyZnozcmI2ODZwamIybllOWDBFUXNyOUgyNHBxbkE0Y0VlTmhNV3ZJWHEwbmtqaTBoWjNuLTdPVVU5ZGxLeHZYM3M4c2NNSHdaaTlfSUh2M1RUUUlsQUw5UVZsMVUwZjBJNzRLSGxVT3JUVEtWQ1hDUHVnR1kxaUdOYlpHMHc?oc=5",
+      "published": "2026-07-09T14:45:14+00:00",
       "source": {
-        "name": "Diariofarma",
-        "url": "https://diariofarma.com"
-      }
-    },
-    {
-      "id": "28968c3984c8",
-      "title": "Vietnam desarrolla vacunas y prueba nuevos medicamentos. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcTZITDBsZjQ0c0JrNWVJVmFWOTNRVC1IT2JoRXNyV3JhaFlGNHUwSEZkazlvbmZac1NTRDJoUzNsVENQTW5vVDR4TEI4NF9pZ1k3NzVPRG5LbVIzLUJURThUVWh1M1Q5dTQ0MG9VQUlDMVVQNVU0NnZ0Rk1xUGtsbXZSbk0wSzdTZDdR?oc=5",
-      "published": "2026-07-10T01:48:09+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "La Razón",
+        "url": "https://www.larazon.es"
       }
     },
     {
@@ -994,13 +954,53 @@
       }
     },
     {
-      "id": "8c8fcc5d2f76",
-      "title": "Intensifican controles a gestores farmacéuticos por entrega de medicamentos en Soledad, Atlántico - Caracol Radio",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWFk2ZFItOEZqSU1jbzFNcFJyRzduYVhUTHhJRlFLeTJ0TWlMeS1YYlhOVF9fZUF6QTBQNWRTY0V5cFZkUnhzUURZaWhVV2wtWFU0emV1eTBiaWNvMGpFQllLUVlQSHdnbmpyZXF0U1NwNENYbXpwNG9GNVpWd2RMdFNWUW9tLTlfUG1jdmowLU9wMFFzWl9jYW44NjZEUEc0Q1pVc1FZaXJJYWZaVVNQSWhhdmkyMVFXNDZ3azlsX3ZsVkU0Z05WbHZfc9IB3wFBVV95cUxNUTNfZXFyLV9STDZzZHp4VmgwbmpWVl9GUlIzaGZKSTJRWHdmYXVkS2ZHZHJMY1BNR1FUclg3WlZORi1RSWc2ckI5Tl9wbkphREJDZEVHeWUtU1AwUkU5RzdEdmU4b3RzSXNKMjlaa0hmUUZpRG15NEJyY1ZLbUtIWWo5WUctX1ZUUk1idThMd0RsNzZock1qTFAzU2RvbkNQWUdGamt3blJoY3RvS0NtWERDZVNRMHg0UFhFd2NIUlZMcFg3eUhJQWJlcVdiNW15VFBRRXhPMXdrVGd5QXJj?oc=5",
-      "published": "2026-07-09T21:07:13+00:00",
+      "id": "23cfb540c32b",
+      "title": "El Rol de los Medicamentos Genéricos en el Mercado Farmacéutico Argentino - Gestión y Economía de la Salud",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQ3g1UGxDLVZJOXN1Y2YxNjZsNERlcDNnb0FuMmZRZ0E5RVdKbE5qbjI0OHItU21FeW5JZ2NTMkR3X2Y3ZHNxVWwyUkNKMGYzVllCcXFwV0VUd3BPc3BYV291OURpcEczWER3ZXZtZDZfYVZuT3RRb20weVRlZkdjaHRxNGhMWFh3dk1TQkg5SVI2YWtqVEpvXzg2U1BVSXNqVlhDZGZiMUFqRGk4eEE?oc=5",
+      "published": "2026-02-01T08:00:00+00:00",
       "source": {
-        "name": "Caracol Radio",
-        "url": "https://caracol.com.co"
+        "name": "Gestión y Economía de la Salud",
+        "url": "https://saludbydiaz.com"
+      }
+    },
+    {
+      "id": "5bd3e02378fa",
+      "title": "La Provincia garantiza medicamentos gratuitos para adultos mayores y fortalece el acceso a la salud - Gobierno de la Provincia de Formosa",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOaTJDWDlna3BxU0JqSk1HOEV1eVdzMFF0d3ZZcVJvd1QwMzgyRzZmdFJhb2RKZ3RpRnE5a1BqWGdNZTlwUFItc3A0Z3lLVVhfc0xUY21fLUlUS3ZMV1dIdTlTLXpJWTVWcVI3ZndiVUNSbUd3b0x5Nl9tT1NBWi1VY2VrbVNIVmJnSndzMXVDbXZHQ3NvVUN4SzlrNUI1SldPUnAzQ2g2UzQ5akVZU09iaklkMnpIRGcyY1U2TFA2UTFIWjg3VUoxcWRBUHN2ZmotaVp5MG45bVk4LWda?oc=5",
+      "published": "2026-03-26T07:00:00+00:00",
+      "source": {
+        "name": "Gobierno de la Provincia de Formosa",
+        "url": "https://www.formosa.gob.ar"
+      }
+    },
+    {
+      "id": "7cb37bbf9b63",
+      "title": "Noelia Burgardt: \"La soberanía en la producción de medicamentos es esencial para cumplir con el derecho a la salud\" - cic.gba.gob.ar",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbFNNMVFGVTAyYWpvSDBXcXBac2gtNmhkRVBSdm1panlldDJ1VDhiTS02N2I0YWlKRXdnUENVeDlLYTVvTkNfY3dLSVNfMnphNFdSOG02WHR6bkNMb04ybHpGSFVYaTc5MVNpZmw5ZzVrRmVBNTNVRTNzMUU4cUhQUjdMbHpBZGduRl9HYkJ3?oc=5",
+      "published": "2025-11-20T08:00:00+00:00",
+      "source": {
+        "name": "cic.gba.gob.ar",
+        "url": "https://www.cic.gba.gob.ar"
+      }
+    },
+    {
+      "id": "3940a1524fd7",
+      "title": "El funcionario que define las compras de medicamentos contra el cáncer y sus vínculos con farmacéuticas - Salud con lupa",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQdU1SQ20xRU1IUklyWEpqMkh6Z044b3NFcmM5N0xuYXRWMnZhWGRVUWhtMGtxejNTaWQzMWEwYlJGZkg4NFZVNzNta2tQTDktdDZoZmhlQWFDUklTRGhNdGhGM2toQ21tenhMY1MzRUxFOTNkcnpQV3dONDFsN1lYbnJtLTJxVW1xOWdZZDhrN3gtci0xM2djZnkxMU9PSlFsRmFoTndIaWJmbUt3NXNiazdUcDlEdE5WZTBkUm0yYWdtWHhpcUtWVnZpVFNjdW15NzdBRw?oc=5",
+      "published": "2026-04-28T07:00:00+00:00",
+      "source": {
+        "name": "Salud con lupa",
+        "url": "https://saludconlupa.com"
+      }
+    },
+    {
+      "id": "28968c3984c8",
+      "title": "Vietnam desarrolla vacunas y prueba nuevos medicamentos. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcTZITDBsZjQ0c0JrNWVJVmFWOTNRVC1IT2JoRXNyV3JhaFlGNHUwSEZkazlvbmZac1NTRDJoUzNsVENQTW5vVDR4TEI4NF9pZ1k3NzVPRG5LbVIzLUJURThUVWh1M1Q5dTQ0MG9VQUlDMVVQNVU0NnZ0Rk1xUGtsbXZSbk0wSzdTZDdR?oc=5",
+      "published": "2026-07-10T01:48:09+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     }
   ]
