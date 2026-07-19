@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-19T11:58:18.169732+00:00",
+  "fetched_at": "2026-07-19T13:42:23.567510+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -14,16 +14,6 @@
       }
     },
     {
-      "id": "23695ab07c46",
-      "title": "La pastilla para el colesterol de Merck obtiene la autorización de la FDA de Estados Unidos - CNN en Español",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdzJTQkQwb1ZFZkhzZlRVNFVYbTBhZUFSTW1LNGhqZkZCZ3ZRenBWNzlPcDRYMnJySnlIV1hhY2pEU0dZTUlrNHdLaVFqQlpsNUtwQ0tlQnlacXNJcDMwVjlZaFNDRHVoclFNZ2JoX1VDaU5oOExSV0xJbUhQMU9hSmdIbTJoeWVRMTNabQ?oc=5",
-      "published": "2026-07-16T20:24:00+00:00",
-      "source": {
-        "name": "CNN en Español",
-        "url": "https://cnnespanol.cnn.com"
-      }
-    },
-    {
       "id": "6cbf5a9ac5f7",
       "title": "Crece la demanda a través de Medicamentos Solidarios - El Patagónico",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONS1OZEdqU21pSzZkRXplVGJCOS1Nb1V2ai1pdFJ5Rk5fdWJVTnZldWlvZlRGdGtHa2E5ZDNRVEJDN09OQm9tM19xaVhMSVZycTJrZjhqQkd4SzBfcDM2N3BfZnRZLWpIRENNSmJJdWZZaEhUdWgyVy04SHlCc19SazYxRjhKTnBzczE1Q0s5ejjSAZYBQVVfeXFMUEFyZGV5ZWZPV3Zfbzg3R0kxMHllUF9pd3lPYVJBVEFWbGRnZHFKbnFnb1ExZ29RdTk4RktzaFZCcmNwcEVJaEd3Uy1PUzdzRldqQUtTQ3Q2Q0VzMnhTMVZPNFEyTVJqWnhyX2FSZUY4MFVKa0NTaGlVN2FRVWU5QUcwdnRrS1N5YVRFTE1JeE9FdnRKN2FB?oc=5",
@@ -31,6 +21,16 @@
       "source": {
         "name": "El Patagónico",
         "url": "https://www.elpatagonico.com"
+      }
+    },
+    {
+      "id": "23695ab07c46",
+      "title": "La pastilla para el colesterol de Merck obtiene la autorización de la FDA de Estados Unidos - CNN en Español",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdzJTQkQwb1ZFZkhzZlRVNFVYbTBhZUFSTW1LNGhqZkZCZ3ZRenBWNzlPcDRYMnJySnlIV1hhY2pEU0dZTUlrNHdLaVFqQlpsNUtwQ0tlQnlacXNJcDMwVjlZaFNDRHVoclFNZ2JoX1VDaU5oOExSV0xJbUhQMU9hSmdIbTJoeWVRMTNabQ?oc=5",
+      "published": "2026-07-16T20:24:00+00:00",
+      "source": {
+        "name": "CNN en Español",
+        "url": "https://cnnespanol.cnn.com"
       }
     },
     {
@@ -124,16 +124,6 @@
       }
     },
     {
-      "id": "5b02cc8bcd12",
-      "title": "El programa de medicamentos solidarios asiste a vecinos del barrio Km. 14 - El Comodorense",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSHEzOU9jQjktMnRaamRsbXhGYmVsdjhjc3J0X28xdnZnS20wY2piMF9hNWNvRllfdzhnYXRMMGRrdnVXV2RDX1J2TjNSWmlMeEZGcWhoR3Y1dGNXenYyWDR4OEFPR3VHVmg0SndGV3Rwd3JhV3dTUlhnQ3RPM0JCOGhRUGV4d1BETG9tZGRfSWptOXhGdWh5WU5HZldIRmU2bXBVUnlB?oc=5",
-      "published": "2026-07-18T17:28:30+00:00",
-      "source": {
-        "name": "El Comodorense",
-        "url": "https://www.elcomodorense.net"
-      }
-    },
-    {
       "id": "ecc3249b7790",
       "title": "Medicamentos: eliminan un requisito para agilizar la aprobación de nuevos tratamientos, qué cambia para los pacientes - El Litoral",
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOSFZlRU9taFk0VGx2TFRzWS1JWl9OMXZYWnE3QVRhUENkTUdWNm5xUzVYQzlTOU1INFl5RGU1NHl4WlhGSHloeExNeHozVmNPa0wzWEFRTk1MUjNqUVhXazZfREUzOEEyd2kzLTl4TmVmd053RVdrTEVMdTN2U2Y2TDBxX0FUSnRNLVVYS1B3djdxWjVRNVBEdWtwMFFSV3hTVE1EcGM0U1BQeWJYbG44ckpTcF9Cbll4UmJuS0NOb2I5VV9qQkE0MUM3LUZFOXpFRUp1Mm1wSWN0VGdkMUd0WGY3c9IB6AFBVV95cUxNQUl6b0VCcVBjbHNWbWViUnFFZDVrYVRxbFY4T05mX3pBV2loODdfUXk3TTM1WnJtNHBoNmR0aV9iWUZFdWw3Mmh4WDNUS0hta08wQjFIN29fcTMyUzF1Y2otN0M3RjZobllWOGNjUEl6ZkVqby0wR3I3UEwwOUF6SWVTa3ZWWV9xc29VWi0yRGtZRDQxcEdBWURqQ1FXWjlXUVprbUROZXZza3IxQW83eC1rM1Z2SllKR0RIVy1fV1RadzE1QUVsb3JWU19oZFdIaFUxeklDYWs3RUxlYno4blZ3OFZaLVpo?oc=5",
@@ -151,6 +141,16 @@
       "source": {
         "name": "Pan American Health Organization (PAHO)",
         "url": "https://www.paho.org"
+      }
+    },
+    {
+      "id": "5b02cc8bcd12",
+      "title": "El programa de medicamentos solidarios asiste a vecinos del barrio Km. 14 - El Comodorense",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSHEzOU9jQjktMnRaamRsbXhGYmVsdjhjc3J0X28xdnZnS20wY2piMF9hNWNvRllfdzhnYXRMMGRrdnVXV2RDX1J2TjNSWmlMeEZGcWhoR3Y1dGNXenYyWDR4OEFPR3VHVmg0SndGV3Rwd3JhV3dTUlhnQ3RPM0JCOGhRUGV4d1BETG9tZGRfSWptOXhGdWh5WU5HZldIRmU2bXBVUnlB?oc=5",
+      "published": "2026-07-18T17:28:30+00:00",
+      "source": {
+        "name": "El Comodorense",
+        "url": "https://www.elcomodorense.net"
       }
     },
     {
@@ -174,13 +174,13 @@
       }
     },
     {
-      "id": "96b5befb6b09",
-      "title": "Médicos advierten sobre el uso indiscriminado de antiespasmódicos - El Sureño",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQ29CSXZSYzdXVUFhWU5sNUVEZjMxTHNEa3VxRXRTaUVIWG96cERQZEwyZ1pQRnRra2c5R0w4bU93WllaY1k4aGIwbkVSb2s1aWRtLWM5UGVJb0JxSlhxN2lBR2hVbW11ZkJRckZKUW1aMjQtbmFfbjA2c0JlcUZ6SGo3cUNYSFlHbzdVOHhrbXl3RkxEOS11VXN1bDRjOXkyUzJEYWNSajZ5QQ?oc=5",
-      "published": "2026-07-18T21:32:35+00:00",
+      "id": "f9b67b697c8b",
+      "title": "Salud: ante el retiro de Nación, el gobierno de Pullaro inició el reparto de medicamentos a centros de salud y hospitales de toda la provincia - Gobierno de Santa Fe",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBIZ21PMjhRYjBmSWJIWjJWOXh3UTVTN0ppeHo0c2lBQ0h0MVRhQW00R29ZR1MwM25OcXBxYy1LMVhjYnFhUHB0MFc3T1JfaDhwVHBMZDZ5czZrYlFYN29oMA?oc=5",
+      "published": "2026-05-18T07:00:00+00:00",
       "source": {
-        "name": "El Sureño",
-        "url": "https://www.surenio.com.ar"
+        "name": "Gobierno de Santa Fe",
+        "url": "https://www.santafe.gob.ar"
       }
     },
     {
@@ -214,16 +214,6 @@
       }
     },
     {
-      "id": "f9b67b697c8b",
-      "title": "Salud: ante el retiro de Nación, el gobierno de Pullaro inició el reparto de medicamentos a centros de salud y hospitales de toda la provincia - Gobierno de Santa Fe",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBIZ21PMjhRYjBmSWJIWjJWOXh3UTVTN0ppeHo0c2lBQ0h0MVRhQW00R29ZR1MwM25OcXBxYy1LMVhjYnFhUHB0MFc3T1JfaDhwVHBMZDZ5czZrYlFYN29oMA?oc=5",
-      "published": "2026-05-18T07:00:00+00:00",
-      "source": {
-        "name": "Gobierno de Santa Fe",
-        "url": "https://www.santafe.gob.ar"
-      }
-    },
-    {
       "id": "9b0f9fd25cfb",
       "title": "Gestores famacéuticos estarían negando medicamentos para ejercer presión y que las EPS paguen su deudas: “Es ilegal” - Infobae",
       "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPS1c0Y1NpQ25xUllRZm01SENuQmJETWQteVpQVllHWk5IMC1GTFg1VUpIMW5BMnVvaDNWUU1WLUI1WFA5emNkcjN6dW84SEFESDZCZWdlWGlvcUFzVVBWMlB2UVdQQ09GWjNodGVFU3RpcEwzUXV1VE5VLXVqZ1BmaHdNUWd4N3FlQ0JKRXByVjRweXVRVmdGZkJnalpnREJVV1A0ajNXOGM0cUpHMmNETElmODY2YTYtakRDYWNUakxOWmUyN2psV011dGZSZnZuc1cxMEJaUkxNWUF5eWpLYldLMVNlM2JRYUp6SHpVZ9IBigJBVV95cUxPa0VYM2hFbTZFVWZHekkxM2ZoTWtwN3pUeTd2RHJodjF4MDdOTmxkQ0NJd1NSZS0wWFRVUVpVallwSzN1OW1PN3RLaTY2dzdtdGZIM0VFSXlJbDFyVU5KUFhtX0l6MllNXzgzQzRIOWJSQkhhUjY0NG5iOVA4OEpqOWNoT3RwNUhhY0dKWkYyWUlxNXlkWTlWWUNtUWJfcElsQWU5Nk1jX0h1c0FrdXhnVGtseEpnYWlvdG81TFJpc0kyalBsRTVqQi1CMDEwWTE5NjE2cm01aEhOaUtUZkxVTnBVVVUxdlRkR2RuQm9OaDU4S3M2Zl9xWnU2RURacDhqdm5UeXdTMmdKZw?oc=5",
@@ -244,6 +234,16 @@
       }
     },
     {
+      "id": "96b5befb6b09",
+      "title": "Médicos advierten sobre el uso indiscriminado de antiespasmódicos - El Sureño",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQ29CSXZSYzdXVUFhWU5sNUVEZjMxTHNEa3VxRXRTaUVIWG96cERQZEwyZ1pQRnRra2c5R0w4bU93WllaY1k4aGIwbkVSb2s1aWRtLWM5UGVJb0JxSlhxN2lBR2hVbW11ZkJRckZKUW1aMjQtbmFfbjA2c0JlcUZ6SGo3cUNYSFlHbzdVOHhrbXl3RkxEOS11VXN1bDRjOXkyUzJEYWNSajZ5QQ?oc=5",
+      "published": "2026-07-18T21:32:35+00:00",
+      "source": {
+        "name": "El Sureño",
+        "url": "https://www.surenio.com.ar"
+      }
+    },
+    {
       "id": "1a788f550dab",
       "title": "Ultimátum a dispensarios de medicamentos del país: Superintendencia de Salud emitirá circular para que la atención sea más ágil y oportuna - Infobae",
       "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOSDhuTzFmb21xX3pUM0E1RUota2poOTE0bkRrYlNONEx1c1o5M0lka1BnR0lVWGw4QUFLREx0RXhvcjVnbnhqQWYwRUZia3dJUlZ5OGdpazBmM1hqaFB0cklXYUw3NkNpV2RheXJKMjI1OHQxQXZXX0tWd1NQLXFXbVJJU3B0c1l4ZHFieVQwdWxPQ3hHdnJGNXhlbGlYbnhZbFQ1N3kwaGxtbnJfWGZlQUxwVWJpXzZYNEpNclFUTmdBTmNNT0lGM1NnYWJIWTk3bUZseER5VHQtRldHb0NZWmJmb2RPYjlkeTNQaVFDWG1hWnpIVm5qSHd30gGUAkFVX3lxTFBpZDJadUJsdGdOQk1CY0RuUFQwMl9ySzFDd3BkMXozXzBtcmYxbmZ4SEc4ak1FVUItM2RjZ3g3TTBFbnRtNXl3endDMm5GeV92ODJHNExDSE5jUUVCZjFaWGRfUmwzdzJhNWI3UjZrUVktU24yMjZxcVBuTnhtYVpzbDdsRUJRSmx5WkRPYktlaEkyME5BR0s3NmVraW1OdnAyekNnc0ZxMlA1UDFBUVg3RXc1bXc4OUgtckhjSEI3TS1KRmV5UzIyRFNYRmxUT0MxNnJBR1NDOTYxbE9ENjViUXdkOXVZZTFPdFNqUlhtcHI4VmpLbDE5LVl4dVo0MzZaOHVoYW92M1JaSGhkXzRyMzBwZA?oc=5",
@@ -251,16 +251,6 @@
       "source": {
         "name": "Infobae",
         "url": "https://www.infobae.com"
-      }
-    },
-    {
-      "id": "0d4d38602e1f",
-      "title": "Mario Lugones destacó avances en vigilancia epidemiológica, inteligencia artificial y regulación de medicamentos - Cuestión Entrerriana",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNNzhpTTIyN3dQRFc3aGIyM053clJHQm1NTnpHdTdqVXRKdFdHaDVESVk4TDI1Mzc5ZjN3azBIMkJva1ljMnA3enBEbWlKVjNRZjVZX0RMN1Z1bDhKTFJDcGRwOTFwZTIzcGkwR2hmUHJuMVFDamUyUS00RUVwUXVzc25WTHFKZUxCcE5YUzRSQ2ZhQmJJc1NkYmlvYlRBNUtRR29QcU9PSFFvMXZxd1A4eTJqcFJQWUlQVzlvUGdkNGFfYkVHbjhSNWY2MTBpeWs2eWN3R3ZSYkotal9RODU2bw?oc=5",
-      "published": "2026-07-18T16:28:08+00:00",
-      "source": {
-        "name": "Cuestión Entrerriana",
-        "url": "https://cuestionentrerriana.com.ar"
       }
     },
     {
@@ -284,6 +274,16 @@
       }
     },
     {
+      "id": "0d4d38602e1f",
+      "title": "Mario Lugones destacó avances en vigilancia epidemiológica, inteligencia artificial y regulación de medicamentos - Cuestión Entrerriana",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNNzhpTTIyN3dQRFc3aGIyM053clJHQm1NTnpHdTdqVXRKdFdHaDVESVk4TDI1Mzc5ZjN3azBIMkJva1ljMnA3enBEbWlKVjNRZjVZX0RMN1Z1bDhKTFJDcGRwOTFwZTIzcGkwR2hmUHJuMVFDamUyUS00RUVwUXVzc25WTHFKZUxCcE5YUzRSQ2ZhQmJJc1NkYmlvYlRBNUtRR29QcU9PSFFvMXZxd1A4eTJqcFJQWUlQVzlvUGdkNGFfYkVHbjhSNWY2MTBpeWs2eWN3R3ZSYkotal9RODU2bw?oc=5",
+      "published": "2026-07-18T16:28:08+00:00",
+      "source": {
+        "name": "Cuestión Entrerriana",
+        "url": "https://cuestionentrerriana.com.ar"
+      }
+    },
+    {
       "id": "07477756dc6d",
       "title": "Desde medicamentos esenciales hasta material descartable: cómo funciona el sistema de almacenamiento y distribución que puso en marcha Pullaro para abastecer la salud pública - Gobierno de Santa Fe",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBXTHJLc3JscG1lRW45MTJ3V1VBeHNwNmgxTDRtZzREc2tEa0ExR1BHS0pnMUZVbFpRM0p1YVFZUVNnX0JhOFVvcFhNb1FqZG55M0VIUmtGdi1KWGxHV0RiaA?oc=5",
@@ -304,16 +304,6 @@
       }
     },
     {
-      "id": "dde2d62b4765",
-      "title": "Medicamentos genéricos: la infraestructura silenciosa que sostiene la sanidad - Interempresas.net",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVWQ1Ul8xYXNoUFZoUFotV0ZHcmlsaEJuSWxoNUI5dUsxU0RQSndPbGM2U1pEbk1udDM0MTZhWmV5ZTVIN0taR3JESVFVVTV4WkpXUUo5ZGtPWDBaWUdzMGxjclZpQWhBb0FYdmo5WVRqMXdybjREYlA3MWhzdWptYXpBb2ZUZG5WbWw4MS1ZT3Q2OHRpYVZhTTFqdjB5WFJ4bUM4TlhoRlNOanMwdVA2RlgwV1pJRlVaRE1uTzVybERNZWh0Y2c?oc=5",
-      "published": "2026-07-14T06:58:01+00:00",
-      "source": {
-        "name": "Interempresas.net",
-        "url": "https://www.interempresas.net"
-      }
-    },
-    {
       "id": "4234ba65a6c0",
       "title": "“El financiamiento de los programas del Ministerio de Salud de la Nación está garantizado” - Argentina.gob.ar",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQTEVpeTI5WktQektkVml2QUlrQVFaNGRQUGE1by1ScUpBNjR4NG05SDNELVNsbXBRc3FZY0t1OG5oeDNrRjNCajN1dGFMNFBOM2tlcGI3bTU1VG5aVWhxYTVjMUpUeEhtMjQ3MXRYU2IybWdCRVhqdWpFOHRVdGRiZ240eHB3bi12YzAwVlhGOVkxcDV4eXFQM3hPdXZBQXBNWFU3R0dtMDVrN0hiUThVd3FBbEp1Z1FQWDl3TVlvWVJYZ1VX?oc=5",
@@ -321,6 +311,16 @@
       "source": {
         "name": "Argentina.gob.ar",
         "url": "https://www.argentina.gob.ar"
+      }
+    },
+    {
+      "id": "dde2d62b4765",
+      "title": "Medicamentos genéricos: la infraestructura silenciosa que sostiene la sanidad - Interempresas.net",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVWQ1Ul8xYXNoUFZoUFotV0ZHcmlsaEJuSWxoNUI5dUsxU0RQSndPbGM2U1pEbk1udDM0MTZhWmV5ZTVIN0taR3JESVFVVTV4WkpXUUo5ZGtPWDBaWUdzMGxjclZpQWhBb0FYdmo5WVRqMXdybjREYlA3MWhzdWptYXpBb2ZUZG5WbWw4MS1ZT3Q2OHRpYVZhTTFqdjB5WFJ4bUM4TlhoRlNOanMwdVA2RlgwV1pJRlVaRE1uTzVybERNZWh0Y2c?oc=5",
+      "published": "2026-07-14T06:58:01+00:00",
+      "source": {
+        "name": "Interempresas.net",
+        "url": "https://www.interempresas.net"
       }
     },
     {
@@ -351,16 +351,6 @@
       "source": {
         "name": "curecompass.com.ar",
         "url": "https://curecompass.com.ar"
-      }
-    },
-    {
-      "id": "6ac7e25f60e5",
-      "title": "Presentan proyecto de ley para garantizar el abastecimiento continuo de medicamentos esenciales - Más Encarnación",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPX3RmcWdXUG8wVlBuM3VrSUpIUnpkV1BsNUJqNHI3MzNjcUliU0FDbE9KREJRc3I0dDZZU28xa3UwVGR1NlhXdVRQd2otdGl3NFVfbS1CSERGN3pSZVZUSS1INHdRNDFvYWRuN2ZZVTFtWnJLeHFfZXZINExHSG93WnRCRWhrRmJGZlVrTGFNYW80Y01lazNueGNrTDcwOGtDRkxuM3E5QmZvN3g2YktGMEdQUEthZ0s4R2ZxdlhNLThtbThqcmxUUFJmeldBY0VG?oc=5",
-      "published": "2026-07-18T21:48:24+00:00",
-      "source": {
-        "name": "Más Encarnación",
-        "url": "https://www.masencarnacion.com"
       }
     },
     {
@@ -464,13 +454,13 @@
       }
     },
     {
-      "id": "ea8a65cacf64",
-      "title": "Farmacias de San Juan: cae el consumo de medicamentos y el sector se adapta a un nuevo escenario - Diario La Provincia San Juan",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNTjlJQk9MVFhlQU05N2hBTUZ0RXR2ZlA4bkFCM2ZEVjQ3djk3ajlYT0lpcTJ5T3EwOGZja0lONU5qaW1zVklhakdDZ2ZPckNMUzZBeHpuaGk5R2ZIcW9UdVliOWU0ZGZHQ0FxSkM2WHBNYkVOTXpnOG1Jdm9JYjZMbzdKaEkwbnF6dXRrU1c2b25ib1dvNkV4RDdibHY0V1YwRDh6bXNUT1dqQzRTbFQ4eGQxX25lWlowSTJOcnJ3OGNNWTFPbnVDbHZ1QUVMR01kU1Fwa1lFTllvV1Mw0gHcAUFVX3lxTE1OOUlCT0xUWGVBTTk3aEFNRnRFdHZmUDhuQUIzZkRWNDd2OTdqOVhPSWlxMnlPcTA4ZmNrSU41TmppbXNWSWFqR0NnZk9yQ0xTNkF4em5oaTlHZkhxb1R1WWI5ZTRkZkdDQXFKQzZYcE1iRU5Nemc4bUl2b0liNkxvN0poSTBucXp1dGtTVzZvbmJvV282RXhEN2JsdjRXVjBEOHptc1RPV2pDNFNsVDh4ZDFfbmVaWjBJMk5ycnc4Y01ZMU9udUNsdnVBRUxHTWRTUXBrWUVOWW9XUzA?oc=5",
-      "published": "2026-07-18T13:34:38+00:00",
+      "id": "6ac7e25f60e5",
+      "title": "Presentan proyecto de ley para garantizar el abastecimiento continuo de medicamentos esenciales - Más Encarnación",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPX3RmcWdXUG8wVlBuM3VrSUpIUnpkV1BsNUJqNHI3MzNjcUliU0FDbE9KREJRc3I0dDZZU28xa3UwVGR1NlhXdVRQd2otdGl3NFVfbS1CSERGN3pSZVZUSS1INHdRNDFvYWRuN2ZZVTFtWnJLeHFfZXZINExHSG93WnRCRWhrRmJGZlVrTGFNYW80Y01lazNueGNrTDcwOGtDRkxuM3E5QmZvN3g2YktGMEdQUEthZ0s4R2ZxdlhNLThtbThqcmxUUFJmeldBY0VG?oc=5",
+      "published": "2026-07-18T21:48:24+00:00",
       "source": {
-        "name": "Diario La Provincia San Juan",
-        "url": "https://diariolaprovinciasj.com"
+        "name": "Más Encarnación",
+        "url": "https://www.masencarnacion.com"
       }
     },
     {
@@ -544,16 +534,6 @@
       }
     },
     {
-      "id": "d88917696954",
-      "title": "Salud: ante la imprevisibilidad nacional, Provincia planifica la compra de medicamentos de alto costo - Gobierno de Santa Fe",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8xdlF0bF9vbDlnN195NmFiTGluTm9BYS1OWUdtLWlYak9VNzlfQUlVaDE3VVdPaWdib0ZmSlZiYTVJSGh2RW8xUGk2QjFtYXVybmlIMkpZcHNoWndJZHJobA?oc=5",
-      "published": "2026-04-03T07:00:00+00:00",
-      "source": {
-        "name": "Gobierno de Santa Fe",
-        "url": "https://www.santafe.gov.ar"
-      }
-    },
-    {
       "id": "63b813811a37",
       "title": "Ciancio: “Ante los recortes de Nación, el gobierno de Pullaro compra medicamentos y seguirá haciéndolo a lo largo de nuestra gestión” - Gobierno de Santa Fe",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBvSFVCN3JKTHUzWHhzTVczVERPSWgzOXRidFRfeGdKNkZmLV9RVVBpamkxMThwaWF6a1VhMjBkOWhWYnA5QktWMWxjeXZ4TmZZeHY3OUlDWGxjZXVBeGJmTg?oc=5",
@@ -564,6 +544,16 @@
       }
     },
     {
+      "id": "d88917696954",
+      "title": "Salud: ante la imprevisibilidad nacional, Provincia planifica la compra de medicamentos de alto costo - Gobierno de Santa Fe",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8xdlF0bF9vbDlnN195NmFiTGluTm9BYS1OWUdtLWlYak9VNzlfQUlVaDE3VVdPaWdib0ZmSlZiYTVJSGh2RW8xUGk2QjFtYXVybmlIMkpZcHNoWndJZHJobA?oc=5",
+      "published": "2026-04-03T07:00:00+00:00",
+      "source": {
+        "name": "Gobierno de Santa Fe",
+        "url": "https://www.santafe.gov.ar"
+      }
+    },
+    {
       "id": "46ad78f633f2",
       "title": "¿Cuánto conocemos sobre los medicamentos para perder peso? - Universidad Nacional del Litoral",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOb01mQzdzRkNWMUZqZi16S0F4T0JzUGFrOHNCaG5ZWDc2Y3V0MVluVi1tcGM0VGNzWmFoaUNfaHVyMTdGNnpPZ2VOTzE1bnlNZ2ZyN3FUTnBVRG40M1o2X0IzRFVYVnB3TnoySmhZYXNmSkgzRGJzUG5odWZlYTVub0lRdkNkX21uWlFkQnk3aHNqbFlJdGhYU3E1Qml6QUhZSWtTX0RVVUVLak5xZlE?oc=5",
@@ -571,16 +561,6 @@
       "source": {
         "name": "Universidad Nacional del Litoral",
         "url": "https://www.unl.edu.ar"
-      }
-    },
-    {
-      "id": "b8dab8c433d4",
-      "title": "Uno de cada 3 conductores coge el coche tras tomar medicamentos que pueden afectar a la conducción - 65 y más",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNaGtNbXlLMkR4TTN1TUozTGU1RHRoRmVuMFRlOUxUVnhkVzJJdF9IRlAtUFJXTkJCckZ1RWpqNThVeGdrUk1xLTMxajFlV05RLXpoUXVXSnhhMXByZkp5eVlmVzBzemhUa3UtRTU1WVRBN09kOWk0ZE1nYUx4aTVvWXFGV2FQQWpPZXBGTFp2MGlnN2ZET291Y29xaW05TkJDcVE5UEFRSzZJSWVvYmRvMg?oc=5",
-      "published": "2026-07-19T03:00:00+00:00",
-      "source": {
-        "name": "65 y más",
-        "url": "https://www.65ymas.com"
       }
     },
     {
@@ -604,6 +584,16 @@
       }
     },
     {
+      "id": "ea8a65cacf64",
+      "title": "Farmacias de San Juan: cae el consumo de medicamentos y el sector se adapta a un nuevo escenario - Diario La Provincia San Juan",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNTjlJQk9MVFhlQU05N2hBTUZ0RXR2ZlA4bkFCM2ZEVjQ3djk3ajlYT0lpcTJ5T3EwOGZja0lONU5qaW1zVklhakdDZ2ZPckNMUzZBeHpuaGk5R2ZIcW9UdVliOWU0ZGZHQ0FxSkM2WHBNYkVOTXpnOG1Jdm9JYjZMbzdKaEkwbnF6dXRrU1c2b25ib1dvNkV4RDdibHY0V1YwRDh6bXNUT1dqQzRTbFQ4eGQxX25lWlowSTJOcnJ3OGNNWTFPbnVDbHZ1QUVMR01kU1Fwa1lFTllvV1Mw0gHcAUFVX3lxTE1OOUlCT0xUWGVBTTk3aEFNRnRFdHZmUDhuQUIzZkRWNDd2OTdqOVhPSWlxMnlPcTA4ZmNrSU41TmppbXNWSWFqR0NnZk9yQ0xTNkF4em5oaTlHZkhxb1R1WWI5ZTRkZkdDQXFKQzZYcE1iRU5Nemc4bUl2b0liNkxvN0poSTBucXp1dGtTVzZvbmJvV282RXhEN2JsdjRXVjBEOHptc1RPV2pDNFNsVDh4ZDFfbmVaWjBJMk5ycnc4Y01ZMU9udUNsdnVBRUxHTWRTUXBrWUVOWW9XUzA?oc=5",
+      "published": "2026-07-18T13:34:38+00:00",
+      "source": {
+        "name": "Diario La Provincia San Juan",
+        "url": "https://diariolaprovinciasj.com"
+      }
+    },
+    {
       "id": "5b084a9d0314",
       "title": "ANMAT dispone la baja de habilitación de varios establecimientos de medicamentos y especialidades medicinales - Argentina.gob.ar",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVEM0ZG92ZjZhSmFLLWV0cC1vRUxtc2ttOGtsUERHTm1FY090TUhyTXNNVURpaTd2Qk5xQ0NLajVLYVRLNjY4dlRTTUZDOUpJcEhoR1FvYkVPQ3FfZXVnSklDZzFzTVBlRWhaTmNHSU1nQXdQS2dBUjQyTXJ1akV0ZzVUUHJzcXZWTlM1N0lYLWZab2J6UTFWVGJxa2tOZklqbEZYS2tSa3lQeHJyaDM0WWQ2MjBOTDNqUHdhal9wOA?oc=5",
@@ -611,6 +601,16 @@
       "source": {
         "name": "Argentina.gob.ar",
         "url": "https://www.argentina.gob.ar"
+      }
+    },
+    {
+      "id": "b8dab8c433d4",
+      "title": "Uno de cada 3 conductores coge el coche tras tomar medicamentos que pueden afectar a la conducción - 65 y más",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNaGtNbXlLMkR4TTN1TUozTGU1RHRoRmVuMFRlOUxUVnhkVzJJdF9IRlAtUFJXTkJCckZ1RWpqNThVeGdrUk1xLTMxajFlV05RLXpoUXVXSnhhMXByZkp5eVlmVzBzemhUa3UtRTU1WVRBN09kOWk0ZE1nYUx4aTVvWXFGV2FQQWpPZXBGTFp2MGlnN2ZET291Y29xaW05TkJDcVE5UEFRSzZJSWVvYmRvMg?oc=5",
+      "published": "2026-07-19T03:00:00+00:00",
+      "source": {
+        "name": "65 y más",
+        "url": "https://www.65ymas.com"
       }
     },
     {
@@ -641,16 +641,6 @@
       "source": {
         "name": "Gobierno de Tierra del Fuego",
         "url": "https://www.tierradelfuego.gob.ar"
-      }
-    },
-    {
-      "id": "77bb5602e85b",
-      "title": "🍴🏃 Ellos son el doctor Víctor Mundo, Director Médico de la división Consumer Health de Bayer; la doctora Aída Jiménez, Directora de la Sección Técnica de la Salud Global en la Sociedad Mexicana de Salud Pública; el doctor Fernando Fon, Director Ejecutiv - facebook.com",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOQW4wdFpkdVkxb084YjZldDVWZlJZLVVZS3RFZmlsQl9yM2pFSGpvMnpfdk5KWnRBVEdaSHNXYjA3WGd4M2hjNXFqUGFoMm5KaUdYZjVmNDg5Q0g0SUhSaTd1V1JkLVl5SXRUbmZCWWlqd2JFVGJ2bV9UeDFyajdQb2pvYTBxVlA0TGlfbzRoTndlWUdFcDdTZmRGU2tRb292aVZNaVY3ZEtsQUEyQzVqdzRBN1l2b2FuREpXeVI0ZHpmQlE0R0ZGeEw0Z0xTdFFsbG41enF0X3FUNkVwT2FycTF4NTRYejNvOW5lUUVTNA?oc=5",
-      "published": "2026-07-18T20:00:56+00:00",
-      "source": {
-        "name": "facebook.com",
-        "url": "https://www.facebook.com"
       }
     },
     {
@@ -704,6 +694,16 @@
       }
     },
     {
+      "id": "77bb5602e85b",
+      "title": "🍴🏃 Ellos son el doctor Víctor Mundo, Director Médico de la división Consumer Health de Bayer; la doctora Aída Jiménez, Directora de la Sección Técnica de la Salud Global en la Sociedad Mexicana de Salud Pública; el doctor Fernando Fon, Director Ejecutiv - facebook.com",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOQW4wdFpkdVkxb084YjZldDVWZlJZLVVZS3RFZmlsQl9yM2pFSGpvMnpfdk5KWnRBVEdaSHNXYjA3WGd4M2hjNXFqUGFoMm5KaUdYZjVmNDg5Q0g0SUhSaTd1V1JkLVl5SXRUbmZCWWlqd2JFVGJ2bV9UeDFyajdQb2pvYTBxVlA0TGlfbzRoTndlWUdFcDdTZmRGU2tRb292aVZNaVY3ZEtsQUEyQzVqdzRBN1l2b2FuREpXeVI0ZHpmQlE0R0ZGeEw0Z0xTdFFsbG41enF0X3FUNkVwT2FycTF4NTRYejNvOW5lUUVTNA?oc=5",
+      "published": "2026-07-18T20:00:56+00:00",
+      "source": {
+        "name": "facebook.com",
+        "url": "https://www.facebook.com"
+      }
+    },
+    {
       "id": "c63d6f8840d1",
       "title": "Garantizaron la provisión de vacunas y medicamentos de alto costo - Comunicación Tucumán",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMmktUDhGTHhXc0U2ZWFMNGRzaGllbi1aVDhXSW1ZbXBtX2tfbUVESHhRTnVrS3NkYjlIYlI4TWZJZUtFQTUyU0JzQlZHT2EtQVVIbkVMTGFyaWxQUFFSbE5SQzlUQ00tVTBvMlJzT1pxNWpWR19hemVNTUFrNWhjM1Fsd3FNVkxFYjJtSDdPaXVfMUcxVWx1YjdUbkMwQUxMMFBjWWU4eWpEVGVQVnE2NUVXUFA?oc=5",
@@ -734,13 +734,13 @@
       }
     },
     {
-      "id": "2f8c9e9e5770",
-      "title": "IPS admite que siguen faltando medicamentos, pero asegura que el stock crítico bajó - abc.com.py",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWnNIbk1MNTZKRUZ2ZUlRRjVyaV9DcTVGSjFCWEttZjd0cUwzcnRsMVQ5UldBdDRObXJVX0o5SnBLM3M3QzBtYUl3VHd5OVVSalMxQmZIbDBZLTBPckZBczZxUEt3SlV1QUdZSEFzamczcEV5S2ZwbkJvQS1US2lTeC1RMG1Bb1RvVlpSTkotY0JMTnJiMHI3UlF6Q2dEVGR4WjJra2ZkUXU4eGNjUXptbUN0NFF6ZF90TDJjMDFZaEZYTjh1LUVZ0gHbAUFVX3lxTE5RUVl4clFUOVRjdTBDdnF4b0xlcG13TnpTa3F3RE9feXpqU09aSTA5c1RtQnZkZ0N1VVFsSE8xS0FkbmZ3ZFk4bUlvRTJNTjFiMEdHMmNRQ2xhdEJYWmVnVWlySWZneXRBY21DM3dtWklmYUVEM2gwV1JEcWdZQldEVmhBQWctZUJOSElfMXBsbmFnZjBzNzN6Q0hNVTh1LU8zd0FZaUFEX1dJaDlxYWlRU1daQ0JlcFpJVFFMY3I5dVBvUk5zeTNaRXIzV2YzQVJhQkswaF9vLXMydw?oc=5",
-      "published": "2026-07-19T00:31:41+00:00",
+      "id": "5578f05b4837",
+      "title": "Nuevo avance contra el colesterol: aprobaron una pastilla que reduce el LDL - todojujuy.com",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPaXhoUzFoamktTVEwSnJwSFdzZUpkVWlLRXRuYk1vTXk3bEVZNC1adFMwLVdQeXJXc2o4U0ZyZ2hKQ2Q0V1oycW9MY0RyRzNjV2hoTGcySU9UbkxkQ2s0Uktfc1JHZ1QxMmd5c2VicllhX0hYS2stbzJOcGZFSlplTVhIdmhoX2ZERV9odEZta21vMXMwTzVKcUVmWVkwbmFNbE9sRG5qUHFHbFQtVXV5WWdXcFrSAboBQVVfeXFMTXh3aVcwc2h2UWVCZktVc2IxMEZVV0pZMmVfcDlobXZyWlBoZUw2WWFfV0dtbktRZmQydFNfZHk4bnJQYXlCY2xzYTRCdU02eWh5dFE0RV9DdHhUZTVOc09rc0pfRkZRRElvbVE3Um9TTTM0eHQ2eGprX3VUZm1aZXpzMExlYUxNR3cyZTFYRkZIcnVuNkc4U1NMMkxGT0xCZ0ZKQVhuS3ZQZktFdkNqXzVkWEdaODdRaU13?oc=5",
+      "published": "2026-07-17T15:22:35+00:00",
       "source": {
-        "name": "abc.com.py",
-        "url": "https://www.abc.com.py"
+        "name": "todojujuy.com",
+        "url": "https://www.todojujuy.com"
       }
     },
     {
@@ -754,23 +754,13 @@
       }
     },
     {
-      "id": "5578f05b4837",
-      "title": "Nuevo avance contra el colesterol: aprobaron una pastilla que reduce el LDL - todojujuy.com",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPaXhoUzFoamktTVEwSnJwSFdzZUpkVWlLRXRuYk1vTXk3bEVZNC1adFMwLVdQeXJXc2o4U0ZyZ2hKQ2Q0V1oycW9MY0RyRzNjV2hoTGcySU9UbkxkQ2s0Uktfc1JHZ1QxMmd5c2VicllhX0hYS2stbzJOcGZFSlplTVhIdmhoX2ZERV9odEZta21vMXMwTzVKcUVmWVkwbmFNbE9sRG5qUHFHbFQtVXV5WWdXcFrSAboBQVVfeXFMTXh3aVcwc2h2UWVCZktVc2IxMEZVV0pZMmVfcDlobXZyWlBoZUw2WWFfV0dtbktRZmQydFNfZHk4bnJQYXlCY2xzYTRCdU02eWh5dFE0RV9DdHhUZTVOc09rc0pfRkZRRElvbVE3Um9TTTM0eHQ2eGprX3VUZm1aZXpzMExlYUxNR3cyZTFYRkZIcnVuNkc4U1NMMkxGT0xCZ0ZKQVhuS3ZQZktFdkNqXzVkWEdaODdRaU13?oc=5",
-      "published": "2026-07-17T15:22:35+00:00",
+      "id": "2f8c9e9e5770",
+      "title": "IPS admite que siguen faltando medicamentos, pero asegura que el stock crítico bajó - abc.com.py",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWnNIbk1MNTZKRUZ2ZUlRRjVyaV9DcTVGSjFCWEttZjd0cUwzcnRsMVQ5UldBdDRObXJVX0o5SnBLM3M3QzBtYUl3VHd5OVVSalMxQmZIbDBZLTBPckZBczZxUEt3SlV1QUdZSEFzamczcEV5S2ZwbkJvQS1US2lTeC1RMG1Bb1RvVlpSTkotY0JMTnJiMHI3UlF6Q2dEVGR4WjJra2ZkUXU4eGNjUXptbUN0NFF6ZF90TDJjMDFZaEZYTjh1LUVZ0gHbAUFVX3lxTE5RUVl4clFUOVRjdTBDdnF4b0xlcG13TnpTa3F3RE9feXpqU09aSTA5c1RtQnZkZ0N1VVFsSE8xS0FkbmZ3ZFk4bUlvRTJNTjFiMEdHMmNRQ2xhdEJYWmVnVWlySWZneXRBY21DM3dtWklmYUVEM2gwV1JEcWdZQldEVmhBQWctZUJOSElfMXBsbmFnZjBzNzN6Q0hNVTh1LU8zd0FZaUFEX1dJaDlxYWlRU1daQ0JlcFpJVFFMY3I5dVBvUk5zeTNaRXIzV2YzQVJhQkswaF9vLXMydw?oc=5",
+      "published": "2026-07-19T00:31:41+00:00",
       "source": {
-        "name": "todojujuy.com",
-        "url": "https://www.todojujuy.com"
-      }
-    },
-    {
-      "id": "6a3cbde5092b",
-      "title": "Top 20 Empresas en Global Analgesics Market - Spherical Insights",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNQ0FVTkFJZVFSZmVfQV9GVTNqSUN4c2dud0lZUzBlQUlqSFpqQmdmcnptb1B2VG1RY1E1OXcwRkxxZ3VQcHVlQmlGMFJ6SkFyeWt0ZEVDUElMRVVaandicjJHc2JLYXpKeHBaajJzbjFyMWtOOEo1aEpPQWMtaE5xeXB4TGJzeE52VHhuUWxzM2E0UHI1clU2b0ZVcHhCbnY0MG9sSWNEbGNxUUlHdEtUWFJCZU0yZ0xfaFB4TjhXb1pQdGpRLXQxNTViOA?oc=5",
-      "published": "2026-07-18T17:23:43+00:00",
-      "source": {
-        "name": "Spherical Insights",
-        "url": "https://www.sphericalinsights.com"
+        "name": "abc.com.py",
+        "url": "https://www.abc.com.py"
       }
     },
     {
@@ -864,6 +854,26 @@
       }
     },
     {
+      "id": "6a3cbde5092b",
+      "title": "Top 20 Empresas en Global Analgesics Market - Spherical Insights",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNQ0FVTkFJZVFSZmVfQV9GVTNqSUN4c2dud0lZUzBlQUlqSFpqQmdmcnptb1B2VG1RY1E1OXcwRkxxZ3VQcHVlQmlGMFJ6SkFyeWt0ZEVDUElMRVVaandicjJHc2JLYXpKeHBaajJzbjFyMWtOOEo1aEpPQWMtaE5xeXB4TGJzeE52VHhuUWxzM2E0UHI1clU2b0ZVcHhCbnY0MG9sSWNEbGNxUUlHdEtUWFJCZU0yZ0xfaFB4TjhXb1pQdGpRLXQxNTViOA?oc=5",
+      "published": "2026-07-18T17:23:43+00:00",
+      "source": {
+        "name": "Spherical Insights",
+        "url": "https://www.sphericalinsights.com"
+      }
+    },
+    {
+      "id": "7aa9eed2ed53",
+      "title": "Cómo funcionará el sistema digital que deberán implementar las farmacias para el retiro de medicamentos - Infobae",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQaEttb3ZlbDRWLTBhaEdnNUxMcnBRMnRpOG8tR01lNF9LQ2JiTVI0blF3c2dKTG45WVdvTEdwdnhEWUttWGUzLUROV1ZFaW9LdHd0ekZnQ1ZYQ0hYR2V6MkdzYlZORWtNS1VBWjljeVFjNkNZWEtWNWNnckd0RTRWMktZWFJYWVlPQzZqeHZUSGUyVjNCN0I4UEIxWTVPVThuRWYyOEsyX1ZaZ0VrcDFwRUxHSGIzVXdBRHNFZE1tT3VGRWQ1LXgtX1Y4VkVtbVFPQUVCOUNyeWNLdEJjWHFIUnNn0gH8AUFVX3lxTE50SDdKdUFTMnVlaG54S1R0dkMtcFQzVmRPcGJwY3hvQmpkYmtSZ2NuQmhTOTVPLTBEcWpnNXJYc1ZFQ3FJNWU4SmNPUE1lckZVZWxMX1EtLVNxejQxcXhOaS05Q051YVRkVlB4X0l2djNaOEVXSlRjZEdRYjhZVFJKUEFHYW1md3luZU45dWc1dEE3MjRnUkpYQzNTaXV5Y1NtTTZRT3EzS3U4WVN2eElGZDQ1SmtnaGxrZDE5SEhEZ0tQNjg1cDNjcnlKQVZuRjJpUEd6ZWZYQi1CdlNwZFZKSW5nZnYwU0w2QWxHZTZWWnFZSlNVQ1V0SUtsVw?oc=5",
+      "published": "2026-06-04T07:00:00+00:00",
+      "source": {
+        "name": "Infobae",
+        "url": "https://www.infobae.com"
+      }
+    },
+    {
       "id": "f935211b0849",
       "title": "Hospital Gomendio de Ramallo: aumenta la demanda tras la interrupción del Plan Remediar y preocupa el acceso a medicamentos - La Opinión | Pergamino",
       "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNZGdYUGw5TElxb0ZWQzZ3Wk1KMzBqWDhERWFielV0M3ZFY1dZYkk4QmVrRDVoVWFIY0dUZDhfemhTOUNQSUhYdGN1RnFVeXItb1JNRjZRS3lQME4tVTBDZExtVl92Qy02WGJ3RTJaVjF2QTZCTVFVa1c5Tk9XUElPMm1BanFBS3loX1A3QVoxaWFPZXk3eUd2TDh6b1VBTGFnay1aaDdXdW5EUk04bGpPMkZjWThuWVZJejVzakFjTy02eUdEYnpYS1hPYXUtbkVCaHhWWGtBNTlNNGhPbG50OTUyX3pHRnhRUHE3Yw?oc=5",
@@ -904,16 +914,6 @@
       }
     },
     {
-      "id": "fc709eb2e8d1",
-      "title": "Provincia asegura medicamentos y coordina estrategias sanitarias anuales - msptucuman.gov.ar",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOOHpJWTZybXRfY2Mwc05FYlUxYlA1UjYxUjZpREJRSUwzOFY3QzV4WExUYmYtaVVPTTcxeUdiSHVzQlU1U20wVXVtZkNzbmZ0X0dvWVYyaGhlSE1EQnk5azZMU3EtZ0xsbzJleVVqaVBMS2pfMTd5NmFrN0Z6dUV5VHJDcnFXdlhTQ29PRTZWaEQzVVQ2d3hXbTF5LVdHVU9X?oc=5",
-      "published": "2026-02-24T08:00:00+00:00",
-      "source": {
-        "name": "msptucuman.gov.ar",
-        "url": "https://msptucuman.gov.ar"
-      }
-    },
-    {
       "id": "7a3802d7ddc4",
       "title": "Salta: faltan medicamentos esenciales y se agravan las barreras para acceder a la salud sexual y reproductiva - Amnistía Internacional Argentina",
       "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNOTZIMDVNRGFsdzlwRV9uUFZ5MDdyV3l1VUk0T01mN3JPOWU4S014Qnl5RGoySHNEaTVGTW1JVjczcjNNdVA0SWk2clkxTll2R1BmUVpVN1Z2SE1ib0tCNFFwdE94dDhGc2RSNGxjYk43T2NUQ25FS2RXQmtBbkhiMzlwNi16NzZUM3BSWjFaMHozbTgxc2NSbFhRQXlUWGpsVzMwbnhrMmNPM3AtRlByUFF4R2RVVGVKYzljQVpIQnJtQmtDcVk3d3JIWXktcmxZczVmbHRBY2p1ZWduUkZ6Ri1EZDFWUk9mOFRlM205YVZYRVZ2Sk9CUWk4SjdOWGZibTZhdVd1c2VORHB4OFIybA?oc=5",
@@ -921,6 +921,16 @@
       "source": {
         "name": "Amnistía Internacional Argentina",
         "url": "https://amnistia.org.ar"
+      }
+    },
+    {
+      "id": "fc709eb2e8d1",
+      "title": "Provincia asegura medicamentos y coordina estrategias sanitarias anuales - msptucuman.gov.ar",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOOHpJWTZybXRfY2Mwc05FYlUxYlA1UjYxUjZpREJRSUwzOFY3QzV4WExUYmYtaVVPTTcxeUdiSHVzQlU1U20wVXVtZkNzbmZ0X0dvWVYyaGhlSE1EQnk5azZMU3EtZ0xsbzJleVVqaVBMS2pfMTd5NmFrN0Z6dUV5VHJDcnFXdlhTQ29PRTZWaEQzVVQ2d3hXbTF5LVdHVU9X?oc=5",
+      "published": "2026-02-24T08:00:00+00:00",
+      "source": {
+        "name": "msptucuman.gov.ar",
+        "url": "https://msptucuman.gov.ar"
       }
     },
     {
@@ -991,16 +1001,6 @@
       "source": {
         "name": "Gobierno de Santa Cruz",
         "url": "https://noticias.santacruz.gob.ar"
-      }
-    },
-    {
-      "id": "7a9845748f2f",
-      "title": "En lo que va de 2025, Santa Fe compró más medicamentos y con un ahorro del 83 % - Gobierno de Santa Fe",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1US3ZEWmxWVDdWQWxnZENWQy12Z29DSFBNWm4tcHJ6N2FWOW1vQmJPb085ZmN1OUJOQzhlZkNNR1IzNkhLd3pfYTA1WUFpSkt0UHZlVlgwQWxlYmFQYi1lSA?oc=5",
-      "published": "2025-10-21T07:00:00+00:00",
-      "source": {
-        "name": "Gobierno de Santa Fe",
-        "url": "https://www.santafe.gob.ar"
       }
     }
   ]
