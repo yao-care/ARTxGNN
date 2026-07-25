@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: TRIFLUOPERAZINA
 drugbank_id: DB00831
 evidence_level: L5

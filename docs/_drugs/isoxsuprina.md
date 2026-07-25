@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: ISOXSUPRINA
 drugbank_id: DB08941
 evidence_level: L5

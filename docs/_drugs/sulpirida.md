@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: SULPIRIDA
 drugbank_id: DB00391
 evidence_level: L5

@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: RASAGILINA
 drugbank_id: DB01367
 evidence_level: L5

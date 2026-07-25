@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: PAROXETINA
 drugbank_id: DB00715
 evidence_level: L5

@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: TOBRAMICINA
 drugbank_id: DB00684
 evidence_level: L5

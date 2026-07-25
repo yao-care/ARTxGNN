@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: DESLORATADINA
 drugbank_id: DB00967
 evidence_level: L5

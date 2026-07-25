@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: INDOMETACINA
 drugbank_id: DB00328
 evidence_level: L5

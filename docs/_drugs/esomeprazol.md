@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: ESOMEPRAZOL
 drugbank_id: DB00736
 evidence_level: L5

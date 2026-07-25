@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: NITAZOXANIDA
 drugbank_id: DB00507
 evidence_level: L5

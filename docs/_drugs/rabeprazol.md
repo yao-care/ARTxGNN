@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: RABEPRAZOL
 drugbank_id: DB01129
 evidence_level: L5

@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: HIDROCORTISONA
 drugbank_id: DB00741
 evidence_level: L5

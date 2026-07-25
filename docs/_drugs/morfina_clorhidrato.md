@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: MORFINA,CLORHIDRATO
 drugbank_id: DB00295
 evidence_level: L5

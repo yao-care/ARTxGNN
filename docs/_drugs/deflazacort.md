@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: DEFLAZACORT
 drugbank_id: DB11921
 evidence_level: L5

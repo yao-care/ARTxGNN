@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: FENOBARBITAL
 drugbank_id: DB01174
 evidence_level: L5

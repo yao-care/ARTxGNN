@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: LIOTIRONINA
 drugbank_id: DB00279
 evidence_level: L5

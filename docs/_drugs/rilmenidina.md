@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: RILMENIDINA
 drugbank_id: DB11738
 evidence_level: L5

@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: CANDESARTÁN CILEXETIL
 drugbank_id: DB00796
 evidence_level: L5

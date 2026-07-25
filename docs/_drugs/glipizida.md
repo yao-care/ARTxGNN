@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: GLIPIZIDA
 drugbank_id: DB01067
 evidence_level: L5

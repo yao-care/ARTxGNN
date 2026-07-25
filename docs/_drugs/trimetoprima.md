@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: TRIMETOPRIMA
 drugbank_id: DB00440
 evidence_level: L5

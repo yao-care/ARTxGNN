@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: MEBENDAZOL
 drugbank_id: DB00643
 evidence_level: L5

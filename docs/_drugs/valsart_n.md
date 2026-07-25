@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: VALSARTÁN
 drugbank_id: DB00177
 evidence_level: L5
