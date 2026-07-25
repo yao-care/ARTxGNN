@@ -116,7 +116,7 @@ fármacos frente a enfermedades raras."
 
 | Ítem | Valor |
 |------|-------|
-| Informes de medicamentos | 363 |
+| Informes de medicamentos | {{ site.drugs.size }} |
 | Autoridad regulatoria | ANMAT |
 | Sitios desplegados | 30 países / regiones |
 
