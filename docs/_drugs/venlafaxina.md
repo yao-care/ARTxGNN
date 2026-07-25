@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: VENLAFAXINA
 drugbank_id: DB00285
 evidence_level: L5

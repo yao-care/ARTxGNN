@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: CLORTALIDONA
 drugbank_id: DB00310
 evidence_level: L5

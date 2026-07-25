@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: CLONIDINA
 drugbank_id: DB00575
 evidence_level: L5

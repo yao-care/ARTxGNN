@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: ROSUVASTATINA
 drugbank_id: DB01098
 evidence_level: L5

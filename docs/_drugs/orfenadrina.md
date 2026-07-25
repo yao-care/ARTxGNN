@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: ORFENADRINA
 drugbank_id: DB01173
 evidence_level: L5

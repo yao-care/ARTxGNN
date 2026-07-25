@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: BENZOCAÍNA
 drugbank_id: DB01086
 evidence_level: L5

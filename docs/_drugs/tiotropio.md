@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: TIOTROPIO
 drugbank_id: DB01409
 evidence_level: L5

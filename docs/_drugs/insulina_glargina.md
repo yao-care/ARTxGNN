@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: INSULINA GLARGINA
 drugbank_id: DB00047
 evidence_level: L5

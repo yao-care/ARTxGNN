@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: FLUCONAZOL
 drugbank_id: DB00196
 evidence_level: L5

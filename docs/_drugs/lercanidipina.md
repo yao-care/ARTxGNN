@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: LERCANIDIPINA
 drugbank_id: DB00528
 evidence_level: L5

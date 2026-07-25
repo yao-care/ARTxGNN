@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: DEXCLORFENIRAMINA
 drugbank_id: DB13679
 evidence_level: L5

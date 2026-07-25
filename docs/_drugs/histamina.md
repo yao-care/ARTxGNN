@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: HISTAMINA
 drugbank_id: DB05381
 evidence_level: L5

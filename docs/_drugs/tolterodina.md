@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: TOLTERODINA
 drugbank_id: DB01036
 evidence_level: L5

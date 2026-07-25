@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: MICONAZOL
 drugbank_id: DB01110
 evidence_level: L5

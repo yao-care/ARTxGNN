@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: SULFAMETOXAZOL
 drugbank_id: DB01015
 evidence_level: L5

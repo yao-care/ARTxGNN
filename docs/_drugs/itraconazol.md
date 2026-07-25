@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: ITRACONAZOL
 drugbank_id: DB01167
 evidence_level: L5

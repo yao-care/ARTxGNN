@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: TINIDAZOL
 drugbank_id: DB00911
 evidence_level: L5

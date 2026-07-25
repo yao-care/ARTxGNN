@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: COLCHICINA
 drugbank_id: DB01394
 evidence_level: L5

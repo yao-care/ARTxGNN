@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: NORETISTERONA
 drugbank_id: DB00717
 evidence_level: L5

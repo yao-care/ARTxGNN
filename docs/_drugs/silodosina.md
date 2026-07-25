@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: SILODOSINA
 drugbank_id: DB06207
 evidence_level: L5

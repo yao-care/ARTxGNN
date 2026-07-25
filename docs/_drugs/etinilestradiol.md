@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: ETINILESTRADIOL
 drugbank_id: DB00977
 evidence_level: L5

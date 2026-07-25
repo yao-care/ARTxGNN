@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: PIOGLITAZONA
 drugbank_id: DB01132
 evidence_level: L5

@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: IBUPROFENO
 drugbank_id: DB01050
 evidence_level: L5

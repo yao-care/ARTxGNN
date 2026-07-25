@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: PALIPERIDONA
 drugbank_id: DB01267
 evidence_level: L5

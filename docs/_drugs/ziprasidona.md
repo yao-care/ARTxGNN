@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: ZIPRASIDONA
 drugbank_id: DB00246
 evidence_level: L5

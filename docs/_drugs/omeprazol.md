@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: OMEPRAZOL
 drugbank_id: DB00338
 evidence_level: L5

@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: GRISEOFULVINA
 drugbank_id: DB00400
 evidence_level: L5

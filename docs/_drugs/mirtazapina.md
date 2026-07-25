@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: MIRTAZAPINA
 drugbank_id: DB00370
 evidence_level: L5

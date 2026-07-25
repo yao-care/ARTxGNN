@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: LEVOTIROXINA
 drugbank_id: DB00451
 evidence_level: L5
