@@ -5,6 +5,7 @@ title: SULFAMETOXAZOL
 drugbank_id: DB01015
 evidence_level: L5
 permalink: /drugs/sulfametoxazol/
+search_exclude: true
 ---
 
 # SULFAMETOXAZOL

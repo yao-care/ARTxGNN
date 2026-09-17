@@ -5,6 +5,7 @@ title: FAMOTIDINA
 drugbank_id: DB00927
 evidence_level: L5
 permalink: /drugs/famotidina/
+search_exclude: true
 ---
 
 # FAMOTIDINA

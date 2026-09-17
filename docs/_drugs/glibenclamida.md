@@ -5,6 +5,7 @@ title: GLIBENCLAMIDA
 drugbank_id: DB01016
 evidence_level: L5
 permalink: /drugs/glibenclamida/
+search_exclude: true
 ---
 
 # GLIBENCLAMIDA

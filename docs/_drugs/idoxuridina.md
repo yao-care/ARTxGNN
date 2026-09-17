@@ -5,6 +5,7 @@ title: IDOXURIDINA
 drugbank_id: DB00249
 evidence_level: L5
 permalink: /drugs/idoxuridina/
+search_exclude: true
 ---
 
 # IDOXURIDINA

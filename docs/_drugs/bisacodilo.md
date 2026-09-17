@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Bisacodilo
-parent: 僅模型預測 (L5)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 57
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Bisacodilo
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **0** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 

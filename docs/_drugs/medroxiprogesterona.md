@@ -5,6 +5,7 @@ title: MEDROXIPROGESTERONA
 drugbank_id: DB00603
 evidence_level: L5
 permalink: /drugs/medroxiprogesterona/
+search_exclude: true
 ---
 
 # MEDROXIPROGESTERONA

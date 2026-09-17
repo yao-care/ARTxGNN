@@ -5,6 +5,7 @@ title: GLIPIZIDA
 drugbank_id: DB01067
 evidence_level: L5
 permalink: /drugs/glipizida/
+search_exclude: true
 ---
 
 # GLIPIZIDA

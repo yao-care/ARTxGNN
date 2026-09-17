@@ -1,40 +1,40 @@
 ---
 layout: default
-title: "METFORMINA 相關新聞"
-parent: 健康新聞
+title: "Noticias sobre METFORMINA"
+parent: Noticias de salud
 nav_exclude: true
-description: "METFORMINA 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
+description: "Noticias de salud relacionadas con METFORMINA. Indicación original: . 0 indicaciones predichas."
 permalink: /news/metformina/
 ---
 
-# METFORMINA 相關新聞
+# Noticias sobre METFORMINA
 
-[← 返回新聞總覽]({{ '/news/' | relative_url }})
+[← Volver al resumen de noticias]({{ '/news/' | relative_url }})
 
 ---
 
-<p class="key-answer" data-question="METFORMINA 有什麼相關新聞？">
-<strong>METFORMINA</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
+<p class="key-answer" data-question="¿Qué noticias hay sobre METFORMINA?">
+<strong>METFORMINA</strong> tiene actualmente <strong>0 noticias</strong> y 0 indicaciones predichas.
 </p>
 
 <div class="key-takeaway">
-本頁整合 METFORMINA 的 AI 預測適應症與最新健康新聞，橘色標示的適應症表示近期有相關新聞報導。
+Esta página combina las indicaciones predichas por IA para METFORMINA con las últimas noticias de salud. Las indicaciones resaltadas en naranja cuentan con cobertura informativa reciente.
 </div>
 
 <div class="drug-info-card">
-<strong>藥物資訊</strong>
+<strong>Información del medicamento</strong>
 <ul>
 </ul>
-<p><a href="{{ '/drugs/metformina/' | relative_url }}">查看完整藥物報告 →</a></p>
+<p><a href="{{ '/drugs/metformina/' | relative_url }}">Ver el informe completo del medicamento →</a></p>
 </div>
 
-## 相關新聞（0 則）
+## Noticias relacionadas (0)
 
-*目前沒有相關新聞報導。當有新聞提到此藥物時，系統會自動收集並顯示在這裡。*
+*Todavía no hay noticias relacionadas. Cuando alguna noticia mencione este medicamento, se recopilará y se mostrará aquí automáticamente.*
 
 
 <div class="disclaimer">
-<strong>免責聲明</strong>：本頁新聞由系統自動收集，僅供研究參考，不構成醫療建議。
+<strong>Descargo de responsabilidad</strong>: Las noticias de esta página se recopilan automáticamente y son solo de referencia para investigación; no constituyen asesoramiento médico.
 </div>
 
 <style>

@@ -5,6 +5,7 @@ title: ESTREPTOMICINA
 drugbank_id: DB01082
 evidence_level: L5
 permalink: /drugs/estreptomicina/
+search_exclude: true
 ---
 
 # ESTREPTOMICINA

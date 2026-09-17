@@ -5,6 +5,7 @@ title: PANTOPRAZOL
 drugbank_id: DB00213
 evidence_level: L5
 permalink: /drugs/pantoprazol/
+search_exclude: true
 ---
 
 # PANTOPRAZOL

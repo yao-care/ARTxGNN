@@ -5,6 +5,7 @@ title: HIDROXICLOROQUINA
 drugbank_id: DB01611
 evidence_level: L5
 permalink: /drugs/hidroxicloroquina/
+search_exclude: true
 ---
 
 # HIDROXICLOROQUINA

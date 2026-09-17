@@ -5,6 +5,7 @@ title: GLICLAZIDA
 drugbank_id: DB01120
 evidence_level: L5
 permalink: /drugs/gliclazida/
+search_exclude: true
 ---
 
 # GLICLAZIDA

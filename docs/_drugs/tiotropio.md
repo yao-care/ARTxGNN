@@ -5,6 +5,7 @@ title: TIOTROPIO
 drugbank_id: DB01409
 evidence_level: L5
 permalink: /drugs/tiotropio/
+search_exclude: true
 ---
 
 # TIOTROPIO

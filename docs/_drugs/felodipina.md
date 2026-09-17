@@ -5,6 +5,7 @@ title: FELODIPINA
 drugbank_id: DB01023
 evidence_level: L5
 permalink: /drugs/felodipina/
+search_exclude: true
 ---
 
 # FELODIPINA

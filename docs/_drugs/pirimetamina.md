@@ -5,6 +5,7 @@ title: PIRIMETAMINA
 drugbank_id: DB00205
 evidence_level: L5
 permalink: /drugs/pirimetamina/
+search_exclude: true
 ---
 
 # PIRIMETAMINA

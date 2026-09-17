@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Zolpidem
-parent: 僅模型預測 (L5)
+parent: Evidencia Alta (L1-L2)
 nav_order: 183
-evidence_level: L5
+evidence_level: L1
 indication_count: 3
 ---
 
 # Zolpidem
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Nivel de evidencia: **L1** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 

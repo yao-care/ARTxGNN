@@ -5,6 +5,7 @@ title: SUCRALFATO
 drugbank_id: DB00364
 evidence_level: L5
 permalink: /drugs/sucralfato/
+search_exclude: true
 ---
 
 # SUCRALFATO

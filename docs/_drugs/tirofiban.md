@@ -5,6 +5,7 @@ title: TIROFIBAN
 drugbank_id: DB00775
 evidence_level: L5
 permalink: /drugs/tirofiban/
+search_exclude: true
 ---
 
 # TIROFIBAN

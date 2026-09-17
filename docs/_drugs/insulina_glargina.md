@@ -5,6 +5,7 @@ title: INSULINA GLARGINA
 drugbank_id: DB00047
 evidence_level: L5
 permalink: /drugs/insulina_glargina/
+search_exclude: true
 ---
 
 # INSULINA GLARGINA

@@ -5,6 +5,7 @@ title: DEFLAZACORT
 drugbank_id: DB11921
 evidence_level: L5
 permalink: /drugs/deflazacort/
+search_exclude: true
 ---
 
 # DEFLAZACORT

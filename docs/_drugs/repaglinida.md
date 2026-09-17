@@ -5,6 +5,7 @@ title: REPAGLINIDA
 drugbank_id: DB00912
 evidence_level: L5
 permalink: /drugs/repaglinida/
+search_exclude: true
 ---
 
 # REPAGLINIDA

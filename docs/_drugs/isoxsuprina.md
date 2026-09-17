@@ -5,6 +5,7 @@ title: ISOXSUPRINA
 drugbank_id: DB08941
 evidence_level: L5
 permalink: /drugs/isoxsuprina/
+search_exclude: true
 ---
 
 # ISOXSUPRINA

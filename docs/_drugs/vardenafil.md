@@ -5,6 +5,7 @@ title: VARDENAFIL
 drugbank_id: DB00862
 evidence_level: L5
 permalink: /drugs/vardenafil/
+search_exclude: true
 ---
 
 # VARDENAFIL

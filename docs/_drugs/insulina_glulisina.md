@@ -5,6 +5,7 @@ title: INSULINA GLULISINA
 drugbank_id: DB01309
 evidence_level: L5
 permalink: /drugs/insulina_glulisina/
+search_exclude: true
 ---
 
 # INSULINA GLULISINA

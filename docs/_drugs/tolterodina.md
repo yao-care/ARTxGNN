@@ -5,6 +5,7 @@ title: TOLTERODINA
 drugbank_id: DB01036
 evidence_level: L5
 permalink: /drugs/tolterodina/
+search_exclude: true
 ---
 
 # TOLTERODINA

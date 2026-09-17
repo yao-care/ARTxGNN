@@ -5,6 +5,7 @@ title: ERGOTAMINA
 drugbank_id: DB00696
 evidence_level: L5
 permalink: /drugs/ergotamina/
+search_exclude: true
 ---
 
 # ERGOTAMINA

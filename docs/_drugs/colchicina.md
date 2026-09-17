@@ -5,6 +5,7 @@ title: COLCHICINA
 drugbank_id: DB01394
 evidence_level: L5
 permalink: /drugs/colchicina/
+search_exclude: true
 ---
 
 # COLCHICINA

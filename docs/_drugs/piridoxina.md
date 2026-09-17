@@ -5,6 +5,7 @@ title: PIRIDOXINA
 drugbank_id: DB00165
 evidence_level: L5
 permalink: /drugs/piridoxina/
+search_exclude: true
 ---
 
 # PIRIDOXINA

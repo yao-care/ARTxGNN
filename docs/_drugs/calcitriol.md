@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Calcitriol
-parent: 僅模型預測 (L5)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 73
 evidence_level: L5
 indication_count: 7
@@ -10,12 +10,12 @@ indication_count: 7
 # Calcitriol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -40,7 +40,7 @@ El skill `txgnn-pipeline` cubre gestión del pipeline (entrenamiento, despliegue
 | `predicted_indications` | `[]` (vacío) | Sin predicción TxGNN — secciones de evidencia no aplican |
 | `original_indications` | `[]` (vacío) | Sin indicación original en JSON |
 | `original_moa` | `[Data Gap]` | Omitir según reglas |
-| `market_status` | `"未上市"` | No comercializado en Argentina |
+| `market_status` | `"Not marketed"` | No comercializado en Argentina |
 | `safety` | Todo `[Data Gap]` | Omitir campos individuales |
 
 ---

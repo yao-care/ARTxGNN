@@ -5,6 +5,7 @@ title: SULFASALAZINA
 drugbank_id: DB00795
 evidence_level: L5
 permalink: /drugs/sulfasalazina/
+search_exclude: true
 ---
 
 # SULFASALAZINA

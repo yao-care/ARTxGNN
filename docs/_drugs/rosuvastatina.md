@@ -5,6 +5,7 @@ title: ROSUVASTATINA
 drugbank_id: DB01098
 evidence_level: L5
 permalink: /drugs/rosuvastatina/
+search_exclude: true
 ---
 
 # ROSUVASTATINA

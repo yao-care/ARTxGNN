@@ -5,6 +5,7 @@ title: DEXCLORFENIRAMINA
 drugbank_id: DB13679
 evidence_level: L5
 permalink: /drugs/dexclorfeniramina/
+search_exclude: true
 ---
 
 # DEXCLORFENIRAMINA

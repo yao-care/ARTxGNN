@@ -5,6 +5,7 @@ title: ROPINIROL
 drugbank_id: DB00268
 evidence_level: L5
 permalink: /drugs/ropinirol/
+search_exclude: true
 ---
 
 # ROPINIROL

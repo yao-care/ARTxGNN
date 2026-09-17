@@ -5,6 +5,7 @@ title: ORFENADRINA
 drugbank_id: DB01173
 evidence_level: L5
 permalink: /drugs/orfenadrina/
+search_exclude: true
 ---
 
 # ORFENADRINA

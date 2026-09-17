@@ -5,6 +5,7 @@ title: CLONIDINA
 drugbank_id: DB00575
 evidence_level: L5
 permalink: /drugs/clonidina/
+search_exclude: true
 ---
 
 # CLONIDINA

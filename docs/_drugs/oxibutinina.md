@@ -5,6 +5,7 @@ title: OXIBUTININA
 drugbank_id: DB01062
 evidence_level: L5
 permalink: /drugs/oxibutinina/
+search_exclude: true
 ---
 
 # OXIBUTININA

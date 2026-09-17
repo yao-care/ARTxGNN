@@ -5,6 +5,7 @@ title: METOCLOPRAMIDA
 drugbank_id: DB01233
 evidence_level: L5
 permalink: /drugs/metoclopramida/
+search_exclude: true
 ---
 
 # METOCLOPRAMIDA

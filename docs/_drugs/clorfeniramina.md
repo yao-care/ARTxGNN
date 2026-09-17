@@ -5,6 +5,7 @@ title: CLORFENIRAMINA
 drugbank_id: DB01114
 evidence_level: L5
 permalink: /drugs/clorfeniramina/
+search_exclude: true
 ---
 
 # CLORFENIRAMINA

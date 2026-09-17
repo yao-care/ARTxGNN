@@ -5,6 +5,7 @@ title: METIMAZOL
 drugbank_id: DB00763
 evidence_level: L5
 permalink: /drugs/metimazol/
+search_exclude: true
 ---
 
 # METIMAZOL

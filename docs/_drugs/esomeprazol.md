@@ -5,6 +5,7 @@ title: ESOMEPRAZOL
 drugbank_id: DB00736
 evidence_level: L5
 permalink: /drugs/esomeprazol/
+search_exclude: true
 ---
 
 # ESOMEPRAZOL

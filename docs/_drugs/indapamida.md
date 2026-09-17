@@ -5,6 +5,7 @@ title: INDAPAMIDA
 drugbank_id: DB00808
 evidence_level: L5
 permalink: /drugs/indapamida/
+search_exclude: true
 ---
 
 # INDAPAMIDA

@@ -5,6 +5,7 @@ title: CLOMIPRAMINA
 drugbank_id: DB01242
 evidence_level: L5
 permalink: /drugs/clomipramina/
+search_exclude: true
 ---
 
 # CLOMIPRAMINA

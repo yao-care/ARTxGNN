@@ -5,6 +5,7 @@ title: ETINILESTRADIOL
 drugbank_id: DB00977
 evidence_level: L5
 permalink: /drugs/etinilestradiol/
+search_exclude: true
 ---
 
 # ETINILESTRADIOL

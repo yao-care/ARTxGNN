@@ -1,16 +1,8 @@
 {
   "generated": "2026-05-03",
-  "drug_count": 414,
+  "drug_count": 195,
   "indication_count": 354,
   "drugs": [
-    {
-      "name": "PREGABALINA",
-      "slug": "pregabalina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
     {
       "name": "LEVETIRACETAM",
       "slug": "levetiracetam",
@@ -69,14 +61,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "MEPERIDINA",
-      "slug": "meperidina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "ADAPALENO",
@@ -154,22 +138,6 @@
       "indications": []
     },
     {
-      "name": "FLUOXETINA",
-      "slug": "fluoxetina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "TIMOLOL",
-      "slug": "timolol",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "BROMAZEPAM",
       "slug": "bromazepam",
       "brands": [],
@@ -182,22 +150,6 @@
           "level": "L2"
         }
       ]
-    },
-    {
-      "name": "PROPAFENONA",
-      "slug": "propafenona",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "GLIPIZIDA",
-      "slug": "glipizida",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "AZELASTINA",
@@ -267,22 +219,6 @@
       ]
     },
     {
-      "name": "NARATRIPTÁN",
-      "slug": "naratriptán",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "OXICODONA",
-      "slug": "oxicodona",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "CLOBAZAM",
       "slug": "clobazam",
       "brands": [],
@@ -350,48 +286,8 @@
       "indications": []
     },
     {
-      "name": "OLMESARTÁN",
-      "slug": "olmesartán",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "NIMODIPINA",
-      "slug": "nimodipina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "ESZOPICLONA",
-      "slug": "eszopiclona",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "IDOXURIDINA",
-      "slug": "idoxuridina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "TESTOSTERONA",
       "slug": "testosterona",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "SULFASALAZINA",
-      "slug": "sulfasalazina",
       "brands": [],
       "original": "",
       "level": "L5",
@@ -465,32 +361,8 @@
       "indications": []
     },
     {
-      "name": "IBRUTINIB",
-      "slug": "ibrutinib",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "DESVENLAFAXINA",
-      "slug": "desvenlafaxina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "AMIKACINA",
       "slug": "amikacina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "LEVOCETIRIZINA",
-      "slug": "levocetirizina",
       "brands": [],
       "original": "",
       "level": "L5",
@@ -531,22 +403,6 @@
       ]
     },
     {
-      "name": "LANSOPRAZOL",
-      "slug": "lansoprazol",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "SUCRALFATO",
-      "slug": "sucralfato",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "MOXIFLOXACINA",
       "slug": "moxifloxacina",
       "brands": [],
@@ -555,40 +411,8 @@
       "indications": []
     },
     {
-      "name": "DIGOXINA",
-      "slug": "digoxina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "CLORANFENICOL",
       "slug": "cloranfenicol",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "DEXTRÁN",
-      "slug": "dextrán",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "VENLAFAXINA",
-      "slug": "venlafaxina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "NIFEDIPINA",
-      "slug": "nifedipina",
       "brands": [],
       "original": "",
       "level": "L5",
@@ -611,22 +435,6 @@
     {
       "name": "AMITRIPTILINA",
       "slug": "amitriptilina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "TOLTERODINA",
-      "slug": "tolterodina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "SILDENAFIL",
-      "slug": "sildenafil",
       "brands": [],
       "original": "",
       "level": "L5",
@@ -751,14 +559,6 @@
       ]
     },
     {
-      "name": "DOMPERIDONA",
-      "slug": "domperidona",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "VILANTEROL",
       "slug": "vilanterol",
       "brands": [],
@@ -877,14 +677,6 @@
       ]
     },
     {
-      "name": "INSULINA GLARGINA",
-      "slug": "insulina_glargina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "FINASTERIDE",
       "slug": "finasteride",
       "brands": [],
@@ -922,38 +714,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "OLANZAPINA",
-      "slug": "olanzapina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "CLOZAPINA",
-      "slug": "clozapina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "TIOTROPIO",
-      "slug": "tiotropio",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "MORFINA,SULFATO",
-      "slug": "morfina_sulfato",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "CEFIXIMA",
@@ -1039,40 +799,8 @@
       "indications": []
     },
     {
-      "name": "PIRIMETAMINA",
-      "slug": "pirimetamina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "LOPERAMIDA",
-      "slug": "loperamida",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "METADONA",
-      "slug": "metadona",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "CICLOSPORINA",
       "slug": "ciclosporina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "CLOROQUINA",
-      "slug": "cloroquina",
       "brands": [],
       "original": "",
       "level": "L5",
@@ -1099,22 +827,6 @@
           "level": "L1"
         }
       ]
-    },
-    {
-      "name": "ENALAPRIL",
-      "slug": "enalapril",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "LERCANIDIPINA",
-      "slug": "lercanidipina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "BENZOCAÍNA",
@@ -1184,14 +896,6 @@
       ]
     },
     {
-      "name": "FOSFOMICINA",
-      "slug": "fosfomicina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "ITOPRIDE",
       "slug": "itopride",
       "brands": [],
@@ -1219,22 +923,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "OXIBUTININA",
-      "slug": "oxibutinina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "RABEPRAZOL",
-      "slug": "rabeprazol",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "DILTIAZEM",
@@ -1310,48 +998,8 @@
       ]
     },
     {
-      "name": "PERMETRINA",
-      "slug": "permetrina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "GANCICLOVIR",
-      "slug": "ganciclovir",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "VALACICLOVIR",
-      "slug": "valaciclovir",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "AMILORIDA",
       "slug": "amilorida",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "TRIMEBUTINA",
-      "slug": "trimebutina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "FELBAMATO",
-      "slug": "felbamato",
       "brands": [],
       "original": "",
       "level": "L5",
@@ -1388,14 +1036,6 @@
       "indications": []
     },
     {
-      "name": "DEXTROMETORFANO",
-      "slug": "dextrometorfano",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "CLONAZEPAM",
       "slug": "clonazepam",
       "brands": [],
@@ -1420,48 +1060,8 @@
       ]
     },
     {
-      "name": "IBUPROFENO",
-      "slug": "ibuprofeno",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "INDAPAMIDA",
-      "slug": "indapamida",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "TERBINAFINA",
-      "slug": "terbinafina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "IVABRADINA",
-      "slug": "ivabradina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "BETA-ALANINA",
       "slug": "beta-alanina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "ESTREPTOMICINA",
-      "slug": "estreptomicina",
       "brands": [],
       "original": "",
       "level": "L5",
@@ -1527,30 +1127,6 @@
       ]
     },
     {
-      "name": "ESTRADIOL",
-      "slug": "estradiol",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "LOTEPREDNOL",
-      "slug": "loteprednol",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "FENILEFRINA",
-      "slug": "fenilefrina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "CLARITROMICINA",
       "slug": "claritromicina",
       "brands": [],
@@ -1591,14 +1167,6 @@
     {
       "name": "CAPECITABINA",
       "slug": "capecitabina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "ROFLUMILAST",
-      "slug": "roflumilast",
       "brands": [],
       "original": "",
       "level": "L5",
@@ -1680,22 +1248,6 @@
       ]
     },
     {
-      "name": "GESTODENO",
-      "slug": "gestodeno",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "PROMESTRIENE",
-      "slug": "promestriene",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "BENSERAZIDA",
       "slug": "benserazida",
       "brands": [],
@@ -1728,14 +1280,6 @@
       ]
     },
     {
-      "name": "PIPOTIAZINA",
-      "slug": "pipotiazina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "EZETIMIBE",
       "slug": "ezetimibe",
       "brands": [],
@@ -1763,30 +1307,6 @@
           "level": "L4"
         }
       ]
-    },
-    {
-      "name": "CLORFENIRAMINA MALEATO",
-      "slug": "clorfeniramina_maleato",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "DEXCLORFENIRAMINA",
-      "slug": "dexclorfeniramina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "CLOMIPRAMINA",
-      "slug": "clomipramina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "SIMVASTATIN",
@@ -1836,14 +1356,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "OXCARBAZEPINA",
-      "slug": "oxcarbazepina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "CEFTAZIDIMA",
@@ -1975,48 +1487,8 @@
       ]
     },
     {
-      "name": "GABAPENTIN",
-      "slug": "gabapentin",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "CABERGOLINA",
       "slug": "cabergolina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "LAMOTRIGINA",
-      "slug": "lamotrigina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "GEFITINIB",
-      "slug": "gefitinib",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "SULPIRIDA",
-      "slug": "sulpirida",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "NICOTINA",
-      "slug": "nicotina",
       "brands": [],
       "original": "",
       "level": "L5",
@@ -2082,22 +1554,6 @@
       ]
     },
     {
-      "name": "ESOMEPRAZOL",
-      "slug": "esomeprazol",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "CLONIDINA",
-      "slug": "clonidina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "PERINDOPRIL",
       "slug": "perindopril",
       "brands": [],
@@ -2142,22 +1598,6 @@
     {
       "name": "BICALUTAMIDA",
       "slug": "bicalutamida",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "PILOCARPINA",
-      "slug": "pilocarpina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "FLUVASTATINA",
-      "slug": "fluvastatina",
       "brands": [],
       "original": "",
       "level": "L5",
@@ -2231,56 +1671,8 @@
       "indications": []
     },
     {
-      "name": "LIDOCAINA",
-      "slug": "lidocaina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "CEFUROXIMA",
       "slug": "cefuroxima",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "RILMENIDINA",
-      "slug": "rilmenidina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "ZIPRASIDONA",
-      "slug": "ziprasidona",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "PROCAÍNA",
-      "slug": "procaína",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "DORZOLAMIDA",
-      "slug": "dorzolamida",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "FLUTICASONA",
-      "slug": "fluticasona",
       "brands": [],
       "original": "",
       "level": "L5",
@@ -2303,48 +1695,8 @@
       "indications": []
     },
     {
-      "name": "SAXAGLIPTINA",
-      "slug": "saxagliptina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "CLORFENIRAMINA",
-      "slug": "clorfeniramina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "INDOMETACINA",
       "slug": "indometacina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "ROTIGOTINA",
-      "slug": "rotigotina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "INSULINA GLULISINA",
-      "slug": "insulina_glulisina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "PROGESTERONA",
-      "slug": "progesterona",
       "brands": [],
       "original": "",
       "level": "L5",
@@ -2359,32 +1711,8 @@
       "indications": []
     },
     {
-      "name": "HIDROCLOROTIAZIDA",
-      "slug": "hidroclorotiazida",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "BUPRENORFINA",
       "slug": "buprenorfina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "FUROSEMIDA",
-      "slug": "furosemida",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "ZOLMITRIPTÁN",
-      "slug": "zolmitriptán",
       "brands": [],
       "original": "",
       "level": "L5",
@@ -2415,14 +1743,6 @@
       "indications": []
     },
     {
-      "name": "GLUCOSAMINA",
-      "slug": "glucosamina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "BRINZOLAMIDA",
       "slug": "brinzolamida",
       "brands": [],
@@ -2431,32 +1751,8 @@
       "indications": []
     },
     {
-      "name": "FEXOFENADINA",
-      "slug": "fexofenadina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "CILASTATÍN",
       "slug": "cilastatín",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "NORETISTERONA",
-      "slug": "noretisterona",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "DOXILAMINA",
-      "slug": "doxilamina",
       "brands": [],
       "original": "",
       "level": "L5",
@@ -2530,14 +1826,6 @@
       ]
     },
     {
-      "name": "PANTOPRAZOL",
-      "slug": "pantoprazol",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "SALMETEROL",
       "slug": "salmeterol",
       "brands": [],
@@ -2582,32 +1870,8 @@
       ]
     },
     {
-      "name": "PIRIDOXINA",
-      "slug": "piridoxina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "BECLOMETASONA",
       "slug": "beclometasona",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "TIZANIDINA",
-      "slug": "tizanidina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "HEXOPRENALINA",
-      "slug": "hexoprenalina",
       "brands": [],
       "original": "",
       "level": "L5",
@@ -2674,40 +1938,8 @@
       ]
     },
     {
-      "name": "NITROFURANTOÍNA",
-      "slug": "nitrofurantoína",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "ISOXSUPRINA",
-      "slug": "isoxsuprina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "AGOMELATINA",
       "slug": "agomelatina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "DOXAZOSINA",
-      "slug": "doxazosina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "METOCLOPRAMIDA",
-      "slug": "metoclopramida",
       "brands": [],
       "original": "",
       "level": "L5",
@@ -2771,22 +2003,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "VIGABATRIN",
-      "slug": "vigabatrin",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "TIANEPTINA",
-      "slug": "tianeptina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "CARTEOLOL,CLORH.",
@@ -2895,46 +2111,6 @@
       ]
     },
     {
-      "name": "METILFENIDATO",
-      "slug": "metilfenidato",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "PRIDINOL,MESILATO",
-      "slug": "pridinol_mesilato",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "LIDOCAÍNA",
-      "slug": "lidocaína",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "OSELTAMIVIR",
-      "slug": "oseltamivir",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "MICONAZOL",
-      "slug": "miconazol",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "DEXAMETASONA",
       "slug": "dexametasona",
       "brands": [],
@@ -2945,14 +2121,6 @@
     {
       "name": "CINITAPRIDA",
       "slug": "cinitaprida",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "NEOMICINA",
-      "slug": "neomicina",
       "brands": [],
       "original": "",
       "level": "L5",
@@ -3019,14 +2187,6 @@
       ]
     },
     {
-      "name": "MIRTAZAPINA",
-      "slug": "mirtazapina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "CLEBOPRIDE",
       "slug": "clebopride",
       "brands": [],
@@ -3035,64 +2195,8 @@
       "indications": []
     },
     {
-      "name": "ERGOTAMINA",
-      "slug": "ergotamina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "LACOSAMIDA",
-      "slug": "lacosamida",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "TROPICAMIDA",
-      "slug": "tropicamida",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "PROMETAZINA",
-      "slug": "prometazina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "EPINASTINA",
-      "slug": "epinastina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "TRIMETAZIDINA",
-      "slug": "trimetazidina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "ATORVASTATÍN",
       "slug": "atorvastatín",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "PAROXETINA",
-      "slug": "paroxetina",
       "brands": [],
       "original": "",
       "level": "L5",
@@ -3231,56 +2335,8 @@
       ]
     },
     {
-      "name": "FENTANILO",
-      "slug": "fentanilo",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "VALERATO DE ESTRADIOL",
-      "slug": "valerato_de_estradiol",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "CARBOCISTEÍNA",
       "slug": "carbocisteína",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "HIDROXICLOROQUINA",
-      "slug": "hidroxicloroquina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "SERTRALINA",
-      "slug": "sertralina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "ROSIGLITAZONA",
-      "slug": "rosiglitazona",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "NITROGLICERINA",
-      "slug": "nitroglicerina",
       "brands": [],
       "original": "",
       "level": "L5",
@@ -3344,14 +2400,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "DIFLUPREDNATO",
-      "slug": "difluprednato",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "LIOTIRONINA",
@@ -3435,14 +2483,6 @@
       ]
     },
     {
-      "name": "ZOPICLONA",
-      "slug": "zopiclona",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "RAMIPRIL",
       "slug": "ramipril",
       "brands": [],
@@ -3500,22 +2540,6 @@
           "level": "L3"
         }
       ]
-    },
-    {
-      "name": "GINKGO BILOBA",
-      "slug": "ginkgo_biloba",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "PRAZIQUANTEL",
-      "slug": "praziquantel",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "ACETILCARNITINA",
@@ -3609,22 +2633,6 @@
       "indications": []
     },
     {
-      "name": "IVERMECTINA",
-      "slug": "ivermectina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "SUMATRIPTÁN",
-      "slug": "sumatriptán",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "SOTALOL",
       "slug": "sotalol",
       "brands": [],
@@ -3681,14 +2689,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "LINAGLIPTINA",
-      "slug": "linagliptina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "AMLODIPINA",
@@ -3758,22 +2758,6 @@
       ]
     },
     {
-      "name": "MEBENDAZOL",
-      "slug": "mebendazol",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "REPAGLINIDA",
-      "slug": "repaglinida",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "ETORICOXIB",
       "slug": "etoricoxib",
       "brands": [],
@@ -3833,14 +2817,6 @@
       ]
     },
     {
-      "name": "FLECAINIDA",
-      "slug": "flecainida",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "NEBIVOLOL",
       "slug": "nebivolol",
       "brands": [],
@@ -3875,14 +2851,6 @@
       ]
     },
     {
-      "name": "IRBESARTÁN",
-      "slug": "irbesartán",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "BUFLOMEDIL",
       "slug": "buflomedil",
       "brands": [],
@@ -3893,14 +2861,6 @@
     {
       "name": "HIDROCORTISONA",
       "slug": "hidrocortisona",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "SOLIFENACINA",
-      "slug": "solifenacina",
       "brands": [],
       "original": "",
       "level": "L5",
@@ -3966,24 +2926,8 @@
       ]
     },
     {
-      "name": "YOHIMBINA",
-      "slug": "yohimbina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "AMPICILINA",
       "slug": "ampicilina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "CLORTALIDONA",
-      "slug": "clortalidona",
       "brands": [],
       "original": "",
       "level": "L5",
@@ -4008,22 +2952,6 @@
     {
       "name": "BACLOFENO",
       "slug": "baclofeno",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "QUETIAPINA",
-      "slug": "quetiapina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "ORFENADRINA",
-      "slug": "orfenadrina",
       "brands": [],
       "original": "",
       "level": "L5",
@@ -4131,24 +3059,8 @@
       ]
     },
     {
-      "name": "FAMOTIDINA",
-      "slug": "famotidina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "BENZNIDAZOL",
       "slug": "benznidazol",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "DABIGATRÁN",
-      "slug": "dabigatrán",
       "brands": [],
       "original": "",
       "level": "L5",
@@ -4213,46 +3125,6 @@
       ]
     },
     {
-      "name": "PREDNISOLONA ACETATO",
-      "slug": "prednisolona_acetato",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "UREA",
-      "slug": "urea",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "ESCITALOPRAM",
-      "slug": "escitalopram",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "LENALIDOMIDA",
-      "slug": "lenalidomida",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "MORFINA,CLORHIDRATO",
-      "slug": "morfina_clorhidrato",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "IBUPROFEN",
       "slug": "ibuprofen",
       "brands": [],
@@ -4295,30 +3167,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "TIMOLOL,MALEATO",
-      "slug": "timolol_maleato",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "TINIDAZOL",
-      "slug": "tinidazol",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "RIVASTIGMINA",
-      "slug": "rivastigmina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "MIDODRINE",
@@ -4424,32 +3272,8 @@
       ]
     },
     {
-      "name": "VINCAMINA",
-      "slug": "vincamina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "NISTATINA",
-      "slug": "nistatina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "ALFUZOSINA,CLORH.",
       "slug": "alfuzosina_clorh",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "TAMSULOSINA",
-      "slug": "tamsulosina",
       "brands": [],
       "original": "",
       "level": "L5",
@@ -4515,14 +3339,6 @@
       ]
     },
     {
-      "name": "PIOGLITAZONA",
-      "slug": "pioglitazona",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "CELECOXIB",
       "slug": "celecoxib",
       "brands": [],
@@ -4582,40 +3398,8 @@
       ]
     },
     {
-      "name": "DROSPIRENONA",
-      "slug": "drospirenona",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "PALIPERIDONA",
-      "slug": "paliperidona",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "BIPERIDENO",
       "slug": "biperideno",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "MEDROXIPROGESTERONA",
-      "slug": "medroxiprogesterona",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "VARDENAFIL",
-      "slug": "vardenafil",
       "brands": [],
       "original": "",
       "level": "L5",
@@ -4634,14 +3418,6 @@
           "level": "L4"
         }
       ]
-    },
-    {
-      "name": "LOSARTÁN",
-      "slug": "losartán",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "AMANTADINA",
@@ -4802,14 +3578,6 @@
       ]
     },
     {
-      "name": "PRAMIPEXOL",
-      "slug": "pramipexol",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "SELEGILINA",
       "slug": "selegilina",
       "brands": [],
@@ -4931,46 +3699,6 @@
       "indications": []
     },
     {
-      "name": "FLUVOXAMINA",
-      "slug": "fluvoxamina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "LEFLUNOMIDA",
-      "slug": "leflunomida",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "SEMAGLUTIDA",
-      "slug": "semaglutida",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "PIRIDOSTIGMINA",
-      "slug": "piridostigmina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "DESLORATADINA",
-      "slug": "desloratadina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "MIDAZOLAM",
       "slug": "midazolam",
       "brands": [],
@@ -4983,38 +3711,6 @@
           "level": "L1"
         }
       ]
-    },
-    {
-      "name": "NOMEGESTROL",
-      "slug": "nomegestrol",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "ROSUVASTATINA",
-      "slug": "rosuvastatina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "RISPERIDONA",
-      "slug": "risperidona",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "NICERGOLINA",
-      "slug": "nicergolina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "ATENOLOL",
@@ -5071,22 +3767,6 @@
       ]
     },
     {
-      "name": "DULOXETINA",
-      "slug": "duloxetina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "PIRACETAM",
-      "slug": "piracetam",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "LEVOBUNOLOL",
       "slug": "levobunolol",
       "brands": [],
@@ -5109,38 +3789,6 @@
           "level": "L4"
         }
       ]
-    },
-    {
-      "name": "FENOFIBRATO",
-      "slug": "fenofibrato",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "FLUNARIZINA",
-      "slug": "flunarizina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "OMEPRAZOL",
-      "slug": "omeprazol",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "DARIFENACINA",
-      "slug": "darifenacina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "CALCIO",
@@ -5200,24 +3848,8 @@
       ]
     },
     {
-      "name": "FLUCONAZOL",
-      "slug": "fluconazol",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "CARBIDOPA",
       "slug": "carbidopa",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "TRIFLUOPERAZINA",
-      "slug": "trifluoperazina",
       "brands": [],
       "original": "",
       "level": "L5",
@@ -5232,64 +3864,8 @@
       "indications": []
     },
     {
-      "name": "METIMAZOL",
-      "slug": "metimazol",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "GLICLAZIDA",
-      "slug": "gliclazida",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "PARACETAMOL",
-      "slug": "paracetamol",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "EMPAGLIFLOZINA",
-      "slug": "empagliflozina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "ACICLOVIR",
       "slug": "aciclovir",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "LORATADINA",
-      "slug": "loratadina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "TRETINOÍNA",
-      "slug": "tretinoína",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "VANCOMICINA",
-      "slug": "vancomicina",
       "brands": [],
       "original": "",
       "level": "L5",
@@ -5412,24 +3988,8 @@
       ]
     },
     {
-      "name": "TIROFIBAN",
-      "slug": "tirofiban",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "BETAMETASONA",
       "slug": "betametasona",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "FENOFIBRATO MICRONIZADO",
-      "slug": "fenofibrato_micronizado",
       "brands": [],
       "original": "",
       "level": "L5",
@@ -5488,38 +4048,6 @@
           "level": "L4"
         }
       ]
-    },
-    {
-      "name": "TOPIRAMATO",
-      "slug": "topiramato",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "GRISEOFULVINA",
-      "slug": "griseofulvina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "ESPIRONOLACTONA",
-      "slug": "espironolactona",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "DEFLAZACORT",
-      "slug": "deflazacort",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "MELOXICAM",
@@ -5581,46 +4109,6 @@
       ]
     },
     {
-      "name": "SILODOSINA",
-      "slug": "silodosina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "FENITOÍNA",
-      "slug": "fenitoína",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "CODEÍNA",
-      "slug": "codeína",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "FELODIPINA",
-      "slug": "felodipina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "VALSARTÁN",
-      "slug": "valsartán",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "FORMOTEROL",
       "slug": "formoterol",
       "brands": [],
@@ -5660,22 +4148,6 @@
       ]
     },
     {
-      "name": "TELMISARTÁN",
-      "slug": "telmisartán",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "SITAGLIPTINA",
-      "slug": "sitagliptina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "AMBROXOL",
       "slug": "ambroxol",
       "brands": [],
@@ -5708,46 +4180,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "GLIBENCLAMIDA",
-      "slug": "glibenclamida",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "DAPAGLIFLOZINA",
-      "slug": "dapagliflozina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "MOMETASONA",
-      "slug": "mometasona",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "NORTRIPTILINA",
-      "slug": "nortriptilina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "COLCHICINA",
-      "slug": "colchicina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "LEVONORGESTREL",
@@ -5787,14 +4219,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "ROPINIROL",
-      "slug": "ropinirol",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "CLINDAMICINA",
@@ -5864,24 +4288,8 @@
       ]
     },
     {
-      "name": "METFORMINA,CLORH.",
-      "slug": "metformina_clorh",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "AMIODARONA",
       "slug": "amiodarona",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "MESALAZINA",
-      "slug": "mesalazina",
       "brands": [],
       "original": "",
       "level": "L5",
@@ -5939,30 +4347,6 @@
     {
       "name": "ATROPINA,SULFATO",
       "slug": "atropina_sulfato",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "MIGLUSTAT",
-      "slug": "miglustat",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "HEXETIDINA",
-      "slug": "hexetidina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "SULFAMETOXAZOL",
-      "slug": "sulfametoxazol",
       "brands": [],
       "original": "",
       "level": "L5",
@@ -6044,22 +4428,6 @@
       "indications": []
     },
     {
-      "name": "NOMEGESTROL,ACETATO",
-      "slug": "nomegestrol_acetato",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "ELTROMBOPAG",
-      "slug": "eltrombopag",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "MEMANTINE",
       "slug": "memantine",
       "brands": [],
@@ -6087,30 +4455,6 @@
           "level": "L4"
         }
       ]
-    },
-    {
-      "name": "ETINILESTRADIOL",
-      "slug": "etinilestradiol",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "NITAZOXANIDA",
-      "slug": "nitazoxanida",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "TRIMETOPRIMA",
-      "slug": "trimetoprima",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "BUDESONIDE",
@@ -6170,30 +4514,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "GENTAMICINA",
-      "slug": "gentamicina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "METFORMINA",
-      "slug": "metformina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "DICLOFENAC SÓDICO",
-      "slug": "diclofenac_sódico",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "CEFADROXILO",
@@ -6290,30 +4610,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "ETOFENAMATO",
-      "slug": "etofenamato",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "ITRACONAZOL",
-      "slug": "itraconazol",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "ISOTRETINOÍNA",
-      "slug": "isotretinoína",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "MAZINDOL",
@@ -6459,14 +4755,6 @@
       "indications": []
     },
     {
-      "name": "GALANTAMINA",
-      "slug": "galantamina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "BIMATOPROST",
       "slug": "bimatoprost",
       "brands": [],
@@ -6534,14 +4822,6 @@
       "indications": []
     },
     {
-      "name": "RASAGILINA",
-      "slug": "rasagilina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "MONTELUKAST",
       "slug": "montelukast",
       "brands": [],
@@ -6574,30 +4854,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "RIVAROXABÁN",
-      "slug": "rivaroxabán",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "CLOTRIMAZOL",
-      "slug": "clotrimazol",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "DAPSONA",
-      "slug": "dapsona",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "IMIQUIMOD",
@@ -6657,14 +4913,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "PROPARACAÍNA",
-      "slug": "proparacaína",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     }
   ],
   "indications": [
@@ -6750,7 +4998,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 11
     },
     {
       "name": "pulmonary hypertension owing to lung disease and/or hypoxia",
@@ -6834,7 +5083,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 11
     },
     {
       "name": "pulmonary hypertension with unclear multifactorial mechanism",
@@ -6918,7 +5168,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 11
     },
     {
       "name": "malignant hypertensive renal disease",
@@ -7002,7 +5253,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 11
     },
     {
       "name": "malignant renovascular hypertension",
@@ -7086,7 +5338,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 11
     },
     {
       "name": "Braddock syndrome",
@@ -7163,7 +5416,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 10
     },
     {
       "name": "migraine disorder",
@@ -7233,7 +5487,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 9
     },
     {
       "name": "migraine with brainstem aura",
@@ -7303,7 +5558,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 9
     },
     {
       "name": "hypotrichosis simplex of the scalp",
@@ -7359,7 +5615,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 7
     },
     {
       "name": "congenital hypotrichosis milia",
@@ -7415,7 +5672,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 7
     },
     {
       "name": "acromesomelic dysplasia, Hunter-Thompson type",
@@ -7464,7 +5722,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 6
     },
     {
       "name": "brachyolmia",
@@ -7513,7 +5772,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 6
     },
     {
       "name": "brachyolmia-amelogenesis imperfecta syndrome",
@@ -7562,7 +5822,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 6
     },
     {
       "name": "myosclerosis",
@@ -7611,7 +5872,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 6
     },
     {
       "name": "amenorrhea (disease)",
@@ -7660,7 +5922,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 6
     },
     {
       "name": "pseudoachondroplasia",
@@ -7702,7 +5965,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 5
     },
     {
       "name": "diffuse alopecia areata",
@@ -7744,7 +6008,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 5
     },
     {
       "name": "obstructive lung disease",
@@ -7786,7 +6051,8 @@
           "level": "L1",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 5
     },
     {
       "name": "bronchitis",
@@ -7828,7 +6094,8 @@
           "level": "L1",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 5
     },
     {
       "name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
@@ -7870,7 +6137,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 5
     },
     {
       "name": "brachydactyly-syndactyly syndrome",
@@ -7912,7 +6180,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 5
     },
     {
       "name": "WHIM syndrome",
@@ -7947,7 +6216,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 4
     },
     {
       "name": "migraine with or without aura, susceptibility to",
@@ -7982,7 +6252,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 4
     },
     {
       "name": "agoraphobia",
@@ -8017,7 +6288,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 4
     },
     {
       "name": "benign paroxysmal torticollis of infancy",
@@ -8052,7 +6324,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 4
     },
     {
       "name": "Ambras type hypertrichosis universalis congenita",
@@ -8087,7 +6360,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 4
     },
     {
       "name": "chronic pulmonary heart disease",
@@ -8122,7 +6396,8 @@
           "level": "L3",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 4
     },
     {
       "name": "rheumatoid nodulosis",
@@ -8157,7 +6432,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 4
     },
     {
       "name": "primary hereditary glaucoma",
@@ -8192,7 +6468,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 4
     },
     {
       "name": "pulmonary hypertension",
@@ -8227,7 +6504,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 4
     },
     {
       "name": "kyphoscoliotic heart disease",
@@ -8262,7 +6540,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 4
     },
     {
       "name": "headache disorder",
@@ -8297,7 +6576,8 @@
           "level": "L3",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 4
     },
     {
       "name": "trigeminal autonomic cephalalgia",
@@ -8332,7 +6612,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 4
     },
     {
       "name": "rheumatoid arthritis",
@@ -8367,7 +6648,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 4
     },
     {
       "name": "juvenile idiopathic arthritis",
@@ -8395,7 +6677,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 3
     },
     {
       "name": "breast fibrocystic disease",
@@ -8423,7 +6706,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 3
     },
     {
       "name": "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis",
@@ -8451,7 +6735,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 3
     },
     {
       "name": "respiratory malformation",
@@ -8479,7 +6764,8 @@
           "level": "L1",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 3
     },
     {
       "name": "hypertrichosis (disease)",
@@ -8507,7 +6793,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 3
     },
     {
       "name": "malformation syndrome with odontal and/or periodontal component",
@@ -8535,7 +6822,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 3
     },
     {
       "name": "syndrome with a Dandy-Walker malformation as major feature",
@@ -8563,7 +6851,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 3
     },
     {
       "name": "isolated genetic hair shaft abnormality",
@@ -8591,7 +6880,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 3
     },
     {
       "name": "posterolateral myocardial infarction",
@@ -8619,7 +6909,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 3
     },
     {
       "name": "posteroinferior myocardial infarction",
@@ -8647,7 +6938,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 3
     },
     {
       "name": "septal myocardial infarction",
@@ -8675,7 +6967,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 3
     },
     {
       "name": "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis",
@@ -8703,7 +6996,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 3
     },
     {
       "name": "seborrheic keratosis",
@@ -8731,7 +7025,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 3
     },
     {
       "name": "vulvar inverted follicular keratosis",
@@ -8759,7 +7054,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 3
     },
     {
       "name": "asthma",
@@ -8787,7 +7083,8 @@
           "level": "L1",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 3
     },
     {
       "name": "asthma-related traits, susceptibility to",
@@ -8815,7 +7112,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 3
     },
     {
       "name": "atopic eczema",
@@ -8843,7 +7141,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 3
     },
     {
       "name": "apocrine adenosis of breast",
@@ -8871,7 +7170,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 3
     },
     {
       "name": "blunt duct adenosis of breast",
@@ -8899,7 +7199,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 3
     },
     {
       "name": "acne (disease)",
@@ -8927,7 +7228,8 @@
           "level": "L3",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 3
     },
     {
       "name": "Prinzmetal angina",
@@ -8955,7 +7257,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 3
     },
     {
       "name": "manic bipolar affective disorder",
@@ -8983,7 +7286,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 3
     },
     {
       "name": "startle epilepsy",
@@ -9004,7 +7308,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "eating seizures",
@@ -9025,7 +7330,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "micturation-induced seizures",
@@ -9046,7 +7352,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "audiogenic seizures",
@@ -9067,7 +7374,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "orgasm-induced seizures",
@@ -9088,7 +7396,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "thinking seizures",
@@ -9109,7 +7418,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "reading seizures",
@@ -9130,7 +7440,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "vulvovaginal candidiasis",
@@ -9151,7 +7462,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "benign neoplasm of tongue",
@@ -9172,7 +7484,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "cystic neoplasm",
@@ -9193,7 +7506,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "restless legs syndrome",
@@ -9214,7 +7528,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "primary ovarian failure",
@@ -9235,7 +7550,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "symptomatic form of fragile X syndrome in female carrier",
@@ -9256,7 +7572,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "retinal dystrophy with or without extraocular anomalies",
@@ -9277,7 +7594,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "paralysis agitans, juvenile, of Hunt",
@@ -9298,7 +7616,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "PLA2G6-associated neurodegeneration",
@@ -9319,7 +7638,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "visceral calciphylaxis",
@@ -9340,7 +7660,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "arterial thoracic outlet syndrome",
@@ -9361,7 +7682,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "venous thoracic outlet syndrome",
@@ -9382,7 +7704,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "neurogenic thoracic outlet syndrome",
@@ -9403,7 +7726,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "angiodysplasia of stomach",
@@ -9424,7 +7748,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "blue toe syndrome",
@@ -9445,7 +7770,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "lymphangiectasis",
@@ -9466,7 +7792,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "atrophoderma vermiculata",
@@ -9487,7 +7814,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "nasal cavity disease",
@@ -9508,7 +7836,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "acute laryngopharyngitis",
@@ -9529,7 +7858,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "anaphylaxis",
@@ -9550,7 +7880,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "familial isolated trichomegaly",
@@ -9571,7 +7902,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "spondyloarthropathy, susceptibility to",
@@ -9592,7 +7924,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "obsolete susceptibility to ischemic stroke",
@@ -9613,7 +7946,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "eye disease",
@@ -9634,7 +7968,8 @@
           "level": "L1",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "optic papillitis",
@@ -9655,7 +7990,8 @@
           "level": "L3",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "von Hippel anomaly",
@@ -9676,7 +8012,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "mcpherson robertson cammarano syndrome",
@@ -9697,7 +8034,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "lagophthalmos",
@@ -9718,7 +8056,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "trigeminal nerve neoplasm",
@@ -9739,7 +8078,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "Rasmussen subacute encephalitis",
@@ -9760,7 +8100,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "classic stiff person syndrome",
@@ -9781,7 +8122,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "focal stiff limb syndrome",
@@ -9802,7 +8144,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "thiamine-responsive dysfunction syndrome",
@@ -9823,7 +8166,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "opsismodysplasia",
@@ -9844,7 +8188,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "drug-induced localized lipodystrophy",
@@ -9865,7 +8210,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "centrifugal lipodystrophy",
@@ -9886,7 +8232,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "pressure-induced localized lipoatrophy",
@@ -9907,7 +8254,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "idiopathic localized lipodystrophy",
@@ -9928,7 +8276,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "pancreatic agenesis",
@@ -9949,7 +8298,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "familial hypercholesterolemia",
@@ -9970,7 +8320,8 @@
           "level": "L1",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency",
@@ -9991,7 +8342,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "cholesterol-ester transfer protein deficiency",
@@ -10012,7 +8364,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "brain stem infarction",
@@ -10033,7 +8386,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "HIV infectious disease",
@@ -10054,7 +8408,8 @@
           "level": "L3",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "ABri amyloidosis",
@@ -10075,7 +8430,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "rosacea conjunctivitis",
@@ -10096,7 +8452,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "sleep disorder, initiating and maintaining sleep",
@@ -10117,7 +8474,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "trichotillomania",
@@ -10138,7 +8496,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "pulmonary arteriovenous malformation (disease)",
@@ -10159,7 +8518,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "Rienhoff syndrome",
@@ -10180,7 +8540,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "obsessive-compulsive disorder",
@@ -10201,7 +8562,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "paranoid personality disorder",
@@ -10222,7 +8584,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "schizoid personality disorder",
@@ -10243,7 +8606,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "schizotypal personality disorder",
@@ -10264,7 +8628,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "histrionic personality disorder (disease)",
@@ -10285,7 +8650,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "hypervitaminosis",
@@ -10306,7 +8672,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "attention deficit hyperactivity disorder, inattentive type",
@@ -10327,7 +8694,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "specific developmental disorder",
@@ -10348,7 +8716,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "attention deficit-hyperactivity disorder",
@@ -10369,7 +8738,8 @@
           "level": "L3",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "alopecia",
@@ -10390,7 +8760,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "open-angle glaucoma",
@@ -10411,7 +8782,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "methemoglobinemia, alpha type",
@@ -10432,7 +8804,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "methemoglobin reductase deficiency",
@@ -10453,7 +8826,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "variably protease-sensitive prionopathy",
@@ -10474,7 +8848,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "sinoatrial node disease",
@@ -10495,7 +8870,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "obsolete hypertelorism (disease)",
@@ -10516,7 +8892,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "sinoatrial block",
@@ -10537,7 +8914,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "hypoalphalipoproteinemia",
@@ -10558,7 +8936,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "postural orthostatic tachycardia syndrome",
@@ -10579,7 +8958,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "tendinitis",
@@ -10600,7 +8980,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "idiopathic granulomatous myositis",
@@ -10621,7 +9002,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 2
     },
     {
       "name": "visual epilepsy",
@@ -10635,7 +9017,8 @@
           "level": "L1",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "status epilepticus",
@@ -10649,7 +9032,8 @@
           "level": "L1",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "beta-ketothiolase deficiency",
@@ -10663,7 +9047,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "photosensitivity disease",
@@ -10677,7 +9062,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "human papilloma virus infection",
@@ -10691,7 +9077,8 @@
           "level": "L3",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "herpes zoster",
@@ -10705,7 +9092,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "benign neoplasm of hypopharynx",
@@ -10719,7 +9107,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "mesenchymoma",
@@ -10733,7 +9122,8 @@
           "level": "L1",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "nasal cavity inverting papilloma",
@@ -10747,7 +9137,8 @@
           "level": "L3",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "tumor of testis and paratestis",
@@ -10761,7 +9152,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "febrile infection-related epilepsy syndrome",
@@ -10775,7 +9167,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "perioral myoclonia with absences",
@@ -10789,7 +9182,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "photosensitive occipital lobe epilepsy",
@@ -10803,7 +9197,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "atypical childhood epilepsy with centrotemporal spikes",
@@ -10817,7 +9212,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "cryptogenic late-onset epileptic spasms",
@@ -10831,7 +9227,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "childhood onset epileptic encephalopathy",
@@ -10845,7 +9242,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "benign occipital epilepsy",
@@ -10859,7 +9257,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "early-onset epileptic encephalopathy and intellectual disability due to GRIN2A mutation",
@@ -10873,7 +9272,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "polymicrogyria with optic nerve hypoplasia",
@@ -10887,7 +9287,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "isolated growth hormone deficiency",
@@ -10901,7 +9302,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "blepharophimosis-epicanthus inversus-ptosis",
@@ -10915,7 +9317,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "hypogonadotropic hypogonadism with or without anosmia",
@@ -10929,7 +9332,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "partial trisomy/tetrasomy of the short arm of chromosome 5",
@@ -10943,7 +9347,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome",
@@ -10957,7 +9362,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "partial trisomy/tetrasomy of the short arm of chromosome 18",
@@ -10971,7 +9377,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "juvenile onset Parkinson disease 19A",
@@ -10985,7 +9392,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "vascular disease",
@@ -10999,7 +9407,8 @@
           "level": "L1",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "idiopathic spontaneous coronary artery dissection",
@@ -11013,7 +9422,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "hemangioendothelioma",
@@ -11027,7 +9437,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "anxiety",
@@ -11041,7 +9452,8 @@
           "level": "L3",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "anxiety disorder",
@@ -11055,7 +9467,8 @@
           "level": "L3",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "alcohol withdrawal delirium",
@@ -11069,7 +9482,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "interstitial emphysema",
@@ -11083,7 +9497,8 @@
           "level": "L3",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "compensatory emphysema",
@@ -11097,7 +9512,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "hyperlucent lung",
@@ -11111,7 +9527,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "tracheal stenosis",
@@ -11125,7 +9542,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "bronchial neoplasm (disease)",
@@ -11139,7 +9557,8 @@
           "level": "L1",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "congenital lobar emphysema",
@@ -11153,7 +9572,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "tracheal calcification",
@@ -11167,7 +9587,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "laryngotracheitis",
@@ -11181,7 +9602,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "papillary conjunctivitis",
@@ -11195,7 +9617,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "pharyngitis",
@@ -11209,7 +9632,8 @@
           "level": "L1",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "common cold",
@@ -11223,7 +9647,8 @@
           "level": "L2",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "atopic conjunctivitis",
@@ -11237,7 +9662,8 @@
           "level": "L3",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "anorectal stricture",
@@ -11251,7 +9677,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome",
@@ -11265,7 +9692,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "juvenile arthritis due to defect in LACC1",
@@ -11279,7 +9707,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "small bowel Crohn disease",
@@ -11293,7 +9722,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "venous insufficiency (disease)",
@@ -11307,7 +9737,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "achlorhydria",
@@ -11321,7 +9752,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "hiatus hernia (disease)",
@@ -11335,7 +9767,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "vitreous detachment",
@@ -11349,7 +9782,8 @@
           "level": "L2",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "type 1 diabetes mellitus",
@@ -11363,7 +9797,8 @@
           "level": "L1",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "hyperlipoproteinemia",
@@ -11377,7 +9812,8 @@
           "level": "L1",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "hypercholesterolemia, autosomal dominant",
@@ -11391,7 +9827,8 @@
           "level": "L1",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter",
@@ -11405,7 +9842,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "myelitis",
@@ -11419,7 +9857,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "transaldolase deficiency",
@@ -11433,7 +9872,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "lethal infantile mitochondrial myopathy",
@@ -11447,7 +9887,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "Lewy body dementia",
@@ -11461,7 +9902,8 @@
           "level": "L3",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "fructose-1,6-bisphosphatase deficiency",
@@ -11475,7 +9917,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "progressive supranuclear palsy-corticobasal syndrome",
@@ -11489,7 +9932,8 @@
           "level": "L3",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "microblepharon-ablephara syndrome",
@@ -11503,7 +9947,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "conjunctival degeneration",
@@ -11517,7 +9962,8 @@
           "level": "L2",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "luxation of globe",
@@ -11531,7 +9977,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "pseudopelade of Brocq",
@@ -11545,7 +9992,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "pulmonary arterial hypertension",
@@ -11559,7 +10007,8 @@
           "level": "L3",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "pulmonary arterial hypertension associated with congenital heart disease",
@@ -11573,7 +10022,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "pulmonary arterial hypertension associated with schistosomiasis",
@@ -11587,7 +10037,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "pulmonary arterial hypertension associated with HIV infection",
@@ -11601,7 +10052,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "obsolete vitamin D deficiency",
@@ -11615,7 +10067,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "renal tubular acidosis",
@@ -11629,7 +10082,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "familial isolated hypoparathyroidism due to impaired PTH secretion",
@@ -11643,7 +10097,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "acromesomelic dysplasia, Campailla Martinelli type",
@@ -11657,7 +10112,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "craniofacial conodysplasia",
@@ -11671,7 +10127,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "Dahlberg-Borer-Newcomer syndrome",
@@ -11685,7 +10142,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "hereditary hypophosphatemic rickets",
@@ -11699,7 +10157,8 @@
           "level": "L1",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "acute encephalopathy with biphasic seizures and late reduced diffusion",
@@ -11713,7 +10172,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "vulvovaginitis",
@@ -11727,7 +10187,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "vulvitis",
@@ -11741,7 +10202,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "vulvar neoplasm",
@@ -11755,7 +10217,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "ulceration of vulva",
@@ -11769,7 +10232,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "vulvar squamous neoplasm",
@@ -11783,7 +10247,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "postmenopausal atrophic vaginitis",
@@ -11797,7 +10262,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "bone Paget disease",
@@ -11811,7 +10277,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "distal myopathy, Tateyama type",
@@ -11825,7 +10292,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "congenital myopathy with excess of thin filaments",
@@ -11839,7 +10307,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "hypertrophic cardiomyopathy due to intensive athletic training",
@@ -11853,7 +10322,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "chondroma",
@@ -11867,7 +10337,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "cirrhotic cardiomyopathy",
@@ -11881,7 +10352,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "cardiomyopathy",
@@ -11895,7 +10367,8 @@
           "level": "L1",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "primary cutaneous T-cell lymphoma",
@@ -11909,7 +10382,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "irritable bowel syndrome",
@@ -11923,7 +10397,8 @@
           "level": "L2",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "dysthymic disorder",
@@ -11937,7 +10412,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "phobic disorder",
@@ -11951,7 +10427,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "Ohdo syndrome and variants",
@@ -11965,7 +10442,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "fat necrosis of breast",
@@ -11979,7 +10457,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "breast abscess",
@@ -11993,7 +10472,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "lactation disease",
@@ -12007,7 +10487,8 @@
           "level": "L3",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "breast adenosis",
@@ -12021,7 +10502,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "cauda equina syndrome",
@@ -12035,7 +10517,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "barbiturate abuse",
@@ -12049,7 +10532,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "antidepressant type abuse",
@@ -12063,7 +10547,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "hallucinogen abuse",
@@ -12077,7 +10562,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "obsolete neurogenic bladder (disease)",
@@ -12091,7 +10577,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "intracerebral hemorrhage",
@@ -12105,7 +10592,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "cerebral artery occlusion",
@@ -12119,7 +10607,8 @@
           "level": "L3",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "sick sinus syndrome 2, autosomal dominant",
@@ -12133,7 +10622,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "Wildervanck syndrome",
@@ -12147,7 +10637,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "sarcoglycanopathy",
@@ -12161,7 +10652,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "stroke disorder",
@@ -12175,7 +10667,8 @@
           "level": "L1",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "macrocephaly, dysmorphic facies, and psychomotor retardation",
@@ -12189,7 +10682,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "ulerythema ophryogenesis",
@@ -12203,7 +10697,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "benign prostatic hyperplasia (disease)",
@@ -12217,7 +10712,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "Tourette syndrome",
@@ -12231,7 +10727,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "methemoglobinemia",
@@ -12245,7 +10742,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "absence epilepsy",
@@ -12259,7 +10757,8 @@
           "level": "L1",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "fibromyalgia",
@@ -12273,7 +10772,8 @@
           "level": "L2",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "conjunctivitis",
@@ -12287,7 +10787,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "congenital disorder of glycosylation with defective fucosylation",
@@ -12301,7 +10802,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "hydranencephaly (disease)",
@@ -12315,7 +10817,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "myopia X-linked",
@@ -12329,7 +10832,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "Charcot-Marie-Tooth disease, demyelinating, type 1G",
@@ -12343,7 +10847,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "myopia 26, X-linked, female-limited",
@@ -12357,7 +10862,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "syndromic myopia",
@@ -12371,7 +10877,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "atypical glycine encephalopathy",
@@ -12385,7 +10892,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "benign mammary dysplasia",
@@ -12399,7 +10907,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "hypouricemia, renal",
@@ -12413,7 +10922,8 @@
           "level": "L2",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "hypoxanthine guanine phosphoribosyltransferase partial deficiency",
@@ -12427,7 +10937,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "Lesch-Nyhan syndrome",
@@ -12441,7 +10952,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "faciodigitogenital syndrome",
@@ -12455,7 +10967,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "hypotensive disorder",
@@ -12469,7 +10982,8 @@
           "level": "L1",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "monogenic obesity",
@@ -12483,7 +10997,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "cerebrovascular disorder",
@@ -12497,7 +11012,8 @@
           "level": "L2",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "intracranial arteriosclerosis",
@@ -12511,7 +11027,8 @@
           "level": "L1",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "Monckeberg arteriosclerosis",
@@ -12525,7 +11042,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "priapism",
@@ -12539,7 +11057,8 @@
           "level": "L2",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "ischemic disease",
@@ -12553,7 +11072,8 @@
           "level": "L1",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "May-Thurner syndrome",
@@ -12567,7 +11087,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "livedo reticularis",
@@ -12581,7 +11102,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "mesenteric vascular occlusion",
@@ -12595,7 +11117,8 @@
           "level": "L1",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "vascular ectasia",
@@ -12609,7 +11132,8 @@
           "level": "L1",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "angiodysplasia",
@@ -12623,7 +11147,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "venous thromboembolism",
@@ -12637,7 +11162,8 @@
           "level": "L1",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "rheumatoid vasculitis",
@@ -12651,7 +11177,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "hypermobility of coccyx",
@@ -12665,7 +11192,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "inflammatory spondylopathy",
@@ -12679,7 +11207,8 @@
           "level": "L1",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "bacterial arthritis",
@@ -12693,7 +11222,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "multiple endocrine neoplasia",
@@ -12707,7 +11237,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "obsolete familial combined hyperlipidemia",
@@ -12721,7 +11252,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "sclerosing cholangitis",
@@ -12735,7 +11267,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "diffuse scleroderma",
@@ -12749,7 +11282,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "paratyphoid fever",
@@ -12763,7 +11297,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "salmonellosis",
@@ -12777,7 +11312,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "sinusitis",
@@ -12791,7 +11327,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "chronic rhinosinusitis",
@@ -12805,7 +11342,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "typhoid fever",
@@ -12819,7 +11357,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "chronic ethmoidal sinusitis",
@@ -12833,7 +11372,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "paranasal sinus neoplasm (disease)",
@@ -12847,7 +11387,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "staphylococcus aureus infection",
@@ -12861,7 +11402,8 @@
           "level": "L1",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "eosinophilia-myalgia syndrome",
@@ -12875,7 +11417,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "hepatic porphyria",
@@ -12889,7 +11432,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "early-onset familial noncirrhotic portal hypertension",
@@ -12903,7 +11447,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "hepatopulmonary syndrome",
@@ -12917,7 +11462,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "idiopathic copper-associated cirrhosis",
@@ -12931,7 +11477,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "primitive portal vein thrombosis",
@@ -12945,7 +11492,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "hepatoportal sclerosis",
@@ -12959,7 +11507,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "disorder of phenylalanine metabolism",
@@ -12973,7 +11522,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "immune-mediated necrotizing myopathy",
@@ -12987,7 +11537,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "antisynthetase syndrome",
@@ -13001,7 +11552,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "inflammatory myopathy with abundant macrophages",
@@ -13015,7 +11567,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "atypical coarctation of aorta",
@@ -13029,7 +11582,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "glaucoma 1, open angle",
@@ -13043,7 +11597,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "open angle glaucoma",
@@ -13057,7 +11612,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "multiple system atrophy",
@@ -13071,7 +11627,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "Raynaud disease",
@@ -13085,7 +11642,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "faucial diphtheria",
@@ -13099,7 +11657,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "cervical disc degenerative disorder",
@@ -13113,7 +11672,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "Worth syndrome",
@@ -13127,7 +11687,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "pregnancy associated osteoporosis",
@@ -13141,7 +11702,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "autosomal dominant neovascular inflammatory vitreoretinopathy",
@@ -13155,7 +11717,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "homozygous familial hypercholesterolemia",
@@ -13169,7 +11732,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "leprosy",
@@ -13183,7 +11747,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "osteoarthritis",
@@ -13197,7 +11762,8 @@
           "level": "L2",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "myositis fibrosa",
@@ -13211,7 +11777,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "osteoarthritis susceptibility",
@@ -13225,7 +11792,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "drug-induced osteoporosis",
@@ -13239,7 +11807,8 @@
           "level": "L3",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "severe nonproliferative diabetic retinopathy",
@@ -13253,7 +11822,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "hemorrhagic disease of newborn",
@@ -13267,7 +11837,8 @@
           "level": "L2",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "cortical cataract",
@@ -13281,7 +11852,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "nuclear senile cataract",
@@ -13295,7 +11867,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "diabetic retinopathy",
@@ -13309,7 +11882,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "immature cataract",
@@ -13323,7 +11897,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "craniostenosis cataract",
@@ -13337,7 +11912,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "dermatitis, atopic",
@@ -13351,7 +11927,8 @@
           "level": "L3",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "polyp of vocal cord",
@@ -13365,7 +11942,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "polyp of middle ear",
@@ -13379,7 +11957,8 @@
           "level": "L2",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "epulis",
@@ -13393,7 +11972,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "fibroepithelial polyp",
@@ -13407,7 +11987,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "uterine polyp",
@@ -13421,7 +12002,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "polyp of frontal sinus",
@@ -13435,7 +12017,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "polyp of external auditory canal",
@@ -13449,7 +12032,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "nephrogenic syndrome of inappropriate antidiuresis",
@@ -13463,7 +12047,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "paratenonitis",
@@ -13477,7 +12062,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "calcific tendinitis",
@@ -13491,7 +12077,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "bronchial disease",
@@ -13505,7 +12092,8 @@
           "level": "L1",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "myositis",
@@ -13519,7 +12107,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "proximal 16p11.2 microdeletion syndrome",
@@ -13533,7 +12122,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "frontorhiny",
@@ -13547,7 +12137,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "pentosuria",
@@ -13561,7 +12152,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "lethal polymalformative syndrome, Boissel type",
@@ -13575,7 +12167,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "genetic alopecia",
@@ -13589,7 +12182,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "pre-malignant neoplasm",
@@ -13603,7 +12197,8 @@
           "level": "L1",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "benign neoplasm of buccal mucosa",
@@ -13617,7 +12212,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "cervical neuroblastoma",
@@ -13631,7 +12227,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "odontogenic cyst",
@@ -13645,7 +12242,8 @@
           "level": "L4",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "nasopharyngeal teratoma",
@@ -13659,7 +12257,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "inner ear neoplasm",
@@ -13673,7 +12272,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "neoplasm of major salivary gland",
@@ -13687,7 +12287,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     },
     {
       "name": "schwannoma of jugular foramen",
@@ -13701,7 +12302,8 @@
           "level": "L5",
           "original": ""
         }
-      ]
+      ],
+      "drug_count": 1
     }
   ]
 }

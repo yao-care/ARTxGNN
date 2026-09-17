@@ -5,6 +5,7 @@ title: DULOXETINA
 drugbank_id: DB00476
 evidence_level: L5
 permalink: /drugs/duloxetina/
+search_exclude: true
 ---
 
 # DULOXETINA

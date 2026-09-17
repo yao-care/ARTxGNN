@@ -5,6 +5,7 @@ title: FLUVOXAMINA
 drugbank_id: DB00176
 evidence_level: L5
 permalink: /drugs/fluvoxamina/
+search_exclude: true
 ---
 
 # FLUVOXAMINA

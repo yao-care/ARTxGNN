@@ -5,6 +5,7 @@ title: SITAGLIPTINA
 drugbank_id: DB01261
 evidence_level: L5
 permalink: /drugs/sitagliptina/
+search_exclude: true
 ---
 
 # SITAGLIPTINA

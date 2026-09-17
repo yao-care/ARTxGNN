@@ -5,6 +5,7 @@ title: IBUPROFENO
 drugbank_id: DB01050
 evidence_level: L5
 permalink: /drugs/ibuprofeno/
+search_exclude: true
 ---
 
 # IBUPROFENO

@@ -5,6 +5,7 @@ title: SULPIRIDA
 drugbank_id: DB00391
 evidence_level: L5
 permalink: /drugs/sulpirida/
+search_exclude: true
 ---
 
 # SULPIRIDA

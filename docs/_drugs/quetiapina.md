@@ -5,6 +5,7 @@ title: QUETIAPINA
 drugbank_id: DB01224
 evidence_level: L5
 permalink: /drugs/quetiapina/
+search_exclude: true
 ---
 
 # QUETIAPINA

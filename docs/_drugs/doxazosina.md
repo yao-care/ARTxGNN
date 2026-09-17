@@ -5,6 +5,7 @@ title: DOXAZOSINA
 drugbank_id: DB00590
 evidence_level: L5
 permalink: /drugs/doxazosina/
+search_exclude: true
 ---
 
 # DOXAZOSINA

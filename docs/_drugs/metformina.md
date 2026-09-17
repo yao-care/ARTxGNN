@@ -5,6 +5,7 @@ title: METFORMINA
 drugbank_id: DB00331
 evidence_level: L5
 permalink: /drugs/metformina/
+search_exclude: true
 ---
 
 # METFORMINA

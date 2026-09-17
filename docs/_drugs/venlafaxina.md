@@ -5,6 +5,7 @@ title: VENLAFAXINA
 drugbank_id: DB00285
 evidence_level: L5
 permalink: /drugs/venlafaxina/
+search_exclude: true
 ---
 
 # VENLAFAXINA

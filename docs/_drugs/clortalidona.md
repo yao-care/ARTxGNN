@@ -5,6 +5,7 @@ title: CLORTALIDONA
 drugbank_id: DB00310
 evidence_level: L5
 permalink: /drugs/clortalidona/
+search_exclude: true
 ---
 
 # CLORTALIDONA

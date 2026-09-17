@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Allopurinol
-parent: 僅模型預測 (L5)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 21
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Allopurinol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -45,7 +45,7 @@ Alopurinol es un inhibidor de la xantina oxidasa ampliamente utilizado a nivel m
 | Nueva Indicacion Predicha | — Sin prediccion disponible — |
 | Puntaje de Prediccion TxGNN | N/A |
 | Nivel de Evidencia | L5 (sin estudios asociados a nueva indicacion) |
-| Estado de Mercado en Taiwan | ✗ No registrado (未上市) |
+| Estado de Mercado en Taiwan | ✗ No registrado (Not marketed) |
 | Numero de Autorizaciones TFDA | 0 |
 | Decision Recomendada | **Hold** |
 
@@ -79,7 +79,7 @@ Alopurinol **no cuenta con autorizaciones vigentes** ante la TFDA (Taiwan Food a
 
 | Item | Detalle |
 |------|---------|
-| Estado de Mercado | No registrado (未上市) |
+| Estado de Mercado | No registrado (Not marketed) |
 | Total de Autorizaciones | 0 |
 | Formas Farmaceuticas Disponibles | Ninguna |
 

@@ -5,6 +5,7 @@ title: GRISEOFULVINA
 drugbank_id: DB00400
 evidence_level: L5
 permalink: /drugs/griseofulvina/
+search_exclude: true
 ---
 
 # GRISEOFULVINA

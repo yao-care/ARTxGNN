@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Ezetimibe
-parent: 僅模型預測 (L5)
+parent: Evidencia Alta (L1-L2)
 nav_order: 122
-evidence_level: L5
+evidence_level: L1
 indication_count: 4
 ---
 
 # Ezetimibe
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Nivel de evidencia: **L1** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 

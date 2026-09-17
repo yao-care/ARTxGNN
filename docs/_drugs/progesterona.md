@@ -5,6 +5,7 @@ title: PROGESTERONA
 drugbank_id: DB00396
 evidence_level: L5
 permalink: /drugs/progesterona/
+search_exclude: true
 ---
 
 # PROGESTERONA
