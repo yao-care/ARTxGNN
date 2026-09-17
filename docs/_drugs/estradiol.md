@@ -5,6 +5,7 @@ title: ESTRADIOL
 drugbank_id: DB00783
 evidence_level: L5
 permalink: /drugs/estradiol/
+search_exclude: true
 ---
 
 # ESTRADIOL

@@ -5,6 +5,7 @@ title: SILDENAFIL
 drugbank_id: DB00203
 evidence_level: L5
 permalink: /drugs/sildenafil/
+search_exclude: true
 ---
 
 # SILDENAFIL

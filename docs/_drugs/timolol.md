@@ -5,6 +5,7 @@ title: TIMOLOL
 drugbank_id: DB00373
 evidence_level: L5
 permalink: /drugs/timolol/
+search_exclude: true
 ---
 
 # TIMOLOL

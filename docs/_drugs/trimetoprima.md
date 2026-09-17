@@ -5,6 +5,7 @@ title: TRIMETOPRIMA
 drugbank_id: DB00440
 evidence_level: L5
 permalink: /drugs/trimetoprima/
+search_exclude: true
 ---
 
 # TRIMETOPRIMA

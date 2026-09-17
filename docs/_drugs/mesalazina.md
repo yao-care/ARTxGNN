@@ -5,6 +5,7 @@ title: MESALAZINA
 drugbank_id: DB00244
 evidence_level: L5
 permalink: /drugs/mesalazina/
+search_exclude: true
 ---
 
 # MESALAZINA

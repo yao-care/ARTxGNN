@@ -5,6 +5,7 @@ title: FLECAINIDA
 drugbank_id: DB01195
 evidence_level: L5
 permalink: /drugs/flecainida/
+search_exclude: true
 ---
 
 # FLECAINIDA

@@ -5,6 +5,7 @@ title: GALANTAMINA
 drugbank_id: DB00674
 evidence_level: L5
 permalink: /drugs/galantamina/
+search_exclude: true
 ---
 
 # GALANTAMINA

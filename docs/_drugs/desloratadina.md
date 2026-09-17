@@ -5,6 +5,7 @@ title: DESLORATADINA
 drugbank_id: DB00967
 evidence_level: L5
 permalink: /drugs/desloratadina/
+search_exclude: true
 ---
 
 # DESLORATADINA

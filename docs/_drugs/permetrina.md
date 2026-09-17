@@ -5,6 +5,7 @@ title: PERMETRINA
 drugbank_id: DB04930
 evidence_level: L5
 permalink: /drugs/permetrina/
+search_exclude: true
 ---
 
 # PERMETRINA

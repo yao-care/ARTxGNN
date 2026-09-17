@@ -5,6 +5,7 @@ title: FEXOFENADINA
 drugbank_id: DB00950
 evidence_level: L5
 permalink: /drugs/fexofenadina/
+search_exclude: true
 ---
 
 # FEXOFENADINA

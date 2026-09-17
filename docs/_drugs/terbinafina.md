@@ -5,6 +5,7 @@ title: TERBINAFINA
 drugbank_id: DB00857
 evidence_level: L5
 permalink: /drugs/terbinafina/
+search_exclude: true
 ---
 
 # TERBINAFINA

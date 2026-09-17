@@ -5,6 +5,7 @@ title: ENALAPRIL
 drugbank_id: DB00584
 evidence_level: L5
 permalink: /drugs/enalapril/
+search_exclude: true
 ---
 
 # ENALAPRIL

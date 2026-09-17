@@ -5,6 +5,7 @@ title: ITRACONAZOL
 drugbank_id: DB01167
 evidence_level: L5
 permalink: /drugs/itraconazol/
+search_exclude: true
 ---
 
 # ITRACONAZOL

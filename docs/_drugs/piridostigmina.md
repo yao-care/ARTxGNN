@@ -5,6 +5,7 @@ title: PIRIDOSTIGMINA
 drugbank_id: DB00545
 evidence_level: L5
 permalink: /drugs/piridostigmina/
+search_exclude: true
 ---
 
 # PIRIDOSTIGMINA

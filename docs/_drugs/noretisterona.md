@@ -5,6 +5,7 @@ title: NORETISTERONA
 drugbank_id: DB00717
 evidence_level: L5
 permalink: /drugs/noretisterona/
+search_exclude: true
 ---
 
 # NORETISTERONA

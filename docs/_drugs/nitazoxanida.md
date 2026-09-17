@@ -5,6 +5,7 @@ title: NITAZOXANIDA
 drugbank_id: DB00507
 evidence_level: L5
 permalink: /drugs/nitazoxanida/
+search_exclude: true
 ---
 
 # NITAZOXANIDA

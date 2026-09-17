@@ -5,6 +5,7 @@ title: LEFLUNOMIDA
 drugbank_id: DB01097
 evidence_level: L5
 permalink: /drugs/leflunomida/
+search_exclude: true
 ---
 
 # LEFLUNOMIDA

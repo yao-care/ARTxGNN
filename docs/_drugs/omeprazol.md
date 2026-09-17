@@ -5,6 +5,7 @@ title: OMEPRAZOL
 drugbank_id: DB00338
 evidence_level: L5
 permalink: /drugs/omeprazol/
+search_exclude: true
 ---
 
 # OMEPRAZOL

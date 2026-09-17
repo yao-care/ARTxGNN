@@ -5,6 +5,7 @@ title: PRAZIQUANTEL
 drugbank_id: DB01058
 evidence_level: L5
 permalink: /drugs/praziquantel/
+search_exclude: true
 ---
 
 # PRAZIQUANTEL

@@ -5,6 +5,7 @@ title: ESZOPICLONA
 drugbank_id: DB00402
 evidence_level: L5
 permalink: /drugs/eszopiclona/
+search_exclude: true
 ---
 
 # ESZOPICLONA

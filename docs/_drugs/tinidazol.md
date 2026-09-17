@@ -5,6 +5,7 @@ title: TINIDAZOL
 drugbank_id: DB00911
 evidence_level: L5
 permalink: /drugs/tinidazol/
+search_exclude: true
 ---
 
 # TINIDAZOL

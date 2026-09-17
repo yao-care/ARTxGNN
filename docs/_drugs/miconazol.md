@@ -5,6 +5,7 @@ title: MICONAZOL
 drugbank_id: DB01110
 evidence_level: L5
 permalink: /drugs/miconazol/
+search_exclude: true
 ---
 
 # MICONAZOL

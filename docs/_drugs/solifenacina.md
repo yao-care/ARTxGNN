@@ -5,6 +5,7 @@ title: SOLIFENACINA
 drugbank_id: DB01591
 evidence_level: L5
 permalink: /drugs/solifenacina/
+search_exclude: true
 ---
 
 # SOLIFENACINA

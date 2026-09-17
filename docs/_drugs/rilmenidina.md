@@ -5,6 +5,7 @@ title: RILMENIDINA
 drugbank_id: DB11738
 evidence_level: L5
 permalink: /drugs/rilmenidina/
+search_exclude: true
 ---
 
 # RILMENIDINA

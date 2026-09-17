@@ -5,6 +5,7 @@ title: DAPSONA
 drugbank_id: DB00250
 evidence_level: L5
 permalink: /drugs/dapsona/
+search_exclude: true
 ---
 
 # DAPSONA

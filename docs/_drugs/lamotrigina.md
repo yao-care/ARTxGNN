@@ -5,6 +5,7 @@ title: LAMOTRIGINA
 drugbank_id: DB00555
 evidence_level: L5
 permalink: /drugs/lamotrigina/
+search_exclude: true
 ---
 
 # LAMOTRIGINA

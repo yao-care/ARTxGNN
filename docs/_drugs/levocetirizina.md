@@ -5,6 +5,7 @@ title: LEVOCETIRIZINA
 drugbank_id: DB06282
 evidence_level: L5
 permalink: /drugs/levocetirizina/
+search_exclude: true
 ---
 
 # LEVOCETIRIZINA

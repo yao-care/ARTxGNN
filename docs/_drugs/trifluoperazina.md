@@ -5,6 +5,7 @@ title: TRIFLUOPERAZINA
 drugbank_id: DB00831
 evidence_level: L5
 permalink: /drugs/trifluoperazina/
+search_exclude: true
 ---
 
 # TRIFLUOPERAZINA

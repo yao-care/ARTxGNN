@@ -5,6 +5,7 @@ title: RISPERIDONA
 drugbank_id: DB00734
 evidence_level: L5
 permalink: /drugs/risperidona/
+search_exclude: true
 ---
 
 # RISPERIDONA

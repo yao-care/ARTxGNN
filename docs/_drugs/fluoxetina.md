@@ -5,6 +5,7 @@ title: FLUOXETINA
 drugbank_id: DB00472
 evidence_level: L5
 permalink: /drugs/fluoxetina/
+search_exclude: true
 ---
 
 # FLUOXETINA

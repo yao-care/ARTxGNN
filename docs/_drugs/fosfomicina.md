@@ -5,6 +5,7 @@ title: FOSFOMICINA
 drugbank_id: DB00828
 evidence_level: L5
 permalink: /drugs/fosfomicina/
+search_exclude: true
 ---
 
 # FOSFOMICINA

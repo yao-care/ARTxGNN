@@ -5,6 +5,7 @@ title: PROMETAZINA
 drugbank_id: DB01069
 evidence_level: L5
 permalink: /drugs/prometazina/
+search_exclude: true
 ---
 
 # PROMETAZINA

@@ -5,6 +5,7 @@ title: TAMSULOSINA
 drugbank_id: DB00706
 evidence_level: L5
 permalink: /drugs/tamsulosina/
+search_exclude: true
 ---
 
 # TAMSULOSINA

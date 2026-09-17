@@ -5,6 +5,7 @@ title: EPINASTINA
 drugbank_id: DB00751
 evidence_level: L5
 permalink: /drugs/epinastina/
+search_exclude: true
 ---
 
 # EPINASTINA

@@ -5,6 +5,7 @@ title: MEBENDAZOL
 drugbank_id: DB00643
 evidence_level: L5
 permalink: /drugs/mebendazol/
+search_exclude: true
 ---
 
 # MEBENDAZOL

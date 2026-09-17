@@ -5,6 +5,7 @@ title: LOPERAMIDA
 drugbank_id: DB00836
 evidence_level: L5
 permalink: /drugs/loperamida/
+search_exclude: true
 ---
 
 # LOPERAMIDA

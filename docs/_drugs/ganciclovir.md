@@ -5,6 +5,7 @@ title: GANCICLOVIR
 drugbank_id: DB01004
 evidence_level: L5
 permalink: /drugs/ganciclovir/
+search_exclude: true
 ---
 
 # GANCICLOVIR

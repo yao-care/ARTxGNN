@@ -5,6 +5,7 @@ title: PILOCARPINA
 drugbank_id: DB01085
 evidence_level: L5
 permalink: /drugs/pilocarpina/
+search_exclude: true
 ---
 
 # PILOCARPINA

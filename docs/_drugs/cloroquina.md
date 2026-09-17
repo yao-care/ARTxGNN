@@ -5,6 +5,7 @@ title: CLOROQUINA
 drugbank_id: DB00608
 evidence_level: L5
 permalink: /drugs/cloroquina/
+search_exclude: true
 ---
 
 # CLOROQUINA

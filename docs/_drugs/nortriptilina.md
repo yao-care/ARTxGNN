@@ -5,6 +5,7 @@ title: NORTRIPTILINA
 drugbank_id: DB00540
 evidence_level: L5
 permalink: /drugs/nortriptilina/
+search_exclude: true
 ---
 
 # NORTRIPTILINA

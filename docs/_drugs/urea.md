@@ -5,6 +5,7 @@ title: UREA
 drugbank_id: DB03904
 evidence_level: L5
 permalink: /drugs/urea/
+search_exclude: true
 ---
 
 # UREA

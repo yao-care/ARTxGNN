@@ -5,6 +5,7 @@ title: HIDROCLOROTIAZIDA
 drugbank_id: DB00999
 evidence_level: L5
 permalink: /drugs/hidroclorotiazida/
+search_exclude: true
 ---
 
 # HIDROCLOROTIAZIDA

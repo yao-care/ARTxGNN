@@ -5,6 +5,7 @@ title: PIOGLITAZONA
 drugbank_id: DB01132
 evidence_level: L5
 permalink: /drugs/pioglitazona/
+search_exclude: true
 ---
 
 # PIOGLITAZONA

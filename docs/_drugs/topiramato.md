@@ -5,6 +5,7 @@ title: TOPIRAMATO
 drugbank_id: DB00273
 evidence_level: L5
 permalink: /drugs/topiramato/
+search_exclude: true
 ---
 
 # TOPIRAMATO

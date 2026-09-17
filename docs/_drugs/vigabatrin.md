@@ -5,6 +5,7 @@ title: VIGABATRIN
 drugbank_id: DB01080
 evidence_level: L5
 permalink: /drugs/vigabatrin/
+search_exclude: true
 ---
 
 # VIGABATRIN

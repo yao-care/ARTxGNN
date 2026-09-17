@@ -5,6 +5,7 @@ title: FUROSEMIDA
 drugbank_id: DB00695
 evidence_level: L5
 permalink: /drugs/furosemida/
+search_exclude: true
 ---
 
 # FUROSEMIDA

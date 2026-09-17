@@ -5,6 +5,7 @@ title: METILFENIDATO
 drugbank_id: DB00422
 evidence_level: L5
 permalink: /drugs/metilfenidato/
+search_exclude: true
 ---
 
 # METILFENIDATO

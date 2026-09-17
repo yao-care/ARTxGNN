@@ -5,6 +5,7 @@ title: ESPIRONOLACTONA
 drugbank_id: DB00421
 evidence_level: L5
 permalink: /drugs/espironolactona/
+search_exclude: true
 ---
 
 # ESPIRONOLACTONA

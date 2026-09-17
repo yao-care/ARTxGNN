@@ -5,6 +5,7 @@ title: ROTIGOTINA
 drugbank_id: DB05271
 evidence_level: L5
 permalink: /drugs/rotigotina/
+search_exclude: true
 ---
 
 # ROTIGOTINA

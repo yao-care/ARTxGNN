@@ -5,6 +5,7 @@ title: FENILEFRINA
 drugbank_id: DB00388
 evidence_level: L5
 permalink: /drugs/fenilefrina/
+search_exclude: true
 ---
 
 # FENILEFRINA

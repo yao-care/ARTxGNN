@@ -5,6 +5,7 @@ title: RABEPRAZOL
 drugbank_id: DB01129
 evidence_level: L5
 permalink: /drugs/rabeprazol/
+search_exclude: true
 ---
 
 # RABEPRAZOL

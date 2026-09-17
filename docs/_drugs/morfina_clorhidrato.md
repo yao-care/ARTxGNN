@@ -5,6 +5,7 @@ title: MORFINA,CLORHIDRATO
 drugbank_id: DB00295
 evidence_level: L5
 permalink: /drugs/morfina_clorhidrato/
+search_exclude: true
 ---
 
 # MORFINA,CLORHIDRATO

@@ -5,6 +5,7 @@ title: LINAGLIPTINA
 drugbank_id: DB08882
 evidence_level: L5
 permalink: /drugs/linagliptina/
+search_exclude: true
 ---
 
 # LINAGLIPTINA

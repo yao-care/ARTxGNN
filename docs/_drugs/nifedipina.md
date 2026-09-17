@@ -5,6 +5,7 @@ title: NIFEDIPINA
 drugbank_id: DB01115
 evidence_level: L5
 permalink: /drugs/nifedipina/
+search_exclude: true
 ---
 
 # NIFEDIPINA

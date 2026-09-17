@@ -5,6 +5,7 @@ title: NICOTINA
 drugbank_id: DB00184
 evidence_level: L5
 permalink: /drugs/nicotina/
+search_exclude: true
 ---
 
 # NICOTINA
