@@ -1,6 +1,6 @@
 {
-  "total": 363,
-  "generated_at": "2026-09-18T15:39:14.851137",
+  "total": 344,
+  "generated_at": "2026-09-19T02:44:11.854171",
   "drugs": [
     {
       "name": "Acenocumarol",
@@ -19,13 +19,6 @@
     {
       "name": "Acetilcarnitina",
       "file": "acetilcarnitina.md",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "predicted_indication": ""
-    },
-    {
-      "name": "ACETILCISTEÍNA",
-      "file": "acetilciste_na.md",
       "evidence_level": "L5",
       "indication_count": 0,
       "predicted_indication": ""
@@ -199,13 +192,6 @@
       "predicted_indication": ""
     },
     {
-      "name": "ATORVASTATÍN",
-      "file": "atorvastat_n.md",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "predicted_indication": ""
-    },
-    {
       "name": "Atorvastatín",
       "file": "atorvastatín.md",
       "evidence_level": "L5",
@@ -271,13 +257,6 @@
     {
       "name": "Benznidazol",
       "file": "benznidazol.md",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "predicted_indication": ""
-    },
-    {
-      "name": "BENZOCAÍNA",
-      "file": "benzoca_na.md",
       "evidence_level": "L5",
       "indication_count": 0,
       "predicted_indication": ""
@@ -430,13 +409,6 @@
       "predicted_indication": ""
     },
     {
-      "name": "BUPROPIÓN",
-      "file": "bupropi_n.md",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "predicted_indication": ""
-    },
-    {
       "name": "Bupropión",
       "file": "bupropión.md",
       "evidence_level": "L5",
@@ -469,13 +441,6 @@
       "file": "calcitriol.md",
       "evidence_level": "L5",
       "indication_count": 7,
-      "predicted_indication": ""
-    },
-    {
-      "name": "CANDESARTÁN CILEXETIL",
-      "file": "candesart_n_cilexetil.md",
-      "evidence_level": "L5",
-      "indication_count": 0,
       "predicted_indication": ""
     },
     {
@@ -640,13 +605,6 @@
       "predicted_indication": ""
     },
     {
-      "name": "CILASTATÍN",
-      "file": "cilastat_n.md",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "predicted_indication": ""
-    },
-    {
       "name": "Cilastatín",
       "file": "cilastatín.md",
       "evidence_level": "L5",
@@ -747,7 +705,7 @@
     {
       "name": "Clonazepam",
       "file": "clonazepam.md",
-      "evidence_level": "L5",
+      "evidence_level": "L3",
       "indication_count": 3,
       "predicted_indication": ""
     },
@@ -761,7 +719,7 @@
     {
       "name": "Clopidogrel",
       "file": "clopidogrel.md",
-      "evidence_level": "L5",
+      "evidence_level": "L3",
       "indication_count": 8,
       "predicted_indication": ""
     },
@@ -796,13 +754,6 @@
     {
       "name": "CLOTRIMAZOL",
       "file": "clotrimazol.md",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "predicted_indication": ""
-    },
-    {
-      "name": "CODEÍNA",
-      "file": "code_na.md",
       "evidence_level": "L5",
       "indication_count": 0,
       "predicted_indication": ""
@@ -852,7 +803,7 @@
     {
       "name": "Desogestrel",
       "file": "desogestrel.md",
-      "evidence_level": "L5",
+      "evidence_level": "L3",
       "indication_count": 10,
       "predicted_indication": ""
     },
@@ -887,28 +838,21 @@
     {
       "name": "Diazepam",
       "file": "diazepam.md",
-      "evidence_level": "L5",
+      "evidence_level": "L2",
       "indication_count": 10,
       "predicted_indication": ""
     },
     {
       "name": "Diclofenac",
       "file": "diclofenac.md",
-      "evidence_level": "L5",
+      "evidence_level": "L3",
       "indication_count": 10,
-      "predicted_indication": ""
-    },
-    {
-      "name": "DICLOFENAC SÓDICO",
-      "file": "diclofenac_s_dico.md",
-      "evidence_level": "L5",
-      "indication_count": 0,
       "predicted_indication": ""
     },
     {
       "name": "Dienogest",
       "file": "dienogest.md",
-      "evidence_level": "L5",
+      "evidence_level": "L3",
       "indication_count": 10,
       "predicted_indication": ""
     },
@@ -1055,7 +999,7 @@
     {
       "name": "Estriol",
       "file": "estriol.md",
-      "evidence_level": "L5",
+      "evidence_level": "L2",
       "indication_count": 1,
       "predicted_indication": ""
     },
@@ -1083,7 +1027,7 @@
     {
       "name": "Etonogestrel",
       "file": "etonogestrel.md",
-      "evidence_level": "L5",
+      "evidence_level": "L3",
       "indication_count": 5,
       "predicted_indication": ""
     },
@@ -1097,7 +1041,7 @@
     {
       "name": "Ezetimibe",
       "file": "ezetimibe.md",
-      "evidence_level": "L5",
+      "evidence_level": "L1",
       "indication_count": 4,
       "predicted_indication": ""
     },
@@ -1111,7 +1055,7 @@
     {
       "name": "Febuxostat",
       "file": "febuxostat.md",
-      "evidence_level": "L5",
+      "evidence_level": "L3",
       "indication_count": 3,
       "predicted_indication": ""
     },
@@ -1132,13 +1076,6 @@
     {
       "name": "FENILEFRINA",
       "file": "fenilefrina.md",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "predicted_indication": ""
-    },
-    {
-      "name": "FENITOÍNA",
-      "file": "fenito_na.md",
       "evidence_level": "L5",
       "indication_count": 0,
       "predicted_indication": ""
@@ -1195,7 +1132,7 @@
     {
       "name": "Flunitrazepam",
       "file": "flunitrazepam.md",
-      "evidence_level": "L5",
+      "evidence_level": "L3",
       "indication_count": 10,
       "predicted_indication": ""
     },
@@ -1223,7 +1160,7 @@
     {
       "name": "Formoterol",
       "file": "formoterol.md",
-      "evidence_level": "L5",
+      "evidence_level": "L3",
       "indication_count": 6,
       "predicted_indication": ""
     },
@@ -1265,14 +1202,14 @@
     {
       "name": "Gemfibrozil",
       "file": "gemfibrozil.md",
-      "evidence_level": "L5",
+      "evidence_level": "L3",
       "indication_count": 10,
       "predicted_indication": ""
     },
     {
       "name": "Ginseng",
       "file": "ginseng.md",
-      "evidence_level": "L5",
+      "evidence_level": "L3",
       "indication_count": 10,
       "predicted_indication": ""
     },
@@ -1307,7 +1244,7 @@
     {
       "name": "Glucagon",
       "file": "glucagon.md",
-      "evidence_level": "L5",
+      "evidence_level": "L3",
       "indication_count": 1,
       "predicted_indication": ""
     },
@@ -1321,7 +1258,7 @@
     {
       "name": "Haloperidol",
       "file": "haloperidol.md",
-      "evidence_level": "L5",
+      "evidence_level": "L1",
       "indication_count": 10,
       "predicted_indication": ""
     },
@@ -1377,21 +1314,21 @@
     {
       "name": "Imipenem",
       "file": "imipenem.md",
-      "evidence_level": "L5",
+      "evidence_level": "L2",
       "indication_count": 10,
       "predicted_indication": ""
     },
     {
       "name": "Imiquimod",
       "file": "imiquimod.md",
-      "evidence_level": "L5",
+      "evidence_level": "L2",
       "indication_count": 10,
       "predicted_indication": ""
     },
     {
       "name": "Indacaterol",
       "file": "indacaterol.md",
-      "evidence_level": "L5",
+      "evidence_level": "L1",
       "indication_count": 10,
       "predicted_indication": ""
     },
@@ -1419,20 +1356,6 @@
     {
       "name": "INSULINA GLULISINA",
       "file": "insulina_glulisina.md",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "predicted_indication": ""
-    },
-    {
-      "name": "IRBESARTÁN",
-      "file": "irbesart_n.md",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "predicted_indication": ""
-    },
-    {
-      "name": "ISOTRETINOÍNA",
-      "file": "isotretino_na.md",
       "evidence_level": "L5",
       "indication_count": 0,
       "predicted_indication": ""
@@ -1468,14 +1391,14 @@
     {
       "name": "Ketorolac",
       "file": "ketorolac.md",
-      "evidence_level": "L5",
+      "evidence_level": "L1",
       "indication_count": 3,
       "predicted_indication": ""
     },
     {
       "name": "Labetalol",
       "file": "labetalol.md",
-      "evidence_level": "L5",
+      "evidence_level": "L4",
       "indication_count": 4,
       "predicted_indication": ""
     },
@@ -1496,7 +1419,7 @@
     {
       "name": "Latanoprost",
       "file": "latanoprost.md",
-      "evidence_level": "L5",
+      "evidence_level": "L2",
       "indication_count": 10,
       "predicted_indication": ""
     },
@@ -1517,7 +1440,7 @@
     {
       "name": "Levetiracetam",
       "file": "levetiracetam.md",
-      "evidence_level": "L5",
+      "evidence_level": "L2",
       "indication_count": 10,
       "predicted_indication": ""
     },
@@ -1552,20 +1475,13 @@
     {
       "name": "Levonorgestrel",
       "file": "levonorgestrel.md",
-      "evidence_level": "L5",
+      "evidence_level": "L3",
       "indication_count": 6,
       "predicted_indication": ""
     },
     {
       "name": "LEVOTIROXINA",
       "file": "levotiroxina.md",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "predicted_indication": ""
-    },
-    {
-      "name": "LIDOCAÍNA",
-      "file": "lidoca_na.md",
       "evidence_level": "L5",
       "indication_count": 0,
       "predicted_indication": ""
@@ -1615,15 +1531,8 @@
     {
       "name": "Lornoxicam",
       "file": "lornoxicam.md",
-      "evidence_level": "L5",
+      "evidence_level": "L3",
       "indication_count": 10,
-      "predicted_indication": ""
-    },
-    {
-      "name": "LOSARTÁN",
-      "file": "losart_n.md",
-      "evidence_level": "L5",
-      "indication_count": 0,
       "predicted_indication": ""
     },
     {
@@ -1699,7 +1608,7 @@
     {
       "name": "Metoprolol",
       "file": "metoprolol.md",
-      "evidence_level": "L5",
+      "evidence_level": "L4",
       "indication_count": 10,
       "predicted_indication": ""
     },
@@ -1727,21 +1636,21 @@
     {
       "name": "Midazolam",
       "file": "midazolam.md",
-      "evidence_level": "L5",
+      "evidence_level": "L2",
       "indication_count": 1,
       "predicted_indication": ""
     },
     {
       "name": "Midodrine",
       "file": "midodrine.md",
-      "evidence_level": "L5",
+      "evidence_level": "L1",
       "indication_count": 10,
       "predicted_indication": ""
     },
     {
       "name": "Minoxidil",
       "file": "minoxidil.md",
-      "evidence_level": "L5",
+      "evidence_level": "L4",
       "indication_count": 10,
       "predicted_indication": ""
     },
@@ -1755,14 +1664,14 @@
     {
       "name": "Misoprostol",
       "file": "misoprostol.md",
-      "evidence_level": "L5",
+      "evidence_level": "L4",
       "indication_count": 2,
       "predicted_indication": ""
     },
     {
       "name": "Montelukast",
       "file": "montelukast.md",
-      "evidence_level": "L5",
+      "evidence_level": "L2",
       "indication_count": 5,
       "predicted_indication": ""
     },
@@ -1795,13 +1704,6 @@
       "predicted_indication": ""
     },
     {
-      "name": "NARATRIPTÁN",
-      "file": "naratript_n.md",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "predicted_indication": ""
-    },
-    {
       "name": "Nebivolol",
       "file": "nebivolol.md",
       "evidence_level": "L5",
@@ -1811,7 +1713,7 @@
     {
       "name": "Nepafenac",
       "file": "nepafenac.md",
-      "evidence_level": "L5",
+      "evidence_level": "L1",
       "indication_count": 10,
       "predicted_indication": ""
     },
@@ -1923,7 +1825,7 @@
     {
       "name": "Oxazepam",
       "file": "oxazepam.md",
-      "evidence_level": "L5",
+      "evidence_level": "L2",
       "indication_count": 1,
       "predicted_indication": ""
     },
@@ -1972,7 +1874,7 @@
     {
       "name": "Perindopril",
       "file": "perindopril.md",
-      "evidence_level": "L5",
+      "evidence_level": "L4",
       "indication_count": 5,
       "predicted_indication": ""
     },
@@ -2028,7 +1930,7 @@
     {
       "name": "Piroxicam",
       "file": "piroxicam.md",
-      "evidence_level": "L5",
+      "evidence_level": "L1",
       "indication_count": 10,
       "predicted_indication": ""
     },
@@ -2049,7 +1951,7 @@
     {
       "name": "Prasugrel",
       "file": "prasugrel.md",
-      "evidence_level": "L5",
+      "evidence_level": "L4",
       "indication_count": 10,
       "predicted_indication": ""
     },
@@ -2203,7 +2105,7 @@
     {
       "name": "Salmeterol",
       "file": "salmeterol.md",
-      "evidence_level": "L5",
+      "evidence_level": "L1",
       "indication_count": 7,
       "predicted_indication": ""
     },
@@ -2252,7 +2154,7 @@
     {
       "name": "Simvastatin",
       "file": "simvastatin.md",
-      "evidence_level": "L5",
+      "evidence_level": "L1",
       "indication_count": 8,
       "predicted_indication": ""
     },
@@ -2287,7 +2189,7 @@
     {
       "name": "Sulbactam",
       "file": "sulbactam.md",
-      "evidence_level": "L5",
+      "evidence_level": "L3",
       "indication_count": 1,
       "predicted_indication": ""
     },
@@ -2313,22 +2215,8 @@
       "predicted_indication": ""
     },
     {
-      "name": "SUMATRIPTÁN",
-      "file": "sumatript_n.md",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "predicted_indication": ""
-    },
-    {
       "name": "TAMSULOSINA",
       "file": "tamsulosina.md",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "predicted_indication": ""
-    },
-    {
-      "name": "TELMISARTÁN",
-      "file": "telmisart_n.md",
       "evidence_level": "L5",
       "indication_count": 0,
       "predicted_indication": ""
@@ -2350,7 +2238,7 @@
     {
       "name": "Ticagrelor",
       "file": "ticagrelor.md",
-      "evidence_level": "L5",
+      "evidence_level": "L1",
       "indication_count": 10,
       "predicted_indication": ""
     },
@@ -2420,15 +2308,8 @@
     {
       "name": "Trazodone",
       "file": "trazodone.md",
-      "evidence_level": "L5",
+      "evidence_level": "L2",
       "indication_count": 10,
-      "predicted_indication": ""
-    },
-    {
-      "name": "TRETINOÍNA",
-      "file": "tretino_na.md",
-      "evidence_level": "L5",
-      "indication_count": 0,
       "predicted_indication": ""
     },
     {
@@ -2455,13 +2336,6 @@
     {
       "name": "UREA",
       "file": "urea.md",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "predicted_indication": ""
-    },
-    {
-      "name": "VALSARTÁN",
-      "file": "valsart_n.md",
       "evidence_level": "L5",
       "indication_count": 0,
       "predicted_indication": ""
@@ -2497,14 +2371,14 @@
     {
       "name": "Vilanterol",
       "file": "vilanterol.md",
-      "evidence_level": "L5",
+      "evidence_level": "L1",
       "indication_count": 10,
       "predicted_indication": ""
     },
     {
       "name": "Vildagliptin",
       "file": "vildagliptin.md",
-      "evidence_level": "L5",
+      "evidence_level": "L2",
       "indication_count": 10,
       "predicted_indication": ""
     },
@@ -2516,16 +2390,9 @@
       "predicted_indication": ""
     },
     {
-      "name": "ZOLMITRIPTÁN",
-      "file": "zolmitript_n.md",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "predicted_indication": ""
-    },
-    {
       "name": "Zolpidem",
       "file": "zolpidem.md",
-      "evidence_level": "L5",
+      "evidence_level": "L1",
       "indication_count": 3,
       "predicted_indication": ""
     },
