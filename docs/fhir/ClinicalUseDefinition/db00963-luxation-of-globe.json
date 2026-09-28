@@ -1,0 +1,27 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db00963-luxation-of-globe",
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db00963"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "luxation of globe"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://artxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    },
+    {
+      "url": "https://artxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9974
+    }
+  ]
+}
