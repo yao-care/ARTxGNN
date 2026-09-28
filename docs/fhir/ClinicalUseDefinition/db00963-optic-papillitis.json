@@ -1,0 +1,27 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db00963-optic-papillitis",
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db00963"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "optic papillitis"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://artxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L3"
+    },
+    {
+      "url": "https://artxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9977
+    }
+  ]
+}
