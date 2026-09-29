@@ -3,7 +3,7 @@ layout: default
 title: "Noticias sobre IBUPROFENO"
 parent: Noticias de salud
 nav_exclude: true
-description: "Noticias de salud relacionadas con IBUPROFENO. Indicación original: . 0 indicaciones predichas."
+description: "Noticias de salud relacionadas con IBUPROFENO. Indicación original: . 9 indicaciones predichas."
 permalink: /news/ibuprofeno/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/ibuprofeno/
 ---
 
 <p class="key-answer" data-question="¿Qué noticias hay sobre IBUPROFENO?">
-<strong>IBUPROFENO</strong> tiene actualmente <strong>0 noticias</strong> y 0 indicaciones predichas.
+<strong>IBUPROFENO</strong> tiene actualmente <strong>0 noticias</strong> y 9 indicaciones predichas.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,17 @@ Esta página combina las indicaciones predichas por IA para IBUPROFENO con las �
 <div class="drug-info-card">
 <strong>Información del medicamento</strong>
 <ul>
+<li><strong>Indicaciones predichas (9)</strong>:<ul>
+<li>osteoarthritis (99.0%)</li>
+<li>rheumatoid arthritis (99.0%)</li>
+<li>arthropathy (99.0%)</li>
+<li>juvenile idiopathic arthritis (99.0%)</li>
+<li>osteoarthritis susceptibility (99.0%)</li>
+<li>headache disorder (99.0%)</li>
+<li>patent ductus arteriosus (99.0%)</li>
+<li>spondyloarthropathy (99.0%)</li>
+<li>juvenile arthritis due to defect in LACC1 (99.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/ibuprofeno/' | relative_url }}">Ver el informe completo del medicamento →</a></p>
 </div>

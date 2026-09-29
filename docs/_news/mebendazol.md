@@ -3,7 +3,7 @@ layout: default
 title: "Noticias sobre MEBENDAZOL"
 parent: Noticias de salud
 nav_exclude: true
-description: "Noticias de salud relacionadas con MEBENDAZOL. Indicación original: . 0 indicaciones predichas."
+description: "Noticias de salud relacionadas con MEBENDAZOL. Indicación original: . 3 indicaciones predichas."
 permalink: /news/mebendazol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/mebendazol/
 ---
 
 <p class="key-answer" data-question="¿Qué noticias hay sobre MEBENDAZOL?">
-<strong>MEBENDAZOL</strong> tiene actualmente <strong>0 noticias</strong> y 0 indicaciones predichas.
+<strong>MEBENDAZOL</strong> tiene actualmente <strong>0 noticias</strong> y 3 indicaciones predichas.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,11 @@ Esta página combina las indicaciones predichas por IA para MEBENDAZOL con las �
 <div class="drug-info-card">
 <strong>Información del medicamento</strong>
 <ul>
+<li><strong>Indicaciones predichas (3)</strong>:<ul>
+<li>enterobiasis (99.0%)</li>
+<li>ascaridiasis (99.0%)</li>
+<li>trichuriasis (99.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/mebendazol/' | relative_url }}">Ver el informe completo del medicamento →</a></p>
 </div>
