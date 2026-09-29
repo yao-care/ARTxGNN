@@ -3,7 +3,7 @@ layout: default
 title: "Noticias sobre PARACETAMOL"
 parent: Noticias de salud
 nav_exclude: true
-description: "Noticias de salud relacionadas con PARACETAMOL. Indicación original: . 0 indicaciones predichas."
+description: "Noticias de salud relacionadas con PARACETAMOL. Indicación original: . 7 indicaciones predichas."
 permalink: /news/paracetamol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/paracetamol/
 ---
 
 <p class="key-answer" data-question="¿Qué noticias hay sobre PARACETAMOL?">
-<strong>PARACETAMOL</strong> tiene actualmente <strong>0 noticias</strong> y 0 indicaciones predichas.
+<strong>PARACETAMOL</strong> tiene actualmente <strong>0 noticias</strong> y 7 indicaciones predichas.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,15 @@ Esta página combina las indicaciones predichas por IA para PARACETAMOL con las 
 <div class="drug-info-card">
 <strong>Información del medicamento</strong>
 <ul>
+<li><strong>Indicaciones predichas (7)</strong>:<ul>
+<li>allergic rhinitis (99.0%)</li>
+<li>migraine with or without aura, susceptibility to (99.0%)</li>
+<li>nasopharyngitis (99.0%)</li>
+<li>vasomotor rhinitis (99.0%)</li>
+<li>headache disorder (99.0%)</li>
+<li>common cold (99.0%)</li>
+<li>migraine disorder (99.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/paracetamol/' | relative_url }}">Ver el informe completo del medicamento →</a></p>
 </div>
