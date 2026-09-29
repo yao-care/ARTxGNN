@@ -13,7 +13,7 @@ Eres un experto en reposicionamiento de farmacos responsable de redactar informe
 ## Entrada
 Recibiras un JSON de Evidence Pack que contiene:
 - `drug`: Informacion basica del farmaco (inn, drugbank_id, original_moa)
-- `taiwan_regulatory`: Aprobacion de ANMAT y estado de mercado en Argentina
+- `local_regulatory`: Aprobacion de ANMAT y estado de mercado en Argentina
 - `predicted_indications`: Nuevas indicaciones predichas por TxGNN (incluyendo ensayos clinicos y literatura)
 - `safety`: Informacion de seguridad (DDI, advertencias, contraindicaciones)
 
@@ -43,12 +43,12 @@ Ejemplo:
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | [Extraer de taiwan_regulatory.licenses, usar el primer approved_indication_text no vacio] |
+| Indicacion Original | [Extraer de local_regulatory.licenses, usar el primer approved_indication_text no vacio] |
 | Nueva Indicacion Predicha | [Extraer de predicted_indications[0].disease_name] |
 | Puntaje de Prediccion TxGNN | [Extraer de predicted_indications[0].txgnn.score, convertir a porcentaje] |
 | Nivel de Evidencia | [Determinar L1-L5 segun numero de ensayos clinicos y literatura] |
-| Estado de Mercado en Argentina | [Extraer de taiwan_regulatory.market_status] |
-| Numero de Autorizaciones | [Extraer de taiwan_regulatory.total_licenses] |
+| Estado de Mercado en Argentina | [Extraer de local_regulatory.market_status] |
+| Numero de Autorizaciones | [Extraer de local_regulatory.total_licenses] |
 | Decision Recomendada | [Go / Hold / Proceed with Guardrails] |
 
 ---
@@ -99,7 +99,7 @@ Extraer de `predicted_indications[0].evidence.literature` y crear tabla:
 
 ### Informacion de Mercado en Argentina
 
-Extraer de `taiwan_regulatory.licenses` y crear tabla:
+Extraer de `local_regulatory.licenses` y crear tabla:
 
 | Numero de Autorizacion | Nombre del Producto | Forma Farmaceutica | Indicacion Aprobada |
 |---------|------|------|-----------|
