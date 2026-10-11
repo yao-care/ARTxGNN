@@ -29,10 +29,6 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **1**
 
 </div>
 
-El skill `txgnn-pipeline` no contiene instrucciones específicas sobre el formato de reporte; la plantilla ya está definida en el sistema. Procedo a generar el informe completo.
-
----
-
 # Glucagon: De Antiespasmódico Gastrointestinal a Síndrome de Intestino Irritable
 
 ## Resumen en Una Frase

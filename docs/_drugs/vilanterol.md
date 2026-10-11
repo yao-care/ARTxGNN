@@ -29,10 +29,6 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-Usando `txgnn-pipeline` para redactar el informe de evaluación de reposicionamiento.
-
----
-
 # Vilanterol: De Broncodilatador LABA Sin Registro Local a Enfermedad Pulmonar Obstructiva
 
 ## Resumen en Una Frase

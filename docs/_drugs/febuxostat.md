@@ -29,10 +29,6 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **3**
 
 </div>
 
-Usando **txgnn-pipeline** para guiar la generación del informe de reposicionamiento farmacológico con formato estándar.
-
----
-
 # Febuxostat: De Hiperuricemia Gotosa a Hipouricemia Renal
 
 ## Resumen en Una Frase

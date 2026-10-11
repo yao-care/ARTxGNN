@@ -29,10 +29,6 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **3**
 
 </div>
 
-Usando el skill **txgnn-pipeline** como contexto y siguiendo el formato de informe de evaluación de reposicionamiento establecido, aquí está el informe generado:
-
----
-
 # Clonazepam: De Epilepsia a Síndrome de Piernas Inquietas
 
 ## Resumen en Una Frase

@@ -29,10 +29,6 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-El skill `txgnn-pipeline` cubre gestión del pipeline técnico; la generación del informe sigue las instrucciones del sistema. Procedo directamente.
-
----
-
 # Imiquimod: De Queratosis Actínica a Neoplasia Premaligna
 
 ## Resumen en Una Frase

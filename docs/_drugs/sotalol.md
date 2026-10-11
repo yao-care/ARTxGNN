@@ -29,10 +29,6 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-La habilidad `txgnn-pipeline` no modifica las instrucciones del sistema prompt para la generación del informe. Procedo a generar el informe de evaluación de reposicionamiento para Sotalol según el Evidence Pack proporcionado.
-
----
-
 # Sotalol: De Arritmias Cardiacas a Sick Sinus Syndrome 2, Autosómica Dominante
 
 ## Resumen en Una Frase

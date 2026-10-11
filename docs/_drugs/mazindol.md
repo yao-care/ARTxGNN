@@ -29,10 +29,6 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-Usando el skill `txgnn-pipeline` para contextualizar el pipeline, y aplicando el formato v5 de informe de evaluación. Procedo a generar el reporte a partir del Evidence Pack.
-
----
-
 # Mazindol: De Supresor del Apetito a Hipervitaminosis
 
 ## Resumen en Una Frase

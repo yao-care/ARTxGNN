@@ -29,10 +29,6 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-Usando **txgnn-pipeline** para guiar la generación del informe de evaluación. Procedo a redactar el reporte completo en español a partir del Evidence Pack de IMIPENEM.
-
----
-
 # IMIPENEM: De Infecciones Bacterianas Graves a Infección por Staphylococcus aureus
 
 ## Resumen en Una Frase

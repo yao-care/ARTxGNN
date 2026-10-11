@@ -29,10 +29,6 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **1**
 
 </div>
 
-El skill de txgnn-pipeline cubre gestión de infraestructura del pipeline, no la generación de informes. Procedo directamente con el informe siguiendo el formato del sistema.
-
----
-
 # Midazolam: De Sedación y Anestesia a Insomnio
 
 ## Resumen en Una Frase

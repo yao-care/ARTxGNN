@@ -29,10 +29,6 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-Usando el skill `txgnn-pipeline` para confirmar el contexto del proyecto. Ahora procedo a generar el informe basándome en el Evidence Pack proporcionado.
-
----
-
 # Olopatadine: De Conjuntivitis Alérgica a Conjuntivitis por Rosácea
 
 ## Resumen en Una Frase

@@ -29,10 +29,6 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-Usando el skill `txgnn-pipeline` como contexto. Ahora generaré el informe de evaluación enfocado en la indicación con mayor nivel de evidencia: **hypotensive disorder** (Rank 4, L1 — la única con recomendación "Proceed with Guardrails").
-
----
-
 # Midodrine: De Hipotensión Ortostática a Trastorno Hipotensivo
 
 ## Resumen en Una Frase

@@ -29,8 +29,6 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-Usando el skill **txgnn-pipeline** como contexto operativo, y aplicando el formato del **Prompt de Informe v5** sobre el Evidence Pack recibido.
-
 > **Nota editorial**: Este Evidence Pack es de tipo `multi` con 10 indicaciones predichas. Las primeras 9 (rangos 1–9) son todas L5/Hold sin evidencia clínica. El rango 10 — **Trastorno Bipolar Afectivo Maníaco** — es el único candidato con nivel L1 y recomendación "Proceed with Guardrails". El informe se centra en este candidato, que es la única dirección clínicamente accionable del conjunto.
 
 ---

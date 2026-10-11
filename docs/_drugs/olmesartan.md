@@ -29,10 +29,6 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-El skill txgnn-pipeline es para gestión técnica del pipeline. El sistema de este agente ya define el formato completo del informe. Procedo directamente a generar el reporte en español basándome en el Evidence Pack.
-
----
-
 # Olmesartan: De Hipertensión Arterial a Angina de Prinzmetal
 
 ## Resumen en Una Frase

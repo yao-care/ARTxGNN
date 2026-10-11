@@ -29,10 +29,6 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-El skill txgnn-pipeline no provee instrucciones específicas que sobrepasen mi rol de generación de informes. Procedo a generar el reporte a partir del Evidence Pack.
-
----
-
 # CIPROFLOXACINA: Evaluación Incompleta — Sin Indicaciones Predichas Disponibles
 
 ## Resumen en Una Frase

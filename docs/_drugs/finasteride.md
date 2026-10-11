@@ -29,10 +29,6 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-Usando el skill `txgnn-pipeline` como referencia contextual del proyecto. Ahora procedo a redactar el informe de evaluación basado en el Evidence Pack proporcionado.
-
----
-
 # Finasteride: De Hiperplasia Prostática Benigna a Hipertricosis Universalis Congénita tipo Ambras
 
 ## Resumen en Una Frase

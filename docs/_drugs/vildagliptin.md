@@ -29,10 +29,6 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-El skill txgnn-pipeline confirma el contexto del proyecto. Ahora procedo a generar el informe de evaluación siguiendo el formato v5 del sistema.
-
----
-
 # Vildagliptin: De Diabetes Mellitus Tipo 2 a Diabetes Mellitus Tipo 1
 
 ## Resumen en Una Frase

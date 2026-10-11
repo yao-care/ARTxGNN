@@ -29,10 +29,6 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-La habilidad `txgnn-pipeline` confirma el contexto del proyecto. Procedo a generar el informe siguiendo el template v5.
-
----
-
 # Perindopril: De Hipertensión Arterial a Enfermedad Renal Hipertensiva Maligna
 
 ## Resumen en Una Frase

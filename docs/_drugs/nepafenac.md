@@ -29,10 +29,6 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-Usando el skill `txgnn-pipeline` para verificar el contexto del proyecto. Ahora procederé a generar el informe de evaluación de reposicionamiento para Nepafenac basado en el Evidence Pack proporcionado.
-
----
-
 # Nepafenac: De Inflamación Ocular Posquirúrgica a Enfermedad Ocular
 
 ## Resumen en Una Frase

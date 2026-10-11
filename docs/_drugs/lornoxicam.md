@@ -29,10 +29,6 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-El skill txgnn-pipeline cubre el contexto operativo del pipeline. El sistema de reporte ya contiene todas las instrucciones necesarias. Procedo directamente con la generación del informe.
-
----
-
 # Lornoxicam: De Dolor Musculoesquelético y Osteoartritis a Artritis Reumatoide
 
 ## Resumen en Una Frase

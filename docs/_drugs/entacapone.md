@@ -29,10 +29,6 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-Usando el skill `txgnn-pipeline` como referencia de contexto. Ahora genero el informe de evaluación de reposicionamiento para Entacapone basándome en el Evidence Pack proporcionado.
-
----
-
 # Entacapone: De Enfermedad de Parkinson a Neurodegeneración Asociada a PLA2G6
 
 ## Resumen en Una Frase

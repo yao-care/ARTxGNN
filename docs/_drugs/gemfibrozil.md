@@ -29,10 +29,6 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-Usando el skill `txgnn-pipeline` para contexto del pipeline TxGNN. El skill confirma el flujo de trabajo estándar; procedo ahora a generar el informe de evaluación de reposicionamiento para GEMFIBROZIL basado en el Evidence Pack proporcionado, enfocado en la indicación de mayor rango: **artritis reumatoide**.
-
----
-
 # GEMFIBROZIL: De Hiperlipidemia a Artritis Reumatoide
 
 ## Resumen en Una Frase

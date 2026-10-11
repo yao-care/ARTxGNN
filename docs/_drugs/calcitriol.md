@@ -29,10 +29,6 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-El skill `txgnn-pipeline` cubre gestión del pipeline (entrenamiento, despliegue), no la generación de informes. Mi rol está definido directamente en el system prompt como generador de informes de evaluación. Procedo a generar el informe basándome en el Evidence Pack.
-
----
-
 **Análisis del Evidence Pack antes de redactar:**
 
 | Campo | Valor | Impacto |

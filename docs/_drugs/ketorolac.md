@@ -29,10 +29,6 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **3**
 
 </div>
 
-Usando `txgnn-pipeline` para generar el informe de evaluación de reposicionamiento a partir del Evidence Pack de KETOROLAC.
-
----
-
 # Ketorolac: De Analgesia Aguda a Trastorno de Cefalea
 
 ## Resumen en Una Frase

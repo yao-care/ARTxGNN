@@ -29,10 +29,6 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-Usando **txgnn-pipeline** para orientación de contexto. Ahora procedo a generar el informe a partir del Evidence Pack.
-
----
-
 # Latanoprost: De Glaucoma de Ángulo Abierto a Glaucoma Hereditario Primario
 
 ## Resumen en Una Frase

@@ -29,10 +29,6 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-Using **txgnn-pipeline** skill confirmed — no conflicting instructions for report generation. Proceeding directly with the report based on the Evidence Pack.
-
----
-
 # Levodopa: De Enfermedad de Parkinson a Encefalitis Subaguda de Rasmussen
 
 ## Resumen en Una Frase

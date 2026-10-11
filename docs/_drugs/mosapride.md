@@ -29,10 +29,6 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-El skill txgnn-pipeline cubre el pipeline técnico de entrenamiento/validación, pero la tarea es generación de informe desde un Evidence Pack — las instrucciones del sistema prompt son suficientes. Procedo directamente con el informe.
-
----
-
 # Mosapride: De Dispepsia Funcional a Insomnio
 
 ## Resumen en Una Frase

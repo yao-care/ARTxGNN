@@ -29,10 +29,6 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-Usando `txgnn-pipeline` para guiar la generación del informe de evaluación de reposicionamiento.
-
----
-
 # Podofilox: De Verrugas Genitales a Vulvovaginal Candidiasis
 
 ## Resumen en Una Frase
