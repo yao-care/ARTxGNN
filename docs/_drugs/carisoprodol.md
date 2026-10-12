@@ -2,7 +2,7 @@
 layout: default
 title: Carisoprodol
 parent: Solo Predicción del Modelo (L5)
-nav_order: 82
+nav_order: 83
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,66 +29,80 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# CARISOPRODOL: Evaluacion de Reposicionamiento — Sin Indicaciones Predichas Disponibles
+# Carisoprodol: De Indicación Original No Especificada a Insomnio
 
 ## Resumen en Una Frase
 
-Carisoprodol (DB00395) es un farmaco registrado en DrugBank para el cual no se dispone de indicacion original ni de mecanismo de accion en el presente Evidence Pack.
-El modelo TxGNN **no generó indicaciones predichas** en este ciclo de evaluacion,
-y el farmaco **no esta comercializado** en el mercado argentino, lo que limita severamente el analisis de reposicionamiento.
+Carisoprodol es un relajante muscular de acción central, comercializado en Argentina en múltiples presentaciones, aunque los datos compilados no incluyen el texto de la indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para **insomnio**,
+con **0 ensayos clínicos** y **1 publicación** (indirectamente relacionada) que actualmente respaldan esta dirección.
 
----
-
-## Resumen Rapido
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | Sin datos disponibles |
-| Nueva Indicacion Predicha | Sin predicciones generadas |
-| Puntaje de Prediccion TxGNN | N/D |
-| Nivel de Evidencia | L5 (sin estudios reales; sin prediccion de modelo en este ciclo) |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Hold |
+| Indicación Original | No disponible en los datos compilados (los textos de indicación de las autorizaciones están vacíos) |
+| Nueva Indicación Predicha | Insomnio |
+| Puntaje de Predicción TxGNN | 99.02% |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Argentina | ✓ Comercializado |
+| Número de Autorizaciones | 10 |
+| Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por que No Hay Prediccion Disponible?
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información farmacológica general, carisoprodol es un relajante muscular de acción central. Su metabolito activo, el meprobamato, tiene efectos sedantes y ansiolíticos de tipo barbitúrico, y el propio carisoprodol modula los receptores GABA-A. Esto es una inferencia a partir de farmacología general y no proviene de los datos proporcionados.
 
-El Evidence Pack recibido para CARISOPRODOL presenta dos brechas de datos criticas que impiden la generacion de predicciones por TxGNN:
+Esa actividad sedante ofrece una justificación biológica plausible para promover el sueño. Además, los calambres musculares nocturnos pueden alterar el sueño, lo que conecta de forma indirecta el uso como relajante muscular con el insomnio.
 
-**Brecha DG001 — Informacion regulatoria y de seguridad (Severidad: Bloqueante):** No se dispone de las advertencias ni contraindicaciones del prospecto oficial. Esto impide la evaluacion inicial de seguridad (S1), paso obligatorio antes de aceptar cualquier candidato de reposicionamiento.
+Debe tenerse en cuenta que el puntaje de 99.02% es una predicción computacional y no constituye evidencia clínica. La similitud entre la indicación original y la nueva no pudo evaluarse por falta de datos.
 
-**Brecha DG002 — Mecanismo de accion (Severidad: Alta):** El MOA no fue recuperado en el ciclo actual. Sin esta informacion, el modelo no puede construir el grafo de conocimiento necesario para predecir nuevas indicaciones con sustento mecanistico.
+## Evidencia de Ensayos Clínicos
 
-Como resultado, el campo `predicted_indications` esta vacio y no existe material suficiente para redactar las secciones de evidencia clinica, literatura, ni citotoxicidad.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
----
+## Evidencia de Literatura
 
-## Informacion de Mercado en Argentina
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [22963024](https://pubmed.ncbi.nlm.nih.gov/22963024/) | 2012 | Revisión | American Family Physician | Revisión sobre calambres nocturnos en las piernas, que pueden causar insomnio intenso. Trata los calambres, no el tratamiento del insomnio, por lo que la relevancia es solo indirecta |
 
-CARISOPRODOL no posee autorizaciones de comercializacion vigentes en Argentina.
+## Información de Mercado en Argentina
 
-| Item | Detalle |
-|------|------|
-| Estado | No comercializado |
-| Total de autorizaciones | 0 |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 49423 | LISTAFLEX | Comprimidos x 30 | No especificada |
+| 15750 | LISTAFLEX | Comprimidos x 20 | No especificada |
+| 40275 | NAPRUX DISTEN | Comprimidos x 30 | No especificada |
+| 8367 | FLEXICAMIN | Comprimidos x 20 | No especificada |
+| 8258 | SOLOCALM FLEX | Comprimidos x 20 | No especificada |
 
----
+Se muestran 5 de las 10 autorizaciones vigentes (todas de monofármaco).
 
-## Conclusion y Proximos Pasos
+## Consideraciones de Seguridad
 
-**Decision: Hold**
+- **Contraindicaciones sugeridas por el grafo de conocimiento** (relaciones fármaco-enfermedad del modelo, no texto de prospecto): epilepsia, enfermedad renal, enfermedad hepática, enfermedad de la vesícula biliar, trombocitopenia, hipotiroidismo, úlcera péptica, enfermedad inflamatoria intestinal, hiperplasia prostática benigna, trastornos hipotensivos, gota, abuso/dependencia de sustancias, hemofilia, anemias, colitis por *Clostridium difficile*, paro cardíaco súbito, enfermedades de la conducción cardíaca, insuficiencia respiratoria e insuficiencia suprarrenal (incluida la enfermedad de Addison), entre otras.
+- **Interacciones farmacológicas**: se registraron 100 interacciones. Entre las principales:
+  - Gravedad **mayor**: morfina y morfina liposomal.
+  - Gravedad **moderada**: dronabinol, metoclopramida, nabilona, opio, sibutramina, difenoxina y difenoxilato.
+  - Otras interacciones de gravedad no determinada: fentermina, pantoprazol, glimepirida, mesalazina, doxiciclina, clotrimazol, metformina, omeprazol, sucralfato, rosiglitazona y lansoprazol.
+- **Consideraciones adicionales** (según el análisis de la predicción): potencial de abuso y dependencia, síndrome de abstinencia y depresión aditiva del sistema nervioso central, especialmente combinado con opioides, benzodiacepinas y otros sedantes.
 
-**Justificacion:**
-El Evidence Pack carece de predicciones de TxGNN, indicacion original documentada y datos de seguridad; en estas condiciones no existe base suficiente para evaluar el potencial de reposicionamiento ni para recomendar acciones regulatorias o clinicas.
+No se dispone de las advertencias ni contraindicaciones del prospecto de ANMAT; consultar el prospecto para completar la información de seguridad.
+
+## Conclusión y Próximos Pasos
+
+**Decisión: Hold**
+
+**Justificación:**
+La predicción se basa únicamente en el modelo (L5), sin ensayos clínicos y con una sola publicación de relevancia indirecta. Además, el perfil de seguridad (abuso, dependencia, depresión del SNC e interacciones con opioides y sedantes) pesa de forma importante en contra de un uso hipnótico.
 
 **Para avanzar se necesita:**
-
-1. **Resolver DG001 (Bloqueante):** Descargar el prospecto oficial desde la fuente regulatoria de referencia (ANMAT / FDA / EMA) y extraer advertencias, contraindicaciones y precauciones.
-2. **Resolver DG002 (Alta):** Consultar la API de DrugBank (ID: DB00395) para obtener el mecanismo de accion, categorias farmacologicas y targets moleculares.
-3. **Re-ejecutar el pipeline TxGNN** una vez completadas las brechas anteriores para obtener la lista de indicaciones predichas con puntajes de confianza.
-4. **Verificar estado de comercializacion**: Confirmar si CARISOPRODOL esta autorizado bajo algun nombre comercial en Argentina mediante busqueda en ANMAT Medicamentos.
+- Obtener y analizar el prospecto de ANMAT (advertencias, contraindicaciones e indicación aprobada)
+- Datos del mecanismo de acción (MOA) desde DrugBank
+- Búsqueda de estudios clínicos y literatura específicos sobre carisoprodol o meprobamato en insomnio
+- Evaluación del riesgo de abuso y dependencia frente a alternativas existentes para el insomnio
+- Análisis de compatibilidad de vía de administración y similitud con la indicación original
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

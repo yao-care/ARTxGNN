@@ -2,7 +2,7 @@
 layout: default
 title: Olopatadine
 parent: Solo Predicción del Modelo (L5)
-nav_order: 161
+nav_order: 205
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,75 +29,75 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Olopatadine: De Conjuntivitis Alérgica a Conjuntivitis por Rosácea
+# Olopatadina: De Rinitis Alérgica y Conjuntivitis Alérgica a Conjuntivitis Rosácea
 
 ## Resumen en Una Frase
 
-Olopatadine es un antihistamínico H1 selectivo y estabilizador de mastocitos, utilizado clásicamente para el tratamiento de la conjuntivitis alérgica. El modelo TxGNN predice que podría ser efectivo para la **Conjuntivitis por Rosácea**, con un puntaje de predicción del **99.41%**. Sin embargo, actualmente **no existen ensayos clínicos ni publicaciones** que respalden directamente esta indicación, por lo que la evidencia se ubica en el nivel exploratorio más bajo (L5).
-
----
+Olopatadina es un antihistamínico de uso oftálmico, originalmente utilizado para el tratamiento de la rinitis alérgica y de distintas formas de conjuntivitis alérgica (atópica, papilar y primaveral).
+El modelo TxGNN predice que podría ser efectivo para **conjuntivitis rosácea**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata solo de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Conjuntivitis alérgica |
-| Nueva Indicación Predicha | Conjuntivitis por Rosácea |
+| Indicación Original | Rinitis alérgica, rinitis vasomotora y conjuntivitis alérgica (atópica, papilar y primaveral) |
+| Nueva Indicación Predicha | Conjuntivitis rosácea |
 | Puntaje de Predicción TxGNN | 99.41% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | ✓ Comercializado |
+| Número de Autorizaciones | 10 |
 | Decisión Recomendada | Hold |
 
----
+Nota: las autorizaciones de ANMAT compiladas no incluyen el texto de indicación aprobada; la indicación original se tomó de la base de conocimiento del modelo TxGNN.
 
-## Por qué es Razonable esta Predicción?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos completos sobre el mecanismo de acción desde el registro argentino. Sin embargo, la información contenida en el Evidence Pack confirma que olopatadine es un **antagonista selectivo del receptor H1 de histamina y estabilizador de mastocitos**, capaz de inhibir la liberación de histamina, prostaglandinas y leucotrienos: mediadores inflamatorios fundamentales en la respuesta alérgica ocular.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro compilado. Según el conocimiento farmacológico general, la olopatadina es un antagonista selectivo del receptor de histamina H1 con actividad estabilizadora de mastocitos, y su eficacia en las conjuntivitis alérgicas está establecida.
 
-La conjuntivitis por rosácea (ocular rosacea) comparte elementos fisiopatológicos parciales con la conjuntivitis alérgica: ambas involucran activación de mastocitos y procesos neuroinflamatorios crónicos en la conjuntiva. En ese sentido, existe una conexión indirecta entre el mecanismo de acción de olopatadine y los síntomas conjuntivales de la rosácea ocular. El alto puntaje TxGNN probablemente refleja esta similitud estructural en el grafo de conocimiento biomédico.
+La rosácea ocular (conjuntivitis rosácea) se caracteriza por disfunción de las glándulas de Meibomio, inflamación del párpado y de la superficie ocular, y factores microbianos o de *Demodex*, con un componente inflamatorio principalmente no alérgico. Por ello, un posible beneficio de la olopatadina se limitaría a síntomas mediados por histamina o mastocitos, como el picor y el enrojecimiento. Este vínculo es teórico y no un mecanismo establecido.
 
-No obstante, la conjuntivitis por rosácea presenta una fisiopatología nuclear diferente: incluye infección por *Demodex*, disfunción de glándulas de Meibomio y sebáceas, y disregulación de la inmunidad innata. Estos mecanismos no son blanco de olopatadine, por lo que la conexión mecanística actual es de naturaleza **especulativa** y carece de validación clínica directa. La predicción es sugerente pero insuficiente para avanzar sin evidencia de respaldo.
-
----
+El puntaje muy alto de TxGNN (0.994) probablemente refleja la cercanía en el grafo de conocimiento con las indicaciones aprobadas de conjuntivitis, y no está respaldado por datos clínicos. La similitud con la indicación original y la compatibilidad de vías de administración aún están pendientes de evaluar.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
----
-
 ## Información de Mercado en Argentina
 
-Olopatadine **no cuenta con autorizaciones de comercialización registradas en Argentina**. La consulta al registro regulatorio local arrojó cero licencias activas. No se dispone de información sobre indicaciones aprobadas, formas farmacéuticas ni condiciones de uso en el mercado nacional.
+Hay 10 autorizaciones vigentes, todas de producto único (sin combinaciones) y ninguna cancelada. Se listan las 5 principales:
 
----
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 41436 | PATANOL S (Novartis) | 0.2% frasco gotero x 2.5 ml | No disponible en el registro |
+| 21143 | PATANOL (Novartis) | 0.1% frasco gotero x 5 ml | No disponible en el registro |
+| 41039 | OLOPAT (Elea) | 0.1% solución oftálmica x 5 ml | No disponible en el registro |
+| 57800 | TIMALERG (Max Vision) | 0.2% solución oftálmica x 5 ml | No disponible en el registro |
+| 52910 | OLORATAN (Sidus) | 0.2% solución oftálmica x 2.5 ml | No disponible en el registro |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento** (no provienen del prospecto): enfermedad de las vías respiratorias inferiores, enfermedad de los senos paranasales, enfermedad de la cavidad nasal y enfermedad de las vías respiratorias superiores.
+- **Interacciones farmacológicas:** la consulta se completó y devolvió 100 interacciones, todas con nivel de gravedad "desconocido" (fuente: DDInter). Algunos ejemplos son pantoprazol, doxiciclina, clotrimazol, metformina, omeprazol, lansoprazol, cimetidina, triamcinolona, prednisona y simvastatina. Su relevancia clínica no está clasificada.
 
----
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Si bien el modelo TxGNN asigna un puntaje de predicción elevado (99.41%), la evidencia clínica real es inexistente: no hay ningún ensayo clínico ni publicación científica que respalde el uso de olopatadine en conjuntivitis por rosácea. La diferencia fisiopatológica fundamental entre la rosácea ocular y la conjuntivitis alérgica limita la extrapolación directa del mecanismo, y el fármaco ni siquiera se encuentra comercializado en Argentina.
+La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura, y el mecanismo de la rosácea ocular es mayormente no alérgico, por lo que el vínculo con la olopatadina es solo teórico. Además, faltan los datos de seguridad del prospecto.
 
 **Para avanzar se necesita:**
-- Revisión del mecanismo de acción completo (MOA) desde DrugBank para identificar dianas farmacológicas adicionales relevantes para rosácea
-- Descarga y análisis del prospecto oficial (ANMAT / TFDA) para evaluar advertencias, contraindicaciones y perfil de seguridad
-- Búsqueda bibliográfica ampliada: estudios de rosácea ocular tratados con antihistamínicos o estabilizadores de mastocitos (aunque sea con otros fármacos de la misma clase)
-- Consulta con oftalmólogos especialistas en enfermedades de superficie ocular para validar la plausibilidad clínica
-- De confirmarse señal de interés, diseño de un estudio piloto o serie de casos como primer paso de validación
+- Obtener y analizar el prospecto de ANMAT (advertencias y contraindicaciones), requisito previo para la evaluación de seguridad.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Realizar una revisión sistemática de la literatura y de registros de ensayos sobre antihistamínicos o estabilizadores de mastocitos en rosácea ocular.
+- Evaluar la similitud con la indicación original y la compatibilidad de vías de administración (ambas pendientes).
+- Considerar, de haber sustento, estudios preclínicos o un piloto exploratorio centrado en síntomas de picor y enrojecimiento.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Aliskiren
-parent: Solo Predicción del Modelo (L5)
+parent: Evidencia Moderada (L3-L4)
 nav_order: 20
-evidence_level: L5
+evidence_level: L4
 indication_count: 7
 ---
 
 # Aliskiren
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,90 +29,85 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# ALISKIREN: Evaluación de Reposicionamiento — Sin Nuevas Indicaciones Predichas
+# Aliskiren: De Hipertensión a Hipertensión Pulmonar Secundaria a Enfermedad Pulmonar y/o Hipoxia
 
 ## Resumen en Una Frase
 
-Aliskiren es un inhibidor directo de la renina utilizado originalmente para el tratamiento de la hipertensión arterial. El modelo TxGNN **no ha generado predicciones de nuevas indicaciones** para este fármaco. Adicionalmente, el fármaco **no se encuentra comercializado en Argentina** y presenta múltiples brechas de datos que impiden una evaluación completa.
-
----
+Aliskiren es un inhibidor directo de la renina, originalmente utilizado para el tratamiento de la hipertensión arterial.
+El modelo TxGNN predice que podría ser efectivo para **hipertensión pulmonar secundaria a enfermedad pulmonar y/o hipoxia**,
+pero actualmente no hay **ningún ensayo clínico** y solo se dispone de **4 publicaciones**, todas preclínicas o indirectas, por lo que la evidencia es muy limitada.
 
 ## Resumen Rápido
 
-| Ítem | Contenido |
-|------|-----------|
-| Indicación Original | Hipertensión arterial (conocida por clase terapéutica; sin autorización local registrada) |
-| Nueva Indicación Predicha | — Sin predicciones disponibles — |
-| Puntaje de Predicción TxGNN | N/A |
-| Nivel de Evidencia | L5 (sin evidencia; solo datos de referencia del fármaco) |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
-| Decisión Recomendada | **Hold** |
+| Item | Contenido |
+|------|------|
+| Indicación Original | Hipertensión arterial (según la base de conocimiento; los textos de indicación de las autorizaciones locales están vacíos) |
+| Nueva Indicación Predicha | Hipertensión pulmonar secundaria a enfermedad pulmonar y/o hipoxia |
+| Puntaje de Predicción TxGNN | 99.98% |
+| Nivel de Evidencia | L4 |
+| Estado de Mercado en Argentina | ✓ Comercializado |
+| Número de Autorizaciones | 2 |
+| Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## ¿Por qué no se Generaron Predicciones?
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, aliskiren inhibe la renina, la enzima que da el primer paso del sistema renina-angiotensina-aldosterona (SRAA), y con ello reduce la actividad de toda la cascada. Su eficacia en la hipertensión arterial está comprobada, y mecanísticamente podría ser aplicable a la hipertensión pulmonar.
 
-Aliskiren (DrugBank ID: DB09026) es un inhibidor directo de la renina, el primer fármaco aprobado en su clase. Actúa bloqueando la renina, la enzima que inicia la cascada del sistema renina-angiotensina-aldosterona (SRAA), reduciendo así la producción de angiotensina I y angiotensina II, lo que resulta en una disminución de la presión arterial. A nivel internacional, ha sido comercializado bajo los nombres Tekturna® (EE.UU.) y Rasilez® (Europa).
+La relación entre ambas indicaciones es indirecta. Estudios preclínicos en ratas con hipoxia intermitente crónica sugieren que la angiotensina II contribuye a la activación simpática y al remodelado auricular, y que aliskiren atenuó el remodelado en ese modelo. Esto ofrece un apoyo plausible pero indirecto: ningún estudio en humanos ha evaluado criterios de valoración vasculares pulmonares o de hipertensión pulmonar.
 
-El modelo TxGNN no generó predicciones de nuevas indicaciones para este fármaco. Esto puede deberse a varios factores: (1) la representación del fármaco en el grafo de conocimiento utilizado por TxGNN puede ser insuficiente, (2) las relaciones fármaco-enfermedad conocidas para aliskiren pueden no presentar patrones transferibles a otras patologías dentro del modelo, o (3) el perfil farmacológico altamente específico del inhibidor directo de renina puede limitar su aplicabilidad predicha a nuevas indicaciones.
-
-Adicionalmente, la ausencia de datos de mecanismo de acción (MOA) en el Evidence Pack y la falta de autorizaciones regulatorias en Argentina reducen la cantidad de señales de entrada disponibles para el modelo predictivo.
-
----
+El puntaje TxGNN es muy alto, pero es solo una predicción computacional basada en asociaciones del grafo de conocimiento. No debe interpretarse como evidencia de eficacia.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados con nuevas indicaciones registrados, dado que no se generaron predicciones de reposicionamiento.
-
----
+Actualmente no hay ensayos clínicos relacionados registrados para esta indicación.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada con nuevas indicaciones disponible, dado que no se generaron predicciones de reposicionamiento.
-
----
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [32982180](https://pubmed.ncbi.nlm.nih.gov/32982180/) | 2020 | Preclínico (animal) | Drug Des Devel Ther | Estudio en ratas con hipoxia intermitente crónica para evaluar el efecto de aliskiren sobre el remodelado auricular; el fármaco mostró un posible efecto protector |
+| [29645283](https://pubmed.ncbi.nlm.nih.gov/29645283/) | 2018 | Preclínico (animal) | J Physiol | En ratas, la simpatoexcitación tras hipoxia intermitente está mediada por angiotensina II circulante; la inhibición del SRA previene estos efectos |
+| [39133776](https://pubmed.ncbi.nlm.nih.gov/39133776/) | 2024 | Preclínico (in vitro) | Am J Physiol Regul Integr Comp Physiol | Actividad de liberación de angiotensina II en cortes cerebrales de rata; relevancia solo contextual sobre el SRA |
+| [26502369](https://pubmed.ncbi.nlm.nih.gov/26502369/) | 2016 | Preclínico | Transplantation | Los inhibidores de calcineurina aumentan la renina local y el VEGF en los conductos colectores renales; relación lejana con la indicación |
 
 ## Información de Mercado en Argentina
 
-Aliskiren **no se encuentra comercializado en Argentina**. No se identificaron autorizaciones de comercialización vigentes en el registro regulatorio consultado.
-
----
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 43513 | RASILEZ (Novartis) | Comprimidos recubiertos 150 mg x 28 | No disponible en los datos |
+| 43515 | RASILEZ (Novartis) | Comprimidos recubiertos 300 mg x 28 | No disponible en los datos |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según la base de conocimiento** (relaciones fármaco-enfermedad del grafo de conocimiento, no texto del prospecto):
+  - Hepáticas y biliares: insuficiencia hepática, enfermedad hepática, encefalopatía hepática, coma hepático, enfermedad de la vesícula biliar, pancreatitis, ictericia neonatal.
+  - Angioedema: angioedema (adquirido, hereditario, no histaminérgico e inducido por bloqueadores del SRAA).
+  - Renales: anuria, deterioro de la función renal, obstrucción de la arteria renal.
+  - Metabólicas y electrolíticas: diabetes mellitus, cetoacidosis diabética, déficit de potasio, hipercalcemia, nefrocalcinosis, trastornos del metabolismo del fósforo, hiperparatiroidismo, osteítis fibrosa, hiperuricemia, gota.
+  - Hematológicas: neutropenia, agranulocitosis.
+  - Otras: lupus eritematoso sistémico (incluido el pediátrico) e hipotensión.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones, todas de las que se muestran son de nivel moderado. Entre las principales:
+  - Corticoides: hidrocortisona, betametasona, budesonida, dexametasona, prednisolona, prednisona.
+  - Inhibidores de SGLT2: canagliflozina, dapagliflozina, empagliflozina, ertugliflozina.
+  - Sales de potasio: bicarbonato, cloruro, citrato y gluconato de potasio (riesgo de hiperpotasemia).
+  - Otros: ácido acetilsalicílico, aprepitant, claritromicina, clotrimazol, miconazol, eliglustat.
+- **Contexto de seguridad en la literatura**: el ensayo ALTITUDE planteó preocupaciones con el doble bloqueo del SRAA en pacientes diabéticos con deterioro renal (hipotensión, ictus isquémico, hiperpotasemia).
 
-> **Nota:** No se dispone de datos locales de advertencias, contraindicaciones ni interacciones farmacológicas en el Evidence Pack. Como referencia general, a nivel internacional aliskiren presenta las siguientes precauciones conocidas:
-> - **Contraindicado** en combinación con inhibidores de la ECA o bloqueantes de los receptores de angiotensina (ARA II) en pacientes con diabetes mellitus o insuficiencia renal (TFG < 60 mL/min).
-> - **Riesgo en embarazo**: Puede causar daño fetal; está contraindicado en el embarazo (categoría D).
-> - **Hiperpotasemia**: Riesgo aumentado cuando se combina con otros fármacos que actúan sobre el SRAA o con suplementos de potasio.
-> - **Angioedema**: Se han reportado casos de angioedema que requieren la suspensión inmediata del tratamiento.
-
----
-
-## Brechas de Datos Identificadas
-
-| ID | Categoría | Ítem Faltante | Severidad | Impacto | Remediación Sugerida |
-|----|-----------|---------------|-----------|---------|----------------------|
-| DG001 | Nivel de Fármaco | Advertencias y contraindicaciones del prospecto | **Bloqueante** | No es posible realizar la evaluación inicial de seguridad (S1) | Descargar y analizar el prospecto desde el sitio de la autoridad regulatoria |
-| DG002 | Nivel de Fármaco | Mecanismo de Acción (MOA) | Alta | Afecta el análisis de relación mecanística | Consultar la API de DrugBank |
-
----
+Para advertencias y contraindicaciones oficiales, consultar el prospecto aprobado por ANMAT.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No se generaron predicciones de nuevas indicaciones por parte del modelo TxGNN para aliskiren. Además, el fármaco no se encuentra comercializado en Argentina (0 autorizaciones), y existen brechas de datos críticas — incluyendo la ausencia de información de seguridad local (severidad bloqueante) y de mecanismo de acción — que impiden avanzar con cualquier evaluación de reposicionamiento.
+La predicción se apoya solo en puntaje computacional y en estudios preclínicos indirectos, sin ensayos clínicos ni estudios en humanos sobre hipertensión pulmonar. El mecanismo es plausible pero no está demostrado para esta indicación.
 
 **Para avanzar se necesita:**
-- Resolver la brecha bloqueante DG001: obtener las advertencias y contraindicaciones del prospecto oficial
-- Completar los datos de mecanismo de acción (MOA) desde DrugBank (DG002)
-- Verificar si existen datos adicionales en el grafo de conocimiento de TxGNN que puedan mejorar la representación de aliskiren
-- Evaluar si la ausencia de predicciones se debe a limitaciones del modelo o a una genuina falta de potencial de reposicionamiento
-- Considerar si el fármaco amerita una nueva ejecución del modelo una vez que se completen las brechas de datos
+- Datos del mecanismo de acción confirmados (por ejemplo, desde DrugBank).
+- Revisión del prospecto de ANMAT para advertencias y contraindicaciones oficiales.
+- Estudios preclínicos específicos en modelos de hipertensión pulmonar (vascular pulmonar, no solo remodelado auricular).
+- Evaluación de la relevancia frente a otras predicciones del modelo con más respaldo; por ejemplo, para el trastorno cerebrovascular existe un ensayo de Fase 2/3 terminado (NCT01417104) y evidencia de nivel L3, aunque tampoco es concluyente.
+- Análisis de seguridad en pacientes con enfermedad pulmonar e hipoxia, dada la lista amplia de contraindicaciones.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

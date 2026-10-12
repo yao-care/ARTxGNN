@@ -2,7 +2,7 @@
 layout: default
 title: Diltiazem
 parent: Solo Predicción del Modelo (L5)
-nav_order: 116
+nav_order: 126
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,79 +29,65 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
----
-
-# Diltiazem: De Hipertensión y Arritmias a Susceptibilidad a Accidente Cerebrovascular Isquémico
+# Diltiazem: De Hipertensión a Susceptibilidad Obsoleta al Accidente Cerebrovascular Isquémico
 
 ## Resumen en Una Frase
 
-Diltiazem es un bloqueador de canales de calcio tipo L (clase benzotiazepina), utilizado ampliamente para el tratamiento de la hipertensión arterial, angina de pecho y arritmias cardíacas supraventriculares.
-El modelo TxGNN predice que podría ser efectivo para la **Susceptibilidad a Accidente Cerebrovascular Isquémico**, aunque actualmente **no existen ensayos clínicos ni publicaciones** que respalden directamente esta dirección.
-Cabe señalar que la indicación predicha utiliza un término de enfermedad marcado como **obsoleto** en la ontología de enfermedades empleada por TxGNN, lo que añade incertidumbre interpretativa adicional a la predicción.
-
----
+Diltiazem es un bloqueador de los canales de calcio no dihidropiridínico, utilizado originalmente para el tratamiento de la hipertensión, la fibrilación auricular, la angina de Prinzmetal y la taquicardia ventricular.
+El modelo TxGNN predice que podría ser efectivo para la **susceptibilidad al accidente cerebrovascular isquémico** (término obsoleto en la ontología), pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata únicamente de una predicción computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
-|------|-----------|
-| Indicación Original | Hipertensión arterial, angina de pecho y arritmias cardíacas (CCB clase benzotiazepina) |
-| Nueva Indicación Predicha | Susceptibilidad a Accidente Cerebrovascular Isquémico |
+|------|------|
+| Indicación Original | Hipertensión (trastorno hipertensivo), fibrilación auricular, angina de Prinzmetal, taquicardia ventricular |
+| Nueva Indicación Predicha | Susceptibilidad obsoleta al accidente cerebrovascular isquémico |
 | Puntaje de Predicción TxGNN | 99.08% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | ✓ Comercializado |
+| Número de Autorizaciones | 17 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción desde DrugBank. Sin embargo, diltiazem es un bloqueador de canales de calcio de tipo L dependientes de voltaje, perteneciente a la clase benzotiazepina. Su efecto farmacológico principal consiste en inhibir la entrada de iones calcio en el músculo cardíaco y el músculo liso vascular, lo que produce vasodilatación periférica y coronaria, reducción de la frecuencia cardíaca y supresión de focos arrítmicos supraventriculares.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, diltiazem es un bloqueador de los canales de calcio no dihidropiridínico, con eficacia comprobada en hipertensión y arritmias, y mecanísticamente podría ser aplicable al riesgo de accidente cerebrovascular isquémico.
 
-Desde el punto de vista mecanístico, existen al menos cuatro vínculos potenciales con la prevención del accidente cerebrovascular isquémico: (1) **vasodilatación cerebrovascular**, que reduce la resistencia vascular cerebral y mejora la perfusión; (2) **inhibición de la sobrecarga de calcio intracelular** en neuronas isquémicas, dado que la entrada masiva de calcio es el mecanismo central de neurotoxicidad durante la isquemia; (3) **control de la hipertensión arterial**, el principal factor de riesgo modificable del ACV isquémico; y (4) **efecto antiarrítmico**, que puede reducir el riesgo de embolias cardioembólicas secundarias a fibrilación auricular.
+Los vínculos plausibles son: (1) la reducción de la presión arterial, ya que la hipertensión es el principal factor de riesgo modificable del ictus; (2) el control de la frecuencia y el ritmo cardíaco en la fibrilación auricular, una causa mayor de ictus cardioembólico; y (3) posibles efectos vasodilatadores o cerebrovasculares.
 
-No obstante, es importante contextualizar estos vínculos con la evidencia disponible. Fármacos del mismo grupo — en particular nimodipina, un CCB dihidropiridínico con mayor penetración en el sistema nervioso central — han mostrado resultados decepcionantes en ensayos clínicos de neuroprotección en ACV isquémico agudo. Diltiazem específicamente carece de ensayos clínicos directos para esta indicación. Asimismo, el término predicho **"obsolete susceptibility to ischemic stroke"** está marcado como obsoleto en la ontología de enfermedades de TxGNN, lo que sugiere que esta categoría diagnóstica ha sido reclasificada o discontinuada, dificultando el diseño de estudios de seguimiento sobre una base nosológica sólida.
+Estos vínculos se infieren a partir de las indicaciones ya aprobadas y no han sido demostrados para esta entidad específica. Además, el término de la enfermedad está marcado como "obsoleto", es decir, la entrada en la ontología está en desuso y puede corresponder de forma imprecisa a los fenotipos actuales de ictus. El puntaje alto (0.991) es solo una predicción computacional, probablemente influida por las indicaciones cardiovasculares conocidas del fármaco.
 
----
+## Informacion de Mercado en Argentina
 
-## Evidencia de Ensayos Clínicos
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 17872 | ACALIX CD | 240 mg cápsulas x 30 | No disponible en los datos compilados |
+| 7577 | ACALIX | 60 mg comprimidos x 50 | No disponible en los datos compilados |
+| 8691 | HART | 60 mg comprimidos x 50 | No disponible en los datos compilados |
+| 9274 | INCORIL AP 120 | 120 mg comprimidos x 30 | No disponible en los datos compilados |
+| 38108 | ACALIX CRONOS | 300 mg cápsulas x 30 | No disponible en los datos compilados |
 
-Actualmente no hay ensayos clínicos relacionados registrados.
-
----
-
-## Evidencia de Literatura
-
-Actualmente no hay literatura relacionada disponible.
-
----
-
-## Información de Mercado en Argentina
-
-Diltiazem no cuenta con ninguna autorización de comercialización registrada en Argentina según los datos disponibles.
-
----
+Se muestran 5 de las 17 autorizaciones vigentes (todas de producto único).
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento** (relaciones fármaco-enfermedad de PrimeKG, no texto de prospecto): enfermedad renal, enfermedad hepática, enfermedad de la vesícula biliar, angioedema (incluido el hereditario), neutropenia, agranulocitosis, estenosis aórtica, hipotensión, miocardiopatía hipertrófica, taquicardia ventricular, bloqueo auriculoventricular, síndrome de Wolff-Parkinson-White, síndrome de Lown-Ganong-Levine y síndrome del seno enfermo.
+- **Interacciones farmacológicas**: se identificaron 100 interacciones. Entre las principales, de gravedad **mayor**: loperamida. De gravedad **moderada**: hidrocortisona, pioglitazona, bupropión, aprepitant, triamcinolona, morfina, ácido acetilsalicílico, dexametasona, betametasona, budesonida, canagliflozina y varias sales de calcio (fosfato, acetato, carbonato, cloruro, citrato).
 
----
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción de TxGNN se basa exclusivamente en señales del modelo de grafo de conocimiento (nivel L5), sin ningún ensayo clínico ni publicación científica que respalde directamente el uso de diltiazem en la prevención o tratamiento del ACV isquémico. El término de enfermedad predicho está además marcado como obsoleto en la ontología de referencia, lo que dificulta la interpretación clínica y el diseño de estudios prospectivos.
+La predicción se apoya solo en el modelo (nivel L5), sin ensayos clínicos ni literatura, y la enfermedad predicha figura como término obsoleto en la ontología, lo que limita su interpretación.
 
 **Para avanzar se necesita:**
-- Verificar el mecanismo de acción detallado (MOA) mediante consulta a DrugBank (DG002 pendiente)
-- Obtener datos completos de seguridad — advertencias, contraindicaciones e interacciones farmacológicas — desde la ficha técnica oficial (DG001 pendiente)
-- Resolver la ambigüedad ontológica: identificar a qué término diagnóstico vigente corresponde "obsolete susceptibility to ischemic stroke" (p. ej., ACV isquémico agudo, AIT, ACV cardioembólico) para acotar el alcance clínico real
-- Realizar una búsqueda bibliográfica ampliada sobre CCB de clase benzotiazepina en modelos preclínicos y estudios observacionales de ACV isquémico
-- Evaluar si diltiazem presenta ventajas farmacocinéticas o farmacodinámicas frente a otros CCB mejor estudiados para indicaciones neurológicas (p. ej., nimodipina) antes de considerar su desarrollo clínico
+- Mapear el término obsoleto a fenotipos vigentes de ictus isquémico (p. ej., prevención primaria o secundaria).
+- Obtener datos del mecanismo de acción desde DrugBank.
+- Revisar el prospecto de ANMAT (advertencias y contraindicaciones) para completar el análisis de seguridad.
+- Realizar una búsqueda sistemática de literatura y ensayos clínicos sobre diltiazem y riesgo de ictus.
+- Evaluar la compatibilidad de vías de administración y la similitud con la indicación original.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

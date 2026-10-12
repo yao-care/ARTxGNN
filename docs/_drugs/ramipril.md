@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ramipril
-parent: Solo Predicción del Modelo (L5)
-nav_order: 171
-evidence_level: L5
+parent: Evidencia Moderada (L3-L4)
+nav_order: 222
+evidence_level: L4
 indication_count: 10
 ---
 
 # Ramipril
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,39 +29,37 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
----
-
-# Ramipril: De Hipertensión Arterial a Hipertensión Pulmonar por Enfermedad Pulmonar e Hipoxia
+# Ramipril: De Hipertensión Arterial a Hipertensión Pulmonar por Enfermedad Pulmonar y/o Hipoxia
 
 ## Resumen en Una Frase
 
-Ramipril es un inhibidor de la enzima convertidora de angiotensina (IECA), reconocido internacionalmente por su uso en hipertensión arterial, insuficiencia cardíaca y reducción del riesgo cardiovascular (Ensayo HOPE).
-El modelo TxGNN predice que podría ser efectivo para la **Hipertensión Pulmonar por Enfermedad Pulmonar e Hipoxia (Grupo 3)**,
-con **0 ensayos clínicos registrados** y **20 publicaciones** que actualmente respaldan esta dirección —aunque la mayoría abordan mecanismos generales de hipoxia, no el uso específico de Ramipril en esta indicación.
+Ramipril es un inhibidor de la enzima convertidora de angiotensina (ECA), originalmente utilizado para el tratamiento de la hipertensión arterial y de trastornos cerebrovasculares como el accidente cerebrovascular y el infarto cerebral.
+El modelo TxGNN predice que podría ser efectivo para **hipertensión pulmonar secundaria a enfermedad pulmonar y/o hipoxia**,
+pero actualmente **no hay ensayos clínicos** registrados y solo se dispone de **1 estudio preclínico directamente relacionado** (en ratas), por lo que la evidencia es muy preliminar.
 
 ---
 
 ## Resumen Rápido
 
 | Item | Contenido |
-|------|-----------|
-| Indicación Original | No registrado en Argentina; uso internacional reconocido para hipertensión arterial y riesgo cardiovascular |
-| Nueva Indicación Predicha | Hipertensión pulmonar por enfermedad pulmonar e hipoxia (Grupo 3) |
+|------|------|
+| Indicación Original | Hipertensión arterial y trastornos cerebrovasculares (según el grafo de conocimiento; el texto de indicación aprobada en ANMAT no está disponible) |
+| Nueva Indicación Predicha | Hipertensión pulmonar secundaria a enfermedad pulmonar y/o hipoxia |
 | Puntaje de Predicción TxGNN | 99.93% |
-| Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Nivel de Evidencia | L4 |
+| Estado de Mercado en Argentina | ✓ Comercializado |
+| Número de Autorizaciones | 9 |
 | Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en esta base de datos. Según la información conocida, Ramipril es un profármaco que, una vez hidrolizado a ramiprilat, inhibe competitivamente la enzima convertidora de angiotensina (ECA). Esto bloquea la conversión de angiotensina I a angiotensina II, reduciendo la vasoconstricción sistémica y pulmonar, y acumulando bradicinina —que a su vez promueve la liberación de óxido nítrico y prostaciclina con efectos vasodilatadores y antiproliferativos.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, ramipril es un inhibidor de la ECA: bloquea la conversión de angiotensina I en angiotensina II, con lo que reduce la vasoconstricción y la remodelación vascular mediadas por el sistema renina-angiotensina (SRA).
 
-La hipertensión pulmonar Grupo 3 (por enfermedad pulmonar e hipoxia) se caracteriza por vasoconstricción pulmonar hipóxica (HPV) y remodelado vascular mediado por hipoxia. La angiotensina II participa en este remodelado al promover la proliferación de células musculares lisas vasculares y la fibrosis, mecanismo sobre el cual Ramipril actuaría inhibiendo directamente la producción de angiotensina II. Adicionalmente, la acumulación de bradicinina podría ejercer efectos antiproliferativos sobre la vasculatura pulmonar.
+La hipoxia crónica produce vasoconstricción y remodelación de los vasos pulmonares, que son la base de la hipertensión pulmonar del grupo 3. Mecanísticamente, el bloqueo del SRA podría atenuar estos procesos. Un estudio preclínico en ratas (PMID 9200213) reportó que ramipril, administrado durante la exposición a hipoxia crónica, redujo la presión de perfusión basal y atenuó los efectos de la hipoxia sobre los vasos pulmonares.
 
-Sin embargo, la relación mecanística es indirecta y biológicamente plausible, pero clínicamente no validada. El mecanismo predominante en el Grupo 3 es la HPV —mediada fundamentalmente por sensores de oxígeno independientes del sistema RAAS— y la evidencia clínica de que los IECAs reduzcan la resistencia vascular pulmonar en este contexto específico no ha sido demostrada de forma consistente. La ausencia total de ensayos clínicos registrados confirma que esta indicación se encuentra en etapa puramente especulativa.
+Es importante ser cauteloso: no existen ensayos en humanos y los inhibidores de la ECA no son un tratamiento establecido para la hipertensión pulmonar del grupo 3. Los demás artículos recuperados tratan sobre biología del SRA cardíaco o renal y solo se relacionan de forma tangencial con esta indicación.
 
 ---
 
@@ -73,32 +71,40 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-De las 20 publicaciones recuperadas, la mayoría abordan los mecanismos generales de hipoxia en distintos contextos clínicos y no se centran específicamente en el uso de Ramipril para hipertensión pulmonar. Se presentan las 10 más representativas:
+Se listan los estudios más pertinentes. Los demás artículos recuperados (por ejemplo, un caso de toxoplasmosis amazónica o un caso de enfermedad de Cushing) no guardan relación con la indicación.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|---------|----------------------|
-| [33862277](https://pubmed.ncbi.nlm.nih.gov/33862277/) | 2021 | Revisión | Ageing Research Reviews | Revisión sobre hipoxia y envejecimiento cerebral; discute efectos duales de la hipoxia en neurodegeneración y potencial neuroprotección a altitudes elevadas |
-| [34618295](https://pubmed.ncbi.nlm.nih.gov/34618295/) | 2022 | Revisión | Metabolic Brain Disease | Evidencias clínicas y mecanismos moleculares del deterioro cognitivo por hipoxia aguda y crónica; relevante para entender los efectos sistémicos de la hipoxia |
-| [34535359](https://pubmed.ncbi.nlm.nih.gov/34535359/) | 2021 | Revisión | Clinical Oncology | Estrategias para modificación terapéutica de la hipoxia tumoral; cubre resistencia a radioterapia e inmunoterapia inducida por hipoxia |
-| [31961750](https://pubmed.ncbi.nlm.nih.gov/31961750/) | 2020 | Revisión | Annual Review of Immunology | Papel del metabolismo del oxígeno en la inmunidad innata; discute hipoxia fisiológica e inflamatoria y su regulación por factores HIF |
-| [11172576](https://pubmed.ncbi.nlm.nih.gov/11172576/) | 2000 | Revisión | Respiratory Care Clinics of North America | Mecanismos básicos de hipoxemia: hipoventilación, desequilibrio ventilación/perfusión y shunt derecha-izquierda; base fisiopatológica de la enfermedad pulmonar hipóxica |
-| [21328446](https://pubmed.ncbi.nlm.nih.gov/21328446/) | 2011 | Revisión | Journal of Cellular Biochemistry | Control biológico mediado por hipoxia: metabolismo, pH, angiogénesis; relevancia en enfermedades vasculares e inflamatorias |
-| [40815459](https://pubmed.ncbi.nlm.nih.gov/40815459/) | 2025 | Revisión | Revista Médica del IMSS | Consideraciones sobre hipoxia hipobarica y altitud; diferencias fisiológicas y adaptaciones en poblaciones de distintas altitudes |
-| [9446167](https://pubmed.ncbi.nlm.nih.gov/9446167/) | 1997 | Revisión | Revue Medicale de Liege | Síndrome hepatopulmonar: hipoxemia secundaria a enfermedad hepática; ejemplo de hipertensión pulmonar asociada a causa sistémica |
-| [28219680](https://pubmed.ncbi.nlm.nih.gov/28219680/) | 2017 | Revisión | Experimental Cell Research | Regulación de la represión transcripcional en hipoxia; rol del factor HIF como regulador maestro de la adaptación celular a la falta de oxígeno |
-| [8817697](https://pubmed.ncbi.nlm.nih.gov/8817697/) | 1996 | Revisión | Progress in Neurobiology | Efectos de la hipoxia perinatal y fetal en el neurodesarrollo; perspectiva del ciclo vital sobre el daño hipóxico cerebral |
+|------|-----|------|------|---------|
+| [9200213](https://pubmed.ncbi.nlm.nih.gov/9200213/) | 1996 | Preclínico (animal) | Physiological Research | En ratas expuestas 3 semanas a hipoxia y tratadas con ramipril (10 mg/kg/día), disminuyó la presión de perfusión basal pulmonar y se atenuó el efecto de la hipoxia crónica sobre los vasos pulmonares |
+| [15671045](https://pubmed.ncbi.nlm.nih.gov/15671045/) | 2005 | Preclínico / tejido humano | European Heart Journal | El infarto de miocardio aumenta la expresión de ECA2 en ratas y en corazones humanos con insuficiencia (relación indirecta) |
+| [12069940](https://pubmed.ncbi.nlm.nih.gov/12069940/) | 2002 | Preclínico | Am J Physiol Regul Integr Comp Physiol | Ratas transgénicas con renina-angiotensinógeno mostraron menor susceptibilidad de la función cardíaca a la hipoxia-reoxigenación |
+| [18464162](https://pubmed.ncbi.nlm.nih.gov/18464162/) | 2008 | Preclínico | Microcirculation | Ramipril o valsartán reducen la pérdida de capilares peritubulares (renoprotección; relación tangencial) |
+| [19380417](https://pubmed.ncbi.nlm.nih.gov/19380417/) | 2009 | Preclínico | Cardiovascular Research | La inhibición de la ECA promueve células progenitoras endoteliales y neoangiogénesis en sobrecarga de presión cardíaca |
+| [24907870](https://pubmed.ncbi.nlm.nih.gov/24907870/) | 2014 | Preclínico | Basic Research in Cardiology | La activación de la guanilato ciclasa soluble mejora la remodelación cardíaca tras infarto, con mayor cardioprotección que la inhibición de la ECA |
+| [32822951](https://pubmed.ncbi.nlm.nih.gov/32822951/) | 2020 | Preclínico | World Neurosurgery | Comparación de ramipril y bevacizumab para mitigar la necrosis cerebral inducida por radiación |
 
 ---
 
 ## Información de Mercado en Argentina
 
-Ramipril no cuenta con ninguna autorización de comercialización registrada en Argentina según los datos disponibles al momento de este informe.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 21981 | LOSTAPRES | 2.5 mg comp. x 30 | No disponible |
+| 45497 | TRITACE | 10 mg comp. x 30 | No disponible |
+| 20465 | TRITACE | 2.5 mg comp. x 30 | No disponible |
+| 47211 | LOSTAPRES | 10 mg comp. x 30 | No disponible |
+| 20467 | TRITACE | 5 mg comp. x 30 | No disponible |
+
+Hay 9 autorizaciones vigentes en total, todas de producto de un solo principio activo; aquí se muestran las 5 principales.
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones / condiciones de precaución según el grafo de conocimiento** (no provienen del texto del prospecto): enfermedad renal, enfermedad hepática, enfermedad de la vesícula biliar, lupus eritematoso sistémico, neutropenia, agranulocitosis, angioedema hereditario, trastornos hipotensivos, enfermedades del tejido conectivo (incluida la esclerodermia y la esclerosis sistémica), enfermedades óseas y del cartílago, y obstrucción de la arteria renal.
+- **Interacciones farmacológicas**: se identificaron 100 interacciones; entre las de mayor gravedad (nivel Mayor) figuran **citrato de potasio** y **bicarbonato de potasio** (riesgo de hiperpotasemia). Entre las de nivel Moderado se encuentran corticoides (hidrocortisona, dexametasona, betametasona, triamcinolona, budesonida), antidiabéticos (metformina, glimepirida, clorpropamida, alogliptina, canagliflozina, dapagliflozina, empagliflozina), ácido acetilsalicílico, morfina, bupropión, dronabinol, ácido picosulfúrico y polietilenglicol con electrolitos.
+
+Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ---
 
@@ -107,14 +113,14 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-A pesar de que el puntaje de predicción TxGNN es muy elevado (99.93%), no existe ningún ensayo clínico registrado que evalúe Ramipril en hipertensión pulmonar Grupo 3, y las 20 publicaciones recuperadas abordan mecanismos generales de hipoxia sin respaldar directamente esta indicación (nivel de evidencia L5). La relación mecanística es plausible pero indirecta, y los tratamientos establecidos para esta condición (antagonistas de endotelina, inhibidores de PDE-5, prostaciclinas) tienen evidencia clínica sólida que Ramipril no posee en este contexto.
+La predicción del modelo es alta (99.93%), pero la evidencia se limita a un estudio preclínico en ratas, sin ensayos clínicos ni datos en humanos, y los inhibidores de la ECA no son un tratamiento establecido para este tipo de hipertensión pulmonar. Además, otras indicaciones predichas (por ejemplo, hipertensión renovascular maligna) son más cercanas a la indicación original, pero tampoco cuentan con evidencia recuperada.
 
 **Para avanzar se necesita:**
-- Obtener datos completos del mecanismo de acción (MOA) de Ramipril desde la API de DrugBank
-- Descargar y analizar el prospecto completo para identificar advertencias, contraindicaciones e interacciones farmacológicas
-- Realizar búsqueda sistemática de estudios observacionales o series de casos que evalúen IECAs en modelos de hipertensión pulmonar hipóxica (EPOC, fibrosis pulmonar)
-- Verificar si Ramipril tiene trámite de registro activo o historial regulatorio ante ANMAT
-- Definir si la hipótesis mecanística justifica un estudio preclínico en modelo animal de hipoxia crónica antes de cualquier avance clínico
+- Datos del mecanismo de acción confirmados (por ejemplo, desde DrugBank).
+- Obtener y analizar el prospecto de ANMAT (advertencias y contraindicaciones oficiales), indispensable antes de cualquier evaluación de seguridad.
+- Estudios preclínicos adicionales en modelos de hipertensión pulmonar por hipoxia y, de ser favorables, estudios exploratorios en humanos.
+- Evaluar la seguridad en pacientes con hipoxia crónica y enfermedad pulmonar (riesgo de hipotensión, hiperpotasemia y deterioro de la función renal).
+- Revisar otras indicaciones predichas con mayor plausibilidad clínica, como la hemorragia intracerebral y la oclusión de arteria cerebral, esta última con una pregunta de investigación abierta.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

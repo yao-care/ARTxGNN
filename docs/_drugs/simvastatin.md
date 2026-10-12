@@ -2,7 +2,7 @@
 layout: default
 title: Simvastatin
 parent: Evidencia Alta (L1-L2)
-nav_order: 174
+nav_order: 228
 evidence_level: L1
 indication_count: 8
 ---
@@ -29,11 +29,12 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **8**
 
 </div>
 
-# Simvastatin: De Hipercolesterolemia a Hipercolesterolemia Familiar
+# Simvastatina: De Hipertrigliceridemia a Hipercolesterolemia Familiar
 
 ## Resumen en Una Frase
 
-Simvastatin es un inhibidor de la HMG-CoA reductasa de la clase estatinas, originalmente utilizado para reducir los niveles de colesterol LDL y el riesgo cardiovascular en pacientes con hipercolesterolemia. El modelo TxGNN predice que podría ser efectivo para la **Hipercolesterolemia Familiar (Familial Hypercholesterolemia)**, con **19 ensayos clínicos** y **18 publicaciones** que actualmente respaldan esta dirección. La evidencia disponible, incluyendo las guías ACC/AHA 2026, confirma que esta predicción es sólida y científicamente consistente con la práctica clínica establecida.
+La simvastatina es una estatina (inhibidor de la HMG-CoA reductasa), utilizada originalmente para el tratamiento de dislipidemias y la prevención de enfermedad cardiovascular y cerebrovascular.
+El modelo TxGNN predice que podría ser efectiva para **hipercolesterolemia familiar**, con **8 ensayos clínicos** y **20 publicaciones** que actualmente respaldan esta dirección. Cabe señalar que esta indicación ya figura entre las indicaciones originales del fármaco (hipercolesterolemia familiar homocigota), por lo que la predicción es concordante con el uso conocido y no constituye un reposicionamiento propiamente dicho.
 
 ---
 
@@ -41,23 +42,23 @@ Simvastatin es un inhibidor de la HMG-CoA reductasa de la clase estatinas, origi
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipercolesterolemia / Reducción del riesgo cardiovascular |
-| Nueva Indicación Predicha | Hipercolesterolemia Familiar (Familial Hypercholesterolemia) |
+| Indicación Original | Hipertrigliceridemia (según el grafo de conocimiento; el texto de indicación aprobado en ANMAT no está disponible) |
+| Nueva Indicación Predicha | Hipercolesterolemia familiar |
 | Puntaje de Predicción TxGNN | 99.63% |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | ✓ Comercializado |
+| Número de Autorizaciones | 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Sin embargo, según la información conocida, simvastatin pertenece a la clase de inhibidores de la HMG-CoA reductasa (estatinas). Su eficacia en la reducción del colesterol LDL ha sido ampliamente comprobada, y mecanísticamente es directamente aplicable a la fisiopatología de la hipercolesterolemia familiar: al inhibir la síntesis hepática de colesterol, simvastatin desencadena una regulación compensatoria al alza de los receptores de LDL (LDLR) en los hepatocitos.
+Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción registrada en la base de datos. Según la información farmacológica conocida, la simvastatina inhibe la HMG-CoA reductasa, reduce la síntesis hepática de colesterol y aumenta la expresión de receptores de LDL, lo que disminuye el colesterol LDL (LDL-C).
 
-La hipercolesterolemia familiar (FH) es un trastorno monogénico hereditario —principalmente asociado a mutaciones en el gen LDLR— que impide la eliminación eficiente del colesterol LDL circulante, acortando la expectativa de vida entre 15 y 30 años si no se trata adecuadamente. Los pacientes con FH heterocigota conservan receptores LDLR residuales con actividad parcial: simvastatin maximiza la función de estos receptores para reducir el LDL-C plasmático. Esta acción farmacológica hace que la predicción del modelo TxGNN tenga una base biológica sólida y directamente trasladable a la clínica.
+La hipercolesterolemia familiar se caracteriza por un defecto en la depuración de LDL (habitualmente variantes en LDLR, APOB o PCSK9). Como la simvastatina actúa justamente sobre la síntesis de colesterol y la captación de LDL, el mecanismo es directamente aplicable. La indicación original del fármaco incluye hiperlipidemias, hipercolesterolemia familiar homocigota y aterosclerosis.
 
-La predicción con un puntaje de 99.63% es además consistente con la evidencia clínica acumulada durante décadas: el tratamiento con estatinas —incluido simvastatin— es reconocido como estándar de atención en FH en las guías internacionales más recientes (ACC/AHA 2026, AACE/ACE 2017), y múltiples ensayos de Fase 3 han evaluado directamente simvastatin en esta población, tanto en monoterapia como en combinación con ezetimibe.
+Es importante matizar que la respuesta es menor en pacientes con mutaciones nulas del receptor de LDL, por lo que a menudo se requiere terapia adicional (ezetimiba, inhibidores de PCSK9). Otras predicciones del modelo (por ejemplo, hipercolesterolemia autosómica dominante) corresponden esencialmente al mismo fenotipo y también son concordantes con el uso ya conocido.
 
 ---
 
@@ -65,16 +66,14 @@ La predicción con un puntaje de 99.63% es además consistente con la evidencia 
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT00552097](https://clinicaltrials.gov/study/NCT00552097) | Fase 3 | Completado | 720 | Ensayo ENHANCE: ezetimibe + simvastatin en dosis alta vs simvastatin solo; evaluación de progresión de aterosclerosis carotídea en HeFH |
-| [NCT03884452](https://clinicaltrials.gov/study/NCT03884452) | Fase 3 | Completado | 50 | Eficacia y seguridad de ezetimibe 10 mg co-administrado con atorvastatin o simvastatin en hipercolesterolemia familiar homocigota (HoFH) |
-| [NCT03885921](https://clinicaltrials.gov/study/NCT03885921) | Fase 3 | Completado | 44 | Seguridad y tolerabilidad a largo plazo (hasta 24 meses) de ezetimibe agregado a atorvastatin o simvastatin en HoFH; extensión abierta del estudio previo |
-| [NCT00129402](https://clinicaltrials.gov/study/NCT00129402) | Fase 3 | Completado | 248 | Ezetimibe en co-administración con simvastatin en adolescentes de 10-17 años con HeFH: eficacia y seguridad en población pediátrica |
-| [NCT02107898](https://clinicaltrials.gov/study/NCT02107898) | Fase 3 | Completado | 216 | Alirocumab como terapia complementaria a estatinas estables (incluyendo simvastatin) en HeFH y pacientes de alto riesgo cardiovascular |
-| [NCT01623115](https://clinicaltrials.gov/study/NCT01623115) | Fase 3 | Completado | 486 | Alirocumab vs placebo en HeFH: evaluación de reducción de LDL-C a 24 semanas; mayor escala del programa con simvastatin como posible terapia de fondo |
-| [NCT01709500](https://clinicaltrials.gov/study/NCT01709500) | Fase 3 | Completado | 249 | Alirocumab vs placebo en HeFH no controlada con terapia modificadora de lípidos; simvastatin como posible comparador o terapia de fondo |
-| [NCT01507831](https://clinicaltrials.gov/study/NCT01507831) | Fase 3 | Completado | 2341 | Alirocumab: seguridad y tolerabilidad a largo plazo en alto riesgo cardiovascular con hiperlipidemia; simvastatin como tratamiento de fondo |
-| [NCT00654446](https://clinicaltrials.gov/study/NCT00654446) | Fase 3 | Completado | 442 | Comparación de efectos renales de rosuvastatina y simvastatin en dislipidemia tipo IIa y IIb, incluyendo HeFH |
-| [NCT00145574](https://clinicaltrials.gov/study/NCT00145574) | Fase 4 | Completado | 194 | Colesevelam en pacientes pediátricos con HeFH en dosis estable de estatina aprobada para pediatría (incluyendo simvastatin) o sin tratamiento previo |
+| [NCT00552097](https://clinicaltrials.gov/study/NCT00552097) | Fase 3 | Completado | 720 | ENHANCE: ezetimiba + simvastatina en dosis alta vs. simvastatina sola sobre la progresión de la aterosclerosis carotídea en hipercolesterolemia familiar heterocigota |
+| [NCT00129402](https://clinicaltrials.gov/study/NCT00129402) | Fase 3 | Completado | 248 | Eficacia y seguridad de ezetimiba coadministrada con simvastatina en adolescentes (10-17 años) con hipercolesterolemia familiar heterocigota |
+| [NCT03884452](https://clinicaltrials.gov/study/NCT03884452) | Fase 3 | Completado | 50 | Ezetimiba 10 mg añadida a atorvastatina o simvastatina en hipercolesterolemia familiar homocigota |
+| [NCT03885921](https://clinicaltrials.gov/study/NCT03885921) | Fase 3 | Completado | 44 | Extensión abierta de seguridad a largo plazo (hasta 24 meses) de ezetimiba con atorvastatina o simvastatina en hipercolesterolemia familiar homocigota |
+| [NCT01709500](https://clinicaltrials.gov/study/NCT01709500) | Fase 3 | Completado | 249 | Alirocumab vs. placebo en hipercolesterolemia familiar heterocigota no controlada con terapia hipolipemiante; el papel de la simvastatina (terapia de base) no puede confirmarse |
+| [NCT00654446](https://clinicaltrials.gov/study/NCT00654446) | Fase 3 | Completado | 442 | Efectos renales de rosuvastatina y simvastatina durante 6 semanas en dislipidemia tipo IIa/IIb, incluida hipercolesterolemia familiar heterocigota |
+| [NCT03510884](https://clinicaltrials.gov/study/NCT03510884) | Fase 3 | Completado | 153 | Alirocumab vs. placebo en niños y adolescentes con hipercolesterolemia familiar heterocigota; simvastatina probablemente como terapia de base |
+| [NCT01890967](https://clinicaltrials.gov/study/NCT01890967) | Fase 2 | Completado | 527 | Estudio de búsqueda de dosis de LY3015014 en hipercolesterolemia primaria; la simvastatina no es el agente en estudio |
 
 ---
 
@@ -82,28 +81,40 @@ La predicción con un puntaje de 99.63% es además consistente con la evidencia 
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [41824552](https://pubmed.ncbi.nlm.nih.gov/41824552/) | 2026 | Guía de Práctica Clínica | Circulation | Guía ACC/AHA 2026 sobre manejo de dislipidemia; reemplaza la guía 2018 e incluye recomendaciones actualizadas sobre estatinas en FH |
-| [31696945](https://pubmed.ncbi.nlm.nih.gov/31696945/) | 2019 | Revisión Sistemática Cochrane | Cochrane Database Syst Rev | Revisión sistemática de estatinas para niños con FH: evaluación de eficacia, seguridad y calidad de la evidencia disponible |
-| [18376000](https://pubmed.ncbi.nlm.nih.gov/18376000/) | 2008 | ECA | N Engl J Med | Simvastatin con o sin ezetimibe en FH (ensayo ENHANCE): efecto sobre progresión de aterosclerosis carotídea evaluada por IMT |
-| [27417002](https://pubmed.ncbi.nlm.nih.gov/27417002/) | 2016 | Estudio Clínico | J Am Coll Cardiol | Estatinas en FH heterocigota: cuantificación de la reducción de eventos de enfermedad coronaria y mortalidad total en la práctica clínica |
-| [15794711](https://pubmed.ncbi.nlm.nih.gov/15794711/) | 2005 | Evaluación Beneficio-Riesgo | Expert Opin Drug Saf | Beneficios y riesgos de simvastatin en FH: análisis integral de seguridad y tolerabilidad a largo plazo para selección de terapia |
-| [21173733](https://pubmed.ncbi.nlm.nih.gov/21173733/) | 2010 | ECA | Int Angiology | Eficacia y seguridad del tratamiento prolongado con ezetimibe/simvastatin en FH; evaluación de reducción de LDL-C y progresión de IMT carotídea |
-| [35629051](https://pubmed.ncbi.nlm.nih.gov/35629051/) | 2022 | Estudio Clínico | J Clin Med | Evaluación del efecto de simvastatin 10 mg sobre parámetros de inmunidad celular innata y adquirida en niños con FH |
-| [12908847](https://pubmed.ncbi.nlm.nih.gov/12908847/) | 2003 | Revisión | Drug Safety | Beneficios y riesgos de simvastatin en FH: perspectiva sobre tolerabilidad crónica y perfil de seguridad |
-| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | Guía de Práctica Clínica | Endocr Pract | Guías AACE/ACE 2017 para manejo de dislipidemia y prevención cardiovascular; incluye recomendaciones de estatinas en FH |
-| [35361995](https://pubmed.ncbi.nlm.nih.gov/35361995/) | 2022 | Estudio Genético | Pharmacogenomics J | Estrategia NGS que combina paneles genéticos de FH con regiones farmacogenómicas para guiar la prescripción de estatinas en práctica clínica |
+| [18376000](https://pubmed.ncbi.nlm.nih.gov/18376000/) | 2008 | ECA | N Engl J Med | Simvastatina con o sin ezetimiba en hipercolesterolemia familiar (ENHANCE), sobre la progresión de la aterosclerosis |
+| [28685504](https://pubmed.ncbi.nlm.nih.gov/28685504/) | 2017 | Revisión sistemática (Cochrane) | Cochrane Database Syst Rev | Estatinas en niños con hipercolesterolemia familiar |
+| [31696945](https://pubmed.ncbi.nlm.nih.gov/31696945/) | 2019 | Revisión sistemática (Cochrane) | Cochrane Database Syst Rev | Actualización de la revisión sobre estatinas en niños con hipercolesterolemia familiar |
+| [12908847](https://pubmed.ncbi.nlm.nih.gov/12908847/) | 2003 | Revisión | Drug Safety | Beneficios y riesgos de la simvastatina en pacientes con hipercolesterolemia familiar |
+| [15794711](https://pubmed.ncbi.nlm.nih.gov/15794711/) | 2005 | Revisión | Expert Opin Drug Saf | Evaluación de beneficios y riesgos de la simvastatina en hipercolesterolemia familiar |
+| [11383320](https://pubmed.ncbi.nlm.nih.gov/11383320/) | 2001 | Estudio comparativo | Nutr Metab Cardiovasc Dis | Atorvastatina vs. simvastatina en hipercolesterolemia familiar heterocigota: eficacia sobre LDL-C y variables de coagulación |
+| [41824590](https://pubmed.ncbi.nlm.nih.gov/41824590/) | 2026 | Guía | J Am Coll Cardiol | Guía ACC/AHA 2026 para el manejo de la dislipidemia, que reemplaza la guía de 2018 |
+| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | Guía | Endocr Pract | Guías AACE/ACE para el manejo de la dislipidemia y la prevención cardiovascular |
+| [35629051](https://pubmed.ncbi.nlm.nih.gov/35629051/) | 2022 | Estudio transversal | J Clin Med | Inmunidad celular innata y adquirida en niños con hipercolesterolemia familiar tratados con simvastatina 10 mg (26 niños) |
+| [1346327](https://pubmed.ncbi.nlm.nih.gov/1346327/) | 1992 | Estudio clínico | Lancet | Simvastatina y lipoproteína(a) |
 
 ---
 
 ## Información de Mercado en Argentina
 
-Simvastatin no cuenta con autorizaciones de comercialización registradas ante ANMAT según los datos disponibles. No se recuperaron fichas de producto ni registros sanitarios activos para este fármaco en Argentina, lo que implica que cualquier uso clínico requeriría previamente la aprobación regulatoria correspondiente.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 40944 | COLEFLUX | 80 mg comprimidos recubiertos x 30 | No disponible |
+| 14602 | REDUSTEROL | 20 mg comprimidos x 30 | No disponible |
+| 20850 | LISAC | 10 mg comprimidos recubiertos x 30 | No disponible |
+| 33230 | TANAVAT | 20 mg comprimidos x 30 | No disponible |
+| 18182 | ZOCOR | 20 mg comprimidos x 30 | No disponible |
+
+Se muestran 5 de las 20 autorizaciones vigentes (todas de monofármaco, ninguna cancelada).
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento** (no provienen del prospecto): enfermedad hepática, pancreatitis, enfermedad de la vesícula biliar, miopatía y enfermedades musculares, rabdomiólisis, trombocitopenia, hiperglucemia, diabetes mellitus y cetoacidosis diabética, gota, úlcera péptica, hipotensión, trastornos de la coagulación, síndrome coronario agudo, infarto de miocardio, hipofosfatemia, hemoglobinopatía y abuso de sustancias, entre otras.
+- **Interacciones farmacológicas**: se identificaron 100 interacciones en total. Entre las de nivel **mayor** destacan **amiodarona**, **amlodipino** y **fenofibrato**. Entre las de nivel moderado figuran zidovudina, paclitaxel, nifedipino, omeprazol, aprepitant y etanol, entre otras.
+- **Interacción con antirretrovirales**: los inhibidores de proteasa y el cobicistat elevan la exposición a simvastatina (inhibición de CYP3A4) y aumentan el riesgo de miopatía y rabdomiólisis; las guías suelen aconsejar evitar la simvastatina con inhibidores de proteasa potenciados.
+
+Las advertencias y contraindicaciones del prospecto de ANMAT no pudieron obtenerse; consultar el prospecto para información de seguridad completa.
 
 ---
 
@@ -112,14 +123,19 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Múltiples ensayos clínicos de Fase 3 completados —incluyendo el emblemático ensayo ENHANCE (N=720)— y las guías internacionales más recientes (ACC/AHA 2026) respaldan con solidez el uso de simvastatin en hipercolesterolemia familiar, confirmando la predicción del modelo TxGNN. El principal obstáculo para el avance en Argentina es la ausencia de autorización de comercialización ante ANMAT, no la fortaleza de la evidencia clínica.
+Existen múltiples ensayos de Fase 3 completados (como ENHANCE y el estudio en adolescentes con ezetimiba + simvastatina) y abundante literatura, incluidas revisiones Cochrane y guías clínicas, que respaldan el uso de simvastatina en hipercolesterolemia familiar. La indicación es concordante con el uso ya conocido, por lo que se trata más de una confirmación que de un reposicionamiento. Se recomienda proceder con salvaguardas por las interacciones relevantes y el riesgo muscular y hepático.
 
 **Para avanzar se necesita:**
-- Obtener el mecanismo de acción detallado (MOA) desde DrugBank para completar el análisis farmacológico formal del expediente
-- Recuperar el prospecto oficial (ANMAT o referencia FDA/EMA) para documentar advertencias específicas, contraindicaciones e interacciones farmacológicas relevantes (especialmente con inhibidores potentes de CYP3A4: itraconazol, ketoconazol, inhibidores de proteasa del VIH, ciclosporina)
-- Iniciar el proceso de registro ante ANMAT para obtener autorización de comercialización en Argentina
-- Definir un plan de monitoreo de seguridad para poblaciones especiales: pediatría (≥10 años con FH), pacientes con insuficiencia hepática y adultos mayores
-- Establecer guardrails farmacológicos explícitos relativos a la miopatía/rabdomiólisis inducida por estatinas, dado que simvastatin es metabolizado por CYP3A4 y presenta mayor riesgo de interacciones que otras estatinas de la clase
+- Obtener y analizar el prospecto de ANMAT (advertencias, contraindicaciones y texto de indicación aprobado de las autorizaciones)
+- Completar los datos del mecanismo de acción desde DrugBank
+- Definir un plan de monitoreo de seguridad (función hepática, síntomas musculares/CK) y gestión de interacciones (amiodarona, amlodipino, fenofibrato, inhibidores de proteasa)
+- Aclarar el papel de la simvastatina (terapia de base vs. brazo en estudio) en los ensayos con relevancia incierta
+
+**Otras predicciones del modelo (no recomendadas por ahora):**
+- Hipercolesterolemia autosómica dominante (L1, Proceed with Guardrails): esencialmente el mismo fenotipo que el de la hipercolesterolemia familiar heterocigota.
+- HIV (L3, pregunta de investigación): la evidencia trata sobre dislipidemia asociada a HIV e interacciones farmacológicas, no sobre un efecto de la simvastatina contra el virus; un estudio piloto no mostró actividad anti-HIV.
+- Infarto de tronco encefálico (L4, Hold): la única publicación recuperada es un estudio preclínico de otra intervención.
+- Deficiencia de proteína de transferencia de ésteres de colesterilo, hipercolesterolemia por deficiencia de colesterol 7α-hidroxilasa, amiloidosis ABri y trastorno del neurodesarrollo con marcha atáxica (L5, Hold): solo predicción computacional, sin ensayos ni literatura.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

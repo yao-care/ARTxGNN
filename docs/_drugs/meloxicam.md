@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Meloxicam
-parent: Solo Predicción del Modelo (L5)
-nav_order: 149
-evidence_level: L5
+parent: Evidencia Moderada (L3-L4)
+nav_order: 185
+evidence_level: L4
 indication_count: 10
 ---
 
 # Meloxicam
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,78 +29,80 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Meloxicam: De Artritis Reumatoide a Displasia Acromesomélica Tipo Hunter-Thompson
+# Meloxicam: De Artritis Reumatoide a Artritis Idiopática Juvenil Poliarticular con Factor Reumatoide Positivo
 
 ## Resumen en Una Frase
 
-Meloxicam es un antiinflamatorio no esteroideo (AINE) con preferencia selectiva por COX-2, ampliamente utilizado a nivel mundial para el tratamiento del dolor musculoesquelético, osteoartritis, artritis reumatoide y espondilitis anquilosante. El modelo TxGNN predice que podría ser efectivo para **Displasia Acromesomélica Tipo Hunter-Thompson**, sin embargo, actualmente no existen **ensayos clínicos ni publicaciones científicas** que respalden directamente esta dirección de reposicionamiento.
+Meloxicam es un antiinflamatorio no esteroideo (AINE) preferencialmente inhibidor de la COX-2, originalmente utilizado para la artritis reumatoide, la artrosis y otras enfermedades articulares inflamatorias.
+El modelo TxGNN predice que podría ser efectivo para la **artritis idiopática juvenil poliarticular con factor reumatoide positivo** (puntaje de 99.44 %), pero la evidencia es muy limitada: **0 ensayos clínicos** y **1 publicación** indirecta sobre seguridad de AINE en artritis idiopática juvenil.
+Cabe señalar que esta predicción es en gran medida una extensión de un uso ya aceptado y no un reposicionamiento genuinamente nuevo.
 
----
+> **Nota sobre la selección de la indicación:** la predicción con mayor puntaje del modelo (rank 1) es la displasia acromesomélica tipo Hunter-Thompson (99.92 %), pero no cuenta con ninguna evidencia ni con un vínculo mecanístico plausible. Por ello, este informe se centra en la predicción con el único respaldo bibliográfico disponible (rank 8) y resume las demás en la sección de conclusiones.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Artritis reumatoide y osteoartritis (aprobación global reconocida; sin registro en Argentina según datos consultados) |
-| Nueva Indicación Predicha | Displasia Acromesomélica Tipo Hunter-Thompson |
-| Puntaje de Predicción TxGNN | 99.92% |
-| Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Indicación Original | Artritis reumatoide (según el grafo de conocimiento; los textos de indicación aprobados por ANMAT no están disponibles) |
+| Nueva Indicación Predicha | Artritis idiopática juvenil poliarticular con factor reumatoide positivo |
+| Puntaje de Predicción TxGNN | 99.44 % |
+| Nivel de Evidencia | L4 |
+| Estado de Mercado en Argentina | ✓ Comercializado |
+| Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por qué es Razonable esta Predicción?
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, meloxicam es un AINE con inhibición preferencial de la COX-2, que reduce la síntesis de prostaglandinas responsables de la inflamación y el dolor articular.
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos consultada. Sin embargo, Meloxicam es un inhibidor preferencial de la ciclooxigenasa-2 (COX-2) perteneciente a la clase de los AINEs. Su mecanismo central consiste en reducir la síntesis de prostaglandinas proinflamatorias, lo que se traduce en efectos analgésicos y antiinflamatorios ampliamente documentados en múltiples contextos clínicos, especialmente enfermedades articulares inflamatorias.
+La artritis reumatoide y la artritis idiopática juvenil (AIJ) son enfermedades articulares inflamatorias crónicas con vías inflamatorias compartidas. Además, la AIJ (incluido su curso poliarticular) figura ya entre las indicaciones originales de meloxicam según el grafo de conocimiento. Por lo tanto, el subtipo con factor reumatoide positivo cae dentro de la familia de indicaciones existente y la predicción es mecanísticamente coherente.
 
-La displasia acromesomélica tipo Hunter-Thompson es una enfermedad ósea hereditaria causada por mutaciones en el gen **GDF5**, que compromete el desarrollo normal del cartílago y produce acortamiento característico de los segmentos distales de las extremidades. Se trata de una condición de origen genético-estructural, cuya fisiopatología principal no es la inflamación crónica mediada por prostaglandinas. En este contexto, Meloxicam no tiene capacidad de modificar la progresión de la enfermedad ni de corregir el defecto molecular subyacente.
-
-La inhibición de COX-2 podría teóricamente ofrecer alivio sintomático del dolor en pacientes con esta displasia, pero este beneficio sería estrictamente paliativo. El alto puntaje TxGNN (99.92%) probablemente refleja una co-ocurrencia estructural en el grafo de conocimiento entre el nodo "enfermedades óseas/musculoesqueléticas" y la clase "AINEs", más que una predicción sustentada en mecanismos biológicos específicos de esta enfermedad.
-
----
+Conviene ser prudente: el control sintomático que ofrecen los AINE no equivale a modificar el curso de la enfermedad, y no hay datos específicos de eficacia para este subtipo.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para Meloxicam en displasia acromesomélica tipo Hunter-Thompson.
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible para Meloxicam en displasia acromesomélica tipo Hunter-Thompson.
-
----
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [25057265](https://pubmed.ncbi.nlm.nih.gov/25057265/) | 2014 | Estudio de cohorte/seguridad (inferido del título, no verificado) | Pediatric Rheumatology Online Journal | Registro de fase 4 que evalúa la seguridad a largo plazo y datos de desarrollo de celecoxib y AINE no selectivos en pacientes con AIJ. Evidencia indirecta: no es específica de meloxicam ni de este subtipo. |
 
 ## Información de Mercado en Argentina
 
-Meloxicam no cuenta con autorizaciones de comercialización registradas en la base de datos consultada para Argentina (0 registros encontrados).
+Meloxicam está comercializado en Argentina con 20 autorizaciones vigentes, todas de monofármaco (ninguna cancelada). Los textos de indicación aprobada no estaban disponibles en los datos compilados. Se muestran las 5 primeras:
 
-> **Nota importante:** Meloxicam es un medicamento ampliamente comercializado a nivel internacional bajo nombres comerciales como *Mobic*, *Movalis* y *Melox*, con aprobación en numerosos países para artritis reumatoide, osteoartritis y espondilitis anquilosante. La ausencia de registro en esta consulta puede reflejar una limitación de la fuente de datos local, y no implica que el fármaco sea desconocido o sin historial clínico.
-
----
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+|---------|------|------|-----------|
+| 53872 | FLEXIDOL CB | 15 mg cápsulas blandas x 20 | Adium |
+| 54324 | MELOXICAM TEVA | 15 mg tabletas x 30 | Teva Argentina |
+| 38348 | MIOLOX | 15 mg comprimidos ranurados x 30 | Baliarda |
+| 18518 | FLEXIDOL | 15 mg comprimidos ranurados x 30 | Adium |
+| 19079 | MOBIC | 15 mg comprimidos x 20 | Boehringer Ingelheim |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento** (no provienen del prospecto): hipertensión, insuficiencia cardíaca congestiva, enfermedad cardiovascular y cardiopatía, infarto de miocardio, enfermedad cerebrovascular y accidente cerebrovascular, enfermedad renal y deterioro de la función renal, úlcera péptica activa, gastritis, trastornos de la coagulación, anemia, diabetes mellitus y cetoacidosis diabética, hiperlipidemia, hemoglobinopatía y abuso/dependencia de sustancias.
+- **Interacciones farmacológicas** (se identificaron 100 en total; se listan algunas de las principales, en su mayoría de nivel moderado): corticosteroides (hidrocortisona, dexametasona, betametasona, triamcinolona, budesonida), ácido acetilsalicílico, metformina, sulfonilureas (clorpropamida, glimepirida), mesalazina, balsalazida, aprepitant, vancomicina, kanamicina, sales de potasio (citrato y bicarbonato) y laxantes osmóticos (picosulfato, sulfato de sodio, polietilenglicol). Linaclotida presenta una interacción de nivel menor.
 
----
+Consultar el prospecto para las advertencias y contraindicaciones oficiales, que no estaban disponibles en los datos compilados.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La displasia acromesomélica tipo Hunter-Thompson es una enfermedad genética estructural sin mecanismo farmacológico plausible para Meloxicam más allá del manejo sintomático del dolor. No existe ningún ensayo clínico ni publicación científica que respalde este uso, y el alto puntaje TxGNN parece originarse en la generalización del modelo hacia el grupo amplio de enfermedades óseas, no en evidencia biológica específica de esta entidad.
+La predicción se apoya en una única publicación indirecta sobre seguridad de AINE en AIJ, sin ensayos clínicos propios, y representa en gran parte una extensión de una indicación ya cubierta y no una oportunidad de reposicionamiento novedosa. Además, falta la información oficial de seguridad del prospecto, lo que impide avanzar a una evaluación de seguridad completa.
+
+Las otras nueve predicciones principales (displasia acromesomélica Hunter-Thompson, síndrome braquiolmia-amelogénesis imperfecta, miosclerosis, braquiolmia, pseudoacondroplasia, susceptibilidad a espondiloartropatía, nodulosis reumatoide, síndrome WHIM y síndrome de microftalmia colobomatosa-displasia rizomélica) tampoco cuentan con evidencia (nivel L5, Hold). En la mayoría no se identifica un vínculo mecanístico plausible y el puntaje parece reflejar la proximidad en el grafo de conocimiento. En pseudoacondroplasia, nodulosis reumatoide y espondiloartropatía solo cabe un posible beneficio sintomático.
 
 **Para avanzar se necesita:**
-- Confirmar el mecanismo de acción (MOA) completo de Meloxicam mediante consulta a la API de DrugBank (DG002 pendiente)
-- Obtener información de seguridad, advertencias y contraindicaciones del prospecto oficial (DG001 pendiente)
-- Registrar autorizaciones ANMAT si existen, para completar el perfil regulatorio local
-- Considerar priorizar indicaciones alternativas con mayor plausibilidad mecanística identificadas en este mismo análisis:
-  - **Rank 6 — Espondiloartropatía** (L4): Meloxicam es tratamiento de primera línea según guías ASAS/EULAR; la ausencia de evidencia en esta base de datos se atribuye a un déficit de cobertura documental, no a ausencia de evidencia clínica real
-  - **Rank 8 — Artritis Idiopática Juvenil Poliarticular RF+** (L4): existe 1 publicación de seguridad (PMID: [25057265](https://pubmed.ncbi.nlm.nih.gov/25057265/)) y uso clínico establecido en Europa
+- Obtener del prospecto de ANMAT las advertencias, contraindicaciones y textos de indicación aprobados.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Revisar la literatura específica de meloxicam en AIJ poliarticular con factor reumatoide positivo (eficacia y seguridad pediátrica).
+- Verificar el tipo de estudio de la publicación identificada (clasificación solo inferida del título).
+- Definir un plan de monitoreo de seguridad cardiovascular, gastrointestinal y renal para poblaciones específicas, en particular la pediátrica.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

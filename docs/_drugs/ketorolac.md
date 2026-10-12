@@ -2,7 +2,7 @@
 layout: default
 title: Ketorolac
 parent: Evidencia Alta (L1-L2)
-nav_order: 138
+nav_order: 171
 evidence_level: L1
 indication_count: 3
 ---
@@ -29,103 +29,108 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **3**
 
 </div>
 
-# Ketorolac: De Analgesia Aguda a Trastorno de Cefalea
+# Ketorolaco: De Conjuntivitis Atópica a Trastorno de Cefalea
 
 ## Resumen en Una Frase
 
-Ketorolac es un antiinflamatorio no esteroideo (AINE) no selectivo que inhibe las enzimas COX-1 y COX-2, utilizado ampliamente para el manejo del dolor agudo de moderado a severo en entornos hospitalarios y de urgencias.
-El modelo TxGNN predice que podría ser efectivo para el **Trastorno de Cefalea** (incluyendo migraña aguda y cefalea tensional),
-con **múltiples ensayos clínicos completados** y **19 publicaciones científicas** que actualmente respaldan esta dirección con un nivel de evidencia L1.
-
----
+Ketorolaco es un antiinflamatorio no esteroideo (AINE) que, según la base de conocimiento utilizada por el modelo, se asocia originalmente con conjuntivitis atópica, papilar y primaveral (vernal).
+El modelo TxGNN predice que podría ser efectivo para el **trastorno de cefalea** (incluida la migraña), con **18 ensayos clínicos** y **18 publicaciones** que actualmente respaldan esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Dolor agudo (AINE sistémico, uso parenteral/nasal) |
-| Nueva Indicación Predicha | Trastorno de Cefalea (headache disorder) |
+| Indicación Original | Conjuntivitis atópica, papilar y primaveral (según la base de conocimiento; los registros de ANMAT no incluyen texto de indicación) |
+| Nueva Indicación Predicha | Trastorno de cefalea (headache disorder) |
 | Puntaje de Predicción TxGNN | 99.43% |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en Argentina | ✗ No Comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | ✓ Comercializado |
+| Número de Autorizaciones | 20 |
 | Decisión Recomendada | Proceed with Guardrails |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Ketorolac es un inhibidor no selectivo de las enzimas COX-1 y COX-2, que bloquea la conversión del ácido araquidónico en prostaglandinas —particularmente PGE₂— reduciendo así la neuroinflamación periférica. Si bien los datos formales de mecanismo de acción no están disponibles en el sistema regulatorio argentino (el fármaco no tiene autorizaciones locales), la justificación mecanística está bien documentada en la literatura: en la fisiopatología de la migraña, la PGE₂ promueve la sensibilización de las terminaciones nerviosas del sistema trigémino-vascular y facilita la sensibilización central, cadena que Ketorolac interrumpe directamente.
+Ketorolaco es un inhibidor no selectivo de COX-1/COX-2 que reduce la síntesis de prostaglandinas. Los datos compilados no incluyen el mecanismo de acción oficial, por lo que esta descripción se infiere de la farmacología conocida de la clase AINE.
 
-La relación entre el uso analgésico original y el trastorno de cefalea es mecánicamente directa y no especulativa. La migraña y la cefalea tensional comparten un componente inflamatorio mediado por prostaglandinas que constituye el blanco farmacológico primario de los AINEs. Las formulaciones sistémicas (IV, IM) y nasal (spray intransal) de Ketorolac alcanzan concentraciones terapéuticas que inhiben la síntesis de PGE₂ tanto a nivel central como periférico, lo que es altamente compatible con la fisiopatología de los trastornos de cefalea primaria.
+Las prostaglandinas participan en la inflamación neurogénica, la sensibilización trigeminovascular y la señalización del dolor en la migraña y la cefalea tensional. Por ello, un efecto analgésico y antiinflamatorio es mecanísticamente plausible. Las indicaciones oculares originales (conjuntivitis alérgica) comparten la misma vía de prostaglandinas mediada por COX.
 
-Más allá del mecanismo, la evidencia clínica ya ha validado esta indicación en la práctica: las Guías de la American Headache Society (2015, 2026) y la Canadian Headache Society (2015) reconocen a Ketorolac como una opción terapéutica establecida para el manejo agudo de la migraña en servicios de urgencias. Múltiples ensayos de Fase 2, 3 y 4 completados —en adultos y población pediátrica— y metaanálisis actualizados confirman su eficacia. La predicción de TxGNN (99.43%) refleja fielmente una indicación que ya cuenta con respaldo clínico robusto.
-
----
+Cabe destacar que ketorolaco sistémico (inyectable, oral y sublingual) ya se emplea ampliamente en el manejo del dolor agudo, y los ensayos disponibles lo evalúan en migraña y cefalea tensional en servicios de urgencias.
 
 ## Evidencia de Ensayos Clínicos
 
+Se muestran los 10 ensayos más relevantes (de 18 registrados para esta indicación). Varios combinan ketorolaco con otros fármacos, lo que limita la atribución del efecto.
+
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT01807234](https://clinicaltrials.gov/study/NCT01807234) | Fase 4 | Completado | 72 | Comparación directa de Ketorolac nasal vs Sumatriptán nasal vs placebo para el tratamiento abortivo agudo de la migraña, incluyendo náuseas y alodinia |
-| [NCT00483717](https://clinicaltrials.gov/study/NCT00483717) | Fase 2 | Completado | 173 | Ensayo doble ciego randomizado controlado con placebo que evalúa seguridad, tolerabilidad y eficacia analgésica de Ketorolac intranasal para migraña aguda |
-| [NCT02358681](https://clinicaltrials.gov/study/NCT02358681) | Fase 3 | Completado | 59 | Ensayo de no inferioridad: Ketorolac intranasal vs intravenoso en migraña pediátrica; la vía nasal ofrece administración sin punción venosa |
-| [NCT01267864](https://clinicaltrials.gov/study/NCT01267864) | Fase 4 | Completado | 330 | Comparación aleatorizada de valproato IV, metoclopramida IV y Ketorolac IV para migraña aguda en urgencias |
-| [NCT01011673](https://clinicaltrials.gov/study/NCT01011673) | Fase 4 | Completado | 123 | Metoclopramida/difenhidramina vs Ketorolac en monoterapia para cefalea tensional aguda en urgencias |
-| [NCT01596166](https://clinicaltrials.gov/study/NCT01596166) | Fase 4 | Completado | 56 | Evaluación de la terapia combinada de Ketorolac IV + metoclopramida para migraña pediátrica en urgencias |
-| [NCT05641363](https://clinicaltrials.gov/study/NCT05641363) | Fase 3 | Completado | 171 | Comparación de tres dosis de Ketorolac en niños con dolor agudo; proporciona datos de seguridad por rango de dosis en pediatría |
-| [NCT05102591](https://clinicaltrials.gov/study/NCT05102591) | Fase 3 | Completado | 22 | Dispositivo de neuromodulación vs Ketorolac (control estándar) en ataques agudos de migraña pediátrica en urgencias; confirma el rol de Ketorolac como estándar de referencia |
-| [NCT03081416](https://clinicaltrials.gov/study/NCT03081416) | Fase 3 | Completado | 80 | Ketamina intranasal vs terapia estándar (incluye Ketorolac) para cefalea primaria aguda en urgencias |
-| [NCT03221569](https://clinicaltrials.gov/study/NCT03221569) | Fase 4 | Desconocido | 60 | Ketamina subdisociativa vs Ketorolac para cefalea tensional aguda en urgencias; evalúa NRS como desenlace primario |
-
----
+| [NCT00483717](https://clinicaltrials.gov/study/NCT00483717) | Fase 2 | Completado | 173 | Ketorolaco intranasal vs. placebo (doble ciego) para el tratamiento agudo de migraña |
+| [NCT01807234](https://clinicaltrials.gov/study/NCT01807234) | Fase 4 | Completado | 72 | Spray nasal de ketorolaco vs. sumatriptán nasal vs. placebo en migraña aguda |
+| [NCT01011673](https://clinicaltrials.gov/study/NCT01011673) | Fase 4 | Completado | 123 | ECA de metoclopramida/difenhidramina vs. ketorolaco solo en cefalea tensional |
+| [NCT01267864](https://clinicaltrials.gov/study/NCT01267864) | Fase 4 | Completado | 330 | Valproato IV vs. metoclopramida IV vs. ketorolaco IV en migraña aguda |
+| [NCT02358681](https://clinicaltrials.gov/study/NCT02358681) | Fase 3 | Completado | 59 | Ketorolaco intranasal vs. intravenoso (no inferioridad) en migraña pediátrica |
+| [NCT01596166](https://clinicaltrials.gov/study/NCT01596166) | Fase 4 | Completado | 56 | Ketorolaco IV más metoclopramida en migraña pediátrica en urgencias |
+| [NCT05641363](https://clinicaltrials.gov/study/NCT05641363) | Fase 3 | Completado | 171 | Comparación de tres dosis de ketorolaco en dolor agudo en niños |
+| [NCT03221569](https://clinicaltrials.gov/study/NCT03221569) | Fase 4 | Desconocido | 60 | Ketamina vs. ketorolaco en cefalea tensional aguda |
+| [NCT06083571](https://clinicaltrials.gov/study/NCT06083571) | Fase 2 | Terminado | 41 | Cóctel nasal con ketorolaco vs. ketorolaco IV en migraña pediátrica |
+| [NCT03081416](https://clinicaltrials.gov/study/NCT03081416) | Fase 3 | Completado | 80 | Ketamina intranasal vs. tratamiento estándar en cefaleas primarias en urgencias |
 
 ## Evidencia de Literatura
 
+Se muestran las 10 publicaciones más relevantes (de 18), priorizando guías, revisiones sistemáticas y ECA.
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [41321235](https://pubmed.ncbi.nlm.nih.gov/41321235/) | 2026 | Guía Clínica | Headache | Actualización 2025 de la American Headache Society sobre farmacoterapias parenterales para migraña en urgencias; incluye evaluación actualizada de Ketorolac |
-| [39674934](https://pubmed.ncbi.nlm.nih.gov/39674934/) | 2025 | Revisión Sistemática / Metaanálisis | Annals of Emergency Medicine | Revisión sistemática con metaanálisis bayesiano en red sobre eficacia y seguridad de terapias farmacológicas para migraña en urgencias en adultos |
-| [35138658](https://pubmed.ncbi.nlm.nih.gov/35138658/) | 2022 | Revisión Sistemática / Metaanálisis | Academic Emergency Medicine | Metaanálisis específico sobre la eficacia de Ketorolac parenteral en el tratamiento del ataque agudo de migraña |
-| [37849443](https://pubmed.ncbi.nlm.nih.gov/37849443/) | 2024 | Revisión Sistemática | Advances in Clinical and Experimental Medicine | Revisión sistemática actualizada que compara Ketorolac IV vs metoclopramida para migraña en adultos |
-| [35670115](https://pubmed.ncbi.nlm.nih.gov/35670115/) | 2022 | ECA | Headache | ECA que evalúa monoterapia con metoclopramida IV vs combinación con Ketorolac IV en migraña pediátrica aguda en urgencias |
-| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Guía Clínica | Headache | Evaluación de evidencia de la American Headache Society para farmacoterapias agudas de migraña; reconoce a Ketorolac como opción evidenciada |
-| [1514724](https://pubmed.ncbi.nlm.nih.gov/1514724/) | 1992 | ECA | Annals of Emergency Medicine | Ensayo prospectivo doble ciego: Ketorolac IM vs meperidina + hidroxizina para migraña aguda; estudio fundacional de la indicación |
-| [30783794](https://pubmed.ncbi.nlm.nih.gov/30783794/) | 2019 | Estudio Comparativo | Neurological Sciences | ECA doble ciego que compara dexametasona, metoclopramida, Ketorolac y clorpromazina IV para alivio del dolor y prevención de recurrencia en migraña |
-| [37291500](https://pubmed.ncbi.nlm.nih.gov/37291500/) | 2023 | Metaanálisis en Red | BMC Neurology | Metaanálisis en red de ECAs que compara metoclopramida vs otros fármacos antimigrañosos, incluyendo Ketorolac como comparador activo |
-| [24875925](https://pubmed.ncbi.nlm.nih.gov/24875925/) | 2015 | Revisión Sistemática | Cephalalgia | Revisión sistemática y recomendaciones de la Canadian Headache Society para el tratamiento del dolor en migraña en urgencias |
-
----
+| [35138658](https://pubmed.ncbi.nlm.nih.gov/35138658/) | 2022 | Revisión sistemática/Metaanálisis | Acad Emerg Med | Eficacia del ketorolaco parenteral en el ataque agudo de migraña |
+| [23298250](https://pubmed.ncbi.nlm.nih.gov/23298250/) | 2013 | Revisión sistemática | Headache | Efectividad del ketorolaco parenteral en migraña aguda; evidencia con resultados en conflicto |
+| [37849443](https://pubmed.ncbi.nlm.nih.gov/37849443/) | 2024 | Revisión sistemática/Metaanálisis | Adv Clin Exp Med | Ketorolaco IV vs. metoclopramida IV en adultos con migraña |
+| [41321235](https://pubmed.ncbi.nlm.nih.gov/41321235/) | 2026 | Guía | Headache | Actualización 2025 de la guía de la AHS sobre farmacoterapia parenteral de la migraña en urgencias |
+| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Guía/Evaluación de evidencia | Headache | Evaluación de la AHS de farmacoterapias para migraña aguda |
+| [24433525](https://pubmed.ncbi.nlm.nih.gov/24433525/) | 2014 | Revisión sistemática | Headache | Tratamiento parenteral de la cefalea tensional episódica |
+| [34822214](https://pubmed.ncbi.nlm.nih.gov/34822214/) | 2022 | ECA | Acad Emerg Med | Ketorolaco intranasal vs. IV en migraña pediátrica |
+| [35670115](https://pubmed.ncbi.nlm.nih.gov/35670115/) | 2022 | ECA | Headache | Metoclopramida con o sin ketorolaco en migraña pediátrica en urgencias |
+| [30783794](https://pubmed.ncbi.nlm.nih.gov/30783794/) | 2019 | ECA | Neurol Sci | Comparación IV de dexametasona, metoclopramida, ketorolaco y clorpromazina en migraña |
+| [1514724](https://pubmed.ncbi.nlm.nih.gov/1514724/) | 1992 | ECA | Ann Emerg Med | Ketorolaco IM vs. meperidina e hidroxizina en migraña aguda |
 
 ## Información de Mercado en Argentina
 
-Ketorolac **no cuenta con autorizaciones de comercialización registradas** en Argentina (ANMAT) según los datos disponibles en el Evidence Pack. No es posible listar productos aprobados localmente.
+Se muestran 5 de las 20 autorizaciones vigentes (todas de monofármaco). Los registros no incluyen texto de indicación aprobada.
 
-> Este hallazgo no implica que el fármaco sea ineficaz o inseguro, sino que no ha sido registrado formalmente en el mercado argentino en los datos consultados. Globalmente, Ketorolac es un fármaco aprobado por la FDA (EE.UU.), la EMA (Europa) y múltiples agencias regulatorias bajo marcas como Toradol®, y es ampliamente utilizado en entornos hospitalarios a nivel mundial.
-
----
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 9606 | DOLTEN (Pfizer) | 30 mg inyectable x 5 x 2 ml | — |
+| 9605 | DOLTEN (Pfizer) | 10 mg comprimidos x 10 | — |
+| 40045 | TELEDOL (Casasco) | 30 mg ampollas x 3 x 2 ml | — |
+| 47042 | DORIXINA FORTE NF (Roemmers) | 20 mg comprimidos recubiertos x 10 | — |
+| 14099 | POENKERAT (Poen) | 0.5% colirio x 5 ml | — |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según la base de conocimiento** (no provienen del prospecto): enfermedad ulcerosa péptica activa, úlcera gástrica, enfermedad inflamatoria intestinal, trastornos de la coagulación y hemofilia, accidente cerebrovascular e infarto cerebral, infarto de miocardio y enfermedad cardiovascular, hipertensión, insuficiencia renal, enfermedad hepática, asma, diabetes mellitus (incluida cetoacidosis diabética), anemia y hemoglobinopatías, artritis reumatoide y síndrome de ojo seco.
+- **Interacciones farmacológicas** (100 registradas; se destacan las principales):
+  - **Mayor:** ácido acetilsalicílico.
+  - **Moderadas:** corticoides (betametasona, budesonida, dexametasona, hidrocortisona), antidiabéticos (acetohexamida, clorpropamida, glimepirida, glipizida, glibenclamida, exenatida), balsalazida, kanamicina, levofloxacino, fenfluramina y dexfenfluramina.
+  - **Menores:** famotidina, ranitidina, cimetidina, linaclotida.
+- **Litio:** la literatura reporta un caso de neurotoxicidad por litio inducida por ketorolaco (PMID 7928331), señal relevante en pacientes que reciben litio.
+- **Riesgos de clase AINE:** sangrado gastrointestinal, daño renal y eventos cardiovasculares; el ketorolaco sistémico requiere tratamientos de corta duración.
 
-> **Nota de interés clínico identificada en la literatura**: Un reporte de caso (PMID [7928331](https://pubmed.ncbi.nlm.nih.gov/7928331/)) documentó toxicidad por litio inducida por Ketorolac en un paciente con cefalea en racimos tratado con litio. Aunque la interacción AINE–litio es conocida para la clase, este caso específico con Ketorolac debe tenerse en cuenta al evaluar pacientes con TAC que reciben litio como profilaxis.
-
----
+Las advertencias del prospecto de ANMAT no estuvieron disponibles; es necesario consultarlo.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-La predicción de TxGNN (99.43%) está respaldada por un nivel de evidencia L1: múltiples ensayos clínicos de Fase 3/4 completados, dos guías clínicas de sociedades de cefalea de primer nivel (AHS 2015/2026, CHS 2015) y al menos dos metaanálisis recientes confirman la eficacia de Ketorolac para la migraña aguda y la cefalea tensional en urgencias, tanto en adultos como en población pediátrica. La base mecanística (inhibición COX/PGE₂ en el sistema trigémino-vascular) es sólida y directamente alineada con la fisiopatología de los trastornos de cefalea. La única barrera significativa es la ausencia de autorización regulatoria local en Argentina.
+Existen múltiples ensayos de Fases 2 a 4 completados y varias revisiones sistemáticas, metaanálisis y guías que evalúan ketorolaco en migraña y cefalea tensional, con el respaldo de un mecanismo plausible (inhibición de COX). Sin embargo, parte de la evidencia usa combinaciones, y la seguridad de clase AINE exige restricciones.
 
 **Para avanzar se necesita:**
-- Iniciar proceso de registro ante ANMAT con respaldo de evidencia de Fase 3/4 ya disponible
-- Obtener y analizar el prospecto formal (MOA, advertencias y contraindicaciones) para completar la evaluación de seguridad de Nivel S1
-- Definir la población objetivo prioritaria (adultos en urgencias vs. uso pediátrico) y la vía de administración preferida (IV/IM vs. intranasal)
-- Evaluar interacciones farmacológicas relevantes para la práctica clínica argentina (especialmente con litio en contexto de TAC, y con anticoagulantes dado el perfil AINE)
-- Revisar si existen productos con Ketorolac registrados en países limítrofes (p. ej., Chile, Brasil) que puedan agilizar el expediente regulatorio por reconocimiento mutuo
+- Obtener y analizar el prospecto de ANMAT (advertencias y contraindicaciones oficiales), actualmente un vacío bloqueante para el cribado de seguridad.
+- Confirmar el mecanismo de acción en DrugBank.
+- Verificar la indicación aprobada en Argentina para cefalea/migraña, ya que los registros no incluyen texto de indicación.
+- Definir límites de duración y dosis, y criterios de exclusión (úlcera, insuficiencia renal, riesgo cardiovascular, uso de litio o aspirina).
+- Evaluar la compatibilidad de vías de administración (intranasal vs. IV/IM/oral) con los productos comercializados.
+
+**Otras indicaciones predichas (no priorizadas):**
+- *Conjuntivitis rosácea* (TxGNN 99.40%): sin ensayos ni literatura, solo predicción del modelo (L5). Decisión: **Hold**.
+- *Cefalea trigémino-autonómica* (TxGNN 99.39%): único ensayo retirado sin participantes y literatura limitada (L4), con una señal de seguridad por interacción con litio. Decisión: **Hold**.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

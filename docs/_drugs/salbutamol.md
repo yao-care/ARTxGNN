@@ -2,7 +2,7 @@
 layout: default
 title: Salbutamol
 parent: Solo Predicción del Modelo (L5)
-nav_order: 172
+nav_order: 226
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,77 +29,80 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Salbutamol: De Asma / COPD a Conjuntivitis Papilar
+# Salbutamol: De Asma a Conjuntivitis Papilar
 
 ## Resumen en Una Frase
 
-Salbutamol es un broncodilatador de accion corta (agonista β2-adrenérgico), ampliamente reconocido a nivel mundial para el alivio del broncoespasmo asociado al asma y la enfermedad pulmonar obstructiva cronica (EPOC), aunque no figura con autorizaciones en la base de datos de ANMAT consultada.
-El modelo TxGNN predice que podria ser efectivo para **Conjuntivitis Papilar**,
-sin embargo, actualmente **no existen ensayos clinicos ni publicaciones cientificas** que respalden directamente esta nueva direccion.
+Salbutamol es un agonista beta-2 adrenérgico, utilizado originalmente para el tratamiento del asma y de la enfermedad bronquial.
+El modelo TxGNN predice que podría ser efectivo para **conjuntivitis papilar**,
+pero hasta ahora **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata solo de una predicción del modelo.
 
----
-
-## Resumen Rapido
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | Broncoespasmo / Asma y EPOC (uso global establecido; sin registro ANMAT en la base de datos consultada) |
-| Nueva Indicacion Predicha | Conjuntivitis Papilar (Papillary Conjunctivitis) |
-| Puntaje de Prediccion TxGNN | 99.996% |
+| Indicación Original | Asma y enfermedad bronquial (según el grafo de conocimiento de TxGNN; los textos de indicación de las autorizaciones locales no están disponibles) |
+| Nueva Indicación Predicha | Conjuntivitis papilar |
+| Puntaje de Predicción TxGNN | 99.996% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | No Comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Hold |
+| Estado de Mercado en Argentina | ✓ Comercializado |
+| Número de Autorizaciones | 20 |
+| Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por que es Razonable esta Prediccion?
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, salbutamol es un agonista beta-2 adrenérgico de acción corta. Su eficacia en asma y en obstrucción reversible de las vías aéreas está comprobada, y mecanísticamente podría ser aplicable a procesos inflamatorios de la conjuntiva.
 
-Salbutamol es un agonista selectivo del receptor β2-adrenérgico de accion corta (SABA). Su mecanismo de accion establecido consiste en estimular los receptores β2 presentes en el musculo liso bronquial, lo que incrementa el AMP ciclico (AMPc) intracelular y produce relajacion del musculo liso con la consecuente broncodilatacion. Ademas, se ha descrito que los agonistas β2 poseen efectos secundarios de estabilizacion de mastocitos, inhibiendo su degranulacion y la liberacion de mediadores proinflamatorios. Actualmente no se dispone de datos detallados sobre el mecanismo de accion en la fuente de datos consultada; la descripcion anterior se basa en el conocimiento farmacologico globalmente disponible.
+La relación entre la indicación original y la nueva es indirecta. En modelos preclínicos, los agonistas beta-2 muestran cierto efecto antiinflamatorio y de estabilización de mastocitos en la conjuntiva. Esto podría ser relevante para una conjuntivitis de componente alérgico o inflamatorio. Sin embargo, **no existe evidencia directa en conjuntivitis papilar**, y la relación de similitud con la indicación original aún no ha sido evaluada.
 
-La conjuntivitis papilar es una enfermedad inflamatoria de la conjuntiva cuya patogenia principal involucra irritacion mecanica cronica (depositos en lentes de contacto, protesis oculares) o mecanismos mediados por IgE. Dado que el tejido conjuntival expresa receptores β2-adrenérgicos, teoricamente un agonista β2 podria ejercer algun efecto antiinflamatorio local mediante la inhibicion de la degranulacion de mastocitos y la reduccion de la permeabilidad vascular, lo que tendria relevancia particular en la variante alérgica de esta patologia.
+Por lo tanto, la predicción es mecanísticamente plausible pero especulativa. Se apoya únicamente en el puntaje alto del modelo.
 
-Sin embargo, la relacion mecanistica es considerada débil para esta indicacion. La principal via patogénica de la conjuntivitis papilar involucra friccion mecanica y respuesta IgE, frente a las cuales los β2-agonistas no constituyen un mecanismo terapéutico de primera linea. El elevado puntaje TxGNN probablemente refleja proximidad a nivel de red biologica entre tejidos de la via respiratoria superior y el segmento ocular, mas que una prediccion directa de eficacia farmacologica. La ausencia total de evidencia clinica en humanos refuerza la necesidad de cautela.
+## Evidencia de Ensayos Clínicos
 
----
-
-## Evidencia de Ensayos Clinicos
-
-Actualmente no hay ensayos clinicos relacionados registrados.
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
----
+## Información de Mercado en Argentina
 
-## Informacion de Mercado en Argentina
+Hay 20 autorizaciones vigentes, todas de producto único (sin combinaciones) y ninguna cancelada. Se muestran las 5 principales. Los textos de indicación aprobada no figuran en los datos disponibles.
 
-No se registran autorizaciones de comercializacion de Salbutamol en la base de datos de ANMAT consultada (0 registros). Cabe destacar que Salbutamol es un farmaco de uso ampliamente difundido a nivel mundial y es posible que existan registros vigentes bajo denominaciones comerciales o titulares distintos no capturados en la presente consulta.
-
----
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
+|---------|------|------|-----------|
+| 13001 | VENTOLIN HFA | Aerosol inhalador con aplicador x 200 dosis | GlaxoSmithKline |
+| 3909 | VENTOLIN | Solución para nebulizar x 20 ml | GlaxoSmithKline |
+| 19840 | SALBUTAMOL FABRA | Gotas 0.5% x 20 ml | Fabra |
+| 14931 | SALBUTAMOL DENVER FARMA | Solución para nebulizar x 20 ml | Denver Farma |
+| 45295 | SALBUDEN | Inhalador HFA x 250 dosis | Denver Farma |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para informacion de seguridad.
+- **Contraindicaciones / precauciones según el grafo de conocimiento** (no provienen del texto del prospecto): hipertensión arterial, hipertensión ocular, síndrome de QT largo (incluida la forma familiar), paro cardíaco súbito, enfermedad de la conducción cardíaca, isquemia miocárdica y enfermedad coronaria, epilepsia, deficiencia de potasio, diabetes mellitus, cetoacidosis diabética, acidosis metabólica, hipertiroidismo (enfermedad de Graves, tirotoxicosis), hiperplasia prostática benigna, obstrucción del cuello vesical y glaucoma de ángulo cerrado.
+- **Interacciones farmacológicas**: se identificaron 100 interacciones. Entre las principales, de nivel moderado:
+  - Antidiabéticos: acarbosa, acetohexamida, albiglutida, alogliptina, canagliflozina, clorpropamida y dapagliflozina.
+  - Simpaticomiméticos: epinefrina, isometepteno y dietilpropión.
+  - Otros: famotidina, cisaprida y claritromicina.
+  - Laxantes: bisacodilo y aceite de ricino.
+  - De nivel menor: corticoides como hidrocortisona, beclometasona, betametasona, budesonida y dexametasona.
 
----
+Para advertencias y contraindicaciones oficiales, consultar el prospecto aprobado por ANMAT. Esa información no estaba disponible en los datos compilados.
 
-## Conclusion y Proximos Pasos
+## Conclusión y Próximos Pasos
 
-**Decision: Hold**
+**Decisión: Hold**
 
-**Justificacion:**
-La prediccion TxGNN para conjuntivitis papilar alcanza nivel de evidencia L5 (solo prediccion computacional, sin ningun estudio real disponible), y la relacion mecanistica entre el agonismo β2 y los principales mecanismos patogenicos de esta enfermedad (friccion mecanica, mediacion IgE) es debil. No existe base suficiente para avanzar hacia desarrollo clinico en este momento.
+**Justificación:**
+La predicción tiene un puntaje alto en TxGNN, pero no existen ensayos clínicos ni literatura que la respalden (nivel L5). El mecanismo propuesto solo cuenta con respaldo preclínico indirecto. Con los datos actuales no se justifica avanzar.
 
 **Para avanzar se necesita:**
-- Datos de expresion del receptor β2-adrenérgico en tejido conjuntival humano (evidencia preclínica de mecanismo)
-- Estudios preclínicos en modelos animales de conjuntivitis papilar con salbutamol topico oftalmico
-- Evaluacion de seguridad y tolerabilidad de una formulacion topica ocular de salbutamol
-- Publicaciones o reportes de caso que documenten cualquier uso ocular de salbutamol en humanos
-- Aclaracion sobre el estado real de registro de Salbutamol en ANMAT (busqueda ampliada por nombre comercial o titular)
+- Datos del mecanismo de acción, por ejemplo desde DrugBank.
+- Revisión sistemática de la literatura específica sobre salbutamol y conjuntivitis papilar.
+- Estudios preclínicos o clínicos que evalúen una formulación oftálmica. Las presentaciones autorizadas en Argentina son inhaladas, nebulizadas u orales, y la compatibilidad de vía de administración aún no está evaluada.
+- Revisión del prospecto de ANMAT para completar la información de seguridad, dado el perfil cardiovascular y metabólico indicado arriba.
+
+**Nota de contexto:** otras indicaciones predichas para este fármaco cuentan con más respaldo. La enfermedad pulmonar obstructiva (L1) coincide en gran parte con el uso ya aprobado, por lo que no es un reposicionamiento genuino. La anafilaxia (L2) tiene un ensayo de Fase 3 terminado prematuramente. La conjuntivitis atópica (L4) tiene estudios preclínicos en conjuntiva que podrían servir de referencia indirecta para la conjuntivitis papilar.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

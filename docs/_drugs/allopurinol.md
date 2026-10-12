@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Allopurinol
-parent: Solo Predicción del Modelo (L5)
+parent: Evidencia Moderada (L3-L4)
 nav_order: 21
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Allopurinol
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,92 +29,92 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Alopurinol: Evaluacion de Reposicionamiento — Sin Indicaciones Predichas Disponibles
+# Alopurinol: De Gota a Porfiria Hepática
 
 ## Resumen en Una Frase
 
-Alopurinol es un inhibidor de la xantina oxidasa ampliamente utilizado a nivel mundial para el tratamiento de la gota e hiperuricemia. En esta evaluacion, el modelo TxGNN **no ha generado predicciones de nuevas indicaciones** para este farmaco. Ademas, el farmaco **no se encuentra registrado ante la TFDA en Taiwan**, lo que limita significativamente la posibilidad de avanzar en un proceso de reposicionamiento en ese mercado.
+Alopurinol es un inhibidor de la xantina oxidasa, originalmente utilizado para el tratamiento de la gota, la hiperuricemia y la nefropatía aguda por uratos.
+El modelo TxGNN predice que podría ser efectivo para **porfiria hepática**, pero actualmente solo hay **2 publicaciones** indirectas (una hipótesis y un estudio preclínico en ratas) y **ningún ensayo clínico** que respalde esta dirección.
 
 ---
 
-## Resumen Rapido
+## Resumen Rápido
 
 | Item | Contenido |
-|------|-----------|
-| Indicacion Original | No disponible en datos regulatorios de Taiwan (globalmente: gota e hiperuricemia) |
-| Nueva Indicacion Predicha | — Sin prediccion disponible — |
-| Puntaje de Prediccion TxGNN | N/A |
-| Nivel de Evidencia | L5 (sin estudios asociados a nueva indicacion) |
-| Estado de Mercado en Taiwan | ✗ No registrado (Not marketed) |
-| Numero de Autorizaciones TFDA | 0 |
-| Decision Recomendada | **Hold** |
+|------|------|
+| Indicación Original | Gota (según el grafo de conocimiento TxGNN; los textos de indicación de las autorizaciones locales están vacíos) |
+| Nueva Indicación Predicha | Porfiria hepática |
+| Puntaje de Predicción TxGNN | 99.95% |
+| Nivel de Evidencia | L4 |
+| Estado de Mercado en Argentina | ✓ Comercializado |
+| Número de Autorizaciones | 20 |
+| Decisión Recomendada | Hold |
 
 ---
 
-## Por que no hay Predicciones Disponibles?
+## ¿Por qué es Razonable esta Predicción?
 
-El modelo TxGNN no ha generado indicaciones predichas para alopurinol en esta iteracion del analisis. Esto puede deberse a multiples factores: el farmaco puede no tener suficientes conexiones novedosas en el grafo de conocimiento utilizado por TxGNN, o las asociaciones identificadas no alcanzaron el umbral minimo de confianza para ser reportadas como candidatas viables.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, alopurinol es un inhibidor de la xantina oxidasa, su eficacia en gota e hiperuricemia está comprobada, y mecanísticamente podría tener algún efecto sobre el metabolismo del hemo hepático.
 
-Alopurinol es un inhibidor de la xantina oxidasa que bloquea la conversion de hipoxantina y xantina en acido urico. Su mecanismo de accion esta bien caracterizado y su uso clinico esta consolidado en el manejo de la gota cronica, la hiperuricemia asociada a quimioterapia (sindrome de lisis tumoral) y la prevencion de calculos renales de acido urico. Sin embargo, el campo de datos del mecanismo de accion (MOA) en el Evidence Pack figura como no disponible, lo que tambien limita el analisis de plausibilidad mecanistica para nuevas indicaciones.
+La literatura antigua describe que alopurinol puede influir en la biosíntesis del hemo y en la actividad de la 5-aminolevulinato sintasa (ALAS1) en sistemas experimentales. Los dos artículos recuperados son una hipótesis de 2019 sobre el control metabólico de ALAS1 en porfirias hepáticas agudas y un estudio de 1992 en ratas sobre el efecto de la carbamazepina en el metabolismo del hemo. Ninguno es un estudio clínico de alopurinol en porfiria, por lo que el vínculo es plausible pero indirecto.
 
-Cabe destacar que en la literatura cientifica se han explorado potenciales usos de alopurinol en enfermedad cardiovascular, enfermedad renal cronica e insuficiencia cardiaca, entre otros. Estas lineas de investigacion podrian ser incorporadas en futuras iteraciones del modelo si se enriquece el grafo de conocimiento con estas evidencias.
+Además, existe una preocupación de seguridad: en algunos contextos experimentales alopurinol se ha descrito como agente potencialmente porfirinogénico o degradador del hemo, por lo que la **dirección del efecto es incierta** y podría incluso ser perjudicial.
 
 ---
 
-## Evidencia de Ensayos Clinicos
+## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clinicos relacionados con nuevas indicaciones predichas, dado que el modelo TxGNN no genero predicciones para este farmaco.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ---
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada con nuevas indicaciones predichas disponible en este Evidence Pack.
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [31443750](https://pubmed.ncbi.nlm.nih.gov/31443750/) | 2019 | Revisión/Hipótesis | Medical Hypotheses | Propone el control metabólico de la ALAS1 hepática mediante triptófano o inhibición de la triptófano 2,3-dioxigenasa como terapia de porfirias hepáticas agudas. |
+| [1567472](https://pubmed.ncbi.nlm.nih.gov/1567472/) | 1992 | Preclínico (animal) | Biochemical Pharmacology | La carbamazepina, a dosis muy bajas, agrava las porfirias hepáticas al alterar el metabolismo del hemo en hígado de rata. |
 
 ---
 
-## Informacion de Mercado en Taiwan
+## Información de Mercado en Argentina
 
-Alopurinol **no cuenta con autorizaciones vigentes** ante la TFDA (Taiwan Food and Drug Administration). No se encontraron registros de productos comercializados en el mercado taiwanes.
+Se registran 20 autorizaciones vigentes (todas de producto único, ninguna cancelada). Principales:
 
-| Item | Detalle |
-|------|---------|
-| Estado de Mercado | No registrado (Not marketed) |
-| Total de Autorizaciones | 0 |
-| Formas Farmaceuticas Disponibles | Ninguna |
-
-> **Nota:** A pesar de no estar registrado en Taiwan, alopurinol es un farmaco ampliamente disponible a nivel mundial y forma parte de la Lista de Medicamentos Esenciales de la OMS.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 48995 | ALLOPURINOL 300 CRAVERI | 300 mg comp. x 60 | No disponible |
+| 49651 | ALLOPURINOL GADOR RETARD | 300 mg comp. x 30 | No disponible |
+| 22580 | PURITENK | 300 mg comp. x 20 | No disponible |
+| 35535 | ALLOPURINOL GADOR | 100 mg comp. x 30 | No disponible |
+| 44167 | COLPURIL A RETARD | Cáps. con microgránulos x 50 | No disponible |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Los datos de seguridad especificos para el mercado de Taiwan no estan disponibles en este Evidence Pack debido a la ausencia de registro regulatorio local. No se encontraron datos de interacciones farmacologicas (DDI), advertencias ni contraindicaciones en las fuentes consultadas.
+- **Contraindicaciones según el grafo de conocimiento** (no provienen del prospecto): enfermedad hepática, enfermedad de la vesícula biliar, función renal alterada, vasculitis por hipersensibilidad, angeítis leucocitoclástica cutánea, vasculitis cutánea alérgica y enfermedad antimembrana basal glomerular.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones en total. Las de nivel moderado incluyen hidróxido de aluminio, atapulgita, caolín, magaldrato y sucralfato. Las de nivel menor incluyen amoxicilina y clorpropamida. Otras (p. ej., calcitriol, vitamina A, pantoprazol, glimepirida, mesalazina, doxiciclina, metformina, omeprazol) tienen nivel no clasificado.
+- **Consideración específica**: alopurinol podría ser porfirinogénico en algunos modelos experimentales, lo que es relevante para la indicación propuesta. Dado que la contraindicación por enfermedad hepática figura en el grafo, esto exige especial cautela.
 
-> Consultar el prospecto de formulaciones aprobadas en otros mercados regulatorios (FDA, EMA) para informacion completa de seguridad. En particular, debe prestarse atencion a:
-> - **Reacciones de hipersensibilidad graves** (Sindrome de Stevens-Johnson / Necrolisis Epidermica Toxica), especialmente en portadores del alelo HLA-B\*5801.
-> - **Interacciones con azatioprina y mercaptopurina** (riesgo de toxicidad hematologica severa por inhibicion del metabolismo de estos farmacos).
-> - **Ajuste de dosis en insuficiencia renal.**
+Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ---
 
-## Conclusion y Proximos Pasos
+## Conclusión y Próximos Pasos
 
-**Decision: Hold**
+**Decisión: Hold**
 
-**Justificacion:**
-No existen indicaciones predichas por el modelo TxGNN para alopurinol en esta version del analisis, y el farmaco no se encuentra registrado en Taiwan. Sin nuevas indicaciones candidatas y sin presencia regulatoria local, no hay base suficiente para avanzar con un programa de reposicionamiento en este momento.
+**Justificación:**
+La evidencia es solo preclínica e hipotética (L4), sin ensayos clínicos, y la dirección del efecto de alopurinol sobre el metabolismo del hemo es incierta, con posible riesgo en porfiria. El alto puntaje de TxGNN por sí solo no justifica avanzar.
 
 **Para avanzar se necesita:**
-- Incorporar datos detallados del mecanismo de accion (MOA) desde DrugBank para enriquecer el grafo de conocimiento de TxGNN
-- Obtener datos de advertencias y contraindicaciones desde prospectos de mercados de referencia (FDA/EMA)
-- Re-ejecutar el modelo TxGNN con un grafo de conocimiento actualizado que incluya las asociaciones mecanisticas de alopurinol (e.g., efecto antioxidante, proteccion endotelial)
-- Evaluar la viabilidad regulatoria de registro en Taiwan si en futuras iteraciones se identifican indicaciones candidatas prometedoras
-- Considerar la evidencia existente en literatura sobre usos potenciales en enfermedad cardiovascular y renal cronica como insumo para futuras predicciones
+- Datos del mecanismo de acción de alopurinol (consulta a DrugBank) y análisis del vínculo mecanístico con la regulación de ALAS1.
+- Obtener y analizar el prospecto aprobado por ANMAT (advertencias y contraindicaciones), requisito bloqueante para el cribado de seguridad.
+- Estudios preclínicos que aclaren si alopurinol es protector o porfirinogénico.
+- Revisión de seguridad en pacientes con enfermedad hepática, dada su contraindicación en el grafo.
 
----
-
-> ⚠️ **Disclaimer:** Este informe es de caracter investigativo y no constituye consejo medico. Cualquier candidato a reposicionamiento requiere validacion clinica rigurosa antes de su aplicacion.
+**Otras predicciones (todas en Hold):** las predicciones siguientes (hipertensión portal no cirrótica familiar de inicio temprano, síndrome hepatopulmonar, cirrosis idiopática asociada al cobre, trombosis portal primitiva, esclerosis hepatoportal, miopatía necrosante inmunomediada, síndrome antisintetasa y miopatía inflamatoria con abundantes macrófagos) carecen de ensayos y literatura (L5). El trastorno del metabolismo de la fenilalanina cuenta con literatura solo indirecta (L4). Ninguna tiene sustento mecanístico en los datos disponibles.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

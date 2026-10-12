@@ -2,7 +2,7 @@
 layout: default
 title: Carvedilol
 parent: Solo Predicción del Modelo (L5)
-nav_order: 84
+nav_order: 85
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,60 +29,88 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# CARVEDILOL: Evaluación de Reposicionamiento — Datos Insuficientes para Análisis Completo
-
----
+# Carvedilol: De Hipertensión a Hipertensión Renovascular Maligna
 
 ## Resumen en Una Frase
 
-CARVEDILOL (DB01136) es un fármaco registrado en DrugBank para el cual el presente Evidence Pack no contiene predicciones de indicaciones nuevas generadas por TxGNN. Debido a la ausencia de datos de mecanismo de acción, indicaciones originales e información de seguridad, no es posible completar una evaluación de reposicionamiento en esta etapa.
-
----
+Carvedilol es un betabloqueante no selectivo con bloqueo alfa-1, utilizado originalmente para el tratamiento de la hipertensión arterial.
+El modelo TxGNN predice que podría ser efectivo para **hipertensión renovascular maligna**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta indicación específica; la predicción se basa únicamente en el modelo computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Sin datos en el Evidence Pack actual |
-| Nueva Indicación Predicha | Sin predicciones TxGNN disponibles |
-| Puntaje de Predicción TxGNN | N/A |
-| Nivel de Evidencia | No aplica (sin predicciones ni estudios asociados) |
-| Estado de Mercado en Argentina | No comercializado |
-| Número de Autorizaciones | 0 |
-| Decisión Recomendada | **Hold** |
+| Indicación Original | Hipertensión arterial (según el grafo de conocimiento; los textos de indicación de las autorizaciones locales están vacíos) |
+| Nueva Indicación Predicha | Hipertensión renovascular maligna |
+| Puntaje de Predicción TxGNN | 99.55% |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Argentina | ✓ Comercializado |
+| Número de Autorizaciones | 20 |
+| Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por qué No se Puede Completar la Evaluación
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, carvedilol es un betabloqueante no selectivo con actividad bloqueadora alfa-1 adrenérgica, y su eficacia en hipertensión está establecida y está comercializado para ese fin.
 
-El Evidence Pack recibido presenta tres brechas críticas que bloquean el análisis de reposicionamiento:
+La hipertensión renovascular maligna es una forma grave de hipertensión en la que la activación del sistema renina-angiotensina tiene un papel central. El bloqueo beta reduce la liberación de renina, por lo que mecanísticamente podría ser aplicable como extensión de su acción antihipertensiva.
 
-**1. Sin predicciones TxGNN:** El campo `predicted_indications` está vacío. Sin una indicación candidata generada por el modelo, no existe una hipótesis de reposicionamiento que evaluar. Esto puede deberse a que el fármaco aún no fue procesado por el pipeline TxGNN, o a que el grafo de conocimiento no contiene suficientes conexiones para CARVEDILOL.
+Sin embargo, esta relación es puramente computacional: no se aportaron ensayos ni literatura para esta indicación. Esta predicción es en gran medida una extensión de la clase de indicación ya existente (hipertensión) más que un uso verdaderamente nuevo.
 
-**2. Sin mecanismo de acción (MOA):** El campo `original_moa` no contiene datos, lo que impide analizar la plausibilidad biológica de cualquier indicación nueva. La fuente recomendada para remediar esta brecha es la API de DrugBank (DrugBank ID: DB01136).
+### Otras predicciones del modelo (para contexto)
 
-**3. Sin información de seguridad:** Las advertencias clave y contraindicaciones no están disponibles, lo cual es un bloqueo de nivel **Blocking** según los metadatos del Evidence Pack (DG001). Sin esta información, no se puede completar la evaluación de seguridad inicial (S1).
+| Indicación predicha | Puntaje TxGNN | Nivel | Comentario |
+|------|------|------|------|
+| Enfermedad renal hipertensiva maligna | 99.55% | L5 | Solapa con la indicación existente; sin evidencia específica |
+| Hipertensión pulmonar de mecanismo multifactorial poco claro | 99.54% | L5 | Fisiopatología distinta; los betabloqueantes se usan con cautela por el riesgo para la función del ventrículo derecho |
+| Hipertensión pulmonar por enfermedad pulmonar y/o hipoxia | 99.54% | L4 | Solo evidencia indirecta, mayormente preclínica (ver abajo) |
+| Síndrome de Braddock | 99.37% | L5 | Sin fundamento mecanístico evidente; probablemente proximidad en la red |
 
----
+Entre estas, la hipertensión pulmonar por enfermedad pulmonar/hipoxia es la única con literatura recuperada, pero es indirecta: estudios en ratas muestran que carvedilol revirtió la hipertensión inducida por hipoxia intermitente crónica (PMID 26291659) y que inhibió la hipertrofia ventricular derecha por hipoxia crónica (PMID 16639551), además de efectos antioxidantes y antiapoptóticos cardioprotectores (PMID 25187802, PMID 28862654). Estos hallazgos no demuestran eficacia en enfermedad vascular pulmonar humana, y varias publicaciones recuperadas no guardan relación con el tema.
+
+## Evidencia de Ensayos Clínicos
+
+Actualmente no hay ensayos clínicos relacionados registrados.
+
+## Evidencia de Literatura
+
+Actualmente no hay literatura relacionada disponible para la indicación principal (hipertensión renovascular maligna).
 
 ## Información de Mercado en Argentina
 
-CARVEDILOL no cuenta con autorizaciones de comercialización registradas en Argentina según los datos de esta consulta. No hay licencias disponibles para listar.
+Se muestran 5 de las 20 autorizaciones vigentes (todas de producto único).
 
----
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 59509 | CARVEDIL 12.5 | 12.5 mg comprimidos x 60 | No disponible |
+| 59512 | CARVEDIL 50 | 50 mg comprimidos x 30 | No disponible |
+| 36205 | CORUBIN | 6.25 mg comprimidos x 28 | No disponible |
+| 45532 | ENTARSOL 6.25 | 6.25 mg comprimidos x 28 | No disponible |
+| 44594 | DILATREND AP | 80 mg cápsulas x 30 | No disponible |
+
+## Consideraciones de Seguridad
+
+- **Contraindicaciones (según el grafo de conocimiento, no texto de prospecto)**: insuficiencia hepática, asma (incluidas formas intrínseca y alérgica), bronquitis, enfisema pulmonar y otras enfermedades bronquiales, diabetes mellitus, cetoacidosis diabética, trastornos hipotensivos, enfermedad vascular periférica (incluida claudicación intermitente y enfermedad arterial periférica), bloqueo auriculoventricular, síndrome del seno enfermo (incluida forma familiar), angina de Prinzmetal, anafilaxia y síndrome del iris flácido intraoperatorio.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones en total; entre las principales mostradas:
+  - **Mayor**: epinefrina.
+  - **Moderadas**: hidrocortisona, dexametasona, betametasona, budesonida, triamcinolona, hiosciamina, atropina, bupropión, morfina, lorcaserina, canagliflozina, acetohexamida, y sales de calcio (fosfato, acetato, carbonato, citrato).
+  - **Menores**: ácido acetilsalicílico, hidróxido de aluminio, attapulgita.
+- Las advertencias del prospecto de ANMAT no están disponibles; consultar el prospecto para información de seguridad adicional.
+- Nota relevante: la revisión sobre efectos respiratorios de los betabloqueantes (PMID 19789971) y las contraindicaciones respiratorias anteriores exigen especial cautela si se considerara su uso en hipertensión pulmonar asociada a enfermedad pulmonar.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-El Evidence Pack está incompleto para generar un análisis de reposicionamiento. La ausencia de predicciones TxGNN y de datos farmacológicos básicos impide emitir cualquier recomendación clínica o regulatoria en esta etapa.
+La predicción para hipertensión renovascular maligna tiene un puntaje alto del modelo (99.55%), pero no cuenta con ensayos clínicos ni literatura (nivel L5), y en gran medida replica la indicación antihipertensiva ya existente. No hay base para avanzar por ahora.
 
 **Para avanzar se necesita:**
-- **[Crítico]** Ejecutar el pipeline TxGNN para generar predicciones de indicaciones nuevas para CARVEDILOL (DB01136)
-- **[Crítico]** Descargar y analizar el prospecto oficial para extraer advertencias, contraindicaciones e indicaciones aprobadas (fuente recomendada: ANMAT / TFDA, según remediación DG001)
-- **[Alto]** Consultar DrugBank API para obtener el mecanismo de acción completo (remediación DG002)
-- **[Medio]** Verificar estado regulatorio vigente en Argentina (ANMAT) para confirmar si existe alguna presentación comercializada
+- Datos del mecanismo de acción del fármaco (DrugBank)
+- Prospecto de ANMAT con advertencias y contraindicaciones oficiales
+- Revisión de literatura y ensayos específicos sobre hipertensión renovascular maligna y su relación con el bloqueo beta/alfa-1
+- Evaluación de si esta indicación representa realmente un uso nuevo o es una extensión de la indicación actual de hipertensión
+- Para la hipertensión pulmonar por hipoxia: estudios clínicos que superen la evidencia preclínica indirecta y una evaluación cuidadosa de la seguridad respiratoria y del ventrículo derecho
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

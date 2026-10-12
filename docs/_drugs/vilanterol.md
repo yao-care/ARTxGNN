@@ -2,7 +2,7 @@
 layout: default
 title: Vilanterol
 parent: Evidencia Alta (L1-L2)
-nav_order: 181
+nav_order: 244
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,13 +29,12 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Vilanterol: De Broncodilatador LABA Sin Registro Local a Enfermedad Pulmonar Obstructiva
+# Vilanterol: De Enfermedad Pulmonar Obstructiva Crónica (EPOC) y Asma a Enfermedad Pulmonar Obstructiva
 
 ## Resumen en Una Frase
 
-Vilanterol es un agonista β₂ adrenérgico de larga duración (LABA) desarrollado como componente de combinaciones inhaladas fijas (FF/VI, UMEC/VI, FF/UMEC/VI) aprobadas globalmente para EPOC y asma, aunque **no cuenta con registro en Argentina**.
-El modelo TxGNN predice que podría ser efectivo para **Enfermedad Pulmonar Obstructiva (obstructive lung disease)**,
-con **más de 10 ensayos clínicos de Fase 3/4 completados** y **20 publicaciones** que actualmente respaldan esta dirección con el mayor nivel de evidencia posible.
+Vilanterol es un agonista beta2-adrenérgico de acción prolongada (LABA), utilizado originalmente para el tratamiento de la EPOC y el asma, siempre en combinación con otros fármacos inhalados.
+El modelo TxGNN predice que podría ser efectivo para **enfermedad pulmonar obstructiva**, con **29 ensayos clínicos** y **20 publicaciones** que respaldan esta dirección. Cabe aclarar que se trata de una indicación equivalente o muy cercana a la ya aprobada, más que de un reposicionamiento propiamente dicho.
 
 ---
 
@@ -43,69 +42,84 @@ con **más de 10 ensayos clínicos de Fase 3/4 completados** y **20 publicacione
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Sin indicación registrada en Argentina (ANMAT) |
-| Nueva Indicación Predicha | Enfermedad Pulmonar Obstructiva (obstructive lung disease) |
-| Puntaje de Predicción TxGNN | 99.97% |
+| Indicación Original | EPOC y asma (según el grafo de conocimiento; los textos de indicación de las autorizaciones locales no están disponibles) |
+| Nueva Indicación Predicha | Enfermedad pulmonar obstructiva |
+| Puntaje de Predicción TxGNN | 99,97% |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en Argentina | ✗ No registrado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | ✓ Comercializado |
+| Número de Autorizaciones | 5 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos formales del mecanismo de acción en la base de datos local. Sin embargo, la evidencia clínica consolidada permite inferir que Vilanterol (GW642444M) es un **agonista β₂ adrenérgico inhalado de acción ultralarga (LABA) con actividad intrínseca de 24 horas**. Su mecanismo central consiste en la unión selectiva a los receptores β₂ del músculo liso bronquial, induciendo relajación y broncodilatación sostenida que reduce la resistencia al flujo aéreo. A diferencia de los LABA convencionales (salmeterol, formoterol), Vilanterol fue diseñado para administración única diaria, lo que lo convierte en un componente estratégico de combinaciones de inhalación única.
+Actualmente no se dispone de datos detallados sobre el mecanismo de accion registrados en la base de datos. Según la información conocida, vilanterol es un agonista beta2-adrenérgico de acción prolongada que relaja el músculo liso de las vías respiratorias mediante broncodilatación mediada por AMPc. Se administra una vez al día, siempre combinado con fluticasona furoato (corticoide inhalado) y/o umeclidinio (antagonista muscarínico de acción prolongada).
 
-Vilanterol ha sido desarrollado exclusivamente como componente de tres combinaciones fijas aprobadas: **FF/VI** (fluticasona furoato/vilanterol, Relvar®/Breo® Ellipta®) para asma y EPOC; **UMEC/VI** (umeclidinium/vilanterol, Anoro® Ellipta®) para EPOC; y **FF/UMEC/VI** (Trelegy® Ellipta®) para asma y EPOC. Estas tres combinaciones han completado múltiples ensayos de Fase 3 con decenas de miles de pacientes y obtuvieron aprobación de la FDA, EMA y otras agencias regulatorias, constituyendo una base mecanística y clínica directamente aplicable a la enfermedad pulmonar obstructiva.
+La enfermedad pulmonar obstructiva es esencialmente la misma categoría terapéutica que la EPOC y el asma, indicaciones ya establecidas para el fármaco. Por ello, la predicción es coherente con el mecanismo broncodilatador y no representa un salto mecanístico: se trata de una indicación dentro de la etiqueta o muy próxima a ella.
 
-La predicción TxGNN de 99.97% es altamente coherente con la realidad científica: la enfermedad pulmonar obstructiva (EPOC y asma) es precisamente el dominio terapéutico para el cual Vilanterol fue diseñado y validado. La brecha detectada es **regulatoria-local** (ausencia de registro ANMAT en Argentina), no científica. Estudios pivotales como IMPACT (*N Engl J Med*, 2018), FULFIL (*Am J Respir Crit Care Med*, 2017) y SUMMIT (*N=16.568*) aportan un respaldo de nivel L1 que ubica a este candidato entre los más sólidos identificados en el pipeline.
+Las demás predicciones del modelo (enfisema intersticial, enfisema compensatorio, pulmón hiperlúcido, estenosis traqueal, calcificación traqueal, laringotraqueítis, enfisema lobar congénito, malformación respiratoria y neoplasia bronquial) carecen de respaldo clínico propio o de un fundamento mecanístico plausible, por lo que no se desarrollan en este informe.
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
+Se muestran los 10 ensayos más relevantes (de 29 registrados), priorizando fase 3 completados con eficacia directa.
+
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT01313676](https://clinicaltrials.gov/study/NCT01313676) | Fase 3 | Completado | 16,568 | Estudio SUMMIT: FF/VI 100/25 mcg vs placebo en EPOC moderada con antecedentes/riesgo cardiovascular; evaluación de supervivencia a largo plazo |
-| [NCT02105974](https://clinicaltrials.gov/study/NCT02105974) | Fase 3 | Completado | 1,621 | FF/VI 100/25 mcg vs VI 25 mcg (12 semanas): evaluación de la contribución de la fracción ICS sobre FEV1 trough en EPOC; estudio multicéntrico doble ciego |
-| [NCT01313650](https://clinicaltrials.gov/study/NCT01313650) | Fase 3 | Completado | 1,538 | UMEC/VI vs UMEC vs VI vs placebo en EPOC (24 semanas): demostración de superioridad de la doble broncodilatación sobre cada componente por separado |
-| [NCT01777334](https://clinicaltrials.gov/study/NCT01777334) | Fase 3 | Completado | 905 | UMEC/VI 62.5/25 mcg vs Tiotropium 18 mcg en EPOC (24 semanas): superioridad estadística en FEV1 trough con perfil de seguridad comparable |
-| [NCT01822899](https://clinicaltrials.gov/study/NCT01822899) | Fase 3 | Completado | 717 | UMEC/VI vs fluticasona propionato/salmeterol en EPOC (12 semanas): diseño multicéntrico doble ciego, doble dummy, paralelo |
-| [NCT03474081](https://clinicaltrials.gov/study/NCT03474081) | Fase 4 | Completado | 800 | Triple terapia FF/UMEC/VI en un solo inhalador vs Tiotropium en monoterapia en EPOC: función pulmonar y síntomas a 12 semanas |
-| [NCT01181895](https://clinicaltrials.gov/study/NCT01181895) | Fase 3 | Completado | 348 | Vilanterol vs salmeterol vs placebo en asma persistente no controlada con ICS de fondo (12 semanas); primer ECA controlado con vilanterol en asma |
-| [NCT05535972](https://clinicaltrials.gov/study/NCT05535972) | Fase 4 | Completado | 463 | Efectividad en mundo real de Trelegy® Ellipta (FF/UMEC/VI) en EPOC sintomática: estado de salud (SGRQ), disnea y función pulmonar |
-| [NCT02799784](https://clinicaltrials.gov/study/NCT02799784) | Fase 4 | Completado | 236 | UMEC/VI vs Tiotropium/Olodaterol en EPOC moderada: estudio cruzado, open-label, comparación directa head-to-head en 2 períodos |
-| [NCT06474039](https://clinicaltrials.gov/study/NCT06474039) | Fase 3 | Reclutando | 50 | Triple terapia ICS/LABA/LAMA (FF/VI/UMEC) vs doble broncodilatación (VI/UMEC): efectos sobre atrapamiento aéreo y mediadores inflamatorios en EPOC |
+| [NCT05062304](https://clinicaltrials.gov/study/NCT05062304) | N/A (corresponde a IMPACT, ECA fase 3) | Completado | 17281 | Triple terapia en un solo inhalador (fluticasona/umeclidinio/vilanterol) frente a terapia dual en EPOC |
+| [NCT03162055](https://clinicaltrials.gov/study/NCT03162055) | Fase 3 | Completado | 1119 | Glicopirronio/formoterol frente a umeclidinio/vilanterol durante 24 semanas en EPOC moderada a muy grave |
+| [NCT02301975](https://clinicaltrials.gov/study/NCT02301975) | Fase 3 | Completado | 1526 | Fluticasona furoato/vilanterol una vez al día frente a fluticasona/salmeterol dos veces al día en asma persistente controlada |
+| [NCT01706198](https://clinicaltrials.gov/study/NCT01706198) | Fase 3 | Completado | 4233 | Estudio abierto de efectividad a 12 meses de fluticasona furoato/vilanterol frente al tratamiento habitual en asma |
+| [NCT01686633](https://clinicaltrials.gov/study/NCT01686633) | Fase 3 | Completado | 1040 | Fluticasona furoato/vilanterol 200/25 y 100/25 mcg frente a fluticasona furoato sola en asma persistente |
+| [NCT01777334](https://clinicaltrials.gov/study/NCT01777334) | Fase 3 | Completado | 905 | Umeclidinio/vilanterol frente a tiotropio durante 24 semanas en EPOC |
+| [NCT01134042](https://clinicaltrials.gov/study/NCT01134042) | Fase 3 | Completado | 587 | Fluticasona furoato/vilanterol frente a fluticasona furoato sola y fluticasona propionato sola en asma persistente |
+| [NCT01342913](https://clinicaltrials.gov/study/NCT01342913) | Fase 3 | Completado | 528 | Función pulmonar de 24 horas con fluticasona furoato/vilanterol frente a salmeterol/fluticasona en EPOC |
+| [NCT01323621](https://clinicaltrials.gov/study/NCT01323621) | Fase 3 | Completado | 512 | Perfil de función pulmonar de 24 horas con fluticasona furoato/vilanterol frente a fluticasona propionato/salmeterol en EPOC |
+| [NCT02094937](https://clinicaltrials.gov/study/NCT02094937) | Fase 3 | Completado | 430 | Reducción escalonada de fluticasona furoato tras mantenimiento con fluticasona furoato/vilanterol en asma bien controlada (población japonesa) |
 
 ---
 
 ## Evidencia de Literatura
 
+Se muestran las 10 publicaciones más relevantes (de 20 recuperadas), priorizando ECA sobre revisiones y estudios observacionales.
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [29668352](https://pubmed.ncbi.nlm.nih.gov/29668352/) | 2018 | ECA Fase 3 (Estudio IMPACT) | N Engl J Med | FF/UMEC/VI reduce significativamente exacerbaciones de EPOC vs ICS/LABA y vs LAMA/LABA; primer ECA pivotal de triple terapia en un solo inhalador |
-| [28375647](https://pubmed.ncbi.nlm.nih.gov/28375647/) | 2017 | ECA Fase 3 (Estudio FULFIL) | Am J Respir Crit Care Med | FF/UMEC/VI superior a budesonida/formoterol BD en FEV1 trough y calidad de vida (SGRQ) en EPOC a 24 semanas |
-| [32162970](https://pubmed.ncbi.nlm.nih.gov/32162970/) | 2020 | Análisis post-hoc de ECA | Am J Respir Crit Care Med | FF/UMEC/VI reduce significativamente la mortalidad por todas las causas vs UMEC/VI en pacientes con EPOC y riesgo de exacerbaciones (post-hoc IMPACT) |
-| [35849317](https://pubmed.ncbi.nlm.nih.gov/35849317/) | 2022 | Revisión Sistemática / NMA | Adv Ther | FF/UMEC/VI es superior a terapias duales y comparable o superior a otras triples terapias en EPOC en metaanálisis en red (network meta-analysis) |
-| [39696097](https://pubmed.ncbi.nlm.nih.gov/39696097/) | 2024 | Metaanálisis de ECAs | BMC Pulm Med | UMEC/VI asociado a mejora clínicamente significativa en función pulmonar y calidad de vida vs broncodilatadores en monoterapia o doble terapia en EPOC leve-moderada |
-| [39797646](https://pubmed.ncbi.nlm.nih.gov/39797646/) | 2024 | Revisión Sistemática / NMA | BMJ | Comparación de efectividad y seguridad de triples terapias en inhalador único (FF/UMEC/VI vs BUD/GLY/FORM) en EPOC en práctica clínica habitual |
-| [39731707](https://pubmed.ncbi.nlm.nih.gov/39731707/) | 2025 | Estudio de Efectividad Comparativa | Adv Ther | FF/UMEC/VI vs BUD/GLY/FORM en pacientes con EPOC en EE.UU.: impacto diferencial en exacerbaciones y hospitalización en cohorte de mundo real |
-| [37213116](https://pubmed.ncbi.nlm.nih.gov/37213116/) | 2023 | Estudio de Cohorte | JAMA Intern Med | Comparación de LAMA/LABA vs ICS/LABA en nuevos usuarios de inhaladores combinados para EPOC: exacerbaciones, neumonía y generalizabilidad vs ECAs |
-| [32299860](https://pubmed.ncbi.nlm.nih.gov/32299860/) | 2020 | Análisis de Subgrupo de ECA | Eur Respir J | Estudio IMPACT: eficacia de FF/UMEC/VI estratificada por historia previa de exacerbaciones y conteo de eosinófilos en sangre |
-| [40619503](https://pubmed.ncbi.nlm.nih.gov/40619503/) | 2025 | Efectividad Comparativa en Mundo Real | Adv Ther | FF/UMEC/VI vs BUD/GLY/FORM en pacientes con EPOC que escalaron desde terapia dual: análisis específico de resultados en población step-up |
+| [29668352](https://pubmed.ncbi.nlm.nih.gov/29668352/) | 2018 | ECA | N Engl J Med | Ensayo IMPACT: triple terapia en un solo inhalador frente a terapia dual en EPOC |
+| [28375647](https://pubmed.ncbi.nlm.nih.gov/28375647/) | 2017 | ECA | Am J Respir Crit Care Med | Ensayo FULFIL: triple terapia una vez al día en EPOC frente a terapia dual corticoide/LABA |
+| [32162970](https://pubmed.ncbi.nlm.nih.gov/32162970/) | 2020 | ECA (análisis de IMPACT) | Am J Respir Crit Care Med | Reducción de la mortalidad por todas las causas con fluticasona/umeclidinio/vilanterol frente a umeclidinio/vilanterol en EPOC |
+| [32918892](https://pubmed.ncbi.nlm.nih.gov/32918892/) | 2021 | ECA | Lancet Respir Med | Ensayo CAPTAIN (fase 3A): triple terapia frente a fluticasona/vilanterol en asma no controlada adecuadamente |
+| [42281286](https://pubmed.ncbi.nlm.nih.gov/42281286/) | 2026 | ECA (análisis de ensayos fase 3) | Am J Respir Crit Care Med | Definición de estabilidad de la enfermedad en EPOC a partir de ensayos de fase 3 |
+| [35849317](https://pubmed.ncbi.nlm.nih.gov/35849317/) | 2022 | Revisión (metaanálisis en red) | Adv Ther | Eficacia comparada de fluticasona/umeclidinio/vilanterol frente a otras triples y duales en EPOC |
+| [39696097](https://pubmed.ncbi.nlm.nih.gov/39696097/) | 2024 | Revisión sistemática y metaanálisis | BMC Pulm Med | Umeclidinio/vilanterol frente a otros broncodilatadores en EPOC |
+| [31389190](https://pubmed.ncbi.nlm.nih.gov/31389190/) | 2019 | Revisión sistemática | Clin Respir J | Combinación fija umeclidinio/vilanterol en pacientes con EPOC |
+| [39797646](https://pubmed.ncbi.nlm.nih.gov/39797646/) | 2024 | Estudio de cohorte (nuevos usuarios) | BMJ | Efectividad y seguridad comparadas de triples terapias en un solo inhalador en la práctica clínica habitual |
+| [39731707](https://pubmed.ncbi.nlm.nih.gov/39731707/) | 2025 | Cohorte (mundo real) | Adv Ther | Efectividad comparada de fluticasona/umeclidinio/vilanterol y budesonida/glicopirronio/formoterol en EPOC en EE. UU. |
 
 ---
 
 ## Información de Mercado en Argentina
 
-Vilanterol **no cuenta con ninguna autorización de comercialización vigente en Argentina (ANMAT)**. No existen productos registrados que contengan vilanterol como principio activo, ya sea en monoterapia o en combinación fija. Esta ausencia no refleja una señal de seguridad negativa, sino una brecha regulatoria respecto a los mercados donde las combinaciones que contienen vilanterol (Trelegy®, Anoro®, Relvar®) sí han sido aprobadas.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 51924 | ANORO ELLIPTA (GlaxoSmithKline) | Polvo para inhalación 55/22 mcg x 30 dosis | No disponible en los datos compilados |
+| 51203 | RELVAR ELLIPTA (GlaxoSmithKline) | 92/22 mcg x 30 dosis | No disponible en los datos compilados |
+| 61275 | ALVETIDE (Elea) | 92/22 mcg x 30 dosis | No disponible en los datos compilados |
+| 51204 | RELVAR ELLIPTA (GlaxoSmithKline) | 184/22 mcg x 30 dosis | No disponible en los datos compilados |
+| 61276 | ALVETIDE (Elea) | 184/22 mcg x 30 dosis | No disponible en los datos compilados |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones en total; las 20 primeras reportadas incluyen:
+  - **Moderadas**: antidiabéticos (acarbosa, albiglutida, alogliptina, canagliflozina, clorpropamida, dapagliflozina, dulaglutida, empagliflozina); fármacos que prolongan el intervalo QT (cisaprida, claritromicina, dolasetrón); simpaticomiméticos (dietilpropión, efedrina, efedrina nasal, epinefrina, epinefrina oftálmica).
+  - **Menores**: corticoides (beclometasona dipropionato, betametasona, budesonida, dexametasona).
+- **Información de seguridad complementaria**: los estudios de QT exhaustivo en sujetos sanos con vilanterol (PMID [24093504](https://pubmed.ncbi.nlm.nih.gov/24093504/) y [25020273](https://pubmed.ncbi.nlm.nih.gov/25020273/)) aportan información cardiovascular de contexto.
+
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ---
 
@@ -114,14 +128,14 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-La enfermedad pulmonar obstructiva es la indicación para la cual Vilanterol fue diseñado y validado mediante ECAs de Fase 3 y 4 con más de 25,000 pacientes acumulados, incluyendo estudios pivotales publicados en *NEJM* y *AJRCCM*. El nivel de evidencia L1 es el máximo del pipeline. La barrera para el uso en Argentina no es científica sino **regulatoria**: ninguna combinación que contenga vilanterol está registrada ante ANMAT.
+Varios ensayos de fase 3 completados y de gran tamaño (IMPACT, FULFIL, CAPTAIN, entre otros) respaldan la eficacia de vilanterol, en combinación, en EPOC y asma, lo que corresponde a un nivel de evidencia L1. Sin embargo, la indicación predicha coincide en gran medida con las ya aprobadas, y los datos de seguridad de la etiqueta y del mecanismo de acción no están disponibles, por lo que se recomienda avanzar con salvaguardas.
 
 **Para avanzar se necesita:**
-- Iniciar el trámite de registro ante ANMAT para alguna de las combinaciones fijas disponibles (FF/UMEC/VI / UMEC/VI / FF/VI), priorizando la formulación con mayor demanda local para EPOC
-- Obtener el prospecto aprobado por FDA/EMA para extracción formal de advertencias, contraindicaciones y precauciones de seguridad (actualmente en Data Gap)
-- Confirmar la disponibilidad del dispositivo inhalador ELLIPTA® y la cadena de frío/distribución en el mercado argentino
-- Evaluar la elegibilidad de los datos del estudio SUMMIT y del análisis de mortalidad del IMPACT para inclusión en el dossier regulatorio local
-- Revisar interacciones medicamentosas (DDI) mediante bases especializadas dado que la consulta actual no arrojó resultados
+- Obtener y revisar el prospecto de ANMAT (advertencias y contraindicaciones), actualmente ausente.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Confirmar los textos de indicación aprobados en las 5 autorizaciones locales.
+- Definir si "enfermedad pulmonar obstructiva" aporta una indicación nueva respecto de las ya aprobadas (EPOC y asma).
+- Establecer un plan de monitoreo de seguridad cardiovascular y de interacciones (antidiabéticos, fármacos que prolongan el QT y simpaticomiméticos).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

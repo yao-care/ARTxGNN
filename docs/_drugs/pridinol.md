@@ -2,7 +2,7 @@
 layout: default
 title: Pridinol
 parent: Solo Predicción del Modelo (L5)
-nav_order: 169
+nav_order: 218
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,15 +29,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-Generando el informe de evaluación de reposicionamiento a partir del Evidence Pack proporcionado.
-
----
-
-# Pridinol: De Relajante Muscular a Insomnio
+# Pridinol: De Indicación Original No Especificada a Insomnio
 
 ## Resumen en Una Frase
 
-Pridinol es un fármaco utilizado en algunos países como relajante muscular, con propiedades anticolinérgicas descritas en la literatura. El modelo TxGNN predice que podría ser efectivo para el **Insomnio**, con una puntuación de alta confianza computacional del 99.89%; sin embargo, actualmente **no existe ningún ensayo clínico ni publicación científica** que respalde directamente esta predicción, por lo que se encuentra en el nivel exploratorio más preliminar.
+Pridinol es un relajante muscular de acción central con propiedades anticolinérgicas, comercializado en Argentina principalmente en combinaciones con antiinflamatorios (por ejemplo, meloxicam o diclofenac) para el dolor muscular. En los datos compilados para este informe no consta el texto de la indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para **insomnio**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; el sustento es únicamente la predicción del modelo.
 
 ---
 
@@ -45,23 +42,23 @@ Pridinol es un fármaco utilizado en algunos países como relajante muscular, co
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No registrada (sin autorizaciones disponibles) |
+| Indicación Original | No disponible en los datos compilados (los textos de indicación de las autorizaciones están vacíos) |
 | Nueva Indicación Predicha | Insomnio |
 | Puntaje de Predicción TxGNN | 99.89% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | ✓ Comercializado |
+| Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción de Pridinol. Según la información disponible en la literatura, Pridinol es empleado en algunos países como relajante muscular y presenta propiedades anticolinérgicas documentadas. Adicionalmente, se ha señalado una posible actividad antagonista del receptor H1 de histamina.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, pridinol es un relajante muscular de acción central con propiedades anticolinérgicas (antimuscarínicas), utilizado en cuadros de dolor y espasmo muscular. Su uso en Argentina se observa sobre todo en asociaciones con antiinflamatorios no esteroides.
 
-Esta conexión mecanística con el insomnio es teóricamente plausible: fármacos antihistamínicos H1 (como la difenhidramina y la doxilamina) son ampliamente utilizados como inductores del sueño gracias a su efecto sedante a nivel del sistema nervioso central. Si Pridinol comparte este mecanismo H1 antagonista, existiría una base farmacológica para explorar su potencial en el tratamiento del insomnio.
+Existen dos vías plausibles, ninguna verificada. La primera: la actividad antimuscarínica central podría producir sedación. La segunda: el alivio del espasmo muscular doloroso podría mejorar el sueño de forma indirecta. Ninguna de las dos está documentada en los datos compilados.
 
-Sin embargo, la puntuación elevada del modelo TxGNN (0.9989) puede derivarse de la similitud topológica en el grafo de conocimiento biológico, más que de una validación experimental directa. En ausencia de cualquier respaldo clínico o preclínico específico para esta indicación, la predicción permanece en el nivel más exploratorio (L5) y no es posible confirmar el vínculo mecanístico con los datos actualmente disponibles.
+Además, los fármacos anticolinérgicos también pueden empeorar la calidad del sueño y la función cognitiva, por lo que la dirección del efecto es incierta. El único respaldo es un puntaje alto del modelo (0.9989), un valor derivado del modelo sin validación clínica. La similitud con la indicación original está pendiente de evaluar y la compatibilidad de vías de administración también está pendiente.
 
 ---
 
@@ -79,7 +76,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-Pridinol no cuenta con autorizaciones de comercialización registradas en Argentina. No se dispone de información de licencias ni indicaciones aprobadas para este fármaco en este mercado.
+Se registran 20 autorizaciones vigentes, todas de productos de un solo registro (sin cancelaciones). Se muestran las 5 principales; los textos de indicación aprobada no figuran en los datos compilados.
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 44309 | DIOXAFLEX PLUS | Inyectable x 6 | No disponible |
+| 47973 | DICLOMAR FLEX POTASICO | Comprimidos x 15 | No disponible |
+| 38086 | FLEXIDOL RELAX | Comprimidos recubiertos/ranurados x 20 | No disponible |
+| 54325 | MELOXICAM + PRIDINOL TEVA | Comprimidos 15/4 mg x 10 | No disponible |
+| 44208 | PRINIL | Comprimidos ranurados 4 mg x 10 | No disponible |
 
 ---
 
@@ -94,14 +99,15 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción de TxGNN para Pridinol en insomnio carece completamente de respaldo clínico o bibliográfico directo, y el mecanismo de acción no ha podido ser confirmado con los datos disponibles, lo que impide cualquier evaluación de riesgo-beneficio en esta etapa.
+La única base es una predicción del modelo sin ensayos clínicos ni literatura (nivel L5). Además, la dirección del efecto es incierta, ya que las propiedades anticolinérgicas podrían empeorar el sueño y la cognición.
 
 **Para avanzar se necesita:**
-- Confirmar el mecanismo de acción (MOA) de Pridinol, especialmente su actividad H1 antagonista y perfil anticolinérgico (consultar DrugBank API)
-- Revisar el prospecto oficial de países donde está aprobado (p. ej., España, países latinoamericanos) para obtener advertencias, contraindicaciones e interacciones
-- Identificar estudios preclínicos o reportes de caso que documenten efectos sedantes o sobre el ciclo sueño-vigilia
-- Revisar datos de farmacovigilancia para evaluar si la somnolencia aparece como efecto adverso reportado (indicador indirecto de actividad sobre el sueño)
-- Realizar búsqueda bibliográfica ampliada con términos alternativos (p. ej., "pridinol sedation", "pridinol CNS") para detectar evidencia no recuperada en la búsqueda inicial
+- Obtener y revisar el prospecto de ANMAT (advertencias y contraindicaciones), actualmente sin datos
+- Completar los datos del mecanismo de acción desde DrugBank
+- Confirmar las indicaciones aprobadas de las autorizaciones en Argentina
+- Realizar una búsqueda sistemática de literatura y ensayos sobre pridinol (u otros antimuscarínicos centrales) en trastornos del sueño
+- Evaluar la similitud con la indicación original y la compatibilidad de vías de administración
+- Considerar estudios preclínicos o de mecanismo antes de cualquier ensayo clínico
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

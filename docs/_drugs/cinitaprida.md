@@ -2,7 +2,7 @@
 layout: default
 title: Cinitaprida
 parent: Solo Predicción del Modelo (L5)
-nav_order: 99
+nav_order: 103
 evidence_level: L5
 indication_count: 0
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Mosapride
 parent: Solo Predicción del Modelo (L5)
-nav_order: 157
+nav_order: 196
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,76 +29,62 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Mosapride: De Dispepsia Funcional a Insomnio
+# Mosaprida: De Trastornos Gastrointestinales a Insomnio
 
 ## Resumen en Una Frase
 
-Mosapride es un agente gastroprocinético, agonista selectivo del receptor 5-HT4, utilizado principalmente para el tratamiento de la dispepsia funcional y trastornos de la motilidad gastrointestinal.
-El modelo TxGNN predice que podría ser efectivo para el **Insomnio**, con un puntaje de confianza del 99.87%.
-Sin embargo, la evidencia directa es prácticamente inexistente: los 2 ensayos clínicos identificados evalúan probióticos y solo incluyen Mosapride como medicación de fondo —no como intervención en estudio—, y **no se encontró ninguna publicación** que respalde esta dirección terapéutica.
-
----
+Mosaprida es un agonista selectivo del receptor 5-HT4, utilizado como procinético gastrointestinal para acelerar el vaciamiento gástrico en los países donde está autorizado.
+El modelo TxGNN predice que podría ser efectivo para **insomnio**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata únicamente de una predicción computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
-|------|-----------|
-| Indicación Original | Dispepsia funcional (agente gastroprocinético) |
-| Nueva Indicación Predicha | Insomnio (*Insomnia disease*) |
+|------|------|
+| Indicación Original | Trastornos gastrointestinales (uso procinético; el texto de indicación no figura en las autorizaciones locales) |
+| Nueva Indicación Predicha | Insomnio |
 | Puntaje de Predicción TxGNN | 99.87% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
-| Decisión Recomendada | **Hold** |
-
----
+| Estado de Mercado en Argentina | ✓ Comercializado |
+| Número de Autorizaciones | 10 |
+| Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos completos sobre el mecanismo de acción de Mosapride desde fuentes regulatorias locales. Según la información farmacológica disponible, Mosapride es un **agonista selectivo del receptor 5-HT4 (serotonina tipo 4)**, clasificado como agente gastroprocinético. Su mecanismo primario consiste en facilitar la liberación de acetilcolina en el plexo mientérico del tracto gastrointestinal, acelerando el vaciamiento gástrico y mejorando la motilidad digestiva. Esta acción es altamente selectiva por el receptor 5-HT4 y no genera los efectos antidopaminérgicos centrales de agentes más antiguos como metoclopramida.
+Mosaprida es un agonista selectivo del receptor 5-HT4 (gen HTR4) con actividad procinética gastrointestinal. Su metabolito activo principal (M1) también presenta actividad antagonista sobre el receptor 5-HT3. Actualmente no se dispone de datos detallados y verificados sobre el mecanismo de acción dentro de los datos compilados para este informe.
 
-El vínculo teórico entre Mosapride y el insomnio es **indirecto y especulativo**. Si bien el sistema serotoninérgico en su conjunto participa en la regulación del sueño, el receptor 5-HT4 no es el subtipo principal de los circuitos sueño-vigilia. Existe una relación epidemiológica conocida entre la dispepsia funcional y los trastornos del sueño —los pacientes con patología gastrointestinal funcional frecuentemente presentan insomnio como comorbilidad—, por lo que el grafo de conocimiento utilizado por TxGNN probablemente asocia estos nodos a través de esa proximidad de comorbilidad, no a través de una farmacología directa.
+Un vínculo plausible, pero no validado, pasaría por la modulación serotoninérgica del eje intestino-cerebro: las molestias gastrointestinales pueden alterar el sueño y la señalización por serotonina participa en la regulación del ciclo sueño-vigilia.
 
-El alto puntaje TxGNN (0.999) refleja con mayor probabilidad la **asociación de comorbilidad** dispepsia funcional ↔ insomnio en el grafo de enfermedades, antes que un efecto farmacológico directo sobre el sueño. No existe literatura conocida que sustente que Mosapride tenga eficacia primaria para el insomnio.
+Sin embargo, no existe en los datos disponibles un mecanismo directo que conecte el agonismo 5-HT4 con una mejora del sueño, y este no es un mecanismo hipnótico reconocido. El puntaje alto de TxGNN proviene de un grafo de conocimiento y no constituye evidencia clínica; la predicción debe tratarse solo como generadora de hipótesis.
 
----
+## Información de Mercado en Argentina
 
-## Evidencia de Ensayos Clínicos
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 31829 | VAGANTYL (Sidus) | 5 mg comprimidos recubiertos x 30 | No especificada |
+| 42057 | GASTROKIN (Sanitas) | 5 mg comprimidos recubiertos x 30 | No especificada |
+| 37453 | LEVUSID (Eurofarma) | 5 mg comprimidos x 30 | No especificada |
+| 37452 | LEVUSID (Eurofarma) | 5 mg comprimidos x 20 | No especificada |
+| 27070 | INTESUL (Beta) | 5 mg comprimidos recubiertos x 60 | No especificada |
 
-> ⚠️ **Advertencia de relevancia**: Los 2 ensayos identificados son de Grado C (no relevantes para la hipótesis central). Ambos evalúan probióticos en pacientes con dispepsia funcional; Mosapride aparece únicamente como medicación convencional de fondo, no como intervención en estudio. Ninguno mide el insomnio como desenlace.
-
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|--------|-------------|----------------------|
-| [NCT07182890](https://clinicaltrials.gov/study/NCT07182890) | Fase 4 | Reclutando | 180 | Evalúa *Clostridium butyricum* para ansiedad y depresión en dispepsia funcional (Roma IV). Mosapride citrato es el tratamiento convencional de fondo para el malestar posprandial, no la intervención bajo estudio. No evalúa insomnio. |
-| [NCT07187492](https://clinicaltrials.gov/study/NCT07187492) | Fase 4 | Reclutando | 180 | Evalúa *Bacillus coagulans* para ansiedad y depresión en dispepsia funcional (Roma IV). Mismo diseño: Mosapride como medicación de base estándar, no como intervención principal ni para insomnio. |
-
----
-
-## Evidencia de Literatura
-
-Actualmente no hay literatura relacionada disponible.
-
----
+Existen 10 autorizaciones vigentes en total, todas de monofármaco (también hay MOSAR de Elea y una presentación en gotas de VAGANTYL, 5 mg/ml x 20 ml).
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
-
----
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción de TxGNN para Mosapride en insomnio alcanza únicamente Nivel de Evidencia L5 (solo predicción del modelo, sin estudios reales). El vínculo mecanístico es indirecto —basado en comorbilidad epidemiológica entre dispepsia funcional e insomnio, no en farmacología directa sobre el sueño—, la evidencia clínica directa es nula, y el fármaco no está comercializado en Argentina, lo que elimina el punto de partida regulatorio para una estrategia de reposicionamiento local.
+La única base de la predicción es un puntaje computacional alto, sin ensayos clínicos, literatura ni mecanismo directo que la sustente (nivel L5). Además, no se dispone de información de seguridad del prospecto local.
 
 **Para avanzar se necesita:**
-- Datos completos de mecanismo de acción (MOA) desde DrugBank o literatura primaria para evaluar si existe algún efecto serotoninérgico central relevante
-- Al menos un estudio preclínico o de mecanismo que demuestre efecto directo de Mosapride sobre parámetros polisomnográficos o biomarcadores de sueño
-- Un ensayo clínico exploratorio (Fase 1/2) que evalúe Mosapride como intervención primaria para insomnio, antes de considerar cualquier avance
-- Información de seguridad completa (advertencias, contraindicaciones, interacciones farmacológicas) desde fuentes regulatorias de mercados donde sí está aprobado (Japón, China, India)
-- Revisión de indicaciones aprobadas en mercados internacionales para establecer el perfil regulatorio de referencia antes de contemplar ANMAT
+- Obtener y analizar el prospecto de ANMAT (advertencias y contraindicaciones)
+- Completar los datos del mecanismo de acción desde DrugBank
+- Revisión de literatura preclínica y clínica sobre receptores 5-HT4/5-HT3 y regulación del sueño
+- Establecer una hipótesis mecanística verificable antes de plantear estudios exploratorios
+- Evaluar la compatibilidad de vías de administración y el perfil de seguridad en la población con insomnio
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

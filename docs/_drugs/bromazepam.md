@@ -29,82 +29,64 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Bromazepam: Evaluación Preliminar — Sin Indicación Predicha Disponible
+# Bromazepam: De Indicación Original No Especificada a Trastorno de Migraña
 
 ## Resumen en Una Frase
 
-Bromazepam es una benzodiazepina de potencia intermedia utilizada tradicionalmente en el tratamiento de trastornos de ansiedad y tensión emocional.
-El modelo TxGNN **no ha generado predicciones de nuevas indicaciones** para este fármaco en el ciclo de análisis actual,
-y **no se dispone de ensayos clínicos ni publicaciones** asociadas a reposicionamiento en este momento.
-
----
+Bromazepam es una benzodiazepina comercializada en Argentina; los datos compilados para este informe no incluyen el texto de la indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata únicamente de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No registrada en el Evidence Pack (benzodiazepina ansiolítica según clasificación farmacológica) |
-| Nueva Indicación Predicha | — Sin predicción disponible — |
-| Puntaje de Predicción TxGNN | N/A |
-| Nivel de Evidencia | L5 (sin estudios reales ni predicción del modelo) |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
-| Decisión Recomendada | **Hold** |
+| Indicación Original | No disponible en los datos compilados (las autorizaciones no incluyen texto de indicación) |
+| Nueva Indicación Predicha | Trastorno de migraña |
+| Puntaje de Predicción TxGNN | 99.06% |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Argentina | ✓ Comercializado |
+| Número de Autorizaciones | 20 |
+| Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## ¿Por qué no hay Predicción Disponible?
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información farmacológica conocida, bromazepam es una benzodiazepina que actúa como modulador alostérico positivo de los receptores GABA-A, lo que potencia la neurotransmisión inhibitoria.
 
-Bromazepam (DrugBank ID: DB01558) es una benzodiazepina que actúa como modulador alostérico positivo del receptor GABA-A, potenciando la neurotransmisión inhibitoria. Su uso clínico principal a nivel mundial se centra en el manejo a corto plazo de trastornos de ansiedad, insomnio y tensión muscular asociada a estrés.
+Mecanísticamente, podría plantearse un vínculo con la migraña a través de la reducción de la hiperexcitabilidad cortical y trigeminal, además del alivio de la ansiedad y la tensión muscular, que pueden actuar como desencadenantes o comorbilidades de la migraña.
 
-En el ciclo de análisis actual, el modelo TxGNN no generó predicciones de nuevas indicaciones para Bromazepam. Esto puede deberse a varios factores: (1) la representación del fármaco en el grafo de conocimiento puede ser insuficiente, (2) el perfil farmacológico de las benzodiazepinas tiene un espectro de acción relativamente bien delimitado, o (3) las conexiones entre el nodo del fármaco y nodos de enfermedades no alcanzaron el umbral de confianza requerido por el modelo.
-
-Adicionalmente, existen brechas de datos críticas que limitan el análisis: no se cuenta con información detallada del mecanismo de acción en el Evidence Pack (marcado como Data Gap), ni con datos regulatorios de Argentina, ya que el fármaco no se encuentra comercializado en dicho mercado. Estas limitaciones deben resolverse antes de considerar cualquier evaluación futura de reposicionamiento.
-
----
-
-## Evidencia de Ensayos Clínicos
-
-Actualmente no hay ensayos clínicos relacionados con reposicionamiento registrados para Bromazepam.
-
----
-
-## Evidencia de Literatura
-
-Actualmente no hay literatura relacionada con reposicionamiento disponible para Bromazepam.
-
----
+Sin embargo, este vínculo es especulativo. El puntaje de TxGNN es muy alto (0.99), pero es solo una predicción derivada del modelo, sin estudios que la respalden. Las benzodiazepinas no son una terapia establecida para la migraña, y sus riesgos (dependencia, sedación, tolerancia y cefalea por abuso de medicación) desaconsejan su uso sin evidencia directa.
 
 ## Información de Mercado en Argentina
 
-Bromazepam **no se encuentra comercializado en Argentina**. No se identificaron autorizaciones de comercialización vigentes (0 licencias registradas).
+Se registran 20 autorizaciones vigentes, todas de monofármaco (sin combinaciones) y ninguna cancelada. Se muestran las 5 principales:
 
----
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 7510 | LEXOTANIL (Biopas Argentina) | 6 mg, comprimidos x 50 | No especificada |
+| 7509 | LEXOTANIL (Biopas Argentina) | 3 mg, comprimidos x 50 | No especificada |
+| 10449 | LEXOTANIL (Biopas Argentina) | 3 mg, comprimidos x 30 | No especificada |
+| 3196 | CREOSEDIN (Rontag) | 6 mg, comprimidos x 50 | No especificada |
+| 2768 | NULASTRES (Duncan) | 6 mg, comprimidos x 50 | No especificada |
 
 ## Consideraciones de Seguridad
 
-> Consultar el prospecto para información de seguridad.
->
-> **Nota:** No se pudieron obtener datos de advertencias, contraindicaciones ni interacciones farmacológicas del Evidence Pack actual. Se recomienda consultar las siguientes fuentes para una evaluación de seguridad completa:
-> - Prospecto oficial del fabricante
-> - Base de datos DrugBank (DB01558)
-> - Información de seguridad de benzodiazepinas de clase (riesgo de dependencia, depresión respiratoria, síndrome de abstinencia)
+Consultar el prospecto para información de seguridad.
 
----
+Además, la predicción en sí advierte de los riesgos propios de las benzodiazepinas en este contexto: dependencia, sedación, tolerancia y cefalea por abuso de medicación.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No existe predicción de nueva indicación generada por TxGNN para Bromazepam, y el fármaco no se encuentra comercializado en Argentina. Además, se identificaron brechas de datos críticas (mecanismo de acción, advertencias regulatorias) que impiden cualquier evaluación significativa de reposicionamiento en este momento.
+La predicción se basa únicamente en el modelo (L5), sin ensayos clínicos ni literatura, y las benzodiazepinas no son una terapia establecida para la migraña, con riesgos relevantes de dependencia y cefalea por abuso de medicación.
 
 **Para avanzar se necesita:**
-- Obtener predicciones del modelo TxGNN en un ciclo futuro con mayor cobertura del grafo de conocimiento
-- Completar datos de mecanismo de acción (MOA) desde DrugBank API
-- Obtener información regulatoria completa (advertencias, contraindicaciones) de la fuente regulatoria correspondiente
-- Evaluar el estado de comercialización en mercados de referencia (EMA, FDA) como punto de partida para análisis regulatorio en Argentina
-- Considerar si el perfil de seguridad de las benzodiazepinas (riesgo de dependencia, interacciones con depresores del SNC) es compatible con estrategias de reposicionamiento a largo plazo
+- Obtener y analizar el prospecto de ANMAT (advertencias y contraindicaciones), indispensable para la evaluación de seguridad
+- Confirmar la indicación aprobada en Argentina
+- Completar los datos del mecanismo de acción desde DrugBank
+- Buscar evidencia clínica o preclínica directa de bromazepam en migraña
+- Evaluar la compatibilidad de vías de administración y la similitud con la indicación original
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

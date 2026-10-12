@@ -29,94 +29,93 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# BISOPROLOL: Evaluacion Preliminar — Sin Indicacion Predicha Disponible
+# Bisoprolol: De Hipertensión Arterial a Enfermedad Renal Hipertensiva Maligna
 
 ## Resumen en Una Frase
 
-Bisoprolol es un bloqueador selectivo de los receptores beta-1 adrenergicos, ampliamente utilizado a nivel mundial para el tratamiento de la hipertension arterial, la insuficiencia cardiaca y la angina de pecho.
-Actualmente, el modelo TxGNN **no ha generado predicciones de nuevas indicaciones** para este farmaco,
-y **no se dispone de autorizaciones de comercializacion en Argentina**, lo que limita significativamente la evaluacion de reposicionamiento.
+Bisoprolol es un bloqueador beta-1 adrenérgico selectivo, originalmente utilizado para el tratamiento de la hipertensión arterial.
+El modelo TxGNN predice que podría ser efectivo para **enfermedad renal hipertensiva maligna**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata únicamente de una predicción computacional.
 
 ---
 
-## Resumen Rapido
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | No registrada en el Evidence Pack (conocida internacionalmente: hipertension, insuficiencia cardiaca) |
-| Nueva Indicacion Predicha | — Sin prediccion disponible — |
-| Puntaje de Prediccion TxGNN | N/A |
-| Nivel de Evidencia | L5 (sin estudios ni prediccion aplicable) |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | **Hold** |
+| Indicación Original | Hipertensión arterial (según el grafo de conocimiento; los textos de indicación de las autorizaciones locales están vacíos) |
+| Nueva Indicación Predicha | Enfermedad renal hipertensiva maligna |
+| Puntaje de Predicción TxGNN | 99.94% |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Argentina | ✓ Comercializado |
+| Número de Autorizaciones | 20 |
+| Decisión Recomendada | Hold |
 
 ---
 
-## Por que no hay Prediccion Disponible?
+## ¿Por qué es Razonable esta Predicción?
 
-Bisoprolol (DrugBank ID: DB00612) es un betabloqueante cardioselectivo de amplio uso clinico mundial. Su mecanismo de accion se basa en el bloqueo selectivo de los receptores adrenergicos beta-1, lo que reduce la frecuencia cardiaca, la contractilidad miocardica y la presion arterial. Esta ampliamente indicado para hipertension arterial, insuficiencia cardiaca cronica estable e isquemia miocardica.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, bisoprolol es un bloqueador beta-1 adrenérgico cardioselectivo, con eficacia comprobada en hipertensión, y mecanísticamente podría ser aplicable a complicaciones hipertensivas.
 
-Sin embargo, el modelo TxGNN no ha generado predicciones de nuevas indicaciones para Bisoprolol en esta iteracion. Esto puede deberse a multiples factores: la ausencia del farmaco en el grafo de conocimiento utilizado por TxGNN, la falta de datos regulatorios locales que alimenten el modelo, o bien que las indicaciones existentes ya cubren de manera amplia el espectro terapeutico identificable por el algoritmo.
+La enfermedad renal hipertensiva maligna es una complicación grave de órgano blanco de la hipertensión. El bloqueo beta-1 reduce la presión arterial y la liberación de renina, lo que ofrece un fundamento plausible. El puntaje alto de TxGNN probablemente refleja la cercanía de este nodo con la indicación original de hipertensión en el grafo de conocimiento.
 
-Adicionalmente, el Evidence Pack presenta brechas de datos criticas: no se dispone de informacion sobre el mecanismo de accion (MOA) estructurado, ni de advertencias/contraindicaciones del prospecto local, lo que impide una evaluacion mecanistica de posibles nuevas indicaciones.
+Sin embargo, la hipertensión maligna es una emergencia hipertensiva que suele manejarse con fármacos intravenosos, y los betabloqueantes orales no son de primera línea. La predicción no está respaldada por evidencia clínica.
+
+Otras predicciones del modelo, también con evidencia limitada:
+- **Hipertensión renovascular maligna** (99.94%, L5): la reducción de renina es plausible, pero los inhibidores del sistema renina-angiotensina y la revascularización son las opciones estándar.
+- **Hipertensión pulmonar por enfermedad pulmonar o hipoxia** (99.93%, L4): solo hay estudios preclínicos y fisiológicos indirectos; los betabloqueantes pueden reducir el gasto cardíaco y la capacidad de ejercicio, lo que plantea un riesgo.
+- **Hipertensión pulmonar de mecanismo multifactorial incierto** (99.93%, L5): sin vínculo mecanístico directo; el bloqueo beta puede ser perjudicial para la función del ventrículo derecho.
+- **Síndrome de Braddock** (99.91%, L5): enfermedad muy rara sin fundamento mecanístico evidente; probablemente un artefacto del grafo.
 
 ---
 
-## Evidencia de Ensayos Clinicos
+## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clinicos relacionados registrados, dado que no se ha generado una prediccion de nueva indicacion para evaluar.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ---
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible en el contexto de reposicionamiento, dado que no existe una indicacion predicha por TxGNN.
+Actualmente no hay literatura relacionada disponible para la indicación principal (enfermedad renal hipertensiva maligna).
 
 ---
 
-## Informacion de Mercado en Argentina
+## Información de Mercado en Argentina
 
-Bisoprolol **no se encuentra comercializado en Argentina** segun los registros consultados. No se identificaron autorizaciones de comercializacion vigentes.
-
-| Numero de Autorizacion | Nombre del Producto | Forma Farmaceutica | Indicacion Aprobada |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| — | — | — | Sin autorizaciones registradas |
+| 55671 | PROBLOCK | 5 mg, comprimidos recubiertos x 30 | No especificada |
+| 57506 | PROBLOCK | 10 mg, comprimidos recubiertos x 30 | No especificada |
+| 25417 | CORBIS | 10 mg, comprimidos recubiertos x 30 | No especificada |
+| 58967 | CORBIS | 10 mg, comprimidos recubiertos x 60 | No especificada |
+| 53329 | BISOPIL | 2.5 mg, comprimidos recubiertos x 30 | No especificada |
 
-> **Nota:** La ausencia de autorizaciones locales representa una barrera regulatoria significativa para cualquier iniciativa de reposicionamiento en este mercado.
+Se muestran 5 de las 20 autorizaciones vigentes (todas de monofármaco, ninguna cancelada). Otras marcas: Bisoprolol Teva, Bisofec, Bicardil y Lostaprolol.
 
 ---
 
 ## Consideraciones de Seguridad
 
-No se dispone de datos de seguridad locales (advertencias, contraindicaciones ni interacciones farmacologicas) en el Evidence Pack. Esto se debe a la ausencia de autorizaciones y prospectos locales.
+- **Contraindicaciones según el grafo de conocimiento** (no provienen del prospecto): ansiedad, trastorno neurótico, trastorno distímico, enfermedad renal, pancreatitis, enfermedad hepática, enfermedad de la vesícula biliar, lupus eritematoso sistémico, asma (intrínseca y alérgica), deficiencia de potasio, psoriasis, diabetes mellitus, cetoacidosis diabética, hiperuricemia, hiperparatiroidismo, coma y encefalopatía hepática, ictericia neonatal, anuria, gota, hipercalcemia, nefrocalcinosis, trastornos del metabolismo del fósforo y miastenia gravis.
+- **Interacciones farmacológicas**: se identificaron 100 interacciones. Entre las principales de nivel moderado figuran epinefrina, corticoides (hidrocortisona, dexametasona, betametasona, triamcinolona, budesonida), anticolinérgicos (atropina, hiosciamina, metescopolamina), bupropión, morfina, acetohexamida y sales de calcio. De nivel menor: ácido acetilsalicílico, hidróxido de aluminio y attapulgita.
 
-> Consultar el prospecto internacional para informacion de seguridad. Bisoprolol, como betabloqueante, presenta contraindicaciones generales conocidas que incluyen: bradicardia severa, bloqueo auriculoventricular de segundo o tercer grado, insuficiencia cardiaca descompensada aguda, hipotension, asma bronquial severa y feocromocitoma no tratado.
-
----
-
-## Brechas de Datos Identificadas
-
-| ID | Categoria | Item Faltante | Severidad | Impacto | Fuente de Remediacion |
-|----|-----------|--------------|-----------|---------|----------------------|
-| DG001 | Nivel de Farmaco | Advertencias y contraindicaciones del prospecto | **Bloqueante** | No se puede iniciar la evaluacion de seguridad (S1) | Descargar y analizar prospecto PDF del ente regulatorio |
-| DG002 | Nivel de Farmaco | Mecanismo de accion (MOA) estructurado | Alta | Afecta el analisis de correlacion mecanistica | Consultar API de DrugBank |
+Las advertencias y contraindicaciones del prospecto no estaban disponibles; consultar el prospecto para esa información.
 
 ---
 
-## Conclusion y Proximos Pasos
+## Conclusión y Próximos Pasos
 
-**Decision: Hold**
+**Decisión: Hold**
 
-**Justificacion:**
-No existe una prediccion de nueva indicacion por parte del modelo TxGNN, y el farmaco no esta comercializado en Argentina (0 autorizaciones). La combinacion de ausencia de prediccion y ausencia de presencia regulatoria local hace inviable avanzar en una estrategia de reposicionamiento en este momento.
+**Justificación:**
+La predicción es solo computacional (L5), sin ensayos ni literatura. Además, la hipertensión maligna se maneja habitualmente con fármacos intravenosos, por lo que un betabloqueante oral no es una opción de primera línea.
 
 **Para avanzar se necesita:**
-- Obtener datos estructurados del mecanismo de accion (MOA) desde DrugBank para alimentar futuras iteraciones del modelo
-- Verificar si Bisoprolol esta incluido en el grafo de conocimiento de TxGNN; en caso contrario, incorporarlo
-- Monitorear si se registran nuevas autorizaciones de comercializacion en Argentina que habiliten una evaluacion futura
-- Resolver la brecha de datos bloqueante (DG001): obtener advertencias y contraindicaciones del prospecto de referencia internacional
-- Re-ejecutar la prediccion TxGNN una vez que las brechas de datos criticas hayan sido resueltas
+- Estudios clínicos o literatura que evalúen bisoprolol en enfermedad renal hipertensiva maligna
+- Datos del mecanismo de acción
+- Advertencias y contraindicaciones del prospecto de ANMAT, necesarias para el análisis de seguridad
+- Evaluación de la compatibilidad de la vía de administración y comparación con los tratamientos estándar
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

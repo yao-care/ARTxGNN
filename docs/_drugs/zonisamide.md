@@ -2,7 +2,7 @@
 layout: default
 title: Zonisamide
 parent: Solo Predicción del Modelo (L5)
-nav_order: 184
+nav_order: 248
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,39 +29,35 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-La información del pipeline es suficiente para contexto. Procedo a generar el informe basándome en el Evidence Pack proporcionado y el formato de salida del sistema.
-
----
-
-# Zonisamide: De Epilepsia Parcial a Síndrome de Tourette
+# Zonisamida: De Antiepiléptico a Síndrome de Tourette
 
 ## Resumen en Una Frase
 
-Zonisamide es un fármaco antiepiléptico de amplio espectro, desarrollado originalmente como terapia coadyuvante para el tratamiento de las crisis epilépticas parciales, sin registro vigente en Argentina. El modelo TxGNN predice que podría ser efectivo para el **Síndrome de Tourette**, con una puntuación de predicción del **99,85%**. Sin embargo, actualmente **no existen ensayos clínicos ni publicaciones** que respalden directamente esta dirección terapéutica, lo que limita la predicción al nivel de hipótesis computacional.
+Zonisamida es un fármaco antiepiléptico (anticonvulsivante) comercializado en Argentina bajo la marca KINAPLASE. El modelo TxGNN predice que podría ser efectivo para el **síndrome de Tourette**, con un puntaje de 99.85%. Hasta ahora no hay **ningún ensayo clínico ni publicación** que respalde esta dirección, por lo que es solo una predicción del modelo.
 
 ---
 
 ## Resumen Rápido
 
 | Item | Contenido |
-|------|-----------|
-| Indicación Original | Epilepsia parcial (antiepiléptico de amplio espectro; sin registro en Argentina) |
+|------|------|
+| Indicación Original | No especificada en las autorizaciones de ANMAT (el texto de indicación está vacío); la literatura la describe como fármaco antiepiléptico |
 | Nueva Indicación Predicha | Síndrome de Tourette |
-| Puntaje de Predicción TxGNN | 99,85% |
+| Puntaje de Predicción TxGNN | 99.85% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | ✓ Comercializado |
+| Número de Autorizaciones | 2 |
 | Decisión Recomendada | Hold |
 
 ---
 
-## ¿Por Qué es Razonable esta Predicción?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en este Evidence Pack. Sin embargo, la literatura científica documentada en el propio conjunto de evidencia describe a Zonisamide como un antiepiléptico con mecanismos múltiples: bloqueo de canales de sodio dependientes de voltaje, bloqueo de canales de calcio tipo T (Cav3.2), potenciación GABAérgica, e inhibición de la síntesis y liberación de dopamina —incluyendo la inhibición de la tirosina hidroxilasa—. Es precisamente este último efecto el que establece una conexión teórica con el Síndrome de Tourette.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la fuente principal de fármacos. Según la información conocida, zonisamida bloquea los canales de sodio dependientes de voltaje y los canales de calcio tipo T. También modula la transmisión dopaminérgica y serotoninérgica. Su eficacia como antiepiléptico está establecida, y mecanísticamente podría relacionarse con los circuitos de los tics, en los que participan la dopamina y la excitabilidad neuronal.
 
-El Síndrome de Tourette se caracteriza por una hiperactividad dopaminérgica en el estriado y una disfunción del circuito córtico-estriado-talámico. Dado que los antagonistas dopaminérgicos (antipsicóticos) constituyen el pilar del tratamiento farmacológico de los tics, la capacidad de Zonisamide de modular la neurotransmisión dopaminérgica plantea una hipótesis mecanística superficialmente plausible. No obstante, el perfil dopaminérgico de Zonisamide no ha sido validado en modelos preclínicos de tics ni en poblaciones clínicas con este diagnóstico.
+Esta relación es especulativa. No se aportaron ensayos ni literatura que la sustenten. Además, una revisión pragmática (PMID 36005856) sugiere que los medicamentos antiepilépticos pueden **inducir** trastorno de tics y trastorno obsesivo-compulsivo. Por eso la dirección del efecto es incierta: el fármaco podría incluso empeorar el cuadro.
 
-La elevada puntuación TxGNN (99,85%) refleja muy probablemente asociaciones estructurales indirectas en el grafo de conocimiento —como la relación «fármaco antiepiléptico → trastorno del neurodesarrollo»— antes que una conexión mecanística directa y validada. En ausencia total de datos clínicos o preclínicos específicos para esta indicación, la predicción permanece como hipótesis computacional sin respaldo empírico.
+El puntaje alto de TxGNN refleja la cercanía en el grafo de conocimiento entre el fármaco y la enfermedad. No es evidencia clínica.
 
 ---
 
@@ -77,11 +73,30 @@ Actualmente no hay literatura relacionada disponible.
 
 ---
 
+## Información de Mercado en Argentina
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
+|---------|------|------|-----------|
+| 40729 | KINAPLASE | 100 mg cápsulas x 30 | Teva Argentina |
+| 40728 | KINAPLASE | 50 mg cápsulas x 30 | Teva Argentina |
+
+Ambas autorizaciones están vigentes y corresponden a productos de principio activo único.
+
+---
+
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento (PrimeKG, no texto de prospecto)**: el grafo asocia zonisamida con contraindicación en las siguientes condiciones:
+  - Trastornos psiquiátricos: ansiedad, trastorno neurótico, trastorno distímico, trastornos psicóticos, esquizofreniforme y esquizoafectivo, y trastorno mental en general.
+  - Enfermedades renales y hepáticas: enfermedad renal, piouréter, nefrolitiasis (incluida la susceptibilidad por SLC26A1), nefropatía aguda por uratos, enfermedad hepática y enfermedad de la vesícula biliar.
+  - Trastornos metabólicos y digestivos: acidosis metabólica y enfermedad diarreica.
+  - Trastornos hematológicos: agranulocitosis y diversas formas de neutropenia (congénita grave, cíclica, idiopática del adulto, síndrome de Kostmann, entre otras).
+- **Interacciones farmacológicas** (se identificaron 100; se muestran las principales):
+  - **Mayores**: anticolinérgicos como atropina, escopolamina, hiosciamina, metescopolamina, glicopirronio, clidinio, diciclomina, trospio, mepenzolato y propantelina; también metformina.
+  - **Moderadas**: aprepitant, morfina, dexametasona, cimetidina, claritromicina, dronabinol, nabilona, metoclopramida y miconazol.
+- **Señal de seguridad específica**: hay un reporte de manía inducida por zonisamida (PMID 2109869) y una revisión que vincula los antiepilépticos con trastornos de tics (PMID 36005856). Ambos son relevantes para una población psiquiátrico-neurológica como la del síndrome de Tourette.
 
-> **Nota importante**: Zonisamide es un derivado de sulfonamida. Esta clase farmacológica está asociada a reacciones de hipersensibilidad graves y, relevante para otras predicciones del mismo modelo, es una causa documentada de metahemoglobinemia inducida por fármacos. Este perfil de riesgo deberá evaluarse en detalle antes de cualquier exploración clínica en nuevas indicaciones.
+Para advertencias y contraindicaciones oficiales, consultar el prospecto aprobado por ANMAT.
 
 ---
 
@@ -90,15 +105,16 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción TxGNN se sustenta únicamente en la estructura del grafo de conocimiento, sin ningún ensayo clínico, estudio observacional, reporte de caso ni dato preclínico que valide la eficacia de Zonisamide en el Síndrome de Tourette. El nivel de evidencia L5 no justifica inversión de recursos en exploración clínica en este momento.
+La predicción para síndrome de Tourette se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura. Además, existe una señal de que los antiepilépticos pueden inducir tics, y el grafo de conocimiento registra varias contraindicaciones psiquiátricas. No hay base suficiente para avanzar.
 
 **Para avanzar se necesita:**
-- Estudios preclínicos en modelos animales de tics o Síndrome de Tourette que validen la hipótesis dopaminérgica
-- Al menos un reporte de caso o estudio piloto documentado en humanos
-- Datos completos de mecanismo de acción (MOA) obtenidos desde DrugBank API
-- Perfil de seguridad completo desde el prospecto oficial (advertencias, contraindicaciones)
-- Evaluación de interacciones farmacológicas con los agentes habitualmente utilizados en Tourette (antipsicóticos de primera y segunda generación, alfa-2 agonistas como clonidina/guanfacina)
-- Análisis diferencial frente a los tratamientos estándar establecidos para esta indicación
+- Revisión de la literatura preclínica y clínica sobre zonisamida en trastornos de tics y síndrome de Tourette.
+- Datos detallados del mecanismo de acción (MOA) desde DrugBank.
+- Obtención y análisis del prospecto de ANMAT (advertencias y contraindicaciones) para completar el cribado de seguridad.
+- Evaluación específica del riesgo de empeoramiento de tics o síntomas psiquiátricos.
+- Si se prosigue, un estudio piloto bien diseñado antes de considerar cualquier uso.
+
+**Nota:** entre las otras predicciones de zonisamida, la **epilepsia de ausencia** tiene mayor respaldo (nivel L3). Se apoya en estudios pequeños (PMID 15847848 y 24907183), pero tampoco incluye ensayos de Fase 3. Podría ser una alternativa a evaluar con mayor prioridad que el síndrome de Tourette.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

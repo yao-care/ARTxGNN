@@ -2,7 +2,7 @@
 layout: default
 title: Clindamicina
 parent: Solo Predicción del Modelo (L5)
-nav_order: 106
+nav_order: 110
 evidence_level: L5
 indication_count: 0
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Travoprost
 parent: Solo Predicción del Modelo (L5)
-nav_order: 179
+nav_order: 239
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,79 +29,75 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-Con base en el Evidence Pack proporcionado y las instrucciones del sistema, genero el informe a continuación:
-
----
-
-# Travoprost: De Glaucoma de Ángulo Abierto a Calcifilaxi Visceral
+# Travoprost: De Glaucoma de Ángulo Abierto a Calcifilaxis Visceral
 
 ## Resumen en Una Frase
 
-Travoprost es un análogo de prostaglandina utilizado globalmente para el tratamiento del glaucoma de ángulo abierto y la hipertensión ocular, aunque no cuenta con ninguna autorización de comercialización registrada en Argentina. El modelo TxGNN predice que podría ser efectivo para la **Calcifilaxi Visceral**, con un puntaje de predicción de **99,9998%**. Sin embargo, esta indicación carece de cualquier respaldo empírico directo: no existen ensayos clínicos ni publicaciones científicas que la sustenten, y el vínculo mecanístico es extremadamente indirecto.
-
----
+Travoprost es un análogo de la prostaglandina F2-alfa (agonista del receptor FP) de uso oftálmico tópico, utilizado originalmente para el tratamiento del glaucoma de ángulo abierto y la hipertensión ocular.
+El modelo TxGNN predice que podría ser efectivo para **calcifilaxis visceral**, pero hasta ahora **no existen ensayos clínicos ni publicaciones** que respalden esta dirección específica, por lo que se trata solo de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Glaucoma de ángulo abierto / Hipertensión ocular |
-| Nueva Indicación Predicha | Calcifilaxi Visceral (Visceral Calciphylaxis) |
-| Puntaje de Predicción TxGNN | 99,9998% |
+| Indicación Original | Glaucoma de ángulo abierto e hipertensión ocular (según la base de conocimiento del modelo; los textos de indicación de las autorizaciones locales están vacíos) |
+| Nueva Indicación Predicha | Calcifilaxis visceral |
+| Puntaje de Predicción TxGNN | 99.99% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | ✓ Comercializado |
+| Número de Autorizaciones | 8 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción de Travoprost en la base de datos consultada. Según la información disponible en el contexto clínico, Travoprost es un agonista selectivo del receptor FP de PGF2α (prostaglandina F2α), cuya eficacia para reducir la presión intraocular está ampliamente documentada en ensayos clínicos de Fase 3 y 4. Su acción principal consiste en aumentar el drenaje uveoescleral del humor acuoso.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, travoprost es un análogo de la prostaglandina F2-alfa que actúa como agonista del receptor FP; en el ojo reduce la presión intraocular, principalmente al aumentar el flujo de salida uveoescleral. Su eficacia en glaucoma e hipertensión ocular está bien establecida.
 
-La calcifilaxi visceral es una enfermedad grave y poco frecuente, caracterizada por calcificación progresiva de la capa media de los vasos pequeños y medianos, trombosis microvascular e isquemia tisular. La fisiopatología involucra trastornos del metabolismo del calcio y del fósforo, típicamente en el contexto de insuficiencia renal crónica. El sistema de las prostaglandinas participa de forma amplia en la regulación del tono vascular y la inflamación; sin embargo, el agonismo específico del receptor FP (PGF2α) ejerce efectos vasoconstrictores sobre el músculo liso vascular, lo cual es teóricamente contraproducente en una enfermedad que requiere protección y vasodilatación de los microvasos afectados.
+Respecto de la calcifilaxis visceral (arteriolopatía urémica calcificante), los datos compilados no sustentan un vínculo mecanístico plausible. Aunque los análogos de prostanoides tienen efectos vasoactivos locales, travoprost se administra por vía tópica ocular con baja exposición sistémica, y la relación entre la indicación original y la nueva sigue sin evaluarse.
 
-La evaluación del modelo TxGNN sugiere que esta predicción probablemente se origina en conexiones amplias y poco específicas entre el nodo "prostaglandina" y nodos de "enfermedad vascular" dentro del grafo de conocimiento biomédico, sin que exista una ruta biológica directa hacia la calcifilaxi visceral. La ausencia absoluta de evidencia clínica o preclínica, sumada al posible efecto vasoconstrictor adverso, confirma que el vínculo mecanístico es extremadamente indirecto y que la dirección del efecto es incierta.
-
----
+Por ello, la puntuación alta del modelo (99.99%) debe interpretarse con cautela: refleja una asociación dentro del grafo de conocimiento, no evidencia clínica. Otras predicciones del mismo farmaco (síndromes del desfiladero torácico, enfermedad vascular, angiodisplasia gástrica, síndrome del dedo azul, entre otras) presentan la misma situación: ausencia de ensayos y de sustento mecanístico.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados.
-
----
+Actualmente no hay ensayos clínicos relacionados registrados para calcifilaxis visceral.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
-
----
+Actualmente no hay literatura relacionada disponible para calcifilaxis visceral.
 
 ## Información de Mercado en Argentina
 
-Travoprost no cuenta con ninguna autorización de comercialización registrada en Argentina a la fecha de este informe. No se registran licencias, formas farmacéuticas aprobadas ni indicaciones autorizadas por ANMAT.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 38893 | ARVO (Elea) | Solución oftálmica x 2.5 ml | No disponible en los datos |
+| 43391 | GLAUNOT (Lab Internacion) | Solución oftálmica x 2.5 ml | No disponible en los datos |
+| 32252 | GLAUCOPROST (Max Vision) | Solución oftálmica x 3 ml | No disponible en los datos |
+| 56010 | TRAVOPLOS (Novoplos) | Solución oftálmica x 5 ml | No disponible en los datos |
+| 52151 | GLAUNOT SC (Lab Internacion) | Solución oftálmica x 2.5 ml | No disponible en los datos |
 
----
+Se muestran 5 de las 8 autorizaciones vigentes (todas de tipo monofármaco y ninguna cancelada).
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento** (no provienen del prospecto): uveítis, enfermedad del iris, enfermedad del cuerpo ciliar, panuveítis, iritis, edema macular cistoide y edema macular retiniano.
+- **Interacciones farmacológicas**: se identificaron 49 posibles interacciones, todas con nivel de gravedad no clasificado. Entre las listadas figuran calcitriol, pantoprazol, sucralfato, morfina, metformina, omeprazol, prednisona, prednisolona, triamcinolona, simvastatina y ácido acetilsalicílico.
+- **Señal de seguridad relevante**: un reporte de caso describe efusión uveal con desprendimiento de retina exudativo inducido por travoprost tópico en un paciente con síndrome de Sturge-Weber-Krabbe (trastorno de malformación vascular), lo que sugiere cautela en pacientes con malformaciones vasculares.
+- En la bibliografía, la hiperemia conjuntival es un efecto adverso frecuente de travoprost (hasta cerca del 50% de los pacientes en una revisión).
 
----
+Para advertencias y contraindicaciones del prospecto, consultar el prospecto aprobado por ANMAT.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción de TxGNN para calcifilaxi visceral se clasifica en el nivel más bajo de evidencia (L5), sin ningún ensayo clínico ni publicación que la respalde; el vínculo mecanístico es extremadamente indirecto y potencialmente contraproducente, dado que el agonismo FP (PGF2α) puede ejercer vasoconstricción en contextos donde se requiere protección microvascular. Adicionalmente, Travoprost no está comercializado en Argentina y solo está disponible como formulación oftálmica tópica, con absorción sistémica mínima, lo que hace inviable su aplicación inmediata en indicaciones sistémicas.
+La predicción para calcifilaxis visceral se basa únicamente en el modelo (nivel L5), sin ensayos ni literatura, y los datos no respaldan un mecanismo plausible dada la vía tópica ocular y la baja exposición sistémica.
 
 **Para avanzar se necesita:**
-- Obtener datos del mecanismo de acción (MOA) detallado desde DrugBank para confirmar o descartar efectos vasculares sistémicos
-- Consultar la ficha técnica/prospecto para identificar advertencias y contraindicaciones sistémicas relevantes
-- Desarrollar hipótesis preclínicas específicas que evalúen el efecto del agonismo del receptor FP en modelos de calcificación vascular *in vitro* o *in vivo*
-- Evaluar la viabilidad de formulaciones sistémicas de Travoprost, ya que la formulación oftálmica actual tiene biodisponibilidad sistémica insuficiente para tratar enfermedades vasculares generalizadas
-- Considerar priorizar en su lugar la indicación **Enfermedad Vascular** (Rank #5, Nivel L4), que cuenta con 15 ensayos clínicos y 20 publicaciones como contexto de fondo, y presenta una hipótesis más desarrollable a corto plazo
+- Datos del mecanismo de acción del farmaco y análisis de su relación con la fisiopatología de la calcifilaxis
+- Estudios preclínicos que justifiquen un efecto en calcificación vascular
+- Evaluación de la compatibilidad de vía de administración (la presentación actual es solo oftálmica)
+- Obtención y revisión del prospecto de ANMAT (advertencias y contraindicaciones)
+- Revisión de las demás predicciones de mayor rango, ninguna de las cuales cuenta actualmente con evidencia directa
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Aniracetam
-parent: Solo Predicción del Modelo (L5)
+parent: Evidencia Moderada (L3-L4)
 nav_order: 33
-evidence_level: L5
+evidence_level: L4
 indication_count: 1
 ---
 
 # Aniracetam
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,68 +29,70 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Aniracetam: Evaluación Preliminar — Sin Indicaciones Predichas por TxGNN
+# Aniracetam: De Indicación No Especificada a Insomnio
 
 ## Resumen en Una Frase
 
-Aniracetam es un fármaco nootrópico de la familia de los racetams, investigado para trastornos cognitivos y deterioro cerebrovascular. El modelo TxGNN **no ha generado predicciones de nuevas indicaciones** para este compuesto en el ciclo de análisis actual. Además, el fármaco **no se encuentra comercializado en Argentina** y presenta múltiples brechas de datos que impiden una evaluación completa.
+Aniracetam es un fármaco comercializado en Argentina como PERGAMID (Pfizer); en los registros de ANMAT disponibles no consta el texto de su indicación aprobada, y se lo describe de forma general como un nootrópico (potenciador cognitivo).
+El modelo TxGNN predice que podría ser efectivo para **insomnio**, pero actualmente no hay ensayos clínicos registrados y solo se dispone de **2 publicaciones** de apoyo limitado.
 
 ---
 
 ## Resumen Rápido
 
 | Item | Contenido |
-|------|-----------|
-| Indicación Original | Sin indicaciones registradas en las fuentes consultadas |
-| Nueva Indicación Predicha | — (Sin predicciones TxGNN disponibles) |
-| Puntaje de Predicción TxGNN | N/A |
-| Nivel de Evidencia | **L5** — Solo registro en DrugBank, sin estudios ni predicciones |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
-| Decisión Recomendada | **Hold** |
+|------|------|
+| Indicación Original | No disponible en los registros de ANMAT compilados |
+| Nueva Indicación Predicha | Insomnio |
+| Puntaje de Predicción TxGNN | 99,23% |
+| Nivel de Evidencia | L4 |
+| Estado de Mercado en Argentina | ✓ Comercializado |
+| Número de Autorizaciones | 2 |
+| Decisión Recomendada | Hold |
 
 ---
 
-## Por qué no se Generaron Predicciones?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción (MOA) en las fuentes integradas al pipeline. Según la información conocida, Aniracetam pertenece a la familia de los racetams, compuestos que actúan como moduladores alostéricos positivos de los receptores AMPA glutamatérgicos y que también presentan actividad colinérgica. Ha sido investigado en algunos países (particularmente en Europa y Japón) para el tratamiento de trastornos cognitivos asociados a enfermedad cerebrovascular y demencia.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, aniracetam es un nootrópico que se describe como modulador de la transmisión glutamatérgica de tipo AMPA, y la base de datos farmacológica consultada lo muestra como ligando de los receptores GluA1, GluA2, GluA3 y GluA4 (genes GRIA1–GRIA4). Se trata de conocimiento de contexto y no de una confirmación del mecanismo en los datos aportados.
 
-La ausencia de predicciones por parte de TxGNN puede deberse a varios factores: (1) la falta de indicaciones originales registradas en las bases de datos consultadas limita la capacidad del modelo para establecer relaciones fármaco-enfermedad; (2) la ausencia de datos de MOA estructurados reduce la conectividad del fármaco dentro del grafo de conocimiento; y (3) el fármaco no posee autorizaciones sanitarias en Argentina, lo que puede haberlo excluido de las redes de evidencia regulatoria locales.
+Mecanísticamente, la modulación glutamatérgica (y posibles efectos colinérgicos y monoaminérgicos) podría influir en circuitos relacionados con el sueño. Sin embargo, no hay una indicación original documentada con la cual comparar, por lo que no es posible establecer una relación directa entre la indicación original y el insomnio.
 
-Sin datos de predicción, no es posible evaluar la razonabilidad de un reposicionamiento potencial en este momento. Se recomienda completar las brechas de datos identificadas antes de volver a ejecutar el modelo.
+El puntaje de TxGNN (0,992) es únicamente una predicción computacional. La única señal clínica es un informe de 1998 en el que aniracetam se usó junto con zopiclona; esto apunta a un contexto de terapia complementaria y no a un efecto propio de aniracetam sobre el insomnio.
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para indicaciones predichas, dado que TxGNN no generó predicciones para este fármaco.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ---
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible en el contexto de indicaciones predichas por TxGNN.
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [9628149](https://pubmed.ncbi.nlm.nih.gov/9628149/) | 1998 | Informe clínico de terapia combinada | Psychiatry and Clinical Neurosciences | Nueve pacientes de edad avanzada con insomnio asociado a trastornos cerebrales (infarto cerebral, cerebroatrofia, Alzheimer, Parkinson) recibieron zopiclona más aniracetam; el tratamiento fue efectivo en 7 de 9 casos (78%). Diseño no controlado y muestra muy pequeña. |
+| [25532388](https://pubmed.ncbi.nlm.nih.gov/25532388/) | 2014 | Observacional (análisis de datos del mundo real) | Zhongguo Zhong Yao Za Zhi (China Journal of Chinese Materia Medica) | Análisis de datos hospitalarios de 20 hospitales nacionales sobre enfermedades concurrentes y uso de medicamentos (medicina tradicional china y occidental) en pacientes con insomnio. No evalúa directamente la eficacia de aniracetam. |
 
 ---
 
 ## Información de Mercado en Argentina
 
-Aniracetam **no se encuentra comercializado en Argentina**. No se identificaron autorizaciones sanitarias vigentes (ANMAT) para este principio activo.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 17308 | PERGAMID | 750 mg comprimidos x 60 | No especificada en los datos disponibles |
+| 17307 | PERGAMID | 750 mg comprimidos x 30 | No especificada en los datos disponibles |
+
+Ambas autorizaciones son de monofármaco, vigentes, y su titular es Pfizer.
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. Las fuentes consultadas no contienen datos de advertencias, contraindicaciones ni interacciones farmacológicas para Aniracetam en el contexto regulatorio argentino.
+- **Interacciones Farmacológicas**: la consulta se completó y devolvió 4 registros, todos de tipo farmacológico (no interacciones medicamentosas clínicas con nivel de gravedad): aniracetam actúa como ligando de los receptores de glutamato GluA1, GluA2, GluA3 y GluA4 (GRIA1–GRIA4). No se informan interacciones con otros fármacos.
 
----
-
-## Brechas de Datos Identificadas
-
-| ID | Categoría | Item Faltante | Severidad | Impacto | Remediación |
-|----|-----------|---------------|-----------|---------|-------------|
-| DG001 | Nivel de Fármaco | Advertencias y contraindicaciones del prospecto (TFDA) | **Bloqueante** | No es posible realizar la evaluación inicial de seguridad (S1) | Descargar y analizar PDF del prospecto desde el sitio oficial |
-| DG002 | Nivel de Fármaco | Mecanismo de Acción (MOA) | **Alta** | Afecta el análisis de relación mecanística | Consultar API de DrugBank |
+Consultar el prospecto para información sobre advertencias y contraindicaciones.
 
 ---
 
@@ -99,13 +101,14 @@ Consultar el prospecto para información de seguridad. Las fuentes consultadas n
 **Decisión: Hold**
 
 **Justificación:**
-Aniracetam no cuenta con predicciones de nuevas indicaciones por parte de TxGNN, no está comercializado en Argentina, y presenta brechas de datos críticas (MOA y seguridad) que impiden una evaluación significativa de reposicionamiento. No hay base suficiente para avanzar en este momento.
+La predicción de TxGNN es alta, pero la evidencia real se limita a un informe clínico pequeño de 1998 con terapia combinada (zopiclona + aniracetam) y a un estudio observacional que no evalúa eficacia. No hay ensayos clínicos, no se conoce la indicación aprobada localmente y no se dispone de datos de seguridad del prospecto.
 
 **Para avanzar se necesita:**
-- Completar los datos de mecanismo de acción (MOA) consultando la API de DrugBank (DG002)
-- Obtener información de seguridad del prospecto oficial (DG001)
-- Re-ejecutar el modelo TxGNN una vez completadas las brechas de datos para verificar si se generan predicciones
-- Evaluar si existen fuentes regulatorias alternativas (EMA, PMDA Japón) que proporcionen datos de indicaciones aprobadas en otras jurisdicciones para enriquecer el grafo de conocimiento
+- Obtener y analizar el prospecto de ANMAT (advertencias, contraindicaciones e indicación aprobada de PERGAMID)
+- Confirmar el mecanismo de acción a partir de fuentes como DrugBank
+- Evaluar la plausibilidad mecanística entre la modulación AMPA y los circuitos del sueño
+- Buscar o diseñar estudios controlados que evalúen aniracetam solo (no en combinación) en insomnio
+- Evaluar la compatibilidad de vías de administración y la similitud con la indicación original una vez esta última esté definida
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

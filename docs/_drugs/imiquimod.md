@@ -2,7 +2,7 @@
 layout: default
 title: Imiquimod
 parent: Evidencia Alta (L1-L2)
-nav_order: 135
+nav_order: 164
 evidence_level: L2
 indication_count: 10
 ---
@@ -29,114 +29,90 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Imiquimod: De Queratosis Actínica a Neoplasia Premaligna
+# Imiquimod: De Verrugas Comunes y Queratosis Actínica a Neoplasia Premaligna
 
 ## Resumen en Una Frase
 
-Imiquimod (Aldara®) es un agonista del receptor Toll-like 7 (TLR7) aprobado mundialmente para el tratamiento de la queratosis actínica, el carcinoma basocelular superficial y las verrugas genitales externas; sin embargo, actualmente no se encuentra comercializado en Argentina.
-El modelo TxGNN predice que podría ser efectivo para **Neoplasia Premaligna** —incluyendo la neoplasia intraepitelial cervical (CIN), vulvar (VIN) y anal (AIN)—, con **19 ensayos clínicos** y **9 publicaciones** que actualmente respaldan esta dirección.
-La base de evidencia incluye dos revisiones Cochrane independientes y ensayos de Fase 2 y 3, lo que posiciona este candidato en un nivel de evidencia L2.
-
----
+Imiquimod es un modificador de la respuesta inmune de aplicación tópica, utilizado originalmente para verrugas anogenitales, queratosis actínica y carcinoma basocelular superficial.
+El modelo TxGNN predice que podría ser efectivo para **neoplasia premaligna**,
+con **2 ensayos clínicos** y **9 publicaciones** que actualmente respaldan esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Queratosis actínica, carcinoma basocelular superficial, verrugas genitales externas (aprobación global; sin registro en Argentina) |
-| Nueva Indicación Predicha | Neoplasia Premaligna (CIN, VIN, AIN, queilitis actínica) |
+| Indicación Original | Verruga común, infección anogenital por virus del papiloma humano, queratosis actínica y carcinoma basocelular multifocal superficial (según la base de conocimiento del modelo; las autorizaciones locales no incluyen texto de indicación) |
+| Nueva Indicación Predicha | Neoplasia premaligna |
 | Puntaje de Predicción TxGNN | 99.92% |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | ✓ Comercializado |
+| Número de Autorizaciones | 10 |
 | Decisión Recomendada | Proceed with Guardrails |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por qué es Razonable esta Predicción?
+Imiquimod es un agonista del receptor tipo Toll 7 (TLR7). Al activarlo, induce localmente la producción de interferón alfa, TNF-alfa e interleucina 12, y estimula respuestas inmunes innatas y adaptativas de tipo citotóxico. Los datos compilados para este informe no incluyen una descripción formal del mecanismo de acción, por lo que esta explicación se basa en el conocimiento general del fármaco y en el razonamiento de la evidencia revisada.
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia analizado. Sin embargo, a partir de la información contenida en los ensayos clínicos y la literatura recuperados, imiquimod es un **agonista del receptor Toll-like 7 (TLR7)**, un receptor de reconocimiento de patrones de la inmunidad innata. Al activar TLR7, imiquimod desencadena la producción de interferón alfa (IFN-α) y otras citocinas proinflamatorias, reforzando la vigilancia inmunológica local frente a células displásicas e induciendo señales proapoptóticas en epitelios alterados. Este mecanismo es la base de su aprobación global para la queratosis actínica —una lesión premaligna por excelencia— y el carcinoma basocelular superficial.
+Las indicaciones originales (queratosis actínica, verrugas por HPV, carcinoma basocelular superficial) comparten con las lesiones premalignas el hecho de ser alteraciones epiteliales localizadas, muchas de ellas asociadas a HPV, en las que la activación inmune local puede eliminar células anormales. La queratosis actínica es en sí misma una lesión premaligna, por lo que la nueva indicación se solapa con un uso ya establecido.
 
-La queratosis actínica (indicación original) y las neoplasias premalignas intraepiteliales como CIN, VIN y AIN comparten un sustrato biológico común: son lesiones displásicas de epitelios estratificados con potencial de progresión maligna, frecuentemente asociadas a infección por VPH de alto riesgo o a daño actínico crónico. El denominador fisiopatológico es la evasión de la vigilancia inmune local en epitelios accesibles, exactamente el punto de acción del TLR7. La extensión de la indicación no es, por tanto, un salto mecanístico, sino una ampliación anatómica y etiológica de la misma vía de señalización.
-
-El respaldo es sólido: dos revisiones Cochrane independientes —PMID 21491403 (VIN de alto grado) y PMID 23235673 (AIN asociada a VPH)— documentan eficacia clínicamente relevante. El ensayo de Fase 3 NCT02329171 (CIN 2-3) fue diseñado directamente para esta expansión de indicación, aunque se terminó por dificultades de reclutamiento, lo que no invalida la racionalidad mecanística. El **guard point** crítico es la accesibilidad anatómica: imiquimod sólo es aplicable de forma efectiva en lesiones superficiales accesibles a formulación tópica; las lesiones profundas o endoluminales requieren formulaciones especiales (nanoencapsulación, instilación intravesical como TMX-101).
-
----
+La evidencia es de apoyo pero heterogénea según la localización anatómica: incluye queratosis actínica, neoplasia intraepitelial vulvar, anal y cervical, y papulosis bowenoide.
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT01720407](https://clinicaltrials.gov/study/NCT01720407) | Fase 3 | Completado | 259 | Imiquimod como tratamiento neoadyuvante para reducir el tamaño de escisión en lentigo maligno facial (melanosis de Dubreuilh); directamente relevante para enfermedad intraepidérmica premaligna de gran tamaño |
-| [NCT03233412](https://clinicaltrials.gov/study/NCT03233412) | Fase 2 | Completado | 90 | ECA aleatorizado que evalúa la eficacia del tratamiento tópico con imiquimod en lesiones intraepiteliales cervicales de alto grado (CIN); publicado con resultados positivos |
-| [NCT02329171](https://clinicaltrials.gov/study/NCT02329171) | Fase 3 | Terminado | 9 | ECA multicéntrico de imiquimod tópico en CIN 2-3 como alternativa no invasiva a LLETZ; terminado por dificultades de reclutamiento (n=9), pero diseño Fase 3 directamente relevante |
-| [NCT01229319](https://clinicaltrials.gov/study/NCT01229319) | Fase 4 | Desconocido | 20 | Imiquimod 3.75% crema post-criocirugía en queratosis actínicas hipertróficas en dorso de manos y antebrazos; aplicación directa sobre lesión premaligna en contexto de uso aprobado |
-| [NCT00175643](https://clinicaltrials.gov/study/NCT00175643) | Fase 3 | Completado | 20 | Imiquimod 5% crema 3 días/semana en 1-2 ciclos para queratosis actínicas de cabeza; evaluación de duración del efecto tras tratamiento en lesión premaligna |
-| [NCT04219358](https://clinicaltrials.gov/study/NCT04219358) | Fase 1 | Terminado | 49 | Comparación de imiquimod 5% vs. 0.05% vs. nanoencapsulado en queilitis actínica (lesión premaligna del labio inferior); terminado prematuramente pero único ensayo en esta localización |
-| [NCT04883645](https://clinicaltrials.gov/study/NCT04883645) | Fase 1 Temprana | Completado | 16 | Imiquimod como agonista TLR7 en inmunoterapia neoadyuvante para carcinoma escamoso oral temprano (Estadio I-II); demuestra el mecanismo TLR7 en epitelio mucoso y viabilidad como terapia neoadyuvante |
-| [NCT02242929](https://clinicaltrials.gov/study/NCT02242929) | Fase 3 | Desconocido | 145 | ECA de no inferioridad: escisión quirúrgica vs. curetaje + imiquimod en carcinoma basocelular nodular; mayor ensayo disponible de imiquimod en lesión cutánea maligna |
-| [NCT00941811](https://clinicaltrials.gov/study/NCT00941811) | Fase 2 | Completado | 5 | Análisis exploratorio de mecanismos de escape inmune en VIN 2/3 y verrugas anogenitales; evaluación de eficacia y mecanismos de imiquimod como agonista TLR7 en neoplasia intraepitelial vulvar |
-| [NCT00142454](https://clinicaltrials.gov/study/NCT00142454) | Fase 1 | Completado | 9 | Vacunación con proteína NY-ESO-1 con imiquimod como adyuvante en melanoma maligno resecado (Estadios IIB-III); evaluación de seguridad e inmunogenicidad de imiquimod como adyuvante sistémico |
-
----
+| [NCT00175643](https://clinicaltrials.gov/study/NCT00175643) | Fase 3 | Completado | 20 | Estudio abierto de imiquimod 5% crema, 3 días por semana en 1 o 2 ciclos, para queratosis actínica en la cabeza; evalúa la duración del efecto. Pequeño y de un solo brazo. |
+| [NCT02329171](https://clinicaltrials.gov/study/NCT02329171) | Fase 3 | Terminado | 9 | Ensayo aleatorizado de imiquimod tópico en neoplasia intraepitelial cervical de alto grado, como alternativa a la escisión. Terminado con solo 9 participantes, sin potencia para concluir sobre eficacia. |
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [23235673](https://pubmed.ncbi.nlm.nih.gov/23235673/) | 2012 | Cochrane RS | Cochrane Database Syst Rev | Revisión sistemática sobre intervenciones para neoplasia intraepitelial anal (AIN); documenta imiquimod como opción activa para lesión premaligna anogenital asociada a VPH en HSH con VIH |
-| [21491403](https://pubmed.ncbi.nlm.nih.gov/21491403/) | 2011 | Cochrane RS | Cochrane Database Syst Rev | Intervenciones médicas para VIN de alto grado; Cochrane respalda imiquimod como alternativa no quirúrgica válida con eficacia documentada en neoplasia intraepitelial vulvar |
-| [26516853](https://pubmed.ncbi.nlm.nih.gov/26516853/) | 2015 | Revisión | Int J Mol Sci | Tratamientos combinados con terapia fotodinámica para cáncer de piel no melanoma (NMSC); imiquimod evaluado en combinación con PDT para lesiones premalignas y BCC superficial |
-| [20505896](https://pubmed.ncbi.nlm.nih.gov/20505896/) | 2010 | Revisión Clínica | Skin Therapy Letter | Manejo actual de queratosis actínicas; imiquimod identificado como terapia tópica de campo de primera línea para cancerización en campo (field cancerization) |
-| [15584683](https://pubmed.ncbi.nlm.nih.gov/15584683/) | 2004 | Revisión Clínica | Semin Cutan Med Surg | Estrategias de tratamiento tópico para NMSC y lesiones precursoras; imiquimod comparado con 5-FU y diclofenac para manejo no quirúrgico de lesiones premalignas |
-| [29500135](https://pubmed.ncbi.nlm.nih.gov/29500135/) | 2018 | Estudio PK-PD | Urologic Oncology | Farmacocinética y farmacodinamia de agonistas TLR7 (TMX-101 y TMX-202) en modelo de rata; extensión del mecanismo TLR7 hacia instilación intravesical para cáncer de vejiga no músculo-invasivo |
-| [30284955](https://pubmed.ncbi.nlm.nih.gov/30284955/) | 2019 | Caso Clínico | Int J STD AIDS | Tratamiento exitoso de VIN de alto grado con imiquimod 5% en receptora de trasplante renal; demuestra eficacia incluso en pacientes inmunosuprimidas de alto riesgo |
-| [15601490](https://pubmed.ncbi.nlm.nih.gov/15601490/) | 2004 | Caso Clínico | Int J STD AIDS | Resolución completa de papulosis bowenoide (condición premaligna anogenital HPV-dependiente) con imiquimod crema 5% tópica una vez a la semana; tratamiento bien tolerado |
-| [18931984](https://pubmed.ncbi.nlm.nih.gov/18931984/) | 2008 | Caso Clínico | Der Hautarzt | Poroqueratosis actínica superficial diseminada con múltiples lesiones (pre)malignas cutáneas resistentes a tratamientos tópicos incluyendo imiquimod; caso relevante para evaluar límites del mecanismo |
-
----
+| [23235673](https://pubmed.ncbi.nlm.nih.gov/23235673/) | 2012 | Revisión (Cochrane) | Cochrane Database Syst Rev | Intervenciones para neoplasia intraepitelial del canal anal, condición premaligna asociada a HPV |
+| [21491403](https://pubmed.ncbi.nlm.nih.gov/21491403/) | 2011 | Revisión (Cochrane) | Cochrane Database Syst Rev | Intervenciones médicas para neoplasia intraepitelial vulvar de alto grado |
+| [26516853](https://pubmed.ncbi.nlm.nih.gov/26516853/) | 2015 | Revisión | Int J Mol Sci | Tratamientos combinados con terapia fotodinámica para cáncer de piel no melanoma |
+| [15584683](https://pubmed.ncbi.nlm.nih.gov/15584683/) | 2004 | Revisión | Semin Cutan Med Surg | Estrategias tópicas (fluorouracilo, diclofenaco, imiquimod, terapia fotodinámica) para cáncer de piel no melanoma y lesiones precursoras |
+| [20505896](https://pubmed.ncbi.nlm.nih.gov/20505896/) | 2010 | Revisión | Skin Therapy Lett | Manejo actual de la queratosis actínica, lesión premaligna que puede progresar a carcinoma escamoso |
+| [30284955](https://pubmed.ncbi.nlm.nih.gov/30284955/) | 2019 | Reporte de caso | Int J STD AIDS | Tratamiento exitoso de neoplasia intraepitelial vulvar de alto grado con imiquimod 5% en receptora de trasplante renal |
+| [15601490](https://pubmed.ncbi.nlm.nih.gov/15601490/) | 2004 | Reporte de caso | Int J STD AIDS | Papulosis bowenoide del pene resuelta con imiquimod 5% tópico, bien tolerada |
+| [29500135](https://pubmed.ncbi.nlm.nih.gov/29500135/) | 2018 | Preclínico | Urol Oncol | Farmacocinética de agonistas TLR7 (TMX-101, TMX-202) en modelo de rata; los agonistas TLR7 se usan en lesiones cutáneas (pre)malignas |
+| [18931984](https://pubmed.ncbi.nlm.nih.gov/18931984/) | 2008 | Otro | Hautarzt | Caso de poroqueratosis actínica superficial diseminada con lesiones resistentes a tratamiento tópico |
 
 ## Información de Mercado en Argentina
 
-Imiquimod **no se encuentra comercializado en Argentina**. La consulta regulatoria no registró ninguna autorización de comercialización (0 registros). Para uso clínico en Argentina, se requeriría importación bajo régimen de medicamentos especiales (art. 14 Ley 16.463) o autorización de uso compasivo ante ANMAT. A modo de referencia, el producto está aprobado en EE.UU. (FDA), Unión Europea (EMA) y múltiples otros mercados bajo el nombre comercial Aldara® (3M/Meda), con formulaciones en crema al 3.75% y 5%.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 43203 | VIROSUPRIL | Crema 5%, 5 g | No disponible en los datos |
+| 43878 | IMIMORE | Crema 5%, sobres 24 x 0,25 g | No disponible en los datos |
+| 52441 | IMIMORE | Crema 5%, 3 g | No disponible en los datos |
+| 52442 | IMIMORE | Crema 5%, 6 g | No disponible en los datos |
+| 33157 | MIQUIMOD | Crema 5%, 3 g | No disponible en los datos |
 
----
-
-## Citotoxicidad
-
-Imiquimod no es un fármaco citotóxico convencional. Está aprobado por la FDA para el tratamiento del carcinoma basocelular superficial (una neoplasia maligna cutánea), por lo que posee propiedades antineoplásicas; sin embargo, su mecanismo es inmunomodulador y no implica citotoxicidad directa sobre el ADN ni supresión medular.
-
-| Item | Contenido |
-|------|------|
-| Clasificación | Inmunomodulador tópico / Agonista TLR7 (antineoplásico de mecanismo inmune; no citotóxico convencional) |
-| Riesgo de Mielosupresión | Bajo (uso tópico con absorción sistémica mínima; no se han reportado citopenias en uso estándar) |
-| Clasificación de Emetogenicidad | No aplica para formulación tópica |
-| Ítems de Monitoreo | Reacciones cutáneas locales (eritema, vesiculación, erosión, costra); síntomas seudogripales (fiebre, mialgias, fatiga) ante absorción sistémica elevada por área extensa o piel erosionada |
-| Protección en Manejo | No requiere medidas especiales de manejo de citotóxicos; precauciones estándar para cremas medicinales; evitar contacto con mucosas y ojos |
-
----
+Se registran 10 autorizaciones vigentes, todas de monofármaco y ninguna cancelada. También existen presentaciones al 3,75% (VIROSUPRIL 3.75 y MIQUIMOD) y otras presentaciones en sobres (IMIMORE) y de uso dermatológico (MODULCASS).
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. Los datos de advertencias clave y contraindicaciones no están disponibles en esta evaluación; se recomienda revisar el prospecto aprobado por FDA/EMA (Aldara®) para obtener información completa antes de cualquier uso clínico.
+- **Contraindicaciones según el grafo de conocimiento** (no provienen del prospecto): respuesta fotoparoxística, enfermedad por fotosensibilidad, enfermedad autoinmune, enfermedad de injerto contra huésped y quemadura solar.
+- **Interacciones farmacológicas**: se identificaron 59 interacciones potenciales, todas con nivel de gravedad sin clasificar. Entre las listadas figuran pantoprazol, morfina, omeprazol, lansoprazol, prednisona, simvastatina, warfarina, clopidogrel, hidroxicloroquina y ácido acetilsalicílico.
+- **Señales de la literatura**: se describieron un caso de eritema multiforme con imiquimod tópico y un caso de liquen planopilar tras su uso. En mucosa oral, una publicación reportó conversión maligna de una papilomatosis oral florida durante el tratamiento, por lo que el uso fuera de indicación en esa zona requiere cautela.
 
----
+Para advertencias y contraindicaciones oficiales, consultar el prospecto aprobado por ANMAT.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-La activación de TLR7 por imiquimod tiene una base mecanística sólida y directamente translacional para neoplasias premalignas epiteliales superficiales, respaldada por dos revisiones Cochrane independientes (VIN y AIN), un ensayo de Fase 3 completado en lentigo maligno (n=259), y un ensayo de Fase 2 completado en CIN de alto grado (n=90); el nivel de evidencia L2 justifica avanzar con precauciones específicas de selección de pacientes, localización anatómica y formulación.
+El mecanismo inmunomodulador es plausible y coincide con el uso aprobado en queratosis actínica, y existen un ensayo de Fase 3 completado y varias revisiones de apoyo. Sin embargo, los ensayos son pequeños (n=20 y n=9, este último terminado prematuramente) y la evidencia es heterogénea según el sitio anatómico, por lo que se recomienda avanzar con salvaguardas.
 
 **Para avanzar se necesita:**
-- Obtener datos completos de mecanismo de acción (MOA) y categorías de DrugBank para completar el análisis de relación mecanística
-- Revisar advertencias, contraindicaciones y perfil de seguridad del prospecto aprobado por FDA/EMA
-- Gestionar autorización de importación o uso compasivo ante ANMAT, dado que el producto no está comercializado en Argentina
-- Definir subpoblación objetivo prioritaria: lesiones superficiales accesibles tópicamente (CIN exocervical, VIN, AIN, queilitis actínica, AK de campo)
-- Evaluar formulaciones especiales (nanoencapsulado, instilación intravesical) para indicaciones donde la penetración tisular convencional es insuficiente
-- Diseñar protocolo de monitoreo de reacciones locales y síntomas sistémicos para las poblaciones de mayor riesgo (inmunosuprimidos, áreas de gran extensión)
-- Considerar el hallazgo de seguridad de PMID 12719972 (conversión maligna en papilomatosis oral bajo imiquimod) al definir los criterios de exclusión para estudios de expansión en mucosa oral
+- Obtener y analizar el prospecto de ANMAT (advertencias y contraindicaciones), actualmente sin datos y que impide completar el filtro de seguridad.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Definir qué tipo de lesión premaligna se prioriza (queratosis actínica, neoplasia intraepitelial vulvar, anal o cervical), ya que la evidencia varía entre ellas.
+- Ensayos controlados con mayor tamaño muestral, dado que el único ensayo aleatorizado se terminó con 9 participantes.
+- Plan de monitoreo de seguridad, con atención a reacciones cutáneas locales, fotosensibilidad y pacientes con enfermedades autoinmunes o inmunosuprimidos.
+
+**Otras predicciones del modelo (para referencia):** neoplasia benigna de mucosa bucal y quiste odontogénico (nivel L4, pregunta de investigación; la primera con una señal de seguridad por resolver), y neoplasia benigna de lengua, neoplasia quística, neoplasia del oído interno y otras (L4-L5, en espera por falta de evidencia).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

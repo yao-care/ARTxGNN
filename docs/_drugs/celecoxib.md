@@ -2,7 +2,7 @@
 layout: default
 title: Celecoxib
 parent: Solo Predicción del Modelo (L5)
-nav_order: 92
+nav_order: 94
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,61 +29,89 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# CELECOXIB: Evaluacion de Reposicionamiento — Datos Insuficientes para Prediccion
+# Celecoxib: De Artritis Reumatoide a Displasia Acromesomélica tipo Hunter-Thompson
 
 ## Resumen en Una Frase
 
-Celecoxib (DB00482) es un farmaco cuya informacion regulatoria en Argentina arroja **cero autorizaciones vigentes** y sin indicaciones originales registradas en el Evidence Pack.
-El modelo TxGNN **no genero predicciones de nuevas indicaciones** para este candidato en el ciclo actual,
-por lo que no es posible evaluar ninguna nueva direccion terapeutica con la informacion disponible.
+Celecoxib es un antiinflamatorio no esteroideo (inhibidor selectivo de la COX-2), utilizado originalmente para tratar enfermedades articulares inflamatorias como la artritis reumatoide, la espondilitis anquilosante y la artrosis.
+El modelo TxGNN predice que podría ser efectivo para la **displasia acromesomélica tipo Hunter-Thompson**, una displasia esquelética rara de origen genético.
+Actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta predicción, que se apoya únicamente en el modelo computacional.
 
 ---
 
-## Resumen Rapido
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | Sin datos en el Evidence Pack |
-| Nueva Indicacion Predicha | Sin predicciones generadas |
-| Puntaje de Prediccion TxGNN | No disponible |
-| Nivel de Evidencia | L5 — Sin estudios reales ni prediccion del modelo |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Numero de Autorizaciones | 0 |
-| Decision Recomendada | Hold |
+| Indicación Original | Artritis reumatoide (según la base de conocimiento; el registro local no detalla el texto de indicación) |
+| Nueva Indicación Predicha | Displasia acromesomélica tipo Hunter-Thompson |
+| Puntaje de Predicción TxGNN | 99.88% |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Argentina | ✓ Comercializado |
+| Número de Autorizaciones | 1 |
+| Decisión Recomendada | Hold |
 
 ---
 
-## Por que no hay Prediccion?
+## ¿Por qué es Razonable esta Predicción?
 
-El Evidence Pack recibido presenta **dos brechas de datos criticas** que impidieron completar el pipeline de evaluacion:
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, celecoxib es un inhibidor selectivo de la COX-2 que reduce la inflamación y el dolor mediados por prostaglandinas. Su eficacia en enfermedades articulares inflamatorias está comprobada.
 
-**Brecha DG001 (Severidad Bloqueante):** No se dispone de las advertencias y contraindicaciones del prospecto oficial (ANMAT). Sin esta informacion, el modulo de seguridad S1 no puede iniciarse, lo que bloquea el flujo completo de evaluacion.
+Sin embargo, el análisis mecanístico **no encuentra un vínculo claro** con la nueva indicación. La displasia acromesomélica tipo Hunter-Thompson es un trastorno esquelético raro causado por variantes de pérdida de función en *CDMP1/GDF5*, que alteran la señalización de un factor de crecimiento. La inhibición de la COX-2 no corrige ese defecto.
 
-**Brecha DG002 (Severidad Alta):** El mecanismo de accion (MOA) no fue recuperado del DrugBank en el ciclo de consulta del 2026-03-29. Sin el MOA, el modelo TxGNN no puede construir las relaciones mecanisticas necesarias para generar predicciones de reposicionamiento confiables.
+El puntaje alto del modelo probablemente es un artefacto de proximidad en el grafo, derivado de anotaciones musculoesqueléticas compartidas, y no refleja una relación biológica real. Esta predicción debe interpretarse con mucha cautela.
 
-Como resultado directo de estas brechas, el campo `predicted_indications` del Evidence Pack quedo vacio y no existe ninguna indicacion candidata sobre la cual generar el informe de evaluacion estandar.
+---
+
+## Evidencia de Ensayos Clínicos
+
+Actualmente no hay ensayos clínicos relacionados registrados.
+
+---
+
+## Evidencia de Literatura
+
+Actualmente no hay literatura relacionada disponible.
+
+---
+
+## Información de Mercado en Argentina
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 23356 | CELEBREX (Aspen Pharma) | 200 mg cápsulas x 20 | No especificada en el registro local |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para informacion de seguridad.
+- **Contraindicaciones / condiciones de riesgo (según la base de conocimiento, no el prospecto)**:
+  - Cardiovasculares: hipertensión, insuficiencia cardíaca congestiva, infarto de miocardio, enfermedad cardiovascular, enfermedad cerebrovascular y accidente cerebrovascular.
+  - Digestivas: úlcera péptica (incluida la activa) y enfermedad de la vesícula biliar.
+  - Renales y hepáticas: enfermedad renal y enfermedad hepática.
+  - Respiratorias: asma (intrínseca y alérgica).
+  - Hematológicas: anemia y hemoglobinopatías.
+  - Otras: abuso o dependencia de sustancias.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones en total.
+  - Interacción **mayor**: eliglustat.
+  - Interacciones **moderadas** destacadas: hidrocortisona, metformina, antidiabéticos sulfonilureicos (glimepirida, glipizida, glibenclamida, clorpropamida, acetohexamida), nateglinida, exenatida, cimetidina, levofloxacino, metronidazol, naltrexona, kanamicina, y salicilatos de colon (mesalazina, balsalazida, olsalazina).
+
+Para las advertencias formales, consultar el prospecto aprobado por ANMAT.
 
 ---
 
-## Conclusion y Proximos Pasos
+## Conclusión y Próximos Pasos
 
-**Decision: Hold**
+**Decisión: Hold**
 
-**Justificacion:**
-El ciclo de evaluacion no pudo completarse porque los datos criticos de MOA y las advertencias regulatorias oficiales no fueron recuperados exitosamente, dejando el pipeline de prediccion TxGNN sin insumos suficientes.
+**Justificación:**
+La predicción carece de ensayos clínicos, literatura y vínculo mecanístico plausible. El puntaje alto del modelo parece un artefacto de red y no justifica avanzar. Como contexto, entre las demás predicciones de este análisis, la de *espondilopatía inflamatoria* (nivel L1, con ensayos de Fase 3 y 4 completados) corresponde a una indicación que celecoxib ya cubre, por lo que valida un uso existente y no es un reposicionamiento real.
 
 **Para avanzar se necesita:**
-
-- **[DG001 — Bloqueante]** Descargar el prospecto oficial de ANMAT para CELECOXIB en formato PDF y extraer las secciones de advertencias, precauciones y contraindicaciones
-- **[DG002 — Alto]** Consultar la API de DrugBank con el ID `DB00482` para obtener el mecanismo de accion (MOA), categorias farmacologicas y toxicidad
-- Con ambas brechas resueltas, **re-ejecutar el pipeline TxGNN** para generar predicciones de nuevas indicaciones
-- Una vez generadas las predicciones, **re-emitir el Evidence Pack v5** e iniciar el ciclo de evaluacion estandar
+- Datos del mecanismo de acción (MOA) desde DrugBank.
+- Advertencias y contraindicaciones del prospecto de ANMAT.
+- Estudios preclínicos que muestren alguna relación entre la inhibición de la COX-2 y la señalización de GDF5/CDMP1.
+- Priorizar otras predicciones del análisis con mayor respaldo antes de invertir recursos en esta.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

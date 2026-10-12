@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Etonogestrel
-parent: Evidencia Moderada (L3-L4)
-nav_order: 120
-evidence_level: L3
+parent: Solo Predicción del Modelo (L5)
+nav_order: 138
+evidence_level: L5
 indication_count: 5
 ---
 
 # Etonogestrel
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,84 +29,70 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **5**
 
 </div>
 
-# Etonogestrel: De Anticoncepción Hormonal a Amenorrea
+# Etonogestrel: De Indicación Original No Especificada a Amenorrea
 
 ## Resumen en Una Frase
 
-Etonogestrel es un progestágeno sintético utilizado como anticonceptivo en implantes subdérmicos de larga duración, suprimiendo la ovulación de forma sostenida.
-El modelo TxGNN predice que podría ser efectivo para **Amenorrea**, con **1 ensayo clínico** y **2 publicaciones** identificadas en relación a esta dirección.
-Sin embargo, la amenorrea es un efecto secundario conocido e inducido por el propio etonogestrel, lo que hace que esta predicción sea mecánicamente paradójica y requiera interpretación cuidadosa.
-
----
+Etonogestrel es un progestágeno (metabolito activo del desogestrel) comercializado en Argentina en forma de anillo vaginal; en los datos compilados no figura el texto de su indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para **amenorrea**, pero no hay **ensayos clínicos** y la única publicación asociada no guarda relación con el fármaco ni con la enfermedad.
+La predicción probablemente refleja un efecto farmacodinámico conocido (la amenorrea como efecto del fármaco) y no una indicación terapéutica real.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Sin indicación aprobada en Argentina |
-| Nueva Indicación Predicha | Amenorrea (amenorrhea disease) |
+| Indicación Original | No disponible en las autorizaciones registradas |
+| Nueva Indicación Predicha | Amenorrea |
 | Puntaje de Predicción TxGNN | 99.84% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Argentina | ✓ Comercializado |
+| Número de Autorizaciones | 2 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción de etonogestrel en esta base de datos. Según la información conocida, etonogestrel es un progestágeno de tercera generación derivado del 19-nortestosterona. Su efecto principal consiste en suprimir la secreción de LH y FSH a nivel del eje hipotálamo-hipofisario, inhibiendo la ovulación, espesando el moco cervical y produciendo atrofia endometrial. Es el principio activo del implante subdérmico Implanon/Nexplanon, ampliamente utilizado como anticonceptivo de larga duración.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, etonogestrel es un progestágeno que suprime la ovulación y adelgaza el endometrio.
 
-La relación entre etonogestrel y la amenorrea es, sin embargo, **causal inversa**: el fármaco la induce como efecto secundario en un 20–30% de las usuarias, no la trata. La supresión hormonal sostenida provoca atrofia endometrial, lo que resulta en ausencia de menstruación; esto constituye amenorrea secundaria inducida por fármaco, no una enfermedad que el medicamento resuelve.
+La alta puntuación del modelo probablemente refleja una asociación farmacodinámica o de efecto adverso: la amenorrea es un efecto bien conocido de los métodos con etonogestrel. Sin embargo, usar un fármaco para inducir amenorrea (por ejemplo, para controlar el sangrado) es un objetivo distinto de tratar la amenorrea patológica, que normalmente exige corregir la causa subyacente (hipotalámica, hormonal o anatómica). Por ello, un vínculo terapéutico no está respaldado.
 
-Esta paradoja mecánica es determinante para la evaluación de reposicionamiento. El modelo TxGNN identificó una fuerte asociación estadística entre etonogestrel y amenorrea en su grafo de conocimiento, pero dicha asociación refleja que el fármaco **causa** la condición, no que tenga potencial para **tratarla**. La predicción es estadísticamente elevada pero clínicamente mal orientada bajo los criterios convencionales de reposicionamiento.
-
----
+Otras predicciones del modelo (todas con nivel L5, sin ensayos ni literatura) son enfermedad fibroquística de la mama (99.61%), adenosis apocrina de la mama (99.29%), adenosis de conductos romos de la mama (99.29%) y displasia mamaria benigna (99.21%). Su fundamento es débil: parecen provenir de la proximidad en el grafo a otras afecciones mamarias benignas y no de evidencia específica del fármaco.
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT04626596](https://clinicaltrials.gov/study/NCT04626596) | Fase 3 | Completado | 498 | Evaluación de eficacia anticonceptiva extendida (años 4–5) del implante de etonogestrel; la amenorrea se registra como patrón de sangrado secundario y no es el objetivo terapéutico del estudio |
-
-> **Nota de relevancia (Grado C):** Este ensayo no tiene como objetivo el tratamiento de amenorrea. Los datos de amenorrea son observaciones de patrón de sangrado, no endpoints terapéuticos, y no constituyen evidencia de reposicionamiento.
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [10549446](https://pubmed.ncbi.nlm.nih.gov/10549446/) | 1999 | ECA | Contraception | Estudio multicéntrico aleatorizado que compara el implante de un solo vástago (Implanon, etonogestrel) vs seis cápsulas (Norplant) en 200 mujeres durante 2–4 años; evalúa patrones de sangrado incluyendo amenorrea como resultado secundario, sin objetivos terapéuticos para la condición |
-| [33430924](https://pubmed.ncbi.nlm.nih.gov/33430924/) | 2021 | ECA | Trials | Protocolo de ensayo de BIO101 para prevención de deterioro respiratorio en COVID-19; sin relación con etonogestrel ni con amenorrea — probable falso positivo en la búsqueda automatizada |
-
----
+| [33430924](https://pubmed.ncbi.nlm.nih.gov/33430924/) | 2021 | Protocolo de ECA | Trials | Protocolo del estudio COVA sobre BIO101 para prevenir el deterioro respiratorio en COVID-19. No guarda relación con etonogestrel ni con amenorrea. |
 
 ## Información de Mercado en Argentina
 
-Etonogestrel no cuenta con ninguna autorización de comercialización registrada en Argentina. No existen licencias vigentes ni formas farmacéuticas aprobadas localmente disponibles en esta base de datos (total de autorizaciones: 0).
-
----
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 55887 | ELLERING | Anillo vaginal (sobre x 1) | No especificada |
+| 51084 | CIRCLET | Anillo vaginal (sobre x 1) | No especificada |
 
 ## Consideraciones de Seguridad
 
-Los datos de seguridad específicos (advertencias clave, contraindicaciones e interacciones farmacológicas) no están disponibles en este Evidence Pack. Consultar el prospecto del producto y las guías de prescripción aprobadas internacionalmente (EMA, FDA) para información de seguridad completa antes de cualquier evaluación clínica.
+- **Contraindicaciones sugeridas por el grafo de conocimiento** (asociaciones fármaco-enfermedad del grafo de conocimiento, no texto del prospecto): hipertensión, epilepsia, trastornos de ansiedad y distimia, porfiria, enfermedad renal, enfermedad hepática y de la vesícula biliar, lupus eritematoso sistémico, asma, diabetes mellitus y cetoacidosis diabética, hipertrigliceridemia e hiperlipidemia, carcinoma de mama femenino, tromboflebitis, migraña, enfermedad arterial coronaria y obesidad.
+- **Interacciones farmacológicas**: se identificaron 100 interacciones, de las que se muestran las principales, todas de nivel moderado: antidiabéticos (acarbosa, metformina, clorpropamida, glimepirida, alogliptina, saxagliptina, canagliflozina, dapagliflozina, empagliflozina), agonistas de GLP-1 (albiglutida, dulaglutida, semaglutida), insulinas (aspart, degludec, detemir, glargina, glulisina), aprepitant, claritromicina y linaclotida.
 
----
+Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción de TxGNN refleja una asociación estadística real entre etonogestrel y amenorrea, pero esta asociación representa causalidad directa del fármaco (lo induce como efecto secundario), no potencial terapéutico para tratar la enfermedad. El único ensayo clínico identificado no evalúa amenorrea como objetivo de tratamiento, y una de las dos publicaciones literarias es claramente irrelevante. En ausencia de registro en Argentina y sin datos de seguridad locales disponibles, no existen condiciones para avanzar en este momento.
+La predicción se sustenta solo en el modelo (L5), sin ensayos clínicos y con una única publicación irrelevante. Además, la amenorrea parece ser un efecto del fármaco y no un objetivo terapéutico.
 
 **Para avanzar se necesita:**
-- Revisión conceptual del modelo TxGNN para distinguir asociaciones de tipo "fármaco causa condición" vs. "fármaco trata condición" antes de incorporar esta predicción a un pipeline de reposicionamiento
-- Datos completos de mecanismo de acción (MOA) desde DrugBank (DG002)
-- Descarga y análisis del prospecto oficial para advertencias y contraindicaciones (DG001)
-- Investigación exploratoria sobre si existe algún subtipo específico de amenorrea (p.ej., amenorrea hipotalámica funcional con hiperandrogenismo) donde el perfil progestágeno de etonogestrel pudiera tener un rol terapéutico diferenciado
-- Evaluación de viabilidad regulatoria ante la ausencia total de registro en Argentina
+- Obtener y analizar el prospecto de ANMAT (advertencias, contraindicaciones e indicación aprobada), indispensable para el cribado de seguridad
+- Completar los datos del mecanismo de acción
+- Definir si el objetivo es tratar la amenorrea patológica o inducir amenorrea de forma controlada (por ejemplo, control del sangrado)
+- Realizar una búsqueda bibliográfica dirigida a etonogestrel y las afecciones mamarias benignas o los trastornos menstruales
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

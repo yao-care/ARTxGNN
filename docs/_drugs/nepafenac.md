@@ -2,7 +2,7 @@
 layout: default
 title: Nepafenac
 parent: Evidencia Alta (L1-L2)
-nav_order: 159
+nav_order: 202
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,13 +29,11 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Nepafenac: De Inflamación Ocular Posquirúrgica a Enfermedad Ocular
+# Nepafenac: De Uso Oftálmico Postoperatorio a Enfermedad Ocular (Predicción Amplia)
 
 ## Resumen en Una Frase
 
-Nepafenac (Nevanac®/Ilevro®) es un antiinflamatorio no esteroideo (AINE) tópico ocular en forma de profármaco, utilizado internacionalmente para la prevención y el tratamiento del dolor e inflamación asociados a la cirugía de cataratas.
-El modelo TxGNN predice que podría ser efectivo para un espectro ampliado de **Enfermedades Oculares**, incluyendo edema macular diabético, distrofias corneales y patología vitreoretiniana inflamatoria.
-Esta predicción está respaldada por **41 ensayos clínicos** y **20 publicaciones científicas**.
+Nepafenac es un antiinflamatorio no esteroideo (AINE) de uso tópico oftálmico, comercializado en Argentina como NEVANAC en colirio al 0,1 %. El modelo TxGNN predice que podría ser efectivo para **enfermedad ocular** (una categoría muy amplia), con **40 ensayos clínicos** y **20 publicaciones** registrados. Cabe señalar que esta categoría se solapa en gran medida con su uso ya conocido, por lo que no constituye un reposicionamiento en sentido estricto.
 
 ---
 
@@ -43,63 +41,81 @@ Esta predicción está respaldada por **41 ensayos clínicos** y **20 publicacio
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Dolor e inflamación ocular asociados a cirugía de cataratas (uso internacional establecido; sin registro formal en Argentina) |
-| Nueva Indicación Predicha | Enfermedad Ocular (espectro ampliado) |
-| Puntaje de Predicción TxGNN | 99.85% |
+| Indicación Original | No disponible en la autorización de ANMAT (el texto de indicación está vacío); uso conocido: inflamación y dolor oculares tras cirugía de catarata |
+| Nueva Indicación Predicha | Enfermedad ocular (eye disease) |
+| Puntaje de Predicción TxGNN | 99,85 % |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | ✓ Comercializado |
+| Número de Autorizaciones | 1 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Nepafenac es un profármaco AINE que, tras su administración tópica ocular, penetra los tejidos del ojo donde es biotransformado por hidrolasas tisulares en su metabolito activo **amfenac**. Este metabolito inhibe de manera potente las enzimas COX-1 y COX-2, bloqueando la síntesis de prostaglandinas intraoculares —mediadores clave de la inflamación ocular, el dolor posquirúrgico y el edema macular. Esta arquitectura de profármaco le confiere una penetración intraocular y al segmento posterior superiores a otros AINE tópicos convencionales, según confirma el estudio farmacocinético publicado en *Experimental Eye Research* (PMID 26474497).
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos. Según la información compilada, nepafenac es un profármaco que los tejidos oculares convierten, mediante hidrolasas, en amfenac, un inhibidor de COX-1 y COX-2. Al reducirse la síntesis de prostaglandinas, disminuyen la inflamación ocular, el dolor y la ruptura de la barrera hematorretiniana.
 
-La predicción de TxGNN es biológicamente coherente porque la inflamación mediada por prostaglandinas es un mecanismo central en múltiples enfermedades oculares más allá de la cataratas: edema macular cistoide posquirúrgico, edema macular diabético, uveítis, reacciones inflamatorias asociadas a fotocoagulación panretiniana y vitrectomía, y patología del segmento anterior como el glaucoma de cierre angular. Adicionalmente, el PMID 19897019 demostró en modelo animal que el amfenac inhibe distintos pasos de la cascada angiogénica retiniana, añadiendo una dimensión **antiangiogénica** al perfil farmacológico de nepafenac más allá del eje antiinflamatorio clásico.
+Este mecanismo concuerda con su uso comercializado en la inflamación y el dolor posteriores a la cirugía de catarata, y con la evidencia de penetración al segmento posterior del ojo. Por ello, la predicción de "enfermedad ocular" es coherente, pero tan general que coincide en buena medida con el uso oftálmico ya establecido. Las subindicaciones específicas (por ejemplo, edema macular o inflamación posvitrectomía) deberían evaluarse por separado.
 
-La transición conceptual de la indicación original —inflamación posoperatoria de cataratas— hacia el espectro más amplio de "enfermedad ocular" está sustentada por una extensa base de ensayos clínicos que exploran su uso en edema macular diabético (NCT00782717, NCT00939276), distrofias corneales por mutación SLC4A11 (NCT04843839), prevención de edema macular en múltiples contextos quirúrgicos, control del dolor en procedimientos láser (PRK, iridotomía periférica), e incluso el uso intravítreo adyuvante. La coherencia mecanística y el volumen probatorio justifican plenamente la predicción del modelo.
+Entre las demás predicciones del modelo, "papilitis óptica" (L4, Hold) y "desprendimiento vítreo" (L4, pregunta de investigación) tienen apoyo limitado o indirecto. Las restantes, como hipotricosis, queratosis seborreica o lagoftalmos, carecen de vínculo mecanístico y de evidencia, y parecen artefactos de la predicción basada en grafos.
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
+Se muestran los 10 ensayos más relevantes (de 40 registrados), priorizando los de mayor fase, tamaño y calificación de relevancia.
+
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT01109173](https://clinicaltrials.gov/study/NCT01109173) | Fase 3 | Completado | 2120 | Ensayo pivotal multicéntrico: nepafenac 0.3% una vez al día para prevención y tratamiento de inflamación y dolor ocular post-cataratas; mayor muestra de la serie |
-| [NCT01853072](https://clinicaltrials.gov/study/NCT01853072) | Fase 3 | Completado | 881 | ECA doble ciego vs. vehículo: superioridad de nepafenac 0.3% en resultados clínicos en pacientes diabéticos post-cirugía de cataratas |
-| [NCT01872611](https://clinicaltrials.gov/study/NCT01872611) | Fase 3 | Completado | 819 | Registro paralelo al anterior en población diabética: confirma superioridad de nepafenac 0.3% una vez al día vs. vehículo |
-| [NCT03499873](https://clinicaltrials.gov/study/NCT03499873) | Fase 3 | Completado | 448 | Estudio de bioequivalencia clínica: nepafenac 0.3% genérico (Indoco/Actavis) vs. Ilevro™ de Alcon; valida la reproductibilidad del perfil de eficacia |
-| [NCT01426854](https://clinicaltrials.gov/study/NCT01426854) | Fase 3 | Completado | 260 | Eficacia y seguridad de nepafenac 0.1% vs. placebo en sujetos chinos post-cataratas; respalda la generalización a poblaciones asiáticas |
-| [NCT00405730](https://clinicaltrials.gov/study/NCT00405730) | Fase 3 | Completado | 227 | Estudio europeo: nepafenac 1 mg/ml vs. ketorolaco trometamol vs. placebo para inflamación y dolor post-extracción de cataratas con implante de LIO |
-| [NCT00939276](https://clinicaltrials.gov/study/NCT00939276) | Fase 3 | Terminado | 175 | Evaluación de NEVANAC en pacientes con retinopatía diabética que desarrollaron edema macular dentro de 90 días post-cataratas; ensayo terminado —contexto de terminación relevante para evaluación de riesgo |
-| [NCT01021761](https://clinicaltrials.gov/study/NCT01021761) | Fase 4 | Completado | 126 | Comparación directa de inhibición de PGE2 entre Acuvail, Xibrom y Nevanac en facoemulsificación; valida el mecanismo COX central de nepafenac |
-| [NCT00494494](https://clinicaltrials.gov/study/NCT00494494) | Fase 4 | Completado | 82 | Evaluación de nepafenac 0.1% para prevención de edema macular cistoide posoperatorio en cirugía de cataratas no complicada; seguimiento con OCT |
-| [NCT04843839](https://clinicaltrials.gov/study/NCT04843839) | Fase 2 | Desconocido | 30 | Exploración pionera de AINE tópico ocular para distrofia endotelial congénita corneal (CHED) por mutación SLC4A11; alternativa no quirúrgica de alta relevancia clínica |
+| [NCT01109173](https://clinicaltrials.gov/study/NCT01109173) | Fase 3 | Completado | 2120 | Nepafenac 0,3 % en la prevención y el tratamiento de inflamación y dolor tras cirugía de catarata |
+| [NCT01318499](https://clinicaltrials.gov/study/NCT01318499) | Fase 2 | Completado | 1342 | Nepafenac 0,3 % vs. 0,1 % vs. vehículo en inflamación y dolor poscatarata |
+| [NCT01853072](https://clinicaltrials.gov/study/NCT01853072) | Fase 3 | Completado | 881 | Nepafenac 0,3 % vs. vehículo en pacientes diabéticos tras cirugía de catarata |
+| [NCT01872611](https://clinicaltrials.gov/study/NCT01872611) | Fase 3 | Completado | 819 | Estudio gemelo del anterior: superioridad de nepafenac 0,3 % una vez al día en diabéticos |
+| [NCT00782717](https://clinicaltrials.gov/study/NCT00782717) | Fase 2 | Completado | 263 | NEVANAC 0,1 % vs. vehículo para reducir el edema macular poscatarata en retinopatía diabética |
+| [NCT00333255](https://clinicaltrials.gov/study/NCT00333255) | Fase 3 | Completado | 267 | Nevanac 0,1 % vs. Acular LS en inflamación ocular asociada a cirugía de catarata |
+| [NCT00405730](https://clinicaltrials.gov/study/NCT00405730) | Fase 3 | Completado | 227 | Nepafenac 0,1 % vs. ketorolaco 0,5 % y placebo (estudio europeo) |
+| [NCT01426854](https://clinicaltrials.gov/study/NCT01426854) | Fase 3 | Completado | 260 | Nepafenac 0,1 % vs. placebo en adultos chinos tras cirugía de catarata |
+| [NCT03499873](https://clinicaltrials.gov/study/NCT03499873) | Fase 3 | Completado | 448 | Estudio de bioequivalencia de nepafenac 0,3 % frente a Ilevro en dolor e inflamación poscatarata |
+| [NCT01021761](https://clinicaltrials.gov/study/NCT01021761) | Fase 4 | Completado | 126 | Comparación de la inhibición de PGE2 entre Acuvail, Xibrom y Nevanac en facoemulsificación |
+
+Otros ensayos relevantes incluyen NCT07736690 (cirugía de membrana epirretiniana, Fase 4, n=60) y NCT07162818 (biomarcadores vítreos en desprendimiento de retina, Fase 4, n=61).
 
 ---
 
 ## Evidencia de Literatura
 
+Se muestran las 10 publicaciones más relevantes (de 20 registradas), priorizando revisiones sistemáticas y ECA.
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [39936354](https://pubmed.ncbi.nlm.nih.gov/39936354/) | 2025 | Meta-análisis | European Journal of Ophthalmology | Revisión sistemática de ECA: nepafenac reduce significativamente el grosor foveal y el volumen macular total, con mejora del AVMC tras cirugía de cataratas |
-| [40243047](https://pubmed.ncbi.nlm.nih.gov/40243047/) | 2025 | ECA | Indian Journal of Ophthalmology | Comparación de nepafenac 0.1% (3 veces/día) vs. 0.3% (1 vez/día) en síndrome de pseudoexfoliación post-cataratas; evalúa la equivalencia posológica |
-| [34120417](https://pubmed.ncbi.nlm.nih.gov/34120417/) | 2021 | ECA | Korean Journal of Ophthalmology | Nepafenac 0.1% vs. prednisolona 1% en control de inflamación posoperatoria en cirugía micro-incisional de cataratas; no inferioridad demostrada |
-| [35025078](https://pubmed.ncbi.nlm.nih.gov/35025078/) | 2022 | Revisión | Drugs | Revisión exhaustiva de agentes farmacológicos para lesiones corneales no infecciosas, con análisis del rol de nepafenac como AINE tópico de referencia |
-| [32672612](https://pubmed.ncbi.nlm.nih.gov/32672612/) | 2020 | ECA | Ophthalmology Glaucoma | Nepafenac 0.1% vs. prednisolona acetato 1% en control de inflamación tras iridotomía periférica láser en sospecha de cierre angular primario; propuesta de alternativa al esteroide |
-| [30284393](https://pubmed.ncbi.nlm.nih.gov/30284393/) | 2019 | Estudio Comparativo | Acta Ophthalmologica | Nepafenac vs. diclofenac sin conservante post-cataratas: eficacia clínica comparable con perfil de tolerabilidad diferenciado |
-| [30046541](https://pubmed.ncbi.nlm.nih.gov/30046541/) | 2018 | Estudio Comparativo | International Journal of Ophthalmology | Bromfenac 0.09% vs. nepafenac 0.1% vs. diclofenac 0.1% para profilaxis de edema macular cistoide tras facoemulsificación |
-| [26474497](https://pubmed.ncbi.nlm.nih.gov/26474497/) | 2016 | Estudio Farmacocinético | Experimental Eye Research | Distribución de nepafenac tópico y amfenac al segmento posterior: sustenta la eficacia sobre edema macular y la base mecanística de las indicaciones posteriores |
-| [25493620](https://pubmed.ncbi.nlm.nih.gov/25493620/) | 2016 | Estudio de Interacción | Journal of Glaucoma | Efecto de nepafenac sobre la presión intraocular en glaucoma de ángulo abierto tratado con análogos de prostaglandinas; relevante para seguridad en población glaucomatosa |
-| [19897019](https://pubmed.ncbi.nlm.nih.gov/19897019/) | 2010 | Estudio Preclínico | Brain Research Bulletin | Amfenac inhibe la cascada angiogénica retiniana in vitro e in vivo (modelo OIR en rata); confirma actividad antiangiogénica de nepafenac más allá del efecto antiinflamatorio |
+| [39095467](https://pubmed.ncbi.nlm.nih.gov/39095467/) | 2024 | Revisión sistemática con metaanálisis en red | Eye (London) | Compara AINE tópicos, con o sin esteroides, para prevenir el engrosamiento macular y su efecto en la agudeza visual tras facoemulsificación |
+| [34120417](https://pubmed.ncbi.nlm.nih.gov/34120417/) | 2021 | ECA | Korean J Ophthalmol | Nepafenac 0,1 % vs. prednisolona 1 % en el control de la inflamación tras cirugía de catarata microincisional |
+| [32672612](https://pubmed.ncbi.nlm.nih.gov/32672612/) | 2020 | ECA | Ophthalmology Glaucoma | Nepafenac 0,1 % vs. prednisolona 1 % tras iridotomía periférica con láser |
+| [41039316](https://pubmed.ncbi.nlm.nih.gov/41039316/) | 2025 | Estudio comparativo | BMC Ophthalmology | Eficacia analgésica de 7 AINE tópicos en el dolor por panfotocoagulación retiniana |
+| [34210237](https://pubmed.ncbi.nlm.nih.gov/34210237/) | 2022 | Revisión | Clin Exp Optom | Nepafenac en cirugía de catarata: alta penetración ocular, reducción de la inflamación, el dolor y el edema macular, con bajo perfil de efectos adversos |
+| [25686158](https://pubmed.ncbi.nlm.nih.gov/25686158/) | 2015 | Revisión sistemática (Cochrane) | Cochrane Database Syst Rev | AINE tópicos para el edema macular quístico diabético |
+| [26474497](https://pubmed.ncbi.nlm.nih.gov/26474497/) | 2016 | Preclínico (farmacocinética) | Exp Eye Res | Distribución de nepafenac y de su metabolito amfenac al segmento posterior del ojo |
+| [17259381](https://pubmed.ncbi.nlm.nih.gov/17259381/) | 2007 | Preclínico (animal) | Diabetes | El nepafenac tópico inhibió la enfermedad microvascular retiniana inducida por diabetes en ratas |
+| [12506103](https://pubmed.ncbi.nlm.nih.gov/12506103/) | 2003 | Preclínico (animal) | Invest Ophthalmol Vis Sci | El nepafenac tópico inhibió la neovascularización ocular en tres modelos murinos |
+| [17964407](https://pubmed.ncbi.nlm.nih.gov/17964407/) | 2007 | Reporte de caso | J Cataract Refract Surg | Perforación corneal asociada a nepafenac en un paciente con enfermedad de injerto contra huésped tras cirugía de catarata |
+
+---
+
+## Información de Mercado en Argentina
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 38114 | NEVANAC (Novartis) | 0,1 % frasco gotero x 5 ml | Texto de indicación no disponible en el registro |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento** (relaciones fármaco-enfermedad de PrimeKG, no texto del prospecto): artritis reumatoide, diabetes mellitus, cetoacidosis diabética, trastornos de la coagulación, queratitis, queratoconjuntivitis, síndrome de ojo seco, xeroftalmia y úlcera corneal.
+- **Alerta de la literatura**: se ha descrito un caso de perforación corneal ("corneal melt") asociado a nepafenac en un paciente con enfermedad de injerto contra huésped. Otro reporte vincula el uso crónico de AINE y esteroides tópicos con complicaciones oculares en un paciente con uveítis.
+- **Interacciones farmacológicas**: no se encontraron registros.
+
+Para las advertencias y contraindicaciones oficiales, consultar el prospecto aprobado por ANMAT.
 
 ---
 
@@ -108,14 +124,14 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Múltiples ensayos clínicos de Fase 3 completados —con una inscripción combinada superior a 4.000 pacientes en ensayos pivotales— respaldan la eficacia y seguridad de nepafenac en diversas enfermedades oculares inflamatorias. El perfil mecanístico dual (antiinflamatorio COX + antiangiogénico) y la capacidad demostrada de penetrar el segmento posterior fundamentan la extrapolación hacia un espectro ampliado de enfermedad ocular. La clasificación L1 de TxGNN refleja fielmente esta base probatoria sólida y madura.
+Existen múltiples ensayos de Fase 3 completados, con cientos de participantes, que respaldan el uso de nepafenac en inflamación y dolor oculares. Sin embargo, "enfermedad ocular" es una categoría tan amplia que no constituye un reposicionamiento genuino, y no se dispone de los datos de seguridad del prospecto local.
 
 **Para avanzar se necesita:**
-- **Registro regulatorio en Argentina**: nepafenac no está comercializado; evaluar viabilidad de trámite ante ANMAT como medicamento de importación o para registro local
-- **Información de seguridad formal**: obtener y revisar el prospecto oficial (advertencias, contraindicaciones, interacciones farmacológicas) de las presentaciones 0.1% y 0.3%
-- **Datos formales de mecanismo de acción (MOA)**: completar consulta a DrugBank API para datos estructurados de targets moleculares
-- **Definición de indicación específica**: dado que "enfermedad ocular" es un espectro amplio, priorizar la indicación con mayor urgencia clínica no cubierta localmente (p. ej., edema macular diabético posquirúrgico, distrofia corneal endotelial) para una estrategia regulatoria precisa
-- **Revisión de ensayos terminados anticipadamente** (NCT00939276, NCT00801905): confirmar causas de terminación para descartar señales de seguridad ocultas
+- Obtener y analizar el prospecto de ANMAT (advertencias y contraindicaciones), un vacío de datos de severidad bloqueante.
+- Obtener los datos del mecanismo de acción desde DrugBank.
+- Definir subindicaciones concretas (por ejemplo, edema macular diabético, inflamación posvitrectomía) y evaluarlas individualmente.
+- Revisar con especial cuidado las contraindicaciones del grafo de conocimiento (queratitis, úlcera corneal, ojo seco, diabetes), dado el riesgo descrito de afectación corneal.
+- Confirmar el texto de la indicación aprobada en la licencia 38114.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

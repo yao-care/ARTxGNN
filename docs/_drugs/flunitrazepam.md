@@ -2,7 +2,7 @@
 layout: default
 title: Flunitrazepam
 parent: Evidencia Moderada (L3-L4)
-nav_order: 126
+nav_order: 146
 evidence_level: L3
 indication_count: 10
 ---
@@ -29,100 +29,79 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
----
-
-# Flunitrazepam: De Sedante-Hipnótico a Insomnio
+# Flunitrazepam: De Indicación Original No Registrada a Insomnio
 
 ## Resumen en Una Frase
 
-Flunitrazepam (Rohypnol) es una benzodiacepina de alta potencia históricamente utilizada como hipnótico nocturno y agente preanestésico en múltiples países, aunque actualmente no comercializado en Argentina.
-El modelo TxGNN predice que podría ser efectivo para **Insomnio**,
-con **1 ensayo clínico** y **11 publicaciones** que actualmente respaldan esta dirección.
-
----
+Flunitrazepam es una benzodiazepina con efecto hipnótico-sedante, comercializada en Argentina, aunque los datos compilados no incluyen el texto de la indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para **insomnio**, pero esta es una indicación ya establecida en el uso clínico del fármaco, por lo que no constituye un reposicionamiento genuino.
+La evidencia consiste en **0 ensayos clínicos** y **10 publicaciones** (estudios clínicos pequeños, revisiones y estudios en animales).
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Sin registro en Argentina (uso histórico documentado: hipnótico/anestésico) |
+| Indicación Original | No disponible en los datos de ANMAT compilados |
 | Nueva Indicación Predicha | Insomnio |
 | Puntaje de Predicción TxGNN | 99.89% |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Argentina | No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | ✓ Comercializado |
+| Número de Autorizaciones | 2 |
 | Decisión Recomendada | Proceed with Guardrails |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por qué es Razonable esta Predicción?
+No se dispone actualmente de datos detallados sobre el mecanismo de acción en la base de datos compilada. Según la información conocida, flunitrazepam es una benzodiazepina que actúa como modulador alostérico positivo de los receptores GABA-A, lo que produce efectos sedantes e hipnóticos. Los datos farmacológicos compilados confirman su interacción con las subunidades α1, α2, α3 y α5 del receptor GABA-A, y describen su uso clínico en algunos casos de insomnio grave.
 
-Actualmente no se dispone de datos formales sobre el mecanismo de acción en la base de datos consultada. Sin embargo, la literatura farmacológica revisada describe con claridad que flunitrazepam actúa como modulador positivo del receptor GABA-A, potenciando la inhibición GABAérgica en el sistema nervioso central. Este mecanismo produce efectos hipnóticos pronunciados: acorta la latencia de inicio del sueño, prolonga el sueño NREM y reduce los despertares nocturnos. Es, en esencia, el mecanismo central de los hipnóticos benzodiacepínicos clásicos, y flunitrazepam es uno de los representantes más potentes de esta clase (PMID 6108205).
-
-El vínculo entre flunitrazepam e insomnio no es especulativo: el fármaco fue históricamente aprobado en Japón y múltiples países europeos específicamente para el tratamiento del insomnio a corto plazo. Esta predicción de TxGNN con puntuación del 99.89% refleja la solidez del nexo mecanístico más que una indicación genuinamente nueva. Existen estudios clínicos directos que confirman su eficacia hipnótica en pacientes insomnes (PMID 40195, PMID 8519370) y una auditoría clínica multicéntrica japonesa que compara flunitrazepam IV con midazolam IV específicamente para insomnio primario en pacientes con cáncer terminal (PMID 17985961).
-
-La principal limitación para el avance clínico no es la falta de eficacia, sino el perfil de seguridad y el contexto regulatorio global: el fármaco ha sido retirado del mercado o severamente restringido en la mayoría de los países por su altísimo potencial de abuso, sus propiedades amnésicas y su asociación con delitos facilitados por drogas. En Argentina, actualmente no existe ningún registro activo de comercialización del principio activo.
-
----
+El insomnio es una indicación ya establecida de este fármaco en muchos países, por lo que la predicción del modelo es coherente con el uso conocido, pero no representa un hallazgo nuevo. La literatura incluye comparaciones clínicas con triazolam y zolpidem, revisiones polisomnográficas y reportes de insomnio de rebote tras la suspensión.
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT02648776](https://clinicaltrials.gov/study/NCT02648776) | N/A | Desconocido | 1.400 | Estudio de cohorte prospectivo en Taiwan que evalúa el riesgo y beneficio de hipnóticos —incluyendo benzodiacepinas como flunitrazepam— en ancianos con trastornos del sueño. Examina patrones de uso a corto y largo plazo, características farmacocinéticas y farmacogenéticas, y resultados clínicos, económicos y humanísticos. Diseño observacional; no proporciona evidencia interventiva directa de eficacia, pero aporta datos de seguridad en contexto de uso real (caídas, deterioro cognitivo, dependencia). |
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [17985961](https://pubmed.ncbi.nlm.nih.gov/17985961/) | 2007 | Auditoría clínica multicéntrica | J Palliat Med | Comparación retrospectiva de midazolam IV y flunitrazepam IV para insomnio primario en pacientes con cáncer terminal en Japón. Primera evidencia empírica directa sobre eficacia y seguridad de flunitrazepam IV en esta indicación específica. |
-| [8519370](https://pubmed.ncbi.nlm.nih.gov/8519370/) | 1993 | Estudio comparativo clínico | Eur Respir J | Comparación de dosis única de zolpidem 10 mg, triazolam 0,25 mg y flunitrazepam 1 mg en 12 pacientes con EPOC grave e insomnio. Evalúa efectos sobre gases arteriales y control respiratorio; datos directos de flunitrazepam en pacientes insomnes de alto riesgo. |
-| [430730](https://pubmed.ncbi.nlm.nih.gov/430730/) | 1979 | Observación clínica | JAMA | Evaluación de 5 benzodiacepinas —incluyendo flunitrazepam— en 15 estudios de laboratorio del sueño. Documenta insomnio de rebote tras retirada de flunitrazepam administrado en dosis nocturna única durante períodos cortos; advertencia de seguridad clave. |
-| [684426](https://pubmed.ncbi.nlm.nih.gov/684426/) | 1978 | Observación clínica | Science | Primer informe del síndrome de insomnio de rebote tras retirada de benzodiacepinas de acción corta/intermedia incluyendo flunitrazepam. Propone hipótesis de receptores benzodiacepínicos cerebrales para explicar el efecto. |
-| [40195](https://pubmed.ncbi.nlm.nih.gov/40195/) | 1979 | Estudio clínico | Nouv Presse Med | Estudio directo sobre la acción de flunitrazepam en trastornos del sueño orgánicos y funcionales. Datos originales de eficacia del fármaco en la indicación de insomnio. |
-| [2883822](https://pubmed.ncbi.nlm.nih.gov/2883822/) | 1986 | Revisión clínica | Acta Psychiatr Scand Suppl | Revisión de cambios farmacodinámicos de benzodiacepinas —incluyendo flunitrazepam— en el envejecimiento normal y en enfermedades. Estudios controlados demuestran respuesta aumentada 2-3 veces en ancianos sanos, independiente de enfermedad o concentraciones plasmáticas. |
-| [2883820](https://pubmed.ncbi.nlm.nih.gov/2883820/) | 1986 | Revisión clínica | Acta Psychiatr Scand Suppl | Discute la necesidad de distintos hipnóticos benzodiacepínicos según el tipo de insomnio (dificultad para conciliar el sueño, despertares frecuentes o despertar precoz). Evalúa perfiles farmacocinéticos y farmacodinámicos relevantes para la selección del hipnótico adecuado. |
-| [20171127](https://pubmed.ncbi.nlm.nih.gov/20171127/) | 2010 | Revisión de seguridad | Sleep Med Rev | Revisión del impacto de hipnóticos —incluyendo benzodiacepinas— sobre el equilibrio corporal y la estabilidad postural. Caídas y fracturas de cadera son eventos frecuentes en pacientes que se despiertan por la noche o en la mañana tras usar medicación para el sueño. |
-| [6114852](https://pubmed.ncbi.nlm.nih.gov/6114852/) | 1981 | Revisión farmacológica | Drugs | Revisión de triazolam con comparativa frente a flunitrazepam, nitrazepam y flurazepam. Posiciona a flunitrazepam como hipnótico de vida media más prolongada, potencialmente menos adecuado que fármacos de acción corta para el insomnio por mayor acumulación. |
-| [14722706](https://pubmed.ncbi.nlm.nih.gov/14722706/) | 2004 | Estudio animal | Psychopharmacology | Modelo de rata con perturbación del sueño para evaluar características de hipnóticos. Valida la utilidad del modelo para estimar efectos de benzodiacepinas sobre el ciclo sueño-vigilia; soporte preclínico de la clase farmacológica. |
-
----
+| [20171127](https://pubmed.ncbi.nlm.nih.gov/20171127/) | 2010 | Estudio clínico | Sleep Med Rev | Los hipnóticos alteran el equilibrio corporal y la estabilidad al estar de pie; se asocian a caídas y fracturas de cadera |
+| [8519370](https://pubmed.ncbi.nlm.nih.gov/8519370/) | 1993 | Estudio clínico | Eur Respir J | Efectos agudos de zolpidem, triazolam y flunitrazepam sobre gases arteriales y respiración en EPOC grave |
+| [430730](https://pubmed.ncbi.nlm.nih.gov/430730/) | 1979 | Estudio clínico | JAMA | Insomnio de rebote tras suspender flunitrazepam, triazolam y nitrazepam |
+| [40195](https://pubmed.ncbi.nlm.nih.gov/40195/) | 1979 | Estudio clínico | La Nouvelle Presse Médicale | Acción de flunitrazepam en trastornos del sueño orgánicos y funcionales |
+| [6114852](https://pubmed.ncbi.nlm.nih.gov/6114852/) | 1981 | Revisión | Drugs | Revisión de triazolam en insomnio; lo considera más adecuado que hipnóticos de acción más larga como flunitrazepam |
+| [2883822](https://pubmed.ncbi.nlm.nih.gov/2883822/) | 1986 | Revisión | Acta Psychiatr Scand Suppl | Mayor respuesta a benzodiazepinas en ancianos, incluido flunitrazepam |
+| [2883820](https://pubmed.ncbi.nlm.nih.gov/2883820/) | 1986 | Revisión | Acta Psychiatr Scand Suppl | Uso clínico de hipnóticos y necesidad de contar con distintos perfiles farmacocinéticos |
+| [14722706](https://pubmed.ncbi.nlm.nih.gov/14722706/) | 2004 | Estudio animal | Psychopharmacology | Efectos de tres hipnóticos sobre el ciclo sueño-vigilia en ratas con alteración del sueño |
 
 ## Información de Mercado en Argentina
 
-Flunitrazepam no posee ninguna autorización de comercialización vigente registrada ante la ANMAT. No se registran licencias activas para este principio activo en Argentina.
-
----
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 49248 | MIRPAW | 1 mg comprimidos x 30 | No disponible |
+| 16287 | ROHYPNOL | 1 mg comprimidos laqueados x 30 | No disponible |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones farmacológicas**: los datos compilados registran 4 interacciones farmacológicas con subunidades del receptor GABA-A (α1, α2, α3 y α5), que corresponden a su mecanismo de acción y no a interacciones con otros medicamentos.
+- **Precauciones señaladas en la literatura**: dependencia, insomnio de rebote, potencial de abuso, alteración del equilibrio y de la respiración, y mayor sensibilidad en ancianos.
 
-> **Nota clínica:** Aunque los datos estructurados de advertencias no están disponibles en las fuentes consultadas, la literatura revisada documenta las siguientes preocupaciones de seguridad directamente relevantes para la indicación de insomnio:
->
-> - **Insomnio de rebote:** documentado tras retirada incluso con uso breve de dosis nocturna única (PMID 430730, PMID 684426); obliga a reducción gradual de dosis
-> - **Deterioro postural y riesgo de caídas:** especialmente crítico en pacientes ancianos; asociado con fracturas de cadera (PMID 20171127)
-> - **Depresión respiratoria:** precaución en pacientes con EPOC grave; datos de seguridad disponibles (PMID 8519370)
-> - **Amnesia anterógrada:** efecto documentado a dosis terapéuticas; contribuye al perfil de abuso como droga facilitadora de agresión sexual
-> - **Alto potencial de abuso y dependencia:** retirado del mercado o severamente restringido en la mayoría de países; actualmente ilegal importarlo a EE.UU. y otros países (PMID 9475831)
-
----
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-El vínculo mecanístico de flunitrazepam con el insomnio es robusto y está respaldado por uso clínico histórico documentado en múltiples países, publicaciones clínicas directas (incluyendo una auditoría multicéntrica japonesa) y una base farmacológica sólida en el receptor GABA-A. No obstante, el altísimo potencial de abuso, la ausencia total de registro en Argentina y la disponibilidad de alternativas hipnóticas más seguras imponen guardarraíles estrictos que deben ser evaluados formalmente antes de cualquier avance clínico o regulatorio.
+El insomnio es un uso ya establecido de flunitrazepam y la literatura clínica lo respalda de forma consistente, aunque es antigua, de bajo grado y sin ensayos registrados. El perfil de riesgo (dependencia, abuso, depresión respiratoria) exige condiciones estrictas de uso.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto oficial (EMA/Rote Liste/prospecto japonés) para completar los datos de advertencias, contraindicaciones e interacciones — **Data Gap DG001 (nivel Blocking)**
-- Confirmar el mecanismo de acción formal mediante consulta a DrugBank API — **Data Gap DG002 (nivel High)**
-- Evaluar el marco regulatorio vigente en Argentina para benzodiacepinas de alta potencia (Ley 17.818 de psicotrópicos) y determinar si existe vía legal para un eventual uso hospitalario restringido
-- Realizar análisis de beneficio-riesgo comparativo frente a hipnóticos actualmente disponibles en Argentina con perfil de seguridad superior (zolpidem, lormetazepam, melatonina)
-- Definir una estrategia formal de mitigación del riesgo de abuso (programa de acceso restringido, uso exclusivo hospitalario) antes de considerar cualquier solicitud de registro o protocolo de investigación clínica
+- Obtener el prospecto de ANMAT para confirmar la indicación aprobada, las advertencias y las contraindicaciones
+- Completar los datos del mecanismo de acción en DrugBank
+- Definir medidas de control en poblaciones de riesgo (ancianos, pacientes con EPOC, personas con antecedentes de abuso de sustancias)
+
+**Otras predicciones del modelo (resumen):**
+- **Delirium por abstinencia alcohólica** (L3, Research Question): existen reportes clínicos pequeños de flunitrazepam intravenoso (1979–1993), con respaldo mecanístico sólido pero evidencia específica antigua y de bajo grado.
+- **Ansiedad y trastorno de ansiedad** (L3, Research Question): la literatura se centra en abuso, toxicidad y eventos adversos, sin estudios de eficacia específicos; primero debe evaluarse la seguridad.
+- **Migraña (y variantes), agoraphobia, tortícolis paroxística benigna de la infancia y atrofodermia vermiculada** (L4–L5, Hold): solo hay predicción del modelo o evidencia indirecta, sin respaldo clínico.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

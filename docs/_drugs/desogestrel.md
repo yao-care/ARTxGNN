@@ -2,7 +2,7 @@
 layout: default
 title: Desogestrel
 parent: Evidencia Moderada (L3-L4)
-nav_order: 112
+nav_order: 119
 evidence_level: L3
 indication_count: 10
 ---
@@ -29,92 +29,92 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-El skill de TxGNN pipeline no agrega instrucciones adicionales para la generación del informe. Procedo con el informe según el formato definido.
-
----
-
 # Desogestrel: De Anticoncepción Hormonal a Amenorrea
 
 ## Resumen en Una Frase
 
-Desogestrel es un progestágeno de tercera generación, ampliamente utilizado como componente de anticonceptivos orales combinados (AOC) y como píldora solo de progestágeno (POP).
-El modelo TxGNN predice que podría ser efectivo para **Amenorrea**, con **2 ensayos clínicos** y **16 publicaciones** que actualmente respaldan esta dirección.
-Sin embargo, la relación es bidireccional y requiere cautela interpretativa: como POP (75 µg), desogestrel es precisamente una causa frecuente de amenorrea, no un tratamiento.
+Desogestrel es un progestágeno utilizado originalmente como anticonceptivo hormonal (solo o combinado con etinilestradiol) y comercializado en Argentina bajo varias marcas.
+El modelo TxGNN predice que podría ser efectivo para **amenorrea**,
+con **1 ensayo clínico** (de relevancia solo indirecta) y **11 publicaciones** que actualmente respaldan esta dirección de forma limitada.
 
----
-
-## Resumen Rapido
+## Resumen Rápido
 
 | Item | Contenido |
-|------|-----------|
-| Indicación Original | Anticoncepción hormonal (progestágeno en AOC/POP) |
+|------|------|
+| Indicación Original | No disponible en los textos de autorización; el uso conocido es anticoncepción hormonal |
 | Nueva Indicación Predicha | Amenorrea |
 | Puntaje de Predicción TxGNN | 99.96% |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | ✓ Comercializado |
+| Número de Autorizaciones | 7 |
 | Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por qué es Razonable esta Predicción?
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según la información conocida, desogestrel es un progestágeno que suprime la secreción de gonadotropinas; se usa como anticonceptivo, solo o combinado con etinilestradiol.
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Con base en la información farmacológica conocida, desogestrel es un progestágeno gonano de tercera generación cuyo metabolito activo, etonogestrel, actúa selectivamente sobre receptores de progesterona con baja afinidad androgénica. En formulaciones de AOC (combinado con etinilestradiol), suprime el eje hipotálamo-hipófisis-ovario y regula el ciclo menstrual mediante retroalimentación hormonal.
+En la oligo/amenorrea hipotalámica, la combinación de un progestágeno con un estrógeno puede restablecer el sangrado cíclico por deprivación y apoyar la salud ósea. Mecanísticamente la hipótesis es plausible, pero se trata de manejo sintomático y reemplazo hormonal, no de una cura de la causa subyacente.
 
-La relación entre desogestrel y la amenorrea es compleja y bidireccional. Como componente de AOC (con EE), la suplementación cíclica de estrógeno-progestágeno puede restaurar ciclos menstruales en pacientes con amenorrea hipotalámica o amenorrea del atleta, contextos donde el eje hipotálamo-hipofisario está suprimido por déficit energético o estrés. En cambio, como POP (75 µg), desogestrel inhibe la ovulación en más del 97% de las usuarias y adelgaza el endometrio, lo que genera amenorrea como efecto adverso frecuente (hasta el 50% de las usuarias). Esta dualidad hace que la predicción de TxGNN refleje probablemente la asociación de red entre desogestrel y amenorrea, sin distinguir dirección causal.
-
-La predicción tiene una base mecanística parcial pero con dirección ambigua: el modelo TxGNN puede haber capturado la co-ocurrencia de desogestrel y amenorrea en la literatura (p. ej., como efecto adverso del POP y como tratamiento en AOC para amenorrea hipotalámica), sin discriminar si la relación es causante o terapéutica. Para que esta indicación sea viable clínicamente, es necesario especificar el subtipo de amenorrea (hipotalámica, atlética, post-AOC) y la formulación exacta (AOC vs. POP).
-
----
+Cabe señalar que la evidencia disponible proviene sobre todo de productos combinados y de revisiones generales sobre anticoncepción, por lo que no aísla el aporte específico de desogestrel en la amenorrea.
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|------------------|------|--------|-------------|----------------------|
-| [NCT00946192](https://clinicaltrials.gov/study/NCT00946192) | Fase 3 | Completado | 121 | Modulación de la función reproductiva por grasa corporal en atletas jóvenes; evalúa si estradiol transdérmico u oral mejora densidad ósea en atletas con amenorrea y déficit estrogénico. La intervención hormonal podría incluir componentes progestagénicos. |
-| [NCT01588873](https://clinicaltrials.gov/study/NCT01588873) | Fase 4 | Desconocido | 42 | Comparación de efectos de AOC oral vs. anillo vaginal sobre andrógenos, metabolismo de insulina y glucosa, perfil lipídico y SHBG en mujeres con SOP (síndrome de ovario poliquístico). La amenorrea no es el endpoint primario. |
-
----
+|---------|------|------|------|---------|
+| [NCT00946192](https://clinicaltrials.gov/study/NCT00946192) | Fase 3 | Completado | 121 | Modulación de la función reproductiva y endocrina en atletas jóvenes con amenorrea; evalúa estrógeno transdérmico u oral sobre densidad ósea. No indica que desogestrel sea la intervención estudiada, por lo que solo es relevante para la población |
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|---------|----------------------|
-| [35261299](https://pubmed.ncbi.nlm.nih.gov/35261299/) | 2022 | Estudio Clínico | Gynecological Endocrinology | Compara perfil de sangrado de drospirenona 4 mg vs. desogestrel 75 µg (POP); el DSG se asocia a mayor tasa de amenorrea e irregularidades del ciclo, lo que compromete la adherencia. |
-| [11725730](https://pubmed.ncbi.nlm.nih.gov/11725730/) | 2001 | Estudio Clínico | Journal of Reproductive Medicine | Evalúa el efecto de dosis decrecientes de EE en la pérdida ósea asociada a amenorrea hipotalámica; el AOC con progestágeno puede preservar la DMO en mujeres con amenorrea. |
-| [23221134](https://pubmed.ncbi.nlm.nih.gov/23221134/) | 2012 | Estudio Clínico | Georgian Medical News | Manejo de trastornos menstruales de origen central (oligomenorrea y amenorrea) en 159 mujeres infértiles; compara tratamiento hormonal estándar con tratamiento guiado por disfunción cerebral. |
-| [21249657](https://pubmed.ncbi.nlm.nih.gov/21249657/) | 2011 | Revisión Cochrane | Cochrane Database of Systematic Reviews | Revisión sistemática de AOC con 20 µg vs. >20 µg EE; evalúa eficacia anticonceptiva y patrones de sangrado, incluyendo incidencia de amenorrea por formulación. |
-| [18843653](https://pubmed.ncbi.nlm.nih.gov/18843653/) | 2008 | Revisión Sistemática | Cochrane Database of Systematic Reviews | Versión anterior de la revisión Cochrane sobre dosis de EE en AOC; preocupación por cambios en patrones de sangrado al reducir dosis estrogénica. |
-| [8218004](https://pubmed.ncbi.nlm.nih.gov/8218004/) | 1993 | ECA Comparativo | British Journal of Obstetrics and Gynaecology | Compara dos AOC con 150 µg desogestrel más 20 µg (Mercilon) vs. 30 µg EE (Marvelon) en confiabilidad, control del ciclo y perfil de efectos adversos. |
-| [3161265](https://pubmed.ncbi.nlm.nih.gov/3161265/) | 1985 | Estudio Farmacodinámico | Acta Obstet Gynecol Scand (Suplemento) | Evalúa androgenicidad de progestágenos incluyendo desogestrel; menciona el contexto del SOP con amenorrea e hirsutismo, y la comparativa de perfil androgénico frente a otros progestágenos. |
-| [10549446](https://pubmed.ncbi.nlm.nih.gov/10549446/) | 1999 | ECA Multicéntrico | Contraception | Compara Implanon (etonogestrel, metabolito activo de desogestrel) vs. Norplant en eficacia y patrones de sangrado; Implanon presenta tasas significativas de amenorrea durante el seguimiento. |
-| [8447356](https://pubmed.ncbi.nlm.nih.gov/8447356/) | 1993 | Estudio Clínico | American Journal of Obstetrics and Gynecology | Perfil de tolerabilidad de DSG/EE como AOC; describe beneficios no anticonceptivos incluyendo reducción de dismenorrea y control del ciclo. |
-| [1436906](https://pubmed.ncbi.nlm.nih.gov/1436906/) | 1992 | Revisión | Obstetrical & Gynecological Survey | Revisión sobre los nuevos progestágenos de tercera generación (desogestrel, norgestimato, gestodeno): farmacología, eficacia y ventajas sobre progestágenos de generaciones anteriores. |
+|------|-----|------|------|---------|
+| [11725730](https://pubmed.ncbi.nlm.nih.gov/11725730/) | 2001 | Cohorte | J Reprod Med | Densidad mineral ósea en mujeres jóvenes con oligoamenorrea hipotalámica tratadas con anticonceptivos orales |
+| [35261299](https://pubmed.ncbi.nlm.nih.gov/35261299/) | 2022 | Cohorte | Gynecol Endocrinol | Perfil de sangrado de una píldora de drospirenona sola frente a desogestrel 0,075 mg en mujeres con factores de riesgo cardiovascular |
+| [8218004](https://pubmed.ncbi.nlm.nih.gov/8218004/) | 1993 | Estudio clínico comparativo | Br J Obstet Gynaecol | Comparación de dos formulaciones con desogestrel 150 µg y etinilestradiol 20 o 30 µg: fiabilidad, control del ciclo y efectos secundarios |
+| [8447356](https://pubmed.ncbi.nlm.nih.gov/8447356/) | 1993 | Estudio de tolerabilidad | Am J Obstet Gynecol | Perfil de tolerabilidad de desogestrel/etinilestradiol y beneficios no anticonceptivos de los anticonceptivos orales |
+| [3161265](https://pubmed.ncbi.nlm.nih.gov/3161265/) | 1985 | Estudio farmacodinámico | Acta Obstet Gynecol Scand Suppl | Androgenicidad de los progestágenos, con énfasis en desogestrel |
+| [8324604](https://pubmed.ncbi.nlm.nih.gov/8324604/) | 1993 | Revisión | Br Med Bull | Aceptabilidad y uso eficaz de los anticonceptivos orales combinados |
+| [1436906](https://pubmed.ncbi.nlm.nih.gov/1436906/) | 1992 | Revisión | Obstet Gynecol Surv | Nuevos progestágenos: gestodeno, norgestimato y desogestrel |
+| [1604074](https://pubmed.ncbi.nlm.nih.gov/1604074/) | 1992 | Revisión | Rev Med Liege | Anticoncepción hormonal |
+| [7838435](https://pubmed.ncbi.nlm.nih.gov/7838435/) | 1994 | Revisión | Nurse Pract | Breve revisión de las píldoras anticonceptivas combinadas |
+| [8513962](https://pubmed.ncbi.nlm.nih.gov/8513962/) | 1993 | Estudio clínico | Fertil Steril | Agonista de GnRH frente a anticonceptivo oral de dosis baja para el dolor pélvico por endometriosis |
 
----
+## Información de Mercado en Argentina
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 47786 | PINK | Comprimidos recubiertos x 28 | No especificada |
+| 39902 | LUMILAC | Comprimidos recubiertos x 28 | No especificada |
+| 28879 | CERAZETTE | Comprimidos recubiertos x 28 | No especificada |
+| 38178 | CARMIN | Comprimidos recubiertos x 28 | No especificada |
+| 42079 | CAMELIA | Comprimidos recubiertos x 28 | No especificada |
+
+Existen además dos autorizaciones vigentes (MARVELON, N.º 6191, y MERCILON, N.º 15883, ambas comprimidos x 21), para un total de 7.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones señaladas en el grafo de conocimiento (no provienen del prospecto):** hipertensión, epilepsia, trastornos de ansiedad y distímicos, porfirias, enfermedad hepática y de la vesícula biliar, hiperglucemia y diabetes mellitus (incluida cetoacidosis diabética), hipotiroidismo, lupus eritematoso sistémico, asma, hipertrigliceridemia, hipercalcemia, carcinoma de mama femenino, tromboflebitis y leiomioma uterino.
+- **Interacciones farmacológicas:** se identificaron 43 interacciones; las 20 listadas son de nivel moderado y se concentran en antidiabéticos e insulinas (insulinas aspart, degludec, detemir, glulisina, lispro y humana; metformina, liraglutida, albiglutida, lixisenatida, alogliptina, linagliptina, dapagliflozina, ertugliflozina, nateglinida, rosiglitazona y metreleptina), además de aprepitant, fenilbutirato de glicerol y metreleptina.
+- **Riesgo tromboembólico:** con las combinaciones con estrógeno debe considerarse el riesgo de tromboembolismo venoso.
 
-> **Nota:** La información de advertencias clave, contraindicaciones e interacciones farmacológicas no está disponible en el Evidence Pack actual. Se recomienda revisar el prospecto oficial del fabricante y la base de datos de la ANMAT antes de cualquier evaluación clínica.
-
----
+Las advertencias y contraindicaciones del prospecto de ANMAT no están disponibles; consultar el prospecto para completar la información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción de TxGNN refleja una asociación real entre desogestrel y amenorrea, pero la dirección del efecto es inversa a la esperada para una indicación terapéutica: desogestrel como POP (75 µg) es una **causa** frecuente de amenorrea, no un tratamiento. La aplicación clínica requeriría especificar formulación (AOC con EE) y subtipo de amenorrea (hipotalámica/atlética), escenario con evidencia L3 pero sin ensayos que prueben desogestrel específicamente para el tratamiento de la amenorrea. Adicionalmente, el fármaco no está comercializado en Argentina, lo que eleva la barrera regulatoria.
+La predicción tiene un puntaje alto y un mecanismo plausible, pero la evidencia directa es escasa: el único ensayo no evalúa desogestrel y la literatura procede mayormente de revisiones y de productos combinados. Se trata de una pregunta de investigación más que de una indicación sustentada.
 
 **Para avanzar se necesita:**
-- Datos completos del mecanismo de acción (MOA) de desogestrel y su metabolito etonogestrel
-- Información de seguridad completa: advertencias, contraindicaciones e interacciones farmacológicas (prospecto ANMAT o ficha técnica equivalente)
-- Definición precisa del subtipo de amenorrea objetivo: hipotalámica, atlética, post-AOC o por SOP
-- Ensayo clínico prospectivo que pruebe la hipótesis terapéutica (AOC con desogestrel para tratamiento de amenorrea hipotalámica), diferenciado del efecto adverso del POP
-- Evaluación del camino regulatorio en Argentina para una nueva indicación dado que el fármaco no tiene autorización vigente
-- Valoración del perfil riesgo-beneficio frente a las alternativas ya aprobadas (EE/LNG, EE/DRSP con indicación formal en amenorrea secundaria)
+- Datos del mecanismo de acción y de las advertencias y contraindicaciones del prospecto de ANMAT (revisar el texto de indicaciones aprobadas, hoy vacío)
+- Estudios clínicos que evalúen desogestrel específicamente en amenorrea (hipotalámica o de atletas), distinguiéndolo del componente estrogénico
+- Evaluación de seguridad en la población objetivo (riesgo tromboembólico y contraindicaciones)
+
+---
+
+### Nota sobre otras indicaciones predichas
+
+Dentro de las predicciones, el **acné** presenta una evidencia más sólida (nivel L3, un ensayo de Fase 4 con 201 participantes donde desogestrel es comparador, y estudios comparativos con desogestrel/etinilestradiol), con recomendación *Proceed with Guardrails* en el análisis de esa indicación. Las demás predicciones (adenosis de mama, necrosis grasa, absceso mamario, insuficiencia ovárica primaria, entre otras) carecen de estudios y se mantienen en *Hold*. La enfermedad de la lactancia (L4) solo tiene literatura indirecta sobre anticoncepción durante la lactancia.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

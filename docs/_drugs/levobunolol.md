@@ -2,7 +2,7 @@
 layout: default
 title: Levobunolol
 parent: Solo Predicción del Modelo (L5)
-nav_order: 142
+nav_order: 176
 evidence_level: L5
 indication_count: 3
 ---
@@ -33,55 +33,75 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 ## Resumen en Una Frase
 
-Levobunolol es un agente bloqueante beta-adrenérgico no selectivo, utilizado en solución oftálmica para reducir la presión intraocular (PIO) en pacientes con glaucoma de ángulo abierto e hipertensión ocular. El modelo TxGNN predice que podría ser efectivo para el **Glaucoma Hereditario Primario**, aunque actualmente **no se registran ensayos clínicos ni publicaciones** que respalden específicamente esta indicación. La plausibilidad mecanística es razonable, dado que esta forma hereditaria comparte como característica central la elevación de la PIO, que es precisamente el blanco terapéutico del fármaco.
+Levobunolol es un betabloqueante no selectivo de uso oftálmico, utilizado originalmente para el tratamiento del glaucoma de ángulo abierto y la hipertensión ocular.
+El modelo TxGNN predice que podría ser efectivo para el **glaucoma hereditario primario**, con un puntaje muy alto (99,98%), pero **sin ensayos clínicos ni publicaciones** vinculados a esta indicación específica; la predicción se apoya solo en la cercanía con las indicaciones ya aprobadas.
 
 ---
 
 ## Resumen Rápido
 
 | Item | Contenido |
-|------|-----------|
-| Indicación Original | Sin registro ANMAT — uso farmacológico reconocido: Glaucoma de ángulo abierto / Hipertensión ocular |
-| Nueva Indicación Predicha | Glaucoma Hereditario Primario (Primary Hereditary Glaucoma) |
-| Puntaje de Predicción TxGNN | 99.98% |
-| Nivel de Evidencia | L4 — Predicción del modelo con racionalidad mecanística; sin ensayos clínicos ni literatura específica |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+|------|------|
+| Indicación Original | Glaucoma de ángulo abierto e hipertensión ocular (según el grafo de conocimiento; el texto de indicación de la licencia local está vacío) |
+| Nueva Indicación Predicha | Glaucoma hereditario primario |
+| Puntaje de Predicción TxGNN | 99,98% |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Argentina | ✓ Comercializado |
+| Número de Autorizaciones | 1 |
 | Decisión Recomendada | Hold |
 
 ---
 
-## Por qué es Razonable esta Predicción?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos formales sobre el mecanismo de acción en la fuente consultada (DrugBank, pendiente de resolución). Según la información disponible en la literatura farmacológica, levobunolol es un potente bloqueante no selectivo de los receptores beta-adrenérgicos (β1 y β2), formulado como solución oftálmica tópica. Su eficacia para reducir la PIO en glaucoma de ángulo abierto e hipertensión ocular está ampliamente documentada — múltiples ensayos clínicos controlados con seguimiento de hasta 4 años demuestran reducciones de PIO del 27–30% (≈7–8 mmHg), comparables a las del timolol.
+Los datos compilados para este informe no incluyen el mecanismo de acción detallado del fármaco. Según el conocimiento general de la clase, levobunolol es un betabloqueante no selectivo que reduce la producción de humor acuoso en el cuerpo ciliar y, con ello, la presión intraocular (PIO). Su eficacia en el glaucoma de ángulo abierto y la hipertensión ocular está bien documentada.
 
-El Glaucoma Hereditario Primario — que incluye formas causadas por mutaciones en genes como *MYOC*, *OPTN* y *WDR36* — comparte con el glaucoma de ángulo abierto común la fisiopatología central de elevación de la PIO con daño progresivo del nervio óptico. Levobunolol reduce la producción de humor acuoso al bloquear los receptores β2 del cuerpo ciliar, inhibiendo la vía del AMPc y disminuyendo directamente la PIO. Este mecanismo es, en principio, independiente de la etiología genética, lo que hace conceptualmente plausible la extrapolación a esta subforma hereditaria.
+La relación entre la indicación original y la nueva es de proximidad: ambas son formas de glaucoma en las que la PIO elevada es un factor central. Esto explica el puntaje alto del modelo, que probablemente refleja la cercanía en la red de conocimiento con las indicaciones aprobadas.
 
-No obstante, el Glaucoma Hereditario Primario presenta particularidades importantes que justifican cautela: inicio más temprano en la vida (a menudo en niños o adultos jóvenes), progresión más agresiva, y posible respuesta diferente a los hipotensores oculares respecto al glaucoma del adulto de inicio tardío. Actualmente no existen datos clínicos directos que validen la eficacia o la seguridad de levobunolol en este subgrupo específico, lo que clasifica esta predicción en nivel L4.
+Sin embargo, hay reservas importantes. El glaucoma hereditario primario (por ejemplo, las formas congénita o juvenil) suele implicar anomalías del desarrollo del ángulo y se maneja habitualmente con cirugía. Además, el uso pediátrico de betabloqueantes tópicos conlleva preocupaciones de seguridad sistémica (bradicardia, broncoespasmo). Por ello, la aplicabilidad mecanística es plausible, pero no está respaldada por datos específicos.
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para levobunolol en Glaucoma Hereditario Primario.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ---
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible específicamente para levobunolol en Glaucoma Hereditario Primario.
+Actualmente no hay literatura relacionada disponible para el glaucoma hereditario primario.
+
+*Nota:* para las indicaciones ya aprobadas (glaucoma de ángulo abierto), sí existe literatura abundante, que se resume a continuación como contexto. Se trata de un uso dentro de la indicación aprobada, no de un reposicionamiento propiamente dicho.
+
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [26526633](https://pubmed.ncbi.nlm.nih.gov/26526633/) | 2016 | Revisión sistemática / Metaanálisis en red | Ophthalmology | Eficacia comparativa de los tratamientos de primera línea en glaucoma primario de ángulo abierto e hipertensión ocular |
+| [2664628](https://pubmed.ncbi.nlm.nih.gov/2664628/) | 1989 | Estudio clínico aleatorizado, doble ciego (4 años) | Ophthalmology | 391 pacientes; descenso de PIO de ~7 mmHg con levobunolol 0,5% y 1%, similar a timolol 0,5%, con poca atenuación del efecto |
+| [2865710](https://pubmed.ncbi.nlm.nih.gov/2865710/) | 1985 | Estudio clínico doble ciego | Ophthalmology | Levobunolol redujo la PIO media un 27% durante dos años, de forma sostenida, frente a timolol |
+| [3881032](https://pubmed.ncbi.nlm.nih.gov/3881032/) | 1985 | Estudio clínico comparativo | Am J Ophthalmol | 162 pacientes; reducción de PIO de ~8 mmHg, sin diferencias significativas con timolol |
+| [2892662](https://pubmed.ncbi.nlm.nih.gov/2892662/) | 1987 | Revisión | Drugs | Revisión farmacodinámica y farmacocinética; reducción de la PIO de ~30%, superior a placebo y comparable a otros betabloqueantes |
+| [8123096](https://pubmed.ncbi.nlm.nih.gov/8123096/) | 1993 | Estudio clínico comparativo | J Ocul Pharmacol | Levobunolol frente a dipivefrina en 38 pacientes afroamericanos con glaucoma de ángulo abierto |
+| [8773166](https://pubmed.ncbi.nlm.nih.gov/8773166/) | 1996 | Revisión | Ann Pharmacother | Comparación de betabloqueantes oculares: efectos adversos sistémicos, tolerabilidad local y costo |
+| [40261315](https://pubmed.ncbi.nlm.nih.gov/40261315/) | 2025 | Revisión | Med Lett Drugs Ther | Revisión de fármacos para el glaucoma de ángulo abierto |
 
 ---
 
 ## Información de Mercado en Argentina
 
-Levobunolol no cuenta con autorizaciones de comercialización registradas en Argentina (ANMAT). La consulta a la base de datos regulatoria argentina realizada el 29/03/2026 no arrojó resultados. El fármaco no tiene expedientes de registro activos a la fecha de corte de datos (01/05/2026).
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 19724 | BETAGAN LIQUIFILM (Abbvie) | Solución 0,50% x 5 ml | No consta el texto de indicación en los datos compilados |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Condiciones asociadas a contraindicación (según el grafo de conocimiento, no el prospecto):** asma (incluidos asma intrínseco y alérgico), diabetes mellitus, cetoacidosis diabética, miastenia gravis y enfermedades de la unión neuromuscular, bloqueo auriculoventricular, enfisema pulmonar y anafilaxia.
+- **Interacciones farmacológicas:** se registraron 24 interacciones, todas con nivel de gravedad no clasificado. Entre las listadas figuran lansoprazol, pantoprazol, omeprazol, prednisona, triamcinolona, warfarina, clopidogrel, ibuprofeno, metronidazol y tacrolimus.
+- **Uso pediátrico:** los betabloqueantes tópicos pueden causar efectos sistémicos (bradicardia, broncoespasmo), lo cual es especialmente relevante en formas hereditarias o congénitas de glaucoma.
+
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ---
 
@@ -90,14 +110,15 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-Si bien el mecanismo de acción de levobunolol (reducción de PIO mediante bloqueo β-adrenérgico no selectivo) es farmacológicamente plausible para el Glaucoma Hereditario Primario, la ausencia total de ensayos clínicos y literatura directa para esta indicación específica, combinada con la falta de registro en Argentina, no permite avanzar en este momento. Vale destacar que las predicciones de rango 2 y 3 del modelo (glaucoma 1 de ángulo abierto; glaucoma de ángulo abierto en general) están respaldadas por evidencia nivel L1 con múltiples ECAs y revisiones sistemáticas, lo que confirma el perfil establecido del fármaco en indicaciones relacionadas.
+- Pese al puntaje muy alto de TxGNN (99,98%), no existen ensayos clínicos ni literatura para el glaucoma hereditario primario (nivel L5), y esta forma se maneja típicamente con cirugía, con preocupaciones de seguridad en población pediátrica.
+- Cabe señalar que las otras predicciones del modelo (glaucoma de ángulo abierto, incluida la forma genética GLC1) corresponden en esencia a la indicación ya aprobada, con evidencia de nivel L3 (conservador) y recomendación de *Proceed with Guardrails*; no constituyen reposicionamiento nuevo.
 
 **Para avanzar se necesita:**
-- Resolver brecha de datos DG001: obtener advertencias y contraindicaciones del prospecto oficial (fuente: ANMAT/FDA/EMA)
-- Resolver brecha de datos DG002: confirmar mecanismo de acción formal en DrugBank
-- Revisar literatura sobre el uso de beta-bloqueantes oftálmicos en glaucomas congénitos o hereditarios (población pediátrica y adultos jóvenes)
-- Evaluar compatibilidad de formulación tópica ocular para la población objetivo y sus particularidades farmacocinéticas
-- Iniciar gestión de registro ante ANMAT como requisito previo a cualquier uso clínico en Argentina
+- Revisión bibliográfica específica sobre betabloqueantes tópicos en glaucoma hereditario/congénito/juvenil.
+- Datos detallados del mecanismo de acción del fármaco.
+- Obtener y revisar el prospecto de ANMAT (advertencias y contraindicaciones) y el texto de la indicación aprobada.
+- Evaluación de seguridad en poblaciones específicas, en particular pediátricas, y de las contraindicaciones respiratorias y cardiovasculares.
+- Verificar el diseño y la fase de los estudios publicados mediante revisión de texto completo, lo que podría elevar el nivel de evidencia en las indicaciones ya aprobadas.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

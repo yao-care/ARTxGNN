@@ -29,86 +29,84 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# BENAZEPRIL: Evaluación Preliminar — Sin Nuevas Indicaciones Predichas
+# Benazepril: De Hipertensión Arterial a Enfermedad Renal Hipertensiva Maligna
 
 ## Resumen en Una Frase
 
-Benazepril es un inhibidor de la enzima convertidora de angiotensina (ECA) ampliamente utilizado a nivel mundial para el tratamiento de la hipertensión arterial y la insuficiencia cardíaca. En esta evaluación, el modelo TxGNN **no ha generado predicciones de nuevas indicaciones** para este fármaco, y actualmente **no se encuentra comercializado en Argentina** según los registros de ANMAT.
-
----
+Benazepril es un inhibidor de la enzima convertidora de angiotensina (IECA), originalmente utilizado para el tratamiento de la hipertensión arterial.
+El modelo TxGNN predice que podría ser efectivo para **enfermedad renal hipertensiva maligna**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden directamente esta indicación; se trata de una predicción del modelo, en gran parte una extensión de la indicación ya existente.
 
 ## Resumen Rápido
 
-| Ítem | Contenido |
-|------|-----------|
-| Indicación Original | Hipertensión arterial / Insuficiencia cardíaca (según uso conocido; sin registro local en Argentina) |
-| Nueva Indicación Predicha | — Sin predicciones disponibles — |
-| Puntaje de Predicción TxGNN | N/A |
-| Nivel de Evidencia | L5 (solo datos de referencia, sin predicción ni estudios asociados) |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
-| Decisión Recomendada | **Hold** |
+| Item | Contenido |
+|------|------|
+| Indicación Original | Hipertensión arterial (trastorno hipertensivo) |
+| Nueva Indicación Predicha | Enfermedad renal hipertensiva maligna |
+| Puntaje de Predicción TxGNN | 99.65% |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Argentina | ✓ Comercializado |
+| Número de Autorizaciones | 12 |
+| Decisión Recomendada | Hold |
 
----
+> Nota: los datos compilados asignan a esta predicción un nivel L4 (evidencia indirecta, basada en mecanismo). Sin embargo, al no existir estudios reales sobre benazepril en esta condición, según los criterios del informe corresponde L5. La decisión Hold coincide en ambos casos.
 
-## ¿Por qué no se generaron Predicciones?
+> Nota sobre la indicación original: las autorizaciones locales no incluyen texto de indicación aprobada; la indicación original se tomó de la base de conocimiento utilizada por el modelo.
 
-Benazepril es un inhibidor de la ECA de segunda generación (profármaco que se convierte en benazeprilat activo). Su mecanismo de acción consiste en bloquear la conversión de angiotensina I a angiotensina II, reduciendo así la vasoconstricción y la retención de sodio, lo que resulta en una disminución de la presión arterial.
+## ¿Por qué es Razonable esta Predicción?
 
-A pesar de que los inhibidores de la ECA como clase farmacológica han demostrado beneficios en múltiples condiciones cardiovasculares y renales, el modelo TxGNN no generó predicciones de nuevas indicaciones para benazepril en esta iteración. Esto puede deberse a varios factores: (1) la ausencia de datos regulatorios locales que limita la construcción del grafo de conocimiento, (2) la cobertura insuficiente de benazepril en las fuentes de datos del modelo, o (3) la falta de señales diferenciadoras frente a otros inhibidores de la ECA ya evaluados.
+Benazepril es un IECA que reduce la formación de angiotensina II y, con ello, la vasoconstricción y la secreción de aldosterona. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados; esta descripción se basa en la clase farmacológica conocida del fármaco.
 
-Adicionalmente, el Evidence Pack presenta brechas de datos significativas (Data Gaps) en el mecanismo de acción formal y en la información de seguridad regulatoria, lo que limita la capacidad de evaluación integral del fármaco.
+La enfermedad renal hipertensiva maligna es una forma grave de hipertensión con daño renal, en la que la activación del sistema renina-angiotensina-aldosterona (SRAA) tiene un papel central. Por ello, el ajuste mecanístico es plausible y el puntaje alto del modelo (99.65%) refleja la cercanía con la indicación aprobada. Es más una extensión de la indicación de hipertensión que una oportunidad de reposicionamiento distinta.
 
----
+Cabe señalar que no se aportaron ensayos ni literatura para esta condición, por lo que la evidencia es indirecta y de carácter predictivo.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados con nuevas indicaciones registrados en el contexto de esta evaluación, dado que no se generaron predicciones de reposicionamiento.
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada con nuevas indicaciones disponible en el contexto de esta evaluación.
-
----
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-Benazepril **no se encuentra registrado ni comercializado en Argentina** según los datos consultados en ANMAT. No existen autorizaciones vigentes para este principio activo en el territorio nacional.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 36106 | ILDUC DUO (Baliarda) | Cápsulas 5/10 mg x 30 | No especificada |
+| 31897 | ARTERIOSAN PLUS (Laboratorios Be) | Cápsulas 5/10 mg x 30 | No especificada |
+| 46167 | ARTERIOSAN PLUS (Laboratorios Be) | Cápsulas 5/20 mg x 30 | No especificada |
+| 36107 | ILDUC DUO (Baliarda) | Cápsulas 2.5/10 mg x 30 | No especificada |
+| 39462 | ILDUC DUO (Baliarda) | Cápsulas 5/20 mg x 30 | No especificada |
 
----
+Se muestran 5 de las 12 autorizaciones vigentes (también hay TERLOC DUO de Siegfried y PELMEC DUO de Casasco). Ninguna está cancelada.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento (no provienen del prospecto)**: insuficiencia hepática, enfermedad renal, angioedema (adquirido, hereditario e inducido por bloqueadores del SRAA), pancreatitis, lupus eritematoso sistémico, diabetes mellitus y cetoacidosis diabética, neutropenia y agranulocitosis, hipotensión, hiperparatiroidismo, encefalopatía hepática, anuria, deficiencia de potasio, enfermedades del tejido conectivo, entre otras.
+- **Riesgo renal específico**: en la estenosis bilateral de la arteria renal o con riñón único, los IECA pueden causar deterioro agudo de la función renal. Esto es relevante para la enfermedad renal hipertensiva y la hipertensión renovascular.
+- **Interacciones farmacológicas**: se identificaron 100 interacciones; las 20 mostradas son de nivel moderado e incluyen antidiabéticos (alogliptina, acetohexamida, clorpropamida, dapagliflozina, exenatida, glimepirida, glipizida, gliburida), múltiples insulinas e hidrocortisona. El riesgo principal es la potenciación del efecto hipoglucemiante.
 
-> **Nota:** Los datos de advertencias principales, contraindicaciones e interacciones farmacológicas no se encuentran disponibles en el Evidence Pack actual. Se recomienda consultar las fuentes regulatorias internacionales (FDA, EMA) y la monografía de DrugBank (DB00542) para información de seguridad completa sobre benazepril.
-
----
-
-## Brechas de Datos Identificadas
-
-| ID | Categoría | Ítem Faltante | Severidad | Impacto | Fuente de Remediación |
-|----|-----------|---------------|-----------|---------|----------------------|
-| DG001 | Nivel de Fármaco | Advertencias y contraindicaciones del prospecto regulatorio | **Bloqueante** | No es posible realizar la evaluación inicial de seguridad (S1) | Descargar y analizar prospecto desde fuente regulatoria |
-| DG002 | Nivel de Fármaco | Mecanismo de Acción (MOA) | Alta | Afecta el análisis de correlación mecanística | Consultar API de DrugBank |
-
----
+Para advertencias y contraindicaciones oficiales, consultar el prospecto aprobado por ANMAT.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No se dispone de predicciones de nuevas indicaciones por parte del modelo TxGNN para benazepril. Además, el fármaco no se encuentra comercializado en Argentina, y existen brechas de datos críticas (severidad bloqueante) que impiden avanzar en la evaluación de seguridad. Sin una base regulatoria local ni señales de reposicionamiento, no es viable avanzar en este momento.
+La predicción es mecanísticamente coherente, pero no existe ningún ensayo ni publicación que la respalde, y se solapa en gran medida con la indicación ya aprobada de hipertensión. Además, la información de seguridad oficial no está disponible.
 
 **Para avanzar se necesita:**
-- Resolver la brecha de datos DG001: obtener y analizar el prospecto completo de benazepril desde fuentes regulatorias internacionales (FDA/EMA) para completar la evaluación de seguridad
-- Resolver la brecha de datos DG002: consultar DrugBank API para obtener el mecanismo de acción formal y las dianas terapéuticas
-- Verificar si existen formulaciones combinadas de benazepril (ej. benazepril + amlodipino) registradas en Argentina que pudieran servir como punto de entrada regulatorio
-- Reevaluar con el modelo TxGNN una vez que se completen los datos del grafo de conocimiento para este fármaco
-- Considerar si otros inhibidores de la ECA con mayor disponibilidad local (ej. enalapril, ramipril) podrían ser candidatos más viables para reposicionamiento en el mercado argentino
+- Obtener y analizar el prospecto de ANMAT (advertencias y contraindicaciones).
+- Obtener datos del mecanismo de acción desde DrugBank.
+- Revisión de literatura clínica específica sobre IECA en hipertensión maligna con daño renal.
+- Evaluar la seguridad renal (estenosis de arteria renal, función renal basal, potasio).
+- Definir si la indicación representa un reposicionamiento real o solo un subtipo de la indicación actual.
+
+**Otras predicciones del modelo (todas en Hold):**
+- Hipertensión renovascular maligna (99.65%, L4): coherente con el SRAA, con riesgo de deterioro renal agudo.
+- Hipertensión pulmonar multifactorial (99.60%, L5) e hipertensión pulmonar por enfermedad pulmonar o hipoxia (99.60%, L5): sin respaldo clínico; las tres publicaciones recuperadas son estudios preclínicos de fibrosis renal y miocárdica que no involucran benazepril y no apoyan esta indicación. La vasodilatación sistémica podría ser perjudicial.
+- Síndrome de Braddock (99.44%, L5): no se puede establecer una relación mecanística; solo sirve como hipótesis.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Clonazepam
 parent: Evidencia Moderada (L3-L4)
-nav_order: 110
+nav_order: 116
 evidence_level: L3
 indication_count: 3
 ---
@@ -29,13 +29,13 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **3**
 
 </div>
 
-# Clonazepam: De Epilepsia a Síndrome de Piernas Inquietas
+# Clonazepam: De Epilepsia (Encefalopatía Mioclónica Temprana, Ausencias y Síndrome de Lennox-Gastaut) a Síndrome de Piernas Inquietas
 
 ## Resumen en Una Frase
 
-Clonazepam es una benzodiazepina de larga trayectoria clínica, globalmente utilizada para el tratamiento de la epilepsia y el trastorno de pánico, cuyo mecanismo central se basa en la potenciación del receptor GABA-A.
-El modelo TxGNN predice que podría ser efectivo para el **Síndrome de Piernas Inquietas (Restless Legs Syndrome, RLS)**,
-con **0 ensayos clínicos registrados específicamente** y **20 publicaciones** —entre ellas una revisión Cochrane y la guía clínica AASM 2025— que actualmente respaldan esta dirección.
+Clonazepam es una benzodiacepina utilizada originalmente para el tratamiento de distintas formas de epilepsia (encefalopatía mioclónica temprana, epilepsia de ausencias, síndrome de Lennox-Gastaut) y del trastorno de ansiedad.
+El modelo TxGNN predice que podría ser efectivo para el **síndrome de piernas inquietas**,
+con **0 ensayos clínicos** registrados y **19 publicaciones** que actualmente respaldan esta dirección (incluyendo una revisión Cochrane y una guía clínica de la AASM).
 
 ---
 
@@ -43,79 +43,94 @@ con **0 ensayos clínicos registrados específicamente** y **20 publicaciones** 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Epilepsia / Trastorno de Pánico (no registrado en base regulatoria argentina) |
-| Nueva Indicación Predicha | Síndrome de Piernas Inquietas (Restless Legs Syndrome) |
+| Indicación Original | Epilepsia (encefalopatía mioclónica temprana, epilepsia de ausencias, síndrome de Lennox-Gastaut) y trastorno de ansiedad, según el grafo de conocimiento (el texto de indicación aprobado por ANMAT no está disponible) |
+| Nueva Indicación Predicha | Síndrome de piernas inquietas |
 | Puntaje de Predicción TxGNN | 99.65% |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Argentina | No comercializado |
-| Número de Autorizaciones | 0 |
-| Decisión Recomendada | Proceed with Guardrails |
+| Estado de Mercado en Argentina | ✓ Comercializado |
+| Número de Autorizaciones | 20 |
+| Decisión Recomendada | Hold |
 
 ---
 
-## Por qué es Razonable esta Predicción?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos formales sobre el mecanismo de acción en la base de datos consultada. Sin embargo, a partir de la información farmacológica conocida y de la justificación mecanística incluida en el Evidence Pack, Clonazepam actúa como potenciador alostérico positivo del receptor GABA-A (GABA-A PAM): aumenta la frecuencia de apertura del canal de cloro, intensificando la transmisión inhibitoria tanto a nivel espinal como subcortical. Este efecto reduce la amplitud y frecuencia de los movimientos periódicos de extremidades (MPE/PLM) y mejora la arquitectura general del sueño.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, clonazepam pertenece a la clase de las benzodiacepinas, que potencian la inhibición mediada por el receptor GABA-A. Su eficacia en epilepsia y ansiedad es conocida, y mecanísticamente podría ser aplicable al síndrome de piernas inquietas.
 
-La fisiopatología del Síndrome de Piernas Inquietas involucra una deficiencia GABAérgica espinal y una disfunción del sistema dopaminérgico. Clonazepam ofrece compensación GABAérgica nocturna que alivia los síntomas de movimientos involuntarios e insomnio asociado. Si bien no actúa directamente sobre la causa dopaminérgica subyacente, su efecto sintomático constituye una racionalidad mecanística coherente y ha sido empleado clínicamente durante décadas.
+La relación entre las indicaciones es plausible: al aumentar la inhibición GABAérgica, el fármaco podría reducir la hiperexcitabilidad sensitivo-motora y la fragmentación del sueño causada por los movimientos periódicos de las piernas. Este vínculo se infiere de la farmacología de clase y no de datos de mecanismo proporcionados.
 
-Esta predicción está respaldada por evidencia empírica sólida: una revisión sistemática Cochrane (2017) evaluó específicamente el uso de benzodiazepinas —con clonazepam como el agente más estudiado de la clase— en RLS, y la guía de práctica clínica AASM 2025 reconoce el rol histórico de esta clase en el tratamiento de RLS y PLMD. Datos de encuestas reales indican que aproximadamente el 25% de los pacientes con RLS reciben benzodiazepinas, solas o en combinación con otros tratamientos, lo que refuerza la relevancia clínica de esta predicción.
+Conviene matizar: los agonistas dopaminérgicos y los ligandos alfa-2-delta se consideran hoy tratamientos de primera línea, y se entiende que la guía AASM 2025 ubica a las benzodiacepinas en un nivel inferior (esto debe verificarse con el texto completo). Los estudios disponibles sobre clonazepam son pequeños y antiguos, por ejemplo un ensayo cruzado doble ciego controlado con placebo en 6 pacientes (1984) y un estudio de laboratorio del sueño con 1 mg (2001).
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para la combinación Clonazepam + Síndrome de Piernas Inquietas en ClinicalTrials.gov ni en ICTRP.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ---
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|---------|----------------------|
-| [39324694](https://pubmed.ncbi.nlm.nih.gov/39324694/) | 2025 | Guía Clínica (AASM) | J Clin Sleep Med | Guía de práctica clínica AASM 2025 para tratamiento de RLS y PLMD en adultos y pacientes pediátricos; referencia clave sobre estándares actuales |
-| [28319266](https://pubmed.ncbi.nlm.nih.gov/28319266/) | 2017 | Revisión Cochrane | Cochrane Database Syst Rev | Revisión sistemática Cochrane sobre benzodiazepinas en RLS; clonazepam identificado como el fármaco más estudiado de la clase, aunque la evidencia formal es limitada |
-| [38708125](https://pubmed.ncbi.nlm.nih.gov/38708125/) | 2024 | Revisión histórica narrativa | Tremor Other Hyperkinetic Mov | Revisión de 17 artículos sobre clonazepam en RLS y PLMS; ~25% de pacientes con RLS reciben benzodiazepinas en práctica real |
-| [31942156](https://pubmed.ncbi.nlm.nih.gov/31942156/) | 2019 | Estudio aleatorizado prospectivo | J Mid-Life Health | Comparativa prospectiva abierta de clonazepam vs. nortriptilina en mujeres mayores de 40 años con RLS; evalúa tasa, frecuencia y severidad de síntomas |
-| [6380197](https://pubmed.ncbi.nlm.nih.gov/6380197/) | 1984 | ECA cruzado doble ciego | Acta Neurol Scand | Ensayo cruzado aleatorizado vs. placebo en 6 pacientes con RLS: clonazepam mostró eficacia significativa en calidad subjetiva del sueño y disestesia de piernas |
-| [36692194](https://pubmed.ncbi.nlm.nih.gov/36692194/) | 2023 | Revisión sistemática y metaanálisis | J Clin Sleep Med | Metaanálisis sobre respuesta farmacológica de los movimientos periódicos de extremidades (PLMS) en RLS; evalúa categorías terapéuticas incluyendo benzodiazepinas |
-| [18925578](https://pubmed.ncbi.nlm.nih.gov/18925578/) | 2008 | Revisión basada en evidencia (MDS) | Mov Disord | Revisión encargada por la Movement Disorder Society; clasifica la eficacia de cada fármaco para RLS según nivel de evidencia |
-| [24363103](https://pubmed.ncbi.nlm.nih.gov/24363103/) | 2014 | Revisión narrativa | Neurotherapeutics | Revisión de opciones terapéuticas para RLS con análisis de cambios recientes; benzodiazepinas incluidas como alternativa de segunda línea |
-| [9444111](https://pubmed.ncbi.nlm.nih.gov/9444111/) | 1997 | Revisión clínica especializada | ANNA Journal | Clonazepam específicamente para RLS en pacientes con enfermedad renal en etapa terminal (ESRD); perfil farmacocinético favorable en pacientes con función renal alterada |
-| [35426627](https://pubmed.ncbi.nlm.nih.gov/35426627/) | 2022 | Revisión clínica / Guía | Am Fam Physician | Diagnóstico y manejo de trastornos comunes del sueño incluyendo RLS en adultos; perspectiva de atención primaria |
+|------|-----|------|------|---------|
+| [39324694](https://pubmed.ncbi.nlm.nih.gov/39324694/) | 2025 | Guía clínica | J Clin Sleep Med | Guía de la AASM con recomendaciones de tratamiento del síndrome de piernas inquietas y del trastorno de movimientos periódicos de las extremidades en adultos y niños |
+| [28319266](https://pubmed.ncbi.nlm.nih.gov/28319266/) | 2017 | Revisión sistemática (Cochrane) | Cochrane Database Syst Rev | Evalúa benzodiacepinas, en particular clonazepam, para el síndrome de piernas inquietas |
+| [18925578](https://pubmed.ncbi.nlm.nih.gov/18925578/) | 2008 | Revisión sistemática | Mov Disord | Revisión basada en evidencia de la Movement Disorder Society sobre las modalidades de tratamiento del síndrome |
+| [36692194](https://pubmed.ncbi.nlm.nih.gov/36692194/) | 2023 | Revisión sistemática y metaanálisis | J Clin Sleep Med | Respuesta farmacológica de los movimientos periódicos de las piernas en pacientes con síndrome de piernas inquietas |
+| [6380197](https://pubmed.ncbi.nlm.nih.gov/6380197/) | 1984 | Estudio clínico (ECA cruzado, 6 pacientes) | Acta Neurol Scand | Clonazepam mejoró significativamente la calidad subjetiva del sueño y la disestesia de las piernas frente a placebo; eficacia a largo plazo por confirmar |
+| [11313161](https://pubmed.ncbi.nlm.nih.gov/11313161/) | 2001 | Estudio controlado con placebo | Eur Neuropsychopharmacol | Efectos agudos de 1 mg de clonazepam sobre el sueño y el despertar en síndrome de piernas inquietas y movimientos periódicos |
+| [39787099](https://pubmed.ncbi.nlm.nih.gov/39787099/) | 2025 | Estudio clínico | Sleep | Compara los efectos de agonistas dopaminérgicos y clonazepam sobre los movimientos de grandes grupos musculares durante el sueño |
+| [20156514](https://pubmed.ncbi.nlm.nih.gov/20156514/) | 2010 | Estudio clínico | Prog Neuropsychopharmacol Biol Psychiatry | Propone una equivalencia de dosis entre clonazepam y pramipexol en pacientes con síndrome de piernas inquietas |
+| [24363103](https://pubmed.ncbi.nlm.nih.gov/24363103/) | 2014 | Revisión | Neurotherapeutics | Revisión de los cambios recientes en el tratamiento del síndrome de piernas inquietas |
+| [35426627](https://pubmed.ncbi.nlm.nih.gov/35426627/) | 2022 | Revisión | Am Fam Physician | Diagnóstico y manejo de trastornos del sueño frecuentes en adultos |
 
 ---
 
 ## Información de Mercado en Argentina
 
-Clonazepam no cuenta con ninguna autorización de comercialización registrada en la base regulatoria argentina consultada (ANMAT). El fármaco es ampliamente conocido y comercializado en numerosos países bajo marcas como **Rivotril** (Roche) y **Klonopin**, y su ausencia en el registro consultado podría reflejar una brecha de datos regulatorios más que una ausencia real del mercado.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 25919 | CLONAGIN 1 | 1 mg, comprimidos x 60 | No disponible en los datos compilados |
+| 36118 | LEPTIC | 2 mg, comprimidos x 50 | No disponible en los datos compilados |
+| 56426 | QUAZEMIC | 0,25 mg, comprimidos x 60 | No disponible en los datos compilados |
+| 26896 | NEURYL 2 | 2 mg, comprimidos x 50 | No disponible en los datos compilados |
+| 50407 | DIOCAM | 0,5 mg, comprimidos x 60 | No disponible en los datos compilados |
 
-> Se recomienda verificar directamente con ANMAT el estado de comercialización vigente antes de avanzar en cualquier evaluación regulatoria.
+Se listan 5 de las 20 autorizaciones vigentes (todas de monodroga, ninguna cancelada). Entre las presentaciones restantes hay comprimidos sublinguales (QUAZEMIC SL), comprimidos birranurados (RIBOCLER) y gotas (CLONER).
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se dispone actualmente de datos de advertencias clave, contraindicaciones ni interacciones farmacológicas en la base consultada.
+- **Contraindicaciones según el grafo de conocimiento** (no provienen del prospecto): insuficiencia hepática, enfermedad hepática, enfermedad renal, enfermedades de la vesícula biliar, porfiria, glaucoma de ángulo abierto y de ángulo cerrado, apnea obstructiva del sueño, insuficiencia respiratoria, síndrome de hipoventilación central congénita, trastornos por consumo de sustancias/dependencia y otros trastornos neuróticos o distímicos.
+- **Interacciones farmacológicas** (100 interacciones registradas; se muestran las principales):
+  - **Mayores:** morfina y morfina liposomal.
+  - **Moderadas:** bupropión, aprepitant, omeprazol, cimetidina, claritromicina, dronabinol, metoclopramida, nabilona, opio, sibutramina y teduglutida.
+  - **Menores:** antiácidos como óxido de magnesio, hidróxido de aluminio, carbonato de calcio, magaldrato, carbonato de magnesio e hidróxido de magnesio.
 
-> **Nota clínica importante:** Clonazepam es una benzodiazepina con potencial reconocido de dependencia física, tolerancia y fenómeno de rebote. Su uso a largo plazo en RLS debe evaluarse cuidadosamente frente a estos riesgos. Esta información proviene del contexto clínico general del fármaco y debe ser confirmada con la ficha técnica oficial.
+Para advertencias principales y contraindicaciones oficiales, consultar el prospecto aprobado por ANMAT.
 
 ---
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-La evidencia disponible incluye una revisión Cochrane, la guía AASM 2025, un ECA histórico doble ciego y un estudio aleatorizado prospectivo que respaldan el uso de clonazepam en RLS. Sin embargo, la ausencia de ensayos clínicos formales de Fase 2/3 completados, sumada al perfil de dependencia y rebote de la clase benzodiazepínica, requiere una implementación con controles estrictos de seguridad y duración de uso.
+Existe respaldo bibliográfico (revisión Cochrane, guía AASM y pequeños estudios controlados), pero no hay ensayos clínicos registrados. Además, las guías actuales ubican a otras clases de fármacos como primera línea, y no se dispone de la información de seguridad del prospecto local. El nivel de evidencia es L3.
 
 **Para avanzar se necesita:**
-- Obtener datos de mecanismo de acción (MOA) formal desde DrugBank (DG002)
-- Descargar y analizar el prospecto aprobado en Argentina o país de referencia para completar advertencias, contraindicaciones e interacciones farmacológicas (DG001)
-- Verificar el estado real de comercialización en ANMAT, dado que Rivotril tiene presencia histórica en la región
-- Evaluar el perfil riesgo-beneficio específico en poblaciones vulnerables (adultos mayores, pacientes con insuficiencia renal, embarazadas)
-- Considerar el impacto regulatorio de la clasificación como sustancia controlada (psicotrópico) sobre la accesibilidad y el seguimiento clínico en Argentina
-- Diseñar protocolo de monitoreo de dependencia y criterios de discontinuación para uso a largo plazo en RLS
+- Obtener y analizar el prospecto de ANMAT (advertencias y contraindicaciones), una brecha que impide la evaluación de seguridad.
+- Obtener los datos de mecanismo de acción desde DrugBank.
+- Verificar con el texto completo de la guía AASM 2025 el lugar que ocupan las benzodiacepinas en el tratamiento.
+- Evaluar el riesgo de dependencia, sedación y uso prolongado en esta población, frente a las alternativas de primera línea.
+
+---
+
+### Otras predicciones del modelo (referencia)
+
+- **Insomnio (puntaje 99.32%, evidencia L4, Hold):** el mecanismo es plausible por la acción sedante-hipnótica de la clase, pero la literatura aportada es mayormente indirecta (trastornos del sueño en Parkinson, trastorno de pánico) y no incluye ensayos controlados de clonazepam en insomnio primario.
+- **Neoplasia del nervio trigémino (puntaje 99.30%, evidencia L5, Hold):** no hay fundamento mecanístico que vincule la modulación GABA-A con actividad antitumoral. Es probable que el puntaje alto sea un artefacto del grafo de conocimiento, por su asociación con la neuralgia del trigémino.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

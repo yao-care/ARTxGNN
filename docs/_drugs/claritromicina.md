@@ -2,7 +2,7 @@
 layout: default
 title: Claritromicina
 parent: Solo Predicción del Modelo (L5)
-nav_order: 103
+nav_order: 107
 evidence_level: L5
 indication_count: 0
 ---

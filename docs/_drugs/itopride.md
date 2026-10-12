@@ -2,7 +2,7 @@
 layout: default
 title: Itopride
 parent: Solo Predicción del Modelo (L5)
-nav_order: 137
+nav_order: 169
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,91 +29,76 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
----
-
-# ITOPRIDE: De Dispepsia Funcional a Enfermedad de Crohn del Intestino Delgado
+# Itoprida: De Gastritis a Enfermedad de Crohn del Intestino Delgado
 
 ## Resumen en Una Frase
 
-Itopride es un agente procinético gastrointestinal que actúa mediante inhibición de la acetilcolinesterasa y antagonismo del receptor D2 de dopamina, utilizado originalmente para el tratamiento de la dispepsia funcional y trastornos de la motilidad gastrointestinal. El modelo TxGNN predice que podría ser efectivo para la **Enfermedad de Crohn del Intestino Delgado**, con **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección a la fecha. Esta predicción se sustenta exclusivamente en el algoritmo de grafos de conocimiento biológico (nivel L5), sin evidencia empírica directa disponible.
-
----
+Itoprida es un procinético gastrointestinal utilizado originalmente para el tratamiento de la gastritis. El modelo TxGNN predice que podría ser efectivo para la **enfermedad de Crohn del intestino delgado**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata únicamente de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
-|------|-----------|
-| Indicación Original | Dispepsia funcional / Trastornos de motilidad gastrointestinal |
-| Nueva Indicación Predicha | Enfermedad de Crohn del Intestino Delgado |
-| Puntaje de Predicción TxGNN | 99.90% |
+|------|------|
+| Indicación Original | Gastritis (según el grafo de conocimiento; los textos de indicación de las autorizaciones locales no están disponibles) |
+| Nueva Indicación Predicha | Enfermedad de Crohn del intestino delgado |
+| Puntaje de Predicción TxGNN | 99,90% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | ✓ Comercializado |
+| Número de Autorizaciones | 12 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción provenientes de DrugBank (brecha identificada como DG002). Sin embargo, según la información inferida del Evidence Pack, Itopride ejerce su efecto mediante dos mecanismos complementarios: **inhibición de la acetilcolinesterasa** —elevando la concentración de acetilcolina (ACh) en la pared intestinal— y **antagonismo del receptor D2 de dopamina** —removiendo la inhibición dopaminérgica sobre la motilidad del tracto gastrointestinal—. Ambos mecanismos convergen en promover el vaciamiento gástrico y la peristalsis, lo que sustenta su uso clásico en dispepsia funcional.
+Itoprida es un antagonista del receptor de dopamina D2 y un inhibidor de la acetilcolinesterasa que favorece la motilidad del tracto gastrointestinal superior. Esta descripción proviene del análisis de la predicción; los datos detallados del mecanismo de acción no figuran en la información compilada para este informe.
 
-La conexión teórica con la Enfermedad de Crohn del Intestino Delgado descansa en la **vía antiinflamatoria colinérgica (Cholinergic Anti-inflammatory Pathway, CAP)**: al aumentar la disponibilidad de ACh en la mucosa intestinal, Itopride podría activar la señalización vagal y suprimir la producción de citoquinas proinflamatorias clave como el TNF-α e IL-6, que son centrales en la patogenia de la enfermedad de Crohn. Esta hipótesis ha recibido atención científica creciente en el contexto de enfermedades inflamatorias intestinales.
+La relación entre la indicación original y la nueva es débil. La gastritis y la enfermedad de Crohn afectan al tubo digestivo, pero la enfermedad de Crohn es de naturaleza inflamatoria e inmunomediada, y no hay un vínculo mecanístico claro con la actividad procinética. Además, los procinéticos suelen utilizarse con cautela en presencia de estenosis u obstrucción, frecuentes en el Crohn del intestino delgado.
 
-No obstante, la conexión mecanística debe calificarse como **indirecta y especulativa**. La Enfermedad de Crohn es una condición inmunomediada compleja cuyo tratamiento estándar son inmunosupresores (azatioprina, metotrexato) y agentes biológicos anti-TNF. El aumento de la motilidad intestinal podría, paradójicamente, **agravar síntomas como el dolor abdominal tipo cólico** en pacientes con Crohn activo del intestino delgado. La racionalidad mecanística global se evalúa como **baja a moderada**, y el modelo TxGNN podría estar capturando correlaciones de fondo en el grafo de conocimiento más que una relación causal farmacológica directa.
+Por ello, el puntaje elevado (0,999) debe interpretarse con prudencia: refleja una predicción basada en la red de conocimiento y no está respaldado por estudios reales.
 
----
+### Otras predicciones del modelo (todas con evidencia L5 y decisión Hold)
+
+| Posición | Indicación predicha | Puntaje TxGNN | Comentario |
+|------|------|------|------|
+| 2 | Insuficiencia venosa | 99,23% | No se identificó un vínculo mecanístico plausible; probablemente sea un artefacto de la red. |
+| 3 | Aclorhidria | 99,16% | Itoprida actúa sobre la motilidad, no sobre la secreción ácida; un alivio sintomático sería solo especulativo. |
+| 4 | Hernia de hiato | 99,02% | La más plausible biológicamente (mejora del vaciamiento gástrico y del tono del esfínter esofágico inferior), pero no corrige el defecto anatómico y no hay evidencia directa. |
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
----
-
 ## Información de Mercado en Argentina
 
-Itopride **no cuenta con ninguna autorización de comercialización** registrada en Argentina a la fecha de corte del análisis (2026-05-01). El fármaco no se encuentra disponible en el mercado argentino bajo ninguna presentación o nombre comercial.
+Se listan 5 de las 12 autorizaciones vigentes (todas de monodroga y en estado válido):
 
----
-
-## Otras Indicaciones Predichas por TxGNN
-
-Este paquete de evidencia es de tipo multi-indicación. Además de la indicación principal, el modelo TxGNN identificó tres candidatos adicionales para Itopride:
-
-| Rango | Indicación | Puntaje TxGNN | Nivel de Evidencia | Recomendación | Racionalidad Mecanística |
-|-------|------------|---------------|-------------------|---------------|--------------------------|
-| 2 | Insuficiencia Venosa | 99.23% | L5 | Hold | **Muy débil** — probable asociación espuria en el grafo de conocimiento; sin mecanismo directo conocido |
-| 3 | Aclorhidria | 99.16% | L5 | Research Question | **Moderada** para subtipos funcionales; ACh estimula receptores M3 de células parietales gástricas |
-| 4 | Hernia de Hiato | 99.02% | L5 | Research Question | **Alta** — mejor candidato mecanístico del conjunto |
-
-> **Nota sobre la Hernia de Hiato (Rango 4):** Esta es la indicación con mayor racionalidad mecanística entre las cuatro predicciones. Itopride aumenta la presión del esfínter esofágico inferior (EEI) mediante antagonismo D2 —la dopamina normalmente inhibe el EEI— y acelera el vaciamiento gástrico, reduciendo el volumen disponible para el reflujo. El precedente clínico de Metoclopramide (también antagonista D2) en GERD y hernia de hiato provee evidencia analógica indirecta. Esta indicación merece consideración prioritaria frente a la Enfermedad de Crohn como siguiente paso de investigación.
-
----
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 51944 | ITOPLUS (Eczane) | Comprimidos 50 mg x 10 | No disponible |
+| 50125 | DOMEKA (Rossmore Pharma) | Comprimidos 50 mg x 60 | No disponible |
+| 47759 | AFLUSAN (Domínguez) | Comprimidos 50 mg x 10 | No disponible |
+| 52589 | IDELIS (Casasco) | Comprimidos 50 mg x 30 | No disponible |
+| 40987 | ITOPRID (Eurofarma) | Comprimidos 50 mg x 60 | No disponible |
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
-
----
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción de Itopride para Enfermedad de Crohn del Intestino Delgado se basa exclusivamente en el algoritmo TxGNN (L5), sin ningún ensayo clínico ni publicación que la respalde directamente. La conexión mecanística es indirecta, y el riesgo de exacerbación sintomática en pacientes con Crohn activo representa una preocupación clínica real. Entre las cuatro indicaciones predichas, la **Hernia de Hiato** posee la racionalidad mecanística más sólida y debería priorizarse como siguiente candidato a evaluar.
+La predicción para la enfermedad de Crohn del intestino delgado se apoya solo en el puntaje del modelo (L5), sin ensayos clínicos ni literatura, y sin un mecanismo plausible. Además, el uso de procinéticos en estenosis u obstrucción exige cautela.
 
 **Para avanzar se necesita:**
-- Completar los datos de mecanismo de acción (MOA) desde DrugBank (brecha DG002)
-- Obtener y revisar las advertencias y contraindicaciones del prospecto oficial (brecha DG001)
-- Realizar búsqueda de literatura sobre Itopride en modelos preclínicos de enfermedad inflamatoria intestinal (EII) para evaluar si la vía CAP tiene sustento experimental
-- Redirigir el análisis hacia la indicación de **Hernia de Hiato** como candidato prioritario de reposicionamiento
-- Verificar el estado regulatorio de Itopride en mercados donde sí está aprobado (ej. Japón, India, Europa) para obtener datos de seguridad reales antes de cualquier avance clínico en Argentina
+- Obtener y analizar el prospecto aprobado por ANMAT (advertencias, contraindicaciones e indicaciones autorizadas).
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Realizar una revisión sistemática de la literatura y de registros de ensayos para Crohn y para la hernia de hiato.
+- Si se desea avanzar, priorizar la hernia de hiato (reflujo asociado), que es mecanísticamente la más plausible, evaluando evidencia indirecta en ERGE y dispepsia funcional.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

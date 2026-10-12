@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ambroxol
-parent: Solo Predicción del Modelo (L5)
+parent: Evidencia Moderada (L3-L4)
 nav_order: 24
-evidence_level: L5
+evidence_level: L4
 indication_count: 5
 ---
 
 # Ambroxol
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,84 +29,76 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# AMBROXOL: Evaluación Preliminar — Sin Indicaciones Predichas Disponibles
-
----
+# Ambroxol: De Faringitis a Enfermedad de la Cavidad Nasal
 
 ## Resumen en Una Frase
 
-Ambroxol (DrugBank ID: DB06742) es un agente mucolítico ampliamente conocido; sin embargo, en este Evidence Pack **no se registran indicaciones originales aprobadas** en Argentina.
-El modelo TxGNN **no ha generado predicciones de nuevas indicaciones** para este fármaco en el presente ciclo de análisis,
-y se identifican **múltiples brechas de datos** que impiden una evaluación completa.
-
----
+Ambroxol es un agente mucolítico y secretolítico, cuya indicación original en el grafo de conocimiento es la faringitis.
+El modelo TxGNN predice que podría ser efectivo para **enfermedad de la cavidad nasal**,
+con **0 ensayos clínicos** y **1 publicación** (una revisión de 2015 sobre tos aguda, de valor indirecto) que respaldan actualmente esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
-|------|-----------|
-| Indicación Original | No disponible (sin autorizaciones registradas en Argentina) |
-| Nueva Indicación Predicha | Sin predicciones disponibles |
-| Puntaje de Predicción TxGNN | N/A |
-| Nivel de Evidencia | **L5** (sin estudios ni predicciones concretas) |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
-| Decisión Recomendada | **Hold** |
+|------|------|
+| Indicación Original | Faringitis (según el grafo de conocimiento; los textos de indicación de las autorizaciones locales están vacíos) |
+| Nueva Indicación Predicha | Enfermedad de la cavidad nasal |
+| Puntaje de Predicción TxGNN | 99.91% |
+| Nivel de Evidencia | L4 |
+| Estado de Mercado en Argentina | ✓ Comercializado |
+| Número de Autorizaciones | 20 |
+| Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## ¿Por qué No Hay Predicciones Disponibles?
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la farmacología general, ambroxol es un agente mucolítico/secretolítico que aumenta el surfactante y la depuración del moco. Además, tiene propiedades anestésicas locales (bloqueo de canales de sodio) y antiinflamatorias.
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción (MOA) de Ambroxol en este Evidence Pack. Según información farmacológica general, Ambroxol es un agente mucolítico y secretolítico que actúa estimulando la producción de surfactante pulmonar y facilitando la eliminación de mucosidad en las vías respiratorias. Sin embargo, esta información no ha sido incorporada formalmente al paquete de evidencia.
+La faringitis y las enfermedades de la cavidad nasal son afecciones de la vía aérea superior, con hipersecreción de moco e irritación local. Mecanísticamente, la acción sobre el moco y la inflamación podría aliviar estos síntomas, y el fármaco ya se utiliza en afecciones respiratorias altas.
 
-El modelo TxGNN no ha generado predicciones de reposicionamiento para Ambroxol en este ciclo. Esto puede deberse a múltiples factores: (1) la ausencia de datos de MOA estructurados impide al modelo establecer relaciones mecanísticas con nuevas indicaciones, (2) la falta de autorizaciones registradas en Argentina limita el contexto regulatorio disponible, y (3) posibles limitaciones en la representación de este fármaco dentro del grafo de conocimiento utilizado por TxGNN.
-
-Para que el modelo pueda generar predicciones confiables, es necesario subsanar las brechas de datos identificadas, en particular la información de mecanismo de acción (DG002) y los datos regulatorios de prospecto (DG001).
-
----
+Cabe señalar que este vínculo se infiere de la farmacología general, no de datos de mecanismo del fármaco compilados para este informe. El único respaldo es un artículo de 2015 sobre tos aguda, que es evidencia indirecta y no específica de la enfermedad de la cavidad nasal.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
-
----
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [26525480](https://pubmed.ncbi.nlm.nih.gov/26525480/) | 2015 | Revisión | Vestnik otorinolaringologii | Revisión sobre nuevas posibilidades de tratamiento de la tos aguda asociada a gripe e infecciones respiratorias virales agudas; evidencia indirecta, no específica de enfermedad de la cavidad nasal |
 
 ## Información de Mercado en Argentina
 
-Ambroxol **no se encuentra comercializado** en Argentina según los registros consultados. No se identificaron autorizaciones sanitarias vigentes.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 47539 | AMBRIL | Jarabe 120 ml | No disponible en los datos compilados |
+| 40692 | GRINSIL RESPIRATORIO NF | Comprimidos recubiertos 500 mg x 16 | No disponible en los datos compilados |
+| 32206 | TRIFAMOX BRONQUIAL DUO | Suspensión 50 ml | No disponible en los datos compilados |
+| 28092 | AMOXIDAL RESPIRATORIO DUO | Comprimidos recubiertos x 14 | No disponible en los datos compilados |
+| 53412 | QUOTAL MUC | Comprimidos recubiertos 500/60 mg x 16 | No disponible en los datos compilados |
 
----
+Se muestran 5 de las 20 autorizaciones vigentes (todas de tipo monofármaco según el registro).
 
 ## Consideraciones de Seguridad
 
-> Consultar el prospecto para información de seguridad.
+**Interacciones Farmacológicas**: Se identificó una interacción de tipo farmacológico (sin nivel de gravedad asignado) con la glucosilceramidasa beta (GBA1). Ambroxol actúa como chaperona de esta enzima: a pH neutro tiene efecto inhibitorio sobre su actividad, mientras que dentro de las células y lisosomas ácidos aumenta la actividad intracelular de la enzima. Se trata de una interacción farmacológica con el blanco, no de una interacción clínica con otro medicamento.
 
-No se dispone de datos de advertencias, contraindicaciones ni interacciones farmacológicas en este Evidence Pack. Se identificaron las siguientes brechas de datos críticas:
-
-- **DG001** (Severidad: Blocking) — Falta el prospecto con advertencias y contraindicaciones de la autoridad regulatoria. Impacto: no es posible realizar la evaluación inicial de seguridad (S1).
-- **DG002** (Severidad: Alta) — Falta el mecanismo de acción (MOA) desde DrugBank. Impacto: afecta el análisis de relación mecanística con potenciales nuevas indicaciones.
-
----
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No existen predicciones de reposicionamiento generadas por TxGNN para Ambroxol, y se presentan brechas de datos críticas (MOA y prospecto regulatorio) que impiden una evaluación significativa. Sin indicaciones predichas ni evidencia clínica o de literatura asociada, no es posible avanzar en la evaluación de este candidato.
+La predicción de TxGNN es alta (99.91%), pero la evidencia es muy limitada: no hay ensayos clínicos y la única publicación es una revisión indirecta sobre tos aguda. Además, no se dispone de datos de mecanismo ni de información de seguridad del prospecto.
 
 **Para avanzar se necesita:**
-- Completar la brecha **DG002**: Obtener datos de mecanismo de acción (MOA) desde DrugBank API
-- Completar la brecha **DG001**: Descargar y analizar el prospecto PDF desde la autoridad regulatoria para extraer advertencias y contraindicaciones
-- Re-ejecutar el modelo TxGNN una vez incorporados los datos de MOA al grafo de conocimiento
-- Evaluar si existen autorizaciones en mercados de referencia (EMA, FDA) que puedan complementar la información regulatoria faltante en Argentina
-- Verificar la representación de Ambroxol en el Knowledge Graph del modelo para descartar problemas de cobertura
+- Obtener y analizar el prospecto de ANMAT (advertencias y contraindicaciones) para completar el análisis de seguridad
+- Obtener datos del mecanismo de acción desde DrugBank
+- Revisar la literatura específica sobre ambroxol en rinitis, rinosinusitis u otras enfermedades de la cavidad nasal
+- Verificar las indicaciones aprobadas en los prospectos locales, ya que los textos de indicación están vacíos
+- Considerar un estudio exploratorio si la revisión de literatura resulta favorable
+- Evaluar la compatibilidad de la vía de administración (pendiente)
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

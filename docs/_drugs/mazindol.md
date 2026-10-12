@@ -2,7 +2,7 @@
 layout: default
 title: Mazindol
 parent: Solo Predicción del Modelo (L5)
-nav_order: 148
+nav_order: 184
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,77 +29,80 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Mazindol: De Supresor del Apetito a Hipervitaminosis
+# Mazindol: De Trastorno de Obesidad a Hipervitaminosis
 
 ## Resumen en Una Frase
 
-Mazindol es un agente simpaticomimético anorexígeno históricamente utilizado para el tratamiento de la obesidad mediante la supresión del apetito, aunque actualmente no se encuentra comercializado en Argentina.
-El modelo TxGNN predice que podría ser efectivo para **Hipervitaminosis**, con **0 ensayos clínicos** y **0 publicaciones** que respalden esta indicación específica.
-Cabe destacar que, entre las 7 indicaciones predichas, el **Síndrome de Taquicardia Ortostática Postural (POTS)** representa la candidatura con mayor coherencia mecanística, aunque también carece de evidencia directa con este fármaco.
-
----
+Mazindol es un anorexígeno simpaticomimético, originalmente utilizado para el tratamiento de la obesidad (incluida la obesidad monogénica).
+El modelo TxGNN predice que podría ser efectivo para **hipervitaminosis**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata únicamente de una predicción computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en datos (conocido históricamente como anorexígeno/supresor del apetito) |
+| Indicación Original | Trastorno de obesidad y obesidad monogénica (según el grafo de conocimiento; los textos de indicación de las autorizaciones locales no están disponibles) |
 | Nueva Indicación Predicha | Hipervitaminosis |
 | Puntaje de Predicción TxGNN | 99.998% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | ✓ Comercializado |
+| Número de Autorizaciones | 4 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información farmacológica conocida, Mazindol es un agente simpaticomimético anorexígeno que actúa inhibiendo la recaptación de norepinefrina y dopamina (NE/DA) en el sistema nervioso central, suprimiendo la señal de hambre y reduciendo la ingesta calórica. Su eficacia como supresor del apetito está bien documentada históricamente, aunque fue retirado del mercado en muchos países por sus efectos cardiovasculares.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, mazindol es un simpaticomimético anorexígeno que inhibe la recaptación de catecolaminas (noradrenalina y dopamina), y su uso en obesidad está establecido.
 
-La hipervitaminosis —acumulación tóxica de vitaminas liposolubles (principalmente vitamina A o D)— no presenta ninguna intersección biológica conocida con el sistema de recaptación de catecolaminas. El análisis de racionalidad mecanística indica que esta predicción de alta puntuación es muy probablemente un **artefacto topológico del grafo de conocimiento (KG)**, originado por conexiones indirectas entre nodos de enfermedad, y no refleja una relación farmacológica genuina.
+Sin embargo, **no se identifica un vínculo mecanístico evidente** con la nueva indicación. La hipervitaminosis es un estado de toxicidad que se resuelve suspendiendo la fuente de la vitamina, no modulando la señalización monoaminérgica. El puntaje tan alto del modelo (0,99998) parece ser un artefacto del grafo de conocimiento, sin ensayos clínicos ni literatura que lo respalden.
 
-Entre todas las indicaciones predichas en este reporte, el **Síndrome de Taquicardia Ortostática Postural (POTS)** —clasificado en el puesto 5, con puntuación 99.60%— es el candidato con mayor plausibilidad mecanística: el POTS involucra disfunción autonómica con desbordamiento de norepinefrina en bipedestación, y los inhibidores de recaptación de NE (como atomoxetina) ya han sido evaluados en pequeños ensayos en POTS. Sin embargo, no existe evidencia directa de Mazindol en POTS y tampoco cuenta con ensayos ni literatura registrados.
+### Otras predicciones del modelo (todas con nivel L5 y decisión Hold)
 
----
+| Indicación Predicha | Puntaje TxGNN | Comentario |
+|------|------|------|
+| Síndrome de microdeleción proximal 16p11.2 | 99.997% | Única conexión indirecta: esta deleción es causa genética de obesidad grave de inicio temprano. Mazindol podría, como máximo, actuar sobre el fenotipo de peso, no sobre las demás manifestaciones del síndrome. |
+| Hipertelorismo (término obsoleto) | 99.991% | Malformación craneofacial estructural; ningún mecanismo farmacológico plausible. |
+| Frontorrinia | 99.986% | Malformación congénita craneofacial rara; sin vínculo mecanístico. |
+| Síndrome de taquicardia postural ortostática (POTS) | 99.604% | La predicción biológicamente más interesante, pero con alerta de seguridad: los inhibidores del transportador de noradrenalina (p. ej., atomoxetina) tienden a empeorar la taquicardia en POTS, por lo que mazindol probablemente agravaría los síntomas. |
+| Pentosuria | 99.352% | Error congénito benigno del metabolismo, asintomático; no requiere tratamiento. |
+| Síndrome polimalformativo letal tipo Boissel | 99.041% | Síndrome congénito extremadamente raro y letal; la predicción se basa solo en similitud en el grafo. |
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para ninguna de las 7 indicaciones predichas.
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible para ninguna de las 7 indicaciones predichas.
-
----
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-Mazindol no cuenta con ninguna autorización de comercialización registrada en Argentina. No hay licencias vigentes ni históricas disponibles en los datos consultados.
-
----
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 50919 | MZ1 (Eurofarma) | 1 mg, comprimidos recubiertos x 30 | No disponible en los datos |
+| 50920 | MZ2 (Eurofarma) | 2 mg, comprimidos recubiertos x 30 | No disponible en los datos |
+| 51529 | FAGOLIP PLUS (Cetus) | Comprimidos x 30 | No disponible en los datos |
+| 33936 | DIMAGRIR (Gador) | Cápsulas x 30 | No disponible en los datos |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. Los datos de advertencias, contraindicaciones e interacciones farmacológicas no están disponibles en el Evidence Pack actual (Data Gap con severidad Bloqueante).
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones en total; las más relevantes de las listadas son:
+  - **Mayores**: tramadol, bupropión, azul de metileno, lorcaserina.
+  - **Moderadas** (selección): fentanilo, alfentanilo, fenilefrina, pseudoefedrina, epinefrina, isometepteno, salbutamol, formoterol, arformoterol, amitriptilina, etanol, amifampridina, y antidiabéticos (acarbosa, alogliptina, pioglitazona, albiglutida).
+- **Alerta específica de la predicción POTS**: por su acción sobre la recaptación de noradrenalina, mazindol podría agravar la taquicardia; requeriría una evaluación de seguridad cuidadosa antes de cualquier exploración.
 
----
+Para el resto de la información de seguridad (advertencias y contraindicaciones), consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción de hipervitaminosis para Mazindol carece de fundamento mecanístico plausible y no está respaldada por ningún ensayo clínico ni publicación científica (evidencia nivel L5). La alta puntuación TxGNN es muy probablemente un artefacto topológico del grafo de conocimiento, y la indicación no justifica avanzar en ninguna etapa de desarrollo clínico. Las restantes indicaciones predichas (anomalías estructurales congénitas, pentosuria) tampoco presentan racionalidad farmacológica válida.
+Todas las predicciones carecen de ensayos clínicos y de literatura (nivel L5), y no existe un vínculo mecanístico plausible; la predicción principal (hipervitaminosis) parece un artefacto del grafo de conocimiento.
 
 **Para avanzar se necesita:**
-
-- **Datos de MOA:** Obtener el mecanismo de acción completo desde DrugBank (Data Gap de severidad Alta) para habilitar el análisis mecanístico
-- **Datos de seguridad:** Descargar y analizar el prospecto oficial (Data Gap bloqueante) antes de cualquier evaluación de seguridad formal
-- **Evaluación de POTS:** Iniciar una revisión bibliográfica específica de Mazindol + POTS, que es la indicación con mayor plausibilidad mecanística entre las 7 predichas y la única con potencial de generar una hipótesis investigable
-- **Auditoría del KG:** Revisar la topología del nodo "hipervitaminosis" en el grafo de conocimiento para confirmar y documentar el artefacto de predicción, mejorando la calidad del modelo para futuras iteraciones
+- Datos detallados del mecanismo de acción (MOA) desde DrugBank
+- Advertencias y contraindicaciones del prospecto de ANMAT (actualmente no disponibles, lo que bloquea el cribado de seguridad)
+- Textos de las indicaciones aprobadas en las autorizaciones locales
+- Evidencia preclínica o clínica que justifique cualquier nueva indicación; si se explora alguna, priorizar el fenotipo de obesidad del síndrome 16p11.2 y evitar POTS salvo con una evaluación de seguridad previa
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Calcipotriol
-parent: Solo Predicción del Modelo (L5)
+parent: Evidencia Moderada (L3-L4)
 nav_order: 72
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Calcipotriol
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,11 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Calcipotriol: Evaluación de Candidato para Reposicionamiento — Datos Insuficientes
+# Calcipotriol: De Indicación Original No Especificada a Queratosis Seborreica
 
 ## Resumen en Una Frase
 
-Calcipotriol (DB02300) es un análogo sintético de la vitamina D3, reconocido por su uso tópico en el tratamiento de la psoriasis a través de la modulación del receptor de vitamina D (VDR). En este ciclo de evaluación, **el modelo TxGNN no generó predicciones de nuevas indicaciones**, por lo que no es posible identificar un candidato de reposicionamiento. Se identificaron brechas de datos bloqueantes en mecanismo de acción y seguridad que impiden avanzar en la evaluación formal.
+Calcipotriol es un análogo de la vitamina D3 de uso tópico, comercializado en Argentina en pomadas y loción. Los datos compilados para este informe no incluyen el texto de la indicación aprobada. El modelo TxGNN predice que podría ser efectivo para **queratosis seborreica**, con **0 ensayos clínicos** y **4 publicaciones** que respaldan esta dirección de forma preliminar.
 
 ---
 
@@ -41,51 +41,61 @@ Calcipotriol (DB02300) es un análogo sintético de la vitamina D3, reconocido p
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Sin datos registrados en este paquete |
-| Nueva Indicación Predicha | Sin predicciones generadas en este ciclo |
-| Puntaje de Predicción TxGNN | N/D |
-| Nivel de Evidencia | N/D — Sin predicciones del modelo |
-| Estado de Mercado en Argentina | No comercializado |
-| Número de Autorizaciones | 0 |
-| Decisión Recomendada | **Hold** |
+| Indicación Original | No disponible en los datos de las autorizaciones de ANMAT |
+| Nueva Indicación Predicha | Queratosis seborreica |
+| Puntaje de Predicción TxGNN | 99.96% |
+| Nivel de Evidencia | L3 |
+| Estado de Mercado en Argentina | ✓ Comercializado |
+| Número de Autorizaciones | 4 |
+| Decisión Recomendada | Hold |
 
 ---
 
-## ¿Por Qué No Hay Predicción Disponible?
+## ¿Por qué es Razonable esta Predicción?
 
-El modelo TxGNN no devolvió predicciones de indicaciones nuevas para Calcipotriol en este ciclo. Esto puede deberse a:
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento general, calcipotriol es un análogo de la vitamina D3 que activa el receptor de vitamina D en los queratinocitos, inhibe su proliferación, promueve su diferenciación e induce apoptosis. Es un tratamiento tópico establecido para la psoriasis, aunque esa indicación no figura en los textos de autorización disponibles.
 
-1. **Brecha de MOA (DG002 — Severidad Alta):** El mecanismo de acción formal no fue recuperado desde DrugBank. Sin este dato, el grafo de conocimiento no pudo establecer las relaciones biológicas necesarias para la predicción.
-2. **Sin indicaciones originales registradas:** El campo `original_indications` está vacío, lo que limita el contexto de entrada al modelo.
-3. **Sin presencia regulatoria en Argentina:** Calcipotriol no cuenta con autorizaciones de comercialización ante ANMAT, lo que reduce la información regulatoria disponible para el análisis.
+La queratosis seborreica es un tumor epitelial benigno, de crecimiento lento, que aparece sobre todo en personas mayores y en zonas expuestas al sol. Al tratarse de una lesión de hiperproliferación epidérmica, es plausible que los efectos antiproliferativos y prodiferenciadores del calcipotriol sean aplicables.
 
-De acuerdo con la literatura farmacológica general, Calcipotriol actúa como agonista del receptor VDR, regulando la proliferación y diferenciación celular — mecanismo con interés documentado en investigación oncológica y dermatológica. Sin embargo, sin predicciones formales del modelo, esta información no puede traducirse en un candidato de reposicionamiento evaluable en el marco actual.
+La evidencia clínica es pequeña y mayormente no controlada u observacional. No hay ensayos registrados ni un ensayo aleatorizado grande, y los criterios de valoración (estéticos o de lesiones benignas) limitan la solidez de la evidencia.
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados, dado que no se generaron predicciones de indicación nueva en este ciclo.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ---
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible en el contexto de las predicciones del modelo.
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [36752725](https://pubmed.ncbi.nlm.nih.gov/36752725/) | 2023 | Serie de casos | Australas J Dermatol | 12 pacientes con queratosis seborreica plana facial tratados con calcipotriol 0,005% en pomada durante 3 a 8 meses: regresión completa de las lesiones, con remisión de 6 a 10 años de seguimiento |
+| [16043912](https://pubmed.ncbi.nlm.nih.gov/16043912/) | 2005 | Estudio clínico | J Dermatol | Vitamina D3 tópica (tacalcitol, calcipotriol o maxacalcitol) en verrugas seniles; 116 casos tratados durante 3 a 12 meses, con 35 (30,2%) de respuesta en el resumen disponible; posible inducción de apoptosis |
+| [15577148](https://pubmed.ncbi.nlm.nih.gov/15577148/) | 2004 | Reporte clínico / Revisión | Clin Calcium | Revisión del tratamiento de verrugas seniles (queratosis seborreica) con formas activas tópicas de vitamina D3 |
+| [10721662](https://pubmed.ncbi.nlm.nih.gov/10721662/) | 2000 | Reporte de caso | J Dermatol | Respuesta marcada de una paciente con queratosis liquenoide crónica a la pomada de calcipotriol (enfermedad relacionada, no es queratosis seborreica) |
 
 ---
 
 ## Información de Mercado en Argentina
 
-Calcipotriol no cuenta con autorizaciones de comercialización registradas en Argentina según los datos consultados (0 licencias ANMAT).
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 47733 | CUTANIT | Ungüento x 30 g | No especificada |
+| 50317 | CUTANIT LOCION | Envase x 20 ml | No especificada |
+| 50473 | CALCI CORTICAS | Ungüento x 30 g | No especificada |
+| 47734 | CUTANIT B | Ungüento x 30 g | No especificada |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones y condiciones de precaución (según el grafo de conocimiento TxGNN, no el prospecto):** se asocian al fármaco, entre otras, hipercalcemia y otros trastornos del metabolismo del calcio, nefrocalcinosis, calcinosis, calcifilaxis, hipervitaminosis, trastornos del metabolismo del fósforo, insuficiencia suprarrenal y enfermedad de Addison, atrofia cutánea, telangiectasia y enfermedades vasculares periféricas, así como algunas enfermedades cutáneas (ictiosis hereditarias, enfermedad de Darier, pseudoxantoma elástico, psoriasis en gotas).
+- **Interacciones farmacológicas:** se identificaron 84 posibles interacciones, con nivel de gravedad no clasificado. Entre las listadas figuran ácido acetilsalicílico, bupropión, pantoprazol, doxiciclina, clotrimazol, morfina, metformina, omeprazol, corticoides (triamcinolona, prednisona, hidrocortisona, prednisolona), simvastatina y claritromicina.
+- **Consideración adicional:** el uso en mucosas o piel genital implica riesgo de irritación, y a dosis altas puede producirse hipercalcemia.
 
-> **Nota:** La brecha de datos DG001 (Severidad: Bloqueante) impide la evaluación de advertencias y contraindicaciones formales desde el prospecto TFDA/ANMAT. Esta brecha bloquea la entrada al proceso de evaluación de seguridad S1.
+Para las advertencias del prospecto de ANMAT, consultar el prospecto, ya que no estaban disponibles en los datos compilados.
 
 ---
 
@@ -94,14 +104,13 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-El Evidence Pack de Calcipotriol presenta dos brechas de datos críticas — una bloqueante (advertencias del prospecto TFDA) y una de alta severidad (mecanismo de acción) — y el modelo TxGNN no generó predicciones de nuevas indicaciones en este ciclo. No existe base de evidencia sobre la cual construir un análisis de reposicionamiento.
+La evidencia para queratosis seborreica es de nivel L3: una serie de casos pequeña y estudios observacionales antiguos, sin ensayos registrados ni ECA. Además, faltan datos del prospecto de ANMAT (advertencias, contraindicaciones e indicación aprobada), lo que impide completar el cribado de seguridad. Las demás predicciones (patologías vulvares, vaginitis atrófica, enfermedad de Paget ósea, enfermedad fibroquística de mama) no cuentan con evidencia directa y se mantienen en espera.
 
 **Para avanzar se necesita:**
-- **[DG002 — Alta]** Recuperar el mecanismo de acción (MOA) completo desde la API de DrugBank (DB02300)
-- **[DG001 — Bloqueante]** Descargar y analizar el prospecto TFDA para obtener advertencias, contraindicaciones y perfil de seguridad formal
-- Verificar el estado del pipeline TxGNN para este candidato: confirmar si la ausencia de predicciones es un resultado válido o un error de procesamiento
-- Confirmar el estado regulatorio en Argentina (ANMAT) para Calcipotriol con búsqueda directa en el registro de especialidades medicinales
-- Registrar las indicaciones originales conocidas (psoriasis) en el campo `original_indications` para enriquecer el contexto de entrada al modelo
+- Descargar y analizar el prospecto de ANMAT para obtener indicaciones aprobadas, advertencias y contraindicaciones.
+- Obtener datos del mecanismo de acción desde DrugBank.
+- Ensayo clínico controlado y aleatorizado de calcipotriol tópico en queratosis seborreica, con criterios de valoración definidos.
+- Evaluar la seguridad (irritación local, absorción sistémica y calcemia) y los datos de comparación frente a tratamientos estándar (crioterapia, curetaje, láser).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

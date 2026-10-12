@@ -2,7 +2,7 @@
 layout: default
 title: Propranolol
 parent: Solo Predicción del Modelo (L5)
-nav_order: 170
+nav_order: 219
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,75 +29,66 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-Analizando el Evidence Pack de Propranolol. La indicación principal predicha es **distal myopathy, Tateyama type** (rank 1, score 99.40%), con nivel de evidencia L5 y recomendación Hold. Procediendo a generar el informe completo.
-
----
-
-# Propranolol: De Hipertensión Arterial y Arritmias Cardíacas a Miopatía Distal Tipo Tateyama
+# Propranolol: De Hipertensión a Distrofia Miopática Distal tipo Tateyama
 
 ## Resumen en Una Frase
 
-Propranolol es un bloqueante beta-adrenérgico no selectivo (β1/β2) con décadas de uso clínico para el tratamiento de hipertensión arterial, arritmias cardíacas, angina de pecho y cardiomiopatía hipertrófica obstructiva.
-El modelo TxGNN predice que podría ser efectivo para la **Miopatía Distal Tipo Tateyama**,
-sin embargo, **no existe ningún ensayo clínico ni publicación científica** que respalde actualmente esta dirección específica — la evidencia es exclusivamente la predicción computacional del modelo.
-
----
+Propranolol es un betabloqueante no selectivo, utilizado originalmente para el tratamiento de la hipertensión, las arritmias (como la fibrilación auricular) y la miocardiopatía hipertrófica, entre otras indicaciones.
+El modelo TxGNN predice que podría ser efectivo para **miopatía distal tipo Tateyama** (puntaje de 99,40 %), pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: es solo una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertensión arterial, arritmias cardíacas, angina de pecho (beta-bloqueante no selectivo de amplio uso cardiovascular) |
-| Nueva Indicación Predicha | Miopatía Distal Tipo Tateyama (*Distal myopathy, Tateyama type*) |
-| Puntaje de Predicción TxGNN | 99.40% |
+| Indicación Original | Hipertensión (según las indicaciones originales del grafo de conocimiento; las autorizaciones locales no incluyen texto de indicación) |
+| Nueva Indicación Predicha | Miopatía distal, tipo Tateyama |
+| Puntaje de Predicción TxGNN | 99,40 % |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | ✓ Comercializado |
+| Número de Autorizaciones | 4 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Propranolol es un bloqueante de los receptores β-adrenérgicos β1 y β2 de amplio espectro. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack de este candidato. Según la información conocida, Propranolol reduce la frecuencia cardíaca, el gasto cardíaco y la presión arterial al antagonizar los efectos de las catecolaminas, con aplicaciones adicionales en portal hypertension, profilaxis de hemorragia variceal y taquiarritmias supraventriculares.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, propranolol es un betabloqueante no selectivo con eficacia comprobada en hipertensión, arritmias y miocardiopatía hipertrófica, además de efectos antiproliferativos y antiangiogénicos en tumores vasculares como el hemangioma.
 
-La Miopatía Distal Tipo Tateyama es una enfermedad musculoesquelética de extrema rareza, causada por mutaciones en el gen MYH2 (cadena pesada de miosina IIa), que produce debilidad y atrofia selectiva del músculo esquelético distal. Existe cierta evidencia en literatura general de que el bloqueo β-adrenérgico puede modular parcialmente la atrofia del músculo esquelético mediada por catecolaminas —vía señalización β2-AR/cAMP/PKA sobre la proteólisis muscular—, lo cual podría explicar que el grafo de conocimiento de TxGNN conecte a Propranolol con nodos de miopatía.
+Para la miopatía distal tipo Tateyama, un trastorno raro del músculo esquelético, **no se establece ningún vínculo mecanístico** en los datos disponibles. No hay una justificación conocida para que el bloqueo beta-adrenérgico modifique su patología. El puntaje alto (0,994) refleja únicamente una predicción del modelo y debe interpretarse con cautela.
 
-Sin embargo, la alta puntuación del modelo para este subtipo específico muy probablemente refleja **generalización topológica del grafo** hacia nodos genéricos de enfermedad muscular, más que una relación mecanística directa con la mutación MYH2. No existe ningún estudio clínico ni preclínico que vincule Propranolol con la Miopatía Distal Tipo Tateyama. Esta predicción debe considerarse como señal exploratoria de nivel L5, sin respaldo empírico.
+Cabe señalar que, según el grafo de conocimiento, las enfermedades musculares (miopatía, enfermedad del músculo esquelético) figuran entre las asociaciones de contraindicación del fármaco, lo que va en sentido contrario a esta predicción.
 
----
+## Informacion de Mercado en Argentina
 
-## Evidencia de Ensayos Clínicos
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 12900 | PROPRANOLOL GADOR | 40 mg, comprimidos x 100 | No disponible |
+| 3910 | PROPRANOLOL GADOR | 80 mg, comprimidos x 50 | No disponible |
+| 9130 | PROPRANOLOL GADOR | 40 mg, comprimidos x 50 | No disponible |
+| 3908 | PROPRANOLOL GADOR | 10 mg, comprimidos x 20 | No disponible |
 
-Actualmente no hay ensayos clínicos relacionados registrados.
-
----
-
-## Evidencia de Literatura
-
-Actualmente no hay literatura relacionada disponible.
-
----
+Las cuatro autorizaciones están vigentes, son de monofármaco y pertenecen al laboratorio Gador.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones / enfermedades asociadas (según el grafo de conocimiento, no texto de prospecto)**: bronquitis, trastornos de ansiedad, enfermedad renal, pancreatitis, enfermedad hepática, enfermedad de la vesícula biliar, lupus eritematoso sistémico, miopatía y enfermedades musculares, parálisis periódica familiar, deficiencia de potasio, diabetes mellitus, cetoacidosis diabética, hiperuricemia, gota, hiperparatiroidismo, coma y encefalopatía hepática, anuria, hipercalcemia, nefrocalcinosis, trastornos del metabolismo del fósforo y miastenia gravis.
+- **Interacciones farmacológicas** (se detectaron 100 interacciones; se muestran las principales):
+  - **Mayor**: epinefrina.
+  - **Moderadas**: hidrocortisona, dexametasona, betametasona, budesonida, triamcinolona, metscopolamina, hiosciamina, atropina, bupropión, morfina, lorcaserina, canagliflozina, clorpropamida, cimetidina, fosfato de calcio y acetato de calcio.
+  - **Menores**: ácido ascórbico, ácido acetilsalicílico y óxido de magnesio.
 
----
+Consultar el prospecto para las advertencias y contraindicaciones oficiales, ya que no se dispone del texto de ANMAT.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción TxGNN para Miopatía Distal Tipo Tateyama carece completamente de respaldo empírico: cero ensayos clínicos, cero publicaciones, y el vínculo mecanístico con la mutación MYH2 es especulativo. Adicionalmente, Propranolol no está comercializado en Argentina, lo que suma una barrera regulatoria adicional para cualquier exploración clínica local.
+La predicción se basa únicamente en el modelo (L5), sin ensayos clínicos, sin literatura y sin mecanismo plausible, y además las enfermedades musculares figuran como asociación de contraindicación en el grafo de conocimiento.
 
 **Para avanzar se necesita:**
-- **Estudios preclínicos**: evaluar si el bloqueo β-AR modifica el fenotipo muscular en modelos de Miopatía Distal Tipo Tateyama (modelos *in vitro* con células MYH2-mutadas o modelos animales)
-- **Revisión mecanística**: literatura sobre el efecto de beta-bloqueantes en enfermedades del músculo esquelético vinculadas a miosina (para descartar o confirmar señal real)
-- **Datos de MOA de DrugBank**: completar la información de mecanismo de acción de Propranolol para análisis formal de conectividad mecanística
-- **Datos de seguridad (prospecto ANMAT)**: obtener advertencias y contraindicaciones para evaluación de perfil de riesgo antes de cualquier avance
-- **Considerar indicaciones con mayor evidencia**: en este mismo Evidence Pack, *cardiomiopatía* (rank 6) cuenta con 3 ensayos clínicos y 20 publicaciones (L3, Proceed with Guardrails), representando una oportunidad de reposicionamiento mucho mejor respaldada para evaluación prioritaria
+- Datos del mecanismo de acción del fármaco y una hipótesis biológica que conecte el bloqueo beta-adrenérgico con la miopatía distal tipo Tateyama.
+- Revisión de la literatura específica y estudios preclínicos que respalden la hipótesis.
+- Obtención del prospecto de ANMAT para completar el análisis de seguridad (advertencias y contraindicaciones oficiales).
+- Evaluar candidatas alternativas con más respaldo: **miocardiopatía** (nivel L3, con estudios hemodinámicos en miocardiopatía hipertrófica, mayormente de los años 80) y **miocardiopatía cirrótica** (nivel L4, con señales mixtas de eficacia y seguridad), ambas con recomendación de "pregunta de investigación".
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

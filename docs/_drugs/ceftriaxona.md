@@ -2,7 +2,7 @@
 layout: default
 title: Ceftriaxona
 parent: Solo Predicción del Modelo (L5)
-nav_order: 90
+nav_order: 92
 evidence_level: L5
 indication_count: 0
 ---

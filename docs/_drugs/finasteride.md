@@ -2,7 +2,7 @@
 layout: default
 title: Finasteride
 parent: Solo Predicción del Modelo (L5)
-nav_order: 125
+nav_order: 143
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,76 +29,74 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Finasteride: De Hiperplasia Prostática Benigna a Hipertricosis Universalis Congénita tipo Ambras
+# Finasterida: De Hiperplasia Prostática Benigna a Ambras tipo hipertricosis universal congénita
 
 ## Resumen en Una Frase
 
-Finasteride es un inhibidor de la 5α-reductasa, conocido globalmente por su uso en la hiperplasia prostática benigna y la alopecia androgénica masculina, aunque no cuenta con registro en Argentina.
-El modelo TxGNN predice que podría ser efectivo para la **Hipertricosis Universalis Congénita tipo Ambras**,
-sin embargo, actualmente **no hay ensayos clínicos ni publicaciones** que respalden directamente esta indicación, situando la predicción en el nivel de evidencia más bajo (L5).
-
----
+Finasterida es un inhibidor de la 5-alfa-reductasa tipo II, originalmente utilizado para el tratamiento de la hiperplasia prostática benigna.
+El modelo TxGNN predice que podría ser efectivo para **hipertricosis universal congénita tipo Ambras**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata de una predicción puramente computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Sin registro en Argentina; globalmente indicado para hiperplasia prostática benigna y alopecia androgénica |
-| Nueva Indicación Predicha | Hipertricosis Universalis Congénita tipo Ambras |
+| Indicación Original | Hiperplasia prostática benigna |
+| Nueva Indicación Predicha | Hipertricosis universal congénita tipo Ambras |
 | Puntaje de Predicción TxGNN | 99.99% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | ✓ Comercializado |
+| Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack (pendiente de consulta a DrugBank API). Según la información científicamente establecida, Finasteride pertenece a la clase de los inhibidores de la 5α-reductasa tipo II: bloquea la conversión periférica de testosterona en dihidrotestosterona (DHT), reduciendo así la señalización androgénica en tejidos como el folículo piloso y la glándula prostática. Su eficacia en hiperplasia prostática benigna y alopecia androgénica ha sido ampliamente comprobada en ensayos clínicos de Fase 3.
+Finasterida inhibe la 5-alfa-reductasa tipo II y reduce los niveles de dihidrotestosterona (DHT). Este mecanismo explica su uso en la hiperplasia prostática benigna y, a dosis menores (1 mg), en la alopecia androgenética, lo que indica que el fármaco actúa sobre la biología del folículo piloso dependiente de andrógenos.
 
-La conexión teórica con la Hipertricosis Universalis Congénita tipo Ambras parte del supuesto de que la reducción de DHT podría disminuir el estímulo androgénico al crecimiento folicular generalizado. Sin embargo, la Hipertricosis tipo Ambras es una condición genética causada por reorganización cromosómica en el cromosoma 8 (locus TRPS1/EXT1), cuya patogénesis es **independiente de los andrógenos**. El mecanismo del fármaco no actúa sobre defectos estructurales del genoma ni sobre la expresión génica aberrante propia de este síndrome.
+Sin embargo, el síndrome de Ambras es una hipertricosis congénita rara, asociada a reordenamientos del cromosoma 8q22 que afectan la regulación del gen TRPS1. No es claramente dependiente de andrógenos, por lo que la reducción de DHT encaja débilmente con su causa. El puntaje del modelo es muy alto (0,99994), pero no se respalda con ensayos ni literatura.
 
-En consecuencia, aunque el modelo asigna una puntuación de predicción muy elevada (99.99%), la conexión mecanística es extremadamente débil y no cuenta con respaldo clínico ni bibliográfico. La alta puntuación probablemente refleja conexiones indirectas en el grafo de conocimiento entre nodos de crecimiento folicular, andrógenos y trastornos cutáneos, y no una relevancia terapéutica real para esta enfermedad específica.
-
----
+Conviene señalar también que, entre las otras predicciones, la hipertricosis en general (puntaje 99.99%) cuenta con 4 documentos de literatura, aunque son revisiones narrativas y un trabajo de métodos, sin evidencia controlada sobre finasterida. Esa indicación alcanza el nivel L4, pero también se mantiene en Hold.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
----
-
 ## Información de Mercado en Argentina
 
-Finasteride no cuenta con ninguna autorización de comercialización registrada en Argentina a la fecha de corte (2026-05-01). No se dispone de información de autorizaciones ANMAT para este fármaco.
+Se muestran 5 de las 20 autorizaciones vigentes (todas de producto único). Los textos de indicación aprobada no están disponibles en los datos compilados.
 
----
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 11845 | PROSCAR (Organon Arg.) | Comprimidos x 30 | No disponible |
+| 21216 | PROPECIA (Organon Arg.) | 1 mg, comprimidos recubiertos x 30 | No disponible |
+| 13953 | PROSTENE (Teva Argentina) | 5 mg, comprimidos x 30 | No disponible |
+| 48814 | HPB PANALAB (Panalab) | 5 mg, comprimidos recubiertos x 28 | No disponible |
+| 23124 | CAPILFOR (Finadiet) | 1 mg, comprimidos x 30 | No disponible |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Enfermedades asociadas a contraindicación (según grafo de conocimiento, no texto de prospecto)**: enfermedad hepática y enfermedad de la vesícula biliar.
+- **Interacciones Farmacológicas**: se identificaron 100 posibles interacciones, todas con nivel de gravedad no clasificado. Entre las listadas figuran calcitriol, doxiciclina, clotrimazol, bupropión, metformina, omeprazol, ácido acetilsalicílico y morfina.
+- **Contexto del desarrollo**: dado que finasterida puede afectar el desarrollo genital del feto masculino, su uso en indicaciones congénitas o pediátricas exige especial cautela.
 
----
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La Hipertricosis Universalis Congénita tipo Ambras presenta una base patogénica genético-cromosómica que no involucra la vía DHT, por lo que el mecanismo de acción de Finasteride no tiene conexión directa con esta enfermedad. La ausencia total de evidencia clínica y bibliográfica (nivel L5) no justifica ningún avance hacia estudios aplicados.
+La predicción tiene un puntaje alto en TxGNN, pero carece de ensayos clínicos y literatura (nivel L5), y el mecanismo de reducción de DHT es un ajuste débil para una hipertricosis congénita no claramente androgénica.
 
 **Para avanzar se necesita:**
-- Investigación básica que explore si existe algún rol de los andrógenos o de la 5α-reductasa en la expresión fenotípica de la Hipertricosis tipo Ambras
-- Obtención de datos completos del mecanismo de acción (MOA) desde DrugBank API
-- Obtención de advertencias de seguridad e información regulatoria de ANMAT (juzgado como Blocking en el Evidence Pack)
-- Evaluación de modelos in vitro o estudios mecanísticos antes de considerar cualquier protocolo clínico
+- Datos detallados del mecanismo de acción (MOA) del fármaco
+- Revisión de las advertencias y contraindicaciones del prospecto de ANMAT
+- Evidencia preclínica o mecanística que vincule la vía de la DHT con la regulación de TRPS1 en el síndrome de Ambras
+- Evaluación de compatibilidad de vía de administración y de población objetivo (incluida la seguridad en pediatría)
+- Considerar priorizar indicaciones con más respaldo (por ejemplo, hirsutismo/hipertricosis) antes de invertir en esta predicción
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

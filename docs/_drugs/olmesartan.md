@@ -2,7 +2,7 @@
 layout: default
 title: Olmesartan
 parent: Solo Predicción del Modelo (L5)
-nav_order: 160
+nav_order: 204
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,12 +29,13 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Olmesartan: De Hipertensión Arterial a Angina de Prinzmetal
+# Olmesartán: De Indicación No Registrada en ANMAT a Angina de Prinzmetal
 
 ## Resumen en Una Frase
 
-Olmesartan es un antagonista selectivo del receptor AT1 de la angiotensina II (ARB), utilizado originalmente para el tratamiento de la hipertensión arterial.
-El modelo TxGNN predice que podría ser efectivo para **Angina de Prinzmetal**, con **0 ensayos clínicos** y **0 publicaciones** que actualmente respaldan directamente esta dirección.
+Olmesartán es un antagonista del receptor AT1 de la angiotensina II, comercializado en Argentina en siete autorizaciones vigentes; los datos compilados no incluyen el texto de la indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para **Angina de Prinzmetal** (puntaje 99,84%), pero para esta predicción **no hay ensayos clínicos ni publicaciones** que la respalden.
+La única indicación con evidencia clínica parcial entre las diez predichas es la **migraña** (3 publicaciones, sin ensayos registrados).
 
 ---
 
@@ -42,47 +43,78 @@ El modelo TxGNN predice que podría ser efectivo para **Angina de Prinzmetal**, 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertensión arterial |
+| Indicación Original | No disponible en los datos compilados (los textos de indicación de las autorizaciones están vacíos) |
 | Nueva Indicación Predicha | Angina de Prinzmetal |
-| Puntaje de Predicción TxGNN | 99.84% |
+| Puntaje de Predicción TxGNN | 99,84% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | ✓ Comercializado |
+| Número de Autorizaciones | 7 |
 | Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la información farmacológica conocida, Olmesartan es un ARB (bloqueante del receptor AT1 de angiotensina II): al unirse de forma selectiva y potente al receptor AT1, inhibe la vasoconstricción y la retención de sodio mediadas por angiotensina II, reduciendo la presión arterial. Su uso clínico establecido es el tratamiento de la hipertensión arterial en adultos.
+Los datos compilados no incluyen una descripción detallada del mecanismo de acción. Según el conocimiento general de la clase, olmesartán es un antagonista del receptor AT1 de la angiotensina II, de uso habitual en hipertensión arterial. Esto es conocimiento farmacológico general y no proviene de la indicación registrada en ANMAT.
 
-La angina de Prinzmetal (angina vasoespástica) se caracteriza por espasmos transitorios de las arterias coronarias que provocan isquemia miocárdica. Existe una base teórica para el bloqueo AT1: la angiotensina II promueve la vasoconstricción coronaria a través del receptor AT1, por lo que su inhibición podría contribuir a reducir la probabilidad o la intensidad del vasoespasmo. Esta conexión fisiopatológica es la que con mayor probabilidad captura el modelo TxGNN al asignar un puntaje alto.
+Para la angina de Prinzmetal (vasoespástica), un vínculo plausible sería la reducción del vasoespasmo mediante el bloqueo de la angiotensina II y la mejora de la función endotelial. Sin embargo, es solo una hipótesis: no se aportaron ensayos ni literatura que la respalden, y la predicción se basa únicamente en el modelo.
 
-Sin embargo, el estándar de tratamiento para la angina de Prinzmetal son los bloqueantes de los canales de calcio y los nitratos de acción prolongada; los ARB no tienen ningún papel establecido en guías clínicas para esta indicación. La ausencia completa de evidencia clínica o preclínica directa sugiere que la predicción refleja principalmente similitudes topológicas en el grafo de conocimiento, no una relación biológica validada.
+Otras predicciones de alto puntaje merecen una lectura distinta:
+- **Migraña** (puntaje 99,64%): es la que cuenta con más respaldo clínico indirecto. Hay un estudio pequeño en pacientes hipertensos/prehipertensos, un comentario y una revisión sistemática de 2019 sobre IECA y ARA-II (nivel L3). El efecto en los estudios específicos de olmesartán puede estar confundido por la reducción de la presión arterial.
+- **Hipertensión pulmonar** (99,61%): solo hay estudios preclínicos en ratas y ratones (L4), sin evidencia en humanos.
+- **Alopecia y trastornos capilares congénitos**: no hay mecanismo plausible evidente; el puntaje podría reflejar cercanía en el grafo de conocimiento más que una relación farmacológica real.
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para Olmesartan en angina de Prinzmetal.
+Actualmente no hay ensayos clínicos relacionados registrados para Angina de Prinzmetal.
+
+Como referencia, el único ensayo identificado entre las predicciones corresponde a hipertensión pulmonar y se evaluó como no relevante:
+
+| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
+|---------|------|------|------|---------|
+| [NCT04330300](https://clinicaltrials.gov/study/NCT04330300) | Fase 4 | Suspendido | 2414 | Ensayo en COVID-19 sobre continuar o suspender IECA/ARA-II; no aborda hipertensión pulmonar |
 
 ---
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible para Olmesartan en angina de Prinzmetal.
+Actualmente no hay literatura relacionada disponible para Angina de Prinzmetal.
+
+La literatura disponible para la predicción con mayor respaldo (migraña) es:
+
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [31515634](https://pubmed.ncbi.nlm.nih.gov/31515634/) | 2019 | Revisión sistemática | Current Pain and Headache Reports | Eficacia de IECA y ARA-II en la prevención de migraña episódica en adultos; respaldo a nivel de clase |
+| [16618270](https://pubmed.ncbi.nlm.nih.gov/16618270/) | 2006 | Estudio clínico pequeño | Headache | Efecto de olmesartán sobre la frecuencia y gravedad de la migraña en pacientes con hipertensión/prehipertensión |
+| [16942482](https://pubmed.ncbi.nlm.nih.gov/16942482/) | 2006 | Comentario/Carta | Headache | Comentario sobre olmesartán, migraña y presión arterial |
+
+Para hipertensión pulmonar, la evidencia es preclínica (PMID [18209564](https://pubmed.ncbi.nlm.nih.gov/18209564/), [16336959](https://pubmed.ncbi.nlm.nih.gov/16336959/) y [17089097](https://pubmed.ncbi.nlm.nih.gov/17089097/)): en modelos de rata y ratón, olmesartán atenuó la hipertensión pulmonar inducida por monocrotalina e hipoxia, posiblemente mediante la inhibición de ERK1/2 y de señales proinflamatorias.
 
 ---
 
 ## Información de Mercado en Argentina
 
-Olmesartan no cuenta con ninguna autorización de comercialización registrada en Argentina según los datos consultados (fecha de corte: 2026-05-01). No existen licencias ANMAT activas para este principio activo.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 60980 | OLTUX (Nolter) | 40 mg, comprimidos recubiertos x 30 | No disponible |
+| 40680 | OLMETEC (MSD Argentina) | 40 mg, comprimidos recubiertos x 28 | No disponible |
+| 40679 | OLMETEC (MSD Argentina) | 20 mg, comprimidos recubiertos x 28 | No disponible |
+| 60979 | OLTUX (Nolter) | 20 mg, comprimidos recubiertos x 30 | No disponible |
+| 35191 | TENSONIT (Teva Argentina) | 20 mg, comprimidos recubiertos x 30 | No disponible |
+
+Hay 7 autorizaciones vigentes en total; se muestran las 5 principales. Las otras dos corresponden a OLMETEC D 20/12.5 (40681) y OLMETEC D 40/12.5 (40682), de MSD Argentina.
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas**: se identificaron 94 interacciones en total. Entre las principales:
+  - **Mayor**: cloruro de potasio y bicarbonato de potasio (riesgo de hiperpotasemia).
+  - **Moderada**: hidrocortisona, eluxadolina, exenatida, polietilenglicol con electrolitos y múltiples insulinas (humana, aspart, degludec, detemir, glargina, glulisina, lispro, entre otras).
+
+Como contexto de seguridad, un reporte de caso reciente (2026) recuerda que los ARA-II están contraindicados en el embarazo por riesgo de oligohidramnios, disgenesia renal e hipoplasia pulmonar fetal. Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ---
 
@@ -91,14 +123,14 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción del modelo TxGNN para angina de Prinzmetal alcanza una puntuación altísima (99.84%), pero se sustenta exclusivamente en la estructura del grafo de conocimiento sin respaldo de ningún ensayo clínico ni publicación científica (nivel L5). Adicionalmente, el fármaco no está comercializado en Argentina, carece de datos regulatorios locales y el mecanismo de acción no ha sido formalmente documentado en el paquete de evidencia disponible.
+La predicción principal (angina de Prinzmetal) se apoya solo en el puntaje del modelo (L5), sin ensayos ni publicaciones. La migraña es la línea con más respaldo (L3, "pregunta de investigación"), pero se basa en estudios pequeños y en datos de clase, con efecto confundido por la presión arterial.
 
 **Para avanzar se necesita:**
-- Búsqueda bibliográfica dirigida de ARB en modelos de vasoespasmo coronario (estudios preclínicos en animales)
-- Documentación formal del mecanismo de acción (MOA) de Olmesartan mediante consulta a DrugBank API
-- Obtención de datos de seguridad (advertencias, contraindicaciones) mediante descarga del prospecto en ANMAT
-- Evaluación del estado de aprobación global (FDA/EMA) para identificar si existe alguna extensión de indicación en cardiología
-- Consulta con especialista en cardiología/hemodinamia para valorar relevancia clínica de la hipótesis AT1–vasoespasmo coronario antes de cualquier inversión en investigación
+- Obtener el prospecto de ANMAT (indicación aprobada, advertencias y contraindicaciones).
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Realizar una búsqueda dirigida de evidencia clínica sobre olmesartán (o ARA-II) en angina vasoespástica.
+- Para migraña, evaluar la viabilidad de un ensayo controlado en pacientes normotensos que separe el efecto antimigrañoso del hipotensor.
+- Evaluar la compatibilidad de vías de administración y la similitud con la indicación original, hoy pendientes.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

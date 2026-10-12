@@ -29,70 +29,79 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-# ATENOLOL: Evaluación Preliminar — Sin Indicaciones Predichas
+# Atenolol: De Hipertensión Arterial a Infarto de Miocardio Posterolateral
 
 ## Resumen en Una Frase
 
-Atenolol es un betabloqueante beta-1 selectivo ampliamente utilizado a nivel mundial para el tratamiento de la hipertensión arterial, angina de pecho y arritmias cardíacas.
-Actualmente, el modelo TxGNN **no ha generado predicciones de nuevas indicaciones** para este fármaco,
-y **no se cuenta con ensayos clínicos ni publicaciones** que respalden un reposicionamiento específico en esta evaluación.
+Atenolol es un betabloqueante cardioselectivo, originalmente utilizado para el tratamiento de la hipertensión arterial y del infarto de miocardio.
+El modelo TxGNN predice que podría ser efectivo para el **infarto de miocardio posterolateral**, aunque actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden específicamente esta predicción.
+Se trata de un subtipo anatómico de una indicación ya conocida, por lo que el puntaje alto refleja sobre todo la cercanía en la ontología y no una señal real de reposicionamiento.
 
 ---
 
 ## Resumen Rápido
 
 | Item | Contenido |
-|------|-----------|
-| Indicación Original | No registrada en el sistema (conocida globalmente: hipertensión, angina, arritmias) |
-| Nueva Indicación Predicha | — Sin predicciones disponibles — |
-| Puntaje de Predicción TxGNN | N/A |
-| Nivel de Evidencia | L5 (solo datos de base, sin estudios orientados a reposicionamiento) |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
-| Decisión Recomendada | **Hold** |
+|------|------|
+| Indicación Original | Hipertensión arterial e infarto de miocardio (según el grafo de conocimiento; los textos de indicación de las autorizaciones locales están vacíos) |
+| Nueva Indicación Predicha | Infarto de miocardio posterolateral |
+| Puntaje de Predicción TxGNN | 99.87% |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Argentina | ✓ Comercializado |
+| Número de Autorizaciones | 20 |
+| Decisión Recomendada | Hold |
 
 ---
 
-## ¿Por qué no hay Predicciones?
+## ¿Por qué es Razonable esta Predicción?
 
-Atenolol (DrugBank ID: DB00335) es un antagonista selectivo de los receptores beta-1 adrenérgicos. A nivel internacional es uno de los betabloqueantes más prescritos para el manejo de la hipertensión arterial, la angina de pecho estable y ciertas arritmias cardíacas. Sin embargo, en el presente Evidence Pack no se dispone de datos detallados sobre el mecanismo de acción (MOA) provenientes de DrugBank, lo que constituye una brecha de datos de severidad alta (DG002).
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, atenolol es un betabloqueante selectivo del receptor beta-1. Su bloqueo reduce la frecuencia cardíaca, la contractilidad y la demanda de oxígeno del miocardio, que es el fundamento de su uso tras un infarto.
 
-El modelo TxGNN no ha generado predicciones de nuevas indicaciones para atenolol en esta iteración. Esto puede deberse a varios factores: (1) el fármaco no se encuentra comercializado en Argentina, lo que limita la integración de datos regulatorios locales; (2) las indicaciones cardiovasculares de atenolol ya están ampliamente cubiertas, reduciendo el espacio para reposicionamiento novedoso; y (3) la ausencia de datos de MOA estructurados puede haber limitado la capacidad del modelo para establecer conexiones mecanísticas con nuevas enfermedades.
+El infarto de miocardio posterolateral es un subtipo anatómico del infarto de miocardio, una indicación original del fármaco. Por ello, la predicción es plausible, pero no constituye un reposicionamiento genuino: el puntaje elevado refleja la proximidad con la indicación ya establecida.
 
-Para futuras iteraciones, se recomienda completar los datos de mecanismo de acción y evaluar si la integración de datos regulatorios de otras jurisdicciones permite al modelo generar predicciones relevantes.
+Otras predicciones del modelo (infarto posteroinferior y septal, hipertensión renovascular maligna, hipertensión pulmonar, cor pulmonale crónico) siguen la misma lógica o son más débiles. En las formas pulmonares, además, los betabloqueantes exigen cautela por el riesgo de reducir el gasto cardíaco o empeorar el broncoespasmo.
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados con reposicionamiento registrados para esta evaluación.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ---
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada con reposicionamiento disponible para esta evaluación.
+Actualmente no hay literatura relacionada disponible para la indicación principal (infarto de miocardio posterolateral).
+
+Como referencia, para el infarto posteroinferior (segunda predicción, mismo puntaje) se recuperó un único estudio:
+
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [3901170](https://pubmed.ncbi.nlm.nih.gov/3901170/) | 1985 | ECA (simple ciego, cruzado, pequeño) | La Revue de médecine interne | Comparación de la actividad antiisquémica de atenolol (200 mg) y diltiazem (240 mg) en 23 pacientes en readaptación, 4 semanas después de un infarto posteroinferior o anterior, mediante prueba de esfuerzo computarizada. Estudio pequeño, antiguo e indirecto. |
 
 ---
 
 ## Información de Mercado en Argentina
 
-Atenolol **no se encuentra comercializado** en Argentina según los registros consultados. No se identificaron autorizaciones de comercialización vigentes (0 licencias).
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 3849 | ATENOLOL GADOR (Gador) | Comprimidos 100 mg x 28 | No disponible en los datos |
+| 32121 | ATENOLOL MICROSULES (Microsules Arg.) | Comprimidos 50 mg x 28 | No disponible en los datos |
+| 59354 | VERICORDIN (Lazar) | Comprimidos 100 mg x 60 | No disponible en los datos |
+| 35433 | PLENACOR 50 (Bagó) | Comprimidos 50 mg x 60 | No disponible en los datos |
+| 34628 | ATENOLOL GADOR (Gador) | Comprimidos 25 mg x 30 | No disponible en los datos |
 
-> **Nota:** La ausencia de registro en Argentina no implica que el fármaco carezca de aprobación en otras jurisdicciones. Atenolol cuenta con aprobaciones en múltiples países (FDA, EMA, entre otros) para indicaciones cardiovasculares.
+Hay 20 autorizaciones vigentes, todas de monofármaco; se muestran las 5 primeras.
 
 ---
 
 ## Consideraciones de Seguridad
 
-> Consultar el prospecto para información de seguridad. Los datos de advertencias, contraindicaciones e interacciones farmacológicas no se encuentran disponibles en el presente Evidence Pack.
+- **Contraindicaciones según el grafo de conocimiento** (no provienen del prospecto): bloqueo auriculoventricular, asma (incluidas las formas intrínseca y alérgica), diabetes mellitus tipo 1 y 2, cetoacidosis diabética, enfermedad de Raynaud, anafilaxia, insuficiencia hepática, pancreatitis, lupus eritematoso sistémico, psoriasis, gota, anuria y trastornos del calcio, fósforo y potasio, entre otros.
+- **Interacciones farmacológicas**: se identificaron 100 interacciones. Las de nivel moderado incluyen epinefrina, hidrocortisona, hioscina, bupropión, triamcinolona, morfina, acetohexamida, atropina, betametasona, budesonida y diversas sales de calcio. Las de nivel menor incluyen ácido acetilsalicílico, hidróxido de aluminio y attapulgita.
+- **Contexto pulmonar**: en hipertensión pulmonar y enfermedad pulmonar crónica, los betabloqueantes, incluso los cardioselectivos, pueden empeorar el broncoespasmo o reducir el gasto cardíaco.
 
-**Brechas de datos identificadas:**
-
-| ID | Categoría | Item Faltante | Severidad | Impacto |
-|----|-----------|---------------|-----------|---------|
-| DG001 | Drug_Level | Advertencias y contraindicaciones del prospecto | **Bloqueante** | No es posible realizar la evaluación inicial de seguridad (S1) |
-| DG002 | Drug_Level | Mecanismo de acción (MOA) | Alta | Afecta el análisis de relación mecanística |
+Consultar el prospecto para las advertencias y contraindicaciones oficiales.
 
 ---
 
@@ -101,14 +110,13 @@ Atenolol **no se encuentra comercializado** en Argentina según los registros co
 **Decisión: Hold**
 
 **Justificación:**
-No se dispone de predicciones del modelo TxGNN para nuevas indicaciones de atenolol. Además, el fármaco no está comercializado en Argentina y existen brechas de datos críticas (advertencias/contraindicaciones del prospecto y mecanismo de acción) que impiden completar la evaluación de seguridad inicial.
+La predicción corresponde a un subtipo de una indicación ya establecida, sin ensayos ni literatura específica, por lo que no aporta una señal nueva de reposicionamiento. El nivel de evidencia es L5.
 
 **Para avanzar se necesita:**
-- Completar los datos del mecanismo de acción (MOA) desde DrugBank API (DG002)
-- Obtener y analizar el prospecto oficial con advertencias y contraindicaciones (DG001 — severidad bloqueante)
-- Verificar si existe registro regulatorio en Argentina bajo nombres comerciales alternativos
-- Re-ejecutar el modelo TxGNN una vez completados los datos de MOA para evaluar si se generan predicciones de reposicionamiento
-- Considerar la integración de datos regulatorios de jurisdicciones donde atenolol sí está aprobado (FDA, EMA) para enriquecer el perfil del fármaco
+- Confirmar si la indicación de infarto de miocardio figura en el prospecto aprobado por ANMAT (los textos de indicación están vacíos en los datos).
+- Obtener las advertencias y contraindicaciones oficiales del prospecto de ANMAT.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Evaluar si conviene priorizar otras predicciones con un componente de reposicionamiento más claro, o descartar las que son meros subtipos de indicaciones ya aprobadas.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
