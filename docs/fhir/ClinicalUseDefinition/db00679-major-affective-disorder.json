@@ -1,0 +1,27 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db00679-major-affective-disorder",
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db00679"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "major affective disorder"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://artxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L4"
+    },
+    {
+      "url": "https://artxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9974
+    }
+  ]
+}
