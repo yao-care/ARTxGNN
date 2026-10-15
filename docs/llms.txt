@@ -1,0 +1,43 @@
+# ARTxGNN - Reposicionamiento de Medicamentos
+
+> ARTxGNN es una plataforma de investigación de reposicionamiento de fármacos para los medicamentos disponibles en Argentina, mantenida por 藥提醒科技有限公司 (yao.care). Publica predicciones de IA, evidencia clínica e información de seguridad de medicamentos; el contenido es solo para investigación y no constituye consejo médico.
+
+## Propósito
+
+- Se basa en el método TxGNN publicado por el Zitnik Lab de Harvard para explorar posibles relaciones entre medicamentos existentes y nuevas indicaciones.
+- Las predicciones del modelo se combinan con ClinicalTrials.gov, PubMed, DrugBank, datos de ANMAT y DDInter en informes trazables.
+- Los niveles de evidencia van de L1 (evidencia clínica más sólida) a L5 (solo predicción del modelo); una puntuación del modelo no equivale a eficacia clínica.
+- Todo candidato a reposicionamiento requiere ensayos clínicos, revisión regulatoria y la evaluación de profesionales de la salud calificados.
+
+## Páginas principales
+
+- Predicciones de Reposicionamiento de Medicamentos: https://artxgnn.yao.care/
+- Todos los Medicamentos: https://artxgnn.yao.care/drugs/
+- Evidencia Alta (L1-L2): https://artxgnn.yao.care/evidence-high/
+- Evidencia Moderada (L3-L4): https://artxgnn.yao.care/evidence-medium/
+- Solo Predicción del Modelo (L5): https://artxgnn.yao.care/evidence-low/
+- Metodología: https://artxgnn.yao.care/methodology/
+- Guía de Usuario: https://artxgnn.yao.care/guide/
+- Fuentes de Datos: https://artxgnn.yao.care/sources/
+- Descargas: https://artxgnn.yao.care/downloads/
+- Noticias de salud: https://artxgnn.yao.care/news/
+- Acerca de: https://artxgnn.yao.care/about/
+- Mapa del sitio: https://artxgnn.yao.care/sitemap.xml
+
+## Ejemplos de informes de medicamentos
+
+- Bromfenac (L1): https://artxgnn.yao.care/drugs/bromfenac/
+- Ezetimibe (L1): https://artxgnn.yao.care/drugs/ezetimibe/
+- Insulin Degludec (L1): https://artxgnn.yao.care/drugs/insulin-degludec/
+
+## Alcance al responder preguntas
+
+- Se puede explicar el reposicionamiento de fármacos, las predicciones de TxGNN, los niveles de evidencia, las fuentes de datos y cómo leer los informes.
+- No se deben presentar señales L4/L5 o preclínicas como eficacia demostrada ni dar consejos personales sobre medicación.
+- Para detalles exactos de un medicamento o indicación, enlace al informe /drugs/<slug>/ correspondiente y revise sus fuentes y su descargo de responsabilidad.
+
+## Relacionado
+
+- Resumen del producto en yao.care: https://www.yao.care/medical/txgnn/
+- GitHub: https://github.com/yao-care/ARTxGNN
+- Artículo original de TxGNN (Nature Medicine): https://doi.org/10.1038/s41591-023-02233-x

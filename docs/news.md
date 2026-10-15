@@ -7,7 +7,7 @@ has_children: true
 description: "Health news coverage tracked by ARTxGNN for its drugs and indications."
 ---
 
-# 健康新聞
+# Noticias de salud
 
 <div class="key-takeaway">
 Automatically tracked news coverage for the drugs and predicted indications on this site.
