@@ -8,6 +8,7 @@ drugbank_id: DB00246
 evidence_level: L5
 permalink: /drugs/ziprasidona/
 search_exclude: true
+last_modified_at: 2026-05-03
 ---
 
 # ZIPRASIDONA

@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 90
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Cefoxitin: nueva indicación predicha, Otitis media infecciosa (nivel de evidencia L5). Indicación original: Infecciones bacterianas (neumonía bacteriana, peritonitis…"
 ---
 
 # Cefoxitin

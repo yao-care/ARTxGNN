@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 174
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Latanoprost: nueva indicación predicha, Glaucoma hereditario primario (nivel de evidencia L5). Indicación original: Glaucoma de ángulo abierto e hipertensión ocular (según el grafo de c…"
 ---
 
 # Latanoprost

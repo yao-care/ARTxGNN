@@ -7,6 +7,7 @@ title: MOXIFLOXACINA
 drugbank_id: DB00218
 evidence_level: L5
 permalink: /drugs/moxifloxacina/
+last_modified_at: 2026-05-03
 ---
 
 # MOXIFLOXACINA

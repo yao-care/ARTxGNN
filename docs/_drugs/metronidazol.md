@@ -7,6 +7,7 @@ title: METRONIDAZOL
 drugbank_id: DB00916
 evidence_level: L5
 permalink: /drugs/metronidazol/
+last_modified_at: 2026-05-03
 ---
 
 # METRONIDAZOL

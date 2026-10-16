@@ -7,6 +7,7 @@ title: SELEGILINA
 drugbank_id: DB01037
 evidence_level: L5
 permalink: /drugs/selegilina/
+last_modified_at: 2026-05-03
 ---
 
 # SELEGILINA

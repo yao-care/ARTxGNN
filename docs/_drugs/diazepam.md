@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 122
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Diazepam: nueva indicación predicha, Insomnio (nivel de evidencia L4). Indicación original: Epilepsia (según el grafo de conocimiento"
 ---
 
 # Diazepam

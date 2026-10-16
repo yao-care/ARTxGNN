@@ -7,6 +7,7 @@ title: TESTOSTERONA
 drugbank_id: DB00624
 evidence_level: L5
 permalink: /drugs/testosterona/
+last_modified_at: 2026-05-03
 ---
 
 # TESTOSTERONA

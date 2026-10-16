@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 241
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Triamcinolone: nueva indicación predicha, Alopecia mucinosa (nivel de evidencia L4). Indicación original: No disponible en los textos de indicación aprobados en Argentina (cam…"
 ---
 
 # Triamcinolone

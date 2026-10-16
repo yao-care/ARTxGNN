@@ -7,6 +7,7 @@ title: PREDNISOLONA
 drugbank_id: DB00860
 evidence_level: L5
 permalink: /drugs/prednisolona/
+last_modified_at: 2026-05-03
 ---
 
 # PREDNISOLONA

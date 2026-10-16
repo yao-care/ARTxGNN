@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 208
 evidence_level: L4
 indication_count: 3
+last_modified_at: 2026-10-13
+description: "Oxymetazoline: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L4). Indicación original: Faringitis y resfriado común"
 ---
 
 # Oxymetazoline

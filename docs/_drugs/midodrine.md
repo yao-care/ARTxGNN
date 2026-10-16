@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 190
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Midodrine: nueva indicación predicha, Prionopatía sensible a proteasas de forma variable (nivel de evidencia L5). Indicación original: Hipotensión ortostática"
 ---
 
 # Midodrine

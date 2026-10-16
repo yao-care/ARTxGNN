@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 149
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Flurbiprofen: nueva indicación predicha, Displasia acromesomélica tipo Hunter-Thompson (nivel de evidencia L5). Indicación original: Artritis reumatoide (según la base de conocimiento del modelo"
 ---
 
 # Flurbiprofen

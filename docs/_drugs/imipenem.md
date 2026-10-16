@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 163
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Imipenem: nueva indicación predicha, Esclerodermia difusa (nivel de evidencia L5). Indicación original: Neumonía bacteriana (según el grafo de conocimiento"
 ---
 
 # Imipenem

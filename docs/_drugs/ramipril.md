@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 222
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Ramipril: nueva indicación predicha, Hipertensión pulmonar secundaria a enfermedad pulmonar y/o hipoxia (nivel de evidencia L4). Indicación original: Hipertensión arterial y trastornos cerebrovascula…"
 ---
 
 # Ramipril

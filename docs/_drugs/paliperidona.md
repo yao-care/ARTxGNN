@@ -8,6 +8,7 @@ drugbank_id: DB01267
 evidence_level: L5
 permalink: /drugs/paliperidona/
 search_exclude: true
+last_modified_at: 2026-05-03
 ---
 
 # PALIPERIDONA

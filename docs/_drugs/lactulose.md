@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 173
 evidence_level: L5
 indication_count: 8
+last_modified_at: 2026-10-13
+description: "Lactulose: nueva indicación predicha, Ictericia obstructiva . Indicación de mayor puntaje: nefropatía aguda… (nivel de evidencia L5). Indicación original: Encefalopatía hepática…"
 ---
 
 # Lactulose

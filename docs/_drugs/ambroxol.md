@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 24
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-13
+description: "Ambroxol: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L4). Indicación original: Faringitis (según el grafo de conocimiento"
 ---
 
 # Ambroxol

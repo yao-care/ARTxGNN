@@ -7,6 +7,7 @@ title: ERITROMICINA
 drugbank_id: DB00199
 evidence_level: L5
 permalink: /drugs/eritromicina/
+last_modified_at: 2026-05-03
 ---
 
 # ERITROMICINA

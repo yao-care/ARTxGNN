@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 224
 evidence_level: L4
 indication_count: 6
+last_modified_at: 2026-10-13
+description: "Rifaximin: nueva indicación predicha, Candidiasis oral (nivel de evidencia L4). Indicación original: Encefalopatía hepática, coma hepático (según el grafo de conocimiento"
 ---
 
 # Rifaximin

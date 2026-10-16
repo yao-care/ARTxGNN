@@ -7,6 +7,7 @@ title: INDOMETACINA
 drugbank_id: DB00328
 evidence_level: L5
 permalink: /drugs/indometacina/
+last_modified_at: 2026-05-03
 ---
 
 # INDOMETACINA

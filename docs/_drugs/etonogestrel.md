@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 138
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-13
+description: "Etonogestrel: nueva indicación predicha, Amenorrea (nivel de evidencia L5). Indicación original: No disponible en las autorizaciones registradas"
 ---
 
 # Etonogestrel

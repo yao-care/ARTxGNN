@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 119
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Desogestrel: nueva indicación predicha, Amenorrea (nivel de evidencia L3). Indicación original: No disponible en los textos de autorización"
 ---
 
 # Desogestrel

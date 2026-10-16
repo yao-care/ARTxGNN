@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 128
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-13
+description: "Diosmin: nueva indicación predicha, Amenorrea (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 ---
 
 # Diosmin

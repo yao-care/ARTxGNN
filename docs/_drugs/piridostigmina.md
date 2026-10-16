@@ -8,6 +8,7 @@ drugbank_id: DB00545
 evidence_level: L5
 permalink: /drugs/piridostigmina/
 search_exclude: true
+last_modified_at: 2026-05-03
 ---
 
 # PIRIDOSTIGMINA

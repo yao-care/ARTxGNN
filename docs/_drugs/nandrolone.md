@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 198
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Nandrolone: nueva indicación predicha, Enfermedad fibroquística de la mama (nivel de evidencia L4). Indicación original: No disponible en la licencia de ANMAT (texto de indicación vacío). Co…"
 ---
 
 # Nandrolone

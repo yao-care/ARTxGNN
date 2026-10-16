@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 225
 evidence_level: L3
 indication_count: 5
+last_modified_at: 2026-10-13
+description: "Sacubitril: nueva indicación predicha, Nefropatía diabética (nivel de evidencia L3). Indicación original: No disponible en las licencias de ANMAT (texto de indicación vacío)"
 ---
 
 # Sacubitril

@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 47
 evidence_level: L5
 indication_count: 0
+last_modified_at: 2026-09-17
+description: "Benznidazol: nueva indicación predicha, — No disponible (sin predicciones TxGNN) (nivel de evidencia L5). Indicación original: Enfermedad de Chagas (tripanosomiasis americana) — según uso reconoci…"
 ---
 
 # Benznidazol

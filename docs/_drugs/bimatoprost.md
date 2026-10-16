@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 54
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Bimatoprost: nueva indicación predicha, Síndrome malformativo con componente odontal y/o periodontal (nivel de evidencia L5). Indicación original: Glaucoma de ángulo abierto (las autorizaciones local…"
 ---
 
 # Bimatoprost

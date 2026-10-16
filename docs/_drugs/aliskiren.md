@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 20
 evidence_level: L4
 indication_count: 7
+last_modified_at: 2026-10-13
+description: "Aliskiren: nueva indicación predicha, Hipertensión pulmonar secundaria a enfermedad pulmonar y/o hipoxia (nivel de evidencia L4). Indicación original: Hipertensión arterial (según la base de conocimi…"
 ---
 
 # Aliskiren

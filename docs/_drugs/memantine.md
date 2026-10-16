@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 186
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-13
+description: "Memantine: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: No disponible en los datos de ANMAT (el texto de indicación está vací…"
 ---
 
 # Memantine

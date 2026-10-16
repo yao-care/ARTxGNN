@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 194
 evidence_level: L4
 indication_count: 1
+last_modified_at: 2026-10-13
+description: "Modafinil: nueva indicación predicha, Insomnio (nivel de evidencia L4). Indicación original: Narcolepsia"
 ---
 
 # Modafinil

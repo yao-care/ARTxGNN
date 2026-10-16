@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 154
 evidence_level: L3
 indication_count: 1
+last_modified_at: 2026-10-13
+description: "Glucagon: nueva indicación predicha, Síndrome del intestino irritable (nivel de evidencia L3). Indicación original: No disponible en los datos compilados (el texto de indicación de la a…"
 ---
 
 # Glucagon

@@ -7,6 +7,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 92
 evidence_level: L5
 indication_count: 0
+last_modified_at: 2026-09-17
 ---
 
 # Ceftriaxona

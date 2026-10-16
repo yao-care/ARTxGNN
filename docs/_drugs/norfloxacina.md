@@ -7,6 +7,7 @@ title: NORFLOXACINA
 drugbank_id: DB01059
 evidence_level: L5
 permalink: /drugs/norfloxacina/
+last_modified_at: 2026-05-03
 ---
 
 # NORFLOXACINA

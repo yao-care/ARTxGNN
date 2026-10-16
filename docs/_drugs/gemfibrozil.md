@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 151
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Gemfibrozil: nueva indicación predicha, Artritis Reumatoide (nivel de evidencia L4). Indicación original: Hipertrigliceridemia (según el grafo de conocimiento"
 ---
 
 # Gemfibrozil

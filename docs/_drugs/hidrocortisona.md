@@ -7,6 +7,7 @@ title: HIDROCORTISONA
 drugbank_id: DB00741
 evidence_level: L5
 permalink: /drugs/hidrocortisona/
+last_modified_at: 2026-05-03
 ---
 
 # HIDROCORTISONA

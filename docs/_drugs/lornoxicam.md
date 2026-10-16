@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 182
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Lornoxicam: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L3). Indicación original: No disponible en los datos de la autorización de ANMAT"
 ---
 
 # Lornoxicam

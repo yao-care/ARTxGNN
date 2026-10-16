@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 132
 evidence_level: L4
 indication_count: 7
+last_modified_at: 2026-10-13
+description: "Econazole: nueva indicación predicha, Granuloma de Majocchi (nivel de evidencia L4). Indicación original: Tinea pedis, tinea corporis, infecciones por tinea…"
 ---
 
 # Econazole

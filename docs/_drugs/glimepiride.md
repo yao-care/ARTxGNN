@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 153
 evidence_level: L5
 indication_count: 9
+last_modified_at: 2026-10-13
+description: "Glimepiride: nueva indicación predicha, Síndrome de la persona rígida clásico (nivel de evidencia L5). Indicación original: Diabetes mellitus tipo 2"
 ---
 
 # Glimepiride

@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 243
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-13
+description: "Verapamil: nueva indicación predicha, Bloqueo de rama (término obsoleto) (nivel de evidencia L5). Indicación original: Trastorno hipertensivo / hipertensión (según el grafo de conocimiento"
 ---
 
 # Verapamil

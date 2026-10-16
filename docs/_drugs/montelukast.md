@@ -5,6 +5,8 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 195
 evidence_level: L2
 indication_count: 5
+last_modified_at: 2026-10-13
+description: "Montelukast: nueva indicación predicha, Bronquitis (nivel de evidencia L2). Indicación original: Rinitis alérgica y asma (alérgica e intrínseca)…"
 ---
 
 # Montelukast

@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 120
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Dexketoprofen: nueva indicación predicha, Tendinitis (primera predicción) (nivel de evidencia L5). Indicación original: No disponible (los textos de indicación de las autorizaciones están v…"
 ---
 
 # Dexketoprofen

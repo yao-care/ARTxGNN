@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 213
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-13
+description: "Piribedil: nueva indicación predicha, Distrofia retiniana con o sin anomalías extraoculares (nivel de evidencia L4). Indicación original: Enfermedad de Parkinson / trastorno parkinsoniano (según las …"
 ---
 
 # Piribedil

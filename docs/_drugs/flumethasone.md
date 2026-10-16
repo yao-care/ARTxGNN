@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 145
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Flumethasone: nueva indicación predicha, Alopecia areata (nivel de evidencia L5). Indicación original: Dermatosis inflamatorias (según el grafo de conocimiento: eccema atóp…"
 ---
 
 # Flumethasone

@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 167
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Insulin Human: nueva indicación predicha, Ooforitis autoinmune (nivel de evidencia L5). Indicación original: Diabetes mellitus tipo 2 (según las indicaciones originales del grafo…"
 ---
 
 # Insulin Human

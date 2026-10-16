@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 175
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Levetiracetam: nueva indicación predicha, Epilepsia visual (nivel de evidencia L3). Indicación original: Epilepsia parcial"
 ---
 
 # Levetiracetam

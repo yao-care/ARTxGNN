@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 144
 evidence_level: L5
 indication_count: 8
+last_modified_at: 2026-10-13
+description: "Fludrocortisone: nueva indicación predicha, Linfoma cutáneo primario de células T (nivel de evidencia L5). Indicación original: No disponible en la licencia de ANMAT (texto de indicación vacío)"
 ---
 
 # Fludrocortisone
