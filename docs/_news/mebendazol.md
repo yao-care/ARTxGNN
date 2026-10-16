@@ -25,9 +25,9 @@ Esta página combina las indicaciones predichas por IA para MEBENDAZOL con las �
 <strong>Información del medicamento</strong>
 <ul>
 <li><strong>Indicaciones predichas (3)</strong>:<ul>
-<li>enterobiasis (99.0%)</li>
-<li>ascaridiasis (99.0%)</li>
-<li>trichuriasis (99.0%)</li>
+<li>enterobiasis | TxGNN Knowledge Graph (99.0%)</li>
+<li>ascaridiasis | TxGNN Knowledge Graph (99.0%)</li>
+<li>trichuriasis | TxGNN Knowledge Graph (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/mebendazol/' | relative_url }}">Ver el informe completo del medicamento →</a></p>

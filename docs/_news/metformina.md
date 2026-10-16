@@ -25,8 +25,8 @@ Esta página combina las indicaciones predichas por IA para METFORMINA con las �
 <strong>Información del medicamento</strong>
 <ul>
 <li><strong>Indicaciones predichas (2)</strong>:<ul>
-<li>diabetes mellitus (disease) (99.0%)</li>
-<li>type 2 diabetes mellitus (99.0%)</li>
+<li>diabetes mellitus (disease) | TxGNN Knowledge Graph (99.0%)</li>
+<li>type 2 diabetes mellitus | TxGNN Knowledge Graph (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/metformina/' | relative_url }}">Ver el informe completo del medicamento →</a></p>

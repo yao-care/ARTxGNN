@@ -24,9 +24,10 @@ Esta página combina las indicaciones predichas por IA para MISOPROSTOL con las 
 <div class="drug-info-card">
 <strong>Información del medicamento</strong>
 <ul>
+<li><strong>Nivel de evidencia</strong>: L4</li>
 <li><strong>Indicaciones predichas (2)</strong>:<ul>
-<li>amenorrhea (disease) (99.6%)</li>
-<li>atypical coarctation of aorta (99.3%)</li>
+<li>OXAPROST 75 | Comprimidos x 16 | No especificada en los datos (99.0%)</li>
+<li>OXAPROST | Comprimidos x 16 | No especificada en los datos (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/misoprostol/' | relative_url }}">Ver el informe completo del medicamento →</a></p>

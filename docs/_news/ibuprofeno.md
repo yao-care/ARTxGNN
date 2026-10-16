@@ -25,15 +25,15 @@ Esta página combina las indicaciones predichas por IA para IBUPROFENO con las �
 <strong>Información del medicamento</strong>
 <ul>
 <li><strong>Indicaciones predichas (9)</strong>:<ul>
-<li>osteoarthritis (99.0%)</li>
-<li>rheumatoid arthritis (99.0%)</li>
-<li>arthropathy (99.0%)</li>
-<li>juvenile idiopathic arthritis (99.0%)</li>
-<li>osteoarthritis susceptibility (99.0%)</li>
-<li>headache disorder (99.0%)</li>
-<li>patent ductus arteriosus (99.0%)</li>
-<li>spondyloarthropathy (99.0%)</li>
-<li>juvenile arthritis due to defect in LACC1 (99.0%)</li>
+<li>osteoarthritis | TxGNN Knowledge Graph (99.0%)</li>
+<li>rheumatoid arthritis | TxGNN Knowledge Graph (99.0%)</li>
+<li>arthropathy | TxGNN Knowledge Graph (99.0%)</li>
+<li>juvenile idiopathic arthritis | TxGNN Knowledge Graph (99.0%)</li>
+<li>osteoarthritis susceptibility | TxGNN Knowledge Graph (99.0%)</li>
+<li>headache disorder | TxGNN Knowledge Graph (99.0%)</li>
+<li>patent ductus arteriosus | TxGNN Knowledge Graph (99.0%)</li>
+<li>spondyloarthropathy | TxGNN Knowledge Graph (99.0%)</li>
+<li>juvenile arthritis due to defect in LACC1 | TxGNN Knowledge Graph (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/ibuprofeno/' | relative_url }}">Ver el informe completo del medicamento →</a></p>

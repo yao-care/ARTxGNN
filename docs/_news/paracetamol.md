@@ -25,13 +25,13 @@ Esta página combina las indicaciones predichas por IA para PARACETAMOL con las 
 <strong>Información del medicamento</strong>
 <ul>
 <li><strong>Indicaciones predichas (7)</strong>:<ul>
-<li>allergic rhinitis (99.0%)</li>
-<li>migraine with or without aura, susceptibility to (99.0%)</li>
-<li>nasopharyngitis (99.0%)</li>
-<li>vasomotor rhinitis (99.0%)</li>
-<li>headache disorder (99.0%)</li>
-<li>common cold (99.0%)</li>
-<li>migraine disorder (99.0%)</li>
+<li>allergic rhinitis | TxGNN Knowledge Graph (99.0%)</li>
+<li>migraine with or without aura, susceptibility to | TxGNN Knowledge Graph (99.0%)</li>
+<li>nasopharyngitis | TxGNN Knowledge Graph (99.0%)</li>
+<li>vasomotor rhinitis | TxGNN Knowledge Graph (99.0%)</li>
+<li>headache disorder | TxGNN Knowledge Graph (99.0%)</li>
+<li>common cold | TxGNN Knowledge Graph (99.0%)</li>
+<li>migraine disorder | TxGNN Knowledge Graph (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/paracetamol/' | relative_url }}">Ver el informe completo del medicamento →</a></p>
