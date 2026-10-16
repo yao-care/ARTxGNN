@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 7
 last_modified_at: 2026-10-13
 description: "Econazole: nueva indicación predicha, Granuloma de Majocchi (nivel de evidencia L4). Indicación original: Tinea pedis, tinea corporis, infecciones por tinea…"
+monitor_inn: "econazole"
+predicted_indications: ["Majocchi granuloma", "ectothrix infectious disease", "endothrix infectious disease", "superficial mycosis", "dermatophytosis of scalp or beard", "tinea profunda", "vulvovaginal candidiasis"]
 ---
 
 # Econazole

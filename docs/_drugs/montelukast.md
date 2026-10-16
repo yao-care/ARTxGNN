@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 5
 last_modified_at: 2026-10-13
 description: "Montelukast: nueva indicación predicha, Bronquitis (nivel de evidencia L2). Indicación original: Rinitis alérgica y asma (alérgica e intrínseca)…"
+monitor_inn: "MONTELUKAST"
+predicted_indications: ["bronchitis", "atopic eczema", "asthma", "obstructive lung disease", "asthma-related traits, susceptibility to"]
 ---
 
 # Montelukast

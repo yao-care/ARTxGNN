@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-13
 description: "Lactulose: nueva indicación predicha, Ictericia obstructiva . Indicación de mayor puntaje: nefropatía aguda… (nivel de evidencia L5). Indicación original: Encefalopatía hepática…"
+monitor_inn: "lactulose"
+predicted_indications: ["acute urate nephropathy", "nephrolithiasis", "obstructive jaundice", "bile duct disease", "biliary tract disease", "hyperphosphatemia (disease)", "exercise-induced malignant hyperthermia", "bile duct neoplasm"]
 ---
 
 # Lactulose

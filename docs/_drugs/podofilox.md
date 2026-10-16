@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Podofilox: nueva indicación predicha, Candidiasis vulvovaginal (nivel de evidencia L5). Indicación original: Infección anogenital por VPH (verrugas anogenitales) y verruga común"
+monitor_inn: "PODOFILOX"
+predicted_indications: ["vulvovaginal candidiasis", "photosensitivity disease", "human papilloma virus infection", "herpes zoster", "benign neoplasm of tongue", "benign neoplasm of hypopharynx", "cystic neoplasm", "mesenchymoma", "nasal cavity inverting papilloma", "tumor of testis and paratestis"]
 ---
 
 # Podofilox

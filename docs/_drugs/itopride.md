@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-13
 description: "Itopride: nueva indicación predicha, Enfermedad de Crohn del intestino delgado (nivel de evidencia L5). Indicación original: Gastritis (según el grafo de conocimiento"
+monitor_inn: "ITOPRIDE"
+predicted_indications: ["small bowel Crohn disease", "venous insufficiency (disease)", "achlorhydria", "hiatus hernia (disease)"]
 ---
 
 # Itopride

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-13
 description: "Misoprostol: nueva indicación predicha, Amenorrea (nivel de evidencia L4). Indicación original: No disponible en los datos compilados"
+monitor_inn: "MISOPROSTOL"
+predicted_indications: ["amenorrhea (disease)", "atypical coarctation of aorta"]
 ---
 
 # Misoprostol

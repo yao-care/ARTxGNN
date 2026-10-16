@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Metoprolol: nueva indicación predicha, Enfermedad renal hipertensiva maligna (nivel de evidencia L5). Indicación original: Hipertensión arterial (según las indicaciones originales del grafo de…"
+monitor_inn: "METOPROLOL"
+predicted_indications: ["malignant hypertensive renal disease", "malignant renovascular hypertension", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "posteroinferior myocardial infarction", "posterolateral myocardial infarction", "septal myocardial infarction", "chronic pulmonary heart disease", "trichotillomania"]
 ---
 
 # Metoprolol

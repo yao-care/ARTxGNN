@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Diltiazem: nueva indicación predicha, Susceptibilidad obsoleta al accidente cerebrovascular isquémico (nivel de evidencia L5). Indicación original: Hipertensión (trastorno hipertensivo), fibrilación …"
+monitor_inn: "DILTIAZEM"
+predicted_indications: ["obsolete susceptibility to ischemic stroke"]
 ---
 
 # Diltiazem

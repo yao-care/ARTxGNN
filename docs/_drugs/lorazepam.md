@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Lorazepam: nueva indicación predicha, Neoplasia del nervio trigémino (nivel de evidencia L5). Indicación original: Ansiedad y epilepsias (según el grafo de conocimiento"
+monitor_inn: "LORAZEPAM"
+predicted_indications: ["trigeminal nerve neoplasm", "insomnia (disease)", "reading seizures", "startle epilepsy", "orgasm-induced seizures", "audiogenic seizures", "eating seizures", "micturation-induced seizures", "thinking seizures", "acute encephalopathy with biphasic seizures and late reduced diffusion"]
 ---
 
 # Lorazepam

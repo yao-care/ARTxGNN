@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Sulbactam: nueva indicación predicha, Artritis bacteriana (nivel de evidencia L4). Indicación original: Colangitis…"
+monitor_inn: "SULBACTAM"
+predicted_indications: ["bacterial arthritis"]
 ---
 
 # Sulbactam

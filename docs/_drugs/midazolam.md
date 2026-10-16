@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Midazolam: nueva indicación predicha, Insomnio (nivel de evidencia L3). Indicación original: Ansiedad (según el grafo de conocimiento de TxGNN"
+monitor_inn: "MIDAZOLAM"
+predicted_indications: ["insomnia (disease)"]
 ---
 
 # Midazolam

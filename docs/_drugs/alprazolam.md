@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-13
 description: "Alprazolam: nueva indicación predicha, Insomnio (nivel de evidencia L4). Indicación original: Trastorno de ansiedad (según el grafo de conocimiento"
+monitor_inn: "ALPRAZOLAM"
+predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia"]
 ---
 
 # Alprazolam

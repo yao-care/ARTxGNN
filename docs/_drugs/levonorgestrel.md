@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 6
 last_modified_at: 2026-10-13
 description: "Levonorgestrel: nueva indicación predicha, Acné (nivel de evidencia L4). Indicación original: Osteoporosis posmenopáusica / osteoporosis (según el grafo de conocim…"
+monitor_inn: "LEVONORGESTREL"
+predicted_indications: ["acne (disease)", "Worth syndrome", "pregnancy associated osteoporosis", "autosomal dominant neovascular inflammatory vitreoretinopathy", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
 ---
 
 # Levonorgestrel

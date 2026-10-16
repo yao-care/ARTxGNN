@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Levetiracetam: nueva indicación predicha, Epilepsia visual (nivel de evidencia L3). Indicación original: Epilepsia parcial"
+monitor_inn: "LEVETIRACETAM"
+predicted_indications: ["visual epilepsy", "startle epilepsy", "eating seizures", "micturation-induced seizures", "audiogenic seizures", "orgasm-induced seizures", "thinking seizures", "reading seizures", "status epilepticus", "beta-ketothiolase deficiency"]
 ---
 
 # Levetiracetam

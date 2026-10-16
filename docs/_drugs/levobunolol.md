@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-13
 description: "Levobunolol: nueva indicación predicha, Glaucoma hereditario primario (nivel de evidencia L5). Indicación original: Glaucoma de ángulo abierto e hipertensión ocular"
+monitor_inn: "LEVOBUNOLOL"
+predicted_indications: ["primary hereditary glaucoma", "glaucoma 1, open angle", "open angle glaucoma"]
 ---
 
 # Levobunolol

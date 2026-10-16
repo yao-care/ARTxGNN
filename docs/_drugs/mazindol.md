@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-13
 description: "Mazindol: nueva indicación predicha, Hipervitaminosis (nivel de evidencia L5). Indicación original: Trastorno de obesidad y obesidad monogénica (según el grafo de conoci…"
+monitor_inn: "MAZINDOL"
+predicted_indications: ["hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "obsolete hypertelorism (disease)", "frontorhiny", "postural orthostatic tachycardia syndrome", "pentosuria", "lethal polymalformative syndrome, Boissel type"]
 ---
 
 # Mazindol

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Natamycin: nueva indicación predicha, Candidiasis vulvovaginal (nivel de evidencia L5). Indicación original: Úlcera corneal micótica"
+monitor_inn: "natamycin"
+predicted_indications: ["vulvovaginal candidiasis", "candidiasis", "vulvitis", "vulvovaginitis", "trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "vaginitis (disease)", "tinea nigra"]
 ---
 
 # Natamycin
