@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Arginina
 parent: Solo Predicción del Modelo (L5)

@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Ciclopirox
 parent: Solo Predicción del Modelo (L5)

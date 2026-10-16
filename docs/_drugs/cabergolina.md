@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Cabergolina
 parent: Solo Predicción del Modelo (L5)
