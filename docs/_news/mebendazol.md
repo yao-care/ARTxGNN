@@ -30,7 +30,7 @@ Esta página combina las indicaciones predichas por IA para MEBENDAZOL con las �
 <li>trichuriasis | TxGNN Knowledge Graph (99.0%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/mebendazol/' | relative_url }}">Ver el informe completo del medicamento →</a></p>
+<p><a href="{{ '/drugs/' | relative_url }}">Ver el informe completo del medicamento →</a></p>
 </div>
 
 ## Noticias relacionadas (0)

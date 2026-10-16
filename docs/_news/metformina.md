@@ -29,7 +29,7 @@ Esta página combina las indicaciones predichas por IA para METFORMINA con las �
 <li>type 2 diabetes mellitus | TxGNN Knowledge Graph (99.0%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/metformina/' | relative_url }}">Ver el informe completo del medicamento →</a></p>
+<p><a href="{{ '/drugs/' | relative_url }}">Ver el informe completo del medicamento →</a></p>
 </div>
 
 ## Noticias relacionadas (0)
