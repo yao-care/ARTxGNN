@@ -49,20 +49,15 @@ de decisión.
 
 ---
 
-## Predicción de doble motor
+## Cómo se generan las predicciones
 
-Dos métodos corren en paralelo y una etiqueta de confianza registra si coinciden entre sí:
+El modelo de aprendizaje profundo (DL) de TxGNN asigna una puntuación a cada par fármaco–enfermedad. Después se eliminan las indicaciones y contraindicaciones ya registradas para el fármaco en el grafo de conocimiento (KG) de TxGNN, de modo que las páginas de fármacos solo muestran nuevas indicaciones predichas con una puntuación de al menos 0,99 (hasta 10 por fármaco).
 
-| Método | Velocidad | Precisión | Descripción |
-|--------|-------|-----------|-------------|
-| Grafo de conocimiento (KG) | Rápida | Menor | Inferencia sobre las relaciones de DrugBank y la estructura del grafo |
-| Aprendizaje profundo (DL) | Lenta | Mayor | Modelo de red neuronal de grafos TxGNN |
-
-| Confianza | Origen | Significado |
-|------------|--------|---------|
-| very_high | KG + DL | Ambos métodos coinciden |
-| high | Solo DL | Respaldo de aprendizaje profundo con puntaje alto |
-| medium | Solo KG | Respaldo del grafo de conocimiento |
+| Paso | Función |
+|------|---------|
+| Aprendizaje profundo (DL) | La red neuronal de grafos de TxGNN puntúa cada par fármaco–enfermedad |
+| Verificación de usos conocidos (KG) | Elimina las indicaciones y contraindicaciones ya registradas en el grafo de conocimiento; no se cuentan como nuevas predicciones |
+| Recopilación de evidencia | Busca en ClinicalTrials.gov y PubMed cada predicción restante y asigna un nivel de evidencia (L1–L5) |
 
 ---
 
