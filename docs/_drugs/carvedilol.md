@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-13
 description: "Carvedilol: nueva indicación predicha, Hipertensión renovascular maligna (nivel de evidencia L5). Indicación original: Hipertensión arterial (según el grafo de conocimiento"
 monitor_inn: "CARVEDILOL"
-predicted_indications: ["malignant hypertensive renal disease"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
 ---
 
 # Carvedilol

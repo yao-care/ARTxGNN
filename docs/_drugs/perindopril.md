@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-13
 description: "Perindopril: nueva indicación predicha, Enfermedad renal hipertensiva maligna (nivel de evidencia L4). Indicación original: Hipertensión arterial (según el grafo de conocimiento"
 monitor_inn: "PERINDOPRIL"
-predicted_indications: ["malignant hypertensive renal disease"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism"]
 ---
 
 # Perindopril
