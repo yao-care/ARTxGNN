@@ -1,12 +1,12 @@
 {
   "generated": "2026-10-17",
-  "total_drugs": 161,
+  "total_drugs": 160,
   "level_counts": {
     "L1": 9,
     "L2": 3,
     "L3": 14,
     "L4": 40,
-    "L5": 95
+    "L5": 94
   },
   "all_drugs": [
     {
@@ -50,12 +50,6 @@
       "slug": "benazepril",
       "level": "L5",
       "indication_count": 5
-    },
-    {
-      "name": "Benznidazol",
-      "slug": "benznidazol",
-      "level": "L5",
-      "indication_count": 0
     },
     {
       "name": "Bimatoprost",

@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-16",
-  "drug_count": 161,
+  "generated": "2026-10-17",
+  "drug_count": 160,
   "indication_count": 650,
   "drugs": [
     {
@@ -210,14 +210,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Benznidazol",
-      "slug": "benznidazol",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Bimatoprost",

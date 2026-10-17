@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-16",
-  "total_count": 161,
+  "generated": "2026-10-17",
+  "total_count": 160,
   "source": "ARTxGNN",
   "drugs": [
     {
@@ -72,16 +72,6 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/benazepril/"
-    },
-    {
-      "slug": "benznidazol",
-      "name": "Benznidazol",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/benznidazol/"
     },
     {
       "slug": "bimatoprost",
