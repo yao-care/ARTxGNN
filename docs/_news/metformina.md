@@ -3,7 +3,7 @@ layout: default
 title: "Noticias sobre METFORMINA"
 parent: Noticias de salud
 nav_exclude: true
-description: "Noticias de salud relacionadas con METFORMINA. Indicación original: . 2 indicaciones predichas."
+description: "Noticias de salud relacionadas con METFORMINA. Indicación original: . 0 indicaciones predichas."
 permalink: /news/metformina/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/metformina/
 ---
 
 <p class="key-answer" data-question="¿Qué noticias hay sobre METFORMINA?">
-<strong>METFORMINA</strong> tiene actualmente <strong>0 noticias</strong> y 2 indicaciones predichas.
+<strong>METFORMINA</strong> tiene actualmente <strong>0 noticias</strong> y 0 indicaciones predichas.
 </p>
 
 <div class="key-takeaway">
@@ -24,12 +24,8 @@ Esta página combina las indicaciones predichas por IA para METFORMINA con las �
 <div class="drug-info-card">
 <strong>Información del medicamento</strong>
 <ul>
-<li><strong>Indicaciones predichas (2)</strong>:<ul>
-<li>diabetes mellitus (disease) | TxGNN Knowledge Graph (99.0%)</li>
-<li>type 2 diabetes mellitus | TxGNN Knowledge Graph (99.0%)</li>
-</ul></li>
 </ul>
-<p><a href="{{ '/drugs/' | relative_url }}">Ver el informe completo del medicamento →</a></p>
+
 </div>
 
 ## Noticias relacionadas (0)

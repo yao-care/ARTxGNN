@@ -25,7 +25,7 @@ Esta página combina las indicaciones predichas por IA para BOSENTAN con las úl
 <strong>Información del medicamento</strong>
 <ul>
 </ul>
-<p><a href="{{ '/drugs/' | relative_url }}">Ver el informe completo del medicamento →</a></p>
+
 </div>
 
 ## Noticias relacionadas (0)
