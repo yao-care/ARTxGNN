@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-13
 description: "Clofedanol: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L5). Indicación original: Rinitis alérgica, rinitis vasomotora, faringitis, resfriado común…"
 monitor_inn: "clofedanol"
-predicted_indications: ["allergic urticaria", "papillary conjunctivitis", "cold urticaria", "faucial diphtheria", "cervical disc degenerative disorder"]
+predicted_indications: ["acute laryngopharyngitis", "allergic urticaria", "papillary conjunctivitis", "cold urticaria", "faucial diphtheria", "cervical disc degenerative disorder"]
 ---
 
 # Clofedanol
@@ -27,7 +27,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Informe de evaluación farmacéutica
 

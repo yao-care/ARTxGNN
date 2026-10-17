@@ -80,7 +80,7 @@ clínico.
 </p>
 
 <blockquote class="expert-quote">
-"TxGNN integra un grafo de conocimiento de 17.080 entidades biomédicas y utiliza redes neuronales
+"TxGNN integra un grafo de conocimiento que abarca 17.080 enfermedades y utiliza redes neuronales
 de grafos para aprender relaciones complejas entre nodos, prediciendo la eficacia potencial de
 fármacos frente a enfermedades raras."
 <cite>&mdash; Huang et al., Nature Medicine (2024)</cite>

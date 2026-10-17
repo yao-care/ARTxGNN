@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-13
 description: "Oxymetazoline: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L4). Indicación original: Faringitis y resfriado común"
 monitor_inn: "oxymetazoline"
-predicted_indications: ["nasal cavity disease", "headache disorder"]
+predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "headache disorder"]
 ---
 
 # Oxymetazoline
@@ -27,7 +27,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Informe de evaluación farmacéutica
 
