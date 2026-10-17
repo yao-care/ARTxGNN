@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-13
 description: "Eplerenone: nueva indicación predicha, Hipertensión pulmonar debida a enfermedad pulmonar y/o hipoxia (nivel de evidencia L4). Indicación original: Hipertensión arterial (según el grafo de conocimien…"
 monitor_inn: "eplerenone"
-predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant renovascular hypertension", "malignant hypertensive renal disease", "Braddock syndrome"]
+predicted_indications: ["malignant hypertensive renal disease"]
 ---
 
 # Eplerenone

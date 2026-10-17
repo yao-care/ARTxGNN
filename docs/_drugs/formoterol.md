@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-13
 description: "Formoterol: nueva indicación predicha, Malformación respiratoria (nivel de evidencia L5). Indicación original: Enfisema pulmonar, asma intrínseca y asma alérgica"
 monitor_inn: "FORMOTEROL"
-predicted_indications: ["respiratory malformation", "bronchitis", "Rienhoff syndrome", "obstructive lung disease", "asthma", "asthma-related traits, susceptibility to"]
+predicted_indications: ["respiratory malformation", "bronchitis", "Rienhoff syndrome", "obstructive lung disease", "asthma-related traits, susceptibility to"]
 ---
 
 # Formoterol

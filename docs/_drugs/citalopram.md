@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-13
 description: "Citalopram: nueva indicación predicha, Trastorno obsesivo-compulsivo (nivel de evidencia L5). Indicación original: Trastorno de ansiedad, trastorno neurótico, trastorno distímico…"
 monitor_inn: "CITALOPRAM"
-predicted_indications: ["obsessive-compulsive disorder", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)"]
+predicted_indications: ["paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)"]
 ---
 
 # Citalopram

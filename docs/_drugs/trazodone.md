@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Trazodone: nueva indicación predicha, Trastorno obsesivo-compulsivo (nivel de evidencia L3). Indicación original: Depresión unipolar / trastorno depresivo mayor"
 monitor_inn: "TRAZODONE"
-predicted_indications: ["obsessive-compulsive disorder", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "dysthymic disorder", "phobic disorder", "Ohdo syndrome and variants"]
+predicted_indications: ["paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "Ohdo syndrome and variants"]
 ---
 
 # Trazodone

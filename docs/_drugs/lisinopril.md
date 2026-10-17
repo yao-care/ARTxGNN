@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Lisinopril: nueva indicación predicha, Infarto de miocardio posterolateral (nivel de evidencia L4). Indicación original: Hipertensión arterial (trastorno hipertensivo)"
 monitor_inn: "LISINOPRIL"
-predicted_indications: ["posterolateral myocardial infarction", "posteroinferior myocardial infarction", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "malignant renovascular hypertension", "septal myocardial infarction", "Braddock syndrome", "chronic pulmonary heart disease", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"]
+predicted_indications: ["malignant hypertensive renal disease", "chronic pulmonary heart disease", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"]
 ---
 
 # Lisinopril
