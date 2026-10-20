@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Ketoconazole: nueva indicación predicha, Acné (nivel de evidencia L4). Indicación original: Tiña del pie (según el grafo de conocimiento"
+monitor_inn: "ketoconazole"
+predicted_indications: ["acne (disease)"]
 ---
 
 # Ketoconazole

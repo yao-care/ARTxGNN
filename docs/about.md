@@ -95,7 +95,7 @@ fármacos frente a enfermedades raras."
 <tr><th>Tipo</th><th>Fuente</th><th>Descripción</th></tr>
 </thead>
 <tbody>
-<tr><td>Predicción por IA</td><td><a href="https://zitniklab.hms.harvard.edu/projects/TxGNN/">TxGNN</a></td><td>Modelo de predicción por grafo de conocimiento de Harvard</td></tr>
+<tr><td>Predicción por IA</td><td><a href="https://zitniklab.hms.harvard.edu/projects/TxGNN/">TxGNN</a></td><td>Red neuronal de grafos de Harvard entrenada con un grafo de conocimiento</td></tr>
 <tr><td>Ensayos clínicos</td><td><a href="https://clinicaltrials.gov/">ClinicalTrials.gov</a></td><td>Registro global de ensayos clínicos</td></tr>
 <tr><td>Literatura</td><td><a href="https://pubmed.ncbi.nlm.nih.gov/">PubMed</a></td><td>Base de datos de literatura biomédica</td></tr>
 <tr><td>Información de medicamentos</td><td><a href="https://go.drugbank.com/">DrugBank</a></td><td>Base de datos de fármacos y blancos terapéuticos</td></tr>

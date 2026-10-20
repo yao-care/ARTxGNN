@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-13
 description: "Tetracycline: nueva indicación predicha, Queratoconjuntivitis epitelial punteada (nivel de evidencia L4). Indicación original: Infecciones bacterianas (infección urinaria, bronquitis, neumonía…"
 monitor_inn: "tetracycline"
-predicted_indications: ["paranasal sinus neoplasm (disease)"]
+predicted_indications: ["punctate epithelial keratoconjunctivitis", "chronic ethmoidal sinusitis", "chronic rhinosinusitis", "paranasal sinus neoplasm (disease)"]
 ---
 
 # Tetracycline

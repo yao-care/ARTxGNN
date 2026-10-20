@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-13
 description: "Minocycline: nueva indicación predicha, Queratoconjuntivitis epitelial punteada (nivel de evidencia L5). Indicación original: Infección urinaria, bronquitis…"
 monitor_inn: "minocycline"
-predicted_indications: ["exposure keratitis"]
+predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis"]
 ---
 
 # Minocycline

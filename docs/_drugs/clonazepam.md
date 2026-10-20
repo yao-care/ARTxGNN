@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-13
 description: "Clonazepam: nueva indicación predicha, Síndrome de piernas inquietas (nivel de evidencia L3). Indicación original: Epilepsia (encefalopatía mioclónica temprana, epilepsia de ausencias…"
 monitor_inn: "CLONAZEPAM"
-predicted_indications: ["restless legs syndrome", "trigeminal nerve neoplasm"]
+predicted_indications: ["restless legs syndrome", "insomnia (disease)", "trigeminal nerve neoplasm"]
 ---
 
 # Clonazepam

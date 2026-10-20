@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-13
 description: "Pseudoephedrine: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L4). Indicación original: Rinitis alérgica, rinitis vasomotora, faringitis…"
 monitor_inn: "pseudoephedrine"
-predicted_indications: ["acute laryngopharyngitis", "allergic urticaria"]
+predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "allergic urticaria"]
 ---
 
 # Pseudoephedrine

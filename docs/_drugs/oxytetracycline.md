@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Oxytetracycline: nueva indicación predicha, Rinosinusitis crónica (nivel de evidencia L5). Indicación original: Infección del tracto urinario (según el grafo de conocimiento"
 monitor_inn: "oxytetracycline"
-predicted_indications: ["paranasal sinus neoplasm (disease)", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "otitis externa"]
+predicted_indications: ["chronic rhinosinusitis", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "punctate epithelial keratoconjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "otitis externa"]
 ---
 
 # Oxytetracycline
