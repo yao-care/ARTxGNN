@@ -3,7 +3,7 @@ layout: default
 title: "Noticias sobre MISOPROSTOL"
 parent: Noticias de salud
 nav_exclude: true
-description: "Noticias de salud relacionadas con MISOPROSTOL. Indicación original: . 2 indicaciones predichas."
+description: "Noticias de salud relacionadas con MISOPROSTOL. Indicación original: . 1 indicaciones predichas."
 permalink: /news/misoprostol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/misoprostol/
 ---
 
 <p class="key-answer" data-question="¿Qué noticias hay sobre MISOPROSTOL?">
-<strong>MISOPROSTOL</strong> tiene actualmente <strong>0 noticias</strong> y 2 indicaciones predichas.
+<strong>MISOPROSTOL</strong> tiene actualmente <strong>0 noticias</strong> y 1 indicaciones predichas.
 </p>
 
 <div class="key-takeaway">
@@ -25,9 +25,8 @@ Esta página combina las indicaciones predichas por IA para MISOPROSTOL con las 
 <strong>Información del medicamento</strong>
 <ul>
 <li><strong>Nivel de evidencia</strong>: L4</li>
-<li><strong>Indicaciones predichas (2)</strong>:<ul>
-<li>OXAPROST 75 | Comprimidos x 16 | No especificada en los datos (99.0%)</li>
-<li>OXAPROST | Comprimidos x 16 | No especificada en los datos (99.0%)</li>
+<li><strong>Indicaciones predichas (1)</strong>:<ul>
+<li>Amenorrea (99.6%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/misoprostol/' | relative_url }}">Ver el informe completo del medicamento →</a></p>
