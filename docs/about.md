@@ -67,6 +67,12 @@ fracaso es menor.
 </tbody>
 </table>
 
+Cada predicción de reposicionamiento que genera esta plataforma recibe un nivel de evidencia.
+Los criterios de clasificación están en la página de
+<a href="{{ '/methodology/' | relative_url }}">Metodología</a>, y los informes que ya cuentan con
+respaldo de ensayos clínicos se listan en
+<a href="{{ '/evidence-high/' | relative_url }}">evidencia alta</a>.
+
 ---
 
 ## ¿Qué es TxGNN?
@@ -116,9 +122,16 @@ fármacos frente a enfermedades raras."
 
 | Ítem | Valor |
 |------|-------|
-| Informes de medicamentos | {{ site.drugs.size }} |
+| Informes de medicamentos | <a href="{{ '/drugs/' | relative_url }}">{{ site.drugs.size }}</a> |
 | Autoridad regulatoria | ANMAT |
 | Sitios desplegados | 30 países / regiones |
+
+Consulte el listado completo en <a href="{{ '/drugs/' | relative_url }}">Todos los Medicamentos</a>,
+la clasificación por nivel de evidencia en
+<a href="{{ '/evidence-high/' | relative_url }}">alta</a>,
+<a href="{{ '/evidence-medium/' | relative_url }}">moderada</a> y
+<a href="{{ '/evidence-low/' | relative_url }}">solo predicción del modelo</a>,
+y las fuentes de datos completas en <a href="{{ '/sources/' | relative_url }}">Fuentes</a>.
 
 ---
 
