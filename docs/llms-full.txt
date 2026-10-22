@@ -17,7 +17,7 @@ Los niveles de evidencia van de L1 (evidencia clínica más sólida) a L5 (solo 
 - `/evidence-high/` Evidencia Alta (L1-L2) — Candidatos a reposicionamiento de medicamentos L1-L2 en ARTxGNN, respaldados por ensayos clínicos o revisiones sistemáticas.
 - `/evidence-medium/` Evidencia Moderada (L3-L4) — Candidatos a reposicionamiento de medicamentos L3-L4 en ARTxGNN, respaldados por evidencia observacional o preclínica.
 - `/evidence-low/` Solo Predicción del Modelo (L5) — Candidatos L5 en ARTxGNN: solo predicción del modelo, todavía sin evidencia clínica ni de literatura.
-- `/methodology/` Metodología — Cómo ARTxGNN genera y valida sus predicciones: predicción por grafo de conocimiento TxGNN, recolección de evidencia, gradación L1-L5 y recomendaciones de decisión.
+- `/methodology/` Metodología — Cómo ARTxGNN genera y valida sus predicciones: predicción con el modelo TxGNN (aprendizaje profundo), recolección de evidencia, gradación L1-L5 y recomendaciones de decisión.
 - `/guide/` Guía de Usuario — Guía de usuario de ARTxGNN: cómo buscar medicamentos, leer los niveles de evidencia e interpretar las recomendaciones.
 - `/sources/` Fuentes de Datos — Fuentes de datos detrás de ARTxGNN: datos de registro de ANMAT, TxGNN, ClinicalTrials.gov, PubMed y DrugBank.
 - `/downloads/` Descargas — Descargas de datos abiertos de ARTxGNN: recursos FHIR, resultados de predicción e índice de búsqueda.

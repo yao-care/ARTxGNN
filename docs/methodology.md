@@ -3,7 +3,7 @@ layout: default
 title: Metodología
 nav_order: 91
 permalink: /methodology/
-description: "Cómo ARTxGNN genera y valida sus predicciones: predicción por grafo de conocimiento TxGNN, recolección de evidencia, gradación L1-L5 y recomendaciones de decisión."
+description: "Cómo ARTxGNN genera y valida sus predicciones: predicción con el modelo TxGNN (aprendizaje profundo), recolección de evidencia, gradación L1-L5 y recomendaciones de decisión."
 ---
 
 # Metodología
@@ -17,14 +17,14 @@ De la predicción por IA a la gradación de evidencia: cada candidato tiene una 
 ## Flujo general
 
 <p class="key-answer" data-question="¿Cómo genera ARTxGNN sus predicciones?">
-La plataforma utiliza un flujo de cuatro etapas: el modelo de grafo de conocimiento TxGNN predice
+La plataforma utiliza un flujo de cuatro etapas: el modelo TxGNN (aprendizaje profundo) predice
 asociaciones potenciales entre fármacos y enfermedades, luego se recolecta automáticamente evidencia
 para cada par predicho, la evidencia se gradúa de L1 a L5 y, por último, se emite una recomendación
 de decisión.
 </p>
 
 <ol class="actionable-steps">
-<li><strong>Predicción TxGNN</strong>: relaciones fármaco&ndash;enfermedad predichas con un grafo de conocimiento combinado con redes neuronales de grafos.</li>
+<li><strong>Predicción TxGNN</strong>: relaciones fármaco&ndash;enfermedad predichas por el modelo TxGNN (aprendizaje profundo: una red neuronal de grafos entrenada con un grafo de conocimiento biomédico).</li>
 <li><strong>Recolección de evidencia</strong>: para cada par predicho se reúne evidencia de ClinicalTrials.gov, PubMed, DrugBank y ANMAT.</li>
 <li><strong>Gradación de evidencia</strong>: se gradúa de L1 a L5, donde L1 es la más sólida (múltiples ECA de fase 3) y L5 es solo predicción del modelo.</li>
 <li><strong>Recomendación de decisión</strong>: Go, Proceed, Consider, Explore o Hold, según el nivel de evidencia.</li>
