@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# Benznidazol: Evaluación Preliminar — Sin Indicaciones Predichas por TxGNN
+## Benznidazol: Evaluación Preliminar — Sin Indicaciones Predichas por TxGNN
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

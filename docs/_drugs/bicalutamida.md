@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# Bicalutamida: Evaluación Preliminar — Sin Nuevas Indicaciones Predichas
+## Bicalutamida: Evaluación Preliminar — Sin Nuevas Indicaciones Predichas
+{: .text-alpha }
 
 ---
 

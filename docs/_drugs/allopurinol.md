@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Alopurinol: De Gota a Porfiria Hepática
+## Alopurinol: De Gota a Porfiria Hepática
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

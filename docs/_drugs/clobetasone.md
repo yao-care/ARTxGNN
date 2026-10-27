@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Clobetasona: De Indicación Original No Especificada a Linfoma Cutáneo Primario de Células T
+## Clobetasona: De Indicación Original No Especificada a Linfoma Cutáneo Primario de Células T
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

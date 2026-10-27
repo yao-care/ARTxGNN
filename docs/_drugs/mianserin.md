@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Mianserina: De Depresión Unipolar a Trastorno Paroxístico Tortícolis Benigno de la Infancia
+## Mianserina: De Depresión Unipolar a Trastorno Paroxístico Tortícolis Benigno de la Infancia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Imiquimod: De Verrugas Comunes y Queratosis Actínica a Neoplasia Premaligna
+## Imiquimod: De Verrugas Comunes y Queratosis Actínica a Neoplasia Premaligna
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

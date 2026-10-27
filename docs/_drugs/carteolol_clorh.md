@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# Carteolol Clorhidrato: Evaluación de Candidato — Sin Predicciones de Reposicionamiento Disponibles
+## Carteolol Clorhidrato: Evaluación de Candidato — Sin Predicciones de Reposicionamiento Disponibles
+{: .text-alpha }
 
 ---
 

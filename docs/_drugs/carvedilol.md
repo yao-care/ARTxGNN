@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Carvedilol: De Hipertensión a Hipertensión Renovascular Maligna
+## Carvedilol: De Hipertensión a Hipertensión Renovascular Maligna
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

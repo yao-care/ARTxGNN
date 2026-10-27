@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Minoxidil: De Hipertensión Arterial y Alopecia a Hipotricosis Simple del Cuero Cabelludo
+## Minoxidil: De Hipertensión Arterial y Alopecia a Hipotricosis Simple del Cuero Cabelludo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

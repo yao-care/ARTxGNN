@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-# Ambroxol: De Faringitis a Enfermedad de la Cavidad Nasal
+## Ambroxol: De Faringitis a Enfermedad de la Cavidad Nasal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

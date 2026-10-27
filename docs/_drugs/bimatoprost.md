@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Bimatoprost: De Glaucoma de Ángulo Abierto a Síndrome Malformativo con Componente Odontal y/o Periodontal
+## Bimatoprost: De Glaucoma de Ángulo Abierto a Síndrome Malformativo con Componente Odontal y/o Periodontal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

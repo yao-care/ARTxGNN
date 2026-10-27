@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Fluorouracilo: De Carcinoma Basocelular Superficial a Rabdomiosarcoma
+## Fluorouracilo: De Carcinoma Basocelular Superficial a Rabdomiosarcoma
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

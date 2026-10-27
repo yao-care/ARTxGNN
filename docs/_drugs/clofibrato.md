@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# CLOFIBRATO: Evaluación de Reposicionamiento — Datos Insuficientes para Predicción
+## CLOFIBRATO: Evaluación de Reposicionamiento — Datos Insuficientes para Predicción
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

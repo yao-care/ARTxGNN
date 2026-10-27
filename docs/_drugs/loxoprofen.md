@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Loxoprofeno: De Artritis Reumatoide a Síndrome de Microftalmía Colobomatosa-Displasia Rizomélica
+## Loxoprofeno: De Artritis Reumatoide a Síndrome de Microftalmía Colobomatosa-Displasia Rizomélica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

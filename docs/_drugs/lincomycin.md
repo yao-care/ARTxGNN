@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Lincomicina: De Infecciones Neumocócicas, Estafilocócicas y Estreptocócicas a Hiperamilasemia
+## Lincomicina: De Infecciones Neumocócicas, Estafilocócicas y Estreptocócicas a Hiperamilasemia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

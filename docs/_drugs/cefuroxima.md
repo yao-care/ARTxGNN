@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# CEFUROXIMA: Evaluación Preliminar — Sin Indicaciones Predichas Disponibles
+## CEFUROXIMA: Evaluación Preliminar — Sin Indicaciones Predichas Disponibles
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

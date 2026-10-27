@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Nebivolol: De Hipertensión Arterial a Enfermedad Renal Hipertensiva Maligna
+## Nebivolol: De Hipertensión Arterial a Enfermedad Renal Hipertensiva Maligna
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

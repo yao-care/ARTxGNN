@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-# Piribedil: De Enfermedad de Parkinson a Distrofia Retiniana (con o sin anomalías extraoculares)
+## Piribedil: De Enfermedad de Parkinson a Distrofia Retiniana (con o sin anomalías extraoculares)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

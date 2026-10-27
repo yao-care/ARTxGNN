@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-# Feniramina: De Rinitis Alérgica y Otras Afecciones Alérgicas a Urticaria Alérgica
+## Feniramina: De Rinitis Alérgica y Otras Afecciones Alérgicas a Urticaria Alérgica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

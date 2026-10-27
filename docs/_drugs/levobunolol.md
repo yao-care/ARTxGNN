@@ -31,7 +31,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Levobunolol: De Glaucoma de Ángulo Abierto a Glaucoma Hereditario Primario
+## Levobunolol: De Glaucoma de Ángulo Abierto a Glaucoma Hereditario Primario
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Prasugrel: De Síndrome Coronario Agudo a Hipertensión Pulmonar
+## Prasugrel: De Síndrome Coronario Agudo a Hipertensión Pulmonar
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

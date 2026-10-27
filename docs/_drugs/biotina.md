@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# BIOTINA: Evaluación Preliminar — Sin Indicaciones Predichas Disponibles
+## BIOTINA: Evaluación Preliminar — Sin Indicaciones Predichas Disponibles
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

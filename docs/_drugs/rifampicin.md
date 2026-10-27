@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Rifampicina: De Tuberculosis Pulmonar a Conjuntivitis
+## Rifampicina: De Tuberculosis Pulmonar a Conjuntivitis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

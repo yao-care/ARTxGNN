@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Natamicina: De Úlcera Corneal Micótica a Candidiasis Vulvovaginal
+## Natamicina: De Úlcera Corneal Micótica a Candidiasis Vulvovaginal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

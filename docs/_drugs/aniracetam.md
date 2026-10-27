@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-# Aniracetam: De Indicación No Especificada a Insomnio
+## Aniracetam: De Indicación No Especificada a Insomnio
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

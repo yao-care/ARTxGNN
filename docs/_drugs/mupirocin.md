@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Mupirocina: De Impétigo a Empiema Pleural
+## Mupirocina: De Impétigo a Empiema Pleural
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

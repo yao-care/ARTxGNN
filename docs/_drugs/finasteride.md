@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Finasterida: De Hiperplasia Prostática Benigna a Ambras tipo hipertricosis universal congénita
+## Finasterida: De Hiperplasia Prostática Benigna a Ambras tipo hipertricosis universal congénita
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

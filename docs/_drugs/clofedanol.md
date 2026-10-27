@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Clofedanol: De Rinitis Alérgica y Resfriado Común a Enfermedad de la Cavidad Nasal
+## Clofedanol: De Rinitis Alérgica y Resfriado Común a Enfermedad de la Cavidad Nasal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

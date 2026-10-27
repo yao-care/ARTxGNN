@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **4**
 
 </div>
 
-# Tetraciclina: De Infecciones Bacterianas (Conjuntivitis, Neumonía, Acné, entre otras) a Queratoconjuntivitis Epitelial Punteada
+## Tetraciclina: De Infecciones Bacterianas (Conjuntivitis, Neumonía, Acné, entre otras) a Queratoconjuntivitis Epitelial Punteada
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

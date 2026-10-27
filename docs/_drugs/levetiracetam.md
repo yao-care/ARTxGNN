@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Levetiracetam: De Epilepsia Parcial a Epilepsia Visual
+## Levetiracetam: De Epilepsia Parcial a Epilepsia Visual
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

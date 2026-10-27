@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Ticagrelor: De Síndrome Coronario Agudo a Arteriosclerosis Intracraneal
+## Ticagrelor: De Síndrome Coronario Agudo a Arteriosclerosis Intracraneal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

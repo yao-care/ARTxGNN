@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-# Sulbactam: De Colangitis e Infecciones Estafilocócicas a Artritis Bacteriana
+## Sulbactam: De Colangitis e Infecciones Estafilocócicas a Artritis Bacteriana
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

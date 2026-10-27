@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# Ampicilina: Informe de Evaluación de Reposicionamiento
+## Ampicilina: Informe de Evaluación de Reposicionamiento
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

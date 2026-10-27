@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-# Fenoterol: De Broncodilatador a Atrofia Multisistémica
+## Fenoterol: De Broncodilatador a Atrofia Multisistémica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

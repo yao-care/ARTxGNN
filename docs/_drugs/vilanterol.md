@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Vilanterol: De Enfermedad Pulmonar Obstructiva Crónica (EPOC) y Asma a Enfermedad Pulmonar Obstructiva
+## Vilanterol: De Enfermedad Pulmonar Obstructiva Crónica (EPOC) y Asma a Enfermedad Pulmonar Obstructiva
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

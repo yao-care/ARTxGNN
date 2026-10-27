@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Dexketoprofeno: De Indicación No Registrada en la Licencia a Tendinitis (y Migraña como Candidata con Mayor Evidencia)
+## Dexketoprofeno: De Indicación No Registrada en la Licencia a Tendinitis (y Migraña como Candidata con Mayor Evidencia)
+{: .text-alpha }
 
 > **Nota sobre la selección de la indicación:** la predicción de mayor puntaje del modelo es **tendinitis**, pero solo cuenta con una publicación indirecta (L4). La indicación con evidencia clínica sustancial entre las predichas es la **migraña** (L1), por lo que se la analiza en detalle en las secciones de evidencia.
 

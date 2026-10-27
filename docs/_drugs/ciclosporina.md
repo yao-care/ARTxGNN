@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# Ciclosporina: Evaluación No Disponible — Datos Insuficientes para el Análisis
+## Ciclosporina: Evaluación No Disponible — Datos Insuficientes para el Análisis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

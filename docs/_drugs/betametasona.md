@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# Betametasona: Evaluación Preliminar — Datos Insuficientes para Reposicionamiento
+## Betametasona: Evaluación Preliminar — Datos Insuficientes para Reposicionamiento
+{: .text-alpha }
 
 ---
 

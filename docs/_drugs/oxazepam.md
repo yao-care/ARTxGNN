@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **1**
 
 </div>
 
-# Oxazepam: De Delirium por Abstinencia Alcohólica y Ansiedad a Insomnio
+## Oxazepam: De Delirium por Abstinencia Alcohólica y Ansiedad a Insomnio
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

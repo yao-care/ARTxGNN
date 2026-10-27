@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Difenhidramina: De Insomnio y Rinitis Alérgica a Conjuntivitis Rosácea
+## Difenhidramina: De Insomnio y Rinitis Alérgica a Conjuntivitis Rosácea
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Tioridazina: De Indicación No Especificada en la Licencia a Trastorno Afectivo Bipolar Maníaco
+## Tioridazina: De Indicación No Especificada en la Licencia a Trastorno Afectivo Bipolar Maníaco
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

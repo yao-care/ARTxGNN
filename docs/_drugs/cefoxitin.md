@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Cefoxitina: De Infecciones Bacterianas a Otitis Media Infecciosa
+## Cefoxitina: De Infecciones Bacterianas a Otitis Media Infecciosa
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

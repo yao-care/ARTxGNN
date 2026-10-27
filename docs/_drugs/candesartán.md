@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# CANDESARTÁN: Evaluación de Reposicionamiento — Sin Predicciones TxGNN Disponibles
+## CANDESARTÁN: Evaluación de Reposicionamiento — Sin Predicciones TxGNN Disponibles
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Zonisamida: De Antiepiléptico a Síndrome de Tourette
+## Zonisamida: De Antiepiléptico a Síndrome de Tourette
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

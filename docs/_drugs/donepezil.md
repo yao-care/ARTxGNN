@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **8**
 
 </div>
 
-# Donepezilo: De Enfermedad de Alzheimer a Trastorno de Tics Crónicos
+## Donepezilo: De Enfermedad de Alzheimer a Trastorno de Tics Crónicos
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

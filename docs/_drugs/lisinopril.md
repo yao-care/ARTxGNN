@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Lisinopril: De Hipertensión Arterial a Infarto de Miocardio Posterolateral
+## Lisinopril: De Hipertensión Arterial a Infarto de Miocardio Posterolateral
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

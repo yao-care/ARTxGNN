@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **6**
 
 </div>
 
-# Rifaximina: De Encefalopatía Hepática a Candidiasis Oral
+## Rifaximina: De Encefalopatía Hepática a Candidiasis Oral
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

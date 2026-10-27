@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Mazindol: De Trastorno de Obesidad a Hipervitaminosis
+## Mazindol: De Trastorno de Obesidad a Hipervitaminosis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

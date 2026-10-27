@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# Arginina: Evaluacion Preliminar — Sin Indicaciones Predichas
+## Arginina: Evaluacion Preliminar — Sin Indicaciones Predichas
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

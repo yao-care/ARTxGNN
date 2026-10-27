@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# Biperideno: Evaluación de Reposicionamiento — Datos Insuficientes
+## Biperideno: Evaluación de Reposicionamiento — Datos Insuficientes
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

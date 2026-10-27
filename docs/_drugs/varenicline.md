@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Vareniclina: De Indicación Original No Especificada a Trastorno de Migraña
+## Vareniclina: De Indicación Original No Especificada a Trastorno de Migraña
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

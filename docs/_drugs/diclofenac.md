@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Diclofenaco: De Queratosis Actínica y Artritis Reumatoide a Hipotricosis Simple del Cuero Cabelludo
+## Diclofenaco: De Queratosis Actínica y Artritis Reumatoide a Hipotricosis Simple del Cuero Cabelludo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

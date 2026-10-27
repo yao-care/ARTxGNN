@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# BENCIDAMINA: Evaluación de Candidato para Reposicionamiento
+## BENCIDAMINA: Evaluación de Candidato para Reposicionamiento
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

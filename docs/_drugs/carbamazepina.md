@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# Carbamazepina: Evaluación Pendiente — Datos de Predicción No Disponibles
+## Carbamazepina: Evaluación Pendiente — Datos de Predicción No Disponibles
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

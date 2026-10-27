@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-# Clorzoxazona: De Relajante Muscular a Trastorno de Migraña
+## Clorzoxazona: De Relajante Muscular a Trastorno de Migraña
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

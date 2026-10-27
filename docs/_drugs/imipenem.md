@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Imipenem: De Neumonía Bacteriana a Esclerodermia Difusa
+## Imipenem: De Neumonía Bacteriana a Esclerodermia Difusa
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

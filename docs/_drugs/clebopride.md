@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# CLEBOPRIDE: Evaluación Inicial — Sin Indicaciones Predichas Disponibles
+## CLEBOPRIDE: Evaluación Inicial — Sin Indicaciones Predichas Disponibles
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

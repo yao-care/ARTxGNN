@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Diosmina: De Indicación Original No Especificada a Amenorrea
+## Diosmina: De Indicación Original No Especificada a Amenorrea
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Minociclina: De Infección Urinaria, Bronquitis y Acné a Queratoconjuntivitis Epitelial Punteada
+## Minociclina: De Infección Urinaria, Bronquitis y Acné a Queratoconjuntivitis Epitelial Punteada
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

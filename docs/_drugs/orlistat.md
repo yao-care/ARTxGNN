@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Orlistat: De Trastorno de Obesidad a Hipervitaminosis
+## Orlistat: De Trastorno de Obesidad a Hipervitaminosis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

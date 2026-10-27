@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# BENZOCAÍNA: Evaluación Preliminar — Sin Nuevas Indicaciones Predichas
+## BENZOCAÍNA: Evaluación Preliminar — Sin Nuevas Indicaciones Predichas
+{: .text-alpha }
 
 ---
 

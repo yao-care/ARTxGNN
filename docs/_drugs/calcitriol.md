@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Calcitriol: De Osteodistrofia Renal e Hipoparatiroidismo a Deficiencia de Vitamina D (término obsoleto)
+## Calcitriol: De Osteodistrofia Renal e Hipoparatiroidismo a Deficiencia de Vitamina D (término obsoleto)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

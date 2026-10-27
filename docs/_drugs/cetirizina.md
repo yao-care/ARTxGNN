@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# CETIRIZINA: Evaluación de Reposicionamiento — Datos Insuficientes para Análisis Completo
+## CETIRIZINA: Evaluación de Reposicionamiento — Datos Insuficientes para Análisis Completo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

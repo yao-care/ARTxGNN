@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Levodopa: De Enfermedad de Parkinson a Encefalitis Subaguda de Rasmussen
+## Levodopa: De Enfermedad de Parkinson a Encefalitis Subaguda de Rasmussen
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

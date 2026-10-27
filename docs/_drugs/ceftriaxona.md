@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# CEFTRIAXONA: Sin Indicaciones de Reposicionamiento Predichas por TxGNN
+## CEFTRIAXONA: Sin Indicaciones de Reposicionamiento Predichas por TxGNN
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Glicerina: De Trastorno de Estreñimiento a Síndrome de la Cola de Caballo
+## Glicerina: De Trastorno de Estreñimiento a Síndrome de la Cola de Caballo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

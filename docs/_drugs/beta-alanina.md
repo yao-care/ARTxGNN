@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# BETA-ALANINA: Evaluación Preliminar — Sin Indicación Predicha Disponible
+## BETA-ALANINA: Evaluación Preliminar — Sin Indicación Predicha Disponible
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

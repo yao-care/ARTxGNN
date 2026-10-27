@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Etosuximida: De Epilepsia de Ausencia a Síndrome Nefrogénico de Antidiuresis Inapropiada
+## Etosuximida: De Epilepsia de Ausencia a Síndrome Nefrogénico de Antidiuresis Inapropiada
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

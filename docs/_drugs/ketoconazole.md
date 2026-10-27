@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-# Ketoconazol: De Micosis Cutáneas (Tiña del Pie) a Acné
+## Ketoconazol: De Micosis Cutáneas (Tiña del Pie) a Acné
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

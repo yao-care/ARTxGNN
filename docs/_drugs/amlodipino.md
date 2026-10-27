@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# AMLODIPINO: Informe de Evaluación de Reposicionamiento
+## AMLODIPINO: Informe de Evaluación de Reposicionamiento
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

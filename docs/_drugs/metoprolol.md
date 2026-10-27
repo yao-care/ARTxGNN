@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Metoprolol: De Hipertensión arterial a Enfermedad renal hipertensiva maligna
+## Metoprolol: De Hipertensión arterial a Enfermedad renal hipertensiva maligna
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

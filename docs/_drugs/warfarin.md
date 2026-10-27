@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Warfarina: De Enfermedad Tromboembólica a Trombofilia
+## Warfarina: De Enfermedad Tromboembólica a Trombofilia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

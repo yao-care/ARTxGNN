@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-# Atenolol: De Hipertensión Arterial a Infarto de Miocardio Posterolateral
+## Atenolol: De Hipertensión Arterial a Infarto de Miocardio Posterolateral
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

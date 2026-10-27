@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Insulina humana: De Diabetes Mellitus Tipo 2 a Ooforitis Autoinmune
+## Insulina humana: De Diabetes Mellitus Tipo 2 a Ooforitis Autoinmune
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

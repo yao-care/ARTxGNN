@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Camylofin: De Indicación Original No Registrada a Insomnio
+## Camylofin: De Indicación Original No Registrada a Insomnio
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Homatropina: De Úlcera Péptica a Síndrome de la Cola de Caballo
+## Homatropina: De Úlcera Péptica a Síndrome de la Cola de Caballo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

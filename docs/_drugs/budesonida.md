@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# BUDESONIDA: Evaluación de Reposicionamiento — Predicción No Disponible en este Ciclo
+## BUDESONIDA: Evaluación de Reposicionamiento — Predicción No Disponible en este Ciclo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

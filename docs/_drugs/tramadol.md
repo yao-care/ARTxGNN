@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Tramadol: De Osteoartritis a Displasia Acromesomélica tipo Hunter-Thompson
+## Tramadol: De Osteoartritis a Displasia Acromesomélica tipo Hunter-Thompson
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

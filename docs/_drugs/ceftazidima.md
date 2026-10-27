@@ -36,7 +36,8 @@ El skill `data-report` no aplica aquí — la tarea es generar un informe de eva
 
 ---
 
-# CEFTAZIDIMA: Evaluación de Reposicionamiento — Sin Predicciones TxGNN Disponibles
+## CEFTAZIDIMA: Evaluación de Reposicionamiento — Sin Predicciones TxGNN Disponibles
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

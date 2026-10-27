@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **7**
 
 </div>
 
-# Salmeterol: De Enfisema Pulmonar y Asma a Bronquitis
+## Salmeterol: De Enfisema Pulmonar y Asma a Bronquitis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

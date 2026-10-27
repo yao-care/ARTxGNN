@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Tiocolchicósido: De Indicación No Especificada a Insomnio
+## Tiocolchicósido: De Indicación No Especificada a Insomnio
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

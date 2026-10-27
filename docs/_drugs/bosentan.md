@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# Bosentan: Evaluación Preliminar — Datos Insuficientes para Reposicionamiento
+## Bosentan: Evaluación Preliminar — Datos Insuficientes para Reposicionamiento
+{: .text-alpha }
 
 ---
 

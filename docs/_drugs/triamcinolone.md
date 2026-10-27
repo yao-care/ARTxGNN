@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Triamcinolona: De Enfermedades Autoinmunes e Inflamatorias a Mucinosis Folicular (Alopecia Mucinosa)
+## Triamcinolona: De Enfermedades Autoinmunes e Inflamatorias a Mucinosis Folicular (Alopecia Mucinosa)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

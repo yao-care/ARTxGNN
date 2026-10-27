@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Diazóxido: De Hiperinsulinismo/Insulinoma a Hipotricosis Simple del Cuero Cabelludo
+## Diazóxido: De Hiperinsulinismo/Insulinoma a Hipotricosis Simple del Cuero Cabelludo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

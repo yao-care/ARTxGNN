@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# Betahistina: Evaluación Preliminar — Sin Indicación Predicha Disponible
+## Betahistina: Evaluación Preliminar — Sin Indicación Predicha Disponible
+{: .text-alpha }
 
 ---
 

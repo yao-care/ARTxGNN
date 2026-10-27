@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# Amilorida: Evaluación Preliminar — Sin Nueva Indicación Predicha
+## Amilorida: Evaluación Preliminar — Sin Nueva Indicación Predicha
+{: .text-alpha }
 
 ---
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Cinchocaína: De Dermatitis a Bronquitis
+## Cinchocaína: De Dermatitis a Bronquitis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Indacaterol: De Agonista Beta2 de Acción Ultra-Prolongada a Síndrome Nefrogénico de Antidiuresis Inapropiada
+## Indacaterol: De Agonista Beta2 de Acción Ultra-Prolongada a Síndrome Nefrogénico de Antidiuresis Inapropiada
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

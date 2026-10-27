@@ -38,7 +38,8 @@ Este caso presenta una situación especial: `predicted_indications` está vacío
 
 ---
 
-# CILOSTAZOL: Evaluación de Reposicionamiento — Datos Insuficientes para Análisis Completo
+## CILOSTAZOL: Evaluación de Reposicionamiento — Datos Insuficientes para Análisis Completo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

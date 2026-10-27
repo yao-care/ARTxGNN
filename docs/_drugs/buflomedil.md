@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# Buflomedil: Evaluación de Reposicionamiento — Sin Predicciones TxGNN Disponibles
+## Buflomedil: Evaluación de Reposicionamiento — Sin Predicciones TxGNN Disponibles
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

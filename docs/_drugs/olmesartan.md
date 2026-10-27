@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Olmesartán: De Indicación No Registrada en ANMAT a Angina de Prinzmetal
+## Olmesartán: De Indicación No Registrada en ANMAT a Angina de Prinzmetal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

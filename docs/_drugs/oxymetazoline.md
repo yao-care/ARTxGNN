@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-# Oximetazolina: De Faringitis y Resfriado Común a Enfermedad de la Cavidad Nasal
+## Oximetazolina: De Faringitis y Resfriado Común a Enfermedad de la Cavidad Nasal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

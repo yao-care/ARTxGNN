@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Entacapona: De Enfermedad de Parkinson a Neurodegeneración Asociada a PLA2G6
+## Entacapona: De Enfermedad de Parkinson a Neurodegeneración Asociada a PLA2G6
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

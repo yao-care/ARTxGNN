@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Clenbuterol: De Indicación Original No Especificada a Trastorno de Migraña
+## Clenbuterol: De Indicación Original No Especificada a Trastorno de Migraña
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

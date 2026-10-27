@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **3**
 
 </div>
 
-# Zolpidem: De Insomnio a Trastorno del Sueño (Inicio y Mantenimiento del Sueño)
+## Zolpidem: De Insomnio a Trastorno del Sueño (Inicio y Mantenimiento del Sueño)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

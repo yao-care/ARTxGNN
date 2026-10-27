@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **4**
 
 </div>
 
-# Ezetimibe: De Hiperlipidemia a Hiperlipoproteinemia
+## Ezetimibe: De Hiperlipidemia a Hiperlipoproteinemia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# Bezafibrato: Evaluación Preliminar — Sin Nueva Indicación Predicha
+## Bezafibrato: Evaluación Preliminar — Sin Nueva Indicación Predicha
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

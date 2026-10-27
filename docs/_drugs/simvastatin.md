@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **8**
 
 </div>
 
-# Simvastatina: De Hipertrigliceridemia a Hipercolesterolemia Familiar
+## Simvastatina: De Hipertrigliceridemia a Hipercolesterolemia Familiar
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

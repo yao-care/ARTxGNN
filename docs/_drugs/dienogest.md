@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Dienogest: De Indicación Original No Especificada a Amenorrea
+## Dienogest: De Indicación Original No Especificada a Amenorrea
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

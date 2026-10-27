@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Desogestrel: De Anticoncepción Hormonal a Amenorrea
+## Desogestrel: De Anticoncepción Hormonal a Amenorrea
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

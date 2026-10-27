@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **5**
 
 </div>
 
-# Sacubitril: De Indicación No Registrada en la Base de Datos a Nefropatía Diabética
+## Sacubitril: De Indicación No Registrada en la Base de Datos a Nefropatía Diabética
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

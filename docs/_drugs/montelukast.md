@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **5**
 
 </div>
 
-# Montelukast: De Rinitis Alérgica y Asma a Bronquitis
+## Montelukast: De Rinitis Alérgica y Asma a Bronquitis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

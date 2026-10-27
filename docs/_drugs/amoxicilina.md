@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# Amoxicilina: Evaluación de Reposicionamiento — Sin Indicaciones Predichas Disponibles
+## Amoxicilina: Evaluación de Reposicionamiento — Sin Indicaciones Predichas Disponibles
+{: .text-alpha }
 
 ---
 

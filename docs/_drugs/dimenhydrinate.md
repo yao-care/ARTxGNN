@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **2**
 
 </div>
 
-# Dimenhidrinato: De Vértigo de Origen en el Sistema Nervioso Central y Cinetosis a Urticaria Alérgica
+## Dimenhidrinato: De Vértigo de Origen en el Sistema Nervioso Central y Cinetosis a Urticaria Alérgica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

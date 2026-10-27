@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# Carbinoxamina: Evaluación de Candidato para Reposicionamiento — Datos Insuficientes
+## Carbinoxamina: Evaluación de Candidato para Reposicionamiento — Datos Insuficientes
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

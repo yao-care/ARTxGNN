@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Ginseng: De Indicación Original No Especificada a Osteoporosis Inducida por Fármacos
+## Ginseng: De Indicación Original No Especificada a Osteoporosis Inducida por Fármacos
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

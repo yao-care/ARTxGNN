@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Mosaprida: De Trastornos Gastrointestinales a Insomnio
+## Mosaprida: De Trastornos Gastrointestinales a Insomnio
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

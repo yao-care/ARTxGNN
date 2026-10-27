@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Ofloxacino: De Infecciones Bacterianas (Fiebre Tifoidea) a Síndrome de Hiperviscosidad Policlonal
+## Ofloxacino: De Infecciones Bacterianas (Fiebre Tifoidea) a Síndrome de Hiperviscosidad Policlonal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

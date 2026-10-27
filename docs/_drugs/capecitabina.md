@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# CAPECITABINA: Evaluación de Reposicionamiento Incompleta — Datos Insuficientes
+## CAPECITABINA: Evaluación de Reposicionamiento Incompleta — Datos Insuficientes
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

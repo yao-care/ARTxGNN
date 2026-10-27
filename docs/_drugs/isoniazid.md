@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-# Isoniazida: De Tuberculosis Pulmonar a Conjuntivitis
+## Isoniazida: De Tuberculosis Pulmonar a Conjuntivitis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

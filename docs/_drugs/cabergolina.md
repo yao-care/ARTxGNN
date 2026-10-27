@@ -36,7 +36,8 @@ Analizando el Evidence Pack recibido para Cabergolina. Los datos muestran un cas
 
 ---
 
-# Cabergolina: Evaluación de Reposicionamiento — Datos Insuficientes para Análisis Completo
+## Cabergolina: Evaluación de Reposicionamiento — Datos Insuficientes para Análisis Completo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

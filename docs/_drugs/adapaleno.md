@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# ADAPALENO: Evaluación Preliminar — Sin Indicaciones Predichas Disponibles
+## ADAPALENO: Evaluación Preliminar — Sin Indicaciones Predichas Disponibles
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

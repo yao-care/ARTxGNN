@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# Aripiprazol: Evaluacion Preliminar — Datos Insuficientes para Reposicionamiento
+## Aripiprazol: Evaluacion Preliminar — Datos Insuficientes para Reposicionamiento
+{: .text-alpha }
 
 ---
 

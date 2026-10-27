@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# CEFAZOLINA: Evaluación Preliminar — Sin Predicciones Disponibles
+## CEFAZOLINA: Evaluación Preliminar — Sin Predicciones Disponibles
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

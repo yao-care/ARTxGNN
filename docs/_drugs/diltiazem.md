@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Diltiazem: De Hipertensión a Susceptibilidad Obsoleta al Accidente Cerebrovascular Isquémico
+## Diltiazem: De Hipertensión a Susceptibilidad Obsoleta al Accidente Cerebrovascular Isquémico
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

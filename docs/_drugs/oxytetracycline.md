@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Oxitetraciclina: De Infección del Tracto Urinario a Rinosinusitis Crónica
+## Oxitetraciclina: De Infección del Tracto Urinario a Rinosinusitis Crónica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

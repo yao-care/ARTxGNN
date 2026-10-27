@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# CARBIDOPA: Evaluación de Reposicionamiento — Sin Indicaciones Predichas Disponibles
+## CARBIDOPA: Evaluación de Reposicionamiento — Sin Indicaciones Predichas Disponibles
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

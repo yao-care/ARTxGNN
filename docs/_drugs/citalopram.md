@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Citalopram: De Trastorno de Ansiedad y Depresión a Trastorno Obsesivo-Compulsivo
+## Citalopram: De Trastorno de Ansiedad y Depresión a Trastorno Obsesivo-Compulsivo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

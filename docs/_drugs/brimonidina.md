@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# Brimonidina: Evaluación de Reposicionamiento — Sin Nuevas Indicaciones Predichas
+## Brimonidina: Evaluación de Reposicionamiento — Sin Nuevas Indicaciones Predichas
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

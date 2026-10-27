@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# AGOMELATINA: Evaluación Preliminar — Sin Indicación Predicha Disponible
+## AGOMELATINA: Evaluación Preliminar — Sin Indicación Predicha Disponible
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

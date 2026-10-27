@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **4**
 
 </div>
 
-# Ciproheptadina: De Rinitis Alérgica y Urticaria a Urticaria Alérgica
+## Ciproheptadina: De Rinitis Alérgica y Urticaria a Urticaria Alérgica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

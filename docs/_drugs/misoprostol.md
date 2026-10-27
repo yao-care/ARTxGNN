@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **2**
 
 </div>
 
-# Misoprostol: De Indicación Original No Especificada a Amenorrea
+## Misoprostol: De Indicación Original No Especificada a Amenorrea
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

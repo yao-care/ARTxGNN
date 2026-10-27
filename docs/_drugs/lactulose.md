@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-# Lactulosa: De Encefalopatía Hepática a Ictericia Obstructiva
+## Lactulosa: De Encefalopatía Hepática a Ictericia Obstructiva
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

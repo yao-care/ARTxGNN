@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# CALCIO: Evaluación Incompleta — Datos Insuficientes para Reposicionamiento
+## CALCIO: Evaluación Incompleta — Datos Insuficientes para Reposicionamiento
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

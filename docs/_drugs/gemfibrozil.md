@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Gemfibrozilo: De Hipertrigliceridemia a Artritis Reumatoide
+## Gemfibrozilo: De Hipertrigliceridemia a Artritis Reumatoide
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

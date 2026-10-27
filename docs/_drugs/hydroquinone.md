@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **4**
 
 </div>
 
-# Hidroquinona: De Indicación No Especificada a Queratosis Seborreica
+## Hidroquinona: De Indicación No Especificada a Queratosis Seborreica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

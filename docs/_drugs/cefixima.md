@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# Cefixima: Datos Insuficientes para Evaluación de Reposicionamiento
+## Cefixima: Datos Insuficientes para Evaluación de Reposicionamiento
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

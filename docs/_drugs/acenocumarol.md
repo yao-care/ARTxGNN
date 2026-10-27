@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# ACENOCUMAROL: Evaluación de Reposicionamiento — Sin Indicaciones Predichas
+## ACENOCUMAROL: Evaluación de Reposicionamiento — Sin Indicaciones Predichas
+{: .text-alpha }
 
 ---
 

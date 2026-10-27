@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Nafazolina: De Indicación Original No Registrada a Hipotricosis Simple del Cuero Cabelludo
+## Nafazolina: De Indicación Original No Registrada a Hipotricosis Simple del Cuero Cabelludo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

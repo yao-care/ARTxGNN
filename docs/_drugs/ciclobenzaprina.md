@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# Ciclobenzaprina: Evaluación de Reposicionamiento — Datos Insuficientes para Análisis Completo
+## Ciclobenzaprina: Evaluación de Reposicionamiento — Datos Insuficientes para Análisis Completo
+{: .text-alpha }
 
 ---
 

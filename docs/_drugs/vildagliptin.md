@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Vildagliptina: De Diabetes Mellitus Tipo 2 a Síndrome de la Persona Rígida Clásico
+## Vildagliptina: De Diabetes Mellitus Tipo 2 a Síndrome de la Persona Rígida Clásico
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

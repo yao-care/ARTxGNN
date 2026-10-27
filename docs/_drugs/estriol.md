@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **1**
 
 </div>
 
-# Estriol: De Indicación Original No Especificada a Amenorrea
+## Estriol: De Indicación Original No Especificada a Amenorrea
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

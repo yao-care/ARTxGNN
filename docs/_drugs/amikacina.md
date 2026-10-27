@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# Amikacina: Evaluación de Reposicionamiento — Sin Indicaciones Predichas
+## Amikacina: Evaluación de Reposicionamiento — Sin Indicaciones Predichas
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

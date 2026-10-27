@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Hesperidina: De Indicación Original No Especificada a Neoplasia Mieloproliferativa
+## Hesperidina: De Indicación Original No Especificada a Neoplasia Mieloproliferativa
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

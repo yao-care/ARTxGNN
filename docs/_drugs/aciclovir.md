@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# Aciclovir: Evaluación de Reposicionamiento — Sin Indicaciones Predichas
+## Aciclovir: Evaluación de Reposicionamiento — Sin Indicaciones Predichas
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Bromfenaco: De Indicación Original No Registrada a Enfermedad Ocular
+## Bromfenaco: De Indicación Original No Registrada a Enfermedad Ocular
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

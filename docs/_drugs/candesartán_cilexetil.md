@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# CANDESARTÁN CILEXETIL: Evaluación Interrumpida por Datos Insuficientes
+## CANDESARTÁN CILEXETIL: Evaluación Interrumpida por Datos Insuficientes
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# Atropina Sulfato: Evaluación Preliminar — Sin Nuevas Indicaciones Predichas
+## Atropina Sulfato: Evaluación Preliminar — Sin Nuevas Indicaciones Predichas
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

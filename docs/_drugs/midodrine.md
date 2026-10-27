@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Midodrina: De Hipotensión Ortostática a Prionopatía Sensible a Proteasas de Forma Variable
+## Midodrina: De Hipotensión Ortostática a Prionopatía Sensible a Proteasas de Forma Variable
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

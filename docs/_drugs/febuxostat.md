@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-# Febuxostat: De Hiperuricemia a Hipouricemia Renal
+## Febuxostat: De Hiperuricemia a Hipouricemia Renal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

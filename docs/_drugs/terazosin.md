@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Terazosina: De Hipertensión e Hiperplasia Prostática Benigna a Hipotricosis Simple del Cuero Cabelludo
+## Terazosina: De Hipertensión e Hiperplasia Prostática Benigna a Hipotricosis Simple del Cuero Cabelludo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

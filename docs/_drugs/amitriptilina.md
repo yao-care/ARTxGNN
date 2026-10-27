@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# Amitriptilina: Evaluación Preliminar — Sin Indicación Predicha Disponible
+## Amitriptilina: Evaluación Preliminar — Sin Indicación Predicha Disponible
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

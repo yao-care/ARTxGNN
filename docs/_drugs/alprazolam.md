@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-# Alprazolam: De Trastorno de Ansiedad a Insomnio
+## Alprazolam: De Trastorno de Ansiedad a Insomnio
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

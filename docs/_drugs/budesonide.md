@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Budesonida: De Enfermedad de Crohn y Asma a Eccema Atópico
+## Budesonida: De Enfermedad de Crohn y Asma a Eccema Atópico
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

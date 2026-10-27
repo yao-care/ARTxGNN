@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-# Pseudoefedrina: De Rinitis Alérgica y Resfrío Común a Enfermedad de la Cavidad Nasal
+## Pseudoefedrina: De Rinitis Alérgica y Resfrío Común a Enfermedad de la Cavidad Nasal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

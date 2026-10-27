@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **1**
 
 </div>
 
-# Clobetasol: De Indicación Original No Registrada a Linfoma Cutáneo Primario de Células T
+## Clobetasol: De Indicación Original No Registrada a Linfoma Cutáneo Primario de Células T
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

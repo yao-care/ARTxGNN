@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **6**
 
 </div>
 
-# Insulina Degludec: De Diabetes Mellitus a Diabetes Mellitus Tipo 1
+## Insulina Degludec: De Diabetes Mellitus a Diabetes Mellitus Tipo 1
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

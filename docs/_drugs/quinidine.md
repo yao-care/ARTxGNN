@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Quinidina: De Fibrilación Auricular y Malaria a Síndrome Nefrogénico de Antidiuresis Inapropiada
+## Quinidina: De Fibrilación Auricular y Malaria a Síndrome Nefrogénico de Antidiuresis Inapropiada
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

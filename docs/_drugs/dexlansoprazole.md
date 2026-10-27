@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Dexlansoprazol: De Enfermedad Ulcerosa Péptica a Enfermedad Ulcerosa Péptica Activa
+## Dexlansoprazol: De Enfermedad Ulcerosa Péptica a Enfermedad Ulcerosa Péptica Activa
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

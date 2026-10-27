@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Nepafenac: De Uso Oftálmico Postoperatorio a Enfermedad Ocular (Predicción Amplia)
+## Nepafenac: De Uso Oftálmico Postoperatorio a Enfermedad Ocular (Predicción Amplia)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

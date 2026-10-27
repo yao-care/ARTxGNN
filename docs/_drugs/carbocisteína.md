@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# CARBOCISTEÍNA: Evaluación de Reposicionamiento — Datos Insuficientes para Generar Predicción
+## CARBOCISTEÍNA: Evaluación de Reposicionamiento — Datos Insuficientes para Generar Predicción
+{: .text-alpha }
 
 ---
 

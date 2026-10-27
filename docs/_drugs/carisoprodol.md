@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Carisoprodol: De Indicación Original No Especificada a Insomnio
+## Carisoprodol: De Indicación Original No Especificada a Insomnio
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

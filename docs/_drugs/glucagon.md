@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **1**
 
 </div>
 
-# Glucagón: De Indicación Original No Especificada a Síndrome del Intestino Irritable
+## Glucagón: De Indicación Original No Especificada a Síndrome del Intestino Irritable
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

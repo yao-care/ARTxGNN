@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Olopatadina: De Rinitis Alérgica y Conjuntivitis Alérgica a Conjuntivitis Rosácea
+## Olopatadina: De Rinitis Alérgica y Conjuntivitis Alérgica a Conjuntivitis Rosácea
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

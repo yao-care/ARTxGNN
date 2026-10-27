@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Bromazepam: De Indicación Original No Especificada a Trastorno de Migraña
+## Bromazepam: De Indicación Original No Especificada a Trastorno de Migraña
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Latanoprost: De Glaucoma de Ángulo Abierto a Glaucoma Hereditario Primario
+## Latanoprost: De Glaucoma de Ángulo Abierto a Glaucoma Hereditario Primario
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **7**
 
 </div>
 
-# Econazol: De Infecciones Fúngicas Cutáneas a Granuloma de Majocchi
+## Econazol: De Infecciones Fúngicas Cutáneas a Granuloma de Majocchi
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

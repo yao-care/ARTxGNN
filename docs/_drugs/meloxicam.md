@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Meloxicam: De Artritis Reumatoide a Artritis Idiopática Juvenil Poliarticular con Factor Reumatoide Positivo
+## Meloxicam: De Artritis Reumatoide a Artritis Idiopática Juvenil Poliarticular con Factor Reumatoide Positivo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

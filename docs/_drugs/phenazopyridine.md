@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Fenazopiridina: De Analgésico Urinario a Bronquitis
+## Fenazopiridina: De Analgésico Urinario a Bronquitis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

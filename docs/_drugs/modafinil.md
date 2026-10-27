@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-# Modafinilo: De Narcolepsia a Insomnio
+## Modafinilo: De Narcolepsia a Insomnio
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

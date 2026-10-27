@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Podofilox: De Verrugas Anogenitales a Candidiasis Vulvovaginal
+## Podofilox: De Verrugas Anogenitales a Candidiasis Vulvovaginal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

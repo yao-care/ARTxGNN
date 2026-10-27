@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Sotalol: De Fibrilación Auricular a Síndrome del Seno Enfermo Tipo 2 (Autosómico Dominante)
+## Sotalol: De Fibrilación Auricular a Síndrome del Seno Enfermo Tipo 2 (Autosómico Dominante)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

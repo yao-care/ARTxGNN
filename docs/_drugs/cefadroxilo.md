@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# Cefadroxilo: Evaluación de Reposicionamiento — Predicción No Disponible
+## Cefadroxilo: Evaluación de Reposicionamiento — Predicción No Disponible
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Diazepam: De Epilepsia a Insomnio
+## Diazepam: De Epilepsia a Insomnio
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

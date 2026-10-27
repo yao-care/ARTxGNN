@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **3**
 
 </div>
 
-# Clonazepam: De Epilepsia (Encefalopatía Mioclónica Temprana, Ausencias y Síndrome de Lennox-Gastaut) a Síndrome de Piernas Inquietas
+## Clonazepam: De Epilepsia (Encefalopatía Mioclónica Temprana, Ausencias y Síndrome de Lennox-Gastaut) a Síndrome de Piernas Inquietas
+{: .text-alpha }
 
 ## Resumen en Una Frase
 
