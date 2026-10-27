@@ -358,7 +358,7 @@ window.TXGNN_ANALYTICS = {
       "@id": "{{ page.url | absolute_url }}#itemlist",
       "name": "Informes de evidencia de fármacos de ARTxGNN",
       "description": "Informes de evidencia de reposicionamiento para medicamentos aprobados en Argentina",
-      "numberOfItems": {{ site.drugs.size }},
+      "numberOfItems": {{ site.data.drug_stats.total_drugs }},
       "itemListOrder": "https://schema.org/ItemListOrderAscending"
     },
     {
