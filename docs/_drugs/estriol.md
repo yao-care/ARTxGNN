@@ -5,10 +5,10 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 136
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-13
-description: "Estriol: nueva indicación predicha, Amenorrea (nivel de evidencia L3). Indicación original: No disponible en los datos de ANMAT compilados"
+last_modified_at: 2026-10-28
 monitor_inn: "ESTRIOL"
 predicted_indications: ["amenorrhea (disease)"]
+description: "Estriol: nueva indicación predicha, Amenorrea (amenorrhea (disease)) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
 ---
 
 # Estriol
@@ -33,7 +33,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **1**
 
 </div>
 
-## Estriol: De Indicación Original No Especificada a Amenorrea
+## Estriol: Amenorrea (amenorrhea (disease))
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -44,8 +44,8 @@ Estriol es un estrógeno débil y de acción corta, comercializado en Argentina 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en los datos de ANMAT compilados |
-| Nueva Indicación Predicha | Amenorrea |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Amenorrea (amenorrhea (disease)) |
 | Puntaje de Predicción TxGNN | 0.9918 |
 | Nivel de Evidencia | L3 |
 | Estado de Mercado en Argentina | Comercializado (registros vigentes: 6 de 6) |
@@ -98,7 +98,7 @@ Consultar el prospecto para información de seguridad adicional (advertencias y 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción del modelo es alta (99.18%) y el mecanismo es plausible. Sin embargo, la evidencia se limita a un estudio fisiológico pequeño y una revisión mecanística, sin ensayos clínicos registrados. No se demuestra restauración de ciclos menstruales ni de la ovulación. Tampoco están disponibles las advertencias y contraindicaciones del prospecto.
+La predicción del modelo es alta (0.9918) y el mecanismo es plausible. Sin embargo, la evidencia se limita a un estudio fisiológico pequeño y una revisión mecanística, sin ensayos clínicos registrados. No se demuestra restauración de ciclos menstruales ni de la ovulación. Tampoco están disponibles las advertencias y contraindicaciones del prospecto.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de ANMAT (advertencias, contraindicaciones e indicaciones aprobadas) para completar el tamizaje de seguridad.

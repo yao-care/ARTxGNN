@@ -5,10 +5,10 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 204
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-13
-description: "Olmesartan: nueva indicación predicha, Angina de Prinzmetal (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
+last_modified_at: 2026-10-28
 monitor_inn: "OLMESARTAN"
 predicted_indications: ["Prinzmetal angina", "hypotrichosis simplex of the scalp", "migraine disorder", "alopecia", "pulmonary hypertension", "congenital hypotrichosis milia", "diffuse alopecia areata", "migraine with brainstem aura", "kyphoscoliotic heart disease", "open-angle glaucoma"]
+description: "Olmesartan: nueva indicación predicha, Angina de Prinzmetal (Prinzmetal angina) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Olmesartan
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Olmesartán: De Indicación No Registrada en ANMAT a Angina de Prinzmetal
+## Olmesartan: Angina de Prinzmetal (Prinzmetal angina)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,9 +48,9 @@ La única indicación con evidencia clínica parcial entre las diez predichas es
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en los datos compilados (los textos de indicación de las autorizaciones están vacíos) |
-| Nueva Indicación Predicha | Angina de Prinzmetal |
-| Puntaje de Predicción TxGNN | 0,9984 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Angina de Prinzmetal (Prinzmetal angina) |
+| Puntaje de Predicción TxGNN | 0.9984 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Comercializado (registros vigentes: 7 de 7) |
 | Número de Autorizaciones | 7 (vigentes: 7) |
@@ -66,7 +66,7 @@ Para la angina de Prinzmetal (vasoespástica), un vínculo plausible sería la r
 
 Otras predicciones de alto puntaje merecen una lectura distinta:
 - **Migraña** (puntaje 0,9964): es la que cuenta con más respaldo clínico indirecto. Hay un estudio pequeño en pacientes hipertensos/prehipertensos, un comentario y una revisión sistemática de 2019 sobre IECA y ARA-II (nivel L3). El efecto en los estudios específicos de olmesartán puede estar confundido por la reducción de la presión arterial.
-- **Hipertensión pulmonar** (99,61%): solo hay estudios preclínicos en ratas y ratones (L4), sin evidencia en humanos.
+- **Hipertensión pulmonar** (0.9961): solo hay estudios preclínicos en ratas y ratones (L4), sin evidencia en humanos.
 - **Alopecia y trastornos capilares congénitos**: no hay mecanismo plausible evidente; el puntaje proviene del modelo TxGNN (aprendizaje profundo) y podría reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 ---
