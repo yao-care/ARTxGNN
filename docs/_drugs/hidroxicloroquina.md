@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: HIDROXICLOROQUINA
 drugbank_id: DB01611
-evidence_level: L5
 permalink: /drugs/hidroxicloroquina/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # HIDROXICLOROQUINA
@@ -18,27 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 7 de 7) |
+| Número de Autorizaciones | 7 (vigentes: 7) |
 | DrugBank ID | [DB01611](https://go.drugbank.com/drugs/DB01611) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 11 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | chronic cutaneous lupus erythematosus | TxGNN Knowledge Graph |
-| 2 | Plasmodium vivax malaria | TxGNN Knowledge Graph |
-| 3 | pediatric systemic lupus erythematosus | TxGNN Knowledge Graph |
-| 4 | Plasmodium malariae malaria | TxGNN Knowledge Graph |
-| 5 | rheumatoid arthritis | TxGNN Knowledge Graph |
-| 6 | lupus erythematosus | TxGNN Knowledge Graph |
-| 7 | discoid lupus erythematosus | TxGNN Knowledge Graph |
-| 8 | Plasmodium ovale malaria | TxGNN Knowledge Graph |
-| 9 | Plasmodium falciparum malaria | TxGNN Knowledge Graph |
-| 10 | malaria | TxGNN Knowledge Graph |
-| 11 | systemic lupus erythematosus (disease) | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

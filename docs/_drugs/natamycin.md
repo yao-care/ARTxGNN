@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 10
 monitor_inn: "natamycin"
 predicted_indications: ["vulvovaginal candidiasis", "candidiasis", "vulvitis", "vulvovaginitis", "trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "vaginitis (disease)", "tinea nigra"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Natamycin: nueva indicación predicha, candidiasis vulvovaginal (vulvovaginal candidiasis) (nivel de evidencia L1). Indicación original: No consta en los datos locales"
 ---
 

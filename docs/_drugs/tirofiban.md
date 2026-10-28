@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: TIROFIBAN
 drugbank_id: DB00775
-evidence_level: L5
 permalink: /drugs/tirofiban/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # TIROFIBAN
@@ -18,17 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | DrugBank ID | [DB00775](https://go.drugbank.com/drugs/DB00775) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 1 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | acute coronary syndrome | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

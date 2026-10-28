@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: TERBINAFINA
 drugbank_id: DB00857
-evidence_level: L5
 permalink: /drugs/terbinafina/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # TERBINAFINA
@@ -18,22 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 13 de 13) |
+| Número de Autorizaciones | 13 (vigentes: 13) |
 | DrugBank ID | [DB00857](https://go.drugbank.com/drugs/DB00857) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 6 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | pityriasis versicolor | TxGNN Knowledge Graph |
-| 2 | tinea infection | TxGNN Knowledge Graph |
-| 3 | tinea pedis | TxGNN Knowledge Graph |
-| 4 | dermatophytosis of groin and perianal area | TxGNN Knowledge Graph |
-| 5 | tinea unguium | TxGNN Knowledge Graph |
-| 6 | tinea corporis | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

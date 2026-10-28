@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: GALANTAMINA
 drugbank_id: DB00674
-evidence_level: L5
 permalink: /drugs/galantamina/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # GALANTAMINA
@@ -18,21 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 11 de 11) |
+| Número de Autorizaciones | 11 (vigentes: 11) |
 | DrugBank ID | [DB00674](https://go.drugbank.com/drugs/DB00674) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 5 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | Pick disease | TxGNN Knowledge Graph |
-| 2 | Alzheimer disease | TxGNN Knowledge Graph |
-| 3 | Reye syndrome | TxGNN Knowledge Graph |
-| 4 | Alzheimer disease without neurofibrillary tangles | TxGNN Knowledge Graph |
-| 5 | cerebellar degeneration | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

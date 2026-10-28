@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: PAROXETINA
 drugbank_id: DB00715
-evidence_level: L5
 permalink: /drugs/paroxetina/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # PAROXETINA
@@ -18,26 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: al menos 20) |
+| Número de Autorizaciones | al menos 20 |
 | DrugBank ID | [DB00715](https://go.drugbank.com/drugs/DB00715) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 10 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | phobic disorder | TxGNN Knowledge Graph |
-| 2 | dysthymic disorder | TxGNN Knowledge Graph |
-| 3 | unipolar depression | TxGNN Knowledge Graph |
-| 4 | post-traumatic stress disorder | TxGNN Knowledge Graph |
-| 5 | major depressive disorder | TxGNN Knowledge Graph |
-| 6 | social phobia | TxGNN Knowledge Graph |
-| 7 | obsessive-compulsive disorder | TxGNN Knowledge Graph |
-| 8 | neurotic disorder | TxGNN Knowledge Graph |
-| 9 | endogenous depression | TxGNN Knowledge Graph |
-| 10 | anxiety disorder | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

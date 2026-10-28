@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: IBUPROFENO
 drugbank_id: DB01050
-evidence_level: L5
 permalink: /drugs/ibuprofeno/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # IBUPROFENO
@@ -18,25 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: al menos 20) |
+| Número de Autorizaciones | al menos 20 |
 | DrugBank ID | [DB01050](https://go.drugbank.com/drugs/DB01050) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 9 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | osteoarthritis | TxGNN Knowledge Graph |
-| 2 | rheumatoid arthritis | TxGNN Knowledge Graph |
-| 3 | arthropathy | TxGNN Knowledge Graph |
-| 4 | juvenile idiopathic arthritis | TxGNN Knowledge Graph |
-| 5 | osteoarthritis susceptibility | TxGNN Knowledge Graph |
-| 6 | headache disorder | TxGNN Knowledge Graph |
-| 7 | patent ductus arteriosus | TxGNN Knowledge Graph |
-| 8 | spondyloarthropathy | TxGNN Knowledge Graph |
-| 9 | juvenile arthritis due to defect in LACC1 | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

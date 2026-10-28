@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "FORMOTEROL"
 predicted_indications: ["respiratory malformation", "bronchitis", "Rienhoff syndrome"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Formoterol: nueva indicación predicha, malformación respiratoria (respiratory malformation) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 

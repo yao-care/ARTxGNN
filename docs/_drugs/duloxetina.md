@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: DULOXETINA
 drugbank_id: DB00476
-evidence_level: L5
 permalink: /drugs/duloxetina/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # DULOXETINA
@@ -18,23 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 17 de 17) |
+| Número de Autorizaciones | 17 (vigentes: 17) |
 | DrugBank ID | [DB00476](https://go.drugbank.com/drugs/DB00476) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 7 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | unipolar depression | TxGNN Knowledge Graph |
-| 2 | major depressive disorder | TxGNN Knowledge Graph |
-| 3 | female stress incontinence | TxGNN Knowledge Graph |
-| 4 | myofascial pain syndrome | TxGNN Knowledge Graph |
-| 5 | fibromyalgia | TxGNN Knowledge Graph |
-| 6 | endogenous depression | TxGNN Knowledge Graph |
-| 7 | anxiety disorder | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

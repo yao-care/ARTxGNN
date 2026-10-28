@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: FEXOFENADINA
 drugbank_id: DB00950
-evidence_level: L5
 permalink: /drugs/fexofenadina/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # FEXOFENADINA
@@ -18,22 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: al menos 20) |
+| Número de Autorizaciones | al menos 20 |
 | DrugBank ID | [DB00950](https://go.drugbank.com/drugs/DB00950) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 6 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | allergic rhinitis | TxGNN Knowledge Graph |
-| 2 | atopic conjunctivitis | TxGNN Knowledge Graph |
-| 3 | idiopathic urticaria | TxGNN Knowledge Graph |
-| 4 | vernal conjunctivitis | TxGNN Knowledge Graph |
-| 5 | papillary conjunctivitis | TxGNN Knowledge Graph |
-| 6 | vasomotor rhinitis | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

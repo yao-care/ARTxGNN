@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: ERGOTAMINA
 drugbank_id: DB00696
-evidence_level: L5
 permalink: /drugs/ergotamina/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # ERGOTAMINA
@@ -18,22 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 20 de 20) |
+| Número de Autorizaciones | 20 (vigentes: 20) |
 | DrugBank ID | [DB00696](https://go.drugbank.com/drugs/DB00696) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 6 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | migraine with or without aura, susceptibility to | TxGNN Knowledge Graph |
-| 2 | hemicrania continua | TxGNN Knowledge Graph |
-| 3 | obsolete vascular headache | TxGNN Knowledge Graph |
-| 4 | paroxysmal Hemicrania | TxGNN Knowledge Graph |
-| 5 | cluster headache syndrome | TxGNN Knowledge Graph |
-| 6 | migraine disorder | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

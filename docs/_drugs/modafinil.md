@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "modafinil"
 predicted_indications: ["insomnia (disease)"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Modafinil: nueva indicación predicha, Insomnio (insomnia) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 

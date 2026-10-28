@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: ZIPRASIDONA
 drugbank_id: DB00246
-evidence_level: L5
 permalink: /drugs/ziprasidona/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # ZIPRASIDONA
@@ -18,19 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 4 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 4) |
 | DrugBank ID | [DB00246](https://go.drugbank.com/drugs/DB00246) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 3 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | manic bipolar affective disorder | TxGNN Knowledge Graph |
-| 2 | schizophrenia | TxGNN Knowledge Graph |
-| 3 | bipolar disorder | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

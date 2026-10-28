@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 126
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Diltiazem: usos conocidos y situación de mercado en Argentina; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---

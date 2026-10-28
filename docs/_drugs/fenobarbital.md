@@ -5,10 +5,11 @@ layout: default
 nav_exclude: true
 title: FENOBARBITAL
 drugbank_id: DB01174
-evidence_level: L5
 permalink: /drugs/fenobarbital/
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # FENOBARBITAL
@@ -17,28 +18,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 7 de 7) |
+| Número de Autorizaciones | 7 (vigentes: 7) |
 | DrugBank ID | [DB01174](https://go.drugbank.com/drugs/DB01174) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 12 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | Lennox-Gastaut syndrome | TxGNN Knowledge Graph |
-| 2 | visual epilepsy | TxGNN Knowledge Graph |
-| 3 | partial epilepsy | TxGNN Knowledge Graph |
-| 4 | migraine with or without aura, susceptibility to | TxGNN Knowledge Graph |
-| 5 | hemicrania continua | TxGNN Knowledge Graph |
-| 6 | epilepsy with generalized tonic-clonic seizures | TxGNN Knowledge Graph |
-| 7 | obsolete vascular headache | TxGNN Knowledge Graph |
-| 8 | epilepsy | TxGNN Knowledge Graph |
-| 9 | cutis verticis gyrata | TxGNN Knowledge Graph |
-| 10 | paroxysmal Hemicrania | TxGNN Knowledge Graph |
-| 11 | cluster headache syndrome | TxGNN Knowledge Graph |
-| 12 | migraine disorder | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

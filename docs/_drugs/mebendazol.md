@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: MEBENDAZOL
 drugbank_id: DB00643
-evidence_level: L5
 permalink: /drugs/mebendazol/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # MEBENDAZOL
@@ -18,19 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 11 de 11) |
+| Número de Autorizaciones | 11 (vigentes: 11) |
 | DrugBank ID | [DB00643](https://go.drugbank.com/drugs/DB00643) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 3 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | enterobiasis | TxGNN Knowledge Graph |
-| 2 | ascaridiasis | TxGNN Knowledge Graph |
-| 3 | trichuriasis | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

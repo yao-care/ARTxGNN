@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: DEFLAZACORT
 drugbank_id: DB11921
-evidence_level: L5
 permalink: /drugs/deflazacort/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # DEFLAZACORT
@@ -18,19 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 6 de 6) |
+| Número de Autorizaciones | 6 (vigentes: 6) |
 | DrugBank ID | [DB11921](https://go.drugbank.com/drugs/DB11921) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 3 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | Duchenne muscular dystrophy | TxGNN Knowledge Graph |
-| 2 | Becker muscular dystrophy | TxGNN Knowledge Graph |
-| 3 | muscular dystrophy | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: CLOROQUINA
 drugbank_id: DB00608
-evidence_level: L5
 permalink: /drugs/cloroquina/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # CLOROQUINA
@@ -18,27 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | DrugBank ID | [DB00608](https://go.drugbank.com/drugs/DB00608) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 11 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | chronic cutaneous lupus erythematosus | TxGNN Knowledge Graph |
-| 2 | Plasmodium vivax malaria | TxGNN Knowledge Graph |
-| 3 | pediatric systemic lupus erythematosus | TxGNN Knowledge Graph |
-| 4 | Plasmodium malariae malaria | TxGNN Knowledge Graph |
-| 5 | rheumatoid arthritis | TxGNN Knowledge Graph |
-| 6 | lupus erythematosus | TxGNN Knowledge Graph |
-| 7 | discoid lupus erythematosus | TxGNN Knowledge Graph |
-| 8 | Plasmodium ovale malaria | TxGNN Knowledge Graph |
-| 9 | Plasmodium falciparum malaria | TxGNN Knowledge Graph |
-| 10 | malaria | TxGNN Knowledge Graph |
-| 11 | systemic lupus erythematosus (disease) | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

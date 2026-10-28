@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: PILOCARPINA
 drugbank_id: DB01085
-evidence_level: L5
 permalink: /drugs/pilocarpina/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # PILOCARPINA
@@ -18,18 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 3 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 3) |
 | DrugBank ID | [DB01085](https://go.drugbank.com/drugs/DB01085) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 2 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | ocular hypertension | TxGNN Knowledge Graph |
-| 2 | open-angle glaucoma | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

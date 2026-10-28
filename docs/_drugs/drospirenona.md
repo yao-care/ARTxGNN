@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: DROSPIRENONA
 drugbank_id: DB01395
-evidence_level: L5
 permalink: /drugs/drospirenona/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # DROSPIRENONA
@@ -18,19 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 8 de 8) |
+| Número de Autorizaciones | 8 (vigentes: 8) |
 | DrugBank ID | [DB01395](https://go.drugbank.com/drugs/DB01395) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 3 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | obsolete atrophic vulva | TxGNN Knowledge Graph |
-| 2 | postmenopausal atrophic vaginitis | TxGNN Knowledge Graph |
-| 3 | acne (disease) | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

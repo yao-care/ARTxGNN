@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: FLUVOXAMINA
 drugbank_id: DB00176
-evidence_level: L5
 permalink: /drugs/fluvoxamina/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # FLUVOXAMINA
@@ -18,19 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | DrugBank ID | [DB00176](https://go.drugbank.com/drugs/DB00176) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 3 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | social phobia | TxGNN Knowledge Graph |
-| 2 | obsessive-compulsive disorder | TxGNN Knowledge Graph |
-| 3 | phobic disorder | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

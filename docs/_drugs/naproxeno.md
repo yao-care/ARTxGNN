@@ -5,10 +5,11 @@ layout: default
 nav_exclude: true
 title: NAPROXENO
 drugbank_id: DB00788
-evidence_level: L5
 permalink: /drugs/naproxeno/
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # NAPROXENO
@@ -17,36 +18,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: al menos 20) |
+| Número de Autorizaciones | al menos 20 |
 | DrugBank ID | [DB00788](https://go.drugbank.com/drugs/DB00788) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 20 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | bursitis | TxGNN Knowledge Graph |
-| 2 | common cold | TxGNN Knowledge Graph |
-| 3 | periarthritis | TxGNN Knowledge Graph |
-| 4 | migraine disorder | TxGNN Knowledge Graph |
-| 5 | osteoarthritis | TxGNN Knowledge Graph |
-| 6 | spondyloarthropathy, susceptibility to | TxGNN Knowledge Graph |
-| 7 | rheumatoid arthritis | TxGNN Knowledge Graph |
-| 8 | arthropathy | TxGNN Knowledge Graph |
-| 9 | exostosis | TxGNN Knowledge Graph |
-| 10 | ankylosing spondylitis | TxGNN Knowledge Graph |
-| 11 | migraine with or without aura, susceptibility to | TxGNN Knowledge Graph |
-| 12 | myositis | TxGNN Knowledge Graph |
-| 13 | osteoarthritis susceptibility | TxGNN Knowledge Graph |
-| 14 | headache disorder | TxGNN Knowledge Graph |
-| 15 | spondyloarthropathy | TxGNN Knowledge Graph |
-| 16 | juvenile arthritis due to defect in LACC1 | TxGNN Knowledge Graph |
-| 17 | gout | TxGNN Knowledge Graph |
-| 18 | tendinitis | TxGNN Knowledge Graph |
-| 19 | juvenile idiopathic arthritis | TxGNN Knowledge Graph |
-| 20 | fibromyalgia | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

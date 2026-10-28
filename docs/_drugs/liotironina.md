@@ -5,10 +5,11 @@ layout: default
 nav_exclude: true
 title: LIOTIRONINA
 drugbank_id: DB00279
-evidence_level: L5
 permalink: /drugs/liotironina/
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # LIOTIRONINA
@@ -17,31 +18,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | DrugBank ID | [DB00279](https://go.drugbank.com/drugs/DB00279) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 15 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | hypothyroidism | TxGNN Knowledge Graph |
-| 2 | thyroid gland undifferentiated (anaplastic) carcinoma | TxGNN Knowledge Graph |
-| 3 | congenital hypothyroidism | TxGNN Knowledge Graph |
-| 4 | familial papillary thyroid carcinoma with renal papillary neoplasia | TxGNN Knowledge Graph |
-| 5 | thyroid cancer | TxGNN Knowledge Graph |
-| 6 | differentiated thyroid carcinoma | TxGNN Knowledge Graph |
-| 7 | goiter (disease) | TxGNN Knowledge Graph |
-| 8 | familial papillary or follicular thyroid carcinoma | TxGNN Knowledge Graph |
-| 9 | substernal goiter | TxGNN Knowledge Graph |
-| 10 | endemic goiter | TxGNN Knowledge Graph |
-| 11 | medullary thyroid gland carcinoma | TxGNN Knowledge Graph |
-| 12 | thyroid gland disease | TxGNN Knowledge Graph |
-| 13 | goiter, multinodular 1, with or without Sertoli-Leydig cell tumors | TxGNN Knowledge Graph |
-| 14 | familial thyroid carcinoma | TxGNN Knowledge Graph |
-| 15 | myxedema | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

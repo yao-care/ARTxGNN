@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: FLUCONAZOL
 drugbank_id: DB00196
-evidence_level: L5
 permalink: /drugs/fluconazol/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # FLUCONAZOL
@@ -18,23 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: al menos 20) |
+| Número de Autorizaciones | al menos 20 |
 | DrugBank ID | [DB00196](https://go.drugbank.com/drugs/DB00196) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 7 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | oral candidiasis | TxGNN Knowledge Graph |
-| 2 | candidemia | TxGNN Knowledge Graph |
-| 3 | disseminated candidiasis | TxGNN Knowledge Graph |
-| 4 | esophageal candidiasis | TxGNN Knowledge Graph |
-| 5 | candidiasis | TxGNN Knowledge Graph |
-| 6 | Cryptococcal meningitis | TxGNN Knowledge Graph |
-| 7 | vulvovaginal candidiasis | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

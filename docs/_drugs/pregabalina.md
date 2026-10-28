@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: PREGABALINA
 drugbank_id: DB00230
-evidence_level: L5
 permalink: /drugs/pregabalina/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # PREGABALINA
@@ -18,20 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: al menos 20) |
+| Número de Autorizaciones | al menos 20 |
 | DrugBank ID | [DB00230](https://go.drugbank.com/drugs/DB00230) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 4 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | myofascial pain syndrome | TxGNN Knowledge Graph |
-| 2 | fibromyalgia | TxGNN Knowledge Graph |
-| 3 | postherpetic neuralgia | TxGNN Knowledge Graph |
-| 4 | anxiety disorder | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

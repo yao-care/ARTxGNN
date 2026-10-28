@@ -5,10 +5,11 @@ layout: default
 nav_exclude: true
 title: LEVOFLOXACINA
 drugbank_id: DB01137
-evidence_level: L5
 permalink: /drugs/levofloxacina/
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # LEVOFLOXACINA
@@ -17,29 +18,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: al menos 20) |
+| Número de Autorizaciones | al menos 20 |
 | DrugBank ID | [DB01137](https://go.drugbank.com/drugs/DB01137) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 13 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | streptococcal pneumonia | TxGNN Knowledge Graph |
-| 2 | maxillary sinusitis | TxGNN Knowledge Graph |
-| 3 | staphylococcus aureus infection | TxGNN Knowledge Graph |
-| 4 | streptococcal infection | TxGNN Knowledge Graph |
-| 5 | acute contagious conjunctivitis | TxGNN Knowledge Graph |
-| 6 | pyelonephritis | TxGNN Knowledge Graph |
-| 7 | bacterial pneumonia | TxGNN Knowledge Graph |
-| 8 | staphylococcal infection | TxGNN Knowledge Graph |
-| 9 | Mycoplasma pneumoniae pneumonia | TxGNN Knowledge Graph |
-| 10 | pneumonia caused by chlamydia | TxGNN Knowledge Graph |
-| 11 | anthrax infection | TxGNN Knowledge Graph |
-| 12 | staphylococcal pneumonia | TxGNN Knowledge Graph |
-| 13 | conjunctivitis | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

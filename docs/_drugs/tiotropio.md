@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: TIOTROPIO
 drugbank_id: DB01409
-evidence_level: L5
 permalink: /drugs/tiotropio/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # TIOTROPIO
@@ -18,21 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | DrugBank ID | [DB01409](https://go.drugbank.com/drugs/DB01409) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 5 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | asthma | TxGNN Knowledge Graph |
-| 2 | bronchitis | TxGNN Knowledge Graph |
-| 3 | pulmonary emphysema | TxGNN Knowledge Graph |
-| 4 | allergic asthma | TxGNN Knowledge Graph |
-| 5 | intrinsic asthma | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

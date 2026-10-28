@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: FENILEFRINA
 drugbank_id: DB00388
-evidence_level: L5
 permalink: /drugs/fenilefrina/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # FENILEFRINA
@@ -18,28 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 10 de 10) |
+| Número de Autorizaciones | 10 (vigentes: 10) |
 | DrugBank ID | [DB00388](https://go.drugbank.com/drugs/DB00388) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 12 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | allergic rhinitis | TxGNN Knowledge Graph |
-| 2 | proctitis | TxGNN Knowledge Graph |
-| 3 | atopic conjunctivitis | TxGNN Knowledge Graph |
-| 4 | rhinitis | TxGNN Knowledge Graph |
-| 5 | nasopharyngitis | TxGNN Knowledge Graph |
-| 6 | vernal conjunctivitis | TxGNN Knowledge Graph |
-| 7 | papillary conjunctivitis | TxGNN Knowledge Graph |
-| 8 | hemorrhoid | TxGNN Knowledge Graph |
-| 9 | pharyngitis | TxGNN Knowledge Graph |
-| 10 | headache disorder | TxGNN Knowledge Graph |
-| 11 | common cold | TxGNN Knowledge Graph |
-| 12 | vasomotor rhinitis | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: SERTRALINA
 drugbank_id: DB01104
-evidence_level: L5
 permalink: /drugs/sertralina/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # SERTRALINA
@@ -18,23 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: al menos 20) |
+| Número de Autorizaciones | al menos 20 |
 | DrugBank ID | [DB01104](https://go.drugbank.com/drugs/DB01104) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 7 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | phobic disorder | TxGNN Knowledge Graph |
-| 2 | dysthymic disorder | TxGNN Knowledge Graph |
-| 3 | social phobia | TxGNN Knowledge Graph |
-| 4 | obsessive-compulsive disorder | TxGNN Knowledge Graph |
-| 5 | anxiety disorder | TxGNN Knowledge Graph |
-| 6 | neurotic disorder | TxGNN Knowledge Graph |
-| 7 | post-traumatic stress disorder | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

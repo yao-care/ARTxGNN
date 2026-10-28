@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: ITRACONAZOL
 drugbank_id: DB01167
-evidence_level: L5
 permalink: /drugs/itraconazol/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # ITRACONAZOL
@@ -18,27 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 20 de 20) |
+| Número de Autorizaciones | 20 (vigentes: 20) |
 | DrugBank ID | [DB01167](https://go.drugbank.com/drugs/DB01167) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 11 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | candidemia | TxGNN Knowledge Graph |
-| 2 | aspergillosis | TxGNN Knowledge Graph |
-| 3 | coccidioidomycosis | TxGNN Knowledge Graph |
-| 4 | white piedra | TxGNN Knowledge Graph |
-| 5 | fusariosis | TxGNN Knowledge Graph |
-| 6 | blastomycosis | TxGNN Knowledge Graph |
-| 7 | disseminated candidiasis | TxGNN Knowledge Graph |
-| 8 | esophageal candidiasis | TxGNN Knowledge Graph |
-| 9 | sporotrichosis | TxGNN Knowledge Graph |
-| 10 | histoplasmosis | TxGNN Knowledge Graph |
-| 11 | black piedra | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

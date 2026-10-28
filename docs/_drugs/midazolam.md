@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 1
 monitor_inn: "MIDAZOLAM"
 predicted_indications: ["insomnia (disease)"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Midazolam: nueva indicación predicha, insomnio (insomnia (disease)) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
 ---
 

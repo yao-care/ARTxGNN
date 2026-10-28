@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: ESZOPICLONA
 drugbank_id: DB00402
-evidence_level: L5
 permalink: /drugs/eszopiclona/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # ESZOPICLONA
@@ -18,17 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 11 de 11) |
+| Número de Autorizaciones | 11 (vigentes: 11) |
 | DrugBank ID | [DB00402](https://go.drugbank.com/drugs/DB00402) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 1 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | insomnia (disease) | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

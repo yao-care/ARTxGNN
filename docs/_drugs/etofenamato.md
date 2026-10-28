@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: ETOFENAMATO
 drugbank_id: DB08984
-evidence_level: L5
 permalink: /drugs/etofenamato/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # ETOFENAMATO
@@ -18,19 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | DrugBank ID | [DB08984](https://go.drugbank.com/drugs/DB08984) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 3 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | osteoarthritis susceptibility | TxGNN Knowledge Graph |
-| 2 | osteoarthritis | TxGNN Knowledge Graph |
-| 3 | arthropathy | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

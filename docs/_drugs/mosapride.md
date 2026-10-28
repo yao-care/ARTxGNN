@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 196
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Mosapride: nueva indicación predicha, Insomnio (nivel de evidencia L5). Indicación original: Trastornos gastrointestinales (uso procinético"
 monitor_inn: "MOSAPRIDE"
 predicted_indications: ["insomnia (disease)"]

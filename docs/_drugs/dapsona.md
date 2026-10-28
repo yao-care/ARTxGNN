@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: DAPSONA
 drugbank_id: DB00250
-evidence_level: L5
 permalink: /drugs/dapsona/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # DAPSONA
@@ -18,19 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | DrugBank ID | [DB00250](https://go.drugbank.com/drugs/DB00250) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 3 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | dermatitis herpetiformis | TxGNN Knowledge Graph |
-| 2 | leprosy | TxGNN Knowledge Graph |
-| 3 | acne (disease) | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

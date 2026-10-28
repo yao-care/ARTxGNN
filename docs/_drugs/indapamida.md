@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: INDAPAMIDA
 drugbank_id: DB00808
-evidence_level: L5
 permalink: /drugs/indapamida/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # INDAPAMIDA
@@ -18,19 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 12 de 12) |
+| Número de Autorizaciones | 12 (vigentes: 12) |
 | DrugBank ID | [DB00808](https://go.drugbank.com/drugs/DB00808) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 3 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | hypertensive disorder | TxGNN Knowledge Graph |
-| 2 | congestive heart failure | TxGNN Knowledge Graph |
-| 3 | hypertension | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

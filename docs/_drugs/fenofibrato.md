@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: FENOFIBRATO
 drugbank_id: DB01039
-evidence_level: L5
 permalink: /drugs/fenofibrato/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # FENOFIBRATO
@@ -18,22 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 17 de 17) |
+| Número de Autorizaciones | 17 (vigentes: 17) |
 | DrugBank ID | [DB01039](https://go.drugbank.com/drugs/DB01039) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 6 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | hypertriglyceridemia (disease) | TxGNN Knowledge Graph |
-| 2 | hyperlipidemia | TxGNN Knowledge Graph |
-| 3 | obsolete familial combined hyperlipidemia | TxGNN Knowledge Graph |
-| 4 | hypoalphalipoproteinemia | TxGNN Knowledge Graph |
-| 5 | familial hyperlipidemia | TxGNN Knowledge Graph |
-| 6 | hyperlipidemia, familial combined, LPL related | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

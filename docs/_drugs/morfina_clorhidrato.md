@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: MORFINA,CLORHIDRATO
 drugbank_id: DB00295
-evidence_level: L5
 permalink: /drugs/morfina_clorhidrato/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # MORFINA,CLORHIDRATO
@@ -18,17 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 17 de 17) |
+| Número de Autorizaciones | 17 (vigentes: 17) |
 | DrugBank ID | [DB00295](https://go.drugbank.com/drugs/DB00295) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 1 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | diarrheal disease | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

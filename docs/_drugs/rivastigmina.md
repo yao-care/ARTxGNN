@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: RIVASTIGMINA
 drugbank_id: DB00989
-evidence_level: L5
 permalink: /drugs/rivastigmina/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # RIVASTIGMINA
@@ -18,21 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: al menos 20) |
+| Número de Autorizaciones | al menos 20 |
 | DrugBank ID | [DB00989](https://go.drugbank.com/drugs/DB00989) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 5 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | Pick disease | TxGNN Knowledge Graph |
-| 2 | Alzheimer disease | TxGNN Knowledge Graph |
-| 3 | Reye syndrome | TxGNN Knowledge Graph |
-| 4 | Alzheimer disease without neurofibrillary tangles | TxGNN Knowledge Graph |
-| 5 | cerebellar degeneration | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

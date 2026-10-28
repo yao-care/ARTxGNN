@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: TRIFLUOPERAZINA
 drugbank_id: DB00831
-evidence_level: L5
 permalink: /drugs/trifluoperazina/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # TRIFLUOPERAZINA
@@ -18,18 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | DrugBank ID | [DB00831](https://go.drugbank.com/drugs/DB00831) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 2 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | anxiety | TxGNN Knowledge Graph |
-| 2 | schizophrenia | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: ESPIRONOLACTONA
 drugbank_id: DB00421
-evidence_level: L5
 permalink: /drugs/espironolactona/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # ESPIRONOLACTONA
@@ -18,23 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: al menos 20) |
+| Número de Autorizaciones | al menos 20 |
 | DrugBank ID | [DB00421](https://go.drugbank.com/drugs/DB00421) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 7 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | hypertensive disorder | TxGNN Knowledge Graph |
-| 2 | Waterhouse-Friderichsen syndrome | TxGNN Knowledge Graph |
-| 3 | primary aldosteronism | TxGNN Knowledge Graph |
-| 4 | hyperaldosteronism | TxGNN Knowledge Graph |
-| 5 | congestive heart failure | TxGNN Knowledge Graph |
-| 6 | hypertension | TxGNN Knowledge Graph |
-| 7 | Bartter disease | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: ESTREPTOMICINA
 drugbank_id: DB01082
-evidence_level: L5
 permalink: /drugs/estreptomicina/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # ESTREPTOMICINA
@@ -18,26 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | DrugBank ID | [DB01082](https://go.drugbank.com/drugs/DB01082) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 10 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | granuloma inguinale | TxGNN Knowledge Graph |
-| 2 | necrotizing ulcerative gingivitis | TxGNN Knowledge Graph |
-| 3 | tularemia | TxGNN Knowledge Graph |
-| 4 | pulmonary tuberculosis | TxGNN Knowledge Graph |
-| 5 | chancroid | TxGNN Knowledge Graph |
-| 6 | plague | TxGNN Knowledge Graph |
-| 7 | yaws | TxGNN Knowledge Graph |
-| 8 | lymphogranuloma venereum | TxGNN Knowledge Graph |
-| 9 | leptospirosis | TxGNN Knowledge Graph |
-| 10 | brucellosis | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

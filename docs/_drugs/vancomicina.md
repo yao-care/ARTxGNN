@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: VANCOMICINA
 drugbank_id: DB00512
-evidence_level: L5
 permalink: /drugs/vancomicina/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # VANCOMICINA
@@ -18,25 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | DrugBank ID | [DB00512](https://go.drugbank.com/drugs/DB00512) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 9 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | staphylococcus aureus infection | TxGNN Knowledge Graph |
-| 2 | Clostridium difficile colitis | TxGNN Knowledge Graph |
-| 3 | staphylococcal infection | TxGNN Knowledge Graph |
-| 4 | perinatal necrotizing enterocolitis | TxGNN Knowledge Graph |
-| 5 | endocarditis | TxGNN Knowledge Graph |
-| 6 | arthropathy | TxGNN Knowledge Graph |
-| 7 | bacterial arthritis | TxGNN Knowledge Graph |
-| 8 | subacute bacterial endocarditis | TxGNN Knowledge Graph |
-| 9 | staphylococcal pneumonia | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

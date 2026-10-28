@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: SULFAMETOXAZOL
 drugbank_id: DB01015
-evidence_level: L5
 permalink: /drugs/sulfametoxazol/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # SULFAMETOXAZOL
@@ -18,25 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 17 de 17) |
+| Número de Autorizaciones | 17 (vigentes: 17) |
 | DrugBank ID | [DB01015](https://go.drugbank.com/drugs/DB01015) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 9 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | myiasis | TxGNN Knowledge Graph |
-| 2 | hirudiniasis | TxGNN Knowledge Graph |
-| 3 | nocardiosis | TxGNN Knowledge Graph |
-| 4 | toxoplasmosis | TxGNN Knowledge Graph |
-| 5 | infectious otitis media | TxGNN Knowledge Graph |
-| 6 | conjunctivitis | TxGNN Knowledge Graph |
-| 7 | pneumocystosis | TxGNN Knowledge Graph |
-| 8 | shigellosis | TxGNN Knowledge Graph |
-| 9 | cat-scratch disease | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

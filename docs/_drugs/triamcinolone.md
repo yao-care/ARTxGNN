@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "triamcinolone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Triamcinolone: nueva indicación predicha, alopecia mucinosa (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 

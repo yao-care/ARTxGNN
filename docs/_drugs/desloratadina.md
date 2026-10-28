@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: DESLORATADINA
 drugbank_id: DB00967
-evidence_level: L5
 permalink: /drugs/desloratadina/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # DESLORATADINA
@@ -18,26 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: al menos 20) |
+| Número de Autorizaciones | al menos 20 |
 | DrugBank ID | [DB00967](https://go.drugbank.com/drugs/DB00967) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 10 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | allergic rhinitis | TxGNN Knowledge Graph |
-| 2 | atopic conjunctivitis | TxGNN Knowledge Graph |
-| 3 | idiopathic urticaria | TxGNN Knowledge Graph |
-| 4 | nasopharyngitis | TxGNN Knowledge Graph |
-| 5 | allergic urticaria | TxGNN Knowledge Graph |
-| 6 | vernal conjunctivitis | TxGNN Knowledge Graph |
-| 7 | papillary conjunctivitis | TxGNN Knowledge Graph |
-| 8 | pharyngitis | TxGNN Knowledge Graph |
-| 9 | common cold | TxGNN Knowledge Graph |
-| 10 | vasomotor rhinitis | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

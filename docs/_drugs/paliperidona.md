@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: PALIPERIDONA
 drugbank_id: DB01267
-evidence_level: L5
 permalink: /drugs/paliperidona/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # PALIPERIDONA
@@ -18,21 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 6 de 6) |
+| Número de Autorizaciones | 6 (vigentes: 6) |
 | DrugBank ID | [DB01267](https://go.drugbank.com/drugs/DB01267) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 5 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | schizophrenia | TxGNN Knowledge Graph |
-| 2 | schizoaffective disorder | TxGNN Knowledge Graph |
-| 3 | mental disorder | TxGNN Knowledge Graph |
-| 4 | schizophreniform disorder | TxGNN Knowledge Graph |
-| 5 | psychotic disorder | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

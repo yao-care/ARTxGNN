@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: METOCLOPRAMIDA
 drugbank_id: DB01233
-evidence_level: L5
 permalink: /drugs/metoclopramida/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # METOCLOPRAMIDA
@@ -18,19 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 19 de 19) |
+| Número de Autorizaciones | 19 (vigentes: 19) |
 | DrugBank ID | [DB01233](https://go.drugbank.com/drugs/DB01233) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 3 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | gastroesophageal reflux disease | TxGNN Knowledge Graph |
-| 2 | esophagitis (disease) | TxGNN Knowledge Graph |
-| 3 | peptic esophagitis | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

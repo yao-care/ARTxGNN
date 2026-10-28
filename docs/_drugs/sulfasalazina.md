@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: SULFASALAZINA
 drugbank_id: DB00795
-evidence_level: L5
 permalink: /drugs/sulfasalazina/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # SULFASALAZINA
@@ -18,22 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | DrugBank ID | [DB00795](https://go.drugbank.com/drugs/DB00795) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 6 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | inflammatory bowel disease | TxGNN Knowledge Graph |
-| 2 | rheumatoid arthritis | TxGNN Knowledge Graph |
-| 3 | juvenile idiopathic arthritis | TxGNN Knowledge Graph |
-| 4 | ulcerative colitis (disease) | TxGNN Knowledge Graph |
-| 5 | spondyloarthropathy | TxGNN Knowledge Graph |
-| 6 | juvenile arthritis due to defect in LACC1 | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

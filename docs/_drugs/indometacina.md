@@ -5,10 +5,11 @@ layout: default
 nav_exclude: true
 title: INDOMETACINA
 drugbank_id: DB00328
-evidence_level: L5
 permalink: /drugs/indometacina/
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # INDOMETACINA
@@ -17,31 +18,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 9 de 9) |
+| Número de Autorizaciones | 9 (vigentes: 9) |
 | DrugBank ID | [DB00328](https://go.drugbank.com/drugs/DB00328) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 15 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | exostosis | TxGNN Knowledge Graph |
-| 2 | patent ductus arteriosus | TxGNN Knowledge Graph |
-| 3 | ankylosing spondylitis | TxGNN Knowledge Graph |
-| 4 | osteoarthritis | TxGNN Knowledge Graph |
-| 5 | bursitis | TxGNN Knowledge Graph |
-| 6 | synovitis (disease) | TxGNN Knowledge Graph |
-| 7 | rheumatoid arthritis | TxGNN Knowledge Graph |
-| 8 | spondyloarthropathy, susceptibility to | TxGNN Knowledge Graph |
-| 9 | tendinitis | TxGNN Knowledge Graph |
-| 10 | tenosynovitis | TxGNN Knowledge Graph |
-| 11 | arthropathy | TxGNN Knowledge Graph |
-| 12 | osteoarthritis susceptibility | TxGNN Knowledge Graph |
-| 13 | frozen shoulder | TxGNN Knowledge Graph |
-| 14 | periarthritis | TxGNN Knowledge Graph |
-| 15 | gout | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

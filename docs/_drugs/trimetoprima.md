@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: TRIMETOPRIMA
 drugbank_id: DB00440
-evidence_level: L5
 permalink: /drugs/trimetoprima/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # TRIMETOPRIMA
@@ -18,23 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 17 de 17) |
+| Número de Autorizaciones | 17 (vigentes: 17) |
 | DrugBank ID | [DB00440](https://go.drugbank.com/drugs/DB00440) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 7 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | acute contagious conjunctivitis | TxGNN Knowledge Graph |
-| 2 | blepharoconjunctivitis | TxGNN Knowledge Graph |
-| 3 | infectious otitis media | TxGNN Knowledge Graph |
-| 4 | urinary tract infection (disease) | TxGNN Knowledge Graph |
-| 5 | conjunctivitis | TxGNN Knowledge Graph |
-| 6 | pneumocystosis | TxGNN Knowledge Graph |
-| 7 | shigellosis | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

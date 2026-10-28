@@ -5,10 +5,11 @@ layout: default
 nav_exclude: true
 title: DOXICICLINA
 drugbank_id: DB00254
-evidence_level: L5
 permalink: /drugs/doxiciclina/
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # DOXICICLINA
@@ -17,68 +18,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 9 de 9) |
+| Número de Autorizaciones | 9 (vigentes: 9) |
 | DrugBank ID | [DB00254](https://go.drugbank.com/drugs/DB00254) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 51 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | actinomycosis | TxGNN Knowledge Graph |
-| 2 | Q fever | TxGNN Knowledge Graph |
-| 3 | tularemia | TxGNN Knowledge Graph |
-| 4 | bartonellosis | TxGNN Knowledge Graph |
-| 5 | chlamydia trachomatis infectious disease | TxGNN Knowledge Graph |
-| 6 | trachoma | TxGNN Knowledge Graph |
-| 7 | Actinomycetales infectious disease | TxGNN Knowledge Graph |
-| 8 | scrub typhus | TxGNN Knowledge Graph |
-| 9 | pharyngitis | TxGNN Knowledge Graph |
-| 10 | brucellosis | TxGNN Knowledge Graph |
-| 11 | listeriosis | TxGNN Knowledge Graph |
-| 12 | trypanosomiasis | TxGNN Knowledge Graph |
-| 13 | rickettsialpox | TxGNN Knowledge Graph |
-| 14 | gonorrhea | TxGNN Knowledge Graph |
-| 15 | necrotizing ulcerative gingivitis | TxGNN Knowledge Graph |
-| 16 | spotted fever | TxGNN Knowledge Graph |
-| 17 | bacterial pneumonia | TxGNN Knowledge Graph |
-| 18 | Rocky mountain spotted fever | TxGNN Knowledge Graph |
-| 19 | yaws | TxGNN Knowledge Graph |
-| 20 | bronchitis | TxGNN Knowledge Graph |
-| 21 | acne (disease) | TxGNN Knowledge Graph |
-| 22 | acute gonococcal cervicitis | TxGNN Knowledge Graph |
-| 23 | urethritis (disease) | TxGNN Knowledge Graph |
-| 24 | conjunctivitis | TxGNN Knowledge Graph |
-| 25 | relapsing fever | TxGNN Knowledge Graph |
-| 26 | Japanese spotted fever | TxGNN Knowledge Graph |
-| 27 | granuloma inguinale | TxGNN Knowledge Graph |
-| 28 | cholera | TxGNN Knowledge Graph |
-| 29 | gonococcal epididymo-orchitis | TxGNN Knowledge Graph |
-| 30 | endemic typhus | TxGNN Knowledge Graph |
-| 31 | inhalational anthrax | TxGNN Knowledge Graph |
-| 32 | Brill-Zinsser disease | TxGNN Knowledge Graph |
-| 33 | erythrasma | TxGNN Knowledge Graph |
-| 34 | syphilis | TxGNN Knowledge Graph |
-| 35 | Rickettsiosis | TxGNN Knowledge Graph |
-| 36 | epidemic louse-borne typhus | TxGNN Knowledge Graph |
-| 37 | lymphogranuloma venereum | TxGNN Knowledge Graph |
-| 38 | anthrax infection | TxGNN Knowledge Graph |
-| 39 | sinusitis | TxGNN Knowledge Graph |
-| 40 | typhus | TxGNN Knowledge Graph |
-| 41 | gastrointestinal anthrax | TxGNN Knowledge Graph |
-| 42 | cat-scratch disease | TxGNN Knowledge Graph |
-| 43 | relapsing epidemic typhus | TxGNN Knowledge Graph |
-| 44 | acute gonococcal endometritis | TxGNN Knowledge Graph |
-| 45 | chancroid | TxGNN Knowledge Graph |
-| 46 | chlamydia infectious disease | TxGNN Knowledge Graph |
-| 47 | boutonneuse fever | TxGNN Knowledge Graph |
-| 48 | Mycoplasma pneumoniae pneumonia | TxGNN Knowledge Graph |
-| 49 | ornithosis | TxGNN Knowledge Graph |
-| 50 | cutaneous anthrax | TxGNN Knowledge Graph |
-
-*(Showing top 50 of 51 predictions)*
 
 ## Disclaimer
 

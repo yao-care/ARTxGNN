@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: NISTATINA
 drugbank_id: DB00646
-evidence_level: L5
 permalink: /drugs/nistatina/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # NISTATINA
@@ -18,20 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 7 de 7) |
+| Número de Autorizaciones | 7 (vigentes: 7) |
 | DrugBank ID | [DB00646](https://go.drugbank.com/drugs/DB00646) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 4 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | candidiasis | TxGNN Knowledge Graph |
-| 2 | oral candidiasis | TxGNN Knowledge Graph |
-| 3 | vulvovaginal candidiasis | TxGNN Knowledge Graph |
-| 4 | cutaneous candidiasis | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

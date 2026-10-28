@@ -5,10 +5,11 @@ layout: default
 nav_exclude: true
 title: CLORANFENICOL
 drugbank_id: DB00446
-evidence_level: L5
 permalink: /drugs/cloranfenicol/
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # CLORANFENICOL
@@ -17,30 +18,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 3 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 3) |
 | DrugBank ID | [DB00446](https://go.drugbank.com/drugs/DB00446) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 14 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | typhoid fever | TxGNN Knowledge Graph |
-| 2 | skin disease caused by infection | TxGNN Knowledge Graph |
-| 3 | streptococcal meningitis | TxGNN Knowledge Graph |
-| 4 | Q fever | TxGNN Knowledge Graph |
-| 5 | trypanosomiasis | TxGNN Knowledge Graph |
-| 6 | spotted fever | TxGNN Knowledge Graph |
-| 7 | paratyphoid fever | TxGNN Knowledge Graph |
-| 8 | boutonneuse fever | TxGNN Knowledge Graph |
-| 9 | Rickettsiosis | TxGNN Knowledge Graph |
-| 10 | meningococcal infection | TxGNN Knowledge Graph |
-| 11 | salmonellosis | TxGNN Knowledge Graph |
-| 12 | typhus | TxGNN Knowledge Graph |
-| 13 | external ear disease | TxGNN Knowledge Graph |
-| 14 | otitis externa | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

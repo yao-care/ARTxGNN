@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: PROGESTERONA
 drugbank_id: DB00396
-evidence_level: L5
 permalink: /drugs/progesterona/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # PROGESTERONA
@@ -18,25 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 11 de 11) |
+| Número de Autorizaciones | 11 (vigentes: 11) |
 | DrugBank ID | [DB00396](https://go.drugbank.com/drugs/DB00396) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 9 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | endometriosis (disease) | TxGNN Knowledge Graph |
-| 2 | endometrial cancer | TxGNN Knowledge Graph |
-| 3 | postmenopausal atrophic vaginitis | TxGNN Knowledge Graph |
-| 4 | postmenopausal osteoporosis | TxGNN Knowledge Graph |
-| 5 | endometrium neoplasm | TxGNN Knowledge Graph |
-| 6 | uterine corpus cancer | TxGNN Knowledge Graph |
-| 7 | endometriosis of uterus | TxGNN Knowledge Graph |
-| 8 | osteoporosis | TxGNN Knowledge Graph |
-| 9 | endometrial carcinoma (disease) | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

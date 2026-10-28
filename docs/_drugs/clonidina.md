@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: CLONIDINA
 drugbank_id: DB00575
-evidence_level: L5
 permalink: /drugs/clonidina/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # CLONIDINA
@@ -18,21 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | DrugBank ID | [DB00575](https://go.drugbank.com/drugs/DB00575) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 5 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | hypertensive disorder | TxGNN Knowledge Graph |
-| 2 | attention deficit hyperactivity disorder, inattentive type | TxGNN Knowledge Graph |
-| 3 | open-angle glaucoma | TxGNN Knowledge Graph |
-| 4 | hypertension | TxGNN Knowledge Graph |
-| 5 | attention deficit-hyperactivity disorder | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

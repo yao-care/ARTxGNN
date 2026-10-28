@@ -5,10 +5,11 @@ layout: default
 nav_exclude: true
 title: HISTAMINA
 drugbank_id: DB05381
-evidence_level: L5
 permalink: /drugs/histamina/
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # HISTAMINA
@@ -17,34 +18,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | DrugBank ID | [DB05381](https://go.drugbank.com/drugs/DB05381) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 18 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | osteoarthritis | TxGNN Knowledge Graph |
-| 2 | acute myeloid leukemia with t(6;9)(p23;q34) | TxGNN Knowledge Graph |
-| 3 | unclassified acute myeloid leukemia | TxGNN Knowledge Graph |
-| 4 | acute myeloid leukemia with CEBPA somatic mutations | TxGNN Knowledge Graph |
-| 5 | acute myeloid leukemia with t(9;11)(p22;q23) | TxGNN Knowledge Graph |
-| 6 | acute myeloid leukemia with t(8;21)(q22;q22) translocation | TxGNN Knowledge Graph |
-| 7 | acute myeloid leukemia with t(8;16)(p11;p13) translocation | TxGNN Knowledge Graph |
-| 8 | acute myeloid leukemia with NPM1 somatic mutations | TxGNN Knowledge Graph |
-| 9 | therapy related acute myeloid leukemia and myelodysplastic syndrome | TxGNN Knowledge Graph |
-| 10 | acute myeloid leukemia with minimal differentiation | TxGNN Knowledge Graph |
-| 11 | acute myeloblastic leukemia with maturation | TxGNN Knowledge Graph |
-| 12 | acute myeloid leukemia with inv3(p21;q26.2) or t(3;3)(p21;q26.2) | TxGNN Knowledge Graph |
-| 13 | inherited acute myeloid leukemia | TxGNN Knowledge Graph |
-| 14 | arthropathy | TxGNN Knowledge Graph |
-| 15 | acute myeloid leukemia and myelodysplastic syndromes related to topoisomerase type 2 inhibitor | TxGNN Knowledge Graph |
-| 16 | osteoarthritis susceptibility | TxGNN Knowledge Graph |
-| 17 | acute myeloblastic leukemia without maturation | TxGNN Knowledge Graph |
-| 18 | myeloid leukemia | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

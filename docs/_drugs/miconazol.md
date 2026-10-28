@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: MICONAZOL
 drugbank_id: DB01110
-evidence_level: L5
 permalink: /drugs/miconazol/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # MICONAZOL
@@ -18,24 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: al menos 20) |
+| Número de Autorizaciones | al menos 20 |
 | DrugBank ID | [DB01110](https://go.drugbank.com/drugs/DB01110) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 8 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | pityriasis versicolor | TxGNN Knowledge Graph |
-| 2 | vulvovaginal candidiasis | TxGNN Knowledge Graph |
-| 3 | tinea infection | TxGNN Knowledge Graph |
-| 4 | tinea pedis | TxGNN Knowledge Graph |
-| 5 | dermatophytosis of groin and perianal area | TxGNN Knowledge Graph |
-| 6 | cutaneous candidiasis | TxGNN Knowledge Graph |
-| 7 | tinea unguium | TxGNN Knowledge Graph |
-| 8 | tinea corporis | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

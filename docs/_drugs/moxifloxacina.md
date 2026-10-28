@@ -5,10 +5,11 @@ layout: default
 nav_exclude: true
 title: MOXIFLOXACINA
 drugbank_id: DB00218
-evidence_level: L5
 permalink: /drugs/moxifloxacina/
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # MOXIFLOXACINA
@@ -17,32 +18,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 10 de 10) |
+| Número de Autorizaciones | 10 (vigentes: 10) |
 | DrugBank ID | [DB00218](https://go.drugbank.com/drugs/DB00218) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 16 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | streptococcal pneumonia | TxGNN Knowledge Graph |
-| 2 | staphylococcus aureus infection | TxGNN Knowledge Graph |
-| 3 | streptococcal infection | TxGNN Knowledge Graph |
-| 4 | acute contagious conjunctivitis | TxGNN Knowledge Graph |
-| 5 | rhinoscleroma | TxGNN Knowledge Graph |
-| 6 | Klebsiella pneumonia | TxGNN Knowledge Graph |
-| 7 | staphylococcal pneumonia | TxGNN Knowledge Graph |
-| 8 | septicemic plague | TxGNN Knowledge Graph |
-| 9 | bacterial pneumonia | TxGNN Knowledge Graph |
-| 10 | staphylococcal infection | TxGNN Knowledge Graph |
-| 11 | Mycoplasma pneumoniae pneumonia | TxGNN Knowledge Graph |
-| 12 | pneumonia caused by chlamydia | TxGNN Knowledge Graph |
-| 13 | plague | TxGNN Knowledge Graph |
-| 14 | pneumonic plague | TxGNN Knowledge Graph |
-| 15 | conjunctivitis | TxGNN Knowledge Graph |
-| 16 | peritonitis | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

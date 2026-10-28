@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "mupirocin"
 predicted_indications: ["pleural empyema (disease)", "punctate epithelial keratoconjunctivitis"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Mupirocin: nueva indicación predicha, Empiema pleural (pleural empyema) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 

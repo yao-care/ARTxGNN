@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: QUETIAPINA
 drugbank_id: DB01224
-evidence_level: L5
 permalink: /drugs/quetiapina/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # QUETIAPINA
@@ -18,20 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: al menos 20) |
+| Número de Autorizaciones | al menos 20 |
 | DrugBank ID | [DB01224](https://go.drugbank.com/drugs/DB01224) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 4 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | manic bipolar affective disorder | TxGNN Knowledge Graph |
-| 2 | major affective disorder | TxGNN Knowledge Graph |
-| 3 | schizophrenia | TxGNN Knowledge Graph |
-| 4 | bipolar disorder | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

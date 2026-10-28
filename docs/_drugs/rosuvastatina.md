@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: ROSUVASTATINA
 drugbank_id: DB01098
-evidence_level: L5
 permalink: /drugs/rosuvastatina/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # ROSUVASTATINA
@@ -18,27 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: al menos 20) |
+| Número de Autorizaciones | al menos 20 |
 | DrugBank ID | [DB01098](https://go.drugbank.com/drugs/DB01098) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 11 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | hypertriglyceridemia (disease) | TxGNN Knowledge Graph |
-| 2 | stroke disorder | TxGNN Knowledge Graph |
-| 3 | obsolete susceptibility to ischemic stroke | TxGNN Knowledge Graph |
-| 4 | cerebrovascular disorder | TxGNN Knowledge Graph |
-| 5 | homozygous familial hypercholesterolemia | TxGNN Knowledge Graph |
-| 6 | hyperlipoproteinemia | TxGNN Knowledge Graph |
-| 7 | obsolete familial combined hyperlipidemia | TxGNN Knowledge Graph |
-| 8 | arteriosclerosis disorder | TxGNN Knowledge Graph |
-| 9 | atherosclerosis | TxGNN Knowledge Graph |
-| 10 | cerebral infarction | TxGNN Knowledge Graph |
-| 11 | hyperlipidemia, familial combined, LPL related | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

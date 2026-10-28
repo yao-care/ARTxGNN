@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: TINIDAZOL
 drugbank_id: DB00911
-evidence_level: L5
 permalink: /drugs/tinidazol/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # TINIDAZOL
@@ -18,23 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 5 de 5) |
+| Número de Autorizaciones | 5 (vigentes: 5) |
 | DrugBank ID | [DB00911](https://go.drugbank.com/drugs/DB00911) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 7 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | amoebiasis due to Entamoeba histolytica | TxGNN Knowledge Graph |
-| 2 | bacterial vaginosis | TxGNN Knowledge Graph |
-| 3 | vulvovaginitis | TxGNN Knowledge Graph |
-| 4 | trichomoniasis | TxGNN Knowledge Graph |
-| 5 | vaginitis (disease) | TxGNN Knowledge Graph |
-| 6 | vulvitis | TxGNN Knowledge Graph |
-| 7 | giardiasis | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

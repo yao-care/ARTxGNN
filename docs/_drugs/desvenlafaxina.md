@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: DESVENLAFAXINA
 drugbank_id: DB06700
-evidence_level: L5
 permalink: /drugs/desvenlafaxina/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # DESVENLAFAXINA
@@ -18,20 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 16 de 16) |
+| Número de Autorizaciones | 16 (vigentes: 16) |
 | DrugBank ID | [DB06700](https://go.drugbank.com/drugs/DB06700) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 4 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | endogenous depression | TxGNN Knowledge Graph |
-| 2 | major depressive disorder | TxGNN Knowledge Graph |
-| 3 | unipolar depression | TxGNN Knowledge Graph |
-| 4 | anxiety disorder | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: GRISEOFULVINA
 drugbank_id: DB00400
-evidence_level: L5
 permalink: /drugs/griseofulvina/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # GRISEOFULVINA
@@ -18,23 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | DrugBank ID | [DB00400](https://go.drugbank.com/drugs/DB00400) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 7 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | dermatophytosis of scalp or beard | TxGNN Knowledge Graph |
-| 2 | tinea infection | TxGNN Knowledge Graph |
-| 3 | tinea pedis | TxGNN Knowledge Graph |
-| 4 | dermatophytosis of groin and perianal area | TxGNN Knowledge Graph |
-| 5 | tinea barbae | TxGNN Knowledge Graph |
-| 6 | tinea unguium | TxGNN Knowledge Graph |
-| 7 | tinea corporis | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

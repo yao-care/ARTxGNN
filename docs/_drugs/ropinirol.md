@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: ROPINIROL
 drugbank_id: DB00268
-evidence_level: L5
 permalink: /drugs/ropinirol/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # ROPINIROL
@@ -18,25 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 7 de 7) |
+| Número de Autorizaciones | 7 (vigentes: 7) |
 | DrugBank ID | [DB00268](https://go.drugbank.com/drugs/DB00268) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 9 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | hereditary late onset Parkinson disease | TxGNN Knowledge Graph |
-| 2 | Parkinson disease | TxGNN Knowledge Graph |
-| 3 | hemiparkinsonism-hemiatrophy syndrome | TxGNN Knowledge Graph |
-| 4 | atypical juvenile parkinsonism | TxGNN Knowledge Graph |
-| 5 | parkinsonian-pyramidal syndrome | TxGNN Knowledge Graph |
-| 6 | X-linked parkinsonism-spasticity syndrome | TxGNN Knowledge Graph |
-| 7 | juvenile onset Parkinson disease 19A | TxGNN Knowledge Graph |
-| 8 | restless legs syndrome | TxGNN Knowledge Graph |
-| 9 | early-onset parkinsonism-intellectual disability syndrome | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

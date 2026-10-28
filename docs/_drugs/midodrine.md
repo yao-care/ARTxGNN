@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "MIDODRINE"
 predicted_indications: ["variably protease-sensitive prionopathy", "faciodigitogenital syndrome", "attention deficit-hyperactivity disorder", "hypotensive disorder", "attention deficit hyperactivity disorder, inattentive type", "sinoatrial node disease", "monogenic obesity", "specific developmental disorder", "obsolete hypertelorism (disease)", "sinoatrial block"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Midodrine: nueva indicación predicha, Prionopatía variablemente sensible a proteasas (variably protease-sensitive prionopathy) (nivel de evidencia L5). Indicación original: No consta en los datos loc…"
 ---
 

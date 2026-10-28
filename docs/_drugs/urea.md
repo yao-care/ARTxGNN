@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: UREA
 drugbank_id: DB03904
-evidence_level: L5
 permalink: /drugs/urea/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # UREA
@@ -18,25 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | DrugBank ID | [DB03904](https://go.drugbank.com/drugs/DB03904) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 9 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | pityriasis simplex | TxGNN Knowledge Graph |
-| 2 | occupational dermatitis | TxGNN Knowledge Graph |
-| 3 | seborrheic dermatitis | TxGNN Knowledge Graph |
-| 4 | pityriasis versicolor | TxGNN Knowledge Graph |
-| 5 | dermatitis, atopic | TxGNN Knowledge Graph |
-| 6 | contact dermatitis | TxGNN Knowledge Graph |
-| 7 | exanthem (disease) | TxGNN Knowledge Graph |
-| 8 | seborrheic keratosis | TxGNN Knowledge Graph |
-| 9 | atopic eczema | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

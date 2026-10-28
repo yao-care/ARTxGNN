@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: NICOTINA
 drugbank_id: DB00184
-evidence_level: L5
 permalink: /drugs/nicotina/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # NICOTINA
@@ -18,19 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | DrugBank ID | [DB00184](https://go.drugbank.com/drugs/DB00184) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 3 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | pellagra | TxGNN Knowledge Graph |
-| 2 | beriberi | TxGNN Knowledge Graph |
-| 3 | nicotine dependence | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

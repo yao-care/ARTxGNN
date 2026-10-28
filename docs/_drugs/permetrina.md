@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: PERMETRINA
 drugbank_id: DB04930
-evidence_level: L5
 permalink: /drugs/permetrina/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # PERMETRINA
@@ -18,22 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | DrugBank ID | [DB04930](https://go.drugbank.com/drugs/DB04930) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 6 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | scabies | TxGNN Knowledge Graph |
-| 2 | mite infestation | TxGNN Knowledge Graph |
-| 3 | Pthirus pubis infestation | TxGNN Knowledge Graph |
-| 4 | Pediculus humanus corporis infestation | TxGNN Knowledge Graph |
-| 5 | Norwegian scabies | TxGNN Knowledge Graph |
-| 6 | Pediculus humanus capitis infestation | TxGNN Knowledge Graph |
 
 ## Disclaimer
 

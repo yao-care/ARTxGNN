@@ -5,11 +5,12 @@ layout: default
 nav_exclude: true
 title: INSULINA GLARGINA
 drugbank_id: DB00047
-evidence_level: L5
 permalink: /drugs/insulina_glargina/
 search_exclude: true
-last_modified_at: 2026-05-03
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # INSULINA GLARGINA
@@ -18,21 +19,10 @@ predicted_indications: []
 
 | Item | Value |
 |------|-------|
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 4 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 4) |
 | DrugBank ID | [DB00047](https://go.drugbank.com/drugs/DB00047) |
-| Evidence Level | L5 (Computational Prediction) |
 | Number of Predicted Indications | 5 |
-
-## Predicted Indications (TxGNN)
-
-The following are potential new indications predicted by the TxGNN model. Higher scores indicate higher predicted relevance.
-
-| # | Indication | Source |
-|---|------------|--------|
-| 1 | type 1 diabetes mellitus | TxGNN Knowledge Graph |
-| 2 | IDDM 1 | TxGNN Knowledge Graph |
-| 3 | diabetic ketoacidosis | TxGNN Knowledge Graph |
-| 4 | type 2 diabetes mellitus | TxGNN Knowledge Graph |
-| 5 | diabetes mellitus (disease) | TxGNN Knowledge Graph |
 
 ## Disclaimer
 
