@@ -8,6 +8,7 @@ nav_order: 39
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Atropina Sulfato
@@ -49,8 +50,8 @@ Atropina Sulfato es un agente anticolinérgico ampliamente conocido, utilizado c
 | Nueva Indicación Predicha | — Sin predicciones disponibles — |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | L5 (sin evidencia disponible para reposicionamiento) |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | **Hold** |
 
 > **Nota:** Aunque la atropina sulfato es un fármaco bien establecido a nivel mundial con múltiples indicaciones conocidas (anticolinérgico, antiespasmódico, midriático, antídoto para intoxicación por organofosforados), el Evidence Pack no contiene registros de indicaciones originales aprobadas ni autorizaciones en Argentina.

@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Clobetasone
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 113
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Clobetasone: nueva indicación predicha, Linfoma cutáneo primario de células T (nivel de evidencia L4). Indicación original: No disponible en la autorización de ANMAT (texto de indicación vacío)"
@@ -14,7 +14,7 @@ predicted_indications: ["primary cutaneous T-cell lymphoma", "Sezary syndrome", 
 # Clobetasone
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para el **linfoma cutáneo prim
 |------|------|
 | Indicación Original | No disponible en la autorización de ANMAT (texto de indicación vacío) |
 | Nueva Indicación Predicha | Linfoma cutáneo primario de células T |
-| Puntaje de Predicción TxGNN | 99.97% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Puntaje de Predicción TxGNN | 0.9997 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -69,15 +69,15 @@ Clobetasona es de potencia baja a moderada (clase III), por lo que **no puede as
 
 | Posición | Enfermedad | Puntaje TxGNN | Nivel de Evidencia | Valoración |
 |------|------|------|------|------|
-| 2 | Síndrome de Sézary | 99.78% | L5 | Los corticosteroides son solo terapia adyuvante o sintomática; los agentes tópicos de potencia baja a moderada difícilmente modifiquen la enfermedad. |
-| 3 | Linfoma cutáneo primario de células B | 99.77% | L5 | El tratamiento estándar es radioterapia, escisión o rituximab; los corticosteroides tópicos no tienen un papel establecido. |
-| 4 | Enfermedad de la piel laxa granulomatosa | 99.74% | L5 | Variante muy rara de linfoma cutáneo de células T; la predicción probablemente refleja la vecindad en el grafo de conocimiento. |
-| 5 | Colitis de Crohn | 99.72% | L5 | Los corticosteroides sistémicos o entéricos se usan en Crohn, pero clobetasona es tópica y su traslación es implausible sin reformulación. |
-| 6 | Insuficiencia suprarrenal | 99.71% | L5 | Probable artefacto de efecto de clase; el uso excesivo de clobetasona puede, de hecho, suprimir el eje HHA. |
-| 7 | Linfoma cutáneo primario de células T no Hodgkin | 99.70% | L4 | Categoría superpuesta con la primera; mismo razonamiento indirecto y misma limitación de potencia. |
-| 8 | Síndrome nefrótico | 99.69% | L5 | Los corticosteroides sistémicos son de primera línea, pero la exposición sistémica de clobetasona tópica es mínima. |
-| 9 | Teratoma quístico | 99.65% | L5 | Sin mecanismo biológico plausible; probable artefacto del grafo. |
-| 10 | Quiste dermoide de médula espinal | 99.65% | L5 | Lesión congénita de manejo quirúrgico; sin mecanismo farmacológico plausible. |
+| 2 | Síndrome de Sézary | 0.9978 | L5 | Los corticosteroides son solo terapia adyuvante o sintomática; los agentes tópicos de potencia baja a moderada difícilmente modifiquen la enfermedad. |
+| 3 | Linfoma cutáneo primario de células B | 0.9977 | L5 | El tratamiento estándar es radioterapia, escisión o rituximab; los corticosteroides tópicos no tienen un papel establecido. |
+| 4 | Enfermedad de la piel laxa granulomatosa | 0.9974 | L5 | Variante muy rara de linfoma cutáneo de células T; la puntuación procede del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. |
+| 5 | Colitis de Crohn | 0.9972 | L5 | Los corticosteroides sistémicos o entéricos se usan en Crohn, pero clobetasona es tópica y su traslación es implausible sin reformulación. |
+| 6 | Insuficiencia suprarrenal | 0.9971 | L5 | Probable artefacto de efecto de clase; el uso excesivo de clobetasona puede, de hecho, suprimir el eje HHA. |
+| 7 | Linfoma cutáneo primario de células T no Hodgkin | 0.9970 | L5 | Categoría superpuesta con la primera; mismo razonamiento indirecto y misma limitación de potencia. |
+| 8 | Síndrome nefrótico | 0.9969 | L5 | Los corticosteroides sistémicos son de primera línea, pero la exposición sistémica de clobetasona tópica es mínima. |
+| 9 | Teratoma quístico | 0.9965 | L5 | Sin mecanismo biológico plausible; la puntuación procede del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. |
+| 10 | Quiste dermoide de médula espinal | 0.9965 | L5 | Lesión congénita de manejo quirúrgico; sin mecanismo farmacológico plausible. |
 
 ---
 

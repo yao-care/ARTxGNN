@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome nefrogénic
 |------|------|
 | Indicación Original | No consignada en las autorizaciones de ANMAT (fármaco broncodilatador inhalado) |
 | Nueva Indicación Predicha | Síndrome nefrogénico de antidiuresis inapropiada (NSIAD) |
-| Puntaje de Predicción TxGNN | 99.54% |
+| Puntaje de Predicción TxGNN | 0.9954 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,7 +63,7 @@ Indacaterol es un agonista beta2-adrenérgico de acción ultra-prolongada. Activ
 
 El NSIAD está causado por mutaciones activadoras del receptor V2 de vasopresina (AVPR2), que señaliza a través de la vía Gs/AMPc. Mecanísticamente, el agonismo beta2 no suprimiría esta vía y, de hecho, podría sumar señalización de AMPc. **Por lo tanto, no existe una justificación clara de beneficio.** El puntaje alto del modelo no está respaldado por un vínculo biológico identificable.
 
-Hay que interpretar la predicción con cautela. Probablemente refleja asociaciones del grafo de conocimiento y no un efecto terapéutico real.
+Hay que interpretar la predicción con cautela. La puntuación procede del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni un efecto terapéutico real.
 
 ---
 
@@ -115,7 +115,7 @@ La predicción para NSIAD carece de ensayos, literatura y mecanismo plausible (L
 - El texto de la indicación aprobada y las advertencias y contraindicaciones del prospecto de ANMAT.
 - Datos formales del mecanismo de acción.
 
-**Nota complementaria:** entre las otras predicciones del modelo, la de **enfermedad bronquial** (puntaje 99.18%) tiene respaldo clínico amplio, con ensayos de Fase 3 y literatura sobre asma. Sin embargo, corresponde en gran parte a un uso ya conocido de indacaterol. En asma se respalda sobre todo mediante combinaciones con corticoide inhalado, no como monoterapia.
+**Nota complementaria:** entre las otras predicciones del modelo, la de **enfermedad bronquial** (puntaje 0.9918) tiene respaldo clínico amplio, con ensayos de Fase 3 y literatura sobre asma. Sin embargo, corresponde en gran parte a un uso ya conocido de indacaterol. En asma se respalda sobre todo mediante combinaciones con corticoide inhalado, no como monoterapia.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

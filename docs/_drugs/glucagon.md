@@ -48,10 +48,10 @@ La evidencia es principalmente mecanística e indirecta.
 |------|------|
 | Indicación Original | No disponible en los datos compilados (el texto de indicación de la autorización está vacío) |
 | Nueva Indicación Predicha | Síndrome del intestino irritable |
-| Puntaje de Predicción TxGNN | 99,24% |
+| Puntaje de Predicción TxGNN | 0,9924 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La evidencia aportada se refiere al GLP-1 y a sus análogos (GLP-1 nativo y ROSE-010, un agonista del receptor de GLP-1), que inhiben la motilidad gastrointestinal y podrían reducir el dolor visceral. Además, el glucagón tiene un conocido efecto antiespasmódico sobre el músculo liso, utilizado en radiología y endoscopia digestiva. Esto ofrece un vínculo plausible, aunque indirecto, con síntomas del intestino irritable como los calambres y la motilidad alterada.
 
-Ningún ensayo presentado evaluó el glucagón en sí mismo en pacientes con intestino irritable. El puntaje alto de TxGNN (0,992) es una predicción computacional y no constituye evidencia clínica.
+Ningún ensayo presentado evaluó el glucagón en sí mismo en pacientes con intestino irritable. El puntaje alto de TxGNN (0,9924) es una predicción computacional y no constituye evidencia clínica.
 
 ## Evidencia de Ensayos Clínicos
 

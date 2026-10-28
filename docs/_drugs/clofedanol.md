@@ -4,17 +4,17 @@ title: Clofedanol
 parent: Solo Predicción del Modelo (L5)
 nav_order: 114
 evidence_level: L5
-indication_count: 7
-last_modified_at: 2026-10-13
-description: "Clofedanol: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L5). Indicación original: Rinitis alérgica, rinitis vasomotora, faringitis, resfriado común…"
+indication_count: 6
 monitor_inn: "clofedanol"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "allergic urticaria", "papillary conjunctivitis", "cold urticaria", "faucial diphtheria", "cervical disc degenerative disorder"]
+predicted_indications: ["nasal cavity disease", "allergic urticaria", "papillary conjunctivitis", "cold urticaria", "faucial diphtheria", "cervical disc degenerative disorder"]
+last_modified_at: 2026-10-27
+description: "Clofedanol: nueva indicación predicha, enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Clofedanol
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,42 +33,34 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-## Clofedanol: De Rinitis Alérgica y Resfriado Común a Enfermedad de la Cavidad Nasal
+## Clofedanol: antitusivo de acción central → enfermedad de la cavidad nasal (nasal cavity disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Clofedanol (comercializado como UNITOS y COFRON) se utiliza originalmente para el alivio sintomático de cuadros de las vías respiratorias altas, como la rinitis alérgica, la rinitis vasomotora, la faringitis, el resfriado común y la nasofaringitis.
-El modelo TxGNN predice que podría ser efectivo para **enfermedad de la cavidad nasal**, pero hasta ahora **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata solo de una predicción computacional.
+Clofedanol es un fármaco de uso respiratorio que se comercializa en Argentina en jarabes, con varias autorizaciones vigentes.
+El modelo TxGNN predice que podría ser efectivo para **enfermedad de la cavidad nasal (nasal cavity disease)**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** en los datos compilados para este informe que respalden esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Rinitis alérgica, rinitis vasomotora, faringitis, resfriado común, rinitis y nasofaringitis (según el grafo de conocimiento; los textos de indicación de las autorizaciones locales no están disponibles) |
-| Nueva Indicación Predicha | Enfermedad de la cavidad nasal |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | enfermedad de la cavidad nasal (nasal cavity disease) |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 8 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 8 de 8) |
+| Número de Autorizaciones | 8 (vigentes: 8) |
 | Decisión Recomendada | Hold |
 
-## Por qué es Razonable esta Predicción?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, clofedanol se usa en preparados para la tos y el resfriado, y su uso en patologías de las vías respiratorias altas está establecido. Mecanísticamente podría ser aplicable a afecciones nasales, pero este vínculo no puede verificarse con los datos disponibles.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, clofedanol es un principio activo de uso respiratorio presente en jarabes para adultos y pediátricos, y mecanísticamente podría ser aplicable a afecciones de las vías aéreas superiores.
 
-La "enfermedad de la cavidad nasal" es una categoría más amplia que las indicaciones de rinitis ya conocidas. Por ello, esta predicción aporta poca información nueva: se parece más a una generalización del uso existente que a un reposicionamiento genuino. El puntaje alto (99.99%) es un resultado computacional y no sustituye a la evidencia clínica.
+La predicción se solapa fuertemente con usos respiratorios altos ya conocidos del fármaco. El puntaje elevado probablemente refleja cercanía con esos usos y no un mecanismo nuevo. Por eso se trata más como una posible extensión de un uso existente que como un reposicionamiento genuino.
 
-**Otras predicciones del modelo (todas con nivel L5, sin ensayos ni literatura):**
-
-| Posición | Indicación predicha | Puntaje TxGNN | Comentario |
-|------|------|------|------|
-| 2 | Laringofaringitis aguda | 99.99% | Adyacente a faringitis y resfriado; más una extensión de uso que un reposicionamiento |
-| 3 | Urticaria alérgica | 99.97% | Posible vínculo indirecto vía rinitis alérgica; especulativo sin MOA confirmado |
-| 4 | Conjuntivitis papilar | 99.84% | Posible solapamiento alérgico; sin datos oculares ni de formulación |
-| 5 | Urticaria por frío | 99.78% | Sin necesidad no cubierta evidente; existen tratamientos definidos |
-| 6 | Difteria fauccial | 99.33% | Probable falso positivo; requiere antitoxina y antibióticos |
-| 7 | Trastorno degenerativo del disco cervical | 99.29% | Sin conexión mecanística identificable; probable artefacto del grafo |
+Sin datos de mecanismo, ensayos ni literatura, no es posible confirmar el vínculo. La relación entre la nueva indicación y el uso actual es de proximidad temática (vías respiratorias superiores), no de eficacia demostrada.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -82,35 +74,30 @@ Actualmente no hay literatura relacionada disponible.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 59698 | UNITOS (Casasco) | Jarabe adultos, 100 ml | No disponible |
-| 59699 | UNITOS (Casasco) | Jarabe pediátrico, 100 ml | No disponible |
-| 50820 | COFRON (Abbott EPD) | Jarabe adultos, 100 ml | No disponible |
-| 50821 | COFRON (Abbott EPD) | Jarabe adultos, 180 ml | No disponible |
-| 50822 | COFRON (Abbott EPD) | Jarabe pediátrico, 100 ml | No disponible |
+| 59698 | UNITOS | Jarabe adultos, 100 ml | No registrada en los datos locales |
+| 50823 | COFRON | Jarabe pediátrico, 180 ml | No registrada en los datos locales |
+| 50822 | COFRON | Jarabe pediátrico, 100 ml | No registrada en los datos locales |
+| 59699 | UNITOS | Jarabe pediátrico, 100 ml | No registrada en los datos locales |
+| 50820 | COFRON | Jarabe adultos, 100 ml | No registrada en los datos locales |
 
-Hay 8 autorizaciones vigentes en total, todas de monofármaco y ninguna cancelada. Las tres restantes corresponden a PECTORAL HEBERT PEDIÁTRICO (13429), PECTORAL HEBERT N.F. (35669) y COFRON pediátrico de 180 ml (50823), todas en forma de jarabe.
+Se muestran 5 de 8 autorizaciones; todas son de producto de un solo principio activo y están vigentes.
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones señaladas por el grafo de conocimiento** (no provienen del prospecto): hipertensión, pancreatitis, úlcera péptica, diabetes mellitus y cetoacidosis diabética, hiperplasia prostática benigna, enfermedad coronaria e infarto de miocardio, aterosclerosis, glaucoma de ángulo cerrado e hipertensión ocular, hipertiroidismo, obstrucción del cuello vesical, taquicardia ventricular, bloqueo auriculoventricular, acidosis y hemoglobinopatías.
-- **Interacciones farmacológicas**: se identificaron 212 interacciones; las 20 principales son de nivel moderado. Destacan los depresores del sistema nervioso central y opioides (morfina, codeína, dihidrocodeína, fentanilo, alfentanilo, tramadol, opio, difenoxina, difenoxilato), cannabinoides (dronabinol, nabilona), antihistamínicos (clorfeniramina, prometazina, cetirizina, feniltoloxamina), alprazolam, etanol, metoclopramida, sibutramina y dicloralfenazona. El riesgo principal es la sedación aditiva.
-
-Para advertencias y contraindicaciones formales, consultar el prospecto.
+- **Interacciones Farmacológicas**: se identificaron 212 interacciones en total. Entre las principales, de nivel moderado, figuran morfina, codeína, fentanilo, tramadol, alprazolam, etanol, prometazina, clorfeniramina, cetirizina y metoclopramida. En general involucran fármacos depresores del sistema nervioso central u opioides, por lo que conviene vigilar la sedación y la depresión respiratoria en uso concomitante.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya únicamente en el modelo (nivel L5), sin ensayos ni literatura, y sin mecanismo de acción verificable. Además, la indicación principal es una categoría amplia que aporta poco valor nuevo respecto de los usos ya conocidos.
+La predicción tiene un puntaje alto (0.9999), pero no hay ensayos clínicos, literatura ni mecanismo documentado. El nivel de evidencia es L5, solo predicción del modelo.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de ANMAT con advertencias y contraindicaciones, ya que es un vacío bloqueante para el cribado de seguridad.
-- Consultar el mecanismo de acción en DrugBank.
-- Obtener los textos de indicación aprobados de las autorizaciones locales.
-- Revisar sistemáticamente la literatura y los registros de ensayos para clofedanol en patología nasal.
-- Evaluar si la indicación predicha ofrece un beneficio distinto del uso actual, o si es solo una ampliación de la categoría.
-- Descartar las predicciones de baja credibilidad (difteria fauccial, disco cervical) salvo que aparezca evidencia nueva.
+- Datos del mecanismo de acción del fármaco
+- Revisión del prospecto de ANMAT para advertencias y contraindicaciones
+- Búsqueda de estudios clínicos o literatura que evalúen directamente la enfermedad de la cavidad nasal
+- Definir si la indicación aporta algo distinto de los usos respiratorios ya conocidos
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **bronquitis**, pero actua
 |------|------|
 | Indicación Original | No disponible en la licencia de ANMAT (el fármaco se describe como analgésico del tracto urinario) |
 | Nueva Indicación Predicha | Bronquitis |
-| Puntaje de Predicción TxGNN | 99.23% |
+| Puntaje de Predicción TxGNN | 0.9923 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Seg
 
 No se ha establecido un vínculo mecanístico con la bronquitis. No se conoce una vía farmacológica que conecte a este fármaco con la inflamación bronquial o la infección respiratoria. Su uso original (alivio sintomático urinario) y la nueva indicación (enfermedad de las vías respiratorias) son áreas terapéuticas muy distintas.
 
-El puntaje alto de TxGNN (0.992) proviene únicamente de la predicción del grafo de conocimiento y no está respaldado por evidencia clínica ni bibliográfica. Podría reflejar artefactos de la red, como vecinos compartidos con otros fármacos o genes, y no una relación biológica real. Esta predicción debe interpretarse con mucha cautela.
+El puntaje alto de TxGNN (0.9923) proviene únicamente de la predicción del modelo TxGNN (aprendizaje profundo) y no está respaldado por evidencia clínica ni bibliográfica. Podría reflejar artefactos de la red, como vecinos compartidos con otros fármacos o genes, y no una relación biológica real. Esta predicción debe interpretarse con mucha cautela.
 
 ---
 

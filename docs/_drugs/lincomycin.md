@@ -5,10 +5,10 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 179
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-13
-description: "Lincomycin: nueva indicación predicha, Hiperamilasemia (nivel de evidencia L5). Indicación original: Infecciones neumocócicas…"
 monitor_inn: "lincomycin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia"]
+last_modified_at: 2026-10-27
+description: "Lincomycin: nueva indicación predicha, hiperamilasemia (hyperamylasemia) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Lincomycin
@@ -33,65 +33,67 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Lincomicina: De Infecciones Neumocócicas, Estafilocócicas y Estreptocócicas a Hiperamilasemia
+## Lincomycin: antibiótico lincosamida → hiperamilasemia (hyperamylasemia)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-La lincomicina es un antibiótico originalmente utilizado para el tratamiento de infecciones neumocócicas, estafilocócicas y estreptocócicas.
-El modelo TxGNN predice que podría ser efectivo para **hiperamilasemia**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata únicamente de una predicción computacional.
+Lincomycin (comercializada en Argentina como FRADEMICINA) es un antibiótico de la clase de las lincosamidas, que inhibe la síntesis de proteínas en el ribosoma 50S bacteriano.
+El modelo TxGNN predice que podría ser efectivo para **hiperamilasemia (hyperamylasemia)**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata solo de una predicción computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infecciones neumocócicas, estafilocócicas y estreptocócicas (según el grafo de conocimiento; el texto de indicación aprobado en las autorizaciones locales está vacío) |
-| Nueva Indicación Predicha | Hiperamilasemia |
-| Puntaje de Predicción TxGNN | 99.14% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | hiperamilasemia (hyperamylasemia) |
+| Puntaje de Predicción TxGNN | 0,9914 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. La lincomicina pertenece a la clase de los antibióticos lincosamidas, y su eficacia en infecciones bacterianas por cocos grampositivos es la base de su uso original. Sin embargo, no hay un vínculo mecanístico documentado que la conecte con la hiperamilasemia.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, lincomycin es una lincosamida que inhibe la síntesis proteica bacteriana al unirse a la subunidad ribosomal 50S, y su actividad es antibacteriana.
 
-La hiperamilasemia es un hallazgo de laboratorio (elevación de amilasa en sangre) que suele ser secundario a enfermedad pancreática o de glándulas salivales, y no una infección bacteriana. No existe una vía plausible respaldada por los datos que relacione la acción antibacteriana de la lincomicina con esta condición.
+La hiperamilasemia es un hallazgo de laboratorio (elevación de la amilasa en sangre), habitualmente secundario a causas pancreáticas, salivales o renales, y no una enfermedad que un antibiótico trate de forma directa. Con los datos compilados para este informe no se sostiene un vínculo mecanístico plausible entre el fármaco y esta condición.
 
-El puntaje alto (0.991) refleja una predicción basada en el grafo de conocimiento, sin respaldo clínico ni bibliográfico. Debe interpretarse con cautela. Otras predicciones del modelo con el mismo puntaje (síndrome de hiperviscosidad policlonal y analbuminemia congénita) tampoco tienen un vínculo mecanístico sustentado.
+El puntaje de 0,9914 es el resultado de un modelo computacional y no está corroborado por estudios reales. Cualquier asociación podría reflejar una señal de eventos adversos o un artefacto de confusión más que un efecto terapéutico. Por ello, el puntaje debe interpretarse con cautela y no como prueba de eficacia.
+
+## Evidencia de Ensayos Clínicos
+
+Actualmente no hay ensayos clínicos relacionados registrados.
+
+## Evidencia de Literatura
+
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 6675 | FRADEMICINA | 500 mg cápsulas x 16 | No disponible en el texto de autorización |
-| 2276 | FRADEMICINA | 300 mg ampollas x 4 x 1 ml | No disponible en el texto de autorización |
-
-Ambas autorizaciones están vigentes, corresponden a monofármaco y su titular es Janssen-Cilag.
+| 6675 | FRADEMICINA | 500 mg cápsulas x 16 | No registrada en los datos locales |
+| 2276 | FRADEMICINA | 300 mg ampollas x 4 x 1 ml | No registrada en los datos locales |
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones según el grafo de conocimiento** (no provienen del prospecto): insuficiencia hepática, colitis por *Clostridium difficile*, enterocolitis necrosante perinatal, colitis y enfermedades del aparato digestivo e intestinales.
-- **Interacciones Farmacológicas** (21 registradas):
-  - Moderadas: balsalazida, ácido picosulfúrico, attapulgita, caolín, eritromicina y etinilestradiol.
-  - Nivel no determinado: clotrimazol, cimetidina, morfina, metformina, omeprazol, lactulosa, triamcinolona, simvastatina, ranitidina, warfarina, lidocaína, cetirizina, montelukast y salmeterol.
+- **Interacciones Farmacológicas**: se identificaron 21 interacciones registradas. Las de nivel moderado incluyen balsalazida, ácido picosulfúrico, atapulgita, caolín, eritromicina y etinilestradiol. Otras (clotrimazol, cimetidina, morfina, metformina, omeprazol, lactulosa, triamcinolona, simvastatina, ranitidina, warfarina, lidocaína, cetirizina, montelukast, salmeterol) tienen nivel de gravedad no clasificado.
 
-Para advertencias y contraindicaciones del prospecto, consultar el prospecto aprobado.
+Para el resto de la información de seguridad (advertencias y contraindicaciones), consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos, literatura ni vínculo mecanístico plausible entre un antibiótico lincosamida y la hiperamilasemia. Además, existe una brecha de seguridad importante, pues no se dispone del texto de advertencias y contraindicaciones del prospecto de ANMAT.
+No existen ensayos clínicos ni literatura que estudien la hiperamilasemia con lincomycin, y el vínculo mecanístico no es plausible según los datos disponibles. El puntaje 0,9914 corresponde únicamente a una predicción del modelo.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto de ANMAT (advertencias y contraindicaciones), requisito bloqueante para el cribado de seguridad.
-- Completar los datos del mecanismo de acción desde DrugBank.
-- Realizar una búsqueda sistemática de literatura y registros de ensayos sobre lincomicina e hiperamilasemia.
-- Evaluar la relevancia clínica de la indicación predicha, dado que la hiperamilasemia es un hallazgo de laboratorio y no una enfermedad en sí misma.
-- Valorar el riesgo de las contraindicaciones digestivas (colitis, *C. difficile*) y hepáticas señaladas en el grafo de conocimiento.
+- Revisión de la literatura para determinar si la señal corresponde a un evento adverso o a un artefacto de confusión
+- Datos del prospecto de ANMAT (advertencias y contraindicaciones)
+- Datos detallados del mecanismo de acción y de su posible relación con la condición predicha
+- Estudios preclínicos o clínicos que evalúen directamente la hiperamilasemia antes de reconsiderar la decisión
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

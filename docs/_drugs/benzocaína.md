@@ -8,6 +8,7 @@ nav_order: 48
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Benzocaína
@@ -51,8 +52,8 @@ Benzocaína es un anestésico local de tipo éster, ampliamente utilizado para e
 | Nueva Indicación Predicha | — (Sin predicciones de TxGNN) |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | N/A |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 8 de 8) |
+| Número de Autorizaciones | 8 (vigentes: 8) |
 | Decisión Recomendada | **Hold** |
 
 ---

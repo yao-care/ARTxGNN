@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ambroxol
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 24
-evidence_level: L4
-indication_count: 5
-last_modified_at: 2026-10-13
-description: "Ambroxol: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L4). Indicación original: Faringitis (según el grafo de conocimiento"
+evidence_level: L5
+indication_count: 4
 monitor_inn: "AMBROXOL"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "vulvovaginal candidiasis", "faucial diphtheria", "cervical disc degenerative disorder"]
+predicted_indications: ["nasal cavity disease", "vulvovaginal candidiasis", "faucial diphtheria", "cervical disc degenerative disorder"]
+last_modified_at: 2026-10-27
+description: "Ambroxol: nueva indicación predicha, enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Ambroxol
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,34 +33,34 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-## Ambroxol: De Faringitis a Enfermedad de la Cavidad Nasal
+## Ambroxol: mucolítico/secretolítico (con propiedades anestésicas locales y antiinflamatorias) → enfermedad de la cavidad nasal (nasal cavity disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Ambroxol es un agente mucolítico y secretolítico, cuya indicación original en el grafo de conocimiento es la faringitis.
-El modelo TxGNN predice que podría ser efectivo para **enfermedad de la cavidad nasal**,
-con **0 ensayos clínicos** y **1 publicación** (una revisión de 2015 sobre tos aguda, de valor indirecto) que respaldan actualmente esta dirección.
+Ambroxol es un mucolítico y secretolítico que aumenta la depuración de moco de las vías respiratorias.
+El modelo TxGNN predice que podría ser efectivo para **enfermedad de la cavidad nasal (nasal cavity disease)**,
+pero actualmente no hay ensayos clínicos registrados y solo hay **1 publicación** indirecta (una revisión sobre tos aguda) vinculada a esta predicción.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Faringitis (según el grafo de conocimiento; los textos de indicación de las autorizaciones locales están vacíos) |
-| Nueva Indicación Predicha | Enfermedad de la cavidad nasal |
-| Puntaje de Predicción TxGNN | 99.91% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 20 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | enfermedad de la cavidad nasal (nasal cavity disease) |
+| Puntaje de Predicción TxGNN | 0.9991 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: al menos 20) |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la farmacología general, ambroxol es un agente mucolítico/secretolítico que aumenta el surfactante y la depuración del moco. Además, tiene propiedades anestésicas locales (bloqueo de canales de sodio) y antiinflamatorias.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, ambroxol aumenta la depuración del moco de las vías respiratorias, estimula la producción de surfactante y tiene propiedades anestésicas locales (bloqueo de canales de sodio) y antiinflamatorias.
 
-La faringitis y las enfermedades de la cavidad nasal son afecciones de la vía aérea superior, con hipersecreción de moco e irritación local. Mecanísticamente, la acción sobre el moco y la inflamación podría aliviar estos síntomas, y el fármaco ya se utiliza en afecciones respiratorias altas.
+Estas propiedades podrían aliviar la hipersecreción de moco y la irritación de las vías respiratorias altas, lo que daría un fundamento biológico para trastornos de la cavidad nasal, una zona anatómicamente contigua a otras estructuras de la vía aérea superior.
 
-Cabe señalar que este vínculo se infiere de la farmacología general, no de datos de mecanismo del fármaco compilados para este informe. El único respaldo es un artículo de 2015 sobre tos aguda, que es evidencia indirecta y no específica de la enfermedad de la cavidad nasal.
+Sin embargo, la única publicación vinculada trata sobre tos aguda y no sobre enfermedad nasal específicamente, por lo que el vínculo es indirecto. Ningún estudio citado aborda directamente la enfermedad de la cavidad nasal, por lo que el nivel de evidencia se limita a L5 (solo predicción del modelo).
 
 ## Evidencia de Ensayos Clínicos
 
@@ -70,40 +70,38 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [26525480](https://pubmed.ncbi.nlm.nih.gov/26525480/) | 2015 | Revisión | Vestnik otorinolaringologii | Revisión sobre nuevas posibilidades de tratamiento de la tos aguda asociada a gripe e infecciones respiratorias virales agudas; evidencia indirecta, no específica de enfermedad de la cavidad nasal |
+| [26525480](https://pubmed.ncbi.nlm.nih.gov/26525480/) | 2015 | Revisión | Vestnik otorinolaringologii | Revisión sobre el tratamiento de la tos aguda asociada a gripe e infecciones respiratorias virales agudas; no estudia directamente la enfermedad de la cavidad nasal |
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 47539 | AMBRIL | Jarabe 120 ml | No disponible en los datos compilados |
-| 40692 | GRINSIL RESPIRATORIO NF | Comprimidos recubiertos 500 mg x 16 | No disponible en los datos compilados |
-| 32206 | TRIFAMOX BRONQUIAL DUO | Suspensión 50 ml | No disponible en los datos compilados |
-| 28092 | AMOXIDAL RESPIRATORIO DUO | Comprimidos recubiertos x 14 | No disponible en los datos compilados |
-| 53412 | QUOTAL MUC | Comprimidos recubiertos 500/60 mg x 16 | No disponible en los datos compilados |
+La lista de autorizaciones es parcial (al menos 20 registros); los textos de indicación aprobada no figuran en los datos locales.
 
-Se muestran 5 de las 20 autorizaciones vigentes (todas de tipo monofármaco según el registro).
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 47539 | AMBRIL | jarabe x 120 ml |
+| 40692 | GRINSIL RESPIRATORIO NF | 500 mg comp. rec. x 16 |
+| 32206 | TRIFAMOX BRONQUIAL DUO | suspensión x 50 ml |
+| 28092 | AMOXIDAL RESPIRATORIO DUO | comp. rec. x 14 |
+| 53412 | QUOTAL MUC | 500/60 mg comp. rec. x 16 |
 
 ## Consideraciones de Seguridad
 
-**Interacciones Farmacológicas**: Se identificó una interacción de tipo farmacológico (sin nivel de gravedad asignado) con la glucosilceramidasa beta (GBA1). Ambroxol actúa como chaperona de esta enzima: a pH neutro tiene efecto inhibitorio sobre su actividad, mientras que dentro de las células y lisosomas ácidos aumenta la actividad intracelular de la enzima. Se trata de una interacción farmacológica con el blanco, no de una interacción clínica con otro medicamento.
+- **Interacciones Farmacológicas**: se registra una interacción de tipo farmacológico con la glucosilceramidasa beta (GBA1). Ambroxol actúa como chaperona de esta enzima: a pH neutro inhibe su actividad, mientras que dentro de las células y sus lisosomas ácidos aumenta la actividad intracelular de la enzima.
 
-Para advertencias y contraindicaciones, consultar el prospecto.
+No hay datos de advertencias ni contraindicaciones. Consultar el prospecto para el resto de la información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción de TxGNN es alta (99.91%), pero la evidencia es muy limitada: no hay ensayos clínicos y la única publicación es una revisión indirecta sobre tos aguda. Además, no se dispone de datos de mecanismo ni de información de seguridad del prospecto.
+La predicción se apoya solo en el puntaje del modelo (0.9991) y en una revisión indirecta sobre tos aguda; no hay ensayos clínicos ni estudios que aborden directamente la enfermedad de la cavidad nasal.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto de ANMAT (advertencias y contraindicaciones) para completar el análisis de seguridad
-- Obtener datos del mecanismo de acción desde DrugBank
-- Revisar la literatura específica sobre ambroxol en rinitis, rinosinusitis u otras enfermedades de la cavidad nasal
-- Verificar las indicaciones aprobadas en los prospectos locales, ya que los textos de indicación están vacíos
-- Considerar un estudio exploratorio si la revisión de literatura resulta favorable
-- Evaluar la compatibilidad de la vía de administración (pendiente)
+- Estudios clínicos o publicaciones que evalúen ambroxol directamente en enfermedad de la cavidad nasal
+- Datos detallados del mecanismo de acción
+- Advertencias y contraindicaciones del prospecto aprobado por ANMAT
+- Evaluación de la compatibilidad de vías de administración y formas farmacéuticas para uso nasal o de vía aérea superior
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

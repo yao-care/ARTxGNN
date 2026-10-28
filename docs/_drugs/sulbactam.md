@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Sulbactam
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 230
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-13
-description: "Sulbactam: nueva indicación predicha, Artritis bacteriana (nivel de evidencia L4). Indicación original: Colangitis…"
 monitor_inn: "SULBACTAM"
 predicted_indications: ["bacterial arthritis"]
+last_modified_at: 2026-10-27
+description: "Sulbactam: nueva indicación predicha, artritis bacteriana (bacterial arthritis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Sulbactam
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **1** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,101 +33,80 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-## Sulbactam: De Colangitis e Infecciones Estafilocócicas a Artritis Bacteriana
+## Sulbactam: inhibidor de beta-lactamasas → artritis bacteriana (bacterial arthritis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Sulbactam es un inhibidor irreversible de las betalactamasas, utilizado originalmente en combinación con penicilinas (como ampicilina) para tratar infecciones bacterianas, entre ellas las causadas por *Staphylococcus aureus* y *Escherichia coli*.
-El modelo TxGNN predice que podría ser efectivo para **artritis bacteriana**,
-pero hasta ahora no existen ensayos clínicos registrados y la evidencia consiste en **19 publicaciones** (en su mayoría estudios antiguos, series de casos y revisiones). Por ello, se trata de una hipótesis de investigación y no de una indicación respaldada.
-
----
+Sulbactam es un inhibidor irreversible de beta-lactamasas que se usa junto con aminopenicilinas como la ampicilina.
+El modelo TxGNN predice que podría ser útil para **artritis bacteriana (bacterial arthritis)**,
+pero los datos compilados para este informe no incluyen ensayos clínicos registrados y la literatura es mayormente de apoyo indirecto: **20 publicaciones**, entre ellas estudios antiguos de la combinación ampicilina/sulbactam en infecciones óseas y articulares.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Colangitis, infecciones por *Staphylococcus aureus* e infecciones por *Escherichia coli* (según el grafo de conocimiento; los textos de indicación de las autorizaciones locales están vacíos) |
-| Nueva Indicación Predicha | Artritis bacteriana |
-| Puntaje de Predicción TxGNN | 99.79% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 9 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | artritis bacteriana (bacterial arthritis) |
+| Puntaje de Predicción TxGNN | 0.9979 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 9 de 9) |
+| Número de Autorizaciones | 9 (vigentes: 9) |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento general de la clase, sulbactam es un inhibidor irreversible de betalactamasas que se comercializa combinado con ampicilina. Al proteger a la penicilina de la degradación enzimática, amplía su actividad frente a *Staphylococcus aureus* productor de betalactamasas, *E. coli*, anaerobios y algunas cepas de *Acinetobacter*.
+Los datos compilados no incluyen el mecanismo de acción original del fármaco. Según la farmacología conocida, sulbactam es un inhibidor irreversible de beta-lactamasas con actividad intrínseca contra *Acinetobacter* spp. Combinado con ampicilina, amplía la cobertura a *Staphylococcus aureus* y *Escherichia coli* productores de beta-lactamasas y a bacterias anaerobias.
 
-Estos microorganismos son causas plausibles de artritis séptica e infecciones osteoarticulares. Por eso, el vínculo con la artritis bacteriana es biológicamente coherente y consistente con las indicaciones antiinfecciosas ya conocidas del fármaco (infecciones estafilocócicas y por *E. coli*). El puntaje elevado de TxGNN refleja esta cercanía con indicaciones antibacterianas existentes.
+Estos microorganismos son patógenos frecuentes en infecciones óseas y articulares, lo que hace plausible un papel antibacteriano en la artritis séptica. El puntaje alto del modelo es coherente con esa superposición mecanística, pero es una predicción del modelo y no constituye evidencia clínica.
 
-Conviene tener en cuenta que este razonamiento se apoya en el conocimiento general de la clase y no en datos mecanísticos aportados. Tampoco se dispone de datos farmacocinéticos específicos de articulación (penetración sinovial u ósea).
-
----
+Cabe señalar que los estudios disponibles evalúan sobre todo la combinación ampicilina/sulbactam y no sulbactam como único principio activo. Además, ningún estudio citado se centra de forma directa y específica en la artritis bacteriana como objetivo principal: los trabajos que la tocan son series pequeñas de infecciones esqueléticas y de tejidos blandos en general, o reportes de caso. Por ello el nivel de evidencia se fija en L5.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
-
-Se listan las publicaciones más relevantes, priorizando ECA y estudios clínicos con sulbactam.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [2677956](https://pubmed.ncbi.nlm.nih.gov/2677956/) | 1989 | ECA | Pediatr Infect Dis J | Estudio aleatorizado en niños con infecciones de tejidos blandos, artritis supurativa y osteomielitis: ampicilina/sulbactam frente a ceftriaxona |
-| [3026009](https://pubmed.ncbi.nlm.nih.gov/3026009/) | 1986 | Ensayo abierto comparativo aleatorizado | Rev Infect Dis | Sulbactam + ampicilina frente a cefotaxima como tratamiento inicial de infecciones graves de tejidos blandos, huesos y articulaciones; curación o mejoría clínica en los 13 pacientes del grupo de sulbactam/ampicilina |
-| [3026018](https://pubmed.ncbi.nlm.nih.gov/3026018/) | 1986 | Estudio clínico | Rev Infect Dis | Tratamiento secuencial (sulbactam/ampicilina parenteral y sultamicilina oral) en 9 niños con osteomielitis o artritis séptica; todos los patógenos identificados fueron sensibles |
-| [3252119](https://pubmed.ncbi.nlm.nih.gov/3252119/) | 1988 | Ensayo clínico | Mikrobiyol Bul | 84 pacientes con infecciones diversas (incluidas artritis séptica y osteomielitis) tratados con ampicilina y sulbactam |
-| [1745624](https://pubmed.ncbi.nlm.nih.gov/1745624/) | 1991 | Estudio in vitro / revisión | Pharmacotherapy | Comparación de la actividad in vitro y revisión de eficacia clínica de ampicilina-sulbactam y ticarcilina-ácido clavulánico |
-| [36804370](https://pubmed.ncbi.nlm.nih.gov/36804370/) | 2023 | Revisión | Int J Antimicrob Agents | Uso fuera de indicación frente a recomendaciones formales de antibióticos en infecciones por bacterias multirresistentes |
-| [9263167](https://pubmed.ncbi.nlm.nih.gov/9263167/) | 1997 | Reporte de caso | J Rheumatol | Artritis por *Pasteurella multocida* con gota aguda tras mordedura de gato, tratada con ampicilina/sulbactam con resolución de la infección |
-| [39193962](https://pubmed.ncbi.nlm.nih.gov/39193962/) | 2024 | Cohorte | Clin Lab | Distribución de patógenos y resistencia antimicrobiana en infecciones osteoarticulares en menores de cuatro años |
-| [36550469](https://pubmed.ncbi.nlm.nih.gov/36550469/) | 2022 | Reporte de caso | BMC Infect Dis | Hiperamonemia en un paciente séptico con artritis por *Ureaplasma parvum* |
-| [36533253](https://pubmed.ncbi.nlm.nih.gov/36533253/) | 2022 | Reporte de caso | Infect Drug Resist | Artritis recurrente de tobillo por *Brucella melitensis* en un adulto |
-
----
+| [2677956](https://pubmed.ncbi.nlm.nih.gov/2677956/) | 1989 | ECA | Pediatr Infect Dis J | Ampicilina/sulbactam vs. ceftriaxona en 105 niños con infecciones de tejidos blandos, artritis supurada (11) y osteomielitis (9) |
+| [36804370](https://pubmed.ncbi.nlm.nih.gov/36804370/) | 2023 | Revisión | Int J Antimicrob Agents | Uso fuera de indicación vs. recomendaciones formales de antibióticos en infecciones por bacterias multirresistentes |
+| [3026018](https://pubmed.ncbi.nlm.nih.gov/3026018/) | 1986 | Cohorte | Rev Infect Dis | Tratamiento secuencial con sulbactam/ampicilina parenteral y sultamicilina oral en 9 niños con osteomielitis o artritis séptica; patógenos sensibles a la combinación |
+| [3026009](https://pubmed.ncbi.nlm.nih.gov/3026009/) | 1986 | Estudio comparativo abierto | Rev Infect Dis | Sulbactam + ampicilina vs. cefotaxima en infecciones graves de tejidos blandos, óseas y articulares (22 pacientes) |
+| [3252119](https://pubmed.ncbi.nlm.nih.gov/3252119/) | 1988 | Ensayo clínico | Mikrobiyol Bul | Ampicilina y sulbactam parenterales en 84 pacientes con diversas infecciones, incluidos 5 con artritis séptica u osteomielitis |
+| [1745624](https://pubmed.ncbi.nlm.nih.gov/1745624/) | 1991 | Comparación in vitro y revisión | Pharmacotherapy | Actividad in vitro y eficacia clínica de ampicilina-sulbactam frente a ticarcilina-clavulánico |
+| [9263167](https://pubmed.ncbi.nlm.nih.gov/9263167/) | 1997 | Reporte de caso | J Rheumatol | Artritis por *Pasteurella multocida* tras mordedura de gato, resuelta con ampicilina/sulbactam |
+| [39193962](https://pubmed.ncbi.nlm.nih.gov/39193962/) | 2024 | Cohorte | Clin Lab | Distribución de patógenos y resistencia antimicrobiana en infecciones óseas y articulares en niños pequeños |
 
 ## Información de Mercado en Argentina
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 26362 | TRIFAMOX IBL DUO 200/50 | Suspensión 20 g x 60 ml | No disponible en los datos |
-| 1074 | TRIFAMOX IBL | Jarabe 500 mg x 60 ml | No disponible en los datos |
-| 26356 | TRIFAMOX IBL DUO 875/125 | Comprimidos 875 mg x 14 | No disponible en los datos |
-| 3635 | TRIFAMOX IBL 1500 | Inyectable 1500 mg x 1 | No disponible en los datos |
-| 10002 | TRIFAMOX IBL 500 | Comprimidos 500 mg x 16 | No disponible en los datos |
-
-Se muestran 5 de las 9 autorizaciones vigentes (todas de producto único, ninguna cancelada). Las otras cuatro corresponden a AMPIGEN SB (14403), SULTAMICILINA RICHET (17429), TRIFAMOX IBL DUO (26361) y TRIFAMOX IBL 750 (3634).
-
----
+| 26362 | TRIFAMOX IBL DUO 200/50 | Suspensión 20 g x 60 ml | No registrada en los datos locales |
+| 1074 | TRIFAMOX IBL | Jarabe 500 mg x 60 ml | No registrada en los datos locales |
+| 26356 | TRIFAMOX IBL DUO 875/125 | Comprimidos 875 mg x 14 | No registrada en los datos locales |
+| 3635 | TRIFAMOX IBL 1500 | Inyectable 1500 mg x 1 | No registrada en los datos locales |
+| 10002 | TRIFAMOX IBL 500 | Comprimidos 500 mg x 16 | No registrada en los datos locales |
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones señaladas en el grafo de conocimiento** (no provienen del texto del prospecto): enfermedad renal, piouréter, colitis por *Clostridium difficile*, enterocolitis necrosante perinatal, mononucleosis infecciosa y síndrome de infección crónica por virus de Epstein-Barr.
+- **Contraindicaciones o condiciones de precaución registradas en los datos compilados** (no provienen del texto del prospecto): enfermedad renal, piouréter, colitis por *Clostridium difficile*, enterocolitis necrosante perinatal, mononucleosis infecciosa y síndrome de infección crónica por virus de Epstein-Barr.
 
-Consultar el prospecto para obtener la información completa de advertencias, contraindicaciones e interacciones. No se encontraron interacciones farmacológicas en la consulta realizada.
-
----
+Consultar el prospecto para el resto de la información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-El puntaje de TxGNN es muy alto y el vínculo biológico es coherente, pero no hay ensayos clínicos registrados y la evidencia publicada es antigua (en su mayoría de los años 80 y 90), de pequeño tamaño y con la combinación ampicilina/sulbactam, no con sulbactam solo. Además, falta la información de seguridad del prospecto local, lo que impide avanzar a una evaluación de seguridad.
+El puntaje del modelo es muy alto (0.9979) y la farmacología es coherente con los patógenos habituales de la artritis séptica. Sin embargo, no hay ensayos clínicos registrados, ningún estudio citado evalúa directamente la artritis bacteriana como objetivo principal, y la evidencia existente es antigua y trata de la combinación con ampicilina.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto de ANMAT (advertencias y contraindicaciones), un dato bloqueante.
-- Completar los datos del mecanismo de acción desde DrugBank.
-- Confirmar las indicaciones aprobadas en las autorizaciones locales, hoy vacías, y verificar si la artritis bacteriana ya está cubierta.
-- Revisar la evidencia clínica reciente y de mayor calidad sobre ampicilina/sulbactam en artritis séptica y frente a cepas multirresistentes (por ejemplo, *Acinetobacter*).
-- Reunir datos de penetración sinovial y ósea, y revisar las contraindicaciones del grafo, en especial la enfermedad renal.
+- Estudios clínicos que evalúen directamente la artritis bacteriana (séptica) con sulbactam o con ampicilina/sulbactam.
+- Datos del mecanismo de acción original y de las advertencias y contraindicaciones del prospecto de ANMAT.
+- Revisión de las interacciones farmacológicas (la consulta no devolvió resultados).
+- Confirmación de la compatibilidad de vías y formas farmacéuticas con el uso propuesto.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

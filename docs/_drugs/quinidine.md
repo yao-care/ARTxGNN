@@ -48,10 +48,10 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 |------|------|
 | Indicación Original | Fibrilación auricular y malaria |
 | Nueva Indicación Predicha | Síndrome nefrogénico de antidiuresis inapropiada |
-| Puntaje de Predicción TxGNN | 99.27% |
+| Puntaje de Predicción TxGNN | 0.9927 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 El NSIAD se debe a mutaciones con ganancia de función en el gen del receptor 2 de la arginina vasopresina (AVPR2). Esto produce una activación constitutiva del receptor V2, retención de agua e hiponatremia. No se conoce que la quinidina antagonice el receptor V2 ni que inhiba la señalización posterior de AMPc/acuaporina-2, por lo que no hay una explicación plausible de cómo contrarrestaría esta alteración.
 
-El puntaje elevado de TxGNN (0.993) es solo una predicción computacional, probablemente basada en asociaciones del grafo de conocimiento, y no ha sido validado mecanística ni clínicamente. Cualquier vínculo propuesto (por ejemplo, mediante la modulación de canales iónicos en células del túbulo colector) es especulativo.
+El puntaje elevado de TxGNN (0.9927) es solo una predicción computacional del modelo TxGNN (deep learning), que puede reflejar similitudes aprendidas por el modelo entre enfermedades relacionadas, no evidencia biológica, y no ha sido validado mecanística ni clínicamente. Cualquier vínculo propuesto (por ejemplo, mediante la modulación de canales iónicos en células del túbulo colector) es especulativo.
 
 ## Información de Mercado en Argentina
 

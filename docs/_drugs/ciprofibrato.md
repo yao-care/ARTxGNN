@@ -8,6 +8,7 @@ nav_order: 104
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Ciprofibrato
@@ -51,8 +52,8 @@ y existen **brechas de datos bloqueantes** que impiden completar la evaluación 
 | Nueva Indicación Predicha | Sin predicción TxGNN disponible |
 | Puntaje de Predicción TxGNN | — |
 | Nivel de Evidencia | L5 (insuficiente — sin predicción ni estudios integrados) |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 4 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 4) |
 | Decisión Recomendada | **Hold** |
 
 ---

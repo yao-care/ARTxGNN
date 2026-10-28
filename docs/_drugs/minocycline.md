@@ -5,10 +5,10 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 191
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-13
-description: "Minocycline: nueva indicación predicha, Queratoconjuntivitis epitelial punteada (nivel de evidencia L5). Indicación original: Infección urinaria, bronquitis…"
 monitor_inn: "minocycline"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis"]
+last_modified_at: 2026-10-27
+description: "Minocycline: nueva indicación predicha, queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Minocycline
@@ -33,34 +33,34 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-## Minociclina: De Infección Urinaria, Bronquitis y Acné a Queratoconjuntivitis Epitelial Punteada
+## Minociclina: antibiótico de la clase de las tetraciclinas → queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-La minociclina es un antibiótico del grupo de las tetraciclinas, utilizado originalmente para tratar infecciones urinarias, bronquitis, acné y otras infecciones bacterianas.
-El modelo TxGNN predice que podría ser efectiva para la **queratoconjuntivitis epitelial punteada**,
-pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata solo de una predicción del modelo.
+Minociclina es un antibiótico de la familia de las tetraciclinas que se comercializa actualmente en Argentina.
+El modelo TxGNN predice que podría ser efectivo para **queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis)**,
+pero hasta ahora **no hay ensayos clínicos ni publicaciones** en los datos compilados para este informe que respalden esta dirección; el único sustento es el puntaje del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infección urinaria, bronquitis, acné y otras infecciones bacterianas (según el grafo de conocimiento; los textos de indicación de las autorizaciones locales están vacíos) |
-| Nueva Indicación Predicha | Queratoconjuntivitis epitelial punteada |
-| Puntaje de Predicción TxGNN | 99.63% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) |
+| Puntaje de Predicción TxGNN | 0,9963 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 8 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 8 de 8) |
+| Número de Autorizaciones | 8 (vigentes: 8) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la minociclina es una tetraciclina cuya eficacia antibacteriana y en acné está comprobada, y mecanísticamente podría ser aplicable a enfermedades inflamatorias de la superficie ocular.
+Los datos compilados para este informe no incluyen el mecanismo de acción de la minociclina, por lo que no es posible un análisis mecanístico detallado. Como antibiótico de la clase de las tetraciclinas, su acción antibacteriana es conocida.
 
-Como hipótesis basada en conocimiento general (no en los datos aportados), las tetraciclinas tienen actividad antiinflamatoria y de inhibición de metaloproteinasas de matriz (MMP). Se utilizan en afecciones inflamatorias de la superficie ocular como la disfunción de las glándulas de Meibomio y la blefaritis. Esto sugiere un posible vínculo con la queratoconjuntivitis epitelial punteada, aunque no puede verificarse frente al mecanismo documentado del fármaco.
+Más allá de su efecto antibacteriano, se le atribuyen propiedades antiinflamatorias: inhibición de metaloproteinasas de matriz (por ejemplo, MMP-9), supresión de la actividad de citocinas y efectos antiapoptóticos. Estas propiedades podrían ser relevantes para la inflamación de la superficie ocular. Otros fármacos de la misma clase, como la doxiciclina, se utilizan en afecciones inflamatorias de la superficie ocular, lo que aporta una plausibilidad indirecta a nivel de clase.
 
-También se predijo una segunda indicación, la **queratitis por exposición** (puntaje 99.20%, también nivel L5, decisión Hold). Allí el beneficio sería especulativo, ya que su manejo se basa principalmente en corregir el cierre palpebral y lubricar la superficie ocular.
+Cabe subrayar que este razonamiento es una inferencia farmacológica general y no está respaldado por estudios incluidos en los datos compilados. La compatibilidad de vía de administración tampoco ha sido evaluada: las presentaciones locales son comprimidos de uso oral.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -72,40 +72,36 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 55081 | LIMAFIL 50 | 50 mg comprimidos x 30 | No especificada |
-| 32863 | SEBOCLEAR 100 | Comprimidos recubiertos x 30 | No especificada |
-| 25427 | MEIBI | 50 mg comprimidos x 30 | No especificada |
-| 47719 | MINOCICLINA RICHET | 100 mg comprimidos x 30 | No especificada |
-| 32862 | SEBOCLEAR 100 | Comprimidos recubiertos x 10 | No especificada |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 55081 | LIMAFIL 50 | 50 mg comp. x 30 |
+| 32863 | SEBOCLEAR 100 | comp. rec. x 30 |
+| 25427 | MEIBI | 50 mg comp. x 30 |
+| 47719 | MINOCICLINA RICHET | 100 mg comp. x 30 |
+| 32862 | SEBOCLEAR 100 | comp. rec. x 10 |
 
-Se muestran 5 de las 8 autorizaciones vigentes (todas de producto único, ninguna cancelada).
+Se muestran 5 de las 8 autorizaciones vigentes, todas de producto de un solo principio activo.
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones según el grafo de conocimiento** (no provienen del prospecto): enfermedad renal, piouréter, enfermedad hepática, enfermedad de la vesícula biliar, colitis por *Clostridium difficile*, enterocolitis necrosante perinatal, pseudotumor cerebral, hipertensión intracraneal y disquinesia del esófago.
-- **Interacciones farmacológicas**: se identificaron 272 interacciones. Las más relevantes de gravedad **mayor** son:
-  - Isotretinoína
-  - Acitretina
-
-  Entre las de gravedad **moderada** figuran etinilestradiol, amoxicilina, ampicilina, citrato de sodio, balsalazida, subcitrato de bismuto potásico, fosfato de calcio, acetato de calcio, cannabidiol, brentuximab vedotina y asparaginasas. Hay además interacciones **menores** con acetazolamida, hidroclorotiazida, amilorida y bumetanida.
-
-Las advertencias y contraindicaciones del prospecto de ANMAT aún no se han incorporado; consultar el prospecto para la información de seguridad completa.
+- **Interacciones farmacológicas**: se registran 272 interacciones en total. Entre las principales:
+  - Gravedad mayor: isotretinoína y acitretina.
+  - Gravedad moderada: etinilestradiol, amoxicilina, ampicilina, ácido aminolevulínico tópico, asparaginasa, balsalazida, subcitrato de bismuto y potasio, fosfato y acetato de calcio, brentuximab vedotina, cannabidiol, citrato de sodio.
+  - Gravedad menor: acetazolamida, hidroclorotiazida, amilorida, bumetanida.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya únicamente en el puntaje del modelo (nivel L5), sin ensayos clínicos ni literatura, y sin datos de mecanismo de acción ni de advertencias del prospecto que permitan un análisis de seguridad.
+La predicción se basa únicamente en el puntaje del modelo (0,9963), sin ensayos clínicos ni literatura que estudien esta enfermedad (nivel L5). El mecanismo de acción no está disponible y la plausibilidad antiinflamatoria es una inferencia no verificada.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto de ANMAT (advertencias y contraindicaciones), lo que actualmente bloquea el cribado de seguridad
-- Completar los datos del mecanismo de acción (MOA) desde DrugBank
-- Realizar una búsqueda sistemática de literatura y ensayos sobre tetraciclinas/minociclina en queratoconjuntivitis epitelial punteada
-- Evaluar la compatibilidad de vía de administración (los productos locales son comprimidos orales y la indicación es ocular)
-- Considerar la relevancia de las interacciones mayores y de las contraindicaciones (p. ej., hipertensión intracraneal) frente a la población objetivo
+- Revisión sistemática de la literatura sobre tetraciclinas (minociclina y doxiciclina) en enfermedades inflamatorias de la superficie ocular.
+- Datos del mecanismo de acción de la minociclina.
+- Evaluación de la compatibilidad de vía y formulación (oral frente a ocular).
+- Obtención y revisión del prospecto de ANMAT (advertencias y contraindicaciones), actualmente no disponible.
+- Estudios preclínicos o ensayos piloto específicos en queratoconjuntivitis epitelial punteada antes de reconsiderar la decisión.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

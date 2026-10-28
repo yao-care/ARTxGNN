@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pseudoephedrine
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 220
-evidence_level: L4
-indication_count: 3
-last_modified_at: 2026-10-13
-description: "Pseudoephedrine: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L4). Indicación original: Rinitis alérgica, rinitis vasomotora, faringitis…"
+evidence_level: L5
+indication_count: 2
 monitor_inn: "pseudoephedrine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "allergic urticaria"]
+predicted_indications: ["nasal cavity disease", "allergic urticaria"]
+last_modified_at: 2026-10-27
+description: "Pseudoephedrine: nueva indicación predicha, enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Pseudoephedrine
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,87 +33,77 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-## Pseudoefedrina: De Rinitis Alérgica y Resfrío Común a Enfermedad de la Cavidad Nasal
+## Pseudoefedrina: simpaticomimético descongestionante (agonista alfa-adrenérgico) → enfermedad de la cavidad nasal (nasal cavity disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-La pseudoefedrina es un descongestionante simpaticomimético, originalmente utilizado en rinitis alérgica, rinitis vasomotora, faringitis y resfrío común.
-El modelo TxGNN predice que podría ser efectivo para la **enfermedad de la cavidad nasal**,
-pero hasta ahora **no hay ensayos clínicos registrados** y solo hay **7 publicaciones**, en su mayoría indirectas (revisión, estudio farmacológico comparativo y modelos animales).
+La pseudoefedrina es un simpaticomimético indirecto con actividad agonista alfa-adrenérgica, utilizado como descongestionante nasal.
+El modelo TxGNN predice que podría ser efectivo para **enfermedad de la cavidad nasal (nasal cavity disease)**,
+pero actualmente no hay ensayos clínicos registrados y la literatura disponible se limita a una revisión, un estudio de farmacología clínica y modelos animales, sin estudios clínicos que evalúen directamente esta indicación.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Rinitis alérgica, rinitis vasomotora, faringitis, resfrío común (según el grafo de conocimiento; los textos de indicación de las autorizaciones locales están vacíos) |
-| Nueva Indicación Predicha | Enfermedad de la cavidad nasal |
-| Puntaje de Predicción TxGNN | 99.75% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 20 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | enfermedad de la cavidad nasal (nasal cavity disease) |
+| Puntaje de Predicción TxGNN | 0,9975 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: al menos 20) |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone de datos detallados sobre el mecanismo de acción en la información compilada para este informe. Según el conocimiento farmacológico general, la pseudoefedrina es un simpaticomimético indirecto con actividad agonista alfa-adrenérgica. Produce vasoconstricción de los vasos de la mucosa nasal, lo que reduce la inflamación de la mucosa y la congestión nasal.
+Los datos compilados para este informe no incluyen información detallada sobre el mecanismo de acción. Según el conocimiento farmacológico general, la pseudoefedrina estimula de forma indirecta los receptores adrenérgicos y produce vasoconstricción de los vasos de capacitancia de la mucosa nasal. Esto reduce la inflamación de la mucosa y alivia la congestión nasal.
 
-La enfermedad de la cavidad nasal es una categoría amplia que se superpone con indicaciones ya conocidas del fármaco (rinitis, nasofaringitis, resfrío común). Por ello, el puntaje alto del modelo probablemente refleja esa superposición con usos ya existentes, más que un hallazgo nuevo.
-
-La literatura respalda la farmacología descongestionante, pero no aporta evidencia de ensayos controlados en humanos para subtipos nuevos de enfermedad de la cavidad nasal.
-
-## Evidencia de Ensayos Clínicos
-
-Actualmente no hay ensayos clínicos relacionados registrados.
+Como la congestión es un síntoma común de muchas enfermedades de la cavidad nasal, el mecanismo es coherente con la predicción del modelo. Conviene señalar que la categoría predicha es amplia y se superpone en gran medida con los usos ya conocidos del fármaco en patología nasal (rinitis y cuadros catarrales), por lo que representa más una categoría general que una señal de reposicionamiento realmente novedosa.
 
 ## Evidencia de Literatura
 
+Ninguna de las publicaciones identificadas es un ensayo clínico que evalúe la pseudoefedrina en la enfermedad de la cavidad nasal como entidad; se trata de una revisión, un estudio de farmacología clínica y modelos animales. Por ello el nivel de evidencia se fija en L5.
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [22794679](https://pubmed.ncbi.nlm.nih.gov/22794679/) | 2012 | Revisión | Allergy and Asthma Proceedings | Capítulo sobre rinitis no alérgica: causas inflamatorias y no inflamatorias de congestión, rinorrea y estornudos |
-| [11345158](https://pubmed.ncbi.nlm.nih.gov/11345158/) | 2001 | Estudio farmacológico comparativo en humanos | American Journal of Rhinology | Compara el efecto descongestionante oral y tópico de fenilpropanolamina y d-pseudoefedrina mediante rinometría acústica |
-| [19769798](https://pubmed.ncbi.nlm.nih.gov/19769798/) | 2009 | Modelo animal (felino) | American Journal of Rhinology & Allergy | Loratadina y montelukast en combinación producen descongestión; también se evaluó d-pseudoefedrina con y sin desloratadina |
-| [12962193](https://pubmed.ncbi.nlm.nih.gov/12962193/) | 2003 | Modelo animal (perro) | American Journal of Rhinology | Modelo de congestión nasal alérgica en perros sensibilizados a ambrosía, medido con rinometría acústica |
-| [12387934](https://pubmed.ncbi.nlm.nih.gov/12387934/) | 2002 | Modelo animal (perro) | Journal of Pharmacological and Toxicological Methods | Caracterización farmacológica de un modelo canino crónico y no invasivo de congestión nasal |
-| [11895194](https://pubmed.ncbi.nlm.nih.gov/11895194/) | 2002 | Modelo animal (perro) | American Journal of Rhinology | Desarrollo de un modelo de congestión nasal con rinometría acústica en perros |
-| [24492651](https://pubmed.ncbi.nlm.nih.gov/24492651/) | 2014 | Modelo animal | J Pharmacol Exp Ther | Agonistas α2c-adrenérgicos selectivos en modelos animales de congestión nasal |
+| [22794679](https://pubmed.ncbi.nlm.nih.gov/22794679/) | 2012 | Revisión | Allergy and asthma proceedings | Revisión de la rinitis no alérgica: causas inflamatorias y no inflamatorias de congestión, rinorrea y estornudos |
+| [11345158](https://pubmed.ncbi.nlm.nih.gov/11345158/) | 2001 | Estudio de farmacología clínica | American journal of rhinology | Comparación del efecto descongestionante oral y tópico de la fenilpropanolamina y la d-pseudoefedrina mediante rinometría acústica |
+| [24492651](https://pubmed.ncbi.nlm.nih.gov/24492651/) | 2014 | Modelo animal | J Pharmacol Exp Ther | Agonistas α2c-adrenérgicos selectivos en modelos animales de congestión nasal (la pseudoefedrina probablemente actúa como comparador) |
+| [19769798](https://pubmed.ncbi.nlm.nih.gov/19769798/) | 2009 | Modelo animal (felino) | Am J Rhinol Allergy | Loratadina y montelukast en combinación producen descongestión; se estudió también la d-pseudoefedrina con y sin desloratadina |
+| [12962193](https://pubmed.ncbi.nlm.nih.gov/12962193/) | 2003 | Modelo animal (perro) | American journal of rhinology | Modelo de congestión nasal alérgica en perros sensibilizados a ambrosía |
+| [12387934](https://pubmed.ncbi.nlm.nih.gov/12387934/) | 2002 | Modelo animal (perro) | J Pharmacol Toxicol Methods | Caracterización farmacológica de un modelo crónico no invasivo de congestión nasal |
+| [11895194](https://pubmed.ncbi.nlm.nih.gov/11895194/) | 2002 | Modelo animal (perro) | American journal of rhinology | Rinometría acústica en perros como modelo de congestión nasal |
 
 ## Información de Mercado en Argentina
 
-Se registran 20 autorizaciones vigentes (todas de producto único). Los textos de indicación aprobada no están disponibles en los datos compilados. Principales autorizaciones:
+Hay al menos 20 autorizaciones vigentes registradas; la lista puede ser parcial. Todas las autorizaciones listadas son de productos de un solo principio activo y están vigentes.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 33956 | IBUNASTIZOL | Cáps. blandas x 12 | No disponible |
-| 42043 | SINALER D | Cáps. x 10 | No disponible |
-| 46334 | FRENALER D | Cáps. lib. prol. x 10 | No disponible |
-| 21179 | DECIDEX PLUS | Cáps. x 10 | No disponible |
-| 47819 | NASTIZOL | Jarabe x 100 ml | No disponible |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 33956 | IBUNASTIZOL | cáps. blandas x 12 |
+| 42043 | SINALER D | cáps. x 10 |
+| 46334 | FRENALER D | cáps. lib. prol. x 10 |
+| 21179 | DECIDEX PLUS | cáps. x 10 |
+| 47819 | NASTIZOL | jarabe x 100 ml |
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones señaladas en el grafo de conocimiento** (no provienen del prospecto): hipertensión, enfermedad coronaria, insuficiencia cardíaca congestiva, accidente cerebrovascular y enfermedad cerebrovascular, epilepsia, diabetes mellitus y cetoacidosis diabética, hipotiroidismo, hiperplasia prostática benigna, insuficiencia o enfermedad hepática, enfermedad renal, EPOC, úlcera gástrica o péptica, enfermedad inflamatoria intestinal, pancreatitis, enfermedad de la vesícula biliar, trastornos de la coagulación y abuso de sustancias, entre otras.
-- **Interacciones farmacológicas**: se identificaron 150 interacciones. Las principales listadas son de nivel moderado e incluyen antidiabéticos (acarbosa, acetohexamida, albiglutida, alogliptina, canagliflozina, clorpropamida, dapagliflozina, dulaglutida, empagliflozina, ertugliflozina, exenatida, glimepirida, glipizida, gliburida), insulinas (humana, aspart, degludec) y dietilpropión. La interacción con ácido ascórbico es menor.
+Consultar el prospecto para información de seguridad.
 
-Para advertencias y contraindicaciones oficiales, consultar el prospecto.
+**Interacciones farmacológicas:** se registraron 150 interacciones; las principales mostradas son de nivel moderado e incluyen antidiabéticos (acarbosa, acetohexamida, albiglutida, alogliptina, canagliflozina, clorpropamida, dapagliflozina, glimepirida, glipizida, gliburida), insulinas y dietilpropión. Con ácido ascórbico la interacción es de nivel leve.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos y la literatura es indirecta (principalmente modelos animales y una revisión). La indicación predicha es muy amplia y se superpone con usos ya conocidos, por lo que no aporta una hipótesis nueva claramente diferenciada. El perfil de contraindicaciones cardiovasculares y metabólicas exige cautela.
+No existen ensayos clínicos ni estudios que evalúen directamente esta indicación; la evidencia se limita a una revisión, un estudio de farmacología clínica y modelos animales. La categoría predicha es muy amplia y se superpone con los usos ya conocidos del fármaco, por lo que aporta poco valor de reposicionamiento.
 
 **Para avanzar se necesita:**
-- Definir subtipos concretos de enfermedad de la cavidad nasal con necesidad no cubierta.
-- Evidencia clínica en humanos (ensayos controlados) para esos subtipos.
-- Datos de mecanismo de acción confirmados desde fuentes primarias.
-- Advertencias y contraindicaciones oficiales de los prospectos de ANMAT.
-- Textos de indicación aprobada de las autorizaciones locales.
-
----
-
-*Nota sobre las otras predicciones: "laringofaringitis aguda" (99.73%, nivel L5) no cuenta con ensayos ni literatura, y "urticaria alérgica" (99.14%, nivel L5) se apoya en literatura sobre antihistamínicos que no evalúa la pseudoefedrina; ambas quedan en **Hold**.*
+- Definir con precisión qué enfermedad o subtipo concreto de la cavidad nasal se busca tratar
+- Ensayos clínicos que evalúen directamente la pseudoefedrina en esa población
+- Datos del mecanismo de acción desde fuentes de referencia
+- Advertencias y contraindicaciones del prospecto aprobado por ANMAT para completar el análisis de seguridad
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

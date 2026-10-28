@@ -46,10 +46,10 @@ Estriol es un estrógeno débil y de acción corta, comercializado en Argentina 
 |------|------|
 | Indicación Original | No disponible en los datos de ANMAT compilados |
 | Nueva Indicación Predicha | Amenorrea |
-| Puntaje de Predicción TxGNN | 99.18% |
+| Puntaje de Predicción TxGNN | 0.9918 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 6 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 6 de 6) |
+| Número de Autorizaciones | 6 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

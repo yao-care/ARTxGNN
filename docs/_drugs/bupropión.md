@@ -8,6 +8,7 @@ nav_order: 69
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Bupropión
@@ -51,8 +52,8 @@ Los datos de mecanismo de acción, advertencias de seguridad y ensayos clínicos
 | Nueva Indicación Predicha | Sin datos disponibles (predicted_indications vacío) |
 | Puntaje de Predicción TxGNN | Sin datos disponibles |
 | Nivel de Evidencia | L5 — Solo predicción del modelo, sin estudios asociados cargados |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 6 de 6) |
+| Número de Autorizaciones | 6 (vigentes: 6) |
 | Decisión Recomendada | **Hold** |
 
 ---

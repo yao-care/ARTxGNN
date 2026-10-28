@@ -8,6 +8,7 @@ nav_order: 49
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Beta-Alanina
@@ -51,8 +52,8 @@ y **no se dispone de ensayos clínicos ni publicaciones** asociadas a un reposic
 | Nueva Indicación Predicha | **No disponible** (sin predicción TxGNN) |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | **L5** — Solo registro en base de datos, sin evidencia de reposicionamiento |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | **Hold** |
 
 ---

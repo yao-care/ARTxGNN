@@ -4,17 +4,17 @@ title: Mianserin
 parent: Solo Predicción del Modelo (L5)
 nav_order: 188
 evidence_level: L5
-indication_count: 7
-last_modified_at: 2026-10-13
-description: "Mianserin: nueva indicación predicha, Tortícolis paroxística benigna de la infancia (nivel de evidencia L5). Indicación original: Depresión unipolar (según el grafo de conocimiento"
+indication_count: 4
 monitor_inn: "mianserin"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "dysthymic disorder", "agoraphobia", "Ohdo syndrome and variants", "melancholia", "neurotic disorder"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "Ohdo syndrome and variants", "neurotic disorder"]
+last_modified_at: 2026-10-27
+description: "Mianserin: nueva indicación predicha, Tortícolis paroxística benigna de la infancia (benign paroxysmal torticollis of infancy) (nivel de evidencia L5). Indicación original: No consta en los datos loc…"
 ---
 
 # Mianserin
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,90 +33,69 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-## Mianserina: De Depresión Unipolar a Trastorno Paroxístico Tortícolis Benigno de la Infancia
+## Mianserina: antidepresivo tetracíclico con acción serotoninérgica y noradrenérgica → tortícolis paroxística benigna de la infancia (benign paroxysmal torticollis of infancy)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Mianserina (comercializada en Argentina como LERIVON) se utiliza originalmente para el tratamiento de la depresión unipolar, la depresión endógena, el trastorno depresivo mayor y el trastorno de ansiedad.
-El modelo TxGNN predice que podría ser efectivo para la **tortícolis paroxística benigna de la infancia**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción; se trata únicamente de una predicción del modelo.
-
----
+Mianserina es un antidepresivo tetracíclico comercializado en Argentina bajo la marca LERIVON.
+El modelo TxGNN predice que podría ser efectivo para **tortícolis paroxística benigna de la infancia (benign paroxysmal torticollis of infancy)**, con un puntaje de 0.9949, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Depresión unipolar (según el grafo de conocimiento; los textos de indicación de las autorizaciones locales están vacíos) |
-| Nueva Indicación Predicha | Tortícolis paroxística benigna de la infancia |
-| Puntaje de Predicción TxGNN | 99.49% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Tortícolis paroxística benigna de la infancia (benign paroxysmal torticollis of infancy) |
+| Puntaje de Predicción TxGNN | 0.9949 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, la mianserina es un antidepresivo tetracíclico; los datos farmacológicos compilados muestran que interactúa con múltiples receptores serotoninérgicos (5-HT1B, 5-HT2A, 5-HT2B, 5-HT2C, 5-HT6, 5-HT7), receptores adrenérgicos alfa-1 (1A, 1B, 1D), el receptor LPA1 y el transportador de noradrenalina (NET).
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción de la mianserina en los datos compilados para este informe. Según la información farmacológica disponible, el fármaco interactúa con varios receptores serotoninérgicos (5-HT1B, 5-HT2A, 5-HT2B, 5-HT2C, 5-HT6, 5-HT7), con receptores adrenérgicos alfa-1 (1A, 1B, 1D), con el receptor LPA1 y con el transportador de noradrenalina (NET).
 
-La tortícolis paroxística benigna de la infancia es una condición pediátrica probablemente relacionada con la migraña y con una posible base de canalopatía. Con los datos disponibles no se identifica un vínculo mecanístico plausible entre la acción de la mianserina y esta enfermedad. El puntaje alto del modelo probablemente refleja asociaciones en el grafo de conocimiento más que plausibilidad biológica.
+La tortícolis paroxística benigna de la infancia es un trastorno episódico pediátrico raro, relacionado con el espectro de la migraña y con canalopatías (por ejemplo, CACNA1A). Con los datos disponibles **no se identifica un vínculo mecanístico sustentado** entre el perfil farmacológico de la mianserina y este trastorno. El puntaje alto del modelo es solo una predicción computacional.
 
-Cabe destacar que esta no es la predicción mejor respaldada. Otras predicciones del modelo tienen más sustento, aunque en su mayoría son superposiciones con la indicación ya aprobada:
-
-| Indicación predicha | Puntaje TxGNN | Nivel | Comentario |
-|---|---|---|---|
-| Trastorno distímico | 99.45% | L4 | Un metaanálisis de antidepresivos como clase (PMID 21527126), sin aislar mianserina |
-| Agorafobia | 99.40% | L4 | Un solo artículo, sobre inhibidores de MAO-A, solo tangencialmente relevante |
-| Melancolía | 99.17% | L5 | Probablemente un reetiquetado de la depresión endógena; sin literatura |
-| Depresión neurótica | 99.16% | L4 | 20 publicaciones, mayormente generales; superposición con la indicación aprobada |
-| Trastorno neurótico | 99.02% | L3 | 4 publicaciones, incluidos estudios comparativos de mianserina |
-
----
+Además, el uso de un antidepresivo sedante en lactantes plantearía preocupaciones importantes de seguridad, por lo que esta predicción debe tratarse con mucha cautela.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible para la tortícolis paroxística benigna de la infancia.
-
----
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
+Estado: comercializado. Las dos autorizaciones registradas están vigentes.
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 10308 | LERIVON (MSD Argentina) | Comprimidos 60 mg x 30 | No especificada en los datos |
-| 6189 | LERIVON (Organon Arg.) | Comprimidos 30 mg x 30 | No especificada en los datos |
-
----
+| 10308 | LERIVON | 60 mg comp. x 30 | No registrada en los datos locales |
+| 6189 | LERIVON | 30 mg comp. x 30 | No registrada en los datos locales |
 
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas / Perfil farmacológico**: la consulta se completó con 11 registros, que corresponden a interacciones con blancos farmacológicos y no a interacciones con otros fármacos. Incluyen receptores serotoninérgicos (5-HT1B, 5-HT2A, 5-HT2B, 5-HT2C, 5-HT6, 5-HT7), receptores adrenérgicos alfa-1 (1A, 1B, 1D), el receptor LPA1 y el transportador de noradrenalina (NET). No se dispone de niveles de gravedad.
-
-Consultar el prospecto para información sobre advertencias y contraindicaciones.
-
----
+- **Interacciones farmacológicas**: la consulta se completó y devolvió 11 registros, todos de farmacología de dianas (sin nivel de gravedad asignado), que describen la unión a receptores serotoninérgicos 5-HT (1B, 2A, 2B, 2C, 6, 7), adrenérgicos alfa-1 (1A, 1B, 1D), LPA1 y al transportador de noradrenalina. No se identificaron interacciones con otros fármacos específicos.
+- Para advertencias y contraindicaciones, consultar el prospecto.
+- Por tratarse de un antidepresivo sedante, su uso en población infantil requeriría una evaluación de seguridad específica.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa únicamente en el puntaje del modelo (nivel L5), sin ensayos clínicos ni literatura, y no hay un mecanismo plausible que vincule la mianserina con esta condición pediátrica. Además, aún no se han revisado las advertencias y contraindicaciones del prospecto.
+La predicción no cuenta con ensayos clínicos ni literatura, no tiene un vínculo mecanístico respaldado por los datos y el nivel de evidencia es L5. A ello se suman las preocupaciones de seguridad en lactantes.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto de ANMAT (advertencias y contraindicaciones) para completar el cribado de seguridad.
-- Obtener datos detallados del mecanismo de acción de la mianserina.
-- Evaluar un posible vínculo mecanístico con la fisiopatología de la tortícolis paroxística benigna (migraña/canalopatía) antes de invertir más recursos.
-- Considerar priorizar candidatas con mayor respaldo, como el trastorno neurótico (L3) o el trastorno distímico (L4), teniendo en cuenta que muchas son cercanas a las indicaciones ya aprobadas.
-- Considerar que la población es pediátrica, lo que exige una evaluación de seguridad específica.
+- Datos del mecanismo de acción de la mianserina y su relación con la fisiopatología de la enfermedad
+- Advertencias y contraindicaciones del prospecto aprobado por ANMAT
+- Estudios preclínicos o de mecanismo que justifiquen la hipótesis
+- Evaluación de seguridad pediátrica antes de considerar cualquier estudio clínico
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

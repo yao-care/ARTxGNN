@@ -8,6 +8,7 @@ nav_order: 19
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Alfuzosina Clorh
@@ -49,8 +50,8 @@ Alfuzosina (clorhidrato) es un antagonista selectivo de los receptores alfa-1 ad
 | Nueva Indicación Predicha | **No disponible** — el modelo TxGNN no generó predicciones |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | **L5** (sin estudios ni predicción aplicable) |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | **Hold** |
 
 ---

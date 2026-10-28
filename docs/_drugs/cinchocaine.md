@@ -5,10 +5,10 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 102
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-13
-description: "Cinchocaine: nueva indicación predicha, Bronquitis (nivel de evidencia L5). Indicación original: Dermatitis (según el grafo de conocimiento"
 monitor_inn: "cinchocaine"
 predicted_indications: ["bronchitis", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acne keloid", "hydroa vacciniforme, familial", "amyopathic dermatomyositis"]
+last_modified_at: 2026-10-27
+description: "Cinchocaine: nueva indicación predicha, Bronquitis (bronchitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Cinchocaine
@@ -33,75 +33,69 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-## Cinchocaína: De Dermatitis a Bronquitis
+## Cinchocaína: anestésico local bloqueador de canales de sodio → Bronquitis (bronchitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-La cinchocaína (dibucaína) es un anestésico local de tipo amida, originalmente asociado al tratamiento de la dermatitis.
-El modelo TxGNN predice que podría ser efectivo para **bronquitis**,
-pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata solo de una predicción computacional.
+Cinchocaína (dibucaína) es un anestésico local de tipo amida que se comercializa en Argentina como producto de uso tópico (PROCTYL).
+El modelo TxGNN predice que podría ser efectiva para **Bronquitis (bronchitis)**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Dermatitis (según el grafo de conocimiento; las autorizaciones locales no incluyen texto de indicación) |
-| Nueva Indicación Predicha | Bronquitis |
-| Puntaje de Predicción TxGNN | 99.77% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Bronquitis (bronchitis) |
+| Puntaje de Predicción TxGNN | 0.9977 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, la cinchocaína es un anestésico local de tipo amida que bloquea los canales de sodio dependientes de voltaje, y se comercializa en Argentina en presentaciones de uso tópico (PROCTYL, pomada).
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, la cinchocaína es un anestésico local de tipo amida que bloquea los canales de sodio dependientes de voltaje, lo que interrumpe la conducción del impulso nervioso.
 
-Teóricamente, el bloqueo de los canales de sodio podría suprimir la actividad de los nervios sensitivos de las vías respiratorias (reflejo de la tos), como ocurre con otros anestésicos tópicos. Esta relación con la dermatitis es solo indirecta (alivio sintomático) y no existe una similitud mecanística clara entre ambas indicaciones.
+Un vínculo teórico con la bronquitis sería la supresión de la actividad de las fibras sensoriales (fibras C) de las vías respiratorias y del reflejo de la tos, como ocurre con otros anestésicos tópicos. Es una hipótesis especulativa: no existen estudios que la respalden y el puntaje alto del modelo (0.9977) es solo una predicción computacional.
 
-Cabe subrayar que el puntaje alto (99.77%) es una asociación computacional y no evidencia clínica. Además, la seguridad por vía sistémica o inhalada de la cinchocaína no está establecida, ya que el fármaco está comercializado para uso tópico.
+Además, el uso sistémico o inhalado de cinchocaína plantearía preocupaciones de seguridad (toxicidad de anestésicos locales, riesgo de broncoespasmo), y el producto disponible es de uso tópico. La compatibilidad de vías de administración con la nueva indicación aún no ha sido evaluada.
 
-## Otras Predicciones del Modelo
+## Evidencia de Ensayos Clínicos
 
-| Posición | Nueva Indicación Predicha | Puntaje TxGNN | Comentario |
-|------|------|------|------|
-| 2 | Acrodermatitis crónica atrófica | 99.76% | Manifestación tardía de la infección por *Borrelia*; requiere antibióticos. El anestésico no tiene papel modificador de la enfermedad. |
-| 3 | Dermatomiositis neonatal | 99.72% | Enfermedad inmunomediada sin vínculo mecanístico; el uso en neonatos plantea preocupaciones de seguridad. |
-| 4 | Enfermedad pulmonar intersticial secundaria infantil asociada a enfermedad del tejido conectivo | 99.72% | Sin racional mecanístico; población pediátrica con mayor exigencia de seguridad. |
-| 5 | Acné queloideo | 99.67% | La más plausible, solo como alivio sintomático (dolor o picazón) por vía tópica. |
-| 6 | Hidroa vacciniforme familiar | 99.66% | Fotosensibilidad rara; sin mecanismo relevante. |
-| 7 | Dermatomiositis amiopática | 99.65% | Enfermedad autoinmune; a lo sumo alivio tópico sintomático. |
+Actualmente no hay ensayos clínicos relacionados registrados.
 
-Todas estas predicciones tienen nivel de evidencia L5, sin ensayos clínicos ni literatura.
+## Evidencia de Literatura
+
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 27593 | PROCTYL | Pomada (pda.x 10 g) | No disponible en los datos compilados |
-| 24920 | PROCTYL | Pomada (pda.x 30 g) | No disponible en los datos compilados |
+| 27593 | PROCTYL | pda.x 10 g | No registrada en los datos locales |
+| 24920 | PROCTYL | pda.x 30 g | No registrada en los datos locales |
+
+Ambas autorizaciones son de producto de un solo principio activo y están vigentes.
 
 ## Consideraciones de Seguridad
 
-- **Enfermedades asociadas a contraindicación según el grafo de conocimiento** (no provienen del texto del prospecto): epilepsia, enfermedad renal, piouréter, enfermedad hepática, enfermedad de la vesícula biliar, paro cardíaco súbito, enfermedad de la conducción cardíaca, insuficiencia respiratoria, miastenia gravis (incluida la de inicio en adulto), enfermedad de la unión neuromuscular, deficiencia de butirilcolinesterasa, enfermedad cardiovascular y enfermedad cardíaca.
-- No se encontraron interacciones farmacológicas registradas en la consulta realizada.
+No se dispone de advertencias ni contraindicaciones del prospecto en los datos compilados; consultar el prospecto para la información de seguridad completa. No se encontraron interacciones farmacológicas registradas.
 
-Consultar el prospecto para obtener las advertencias y contraindicaciones oficiales.
+Como referencia adicional, los datos compilados señalan posibles contraindicaciones relacionadas con las siguientes condiciones (no provienen del texto del prospecto y deben verificarse): epilepsia, enfermedad renal, enfermedad hepática, enfermedad de la vesícula biliar, paro cardíaco súbito, enfermedad de la conducción cardíaca, insuficiencia respiratoria, miastenia gravis, enfermedades de la unión neuromuscular, deficiencia de butirilcolinesterasa, enfermedad cardiovascular y cardiopatía.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para bronquitis se basa únicamente en el modelo (L5), sin ensayos clínicos ni literatura, y la seguridad por vía sistémica o inhalada no está establecida para un fármaco de uso tópico.
+La predicción para bronquitis se apoya únicamente en el puntaje del modelo (nivel L5), sin ensayos clínicos ni literatura, con un vínculo mecanístico especulativo y preocupaciones de seguridad si se usara por vía sistémica o inhalada.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto de ANMAT (advertencias y contraindicaciones oficiales).
-- Completar los datos del mecanismo de acción desde DrugBank.
-- Realizar una revisión sistemática de literatura y ensayos que respalden el uso en afecciones respiratorias.
-- Evaluar la compatibilidad de la vía de administración (actualmente solo tópica) y la seguridad sistémica o inhalada.
-- Estudios preclínicos que justifiquen cualquier uso en vías respiratorias antes de considerar estudios clínicos.
+- Datos del mecanismo de acción y del prospecto aprobado (advertencias y contraindicaciones)
+- Revisión de literatura y estudios preclínicos sobre anestésicos locales en tos y bronquitis
+- Evaluación de la vía de administración y de la viabilidad de una formulación adecuada para vía respiratoria
+- Evaluación de seguridad cardiovascular, neuromuscular y respiratoria antes de cualquier estudio clínico
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

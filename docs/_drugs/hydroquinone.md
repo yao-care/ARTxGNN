@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Hydroquinone
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 160
-evidence_level: L4
+evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-13
 description: "Hydroquinone: nueva indicación predicha, Queratosis seborreica (nivel de evidencia L4). Indicación original: No disponible en la autorización registrada"
@@ -14,7 +14,7 @@ predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular kera
 # Hydroquinone
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **4** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ El modelo TxGNN predice que podría ser efectiva para **queratosis seborreica**,
 |------|------|
 | Indicación Original | No disponible en la autorización registrada |
 | Nueva Indicación Predicha | Queratosis seborreica |
-| Puntaje de Predicción TxGNN | 99.73% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Puntaje de Predicción TxGNN | 0.9973 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## Por qué es Razonable esta Predicción?
@@ -59,7 +59,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 La queratosis seborreica es una proliferación epidérmica benigna que a veces presenta hiperpigmentación. La hidroquinona podría aclarar ese componente pigmentario en algunas lesiones, pero la queratosis seborreica no es principalmente un trastorno de producción de melanina, por lo que el ajuste mecanístico es indirecto.
 
-El puntaje alto de TxGNN (0.997) es una predicción computacional y no está respaldado por datos clínicos directos. El único estudio disponible es observacional y trata trastornos pigmentarios faciales en general, no queratosis seborreica como objetivo principal.
+El puntaje alto de TxGNN (0.9973) es una predicción computacional y no está respaldado por datos clínicos directos. El único estudio disponible es observacional y trata trastornos pigmentarios faciales en general, no queratosis seborreica como objetivo principal.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -95,7 +95,7 @@ La predicción se apoya en un puntaje computacional alto, pero sin ensayos clín
 - Obtener el prospecto de ANMAT con advertencias y contraindicaciones, y confirmar la indicación aprobada
 - Completar los datos del mecanismo de acción
 - Buscar estudios que evalúen hidroquinona directamente en queratosis seborreica
-- Evaluar la seguridad en relación con las condiciones cutáneas señaladas por el grafo de conocimiento (dermatitis, atrofia cutánea, eccema atópico)
+- Evaluar la seguridad en relación con las condiciones cutáneas señaladas por el modelo TxGNN (aprendizaje profundo) (dermatitis, atrofia cutánea, eccema atópico), que pueden reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica
 
 ---
 

@@ -8,6 +8,7 @@ nav_order: 14
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Acetilcisteína
@@ -49,7 +50,7 @@ Acetilcisteína (N-acetilcisteína, NAC) es un agente mucolítico y antioxidante
 | Nueva Indicación Predicha | — Sin predicciones generadas — |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | L5 (sin evidencia disponible para evaluación) |
-| Estado de Mercado en Argentina | ✗ No comercializado |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: al menos 20) |
 | Número de Autorizaciones | 0 |
 | Decisión Recomendada | **Hold** |
 

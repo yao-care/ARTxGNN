@@ -8,6 +8,7 @@ nav_order: 53
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Bicalutamida
@@ -53,8 +54,8 @@ Los datos disponibles en el Evidence Pack son insuficientes para realizar una ev
 | Nueva Indicación Predicha | — Sin predicciones disponibles — |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | L5 (solo información de referencia, sin estudios vinculados) |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | No comercializado (sin registro) |
+| Número de Autorizaciones | 0 (vigentes: 0) |
 | Decisión Recomendada | **Hold** |
 
 ---

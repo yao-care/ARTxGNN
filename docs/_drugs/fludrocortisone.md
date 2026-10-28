@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-## Fludrocortisona: De Indicación Original No Registrada a Enfermedad Ocular (Predicción del Modelo)
+## Fludrocortisona: De Indicación Original No Registrada a Linfoma cutáneo primario de células T (Predicción del Modelo)
 {: .text-alpha }
 
 > Nota: la primera indicación predicha por el modelo (rank 1) es el linfoma cutáneo primario de células T, pero no cuenta con ninguna evidencia. Por ello, esta evaluación se centra en la predicción con mayor respaldo documental (**enfermedad ocular**, rank 6) y menciona brevemente las demás.
@@ -50,17 +50,17 @@ La evidencia es débil: solo hay un estudio preclínico y un estudio de fase 1B 
 |------|------|
 | Indicación Original | No disponible en la licencia de ANMAT (texto de indicación vacío) |
 | Nueva Indicación Predicha | Linfoma cutáneo primario de células T (rank 1); enfermedad ocular (rank 6, con más literatura) |
-| Puntaje de Prediccion TxGNN | 99.58% (linfoma cutáneo primario de células T); 99.14% (enfermedad ocular) |
+| Puntaje de Prediccion TxGNN | 0.9958 (linfoma cutáneo primario de células T); 0.9914 (enfermedad ocular) |
 | Nivel de Evidencia | L5 (linfoma cutáneo de células T); L4 (enfermedad ocular) |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Numero de Autorizaciones | 1 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 1 de 1) |
+| Numero de Autorizaciones | 1 (vigentes: 1) |
 | Decision Recomendada | Hold |
 
 ## Por que es Razonable esta Prediccion?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la fludrocortisona es un mineralocorticoide sintético con cierta actividad glucocorticoide, y su uso establecido es en la hipotensión ortostática y la insuficiencia suprarrenal (como se desprende de la literatura recuperada). Mecanísticamente, podría ser aplicable a algunas afecciones donde interviene la señalización de receptores de mineralocorticoides y glucocorticoides.
 
-**Linfoma cutáneo primario de células T (rank 1):** no hay ensayos ni literatura. Los glucocorticoides tienen un papel conocido en neoplasias linfoides, pero no existe fundamento documentado para la fludrocortisona en esta enfermedad; el vínculo mecanístico es especulativo y el puntaje alto refleja solo una predicción basada en grafos.
+**Linfoma cutáneo primario de células T (rank 1):** no hay ensayos ni literatura. Los glucocorticoides tienen un papel conocido en neoplasias linfoides, pero no existe fundamento documentado para la fludrocortisona en esta enfermedad; el vínculo mecanístico es especulativo y el puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 **Enfermedad ocular (rank 6):** un estudio preclínico (PMID 34509498, 2021) describe propiedades antiinflamatorias y neuroprotectoras de la fludrocortisona en degeneración retiniana, mediante la modulación de citocinas de las células de Müller. Además, un estudio de fase 1B evaluó la seguridad de la inyección intravítrea en atrofia geográfica. También hay literatura sobre su uso en la hipotensión sistémica de pacientes con glaucoma. El vínculo es plausible pero indirecto.
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lornoxicam
-parent: Evidencia Moderada (L3-L4)
+parent: Evidencia Alta (L1-L2)
 nav_order: 182
-evidence_level: L3
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Lornoxicam: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L3). Indicación original: No disponible en los datos de la autorización de ANMAT"
+evidence_level: L2
+indication_count: 8
 monitor_inn: "LORNOXICAM"
-predicted_indications: ["migraine with or without aura, susceptibility to", "migraine disorder", "migraine with brainstem aura", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "headache disorder", "trigeminal autonomic cephalalgia", "tendinitis", "idiopathic granulomatous myositis"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "headache disorder", "trigeminal autonomic cephalalgia", "tendinitis", "idiopathic granulomatous myositis"]
+last_modified_at: 2026-10-23
+description: "Lornoxicam: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L2). Indicación original: No disponible: el texto de indicación de la autorización local está v…"
 ---
 
 # Lornoxicam
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,103 +33,81 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-## Lornoxicam: De Indicación Original No Registrada a Artritis Reumatoide
+## Lornoxicam: De Uso Analgésico/Antiinflamatorio a Trastorno de Migraña
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Lornoxicam es un antiinflamatorio no esteroideo (AINE) de la clase de los oxicams, comercializado en Argentina, aunque en los datos compilados la indicación aprobada no figura en el texto de la autorización.
-El modelo TxGNN predice que podría ser efectivo para **artritis reumatoide**, con **0 ensayos clínicos** y **19 publicaciones** que respaldan esta dirección (principalmente revisiones, estudios de formulación y modelos preclínicos).
-La predicción se parece más a un uso ya establecido en otros países que a un reposicionamiento genuino.
-
----
+Lornoxicam es un antiinflamatorio no esteroideo (AINE) de la clase de los oxicams, con propiedades analgésicas, antiinflamatorias y antipiréticas. El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**, con **1 ensayo clínico** de Fase 2 completado y **2 publicaciones** (revisiones) que respaldan esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en los datos de la autorización de ANMAT |
-| Nueva Indicación Predicha | Artritis reumatoide |
-| Puntaje de Predicción TxGNN | 99.90% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
-| Decisión Recomendada | Hold |
-
----
+| Indicación Original | No disponible: el texto de indicación de la autorización local está vacío |
+| Nueva Indicación Predicha | Trastorno de migraña (migraine disorder) |
+| Puntaje de Predicción TxGNN | 0.9987 |
+| Nivel de Evidencia | L2 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
+| Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según la información conocida, lornoxicam es un inhibidor no selectivo de la ciclooxigenasa (COX-1 y COX-2) de la clase de los oxicams. Al reducir la síntesis de prostaglandinas, disminuye la inflamación, el dolor y la fiebre.
+No se dispone actualmente de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, lornoxicam es un inhibidor no selectivo de COX-1 y COX-2 de la clase de los oxicams. Al inhibir la síntesis de prostaglandinas, reduce el dolor y la inflamación.
 
-Este mecanismo coincide con el manejo sintomático de la artritis reumatoide, una enfermedad inflamatoria crónica en la que las prostaglandinas contribuyen al dolor y a la inflamación articular. Las revisiones disponibles describen que lornoxicam se utiliza en trastornos musculoesqueléticos y articulares como la artrosis y la artritis reumatoide, y ya está aprobado en varios países para enfermedad reumática. Por eso se trata más de un uso establecido que de un reposicionamiento verdadero.
+Mecanísticamente, esa inhibición podría disminuir la inflamación neurogénica y la sensibilización de las vías trigeminovasculares, que es la misma lógica con la que se usan los AINE en la migraña aguda. El puntaje alto del modelo (0.9987) es coherente con esta hipótesis.
 
-Cabe aclarar que el efecto es sintomático: los AINE no modifican el curso de la enfermedad. Además, la autorización argentina no contiene texto de indicación, por lo que no puede confirmarse si la artritis reumatoide figura en ella.
+Una revisión de 1992 sobre AINE en migraña menciona a lornoxicam entre los fármacos evaluados. Sin embargo, el texto disponible no permite confirmar los resultados específicos para este fármaco.
 
----
+## Evidencia de Ensayos Clínicos
+
+| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
+|---------|------|------|------|---------|
+| [NCT00293657](https://clinicaltrials.gov/study/NCT00293657) | Fase 2 | Completado | 150 | Estudio aleatorizado, doble ciego, controlado con placebo, de dosis única de lornoxicam intravenoso (8 mg o 16 mg) en el tratamiento agudo de la cefalea de la migraña (2005-2006). No se dispone de resultados publicados en los datos compilados. |
 
 ## Evidencia de Literatura
 
-Se listan las publicaciones más relevantes (la prioridad es la evidencia específica de lornoxicam en artritis reumatoide):
-
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [12404032](https://pubmed.ncbi.nlm.nih.gov/12404032/) | 2002 | Estudio cruzado doble ciego | Reumatismo | Compara lornoxicam 8 y 16 mg/día con diclofenaco 150 mg/día en artritis reumatoide (resultados no incluidos en el resumen disponible) |
-| [12207202](https://pubmed.ncbi.nlm.nih.gov/12207202/) | 2002 | Estudio clínico a largo plazo | Minerva Medica | Evalúa la seguridad y la acción terapéutica a largo plazo de lornoxicam en artritis reumatoide |
-| [8706598](https://pubmed.ncbi.nlm.nih.gov/8706598/) | 1996 | Revisión | Drugs | Farmacología y potencial terapéutico en dolor y afecciones inflamatorias; vida media corta (3 a 5 horas) |
-| [22469263](https://pubmed.ncbi.nlm.nih.gov/22469263/) | 2011 | Revisión | Profiles of Drug Substances, Excipients, and Related Methodology | Perfil completo del fármaco; se usa en artrosis y artritis reumatoide |
-| [27086708](https://pubmed.ncbi.nlm.nih.gov/27086708/) | 2016 | Revisión de tolerabilidad | Pain Management | Evalúa la seguridad de lornoxicam, con foco en eventos gastrointestinales |
-| [19821419](https://pubmed.ncbi.nlm.nih.gov/19821419/) | 2009 | Revisión sistemática | Cochrane Database Syst Rev | Dolor postoperatorio agudo; evidencia indirecta para esta indicación |
-| [29026298](https://pubmed.ncbi.nlm.nih.gov/29026298/) | 2017 | Preclínico (modelo animal) | Int J Nanomedicine | Formulación nanomicelar de lornoxicam comparada con el fármaco libre en modelos experimentales de artritis reumatoide |
-| [12240779](https://pubmed.ncbi.nlm.nih.gov/12240779/) | 2002 | Revisión | Clin Ther | Relaciones dosis-efecto de AINE en artritis reumatoide y artrosis |
-| [25553695](https://pubmed.ncbi.nlm.nih.gov/25553695/) | 2015 | Estudio de formulación | Pak J Pharm Sci | Minicomprimidos en cápsula pulsátil para cronoterapia de la artritis reumatoide |
-| [23567043](https://pubmed.ncbi.nlm.nih.gov/23567043/) | 2013 | Estudio de formulación | J Control Release | Parche transdérmico con teriflunomida y lornoxicam para artritis reumatoide |
-
----
+| [1495823](https://pubmed.ncbi.nlm.nih.gov/1495823/) | 1992 | Revisión | Pathologie-biologie | Revisa estudios controlados de AINE en ataques de migraña y profilaxis, incluyendo lornoxicam entre los fármacos evaluados |
+| [8706598](https://pubmed.ncbi.nlm.nih.gov/8706598/) | 1996 | Revisión | Drugs | Revisión de farmacología y potencial terapéutico de lornoxicam en cuadros dolorosos e inflamatorios; no se centra específicamente en migraña |
 
 ## Información de Mercado en Argentina
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 46072 | XEFO RAPID (Takeda) | Comprimidos recubiertos 8 mg x 30 | No disponible en los datos compilados |
-
----
+| 46072 | XEFO RAPID (Takeda) | 8 mg comp. rec. x 30 | No disponible en el registro |
 
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas**: la consulta de interacciones no arrojó resultados en los datos compilados.
-- Se dispone de una revisión de tolerabilidad (PMID 27086708) centrada en eventos gastrointestinales, propios de la clase de los AINE.
+Consultar el prospecto para información de seguridad.
 
-Consultar el prospecto para información detallada de advertencias y contraindicaciones.
+## Otras Predicciones del Modelo (Referencia)
 
----
+| Indicación Predicha | Puntaje TxGNN | Nivel de Evidencia | Comentario |
+|------|------|------|------|
+| Cefalea (headache disorder) | 0.9980 | L2 | Se apoya en el mismo ensayo y las mismas publicaciones que migraña; no es evidencia independiente |
+| Tendinitis | 0.9972 | L5 | El único estudio (2017) evaluó el síndrome de pinzamiento subacromial, no tendinitis; lornoxicam inyectable fue inferior a betametasona |
+| Migraña con aura del tronco encefálico | 0.9985 | L5 | Sin estudios específicos |
+| Cefalea autonómica trigeminal | 0.9975 | L5 | Sin evidencia directa |
+| Mielitis/miositis granulomatosa idiopática | 0.9970 | L5 | Solo predicción del modelo |
+| Síndrome de braquidactilia-sindactilia | 0.9982 | L5 | Sin vínculo mecanístico plausible; probable artefacto del modelo |
+| Síndrome de microftalmia colobomatosa-displasia rizomélica | 0.9981 | L5 | Sin vínculo mecanístico plausible; probable artefacto del modelo |
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Hold**
+**Decisión: Proceed with Guardrails**
 
 **Justificación:**
-La evidencia para artritis reumatoide proviene de revisiones, estudios de formulación y modelos preclínicos, sin ensayos clínicos registrados. Además, faltan datos de seguridad del prospecto y de mecanismo de acción. Aunque el uso es plausible y ya está establecido en otros países, no se puede avanzar sin completar estos datos.
+Hay un ensayo de Fase 2 completado, aleatorizado y controlado con placebo, que estudia directamente la cefalea de la migraña, además de un mecanismo plausible (inhibición de COX). Sin embargo, no se dispone de resultados de eficacia ni de datos de seguridad locales, por lo que se recomienda avanzar con cautela.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de ANMAT (advertencias, contraindicaciones e indicación aprobada), un vacío de datos bloqueante para el cribado de seguridad
-- Confirmar si la artritis reumatoide ya figura entre las indicaciones autorizadas en Argentina
-- Obtener los datos del mecanismo de acción desde DrugBank
-- Revisar los resultados de los estudios clínicos de 2002 (PMID 12404032 y 12207202) frente a diclofenaco
-- Evaluar el perfil de seguridad gastrointestinal y cardiovascular propio de la clase AINE
-
----
-
-## Otras Indicaciones Predichas (Referencia)
-
-| Indicación | Puntaje TxGNN | Nivel de Evidencia | Observación |
-|------|------|------|------|
-| Trastorno de migraña | 99.87% | L2 | Un ensayo de Fase 2 completado ([NCT00293657](https://clinicaltrials.gov/study/NCT00293657), 150 participantes, lornoxicam intravenoso vs. placebo, doble ciego); resultados no disponibles |
-| Cefalea (trastorno) | 99.80% | L2 | Comparte el mismo ensayo; no aporta evidencia independiente |
-| Tendinitis | 99.72% | L3 | Un estudio mostró que la inyección de lornoxicam fue inferior a betametasona en síndrome de pinzamiento subacromial |
-| Otras (migraña con aura de tronco encefálico, cefalea autonómica trigeminal, síndromes genéticos raros, miositis granulomatosa idiopática) | 99.70% a 99.85% | L4–L5 | Solo predicción del modelo, sin evidencia; algunas probablemente son artefactos del grafo |
-
-Entre las alternativas, la **migraña** es la que cuenta con el único ensayo clínico directo y podría ser una línea de investigación complementaria.
+- Obtener los resultados del ensayo NCT00293657 (eficacia y seguridad).
+- Descargar y analizar el prospecto de ANMAT (advertencias y contraindicaciones), un vacío de datos bloqueante para el cribado de seguridad.
+- Confirmar el mecanismo de acción en DrugBank.
+- Verificar la vía de administración: el ensayo usó lornoxicam intravenoso, mientras que la presentación local es un comprimido recubierto de 8 mg.
+- Aclarar la indicación aprobada en la autorización local, cuyo texto está vacío.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

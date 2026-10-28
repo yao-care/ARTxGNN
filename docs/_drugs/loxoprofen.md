@@ -47,10 +47,10 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de microfta
 |------|------|
 | Indicación Original | Artritis reumatoide (según la base de conocimiento del modelo; el texto de indicación de la autorización local está vacío) |
 | Nueva Indicación Predicha | Síndrome de microftalmía colobomatosa-displasia rizomélica |
-| Puntaje de Predicción TxGNN | 99.80% |
+| Puntaje de Predicción TxGNN | 0.9980 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -59,9 +59,9 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Sin embargo, los datos compilados **no respaldan un vínculo mecanístico** con la nueva indicación predicha. El síndrome de microftalmía colobomatosa-displasia rizomélica es un trastorno congénito raro del desarrollo (coloboma y microftalmía ocular junto con displasia esquelética rizomélica), sin patología inflamatoria ni dependiente de COX establecida. La inhibición de prostaglandinas no se espera que corrija un defecto estructural del desarrollo.
 
-El puntaje alto de TxGNN (0.998) es solo una predicción derivada del grafo de conocimiento y, por sí solo, no ofrece una justificación biológica. En el mejor de los casos, el uso de un AINE podría ser sintomático (dolor), pero no modificaría la enfermedad.
+El puntaje alto de TxGNN (0.9980) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; por sí solo, no ofrece una justificación biológica. En el mejor de los casos, el uso de un AINE podría ser sintomático (dolor), pero no modificaría la enfermedad.
 
-Como referencia, el segundo candidato predicho es el **síndrome de braquidactilia-sindactilia** (puntaje 99.75%), una malformación congénita de las extremidades de origen genético, con las mismas limitaciones: sin ensayos, sin literatura y sin vínculo mecanístico respaldado.
+Como referencia, el segundo candidato predicho es el **síndrome de braquidactilia-sindactilia** (puntaje 0.9975), una malformación congénita de las extremidades de origen genético, con las mismas limitaciones: sin ensayos, sin literatura y sin vínculo mecanístico respaldado.
 
 ## Información de Mercado en Argentina
 

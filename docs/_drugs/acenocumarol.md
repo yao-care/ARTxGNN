@@ -8,6 +8,7 @@ nav_order: 11
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Acenocumarol
@@ -51,8 +52,8 @@ Acenocumarol es un anticoagulante oral derivado de la cumarina, perteneciente a 
 | Nueva Indicación Predicha | — Sin predicción disponible — |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | **L5** (sin estudios ni predicción del modelo) |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 5 de 5) |
+| Número de Autorizaciones | 5 (vigentes: 5) |
 | Decisión Recomendada | **Hold** |
 
 ---

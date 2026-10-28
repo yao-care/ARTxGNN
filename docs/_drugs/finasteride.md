@@ -5,10 +5,10 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 143
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-13
-description: "Finasteride: nueva indicación predicha, Hipertricosis universal congénita tipo Ambras (nivel de evidencia L5). Indicación original: Hiperplasia prostática benigna"
 monitor_inn: "FINASTERIDE"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
+last_modified_at: 2026-10-27
+description: "Finasteride: nueva indicación predicha, hipertricosis universal congénita tipo Ambras (Ambras type hypertrichosis universalis congenita) (nivel de evidencia L5). Indicación original: No consta en los…"
 ---
 
 # Finasteride
@@ -33,33 +33,33 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-## Finasterida: De Hiperplasia Prostática Benigna a Ambras tipo hipertricosis universal congénita
+## Finasterida: inhibidor de la 5-alfa reductasa tipo II → Ambras tipo hipertricosis universal congénita (Ambras type hypertrichosis universalis congenita)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Finasterida es un inhibidor de la 5-alfa-reductasa tipo II, originalmente utilizado para el tratamiento de la hiperplasia prostática benigna.
-El modelo TxGNN predice que podría ser efectivo para **hipertricosis universal congénita tipo Ambras**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata de una predicción puramente computacional.
+Finasterida es un inhibidor de la 5-alfa reductasa tipo II que reduce la dihidrotestosterona (DHT).
+El modelo TxGNN predice que podría ser efectiva para **hipertricosis universal congénita tipo Ambras (Ambras type hypertrichosis universalis congenita)**, con un puntaje de 0,9999, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hiperplasia prostática benigna |
-| Nueva Indicación Predicha | Hipertricosis universal congénita tipo Ambras |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | hipertricosis universal congénita tipo Ambras (Ambras type hypertrichosis universalis congenita) |
+| Puntaje de Predicción TxGNN | 0,9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 20 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 20 de 20) |
+| Número de Autorizaciones | 20 (vigentes: 20) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Finasterida inhibe la 5-alfa-reductasa tipo II y reduce los niveles de dihidrotestosterona (DHT). Este mecanismo explica su uso en la hiperplasia prostática benigna y, a dosis menores (1 mg), en la alopecia androgenética, lo que indica que el fármaco actúa sobre la biología del folículo piloso dependiente de andrógenos.
+Finasterida inhibe la 5-alfa reductasa tipo II y disminuye la DHT. Los datos de mecanismo de acción detallados no figuran en la información compilada para este informe; la descripción anterior corresponde al conocimiento general sobre el fármaco.
 
-Sin embargo, el síndrome de Ambras es una hipertricosis congénita rara, asociada a reordenamientos del cromosoma 8q22 que afectan la regulación del gen TRPS1. No es claramente dependiente de andrógenos, por lo que la reducción de DHT encaja débilmente con su causa. El puntaje del modelo es muy alto (0,99994), pero no se respalda con ensayos ni literatura.
+El síndrome de Ambras es una hipertricosis congénita causada por alteraciones genéticas (por ejemplo, reordenamientos en la región reguladora de TRPS1) y no es principalmente dependiente de andrógenos. Por ello, el fundamento para suprimir la DHT es débil.
 
-Conviene señalar también que, entre las otras predicciones, la hipertricosis en general (puntaje 99.99%) cuenta con 4 documentos de literatura, aunque son revisiones narrativas y un trabajo de métodos, sin evidencia controlada sobre finasterida. Esa indicación alcanza el nivel L4, pero también se mantiene en Hold.
+El puntaje alto de TxGNN proviene únicamente de una predicción basada en redes de relaciones. Sin estudios que la respalden, esta predicción debe considerarse una hipótesis de investigación, no una recomendación terapéutica.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -71,37 +71,34 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-Se muestran 5 de las 20 autorizaciones vigentes (todas de producto único). Los textos de indicación aprobada no están disponibles en los datos compilados.
+El fármaco se encuentra comercializado, con 20 autorizaciones vigentes (todas de producto de un solo principio activo). Principales autorizaciones:
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 11845 | PROSCAR (Organon Arg.) | Comprimidos x 30 | No disponible |
-| 21216 | PROPECIA (Organon Arg.) | 1 mg, comprimidos recubiertos x 30 | No disponible |
-| 13953 | PROSTENE (Teva Argentina) | 5 mg, comprimidos x 30 | No disponible |
-| 48814 | HPB PANALAB (Panalab) | 5 mg, comprimidos recubiertos x 28 | No disponible |
-| 23124 | CAPILFOR (Finadiet) | 1 mg, comprimidos x 30 | No disponible |
+| 11845 | PROSCAR | comp. x 30 | No registrada en los datos locales |
+| 21216 | PROPECIA | 1 mg comp. rec. x 30 | No registrada en los datos locales |
+| 13953 | PROSTENE | 5 mg comp. x 30 | No registrada en los datos locales |
+| 48814 | HPB PANALAB | 5 mg comp. rec. x 28 | No registrada en los datos locales |
+| 23124 | CAPILFOR | 1 mg comp. x 30 | No registrada en los datos locales |
 
 ## Consideraciones de Seguridad
 
-- **Enfermedades asociadas a contraindicación (según grafo de conocimiento, no texto de prospecto)**: enfermedad hepática y enfermedad de la vesícula biliar.
-- **Interacciones Farmacológicas**: se identificaron 100 posibles interacciones, todas con nivel de gravedad no clasificado. Entre las listadas figuran calcitriol, doxiciclina, clotrimazol, bupropión, metformina, omeprazol, ácido acetilsalicílico y morfina.
-- **Contexto del desarrollo**: dado que finasterida puede afectar el desarrollo genital del feto masculino, su uso en indicaciones congénitas o pediátricas exige especial cautela.
-
-Para advertencias y contraindicaciones oficiales, consultar el prospecto.
+- **Contraindicaciones**: no hay texto de prospecto disponible en los datos compilados; consultar el prospecto aprobado por ANMAT.
+- **Interacciones Farmacológicas**: se registraron 100 interacciones potenciales, todas con nivel de gravedad no clasificado ("Desconocido"). Entre ellas figuran calcitriol, doxiciclina, clotrimazol, dolasetrón, diciclomina, clorhexidina, famotidina, ácido acetilsalicílico, amoxicilina y bupropión. Se requiere revisión farmacéutica antes de cualquier uso.
+- **Consideración del desarrollo fetal**: finasterida es una preocupación conocida para el desarrollo de los genitales externos masculinos fetales, lo que añade un aspecto de seguridad relevante en trastornos del desarrollo.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto en TxGNN, pero carece de ensayos clínicos y literatura (nivel L5), y el mecanismo de reducción de DHT es un ajuste débil para una hipertricosis congénita no claramente androgénica.
+No hay ensayos ni publicaciones que estudien finasterida en esta enfermedad, el mecanismo propuesto es débil (la enfermedad es de origen genético y no principalmente androgénico) y el puntaje proviene solo de la predicción del modelo.
 
 **Para avanzar se necesita:**
-- Datos detallados del mecanismo de acción (MOA) del fármaco
-- Revisión de las advertencias y contraindicaciones del prospecto de ANMAT
-- Evidencia preclínica o mecanística que vincule la vía de la DHT con la regulación de TRPS1 en el síndrome de Ambras
-- Evaluación de compatibilidad de vía de administración y de población objetivo (incluida la seguridad en pediatría)
-- Considerar priorizar indicaciones con más respaldo (por ejemplo, hirsutismo/hipertricosis) antes de invertir en esta predicción
+- Datos detallados del mecanismo de acción y análisis de su vínculo con la vía genética de la enfermedad (p. ej., TRPS1)
+- Revisión de la literatura y de modelos preclínicos específicos para el síndrome de Ambras
+- Obtener y analizar el prospecto de ANMAT (advertencias y contraindicaciones)
+- Evaluación de seguridad, en particular por el riesgo en el desarrollo fetal y las interacciones farmacológicas sin clasificar
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

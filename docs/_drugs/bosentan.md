@@ -8,6 +8,7 @@ nav_order: 59
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Bosentan
@@ -51,8 +52,8 @@ Bosentan es un antagonista de los receptores de endotelina (ETA/ETB), conocido i
 | Nueva Indicación Predicha | — Sin predicciones generadas — |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | L5 (sin estudios asociados a una nueva indicación) |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | No comercializado (sin registro) |
+| Número de Autorizaciones | 0 (vigentes: 0) |
 | Decisión Recomendada | **Hold** |
 
 ---

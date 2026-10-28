@@ -8,6 +8,7 @@ nav_order: 55
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Biotina
@@ -47,8 +48,8 @@ BIOTINA (biotina/vitamina B7) es una vitamina hidrosoluble del complejo B esenci
 | Nueva Indicación Predicha | — (Sin predicciones disponibles) |
 | Puntaje de Predicción TxGNN | — |
 | Nivel de Evidencia | L5 (Sin evidencia clínica ni predicción asociada) |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | **Hold** |
 
 ## ¿Por qué no hay Predicciones Disponibles?

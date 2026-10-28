@@ -8,6 +8,7 @@ nav_order: 25
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Amikacina
@@ -49,8 +50,8 @@ Amikacina es un antibiótico aminoglucósido utilizado ampliamente para el trata
 | Nueva Indicación Predicha | — Sin predicciones generadas por TxGNN — |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | L5 (solo datos de entrada, sin predicción ni estudios asociados) |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | **Hold** |
 
 ---

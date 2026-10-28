@@ -4,17 +4,17 @@ title: Prasugrel
 parent: Solo Predicción del Modelo (L5)
 nav_order: 217
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Prasugrel: nueva indicación predicha, Hipertensión pulmonar (nivel de evidencia L5). Indicación original: Síndrome coronario agudo"
+indication_count: 9
 monitor_inn: "PRASUGREL"
-predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura", "kyphoscoliotic heart disease", "rheumatoid arthritis", "homozygous familial hypercholesterolemia", "hypoalphalipoproteinemia", "migraine with or without aura, susceptibility to", "brachydactyly-syndactyly syndrome", "leprosy"]
+predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura", "kyphoscoliotic heart disease", "rheumatoid arthritis", "homozygous familial hypercholesterolemia", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "leprosy"]
+last_modified_at: 2026-10-27
+description: "Prasugrel: nueva indicación predicha, Hipertensión pulmonar (pulmonary hypertension) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Prasugrel
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,33 +33,33 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Prasugrel: De Síndrome Coronario Agudo a Hipertensión Pulmonar
+## Prasugrel: antiagregante plaquetario inhibidor del receptor P2Y12 → Hipertensión pulmonar (pulmonary hypertension)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Prasugrel es un antiagregante plaquetario que antagoniza el receptor P2Y12 y se utiliza originalmente en el síndrome coronario agudo.
-El modelo TxGNN predice que podría ser efectivo para **hipertensión pulmonar**, pero actualmente hay **0 ensayos clínicos** y **2 publicaciones** de relevancia indirecta, por lo que la predicción no cuenta con respaldo clínico real.
+Prasugrel es un antiagregante plaquetario que inhibe el receptor P2Y12.
+El modelo TxGNN predice que podría ser útil para **hipertensión pulmonar (pulmonary hypertension)**, pero actualmente **no hay ensayos clínicos** y las **2 publicaciones** recuperadas no estudian directamente esta enfermedad, por lo que la predicción carece de respaldo clínico.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Síndrome coronario agudo |
-| Nueva Indicación Predicha | Hipertensión pulmonar |
-| Puntaje de Predicción TxGNN | 99.88% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Hipertensión pulmonar (pulmonary hypertension) |
+| Puntaje de Predicción TxGNN | 0,9988 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 8 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 8 de 8) |
+| Número de Autorizaciones | 8 (vigentes: 8) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción. Según la información disponible, prasugrel es un antagonista del receptor plaquetario P2Y12. Su eficacia en el síndrome coronario agudo se basa en reducir la activación y agregación plaquetaria.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, prasugrel es un inhibidor del receptor plaquetario P2Y12 que reduce la agregación plaquetaria.
 
-Existe una justificación teórica para la hipertensión pulmonar: la activación plaquetaria y la trombosis in situ contribuyen al remodelado vascular pulmonar. Bloquear P2Y12 podría atenuar ese componente.
+Existe una justificación biológica plausible: la activación plaquetaria y la trombosis in situ participan en el remodelado vascular pulmonar, por lo que bloquear la agregación podría, en teoría, ser relevante en la hipertensión pulmonar.
 
-Esta justificación es solo teórica. Ninguna de las publicaciones recuperadas evalúa prasugrel en hipertensión pulmonar, y no hay ensayos clínicos que respalden este uso. La predicción se apoya sobre todo en el puntaje del modelo.
+Sin embargo, las dos publicaciones recuperadas tratan sobre la adherencia al clopidogrel tras un síndrome coronario agudo y sobre la influencia de tratamientos de base en la mortalidad por COVID-19. Ninguna evalúa prasugrel en hipertensión pulmonar. El puntaje alto del modelo, por tanto, no está respaldado por evidencia clínica.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -69,47 +69,43 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [21241206](https://pubmed.ncbi.nlm.nih.gov/21241206/) | 2011 | Cohorte | Current Medical Research and Opinion | Estudia los factores asociados al uso y la adherencia a clopidogrel en pacientes con síndrome coronario agudo tras una intervención coronaria percutánea. No evalúa prasugrel ni hipertensión pulmonar. |
-| [34713782](https://pubmed.ncbi.nlm.nih.gov/34713782/) | 2021 | Cohorte (registro) | Kardiologiia | Analiza cómo influye el tratamiento previo de comorbilidades sobre el riesgo de desenlace letal por COVID-19, con datos del registro ACTIV. No evalúa prasugrel en hipertensión pulmonar. |
-
-Ambas publicaciones tienen relevancia solo indirecta para la indicación predicha.
+| [21241206](https://pubmed.ncbi.nlm.nih.gov/21241206/) | 2011 | Cohorte | Current Medical Research and Opinion | Factores asociados al uso, adherencia y persistencia de clopidogrel en pacientes con síndrome coronario agudo tras intervención coronaria percutánea; no estudia hipertensión pulmonar. |
+| [34713782](https://pubmed.ncbi.nlm.nih.gov/34713782/) | 2021 | Cohorte | Kardiologiia | Influencia del tratamiento de base de comorbilidades previo a la infección sobre el riesgo de desenlace letal por COVID-19 (registro ACTIVE); no estudia hipertensión pulmonar. |
 
 ## Información de Mercado en Argentina
 
-Se muestran 5 de las 8 autorizaciones vigentes, todas de medicamentos de un solo principio activo. Los datos compilados no incluyen el texto de la indicación aprobada.
-
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 45310 | TROCAL | 10 mg comp. x 30 | Nova Argentia |
-| 48863 | FLUIDIN | 10 mg comp. rec. x 28 | Lazar |
-| 45642 | CORILUM | 10 mg comp. rec. x 30 | Teva Argentina |
-| 45641 | CORILUM | 5 mg comp. rec. x 30 | Teva Argentina |
-| 44343 | PROCARDIA | 5 mg comp. x 30 | Roemmers |
+| 45310 | TROCAL | 10 mg comp. x 30 | No registrada en los datos locales |
+| 48863 | FLUIDIN | 10 mg comp. rec. x 28 | No registrada en los datos locales |
+| 45642 | CORILUM | 10 mg comp. rec. x 30 | No registrada en los datos locales |
+| 45641 | CORILUM | 5 mg comp. rec. x 30 | No registrada en los datos locales |
+| 44343 | PROCARDIA | 5 mg comp. x 30 | No registrada en los datos locales |
+
+Las 8 autorizaciones registradas están vigentes; se muestran las 5 principales.
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones según el grafo de conocimiento** (no provienen del prospecto): insuficiencia hepática, trastornos hipotensivos, enfermedades de la coagulación, accidente cerebrovascular y trastornos cerebrovasculares, susceptibilidad al ictus isquémico, infarto cerebral, lesiones traumáticas, púrpura trombocitopénica, hemorragia intracraneal, ataque isquémico transitorio e insuficiencia vertebrobasilar.
-- **Interacciones farmacológicas** (100 interacciones registradas; se muestran las de mayor gravedad entre las revisadas):
-  - **Mayor:** deferasirox, ibritumomab tiuxetán.
-  - **Moderada:** ácido acetilsalicílico, morfina, opio, dexfenfluramina, fenfluramina, sibutramina.
-  - **Menor:** inhibidores de la bomba de protones (omeprazol, esomeprazol, pantoprazol, lansoprazol, dexlansoprazol, rabeprazol), antagonistas H2 (famotidina, ranitidina, cimetidina, nizatidina) y bupropión.
-- **Riesgo hemorrágico:** el perfil de contraindicaciones (hemorragia intracraneal, trastornos de la coagulación) indica que el sangrado es una preocupación central en cualquier uso nuevo.
+- **Interacciones farmacológicas** (100 interacciones registradas; ejemplos):
+  - Mayores: deferasirox, ibritumomab tiuxetán.
+  - Moderadas: morfina, ácido acetilsalicílico, opio, fenfluramina, dexfenfluramina, sibutramina.
+  - Menores: antiácidos y gastroprotectores como famotidina, ranitidina, cimetidina, omeprazol, esomeprazol, lansoprazol, pantoprazol, rabeprazol, bupropión.
+- **Enfermedades con relación de contraindicación registrada en los datos compilados** (no proviene del texto del prospecto): insuficiencia hepática, trastornos hipotensivos, enfermedades de la coagulación, accidente cerebrovascular, trastornos cerebrovasculares, infarto cerebral, ataque isquémico transitorio, hemorragia intracraneal, púrpura trombocitopénica, lesiones e insuficiencia vertebrobasilar.
 
-Para advertencias y contraindicaciones oficiales, consultar el prospecto.
+Consultar el prospecto para la información completa de advertencias y contraindicaciones.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos ni literatura que pruebe prasugrel en hipertensión pulmonar. El nivel de evidencia es L5 y la predicción se basa solo en el modelo y en un mecanismo teórico. A esto se suma un riesgo hemorrágico relevante.
+Ninguna publicación ni ensayo recuperado estudia prasugrel en hipertensión pulmonar, por lo que el nivel de evidencia es L5. El puntaje alto de TxGNN (0,9988) es solo una predicción computacional, y el riesgo hemorrágico de prasugrel exige cautela.
 
 **Para avanzar se necesita:**
-- Estudios preclínicos que evalúen prasugrel en modelos de hipertensión pulmonar.
-- Datos detallados del mecanismo de acción y del vínculo entre la vía plaquetaria P2Y12 y el remodelado vascular pulmonar.
-- Las advertencias y contraindicaciones del prospecto de ANMAT para completar la evaluación de seguridad.
-- Un análisis de la relación beneficio-riesgo hemorrágico en esta población.
-- Valorar otras predicciones del mismo modelo con más respaldo. La **migraña** (con foramen oval permeable) cuenta con una revisión retrospectiva de tienopiridinas, un piloto abierto con ticagrelor y un ensayo de Fase 3 en curso. Ese ensayo evalúa terapia dirigida al foramen oval permeable, no prasugrel directamente. Su evidencia (L3) es más sólida que la de hipertensión pulmonar, aunque sigue siendo limitada e indirecta.
+- Revisión de literatura preclínica sobre antiagregantes P2Y12 en hipertensión pulmonar (modelos animales, estudios de plaquetas).
+- Datos del mecanismo de acción detallados del fármaco.
+- Texto del prospecto de ANMAT (advertencias y contraindicaciones) para evaluar la seguridad.
+- Evaluación del balance beneficio-riesgo hemorrágico en esta población antes de plantear cualquier estudio clínico.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

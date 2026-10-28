@@ -50,10 +50,10 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 |------|------|
 | Indicación Original | Trastorno de obesidad / obesidad monogénica |
 | Nueva Indicación Predicha | Hipervitaminosis |
-| Puntaje de Predicción TxGNN | 99.42% |
+| Puntaje de Predicción TxGNN | 0.9942 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 15 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 15 de 15) |
+| Número de Autorizaciones | 15 (vigentes: 15) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -64,7 +64,7 @@ Orlistat inhibe las lipasas gástrica y pancreática y reduce la absorción de g
 
 La relación con la nueva indicación es, por lo tanto, indirecta: una menor absorción de vitaminas liposolubles (sobre todo A y D) podría, en teoría, limitar su acumulación en casos de exceso. Es un mecanismo plausible pero no validado. Además, la hipervitaminosis suele deberse a suplementación excesiva, por lo que el manejo principal sería suspender el suplemento y cualquier beneficio de orlistat probablemente sería modesto y secundario.
 
-Cabe señalar que los datos detallados del mecanismo de acción no estaban disponibles en los datos compilados para este informe; la explicación anterior se basa en el conocimiento farmacológico general. El puntaje alto de TxGNN (0.994) es solo una predicción del modelo. Además, el efecto malabsortivo de orlistat podría agregar riesgo en pacientes que necesitan mantener niveles adecuados de vitaminas.
+Cabe señalar que los datos detallados del mecanismo de acción no estaban disponibles en los datos compilados para este informe; la explicación anterior se basa en el conocimiento farmacológico general. El puntaje alto de TxGNN (0.9942) es solo una predicción del modelo. Además, el efecto malabsortivo de orlistat podría agregar riesgo en pacientes que necesitan mantener niveles adecuados de vitaminas.
 
 ---
 

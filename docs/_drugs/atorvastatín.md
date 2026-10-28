@@ -8,6 +8,7 @@ nav_order: 38
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Atorvastatín
@@ -49,7 +50,7 @@ Atorvastatín es una estatina ampliamente utilizada a nivel mundial como inhibid
 | Nueva Indicación Predicha | Sin predicciones disponibles |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | L5 — Solo datos preliminares, sin predicción ni estudios asociados |
-| Estado de Mercado en Argentina | ✗ No comercializado |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: al menos 20) |
 | Número de Autorizaciones | 0 |
 | Decisión Recomendada | **Hold** |
 

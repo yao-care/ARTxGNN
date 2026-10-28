@@ -8,6 +8,7 @@ nav_order: 65
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Budesonida
@@ -51,7 +52,7 @@ Sin predicciones disponibles, no es posible completar el análisis comparativo d
 | Nueva Indicación Predicha | No disponible |
 | Puntaje de Predicción TxGNN | No disponible |
 | Nivel de Evidencia | L5 — sin predicciones del modelo |
-| Estado de Mercado en Argentina | No comercializado |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: al menos 20) |
 | Número de Autorizaciones | 0 |
 | Decisión Recomendada | Hold |
 

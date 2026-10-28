@@ -8,6 +8,7 @@ nav_order: 17
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Adapaleno
@@ -51,8 +52,8 @@ y no se dispone de evidencia complementaria (ensayos clínicos ni literatura) en
 | Nueva Indicación Predicha | — Sin predicciones disponibles — |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | L5 (sin estudios de reposicionamiento disponibles) |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 7 de 7) |
+| Número de Autorizaciones | 7 (vigentes: 7) |
 | Decisión Recomendada | **Hold** |
 
 ---

@@ -47,10 +47,10 @@ El modelo TxGNN predice que podría ser efectivo para **insomnio**, pero actualm
 |------|------|
 | Indicación Original | Trastornos gastrointestinales (uso procinético; el texto de indicación no figura en las autorizaciones locales) |
 | Nueva Indicación Predicha | Insomnio |
-| Puntaje de Predicción TxGNN | 99.87% |
+| Puntaje de Predicción TxGNN | 0.9987 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 10 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 10 de 10) |
+| Número de Autorizaciones | 10 (vigentes: 10) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -59,7 +59,7 @@ Mosaprida es un agonista selectivo del receptor 5-HT4 (gen HTR4) con actividad p
 
 Un vínculo plausible, pero no validado, pasaría por la modulación serotoninérgica del eje intestino-cerebro: las molestias gastrointestinales pueden alterar el sueño y la señalización por serotonina participa en la regulación del ciclo sueño-vigilia.
 
-Sin embargo, no existe en los datos disponibles un mecanismo directo que conecte el agonismo 5-HT4 con una mejora del sueño, y este no es un mecanismo hipnótico reconocido. El puntaje alto de TxGNN proviene de un grafo de conocimiento y no constituye evidencia clínica; la predicción debe tratarse solo como generadora de hipótesis.
+Sin embargo, no existe en los datos disponibles un mecanismo directo que conecte el agonismo 5-HT4 con una mejora del sueño, y este no es un mecanismo hipnótico reconocido. El puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; no constituye evidencia clínica, y la predicción debe tratarse solo como generadora de hipótesis.
 
 ## Información de Mercado en Argentina
 

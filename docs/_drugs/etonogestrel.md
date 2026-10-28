@@ -48,10 +48,10 @@ La predicción probablemente refleja un efecto farmacodinámico conocido (la ame
 |------|------|
 | Indicación Original | No disponible en las autorizaciones registradas |
 | Nueva Indicación Predicha | Amenorrea |
-| Puntaje de Predicción TxGNN | 99.84% |
+| Puntaje de Predicción TxGNN | 0.9984 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La alta puntuación del modelo probablemente refleja una asociación farmacodinámica o de efecto adverso: la amenorrea es un efecto bien conocido de los métodos con etonogestrel. Sin embargo, usar un fármaco para inducir amenorrea (por ejemplo, para controlar el sangrado) es un objetivo distinto de tratar la amenorrea patológica, que normalmente exige corregir la causa subyacente (hipotalámica, hormonal o anatómica). Por ello, un vínculo terapéutico no está respaldado.
 
-Otras predicciones del modelo (todas con nivel L5, sin ensayos ni literatura) son enfermedad fibroquística de la mama (99.61%), adenosis apocrina de la mama (99.29%), adenosis de conductos romos de la mama (99.29%) y displasia mamaria benigna (99.21%). Su fundamento es débil: parecen provenir de la proximidad en el grafo a otras afecciones mamarias benignas y no de evidencia específica del fármaco.
+Otras predicciones del modelo TxGNN (aprendizaje profundo), todas con nivel L5, sin ensayos ni literatura, son enfermedad fibroquística de la mama (0.9961), adenosis apocrina de la mama (0.9929), adenosis de conductos romos de la mama (0.9929) y displasia mamaria benigna (0.9921). Su fundamento es débil: las puntuaciones provienen del modelo TxGNN (aprendizaje profundo) y pueden reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 ## Evidencia de Ensayos Clínicos
 

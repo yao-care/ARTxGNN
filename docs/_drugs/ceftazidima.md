@@ -8,6 +8,7 @@ nav_order: 91
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Ceftazidima
@@ -53,8 +54,8 @@ CEFTAZIDIMA es un fármaco registrado en DrugBank del cual no se dispone de indi
 | Nueva Indicación Predicha | Sin predicción disponible |
 | Puntaje de Predicción TxGNN | No disponible |
 | Nivel de Evidencia | L5 (sin predicción ni estudios) |
-| Estado de Mercado en Argentina | No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | **Hold** |
 
 ---

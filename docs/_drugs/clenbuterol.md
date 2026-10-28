@@ -47,10 +47,10 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**,
 |------|------|
 | Indicación Original | No disponible en los datos compilados (los textos de indicación de las autorizaciones están vacíos) |
 | Nueva Indicación Predicha | Trastorno de migraña (migraine disorder) |
-| Puntaje de Predicción TxGNN | 99.19% |
+| Puntaje de Predicción TxGNN | 0.9919 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 5 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 5 de 5) |
+| Número de Autorizaciones | 5 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -59,9 +59,9 @@ No se dispone de datos detallados sobre el mecanismo de acción en la informaci�
 
 La señalización adrenérgica modula el tono vascular cerebral, y los betabloqueantes (por ejemplo, propranolol) son un tratamiento profiláctico establecido de la migraña. Esto indica que la vía adrenérgica es biológicamente relevante para la migraña.
 
-Sin embargo, un agonista beta-2 se esperaría que actúe en dirección opuesta a un betabloqueante (vasodilatación, efectos simpaticomiméticos), por lo que la dirección del efecto es incierta y podría ser desfavorable. El puntaje elevado de TxGNN (99.19%) es solo una predicción computacional.
+Sin embargo, un agonista beta-2 se esperaría que actúe en dirección opuesta a un betabloqueante (vasodilatación, efectos simpaticomiméticos), por lo que la dirección del efecto es incierta y podría ser desfavorable. El puntaje elevado de TxGNN (0.9919) es solo una predicción computacional.
 
-La segunda predicción, **migraña con aura del tronco encefálico** (puntaje 99.04%), es un subtipo de la migraña. Su puntaje probablemente proviene de la misma vecindad del grafo de conocimiento, por lo que no constituye evidencia independiente. Al ser un subtipo raro, es improbable que se estudie específicamente sin evidencia previa en la población general con migraña.
+La segunda predicción, **migraña con aura del tronco encefálico** (puntaje 0.9904), es un subtipo de la migraña. Su puntaje proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica, por lo que no constituye evidencia independiente. Al ser un subtipo raro, es improbable que se estudie específicamente sin evidencia previa en la población general con migraña.
 
 ## Evidencia de Ensayos Clínicos
 

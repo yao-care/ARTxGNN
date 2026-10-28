@@ -8,6 +8,7 @@ nav_order: 95
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Cetirizina
@@ -51,8 +52,8 @@ La evaluación no puede avanzar hasta que se resuelvan las brechas de datos iden
 | Nueva Indicación Predicha | Sin datos (predicted_indications vacío) |
 | Puntaje de Predicción TxGNN | N/D |
 | Nivel de Evidencia | L5 — Sin estudios reales disponibles en este paquete |
-| Estado de Mercado en Argentina | ✗ Sin registros encontrados (0 autorizaciones) |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 18 de 18) |
+| Número de Autorizaciones | 18 (vigentes: 18) |
 | Decisión Recomendada | **Hold** |
 
 ---

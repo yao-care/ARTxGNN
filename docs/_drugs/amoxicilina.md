@@ -8,6 +8,7 @@ nav_order: 31
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Amoxicilina
@@ -53,7 +54,7 @@ No se dispone de evidencia específica de reposicionamiento en este Evidence Pac
 | Nueva Indicación Predicha | — Ninguna predicción generada — |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | N/A (sin predicción del modelo) |
-| Estado de Mercado en Argentina | ✗ No comercializado (según registro consultado) |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: al menos 20) |
 | Número de Autorizaciones | 0 |
 | Decisión Recomendada | **Hold** |
 

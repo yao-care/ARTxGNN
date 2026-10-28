@@ -5,10 +5,10 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 124
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-13
-description: "Diclofenac: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (nivel de evidencia L5). Indicación original: Queratosis actínica, artritis reumatoide…"
 monitor_inn: "DICLOFENAC"
 predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "brachyolmia", "brachyolmia-amelogenesis imperfecta syndrome", "congenital hypotrichosis milia", "myosclerosis", "diffuse alopecia areata", "juvenile idiopathic arthritis", "WHIM syndrome"]
+last_modified_at: 2026-10-27
+description: "Diclofenac: nueva indicación predicha, hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Diclofenac
@@ -33,91 +33,72 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Diclofenaco: De Queratosis Actínica y Artritis Reumatoide a Hipotricosis Simple del Cuero Cabelludo
+## Diclofenaco: inhibidor de la ciclooxigenasa (AINE) → hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-El diclofenaco es un antiinflamatorio no esteroideo (AINE) que se usa originalmente para enfermedades articulares como la artritis reumatoide, la osteoartritis y la espondilitis anquilosante, y también para la queratosis actínica.
-El modelo TxGNN predice que podría ser efectivo para la **hipotricosis simple del cuero cabelludo**, pero esta predicción cuenta con **0 ensayos clínicos** y **0 publicaciones** que la respalden, por lo que es solo una señal computacional.
-
----
+Diclofenaco es un antiinflamatorio no esteroideo (AINE) con amplia comercialización en Argentina.
+El modelo TxGNN predice que podría ser efectivo para **hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp)**, pero no hay ensayos clínicos ni publicaciones que estudien esta enfermedad, por lo que la predicción no cuenta con respaldo de evidencia.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Queratosis actínica, artritis reumatoide, osteoartritis y espondilitis anquilosante (según el grafo de conocimiento; los textos de indicación de las autorizaciones locales no están disponibles) |
-| Nueva Indicación Predicha | Hipotricosis simple del cuero cabelludo |
-| Puntaje de Predicción TxGNN | 99.69% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp) |
+| Puntaje de Predicción TxGNN | 0,9969 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 20 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: al menos 20) |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, el diclofenaco pertenece a la clase de los AINE, que inhiben las enzimas ciclooxigenasa (COX-1 y COX-2) y reducen la síntesis de prostaglandinas. Su eficacia sintomática en enfermedades inflamatorias articulares está comprobada, y en forma tópica se usa en lesiones cutáneas como la queratosis actínica.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Por su clase, diclofenaco es un AINE que inhibe la ciclooxigenasa (COX-1/COX-2) y reduce la síntesis de prostaglandinas, con efecto antiinflamatorio y analgésico.
 
-La hipotricosis simple del cuero cabelludo, en cambio, es un trastorno monogénico del folículo piloso, asociado a variantes en genes como CDSN, APCDD1 y RPL21. No se identificó un vínculo mecanístico plausible entre la inhibición de COX y esta enfermedad. El uso tópico del diclofenaco en algunas enfermedades de la piel no se extiende a este trastorno.
+La hipotricosis simple del cuero cabelludo es un trastorno genético del folículo piloso (variantes como CDSN, APCDD1 o RPL21). No se identifica un vínculo mecanístico claro con la inhibición de COX: la enfermedad tiene un origen genético que un AINE no debería corregir.
 
-Por lo tanto, el puntaje alto del modelo (99.69%) parece ser un artefacto del grafo de conocimiento y no está respaldado por evidencia clínica ni bibliográfica. Debe interpretarse con mucha cautela.
-
----
+Por ello, el puntaje alto del modelo (0,9969) parece reflejar una asociación basada en la estructura de los datos y no una razón biológica o clínica. Debe tratarse como una hipótesis sin sustento actual.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
----
-
 ## Información de Mercado en Argentina
 
-El diclofenaco tiene 20 autorizaciones vigentes, todas de producto de un solo principio activo y ninguna cancelada. Se muestran las 5 primeras. Los textos de indicación aprobada no figuran en los datos disponibles.
+El diclofenaco se encuentra comercializado en Argentina. Los datos compilados muestran al menos 20 autorizaciones vigentes, y la lista puede ser parcial. Principales autorizaciones:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 30268 | VESALION | 75 mg, comprimidos x 15 | Siegfried |
-| 57006 | OXA 75 | Comprimidos recubiertos x 15 | Beta |
-| 50302 | METAFLEX 75 CB | Cápsulas blandas x 15 | Montpellier |
-| 37442 | OXA 100 | Comprimidos recubiertos x 30 | Beta |
-| 2752 | CURINFLAM A.P. | Cápsulas x 15 | Duncan |
-
----
+| 30268 | VESALION | 75 mg comprimidos x 15 | No registrada en los datos locales |
+| 57006 | OXA 75 | comprimidos recubiertos x 15 | No registrada en los datos locales |
+| 50302 | METAFLEX 75 CB | cápsulas blandas x 15 | No registrada en los datos locales |
+| 37442 | OXA 100 | comprimidos recubiertos x 30 | No registrada en los datos locales |
+| 29732 | OXA GEL PLUS | gel x 50 g | No registrada en los datos locales |
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones o condiciones de riesgo según el grafo de conocimiento** (no provienen del prospecto): hipertensión, insuficiencia cardíaca congestiva, enfermedad cardiovascular y cardiopatía, infarto de miocardio, accidente cerebrovascular e infarto cerebral, insuficiencia hepática, enfermedad hepática y daño hepático inducido por fármacos, enfermedad de la vesícula biliar, úlcera péptica activa, enfermedad inflamatoria intestinal, asma (intrínseca y alérgica), diabetes mellitus y cetoacidosis diabética, trastornos de la coagulación, hemoglobinopatías y anemias, abuso o dependencia de sustancias, y queratitis.
-- **Interacciones farmacológicas**: se detectaron 100 interacciones en total. Entre las principales (según la base DDInter):
-  - **Moderadas**:
-    - Corticoides: hidrocortisona, triamcinolona, dexametasona, betametasona y budesonida.
-    - Antidiabéticos: metformina, acetohexamida, clorpropamida, exenatida, glimepirida y glipizida.
-    - Otros: ácido acetilsalicílico, mesalazina, balsalazida, aprepitant, fenfluramina y dexfenfluramina.
-  - **Leves**: famotidina, ranitidina y cimetidina.
+- **Interacciones Farmacológicas**: se registran 100 interacciones. Entre las listadas, de gravedad moderada: ácido acetilsalicílico, corticoides (hidrocortisona, dexametasona, betametasona, triamcinolona, budesonida), metformina, sulfonilureas (glimepirida, glipizida, clorpropamida, acetohexamida), mesalazina, balsalazida, aprepitant y exenatida. De gravedad menor: famotidina, ranitidina y cimetidina.
 
----
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para hipotricosis simple del cuero cabelludo es solo computacional (nivel L5). No hay ensayos ni publicaciones, y no existe un vínculo mecanístico plausible entre la inhibición de COX y un trastorno genético del folículo piloso. No se recomienda avanzar con esta indicación.
+La predicción no tiene ensayos clínicos ni literatura que estudien esta enfermedad, y no existe un vínculo mecanístico plausible entre la inhibición de COX y un trastorno genético del folículo piloso. El nivel de evidencia es L5.
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de acción del diclofenaco desde DrugBank y evidencia preclínica que justifique un efecto sobre el folículo piloso.
-- Advertencias y contraindicaciones del prospecto de ANMAT, hoy no disponibles, para completar el análisis de seguridad.
-- Los textos de indicación aprobada de las autorizaciones locales.
-
-**Nota adicional:** entre las 10 indicaciones predichas, la única con respaldo bibliográfico es la **artritis idiopática juvenil** (nivel L3, recomendación *Proceed with Guardrails*). Hay estudios clínicos pediátricos con diclofenaco y revisiones sobre el uso de AINE en esta enfermedad. Su papel sería sintomático, no modificador de la enfermedad, y requeriría dosificación pediátrica y monitoreo gastrointestinal, renal y cardiovascular. Esa candidata merece una evaluación separada.
+- Datos del mecanismo de acción del fármaco.
+- Evidencia preclínica que muestre un papel de las prostaglandinas o la COX en esta enfermedad.
+- Revisión del prospecto aprobado en ANMAT para advertencias y contraindicaciones.
+- Evaluación de la vía de administración (por ejemplo, formulación tópica) si surgiera evidencia que lo justifique.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

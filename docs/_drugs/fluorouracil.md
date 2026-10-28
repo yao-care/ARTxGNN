@@ -6,7 +6,7 @@ nav_order: 148
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Fluorouracil: nueva indicación predicha, Rabdomiosarcoma (la predicción de mayor puntaje es la variante botrio… (nivel de evidencia L5). Indicación original: Las licencias locales no incluyen texto d…"
+description: "Fluorouracil: nueva indicación predicha, rabdomiosarcoma embrionario de tipo botrioide de la vagina (nivel de evidencia L5). Indicación original: Las licencias locales no incluyen texto d…"
 monitor_inn: "fluorouracil"
 predicted_indications: ["botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "sickle cell-beta-thalassemia disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-hemoglobin E disease syndrome"]
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Fluorouracilo: De Carcinoma Basocelular Superficial a Rabdomiosarcoma
+## Fluorouracilo: De Carcinoma Basocelular Superficial a Rabdomiosarcoma embrionario de tipo botrioide de la vagina
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,10 +48,10 @@ La evidencia actual es muy limitada y se basa principalmente en la predicción d
 |------|------|
 | Indicación Original | Las licencias locales no incluyen texto de indicación aprobada; la base de conocimiento lista carcinoma basocelular superficial multifocal, queratosis actínica y cáncer gástrico, entre otras |
 | Nueva Indicación Predicha | Rabdomiosarcoma (la predicción de mayor puntaje es la variante botrioide embrionaria de vagina; la primera con literatura es rabdomiosarcoma general) |
-| Puntaje de Predicción TxGNN | 99.75 % (rabdomiosarcoma botrioide embrionario de vagina); 99.74 % (rabdomiosarcoma general) |
+| Puntaje de Predicción TxGNN | 0.9975 (rabdomiosarcoma botrioide embrionario de vagina); 0.9974 (rabdomiosarcoma general) |
 | Nivel de Evidencia | L5 (predicción principal); L4 para rabdomiosarcoma general |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Su eficacia en tumores epiteliales (piel, estómago, páncreas, colon) está comprobada. Mecanísticamente, esa acción citotóxica general podría ser aplicable a un sarcoma proliferativo como el rabdomiosarcoma.
 
-Sin embargo, es importante señalar que el fluorouracilo no es un componente estándar de los esquemas de primera línea para rabdomiosarcoma (tipo VAC/VAI). Por lo tanto, el alto puntaje del modelo no está respaldado por evidencia clínica directa. Las predicciones de síndromes de células falciformes (puntajes idénticos de 99.62 %) parecen derivar de una inferencia compartida del grafo y no de una señal específica de la enfermedad; además, el perfil de toxicidad del fármaco lo hace poco adecuado para una enfermedad crónica no maligna.
+Sin embargo, es importante señalar que el fluorouracilo no es un componente estándar de los esquemas de primera línea para rabdomiosarcoma (tipo VAC/VAI). Por lo tanto, el alto puntaje del modelo no está respaldado por evidencia clínica directa. Las predicciones de síndromes de células falciformes (puntajes idénticos de 0.9962) provienen del modelo TxGNN (aprendizaje profundo) y pueden reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni una señal específica de la enfermedad; además, el perfil de toxicidad del fármaco lo hace poco adecuado para una enfermedad crónica no maligna.
 
 ## Evidencia de Ensayos Clínicos
 

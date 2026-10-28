@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Dienogest
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 125
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Dienogest: nueva indicación predicha, Amenorrea (nivel de evidencia L4). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
@@ -14,7 +14,7 @@ predicted_indications: ["amenorrhea (disease)", "primary ovarian failure", "brea
 # Dienogest
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Dienogest es una progestina de cuarta generación comercializada en Argentina en
 |------|------|
 | Indicación Original | No disponible en los datos compilados (los textos de indicación de las autorizaciones están vacíos) |
 | Nueva Indicación Predicha | Amenorrea |
-| Puntaje de Predicción TxGNN | 99.71% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Puntaje de Predicción TxGNN | 0.9971 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 3 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -62,7 +62,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Seg
 
 Esa acción explica por qué la amenorrea aparece con frecuencia durante el tratamiento de la endometriosis: es un **efecto esperado del fármaco** (un patrón de sangrado), no una enfermedad que el fármaco trate. La literatura recuperada se centra en endometriosis y en la seguridad de dienogest; ningún estudio lo evalúa como tratamiento de la amenorrea.
 
-Además, tratar una amenorrea hipoestrogénica o secundaria con una progestina que reduce los estrógenos sería mecanísticamente cuestionable. Por ello, el puntaje alto del modelo probablemente refleja la asociación en el grafo entre dienogest y los trastornos menstruales, más que una utilidad terapéutica real.
+Además, tratar una amenorrea hipoestrogénica o secundaria con una progestina que reduce los estrógenos sería mecanísticamente cuestionable. Por ello, el puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y probablemente refleja similitudes que el modelo aprendió entre enfermedades relacionadas, como los trastornos menstruales, y no evidencia biológica ni una utilidad terapéutica real.
 
 ---
 

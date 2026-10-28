@@ -8,6 +8,7 @@ nav_order: 99
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Ciclosporina
@@ -51,8 +52,8 @@ En consecuencia, **no es posible realizar una evaluación de reposicionamiento e
 | Nueva Indicación Predicha | Sin predicciones disponibles |
 | Puntaje de Predicción TxGNN | — |
 | Nivel de Evidencia | L5 (sin estudios reales; datos de modelo ausentes) |
-| Estado de Mercado en Argentina | ✗ No comercializado (0 autorizaciones registradas) |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 4 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 4) |
 | Decisión Recomendada | **Hold** |
 
 ---

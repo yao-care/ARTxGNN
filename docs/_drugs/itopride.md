@@ -5,10 +5,10 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 169
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-13
-description: "Itopride: nueva indicación predicha, Enfermedad de Crohn del intestino delgado (nivel de evidencia L5). Indicación original: Gastritis (según el grafo de conocimiento"
 monitor_inn: "ITOPRIDE"
 predicted_indications: ["small bowel Crohn disease", "venous insufficiency (disease)", "achlorhydria", "hiatus hernia (disease)"]
+last_modified_at: 2026-10-27
+description: "Itopride: nueva indicación predicha, Enfermedad de Crohn del intestino delgado (small bowel Crohn disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Itopride
@@ -33,42 +33,36 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-## Itoprida: De Gastritis a Enfermedad de Crohn del Intestino Delgado
+## Itopride: procinético antagonista de dopamina D2 e inhibidor de acetilcolinesterasa → enfermedad de Crohn del intestino delgado (small bowel Crohn disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Itoprida es un procinético gastrointestinal utilizado originalmente para el tratamiento de la gastritis. El modelo TxGNN predice que podría ser efectivo para la **enfermedad de Crohn del intestino delgado**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata únicamente de una predicción del modelo.
+Itopride es un fármaco procinético del tracto gastrointestinal superior que actúa como antagonista de los receptores de dopamina D2 e inhibidor de la acetilcolinesterasa.
+El modelo TxGNN predice que podría ser efectivo para **enfermedad de Crohn del intestino delgado (small bowel Crohn disease)**, con un puntaje de 0.9990.
+Actualmente no hay ensayos clínicos ni publicaciones que respalden esta dirección, por lo que se trata solo de una predicción computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Gastritis (según el grafo de conocimiento; los textos de indicación de las autorizaciones locales no están disponibles) |
-| Nueva Indicación Predicha | Enfermedad de Crohn del intestino delgado |
-| Puntaje de Predicción TxGNN | 99,90% |
+| Indicacion Original | No consta en los datos locales |
+| Nueva Indicacion Predicha | Enfermedad de Crohn del intestino delgado (small bowel Crohn disease) |
+| Puntaje de Prediccion TxGNN | 0.9990 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 12 |
-| Decisión Recomendada | Hold |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 12 de 12) |
+| Número de Autorizaciones | 12 (vigentes: 12) |
+| Decision Recomendada | Hold |
 
-## ¿Por qué es Razonable esta Predicción?
+## Por que es Razonable esta Prediccion?
 
-Itoprida es un antagonista del receptor de dopamina D2 y un inhibidor de la acetilcolinesterasa que favorece la motilidad del tracto gastrointestinal superior. Esta descripción proviene del análisis de la predicción; los datos detallados del mecanismo de acción no figuran en la información compilada para este informe.
+Itopride combina el antagonismo de dopamina D2 con la inhibición de la acetilcolinesterasa, lo que aumenta la motilidad del tracto gastrointestinal superior. Los datos detallados del mecanismo de acción no figuran en la información compilada para este informe, de modo que esta descripción se basa en la farmacología conocida del fármaco.
 
-La relación entre la indicación original y la nueva es débil. La gastritis y la enfermedad de Crohn afectan al tubo digestivo, pero la enfermedad de Crohn es de naturaleza inflamatoria e inmunomediada, y no hay un vínculo mecanístico claro con la actividad procinética. Además, los procinéticos suelen utilizarse con cautela en presencia de estenosis u obstrucción, frecuentes en el Crohn del intestino delgado.
+La enfermedad de Crohn está impulsada por una inflamación inmunomediada transmural, que la actividad procinética no aborda directamente. Por ello, el vínculo mecanístico es débil. Un posible nicho, aún especulativo, sería el manejo sintomático de la dismotilidad o de estenosis con síntomas funcionales.
 
-Por ello, el puntaje elevado (0,999) debe interpretarse con prudencia: refleja una predicción basada en la red de conocimiento y no está respaldado por estudios reales.
+El puntaje del modelo es muy alto, pero sin ensayos ni literatura que lo respalden no puede confirmarse la plausibilidad biológica. Debe considerarse una hipótesis para generar investigación, no una indicación sustentada.
 
-### Otras predicciones del modelo (todas con evidencia L5 y decisión Hold)
-
-| Posición | Indicación predicha | Puntaje TxGNN | Comentario |
-|------|------|------|------|
-| 2 | Insuficiencia venosa | 99,23% | No se identificó un vínculo mecanístico plausible; probablemente sea un artefacto de la red. |
-| 3 | Aclorhidria | 99,16% | Itoprida actúa sobre la motilidad, no sobre la secreción ácida; un alivio sintomático sería solo especulativo. |
-| 4 | Hernia de hiato | 99,02% | La más plausible biológicamente (mejora del vaciamiento gástrico y del tono del esfínter esofágico inferior), pero no corrige el defecto anatómico y no hay evidencia directa. |
-
-## Evidencia de Ensayos Clínicos
+## Evidencia de Ensayos Clinicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
@@ -76,34 +70,36 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Actualmente no hay literatura relacionada disponible.
 
-## Información de Mercado en Argentina
+## Informacion de Mercado en Argentina
 
-Se listan 5 de las 12 autorizaciones vigentes (todas de monodroga y en estado válido):
+El fármaco figura como comercializado, con 12 autorizaciones, todas vigentes y de producto de un solo principio activo. Los textos de indicación aprobada no están registrados en los datos locales.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+| Numero de Autorizacion | Nombre del Producto | Forma Farmaceutica | Indicacion Aprobada |
 |---------|------|------|-----------|
-| 51944 | ITOPLUS (Eczane) | Comprimidos 50 mg x 10 | No disponible |
-| 50125 | DOMEKA (Rossmore Pharma) | Comprimidos 50 mg x 60 | No disponible |
-| 47759 | AFLUSAN (Domínguez) | Comprimidos 50 mg x 10 | No disponible |
-| 52589 | IDELIS (Casasco) | Comprimidos 50 mg x 30 | No disponible |
-| 40987 | ITOPRID (Eurofarma) | Comprimidos 50 mg x 60 | No disponible |
+| 51944 | ITOPLUS | 50 mg comp. x 10 | No registrada |
+| 50125 | DOMEKA | 50 mg comp. x 60 | No registrada |
+| 51945 | ITOPLUS | 50 mg comp. x 30 | No registrada |
+| 50124 | DOMEKA | 50 mg comp. x 30 | No registrada |
+| 47759 | AFLUSAN | 50 mg comp. x 10 | No registrada |
+
+Se muestran las 5 primeras de 12 autorizaciones; las restantes corresponden a las marcas IDELIS, ITOPLUS, DOMEKA, ITOPRID y AFLUSAN.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+Consultar el prospecto para informacion de seguridad.
 
-## Conclusión y Próximos Pasos
+## Conclusion y Proximos Pasos
 
-**Decisión: Hold**
+**Decision: Hold**
 
-**Justificación:**
-La predicción para la enfermedad de Crohn del intestino delgado se apoya solo en el puntaje del modelo (L5), sin ensayos clínicos ni literatura, y sin un mecanismo plausible. Además, el uso de procinéticos en estenosis u obstrucción exige cautela.
+**Justificacion:**
+La predicción tiene un puntaje alto (0.9990), pero no cuenta con ensayos clínicos ni literatura que estudien directamente esta enfermedad (nivel L5), y el mecanismo procinético no aborda la inflamación inmunomediada de la enfermedad de Crohn.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto aprobado por ANMAT (advertencias, contraindicaciones e indicaciones autorizadas).
-- Completar los datos del mecanismo de acción desde DrugBank.
-- Realizar una revisión sistemática de la literatura y de registros de ensayos para Crohn y para la hernia de hiato.
-- Si se desea avanzar, priorizar la hernia de hiato (reflujo asociado), que es mecanísticamente la más plausible, evaluando evidencia indirecta en ERGE y dispepsia funcional.
+- Datos detallados del mecanismo de acción del fármaco.
+- Revisión de literatura específica sobre procinéticos en enfermedad de Crohn, especialmente para síntomas de dismotilidad.
+- Información de seguridad del prospecto de ANMAT (advertencias y contraindicaciones).
+- Si se continúa, definir una pregunta de investigación sintomática y no modificadora de la enfermedad, con evidencia preclínica o estudios exploratorios previos.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

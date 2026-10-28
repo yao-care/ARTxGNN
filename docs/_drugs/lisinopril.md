@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lisinopril
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 180
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Lisinopril: nueva indicación predicha, Infarto de miocardio posterolateral (nivel de evidencia L4). Indicación original: Hipertensión arterial (trastorno hipertensivo)"
+evidence_level: L5
+indication_count: 6
 monitor_inn: "LISINOPRIL"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"]
+last_modified_at: 2026-10-27
+description: "Lisinopril: nueva indicación predicha, Hipertensión pulmonar debida a enfermedad pulmonar y/o hipoxia (pulmonary hypertension owing to lung disease and/or hyp… (nivel de evidencia L5). Indicación ori…"
 ---
 
 # Lisinopril
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,98 +33,84 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-## Lisinopril: De Hipertensión Arterial a Infarto de Miocardio Posterolateral
+## Lisinopril: inhibidor de la enzima convertidora de angiotensina (ECA) → hipertensión pulmonar debida a enfermedad pulmonar y/o hipoxia (pulmonary hypertension owing to lung disease and/or hypoxia)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Lisinopril es un inhibidor de la enzima convertidora de angiotensina (IECA), originalmente utilizado para el tratamiento de la hipertensión arterial y el infarto de miocardio.
-El modelo TxGNN predice que podría ser efectivo para el **infarto de miocardio posterolateral**, aunque se trata de un subtipo anatómico de una indicación ya conocida, por lo que no constituye un reposicionamiento genuino.
-Actualmente hay **0 ensayos clínicos** y **0 publicaciones** específicas que respalden esta predicción.
+Lisinopril es un inhibidor de la enzima convertidora de angiotensina (ECA) comercializado en Argentina.
+El modelo TxGNN predice que podría ser efectivo para **hipertensión pulmonar debida a enfermedad pulmonar y/o hipoxia (pulmonary hypertension owing to lung disease and/or hypoxia)**,
+pero actualmente **no hay ensayos clínicos** registrados y la literatura recopilada no incluye ningún estudio que evalúe directamente esta enfermedad con lisinopril; la predicción se apoya solo en el modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertensión arterial (trastorno hipertensivo) |
-| Nueva Indicación Predicha | Infarto de miocardio posterolateral |
-| Puntaje de Predicción TxGNN | 99.90% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 11 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Hipertensión pulmonar debida a enfermedad pulmonar y/o hipoxia (pulmonary hypertension owing to lung disease and/or hypoxia) |
+| Puntaje de Predicción TxGNN | 0,9989 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 11 de 11) |
+| Número de Autorizaciones | 11 (vigentes: 11) |
 | Decisión Recomendada | Hold |
-
-> Nota: la tabla de autorizaciones no incluye texto de indicación aprobada. La indicación original se toma de las indicaciones registradas en el grafo de conocimiento del modelo.
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, lisinopril pertenece a la clase de los inhibidores de la ECA: reduce la producción de angiotensina II, con lo que disminuye la vasoconstricción y el remodelado vascular y cardíaco.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Por su clase farmacológica, lisinopril inhibe la ECA y reduce la producción de angiotensina II, lo que podría atenuar la vasoconstricción y el remodelado vascular pulmonar.
 
-El infarto de miocardio posterolateral es un subtipo anatómico del infarto de miocardio, indicación para la cual lisinopril ya está registrado en el grafo de conocimiento. El puntaje elevado probablemente refleja la indicación madre (infarto de miocardio) y no evidencia específica del subtipo. Por lo tanto, no es una verdadera indicación nueva.
+Sin embargo, el mecanismo es débil para esta enfermedad: un estudio preclínico en arterias pulmonares aisladas de rata (PMID 10456287) indica que la respuesta contráctil a la hipoxia depende sobre todo de la endotelina y no de la angiotensina II. Esto debilita la justificación mecanística.
 
-Otras predicciones del modelo ofrecen un potencial de reposicionamiento más interesante, en particular la **cardiopatía pulmonar crónica** (puntaje 99.68%, nivel L3), que cuenta con dos estudios clínicos específicos con lisinopril, aunque pequeños y antiguos (ver sección de literatura).
+El resto de la literatura recuperada es preclínica o tangencial (expresión génica en músculo con ejercicio, retinopatía del prematuro, fibrosis pancreática en ratas, fisiología de la trucha, hipertensión pulmonar experimental con simvastatina). Ninguna estudia lisinopril en hipertensión pulmonar asociada a hipoxia en humanos. Por ello el nivel de evidencia se limita a L5.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para la indicación principal predicha. Tampoco se encontraron ensayos para las otras nueve indicaciones predichas.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible para el infarto de miocardio posterolateral.
-
-A modo de referencia, estas son las publicaciones más relevantes para las indicaciones predichas alternativas con evidencia:
-
-**Cardiopatía pulmonar crónica (puntaje 99.68%, nivel L3)**
+Selección de las publicaciones más cercanas al tema; ninguna estudia directamente la enfermedad predicha en humanos con lisinopril.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [17047621](https://pubmed.ncbi.nlm.nih.gov/17047621/) | 2006 | Estudio clínico (probablemente pequeño, no aleatorizado) | Kardiologiia | Lisinopril 10 mg/día atenuó la hipertensión pulmonar y mejoró la función sistólica del ventrículo derecho en pacientes con insuficiencia cardíaca, cardiopatía isquémica y EPOC |
-| [14524095](https://pubmed.ncbi.nlm.nih.gov/14524095/) | 2003 | Estudio clínico (probablemente pequeño, no aleatorizado) | Probl Tuberk Bolezn Legk | Tratamiento con lisinopril en pacientes con cor pulmonale crónico (sin resumen disponible) |
-| [26895877](https://pubmed.ncbi.nlm.nih.gov/26895877/) | 2016 | Revisión | Eur J Pediatr | Recomienda IECA, betabloqueantes y antagonistas mineralocorticoides en insuficiencia cardíaca crónica pediátrica |
-
-**Infarto de miocardio septal (nivel L4)**
-
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [39018146](https://pubmed.ncbi.nlm.nih.gov/39018146/) | 2024 | Reporte de caso | JPMA | IECA más coenzima Q10 como tratamiento adyuvante en ruptura septal ventricular tras infarto; no aporta evidencia específica de lisinopril |
-
-**Hipertensión pulmonar por enfermedad pulmonar o hipoxia (nivel L4)**
-
-La literatura recuperada es mayormente periférica (estudios en animales, incluida la trucha arcoíris, músculo, páncreas y retinopatía del prematuro). Un estudio ex vivo (PMID 10456287) sugiere que la contracción hipóxica de las arterias pulmonares depende de la endotelina y no de la angiotensina II, lo que debilita el vínculo mecanístico.
+| [10456287](https://pubmed.ncbi.nlm.nih.gov/10456287/) | 1999 | Preclínico (vasos aislados) | Fundamental & Clinical Pharmacology | En arterias pulmonares de rata, la respuesta contráctil a la hipoxia depende de la endotelina, no de la angiotensina II. |
+| [16698853](https://pubmed.ncbi.nlm.nih.gov/16698853/) | 2006 | Animal | Am J Physiol Lung Cell Mol Physiol | Simvastatina (otro fármaco) atenúa la hipertensión pulmonar grave en un modelo de rata. |
+| [8016291](https://pubmed.ncbi.nlm.nih.gov/8016291/) | 1994 | Sin clasificar | Puerto Rico Health Sci J | Tras administración sublingual de inhibidores de la ECA en cateterismo se observaron aumentos transitorios de la presión arterial pulmonar y de la resistencia vascular pulmonar. |
+| [26407530](https://pubmed.ncbi.nlm.nih.gov/26407530/) | 2016 | Mecanístico/fisiología humana | Scand J Med Sci Sports | La inhibición de la ECA modifica la expresión de genes proangiogénicos y mitocondriales tras el ejercicio. |
+| [3208727](https://pubmed.ncbi.nlm.nih.gov/3208727/) | 1988 | Preclínico | Experimental Lung Research | La adaptación a la hipoxia en ratas protege la función metabólica endotelial pulmonar (actividad de ECA). |
+| [8405086](https://pubmed.ncbi.nlm.nih.gov/8405086/) | 1993 | Sin clasificar | Eur J Pharmacol | Lisinopril mejora la recuperación durante la reoxigenación en cardiomiocitos cultivados. |
 
 ## Información de Mercado en Argentina
 
+Las 11 autorizaciones registradas son de producto de un solo principio activo y están vigentes. El texto de indicación aprobada no está registrado en los datos locales.
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 7048 | TENSOPRIL (Teva Argentina) | 10 mg, comprimidos x 20 | No disponible en los datos |
-| 564 | TENSOPRIL (Teva Argentina) | 10 mg, comprimidos x 40 | No disponible en los datos |
-| 563 | TENSOPRIL (Teva Argentina) | 5 mg, comprimidos x 40 | No disponible en los datos |
-| 3249 | ZESTRIL (AstraZeneca) | 10 mg, comprimidos x 60 | No disponible en los datos |
-| 565 | TENSOPRIL (Teva Argentina) | 20 mg, comprimidos x 40 | No disponible en los datos |
-
-Hay 11 autorizaciones vigentes en total, todas de monofármaco y ninguna cancelada. Otros productos: LISINAL 10 y LISINAL 20 (Beta), ZESTRIL 20 mg (AstraZeneca), TENSOPRIL D (Teva Argentina).
+| 7048 | TENSOPRIL | 10 mg comp. x 20 | No registrada en los datos locales |
+| 564 | TENSOPRIL | 10 mg comp. x 40 | No registrada en los datos locales |
+| 563 | TENSOPRIL | 5 mg comp. x 40 | No registrada en los datos locales |
+| 3249 | ZESTRIL | 10 mg comp. x 60 | No registrada en los datos locales |
+| 565 | TENSOPRIL | 20 mg comp. x 40 | No registrada en los datos locales |
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones y condiciones de riesgo (según el grafo de conocimiento, no texto de prospecto)**: enfermedad renal, enfermedad hepática, pancreatitis, enfermedad de la vesícula biliar, angioedema (incluidos el hereditario, el adquirido y el inducido por bloqueadores del sistema renina-angiotensina-aldosterona), lupus eritematoso sistémico, deficiencia de potasio, diabetes mellitus y cetoacidosis diabética, neutropenia, agranulocitosis, estenosis aórtica, hipotensión, hiperparatiroidismo, encefalopatía hepática y enfermedades del tejido conectivo y óseas.
-- **Interacciones farmacológicas**: se identificaron 100 interacciones en total. Las de mayor gravedad (**Mayor**) son con **citrato de potasio** y **bicarbonato de potasio** (riesgo de hiperpotasemia). Las de gravedad **Moderada** incluyen corticoides (hidrocortisona, dexametasona, betametasona, budesonida, triamcinolona), antidiabéticos (metformina, alogliptina, saxagliptina, canagliflozina, dapagliflozina, empagliflozina, clorpropamida), ácido acetilsalicílico, morfina, bupropión, dronabinol, ácido picosulfúrico y polietilenglicol con electrolitos.
-- **Riesgos específicos de las indicaciones predichas**: hipotensión sistémica en hipertensión pulmonar; lesión renal aguda e hiperpotasemia en nefropatía hipertensiva maligna; riesgo de insuficiencia renal aguda en estenosis bilateral de la arteria renal (hipertensión renovascular).
+- **Interacciones farmacológicas** (11 de las primeras 20 consultadas son de nivel moderado y 2 de nivel mayor; el total registrado es de 100):
+  - Nivel mayor: citrato de potasio y bicarbonato de potasio (riesgo de hiperpotasemia).
+  - Nivel moderado: corticoides (hidrocortisona, dexametasona, betametasona, triamcinolona, budesonida), antidiabéticos (metformina, alogliptina, saxagliptina, canagliflozina, dapagliflozina, empagliflozina, clorpropamida), ácido acetilsalicílico, morfina, bupropión, dronabinol y preparados de limpieza intestinal.
 
-Para advertencias y contraindicaciones del prospecto, consultar el prospecto aprobado por ANMAT.
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La indicación principal predicha (infarto de miocardio posterolateral) es un subtipo de una indicación ya conocida, sin ensayos ni literatura específicos, por lo que no representa un reposicionamiento real. Entre las demás predicciones, solo la cardiopatía pulmonar crónica muestra evidencia clínica inicial (nivel L3), pero proviene de estudios pequeños y antiguos.
+La predicción (puntaje 0,9989) no cuenta con ensayos clínicos ni estudios directos en humanos, y la evidencia preclínica sugiere que la hipoxia actúa principalmente por la vía de la endotelina, lo que debilita el fundamento mecanístico. Se mantiene en espera.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto de ANMAT (advertencias y contraindicaciones), ya que es un vacío bloqueante para la evaluación de seguridad.
-- Completar los datos del mecanismo de acción (por ejemplo, desde DrugBank).
-- Reorientar la evaluación hacia la cardiopatía pulmonar crónica y la hipertensión pulmonar, con una revisión sistemática de los estudios existentes y, de ser viable, un ensayo clínico controlado.
-- Definir un plan de monitoreo de presión arterial, función renal y potasio para cualquier población nueva.
-- Confirmar con un experto clínico si el infarto de miocardio posterolateral debe considerarse cubierto por la indicación vigente de infarto de miocardio.
+- Datos detallados del mecanismo de acción de lisinopril en circulación pulmonar hipóxica.
+- Revisión dirigida de la literatura clínica sobre inhibidores de la ECA en hipertensión pulmonar asociada a enfermedad pulmonar/hipoxia.
+- Estudios clínicos que evalúen directamente esta indicación.
+- Obtención y análisis del prospecto aprobado por ANMAT para completar advertencias y contraindicaciones.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

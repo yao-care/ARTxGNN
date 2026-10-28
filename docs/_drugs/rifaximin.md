@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Rifaximin
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 224
-evidence_level: L4
+evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-13
-description: "Rifaximin: nueva indicación predicha, Candidiasis oral (nivel de evidencia L4). Indicación original: Encefalopatía hepática, coma hepático (según el grafo de conocimiento"
 monitor_inn: "rifaximin"
 predicted_indications: ["oral candidiasis", "commissural lip fistula", "osteoradionecrosis of the mandible", "oral leukoedema", "burning mouth syndrome", "candidiasis"]
+last_modified_at: 2026-10-27
+description: "Rifaximin: nueva indicación predicha, Candidiasis oral (oral candidiasis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Rifaximin
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,80 +33,89 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **6**
 
 </div>
 
-## Rifaximina: De Encefalopatía Hepática a Candidiasis Oral
+## Rifaximina: antibacteriano oral no absorbible → Candidiasis oral (oral candidiasis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Rifaximina es un antibiótico oral no absorbible, originalmente utilizado para el tratamiento de la encefalopatía hepática y el coma hepático.
-El modelo TxGNN predice que podría ser efectivo para **candidiasis oral**, pero actualmente no hay ensayos clínicos y solo existe **1 publicación** (un estudio de cohorte) cuya señal apunta a un posible riesgo, no a un beneficio terapéutico.
+Rifaximina es un antibiótico oral de acción local en el intestino, con escasa absorción sistémica.
+El modelo TxGNN predice que podría ser efectivo para **Candidiasis oral (oral candidiasis)**, pero no hay ensayos clínicos registrados y solo existe **1 publicación** relacionada, un estudio de cohorte que sugiere un posible efecto desfavorable (selección de *Candida* resistente a micafungina), no un beneficio terapéutico.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Encefalopatía hepática, coma hepático (según el grafo de conocimiento; los textos de indicación de las autorizaciones locales no están disponibles) |
-| Nueva Indicación Predicha | Candidiasis oral |
-| Puntaje de Predicción TxGNN | 99.75% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 20 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Candidiasis oral (oral candidiasis) |
+| Puntaje de Predicción TxGNN | 0,9975 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: al menos 20) |
+| Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, la rifaximina es un antibacteriano de acción local en el intestino, con absorción sistémica mínima. Su eficacia en la encefalopatía hepática se asocia a la reducción de bacterias intestinales productoras de toxinas.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la rifaximina es un antibacteriano no absorbible que actúa principalmente en el tracto gastrointestinal y no tiene actividad antifúngica conocida.
 
-Mecanísticamente, **la predicción no se sostiene bien**. La rifaximina no tiene actividad antifúngica conocida. El único estudio disponible (PMID 34180023) asocia su uso con infecciones por *Candida* resistentes a micafungina en receptores de trasplante alogénico de progenitores hematopoyéticos. Esto sugiere una posible asociación adversa (probablemente por alteración de la microbiota intestinal y presión de selección), no un beneficio.
+La única publicación vinculada sugiere lo contrario de un efecto terapéutico: el uso de rifaximina se asoció con infecciones por *Candida* resistentes a micafungina en receptores de trasplante alogénico de células madre hematopoyéticas, probablemente por alteración de la microbiota intestinal.
 
-Por lo tanto, el puntaje alto del modelo no tiene respaldo en un mecanismo terapéutico plausible, y la señal disponible apunta en sentido contrario. Se trata más de una alerta de seguridad que de una oportunidad de reposicionamiento.
+Por lo tanto, el puntaje alto (0,9975) no está respaldado por un mecanismo plausible y podría reflejar cercanía en la red con otros antiinfecciosos. Esta predicción debe interpretarse como una hipótesis computacional sin sustento mecanístico claro.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [34180023](https://pubmed.ncbi.nlm.nih.gov/34180023/) | 2021 | Estudio de cohorte | Annals of Hematology | El uso de rifaximina como profilaxis en receptores de trasplante alogénico de progenitores hematopoyéticos se asoció con infecciones por *Candida* resistentes a micafungina. No muestra beneficio terapéutico. |
+| [34180023](https://pubmed.ncbi.nlm.nih.gov/34180023/) | 2021 | Cohorte | Annals of Hematology | En receptores de trasplante alogénico de células madre hematopoyéticas, el uso de rifaximina como profilaxis se asoció con infecciones por *Candida* spp. resistentes a micafungina. |
+
+---
 
 ## Información de Mercado en Argentina
 
-Los textos de indicación aprobada no están disponibles para ninguna de las autorizaciones. Se listan las 5 primeras de las 20 autorizaciones vigentes (todas de monofármaco):
+Hay al menos 20 autorizaciones vigentes (la lista puede ser parcial), todas de productos de rifaximina como único principio activo. Los textos de indicación aprobada no están registrados en los datos locales.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 49637 | RIFADOM | 550 mg comprimidos x 60 | No disponible |
-| 52884 | ROCIAMIN | 200 mg comprimidos recubiertos x 20 | No disponible |
-| 49524 | RIFADOM | 200 mg comprimidos x 20 | No disponible |
-| 54990 | RIFAXTRIL | 550 mg comprimidos x 60 | No disponible |
-| 54989 | RIFAXTRIL | 550 mg comprimidos x 30 | No disponible |
+| 49637 | RIFADOM | 550 mg comp. x 60 | No registrada |
+| 52884 | ROCIAMIN | 200 mg comp. rec. x 20 | No registrada |
+| 54990 | RIFAXTRIL | 550 mg comp. x 60 | No registrada |
+| 54200 | LISIBACTER | 550 mg comp. rec. x 30 | No registrada |
+| 40623 | COLOXIMINA | 200 mg comp. rec. x 20 | No registrada |
+
+---
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones según el grafo de conocimiento** (no provienen del prospecto): colitis por *Clostridium difficile* y enterocolitis necrosante perinatal.
-- **Interacciones farmacológicas**: se identificaron 69 interacciones, entre ellas:
-  - **Mayor**: vacuna viva contra el cólera (cepa *Vibrio cholerae* CVD 103-HgR).
-  - **Moderadas** (ejemplos): warfarina, ciclosporina, tolvaptán, cabozantinib, alpelisib, apalutamida, daclatasvir, ledipasvir, ácido picosulfúrico.
-- **Señal de seguridad relevante**: la literatura sugiere que el uso de rifaximina podría favorecer infecciones por *Candida* resistentes a micafungina en pacientes trasplantados.
+- **Interacciones farmacológicas**: se identificaron 69 interacciones. Entre las listadas, una es de nivel mayor: la vacuna viva contra el cólera (*Vibrio cholerae* CVD 103-HgR). Las demás mostradas son de nivel moderado, por ejemplo ciclosporina, warfarina, tolvaptán, daclatasvir, ledipasvir, cabozantinib, apalutamida y alpelisib.
+- **Señal de seguridad relacionada con la predicción**: la publicación vinculada sugiere que el uso de rifaximina puede favorecer infecciones por *Candida* resistentes a micafungina en pacientes trasplantados.
 
-Para advertencias y contraindicaciones oficiales, consultar el prospecto.
+Para advertencias y contraindicaciones, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La rifaximina carece de actividad antifúngica, no existen ensayos clínicos y la única publicación disponible indica un riesgo asociado, no un beneficio. El puntaje alto de TxGNN no se respalda con un mecanismo plausible.
+No existen ensayos clínicos ni estudios que evalúen un beneficio de la rifaximina en la candidiasis oral; la única publicación sugiere un posible perjuicio y no hay actividad antifúngica conocida. El puntaje del modelo no basta por sí solo para avanzar.
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de acción de la rifaximina.
-- Advertencias y contraindicaciones del prospecto de ANMAT (pendiente de obtener).
-- Evidencia preclínica de actividad antifúngica o de un efecto beneficioso sobre la candidiasis oral.
-- Evaluación del riesgo de sobrecrecimiento fúngico en poblaciones vulnerables (trasplantados, cirróticos).
-
-**Nota sobre otras predicciones:** las demás indicaciones predichas (fístula comisural del labio, osteorradionecrosis de la mandíbula, leucoedema oral, síndrome de boca ardiente y candidiasis) tampoco cuentan con evidencia que las respalde. Para la candidiasis en general, los estudios observacionales disponibles indican riesgo y no un papel terapéutico.
+- Datos del mecanismo de acción que justifiquen un vínculo con la candidiasis oral
+- Estudios preclínicos que evalúen un efecto sobre *Candida* en la mucosa oral
+- Evaluación de la señal de riesgo de candidiasis resistente descrita en pacientes trasplantados
+- Textos de advertencias y contraindicaciones del prospecto de ANMAT
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

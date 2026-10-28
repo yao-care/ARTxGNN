@@ -48,10 +48,10 @@ Calcipotriol es un análogo de la vitamina D3 de uso tópico, comercializado en 
 |------|------|
 | Indicación Original | No disponible en los datos de las autorizaciones de ANMAT |
 | Nueva Indicación Predicha | Queratosis seborreica |
-| Puntaje de Predicción TxGNN | 99.96% |
+| Puntaje de Predicción TxGNN | 0.9996 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 4 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ---

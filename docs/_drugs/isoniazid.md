@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Isoniazid
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 168
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Isoniazid: nueva indicación predicha, Conjuntivitis (nivel de evidencia L4). Indicación original: Tuberculosis pulmonar (según la base de conocimiento de TxGNN"
@@ -14,7 +14,7 @@ predicted_indications: ["conjunctivitis"]
 # Isoniazid
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **1** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ El modelo TxGNN predice que podría ser efectivo para **conjuntivitis**, pero no
 |------|------|
 | Indicación Original | Tuberculosis pulmonar (según la base de conocimiento de TxGNN; los textos de indicación de las autorizaciones locales están vacíos) |
 | Nueva Indicación Predicha | Conjuntivitis |
-| Puntaje de Predicción TxGNN | 99.36% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Puntaje de Predicción TxGNN | 0.9936 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -59,7 +59,7 @@ Los datos compilados para este informe no incluyen información detallada sobre 
 
 No se establece un vínculo mecanístico directo con la conjuntivitis en general. La relación solo es plausible en conjuntivitis de origen micobacteriano, como la queratoconjuntivitis flictenular, que es una reacción de hipersensibilidad inmunomediada frente a antígenos tuberculosos. En esos casos, tratar la infección tuberculosa subyacente podría resolver el cuadro ocular.
 
-El puntaje alto de TxGNN (0.994) es una predicción del modelo y no está respaldado por datos de ensayos clínicos. Varios artículos recuperados describen efectos adversos oculares de fármacos sistémicos o artritis reactiva asociada a BCG, lo que no constituye evidencia terapéutica para la conjuntivitis.
+El puntaje alto de TxGNN (0.9936) es una predicción del modelo y no está respaldado por datos de ensayos clínicos. Varios artículos recuperados describen efectos adversos oculares de fármacos sistémicos o artritis reactiva asociada a BCG, lo que no constituye evidencia terapéutica para la conjuntivitis.
 
 ## Evidencia de Literatura
 

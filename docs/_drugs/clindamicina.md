@@ -8,6 +8,7 @@ nav_order: 110
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Clindamicina
@@ -51,7 +52,7 @@ Adicionalmente, el fármaco **no cuenta con registros de autorización en Argent
 | Nueva Indicación Predicha | ⚠️ Sin predicciones disponibles (predicted_indications vacío) |
 | Puntaje de Predicción TxGNN | — |
 | Nivel de Evidencia | L5 (solo predicción del modelo, sin estudios reales) |
-| Estado de Mercado en Argentina | ✗ No comercializado (0 autorizaciones) |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: al menos 20) |
 | Número de Autorizaciones | 0 |
 | Decisión Recomendada | **Hold** |
 

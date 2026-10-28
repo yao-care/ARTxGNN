@@ -8,6 +8,7 @@ nav_order: 26
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Amilorida
@@ -51,8 +52,8 @@ Amilorida es un diurético ahorrador de potasio que actúa bloqueando los canale
 | Nueva Indicación Predicha | — Sin predicción disponible — |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | L5 (sin estudios ni predicción del modelo) |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 11 de 11) |
+| Número de Autorizaciones | 11 (vigentes: 11) |
 | Decisión Recomendada | **Hold** |
 
 ---

@@ -8,6 +8,7 @@ nav_order: 32
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Ampicilina
@@ -51,8 +52,8 @@ No se dispone de evidencia clínica ni bibliográfica asociada a indicaciones re
 | Nueva Indicación Predicha | — Sin predicciones disponibles — |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | L5 (sin estudios de reposicionamiento identificados) |
-| Estado de Mercado en Argentina | ✗ No comercializado (bajo el nombre consultado) |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 13 de 13) |
+| Número de Autorizaciones | 13 (vigentes: 13) |
 | Decisión Recomendada | **Hold** |
 
 ---

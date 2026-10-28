@@ -8,6 +8,7 @@ nav_order: 101
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Cilostazol
@@ -55,7 +56,7 @@ CILOSTAZOL es un fármaco del que actualmente no se disponen indicaciones origin
 | Nueva Indicación Predicha | Sin predicciones disponibles |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | L5 — sin predicción ni estudios disponibles |
-| Estado de Mercado en Argentina | No comercializado |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: al menos 20) |
 | Número de Autorizaciones | 0 |
 | Decisión Recomendada | **Hold** |
 

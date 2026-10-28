@@ -8,6 +8,7 @@ nav_order: 92
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Ceftriaxona
@@ -51,8 +52,8 @@ Esta evaluación documenta el estado de los datos disponibles y las brechas que 
 | Nueva Indicación Predicha | Sin predicción disponible |
 | Puntaje de Predicción TxGNN | — |
 | Nivel de Evidencia | L5 (sin estudios reales; predicción del modelo no generada) |
-| Estado de Mercado en Argentina | Sin registro ANMAT |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 7 de 7) |
+| Número de Autorizaciones | 7 (vigentes: 7) |
 | Decisión Recomendada | Hold |
 
 ---

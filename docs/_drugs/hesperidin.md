@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectiva para **neoplasia mieloprolifera
 |------|------|
 | Indicación Original | No disponible en los datos compilados (los textos de indicación de las autorizaciones están vacíos) |
 | Nueva Indicación Predicha | Neoplasia mieloproliferativa |
-| Puntaje de Predicción TxGNN | 99,47% |
+| Puntaje de Predicción TxGNN | 0,9947 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: al menos 20) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Seg
 
 El único respaldo es un estudio computacional (in silico) de reposicionamiento de fármacos dirigido al dominio quinasa de BCR en leucemia mieloide crónica (LMC). Como la LMC es una neoplasia mieloproliferativa impulsada por BCR-ABL, existe un vínculo teórico a través de la inhibición del dominio quinasa. Sin embargo, se trata únicamente de una predicción computacional, sin validación experimental ni clínica.
 
-El puntaje alto de TxGNN (0,995) es una predicción del modelo y no constituye evidencia de eficacia. Además, la hesperidina tiene baja biodisponibilidad oral, lo que reduce aún más la plausibilidad traslacional.
+El puntaje alto de TxGNN (0,9947) es una predicción del modelo y no constituye evidencia de eficacia. Además, la hesperidina tiene baja biodisponibilidad oral, lo que reduce aún más la plausibilidad traslacional.
 
 Otras predicciones del modelo, con puntajes similares, son leucemia monocítica, seminoma espermatocítico, seminoma testicular de variante tubular y neoplasia trofoblástica gestacional. La leucemia monocítica solo cuenta con un estudio in vitro (nivel L4) y, de forma parcialmente desfavorable, indica que el rutinósido en C7 atenúa la actividad inductora de apoptosis de los flavonoides. Las otras tres no tienen literatura ni ensayos.
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Flunitrazepam
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 146
-evidence_level: L3
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Flunitrazepam: nueva indicación predicha, Insomnio (nivel de evidencia L3). Indicación original: No disponible en los datos de ANMAT compilados"
+evidence_level: L5
+indication_count: 8
 monitor_inn: "FLUNITRAZEPAM"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "anxiety", "anxiety disorder", "alcohol withdrawal delirium", "migraine with or without aura, susceptibility to", "agoraphobia", "benign paroxysmal torticollis of infancy", "atrophoderma vermiculata"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "anxiety", "anxiety disorder", "alcohol withdrawal delirium", "agoraphobia", "benign paroxysmal torticollis of infancy", "atrophoderma vermiculata"]
+last_modified_at: 2026-10-27
+description: "Flunitrazepam: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Flunitrazepam
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,32 +33,33 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-## Flunitrazepam: De Indicación Original No Registrada a Insomnio
+## Flunitrazepam: modulador alostérico positivo del receptor GABA-A → trastorno de migraña (migraine disorder)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Flunitrazepam es una benzodiazepina con efecto hipnótico-sedante, comercializada en Argentina, aunque los datos compilados no incluyen el texto de la indicación aprobada.
-El modelo TxGNN predice que podría ser efectivo para **insomnio**, pero esta es una indicación ya establecida en el uso clínico del fármaco, por lo que no constituye un reposicionamiento genuino.
-La evidencia consiste en **0 ensayos clínicos** y **10 publicaciones** (estudios clínicos pequeños, revisiones y estudios en animales).
+Flunitrazepam es una benzodiazepina con efecto hipnótico predominante, que actúa sobre el receptor GABA-A y está comercializada en Argentina.
+El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña (migraine disorder)**, pero actualmente no hay **ningún ensayo clínico** ni **publicación** que estudie directamente esta enfermedad; la predicción se apoya solo en el modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en los datos de ANMAT compilados |
-| Nueva Indicación Predicha | Insomnio |
-| Puntaje de Predicción TxGNN | 99.89% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
-| Decisión Recomendada | Proceed with Guardrails |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Trastorno de migraña (migraine disorder) |
+| Puntaje de Predicción TxGNN | 0,9971 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
+| Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone actualmente de datos detallados sobre el mecanismo de acción en la base de datos compilada. Según la información conocida, flunitrazepam es una benzodiazepina que actúa como modulador alostérico positivo de los receptores GABA-A, lo que produce efectos sedantes e hipnóticos. Los datos farmacológicos compilados confirman su interacción con las subunidades α1, α2, α3 y α5 del receptor GABA-A, y describen su uso clínico en algunos casos de insomnio grave.
+Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción. Según la información farmacológica disponible, flunitrazepam se une a las subunidades α1, α2, α3 y α5 del receptor GABA-A humano, y actúa como modulador alostérico positivo que potencia la inhibición mediada por GABA.
 
-El insomnio es una indicación ya establecida de este fármaco en muchos países, por lo que la predicción del modelo es coherente con el uso conocido, pero no representa un hallazgo nuevo. La literatura incluye comparaciones clínicas con triazolam y zolpidem, revisiones polisomnográficas y reportes de insomnio de rebote tras la suspensión.
+Desde un punto de vista teórico, esa potenciación de la inhibición podría reducir la hiperexcitabilidad cortical que se asocia a la migraña. Se trata únicamente de una hipótesis mecanística: no se encontraron ensayos clínicos ni literatura que respalden este uso.
+
+Además, las benzodiazepinas no se recomiendan habitualmente para la migraña por el riesgo de dependencia y la falta de datos de eficacia. Por ello, el puntaje alto del modelo no debe interpretarse como una señal de beneficio clínico.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -66,47 +67,35 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [20171127](https://pubmed.ncbi.nlm.nih.gov/20171127/) | 2010 | Estudio clínico | Sleep Med Rev | Los hipnóticos alteran el equilibrio corporal y la estabilidad al estar de pie; se asocian a caídas y fracturas de cadera |
-| [8519370](https://pubmed.ncbi.nlm.nih.gov/8519370/) | 1993 | Estudio clínico | Eur Respir J | Efectos agudos de zolpidem, triazolam y flunitrazepam sobre gases arteriales y respiración en EPOC grave |
-| [430730](https://pubmed.ncbi.nlm.nih.gov/430730/) | 1979 | Estudio clínico | JAMA | Insomnio de rebote tras suspender flunitrazepam, triazolam y nitrazepam |
-| [40195](https://pubmed.ncbi.nlm.nih.gov/40195/) | 1979 | Estudio clínico | La Nouvelle Presse Médicale | Acción de flunitrazepam en trastornos del sueño orgánicos y funcionales |
-| [6114852](https://pubmed.ncbi.nlm.nih.gov/6114852/) | 1981 | Revisión | Drugs | Revisión de triazolam en insomnio; lo considera más adecuado que hipnóticos de acción más larga como flunitrazepam |
-| [2883822](https://pubmed.ncbi.nlm.nih.gov/2883822/) | 1986 | Revisión | Acta Psychiatr Scand Suppl | Mayor respuesta a benzodiazepinas en ancianos, incluido flunitrazepam |
-| [2883820](https://pubmed.ncbi.nlm.nih.gov/2883820/) | 1986 | Revisión | Acta Psychiatr Scand Suppl | Uso clínico de hipnóticos y necesidad de contar con distintos perfiles farmacocinéticos |
-| [14722706](https://pubmed.ncbi.nlm.nih.gov/14722706/) | 2004 | Estudio animal | Psychopharmacology | Efectos de tres hipnóticos sobre el ciclo sueño-vigilia en ratas con alteración del sueño |
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
+El estado de mercado es comercializado, con 2 autorizaciones vigentes de producto de un solo principio activo.
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 49248 | MIRPAW | 1 mg comprimidos x 30 | No disponible |
-| 16287 | ROHYPNOL | 1 mg comprimidos laqueados x 30 | No disponible |
+| 49248 | MIRPAW | 1 mg comp. x 30 | No registrada en los datos locales |
+| 16287 | ROHYPNOL | 1 mg comp. laq. x 30 | No registrada en los datos locales |
 
 ## Consideraciones de Seguridad
 
-- **Interacciones farmacológicas**: los datos compilados registran 4 interacciones farmacológicas con subunidades del receptor GABA-A (α1, α2, α3 y α5), que corresponden a su mecanismo de acción y no a interacciones con otros medicamentos.
-- **Precauciones señaladas en la literatura**: dependencia, insomnio de rebote, potencial de abuso, alteración del equilibrio y de la respiración, y mayor sensibilidad en ancianos.
+Consultar el prospecto para información de seguridad.
 
-Para advertencias y contraindicaciones oficiales, consultar el prospecto.
+Los datos farmacológicos compilados muestran interacción con los receptores GABA-A (subunidades α1, α2, α3 y α5). La literatura revisada para otras indicaciones señala riesgo de abuso, dependencia, deterioro psicomotor y amnesia asociados a flunitrazepam, aspectos que deberían considerarse en cualquier evaluación de beneficio-riesgo.
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-El insomnio es un uso ya establecido de flunitrazepam y la literatura clínica lo respalda de forma consistente, aunque es antigua, de bajo grado y sin ensayos registrados. El perfil de riesgo (dependencia, abuso, depresión respiratoria) exige condiciones estrictas de uso.
+La predicción para trastorno de migraña (migraine disorder) se basa solo en el modelo (L5), sin ensayos clínicos ni publicaciones, y las benzodiazepinas conllevan riesgo de dependencia que limita la relación beneficio-riesgo.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de ANMAT para confirmar la indicación aprobada, las advertencias y las contraindicaciones
-- Completar los datos del mecanismo de acción en DrugBank
-- Definir medidas de control en poblaciones de riesgo (ancianos, pacientes con EPOC, personas con antecedentes de abuso de sustancias)
-
-**Otras predicciones del modelo (resumen):**
-- **Delirium por abstinencia alcohólica** (L3, Research Question): existen reportes clínicos pequeños de flunitrazepam intravenoso (1979–1993), con respaldo mecanístico sólido pero evidencia específica antigua y de bajo grado.
-- **Ansiedad y trastorno de ansiedad** (L3, Research Question): la literatura se centra en abuso, toxicidad y eventos adversos, sin estudios de eficacia específicos; primero debe evaluarse la seguridad.
-- **Migraña (y variantes), agoraphobia, tortícolis paroxística benigna de la infancia y atrofodermia vermiculada** (L4–L5, Hold): solo hay predicción del modelo o evidencia indirecta, sin respaldo clínico.
+- Estudios preclínicos o clínicos que evalúen directamente flunitrazepam en migraña
+- Datos detallados del mecanismo de acción
+- Advertencias y contraindicaciones del prospecto de ANMAT
+- Evaluación comparativa frente a los tratamientos estándar de migraña, con análisis del riesgo de dependencia
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

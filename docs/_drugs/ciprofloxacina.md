@@ -8,6 +8,7 @@ nav_order: 105
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-10-12
+predicted_indications: []
 ---
 
 # Ciprofloxacina
@@ -49,7 +50,7 @@ CIPROFLOXACINA (ciprofloxacino) es un antibiótico fluoroquinolónico de amplio 
 | Nueva Indicación Predicha | Sin predicciones disponibles |
 | Puntaje de Predicción TxGNN | — |
 | Nivel de Evidencia | L5 (sin predicción real del modelo) |
-| Estado de Mercado en Argentina | ✗ No registrado (según datos consultados) |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: al menos 20) |
 | Número de Autorizaciones | 0 |
 | Decisión Recomendada | **Hold** |
 

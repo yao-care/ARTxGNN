@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **insomnio** (y, en segund
 |------|------|
 | Indicación Original | No disponible en las autorizaciones registradas (el texto de indicación está vacío); como referencia, se lo conoce como relajante muscular |
 | Nueva Indicación Predicha | Insomnio |
-| Puntaje de Predicción TxGNN | 99.89% |
+| Puntaje de Predicción TxGNN | 0.9989 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,9 +61,9 @@ El modelo TxGNN predice que podría ser efectivo para **insomnio** (y, en segund
 
 Los datos compilados no incluyen el mecanismo de acción original del fármaco. Según la información farmacológica conocida, el tiocolchicósido es un derivado semisintético de la colchicósida usado como relajante muscular. Su farmacología mejor caracterizada es el antagonismo competitivo de los receptores GABA-A y, en menor medida, de los receptores de glicina sensibles a estricnina. La modulación de GABA-A es una vía plausible para la sedación, lo que ofrece un vínculo teórico con el insomnio.
 
-Sin embargo, existe un conflicto de dirección importante: el tiocolchicósido actúa como **antagonista** de GABA-A y tiene potencial proconvulsivante, lo cual es opuesto a la modulación GABAérgica positiva de los hipnóticos establecidos (benzodiazepinas, fármacos Z). El puntaje alto de TxGNN (0.999) proviene de una predicción basada en redes, sin ensayos clínicos ni literatura que la sustenten, por lo que el vínculo mecanístico no puede verificarse con la evidencia disponible.
+Sin embargo, existe un conflicto de dirección importante: el tiocolchicósido actúa como **antagonista** de GABA-A y tiene potencial proconvulsivante, lo cual es opuesto a la modulación GABAérgica positiva de los hipnóticos establecidos (benzodiazepinas, fármacos Z). El puntaje alto de TxGNN (0.9989) proviene de una predicción basada en redes, sin ensayos clínicos ni literatura que la sustenten, por lo que el vínculo mecanístico no puede verificarse con la evidencia disponible.
 
-La segunda predicción, **delirium por abstinencia alcohólica** (puntaje 99.21%), presenta el mismo problema: este cuadro implica hipofunción GABAérgica e hiperexcitabilidad glutamatérgica, y un antagonista de GABA-A podría empeorar, no aliviar, la hiperexcitabilidad neuronal y el riesgo de convulsiones. El tratamiento de primera línea (benzodiazepinas) potencia la señal GABA-A, por lo que el mecanismo propuesto parece direccionalmente inconsistente.
+La segunda predicción, **delirium por abstinencia alcohólica** (puntaje 0.9921), presenta el mismo problema: este cuadro implica hipofunción GABAérgica e hiperexcitabilidad glutamatérgica, y un antagonista de GABA-A podría empeorar, no aliviar, la hiperexcitabilidad neuronal y el riesgo de convulsiones. El tratamiento de primera línea (benzodiazepinas) potencia la señal GABA-A, por lo que el mecanismo propuesto parece direccionalmente inconsistente.
 
 ---
 

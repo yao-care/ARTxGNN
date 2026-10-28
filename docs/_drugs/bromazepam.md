@@ -47,9 +47,9 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**,
 |------|------|
 | Indicación Original | No disponible en los datos compilados (las autorizaciones no incluyen texto de indicación) |
 | Nueva Indicación Predicha | Trastorno de migraña |
-| Puntaje de Predicción TxGNN | 99.06% |
+| Puntaje de Predicción TxGNN | 0.9906 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: al menos 20) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -59,7 +59,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 Mecanísticamente, podría plantearse un vínculo con la migraña a través de la reducción de la hiperexcitabilidad cortical y trigeminal, además del alivio de la ansiedad y la tensión muscular, que pueden actuar como desencadenantes o comorbilidades de la migraña.
 
-Sin embargo, este vínculo es especulativo. El puntaje de TxGNN es muy alto (0.99), pero es solo una predicción derivada del modelo, sin estudios que la respalden. Las benzodiazepinas no son una terapia establecida para la migraña, y sus riesgos (dependencia, sedación, tolerancia y cefalea por abuso de medicación) desaconsejan su uso sin evidencia directa.
+Sin embargo, este vínculo es especulativo. El puntaje de TxGNN es muy alto (0.9906), pero es solo una predicción derivada del modelo, sin estudios que la respalden. Las benzodiazepinas no son una terapia establecida para la migraña, y sus riesgos (dependencia, sedación, tolerancia y cefalea por abuso de medicación) desaconsejan su uso sin evidencia directa.
 
 ## Información de Mercado en Argentina
 

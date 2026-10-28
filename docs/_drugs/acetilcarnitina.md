@@ -8,6 +8,7 @@ nav_order: 13
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Acetilcarnitina
@@ -49,8 +50,8 @@ Acetilcarnitina (acetil-L-carnitina, ALCAR) es un derivado acetilado de la L-car
 | Nueva Indicación Predicha | Ninguna (sin predicciones TxGNN) |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | **L5** — Solo registro en base de datos, sin estudios ni predicciones |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | **Hold** |
 
 ---

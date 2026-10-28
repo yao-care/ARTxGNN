@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para el **linfoma cutáneo prim
 |------|------|
 | Indicación Original | No disponible en los registros de ANMAT compilados (todos los textos de indicación están vacíos) |
 | Nueva Indicación Predicha | Linfoma cutáneo primario de células T |
-| Puntaje de Predicción TxGNN | 99,51% |
+| Puntaje de Predicción TxGNN | 0,9951 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: al menos 20) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -122,7 +122,7 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-La literatura observacional (cohortes y series de casos) respalda el uso de clobetasol tópico en micosis fungoide temprana, con un puntaje TxGNN muy alto (99,51 %). No hay ensayos clínicos registrados ni ECA, por lo que el nivel de evidencia es L3 y se recomienda avanzar con salvaguardas.
+La literatura observacional (cohortes y series de casos) respalda el uso de clobetasol tópico en micosis fungoide temprana, con un puntaje TxGNN muy alto (0,9951). No hay ensayos clínicos registrados ni ECA, por lo que el nivel de evidencia es L3 y se recomienda avanzar con salvaguardas.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de ANMAT (advertencias y contraindicaciones), un vacío que bloquea la evaluación de seguridad.

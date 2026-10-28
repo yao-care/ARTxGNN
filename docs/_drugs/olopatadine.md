@@ -47,10 +47,10 @@ El modelo TxGNN predice que podría ser efectivo para **conjuntivitis rosácea**
 |------|------|
 | Indicación Original | Rinitis alérgica, rinitis vasomotora y conjuntivitis alérgica (atópica, papilar y primaveral) |
 | Nueva Indicación Predicha | Conjuntivitis rosácea |
-| Puntaje de Predicción TxGNN | 99.41% |
+| Puntaje de Predicción TxGNN | 0.9941 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 10 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 10 de 10) |
+| Número de Autorizaciones | 10 (vigentes: 10) |
 | Decisión Recomendada | Hold |
 
 Nota: las autorizaciones de ANMAT compiladas no incluyen el texto de indicación aprobada; la indicación original se tomó de la base de conocimiento del modelo TxGNN.
@@ -61,7 +61,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en e
 
 La rosácea ocular (conjuntivitis rosácea) se caracteriza por disfunción de las glándulas de Meibomio, inflamación del párpado y de la superficie ocular, y factores microbianos o de *Demodex*, con un componente inflamatorio principalmente no alérgico. Por ello, un posible beneficio de la olopatadina se limitaría a síntomas mediados por histamina o mastocitos, como el picor y el enrojecimiento. Este vínculo es teórico y no un mecanismo establecido.
 
-El puntaje muy alto de TxGNN (0.994) probablemente refleja la cercanía en el grafo de conocimiento con las indicaciones aprobadas de conjuntivitis, y no está respaldado por datos clínicos. La similitud con la indicación original y la compatibilidad de vías de administración aún están pendientes de evaluar.
+El puntaje muy alto de TxGNN (0.9941) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni datos clínicos. La similitud con la indicación original y la compatibilidad de vías de administración aún están pendientes de evaluar.
 
 ## Evidencia de Ensayos Clínicos
 

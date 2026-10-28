@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tioconazole
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 237
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-13
-description: "Tioconazole: nueva indicación predicha, Vulvovaginitis (nivel de evidencia L4). Indicación original: Candidiasis vulvovaginal (según el grafo de conocimiento"
 monitor_inn: "tioconazole"
 predicted_indications: ["vulvovaginitis", "vulvitis", "postmenopausal atrophic vaginitis"]
+last_modified_at: 2026-10-27
+description: "Tioconazole: nueva indicación predicha, Vulvovaginitis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Tioconazole
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,94 +33,82 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-## Tioconazol: De Candidiasis Vulvovaginal a Vulvovaginitis
+## Tioconazol: antifúngico imidazólico (inhibidor de la lanosterol 14-α-desmetilasa) → Vulvovaginitis (vulvovaginitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Tioconazol es un antifúngico imidazólico de uso tópico, originalmente utilizado para el tratamiento de la candidiasis vulvovaginal.
-El modelo TxGNN predice que podría ser efectivo para **vulvovaginitis**, con **0 ensayos clínicos registrados** y **20 publicaciones** que actualmente respaldan esta dirección. Cabe destacar que esta indicación es prácticamente una extensión de la indicación original (la candidiasis es una causa principal de vulvovaginitis) y no un reposicionamiento en sentido estricto.
-
----
+Tioconazol es un antifúngico imidazólico de uso tópico. El modelo TxGNN predice que podría ser útil para **Vulvovaginitis (vulvovaginitis)**, con un puntaje de 0,9923. Hay **0 ensayos clínicos registrados** y **20 publicaciones**, casi todas sobre infecciones vaginales por hongos. Ninguna estudia la vulvovaginitis como entidad general.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Candidiasis vulvovaginal (según el grafo de conocimiento; los textos de indicación de las autorizaciones de ANMAT están vacíos) |
-| Nueva Indicación Predicha | Vulvovaginitis |
-| Puntaje de Predicción TxGNN | 99.23% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Vulvovaginitis (vulvovaginitis) |
+| Puntaje de Predicción TxGNN | 0,9923 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 3 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información farmacológica general y la base de datos de farmacología consultada, tioconazol inhibe la enzima fúngica lanosterol 14-α-desmetilasa (CYP51/ERG11), que convierte el lanosterol en ergosterol, un componente esencial de la membrana celular del hongo. Sin ergosterol, el hongo no puede sobrevivir. Además, inhibe la enzima humana CYP8B1, que participa en la síntesis de ácidos biliares.
+Los datos del mecanismo de acción no están completos en la ficha del fármaco. La información farmacológica disponible indica que, en hongos y levaduras, tioconazol inhibe la enzima del citocromo P450 lanosterol 14-α-desmetilasa (CYP51/ERG11). Esta enzima convierte el lanosterol en ergosterol, un componente esencial de la membrana fúngica. Sin ergosterol, el patógeno no sobrevive. Tioconazol también inhibe la enzima humana CYP8B1, que participa en la síntesis de ácidos biliares.
 
-La vulvovaginitis es en gran parte causada por infecciones por *Candida*, de modo que la nueva indicación coincide con el uso original (candidiasis vulvovaginal) o es una extensión cercana. La evidencia es sólida para el subtipo candidiásico, pero no hay ensayos registrados para el término más amplio de vulvovaginitis, y las causas no fúngicas (bacterianas, por tricomonas, atróficas) no cuentan con respaldo.
+La vulvovaginitis es una inflamación de la vulva y la vagina con causas muy diversas. Cuando el origen es fúngico, la actividad antifúngica de tioconazol es plausible. Por eso el puntaje alto del modelo probablemente refleja la cercanía con las infecciones fúngicas vaginales ya conocidas del fármaco, más que un mecanismo nuevo.
 
-El puntaje TxGNN es muy alto, pero probablemente refleja la cercanía en la ontología de enfermedades con la candidiasis vulvovaginal. El nivel de evidencia es conservador (L4) porque no hay ensayos de Fase 2/3 registrados y los estudios de apoyo son de la década de 1980, con clasificación de fase poco clara.
-
----
+La evidencia no permite extender este razonamiento a las vulvovaginitis no fúngicas, como las bacterianas o las atróficas. En ellas no hay respaldo para un antifúngico.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [3524439](https://pubmed.ncbi.nlm.nih.gov/3524439/) | 1986 | ECA | Antimicrob Agents Chemother | Tioconazol en dosis única (pomada 6,5%) vs. clotrimazol 3 días en 80 pacientes: 84% vs. 85% asintomáticas a las 4 semanas |
-| [6347833](https://pubmed.ncbi.nlm.nih.gov/6347833/) | 1983 | ECA | Gynakol Rundsch | Comparación doble ciego de tioconazol vs. placebo en candidiasis vaginal, con evaluación de absorción sistémica |
-| [3510114](https://pubmed.ncbi.nlm.nih.gov/3510114/) | 1986 | Revisión | Drugs | Amplio espectro in vitro; ensayos abiertos y controlados demuestran eficacia y seguridad tópica en micosis superficiales y candidiasis vaginal |
-| [40464716](https://pubmed.ncbi.nlm.nih.gov/40464716/) | 2025 | Revisión | Expert Rev Anti Infect Ther | Opciones antifúngicas azólicas no invasivas para candidiasis vulvovaginal, incluida la forma recurrente |
-| [34550113](https://pubmed.ncbi.nlm.nih.gov/34550113/) | 2021 | Revisión | Med Lett Drugs Ther | Revisión de ibrexafungerp para candidiasis vulvovaginal |
-| [6347834](https://pubmed.ncbi.nlm.nih.gov/6347834/) | 1983 | Ensayo comparativo abierto | Gynakol Rundsch | Tioconazol vs. econazol en tratamiento de 3 días de candidiasis vaginal |
-| [6873744](https://pubmed.ncbi.nlm.nih.gov/6873744/) | 1983 | Ensayo comparativo abierto | Gynakol Rundsch | Crema de tioconazol vs. óvulos de econazol en tratamiento de 3 días |
-| [6094282](https://pubmed.ncbi.nlm.nih.gov/6094282/) | 1984 | Ensayo aleatorizado abierto | J Int Med Res | Tioconazol tópico 6% en dosis única vs. ketoconazol oral 5 días (40 pacientes): erradicación eficaz en ambos; síntomas respondieron más rápido con el tópico |
-| [3984688](https://pubmed.ncbi.nlm.nih.gov/3984688/) | 1985 | Estudio clínico | Acta Obstet Gynecol Scand | Crema vaginal de tioconazol 2%: tasa de cura micológica de 88,5% |
-| [3485546](https://pubmed.ncbi.nlm.nih.gov/3485546/) | 1986 | Estudio abierto no comparativo | J Int Med Res | Crema 2% en infecciones por *Trichomonas vaginalis* o mixtas (20 pacientes): 95% de curación en la primera visita |
+| [3524439](https://pubmed.ncbi.nlm.nih.gov/3524439/) | 1986 | ECA | Antimicrob Agents Chemother | Tioconazol en dosis única (pomada al 6,5%) frente a clotrimazol por 3 días en 80 pacientes con candidiasis vulvovaginal. Quedaron asintomáticas a las 4 semanas el 84% con tioconazol y el 85% con clotrimazol. |
+| [6347833](https://pubmed.ncbi.nlm.nih.gov/6347833/) | 1983 | ECA | Gynakol Rundsch | Comparación doble ciego de tioconazol frente a placebo en candidiasis vaginal, con evaluación de la absorción sistémica. |
+| [3510114](https://pubmed.ncbi.nlm.nih.gov/3510114/) | 1986 | Revisión | Drugs | Amplio espectro in vitro contra dermatofitos y levaduras. Los ensayos abiertos y controlados muestran eficacia y seguridad de las preparaciones tópicas en micosis superficiales. |
+| [40464716](https://pubmed.ncbi.nlm.nih.gov/40464716/) | 2025 | Revisión | Expert Rev Anti Infect Ther | Revisión de opciones azólicas no invasivas para la candidiasis vulvovaginal, incluidas las formas complicadas y recurrentes. |
+| [3216880](https://pubmed.ncbi.nlm.nih.gov/3216880/) | 1988 | Estudio clínico | Mycoses | Tioconazol en candidosis vaginal. No hay resumen disponible. |
+| [6347834](https://pubmed.ncbi.nlm.nih.gov/6347834/) | 1983 | Ensayo comparativo abierto | Gynakol Rundsch | Tioconazol frente a econazol en tratamiento de 3 días de candidiasis vaginal. |
+| [6873744](https://pubmed.ncbi.nlm.nih.gov/6873744/) | 1983 | Ensayo comparativo abierto | Gynakol Rundsch | Crema de tioconazol frente a óvulos de econazol en 3 días de tratamiento. |
+| [3984688](https://pubmed.ncbi.nlm.nih.gov/3984688/) | 1985 | Estudio clínico | Acta Obstet Gynecol Scand | Crema vaginal al 2% de tioconazol en mujeres con *C. albicans* sintomática, con una curación micológica del 88,5%. |
+| [6094282](https://pubmed.ncbi.nlm.nih.gov/6094282/) | 1984 | Ensayo aleatorizado abierto | J Int Med Res | Tioconazol tópico en dosis única frente a ketoconazol oral por 5 días en 40 pacientes. Los síntomas respondieron más rápido con la vía tópica. |
+| [3485546](https://pubmed.ncbi.nlm.nih.gov/3485546/) | 1986 | Estudio abierto no comparativo | J Int Med Res | Crema al 2% en 20 pacientes con *Trichomonas vaginalis* o infecciones mixtas, con una curación del 95% en la primera visita. |
 
----
+Los estudios son antiguos, en su mayoría de los años 80. Todos abordan infecciones vaginales de origen fúngico (o mixto). Ninguno evalúa la vulvovaginitis como entidad general.
 
 ## Información de Mercado en Argentina
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 22628 | TIOMICOL (Panalab) | Solución para uñas x 12 ml | No especificada en los datos |
-| 18628 | HONGUIL (Megalabs) | Cápsula vaginal x 1 | No especificada en los datos |
-| 13596 | TROSYD (Pfizer) | Solución para uñas 28% x 12 ml | No especificada en los datos |
-
----
+| 22628 | TIOMICOL (Panalab) | Solución para uñas x 12 ml | No registrada en los datos locales |
+| 18628 | HONGUIL (Megalabs Argent) | Cápsulas vaginales x 1 | No registrada en los datos locales |
+| 13596 | TROSYD (Pfizer) | Solución para uñas al 28% x 12 ml | No registrada en los datos locales |
 
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas**: se identificó una interacción con omeprazol (nivel de gravedad no determinado). Además, tioconazol inhibe la enzima humana CYP8B1 (síntesis de ácidos biliares).
+- **Interacciones Farmacológicas**:
+  - Omeprazol: interacción registrada con nivel de gravedad no determinado.
+  - CYP8B1: tioconazol inhibe esta enzima humana, que participa en la síntesis de ácidos biliares. Es una relación farmacológica, sin clasificación de gravedad.
 
-Consultar el prospecto para el resto de la información de seguridad (advertencias y contraindicaciones).
-
----
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La indicación predicha coincide en gran medida con el uso ya conocido (candidiasis vulvovaginal), pero no hay ensayos clínicos registrados para vulvovaginitis en general, los estudios de respaldo son antiguos y la evidencia corresponde al nivel L4. Las otras predicciones (vulvitis, vaginitis atrófica posmenopáusica) carecen de respaldo mecanístico o clínico directo.
+La predicción no tiene ensayos clínicos registrados. La literatura disponible estudia infecciones vaginales fúngicas, no la vulvovaginitis en general, por lo que el nivel de evidencia es L5. El puntaje alto del modelo (0,9923) refleja sobre todo la cercanía con usos antifúngicos ya conocidos, no un beneficio demostrado en otras causas de vulvovaginitis.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto aprobado por ANMAT (advertencias, contraindicaciones e indicaciones autorizadas), dato bloqueante para el cribado de seguridad
-- Confirmar los datos del mecanismo de acción en DrugBank
-- Delimitar la indicación al subtipo candidiásico de vulvovaginitis, ya que las causas no fúngicas no tienen respaldo
-- Verificar que las formas farmacéuticas autorizadas localmente (dos soluciones para uñas y una cápsula vaginal) sean compatibles con la vía vaginal requerida
-- Evidencia clínica más reciente que complemente los estudios de la década de 1980
+- Definir qué subtipos de vulvovaginitis (fúngica, mixta u otras) justificarían el uso de un antifúngico.
+- Estudios clínicos actuales que evalúen directamente la vulvovaginitis, ya que la literatura disponible es mayormente de los años 80.
+- Obtener y revisar el prospecto de ANMAT (advertencias, contraindicaciones, indicaciones) y completar los datos del mecanismo de acción.
+- Evaluar la relevancia clínica de la interacción con omeprazol y de la inhibición de CYP8B1.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

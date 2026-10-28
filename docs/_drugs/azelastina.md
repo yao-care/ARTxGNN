@@ -8,6 +8,7 @@ nav_order: 40
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Azelastina
@@ -51,8 +52,8 @@ y el Evidence Pack presenta **múltiples brechas de datos críticas** que impide
 | Nueva Indicación Predicha | — Ninguna predicción generada por TxGNN — |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | L5 (sin estudios ni predicción aplicable) |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 3 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 3) |
 | Decisión Recomendada | **Hold** |
 
 ---

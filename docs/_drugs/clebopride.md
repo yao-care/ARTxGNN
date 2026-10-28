@@ -8,6 +8,7 @@ nav_order: 108
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Clebopride
@@ -51,8 +52,8 @@ Sin evidencia clínica ni predicciones disponibles, el candidato no puede avanza
 | Nueva Indicación Predicha | Sin predicciones disponibles |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | L5 — Solo predicción de modelo, sin estudios reales |
-| Estado de Mercado en Argentina | No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 4 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 4) |
 | Decisión Recomendada | **Hold** |
 
 ---

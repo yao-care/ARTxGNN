@@ -48,10 +48,10 @@ con **0 ensayos clínicos** y **1 publicación** (indirectamente relacionada) qu
 |------|------|
 | Indicación Original | No disponible en los datos compilados (los textos de indicación de las autorizaciones están vacíos) |
 | Nueva Indicación Predicha | Insomnio |
-| Puntaje de Predicción TxGNN | 99.02% |
+| Puntaje de Predicción TxGNN | 0.9902 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 10 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 10 de 10) |
+| Número de Autorizaciones | 10 (vigentes: 10) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Esa actividad sedante ofrece una justificación biológica plausible para promover el sueño. Además, los calambres musculares nocturnos pueden alterar el sueño, lo que conecta de forma indirecta el uso como relajante muscular con el insomnio.
 
-Debe tenerse en cuenta que el puntaje de 99.02% es una predicción computacional y no constituye evidencia clínica. La similitud entre la indicación original y la nueva no pudo evaluarse por falta de datos.
+Debe tenerse en cuenta que el puntaje de 0.9902 es una predicción computacional y no constituye evidencia clínica. La similitud entre la indicación original y la nueva no pudo evaluarse por falta de datos.
 
 ## Evidencia de Ensayos Clínicos
 

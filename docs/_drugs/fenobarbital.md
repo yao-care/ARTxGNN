@@ -8,6 +8,7 @@ drugbank_id: DB01174
 evidence_level: L5
 permalink: /drugs/fenobarbital/
 last_modified_at: 2026-05-03
+predicted_indications: []
 ---
 
 # FENOBARBITAL

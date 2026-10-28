@@ -8,6 +8,7 @@ nav_order: 42
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Baclofeno
@@ -49,8 +50,8 @@ Baclofeno es un agonista del receptor GABA-B, utilizado tradicionalmente como re
 | Nueva Indicación Predicha | — Sin predicción generada por TxGNN — |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | **L5** (sin estudios ni predicciones aplicables) |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 7 de 7) |
+| Número de Autorizaciones | 7 (vigentes: 7) |
 | Decisión Recomendada | **Hold** |
 
 ---

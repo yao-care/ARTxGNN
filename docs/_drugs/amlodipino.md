@@ -8,6 +8,7 @@ nav_order: 30
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Amlodipino
@@ -49,7 +50,7 @@ Amlodipino es un bloqueante de los canales de calcio dihidropiridínico, ampliam
 | Nueva Indicación Predicha | **Sin predicciones generadas por TxGNN** |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | **L5** — Solo evaluación del modelo, sin resultados predictivos |
-| Estado de Mercado en Argentina | ✗ No comercializado |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: al menos 20) |
 | Número de Autorizaciones | 0 |
 | Decisión Recomendada | **Hold** |
 

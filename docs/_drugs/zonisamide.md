@@ -4,7 +4,7 @@ title: Zonisamide
 parent: Solo Predicción del Modelo (L5)
 nav_order: 248
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Zonisamide: nueva indicación predicha, Síndrome de Tourette (nivel de evidencia L5). Indicación original: No especificada en las autorizaciones de ANMAT (el texto de indicació…"
 monitor_inn: "ZONISAMIDE"
@@ -14,7 +14,7 @@ predicted_indications: ["Tourette syndrome", "trichotillomania", "methemoglobine
 # Zonisamide
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Zonisamida es un fármaco antiepiléptico (anticonvulsivante) comercializado en Argentina bajo la marca KINAPLASE. El modelo TxGNN predice que podría ser efectivo para el **síndrome de Tourette**, con un puntaje de 99.85%. Hasta ahora no hay **ningún ensayo clínico ni publicación** que respalde esta dirección, por lo que es solo una predicción del modelo.
+Zonisamida es un fármaco antiepiléptico (anticonvulsivante) comercializado en Argentina bajo la marca KINAPLASE. El modelo TxGNN predice que podría ser efectivo para el **síndrome de Tourette**, con un puntaje de 0.9985. Hasta ahora no hay **ningún ensayo clínico ni publicación** que respalde esta dirección, por lo que es solo una predicción del modelo.
 
 ---
 
@@ -48,10 +48,10 @@ Zonisamida es un fármaco antiepiléptico (anticonvulsivante) comercializado en 
 |------|------|
 | Indicación Original | No especificada en las autorizaciones de ANMAT (el texto de indicación está vacío); la literatura la describe como fármaco antiepiléptico |
 | Nueva Indicación Predicha | Síndrome de Tourette |
-| Puntaje de Predicción TxGNN | 99.85% |
+| Puntaje de Predicción TxGNN | 0.9985 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -62,7 +62,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Esta relación es especulativa. No se aportaron ensayos ni literatura que la sustenten. Además, una revisión pragmática (PMID 36005856) sugiere que los medicamentos antiepilépticos pueden **inducir** trastorno de tics y trastorno obsesivo-compulsivo. Por eso la dirección del efecto es incierta: el fármaco podría incluso empeorar el cuadro.
 
-El puntaje alto de TxGNN refleja la cercanía en el grafo de conocimiento entre el fármaco y la enfermedad. No es evidencia clínica.
+El puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. No es evidencia clínica.
 
 ---
 

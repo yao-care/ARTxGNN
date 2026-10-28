@@ -8,6 +8,7 @@ nav_order: 23
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Amantadina
@@ -51,8 +52,8 @@ Amantadina es un fármaco conocido internacionalmente como antiviral (Influenza 
 | Nueva Indicación Predicha | **Sin predicción** — el modelo TxGNN no generó indicaciones candidatas |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | **L5** (sin datos de predicción ni estudios asociados) |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 4 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 4) |
 | Decisión Recomendada | **Hold** |
 
 ---

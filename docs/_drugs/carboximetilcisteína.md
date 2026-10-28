@@ -8,6 +8,7 @@ nav_order: 82
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Carboximetilcisteína
@@ -51,8 +52,8 @@ por lo que **no es posible generar una evaluación de reposicionamiento completa
 | Nueva Indicación Predicha | Sin predicción disponible |
 | Puntaje de Predicción TxGNN | No disponible |
 | Nivel de Evidencia | L5 — Sin estudios reales registrados en el paquete |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 5 de 5) |
+| Número de Autorizaciones | 5 (vigentes: 5) |
 | Decisión Recomendada | **Hold** |
 
 ---

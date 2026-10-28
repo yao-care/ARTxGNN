@@ -4,17 +4,17 @@ title: Podofilox
 parent: Solo Predicción del Modelo (L5)
 nav_order: 215
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Podofilox: nueva indicación predicha, Candidiasis vulvovaginal (nivel de evidencia L5). Indicación original: Infección anogenital por VPH (verrugas anogenitales) y verruga común"
+indication_count: 9
 monitor_inn: "PODOFILOX"
 predicted_indications: ["vulvovaginal candidiasis", "photosensitivity disease", "herpes zoster", "benign neoplasm of tongue", "benign neoplasm of hypopharynx", "cystic neoplasm", "mesenchymoma", "nasal cavity inverting papilloma", "tumor of testis and paratestis"]
+last_modified_at: 2026-10-27
+description: "Podofilox: nueva indicación predicha, candidiasis vulvovaginal (vulvovaginal candidiasis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Podofilox
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,33 +33,33 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Podofilox: De Verrugas Anogenitales a Candidiasis Vulvovaginal
+## Podofilox: antimitótico que inhibe el ensamblaje de microtúbulos → candidiasis vulvovaginal (vulvovaginal candidiasis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Podofilox es un agente antimitótico de uso tópico, originalmente utilizado para tratar las verrugas anogenitales causadas por el virus del papiloma humano (VPH) y la verruga común.
-El modelo TxGNN predice que podría ser efectivo para **candidiasis vulvovaginal**, pero **no hay ensayos clínicos** y solo hay **1 publicación** (una revisión general de 1999) que no aporta evidencia específica para esta nueva indicación.
+Podofilox es un agente antimitótico de uso tópico, comercializado en Argentina como solución tópica.
+El modelo TxGNN predice que podría ser efectivo para **candidiasis vulvovaginal (vulvovaginal candidiasis)**, pero actualmente solo hay **1 publicación** (una revisión de 1999 sobre tratamiento de infecciones de transmisión sexual) y **ningún ensayo clínico** relacionado, por lo que la evidencia es muy limitada.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infección anogenital por VPH (verrugas anogenitales) y verruga común (según el grafo de conocimiento de TxGNN; el registro local no especifica el texto de indicación) |
-| Nueva Indicación Predicha | Candidiasis vulvovaginal |
-| Puntaje de Predicción TxGNN | 99.47% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | candidiasis vulvovaginal (vulvovaginal candidiasis) |
+| Puntaje de Predicción TxGNN | 0,9947 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Podofilox es un antimitótico que inhibe la polimerización de la tubulina y detiene la división celular en el epitelio de proliferación rápida infectado por VPH, lo que produce necrosis del tejido de la verruga. No se dispone de datos detallados adicionales sobre su mecanismo de acción en la base de datos consultada.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, podofilox es un agente antimitótico que inhibe el ensamblaje de los microtúbulos, con uso tópico sobre lesiones epiteliales proliferativas.
 
-**En este caso, la predicción no resulta razonable desde el punto de vista mecanístico.** La candidiasis es una infección fúngica y la inhibición de la tubulina por podofilox no tiene un papel antifúngico establecido. La única publicación asociada es una revisión general de 1999 sobre el tratamiento de infecciones de transmisión sexual, que trata juntas las infecciones vaginales y las verrugas genitales. Es probable que refleje una coincidencia temática y no evidencia a favor de podofilox en la candidiasis.
+No se identifica un vínculo mecanístico claro con la candidiasis vulvovaginal. Esta es una infección fúngica, y la actividad antimitótica no tiene una justificación antifúngica establecida. La única publicación recuperada es una revisión de 1999 sobre el tratamiento de infecciones de transmisión sexual que probablemente aborda el podofilox solo en el contexto de las verrugas genitales, no de la candidiasis.
 
-El puntaje alto de TxGNN probablemente se deba al contexto compartido de enfermedades del tracto genital (verrugas genitales y candidiasis vulvovaginal) y no a una relación terapéutica real.
+El puntaje alto de TxGNN (0,9947) es una predicción sin respaldo clínico directo. Podría reflejar que ambas afecciones aparecen juntas en la literatura sobre tratamiento de infecciones de transmisión sexual. Debe interpretarse con cautela.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -69,13 +69,13 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [10537386](https://pubmed.ncbi.nlm.nih.gov/10537386/) | 1999 | Revisión | American Family Physician | Resume las guías de los CDC de 1998 para el tratamiento de infecciones de transmisión sexual (infecciones vaginales, enfermedad inflamatoria pélvica, verrugas genitales). No aporta evidencia específica del uso de podofilox en candidiasis. |
+| [10537386](https://pubmed.ncbi.nlm.nih.gov/10537386/) | 1999 | Revisión | American Family Physician | Resume las guías de los CDC de 1998 para tratar enfermedades de transmisión sexual, entre ellas las infecciones vaginales y el virus del papiloma humano. No evalúa podofilox para candidiasis vulvovaginal. |
 
 ## Información de Mercado en Argentina
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 18640 | PODOXIN (Cassarß) | Solución tópica x 3.5 ml | No especificada en el registro |
+| 18640 | PODOXIN | Solución tópica x 3,5 ml | No registrada en los datos locales |
 
 ## Consideraciones de Seguridad
 
@@ -86,16 +86,12 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para candidiasis vulvovaginal se basa solo en el modelo, sin ensayos clínicos y sin vínculo mecanístico creíble. La única publicación es una revisión general que no respalda esta indicación.
-
-*Nota:* entre las otras predicciones del modelo, la infección por VPH (puntaje 99.20%) tiene respaldo de ensayos publicados (por ejemplo, PMID 2186623, 8192173 y 9449907). Sin embargo, coincide con la indicación ya conocida del fármaco y por tanto no constituye un reposicionamiento real.
+No existen ensayos clínicos ni estudios que evalúen podofilox en candidiasis vulvovaginal, y no hay un vínculo mecanístico plausible. El nivel de evidencia es L5 y la predicción se apoya solo en el modelo.
 
 **Para avanzar se necesita:**
-- Evidencia experimental de actividad antifúngica de podofilox frente a *Candida* (estudios *in vitro* o preclínicos).
-- Datos del mecanismo de acción que justifiquen un vínculo con la candidiasis.
-- Evaluación de la tolerabilidad en mucosa vulvovaginal, dado que podofilox es un irritante local.
-- Obtención del prospecto de ANMAT para completar la información de advertencias y contraindicaciones.
-- Evaluación de compatibilidad de la vía y la forma farmacéutica (solución tópica) con el uso propuesto.
+- Datos del mecanismo de acción y del prospecto de ANMAT (advertencias y contraindicaciones)
+- Estudios preclínicos o clínicos que evalúen podofilox directamente en candidiasis vulvovaginal
+- Evaluación de la seguridad de la aplicación sobre mucosa vulvovaginal, ya que el producto disponible es de uso tópico externo
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

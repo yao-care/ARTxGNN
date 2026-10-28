@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **hipouricemia renal**, pe
 |------|------|
 | Indicación Original | Hiperuricemia (según la base de conocimiento del modelo; los textos de indicación de las autorizaciones locales no están disponibles) |
 | Nueva Indicación Predicha | Hipouricemia renal |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Sin embargo, la hipouricemia renal es una condición en la que el ácido úrico sérico ya es bajo por una reabsorción renal deficiente de urato (por ejemplo, pérdida de función de URAT1/SLC22A12 o GLUT9). Reducir aún más el urato es mecanísticamente contraintuitivo y no ofrece una justificación terapéutica para la enfermedad en sí.
 
-El único vínculo plausible es indirecto: se ha planteado que los inhibidores de la xantina oxidorreductasa podrían ayudar a prevenir la lesión renal aguda inducida por ejercicio asociada a la hipouricemia renal (PMID 36754409), donde la sobrecarga de urato urinario sería el motor del daño. Es un concepto profiláctico, no un tratamiento de la hipouricemia. El puntaje alto del modelo probablemente refleja la cercanía en el grafo con nodos relacionados con el ácido úrico, más que una señal terapéutica real.
+El único vínculo plausible es indirecto: se ha planteado que los inhibidores de la xantina oxidorreductasa podrían ayudar a prevenir la lesión renal aguda inducida por ejercicio asociada a la hipouricemia renal (PMID 36754409), donde la sobrecarga de urato urinario sería el motor del daño. Es un concepto profiláctico, no un tratamiento de la hipouricemia. El puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni una señal terapéutica real.
 
 ---
 
@@ -109,7 +109,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-No existe una justificación mecanística directa para reducir aún más el ácido úrico en la hipouricemia renal, y la evidencia se limita a un ensayo de baja relevancia y a literatura de revisión/caso. El puntaje alto de TxGNN parece reflejar proximidad en el grafo y no una señal terapéutica real.
+No existe una justificación mecanística directa para reducir aún más el ácido úrico en la hipouricemia renal, y la evidencia se limita a un ensayo de baja relevancia y a literatura de revisión/caso. El puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni una señal terapéutica real.
 
 **Para avanzar se necesita:**
 - Verificar manualmente el ensayo NCT04398251 en ClinicalTrials.gov para confirmar su relación con la hipouricemia renal.

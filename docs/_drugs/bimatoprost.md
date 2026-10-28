@@ -5,10 +5,10 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 54
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-13
-description: "Bimatoprost: nueva indicación predicha, Síndrome malformativo con componente odontal y/o periodontal (nivel de evidencia L5). Indicación original: Glaucoma de ángulo abierto (las autorizaciones local…"
 monitor_inn: "BIMATOPROST"
 predicted_indications: ["malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "genetic alopecia", "pulmonary arteriovenous malformation (disease)"]
+last_modified_at: 2026-10-27
+description: "Bimatoprost: nueva indicación predicha, Síndrome de malformación con componente odontológico y/o periodontal (malformation syndrome with odontal and/or periodo… (nivel de evidencia L5). Indicación or…"
 ---
 
 # Bimatoprost
@@ -33,89 +33,70 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Bimatoprost: De Glaucoma de Ángulo Abierto a Síndrome Malformativo con Componente Odontal y/o Periodontal
+## Bimatoprost: análogo sintético de prostamida F2α (agonista de receptores FP/prostamida) → síndrome de malformación con componente odontológico y/o periodontal (malformation syndrome with odontal and/or periodontal component)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Bimatoprost es un análogo de prostamidas (tipo prostaglandina F2α) que se usa en gotas oftálmicas para el glaucoma de ángulo abierto y la hipertensión ocular.
-El modelo TxGNN predice que podría ser efectivo para el **síndrome malformativo con componente odontal y/o periodontal**, con un puntaje muy alto.
-Actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección, por lo que se trata solo de una predicción computacional.
-
----
+Bimatoprost es un análogo sintético de prostamida F2α que se comercializa en Argentina en formulaciones oftálmicas.
+El modelo TxGNN predice que podría ser efectivo para **síndrome de malformación con componente odontológico y/o periodontal (malformation syndrome with odontal and/or periodontal component)**,
+pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata de una predicción puramente computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Glaucoma de ángulo abierto (las autorizaciones locales no incluyen texto de indicación) |
-| Nueva Indicación Predicha | Síndrome malformativo con componente odontal y/o periodontal |
-| Puntaje de Predicción TxGNN | 99.997% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Síndrome de malformación con componente odontológico y/o periodontal (malformation syndrome with odontal and/or periodontal component) |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 4 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, bimatoprost es un análogo de prostamidas/prostaglandina F2α. Su eficacia en glaucoma y en hipertensión ocular está establecida, y también se sabe que prolonga la fase anágena del folículo piloso (por eso se estudia en hipotricosis y alopecias).
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por lo que se conoce de la clase, bimatoprost actúa sobre los receptores FP/prostamida, y esta vía es la base de sus efectos oftálmicos y del crecimiento de pestañas.
 
-Sin embargo, con los datos compilados no se identifica un vínculo mecanístico que respalde esta predicción. Un síndrome malformativo con componente dental o periodontal es una alteración del desarrollo estructural, muy distinta de la hipertensión intraocular o del crecimiento del pelo. El puntaje alto del modelo parece reflejar cercanía en la red de conocimiento y no una razón terapéutica demostrada.
+Para esta predicción concreta no se identifica un vínculo mecanístico: no existe una conexión conocida entre la activación de receptores FP/prostamida y los síndromes de malformación dental o periodontal. El puntaje alto de TxGNN refleja una asociación estadística del modelo, no un racional biológico demostrado.
 
-Por eso la predicción debe considerarse una hipótesis sin sustento clínico ni bibliográfico.
-
----
+Por lo tanto, la predicción debe tratarse como una hipótesis sin respaldo mecanístico ni clínico. La vía de administración de las formulaciones disponibles (soluciones oftálmicas) tampoco ha sido evaluada para esta condición.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
----
-
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 28696 | LUMIGAN | Solución oftálmica 0.03% x 3 ml | Abbvie |
-| 46420 | LUMIGAN RC | Frasco gotero 0.01% x 3 ml | Abbvie |
-| 52738 | GANFORT UD | Solución oftálmica, 30 dosis x 0.4 ml | Abbvie |
-| 39970 | GANFORT | Solución oftálmica x 3 ml | Abbvie |
-
-Las 4 autorizaciones están vigentes y corresponden a productos de uso oftálmico.
-
----
+| 28696 | LUMIGAN | 0.03% sol. oft. x 3 ml | No registrada en los datos locales |
+| 46420 | LUMIGAN RC | 0.01% frasco gotero x 3 ml | No registrada en los datos locales |
+| 52738 | GANFORT UD | sol. oft. x 30 dosis x 0.4 ml | No registrada en los datos locales |
+| 39970 | GANFORT | sol. oft. x 3 ml | No registrada en los datos locales |
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones / enfermedades de precaución (según el grafo de conocimiento, no según el prospecto):** enfermedad hepática, enfermedad de la vesícula biliar, uveítis, enfermedad del iris, enfermedad del cuerpo ciliar, panuveítis, iritis, edema macular retiniano y edema macular cistoide.
-- **Interacciones farmacológicas:** se identificaron 66 posibles interacciones, todas sin nivel de gravedad clasificado. Algunos ejemplos son calcitriol, fentermina, pantoprazol, morfina, metformina, omeprazol, prednisona, prednisolona, triamcinolona, simvastatina y ondansetrón.
+- **Interacciones Farmacológicas**: se registran 66 posibles interacciones, todas con nivel de gravedad sin clasificar. Algunas de las incluidas son calcitriol, fentermina, pantoprazol, morfina, metformina, omeprazol, prednisona, simvastatina y vancomicina.
 
-Para advertencias y contraindicaciones oficiales, consultar el prospecto.
-
----
+Para contraindicaciones y advertencias, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto, pero carece de ensayos clínicos, literatura y vínculo mecanístico plausible (nivel L5). No hay base para avanzar con esta indicación.
+No existe ningún ensayo ni publicación sobre esta condición, y no se identifica un mecanismo plausible que conecte bimatoprost con las malformaciones con componente dental o periodontal. La predicción se queda en el nivel de evidencia L5.
 
 **Para avanzar se necesita:**
-- Datos detallados del mecanismo de acción (MOA) de bimatoprost
-- Evidencia preclínica o clínica que relacione el fármaco con esta malformación
-- Revisión del prospecto de ANMAT para completar la evaluación de seguridad
-- Evaluar la compatibilidad de vía de administración, ya que las presentaciones locales son solo oftálmicas
-
-**Nota:** Entre las otras predicciones del modelo, **alopecia** (Fase 2 en alopecia androgenética masculina y en pérdida de cabello de patrón femenino, con numerosas revisiones; nivel L2) y **alopecia genética** (nivel L3) cuentan con mucho más respaldo. Si el objetivo es priorizar reposicionamientos de bimatoprost, conviene evaluarlas como líneas de investigación más prometedoras.
+- Datos del mecanismo de acción del fármaco
+- Una hipótesis biológica que justifique el vínculo con esta condición
+- Estudios preclínicos que respalden la plausibilidad antes de plantear cualquier ensayo
+- Texto del prospecto aprobado por ANMAT con advertencias y contraindicaciones
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

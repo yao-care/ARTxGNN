@@ -4,17 +4,17 @@ title: Sotalol
 parent: Solo Predicción del Modelo (L5)
 nav_order: 229
 evidence_level: L5
-indication_count: 7
+indication_count: 6
 last_modified_at: 2026-10-13
 description: "Sotalol: nueva indicación predicha, Síndrome del seno enfermo tipo 2, autosómico dominante (nivel de evidencia L5). Indicación original: Fibrilación auricular"
 monitor_inn: "SOTALOL"
-predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "Wildervanck syndrome", "sarcoglycanopathy", "stroke disorder", "manic bipolar affective disorder", "macrocephaly, dysmorphic facies, and psychomotor retardation", "obsolete susceptibility to ischemic stroke"]
+predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "Wildervanck syndrome", "sarcoglycanopathy", "stroke disorder", "manic bipolar affective disorder", "macrocephaly, dysmorphic facies, and psychomotor retardation"]
 ---
 
 # Sotalol
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-## Sotalol: De Fibrilación Auricular a Síndrome del Seno Enfermo Tipo 2 (Autosómico Dominante)
+## Sotalol: De Fibrilación Auricular a Síndrome del seno enfermo tipo 2, autosómico dominante
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -50,10 +50,10 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 |------|------|
 | Indicación Original | Fibrilación auricular |
 | Nueva Indicación Predicha | Síndrome del seno enfermo tipo 2, autosómico dominante |
-| Puntaje de Predicción TxGNN | 99.76% |
+| Puntaje de Predicción TxGNN | 0.9976 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -119,7 +119,7 @@ La predicción se apoya solo en el modelo (nivel L5), sin ensayos ni literatura.
 - Advertencias y contraindicaciones del prospecto de ANMAT
 - Estudios preclínicos o clínicos que justifiquen un beneficio en esta enfermedad, algo poco probable dado el perfil farmacológico
 
-**Nota adicional:** entre las demás predicciones del modelo, "trastorno de accidente cerebrovascular" (puntaje 99.44%) tiene un ensayo de Fase 3 completado (NCT00007605, n=706) y literatura de apoyo. Esa evidencia trata del manejo de la fibrilación auricular, no de la prevención o el tratamiento del ACV como desenlace, y se superpone con la indicación original. Por lo tanto, no constituye una oportunidad de reposicionamiento diferenciada.
+**Nota adicional:** entre las demás predicciones del modelo, "trastorno de accidente cerebrovascular" (puntaje 0.9944) tiene un ensayo de Fase 3 completado (NCT00007605, n=706) y literatura de apoyo. Esa evidencia trata del manejo de la fibrilación auricular, no de la prevención o el tratamiento del ACV como desenlace, y se superpone con la indicación original. Por lo tanto, no constituye una oportunidad de reposicionamiento diferenciada.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -9,6 +9,7 @@ evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
 description: "Benznidazol: nueva indicación predicha, — No disponible (sin predicciones TxGNN) (nivel de evidencia L5). Indicación original: Enfermedad de Chagas (tripanosomiasis americana) — según uso reconoci…"
+predicted_indications: []
 ---
 
 # Benznidazol
@@ -50,8 +51,8 @@ Benznidazol es un fármaco antiparasitario de la clase nitroimidazol, reconocido
 | Nueva Indicación Predicha | — No disponible (sin predicciones TxGNN) |
 | Puntaje de Predicción TxGNN | — No disponible |
 | Nivel de Evidencia | L5 — Solo información de referencia, sin predicción ni estudios asociados |
-| Estado de Mercado | ✗ No comercializado en el mercado regulatorio consultado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | **Hold** |
 
 > ¹ Benznidazol no presenta indicaciones aprobadas en las bases de datos regulatorias consultadas (TFDA). Sin embargo, es ampliamente reconocido como tratamiento estándar para la enfermedad de Chagas en Latinoamérica (aprobado por ANMAT en Argentina, FDA en EE.UU. para uso pediátrico, y recomendado por la OMS).

@@ -4,17 +4,17 @@ title: Metoprolol
 parent: Solo Predicción del Modelo (L5)
 nav_order: 187
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Metoprolol: nueva indicación predicha, Enfermedad renal hipertensiva maligna (nivel de evidencia L5). Indicación original: Hipertensión arterial (según las indicaciones originales del grafo de…"
+indication_count: 6
 monitor_inn: "METOPROLOL"
-predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "trichotillomania"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "trichotillomania"]
+last_modified_at: 2026-10-27
+description: "Metoprolol: nueva indicación predicha, enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Metoprolol
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,34 +33,34 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Metoprolol: De Hipertensión arterial a Enfermedad renal hipertensiva maligna
+## Metoprolol: bloqueador beta-1 cardioselectivo → enfermedad renal hipertensiva maligna (malignant hypertensive renal disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Metoprolol es un betabloqueante, utilizado originalmente para el tratamiento de la hipertensión arterial, el síndrome coronario agudo y el infarto de miocardio.
-El modelo TxGNN predice que podría ser efectivo para la **enfermedad renal hipertensiva maligna**,
-pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección específica.
+Metoprolol es un bloqueador beta-1 adrenérgico cardioselectivo que se comercializa en Argentina.
+El modelo TxGNN predice que podría ser efectivo para **enfermedad renal hipertensiva maligna (malignant hypertensive renal disease)**,
+pero para esta indicación no hay ensayos clínicos ni publicaciones que respalden la predicción: se trata de una predicción computacional sin estudios directos.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertensión arterial (según las indicaciones originales del grafo de conocimiento; los textos de indicación de las autorizaciones locales están vacíos) |
-| Nueva Indicación Predicha | Enfermedad renal hipertensiva maligna |
-| Puntaje de Predicción TxGNN | 99.91% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) |
+| Puntaje de Predicción TxGNN | 0.9991 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 3 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, metoprolol es un bloqueante selectivo de los receptores beta-1 adrenérgicos. Su eficacia en hipertensión arterial está establecida, y mecanísticamente podría ser aplicable a formas graves de hipertensión con compromiso renal.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por conocimiento farmacológico general, metoprolol bloquea los receptores beta-1, lo que reduce la frecuencia cardíaca, el gasto cardíaco y la liberación de renina.
 
-El bloqueo beta-1 reduce la frecuencia cardíaca, el gasto cardíaco y la liberación de renina. Por eso la predicción es plausible como una extensión de gravedad de la indicación original, la hipertensión.
+La reducción de la presión arterial y de la actividad del sistema renina-angiotensina es plausiblemente relevante para el daño renal causado por hipertensión grave. El puntaje alto probablemente refleja la cercanía con el uso antihipertensivo ya conocido del fármaco, más que un hallazgo de reposicionamiento genuino.
 
-Sin embargo, no se encontraron ensayos ni literatura sobre la nefropatía hipertensiva maligna en particular. El manejo agudo de la hipertensión maligna se realiza normalmente con fármacos intravenosos, y los betabloqueantes cumplen un papel complementario. Se trata esencialmente de una extensión dentro de la misma clase de la indicación existente, no de una verdadera señal reposicionamiento. El puntaje alto del modelo, por sí solo, no basta para respaldarla.
+No se aportaron ensayos ni literatura sobre nefropatía hipertensiva maligna específicamente. Por ello, la predicción es solo computacional y debe tomarse como hipótesis, no como evidencia de eficacia.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -72,38 +72,33 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 55478 | BELOZOK | 25 mg, comprimidos de liberación prolongada x 28 | AstraZeneca |
-| 55479 | BELOZOK | 50 mg, comprimidos de liberación prolongada x 28 | AstraZeneca |
-| 55480 | BELOZOK | 100 mg, comprimidos de liberación prolongada x 28 | AstraZeneca |
+| 55479 | BELOZOK | 50 mg comp. lib. prol. x 28 | No registrada en los datos locales |
+| 55478 | BELOZOK | 25 mg comp. lib. prol. x 28 | No registrada en los datos locales |
+| 55480 | BELOZOK | 100 mg comp. lib. prol. x 28 | No registrada en los datos locales |
 
-Las tres autorizaciones están vigentes y corresponden a productos de un solo principio activo.
+Las tres autorizaciones (titular: AstraZeneca) figuran vigentes.
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones y enfermedades de precaución (según el grafo de conocimiento, no según el texto del prospecto)**: trastornos de ansiedad y trastornos neuróticos, distimia, pancreatitis, enfermedad hepática (incluidos coma y encefalopatía hepática), enfermedad de la vesícula biliar, lupus eritematoso sistémico, psoriasis, diabetes mellitus y cetoacidosis diabética, gota e hiperuricemia, hipotensión, hiperparatiroidismo, hipercalcemia y nefrocalcinosis, trastornos del metabolismo del fósforo, deficiencia de potasio, anuria, ictericia neonatal, miastenia gravis y enfermedades de la unión neuromuscular, y feocromocitoma.
-- **Interacciones Farmacológicas**: la consulta identificó 100 interacciones. Entre las principales:
-  - Interacciones moderadas: epinefrina, bupropión, morfina, cimetidina, canagliflozina, dapagliflozina, clorpropamida, lorcaserina, atropina, hioscina, glicopirronio, fosfato y acetato de calcio, y corticoides (hidrocortisona, dexametasona, betametasona, triamcinolona, budesonida).
-  - Interacciones leves: ácido acetilsalicílico y óxido de magnesio.
-- **Precaución adicional**: en hipertensión pulmonar y en enfermedad pulmonar crónica, los betabloqueantes requieren cautela. El ensayo BLOCK COPD (metoprolol) no mostró reducción de exacerbaciones y se asoció con más exacerbaciones que requirieron hospitalización.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones en total. Entre las principales, de nivel moderado: epinefrina, hidrocortisona, hioscina (hiosciamina), bupropión, triamcinolona, morfina, atropina, dexametasona, lorcaserina, betametasona, budesonida, glicopirronio, canagliflozina, clorpropamida, cimetidina y dapagliflozina. De nivel menor: ácido acetilsalicílico y óxido de magnesio.
+- **Condiciones de precaución según relaciones registradas en los datos compilados** (no provienen del texto del prospecto): diabetes mellitus y cetoacidosis diabética, hipotensión, enfermedad hepática y encefalopatía hepática, miastenia gravis, feocromocitoma, gota, psoriasis, lupus eritematoso sistémico, pancreatitis, anuria y trastornos del metabolismo del calcio y fósforo. Deben verificarse en el prospecto aprobado.
 
-Para advertencias y contraindicaciones oficiales, consultar el prospecto aprobado por ANMAT.
+Consultar el prospecto para información de seguridad completa sobre advertencias y contraindicaciones.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto (99.91%), pero no existe ningún ensayo ni publicación específica para la enfermedad renal hipertensiva maligna (nivel L5). Además, es una extensión de gravedad de una indicación ya aprobada, no un reposicionamiento genuino.
+La predicción no cuenta con ningún estudio que evalúe directamente la enfermedad renal hipertensiva maligna, por lo que el nivel de evidencia es L5. Además, es en gran parte una extensión del uso antihipertensivo ya conocido y no un reposicionamiento propiamente dicho.
 
 **Para avanzar se necesita:**
-- Datos detallados del mecanismo de acción (MOA).
-- Obtener y analizar el prospecto de ANMAT (advertencias y contraindicaciones oficiales).
-- Revisión sistemática de la literatura sobre betabloqueantes en hipertensión maligna con compromiso renal.
-- Evaluación nefrológica y cardiológica sobre el papel de metoprolol frente a los fármacos de primera línea en crisis hipertensivas.
-- Confirmar que la nueva indicación aporta valor más allá de la indicación de hipertensión ya autorizada.
-- Como referencia, otras predicciones del modelo con más literatura (por ejemplo, infartos de miocardio por localización o cardiopatía pulmonar crónica, ambas nivel L3) son subtipos de indicaciones existentes o tienen señales de seguridad desfavorables, por lo que también requieren análisis independiente.
+- Estudios clínicos u observacionales de metoprolol en nefropatía hipertensiva maligna
+- Datos del mecanismo de acción y análisis de su vínculo con el daño renal hipertensivo
+- Advertencias y contraindicaciones del prospecto aprobado por ANMAT
+- Evaluación de seguridad renal e hemodinámica en pacientes con hipertensión grave
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

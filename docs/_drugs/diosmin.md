@@ -47,9 +47,9 @@ El modelo TxGNN predice que podría ser efectivo para **amenorrea**, pero actual
 |------|------|
 | Indicación Original | No disponible en los datos compilados (los textos de indicación de las autorizaciones están vacíos) |
 | Nueva Indicación Predicha | Amenorrea |
-| Puntaje de Predicción TxGNN | 99.42% |
+| Puntaje de Predicción TxGNN | 0.9942 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: al menos 20) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 
@@ -57,7 +57,7 @@ El modelo TxGNN predice que podría ser efectivo para **amenorrea**, pero actual
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción ni sobre las indicaciones originales aprobadas. Según el conocimiento general (no proveniente de los datos compilados), la diosmina es un flavonoide venoactivo, asociado a efectos sobre el tono vascular y la microcirculación, además de actividad antiinflamatoria y antioxidante.
 
-No hay un vínculo mecanístico establecido entre estas propiedades y la amenorrea, ni con la regulación menstrual o el eje hipotálamo-hipófiso-ovárico. El puntaje de 99.42% proviene exclusivamente del modelo y no está respaldado por estudios reales. Una hipótesis especulativa sería un posible efecto sobre la función venosa o microvascular pélvica, que requeriría validación independiente.
+No hay un vínculo mecanístico establecido entre estas propiedades y la amenorrea, ni con la regulación menstrual o el eje hipotálamo-hipófiso-ovárico. El puntaje de 0.9942 proviene exclusivamente del modelo y no está respaldado por estudios reales. Una hipótesis especulativa sería un posible efecto sobre la función venosa o microvascular pélvica, que requeriría validación independiente.
 
 ## Información de Mercado en Argentina
 

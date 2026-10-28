@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Zolpidem
-parent: Evidencia Alta (L1-L2)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 247
-evidence_level: L1
-indication_count: 3
-last_modified_at: 2026-10-13
-description: "Zolpidem: nueva indicación predicha, Trastorno del sueño: inicio y mantenimiento del sueño (nivel de evidencia L1). Indicación original: Insomnio (según el grafo de conocimiento"
+evidence_level: L5
+indication_count: 2
 monitor_inn: "ZOLPIDEM"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
+last_modified_at: 2026-10-27
+description: "Zolpidem: nueva indicación predicha, Tortícolis paroxística benigna de la infancia (benign paroxysmal torticollis of infancy) (nivel de evidencia L5). Indicación original: No consta en los datos loca…"
 ---
 
 # Zolpidem
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,34 +33,33 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **3**
 
 </div>
 
-## Zolpidem: De Insomnio a Trastorno del Sueño (Inicio y Mantenimiento del Sueño)
+## Zolpidem: modulador alostérico positivo del receptor GABA-A → tortícolis paroxística benigna de la infancia (benign paroxysmal torticollis of infancy)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Zolpidem es un hipnótico no benzodiazepínico, utilizado originalmente para el tratamiento del insomnio.
-El modelo TxGNN predice que podría ser efectivo para el **trastorno del sueño: inicio y mantenimiento del sueño**, una indicación que en la práctica coincide con su uso ya establecido, por lo que no constituye un reposicionamiento genuino.
-Esta dirección está respaldada por **19 publicaciones** (incluyendo metaanálisis en red, guías de práctica clínica y un ensayo de Fase 3 con zolpidem como comparador activo) y **ningún ensayo clínico** registrado.
+Zolpidem es un hipnótico sedante que actúa sobre el receptor GABA-A y que se comercializa en Argentina con múltiples autorizaciones vigentes.
+El modelo TxGNN predice que podría ser efectivo para **tortícolis paroxística benigna de la infancia (benign paroxysmal torticollis of infancy)**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; es una hipótesis puramente computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Insomnio (según el grafo de conocimiento; los textos de indicación de las autorizaciones locales están vacíos) |
-| Nueva Indicación Predicha | Trastorno del sueño: inicio y mantenimiento del sueño |
-| Puntaje de Predicción TxGNN | 99.87% |
-| Nivel de Evidencia | L1 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 15 |
-| Decisión Recomendada | Proceed with Guardrails |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Tortícolis paroxística benigna de la infancia (benign paroxysmal torticollis of infancy) |
+| Puntaje de Predicción TxGNN | 0,9926 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 15 de 15) |
+| Número de Autorizaciones | 15 (vigentes: 15) |
+| Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Zolpidem actúa como modulador alostérico positivo del receptor GABA-A, con selectividad por los receptores que contienen la subunidad alfa-1. Esto potencia la neurotransmisión inhibitoria y favorece el inicio del sueño. Los datos compilados para este informe no incluyen el mecanismo de acción detallado, pero se trata de un mecanismo ampliamente conocido y descrito en la literatura recuperada.
+Los datos compilados para este informe no incluyen el mecanismo de acción original del fármaco. Según el conocimiento farmacológico general, zolpidem es un modulador alostérico positivo del receptor GABA-A con preferencia por la subunidad alfa-1, lo que explica su efecto sedante-hipnótico.
 
-La "nueva" indicación predicha (dificultad para iniciar y mantener el sueño) es esencialmente la misma que la indicación original, el insomnio. Por ello, el puntaje elevado del modelo es coherente con el mecanismo establecido, pero no representa un hallazgo de reposicionamiento.
+La relación con la nueva indicación es especulativa. La tortícolis paroxística benigna de la infancia es un trastorno motor paroxístico pediátrico que se ha asociado a variantes en CACNA1A (canalopatía). No se ha podido confirmar ningún vínculo mecanístico entre la modulación GABAérgica y este trastorno con los datos disponibles.
 
-Las otras dos predicciones del modelo carecen de respaldo: la tortícolis paroxística benigna de la infancia (puntaje 99.26%) no tiene vínculo mecanístico plausible y el fármaco no está aprobado en población pediátrica; la agorafobia (99.25%) tiene solo un fundamento débil e indirecto, dado que zolpidem tiene actividad ansiolítica mínima. Ambas quedan en nivel L5 con decisión Hold.
+Además, el puntaje del modelo es muy alto (0,9926), pero se basa solo en patrones del modelo, sin estudios que lo sustenten. Los hipnóticos sedantes no están establecidos para su uso en lactantes, lo que plantea una preocupación de seguridad importante en esta población.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -68,50 +67,40 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [35843245](https://pubmed.ncbi.nlm.nih.gov/35843245/) | 2022 | Metaanálisis en red | Lancet | Comparación de la eficacia de intervenciones farmacológicas para el insomnio en adultos, a corto y largo plazo |
-| [27998379](https://pubmed.ncbi.nlm.nih.gov/27998379/) | 2017 | Guía de práctica clínica | J Clin Sleep Med | Guía de la AASM sobre tratamiento farmacológico del insomnio crónico en adultos, con análisis de fármacos individuales |
-| [31880796](https://pubmed.ncbi.nlm.nih.gov/31880796/) | 2019 | ECA (Fase 3) | JAMA Netw Open | Lemborexant frente a placebo y zolpidem de liberación prolongada (comparador activo) en adultos mayores con insomnio |
-| [34121443](https://pubmed.ncbi.nlm.nih.gov/34121443/) | 2021 | Metaanálisis en red | J Manag Care Spec Pharm | Eficacia y seguridad comparativas de lemborexant y otros tratamientos para el insomnio |
-| [37549414](https://pubmed.ncbi.nlm.nih.gov/37549414/) | 2023 | Revisión | J Fam Pract | Manejo del insomnio en atención primaria; debe tratarse como condición propia aun con comorbilidades |
-| [34210446](https://pubmed.ncbi.nlm.nih.gov/34210446/) | 2021 | Revisión | Clin Geriatr Med | Tratamiento farmacológico en adultos mayores; los fármacos "Z" conllevan riesgo de caídas, lesiones y mortalidad |
-| [27751669](https://pubmed.ncbi.nlm.nih.gov/27751669/) | 2016 | Revisión | Clin Ther | Seguridad y eficacia de los medicamentos para dormir en adultos mayores |
-| [29487083](https://pubmed.ncbi.nlm.nih.gov/29487083/) | 2018 | Revisión | Pharmacol Rev | Los fármacos Z están aprobados para el insomnio, pero presentan deterioro cognitivo, tolerancia, insomnio de rebote y riesgo de dependencia |
-| [41187937](https://pubmed.ncbi.nlm.nih.gov/41187937/) | 2025 | Guía clínica | Arq Neuropsiquiatr | Guía brasileña sobre abuso y dependencia de fármacos Z; uso recomendado no mayor a cuatro semanas |
-| [39923608](https://pubmed.ncbi.nlm.nih.gov/39923608/) | 2025 | Consenso de expertos | Sleep Med | Guía europea para cambiar o retirar hipnóticos en el insomnio crónico |
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
+Hay 15 autorizaciones, todas vigentes y de producto de un solo principio activo. Se listan las 5 principales:
+
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 46350 | NOCTE 10 | 10 mg comprimidos sublinguales x 30 | No disponible en los datos |
-| 36111 | DORMILAN | 10 mg comprimidos x 30 | No disponible en los datos |
-| 54718 | ZOLDEM | 10 mg comprimidos recubiertos x 30 | No disponible en los datos |
-| 42613 | AMBIEN CR | 12.5 mg comprimidos x 28 | No disponible en los datos |
-| 54332 | ZOLPIDEM TEVA | 10 mg comprimidos x 30 | No disponible en los datos |
-
-Se registran 15 autorizaciones vigentes, todas de monofármaco y ninguna cancelada; la tabla muestra las 5 principales. Otras marcas incluyen SOMIT (varias presentaciones), SOMIT CR, SOMIT INTERSUEÑO, DORMI-ROS, SUMENAN y ZOLODORM.
+| 46350 | NOCTE 10 | 10 mg comp. subl. x 30 | No registrada en los datos locales |
+| 36111 | DORMILAN | 10 mg comp. ran. x 30 | No registrada en los datos locales |
+| 54718 | ZOLDEM | 10 mg comp. rec. x 30 | No registrada en los datos locales |
+| 42613 | AMBIEN CR | 12,5 mg comp. x 28 | No registrada en los datos locales |
+| 54332 | ZOLPIDEM TEVA | 10 mg tab. x 30 | No registrada en los datos locales |
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones según el grafo de conocimiento** (no provienen del prospecto): trastorno de ansiedad, trastorno neurótico, trastorno distímico, enfermedad hepática, enfermedad de la vesícula biliar, síndrome de apnea obstructiva del sueño, síndrome de apnea del sueño, síndrome de hipoventilación central congénita, síndrome de Haddad, trastorno amnésico, amnesia retrógrada, trastornos relacionados con sustancias, abuso/dependencia de sustancias y trastorno por déficit de atención con hiperactividad (incluido el tipo inatento).
-- **Interacciones farmacológicas**: se identificaron 100 interacciones. Las más relevantes de gravedad **mayor** son con **morfina** y **morfina liposomal** (depresión del sistema nervioso central). Las de gravedad **moderada** incluyen bupropión, aprepitant, dexametasona, cimetidina, claritromicina, dronabinol, nabilona, metoclopramida, miconazol, clotrimazol, opio, sibutramina, troglitazona y fenilbutirato de glicerol.
-- **Precauciones a considerar** (según el análisis del mecanismo y la literatura): conductas complejas durante el sueño (advertencia de recuadro negro), deterioro psicomotor al día siguiente, mayor riesgo en adultos mayores y potencial de dependencia.
+- **Interacciones Farmacológicas** (100 interacciones registradas; se destacan las principales):
+  - Gravedad mayor: morfina y morfina liposomal (riesgo de depresión del sistema nervioso central y respiratoria).
+  - Gravedad moderada: bupropión, aprepitant, dexametasona, cimetidina, claritromicina, metoclopramida, miconazol, clotrimazol, dronabinol y nabilona, entre otros.
+- **Riesgos generales a considerar en las poblaciones relevantes**: dependencia, conductas complejas durante el sueño y deterioro al día siguiente; además, no está establecido el uso de hipnóticos sedantes en lactantes.
+
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-La evidencia de literatura es sólida (metaanálisis en red, guías clínicas y un ECA de Fase 3 con zolpidem como comparador), pero la indicación predicha equivale a su uso ya establecido. No es un reposicionamiento nuevo y requiere salvaguardas por riesgos conocidos de seguridad.
+La predicción no tiene ningún ensayo clínico ni publicación que la respalde (nivel L5), el mecanismo es especulativo y la población objetivo (lactantes) plantea un problema de seguridad importante.
 
 **Para avanzar se necesita:**
-- Obtener y revisar el prospecto aprobado por ANMAT (advertencias y contraindicaciones), ya que esa información no estaba disponible.
-- Confirmar el texto de indicación aprobado en las autorizaciones locales, que figura vacío.
-- Documentar el mecanismo de acción desde una fuente como DrugBank.
-- Definir medidas de mitigación: duración limitada del tratamiento, ajuste de dosis en adultos mayores y control de la coadministración con depresores del sistema nervioso central y opioides.
-- Descartar por ahora las predicciones de tortícolis paroxística benigna de la infancia y agorafobia (Hold, sin evidencia que las respalde).
+- Revisión sistemática de la literatura sobre tortícolis paroxística benigna de la infancia y el papel de la vía GABAérgica.
+- Datos detallados del mecanismo de acción y del prospecto aprobado por ANMAT (advertencias y contraindicaciones).
+- Evaluación de la plausibilidad biológica y de la seguridad en población pediátrica antes de formular cualquier pregunta de investigación.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Nandrolone
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 198
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Nandrolone: nueva indicación predicha, Enfermedad fibroquística de la mama (nivel de evidencia L4). Indicación original: No disponible en la licencia de ANMAT (texto de indicación vacío). Co…"
@@ -14,7 +14,7 @@ predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia"
 # Nandrolone
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Nandrolona (decanoato de nandrolona, comercializada en Argentina como DECA-DURAB
 |------|------|
 | Indicación Original | No disponible en la licencia de ANMAT (texto de indicación vacío). Como referencia farmacológica, se usa en anemias refractarias por producción deficiente de glóbulos rojos y en otras situaciones (cáncer de mama, angioedema hereditario, síndrome de Turner, entre otras) |
 | Nueva Indicación Predicha | Enfermedad fibroquística de la mama |
-| Puntaje de Predicción TxGNN | 99.90% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Puntaje de Predicción TxGNN | 0.9990 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -68,15 +68,15 @@ Debe tenerse cautela: el único respaldo es un artículo de 1964 sobre el tratam
 
 | Enfermedad predicha | Puntaje TxGNN | Nivel de evidencia | Comentario |
 |------|------|------|------|
-| Displasia mamaria benigna | 99.83% | L5 | Sinónimo cercano; sin literatura directa |
-| Adenosis de conductos romos de mama | 99.79% | L5 | Subtipo histológico; solo predicción |
-| Adenosis apocrina de mama | 99.79% | L5 | Subtipo histológico; solo predicción |
-| Eritroblastosis fetal | 99.77% | L5 | Ajuste mecanístico débil y riesgo de virilización fetal |
-| Absceso mamario | 99.70% | L5 | Probable artefacto del modelo |
-| Necrosis grasa de mama | 99.70% | L5 | Probable artefacto del modelo |
-| Enfermedad de la lactancia | 99.68% | L5 | Supresión de lactancia conceptualmente posible; indicación imprecisa |
-| Adenosis mamaria | 99.63% | L4 | Mismo artículo de 1964, relevancia incierta |
-| Osteodistrofia renal | 99.54% | L4 | Efecto anabólico óseo plausible; sin datos vinculados; pregunta de investigación |
+| Displasia mamaria benigna | 0.9983 | L5 | Sinónimo cercano; sin literatura directa |
+| Adenosis de conductos romos de mama | 0.9979 | L5 | Subtipo histológico; solo predicción |
+| Adenosis apocrina de mama | 0.9979 | L5 | Subtipo histológico; solo predicción |
+| Eritroblastosis fetal | 0.9977 | L5 | Ajuste mecanístico débil y riesgo de virilización fetal |
+| Absceso mamario | 0.9970 | L5 | Probable artefacto del modelo |
+| Necrosis grasa de mama | 0.9970 | L5 | Probable artefacto del modelo |
+| Enfermedad de la lactancia | 0.9968 | L5 | Supresión de lactancia conceptualmente posible; indicación imprecisa |
+| Adenosis mamaria | 0.9963 | L5 | Mismo artículo de 1964, relevancia incierta |
+| Osteodistrofia renal | 0.9954 | L5 | Efecto anabólico óseo plausible; sin datos vinculados; pregunta de investigación |
 
 ---
 

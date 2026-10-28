@@ -8,6 +8,7 @@ nav_order: 88
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Cefazolina
@@ -51,8 +52,8 @@ por lo que **no existe evidencia de reposicionamiento evaluable** en esta versi�
 | Nueva Indicación Predicha | Sin predicciones generadas |
 | Puntaje de Predicción TxGNN | No disponible |
 | Nivel de Evidencia | L5 (sin estudios reales; predicción no emitida) |
-| Estado de Mercado en Argentina | ✗ No comercializado (0 autorizaciones) |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | **Hold** |
 
 ---

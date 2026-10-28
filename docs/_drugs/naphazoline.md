@@ -48,10 +48,10 @@ Nafazolina es un vasoconstrictor simpaticomimético (agonista alfa-adrenérgico)
 |------|------|
 | Indicación Original | No disponible en los datos compilados (los textos de indicación de las autorizaciones están vacíos). Según DrugBank/farmacología, se usa como vasoconstrictor para reducir el enrojecimiento ocular |
 | Nueva Indicación Predicha | Hipotricosis simple del cuero cabelludo |
-| Puntaje de Predicción TxGNN | 99.83% |
+| Puntaje de Predicción TxGNN | 0.9983 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 9 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 9 de 9) |
+| Número de Autorizaciones | 9 (vigentes: 9) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -60,7 +60,7 @@ Nafazolina es un vasoconstrictor simpaticomimético (agonista alfa-adrenérgico)
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados en la base de datos. Según la información farmacológica compilada, la nafazolina es un agonista de los receptores adrenérgicos α1A, α2A y α2C (también se registra interacción con un receptor TAAR en ratón). Su efecto es la vasoconstricción, que reduce temporalmente el enrojecimiento ocular al estrechar los vasos sanguíneos inflamados, y la descongestión nasal.
 
-**En este caso la prediccion no resulta mecanisticamente razonable.** La hipotricosis simple del cuero cabelludo es un trastorno de origen genético del folículo piloso, sin relación conocida con la vía alfa-adrenérgica. Además, la vasoconstricción de la microvasculatura del cuero cabelludo cabría esperarla como contraproducente para la perfusión folicular. El puntaje alto probablemente refleja la cercanía en el grafo de conocimiento entre nodos de fenotipos relacionados con el cabello, y no una farmacología real.
+**En este caso la prediccion no resulta mecanisticamente razonable.** La hipotricosis simple del cuero cabelludo es un trastorno de origen genético del folículo piloso, sin relación conocida con la vía alfa-adrenérgica. Además, la vasoconstricción de la microvasculatura del cuero cabelludo cabría esperarla como contraproducente para la perfusión folicular. El puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y probablemente refleja similitudes que el modelo aprendió entre enfermedades relacionadas con el cabello, no evidencia biológica ni una farmacología real.
 
 Las demás predicciones del modelo siguen el mismo patrón: otras condiciones capilares (hipotricosis congénita con milia, alopecia areata difusa, alopecia, hipertricosis, hipertricosis de Ambras), glaucoma (hereditario primario y de ángulo abierto) y síndromes malformativos (con componente dental/periodontal y con malformación de Dandy-Walker). Ninguna cuenta con ensayos ni literatura que evalúe la nafazolina; la única publicación recuperada (PMID 1295525, glaucoma de ángulo abierto) trata de corticoides tópicos tras trabeculoplastia láser y no estudia nafazolina.
 

@@ -8,6 +8,7 @@ nav_order: 81
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Carbocisteína
@@ -53,8 +54,8 @@ Dado que no existen predicciones disponibles ni autorizaciones de mercado regist
 | Nueva Indicación Predicha | Sin predicción generada por TxGNN |
 | Puntaje de Predicción TxGNN | N/D |
 | Nivel de Evidencia | L5 — solo predicción del modelo; en este caso ninguna predicción disponible |
-| Estado de Mercado en Argentina | No comercializado (0 autorizaciones registradas) |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 5 de 5) |
+| Número de Autorizaciones | 5 (vigentes: 5) |
 | Decisión Recomendada | **Hold** |
 
 ---

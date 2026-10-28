@@ -8,6 +8,7 @@ nav_order: 115
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Clofibrato
@@ -51,8 +52,8 @@ No es posible evaluar la evidencia de reposicionamiento en esta etapa sin datos 
 | Nueva Indicación Predicha | Sin predicciones disponibles |
 | Puntaje de Predicción TxGNN | — |
 | Nivel de Evidencia | L5 (solo modelo, sin estudios reales) |
-| Estado de Mercado en Argentina | No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---

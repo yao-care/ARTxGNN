@@ -4,17 +4,17 @@ title: Latanoprost
 parent: Solo Predicción del Modelo (L5)
 nav_order: 174
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Latanoprost: nueva indicación predicha, Glaucoma hereditario primario (nivel de evidencia L5). Indicación original: Glaucoma de ángulo abierto e hipertensión ocular (según el grafo de c…"
+indication_count: 9
 monitor_inn: "LATANOPROST"
 predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the scalp", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "congenital hypotrichosis milia", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis"]
+last_modified_at: 2026-10-27
+description: "Latanoprost: nueva indicación predicha, calcifilaxia visceral (visceral calciphylaxis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Latanoprost
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,34 +33,34 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Latanoprost: De Glaucoma de Ángulo Abierto a Glaucoma Hereditario Primario
+## Latanoprost: análogo de prostaglandina F2-alfa (agonista del receptor FP) → calcifilaxia visceral (visceral calciphylaxis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Latanoprost es un análogo de la prostaglandina F2-alfa, originalmente utilizado para el tratamiento del glaucoma de ángulo abierto y la hipertensión ocular.
-El modelo TxGNN predice que podría ser efectivo para **glaucoma hereditario primario**,
-pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: la predicción se apoya solo en el modelo y en un razonamiento mecanístico indirecto.
+Latanoprost es un análogo de prostaglandina F2-alfa que se comercializa en Argentina en formulaciones oftálmicas.
+El modelo TxGNN predice que podría ser efectivo para **calcifilaxia visceral (visceral calciphylaxis)**, con puntaje 0.9983.
+Actualmente no hay ensayos clínicos ni publicaciones que respalden esta dirección, por lo que se trata solo de una predicción computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Glaucoma de ángulo abierto e hipertensión ocular (según el grafo de conocimiento; los textos de las autorizaciones no incluyen indicación) |
-| Nueva Indicación Predicha | Glaucoma hereditario primario |
-| Puntaje de Predicción TxGNN | 99.88% |
-| Nivel de Evidencia | L4 (solo razonamiento mecanístico; sin estudios reales) |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 14 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | calcifilaxia visceral (visceral calciphylaxis) |
+| Puntaje de Predicción TxGNN | 0.9983 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 14 de 14) |
+| Número de Autorizaciones | 14 (vigentes: 14) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Latanoprost es un análogo de la prostaglandina F2-alfa que reduce la presión intraocular (PIO) al aumentar el flujo de salida uveoescleral del humor acuoso. Este es el mecanismo que sustenta su uso en el glaucoma de ángulo abierto. Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción; lo anterior corresponde al conocimiento farmacológico general del fármaco.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por conocimiento general, latanoprost es un análogo de prostaglandina F2-alfa que actúa como agonista del receptor FP y tiene propiedades vasoactivas.
 
-El glaucoma hereditario primario (por ejemplo, el glaucoma congénito primario o el glaucoma juvenil de ángulo abierto) comparte con la indicación original la fisiopatología de la PIO elevada, por lo que el vínculo es plausible. El puntaje tan alto del modelo se explica en gran parte por esta similitud con la indicación ya aprobada.
+La relación entre su uso actual y la calcifilaxia visceral es especulativa. Esta enfermedad implica calcificación vascular y oclusión de vasos pequeños, y no existe un vínculo terapéutico reconocido con la activación del receptor FP.
 
-Existe, sin embargo, una limitación importante: las formas congénitas se originan en una disgenesia de la malla trabecular o del ángulo, y a menudo responden mal al tratamiento médico (con frecuencia requieren cirugía). Como no hay ensayos ni literatura, el respaldo es solo indirecto y basado en el mecanismo.
+Por lo tanto, la plausibilidad mecanística no puede verificarse con los datos disponibles. El puntaje de 0.9983 refleja solo una predicción del modelo, sin respaldo clínico ni bibliográfico.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -72,36 +72,35 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-Se registran 14 autorizaciones vigentes (todas de producto único, ninguna cancelada). Se muestran las 5 principales:
+El medicamento figura como comercializado, con 14 autorizaciones vigentes (todas de producto de un solo principio activo y ninguna cancelada). Principales autorizaciones:
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19634 | XALATAN (Aspen Pharma) | Gotas oftálmicas x 2.5 ml | No consta en el registro |
-| 34716 | LATANOPROST DORF (PharmaDorf) | Solución oftálmica 50 mcg/ml x 2.5 ml | No consta en el registro |
-| 37736 | LATANOFLAX (Sidus) | Gotas oftálmicas 50 mcg/ml x 2.5 ml | No consta en el registro |
-| 30424 | KLONAPROST (Klonal) | Solución oftálmica 50 mcg/ml x 2.5 ml | No consta en el registro |
-| 31282 | GLAUCOSTAT (Max Vision) | Solución oftálmica 50 mcg/ml x 2.5 ml | No consta en el registro |
+| 43876 | GLAUCOGESIC | Frasco gotero, solución oftálmica x 2.5 ml | No registrada en los datos locales |
+| 34716 | LATANOPROST DORF | Solución oftálmica 50 mcg/ml x 2.5 ml | No registrada en los datos locales |
+| 47508 | OFTALPRES | Solución oftálmica estéril x 2.5 ml | No registrada en los datos locales |
+| 37736 | LATANOFLAX | Gotas oftálmicas 50 mcg/ml x 2.5 ml | No registrada en los datos locales |
+| 19634 | XALATAN | Gotas oftálmicas x 2.5 ml | No registrada en los datos locales |
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones según el grafo de conocimiento** (no provienen del prospecto): uveítis, enfermedad del iris, enfermedad del cuerpo ciliar, panuveítis, edema macular retiniano, edema macular quístico, iritis y conjuntivitis (incluida la conjuntivitis contagiosa aguda).
-- **Interacciones farmacológicas**: se identificaron 100 posibles interacciones, todas con nivel de gravedad no especificado. Entre las que aparecen en la lista inicial figuran calcitriol, glimepirida, doxiciclina, clotrimazol, lansoprazol, cimetidina, atropina, pantoprazol, mesalazina, acarbosa, morfina, metformina, omeprazol, sucralfato, rosiglitazona, vancomicina, lactulosa, triamcinolona, prednisona y simvastatina. Al no haber clasificación de gravedad, deben interpretarse con cautela.
+- **Interacciones Farmacológicas**: se registraron 100 interacciones potenciales, todas de nivel no clasificado. Algunos ejemplos: calcitriol, glimepirida, doxiciclina, clotrimazol, lansoprazol, cimetidina, atropina, morfina, metformina y prednisona.
 
-Para advertencias y contraindicaciones oficiales, consultar el prospecto.
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto en TxGNN y un vínculo mecanístico plausible, pero no cuenta con ningún ensayo clínico ni publicación que la respalde, y las formas congénitas del glaucoma suelen responder poco al tratamiento médico. Además, falta la información de seguridad del prospecto.
+No existe ningún ensayo ni publicación sobre calcifilaxia visceral, el mecanismo es especulativo y el puntaje proviene solo del modelo. El nivel de evidencia es L5.
 
 **Para avanzar se necesita:**
-- Revisión sistemática de la literatura sobre prostaglandinas tópicas en glaucoma congénito y juvenil.
-- Obtener y analizar el prospecto de ANMAT (advertencias y contraindicaciones oficiales).
-- Datos detallados del mecanismo de acción desde DrugBank.
-- Evaluación de la respuesta según el subtipo genético y la edad (especialmente población pediátrica).
-- Si la evidencia indirecta resulta favorable, diseñar un estudio exploratorio con seguimiento de PIO y seguridad ocular.
+- Búsqueda sistemática de literatura sobre prostaglandinas y calcificación vascular
+- Datos de mecanismo de acción del fármaco
+- Estudios preclínicos que respalden una relación biológica con la calcifilaxia
+- Evaluación de exposición sistémica, dado que el producto es de uso oftálmico tópico
+- Revisión del prospecto local para advertencias y contraindicaciones
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

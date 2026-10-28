@@ -4,17 +4,17 @@ title: Flurbiprofen
 parent: Solo Predicción del Modelo (L5)
 nav_order: 149
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Flurbiprofen: nueva indicación predicha, Displasia acromesomélica tipo Hunter-Thompson (nivel de evidencia L5). Indicación original: Artritis reumatoide (según la base de conocimiento del modelo"
 monitor_inn: "flurbiprofen"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "spondyloarthropathy, susceptibility to", "ankylosing spondylitis", "pseudoachondroplasia", "hypermobility of coccyx"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "ankylosing spondylitis", "pseudoachondroplasia", "hypermobility of coccyx"]
 ---
 
 # Flurbiprofen
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **displasia acromesomélic
 |------|------|
 | Indicación Original | Artritis reumatoide (según la base de conocimiento del modelo; los textos de indicación de las autorizaciones locales no están disponibles) |
 | Nueva Indicación Predicha | Displasia acromesomélica tipo Hunter-Thompson |
-| Puntaje de Predicción TxGNN | 99.99% (posición 344 en el ranking del modelo) |
+| Puntaje de Predicción TxGNN | 0.9999 (posición 344 en el ranking del modelo) |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 4 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La displasia acromesomélica tipo Hunter-Thompson es un trastorno esquelético genético raro, relacionado con la vía CDMP1/GDF5. No existe un vínculo mecanístico plausible entre la inhibición de COX y la modificación de esta enfermedad. En el mejor de los casos, un AINE podría aliviar de forma sintomática el dolor o la inflamación articular.
 
-El puntaje alto del modelo probablemente refleja la cercanía en el grafo de conocimiento con enfermedades musculoesqueléticas (artritis, artrosis), y no un mecanismo terapéutico real. Esta predicción debe tomarse como una hipótesis sin respaldo y no como una señal de reposicionamiento sólida.
+El puntaje alto del modelo proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas (por ejemplo, enfermedades musculoesqueléticas como la artritis o la artrosis), no evidencia biológica ni un mecanismo terapéutico real. Esta predicción debe tomarse como una hipótesis sin respaldo y no como una señal de reposicionamiento sólida.
 
 ---
 
@@ -121,7 +121,7 @@ La predicción se apoya solo en el puntaje del modelo (nivel L5), sin ensayos ni
 - Advertencias y contraindicaciones del prospecto aprobado por ANMAT.
 - Evidencia preclínica o clínica que vincule la inhibición de COX con la fisiopatología de esta displasia. Hoy no existe.
 
-**Nota sobre otras predicciones del mismo análisis:** la predicción de **espondilitis anquilosante** (puntaje 99.97%) tiene un respaldo mucho más sólido. Incluye varios estudios comparativos de flurbiprofeno de los años 70 y 80, algunos descritos como doble ciego, frente a indometacina, fenilbutazona y naproxeno. Su nivel de evidencia es L3 y la recomendación es "Proceed with Guardrails". Sin embargo, este es un caso más cercano a una extensión de indicación dentro de enfermedades reumáticas que a un reposicionamiento genuino. Se recomienda evaluarla por separado, con vigilancia de riesgo gastrointestinal y cardiovascular y de interacciones.
+**Nota sobre otras predicciones del mismo análisis:** la predicción de **espondilitis anquilosante** (puntaje 0.9997) tiene un respaldo mucho más sólido. Incluye varios estudios comparativos de flurbiprofeno de los años 70 y 80, algunos descritos como doble ciego, frente a indometacina, fenilbutazona y naproxeno. Su nivel de evidencia es L3 y la recomendación es "Proceed with Guardrails". Sin embargo, este es un caso más cercano a una extensión de indicación dentro de enfermedades reumáticas que a un reposicionamiento genuino. Se recomienda evaluarla por separado, con vigilancia de riesgo gastrointestinal y cardiovascular y de interacciones.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

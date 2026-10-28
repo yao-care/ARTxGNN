@@ -8,6 +8,7 @@ nav_order: 12
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Acetazolamida
@@ -49,8 +50,8 @@ Acetazolamida es un inhibidor de la anhidrasa carbónica con múltiples usos cl�
 | Nueva Indicación Predicha | — (Sin predicciones generadas por TxGNN) |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | **L5** — Solo datos preliminares, sin predicciones ni estudios asociados |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | **Hold** |
 
 ---

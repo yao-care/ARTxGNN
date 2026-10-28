@@ -8,6 +8,7 @@ nav_order: 76
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Candesartán Cilexetil
@@ -51,8 +52,8 @@ por lo que no es posible completar una evaluación de reposicionamiento en esta 
 | Nueva Indicación Predicha | Sin predicciones disponibles |
 | Puntaje de Predicción TxGNN | N/D |
 | Nivel de Evidencia | L5 — sin predicción del modelo |
-| Estado de Mercado en Argentina | No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 15 de 15) |
+| Número de Autorizaciones | 15 (vigentes: 15) |
 | Decisión Recomendada | **Hold** |
 
 ---

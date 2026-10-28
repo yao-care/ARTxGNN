@@ -8,6 +8,7 @@ nav_order: 56
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Biperideno
@@ -49,8 +50,8 @@ Biperideno es un fármaco anticolinérgico (antimuscarínico) utilizado clásica
 | Nueva Indicación Predicha | — Sin predicción generada por TxGNN — |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | L5 (sin estudios ni predicción disponible) |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 6 de 6) |
+| Número de Autorizaciones | 6 (vigentes: 6) |
 | Decisión Recomendada | **Hold** |
 
 ---

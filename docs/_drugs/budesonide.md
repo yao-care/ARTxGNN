@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Budesonide
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 66
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Budesonide: nueva indicación predicha, Eccema atópico (nivel de evidencia L4). Indicación original: Enfermedad de Crohn, enfermedad inflamatoria intestinal, asma…"
@@ -14,7 +14,7 @@ predicted_indications: ["atopic eczema", "bronchitis", "dermatitis, atopic", "po
 # Budesonide
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,9 +47,9 @@ El modelo TxGNN predice que podría ser efectiva para **eccema atópico**, pero 
 |------|------|
 | Indicación Original | Enfermedad de Crohn, enfermedad inflamatoria intestinal, asma, rinitis alérgica (las autorizaciones locales no incluyen texto de indicación) |
 | Nueva Indicación Predicha | Eccema atópico |
-| Puntaje de Predicción TxGNN | 99.96% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
+| Puntaje de Predicción TxGNN | 0.9996 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: al menos 20) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 

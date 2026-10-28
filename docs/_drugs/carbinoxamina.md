@@ -8,6 +8,7 @@ nav_order: 80
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Carbinoxamina
@@ -51,8 +52,8 @@ La evaluación queda suspendida hasta completar los datos regulatorios y de meca
 | Nueva Indicación Predicha | — (sin predicción disponible) |
 | Puntaje de Predicción TxGNN | — |
 | Nivel de Evidencia | L5 (sin estudios reales; predicción no generada) |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 4 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 4) |
 | Decisión Recomendada | **Hold** |
 
 ---

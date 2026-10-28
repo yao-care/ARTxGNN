@@ -8,6 +8,7 @@ nav_order: 28
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Amitriptilina
@@ -49,8 +50,8 @@ Amitriptilina es un antidepresivo tricíclico clásico, ampliamente utilizado a 
 | Nueva Indicación Predicha | — Sin predicción disponible — |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | L5 (solo datos preliminares, sin predicción ni estudios asociados) |
-| Estado de Mercado en Argentina | ✗ No comercializado (según datos disponibles) |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 11 de 11) |
+| Número de Autorizaciones | 11 (vigentes: 11) |
 | Decisión Recomendada | **Hold** |
 
 ---

@@ -4,7 +4,7 @@ title: Salmeterol
 parent: Evidencia Alta (L1-L2)
 nav_order: 227
 evidence_level: L1
-indication_count: 7
+indication_count: 5
 last_modified_at: 2026-10-13
 description: "Salmeterol: nueva indicación predicha, Bronquitis (nivel de evidencia L1). Indicación original: Enfisema pulmonar, asma intrínseca y asma alérgica"
 monitor_inn: "SALMETEROL"
@@ -14,7 +14,7 @@ predicted_indications: ["bronchitis", "respiratory malformation", "obstructive l
 # Salmeterol
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **7** 
+Nivel de evidencia: **L1** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **bronquitis**, con **9 en
 |------|------|
 | Indicación Original | Enfisema pulmonar, asma intrínseca y asma alérgica (según las indicaciones originales registradas en el grafo de conocimiento; los textos de indicación de las autorizaciones locales están vacíos) |
 | Nueva Indicación Predicha | Bronquitis |
-| Puntaje de Predicción TxGNN | 99.92% |
+| Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: al menos 20) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -147,12 +147,10 @@ Varios ensayos de Fase 3 completados (con comparación directa de salmeterol en 
 
 | Indicación | Puntaje TxGNN | Nivel de Evidencia | Decisión |
 |------|------|------|------|
-| Enfermedad pulmonar obstructiva | 99.89% | L1 | Proceed with Guardrails (coincide con las indicaciones ya aprobadas) |
-| Asma | 99.78% | L1 | Proceed with Guardrails (indicación ya aprobada; usar siempre con corticoide inhalado) |
-| Eccema atópico | 99.39% | L4 | Research Question (solo evidencia mecanística y preclínica) |
-| Malformación respiratoria | 99.91% | L4 | Hold (sin vínculo mecanístico claro) |
-| Síndrome de Rienhoff | 99.89% | L5 | Hold (solo predicción computacional) |
-| Rasgos relacionados con asma (susceptibilidad) | 99.52% | L5 | Hold (rasgo genético, sin datos clínicos) |
+| Enfermedad pulmonar obstructiva | 0.9989 | L1 | Proceed with Guardrails (coincide con las indicaciones ya aprobadas) |
+| Eccema atópico | 0.9939 | L5 | Research Question (solo evidencia mecanística y preclínica) |
+| Malformación respiratoria | 0.9991 | L5 | Hold (sin vínculo mecanístico claro) |
+| Síndrome de Rienhoff | 0.9989 | L5 | Hold (solo predicción computacional) |
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

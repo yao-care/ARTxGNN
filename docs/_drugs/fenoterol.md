@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **atrofia multisistémica*
 |------|------|
 | Indicación Original | No consta en los datos compilados (las autorizaciones de ANMAT no incluyen texto de indicación aprobada) |
 | Nueva Indicación Predicha | Atrofia multisistémica |
-| Puntaje de Predicción TxGNN | 99.70% |
+| Puntaje de Predicción TxGNN | 0.9970 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 4 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -69,13 +69,13 @@ El puntaje alto de TxGNN es solo una predicción computacional, sin ensayos ni l
 
 | Posición | Enfermedad | Puntaje TxGNN | Plausibilidad mecanística |
 |------|------|------|------|
-| 2 | Síndrome de taquicardia postural ortostática | 99.61% | Cuestionable: la vasodilatación y la taquicardia refleja podrían agravar los síntomas |
-| 3 | Prionopatía variablemente sensible a proteasa | 99.54% | Sin vínculo plausible; probable artefacto del grafo de conocimiento |
-| 4 | Glaucoma de ángulo abierto | 99.43% | Indirecta pero plausible (modulación adrenérgica de la presión intraocular); la más plausible, con riesgo cardiovascular sistémico |
-| 5 | Enfermedad de Raynaud | 99.41% | Plausible de forma indirecta (vasodilatación); ya existen alternativas establecidas (bloqueadores de canales de calcio) |
-| 6 | Glaucoma hereditario primario | 99.37% | Menos relevante, por su origen frecuentemente del desarrollo |
-| 7 | Bloqueo sinoauricular | 99.35% | Coherente con el efecto cronotrópico positivo, pero con riesgo proarrítmico y sin uso estándar |
-| 8 | Enfermedad del nódulo sinusal | 99.25% | Teórica; preocupan las arritmias y la taquifilaxia |
+| 2 | Síndrome de taquicardia postural ortostática | 0.9961 | Cuestionable: la vasodilatación y la taquicardia refleja podrían agravar los síntomas |
+| 3 | Prionopatía variablemente sensible a proteasa | 0.9954 | Sin vínculo plausible; probable artefacto del modelo TxGNN (aprendizaje profundo) |
+| 4 | Glaucoma de ángulo abierto | 0.9943 | Indirecta pero plausible (modulación adrenérgica de la presión intraocular); la más plausible, con riesgo cardiovascular sistémico |
+| 5 | Enfermedad de Raynaud | 0.9941 | Plausible de forma indirecta (vasodilatación); ya existen alternativas establecidas (bloqueadores de canales de calcio) |
+| 6 | Glaucoma hereditario primario | 0.9937 | Menos relevante, por su origen frecuentemente del desarrollo |
+| 7 | Bloqueo sinoauricular | 0.9935 | Coherente con el efecto cronotrópico positivo, pero con riesgo proarrítmico y sin uso estándar |
+| 8 | Enfermedad del nódulo sinusal | 0.9925 | Teórica; preocupan las arritmias y la taquifilaxia |
 
 ---
 

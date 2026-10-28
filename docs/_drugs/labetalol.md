@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Labetalol
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 172
-evidence_level: L4
-indication_count: 4
-last_modified_at: 2026-10-13
-description: "Labetalol: nueva indicación predicha, Hipertensión renovascular maligna (nivel de evidencia L4). Indicación original: Hipertensión (trastorno hipertensivo"
+evidence_level: L5
+indication_count: 3
 monitor_inn: "LABETALOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism"]
+last_modified_at: 2026-10-27
+description: "Labetalol: nueva indicación predicha, Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Labetalol
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **4** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,92 +33,74 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **4**
 
 </div>
 
-## Labetalol: De Hipertensión a Hipertensión Renovascular Maligna
+## Labetalol: bloqueador adrenérgico alfa-1 y beta no selectivo → Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Labetalol es un bloqueante adrenérgico combinado (alfa-1 y beta no selectivo), originalmente utilizado para el tratamiento de la hipertensión y los trastornos hipertensivos.
-El modelo TxGNN predice que podría ser efectivo para **hipertensión renovascular maligna**,
-pero actualmente no hay ensayos clínicos registrados y solo **1 publicación** (un reporte de caso de 1981) respalda esta dirección.
-
----
+Labetalol es un antagonista adrenérgico alfa-1 y beta no selectivo, utilizado como antihipertensivo.
+El modelo TxGNN predice que podría ser efectivo para **Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease)**, con un puntaje de 0.9908.
+Actualmente no hay ensayos clínicos ni publicaciones que estudien directamente esta enfermedad, por lo que la evidencia se limita a la predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertensión (trastorno hipertensivo; según el grafo de conocimiento, ya que las autorizaciones locales no incluyen texto de indicación) |
-| Nueva Indicación Predicha | Hipertensión renovascular maligna |
-| Puntaje de Predicción TxGNN | 99.08% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) |
+| Puntaje de Predicción TxGNN | 0.9908 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 4 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, labetalol bloquea los receptores alfa-1 (provocando vasodilatación) y los receptores beta-adrenérgicos no selectivos (reduciendo la frecuencia cardíaca y la liberación de renina mediada por el sistema simpático). Su eficacia en la hipertensión está comprobada y se utiliza también en emergencias hipertensivas.
+Labetalol bloquea los receptores alfa-1 (reduce la resistencia vascular sistémica) y los receptores beta de forma no selectiva (reduce la frecuencia y la contractilidad cardíacas). Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe; la descripción anterior corresponde a la farmacología general conocida del fármaco.
 
-La hipertensión renovascular maligna es una forma grave de hipertensión con activación del sistema renina-angiotensina. Reducir la presión arterial y la liberación de renina mediada por receptores beta es biológicamente plausible en este contexto.
+La enfermedad renal hipertensiva maligna (nefroesclerosis maligna) es una complicación renal de la hipertensión grave. Por ello, es mecanísticamente plausible que reducir la presión arterial proteja el riñón.
 
-Es importante señalar que esta indicación es más bien un subtipo de la indicación ya existente que un reposicionamiento genuino. El puntaje alto del modelo probablemente refleja la cercanía en la ontología con la hipertensión. No se dispone de ningún ensayo o estudio directo en enfermedad renovascular.
-
----
+Es importante matizar: esta predicción es esencialmente una extensión de su uso antihipertensivo y no un reposicionamiento en sentido estricto. El puntaje alto probablemente refleja la cercanía con la hipertensión, y no se ha demostrado un beneficio renal específico de labetalol en los datos disponibles.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [7242419](https://pubmed.ncbi.nlm.nih.gov/7242419/) | 1981 | Reporte de caso | The Medical Journal of Australia | Hombre de 20 años con hipertensión maligna asociada al consumo de drogas alucinógenas, con cambios arteríticos y aneurismas en vasos renales. Se usaron minoxidil y labetalol para el control inicial de la presión arterial, y la arteritis se resolvió con prednisona. |
-
----
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 30277 | BIASCOR | 200 mg comprimidos x 20 | No especificada en los datos |
-| 61054 | BIASCOR | 200 mg comprimidos x 60 | No especificada en los datos |
-| 51245 | BLOCAMINE | 200 mg comprimidos x 20 | No especificada en los datos |
-| 30278 | BIASCOR | 5 mg/ml ampollas x 10 x 4 ml | No especificada en los datos |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 30277 | BIASCOR | 200 mg comp. x 20 |
+| 61054 | BIASCOR | 200 mg comp. x 60 |
+| 51245 | BLOCAMINE | 200 mg comp. x 20 |
+| 30278 | BIASCOR | 5 mg/ml amp. x 10 x 4 ml |
 
----
+Las cuatro autorizaciones figuran como vigentes.
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones según el grafo de conocimiento** (no provienen del prospecto): insuficiencia hepática, enfermedad hepática, encefalopatía hepática y coma hepático, enfermedad renal, anuria, pancreatitis, enfermedad de la vesícula biliar, lupus eritematoso sistémico, diabetes mellitus y cetoacidosis diabética, gota, hiperuricemia, hipotensión, bloqueo auriculoventricular, enfisema pulmonar y enfermedad bronquial, trastornos de ansiedad y neuróticos, distimia, hiperparatiroidismo, hipercalcemia, nefrocalcinosis, trastornos del metabolismo del fósforo, deficiencia de potasio, ictericia neonatal, piouréter y síndrome del iris flácido intraoperatorio.
-- **Interacciones farmacológicas** (100 interacciones registradas; se muestran las principales):
-  - **Mayores**: epinefrina, dolasetrón.
-  - **Moderadas**: hidrocortisona, dexametasona, betametasona, budesonida, triamcinolona, morfina, atropina, hiosciamina, metescopolamina, diciclomina, cimetidina, canagliflozina, dapagliflozina, clorpropamida, fosfato de calcio, acetato de calcio.
-  - **Menores**: ácido acetilsalicílico, óxido de magnesio.
-- En el caso específico del uso en enfermedad pulmonar, el bloqueo beta no selectivo puede agravar el broncoespasmo, lo que es relevante para las indicaciones de hipertensión pulmonar también predichas.
+- **Interacciones Farmacológicas** (se consultaron 100 interacciones; se listan las principales):
+  - Gravedad mayor: epinefrina, dolasetrón.
+  - Gravedad moderada: hidrocortisona, metescopolamina, hiosciamina, triamcinolona, morfina, atropina, dexametasona, betametasona, budesonida, canagliflozina, dapagliflozina, clorpropamida, cimetidina, diciclomina, fosfato de calcio, acetato de calcio.
+  - Gravedad menor: ácido acetilsalicílico, óxido de magnesio.
 
-Consultar el prospecto para obtener las advertencias y contraindicaciones oficiales, que no estaban disponibles en los datos compilados.
-
----
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La indicación predicha es un subtipo de la hipertensión, ya aprobada, por lo que no constituye un reposicionamiento genuino. El puntaje de TxGNN refleja principalmente la proximidad con la hipertensión, y la única evidencia disponible es un reporte de caso de 1981 sin ensayos clínicos. Las otras predicciones de mayor rango (nefropatía hipertensiva maligna e hipertensión pulmonar) tienen nivel L5, y para la hipertensión pulmonar el vínculo mecanístico es débil y existe un posible riesgo de seguridad.
+No hay ensayos clínicos ni literatura que estudien directamente la enfermedad renal hipertensiva maligna con labetalol. El puntaje alto del modelo probablemente refleja la proximidad con la hipertensión y no un beneficio renal demostrado.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto de ANMAT (advertencias y contraindicaciones), ya que su ausencia impide el cribado de seguridad.
-- Complementar los datos del mecanismo de acción desde DrugBank.
-- Confirmar si la indicación aprobada localmente ya cubre las crisis hipertensivas y la hipertensión maligna, lo que haría innecesario un nuevo reposicionamiento.
-- Buscar estudios clínicos o series de casos específicos en hipertensión renovascular maligna.
-- Evaluar la relevancia de las predicciones de hipertensión pulmonar solo si surge evidencia directa, dado el riesgo del bloqueo beta no selectivo.
+- Estudios clínicos u observacionales de labetalol con desenlaces renales en hipertensión maligna
+- Datos de mecanismo de acción y de advertencias y contraindicaciones del prospecto de ANMAT
+- Comparación con los antihipertensivos ya usados en esta condición, para determinar si aporta un valor adicional
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

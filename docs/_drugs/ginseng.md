@@ -48,19 +48,19 @@ Entre las demás indicaciones predichas, la **retinopatía diabética** es la qu
 |------|------|
 | Indicación Original | No disponible en los registros (las autorizaciones no incluyen texto de indicación) |
 | Nueva Indicación Predicha | Osteoporosis inducida por fármacos |
-| Puntaje de Predicción TxGNN | 99,95% |
+| Puntaje de Predicción TxGNN | 0,9995 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 6 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 6 de 6) |
+| Número de Autorizaciones | 6 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
-> Nota: la indicación con mayor respaldo en la literatura es la retinopatía diabética (nivel L3, puntaje TxGNN 99,55%), que se describe más abajo como alternativa prioritaria.
+> Nota: la indicación con mayor respaldo en la literatura es la retinopatía diabética (nivel L3, puntaje TxGNN 0,9955), que se describe más abajo como alternativa prioritaria.
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, Ginseng es un extracto vegetal cuyos principios activos son los ginsenósidos. Se les atribuyen efectos antioxidantes, antiinflamatorios y moduladores del metabolismo, y se ha propuesto que podrían influir en la remodelación ósea. Sin embargo, los datos compilados para este informe no incluyen evidencia que sustente esta hipótesis.
 
-El puntaje del modelo es muy alto (99,95%), pero se trata únicamente de una predicción computacional. No hay ensayos ni publicaciones vinculados a la osteoporosis inducida por fármacos, y tampoco se dispone de una indicación original con la cual comparar similitud.
+El puntaje del modelo es muy alto (0,9995), pero se trata únicamente de una predicción computacional. No hay ensayos ni publicaciones vinculados a la osteoporosis inducida por fármacos, y tampoco se dispone de una indicación original con la cual comparar similitud.
 
 Para la **retinopatía diabética**, la hipótesis es más sólida: múltiples estudios preclínicos describen que los ginsenósidos Rg1, Rg3, Rd y Re actúan sobre la lesión endotelial retiniana mediante las vías AMPK, estrés del retículo endoplásmico/ROS, efectos antiangiogénicos y antipiroptosis. Un estudio prospectivo de 2026 en humanos aporta una señal clínica inicial.
 

@@ -5,10 +5,10 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 216
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-13
-description: "Prasterone: nueva indicación predicha, Deficiencia de cofactor 2 de la heparina (nivel de evidencia L5). Indicación original: Lupus eritematoso sistémico…"
 monitor_inn: "prasterone"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "severe nonproliferative diabetic retinopathy", "thrombophilia due to protein S deficiency, autosomal recessive", "scleroderma (disease)", "complement component 4a deficiency", "pseudo-von Willebrand disease", "primary release disorder of platelets"]
+last_modified_at: 2026-10-27
+description: "Prasterone: nueva indicación predicha, Deficiencia del cofactor 2 de la heparina (heparin cofactor 2 deficiency) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Prasterone
@@ -33,33 +33,32 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Prasterona: De Lupus Eritematoso Sistémico a Deficiencia de Cofactor 2 de la Heparina
+## Prasterona: precursor esteroideo (DHEA) → deficiencia del cofactor 2 de la heparina (heparin cofactor 2 deficiency)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Prasterona (DHEA) es un esteroide precursor de hormonas sexuales, cuyas indicaciones originales incluyen el lupus eritematoso sistémico (incluido el pediátrico) y la dispareunia psicológica.
-El modelo TxGNN predice que podría ser efectivo para la **deficiencia de cofactor 2 de la heparina**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata únicamente de una predicción computacional.
+Prasterona (dehidroepiandrosterona, DHEA) es un precursor esteroideo con autorizaciones vigentes en Argentina. El modelo TxGNN predice que podría ser efectivo para la **deficiencia del cofactor 2 de la heparina (heparin cofactor 2 deficiency)**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata solo de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Lupus eritematoso sistémico, lupus eritematoso sistémico pediátrico y dispareunia psicológica (según el grafo de conocimiento; los textos de indicación de las autorizaciones locales están vacíos) |
-| Nueva Indicación Predicha | Deficiencia de cofactor 2 de la heparina |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Deficiencia del cofactor 2 de la heparina (heparin cofactor 2 deficiency) |
+| Puntaje de Predicción TxGNN | 0,9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la prasterona (DHEA) es un precursor de andrógenos y estrógenos, y se ha utilizado en lupus eritematoso sistémico y en dolor durante las relaciones sexuales asociado a atrofia vulvovaginal.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción de la prasterona. Según la información compilada, es un precursor de esteroides sexuales (andrógenos y estrógenos) y actúa también sobre el receptor de glicina, según los datos farmacológicos disponibles.
 
-La relación entre estas indicaciones y la deficiencia de cofactor 2 de la heparina es débil. No se conoce un mecanismo establecido por el cual la prasterona influya en la función del cofactor II de la heparina (SERPIND1). El vínculo probablemente es un artefacto de vecindad en la red del grafo de conocimiento, en un agrupamiento de términos relacionados con la coagulación.
+La deficiencia del cofactor 2 de la heparina es un trastorno de la coagulación asociado a la proteína SERPIND1. No se conoce ningún mecanismo por el cual la prasterona influya en la función de esta proteína. Cualquier vínculo sería especulativo (por ejemplo, efectos indirectos sobre la coagulación o la síntesis hepática de proteínas).
 
-Por ello, el puntaje alto (99.99%) debe interpretarse con cautela: refleja una predicción basada en el grafo, sin respaldo clínico ni bibliográfico. Otras predicciones de la lista tienen una plausibilidad mecanística indirecta algo mayor (por ejemplo, la esclerodermia, por su relación con enfermedades autoinmunes del tejido conectivo como el lupus), pero tampoco cuentan con evidencia en los datos compilados.
+El puntaje alto (0,9999) refleja una señal del modelo basada en relaciones entre datos, no una validación biológica ni clínica. Las demás predicciones de mayor puntaje también corresponden a trastornos de la coagulación, lo que sugiere un patrón de agrupamiento en el modelo más que evidencia específica. Los agentes hormonales pueden modificar el riesgo trombótico, por lo que el potencial de daño debe evaluarse antes de cualquier hipótesis de eficacia.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -73,13 +72,15 @@ Actualmente no hay literatura relacionada disponible.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 35633 | SUPLIGOL NF | Inyectable IM, 1 x 1 ml | No especificada en los datos |
-| 980 | LONGEVITAL | Comprimidos de 5000 mcg, x 30 | No especificada en los datos |
+| 35633 | SUPLIGOL NF | IM iny.a.x 1 x 1 ml | No registrada |
+| 980 | LONGEVITAL | 5000 mcg comp.x 30 | No registrada |
+
+Ambas autorizaciones están vigentes y corresponden a productos de un solo principio activo.
 
 ## Consideraciones de Seguridad
 
-- **Interacciones farmacológicas / farmacología:** se registró una interacción farmacológica de tipo farmacológico: la prasterona (deshidroepiandrosterona) actúa sobre el receptor de glicina (todos los subtipos). No se dispone de nivel de gravedad.
-- **Consideración adicional:** según el análisis de las predicciones, al ser un precursor de andrógenos y estrógenos, debería evaluarse el posible riesgo trombótico antes de cualquier avance en indicaciones relacionadas con trombofilia o coagulación.
+- **Interacciones farmacológicas / farmacología:** los datos compilados registran una interacción farmacológica con el receptor de glicina (todos los subtipos), sin nivel de gravedad asignado.
+- **Consideración teórica:** dado que los metabolitos androgénicos/estrogénicos de la DHEA podrían influir en la coagulación, la dirección del efecto en un trastorno protrombótico o de coagulación es desconocida y podría ser perjudicial.
 
 Para advertencias y contraindicaciones, consultar el prospecto.
 
@@ -88,14 +89,14 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para la deficiencia de cofactor 2 de la heparina es solo computacional (nivel L5), sin ensayos ni literatura, y no existe un mecanismo plausible conocido. Además, el perfil hormonal de la prasterona plantea una posible preocupación en trastornos trombóticos.
+La predicción no cuenta con ensayos clínicos ni publicaciones que estudien directamente esta enfermedad (nivel L5), y no existe un mecanismo plausible conocido que vincule la prasterona con la función del cofactor 2 de la heparina. Además, existe una preocupación de seguridad por el posible efecto de los esteroides sobre la coagulación.
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de acción (MOA) de la prasterona
-- Búsqueda dirigida de literatura y ensayos clínicos, priorizando candidatas con mayor plausibilidad indirecta (por ejemplo, esclerodermia)
-- Advertencias y contraindicaciones del prospecto de ANMAT
-- Evaluación del riesgo trombótico asociado a metabolitos androgénicos/estrogénicos
-- Confirmación de la indicación aprobada en las autorizaciones locales y de la compatibilidad de vías de administración
+- Datos del mecanismo de acción de la prasterona
+- Búsqueda bibliográfica dirigida sobre prasterona/DHEA y el cofactor 2 de la heparina (SERPIND1)
+- Obtención y análisis del prospecto aprobado por ANMAT (advertencias y contraindicaciones)
+- Estudios preclínicos que respalden un efecto sobre la coagulación antes de considerar cualquier ensayo clínico
+- Evaluación del riesgo trombótico asociado a la administración de esteroides
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

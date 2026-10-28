@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **enfermedad ocular** (cat
 |------|------|
 | Indicación Original | No disponible (los textos de indicación de las autorizaciones están vacíos) |
 | Nueva Indicación Predicha | Enfermedad ocular (eye disease) |
-| Puntaje de Predicción TxGNN | 99.80% |
+| Puntaje de Predicción TxGNN | 0.9980 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 4 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 4 de 4) |
+| Número de Autorizaciones | 4 (vigentes: 4) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---

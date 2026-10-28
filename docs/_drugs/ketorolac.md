@@ -47,9 +47,9 @@ El modelo TxGNN predice que podría ser efectivo para el **trastorno de cefalea*
 |------|------|
 | Indicación Original | Conjuntivitis atópica, papilar y primaveral (según la base de conocimiento; los registros de ANMAT no incluyen texto de indicación) |
 | Nueva Indicación Predicha | Trastorno de cefalea (headache disorder) |
-| Puntaje de Predicción TxGNN | 99.43% |
+| Puntaje de Predicción TxGNN | 0.9943 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: al menos 20) |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -134,8 +134,8 @@ Existen múltiples ensayos de Fases 2 a 4 completados y varias revisiones sistem
 - Evaluar la compatibilidad de vías de administración (intranasal vs. IV/IM/oral) con los productos comercializados.
 
 **Otras indicaciones predichas (no priorizadas):**
-- *Conjuntivitis rosácea* (TxGNN 99.40%): sin ensayos ni literatura, solo predicción del modelo (L5). Decisión: **Hold**.
-- *Cefalea trigémino-autonómica* (TxGNN 99.39%): único ensayo retirado sin participantes y literatura limitada (L4), con una señal de seguridad por interacción con litio. Decisión: **Hold**.
+- *Conjuntivitis rosácea* (TxGNN 0.9940): sin ensayos ni literatura, solo predicción del modelo (L5). Decisión: **Hold**.
+- *Cefalea trigémino-autonómica* (TxGNN 0.9939): único ensayo retirado sin participantes y literatura limitada (L4), con una señal de seguridad por interacción con litio. Decisión: **Hold**.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

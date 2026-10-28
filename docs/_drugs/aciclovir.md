@@ -8,6 +8,7 @@ nav_order: 15
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Aciclovir
@@ -51,7 +52,7 @@ y el Evidence Pack presenta múltiples brechas de datos que impiden una evaluaci
 | Nueva Indicación Predicha | — Sin predicciones generadas — |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | N/A (sin predicción para evaluar) |
-| Estado de Mercado en Argentina | ✗ No comercializado |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: al menos 20) |
 | Número de Autorizaciones | 0 |
 | Decisión Recomendada | **Hold** |
 

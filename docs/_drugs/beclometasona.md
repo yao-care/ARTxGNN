@@ -8,6 +8,7 @@ nav_order: 43
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Beclometasona
@@ -49,8 +50,8 @@ Beclometasona es un corticosteroide conocido ampliamente utilizado en el tratami
 | Nueva Indicación Predicha | — (sin predicciones generadas) |
 | Puntaje de Predicción TxGNN | — |
 | Nivel de Evidencia | L5 — Solo datos preliminares, sin predicción ni estudios asociados |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | **Hold** |
 
 ---

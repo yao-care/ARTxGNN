@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Minoxidil
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 192
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-13
-description: "Minoxidil: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (nivel de evidencia L4). Indicación original: Hipertensión arterial y alopecia (según el grafo de conocimiento"
 monitor_inn: "MINOXIDIL"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "pseudopelade of Brocq", "pulmonary arterial hypertension", "pulmonary arteriovenous malformation (disease)", "pulmonary arterial hypertension associated with congenital heart disease", "primary hereditary glaucoma", "pulmonary arterial hypertension associated with schistosomiasis", "pulmonary arterial hypertension associated with HIV infection"]
+last_modified_at: 2026-10-27
+description: "Minoxidil: nueva indicación predicha, hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Minoxidil
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,90 +33,71 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-## Minoxidil: De Hipertensión Arterial y Alopecia a Hipotricosis Simple del Cuero Cabelludo
+## Minoxidil: antihipertensivo vasodilatador / estimulante del folículo piloso → hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Minoxidil es un vasodilatador (abridor de canales de potasio) utilizado originalmente para el tratamiento de la hipertensión arterial y la alopecia.
-El modelo TxGNN predice que podría ser efectivo para **hipotricosis simple del cuero cabelludo**,
-con **0 ensayos clínicos** y **3 publicaciones** (reportes de caso con terapias combinadas) que actualmente respaldan esta dirección.
-
----
+Minoxidil es un fármaco vasodilatador que se utiliza tanto por vía sistémica como tópica, con uso conocido en el control de la presión arterial y en la caída del cabello.
+El modelo TxGNN predice que podría ser efectivo para **hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp)**, con **0 ensayos clínicos** y **3 publicaciones** (reportes de caso) que actualmente respaldan esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertensión arterial y alopecia (según el grafo de conocimiento; los textos de indicación de las autorizaciones locales están vacíos) |
-| Nueva Indicación Predicha | Hipotricosis simple del cuero cabelludo |
-| Puntaje de Predicción TxGNN | 99.99% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp) |
+| Puntaje de Predicción TxGNN | 1,0000 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos consultada. Según la información conocida, minoxidil es un abridor de canales de potasio cuyo metabolito activo, el sulfato de minoxidil, prolonga la fase anágena del folículo piloso y aumenta su tamaño. Su eficacia en la alopecia ha sido comprobada, y mecanísticamente podría ser aplicable a la hipotricosis simple.
+Actualmente no se dispone de datos detallados del mecanismo de acción en la información compilada para este informe. Según la literatura revisada, minoxidil actúa (a través de su metabolito sulfato) como abridor de canales de potasio: prolonga la fase anágena, acorta la fase telógena y aumenta el tamaño del folículo y el flujo sanguíneo perifolicular.
 
-La hipotricosis simple hereditaria del cuero cabelludo es un trastorno genético raro (asociado a variantes del gen CDSN) caracterizado por la miniaturización de los folículos pilosos. Como la alopecia ya es una indicación original del fármaco, la relación entre ambas condiciones es el fenotipo compartido de pérdida de cabello, lo que explica el alto puntaje del modelo.
+La hipotricosis simple hereditaria del cuero cabelludo es un trastorno raro de miniaturización y crecimiento del folículo piloso. Por ello, un fármaco que estimula el crecimiento folicular es mecanísticamente plausible para esta enfermedad.
 
-Sin embargo, la literatura disponible consiste en tres reportes de caso (2022-2024) en los que minoxidil se usó junto con factores de crecimiento, extractos botánicos o plasma rico en plaquetas. Estos diseños combinados impiden atribuir el efecto a minoxidil por sí solo.
-
----
+Sin embargo, la evidencia es limitada: los tres artículos (2022-2024) describen casos aislados o series pequeñas, casi siempre con minoxidil combinado con factores de crecimiento, extractos botánicos o plasma rico en plaquetas. Esto impide aislar la contribución del minoxidil por sí solo.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [35761391](https://pubmed.ncbi.nlm.nih.gov/35761391/) | 2022 | Reporte/serie de casos | Dermatologic Therapy | Tratamiento de hipotricosis simple hereditaria del cuero cabelludo con minoxidil oral y factores de crecimiento |
-| [36651821](https://pubmed.ncbi.nlm.nih.gov/36651821/) | 2023 | Reporte de caso | J Dermatol Treat | Paciente de 14 años tratada con inyección de plasma rico en plaquetas más minoxidil tópico al 2%, con resultado descrito como exitoso |
-| [39902296](https://pubmed.ncbi.nlm.nih.gov/39902296/) | 2024 | Reporte de caso | Frontiers in Genetics | Niño de 8 años con HSS por mutación en CDSN tratado con combinación de extractos botánicos y minoxidil |
-
----
+| [39902296](https://pubmed.ncbi.nlm.nih.gov/39902296/) | 2024 | Reporte de caso | Frontiers in Genetics | Niño de 8 años con hipotricosis simple del cuero cabelludo por mutación en CDSN, tratado con extractos botánicos y minoxidil |
+| [36651821](https://pubmed.ncbi.nlm.nih.gov/36651821/) | 2023 | Reporte de caso | J Dermatol Treat | Paciente de 14 años tratada con inyección de plasma rico en plaquetas más minoxidil tópico al 2 % |
+| [35761391](https://pubmed.ncbi.nlm.nih.gov/35761391/) | 2022 | Reporte/serie de casos | Dermatologic Therapy | Hipotricosis simple hereditaria tratada con minoxidil oral y factores de crecimiento |
 
 ## Información de Mercado en Argentina
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 24664 | YLOX 5 | Loción tópica, 100 ml | No disponible |
-| 1023 | YLOX | Loción tópica, 100 ml | No disponible |
-
-Ambas autorizaciones son de monofármaco, vigentes, y pertenecen al laboratorio Fortbenton.
-
----
+| 24664 | YLOX 5 | loc.x 100 ml | No registrada en los datos locales |
+| 1023 | YLOX | loc.x 100 ml | No registrada en los datos locales |
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones según el grafo de conocimiento** (no provienen del prospecto): enfermedad cardiovascular y cardiopatías, infarto de miocardio, enfermedad cerebrovascular y accidente cerebrovascular, infarto cerebral, hipotensión ortostática, síndrome de taquicardia postural ortostática, atrofia multisistémica, enfermedad renal, feocromocitoma y paraganglioma simpático, pericarditis, derrame pericárdico y taponamiento cardíaco, hemoglobinopatías, y dermatosis del cuero cabelludo.
-- **Interacciones farmacológicas**: se identificaron 100 interacciones. Las de nivel moderado incluyen corticosteroides (hidrocortisona, triamcinolona, dexametasona, betametasona, budesonida, prednisolona, prednisona), bupropión, morfina, opio, inhibidores de SGLT2 (canagliflozina, dapagliflozina, empagliflozina, ertugliflozina), dronabinol, nabilona y sapropterina. Con nivel desconocido figuran calcitriol, clotrimazol y metformina.
+- **Interacciones farmacológicas**: se registran 100 interacciones en total; entre las de nivel moderado figuran hidrocortisona, bupropión, triamcinolona, morfina, dexametasona, betametasona, budesonida y los inhibidores de SGLT2 (canagliflozina, dapagliflozina, empagliflozina, ertugliflozina), además de dronabinol, nabilona, opio, prednisolona, prednisona y sapropterina.
 
-Para advertencias y contraindicaciones oficiales, consultar el prospecto.
-
----
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-El puntaje del modelo es muy alto, pero la evidencia se limita a tres reportes de caso con terapias combinadas y no hay ensayos clínicos registrados, por lo que no es posible atribuir el beneficio a minoxidil solo (nivel L4). Aunque el sistema clasifica esta indicación como pregunta de investigación, la decisión de Hold refleja que aún no hay base suficiente para avanzar.
+No existe ningún ensayo clínico ni estudio comparativo que evalúe directamente minoxidil en esta enfermedad; solo hay tres reportes de caso con terapias combinadas. Con ese respaldo, el nivel de evidencia es L5 (predicción del modelo con apoyo clínico anecdótico) y no justifica avanzar todavía.
 
 **Para avanzar se necesita:**
-- Estudios que evalúen minoxidil como monoterapia en hipotricosis simple, idealmente series de casos más amplias o ensayos controlados.
-- Obtener el prospecto de ANMAT para completar la información de advertencias y contraindicaciones (brecha de datos bloqueante para el cribado de seguridad).
-- Datos del mecanismo de acción desde DrugBank para fortalecer el vínculo mecanístico.
-- Textos de indicación aprobada de las autorizaciones locales y análisis de compatibilidad de vía de administración (las formas locales son lociones tópicas; los reportes incluyen minoxidil oral).
-- Evaluación del riesgo cardiovascular si se considerara la vía oral, dado el perfil de contraindicaciones y el número de interacciones.
+- Estudios clínicos controlados o series de casos más amplias que aíslen el efecto del minoxidil en monoterapia
+- Datos detallados del mecanismo de acción
+- Advertencias y contraindicaciones del prospecto aprobado en Argentina
+- Evaluación de la forma farmacéutica local (solución tópica) frente a la vía oral usada en algunos reportes
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Misoprostol
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 193
-evidence_level: L4
+evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-13
 description: "Misoprostol: nueva indicación predicha, Amenorrea (nivel de evidencia L4). Indicación original: No disponible en los datos compilados"
@@ -14,7 +14,7 @@ predicted_indications: ["amenorrhea (disease)", "atypical coarctation of aorta"]
 # Misoprostol
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **2** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ El modelo TxGNN predice que podría ser efectivo para **amenorrea**, pero no hay
 |------|------|
 | Indicación Original | No disponible en los datos compilados (las licencias de ANMAT no incluyen texto de indicación) |
 | Nueva Indicación Predicha | Amenorrea |
-| Puntaje de Predicción TxGNN | 99.64% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Puntaje de Predicción TxGNN | 0.9964 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -59,7 +59,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Seg
 
 Sin embargo, la relación es indirecta. Las publicaciones recuperadas describen el uso de misoprostol (con frecuencia combinado con mifepristona) para la interrupción médica del embarazo o el manejo del aborto retenido. En ellas la amenorrea aparece como criterio de inclusión (por ejemplo, embarazo de ≤35 días de amenorrea), no como la enfermedad tratada. Ningún estudio muestra que misoprostol restablezca la menstruación o trate la amenorrea primaria o secundaria.
 
-Por lo tanto, el puntaje alto de TxGNN (99.64%) es solo una predicción computacional y no está respaldado por evidencia clínica directa.
+Por lo tanto, el puntaje alto de TxGNN (0.9964) es solo una predicción computacional y no está respaldado por evidencia clínica directa.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -108,7 +108,7 @@ No hay ensayos clínicos y la literatura recuperada trata sobre la interrupción
 - Buscar estudios que evalúen directamente misoprostol en amenorrea primaria o secundaria, y no solo en el contexto de embarazo.
 - Definir si la indicación es clínicamente plausible, dado que el uso de un uterotónico en amenorrea requiere descartar embarazo y evaluar riesgos.
 
-**Nota sobre la segunda predicción (coartación atípica de la aorta, puntaje 99.30%):** no hay ensayos ni literatura (nivel L5) y no se identificó un vínculo mecanístico claro. La prostaglandina E1 (alprostadil) se usa para mantener permeable el conducto arterioso, pero misoprostol no se utiliza con ese fin. La coartación es una anomalía estructural que requiere reparación quirúrgica o intervencionista. Se recomienda mantener **Hold**.
+**Nota sobre la segunda predicción (coartación atípica de la aorta, puntaje 0.9930):** no hay ensayos ni literatura (nivel L5) y no se identificó un vínculo mecanístico claro. La prostaglandina E1 (alprostadil) se usa para mantener permeable el conducto arterioso, pero misoprostol no se utiliza con ese fin. La coartación es una anomalía estructural que requiere reparación quirúrgica o intervencionista. Se recomienda mantener **Hold**.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

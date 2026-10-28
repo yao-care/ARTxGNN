@@ -8,6 +8,7 @@ nav_order: 86
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Cefadroxilo
@@ -49,8 +50,8 @@ Cefadroxilo es un antibiótico beta-lactámico de primera generación de la fami
 | Nueva Indicación Predicha | No disponible |
 | Puntaje de Predicción TxGNN | No disponible |
 | Nivel de Evidencia | L5 — Sin estudios reales |
-| Estado de Mercado en Argentina | Sin registro ANMAT (no comercializado) |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 14 de 14) |
+| Número de Autorizaciones | 14 (vigentes: 14) |
 | Decisión Recomendada | Hold |
 
 ---

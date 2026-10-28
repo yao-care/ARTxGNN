@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **insomnio**, pero actualm
 |------|------|
 | Indicación Original | No disponible en los registros de ANMAT compilados |
 | Nueva Indicación Predicha | Insomnio |
-| Puntaje de Predicción TxGNN | 99,23% |
+| Puntaje de Predicción TxGNN | 0,9923 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Mecanísticamente, la modulación glutamatérgica (y posibles efectos colinérgicos y monoaminérgicos) podría influir en circuitos relacionados con el sueño. Sin embargo, no hay una indicación original documentada con la cual comparar, por lo que no es posible establecer una relación directa entre la indicación original y el insomnio.
 
-El puntaje de TxGNN (0,992) es únicamente una predicción computacional. La única señal clínica es un informe de 1998 en el que aniracetam se usó junto con zopiclona; esto apunta a un contexto de terapia complementaria y no a un efecto propio de aniracetam sobre el insomnio.
+El puntaje de TxGNN (0,9923) es únicamente una predicción computacional. La única señal clínica es un informe de 1998 en el que aniracetam se usó junto con zopiclona; esto apunta a un contexto de terapia complementaria y no a un efecto propio de aniracetam sobre el insomnio.
 
 ---
 

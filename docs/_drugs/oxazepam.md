@@ -48,10 +48,10 @@ pero hasta ahora **no hay ensayos clínicos registrados** y solo **10 publicacio
 |------|------|
 | Indicación Original | Delirium por abstinencia alcohólica y ansiedad (según la base de conocimiento del modelo; el registro local no incluye texto de indicación) |
 | Nueva Indicación Predicha | Insomnio |
-| Puntaje de Predicción TxGNN | 99.86% |
+| Puntaje de Predicción TxGNN | 0.9986 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en e
 
 El efecto sedante-hipnótico derivado de esta modulación se vincula plausiblemente con una mejor iniciación y mantenimiento del sueño. La ansiedad y el insomnio suelen coexistir, lo que refuerza la coherencia de la predicción. Cabe señalar que este vínculo se infiere de la farmacología de clase y no de datos del registro.
 
-Desde el punto de vista farmacocinético, oxazepam tiene una vida media intermedia, no genera metabolitos activos y se elimina por glucuronidación, lo que puede ser conveniente en pacientes mayores o con insuficiencia hepática. Sin embargo, esas mismas características pueden limitar su utilidad como hipnótico por su duración de acción. El puntaje de 99.86% es una predicción computacional y no sustituye la evidencia clínica.
+Desde el punto de vista farmacocinético, oxazepam tiene una vida media intermedia, no genera metabolitos activos y se elimina por glucuronidación, lo que puede ser conveniente en pacientes mayores o con insuficiencia hepática. Sin embargo, esas mismas características pueden limitar su utilidad como hipnótico por su duración de acción. El puntaje de 0.9986 es una predicción computacional y no sustituye la evidencia clínica.
 
 ## Evidencia de Ensayos Clínicos
 

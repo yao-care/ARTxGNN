@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Econazole
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 132
-evidence_level: L4
-indication_count: 7
-last_modified_at: 2026-10-13
-description: "Econazole: nueva indicación predicha, Granuloma de Majocchi (nivel de evidencia L4). Indicación original: Tinea pedis, tinea corporis, infecciones por tinea…"
+evidence_level: L5
+indication_count: 2
 monitor_inn: "econazole"
-predicted_indications: ["Majocchi granuloma", "ectothrix infectious disease", "endothrix infectious disease"]
+predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
+last_modified_at: 2026-10-23
+description: "Econazole: nueva indicación predicha, Infección ectótrix (nivel de evidencia L5). Indicación original: No hay texto de indicación aprobada en las autorizaciones locales. La…"
 ---
 
 # Econazole
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **7** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,97 +33,71 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **7**
 
 </div>
 
-## Econazol: De Infecciones Fúngicas Cutáneas a Granuloma de Majocchi
+## Econazol: De Infecciones Dermatofíticas Cutáneas a Infección Ectótrix
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Econazol es un antifúngico imidazólico de uso tópico, originalmente utilizado para el tratamiento de la tinea pedis, la tinea corporis, la candidiasis cutánea y la pitiriasis versicolor.
-El modelo TxGNN predice que podría ser efectivo para **Granuloma de Majocchi**, con **0 ensayos clínicos** y **1 publicación** (un reporte de caso) que actualmente respaldan esta dirección.
-La evidencia es muy limitada y se basa casi exclusivamente en la predicción computacional.
-
----
+Econazol es un antifúngico imidazólico, utilizado originalmente para infecciones cutáneas como tinea pedis, tinea corporis y candidiasis cutánea.
+El modelo TxGNN predice que podría ser efectivo para **infección ectótrix (ectothrix infectious disease)**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección, por lo que se trata solo de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Tinea pedis, tinea corporis, infecciones por tinea, candidiasis cutánea, pitiriasis versicolor y dermatofitosis de la ingle y la zona perianal (según el grafo de conocimiento; las autorizaciones locales no incluyen texto de indicación) |
-| Nueva Indicación Predicha | Granuloma de Majocchi |
-| Puntaje de Predicción TxGNN | 99.97% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Indicación Original | No hay texto de indicación aprobada en las autorizaciones locales. Las relaciones registradas en el grafo de conocimiento incluyen tinea pedis, tinea corporis, infección por tiña, candidiasis cutánea, pitiriasis versicolor y dermatofitosis de la ingle y la zona perianal |
+| Nueva Indicación Predicha | Infección ectótrix |
+| Puntaje de Predicción TxGNN | 0,9997 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-El econazol es un antifúngico imidazólico. Actualmente no se dispone de datos detallados sobre su mecanismo de acción en los datos compilados para este informe. Sin embargo, según la información conocida de la clase, los azoles inhiben la enzima fúngica lanosterol 14-alfa-desmetilasa (CYP51), lo que bloquea la síntesis de ergosterol, un componente esencial de la membrana fúngica.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, econazol pertenece a la clase de los antifúngicos imidazólicos, que en general se entiende que inhiben la lanosterol 14-alfa-desmetilasa y alteran la síntesis de ergosterol. Este mecanismo no está confirmado por los datos disponibles.
 
-El granuloma de Majocchi es una infección dermatofítica folicular y perifolicular profunda (típicamente por *Trichophyton rubrum*). Es, en esencia, una extensión de las indicaciones de tinea ya aprobadas, por lo que existe plausibilidad mecanística clara.
+La infección ectótrix es una dermatofitosis del tallo piloso (por ejemplo, *Microsporum* y *Trichophyton*), en la que las artroconidias se forman en el exterior del pelo. El puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Sin embargo, es más una extensión dentro de la misma clase de fármacos y el mismo grupo de organismos que un reposicionamiento verdadero.
 
-La principal limitación es farmacocinética: la afectación folicular profunda suele requerir tratamiento sistémico, porque los agentes tópicos penetran mal. La única literatura disponible es un reporte de caso centrado en el diagnóstico, sin datos específicos de econazol.
+Hay una limitación práctica importante: cuando hay compromiso del tallo piloso y del folículo, los agentes tópicos penetran poco y suelen preferirse antifúngicos sistémicos. Esto reduce el valor práctico de econazol tópico para esta indicación.
 
----
+*Predicción secundaria:* el modelo también predice **infección endótrix** (puntaje 0,9997, también L5, Hold), con el mismo razonamiento: el hongo vive dentro del tallo piloso y el econazol tópico llegaría mal a él.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [37899944](https://pubmed.ncbi.nlm.nih.gov/37899944/) | 2023 | Reporte de caso | Case Reports in Dermatology | Hombre de 54 años con granuloma de Majocchi, "el gran imitador": las infecciones fúngicas pueden confundirse con eccema o psoriasis y tratarse con corticoides tópicos, lo que genera tinea incognita. Se centra en el diagnóstico, sin datos de econazol. |
-
----
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 10790 | FILODERMA PLUS | Crema x 20 g | No disponible en el registro |
-| 14091 | GRISEOCREM NF | Pomada x 20 g | No disponible en el registro |
+| 10790 | FILODERMA PLUS | Crema, 20 g | Texto de indicación no disponible en el registro |
+| 14091 | GRISEOCREM NF | Pomada, 20 g | Texto de indicación no disponible en el registro |
 
-Ambas autorizaciones están vigentes (fabricante: Teva Argentina).
-
----
+Ambas autorizaciones son de un solo principio activo, están vigentes y corresponden al fabricante Teva Argentina.
 
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas**: se identificaron 41 posibles interacciones en la base consultada, todas de nivel de gravedad no clasificado. Entre las principales figuran clotrimazol, fluconazol, metformina, omeprazol, lansoprazol, rosiglitazona, glipizida, dexametasona, clopidogrel, heparina, fluticasona, levotiroxina, aciclovir, diazepam, lorazepam, citarabina y didanosina.
+- **Interacciones Farmacológicas**: se registraron 41 posibles interacciones, todas con nivel de gravedad no clasificado. Algunas de las principales: clotrimazol, fluconazol, metformina, omeprazol, rosiglitazona, lansoprazol, loperamida, glipizida, dexametasona, clopidogrel, heparina, fluticasona, acetaminofén, levotiroxina, aciclovir, diazepam, didanosina, citarabina y lorazepam.
 
-Para advertencias y contraindicaciones, consultar el prospecto.
-
----
+Consultar el prospecto para el resto de la información de seguridad (advertencias y contraindicaciones).
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Solo existe un reporte de caso sobre diagnóstico, sin ensayos clínicos ni datos específicos de econazol. Además, la afectación folicular profunda limita la utilidad de una formulación tópica, por lo que la predicción, aunque plausible, no está respaldada por evidencia suficiente.
+No existe ningún ensayo ni publicación que estudie directamente la infección ectótrix con econazol, por lo que la evidencia es solo la predicción del modelo (L5). Además, la penetración tópica limitada en el tallo piloso debilita el caso clínico.
 
 **Para avanzar se necesita:**
-- Revisar el prospecto de ANMAT para obtener advertencias y contraindicaciones, y los textos de indicación aprobada.
-- Obtener datos del mecanismo de acción desde DrugBank.
-- Buscar estudios clínicos o series de casos específicos de econazol (tópico o sistémico) en granuloma de Majocchi.
-- Evaluar la penetración folicular de la crema y si se necesitaría terapia sistémica combinada.
-
----
-
-### Nota sobre otras indicaciones predichas
-
-Aunque el informe se centra en la predicción de mayor puntaje, otras predicciones del modelo muestran un panorama distinto:
-
-- **Candidiasis vulvovaginal** (puntaje 99.50%, nivel L3, recomendación *Proceed with Guardrails*): cuenta con estudios clínicos directos sobre econazol, incluyendo un estudio doble ciego comparativo con clotrimazol y un estudio multicéntrico de 996 casos. Es un uso ya establecido en otras regiones, por lo que tiene menor novedad pero mayor respaldo clínico que el granuloma de Majocchi. Requiere monitoreo de susceptibilidad por resistencia a azoles y especies de *Candida* no albicans.
-- **Micosis superficial** (L3): en gran parte reproduce las indicaciones ya aprobadas.
-- **Dermatofitosis de cuero cabelludo o barba** (L3): el econazol sería, como máximo, adyuvante.
-- **Infección ectothrix, endothrix y tinea profunda** (L5): solo respaldadas por la predicción del modelo.
+- Obtener y analizar el prospecto de ANMAT (advertencias y contraindicaciones), que es un vacío de datos bloqueante para el tamizaje de seguridad.
+- Confirmar el mecanismo de acción de econazol con DrugBank.
+- Buscar estudios clínicos o in vitro sobre econazol en dermatofitosis del cuero cabelludo o del tallo piloso.
+- Evaluar la compatibilidad de la vía de administración (tópica frente a sistémica) y la comparación con antifúngicos sistémicos.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -8,6 +8,7 @@ nav_order: 70
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Cabergolina
@@ -55,8 +56,8 @@ Se identificaron **2 brechas de datos críticas** (MOA y advertencias de segurid
 | Nueva Indicación Predicha | Sin predicciones en el Evidence Pack actual |
 | Puntaje de Predicción TxGNN | No disponible |
 | Nivel de Evidencia | L5 (sin predicciones ni estudios asociados) |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 8 de 8) |
+| Número de Autorizaciones | 8 (vigentes: 8) |
 | Decisión Recomendada | **Hold** |
 
 ---

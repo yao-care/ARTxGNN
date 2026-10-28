@@ -8,6 +8,7 @@ nav_order: 75
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Candesartán
@@ -51,8 +52,8 @@ Se recomienda completar los datos faltantes (INN normalizado, DrugBank ID, MOA e
 | Nueva Indicación Predicha | No disponible (sin predicciones TxGNN en este pack) |
 | Puntaje de Predicción TxGNN | No disponible |
 | Nivel de Evidencia | N/A |
-| Estado de Mercado en Argentina | No registrado en la consulta realizada |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 6 de 6) |
+| Número de Autorizaciones | 6 (vigentes: 6) |
 | Decisión Recomendada | **Hold** |
 
 ---

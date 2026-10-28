@@ -8,6 +8,7 @@ nav_order: 46
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Benserazida
@@ -48,8 +49,8 @@ El modelo TxGNN **no ha generado predicciones de nuevas indicaciones** para este
 | Nueva Indicación Predicha | — Sin predicciones generadas por TxGNN |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | N/A — Sin predicción que evaluar |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 5 de 5) |
+| Número de Autorizaciones | 5 (vigentes: 5) |
 | Decisión Recomendada | **Hold** |
 
 ## Por qué no hay Predicciones Disponibles?

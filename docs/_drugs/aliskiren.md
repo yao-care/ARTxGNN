@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Aliskiren
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 20
-evidence_level: L4
-indication_count: 7
-last_modified_at: 2026-10-13
-description: "Aliskiren: nueva indicación predicha, Hipertensión pulmonar secundaria a enfermedad pulmonar y/o hipoxia (nivel de evidencia L4). Indicación original: Hipertensión arterial (según la base de conocimi…"
+evidence_level: L5
+indication_count: 6
 monitor_inn: "ALISKIREN"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "cerebrovascular disorder"]
+last_modified_at: 2026-10-27
+description: "Aliskiren: nueva indicación predicha, Hipertensión pulmonar por enfermedad pulmonar y/o hipoxia (pulmonary hypertension owing to lung disease and/or hypoxia) (nivel de evidencia L5). Indicación origi…"
 ---
 
 # Aliskiren
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **7** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,86 +33,72 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **7**
 
 </div>
 
-## Aliskiren: De Hipertensión a Hipertensión Pulmonar Secundaria a Enfermedad Pulmonar y/o Hipoxia
+## Aliskiren: inhibidor directo de la renina → hipertensión pulmonar por enfermedad pulmonar y/o hipoxia (pulmonary hypertension owing to lung disease and/or hypoxia)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Aliskiren es un inhibidor directo de la renina, originalmente utilizado para el tratamiento de la hipertensión arterial.
-El modelo TxGNN predice que podría ser efectivo para **hipertensión pulmonar secundaria a enfermedad pulmonar y/o hipoxia**,
-pero actualmente no hay **ningún ensayo clínico** y solo se dispone de **4 publicaciones**, todas preclínicas o indirectas, por lo que la evidencia es muy limitada.
+Aliskiren es un inhibidor directo de la renina que reduce la actividad del sistema renina-angiotensina.
+El modelo TxGNN predice que podría ser útil para **hipertensión pulmonar por enfermedad pulmonar y/o hipoxia (pulmonary hypertension owing to lung disease and/or hypoxia)**, pero no hay ensayos clínicos registrados y solo se dispone de **4 publicaciones**, todas preclínicas o mecanísticas y ninguna estudia directamente esta enfermedad.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertensión arterial (según la base de conocimiento; los textos de indicación de las autorizaciones locales están vacíos) |
-| Nueva Indicación Predicha | Hipertensión pulmonar secundaria a enfermedad pulmonar y/o hipoxia |
-| Puntaje de Predicción TxGNN | 99.98% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Hipertensión pulmonar por enfermedad pulmonar y/o hipoxia (pulmonary hypertension owing to lung disease and/or hypoxia) |
+| Puntaje de Predicción TxGNN | 0.9998 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
-## ¿Por qué es Razonable esta Predicción?
+## Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, aliskiren inhibe la renina, la enzima que da el primer paso del sistema renina-angiotensina-aldosterona (SRAA), y con ello reduce la actividad de toda la cascada. Su eficacia en la hipertensión arterial está comprobada, y mecanísticamente podría ser aplicable a la hipertensión pulmonar.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, aliskiren es un inhibidor directo de la renina: bloquea el primer paso, limitante, del sistema renina-angiotensina (SRA) y reduce así la producción de angiotensina II.
 
-La relación entre ambas indicaciones es indirecta. Estudios preclínicos en ratas con hipoxia intermitente crónica sugieren que la angiotensina II contribuye a la activación simpática y al remodelado auricular, y que aliskiren atenuó el remodelado en ese modelo. Esto ofrece un apoyo plausible pero indirecto: ningún estudio en humanos ha evaluado criterios de valoración vasculares pulmonares o de hipertensión pulmonar.
+En modelos animales de hipoxia intermitente, la angiotensina II se asocia con activación simpática, y aliskiren atenuó el remodelado auricular en un modelo de rata. Esto ofrece un vínculo mecanístico plausible con el remodelado vascular y cardíaco asociado a hipoxia.
 
-El puntaje TxGNN es muy alto, pero es solo una predicción computacional basada en asociaciones del grafo de conocimiento. No debe interpretarse como evidencia de eficacia.
+Sin embargo, ese respaldo proviene solo de estudios en animales e in vitro. Ninguna de las publicaciones recuperadas estudia la hipertensión pulmonar en sí, y no hay datos en humanos. El puntaje elevado de TxGNN es una predicción computacional, no evidencia clínica; por eso el nivel de evidencia es L5.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para esta indicación.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [32982180](https://pubmed.ncbi.nlm.nih.gov/32982180/) | 2020 | Preclínico (animal) | Drug Des Devel Ther | Estudio en ratas con hipoxia intermitente crónica para evaluar el efecto de aliskiren sobre el remodelado auricular; el fármaco mostró un posible efecto protector |
-| [29645283](https://pubmed.ncbi.nlm.nih.gov/29645283/) | 2018 | Preclínico (animal) | J Physiol | En ratas, la simpatoexcitación tras hipoxia intermitente está mediada por angiotensina II circulante; la inhibición del SRA previene estos efectos |
-| [39133776](https://pubmed.ncbi.nlm.nih.gov/39133776/) | 2024 | Preclínico (in vitro) | Am J Physiol Regul Integr Comp Physiol | Actividad de liberación de angiotensina II en cortes cerebrales de rata; relevancia solo contextual sobre el SRA |
-| [26502369](https://pubmed.ncbi.nlm.nih.gov/26502369/) | 2016 | Preclínico | Transplantation | Los inhibidores de calcineurina aumentan la renina local y el VEGF en los conductos colectores renales; relación lejana con la indicación |
+| [32982180](https://pubmed.ncbi.nlm.nih.gov/32982180/) | 2020 | Preclínico (rata) | Drug Des Devel Ther | Efecto potencial de aliskiren sobre el remodelado auricular inducido por hipoxia intermitente crónica |
+| [29645283](https://pubmed.ncbi.nlm.nih.gov/29645283/) | 2018 | Preclínico (rata) | J Physiol | La simpatoexcitación tras hipoxia intermitente está mediada por angiotensina II circulante |
+| [39133776](https://pubmed.ncbi.nlm.nih.gov/39133776/) | 2024 | Preclínico (in vitro) | Am J Physiol Regul Integr Comp Physiol | Actividad de células sensoras de angiotensina II en la lámina terminal; relevancia indirecta |
+| [26502369](https://pubmed.ncbi.nlm.nih.gov/26502369/) | 2016 | Preclínico/mecanístico | Transplantation | Los inhibidores de calcineurina aumentan la renina local y el VEGF en los conductos colectores renales; relevancia indirecta |
 
 ## Información de Mercado en Argentina
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 43513 | RASILEZ (Novartis) | Comprimidos recubiertos 150 mg x 28 | No disponible en los datos |
-| 43515 | RASILEZ (Novartis) | Comprimidos recubiertos 300 mg x 28 | No disponible en los datos |
+| 43513 | RASILEZ | 150 mg comprimidos recubiertos x 28 | No registrada en los datos locales |
+| 43515 | RASILEZ | 300 mg comprimidos recubiertos x 28 | No registrada en los datos locales |
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones según la base de conocimiento** (relaciones fármaco-enfermedad del grafo de conocimiento, no texto del prospecto):
-  - Hepáticas y biliares: insuficiencia hepática, enfermedad hepática, encefalopatía hepática, coma hepático, enfermedad de la vesícula biliar, pancreatitis, ictericia neonatal.
-  - Angioedema: angioedema (adquirido, hereditario, no histaminérgico e inducido por bloqueadores del SRAA).
-  - Renales: anuria, deterioro de la función renal, obstrucción de la arteria renal.
-  - Metabólicas y electrolíticas: diabetes mellitus, cetoacidosis diabética, déficit de potasio, hipercalcemia, nefrocalcinosis, trastornos del metabolismo del fósforo, hiperparatiroidismo, osteítis fibrosa, hiperuricemia, gota.
-  - Hematológicas: neutropenia, agranulocitosis.
-  - Otras: lupus eritematoso sistémico (incluido el pediátrico) e hipotensión.
-- **Interacciones Farmacológicas**: se identificaron 100 interacciones, todas de las que se muestran son de nivel moderado. Entre las principales:
-  - Corticoides: hidrocortisona, betametasona, budesonida, dexametasona, prednisolona, prednisona.
-  - Inhibidores de SGLT2: canagliflozina, dapagliflozina, empagliflozina, ertugliflozina.
-  - Sales de potasio: bicarbonato, cloruro, citrato y gluconato de potasio (riesgo de hiperpotasemia).
-  - Otros: ácido acetilsalicílico, aprepitant, claritromicina, clotrimazol, miconazol, eliglustat.
-- **Contexto de seguridad en la literatura**: el ensayo ALTITUDE planteó preocupaciones con el doble bloqueo del SRAA en pacientes diabéticos con deterioro renal (hipotensión, ictus isquémico, hiperpotasemia).
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones; las de nivel moderado incluyen corticoides (hidrocortisona, dexametasona, prednisona, prednisolona, betametasona, budesonida), sales de potasio (cloruro, citrato, gluconato, bicarbonato), inhibidores de SGLT2 (canagliflozina, dapagliflozina, empagliflozina, ertugliflozina), ácido acetilsalicílico, aprepitant, claritromicina, clotrimazol, miconazol y eliglustat.
 
-Para advertencias y contraindicaciones oficiales, consultar el prospecto aprobado por ANMAT.
+Para el resto de la información de seguridad, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en puntaje computacional y en estudios preclínicos indirectos, sin ensayos clínicos ni estudios en humanos sobre hipertensión pulmonar. El mecanismo es plausible pero no está demostrado para esta indicación.
+La predicción se apoya solo en el puntaje del modelo y en estudios preclínicos indirectos; no hay ensayos clínicos ni estudios que evalúen directamente la hipertensión pulmonar, por lo que el nivel de evidencia es L5.
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de acción confirmados (por ejemplo, desde DrugBank).
-- Revisión del prospecto de ANMAT para advertencias y contraindicaciones oficiales.
-- Estudios preclínicos específicos en modelos de hipertensión pulmonar (vascular pulmonar, no solo remodelado auricular).
-- Evaluación de la relevancia frente a otras predicciones del modelo con más respaldo; por ejemplo, para el trastorno cerebrovascular existe un ensayo de Fase 2/3 terminado (NCT01417104) y evidencia de nivel L3, aunque tampoco es concluyente.
-- Análisis de seguridad en pacientes con enfermedad pulmonar e hipoxia, dada la lista amplia de contraindicaciones.
+- Estudios preclínicos específicos de hipertensión pulmonar (modelos de hipoxia crónica) con aliskiren
+- Datos de mecanismo de acción detallados
+- Revisión del prospecto de ANMAT (advertencias y contraindicaciones) para completar la evaluación de seguridad
+- Evaluación del riesgo de hiperpotasemia, hipotensión y deterioro renal, en especial combinado con otros bloqueantes del SRA
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

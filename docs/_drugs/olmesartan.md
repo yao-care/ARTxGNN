@@ -39,7 +39,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 ## Resumen en Una Frase
 
 Olmesartán es un antagonista del receptor AT1 de la angiotensina II, comercializado en Argentina en siete autorizaciones vigentes; los datos compilados no incluyen el texto de la indicación aprobada.
-El modelo TxGNN predice que podría ser efectivo para **Angina de Prinzmetal** (puntaje 99,84%), pero para esta predicción **no hay ensayos clínicos ni publicaciones** que la respalden.
+El modelo TxGNN predice que podría ser efectivo para **Angina de Prinzmetal** (puntaje 0,9984), pero para esta predicción **no hay ensayos clínicos ni publicaciones** que la respalden.
 La única indicación con evidencia clínica parcial entre las diez predichas es la **migraña** (3 publicaciones, sin ensayos registrados).
 
 ---
@@ -50,10 +50,10 @@ La única indicación con evidencia clínica parcial entre las diez predichas es
 |------|------|
 | Indicación Original | No disponible en los datos compilados (los textos de indicación de las autorizaciones están vacíos) |
 | Nueva Indicación Predicha | Angina de Prinzmetal |
-| Puntaje de Predicción TxGNN | 99,84% |
+| Puntaje de Predicción TxGNN | 0,9984 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 7 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 7 de 7) |
+| Número de Autorizaciones | 7 (vigentes: 7) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -65,9 +65,9 @@ Los datos compilados no incluyen una descripción detallada del mecanismo de acc
 Para la angina de Prinzmetal (vasoespástica), un vínculo plausible sería la reducción del vasoespasmo mediante el bloqueo de la angiotensina II y la mejora de la función endotelial. Sin embargo, es solo una hipótesis: no se aportaron ensayos ni literatura que la respalden, y la predicción se basa únicamente en el modelo.
 
 Otras predicciones de alto puntaje merecen una lectura distinta:
-- **Migraña** (puntaje 99,64%): es la que cuenta con más respaldo clínico indirecto. Hay un estudio pequeño en pacientes hipertensos/prehipertensos, un comentario y una revisión sistemática de 2019 sobre IECA y ARA-II (nivel L3). El efecto en los estudios específicos de olmesartán puede estar confundido por la reducción de la presión arterial.
+- **Migraña** (puntaje 0,9964): es la que cuenta con más respaldo clínico indirecto. Hay un estudio pequeño en pacientes hipertensos/prehipertensos, un comentario y una revisión sistemática de 2019 sobre IECA y ARA-II (nivel L3). El efecto en los estudios específicos de olmesartán puede estar confundido por la reducción de la presión arterial.
 - **Hipertensión pulmonar** (99,61%): solo hay estudios preclínicos en ratas y ratones (L4), sin evidencia en humanos.
-- **Alopecia y trastornos capilares congénitos**: no hay mecanismo plausible evidente; el puntaje podría reflejar cercanía en el grafo de conocimiento más que una relación farmacológica real.
+- **Alopecia y trastornos capilares congénitos**: no hay mecanismo plausible evidente; el puntaje proviene del modelo TxGNN (aprendizaje profundo) y podría reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 ---
 

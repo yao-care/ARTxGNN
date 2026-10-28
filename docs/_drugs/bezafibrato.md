@@ -8,6 +8,7 @@ nav_order: 52
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Bezafibrato
@@ -49,8 +50,8 @@ Bezafibrato es un agente hipolipemiante de la clase de los fibratos, utilizado t
 | Nueva Indicación Predicha | — No disponible (sin predicciones TxGNN) |
 | Puntaje de Predicción TxGNN | — No disponible |
 | Nivel de Evidencia | L5 (sin evidencia específica de reposicionamiento) |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 3 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 3) |
 | Decisión Recomendada | **Hold** |
 
 ---

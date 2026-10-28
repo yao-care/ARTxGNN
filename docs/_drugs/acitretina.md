@@ -8,6 +8,7 @@ nav_order: 16
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Acitretina
@@ -51,8 +52,8 @@ y los datos regulatorios y de seguridad presentan **brechas significativas** que
 | Nueva Indicación Predicha | — No disponible (sin predicciones TxGNN) |
 | Puntaje de Predicción TxGNN | — No disponible |
 | Nivel de Evidencia | L5 — Solo datos preliminares, sin predicción ni estudios asociados |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | **Hold** |
 
 ---

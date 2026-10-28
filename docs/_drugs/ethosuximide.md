@@ -48,10 +48,10 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 |------|------|
 | Indicación Original | Epilepsia de ausencia |
 | Nueva Indicación Predicha | Síndrome nefrogénico de antidiuresis inapropiada |
-| Puntaje de Predicción TxGNN | 99.91% |
+| Puntaje de Predicción TxGNN | 0.9991 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 2 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 2 de 2) |
+| Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 El SNAI es causado por mutaciones de ganancia de función en el receptor V2 de vasopresina (AVPR2, por ejemplo R137C/R137L) o en GNAS, que provocan activación constitutiva del receptor y retención de agua independiente de la arginina vasopresina. No existe una conexión establecida entre el bloqueo de canales de calcio tipo T y esta fisiopatología.
 
-Cualquier vínculo sería especulativo (por ejemplo, a través de la modulación del manejo renal del agua o de la señalización cAMP/acuaporina-2), y los datos compilados no lo respaldan. El puntaje muy alto del modelo (99.91%) es solo una predicción computacional, sin corroboración clínica ni bibliográfica.
+Cualquier vínculo sería especulativo (por ejemplo, a través de la modulación del manejo renal del agua o de la señalización cAMP/acuaporina-2), y los datos compilados no lo respaldan. El puntaje muy alto del modelo (0.9991) es solo una predicción computacional, sin corroboración clínica ni bibliográfica.
 
 ## Información de Mercado en Argentina
 

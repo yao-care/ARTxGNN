@@ -8,6 +8,7 @@ nav_order: 34
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Arginina
@@ -49,8 +50,8 @@ Arginina (L-arginina) es un aminoacido semi-esencial con multiples funciones fis
 | Nueva Indicacion Predicha | Sin predicciones disponibles |
 | Puntaje de Prediccion TxGNN | N/A |
 | Nivel de Evidencia | L5 — Solo identificacion del compuesto, sin prediccion ni estudios asociados |
-| Estado de Mercado en Argentina | ✗ No comercializado |
-| Numero de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 1 de 1) |
+| Numero de Autorizaciones | 1 (vigentes: 1) |
 | Decision Recomendada | **Hold** |
 
 ---

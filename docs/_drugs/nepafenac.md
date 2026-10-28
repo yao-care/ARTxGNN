@@ -48,10 +48,10 @@ Nepafenac es un antiinflamatorio no esteroideo (AINE) de uso tópico oftálmico,
 |------|------|
 | Indicación Original | No disponible en la autorización de ANMAT (el texto de indicación está vacío); uso conocido: inflamación y dolor oculares tras cirugía de catarata |
 | Nueva Indicación Predicha | Enfermedad ocular (eye disease) |
-| Puntaje de Predicción TxGNN | 99,85 % |
+| Puntaje de Predicción TxGNN | 0,9985 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -62,7 +62,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Este mecanismo concuerda con su uso comercializado en la inflamación y el dolor posteriores a la cirugía de catarata, y con la evidencia de penetración al segmento posterior del ojo. Por ello, la predicción de "enfermedad ocular" es coherente, pero tan general que coincide en buena medida con el uso oftálmico ya establecido. Las subindicaciones específicas (por ejemplo, edema macular o inflamación posvitrectomía) deberían evaluarse por separado.
 
-Entre las demás predicciones del modelo, "papilitis óptica" (L4, Hold) y "desprendimiento vítreo" (L4, pregunta de investigación) tienen apoyo limitado o indirecto. Las restantes, como hipotricosis, queratosis seborreica o lagoftalmos, carecen de vínculo mecanístico y de evidencia, y parecen artefactos de la predicción basada en grafos.
+Entre las demás predicciones del modelo, "papilitis óptica" (L4, Hold) y "desprendimiento vítreo" (L4, pregunta de investigación) tienen apoyo limitado o indirecto. Las restantes, como hipotricosis, queratosis seborreica o lagoftalmos, carecen de vínculo mecanístico y de evidencia; sus puntuaciones proceden del modelo TxGNN (aprendizaje profundo) y pueden reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 ---
 

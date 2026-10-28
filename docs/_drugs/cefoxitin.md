@@ -4,17 +4,17 @@ title: Cefoxitin
 parent: Solo Predicción del Modelo (L5)
 nav_order: 90
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Cefoxitin: nueva indicación predicha, Otitis media infecciosa (nivel de evidencia L5). Indicación original: Infecciones bacterianas (neumonía bacteriana, peritonitis…"
 monitor_inn: "cefoxitin"
-predicted_indications: ["infectious otitis media", "urinary tract infection (disease)", "chronic otitis media", "suppurative otitis media", "middle ear disease", "gonococcal urethritis", "Ureaplasma urethritis", "toxocariasis", "otosalpingitis", "non-suppurative otitis media"]
+predicted_indications: ["infectious otitis media", "urinary tract infection (disease)", "chronic otitis media", "suppurative otitis media", "middle ear disease", "Ureaplasma urethritis", "toxocariasis", "otosalpingitis", "non-suppurative otitis media"]
 ---
 
 # Cefoxitin
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ El modelo TxGNN predice que podría ser efectiva para **otitis media infecciosa*
 |------|------|
 | Indicación Original | Infecciones bacterianas (neumonía bacteriana, peritonitis, infecciones por estafilococos y estreptococos, gonorrea, entre otras; el texto de indicación aprobado en ANMAT no está disponible) |
 | Nueva Indicación Predicha | Otitis media infecciosa |
-| Puntaje de Predicción TxGNN | 99.30% |
+| Puntaje de Predicción TxGNN | 0.9930 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -59,7 +59,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Seg
 
 Sin embargo, la relación es débil. La única publicación recuperada es una revisión general sobre *Staphylococcus aureus* resistente a meticilina (MRSA) desde la perspectiva "One Health". En la práctica, la cefoxitina se usa habitualmente como marcador de laboratorio de resistencia a meticilina, no como tratamiento. No hay evidencia clínica para esta indicación.
 
-Por ello, la predicción del modelo debe considerarse una hipótesis basada en la cercanía en el grafo de conocimiento, no un hallazgo respaldado por estudios.
+Por ello, la predicción del modelo TxGNN (aprendizaje profundo) debe considerarse una hipótesis: la puntuación puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica, y no es un hallazgo respaldado por estudios.
 
 ## Evidencia de Literatura
 
@@ -104,10 +104,10 @@ La predicción para otitis media infecciosa se apoya solo en el puntaje del mode
 
 Entre las demás indicaciones predichas hay dos con más evidencia, aunque corresponden a usos establecidos o históricos más que a un reposicionamiento novedoso:
 
-- **Infección del tracto urinario (L3, puntaje 99.26%):** un ensayo de Fase 4 (NCT02474706) fue terminado con solo 6 pacientes y no permite conclusiones de eficacia. Hay estudios clínicos antiguos (1978-1979) y un modelo murino con *E. coli* productor de BLEE.
-- **Uretritis gonocócica (L3, puntaje 99.09%):** varios estudios de 1979-1983 muestran curación en uretritis gonocócica. La gonorrea ya figura entre las indicaciones originales y hoy existen alternativas mejores, como la ceftriaxona.
+- **Infección del tracto urinario (L3, puntaje 0.9926):** un ensayo de Fase 4 (NCT02474706) fue terminado con solo 6 pacientes y no permite conclusiones de eficacia. Hay estudios clínicos antiguos (1978-1979) y un modelo murino con *E. coli* productor de BLEE.
+- **Uretritis gonocócica (L3, puntaje 0.9909):** varios estudios de 1979-1983 muestran curación en uretritis gonocócica. La gonorrea ya figura entre las indicaciones originales y hoy existen alternativas mejores, como la ceftriaxona.
 
-Las predicciones de uretritis por *Ureaplasma* (carece de pared celular) y toxocariasis (parásito) carecen de plausibilidad mecanística y probablemente sean artefactos del grafo.
+Las predicciones de uretritis por *Ureaplasma* (carece de pared celular) y toxocariasis (parásito) carecen de plausibilidad mecanística y probablemente reflejen similitudes que el modelo TxGNN (aprendizaje profundo) aprendió entre enfermedades relacionadas, no evidencia biológica.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

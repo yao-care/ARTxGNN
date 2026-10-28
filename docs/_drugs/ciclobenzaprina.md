@@ -8,6 +8,7 @@ nav_order: 97
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Ciclobenzaprina
@@ -51,8 +52,8 @@ Ciclobenzaprina es un relajante muscular de acción central conocido en la liter
 | Nueva Indicación Predicha | No disponible — sin predicciones TxGNN |
 | Puntaje de Predicción TxGNN | — |
 | Nivel de Evidencia | L5 (sin estudios reales vinculados) |
-| Estado de Mercado en Argentina | No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | **Hold** |
 
 ---

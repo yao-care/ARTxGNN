@@ -4,17 +4,17 @@ title: Fluorometholone
 parent: Solo Predicción del Modelo (L5)
 nav_order: 147
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Fluorometholone: nueva indicación predicha, Vasculitis postinfecciosa (nivel de evidencia L5). Indicación original: Indicación aprobada no disponible en las autorizaciones locales"
+indication_count: 9
 monitor_inn: "fluorometholone"
-predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "otitis externa", "infective urethral stricture", "post-infectious syndrome", "punctate epithelial keratoconjunctivitis", "infection-related hemolytic uremic syndrome", "Chagas cardiomyopathy", "lens-induced iridocyclitis", "glaucomatocyclitic crisis"]
+predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "otitis externa", "infective urethral stricture", "post-infectious syndrome", "punctate epithelial keratoconjunctivitis", "infection-related hemolytic uremic syndrome", "Chagas cardiomyopathy", "glaucomatocyclitic crisis"]
+last_modified_at: 2026-10-27
+description: "Fluorometholone: nueva indicación predicha, Vasculitis postinfecciosa (postinfectious vasculitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Fluorometholone
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,98 +33,71 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Fluorometolona: De Uveítis y Enfermedades Inflamatorias Oculares a Postinfectious Vasculitis (Vasculitis Postinfecciosa)
+## Fluorometholone: corticosteroide oftálmico tópico (agonista del receptor de glucocorticoides) → vasculitis postinfecciosa (postinfectious vasculitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Fluorometolona es un corticosteroide tópico oftálmico, utilizado originalmente para tratar la uveítis, la conjuntivitis alérgica y otras inflamaciones del segmento anterior del ojo.
-El modelo TxGNN predice que podría ser efectivo para **vasculitis postinfecciosa**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata solo de una predicción del modelo.
-
----
+Fluorometholona es un corticosteroide oftálmico tópico con efectos antiinflamatorios e inmunosupresores, comercializado en Argentina en suspensiones oftálmicas.
+El modelo TxGNN predice que podría ser efectivo para **vasculitis postinfecciosa (postinfectious vasculitis)**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata solo de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Indicación aprobada no disponible en las autorizaciones locales; según el grafo de conocimiento: uveítis, enfermedades del iris y del cuerpo ciliar, conjuntivitis atópica, papilar y primaveral, iritis, iridociclitis, úlcera corneal |
-| Nueva Indicación Predicha | Vasculitis postinfecciosa |
-| Puntaje de Predicción TxGNN | 99.91% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Vasculitis postinfecciosa (postinfectious vasculitis) |
+| Puntaje de Predicción TxGNN | 0,9991 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 3 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 3 de 3) |
+| Número de Autorizaciones | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por qué es Razonable esta Predicción?
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado en los datos compilados para este informe. Según la información farmacológica disponible, la fluorometholona actúa sobre el receptor de glucocorticoides (NR3C1), y se usa para tratar la conjuntivitis inflamatoria.
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información farmacológica conocida, la fluorometolona actúa sobre el receptor de glucocorticoides (NR3C1) y ejerce efectos antiinflamatorios e inmunosupresores. Su eficacia en la inflamación ocular está establecida, y mecanísticamente podría ser aplicable a procesos inflamatorios mediados por el sistema inmune.
+Un glucocorticoide podría, en teoría, atenuar la vasculitis mediada por inmunocomplejos. Sin embargo, la fluorometholona está formulada para uso ocular, con exposición sistémica mínima, por lo que el vínculo con una vasculitis sistémica es débil.
 
-La vasculitis postinfecciosa suele estar mediada por complejos inmunes, y los glucocorticoides pueden atenuar ese tipo de respuesta. Sin embargo, la relación con la indicación original es débil: la fluorometolona se presenta como suspensión oftálmica con exposición sistémica mínima, por lo que es poco probable que alcance concentraciones relevantes para una enfermedad vascular sistémica.
-
-El puntaje del modelo es alto, pero no hay ensayos ni literatura que lo respalden. Esta predicción debe considerarse una hipótesis, no una conclusión.
-
-### Otras predicciones del modelo (contexto)
-
-Entre las 10 principales predicciones, algunas están mucho más cerca del uso actual del fármaco:
-
-| Indicación predicha | Puntaje TxGNN | Nivel | Comentario |
-|------|------|------|------|
-| Queratoconjuntivitis epitelial punteada | 99.89% | L4 | Cercana a las indicaciones oculares actuales; 2 publicaciones indirectas |
-| Iridociclitis inducida por el cristalino | 99.82% | L4 | Subtipo de uveítis anterior, alineado con indicaciones existentes |
-| Crisis glaucomatociclítica | 99.82% | L4 | Uveítis anterior recurrente con presión intraocular elevada; se requiere monitoreo de la PIO |
-
-Estas tres se consideran "preguntas de investigación" y son más plausibles que la candidata principal. En cambio, otitis externa, estenosis uretral infecciosa, síndrome urémico hemolítico asociado a infección y cardiomiopatía de Chagas carecen de respaldo mecanístico sólido o de datos.
-
----
+El puntaje del modelo es solo una predicción: no existen ensayos ni literatura que la sustenten. La relación con el uso oftálmico actual es indirecta y requeriría validación preclínica y clínica antes de cualquier consideración.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible para vasculitis postinfecciosa.
-
----
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 11935 | FLAREX (Novartis) | Suspensión oftálmica x 5 ml | No especificada |
-| 241 | F M L LIQUIFILM (Abbvie) | Suspensión oftálmica x 10 ml | No especificada |
-| 242 | F M L NEO LIQUIFILM (Abbvie) | Suspensión oftálmica x 5 ml | No especificada |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 11935 | FLAREX | Suspensión oftálmica x 5 ml |
+| 241 | F M L LIQUIFILM | Suspensión oftálmica x 10 ml |
+| 242 | F M L NEO LIQUIFILM | Suspensión oftálmica x 5 ml |
 
-Las tres autorizaciones están vigentes y corresponden a productos de un solo principio activo.
-
----
+Las tres autorizaciones están vigentes y son de productos de un solo principio activo.
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones según el grafo de conocimiento** (no provienen del prospecto): queratitis por herpes simple, infecciones oculares (incluidas las fúngicas y virales), tuberculosis ocular, conjuntivitis infecciosa, glaucoma de ángulo abierto, hipertensión ocular, diabetes mellitus, cetoacidosis diabética, porfiria, déficit de G6PD, enfermedades de depósito de glucógeno, cistinuria, galactosemia y pigmentación corneal.
-- **Interacciones farmacológicas**: se identificaron 12 registros, y las 11 interacciones con otros fármacos tienen nivel de gravedad desconocido. Entre ellos figuran doxiciclina, salbutamol, ciclosporina, acetaminofén, digoxina, brimonidina, cefalexina, ácido alendrónico, aciclovir, diazepam y fenofibrato. El registro restante corresponde a la interacción con el receptor de glucocorticoides, que es su diana farmacológica.
-- **Presión intraocular**: para las indicaciones oculares, el aumento de la PIO inducido por esteroides requiere monitoreo.
+- **Interacciones farmacológicas**: se registraron 12 entradas en la consulta, sin nivel de gravedad clasificado (nivel desconocido) para las interacciones con doxiciclina, salbutamol, ciclosporina, paracetamol, digoxina, brimonidina, cefalexina, ácido alendrónico, aciclovir, diazepam y fenofibrato. Además, se registra su unión al receptor de glucocorticoides.
+- Por tratarse de un corticosteroide, el uso en infecciones oculares requiere evaluación específica de riesgo-beneficio.
 
-Para advertencias y contraindicaciones oficiales, consultar el prospecto.
-
----
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para vasculitis postinfecciosa se basa solo en el modelo (L5), sin ensayos ni literatura, y la formulación oftálmica tiene exposición sistémica mínima, lo que debilita la plausibilidad biológica.
+La predicción se basa únicamente en el modelo, sin ensayos ni literatura, y la formulación oftálmica con mínima exposición sistémica hace poco plausible su aplicación en una vasculitis sistémica.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de ANMAT para completar las advertencias y contraindicaciones oficiales
-- Completar los datos del mecanismo de acción desde DrugBank
-- Considerar priorizar las predicciones oculares más cercanas (queratoconjuntivitis epitelial punteada, iridociclitis inducida por el cristalino, crisis glaucomatociclítica), con revisión focalizada de la literatura
-- Evaluar si existe alguna vía de administración o formulación adecuada para una indicación no ocular
+- Estudios (preclínicos o clínicos) que evalúen directamente la vasculitis postinfecciosa
+- Datos del mecanismo de acción y de exposición sistémica con la formulación actual
+- Revisión del prospecto de ANMAT para advertencias y contraindicaciones
+- Análisis de viabilidad de una vía de administración adecuada para esta indicación
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -8,6 +8,7 @@ nav_order: 93
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Cefuroxima
@@ -49,8 +50,8 @@ Cefuroxima es un antibiótico beta-lactámico de la familia de las cefalosporina
 | Nueva Indicación Predicha | Sin predicción disponible |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | L5 — solo predicción del modelo, sin estudios reales |
-| Estado de Mercado | No comercializado (0 autorizaciones en TFDA) |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado | Comercializado (registros vigentes: 9 de 9) |
+| Número de Autorizaciones | 9 (vigentes: 9) |
 | Decisión Recomendada | **Hold** |
 
 ---

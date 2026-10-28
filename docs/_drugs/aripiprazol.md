@@ -8,6 +8,7 @@ nav_order: 35
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Aripiprazol
@@ -51,7 +52,7 @@ Aripiprazol es un antipsicotico atipico ampliamente utilizado a nivel mundial pa
 | Nueva Indicacion Predicha | Sin predicciones disponibles |
 | Puntaje de Prediccion TxGNN | N/A |
 | Nivel de Evidencia | L5 — Solo datos preliminares, sin prediccion ni estudios vinculados |
-| Estado de Mercado en Argentina | ✗ No comercializado |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: al menos 20) |
 | Numero de Autorizaciones | 0 |
 | Decision Recomendada | **Hold** |
 

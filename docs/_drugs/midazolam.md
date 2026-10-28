@@ -5,10 +5,10 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 189
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-13
-description: "Midazolam: nueva indicación predicha, Insomnio (nivel de evidencia L3). Indicación original: Ansiedad (según el grafo de conocimiento de TxGNN"
 monitor_inn: "MIDAZOLAM"
 predicted_indications: ["insomnia (disease)"]
+last_modified_at: 2026-10-27
+description: "Midazolam: nueva indicación predicha, insomnio (insomnia (disease)) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
 ---
 
 # Midazolam
@@ -33,84 +33,83 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **1**
 
 </div>
 
-## Midazolam: De Ansiedad a Insomnio
+## Midazolam: agonista/modulador alostérico positivo de GABA-A (benzodiazepina) → insomnio (insomnia (disease))
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Midazolam es una benzodiazepina de acción corta, originalmente utilizada para el tratamiento de la ansiedad.
-El modelo TxGNN predice que podría ser efectivo para **insomnio**,
-con **2 ensayos clínicos** (ambos de relevancia indirecta o nula) y **10 publicaciones** (de las cuales 4 son ensayos aleatorizados específicos de midazolam en trastornos del sueño) que actualmente respaldan esta dirección.
+Midazolam es una benzodiazepina de acción corta con efecto sedante-ansiolítico. El modelo TxGNN predice que podría ser útil para **insomnio (insomnia (disease))**, con **2 ensayos clínicos** (ambos de relevancia indirecta) y **10 publicaciones** relacionadas, entre ellas estudios clásicos de midazolam oral en trastornos del sueño.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Ansiedad (según el grafo de conocimiento de TxGNN; los textos de indicación de las autorizaciones locales no están disponibles) |
-| Nueva Indicación Predicha | Insomnio |
-| Puntaje de Predicción TxGNN | 99.74% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | insomnio (insomnia (disease)) |
+| Puntaje de Predicción TxGNN | 0,9974 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 5 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 5 de 5) |
+| Número de Autorizaciones | 5 (vigentes: 5) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, midazolam es una benzodiazepina que modula positivamente los receptores GABA-A, aumentando la neurotransmisión inhibitoria. Esto produce efectos sedantes e hipnóticos.
+Los datos compilados para este informe no incluyen el mecanismo de acción registrado. Según la farmacología conocida, midazolam es una benzodiazepina que actúa como modulador alostérico positivo del receptor GABA-A, potenciando la neurotransmisión inhibitoria y produciendo efectos sedante-hipnóticos.
 
-La ansiedad y el insomnio comparten una base de hiperactivación del sistema nervioso central, y ambos responden a la potenciación de la inhibición GABAérgica. Por ello, el mecanismo de clase es coherente con el uso en insomnio. De hecho, midazolam por vía oral fue estudiado históricamente como hipnótico (estudios de las décadas de 1980 y 1990), por lo que esta predicción se parece más a un restablecimiento de un uso conocido que a un reposicionamiento novedoso.
+Este mecanismo es compartido con benzodiazepinas usadas como hipnóticos (por ejemplo flurazepam o triazolam), por lo que un efecto en el insomnio es biológicamente plausible. El puntaje alto del modelo (0,9974) es coherente con ese solapamiento, pero es una predicción computacional, no una prueba clínica.
 
-Las preocupaciones principales son la vida media corta (posible insomnio de rebote), la tolerancia, la dependencia, el deterioro al día siguiente y una gran carga de interacciones farmacológicas.
+Además, el midazolam oral se estudió históricamente en trastornos del sueño y se comercializó como hipnótico en algunos países; por ello se acerca más a un redescubrimiento de un uso conocido que a un reposicionamiento novedoso. Su vida media corta y la alta carga de interacciones (sustrato de CYP3A4) limitan su practicidad en insomnio crónico.
 
 ## Evidencia de Ensayos Clínicos
 
+Ninguno de los ensayos estudia insomnio primario; ambos son de relevancia indirecta.
+
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT02142595](https://clinicaltrials.gov/study/NCT02142595) | Fase 4 | Completado | 111 | Compara la calidad del sueño posoperatorio tras sedación con dexmedetomidina vs. midazolam en resección transuretral de próstata. Evidencia indirecta (contexto perioperatorio, no insomnio primario). |
-| [NCT00886314](https://clinicaltrials.gov/study/NCT00886314) | No aplica | Desconocido | 80 | Payasos médicos vs. premedicación sedante (midazolam) para reducir la ansiedad preoperatoria en niños. No es relevante para insomnio. |
+| [NCT02142595](https://clinicaltrials.gov/study/NCT02142595) | Fase 4 | Completado | 111 | Dexmedetomidina vs midazolam como sedación con anestesia espinal en resección prostática transuretral; el desenlace fue la calidad del sueño posoperatorio. Contexto perioperatorio, no insomnio crónico. |
+| [NCT00886314](https://clinicaltrials.gov/study/NCT00886314) | No aplica | Desconocido | 80 | Payasos de hospital vs premedicación sedante (midazolam) para reducir la ansiedad en niños sometidos a cirugía; sin desenlaces de sueño. |
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [2121802](https://pubmed.ncbi.nlm.nih.gov/2121802/) | 1990 | ECA | J Clin Psychopharmacol | Estudio multicéntrico, doble ciego, de sueño, rendimiento y niveles plasmáticos en insomnes crónicos durante 14 días con flurazepam vs. midazolam. |
-| [2229461](https://pubmed.ncbi.nlm.nih.gov/2229461/) | 1990 | ECA | J Clin Psychopharmacol | Resumen ejecutivo del estudio multicéntrico anterior (flurazepam vs. midazolam en insomnes crónicos). |
-| [6138072](https://pubmed.ncbi.nlm.nih.gov/6138072/) | 1983 | ECA | Br J Clin Pharmacol | Midazolam 15 mg vs. Vesparax en 30 mujeres con insomnio secundario a enfermedad neuromuscular; ambos fueron hipnóticos eficaces, y midazolam fue mejor tolerado y sin resaca. |
-| [6120704](https://pubmed.ncbi.nlm.nih.gov/6120704/) | 1981 | ECA | Arzneimittel-Forschung | Estudio piloto de búsqueda de dosis (10–30 mg por vía oral) en 75 pacientes hospitalizados con insomnio leve a moderado. |
-| [2883820](https://pubmed.ncbi.nlm.nih.gov/2883820/) | 1986 | Revisión | Acta Psychiatr Scand Suppl | Indicaciones de uso de hipnóticos y necesidad de variedad de benzodiazepinas con distintos perfiles farmacocinéticos. |
-| [17988972](https://pubmed.ncbi.nlm.nih.gov/17988972/) | 2007 | Revisión | Orv Hetil | Revisión sobre insomnio e hipoperfusión cerebral (contexto general, sin midazolam específico). |
+| [2121802](https://pubmed.ncbi.nlm.nih.gov/2121802/) | 1990 | ECA | J Clin Psychopharmacol | Estudio multicéntrico, doble ciego, de 14 días con flurazepam y midazolam en insomnes crónicos; evalúa sueño, rendimiento y estado de ánimo. |
+| [2229461](https://pubmed.ncbi.nlm.nih.gov/2229461/) | 1990 | ECA | J Clin Psychopharmacol | Resumen ejecutivo del mismo estudio multicéntrico en insomnes crónicos. |
+| [6120704](https://pubmed.ncbi.nlm.nih.gov/6120704/) | 1981 | ECA | Arzneimittel-Forschung | Estudio de búsqueda de dosis de midazolam oral (10–30 mg) en 75 pacientes hospitalizados con insomnio leve a moderado secundario a otras enfermedades. |
+| [6138072](https://pubmed.ncbi.nlm.nih.gov/6138072/) | 1983 | Estudio clínico | Br J Clin Pharmacol | Midazolam 15 mg vs Vesparax en 30 mujeres con insomnio secundario a enfermedad neuromuscular; ambos fueron hipnóticos eficaces y midazolam fue mejor tolerado, sin efecto de resaca. |
+| [2883820](https://pubmed.ncbi.nlm.nih.gov/2883820/) | 1986 | Revisión | Acta Psychiatr Scand Suppl | Revisión sobre el uso clínico de hipnóticos benzodiazepínicos y la necesidad de variedad de perfiles. |
+| [17988972](https://pubmed.ncbi.nlm.nih.gov/17988972/) | 2007 | Revisión | Orv Hetil | Revisión sobre insomnio e hipoperfusión cerebral; no es específica de midazolam. |
 
 ## Información de Mercado en Argentina
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 32660 | REM CHOBET | 15 mg/3 ml, ampollas x 2 | No disponible |
-| 52500 | REM CHOBET | 15 mg, comprimidos x 30 | No disponible |
-| 30321 | REM CHOBET | 50 mg/10 ml, ampollas x 25 | No disponible |
-| 52499 | REM CHOBET | 15 mg, comprimidos x 10 | No disponible |
-| 52501 | REM CHOBET | 15 mg, comprimidos x 50 | No disponible |
+| 32660 | REM CHOBET | 15 mg/3 ml a.x 2 | No registrada en los datos locales |
+| 52500 | REM CHOBET | 15 mg comp.x 30 | No registrada en los datos locales |
+| 30321 | REM CHOBET | 50 mg/10 ml a.x 25 | No registrada en los datos locales |
+| 52499 | REM CHOBET | 15 mg comp.x 10 | No registrada en los datos locales |
+| 52501 | REM CHOBET | 15 mg comp.x 50 | No registrada en los datos locales |
+
+Las cinco autorizaciones (fabricante: Soubeiran Chobet) están vigentes y corresponden a producto de un solo principio activo.
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones señaladas en el grafo de conocimiento (no provienen del prospecto):** enfermedad pulmonar obstructiva crónica (incluida la de inicio temprano grave), cirrosis hepática, glaucoma de ángulo cerrado, enfermedad renal crónica, insuficiencia renal crónica e insuficiencia renal terminal.
-- **Interacciones farmacológicas:** se identificaron 100 interacciones en total. Entre las listadas, de nivel moderado: ranitidina, bupropión, aprepitant, morfina, omeprazol, cimetidina, claritromicina, dronabinol, eluxadolina, teduglutida, nabilona, metoclopramida, miconazol, clotrimazol y glicerol fenilbutirato. De nivel menor: dexametasona, betametasona, óxido de magnesio, hidróxido de aluminio y carbonato de calcio. Cabe destacar los inhibidores de CYP3A4 y los depresores del sistema nervioso central.
-- **Riesgos de clase a considerar:** tolerancia, dependencia, insomnio de rebote y deterioro al día siguiente.
+- **Interacciones Farmacológicas**: se registran 100 interacciones. Entre las de nivel moderado figuran ranitidina, bupropión, aprepitant, morfina, omeprazol, cimetidina, claritromicina, dronabinol, eluxadolina, nabilona, metoclopramida, miconazol y clotrimazol. Las de nivel menor incluyen dexametasona, betametasona, óxido de magnesio, hidróxido de aluminio y carbonato de calcio. Dada la combinación con opioides y otros depresores del sistema nervioso central, y con inhibidores de CYP3A4, se requiere especial cautela.
 
-Para advertencias y contraindicaciones oficiales, consultar el prospecto aprobado por ANMAT.
+Consultar el prospecto para advertencias y contraindicaciones.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-El mecanismo de clase es coherente, y existen varios ensayos aleatorizados históricos de midazolam oral en insomnio, pero son antiguos y los ensayos clínicos registrados aportan solo evidencia indirecta. Dado el perfil de riesgo (dependencia, interacciones, contraindicaciones respiratorias, hepáticas y renales), se recomienda avanzar con salvaguardas.
+Existen estudios clásicos (incluido un ensayo aleatorizado en insomnes crónicos) que respaldan el efecto hipnótico de midazolam oral, y el mecanismo es plausible. Sin embargo, ningún ensayo clínico registrado estudia directamente el insomnio, la vida media corta y la carga de interacciones limitan su uso crónico, y faltan los datos de seguridad del prospecto.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto de ANMAT (advertencias, contraindicaciones e indicaciones aprobadas), que hoy es un vacío de información bloqueante.
-- Confirmar los datos del mecanismo de acción en DrugBank.
-- Verificar si la indicación de insomnio ya figura en las autorizaciones locales (las formas orales de 15 mg) y la compatibilidad de vías de administración.
-- Revisar críticamente los ensayos históricos de midazolam oral en insomnio y definir si se requieren estudios modernos.
-- Plan de manejo de riesgos: control de dependencia, duración limitada de tratamiento, revisión de interacciones con inhibidores de CYP3A4 y depresores del SNC, y precaución en pacientes con EPOC, cirrosis, glaucoma de ángulo cerrado o enfermedad renal.
+- Obtener y revisar el prospecto de ANMAT (advertencias y contraindicaciones).
+- Confirmar el mecanismo de acción en una fuente de referencia.
+- Definir la población objetivo (insomnio agudo o secundario) y evaluar la practicidad frente a hipnóticos ya establecidos.
+- Plan de manejo de interacciones (CYP3A4, opioides, depresores del SNC) y de riesgo de dependencia y depresión respiratoria.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

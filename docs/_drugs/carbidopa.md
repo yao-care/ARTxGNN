@@ -8,6 +8,7 @@ nav_order: 79
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Carbidopa
@@ -51,8 +52,8 @@ por lo que **no es posible realizar una evaluación de reposicionamiento complet
 | Nueva Indicación Predicha | Sin predicciones TxGNN disponibles |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | L5 — Sin estudios reales |
-| Estado de Mercado en Argentina | ✗ No comercializado (0 autorizaciones ANMAT) |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 18 de 18) |
+| Número de Autorizaciones | 18 (vigentes: 18) |
 | Decisión Recomendada | **Hold** |
 
 ---

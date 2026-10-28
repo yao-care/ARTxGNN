@@ -4,17 +4,17 @@ title: Diazoxide
 parent: Solo Predicción del Modelo (L5)
 nav_order: 123
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Diazoxide: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (nivel de evidencia L5). Indicación original: Hipoglucemia hiperinsulinémica e insulinoma pancreático (según el gra…"
+indication_count: 9
 monitor_inn: "diazoxide"
-predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "hypertrichosis (disease)", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "autosomal dominant hyperinsulinism due to Kir6.2 deficiency"]
+predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "hypertrichosis (disease)", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality"]
+last_modified_at: 2026-10-27
+description: "Diazoxide: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Diazoxide
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,33 +33,33 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Diazóxido: De Hiperinsulinismo/Insulinoma a Hipotricosis Simple del Cuero Cabelludo
+## Diazoxide: agente abridor de canales KATP → Hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Diazóxido es un abridor de canales de potasio sensibles a ATP (KATP), utilizado originalmente para el tratamiento de la hipoglucemia hiperinsulinémica y del insulinoma pancreático.
-El modelo TxGNN predice que podría ser efectivo para **hipotricosis simple del cuero cabelludo**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta predicción específica (solo predicción del modelo).
+Diazoxide es un abridor de canales de potasio sensibles a ATP (KATP), utilizado en el control de la hipoglucemia por exceso de insulina.
+El modelo TxGNN predice que podría ser efectivo para **hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp)**, pero actualmente **no hay ensayos clínicos ni publicaciones** que estudien directamente esta enfermedad: se trata de una predicción basada solo en el modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipoglucemia hiperinsulinémica e insulinoma pancreático (según el grafo de conocimiento; el texto de indicación aprobado en ANMAT no está disponible) |
-| Nueva Indicación Predicha | Hipotricosis simple del cuero cabelludo |
-| Puntaje de Predicción TxGNN | 99.96% |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp) |
+| Puntaje de Predicción TxGNN | 0,9996 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | ✓ Comercializado |
-| Número de Autorizaciones | 1 |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: 1 de 1) |
+| Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento farmacológico general, el diazóxido abre los canales KATP (a través de SUR1/Kir6.2), lo que reduce la secreción de insulina; por eso es eficaz en el hiperinsulinismo.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, diazoxide actúa como abridor de canales KATP, igual que el minoxidil, un agente establecido para estimular el crecimiento del cabello.
 
-La relación con la nueva indicación es indirecta: la apertura de canales KATP en el folículo piloso es el mecanismo que se asocia con el crecimiento del cabello, compartido con el minoxidil. El hipertricosis es un efecto adverso conocido del diazóxido de uso sistémico, lo que sugiere un vínculo plausible a nivel de clase farmacológica.
+Un efecto adverso bien descrito de diazoxide es la hipertricosis (crecimiento excesivo de vello). Esto podría vincular mecanísticamente al fármaco con trastornos de falta de cabello. Un estudio preclínico en macacos con calvicie frontal (PMID 2085505) mostró efectos de diazoxide tópico sobre el crecimiento folicular, aunque ese estudio se refiere a la alopecia en general y no a la hipotricosis simple.
 
-Sin embargo, esta relación no está validada para la hipotricosis simple genética. El efecto observado como reacción adversa sistémica no demuestra eficacia terapéutica, y no existe evidencia directa en esta enfermedad.
+Sin embargo, no existe evidencia directa para esta enfermedad genética de pérdida de cabello. Además, un uso tópico requeriría una formulación distinta y una evaluación propia de seguridad y farmacocinética, ya que la exposición sistémica conlleva riesgos (hiperglucemia, retención de líquidos). La similitud con la indicación original está pendiente de análisis.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -69,46 +69,29 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Actualmente no hay literatura relacionada disponible para la hipotricosis simple del cuero cabelludo.
 
-A modo de contexto, para la indicación predicha de rango 4 (**alopecia**, nivel L4), existe evidencia indirecta:
-
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [2085505](https://pubmed.ncbi.nlm.nih.gov/2085505/) | 1990 | Estudio animal (primate) | J Dermatol Sci | El diazóxido tópico en macacos con calvicie frontal evaluó el efecto sobre el crecimiento folicular y la fisiología, aprovechando el efecto hipertricótico del fármaco |
-| [8326148](https://pubmed.ncbi.nlm.nih.gov/8326148/) | 1993 | Revisión | J Invest Dermatol | El minoxidil y el diazóxido tópicos indujeron un rebrote significativo en macacos con alopecia androgenética |
-| [8018303](https://pubmed.ncbi.nlm.nih.gov/8018303/) | 1994 | Revisión | Drug Safety | Revisión de la caída y el crecimiento del cabello inducidos por fármacos |
-| [37042338](https://pubmed.ncbi.nlm.nih.gov/37042338/) | 2023 | Reporte de caso | Pediatr Dermatol | Hipertricosis generalizada por exposición al minoxidil (no diazóxido); menciona al diazóxido como causa de hipertricosis |
-
 ## Información de Mercado en Argentina
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 51104 | PROGLICEM | 100 mg x 5 cáps. x 20 | Texto de indicación no disponible |
+| 51104 | PROGLICEM | 100 mg x 5 cáps. x 20 (cápsulas) | No registrada en los datos locales |
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones según el grafo de conocimiento** (no provienen del prospecto): enfermedad renal, insuficiencia renal, uremia, enfermedad hepática, enfermedad de la vesícula biliar, hiperglucemia, diabetes mellitus, cetoacidosis diabética, insuficiencia cardíaca congestiva, enfermedad coronaria, trastorno cerebrovascular, hipotensión ortostática, síndrome de taquicardia postural ortostática, atrofia multisistémica, deficiencia de potasio, gota, hiperuricemia y piouréter.
-- **Interacciones farmacológicas**: se identificaron 209 interacciones, las 20 mostradas son de nivel moderado. Destacan los antidiabéticos (acarbosa, metformina, pioglitazona, alogliptina, albiglutida, dulaglutida, canagliflozina, dapagliflozina, empagliflozina, ertugliflozina, clorpropamida, acetohexamida), corticosteroides (hidrocortisona, triamcinolona, dexametasona, betametasona, budesonida), y también bupropión, morfina y dronabinol. Es esperable que el diazóxido reduzca la eficacia de los antidiabéticos al elevar la glucemia.
-- **Efectos adversos descritos en la literatura**: hipertricosis, retención de líquidos, insuficiencia cardíaca y enterocolitis necrosante en neonatos.
-
-Para advertencias y contraindicaciones oficiales, consultar el prospecto aprobado por ANMAT.
+- **Contraindicaciones**: los datos compilados para este informe no incluyen texto de prospecto con advertencias o contraindicaciones. Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas**: se identificaron 209 interacciones; las principales mostradas son de nivel moderado e incluyen antidiabéticos (acarbosa, metformina, pioglitazona, alogliptina, clorpropamida, acetohexamida), inhibidores de SGLT2 (canagliflozina, dapagliflozina, empagliflozina, ertugliflozina), agonistas de GLP-1 (albiglutida, dulaglutida), corticoides (hidrocortisona, dexametasona, betametasona, budesonida, triamcinolona), además de bupropión, morfina y dronabinol.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para hipotricosis simple del cuero cabelludo se basa solo en el modelo (L5), sin ensayos ni literatura. Además, el efecto piloso del diazóxido es un efecto adverso sistémico y no una demostración terapéutica.
+La predicción (puntaje 0,9996) se basa únicamente en el modelo, sin ensayos ni publicaciones que estudien esta enfermedad (nivel L5). El vínculo mecanístico por el efecto hipertricósico es plausible pero especulativo.
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de acción y del prospecto de ANMAT (advertencias y contraindicaciones)
-- Estudios preclínicos de formulación tópica en modelos de hipotricosis genética
-- Evaluación de la seguridad sistémica de una formulación tópica, considerando la absorción
-- Priorizar la indicación de **alopecia** (L4, "pregunta de investigación"), que cuenta con un estudio preclínico en primates, antes que las demás predicciones
-
-**Observaciones sobre otras predicciones del modelo:**
-- **Hipertricosis** y **Ambras (hipertricosis universal congénita)**: la asociación refleja probablemente el efecto adverso del fármaco; no se recomienda el reposicionamiento.
-- **Alopecia areata difusa**: la patología autoinmune no se abordaría con este mecanismo.
-- **Hiperinsulinismo autosómico dominante por deficiencia de Kir6.2**: coincide con las indicaciones ya establecidas y no es un reposicionamiento; la respuesta depende de la variante genética.
+- Estudios preclínicos específicos en hipotricosis simple o modelos foliculares relevantes
+- Datos del mecanismo de acción y del prospecto local (advertencias y contraindicaciones)
+- Desarrollo de una formulación tópica con evaluación de seguridad y farmacocinética
+- Plan de monitoreo de la glucemia y de los efectos sistémicos si hubiera absorción
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

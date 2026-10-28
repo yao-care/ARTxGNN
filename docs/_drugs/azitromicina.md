@@ -8,6 +8,7 @@ nav_order: 41
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Azitromicina
@@ -49,7 +50,7 @@ Azitromicina es un antibiótico macrólido ampliamente utilizado para el tratami
 | Nueva Indicación Predicha | — Sin predicciones disponibles — |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | L5 (datos insuficientes) |
-| Estado de Mercado en Argentina | ✗ No comercializado (sin registros encontrados) |
+| Estado de Mercado en Argentina | Comercializado (registros vigentes: al menos 20) |
 | Número de Autorizaciones | 0 |
 | Decisión Recomendada | **Hold** |
 
