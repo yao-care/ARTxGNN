@@ -31,6 +31,11 @@ description: "Todos los informes de validación de medicamentos y las estadísti
 
 ---
 
+<!-- local-home:start（母目錄 .claude/gen_local_home_20261029.py 產生，勿手改）-->
+Esta lista se basa en los datos de registro de [ANMAT](https://www.argentina.gob.ar/anmat) (Argentina).
+
+<!-- local-home:end -->
+
 ## Distribución por nivel de evidencia
 
 | Nivel de evidencia | Medicamentos | Descripción |
