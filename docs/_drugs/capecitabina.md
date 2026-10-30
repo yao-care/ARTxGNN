@@ -7,7 +7,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 77
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-09-17
+last_modified_at: 2026-10-30
 ---
 
 # Capecitabina
@@ -51,8 +51,8 @@ En consecuencia, **no es posible completar la evaluación de reposicionamiento e
 | Nueva Indicación Predicha | No disponible |
 | Puntaje de Predicción TxGNN | No disponible |
 | Nivel de Evidencia | L5 (sin estudios reales evaluados) |
-| Estado de Mercado en Argentina | No comercializado |
-| Número de Autorizaciones | 0 |
+| Estado de Mercado en Argentina | No comercializado (sin registro) |
+| Número de Autorizaciones | 0 (vigentes: 0) |
 | Decisión Recomendada | **Hold** |
 
 ---
