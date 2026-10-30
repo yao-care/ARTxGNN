@@ -52,7 +52,7 @@ En consecuencia, **no es posible completar la evaluación de reposicionamiento e
 | Puntaje de Predicción TxGNN | No disponible |
 | Nivel de Evidencia | L5 (sin estudios reales evaluados) |
 | Estado de Mercado en Argentina | No comercializado (sin registro) |
-| Número de Autorizaciones | 0 (vigentes: 0) |
+| Número de productos en el listado PAMI | 0 (vigentes: 0) |
 | Decisión Recomendada | **Hold** |
 
 ---

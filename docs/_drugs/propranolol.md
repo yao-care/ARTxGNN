@@ -50,7 +50,7 @@ El modelo TxGNN predice que podría ser útil para **miopatía distal tipo Tatey
 | Puntaje de Predicción TxGNN | 0,9940 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (4 de 4) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorizaciones | 4 (vigentes: 4) |
+| Número de productos en el listado PAMI | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

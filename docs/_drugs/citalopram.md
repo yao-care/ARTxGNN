@@ -49,7 +49,7 @@ Citalopram es un antidepresivo de la clase de los inhibidores selectivos de la r
 | Puntaje de Predicción TxGNN | 0,9974 |
 | Nivel de Evidencia | L3 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (7 de 7) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorizaciones | 7 (vigentes: 7) |
+| Número de productos en el listado PAMI | 7 (vigentes: 7) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?

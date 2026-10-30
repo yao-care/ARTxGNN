@@ -20,7 +20,7 @@ evidence_level: N/A
 | Item | Value |
 |------|-------|
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (5 de 5) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorizaciones | 5 (vigentes: 5) |
+| Número de productos en el listado PAMI | 5 (vigentes: 5) |
 | DrugBank ID | [DB00911](https://go.drugbank.com/drugs/DB00911) |
 | Number of Predicted Indications | 7 |
 

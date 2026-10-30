@@ -51,7 +51,7 @@ Actualmente hay **0 ensayos clínicos** y **0 publicaciones** que estudien direc
 | Puntaje de Predicción TxGNN | 1,0000 (valor sin redondear: 0,99997938) |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (17 de 17) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorizaciones | 17 (vigentes: 17) |
+| Número de productos en el listado PAMI | 17 (vigentes: 17) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

@@ -53,7 +53,7 @@ Los datos de mecanismo de acción, advertencias de seguridad y ensayos clínicos
 | Puntaje de Predicción TxGNN | Sin datos disponibles |
 | Nivel de Evidencia | L5 — Solo predicción del modelo, sin estudios asociados cargados |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (6 de 6) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorizaciones | 6 (vigentes: 6) |
+| Número de productos en el listado PAMI | 6 (vigentes: 6) |
 | Decisión Recomendada | **Hold** |
 
 ---

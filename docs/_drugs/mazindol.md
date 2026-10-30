@@ -49,7 +49,7 @@ Mazindol es un anorexígeno simpaticomimético que se comercializa en Argentina.
 | Puntaje de Predicción TxGNN | 1,0000 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (4 de 4) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorizaciones | 4 (vigentes: 4) |
+| Número de productos en el listado PAMI | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 > Nota sobre el puntaje: el valor exacto es 0,99998 (0,9999758); redondeado a 4 decimales se muestra como 1,0000.

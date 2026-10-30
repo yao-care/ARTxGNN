@@ -51,7 +51,7 @@ Nandrolona (decanoato de nandrolona, comercializada en Argentina como DECA-DURAB
 | Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (1 de 1) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorizaciones | 1 (vigentes: 1) |
+| Número de productos en el listado PAMI | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---

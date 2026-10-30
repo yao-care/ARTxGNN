@@ -53,7 +53,7 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 | Puntaje de Predicción TxGNN | 0.9976 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (2 de 2) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorizaciones | 2 (vigentes: 2) |
+| Número de productos en el listado PAMI | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---

@@ -53,7 +53,7 @@ Bromhexina es un agente mucolítico ampliamente utilizado para facilitar la expe
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | **L5** (sin evidencia clínica ni predicción del modelo) |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (10 de 10) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorizaciones | 10 (vigentes: 10) |
+| Número de productos en el listado PAMI | 10 (vigentes: 10) |
 | Decisión Recomendada | **Hold** |
 
 ---

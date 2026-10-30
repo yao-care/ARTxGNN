@@ -51,7 +51,7 @@ Beclometasona es un corticosteroide conocido ampliamente utilizado en el tratami
 | Puntaje de Predicción TxGNN | — |
 | Nivel de Evidencia | L5 — Solo datos preliminares, sin predicción ni estudios asociados |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (2 de 2) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorizaciones | 2 (vigentes: 2) |
+| Número de productos en el listado PAMI | 2 (vigentes: 2) |
 | Decisión Recomendada | **Hold** |
 
 ---

@@ -49,7 +49,7 @@ Estriol es un estrógeno débil y de acción corta, comercializado en Argentina 
 | Puntaje de Predicción TxGNN | 0.9918 |
 | Nivel de Evidencia | L3 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (6 de 6) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorizaciones | 6 (vigentes: 6) |
+| Número de productos en el listado PAMI | 6 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

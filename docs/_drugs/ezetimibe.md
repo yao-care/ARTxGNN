@@ -49,7 +49,7 @@ Ezetimibe es un fármaco hipolipemiante utilizado originalmente para tratar la h
 | Puntaje de Predicción TxGNN | 0,9909 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (al menos 20) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorizaciones | Al menos 20 (la lista puede ser parcial) |
+| Número de productos en el listado PAMI | Al menos 20 (la lista puede ser parcial) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

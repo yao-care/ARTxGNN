@@ -51,7 +51,7 @@ Entre las demás indicaciones predichas, la **retinopatía diabética** es la qu
 | Puntaje de Predicción TxGNN | 0,9995 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (6 de 6) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorizaciones | 6 (vigentes: 6) |
+| Número de productos en el listado PAMI | 6 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 > Nota: la indicación con mayor respaldo en la literatura es la retinopatía diabética (nivel L3, puntaje TxGNN 0,9955), que se describe más abajo como alternativa prioritaria.

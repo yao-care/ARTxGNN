@@ -50,7 +50,7 @@ El modelo TxGNN predice que podría ser efectivo para **calcifilaxis visceral (v
 | Puntaje de Predicción TxGNN | 1,0000 (0,99999845 sin redondear a 4 decimales: 1,0000) |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (8 de 8) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorizaciones | 8 (vigentes: 8) |
+| Número de productos en el listado PAMI | 8 (vigentes: 8) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

@@ -51,7 +51,7 @@ Nafazolina es un vasoconstrictor simpaticomimético (agonista alfa-adrenérgico)
 | Puntaje de Predicción TxGNN | 0.9983 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (9 de 9) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorizaciones | 9 (vigentes: 9) |
+| Número de productos en el listado PAMI | 9 (vigentes: 9) |
 | Decisión Recomendada | Hold |
 
 ---

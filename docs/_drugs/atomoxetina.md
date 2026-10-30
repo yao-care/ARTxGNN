@@ -51,7 +51,7 @@ Atomoxetina es un inhibidor selectivo de la recaptación de noradrenalina (ISRN)
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | L5 (solo datos preliminares, sin estudios ni predicción) |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (5 de 5) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorizaciones | 5 (vigentes: 5) |
+| Número de productos en el listado PAMI | 5 (vigentes: 5) |
 | Decisión Recomendada | **Hold** |
 
 ---

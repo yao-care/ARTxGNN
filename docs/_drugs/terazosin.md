@@ -49,7 +49,7 @@ Terazosina es un bloqueante alfa-1 adrenérgico que se comercializa en Argentina
 | Puntaje de Predicción TxGNN | 0,9997 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (18 de 18) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorizaciones | 18 (vigentes: 18) |
+| Número de productos en el listado PAMI | 18 (vigentes: 18) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

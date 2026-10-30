@@ -51,7 +51,7 @@ Acetazolamida es un inhibidor de la anhidrasa carbónica con múltiples usos cl�
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | **L5** — Solo datos preliminares, sin predicciones ni estudios asociados |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (2 de 2) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorizaciones | 2 (vigentes: 2) |
+| Número de productos en el listado PAMI | 2 (vigentes: 2) |
 | Decisión Recomendada | **Hold** |
 
 ---

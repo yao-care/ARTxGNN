@@ -42,8 +42,8 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 | Item | Contenido |
 |------|-----------|
 | Indicación Original | No consta en los datos locales |
-| Estado de Mercado | Incluido en el listado de medicamentos de PAMI (2 de 2) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorizaciones | 2 (vigentes: 2) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (2 de 2) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de productos en el listado PAMI | 2 (vigentes: 2) |
 
 > ¹ Benznidazol no presenta indicaciones aprobadas en las bases de datos regulatorias consultadas (TFDA). Sin embargo, es ampliamente reconocido como tratamiento estándar para la enfermedad de Chagas en Latinoamérica (aprobado por ANMAT en Argentina, FDA en EE.UU. para uso pediátrico, y recomendado por la OMS).
 

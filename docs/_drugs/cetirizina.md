@@ -53,7 +53,7 @@ La evaluación no puede avanzar hasta que se resuelvan las brechas de datos iden
 | Puntaje de Predicción TxGNN | N/D |
 | Nivel de Evidencia | L5 — Sin estudios reales disponibles en este paquete |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (18 de 18) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorizaciones | 18 (vigentes: 18) |
+| Número de productos en el listado PAMI | 18 (vigentes: 18) |
 | Decisión Recomendada | **Hold** |
 
 ---

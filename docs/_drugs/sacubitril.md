@@ -49,7 +49,7 @@ Sacubitril es un inhibidor de la neprilisina que se comercializa en Argentina ba
 | Puntaje de Predicción TxGNN | 0,9958 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (16 de 16) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorizaciones | 16 (vigentes: 16) |
+| Número de productos en el listado PAMI | 16 (vigentes: 16) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

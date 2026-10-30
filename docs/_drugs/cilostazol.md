@@ -57,7 +57,7 @@ CILOSTAZOL es un fármaco del que actualmente no se disponen indicaciones origin
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | L5 — sin predicción ni estudios disponibles |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (al menos 20) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorizaciones | 0 |
+| Número de productos en el listado PAMI | 0 |
 | Decisión Recomendada | **Hold** |
 
 ---

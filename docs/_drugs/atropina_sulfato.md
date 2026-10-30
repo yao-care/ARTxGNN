@@ -51,7 +51,7 @@ Atropina Sulfato es un agente anticolinérgico ampliamente conocido, utilizado c
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | L5 (sin evidencia disponible para reposicionamiento) |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (2 de 2) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorizaciones | 2 (vigentes: 2) |
+| Número de productos en el listado PAMI | 2 (vigentes: 2) |
 | Decisión Recomendada | **Hold** |
 
 > **Nota:** Aunque la atropina sulfato es un fármaco bien establecido a nivel mundial con múltiples indicaciones conocidas (anticolinérgico, antiespasmódico, midriático, antídoto para intoxicación por organofosforados), el Evidence Pack no contiene registros de indicaciones originales aprobadas ni autorizaciones en Argentina.

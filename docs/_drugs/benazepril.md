@@ -50,7 +50,7 @@ El modelo TxGNN predice que podría ser efectivo para **Enfermedad renal hiperte
 | Puntaje de Predicción TxGNN | 0.9965 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (12 de 12) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorizaciones | 12 (vigentes: 12) |
+| Número de productos en el listado PAMI | 12 (vigentes: 12) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

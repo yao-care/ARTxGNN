@@ -50,7 +50,7 @@ El modelo TxGNN predice que podría ser útil para **conjuntivitis rosácea (ros
 | Puntaje de Predicción TxGNN | 0,9920 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (11 de 11) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorizaciones | 11 (vigentes: 11) |
+| Número de productos en el listado PAMI | 11 (vigentes: 11) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

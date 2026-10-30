@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectivo para **bronquitis**, con **9 en
 | Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L1 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (al menos 20) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorizaciones | 20 |
+| Número de productos en el listado PAMI | 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---

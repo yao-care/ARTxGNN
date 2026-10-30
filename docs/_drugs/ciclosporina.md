@@ -53,7 +53,7 @@ En consecuencia, **no es posible realizar una evaluación de reposicionamiento e
 | Puntaje de Predicción TxGNN | — |
 | Nivel de Evidencia | L5 (sin estudios reales; datos de modelo ausentes) |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (4 de 4) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorizaciones | 4 (vigentes: 4) |
+| Número de productos en el listado PAMI | 4 (vigentes: 4) |
 | Decisión Recomendada | **Hold** |
 
 ---

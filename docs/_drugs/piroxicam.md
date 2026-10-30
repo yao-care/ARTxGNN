@@ -50,7 +50,7 @@ El modelo TxGNN predice que podría ser efectivo para **colobomatous microphthal
 | Puntaje de Predicción TxGNN | 1,0000 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (19 de 19) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorizaciones | 19 (vigentes: 19) |
+| Número de productos en el listado PAMI | 19 (vigentes: 19) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

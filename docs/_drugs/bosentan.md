@@ -5,7 +5,7 @@ layout: default
 title: Bosentan
 parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 59
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -43,7 +43,7 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 |------|-----------|
 | Indicación Original | No consta en los datos locales |
 | Estado de Mercado en Argentina | No comercializado (sin registro) |
-| Número de Autorizaciones | 0 (vigentes: 0) |
+| Número de productos en el listado PAMI | 0 (vigentes: 0) |
 
 ---
 

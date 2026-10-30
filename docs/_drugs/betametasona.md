@@ -55,7 +55,7 @@ La evidencia disponible es insuficiente para avanzar en una evaluación de repos
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | L5 (sin estudios ni predicciones disponibles) |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (al menos 20) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorizaciones | 0 |
+| Número de productos en el listado PAMI | 0 |
 | Decisión Recomendada | **Hold** |
 
 ---

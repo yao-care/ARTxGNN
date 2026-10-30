@@ -53,7 +53,7 @@ La única indicación con evidencia clínica parcial entre las diez predichas es
 | Puntaje de Predicción TxGNN | 0.9984 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (7 de 7) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorizaciones | 7 (vigentes: 7) |
+| Número de productos en el listado PAMI | 7 (vigentes: 7) |
 | Decisión Recomendada | Hold |
 
 ---

@@ -46,7 +46,7 @@ Analizando el Evidence Pack recibido para Cabergolina. Los datos muestran un cas
 |------|------|
 | Indicación Original | No consta en los datos locales |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (8 de 8) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorizaciones | 8 (vigentes: 8) |
+| Número de productos en el listado PAMI | 8 (vigentes: 8) |
 
 ---
 

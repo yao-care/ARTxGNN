@@ -46,8 +46,8 @@ Los candidatos del modelo TxGNN (puntuación ≥ 0,99) para Diltiazem correspond
 | Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo rastreables a una fuente son usos conocidos) |
 | Usos conocidos entre los candidatos del modelo | 1 |
 | Nivel de evidencia | No aplicable |
-| Situación de mercado en Argentina | Incluido en el listado de medicamentos de PAMI (17 de 17) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorizaciones | 17 (vigentes: 17) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (17 de 17) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de productos en el listado PAMI | 17 (vigentes: 17) |
 
 ## Usos conocidos entre los candidatos del modelo
 

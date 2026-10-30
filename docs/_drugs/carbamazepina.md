@@ -51,7 +51,7 @@ Carbamazepina es un anticonvulsivante y estabilizador del ánimo ampliamente con
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | L5 — sin estudios vinculados a predicción |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (17 de 17) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorizaciones | 17 (vigentes: 17) |
+| Número de productos en el listado PAMI | 17 (vigentes: 17) |
 | Decisión Recomendada | **Hold** |
 
 ---

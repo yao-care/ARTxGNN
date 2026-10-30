@@ -49,7 +49,7 @@ Amiodarona es un antiarrítmico de clase III ampliamente utilizado para el trata
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | L5 (sin estudios asociados a una nueva indicación) |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (4 de 4) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorizaciones | 4 (vigentes: 4) |
+| Número de productos en el listado PAMI | 4 (vigentes: 4) |
 | Decisión Recomendada | **Hold** |
 
 ## ¿Por qué no hay Predicciones Disponibles?
