@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "EZETIMIBE"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ezetimibe: nueva indicación predicha, Deficiencia de la proteína de transferencia de ésteres de colesterol (nivel de evidencia L5). Indicación original: Hiperlipidemia"
 ---
 
@@ -48,7 +48,7 @@ Ezetimibe es un fármaco hipolipemiante utilizado originalmente para tratar la h
 | Nueva Indicación Predicha | Deficiencia de la proteína de transferencia de ésteres de colesterol |
 | Puntaje de Predicción TxGNN | 0,9909 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: al menos 20) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (al menos 20) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | Al menos 20 (la lista puede ser parcial) |
 | Decisión Recomendada | Hold |
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "PIRIBEDIL"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "paralysis agitans, juvenile, of Hunt", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "PLA2G6-associated neurodegeneration"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Piribedil: nueva indicación predicha, Distrofia retiniana con o sin anomalías extraoculares (retinal dystrophy with or without extraocular anomalies) (nivel de evidencia L5). Indicación original: No …"
 ---
 
@@ -48,7 +48,7 @@ Piribedil es un fármaco dopaminérgico comercializado en Argentina. El modelo T
 | Nueva Indicación Predicha | Distrofia retiniana con o sin anomalías extraoculares (retinal dystrophy with or without extraocular anomalies) |
 | Puntaje de Predicción TxGNN | 0,9934 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 2 de 2) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (2 de 2) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 

@@ -7,7 +7,7 @@ title: INDAPAMIDA
 drugbank_id: DB00808
 permalink: /drugs/indapamida/
 search_exclude: true
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -19,7 +19,7 @@ evidence_level: N/A
 
 | Item | Value |
 |------|-------|
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 12 de 12) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (12 de 12) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 12 (vigentes: 12) |
 | DrugBank ID | [DB00808](https://go.drugbank.com/drugs/DB00808) |
 | Number of Predicted Indications | 3 |

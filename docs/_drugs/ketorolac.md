@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 171
 evidence_level: L1
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ketorolac: nueva indicación predicha, Trastorno de cefalea (headache disorder) (nivel de evidencia L1). Indicación original: Conjuntivitis atópica, papilar y primaveral"
 monitor_inn: "KETOROLAC"
 predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
@@ -49,7 +49,7 @@ El modelo TxGNN predice que podría ser efectivo para el **trastorno de cefalea*
 | Nueva Indicación Predicha | Trastorno de cefalea (headache disorder) |
 | Puntaje de Predicción TxGNN | 0.9943 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: al menos 20) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (al menos 20) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 

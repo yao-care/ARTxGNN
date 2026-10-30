@@ -7,7 +7,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 37
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 predicted_indications: []
 ---
 
@@ -50,7 +50,7 @@ Atomoxetina es un inhibidor selectivo de la recaptación de noradrenalina (ISRN)
 | Nueva Indicación Predicha | — Sin predicciones disponibles — |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | L5 (solo datos preliminares, sin estudios ni predicción) |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 5 de 5) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (5 de 5) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 5 (vigentes: 5) |
 | Decisión Recomendada | **Hold** |
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "modafinil"
 predicted_indications: ["insomnia (disease)"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Modafinil: nueva indicación predicha, Insomnio (insomnia) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -49,7 +49,7 @@ El modelo TxGNN predice que podría ser efectivo para **Insomnio (insomnia)**, c
 | Nueva Indicación Predicha | Insomnio (insomnia) |
 | Puntaje de Predicción TxGNN | 0.9985 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 7 de 7) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (7 de 7) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 7 (vigentes: 7) |
 | Decisión Recomendada | Hold |
 

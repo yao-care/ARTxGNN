@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 119
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Desogestrel: nueva indicación predicha, Amenorrea (nivel de evidencia L3). Indicación original: No disponible en los textos de autorización"
 monitor_inn: "DESOGESTREL"
 predicted_indications: ["amenorrhea (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast", "acne (disease)", "fat necrosis of breast", "breast abscess", "lactation disease", "breast adenosis", "primary ovarian failure", "symptomatic form of fragile X syndrome in female carrier"]
@@ -50,7 +50,7 @@ con **1 ensayo clínico** (de relevancia solo indirecta) y **11 publicaciones** 
 | Nueva Indicación Predicha | Amenorrea |
 | Puntaje de Predicción TxGNN | 0.9996 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 7 de 7) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (7 de 7) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 7 (vigentes: 7) |
 | Decisión Recomendada | Hold |
 

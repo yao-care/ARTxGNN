@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 144
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Fludrocortisone: nueva indicación predicha, Linfoma cutáneo primario de células T (nivel de evidencia L5). Indicación original: No disponible en la licencia de ANMAT (texto de indicación vacío)"
 monitor_inn: "fludrocortisone"
 predicted_indications: ["primary cutaneous T-cell lymphoma", "cystic teratoma", "spinal cord dermoid cyst", "dermoid cyst of ovary", "disease of orbital part of eye adnexa", "eye disease", "disease of orbital region", "exostosis"]
@@ -52,7 +52,7 @@ La evidencia es débil: solo hay un estudio preclínico y un estudio de fase 1B 
 | Nueva Indicación Predicha | Linfoma cutáneo primario de células T (rank 1); enfermedad ocular (rank 6, con más literatura) |
 | Puntaje de Prediccion TxGNN | 0.9958 (linfoma cutáneo primario de células T); 0.9914 (enfermedad ocular) |
 | Nivel de Evidencia | L5 (linfoma cutáneo de células T); L4 (enfermedad ocular) |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 1 de 1) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (1 de 1) – el estado del registro en ANMAT no está incluido en estos datos |
 | Numero de Autorizaciones | 1 (vigentes: 1) |
 | Decision Recomendada | Hold |
 

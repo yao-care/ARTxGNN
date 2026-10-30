@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 183
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Loxoprofen: nueva indicación predicha, Síndrome de microftalmía colobomatosa-displasia rizomélica (nivel de evidencia L5). Indicación original: Artritis reumatoide (según la base de conocimiento del …"
 monitor_inn: "loxoprofen"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
@@ -49,7 +49,7 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de microfta
 | Nueva Indicación Predicha | Síndrome de microftalmía colobomatosa-displasia rizomélica |
 | Puntaje de Predicción TxGNN | 0.9980 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 1 de 1) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (1 de 1) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 

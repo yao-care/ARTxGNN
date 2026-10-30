@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "TRAVOPROST"
 predicted_indications: ["visceral calciphylaxis", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis", "idiopathic spontaneous coronary artery dissection", "hemangioendothelioma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Travoprost: nueva indicación predicha, calcifilaxis visceral (visceral calciphylaxis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -49,7 +49,7 @@ El modelo TxGNN predice que podría ser efectivo para **calcifilaxis visceral (v
 | Nueva Indicación Predicha | calcifilaxis visceral (visceral calciphylaxis) |
 | Puntaje de Predicción TxGNN | 1,0000 (0,99999845 sin redondear a 4 decimales: 1,0000) |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 8 de 8) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (8 de 8) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 8 (vigentes: 8) |
 | Decisión Recomendada | Hold |
 

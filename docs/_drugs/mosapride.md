@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 196
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Mosapride: nueva indicación predicha, Insomnio (nivel de evidencia L5). Indicación original: Trastornos gastrointestinales (uso procinético"
 monitor_inn: "MOSAPRIDE"
 predicted_indications: ["insomnia (disease)"]
@@ -49,7 +49,7 @@ El modelo TxGNN predice que podría ser efectivo para **insomnio**, pero actualm
 | Nueva Indicación Predicha | Insomnio |
 | Puntaje de Predicción TxGNN | 0.9987 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 10 de 10) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (10 de 10) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 10 (vigentes: 10) |
 | Decisión Recomendada | Hold |
 

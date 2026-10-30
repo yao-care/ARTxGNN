@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 72
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Calcipotriol: nueva indicación predicha, Queratosis seborreica (nivel de evidencia L3). Indicación original: No disponible en los datos de las autorizaciones de ANMAT"
 monitor_inn: "CALCIPOTRIOL"
 predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "vulvovaginitis", "vulvitis", "vulvar neoplasm", "ulceration of vulva", "vulvar squamous neoplasm", "postmenopausal atrophic vaginitis", "bone Paget disease", "breast fibrocystic disease"]
@@ -50,7 +50,7 @@ Calcipotriol es un análogo de la vitamina D3 de uso tópico, comercializado en 
 | Nueva Indicación Predicha | Queratosis seborreica |
 | Puntaje de Predicción TxGNN | 0.9996 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 4 de 4) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (4 de 4) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 

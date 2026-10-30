@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 90
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Cefoxitin: nueva indicación predicha, Otitis media infecciosa (nivel de evidencia L5). Indicación original: Infecciones bacterianas (neumonía bacteriana, peritonitis…"
 monitor_inn: "cefoxitin"
 predicted_indications: ["infectious otitis media", "urinary tract infection (disease)", "chronic otitis media", "suppurative otitis media", "middle ear disease", "Ureaplasma urethritis", "toxocariasis", "otosalpingitis", "non-suppurative otitis media"]
@@ -49,7 +49,7 @@ El modelo TxGNN predice que podría ser efectiva para **otitis media infecciosa*
 | Nueva Indicación Predicha | Otitis media infecciosa |
 | Puntaje de Predicción TxGNN | 0.9930 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 1 de 1) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (1 de 1) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 

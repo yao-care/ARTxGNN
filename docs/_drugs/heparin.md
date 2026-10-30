@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "heparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Heparin: nueva indicación predicha, trombofilia por deficiencia de proteína C, autosómica recesiva (thrombophilia due to protein C deficiency… (nivel de evidencia L5). Indicación original: No consta …"
 ---
 
@@ -49,7 +49,7 @@ El modelo TxGNN predice que podría ser útil para **trombofilia por deficiencia
 | Nueva Indicación Predicha | trombofilia por deficiencia de proteína C, autosómica recesiva (thrombophilia due to protein C deficiency, autosomal recessive) |
 | Puntaje de Predicción TxGNN | 0,9929 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 2 de 2) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (2 de 2) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 

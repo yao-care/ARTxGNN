@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "cinchocaine"
 predicted_indications: ["bronchitis", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acne keloid", "hydroa vacciniforme, familial", "amyopathic dermatomyositis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Cinchocaine: nueva indicación predicha, Bronquitis (bronchitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -49,7 +49,7 @@ El modelo TxGNN predice que podría ser efectiva para **Bronquitis (bronchitis)*
 | Nueva Indicación Predicha | Bronquitis (bronchitis) |
 | Puntaje de Predicción TxGNN | 0.9977 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 2 de 2) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (2 de 2) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 

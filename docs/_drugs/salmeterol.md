@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 227
 evidence_level: L1
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Salmeterol: nueva indicación predicha, Bronquitis (nivel de evidencia L1). Indicación original: Enfisema pulmonar, asma intrínseca y asma alérgica"
 monitor_inn: "SALMETEROL"
 predicted_indications: ["bronchitis", "respiratory malformation", "obstructive lung disease", "Rienhoff syndrome", "atopic eczema"]
@@ -51,7 +51,7 @@ El modelo TxGNN predice que podría ser efectivo para **bronquitis**, con **9 en
 | Nueva Indicación Predicha | Bronquitis |
 | Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: al menos 20) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (al menos 20) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 

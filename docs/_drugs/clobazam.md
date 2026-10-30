@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "CLOBAZAM"
 predicted_indications: ["febrile infection-related epilepsy syndrome", "perioral myoclonia with absences", "photosensitive occipital lobe epilepsy", "atypical childhood epilepsy with centrotemporal spikes", "cryptogenic late-onset epileptic spasms", "childhood onset epileptic encephalopathy", "benign occipital epilepsy", "early-onset epileptic encephalopathy and intellectual disability due to GRIN2A mutation", "restless legs syndrome", "polymicrogyria with optic nerve hypoplasia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Clobazam: nueva indicación predicha, Síndrome epiléptico relacionado con infección febril (febrile infection-related epilepsy syndrome) (nivel de evidencia L5). Indicación original: No consta en los …"
 ---
 
@@ -49,7 +49,7 @@ El modelo TxGNN predice que podría ser útil para el **síndrome epiléptico re
 | Nueva Indicación Predicha | Síndrome epiléptico relacionado con infección febril (febrile infection-related epilepsy syndrome) |
 | Puntaje de Predicción TxGNN | 0.9982 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 4 de 4) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (4 de 4) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 

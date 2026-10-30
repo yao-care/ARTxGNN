@@ -7,7 +7,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 103
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 predicted_indications: []
 ---
 
@@ -52,7 +52,7 @@ La ausencia de datos de mecanismo de acción (MOA) y de indicaciones originales 
 | Nueva Indicación Predicha | Sin predicciones generadas |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | N/A |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 7 de 7) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (7 de 7) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 7 (vigentes: 7) |
 | Decisión Recomendada | Hold |
 

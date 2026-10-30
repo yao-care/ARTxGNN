@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 3
 monitor_inn: "MONTELUKAST"
 predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Montelukast: nueva indicación predicha, Bronquitis (bronchitis) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
 ---
 
@@ -48,7 +48,7 @@ Montelukast es un antagonista del receptor de cisteinil-leucotrienos tipo 1 (Cys
 | Nueva Indicación Predicha | Bronquitis (bronchitis) |
 | Puntaje de Predicción TxGNN | 0,9995 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: al menos 20) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (al menos 20) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 

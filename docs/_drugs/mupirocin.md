@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "mupirocin"
 predicted_indications: ["pleural empyema (disease)", "punctate epithelial keratoconjunctivitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Mupirocin: nueva indicación predicha, Empiema pleural (pleural empyema) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -50,7 +50,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | Empiema pleural (pleural empyema) |
 | Puntaje de Predicción TxGNN | 0,9949 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 10 de 10) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (10 de 10) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 10 (vigentes: 10) |
 | Decisión Recomendada | Hold |
 

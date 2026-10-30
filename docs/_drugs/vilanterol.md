@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "VILANTEROL"
 predicted_indications: ["hyperlucent lung", "tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Vilanterol: nueva indicación predicha, pulmón hiperlúcido (hyperlucent lung) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -50,7 +50,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | pulmón hiperlúcido (hyperlucent lung) |
 | Puntaje de Predicción TxGNN | 0,9972 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 5 de 5) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (5 de 5) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 5 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 

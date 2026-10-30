@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "triamcinolone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Triamcinolone: nueva indicación predicha, alopecia mucinosa (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -49,7 +49,7 @@ El modelo TxGNN predice que podría ser efectivo para **alopecia mucinosa (alope
 | Nueva Indicación Predicha | alopecia mucinosa (alopecia mucinosa) |
 | Puntaje de Predicción TxGNN | 0,9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 5 de 5) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (5 de 5) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 5 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 142
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Fenoterol: nueva indicación predicha, Atrofia multisistémica (nivel de evidencia L5). Indicación original: No consta en los datos compilados (las autorizaciones de ANMAT no inc…"
 monitor_inn: "FENOTEROL"
 predicted_indications: ["multiple system atrophy", "postural orthostatic tachycardia syndrome", "variably protease-sensitive prionopathy", "open-angle glaucoma", "Raynaud disease", "primary hereditary glaucoma", "sinoatrial block", "sinoatrial node disease"]
@@ -51,7 +51,7 @@ El modelo TxGNN predice que podría ser efectivo para **atrofia multisistémica*
 | Nueva Indicación Predicha | Atrofia multisistémica |
 | Puntaje de Predicción TxGNN | 0.9970 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 4 de 4) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (4 de 4) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 

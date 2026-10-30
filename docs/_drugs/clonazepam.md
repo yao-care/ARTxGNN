@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 3
 monitor_inn: "CLONAZEPAM"
 predicted_indications: ["restless legs syndrome", "insomnia (disease)", "trigeminal nerve neoplasm"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Clonazepam: nueva indicación predicha, Síndrome de piernas inquietas (restless legs syndrome) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
 ---
 
@@ -50,7 +50,7 @@ Actualmente no hay ensayos clínicos registrados y la evidencia consiste en **20
 | Nueva Indicación Predicha | Síndrome de piernas inquietas (restless legs syndrome) |
 | Puntaje de Predicción TxGNN | 0,9965 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: al menos 20) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (al menos 20) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "SULBACTAM"
 predicted_indications: ["bacterial arthritis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Sulbactam: nueva indicación predicha, artritis bacteriana (bacterial arthritis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -50,7 +50,7 @@ pero los datos compilados para este informe no incluyen ensayos clínicos regist
 | Nueva Indicación Predicha | artritis bacteriana (bacterial arthritis) |
 | Puntaje de Predicción TxGNN | 0.9979 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 9 de 9) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (9 de 9) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 9 (vigentes: 9) |
 | Decisión Recomendada | Hold |
 

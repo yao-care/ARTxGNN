@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "warfarin"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "rheumatoid arthritis", "breast fibrocystic disease", "benign mammary dysplasia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Warfarin: nueva indicación predicha, Deficiencia del cofactor II de la heparina (heparin cofactor 2 deficiency) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -49,7 +49,7 @@ El modelo TxGNN predice que podría ser útil para la **deficiencia del cofactor
 | Nueva Indicación Predicha | Deficiencia del cofactor II de la heparina (heparin cofactor 2 deficiency) |
 | Puntaje de Predicción TxGNN | 0,9987 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 4 de 4) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (4 de 4) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 

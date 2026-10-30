@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 211
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Phenazopyridine: nueva indicación predicha, Bronquitis (nivel de evidencia L5). Indicación original: No disponible en la licencia de ANMAT (el fármaco se describe como an…"
 monitor_inn: "phenazopyridine"
 predicted_indications: ["bronchitis"]
@@ -51,7 +51,7 @@ El modelo TxGNN predice que podría ser efectivo para **bronquitis**, pero actua
 | Nueva Indicación Predicha | Bronquitis |
 | Puntaje de Predicción TxGNN | 0.9923 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 1 de 1) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (1 de 1) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 

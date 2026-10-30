@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "PIROXICAM"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "WHIM syndrome", "rheumatoid nodulosis", "juvenile idiopathic arthritis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Piroxicam: nueva indicación predicha, colobomatous microphthalmia-rhizomelic dysplasia syndrome (síndrome de microftalmia colobomatosa con displasia rizoméli… (nivel de evidencia L5). Indicación orig…"
 ---
 
@@ -49,7 +49,7 @@ El modelo TxGNN predice que podría ser efectivo para **colobomatous microphthal
 | Nueva Indicación Predicha | colobomatous microphthalmia-rhizomelic dysplasia syndrome (síndrome de microftalmia colobomatosa con displasia rizomélica) |
 | Puntaje de Predicción TxGNN | 1,0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 19 de 19) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (19 de 19) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 19 (vigentes: 19) |
 | Decisión Recomendada | Hold |
 

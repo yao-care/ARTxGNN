@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 9
 monitor_inn: "TRAZODONE"
 predicted_indications: ["obsessive-compulsive disorder", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "phobic disorder", "Ohdo syndrome and variants"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Trazodone: nueva indicación predicha, Trastorno obsesivo-compulsivo (obsessive-compulsive disorder) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
 ---
 
@@ -50,7 +50,7 @@ No hay ensayos clínicos registrados, pero sí **20 publicaciones**, entre ellas
 | Nueva Indicación Predicha | Trastorno obsesivo-compulsivo (obsessive-compulsive disorder) |
 | Puntaje de Predicción TxGNN | 0,9995 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 4 de 4) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (4 de 4) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 

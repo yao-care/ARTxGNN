@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "FINASTERIDE"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Finasteride: nueva indicación predicha, hipertricosis universal congénita tipo Ambras (Ambras type hypertrichosis universalis congenita) (nivel de evidencia L5). Indicación original: No consta en los…"
 ---
 
@@ -49,7 +49,7 @@ El modelo TxGNN predice que podría ser efectiva para **hipertricosis universal 
 | Nueva Indicación Predicha | hipertricosis universal congénita tipo Ambras (Ambras type hypertrichosis universalis congenita) |
 | Puntaje de Predicción TxGNN | 0,9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 20 de 20) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (20 de 20) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 20 (vigentes: 20) |
 | Decisión Recomendada | Hold |
 

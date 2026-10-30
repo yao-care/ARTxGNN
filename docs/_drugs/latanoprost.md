@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "LATANOPROST"
 predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the scalp", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "congenital hypotrichosis milia", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Latanoprost: nueva indicación predicha, calcifilaxia visceral (visceral calciphylaxis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -50,7 +50,7 @@ Actualmente no hay ensayos clínicos ni publicaciones que respalden esta direcci
 | Nueva Indicación Predicha | calcifilaxia visceral (visceral calciphylaxis) |
 | Puntaje de Predicción TxGNN | 0.9983 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 14 de 14) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (14 de 14) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 14 (vigentes: 14) |
 | Decisión Recomendada | Hold |
 

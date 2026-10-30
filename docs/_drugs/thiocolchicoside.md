@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 234
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Thiocolchicoside: nueva indicación predicha, Insomnio (nivel de evidencia L5). Indicación original: No disponible en las autorizaciones registradas (el texto de indicaci…"
 monitor_inn: "thiocolchicoside"
 predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium"]
@@ -51,7 +51,7 @@ El modelo TxGNN predice que podría ser efectivo para **insomnio** (y, en segund
 | Nueva Indicación Predicha | Insomnio |
 | Puntaje de Predicción TxGNN | 0.9989 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 2 de 2) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (2 de 2) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 

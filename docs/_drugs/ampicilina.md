@@ -5,7 +5,7 @@ layout: default
 title: Ampicilina
 parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 32
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -41,7 +41,7 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 | Item | Contenido |
 |------|-----------|
 | Indicación Original | No consta en los datos locales |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 13 de 13) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (13 de 13) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 13 (vigentes: 13) |
 
 ---

@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 176
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Levobunolol: usos conocidos y estado de mercado en Argentina; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -46,7 +46,7 @@ Todos los candidatos que el modelo TxGNN propone para Levobunolol y que se puede
 | Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo rastreables son usos conocidos) |
 | Usos conocidos entre los candidatos del modelo | 2 |
 | Nivel de evidencia | No aplica |
-| Estado de mercado en Argentina | Comercializado (registros vigentes: 1 de 1) |
+| Estado de mercado en Argentina | Incluido en el listado de medicamentos de PAMI (1 de 1) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 1 (vigentes: 1) |
 
 ## Usos conocidos entre los candidatos del modelo

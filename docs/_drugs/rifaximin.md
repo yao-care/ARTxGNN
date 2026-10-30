@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "rifaximin"
 predicted_indications: ["oral candidiasis", "commissural lip fistula", "osteoradionecrosis of the mandible", "oral leukoedema", "burning mouth syndrome", "candidiasis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Rifaximin: nueva indicación predicha, Candidiasis oral (oral candidiasis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -51,7 +51,7 @@ El modelo TxGNN predice que podría ser efectivo para **Candidiasis oral (oral c
 | Nueva Indicación Predicha | Candidiasis oral (oral candidiasis) |
 | Puntaje de Predicción TxGNN | 0,9975 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: al menos 20) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (al menos 20) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | al menos 20 |
 | Decisión Recomendada | Hold |
 

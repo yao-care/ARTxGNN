@@ -6,7 +6,7 @@ nav_exclude: true
 title: METOTREXATO
 drugbank_id: DB00563
 permalink: /drugs/metotrexato/
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -18,7 +18,7 @@ evidence_level: N/A
 
 | Item | Value |
 |------|-------|
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 14 de 14) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (14 de 14) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 14 (vigentes: 14) |
 | DrugBank ID | [DB00563](https://go.drugbank.com/drugs/DB00563) |
 | Number of Predicted Indications | 30 |

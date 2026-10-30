@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "sacubitril"
 predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Sacubitril: nueva indicación predicha, Enfermedad de vasos pequeños cerebrales tipo 1 con o sin anomalías oculares (brain small vessel disease 1 with or witho… (nivel de evidencia L5). Indicación ori…"
 ---
 
@@ -48,7 +48,7 @@ Sacubitril es un inhibidor de la neprilisina que se comercializa en Argentina ba
 | Nueva Indicación Predicha | Enfermedad de vasos pequeños cerebrales tipo 1 con o sin anomalías oculares (brain small vessel disease 1 with or without ocular anomalies) |
 | Puntaje de Predicción TxGNN | 0,9958 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 16 de 16) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (16 de 16) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 16 (vigentes: 16) |
 | Decisión Recomendada | Hold |
 

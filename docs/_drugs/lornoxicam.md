@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 8
 monitor_inn: "LORNOXICAM"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "headache disorder", "trigeminal autonomic cephalalgia", "tendinitis", "idiopathic granulomatous myositis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Lornoxicam: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L2). Indicación original: No disponible: el texto de indicación de la autorización local está v…"
 ---
 
@@ -48,7 +48,7 @@ Lornoxicam es un antiinflamatorio no esteroideo (AINE) de la clase de los oxicam
 | Nueva Indicación Predicha | Trastorno de migraña (migraine disorder) |
 | Puntaje de Predicción TxGNN | 0.9987 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 1 de 1) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (1 de 1) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Proceed with Guardrails |
 

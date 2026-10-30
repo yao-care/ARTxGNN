@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "eplerenone"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Eplerenone: nueva indicación predicha, Hipertensión pulmonar debida a enfermedad pulmonar y/o hipoxia (pulmonary hypertension owing to lung disease and/or hyp… (nivel de evidencia L5). Indicación ori…"
 ---
 
@@ -50,7 +50,7 @@ pero hasta ahora no hay ensayos clínicos registrados y las **13 publicaciones**
 | Nueva Indicación Predicha | Hipertensión pulmonar debida a enfermedad pulmonar y/o hipoxia (pulmonary hypertension owing to lung disease and/or hypoxia) |
 | Puntaje de Predicción TxGNN | 0,9950 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 12 de 12) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (12 de 12) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 12 (vigentes: 12) |
 | Decisión Recomendada | Hold |
 

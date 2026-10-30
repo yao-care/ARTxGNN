@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "tioconazole"
 predicted_indications: ["vulvovaginitis", "vulvitis", "postmenopausal atrophic vaginitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Tioconazole: nueva indicación predicha, Vulvovaginitis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -48,7 +48,7 @@ Tioconazol es un antifúngico imidazólico de uso tópico. El modelo TxGNN predi
 | Nueva Indicación Predicha | Vulvovaginitis (vulvovaginitis) |
 | Puntaje de Predicción TxGNN | 0,9923 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 3 de 3) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (3 de 3) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 

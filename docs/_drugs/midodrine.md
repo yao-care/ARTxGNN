@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "MIDODRINE"
 predicted_indications: ["variably protease-sensitive prionopathy", "faciodigitogenital syndrome", "attention deficit-hyperactivity disorder", "hypotensive disorder", "attention deficit hyperactivity disorder, inattentive type", "sinoatrial node disease", "monogenic obesity", "specific developmental disorder", "obsolete hypertelorism (disease)", "sinoatrial block"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Midodrine: nueva indicación predicha, Prionopatía variablemente sensible a proteasas (variably protease-sensitive prionopathy) (nivel de evidencia L5). Indicación original: No consta en los datos loc…"
 ---
 
@@ -49,7 +49,7 @@ El modelo TxGNN predice que podría ser efectivo para la **prionopatía variable
 | Nueva Indicación Predicha | Prionopatía variablemente sensible a proteasas (variably protease-sensitive prionopathy) |
 | Puntaje de Predicción TxGNN | 0,9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 2 de 2) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (2 de 2) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 

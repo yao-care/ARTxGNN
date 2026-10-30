@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "ITOPRIDE"
 predicted_indications: ["small bowel Crohn disease", "venous insufficiency (disease)", "achlorhydria", "hiatus hernia (disease)"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Itopride: nueva indicación predicha, Enfermedad de Crohn del intestino delgado (small bowel Crohn disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -50,7 +50,7 @@ Actualmente no hay ensayos clínicos ni publicaciones que respalden esta direcci
 | Nueva Indicacion Predicha | Enfermedad de Crohn del intestino delgado (small bowel Crohn disease) |
 | Puntaje de Prediccion TxGNN | 0.9990 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 12 de 12) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (12 de 12) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 12 (vigentes: 12) |
 | Decision Recomendada | Hold |
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "diphenhydramine"
 predicted_indications: ["rosacea conjunctivitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Diphenhydramine: nueva indicación predicha, conjuntivitis rosácea (rosacea conjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -49,7 +49,7 @@ El modelo TxGNN predice que podría ser útil para **conjuntivitis rosácea (ros
 | Nueva Indicación Predicha | conjuntivitis rosácea (rosacea conjunctivitis) |
 | Puntaje de Predicción TxGNN | 0,9920 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 11 de 11) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (11 de 11) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 11 (vigentes: 11) |
 | Decisión Recomendada | Hold |
 

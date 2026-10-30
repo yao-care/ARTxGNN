@@ -7,7 +7,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 64
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 predicted_indications: []
 ---
 
@@ -52,7 +52,7 @@ Bromhexina es un agente mucolítico ampliamente utilizado para facilitar la expe
 | Nueva Indicación Predicha | — Sin predicción disponible — |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | **L5** (sin evidencia clínica ni predicción del modelo) |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 10 de 10) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (10 de 10) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 10 (vigentes: 10) |
 | Decisión Recomendada | **Hold** |
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "PRASUGREL"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura", "kyphoscoliotic heart disease", "rheumatoid arthritis", "homozygous familial hypercholesterolemia", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "leprosy"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Prasugrel: nueva indicación predicha, Hipertensión pulmonar (pulmonary hypertension) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -49,7 +49,7 @@ El modelo TxGNN predice que podría ser útil para **hipertensión pulmonar (pul
 | Nueva Indicación Predicha | Hipertensión pulmonar (pulmonary hypertension) |
 | Puntaje de Predicción TxGNN | 0,9988 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 8 de 8) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (8 de 8) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 8 (vigentes: 8) |
 | Decisión Recomendada | Hold |
 

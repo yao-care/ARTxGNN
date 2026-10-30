@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "econazole"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Econazole: nueva indicación predicha, Infección ectótrix (nivel de evidencia L5). Indicación original: No hay texto de indicación aprobada en las autorizaciones locales. La…"
 ---
 
@@ -49,7 +49,7 @@ El modelo TxGNN predice que podría ser efectivo para **infección ectótrix (ec
 | Nueva Indicación Predicha | Infección ectótrix |
 | Puntaje de Predicción TxGNN | 0,9997 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 2 de 2) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (2 de 2) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 

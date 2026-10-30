@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 113
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Clobetasone: nueva indicación predicha, Linfoma cutáneo primario de células T (nivel de evidencia L4). Indicación original: No disponible en la autorización de ANMAT (texto de indicación vacío)"
 monitor_inn: "clobetasone"
 predicted_indications: ["primary cutaneous T-cell lymphoma", "Sezary syndrome", "primary cutaneous B-cell lymphoma", "granulomatous slack skin disease", "Crohn's colitis", "adrenocortical insufficiency", "primary cutaneous T-cell non-Hodgkin lymphoma", "nephrotic syndrome", "cystic teratoma", "spinal cord dermoid cyst"]
@@ -51,7 +51,7 @@ El modelo TxGNN predice que podría ser efectivo para el **linfoma cutáneo prim
 | Nueva Indicación Predicha | Linfoma cutáneo primario de células T |
 | Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 1 de 1) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (1 de 1) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 

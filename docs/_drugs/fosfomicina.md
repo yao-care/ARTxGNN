@@ -7,7 +7,7 @@ title: FOSFOMICINA
 drugbank_id: DB00828
 permalink: /drugs/fosfomicina/
 search_exclude: true
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -19,7 +19,7 @@ evidence_level: N/A
 
 | Item | Value |
 |------|-------|
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 3 de 3) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (3 de 3) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 3 (vigentes: 3) |
 | DrugBank ID | [DB00828](https://go.drugbank.com/drugs/DB00828) |
 | Number of Predicted Indications | 1 |

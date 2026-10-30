@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 154
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Glucagon: nueva indicación predicha, Síndrome del intestino irritable (nivel de evidencia L3). Indicación original: No disponible en los datos compilados (el texto de indicación de la a…"
 monitor_inn: "GLUCAGON"
 predicted_indications: ["irritable bowel syndrome"]
@@ -50,7 +50,7 @@ La evidencia es principalmente mecanística e indirecta.
 | Nueva Indicación Predicha | Síndrome del intestino irritable |
 | Puntaje de Predicción TxGNN | 0,9924 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 1 de 1) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (1 de 1) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 

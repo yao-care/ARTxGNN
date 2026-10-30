@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "RAMIPRIL"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "brain stem infarction", "Prinzmetal angina", "intracerebral hemorrhage", "ABri amyloidosis", "cerebral artery occlusion"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ramipril: nueva indicación predicha, Hipertensión pulmonar por enfermedad pulmonar y/o hipoxia (pulmonary hypertension owing to lung disease and/or hypoxia) (nivel de evidencia L5). Indicación origin…"
 ---
 
@@ -50,7 +50,7 @@ pero actualmente no hay ensayos clínicos registrados y solo existe un estudio p
 | Nueva Indicación Predicha | Hipertensión pulmonar por enfermedad pulmonar y/o hipoxia (pulmonary hypertension owing to lung disease and/or hypoxia) |
 | Puntaje de Predicción TxGNN | 0,9993 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 9 de 9) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (9 de 9) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 9 (vigentes: 9) |
 | Decisión Recomendada | Hold |
 

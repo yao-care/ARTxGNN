@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "mianserin"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "Ohdo syndrome and variants", "neurotic disorder"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Mianserin: nueva indicación predicha, Tortícolis paroxística benigna de la infancia (benign paroxysmal torticollis of infancy) (nivel de evidencia L5). Indicación original: No consta en los datos loc…"
 ---
 
@@ -49,7 +49,7 @@ El modelo TxGNN predice que podría ser efectivo para **tortícolis paroxística
 | Nueva Indicación Predicha | Tortícolis paroxística benigna de la infancia (benign paroxysmal torticollis of infancy) |
 | Puntaje de Predicción TxGNN | 0.9949 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 2 de 2) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (2 de 2) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 

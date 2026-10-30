@@ -7,7 +7,7 @@ title: RILMENIDINA
 drugbank_id: DB11738
 permalink: /drugs/rilmenidina/
 search_exclude: true
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -19,7 +19,7 @@ evidence_level: N/A
 
 | Item | Value |
 |------|-------|
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 1 de 1) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (1 de 1) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 1 (vigentes: 1) |
 | DrugBank ID | [DB11738](https://go.drugbank.com/drugs/DB11738) |
 | Number of Predicted Indications | 2 |

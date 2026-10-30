@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "MAZINDOL"
 predicted_indications: ["hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "obsolete hypertelorism (disease)", "frontorhiny", "postural orthostatic tachycardia syndrome", "pentosuria", "lethal polymalformative syndrome, Boissel type"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Mazindol: nueva indicación predicha, hipervitaminosis (hypervitaminosis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -48,7 +48,7 @@ Mazindol es un anorexígeno simpaticomimético que se comercializa en Argentina.
 | Nueva Indicación Predicha | hipervitaminosis (hypervitaminosis) |
 | Puntaje de Predicción TxGNN | 1,0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 4 de 4) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (4 de 4) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 

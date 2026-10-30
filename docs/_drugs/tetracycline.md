@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "tetracycline"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "chronic ethmoidal sinusitis", "chronic rhinosinusitis", "paranasal sinus neoplasm (disease)"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Tetracycline: nueva indicación predicha, Queratoconjuntivitis epitelial punctata (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locale"
 ---
 
@@ -50,7 +50,7 @@ pero actualmente solo existe **1 publicación** (un reporte de casos) y **ningú
 | Nueva Indicación Predicha | Queratoconjuntivitis epitelial punctata (punctate epithelial keratoconjunctivitis) |
 | Puntaje de Predicción TxGNN | 0,9958 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 2 de 2) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (2 de 2) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 

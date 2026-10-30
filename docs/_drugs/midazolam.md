@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 1
 monitor_inn: "MIDAZOLAM"
 predicted_indications: ["insomnia (disease)"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Midazolam: nueva indicación predicha, insomnio (insomnia (disease)) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
 ---
 
@@ -48,7 +48,7 @@ Midazolam es una benzodiazepina de acción corta con efecto sedante-ansiolítico
 | Nueva Indicación Predicha | insomnio (insomnia (disease)) |
 | Puntaje de Predicción TxGNN | 0,9974 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 5 de 5) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (5 de 5) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 5 (vigentes: 5) |
 | Decisión Recomendada | Proceed with Guardrails |
 

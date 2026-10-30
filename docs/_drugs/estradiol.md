@@ -7,7 +7,7 @@ title: ESTRADIOL
 drugbank_id: DB00783
 permalink: /drugs/estradiol/
 search_exclude: true
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -19,7 +19,7 @@ evidence_level: N/A
 
 | Item | Value |
 |------|-------|
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 16 de 16) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (16 de 16) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 16 (vigentes: 16) |
 | DrugBank ID | [DB00783](https://go.drugbank.com/drugs/DB00783) |
 | Number of Predicted Indications | 6 |

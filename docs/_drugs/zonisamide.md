@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 248
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Zonisamide: nueva indicación predicha, Síndrome de Tourette (nivel de evidencia L5). Indicación original: No especificada en las autorizaciones de ANMAT (el texto de indicació…"
 monitor_inn: "ZONISAMIDE"
 predicted_indications: ["Tourette syndrome", "trichotillomania", "methemoglobinemia, alpha type", "methemoglobinemia", "Prinzmetal angina", "methemoglobin reductase deficiency", "manic bipolar affective disorder", "fibromyalgia", "conjunctivitis"]
@@ -50,7 +50,7 @@ Zonisamida es un fármaco antiepiléptico (anticonvulsivante) comercializado en 
 | Nueva Indicación Predicha | Síndrome de Tourette |
 | Puntaje de Predicción TxGNN | 0.9985 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 2 de 2) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (2 de 2) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 

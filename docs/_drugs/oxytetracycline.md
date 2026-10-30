@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "oxytetracycline"
 predicted_indications: ["chronic rhinosinusitis", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "punctate epithelial keratoconjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "otitis externa"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Oxytetracycline: nueva indicación predicha, rinosinusitis crónica (chronic rhinosinusitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -51,7 +51,7 @@ El modelo TxGNN predice que podría ser efectiva para **rinosinusitis crónica (
 | Nueva Indicación Predicha | rinosinusitis crónica (chronic rhinosinusitis) |
 | Puntaje de Predicción TxGNN | 0,9961 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 2 de 2) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (2 de 2) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 

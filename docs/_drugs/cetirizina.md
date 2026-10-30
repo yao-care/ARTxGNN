@@ -7,7 +7,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 95
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 predicted_indications: []
 ---
 
@@ -52,7 +52,7 @@ La evaluación no puede avanzar hasta que se resuelvan las brechas de datos iden
 | Nueva Indicación Predicha | Sin datos (predicted_indications vacío) |
 | Puntaje de Predicción TxGNN | N/D |
 | Nivel de Evidencia | L5 — Sin estudios reales disponibles en este paquete |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 18 de 18) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (18 de 18) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 18 (vigentes: 18) |
 | Decisión Recomendada | **Hold** |
 

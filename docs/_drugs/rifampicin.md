@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 10
 monitor_inn: "rifampicin"
 predicted_indications: ["conjunctivitis", "multiple endocrine neoplasia", "acne (disease)", "conjunctivitis (disease)", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acute contagious conjunctivitis", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Rifampicin: nueva indicación predicha, conjuntivitis (conjunctivitis) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
 ---
 
@@ -49,7 +49,7 @@ El modelo TxGNN predice que podría ser efectivo para **conjuntivitis (conjuncti
 | Nueva Indicación Predicha | conjuntivitis (conjunctivitis) |
 | Puntaje de Predicción TxGNN | 0,9995 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 6 de 6) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (6 de 6) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 6 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 

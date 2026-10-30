@@ -7,7 +7,7 @@ title: FENOFIBRATO
 drugbank_id: DB01039
 permalink: /drugs/fenofibrato/
 search_exclude: true
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -19,7 +19,7 @@ evidence_level: N/A
 
 | Item | Value |
 |------|-------|
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 17 de 17) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (17 de 17) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 17 (vigentes: 17) |
 | DrugBank ID | [DB01039](https://go.drugbank.com/drugs/DB01039) |
 | Number of Predicted Indications | 6 |

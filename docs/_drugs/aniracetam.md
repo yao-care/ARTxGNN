@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 33
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Aniracetam: nueva indicación predicha, Insomnio (nivel de evidencia L4). Indicación original: No disponible en los registros de ANMAT compilados"
 monitor_inn: "ANIRACETAM"
 predicted_indications: ["insomnia (disease)"]
@@ -51,7 +51,7 @@ El modelo TxGNN predice que podría ser efectivo para **insomnio**, pero actualm
 | Nueva Indicación Predicha | Insomnio |
 | Puntaje de Predicción TxGNN | 0,9923 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 2 de 2) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (2 de 2) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 

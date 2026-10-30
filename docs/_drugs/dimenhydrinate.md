@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "dimenhydrinate"
 predicted_indications: ["allergic urticaria", "cold urticaria"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Dimenhydrinate: nueva indicación predicha, urticaria alérgica (allergic urticaria) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -50,7 +50,7 @@ pero actualmente solo se dispone de **1 publicación** indirecta (un estudio far
 | Nueva Indicación Predicha | urticaria alérgica (allergic urticaria) |
 | Puntaje de Predicción TxGNN | 0,9974 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 10 de 10) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (10 de 10) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 10 (vigentes: 10) |
 | Decisión Recomendada | Hold |
 

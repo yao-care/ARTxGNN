@@ -7,7 +7,7 @@ title: OXIBUTININA
 drugbank_id: DB01062
 permalink: /drugs/oxibutinina/
 search_exclude: true
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -19,7 +19,7 @@ evidence_level: N/A
 
 | Item | Value |
 |------|-------|
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 19 de 19) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (19 de 19) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 19 (vigentes: 19) |
 | DrugBank ID | [DB01062](https://go.drugbank.com/drugs/DB01062) |
 | Number of Predicted Indications | 3 |

@@ -7,7 +7,7 @@ title: DEFLAZACORT
 drugbank_id: DB11921
 permalink: /drugs/deflazacort/
 search_exclude: true
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -19,7 +19,7 @@ evidence_level: N/A
 
 | Item | Value |
 |------|-------|
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 6 de 6) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (6 de 6) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 6 (vigentes: 6) |
 | DrugBank ID | [DB11921](https://go.drugbank.com/drugs/DB11921) |
 | Number of Predicted Indications | 3 |

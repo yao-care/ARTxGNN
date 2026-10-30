@@ -52,7 +52,7 @@ Benzocaína es un anestésico local de tipo éster, ampliamente utilizado para e
 | Nueva Indicación Predicha | — (Sin predicciones de TxGNN) |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | N/A |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 8 de 8) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (8 de 8) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 8 (vigentes: 8) |
 | Decisión Recomendada | **Hold** |
 

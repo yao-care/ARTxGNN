@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "GEMFIBROZIL"
 predicted_indications: ["rheumatoid arthritis", "multiple endocrine neoplasia", "HIV infectious disease", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "methemoglobinemia, alpha type", "sclerosing cholangitis", "methemoglobin reductase deficiency"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Gemfibrozil: nueva indicación predicha, Artritis reumatoide (rheumatoid arthritis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -50,7 +50,7 @@ Gemfibrozil es un fármaco hipolipemiante que actúa sobre los receptores PPAR-a
 | Nueva Indicación Predicha | Artritis reumatoide (rheumatoid arthritis) |
 | Puntaje de Predicción TxGNN | 0,9990 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 7 de 7) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (7 de 7) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 7 (vigentes: 7) |
 | Decisión Recomendada | Hold |
 

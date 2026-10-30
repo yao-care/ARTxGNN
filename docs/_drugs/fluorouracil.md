@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 148
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Fluorouracil: nueva indicación predicha, rabdomiosarcoma embrionario de tipo botrioide de la vagina (nivel de evidencia L5). Indicación original: Las licencias locales no incluyen texto d…"
 monitor_inn: "fluorouracil"
 predicted_indications: ["botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "sickle cell-beta-thalassemia disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-hemoglobin E disease syndrome"]
@@ -50,7 +50,7 @@ La evidencia actual es muy limitada y se basa principalmente en la predicción d
 | Nueva Indicación Predicha | Rabdomiosarcoma (la predicción de mayor puntaje es la variante botrioide embrionaria de vagina; la primera con literatura es rabdomiosarcoma general) |
 | Puntaje de Predicción TxGNN | 0.9975 (rabdomiosarcoma botrioide embrionario de vagina); 0.9974 (rabdomiosarcoma general) |
 | Nivel de Evidencia | L5 (predicción principal); L4 para rabdomiosarcoma general |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 1 de 1) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (1 de 1) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 

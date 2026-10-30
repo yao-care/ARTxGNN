@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 128
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Diosmin: nueva indicación predicha, Amenorrea (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "diosmin"
 predicted_indications: ["amenorrhea (disease)"]
@@ -49,7 +49,7 @@ El modelo TxGNN predice que podría ser efectivo para **amenorrea**, pero actual
 | Nueva Indicación Predicha | Amenorrea |
 | Puntaje de Predicción TxGNN | 0.9942 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: al menos 20) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (al menos 20) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 20 |
 | Decisión Recomendada | Hold |
 

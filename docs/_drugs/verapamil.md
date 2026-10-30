@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "verapamil"
 predicted_indications: ["obsolete bundle branch block", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "periodic paralysis with transient compartment-like syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Verapamil: nueva indicación predicha, Bloqueo de rama obsoleto (obsolete bundle branch block) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -49,7 +49,7 @@ El modelo TxGNN predice que podría ser efectivo para **bloqueo de rama obsoleto
 | Nueva Indicación Predicha | Bloqueo de rama obsoleto (obsolete bundle branch block) |
 | Puntaje de Predicción TxGNN | 0,9962 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 4 de 4) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (4 de 4) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 

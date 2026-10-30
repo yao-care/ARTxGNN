@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 5
 monitor_inn: "CITALOPRAM"
 predicted_indications: ["obsessive-compulsive disorder", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Citalopram: nueva indicación predicha, Trastorno obsesivo-compulsivo (obsessive-compulsive disorder) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
 ---
 
@@ -48,7 +48,7 @@ Citalopram es un antidepresivo de la clase de los inhibidores selectivos de la r
 | Nueva Indicación Predicha | Trastorno obsesivo-compulsivo (obsessive-compulsive disorder) |
 | Puntaje de Predicción TxGNN | 0,9974 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 7 de 7) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (7 de 7) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 7 (vigentes: 7) |
 | Decisión Recomendada | Proceed with Guardrails |
 

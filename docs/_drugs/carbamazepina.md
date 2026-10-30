@@ -7,7 +7,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 78
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 predicted_indications: []
 ---
 
@@ -50,7 +50,7 @@ Carbamazepina es un anticonvulsivante y estabilizador del ánimo ampliamente con
 | Nueva Indicación Predicha | Sin predicciones generadas |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | L5 — sin estudios vinculados a predicción |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 17 de 17) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (17 de 17) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 17 (vigentes: 17) |
 | Decisión Recomendada | **Hold** |
 

@@ -6,7 +6,7 @@ nav_exclude: true
 title: TOBRAMICINA
 drugbank_id: DB00684
 permalink: /drugs/tobramicina/
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -18,7 +18,7 @@ evidence_level: N/A
 
 | Item | Value |
 |------|-------|
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: al menos 20) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (al menos 20) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | al menos 20 |
 | DrugBank ID | [DB00684](https://go.drugbank.com/drugs/DB00684) |
 | Number of Predicted Indications | 26 |

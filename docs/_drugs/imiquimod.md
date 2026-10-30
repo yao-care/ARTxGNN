@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 164
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Imiquimod: nueva indicación predicha, Neoplasia premaligna (nivel de evidencia L2). Indicación original: Verruga común, infección anogenital por virus del papiloma humano…"
 monitor_inn: "IMIQUIMOD"
 predicted_indications: ["pre-malignant neoplasm", "benign neoplasm of buccal mucosa", "cervical neuroblastoma", "odontogenic cyst", "benign neoplasm of tongue", "nasopharyngeal teratoma", "cystic neoplasm", "inner ear neoplasm", "neoplasm of major salivary gland", "schwannoma of jugular foramen"]
@@ -50,7 +50,7 @@ con **2 ensayos clínicos** y **9 publicaciones** que actualmente respaldan esta
 | Nueva Indicación Predicha | Neoplasia premaligna |
 | Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 10 de 10) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (10 de 10) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 10 (vigentes: 10) |
 | Decisión Recomendada | Proceed with Guardrails |
 

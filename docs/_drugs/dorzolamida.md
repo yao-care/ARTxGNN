@@ -7,7 +7,7 @@ title: DORZOLAMIDA
 drugbank_id: DB00869
 permalink: /drugs/dorzolamida/
 search_exclude: true
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -19,7 +19,7 @@ evidence_level: N/A
 
 | Item | Value |
 |------|-------|
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 8 de 8) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (8 de 8) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 8 (vigentes: 8) |
 | DrugBank ID | [DB00869](https://go.drugbank.com/drugs/DB00869) |
 | Number of Predicted Indications | 2 |

@@ -7,7 +7,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 27
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 predicted_indications: []
 ---
 
@@ -48,7 +48,7 @@ Amiodarona es un antiarrítmico de clase III ampliamente utilizado para el trata
 | Nueva Indicación Predicha | — Sin predicciones disponibles — |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | L5 (sin estudios asociados a una nueva indicación) |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 4 de 4) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (4 de 4) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 4 (vigentes: 4) |
 | Decisión Recomendada | **Hold** |
 

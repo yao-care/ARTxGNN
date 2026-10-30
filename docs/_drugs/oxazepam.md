@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 207
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Oxazepam: nueva indicación predicha, Insomnio (nivel de evidencia L3). Indicación original: Delirium por abstinencia alcohólica y ansiedad"
 monitor_inn: "OXAZEPAM"
 predicted_indications: ["insomnia (disease)"]
@@ -50,7 +50,7 @@ pero hasta ahora **no hay ensayos clínicos registrados** y solo **10 publicacio
 | Nueva Indicación Predicha | Insomnio |
 | Puntaje de Predicción TxGNN | 0.9986 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 1 de 1) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (1 de 1) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 

@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 202
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Nepafenac: nueva indicación predicha, Enfermedad ocular (eye disease) (nivel de evidencia L1). Indicación original: No disponible en la autorización de ANMAT (el texto de indicación est…"
 monitor_inn: "NEPAFENAC"
 predicted_indications: ["eye disease", "optic papillitis", "hypotrichosis simplex of the scalp", "seborrheic keratosis", "von Hippel anomaly", "congenital hypotrichosis milia", "mcpherson robertson cammarano syndrome", "lagophthalmos", "vulvar inverted follicular keratosis", "vitreous detachment"]
@@ -50,7 +50,7 @@ Nepafenac es un antiinflamatorio no esteroideo (AINE) de uso tópico oftálmico,
 | Nueva Indicación Predicha | Enfermedad ocular (eye disease) |
 | Puntaje de Predicción TxGNN | 0,9985 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 1 de 1) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (1 de 1) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 1 (vigentes: 1) |
 | Decisión Recomendada | Proceed with Guardrails |
 

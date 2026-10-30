@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "LISINOPRIL"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Lisinopril: nueva indicación predicha, Hipertensión pulmonar debida a enfermedad pulmonar y/o hipoxia (pulmonary hypertension owing to lung disease and/or hyp… (nivel de evidencia L5). Indicación ori…"
 ---
 
@@ -50,7 +50,7 @@ pero actualmente **no hay ensayos clínicos** registrados y la literatura recopi
 | Nueva Indicación Predicha | Hipertensión pulmonar debida a enfermedad pulmonar y/o hipoxia (pulmonary hypertension owing to lung disease and/or hypoxia) |
 | Puntaje de Predicción TxGNN | 0,9989 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 11 de 11) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (11 de 11) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 11 (vigentes: 11) |
 | Decisión Recomendada | Hold |
 

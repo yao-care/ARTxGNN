@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 235
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Thioridazine: nueva indicación predicha, Trastorno afectivo bipolar maníaco (nivel de evidencia L4). Indicación original: No especificada en las licencias de ANMAT"
 monitor_inn: "thioridazine"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "major affective disorder", "bipolar disorder", "obsessive-compulsive disorder", "attention deficit-hyperactivity disorder", "schizoid personality disorder", "schizotypal personality disorder"]
@@ -51,7 +51,7 @@ El modelo TxGNN predice que podría ser efectivo para el **trastorno afectivo bi
 | Nueva Indicación Predicha | Trastorno afectivo bipolar maníaco |
 | Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 3 de 3) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (3 de 3) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 

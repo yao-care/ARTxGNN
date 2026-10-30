@@ -5,7 +5,7 @@ layout: default
 title: Cabergolina
 parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 70
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -45,7 +45,7 @@ Analizando el Evidence Pack recibido para Cabergolina. Los datos muestran un cas
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 8 de 8) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (8 de 8) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 8 (vigentes: 8) |
 
 ---

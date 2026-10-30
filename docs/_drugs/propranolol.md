@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "PROPRANOLOL"
 predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy with excess of thin filaments", "chondroma", "cirrhotic cardiomyopathy"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Propranolol: nueva indicación predicha, miopatía distal tipo Tateyama (distal myopathy, Tateyama type) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
@@ -49,7 +49,7 @@ El modelo TxGNN predice que podría ser útil para **miopatía distal tipo Tatey
 | Nueva Indicación Predicha | miopatía distal tipo Tateyama (distal myopathy, Tateyama type) |
 | Puntaje de Predicción TxGNN | 0,9940 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Comercializado (registros vigentes: 4 de 4) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (4 de 4) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorizaciones | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
