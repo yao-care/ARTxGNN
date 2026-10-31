@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 66
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Budesonide: nueva indicación predicha, Eccema atópico (nivel de evidencia L4). Indicación original: Enfermedad de Crohn, enfermedad inflamatoria intestinal, asma…"
 monitor_inn: "BUDESONIDE"
 predicted_indications: ["atopic eczema", "bronchitis", "dermatitis, atopic", "polyp of vocal cord", "polyp of middle ear", "epulis", "fibroepithelial polyp", "uterine polyp", "polyp of frontal sinus", "polyp of external auditory canal"]
@@ -50,7 +50,7 @@ El modelo TxGNN predice que podría ser efectiva para **eccema atópico**, pero 
 | Puntaje de Predicción TxGNN | 0.9996 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (al menos 20) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de productos en el listado PAMI | 20 |
+| Número de productos en el listado PAMI | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

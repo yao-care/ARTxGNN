@@ -5,7 +5,7 @@ layout: default
 title: Aripiprazol
 parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 35
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -43,7 +43,7 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 |------|-----------|
 | Indicacion Original | No consta en los datos locales |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (al menos 20) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de productos en el listado PAMI | 0 |
+| Número de productos en el listado PAMI | al menos 20 |
 
 ---
 

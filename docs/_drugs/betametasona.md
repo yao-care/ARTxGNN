@@ -7,7 +7,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 51
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 predicted_indications: []
 ---
 
@@ -55,7 +55,7 @@ La evidencia disponible es insuficiente para avanzar en una evaluación de repos
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | L5 (sin estudios ni predicciones disponibles) |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (al menos 20) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de productos en el listado PAMI | 0 |
+| Número de productos en el listado PAMI | al menos 20 |
 | Decisión Recomendada | **Hold** |
 
 ---

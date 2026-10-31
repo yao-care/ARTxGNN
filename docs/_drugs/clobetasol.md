@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 112
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Clobetasol: nueva indicación predicha, Linfoma cutáneo primario de células T (nivel de evidencia L3). Indicación original: No disponible en los registros de ANMAT compilados (todos los textos…"
 monitor_inn: "CLOBETASOL"
 predicted_indications: ["primary cutaneous T-cell lymphoma"]
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectivo para el **linfoma cutáneo prim
 | Puntaje de Predicción TxGNN | 0,9951 |
 | Nivel de Evidencia | L3 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (al menos 20) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de productos en el listado PAMI | 20 |
+| Número de productos en el listado PAMI | al menos 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
