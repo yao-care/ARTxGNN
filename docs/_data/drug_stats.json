@@ -3,9 +3,9 @@
   "total_drugs": 160,
   "level_counts": {
     "L1": 3,
-    "L2": 3,
+    "L2": 2,
     "L3": 8,
-    "L4": 5,
+    "L4": 6,
     "L5": 139
   },
   "all_drugs": [
@@ -25,7 +25,7 @@
       "name": "Alprazolam",
       "slug": "alprazolam",
       "level": "L5",
-      "indication_count": 3
+      "indication_count": 2
     },
     {
       "name": "Ambroxol",
@@ -115,7 +115,7 @@
       "name": "Cefoxitin",
       "slug": "cefoxitin",
       "level": "L5",
-      "indication_count": 9
+      "indication_count": 8
     },
     {
       "name": "Celecoxib",
@@ -373,7 +373,7 @@
       "name": "Flurbiprofen",
       "slug": "flurbiprofen",
       "level": "L5",
-      "indication_count": 9
+      "indication_count": 8
     },
     {
       "name": "Formoterol",
@@ -457,7 +457,7 @@
       "name": "Imipenem",
       "slug": "imipenem",
       "level": "L5",
-      "indication_count": 10
+      "indication_count": 9
     },
     {
       "name": "Imiquimod",
@@ -648,8 +648,8 @@
     {
       "name": "Montelukast",
       "slug": "montelukast",
-      "level": "L2",
-      "indication_count": 3
+      "level": "L4",
+      "indication_count": 2
     },
     {
       "name": "Mosapride",

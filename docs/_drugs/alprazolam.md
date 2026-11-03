@@ -4,17 +4,17 @@ title: Alprazolam
 parent: Solo Predicción del Modelo (L5)
 nav_order: 22
 evidence_level: L5
-indication_count: 3
+indication_count: 2
 monitor_inn: "ALPRAZOLAM"
-predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia"]
-last_modified_at: 2026-10-30
-description: "Alprazolam: nueva indicación predicha, Insomnio (insomnia (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy"]
+last_modified_at: 2026-11-03
+description: "Alprazolam: nueva indicación predicha, insomnio (insomnia (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Alprazolam
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,20 +33,21 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Alprazolam: benzodiazepina, modulador alostérico positivo del receptor GABA-A → Insomnio (insomnia (disease))
+## Alprazolam: insomnio (insomnia (disease))
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Alprazolam es una benzodiazepina de uso ansiolítico. El modelo TxGNN predice que podría ser efectivo para **Insomnio (insomnia (disease))**, pero los datos compilados para este informe no incluyen ensayos clínicos registrados ni estudios controlados que evalúen directamente alprazolam en insomnio; solo hay **18 publicaciones** de apoyo indirecto.
+Alprazolam es una benzodiacepina con efecto sedante-hipnótico y ansiolítico.
+El modelo TxGNN predice que podría ser efectivo para **insomnio (insomnia (disease))**, pero no hay ensayos clínicos registrados y la literatura recopilada no incluye estudios controlados que evalúen directamente alprazolam en insomnio.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Insomnio (insomnia (disease)) |
-| Puntaje de Predicción TxGNN | 0,9981 |
+| Nueva Indicación Predicha | insomnio (insomnia (disease)) |
+| Puntaje de Predicción TxGNN | 0.9981 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (al menos 20) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de productos en el listado PAMI | al menos 20 |
@@ -54,11 +55,11 @@ Alprazolam es una benzodiazepina de uso ansiolítico. El modelo TxGNN predice qu
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, alprazolam es una benzodiazepina que actúa como modulador alostérico positivo de los receptores GABA-A, lo que produce efectos sedantes e hipnóticos. Mecanísticamente, esto hace plausible su aplicación en el insomnio.
+Alprazolam es una benzodiacepina que actúa como modulador alostérico positivo de los receptores GABA-A, lo que produce efectos sedantes e hipnóticos. Por ello existe un mecanismo plausible para el insomnio. Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción, por lo que esta explicación se basa en el conocimiento general de la clase farmacológica.
 
-Sin embargo, la literatura recuperada no contiene evidencia controlada directa de alprazolam para insomnio. Los trabajos tratan sobre trastorno de pánico, patrones de uso y costos de benzodiazepinas, farmacocinética, comorbilidades y desprescripción de zolpidem. El único estudio que menciona ambos aspectos (PMID 39183410) es un estudio observacional de una terapia integrativa en pacientes con enfermedad coronaria e insomnio, donde alprazolam fue el tratamiento del grupo control; no evalúa alprazolam como intervención de interés.
+Sin embargo, la literatura recuperada no aporta evidencia controlada directa de alprazolam para insomnio. Los trabajos tratan sobre trastorno de pánico, patrones de uso y costos de benzodiacepinas, farmacocinética, comorbilidades y desprescripción de zolpidem. Un estudio retrospectivo (2024) comparó un tratamiento integrativo con acupuntura frente a alprazolam en pacientes con enfermedad coronaria e insomnio, pero alprazolam fue el grupo control y no el objeto de evaluación.
 
-Los riesgos de tolerancia, dependencia, caídas y deterioro al día siguiente, en especial en personas mayores, limitan el entusiasmo. Por todo ello, la predicción se mantiene en el nivel de solo predicción del modelo.
+Además, los riesgos de tolerancia, dependencia, caídas y deterioro al día siguiente (especialmente en adultos mayores) limitan el entusiasmo por esta dirección. Dado que ningún estudio citado evalúa directamente alprazolam como tratamiento del insomnio, el nivel de evidencia se establece en L5.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -66,22 +67,22 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Ninguna de las publicaciones estudia directamente alprazolam para insomnio. Se listan las más cercanas al tema (prioridad: revisiones y estudios clínicos).
+Se listan las publicaciones más cercanas al tema; ninguna es un ensayo controlado que evalúe alprazolam en insomnio.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [39183410](https://pubmed.ncbi.nlm.nih.gov/39183410/) | 2024 | Estudio clínico/observacional | Medicine | Terapia integrativa (moxibustión, acupuntura auricular) frente a alprazolam en enfermedad coronaria con insomnio; efectos sobre función cardíaca y neurotransmisores |
-| [36692463](https://pubmed.ncbi.nlm.nih.gov/36692463/) | 2023 | Metaanálisis | Acta Pharmaceutica | Tranquilizantes en personas mayores: dosis, resultados y eventos adversos |
-| [23330992](https://pubmed.ncbi.nlm.nih.gov/23330992/) | 2013 | Revisión | Expert Opin Drug Metab Toxicol | Farmacocinética de los fármacos ansiolíticos |
-| [7484706](https://pubmed.ncbi.nlm.nih.gov/7484706/) | 1995 | Revisión | Am Fam Physician | Trastorno de pánico (no insomnio) |
-| [37984023](https://pubmed.ncbi.nlm.nih.gov/37984023/) | 2024 | Modelo predictivo | Value Health Reg Issues | Tendencias y carga económica del uso de benzodiazepinas en Croacia |
-| [15341891](https://pubmed.ncbi.nlm.nih.gov/15341891/) | 2004 | Estudio de prescripción | Sleep Medicine | Patrones de prescripción de hipnóticos en población de atención gestionada |
-| [37801512](https://pubmed.ncbi.nlm.nih.gov/37801512/) | 2023 | Preclínico (ratón) | Aging | La administración repetida de alprazolam causa disfunción mitocondrial y afecta la memoria dependiente del hipocampo |
-| [35493764](https://pubmed.ncbi.nlm.nih.gov/35493764/) | 2022 | Cohorte | JHEP Reports | Desprescripción de zolpidem (no alprazolam) y menos caídas y fracturas en cirrosis |
+| [39183410](https://pubmed.ncbi.nlm.nih.gov/39183410/) | 2024 | Estudio clínico retrospectivo | Medicine | Moxibustión del meridiano Du con acupuntura auricular frente a alprazolam (grupo control) en 116 pacientes con enfermedad coronaria e insomnio; evalúa síntomas y neurotransmisores |
+| [36692463](https://pubmed.ncbi.nlm.nih.gov/36692463/) | 2023 | Metaanálisis | Acta pharmaceutica | Revisa tranquilizantes en adultos mayores con enfermedades crónicas: dosis, resultados y eventos adversos |
+| [23330992](https://pubmed.ncbi.nlm.nih.gov/23330992/) | 2013 | Revisión | Expert Opin Drug Metab Toxicol | Farmacocinética de fármacos ansiolíticos |
+| [7484706](https://pubmed.ncbi.nlm.nih.gov/7484706/) | 1995 | Revisión | American Family Physician | Revisión sobre el trastorno de pánico |
+| [40775197](https://pubmed.ncbi.nlm.nih.gov/40775197/) | 2025 | Revisión | CNS Drugs | Administración pulmonar de fármacos en exacerbaciones agudas de trastornos del SNC |
+| [37984023](https://pubmed.ncbi.nlm.nih.gov/37984023/) | 2024 | Modelo predictivo/económico | Value in Health Regional Issues | Tendencias y carga económica del uso de benzodiacepinas en Croacia |
+| [37801512](https://pubmed.ncbi.nlm.nih.gov/37801512/) | 2023 | Preclínico (ratones) | Aging | Administración repetida de alprazolam y disfunción mitocondrial con deterioro de la memoria dependiente del hipocampo |
+| [15341891](https://pubmed.ncbi.nlm.nih.gov/15341891/) | 2004 | Estudio de prescripción | Sleep Medicine | Patrones de prescripción de hipnóticos en una población de atención gestionada |
 
 ## Información de Mercado en Argentina
 
-Alprazolam está comercializado en Argentina, con al menos 20 autorizaciones vigentes (la lista puede ser parcial). Los registros locales no incluyen texto de indicación aprobada.
+El medicamento se encuentra comercializado, con autorizaciones válidas. La lista de autorizaciones es parcial (al menos 20 autorizaciones registradas). Todas corresponden a productos de un solo principio activo.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
@@ -93,11 +94,10 @@ Alprazolam está comercializado en Argentina, con al menos 20 autorizaciones vig
 
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas** (100 interacciones registradas; se muestran las principales):
-  - **Mayor:** morfina y morfina liposomal.
-  - **Moderada:** aprepitant, bupropión, cimetidina, claritromicina, clotrimazol, dronabinol, eliglustat, fenilbutirato de glicerol, metoclopramida, miconazol.
-  - **Menor:** antiácidos (hidróxido de aluminio, carbonato de calcio, compuestos de magnesio), betametasona, dexametasona.
-- La literatura recuperada señala riesgos de tolerancia, dependencia, caídas y deterioro al día siguiente, especialmente en personas mayores, además de efectos sobre la memoria en un estudio preclínico.
+**Interacciones Farmacológicas** (100 interacciones registradas; se muestran las de mayor gravedad):
+- **Mayor:** morfina y morfina liposomal.
+- **Moderada:** aprepitant, bupropión, cimetidina, claritromicina, clotrimazol, dronabinol, eliglustat, fenilbutirato de glicerol, metoclopramida y miconazol.
+- **Menor:** antiácidos (hidróxido de aluminio, carbonato de calcio, magaldrato, sales de magnesio) y corticoides (betametasona, dexametasona).
 
 Para advertencias y contraindicaciones, consultar el prospecto.
 
@@ -106,14 +106,14 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-Aunque el mecanismo GABAérgico hace plausible un efecto hipnótico, no existe ningún ensayo ni estudio que evalúe directamente alprazolam en insomnio en los datos compilados, por lo que la evidencia corresponde a solo predicción del modelo (L5). Los riesgos de dependencia y deterioro cognitivo-motor requieren cautela.
+No hay ensayos clínicos ni estudios controlados que evalúen alprazolam en insomnio. El puntaje del modelo (0,9981) y la plausibilidad del mecanismo GABAérgico no bastan sin evidencia directa, y los riesgos de dependencia, caídas y deterioro cognitivo en esta población son relevantes.
 
 **Para avanzar se necesita:**
-- Ensayos controlados o revisiones sistemáticas que evalúen alprazolam específicamente en insomnio.
-- Comparación frente a hipnóticos establecidos y terapia cognitivo-conductual.
-- Datos de advertencias y contraindicaciones del prospecto de ANMAT.
+- Estudios controlados (idealmente ECA) que evalúen alprazolam directamente en insomnio.
 - Datos detallados del mecanismo de acción.
-- Plan de mitigación de riesgos (dependencia, caídas, poblaciones mayores y hepáticas).
+- Revisión de las advertencias y contraindicaciones del prospecto aprobado por ANMAT.
+- Evaluación del balance riesgo-beneficio frente a hipnóticos ya establecidos, especialmente en adultos mayores.
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
