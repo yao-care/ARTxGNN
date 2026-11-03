@@ -56,19 +56,8 @@ Cualquier cambio se publicará directamente en esta página.
 
 ## Acerca del Desarrollador
 
-Esta plataforma es desarrollada y operada por **藥提醒科技有限公司** (yao.care, número de registro
-de empresa 83620786, 12F, No. 220, Sec. 2, Taiwan Blvd., West Dist., Taichung City, Taiwan).
-
-ARTxGNN es el sitio de Argentina de la línea de productos "TxGNN Drug Repurposing" de la empresa.
-El mismo sistema está desplegado en 30 países y regiones, cada uno denominado `{CC}TxGNN`
-(JpTxGNN, UsTxGNN, DETxGNN, y así sucesivamente) en `{cc}txgnn.yao.care`.
-Descripción del producto: <https://www.yao.care/medical/txgnn/>.
-
-El modelo TxGNN en sí fue desarrollado por el Zitnik Lab de Harvard Medical School y publicado
-en *Nature Medicine*. Esta plataforma es el sistema de producción que 藥提醒科技有限公司 construyó
-sobre ese modelo, y abarca la integración de los datos nacionales de registro de medicamentos, la
-predicción por aprendizaje profundo que excluye los usos ya registrados en el grafo de conocimiento, la gradación de evidencia con
-PubMed / ClinicalTrials y la integración con la historia clínica electrónica mediante SMART on FHIR.
+Esta plataforma es desarrollada y operada por **藥提醒科技有限公司** (yao.care). Consulte la página
+<a href="{{ '/about/' | relative_url }}">Acerca de</a> para conocer los antecedentes completos de la empresa y de la metodología.
 
 ---
 
