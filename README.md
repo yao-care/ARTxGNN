@@ -6,7 +6,7 @@
 [![Website](https://img.shields.io/badge/Website-artxgnn.yao.care-blue)](https://artxgnn.yao.care)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Predicciones de reposicionamiento de medicamentos para medicamentos aprobados por ANMAT (Argentina) usando el modelo TxGNN.
+Predicciones de reposicionamiento de medicamentos para medicamentos del listado de precios de PAMI (Argentina) usando el modelo TxGNN.
 
 ## Aviso legal
 
@@ -73,7 +73,7 @@ uv run python scripts/run_kg_prediction.py
 
 | Metrica | Valor |
 |------|------|
-| ANMAT Total de medicamentos | 10,167 |
+| PAMI (Medicamentos para entidades) Total de medicamentos | 10,167 |
 | Mapeados a DrugBank | 7,347 (72.3%) |
 | Candidatos a reposicionamiento | 2,545 |
 
@@ -131,7 +131,7 @@ La puntuacion TxGNN representa la confianza del modelo en un par farmaco-enferme
 flowchart TD
     A["Resultados de prediccion TxGNN"] --> B
     subgraph B["Step 1: DrugBundle Collector"]
-        B1["Nivel de medicamento: ANMAT, DDI, DrugBank"]
+        B1["Nivel de medicamento: PAMI, DDI, DrugBank"]
         B2["Nivel de indicacion: ClinicalTrials, PubMed, ICTRP"]
     end
     B --> |"drug_bundle.json"| C
@@ -154,7 +154,7 @@ flowchart TD
 
 | Archivo | Descarga |
 |------|------|
-| ANMAT Datos | Fuente de datos |
+| PAMI Datos | [PAMI: Medicamentos para entidades](https://datos.pami.org.ar/dataset/medicamentos-para-entidades) |
 | node.csv | [Harvard Dataverse](https://dataverse.harvard.edu/api/access/datafile/7144482) |
 | kg.csv | [Harvard Dataverse](https://dataverse.harvard.edu/api/access/datafile/7144484) |
 | edges.csv | [Harvard Dataverse](https://dataverse.harvard.edu/api/access/datafile/7144483) |
@@ -216,7 +216,7 @@ PYTHONPATH=src python -m artxgnn.predict.txgnn_model
 
 | Categoria | Datos | Fuente | Nota |
 |------|------|------|------|
-| **Datos de medicamentos** | ANMAT | - | Argentina |
+| **Datos de medicamentos** | PAMI | [Medicamentos para entidades](https://datos.pami.org.ar/dataset/medicamentos-para-entidades) | Argentina |
 | **Grafo de conocimiento** | TxGNN KG | [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IXA7BM) | 17,080 diseases, 7,957 drugs |
 | **Base de datos de medicamentos** | DrugBank | [DrugBank](https://go.drugbank.com/) | Mapeo de ingredientes de medicamentos |
 | **Interacciones medicamentosas** | DDInter 2.0 | [DDInter](https://ddinter2.scbdd.com/) | Pares DDI |
@@ -302,7 +302,7 @@ ARTxGNN/
 
 ```mermaid
 flowchart TD
-    FDA["ANMAT Datos"] --> proc["process_fda_data.py"]
+    FDA["PAMI Datos"] --> proc["process_fda_data.py"]
     TxGNN["TxGNN Datos"] --> prep["prepare_external_data.py"]
 
     proc --> json["ar_fda_drugs.json"]
