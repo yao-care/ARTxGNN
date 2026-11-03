@@ -25,7 +25,7 @@ de decisión.
 
 <ol class="actionable-steps">
 <li><strong>Predicción TxGNN</strong>: relaciones fármaco&ndash;enfermedad predichas por el modelo TxGNN (aprendizaje profundo: una red neuronal de grafos entrenada con un grafo de conocimiento biomédico).</li>
-<li><strong>Recolección de evidencia</strong>: para cada par predicho se reúne evidencia de ClinicalTrials.gov, PubMed, DrugBank y ANMAT.</li>
+<li><strong>Recolección de evidencia</strong>: para cada par predicho se reúne evidencia de ClinicalTrials.gov, PubMed, DrugBank y el listado de medicamentos de PAMI.</li>
 <li><strong>Gradación de evidencia</strong>: se gradúa de L1 a L5, donde L1 es la más sólida (múltiples ECA de fase 3) y L5 es solo predicción del modelo.</li>
 <li><strong>Recomendación de decisión</strong>: Go, Proceed, Consider, Explore o Hold, según el nivel de evidencia.</li>
 </ol>
@@ -61,9 +61,9 @@ El modelo de aprendizaje profundo (DL) de TxGNN asigna una puntuación a cada pa
 
 ---
 
-## Integración de datos regulatorios
+## Integración del listado local de medicamentos
 
-Los datos de aprobación de medicamentos de Argentina provienen de ANMAT. Los nombres de los
+Los datos de medicamentos de Argentina provienen del listado de precios de medicamentos de PAMI (Medicamentos para entidades). Los nombres de los
 principios activos se mapean al vocabulario de DrugBank; los principios activos que no pueden
 mapearse &mdash; extractos herbales, vacunas, excipientes y otros no catalogados por DrugBank &mdash;
 quedan excluidos de la predicción.

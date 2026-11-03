@@ -3,7 +3,7 @@ layout: default
 title: Acerca de
 nav_order: 90
 permalink: /about/
-description: "ARTxGNN es una plataforma de predicción de reposicionamiento de medicamentos desarrollada por 藥提醒科技有限公司 (yao.care), construida sobre el modelo TxGNN de Harvard, que abarca los medicamentos aprobados por ANMAT en Argentina."
+description: "ARTxGNN es una plataforma de predicción de reposicionamiento de medicamentos desarrollada por 藥提醒科技有限公司 (yao.care), construida sobre el modelo TxGNN de Harvard, que abarca los medicamentos del listado de PAMI en Argentina."
 ---
 
 # Acerca de
@@ -20,7 +20,7 @@ Acelerar la validación de evidencia del reposicionamiento de medicamentos con I
 <strong>ARTxGNN</strong> es una plataforma de apoyo a la investigación en reposicionamiento de
 medicamentos, construida sobre el modelo TxGNN publicado en <em>Nature Medicine</em> por el
 Zitnik Lab de la Universidad de Harvard. Predice la ampliación de indicaciones de los medicamentos
-aprobados por ANMAT en Argentina. Además de los puntajes de predicción de la IA, la plataforma
+del listado de medicamentos de PAMI en Argentina. Además de los puntajes de predicción de la IA, la plataforma
 integra evidencia clínica de ClinicalTrials.gov y PubMed para que los investigadores puedan
 evaluar rápidamente qué tan creíble es cada predicción.
 </p>
@@ -39,7 +39,7 @@ Descripción del producto: <https://www.yao.care/medical/txgnn/>.
 
 El modelo TxGNN en sí fue desarrollado por el Zitnik Lab de Harvard Medical School y publicado
 en *Nature Medicine*. Esta plataforma es el sistema de producción que 藥提醒科技有限公司 construyó
-sobre ese modelo, y abarca la integración de los datos nacionales de registro de medicamentos, la
+sobre ese modelo, y abarca la integración del listado local de medicamentos, la
 predicción por aprendizaje profundo que excluye los usos ya registrados en el grafo de conocimiento, la gradación de evidencia con
 PubMed / ClinicalTrials y la integración con la historia clínica electrónica mediante SMART on FHIR.
 
@@ -114,7 +114,7 @@ listado local de medicamentos), sus licencias y su frecuencia de actualización 
 | Ítem | Valor |
 |------|-------|
 | Informes de medicamentos | <a href="{{ '/drugs/' | relative_url }}">{{ site.drugs.size }}</a> |
-| Autoridad regulatoria | ANMAT |
+| Listado local de medicamentos | PAMI (Medicamentos para entidades) |
 | Sitios desplegados | 30 países / regiones |
 
 Consulte el listado completo en <a href="{{ '/drugs/' | relative_url }}">Todos los Medicamentos</a>,
