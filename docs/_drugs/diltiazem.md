@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 126
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Diltiazem: usos conocidos y situación de mercado en Argentina; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 Los candidatos del modelo TxGNN (puntuación ≥ 0,99) para Diltiazem corresponden, en todos los casos rastreables a una fuente, a usos ya conocidos. Por lo tanto, actualmente no hay ninguna nueva indicación predicha para este fármaco. Esta página recoge los usos conocidos detectados y la situación de comercialización en Argentina.
 
 ## Resumen rápido
+
 | Elemento | Contenido |
 |------|------|
 | Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo rastreables a una fuente son usos conocidos) |
@@ -52,16 +53,19 @@ Los candidatos del modelo TxGNN (puntuación ≥ 0,99) para Diltiazem correspond
 ## Usos conocidos entre los candidatos del modelo
 
 ### Aprobadas (respaldadas por una licencia o ficha técnica)
+
 | Indicación | Fuente |
 |------|------|
 | Angina de Prinzmetal (Prinzmetal angina) | Licencia en otro país; indicación aprobada: angina |
 
 ### Relacionadas con una indicación aprobada (misma categoría de enfermedad)
+
 | Indicación | Categoría aprobada |
 |------|------|
 | Ninguna | Ninguna |
 
 ### Relaciones registradas en el grafo de conocimiento (sin aprobación encontrada)
+
 | Indicación |
 |------|
 | Ninguna |
