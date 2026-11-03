@@ -14,21 +14,28 @@ evidence_level: N/A
 ---
 
 # PANTOPRAZOL
+{: .fs-9 }
 
-## Basic Information
-
-| Item | Value |
-|------|-------|
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (2 de 2) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de productos en el listado PAMI | 2 (vigentes: 2) |
-| DrugBank ID | [DB00213](https://go.drugbank.com/drugs/DB00213) |
-| Number of Predicted Indications | 8 |
-
-## Disclaimer
-
-These predictions are for research purposes only and do not constitute medical advice.
-Clinical validation is required before any clinical application.
+Nivel de evidencia: **N/A** | Indicaciones predichas: **0** 
+{: .fs-6 .fw-300 }
 
 ---
 
-[← Back to Drug Search](/drugs/)
+## Resumen Rápido
+
+| Item | Contenido |
+|------|-----------|
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (2 de 2) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de productos en el listado PAMI | 2 (vigentes: 2) |
+| DrugBank ID | [DB00213](https://go.drugbank.com/drugs/DB00213) |
+
+---
+
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
+---
+
+[← Volver a Todos los Medicamentos](/drugs/)

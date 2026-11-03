@@ -14,21 +14,28 @@ evidence_level: N/A
 ---
 
 # OXCARBAZEPINA
+{: .fs-9 }
 
-## Basic Information
-
-| Item | Value |
-|------|-------|
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (13 de 13) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de productos en el listado PAMI | 13 (vigentes: 13) |
-| DrugBank ID | [DB00776](https://go.drugbank.com/drugs/DB00776) |
-| Number of Predicted Indications | 2 |
-
-## Disclaimer
-
-These predictions are for research purposes only and do not constitute medical advice.
-Clinical validation is required before any clinical application.
+Nivel de evidencia: **N/A** | Indicaciones predichas: **0** 
+{: .fs-6 .fw-300 }
 
 ---
 
-[← Back to Drug Search](/drugs/)
+## Resumen Rápido
+
+| Item | Contenido |
+|------|-----------|
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (13 de 13) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de productos en el listado PAMI | 13 (vigentes: 13) |
+| DrugBank ID | [DB00776](https://go.drugbank.com/drugs/DB00776) |
+
+---
+
+## Descargo de responsabilidad
+
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
+
+---
+
+[← Volver a Todos los Medicamentos](/drugs/)
