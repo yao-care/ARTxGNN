@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Natamycin
-parent: Evidencia Alta (L1-L2)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 200
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 monitor_inn: "natamycin"
-predicted_indications: ["vulvovaginal candidiasis", "candidiasis", "vulvitis", "vulvovaginitis", "trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "vaginitis (disease)", "tinea nigra"]
-last_modified_at: 2026-10-30
-description: "Natamycin: nueva indicación predicha, candidiasis vulvovaginal (vulvovaginal candidiasis) (nivel de evidencia L1). Indicación original: No consta en los datos locales"
+predicted_indications: ["vulvitis", "trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "tinea nigra"]
+last_modified_at: 2026-11-03
+description: "Natamycin: nueva indicación predicha, Vulvitis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Natamycin
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,23 +33,21 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-## Natamycina: antifúngico polieno → candidiasis vulvovaginal (vulvovaginal candidiasis)
+## Natamycin: Vulvitis
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Natamycina es un antifúngico poliénico que actúa sobre la membrana de los hongos y se comercializa en Argentina en presentación oftálmica.
-El modelo TxGNN predice que podría ser efectivo para **candidiasis vulvovaginal (vulvovaginal candidiasis)**,
-con **1 ensayo clínico** de Fase 3 y **14 publicaciones** que actualmente respaldan esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | candidiasis vulvovaginal (vulvovaginal candidiasis) |
-| Puntaje de Predicción TxGNN | 0,9997 |
-| Nivel de Evidencia | L1 |
+| Nueva Indicación Predicha | Vulvitis |
+| Puntaje de Predicción TxGNN | 0.9981 |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (1 de 1) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de productos en el listado PAMI | 1 (vigentes: 1) |
 | Decisión Recomendada | Proceed with Guardrails |
@@ -80,7 +78,6 @@ Cabe una salvedad: el único ensayo de Fase 3 evaluó una combinación de natami
 | [1082689](https://pubmed.ncbi.nlm.nih.gov/1082689/) | 1975 | Estudio clínico | Zentralbl Gynakol | Metronidazol oral + natamicina vaginal: micosis vaginales por *Candida* curadas clínicamente en 89 % tras el primer ciclo |
 | [159686](https://pubmed.ncbi.nlm.nih.gov/159686/) | 1979 | Ensayo clínico controlado | Aust N Z J Obstet Gynaecol | Elase como adyuvante de natamicina en 120 pacientes: mejora de síntomas y erradicación frente a natamicina sola |
 | [11048415](https://pubmed.ncbi.nlm.nih.gov/11048415/) | 1999 | Revisión | Ceska Gynekol | Diagnóstico y tratamiento de la candidiasis vaginal crónica; comparación de natamicina con clotrimazol |
-| [41412769](https://pubmed.ncbi.nlm.nih.gov/41412769/) | 2025 | Encuesta | Ceska Slov Farm | Manejo de la candidiasis vulvovaginal en Leópolis, Ucrania (408 mujeres; prevalencia a lo largo de la vida de 72,6 %) |
 | [18288724](https://pubmed.ncbi.nlm.nih.gov/18288724/) | 2008 | Estudio preclínico de formulación | J Pharm Sci | Complejo de natamicina con gamma-ciclodextrina en comprimidos vaginales mucoadhesivos; CIM90 por debajo de 0,0313 µg/mL |
 
 ## Información de Mercado en Argentina

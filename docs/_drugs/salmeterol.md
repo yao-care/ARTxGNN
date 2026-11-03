@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Salmeterol
-parent: Evidencia Alta (L1-L2)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 227
-evidence_level: L1
-indication_count: 5
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-11-03
-description: "Salmeterol: nueva indicación predicha, Bronquitis (nivel de evidencia L1). Indicación original: Enfisema pulmonar, asma intrínseca y asma alérgica"
 monitor_inn: "SALMETEROL"
-predicted_indications: ["bronchitis", "respiratory malformation", "obstructive lung disease", "Rienhoff syndrome", "atopic eczema"]
+predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
+description: "Salmeterol: nueva indicación predicha, Respiratory malformation (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Salmeterol
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **5**
 
 </div>
 
-## Salmeterol: De Enfisema Pulmonar y Asma a Bronquitis
+## Salmeterol: Respiratory malformation
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Salmeterol es un agonista beta2-adrenérgico de acción prolongada, originalmente utilizado para el tratamiento del enfisema pulmonar y del asma (intrínseca y alérgica).
-El modelo TxGNN predice que podría ser efectivo para **bronquitis**, con **9 ensayos clínicos** y **20 publicaciones** que actualmente respaldan esta dirección. Cabe aclarar que esta indicación forma parte de la misma familia de enfermedades (EPOC/enfermedad pulmonar obstructiva), por lo que se trata más de una extensión que de un reposicionamiento propiamente dicho.
+Cabe aclarar que esta indicación forma parte de la misma familia de enfermedades (EPOC/enfermedad pulmonar obstructiva), por lo que se trata más de una extensión que de un reposicionamiento propiamente dicho.
 
 ---
 
@@ -47,10 +47,10 @@ El modelo TxGNN predice que podría ser efectivo para **bronquitis**, con **9 en
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Enfisema pulmonar, asma intrínseca y asma alérgica (según las indicaciones originales registradas en el grafo de conocimiento; los textos de indicación de las autorizaciones locales están vacíos) |
-| Nueva Indicación Predicha | Bronquitis |
-| Puntaje de Predicción TxGNN | 0.9992 |
-| Nivel de Evidencia | L1 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Respiratory malformation |
+| Puntaje de Predicción TxGNN | 0.9991 |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (al menos 20) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de productos en el listado PAMI | al menos 20 |
 | Decisión Recomendada | Proceed with Guardrails |
@@ -147,7 +147,7 @@ Varios ensayos de Fase 3 completados (con comparación directa de salmeterol en 
 
 | Indicación | Puntaje TxGNN | Nivel de Evidencia | Decisión |
 |------|------|------|------|
-| Enfermedad pulmonar obstructiva | 0.9989 | L1 | Proceed with Guardrails (coincide con las indicaciones ya aprobadas) |
+| Enfermedad pulmonar obstructiva | 0.9989 | L5 | Proceed with Guardrails (coincide con las indicaciones ya aprobadas) |
 | Eccema atópico | 0.9939 | L5 | Research Question (solo evidencia mecanística y preclínica) |
 | Malformación respiratoria | 0.9991 | L5 | Hold (sin vínculo mecanístico claro) |
 | Síndrome de Rienhoff | 0.9989 | L5 | Hold (solo predicción computacional) |

@@ -4,17 +4,17 @@ title: Tioconazole
 parent: Solo Predicción del Modelo (L5)
 nav_order: 237
 evidence_level: L5
-indication_count: 3
+indication_count: 2
 monitor_inn: "tioconazole"
-predicted_indications: ["vulvovaginitis", "vulvitis", "postmenopausal atrophic vaginitis"]
-last_modified_at: 2026-10-30
-description: "Tioconazole: nueva indicación predicha, Vulvovaginitis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+predicted_indications: ["vulvitis", "postmenopausal atrophic vaginitis"]
+last_modified_at: 2026-11-03
+description: "Tioconazole: nueva indicación predicha, Vulvitis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Tioconazole
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,20 +33,20 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Tioconazol: antifúngico imidazólico (inhibidor de la lanosterol 14-α-desmetilasa) → Vulvovaginitis (vulvovaginitis)
+## Tioconazole: Vulvitis
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Tioconazol es un antifúngico imidazólico de uso tópico. El modelo TxGNN predice que podría ser útil para **Vulvovaginitis (vulvovaginitis)**, con un puntaje de 0,9923. Hay **0 ensayos clínicos registrados** y **20 publicaciones**, casi todas sobre infecciones vaginales por hongos. Ninguna estudia la vulvovaginitis como entidad general.
+Tioconazol es un antifúngico imidazólico de uso tópico. Hay **0 ensayos clínicos registrados** y **20 publicaciones**, casi todas sobre infecciones vaginales por hongos. Ninguna estudia la vulvovaginitis como entidad general.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Vulvovaginitis (vulvovaginitis) |
-| Puntaje de Predicción TxGNN | 0,9923 |
+| Nueva Indicación Predicha | Vulvitis |
+| Puntaje de Predicción TxGNN | 0.9920 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (3 de 3) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de productos en el listado PAMI | 3 (vigentes: 3) |
@@ -102,7 +102,7 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción no tiene ensayos clínicos registrados. La literatura disponible estudia infecciones vaginales fúngicas, no la vulvovaginitis en general, por lo que el nivel de evidencia es L5. El puntaje alto del modelo (0,9923) refleja sobre todo la cercanía con usos antifúngicos ya conocidos, no un beneficio demostrado en otras causas de vulvovaginitis.
+La predicción no tiene ensayos clínicos registrados. La literatura disponible estudia infecciones vaginales fúngicas, no la vulvovaginitis en general, por lo que el nivel de evidencia es L5.
 
 **Para avanzar se necesita:**
 - Definir qué subtipos de vulvovaginitis (fúngica, mixta u otras) justificarían el uso de un antifúngico.
