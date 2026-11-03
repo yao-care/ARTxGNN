@@ -46,6 +46,8 @@ Esta lista se basa en el listado de precios de medicamentos de [PAMI: Medicament
 | **L4** | {{ l4_count }} | Estudios preclínicos / mecanísticos |
 | **L5** | {{ l5_count }} | Solo predicción del modelo |
 
+Selección: [Medicamentos del listado PAMI con evidencia de ensayos clínicos para una nueva indicación]({{ '/clinical-trial-evidence/' | relative_url }}) (L1–L2, con la indicación predicha y el número de ensayos registrados).
+
 ---
 
 ## Lista completa de medicamentos

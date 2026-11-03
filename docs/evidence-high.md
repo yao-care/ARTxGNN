@@ -12,6 +12,8 @@ description: "Candidatos a reposicionamiento de medicamentos L1-L2 en ARTxGNN, r
 Candidatos que pueden priorizarse para evaluación clínica
 </p>
 
+¿Cuáles de estos medicamentos tienen evidencia de ensayos para su nueva indicación predicha y cuántos ensayos registrados se citan? Vea [Medicamentos del listado PAMI con evidencia de ensayos clínicos para una nueva indicación]({{ '/clinical-trial-evidence/' | relative_url }}).
+
 ---
 
 ## Criterios
