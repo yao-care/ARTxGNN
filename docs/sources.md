@@ -3,7 +3,7 @@ layout: default
 title: Fuentes de Datos
 nav_order: 93
 permalink: /sources/
-description: "Fuentes de datos detrás de ARTxGNN: datos de registro de ANMAT, TxGNN, ClinicalTrials.gov, PubMed y DrugBank."
+description: "Fuentes de datos detrás de ARTxGNN: listado de medicamentos de PAMI, TxGNN, ClinicalTrials.gov, PubMed y DrugBank."
 ---
 
 # Fuentes de Datos
@@ -21,7 +21,7 @@ Cada conclusión se remonta a una fuente de datos pública: nada es una caja neg
 <tr><th>Tipo</th><th>Fuente</th><th>Se usa para</th></tr>
 </thead>
 <tbody>
-<tr><td>Datos de registro sanitario</td><td><a href="https://www.argentina.gob.ar/anmat">ANMAT</a></td><td>Listado de medicamentos aprobados y principios activos de Argentina</td></tr>
+<tr><td>Listado local de medicamentos</td><td><a href="https://datos.pami.org.ar/dataset/medicamentos-para-entidades">PAMI: Medicamentos para entidades</a></td><td>Medicamentos y principios activos de Argentina; estado en el listado de cada producto</td></tr>
 <tr><td>Modelo de predicción</td><td><a href="https://zitniklab.hms.harvard.edu/projects/TxGNN/">TxGNN</a></td><td>Predicción de asociaciones fármaco&ndash;enfermedad</td></tr>
 <tr><td>Ensayos clínicos</td><td><a href="https://clinicaltrials.gov/">ClinicalTrials.gov</a></td><td>Gradación de evidencia (NCT)</td></tr>
 <tr><td>Literatura</td><td><a href="https://pubmed.ncbi.nlm.nih.gov/">PubMed</a></td><td>Gradación de evidencia (PMID)</td></tr>
@@ -32,6 +32,22 @@ Cada conclusión se remonta a una fuente de datos pública: nada es una caja neg
 
 ---
 
+## Datos locales de este sitio
+
+Los medicamentos de Argentina y su estado de mercado provienen del listado de precios de medicamentos
+que publica PAMI en su portal de datos abiertos. Es un listado de cobertura y precios, **no** el registro sanitario de ANMAT: el estado del
+registro en ANMAT no está incluido en estos datos.
+
+| Ítem | Detalle |
+|------|---------|
+| Conjunto de datos | Medicamentos para entidades (listado de precios de medicamentos, CSV) |
+| Publicador | PAMI, portal de datos abiertos datos.pami.org.ar |
+| Descarga | <https://datos.pami.org.ar/dataset/medicamentos-para-entidades> (se toma el CSV más reciente del conjunto de datos) |
+| Identificador de producto | Código ALFABETA |
+| Actualización | Descarga automática semanal (cada lunes); un producto que deja de figurar en el listado conserva su estado anterior |
+
+---
+
 ## Licencias
 
 Cada fuente tiene su propia licencia; revísela antes de citar:
@@ -39,7 +55,7 @@ Cada fuente tiene su propia licencia; revísela antes de citar:
 - **TxGNN**: uso académico; citar a Huang et al. (2024)
 - **ClinicalTrials.gov / PubMed**: datos públicos de los NIH de Estados Unidos
 - **DrugBank**: uso no comercial sujeto a sus términos de licencia
-- **ANMAT**: sujeto a los términos de datos abiertos del organismo regulador de Argentina
+- **PAMI**: sujeto a los términos de uso del portal de datos abiertos datos.pami.org.ar
 
 ---
 
@@ -47,7 +63,7 @@ Cada fuente tiene su propia licencia; revísela antes de citar:
 
 | Datos | Frecuencia |
 |------|-----------|
-| Datos de registro sanitario | Según los publique el organismo regulador |
+| Listado de medicamentos de PAMI | Semanal (cada lunes) |
 | Evidencia de ensayos / literatura | Se recolecta nuevamente en forma periódica |
 | Datos de interacciones | Revisados trimestralmente |
 
@@ -62,19 +78,8 @@ Cada fuente tiene su propia licencia; revísela antes de citar:
 
 ## Acerca del Desarrollador
 
-Esta plataforma es desarrollada y operada por **藥提醒科技有限公司** (yao.care, número de registro
-de empresa 83620786, 12F, No. 220, Sec. 2, Taiwan Blvd., West Dist., Taichung City, Taiwan).
-
-ARTxGNN es el sitio de Argentina de la línea de productos "TxGNN Drug Repurposing" de la empresa.
-El mismo sistema está desplegado en 30 países y regiones, cada uno denominado `{CC}TxGNN`
-(JpTxGNN, UsTxGNN, DETxGNN, y así sucesivamente) en `{cc}txgnn.yao.care`.
-Descripción del producto: <https://www.yao.care/medical/txgnn/>.
-
-El modelo TxGNN en sí fue desarrollado por el Zitnik Lab de Harvard Medical School y publicado
-en *Nature Medicine*. Esta plataforma es el sistema de producción que 藥提醒科技有限公司 construyó
-sobre ese modelo, y abarca la integración de los datos nacionales de registro de medicamentos, la
-predicción por aprendizaje profundo que excluye los usos ya registrados en el grafo de conocimiento, la gradación de evidencia con
-PubMed / ClinicalTrials y la integración con la historia clínica electrónica mediante SMART on FHIR.
+Esta plataforma es desarrollada y operada por **藥提醒科技有限公司** (yao.care). Consulte la página
+<a href="{{ '/about/' | relative_url }}">Acerca de</a> para conocer los antecedentes completos de la empresa y de la metodología.
 
 ---
 
