@@ -38,7 +38,9 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 ## Resumen en Una Frase
 
-Natamycina es un antifúngico poliénico que actúa sobre la membrana de los hongos y se comercializa en Argentina en presentación oftálmica.
+La natamicina es un antifúngico de la familia de los polienos, presente en el mercado argentino como el producto NATACYN.
+El modelo TxGNN predice que podría ser útil para **Vulvitis (vulvitis)**, con un puntaje de 0,9981.
+Los datos compilados no incluyen ningún estudio que evalúe directamente la vulvitis como enfermedad, por lo que la evidencia es solo de predicción.
 
 ## Resumen Rápido
 
@@ -50,61 +52,50 @@ Natamycina es un antifúngico poliénico que actúa sobre la membrana de los hon
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (1 de 1) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de productos en el listado PAMI | 1 (vigentes: 1) |
-| Decisión Recomendada | Proceed with Guardrails |
+| Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción registrado. Según la información conocida, la natamicina es un antifúngico poliénico que se une al ergosterol de la membrana celular del hongo y provoca su permeabilización.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según lo conocido, la natamicina es un antifúngico polieno que se une al ergosterol de la membrana de los hongos y altera su integridad. Esto explica su actividad contra hongos y levaduras.
 
-Las especies de *Candida* contienen ergosterol en su membrana y son sensibles a este mecanismo. Es el mismo principio antifúngico que sustenta su uso en infecciones oculares, aplicado ahora a una mucosa distinta (la vaginal). Los óvulos vaginales de natamicina se han usado durante décadas para esta afección, como muestran varios estudios históricos.
+La vulvitis puede ser la manifestación vulvar de una infección fúngica. En ese escenario, un antifúngico de este tipo podría tener un fundamento mecanístico razonable.
 
-Cabe una salvedad: el único ensayo de Fase 3 evaluó una combinación de natamicina con lactulosa, de modo que el aporte de la natamicina sola no queda aislado. Además, el producto autorizado localmente tiene una forma farmacéutica de frasco, por lo que una vía vaginal requeriría una formulación distinta.
+Esta lógica tiene límites claros. La vulvitis tiene muchas causas no fúngicas (irritativas, alérgicas, bacterianas, hormonales), y en ellas la natamicina no tendría un mecanismo plausible. El puntaje alto del modelo indica asociación estadística, no eficacia demostrada. Ninguno de los estudios compilados evalúa la vulvitis como enfermedad en sí.
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT06411314](https://clinicaltrials.gov/study/NCT06411314) | Fase 3 | Completado | 218 | Supositorios vaginales de natamicina 100 mg + lactulosa 300 mg frente a natamicina sola (Pimafucin) o lactulosa sola en mujeres adultas no embarazadas con candidiasis vulvovaginal; busca demostrar superioridad y evaluar seguridad |
+Actualmente no hay ensayos clínicos registrados que estudien directamente la vulvitis con natamicina.
 
 ## Evidencia de Literatura
 
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [39979898](https://pubmed.ncbi.nlm.nih.gov/39979898/) | 2025 | ECA | BMC Women's Health | Eficacia y seguridad de supositorios vaginales de natamicina + lactulosa en candidiasis vulvovaginal (ensayo internacional, aleatorizado, de superioridad) |
-| [4561566](https://pubmed.ncbi.nlm.nih.gov/4561566/) | 1972 | ECA | Med J Aust | Comparación de óvulos de anfotericina B (Fungilin) y natamicina (Pimafucin) en candidiasis vaginal |
-| [6760652](https://pubmed.ncbi.nlm.nih.gov/6760652/) | 1982 | Ensayo clínico | Acta Obstet Gynecol Scand | Natamicina vaginal durante 10 días: curación del 94 % con pareja tratada frente al 88 % con placebo en la pareja, sin diferencia significativa |
-| [4584444](https://pubmed.ncbi.nlm.nih.gov/4584444/) | 1973 | Estudio clínico | Practitioner | Natamicina en candidiasis vaginal durante el embarazo |
-| [6966774](https://pubmed.ncbi.nlm.nih.gov/6966774/) | 1980 | Estudio clínico | N Z Med J | Comprimidos vaginales de Pimafucin durante 10 días: curación del 76 % a las dos y cuatro semanas en 50 mujeres |
-| [1082689](https://pubmed.ncbi.nlm.nih.gov/1082689/) | 1975 | Estudio clínico | Zentralbl Gynakol | Metronidazol oral + natamicina vaginal: micosis vaginales por *Candida* curadas clínicamente en 89 % tras el primer ciclo |
-| [159686](https://pubmed.ncbi.nlm.nih.gov/159686/) | 1979 | Ensayo clínico controlado | Aust N Z J Obstet Gynaecol | Elase como adyuvante de natamicina en 120 pacientes: mejora de síntomas y erradicación frente a natamicina sola |
-| [11048415](https://pubmed.ncbi.nlm.nih.gov/11048415/) | 1999 | Revisión | Ceska Gynekol | Diagnóstico y tratamiento de la candidiasis vaginal crónica; comparación de natamicina con clotrimazol |
-| [18288724](https://pubmed.ncbi.nlm.nih.gov/18288724/) | 2008 | Estudio preclínico de formulación | J Pharm Sci | Complejo de natamicina con gamma-ciclodextrina en comprimidos vaginales mucoadhesivos; CIM90 por debajo de 0,0313 µg/mL |
+Actualmente no hay literatura disponible que estudie directamente la vulvitis con natamicina. Las publicaciones compiladas se refieren a otras condiciones, a formulaciones farmacéuticas o a usos antiguos de la natamicina. Por ello no se consideran evidencia directa de esta predicción.
 
 ## Información de Mercado en Argentina
+
+El estado de mercado es **comercializado**, con 1 autorización vigente (monofármaco).
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 11149 | NATACYN | Frasco x 15 ml | No registrada en los datos locales |
 
+La presentación local es un frasco de 15 ml. No se ha establecido su compatibilidad con una vía de administración vulvar, y una eventual aplicación requeriría evaluar la formulación.
+
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
 
-Como dato complementario, un estudio de casos y controles sobre natamicina vaginal durante el embarazo (PMID [12849848](https://pubmed.ncbi.nlm.nih.gov/12849848/)) aporta información de seguridad en esa población.
-
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-Hay un ensayo de Fase 3 completado (n=218) y un ECA publicado en candidiasis vulvovaginal, además de numerosos estudios históricos con natamicina vaginal. La principal limitación es que el ensayo reciente evaluó una combinación con lactulosa.
+No existe ningún estudio que evalúe directamente la vulvitis, por lo que el nivel de evidencia es L5. La predicción se apoya solo en el puntaje del modelo y en un mecanismo plausible únicamente para causas fúngicas.
 
 **Para avanzar se necesita:**
-- Aislar la contribución de la natamicina sola en candidiasis vulvovaginal (por ejemplo, con los resultados del brazo de Pimafucin).
-- Disponer de una formulación vaginal; la presentación local es un frasco de 15 ml.
-- Obtener el prospecto de ANMAT para completar la revisión de advertencias y contraindicaciones.
-- Completar los datos del mecanismo de acción.
-- Limitar la indicación a la etiología fúngica, ya que la natamicina no actúa sobre vaginitis bacteriana ni protozoaria.
+- Estudios clínicos o publicaciones que evalúen directamente la vulvitis con natamicina, definiendo la causa (fúngica o no fúngica).
+- Datos del mecanismo de acción y de seguridad a partir del prospecto aprobado por ANMAT.
+- Evaluación de la formulación y la vía de administración adecuadas para uso vulvar.
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
