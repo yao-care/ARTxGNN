@@ -5,7 +5,7 @@
 ## Propósito
 
 - Se basa en el método TxGNN publicado por el Zitnik Lab de Harvard para explorar posibles relaciones entre medicamentos existentes y nuevas indicaciones.
-- Las predicciones del modelo se combinan con ClinicalTrials.gov, PubMed, DrugBank, datos de ANMAT y DDInter en informes trazables.
+- Las predicciones del modelo se combinan con ClinicalTrials.gov, PubMed, DrugBank, datos del listado de medicamentos de PAMI y DDInter en informes trazables.
 - Los niveles de evidencia van de L1 (evidencia clínica más sólida) a L5 (solo predicción del modelo); una puntuación del modelo no equivale a eficacia clínica.
 - Todo candidato a reposicionamiento requiere ensayos clínicos, revisión regulatoria y la evaluación de profesionales de la salud calificados.
 
