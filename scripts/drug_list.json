@@ -1,6 +1,6 @@
 {
   "total": 158,
-  "generated_at": "2026-11-04T04:28:46.166452",
+  "generated_at": "2026-11-04T19:14:10.274264",
   "drugs": [
     {
       "name": "Aliskiren",
@@ -43,7 +43,7 @@
     {
       "name": "Alprazolam",
       "file": "alprazolam.md",
-      "evidence_level": "L5",
+      "evidence_level": "L3",
       "indication_count": 2,
       "predicted_indication": "",
       "inn": "ALPRAZOLAM",
@@ -555,7 +555,7 @@
     {
       "name": "Diazepam",
       "file": "diazepam.md",
-      "evidence_level": "L5",
+      "evidence_level": "L2",
       "indication_count": 10,
       "predicted_indication": "",
       "inn": "DIAZEPAM",
@@ -1091,7 +1091,7 @@
     {
       "name": "Glucagon",
       "file": "glucagon.md",
-      "evidence_level": "L3",
+      "evidence_level": "L5",
       "indication_count": 1,
       "predicted_indication": "",
       "inn": "GLUCAGON",
@@ -1471,7 +1471,7 @@
     {
       "name": "Levonorgestrel",
       "file": "levonorgestrel.md",
-      "evidence_level": "L4",
+      "evidence_level": "L2",
       "indication_count": 5,
       "predicted_indication": "",
       "inn": "LEVONORGESTREL",
@@ -1530,7 +1530,7 @@
     {
       "name": "Lornoxicam",
       "file": "lornoxicam.md",
-      "evidence_level": "L2",
+      "evidence_level": "L5",
       "indication_count": 8,
       "predicted_indication": "",
       "inn": "LORNOXICAM",
