@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Modafinil
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 194
-evidence_level: L3
+evidence_level: L5
 indication_count: 1
 monitor_inn: "modafinil"
 predicted_indications: ["insomnia (disease)"]
 last_modified_at: 2026-11-04
-description: "Modafinil: nueva indicación predicha, Insomnio (insomnia (disease)) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
+description: "Modafinil: nueva indicación predicha, insomnio (insomnia (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Modafinil
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **1** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,98 +33,70 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **1**
 
 </div>
 
-## Modafinil: Insomnio (insomnia (disease))
+## Modafinil: insomnio (insomnia (disease))
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Modafinilo es un agente promotor de la vigilia, comercializado actualmente en Argentina.
-El modelo TxGNN predice que podría ser útil para **Insomnio (insomnia (disease))**, pero la evidencia es limitada y de nivel **L3**: **2 ensayos clínicos** de Fase 4 (uno terminado anticipadamente con solo 2 participantes) y **ninguna publicación** registrada.
-
----
+Modafinilo es un agente promotor de la vigilia que cuenta con autorizaciones vigentes en Argentina. El modelo TxGNN predice que podría ser útil para **insomnio (insomnia (disease))**, con un puntaje de 0,9985. Actualmente solo hay **2 ensayos clínicos** relacionados (uno terminado con 2 participantes y otro completado sin resultados publicados) y **ninguna publicación**, por lo que el nivel de evidencia es L5 (solo predicción del modelo).
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Insomnio (insomnia (disease)) |
+| Nueva Indicación Predicha | insomnio (insomnia (disease)) |
 | Puntaje de Predicción TxGNN | 0.9985 |
-| Nivel de Evidencia | L3 |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (7 de 7) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de productos en el listado PAMI | 7 (vigentes: 7) |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por conocimiento general, se considera que modafinilo actúa sobre la recaptación de dopamina y modula circuitos que promueven la vigilia (sistemas de orexina, histamina y noradrenalina).
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información general conocida, el modafinilo promueve la vigilia, probablemente mediante la inhibición del transportador de dopamina y la modulación de circuitos de vigilia (sistemas de orexina, histamina y noradrenalina).
 
-Ese perfil favorece el estado de alerta y no el sueño. Por eso el vínculo mecanístico con el tratamiento del insomnio es débil e incluso podría ser contradictorio. El puntaje de 0,9985 es una predicción computacional y puede reflejar cercanía con otros trastornos del sueño y la vigilia, más que una adecuación terapéutica real.
+Precisamente por ese perfil, el fundamento mecanístico para tratar el insomnio es débil e incluso potencialmente contradictorio: un fármaco que favorece la vigilia no se esperaría que ayude a dormir. El puntaje alto (0,9985) es una predicción computacional y puede reflejar la cercanía del fármaco con trastornos del sueño y la vigilia en general, más que una verdadera adecuación terapéutica.
 
-Los dos ensayos de Fase 4 identificados exploran alteraciones del sueño y la vigilia, y uno de ellos incluye personas con insomnio primario. Aun así, se trata de evidencia indirecta e inicial. La predicción debe tomarse como hipótesis a validar, no como una dirección terapéutica establecida.
-
----
+Una posible vía de aplicación sería indirecta: mejorar el funcionamiento diurno de personas con insomnio, en especial combinado con terapia cognitivo-conductual. Esto requiere confirmación en estudios con resultados disponibles.
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT00124384](https://clinicaltrials.gov/study/NCT00124384) | Fase 4 | Completado | 40 | Evalúa el efecto de modafinilo, solo o combinado con terapia cognitivo-conductual para el insomnio (TCC-I), sobre el funcionamiento diurno y la gravedad del insomnio en personas con insomnio primario. No hay resultados publicados y la muestra es pequeña. |
-| [NCT00626210](https://clinicaltrials.gov/study/NCT00626210) | Fase 4 | Terminado anticipadamente | 2 | Modafinilo para alteraciones del sueño y la vigilia en adultos mayores. Con solo 2 participantes no aporta evidencia interpretable de eficacia ni seguridad. |
-
----
-
-## Evidencia de Literatura
-
-Actualmente no hay literatura relacionada disponible.
-
----
+| [NCT00124384](https://clinicaltrials.gov/study/NCT00124384) | Fase 4 | Completado | 40 | Efectos del modafinilo, solo o con terapia cognitivo-conductual para el insomnio, sobre el funcionamiento diurno y la gravedad del insomnio en insomnio primario. Sin resultados publicados; evidencia indirecta. |
+| [NCT00626210](https://clinicaltrials.gov/study/NCT00626210) | Fase 4 | Terminado | 2 | Modafinilo para alteraciones del sueño y la vigilia en adultos mayores. Terminado con solo 2 participantes; no aporta evidencia interpretable. |
 
 ## Información de Mercado en Argentina
 
-Hay 7 autorizaciones vigentes de productos de modafinilo como único principio activo. En los datos locales no figura el texto de indicación aprobada.
-
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 52079 | VISPER | 200 mg comp. x 15 | Ariston |
-| 52080 | VISPER | 200 mg comp. x 30 | Ariston |
-| 49669 | VIGICER | 200 mg comp. x 15 | Beta |
-| 49670 | VIGICER | 200 mg comp. x 30 | Beta |
-| 42592 | INTENSIT | 200 mg comp. x 10 | Rontag |
-| 58761 | FORCILIN | 200 mg comp. x 10 | Megalabs Argent |
-| 58762 | FORCILIN | 200 mg comp. x 20 | Megalabs Argent |
+| 52079 | VISPER | 200 mg comp. x 15 | No registrada en los datos locales |
+| 52080 | VISPER | 200 mg comp. x 30 | No registrada en los datos locales |
+| 49669 | VIGICER | 200 mg comp. x 15 | No registrada en los datos locales |
+| 49670 | VIGICER | 200 mg comp. x 30 | No registrada en los datos locales |
+| 42592 | INTENSIT | 200 mg comp. x 10 | No registrada en los datos locales |
 
----
+Hay 7 autorizaciones vigentes en total; se muestran las 5 principales. Las otras dos corresponden a FORCILIN (58761 y 58762).
 
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas**: se registraron 249 interacciones potenciales. Entre las de nivel **moderado** figuran:
-  - rabeprazol, omeprazol y esomeprazol;
-  - dexametasona;
-  - eliglustat;
-  - linagliptina;
-  - cisaprida.
-
-  Entre las de nivel **menor** figuran hidrocortisona, pioglitazona, aprepitant, triamcinolona, betametasona, cimetidina, claritromicina, saxagliptina, dronabinol, clotrimazol, granisetrón, miconazol y naldemedina.
+- **Interacciones Farmacológicas**: se identificaron 249 interacciones potenciales. Entre las de nivel moderado figuran omeprazol, esomeprazol, rabeprazol, dexametasona, eliglustat, linagliptina y cisaprida. Varias otras son de nivel menor (por ejemplo hidrocortisona, cimetidina, claritromicina y pioglitazona).
 
 Para advertencias y contraindicaciones, consultar el prospecto.
-
----
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia directa se limita a un estudio pequeño de Fase 4 en insomnio primario, sin resultados disponibles, y a un ensayo terminado con 2 participantes. Además, el perfil de promotor de la vigilia hace poco plausible un beneficio en el insomnio. El puntaje alto del modelo no basta para avanzar.
+La predicción no cuenta con estudios que la respalden: el único ensayo directamente relacionado con el insomnio primario no tiene resultados publicados y el otro se terminó con 2 participantes. Además, el perfil promotor de la vigilia del fármaco hace poco plausible su uso como tratamiento del insomnio.
 
 **Para avanzar se necesita:**
-- Obtener y analizar los resultados de NCT00124384.
-- Ensayos clínicos aleatorizados, con control, que evalúen modafinilo en insomnio.
-- Datos del mecanismo de acción que justifiquen un posible beneficio en el insomnio.
-- Revisión de las advertencias y contraindicaciones del prospecto aprobado en Argentina.
+- Resultados publicados de NCT00124384 o un ensayo controlado nuevo en insomnio
+- Datos detallados del mecanismo de acción y un análisis de su compatibilidad con el tratamiento del insomnio
+- Revisión del prospecto aprobado en Argentina para advertencias y contraindicaciones
+- Evaluación del riesgo de empeorar el sueño nocturno en esta población
 
 ## Descargo de responsabilidad
 
