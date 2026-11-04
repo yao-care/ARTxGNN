@@ -1,12 +1,12 @@
 {
-  "generated": "2026-11-03",
+  "generated": "2026-11-04",
   "total_drugs": 160,
   "level_counts": {
     "L1": 3,
-    "L2": 2,
-    "L3": 8,
-    "L4": 6,
-    "L5": 139
+    "L2": 4,
+    "L3": 9,
+    "L4": 5,
+    "L5": 137
   },
   "all_drugs": [
     {
@@ -24,7 +24,7 @@
     {
       "name": "Alprazolam",
       "slug": "alprazolam",
-      "level": "L5",
+      "level": "L3",
       "indication_count": 2
     },
     {
@@ -210,7 +210,7 @@
     {
       "name": "Diazepam",
       "slug": "diazepam",
-      "level": "L5",
+      "level": "L2",
       "indication_count": 10
     },
     {
@@ -402,7 +402,7 @@
     {
       "name": "Glucagon",
       "slug": "glucagon",
-      "level": "L3",
+      "level": "L5",
       "indication_count": 1
     },
     {
@@ -546,7 +546,7 @@
     {
       "name": "Levonorgestrel",
       "slug": "levonorgestrel",
-      "level": "L4",
+      "level": "L2",
       "indication_count": 5
     },
     {
@@ -642,7 +642,7 @@
     {
       "name": "Modafinil",
       "slug": "modafinil",
-      "level": "L5",
+      "level": "L3",
       "indication_count": 1
     },
     {

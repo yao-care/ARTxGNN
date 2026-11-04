@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Glucagon
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 154
-evidence_level: L3
+evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
-description: "Glucagon: nueva indicación predicha, Síndrome del intestino irritable (nivel de evidencia L3). Indicación original: No disponible en los datos compilados (el texto de indicación de la a…"
+last_modified_at: 2026-11-04
 monitor_inn: "GLUCAGON"
 predicted_indications: ["irritable bowel syndrome"]
+description: "Glucagon: nueva indicación predicha, Síndrome del intestino irritable (irritable bowel syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Glucagon
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **1** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,58 +33,53 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **1**
 
 </div>
 
-## Glucagón: De Indicación Original No Especificada a Síndrome del Intestino Irritable
+## Glucagon: Síndrome del intestino irritable (irritable bowel syndrome)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-El glucagón es una hormona peptídica comercializada en Argentina (producto GLUCAGEN HYPOKIT), pero los datos compilados para este informe no incluyen el texto de su indicación aprobada.
-El modelo TxGNN predice que podría ser efectivo para el **síndrome del intestino irritable**, con **2 ensayos clínicos** (ambos con análogos de GLP-1, no con glucagón) y **20 publicaciones** de apoyo indirecto.
-La evidencia es principalmente mecanística e indirecta.
+Glucagón es un péptido derivado del proglucagón que se comercializa en Argentina. El modelo TxGNN predice que podría ser útil para el **síndrome del intestino irritable (irritable bowel syndrome)**, pero ningún estudio evaluó el glucagón en esta enfermedad: los **2 ensayos clínicos** y las publicaciones disponibles se refieren a GLP-1 y sus análogos, que son fármacos distintos. Por eso el nivel de evidencia es L5.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en los datos compilados (el texto de indicación de la autorización está vacío) |
-| Nueva Indicación Predicha | Síndrome del intestino irritable |
-| Puntaje de Predicción TxGNN | 0,9924 |
-| Nivel de Evidencia | L3 |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Síndrome del intestino irritable (irritable bowel syndrome) |
+| Puntaje de Predicción TxGNN | 0.9924 |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (1 de 1) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de productos en el listado PAMI | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, el glucagón es un péptido derivado del proglucagón, igual que el GLP-1, y ambos actúan sobre receptores acoplados a proteína G de clase B relacionados.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción del glucagón en los datos compilados para este informe. Se sabe que es un péptido derivado del proglucagón, igual que el GLP-1, y que ambos actúan sobre receptores acoplados a proteína G de clase B relacionados.
 
-La evidencia aportada se refiere al GLP-1 y a sus análogos (GLP-1 nativo y ROSE-010, un agonista del receptor de GLP-1), que inhiben la motilidad gastrointestinal y podrían reducir el dolor visceral. Además, el glucagón tiene un conocido efecto antiespasmódico sobre el músculo liso, utilizado en radiología y endoscopia digestiva. Esto ofrece un vínculo plausible, aunque indirecto, con síntomas del intestino irritable como los calambres y la motilidad alterada.
+El glucagón tiene un efecto antiespasmódico conocido sobre el músculo liso, que se utiliza en radiología y endoscopia digestiva. Esto sugiere un vínculo plausible, aunque indirecto, con síntomas del síndrome del intestino irritable como los calambres y la alteración de la motilidad.
 
-Ningún ensayo presentado evaluó el glucagón en sí mismo en pacientes con intestino irritable. El puntaje alto de TxGNN (0,9924) es una predicción computacional y no constituye evidencia clínica.
+Los estudios disponibles evalúan GLP-1 y análogos (por ejemplo ROSE-010), que inhiben la motilidad gastrointestinal y podrían reducir el dolor visceral. Ningún estudio probó el glucagón en esta enfermedad. El puntaje de 0,9924 es una predicción computacional y no constituye evidencia clínica.
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT01056107](https://clinicaltrials.gov/study/NCT01056107) | Fase 1/2 | Completado | 52 | Efecto de ROSE-010 (agonista de GLP-1) sobre la motilidad gastrointestinal en mujeres con SII con predominio de estreñimiento. Relevancia: B (población directa, pero no es glucagón) |
-| [NCT02731664](https://clinicaltrials.gov/study/NCT02731664) | Fase 1 | Completado | 12 | GLP-1 nativo vs. análogo ROSE-010 sobre la motilidad antro-duodeno-yeyunal en voluntarios; apoyo mecanístico indirecto. Relevancia: C |
+| [NCT01056107](https://clinicaltrials.gov/study/NCT01056107) | Fase 1/2 | Completado | 52 | ROSE-010 (análogo de GLP-1) sobre la función motora gastrointestinal en mujeres con SII con predominio de estreñimiento. No evalúa glucagón. |
+| [NCT02731664](https://clinicaltrials.gov/study/NCT02731664) | Fase 1 | Completado | 12 | GLP-1 nativo frente a ROSE-010 sobre la motilidad antro-duodeno-yeyunal en voluntarios. No evalúa glucagón ni pacientes con SII. |
 
 ## Evidencia de Literatura
 
+Las publicaciones se refieren a GLP-1 y sus agonistas, no al glucagón.
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [40134805](https://pubmed.ncbi.nlm.nih.gov/40134805/) | 2025 | Revisión sistemática | Front Endocrinol | Metaanálisis sobre agonistas de GLP-1 en el SII; GLP-1 y ROSE-010 inhiben el complejo motor migratorio y reducen la motilidad |
-| [38997662](https://pubmed.ncbi.nlm.nih.gov/38997662/) | 2024 | Revisión sistemática | J Headache Pain | Papel de los agonistas de GLP-1 en cefalea y trastornos dolorosos |
-| [40697433](https://pubmed.ncbi.nlm.nih.gov/40697433/) | 2025 | Cohorte | Ann Gastroenterol | Patrones de prescripción y suspensión de agonistas de GLP-1 en pacientes con SII |
-| [35234561](https://pubmed.ncbi.nlm.nih.gov/35234561/) | 2022 | Subanálisis de estudio clínico | Scand J Gastroenterol | Alivio del dolor con ROSE-010 en SII; identificación de subpoblaciones más adecuadas |
-| [30444291](https://pubmed.ncbi.nlm.nih.gov/30444291/) | 2019 | Revisión | Exp Physiol | Papel del GLP-1 en la fisiopatología del SII |
-| [25427821](https://pubmed.ncbi.nlm.nih.gov/25427821/) | 2015 | Revisión | Adv Exp Med Biol | GLP-1 en aerosol para diabetes y SII |
-| [40880735](https://pubmed.ncbi.nlm.nih.gov/40880735/) | 2025 | Estudio clínico | Front Nutr | Aumento del GLP-1 circulante tras dieta baja en FODMAP en pacientes con SII |
-| [30023410](https://pubmed.ncbi.nlm.nih.gov/30023410/) | 2018 | Revisión | Cell Mol Gastroenterol Hepatol | Interacciones bidireccionales del eje cerebro-intestino-microbioma |
-| [41480755](https://pubmed.ncbi.nlm.nih.gov/41480755/) | 2026 | Revisión | J Clin Invest | Mecanismos de la interacción intestino-cerebro e incretinas |
-| [26765585](https://pubmed.ncbi.nlm.nih.gov/26765585/) | 2016 | Revisión | Expert Opin Investig Drugs | Nuevos fármacos en investigación para SII con predominio de estreñimiento |
-
-Ninguna de estas publicaciones evalúa el glucagón directamente en el SII; la mayoría se centra en GLP-1 y sus análogos.
+| [40134805](https://pubmed.ncbi.nlm.nih.gov/40134805/) | 2025 | Revisión sistemática y metaanálisis | Frontiers in Endocrinology | Mejoría del SII con agonistas del receptor de GLP-1; GLP-1 y ROSE-010 reducen la motilidad gastrointestinal. |
+| [38997662](https://pubmed.ncbi.nlm.nih.gov/38997662/) | 2024 | Revisión sistemática | The Journal of Headache and Pain | Papel de los agonistas de GLP-1 en cefalea y trastornos dolorosos. |
+| [35234561](https://pubmed.ncbi.nlm.nih.gov/35234561/) | 2022 | Análisis exploratorio | Scandinavian Journal of Gastroenterology | Alivio del dolor con ROSE-010 en SII según características de los pacientes. |
+| [40697433](https://pubmed.ncbi.nlm.nih.gov/40697433/) | 2025 | Cohorte | Annals of Gastroenterology | Patrones de prescripción y suspensión de agonistas de GLP-1 en pacientes con SII. |
+| [30444291](https://pubmed.ncbi.nlm.nih.gov/30444291/) | 2019 | Revisión | Experimental Physiology | Posible papel de GLP-1 en la fisiopatología del SII. |
+| [25427821](https://pubmed.ncbi.nlm.nih.gov/25427821/) | 2015 | Revisión | Advances in Experimental Medicine and Biology | GLP-1 en aerosol para diabetes y SII. |
+| [26765585](https://pubmed.ncbi.nlm.nih.gov/26765585/) | 2016 | Revisión | Expert Opinion on Investigational Drugs | Fármacos en investigación para el SII con predominio de estreñimiento. |
 
 ## Información de Mercado en Argentina
 
@@ -92,24 +87,27 @@ Ninguna de estas publicaciones evalúa el glucagón directamente en el SII; la m
 |---------|------|------|-----------|
 | 27440 | GLUCAGEN HYPOKIT (Novo Nordisk) | 1 mg polvo liofilizado ×1 + disolvente en jeringa prellenada | No disponible en los datos compilados |
 
+El producto figura como vigente (1 autorización válida, ninguna cancelada).
+
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas**: se identificaron 25 interacciones, todas de nivel **leve (Minor)**. Las principales corresponden a la warfarina y a los betabloqueantes (acebutolol, atenolol, betaxolol, bisoprolol, carteolol, carvedilol, esmolol, labetalol, metoprolol, nadolol, pindolol, propranolol, sotalol, timolol, entre otros, incluidas presentaciones oftálmicas).
+**Interacciones Farmacológicas:** se identificaron 25 interacciones, todas de nivel menor. Entre las principales figuran warfarina y varios betabloqueantes (acebutolol, atenolol, bisoprolol, carvedilol, metoprolol, propranolol, entre otros).
 
-Para advertencias y contraindicaciones, consultar el prospecto.
+No hay advertencias ni contraindicaciones disponibles en los datos compilados; consultar el prospecto para esa información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción de TxGNN es alta, pero la evidencia clínica proviene de análogos de GLP-1 y no del glucagón, y no hay ensayos del glucagón en SII. Además, faltan los datos de seguridad del prospecto, por lo que el caso se mantiene como pregunta de investigación.
+Ningún estudio evaluó el glucagón en el síndrome del intestino irritable; la evidencia proviene de GLP-1 y análogos, que son fármacos distintos. El nivel de evidencia es L5 y el puntaje de 0,9924 es solo una predicción computacional.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto de ANMAT (advertencias y contraindicaciones) y la indicación aprobada.
-- Completar los datos del mecanismo de acción desde DrugBank.
-- Evaluar si el efecto antiespasmódico del glucagón es relevante para los síntomas del SII (por ejemplo, mediante un estudio piloto o una revisión específica).
-- Analizar la compatibilidad de la vía de administración (el glucagón se presenta en forma inyectable y el SII requeriría un uso crónico o a demanda).
+- Estudios que evalúen glucagón directamente en pacientes con síndrome del intestino irritable
+- Datos del mecanismo de acción del glucagón
+- Advertencias y contraindicaciones del prospecto de ANMAT
+- Evaluación de la compatibilidad de la vía de administración con el uso propuesto
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

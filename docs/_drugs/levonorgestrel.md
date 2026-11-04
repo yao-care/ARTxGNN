@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Levonorgestrel
-parent: Evidencia Moderada (L3-L4)
+parent: Evidencia Alta (L1-L2)
 nav_order: 178
-evidence_level: L4
+evidence_level: L2
 indication_count: 5
 monitor_inn: "LEVONORGESTREL"
 predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
-last_modified_at: 2026-10-30
-description: "Levonorgestrel: nueva indicación predicha, acné (acne (disease)) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
+last_modified_at: 2026-11-04
+description: "Levonorgestrel: nueva indicación predicha, Acné (acne (disease)) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
 ---
 
 # Levonorgestrel
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,33 +33,32 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-## Levonorgestrel: progestágeno sintético → acné (acne (disease))
+## Levonorgestrel: Acné (acne (disease))
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Levonorgestrel es un progestágeno sintético que se utiliza ampliamente en anticoncepción hormonal.
-El modelo TxGNN predice que podría ser efectivo para **acné (acne (disease))**, pero la evidencia es indirecta: no hay ensayos clínicos registrados y la literatura compilada incluye **1 ensayo aleatorizado** que evalúa una combinación de etinilestradiol con levonorgestrel en acné moderado, además de revisiones generales sobre anticoncepción hormonal.
+Levonorgestrel es un progestágeno sintético ampliamente utilizado en anticoncepción hormonal. El modelo TxGNN predice que podría ser útil para **Acné (acne (disease))**, con un puntaje de 0.9988. Actualmente no hay ensayos clínicos registrados para esta indicación. Sí hay **20 publicaciones**, entre ellas un ensayo aleatorizado controlado con placebo de un anticonceptivo oral que combina levonorgestrel con etinilestradiol en acné moderado. El nivel de evidencia es **L2**.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | acné (acne (disease)) |
+| Nueva Indicación Predicha | Acné (acne (disease)) |
 | Puntaje de Predicción TxGNN | 0.9988 |
-| Nivel de Evidencia | L4 |
+| Nivel de Evidencia | L2 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (13 de 13) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de productos en el listado PAMI | 13 (vigentes: 13) |
-| Decisión Recomendada | Hold |
+| Decisión Recomendada | Proceed with Guardrails |
 
-## Por qué es Razonable esta Predicción?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, levonorgestrel es un progestágeno derivado de la familia de los 19-norandrostanos, con cierta actividad androgénica residual, lo que hace que su efecto sobre el acné sea biológicamente plausible pero no directo.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, levonorgestrel es un progestágeno que suprime la ovulación y modifica el moco cervical y el endometrio. Su vínculo con el acné pasa por el eje hormonal-androgénico de la unidad pilosebácea.
 
-El beneficio sobre el acné de los anticonceptivos hormonales se atribuye principalmente al componente estrogénico (aumento de SHBG y reducción de testosterona libre) y a progestágenos antiandrogénicos (como clormadinona, ciproterona o drospirenona). La literatura compilada también señala que los sistemas e implantes con levonorgestrel pueden provocar acné como efecto androgénico en algunas usuarias.
+El acné depende en buena medida de los andrógenos, que estimulan la producción de sebo. Los anticonceptivos hormonales combinados pueden mejorarlo, sobre todo por el componente estrogénico: aumenta la globulina transportadora de hormonas sexuales (SHBG) y reduce la testosterona libre. Los progestágenos con acción antiandrogénica, como el acetato de clormadinona, también contribuyen. Una revisión publicada en *Drugs* (2004) señala que la combinación etinilestradiol/acetato de clormadinona fue más eficaz que etinilestradiol/levonorgestrel en acné papulopustular leve a moderado.
 
-Por ello, el puntaje elevado probablemente refleja la proximidad en la red de relaciones con vías hormonales y de las glándulas sebáceas, y la dirección del efecto (beneficio o perjuicio) con levonorgestrel solo permanece sin resolver.
+Levonorgestrel tiene actividad androgénica residual, y la literatura describe acné como posible efecto adverso en algunas usuarias de implantes y sistemas liberadores. Por eso la dirección del efecto (beneficio o perjuicio) cuando se usa solo no está resuelta. El puntaje alto del modelo probablemente refleja la cercanía de la molécula a las vías hormonales y de las glándulas sebáceas, no una demostración de eficacia.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -69,15 +68,16 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [12196750](https://pubmed.ncbi.nlm.nih.gov/12196750/) | 2002 | ECA | J Am Acad Dermatol | Anticonceptivo oral de dosis baja (20 µg etinilestradiol + 100 µg levonorgestrel) para acné moderado, ensayo aleatorizado controlado con placebo |
-| [15025547](https://pubmed.ncbi.nlm.nih.gov/15025547/) | 2004 | Revisión | Drugs | Etinilestradiol/clormadinona fue más eficaz que etinilestradiol/levonorgestrel en acné papulopustular leve a moderado |
-| [21895044](https://pubmed.ncbi.nlm.nih.gov/21895044/) | 2011 | Revisión | Am J Clin Dermatol | Beneficios dermatológicos de la combinación etinilestradiol/clormadinona en acné, hirsutismo y seborrea |
-| [30088446](https://pubmed.ncbi.nlm.nih.gov/30088446/) | 2018 | Revisión | Curr Drug Targets | Interacciones moleculares de distintos esteroides en la producción de sebo |
-| [7825629](https://pubmed.ncbi.nlm.nih.gov/7825629/) | 1995 | Revisión | Am J Med | Androgenicidad de los progestágenos usados en anticonceptivos |
-| [11727177](https://pubmed.ncbi.nlm.nih.gov/11727177/) | 2001 | Revisión | Semin Reprod Med | Sistemas intrauterinos liberadores de progestágeno: acción antiproliferativa endometrial y control del sangrado |
-| [11091988](https://pubmed.ncbi.nlm.nih.gov/11091988/) | 2000 | Revisión | Obstet Gynecol Clin North Am | Implantes anticonceptivos de levonorgestrel: mecanismos y eficacia |
+| [12196750](https://pubmed.ncbi.nlm.nih.gov/12196750/) | 2002 | ECA | J Am Acad Dermatol | Ensayo aleatorizado controlado con placebo de un anticonceptivo oral con 20 µg de etinilestradiol y 100 µg de levonorgestrel en acné moderado. Parte de la hipótesis de que reducir los andrógenos biodisponibles mejora el acné. Es una combinación, no levonorgestrel solo. |
+| [15025547](https://pubmed.ncbi.nlm.nih.gov/15025547/) | 2004 | Revisión | Drugs | Etinilestradiol/acetato de clormadinona fue más eficaz que etinilestradiol/levonorgestrel en acné papulopustular de la cara. |
+| [21895044](https://pubmed.ncbi.nlm.nih.gov/21895044/) | 2011 | Revisión | Am J Clin Dermatol | El exceso de andrógenos en la unidad pilosebácea se asocia con acné, hirsutismo, seborrea y alopecia femenina. Revisa los beneficios dermatológicos de un anticonceptivo antiandrogénico. |
+| [30088446](https://pubmed.ncbi.nlm.nih.gov/30088446/) | 2018 | Revisión | Curr Drug Targets | Interacciones moleculares de distintos esteroides en la producción de sebo, con énfasis en el acné. |
+| [7825629](https://pubmed.ncbi.nlm.nih.gov/7825629/) | 1995 | Revisión | Am J Med | Describe la androgenicidad de los progestágenos derivados de la serie de 19 carbonos, grupo al que pertenece levonorgestrel. |
+| [1324552](https://pubmed.ncbi.nlm.nih.gov/1324552/) | 1992 | Revisión | Acta Obstet Gynecol Scand Suppl | Compara la androgenicidad mínima de norgestimato con otros progestágenos en anticonceptivos orales mono y trifásicos. |
 
 ## Información de Mercado en Argentina
+
+Levonorgestrel se comercializa en Argentina, con 13 autorizaciones vigentes, ninguna cancelada. Se listan las principales:
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
@@ -87,26 +87,31 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 8317 | TRIQUILAR | blíster grageas x 21 | No registrada |
 | 10107 | DOS DIAS N | comp. x 2 | No registrada |
 
-Se muestran 5 de las 13 autorizaciones vigentes.
-
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas**: se registran 100 interacciones en los datos compilados; las visibles son de nivel moderado e incluyen antidiabéticos (acarbosa, canagliflozina, dapagliflozina, ertugliflozina, exenatida, linagliptina, liraglutida, nateglinida), varias insulinas, aprepitant, clotrimazol, linaclotida y fenilbutirato de glicerol.
+- **Interacciones Farmacológicas**: se registraron 100 interacciones. Las que figuran en el listado revisado son de nivel moderado:
+  - Antidiabéticos: acarbosa, canagliflozina, dapagliflozina, ertugliflozina, exenatida, liraglutida, linagliptina, nateglinida.
+  - Insulinas: aspart, degludec, lispro, humana (isófana, zinc).
+  - Otros: aprepitant, clotrimazol, fenilbutirato de glicerol, linaclotida.
 
-No se dispone de advertencias ni contraindicaciones del prospecto en los datos compilados; consultar el prospecto para el resto de la información de seguridad.
+  El efecto sobre el control glucémico es especialmente relevante en pacientes con diabetes.
+
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Hold**
+**Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Solo existe un ensayo aleatorizado que estudia acné con una combinación que contiene levonorgestrel, sin ensayos clínicos registrados con el fármaco como agente principal. La dirección del efecto (beneficio o empeoramiento por androgenicidad) no está resuelta.
+Existe un ensayo aleatorizado controlado con placebo que estudia directamente el acné con un anticonceptivo que contiene levonorgestrel (nivel L2). Sin embargo, es una combinación con etinilestradiol, y el efecto de levonorgestrel solo es incierto por su actividad androgénica residual. Por eso conviene avanzar con cautela.
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de acción detallados
-- Revisión del prospecto de ANMAT (advertencias y contraindicaciones)
-- Evaluación de la contribución específica del levonorgestrel frente al componente estrogénico en acné
-- Estudios que aclaren si el efecto androgénico del levonorgestrel agrava el acné
+- Evidencia específica de levonorgestrel solo, o con un diseño que separe el aporte del estrógeno, en acné.
+- Definir si el efecto neto sobre el acné es beneficioso o perjudicial.
+- Datos detallados del mecanismo de acción.
+- Revisión del prospecto aprobado en Argentina para completar advertencias y contraindicaciones.
+- Plan de monitoreo de seguridad, en particular por interacciones con antidiabéticos e insulinas.
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
