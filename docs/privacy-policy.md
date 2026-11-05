@@ -32,7 +32,7 @@ propias políticas:
 | Servicio | Finalidad | Política de privacidad |
 |---------|---------|----------------|
 | GitHub Pages | Alojamiento del sitio | [GitHub Privacy Statement](https://docs.github.com/site-policy/privacy-policies/github-privacy-statement) |
-| d3js.org | Biblioteca de gráficos | CDN de recursos estáticos |
+| cdn.jsdelivr.net | Biblioteca de gráficos | CDN de recursos estáticos |
 | giscus | Comentarios (donde estén habilitados) | [giscus](https://giscus.app/) |
 
 Cuando usted inicia activamente la aplicación SMART on FHIR, esta solicita datos de medicación a su
