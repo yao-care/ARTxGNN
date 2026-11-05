@@ -23,7 +23,7 @@ Predicciones de reposicionamiento de medicamentos para medicamentos del listado 
 | **Predicciones totales** | 10,483,518 |
 | **Medicamentos unicos** | 390 |
 | **Indicaciones unicas** | 14,310 |
-| **Datos DDI** | 302,516 |
+| **Datos DDI** | 160,235 |
 | **Datos DFI** | 857 |
 | **Datos DHI** | 35 |
 | **Datos DDSI** | 8,359 |
@@ -219,7 +219,7 @@ PYTHONPATH=src python -m artxgnn.predict.txgnn_model
 | **Datos de medicamentos** | PAMI | [Medicamentos para entidades](https://datos.pami.org.ar/dataset/medicamentos-para-entidades) | Argentina |
 | **Grafo de conocimiento** | TxGNN KG | [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IXA7BM) | 17,080 diseases, 7,957 drugs |
 | **Base de datos de medicamentos** | DrugBank | [DrugBank](https://go.drugbank.com/) | Mapeo de ingredientes de medicamentos |
-| **Interacciones medicamentosas** | DDInter 2.0 | [DDInter](https://ddinter2.scbdd.com/) | Pares DDI |
+| **Interacciones medicamentosas** | DDInter | [DDInter](https://ddinter2.scbdd.com/) | Pares DDI |
 | **Interacciones medicamentosas** | Guide to PHARMACOLOGY | [IUPHAR/BPS](https://www.guidetopharmacology.org/) | Interacciones de medicamentos aprobados |
 | **Ensayos clinicos** | ClinicalTrials.gov | [CT.gov API v2](https://clinicaltrials.gov/data-api/api) | Registro de ensayos clinicos |
 | **Ensayos clinicos** | WHO ICTRP | [ICTRP API](https://apps.who.int/trialsearch/api/v1/search) | Plataforma internacional de ensayos clinicos |

@@ -3,13 +3,13 @@ layout: default
 title: Política de Privacidad
 nav_order: 95
 permalink: /privacy-policy/
-description: "Política de privacidad de ARTxGNN: este es un sitio estático y no recopila datos personales."
+description: "Política de privacidad de ARTxGNN: sitio estático sin cuentas ni formularios; usa cookies analíticas de Google Analytics 4 para estadísticas de uso."
 ---
 
 # Política de Privacidad
 
 <div class="key-takeaway">
-Este es un sitio estático: no requiere registro y no recopila datos que permitan identificarlo.
+Este es un sitio estático: no requiere registro y no tiene formularios. Usa cookies analíticas de Google Analytics 4 para elaborar estadísticas de uso.
 </div>
 
 ---
@@ -17,9 +17,11 @@ Este es un sitio estático: no requiere registro y no recopila datos que permita
 ## Qué recopilamos
 
 <p class="key-answer" data-question="¿ARTxGNN recopila datos personales?">
-<strong>No.</strong> Este sitio está alojado en GitHub Pages como un sitio puramente estático. No hay
-sistema de cuentas, ni formularios, ni cookies de seguimiento. No recopilamos nombres, direcciones de
-correo electrónico, historias clínicas ni ninguna información que permita identificar a una persona.
+<strong>Solo estadísticas de uso, mediante Google Analytics 4.</strong> Este sitio está alojado en GitHub Pages como un sitio puramente estático.
+No hay sistema de cuentas ni formularios, y no recopilamos nombres, direcciones de correo electrónico ni historias
+clínicas. El sitio usa cookies analíticas de Google Analytics 4 para elaborar estadísticas de uso (páginas vistas,
+sitio de procedencia, profundidad de desplazamiento y tiempo en la página). Las cookies se instalan al cargar la
+página; no se envían términos de búsqueda, contenidos de formularios ni parámetros de consulta de la URL.
 </p>
 
 ---
@@ -37,15 +39,19 @@ propias políticas:
 | clinicaltrials.gov | Búsqueda de ensayos clínicos en las páginas SMART: solo cuando usted la solicita, se envían los nombres del medicamento y de la indicación a la API de ClinicalTrials.gov | [Políticas web de la NLM](https://www.nlm.nih.gov/web_policies.html) |
 | rxnav.nlm.nih.gov | Aplicación SMART: los códigos RxNorm de los medicamentos leídos de su historia clínica electrónica se envían a la API RxNav de la NLM para obtener el nombre del principio activo (sin datos que identifiquen al paciente) | [Políticas web de la NLM](https://www.nlm.nih.gov/web_policies.html) |
 
-Cuando usted inicia activamente la aplicación SMART on FHIR, esta solicita datos de medicación a su
-sistema de historia clínica electrónica. Esos datos se <strong>procesan íntegramente dentro de su
-navegador</strong>; nunca se envían a los servidores de este sitio ni se almacenan.
+Cuando usted inicia activamente la aplicación SMART on FHIR, esta solicita datos de medicación a su sistema de
+historia clínica electrónica. La identidad del paciente y los datos de la historia clínica <strong>no se envían a los
+servidores de este sitio</strong> (es un sitio estático, sin backend) y este sitio no los almacena. Para identificar los
+medicamentos, la aplicación envía sus códigos RxNorm al servicio RxNav de la Biblioteca Nacional de Medicina de
+EE. UU.; estos códigos no contienen datos que identifiquen al paciente. Cuando usted solicita ensayos clínicos, se
+envían a ClinicalTrials.gov los nombres del medicamento y de la indicación.
 
 ---
 
 ## Derechos del titular de los datos
 
-Dado que este sitio no recopila datos personales, no hay nada que acceder, rectificar ni suprimir.
+Este sitio no tiene cuentas y no guarda registros personales en servidores propios (no los tiene). Las estadísticas
+de uso las recopila Google Analytics 4; puede bloquear o eliminar sus cookies en la configuración de su navegador.
 Si tiene consultas sobre esta política, escriba a service@yao.care.
 
 ---
