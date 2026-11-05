@@ -24,17 +24,18 @@ Predicciones de reposicionamiento de medicamentos para medicamentos del listado 
 | **Medicamentos unicos** | 390 |
 | **Indicaciones unicas** | 14,310 |
 | **Datos DDI** | 160,235 |
-| **Recursos FHIR** | 314 MK / 2,564 CUD |
+| **Recursos FHIR** | 403 MK / 3,079 CUD |
 
 ### Distribucion de niveles de evidencia
 
 | Nivel de evidencia | Cantidad de informes | Descripcion |
 |---------|-------|------|
-| **L1** | 0 | Multiples ECAs de Fase 3 |
-| **L2** | 0 | ECA unico o multiples Fase 2 |
-| **L3** | 0 | Estudios observacionales |
-| **L4** | 0 | Estudios preclinicos / mecanisticos |
-| **L5** | 314 | Solo prediccion computacional |
+| **L1** | 3 | Multiples ECAs de Fase 3 |
+| **L2** | 3 | ECA unico o multiples Fase 2 |
+| **L3** | 8 | Estudios observacionales |
+| **L4** | 5 | Estudios preclinicos / mecanisticos |
+| **L5** | 139 | Solo prediccion computacional |
+| **N/A** | 2 | Solo usos conocidos (sin nuevas predicciones) |
 
 ### Por fuente
 
@@ -71,7 +72,7 @@ uv run python scripts/run_kg_prediction.py
 | Metrica | Valor |
 |------|------|
 | PAMI (Medicamentos para entidades) Total de medicamentos | 10,167 |
-| Mapeados a DrugBank | 7,347 (72.3%) |
+| Mapeados a DrugBank | 8,150 (80.2%) |
 | Candidatos a reposicionamiento | 2,545 |
 
 ### Metodo de aprendizaje profundo
@@ -83,7 +84,7 @@ PYTHONPATH=src python -m artxgnn.predict.txgnn_model
 
 | Metrica | Valor |
 |------|------|
-| Predicciones DL totales | 611,946 |
+| Predicciones DL totales | 765,436 |
 | Medicamentos unicos | 390 |
 | Indicaciones unicas | 14,310 |
 
