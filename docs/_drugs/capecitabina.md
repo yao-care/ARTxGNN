@@ -65,12 +65,10 @@ Las consultas realizadas al 2026-03-29 no retornaron información suficiente par
 
 | Fuente | Estado | Resultados | Impacto |
 |--------|--------|------------|---------|
-| TFDA (registros) | Exitoso | 0 registros | Sin datos regulatorios locales |
-| TFDA (prospecto/inserto) | Exitoso | 1 documento encontrado | Datos no integrados al Evidence Pack |
 | DrugBank | Exitoso | 1 registro encontrado | Datos no integrados al Evidence Pack |
 | Base DDI | No encontrado | 0 | Sin datos de interacciones |
 
-> **Nota importante:** El log de consultas muestra que DrugBank y el prospecto TFDA **sí retornaron resultados**, pero sus datos no fueron capturados en el Evidence Pack actual. Esto sugiere un problema en la etapa de extracción/integración del pipeline, no una ausencia real de información del fármaco.
+> Esto sugiere un problema en la etapa de extracción/integración del pipeline, no una ausencia real de información del fármaco.
 
 Dado que `predicted_indications` está vacío y los datos base del fármaco (indicación original, MOA, advertencias) no están disponibles, el modelo TxGNN no pudo generar candidatos de reposicionamiento.
 
@@ -81,12 +79,11 @@ Dado que `predicted_indications` está vacío y los datos base del fármaco (ind
 **Decisión: Hold**
 
 **Justificación:**
-La ausencia de datos de indicación original, mecanismo de acción y predicciones TxGNN impide realizar cualquier análisis de reposicionamiento fundamentado. Los datos técnicamente existen en las fuentes (DrugBank y prospecto TFDA devolvieron resultados), pero no fueron integrados correctamente al Evidence Pack.
+La ausencia de datos de indicación original, mecanismo de acción y predicciones TxGNN impide realizar cualquier análisis de reposicionamiento fundamentado.
 
 **Para avanzar se necesita:**
 - Revisar y corregir el paso de extracción del pipeline para DrugBank (1 resultado encontrado, no capturado): recuperar categorías, MOA, indicaciones originales y datos de toxicidad
-- Extraer advertencias, contraindicaciones y clasificación de seguridad del prospecto TFDA (1 documento encontrado, no capturado)
-- Verificar si CAPECITABINA cuenta con registro en ANMAT bajo ese INN u otros nombres comerciales (ej. Xeloda), ya que la búsqueda TFDA retornó 0 resultados
+- Verificar si CAPECITABINA cuenta con registro en ANMAT bajo ese INN u otros nombres comerciales (ej. Xeloda)
 - Re-ejecutar el pipeline TxGNN una vez integrados los datos del fármaco para obtener predicciones de nuevas indicaciones
 - Completar la búsqueda DDI con el INN correcto o sinónimos farmacológicos
 ## Descargo de responsabilidad

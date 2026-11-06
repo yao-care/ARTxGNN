@@ -64,8 +64,6 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción (MOA
 
 El modelo TxGNN no ha generado predicciones de nuevas indicaciones para benzocaína. Esto puede deberse a varios factores: (1) la ausencia de un identificador DrugBank válido que permita mapear el fármaco en el grafo de conocimiento, (2) la falta de datos estructurados de MOA necesarios para el análisis de relaciones fármaco-enfermedad, o (3) que el perfil farmacológico de un anestésico local tópico no genere señales significativas de reposicionamiento en el modelo.
 
-Adicionalmente, la benzocaína no cuenta con autorizaciones de comercialización vigentes en Argentina, lo que limita su viabilidad como candidato de reposicionamiento en el mercado local sin un proceso regulatorio previo de registro.
-
 ---
 
 ## Evidencia de Ensayos Clínicos
@@ -82,7 +80,7 @@ Actualmente no hay literatura relacionada disponible en el contexto de reposicio
 
 ## Información de Mercado en Argentina
 
-Benzocaína **no se encuentra comercializada en Argentina** según los registros consultados. No existen autorizaciones de comercialización vigentes (0 licencias registradas).
+Benzocaína **no se encuentra comercializada en Argentina** según los registros consultados.
 
 ---
 
@@ -110,7 +108,7 @@ Las siguientes brechas de datos fueron detectadas durante la elaboración del Ev
 **Decisión: Hold**
 
 **Justificación:**
-Benzocaína no cuenta con predicciones de nuevas indicaciones generadas por TxGNN, no posee autorizaciones de comercialización vigentes en Argentina, y presenta brechas de datos críticas (seguridad y MOA) que impiden una evaluación completa. No existe evidencia suficiente para avanzar en un proceso de reposicionamiento en este momento.
+Benzocaína no cuenta con predicciones de nuevas indicaciones generadas por TxGNN, presenta brechas de datos críticas (seguridad y MOA) que impiden una evaluación completa. No existe evidencia suficiente para avanzar en un proceso de reposicionamiento en este momento.
 
 **Para avanzar se necesita:**
 - Obtener y vincular el identificador DrugBank (DB) para permitir el mapeo en el grafo de conocimiento de TxGNN

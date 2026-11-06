@@ -70,7 +70,7 @@ El paquete de evidencia presenta tres brechas críticas que bloquean el flujo es
 
 **2. Mecanismo de acción no disponible (Data Gap DG002 — severidad Alta).** No se cargaron datos de MOA desde DrugBank, lo que impide evaluar la relación entre la indicación original y cualquier nueva indicación candidata. La remediación indicada es consultar el API de DrugBank con el identificador DB01166.
 
-**3. Advertencias y contraindicaciones del prospecto no disponibles (Data Gap DG001 — severidad Bloqueante).** Sin la información del prospecto (vía TFDA u ANMAT), el fármaco no puede avanzar a la evaluación inicial de seguridad S1. La remediación indicada es descargar y analizar el PDF del prospecto del fabricante.
+**3. Advertencias y contraindicaciones del prospecto no disponibles (Data Gap DG001 — severidad Bloqueante).** Sin la información del prospecto (vía ANMAT), el fármaco no puede avanzar a la evaluación inicial de seguridad S1. La remediación indicada es descargar y analizar el PDF del prospecto del fabricante.
 
 ---
 
@@ -90,8 +90,8 @@ El paquete de evidencia actual no contiene predicciones de TxGNN ni datos de seg
 **Para avanzar se necesita:**
 - Ejecutar el pipeline TxGNN con CILOSTAZOL (DB01166) para generar predicciones de nuevas indicaciones
 - Consultar DrugBank API (DB01166) para obtener datos completos de MOA, categorías farmacológicas y toxicidad
-- Descargar y procesar el prospecto del fabricante desde TFDA o ANMAT para extraer advertencias, contraindicaciones y posología
-- Verificar el estado regulatorio vigente de CILOSTAZOL ante ANMAT (el query TFDA del 2026-03-29 devolvió 0 resultados)
+- Descargar y procesar el prospecto del fabricante desde ANMAT para extraer advertencias, contraindicaciones y posología
+- Verificar el estado regulatorio vigente de CILOSTAZOL ante ANMAT
 - Una vez completadas las brechas, reejecutar la generación del Evidence Pack y regenerar este informe
 ## Descargo de responsabilidad
 

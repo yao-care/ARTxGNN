@@ -66,7 +66,6 @@ El pipeline de generación del Evidence Pack encontró tres bloqueos críticos p
 El modelo TxGNN no devolvió ninguna indicación candidata para CICLOSPORINA en la corrida del 2026-03-29. Sin una indicación objetivo, no es posible construir ninguna de las secciones centrales del informe (mecanismo, ensayos clínicos, literatura, ni decisión basada en evidencia).
 
 **2. Sin registro regulatorio en Argentina**
-La consulta a ANMAT/TFDA devolvió `result_count: 0` para el nombre INN "CICLOSPORINA". Esto puede deberse a que el fármaco está registrado bajo una grafía diferente ("ciclosporina", "ciclosporin" o marcas comerciales como Sandimmun / Neoral), lo cual requiere reejecutar la consulta con términos alternativos.
 
 **3. Mecanismo de acción y datos de seguridad no recuperados**
 Los campos `original_moa`, `key_warnings` y `contraindications` están marcados como `[Data Gap]`, con severidad **Blocking** y **High** respectivamente (DG001, DG002). Sin esta información no se pueden evaluar la plausibilidad mecanística ni los riesgos clínicos.
@@ -84,7 +83,7 @@ El Evidence Pack para CICLOSPORINA está incompleto en sus tres dimensiones crí
 
 - [ ] **Re-ejecutar la consulta TxGNN** para CICLOSPORINA / ciclosporin / ciclosporina y verificar que el ID de DrugBank sea correcto (actualmente `null`)
 - [ ] **Corregir el término de búsqueda regulatoria**: intentar variantes de grafía ("ciclosporina", "ciclosporin A", "Sandimmun", "Neoral") en ANMAT para obtener registros de autorización
-- [ ] **Resolver DG001**: descargar e interpretar el prospecto oficial (TFDA o ANMAT) para obtener advertencias y contraindicaciones
+- [ ] **Resolver DG001**: descargar e interpretar el prospecto oficial (ANMAT) para obtener advertencias y contraindicaciones
 - [ ] **Resolver DG002**: consultar DrugBank API con el ID correcto para recuperar MOA, categorías farmacológicas y datos de toxicidad
 - [ ] **Re-ejecutar el pipeline completo** una vez subsanados los gaps anteriores, y volver a generar el Evidence Pack antes de emitir un nuevo informe
 ## Descargo de responsabilidad

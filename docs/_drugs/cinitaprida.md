@@ -77,7 +77,7 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-El Evidence Pack de CINITAPRIDA carece de los insumos mínimos necesarios para completar el análisis de reposicionamiento: no están disponibles el mecanismo de acción, las indicaciones originales estructuradas, ni las predicciones TxGNN. Adicionalmente, el fármaco no cuenta con ninguna autorización de comercialización en Argentina, lo que añade una barrera regulatoria de base.
+El Evidence Pack de CINITAPRIDA carece de los insumos mínimos necesarios para completar el análisis de reposicionamiento: no están disponibles el mecanismo de acción, las indicaciones originales estructuradas, ni las predicciones TxGNN.
 
 **Para avanzar se necesita:**
 - Integrar los datos de MOA obtenidos de DrugBank (la consulta al 2026-03-29 retornó 1 resultado, pero no fue poblado en el campo `drug.original_moa`)

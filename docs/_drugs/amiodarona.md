@@ -70,7 +70,7 @@ Actualmente no hay literatura relacionada con una nueva indicación disponible e
 
 ## Información de Mercado en Argentina
 
-Amiodarona **no se encuentra comercializada** en Argentina según los registros consultados. No se identificaron autorizaciones de comercialización vigentes (0 licencias).
+Amiodarona **no se encuentra comercializada** en Argentina según los registros consultados.
 
 > **Nota:** Esto puede deberse a que el fármaco se comercializa bajo un nombre diferente, en combinaciones no indexadas, o a una limitación en la consulta regulatoria. Se recomienda verificar directamente con la autoridad regulatoria local (ANMAT).
 

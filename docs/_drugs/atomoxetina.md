@@ -80,7 +80,7 @@ Actualmente no hay literatura relacionada disponible en el contexto de reposicio
 
 ## Información de Mercado en Argentina
 
-Atomoxetina **no se encuentra comercializada** en Argentina según los registros consultados. No existen autorizaciones de comercialización vigentes.
+Atomoxetina **no se encuentra comercializada** en Argentina según los registros consultados.
 
 > **Nota:** La ausencia de registro en Argentina no implica que el fármaco carezca de aprobación en otros mercados. Atomoxetina (Strattera®) se encuentra aprobada y comercializada en múltiples países (EE.UU., UE, Japón, entre otros) para el tratamiento del TDAH.
 

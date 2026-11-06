@@ -82,9 +82,7 @@ El mecanismo de acción figura como `[Data Gap]` (severidad: **Alta**) y las adv
 
 ## Información de Mercado en Argentina
 
-No se encontraron autorizaciones de comercialización para **CETIRIZINA** en el sistema consultado.
-
-> ⚠️ Nota: Cetirizina es un antihistamínico de uso común a nivel mundial. La ausencia de resultados puede deberse a variaciones en el nombre comercial, formato de búsqueda, o a que la consulta fue realizada contra la base de datos de TFDA (Taiwán) en lugar de ANMAT (Argentina). Se recomienda verificar directamente en el [buscador de productos de ANMAT](https://servicios.anmat.gov.ar/aplicaciones_net/psp_msp.aspx).
+> ⚠️ Nota: Cetirizina es un antihistamínico de uso común a nivel mundial. Se recomienda verificar directamente en el [buscador de productos de ANMAT](https://servicios.anmat.gov.ar/aplicaciones_net/psp_msp.aspx).
 
 ---
 
@@ -105,7 +103,6 @@ El Evidence Pack está incompleto — sin indicaciones predichas por TxGNN y sin
 - [ ] **Ejecutar el pipeline TxGNN** para CETIRIZINA y obtener `predicted_indications` con puntajes y evidencia asociada
 - [ ] **Resolver DG001**: Descargar y parsear el prospecto de ANMAT para extraer advertencias, contraindicaciones y precauciones
 - [ ] **Resolver DG002**: Consultar DrugBank API con el INN correcto (`cetirizine`) para obtener MOA, categorías y datos de toxicidad
-- [ ] **Verificar la fuente regulatoria**: Confirmar si la búsqueda debe realizarse en ANMAT (Argentina) en lugar de TFDA (Taiwán), dado que el nombre `CETIRIZINA` corresponde a la nomenclatura en español
 - [ ] **Regenrar el Evidence Pack** una vez resueltas las brechas, y volver a solicitar este informe
 ## Descargo de responsabilidad
 

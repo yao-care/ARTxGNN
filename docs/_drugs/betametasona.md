@@ -84,7 +84,7 @@ Actualmente no hay literatura relacionada disponible en el Evidence Pack, dado q
 
 ## Información de Mercado en Argentina
 
-Betametasona **no se encuentra registrada** en la base de datos regulatoria consultada para Argentina. No se identificaron autorizaciones de comercialización vigentes.
+Betametasona **no se encuentra registrada** en la base de datos regulatoria consultada para Argentina.
 
 > **Nota:** Esto puede reflejar una limitación en la fuente de datos consultada (la búsqueda se realizó con el término "BETAMETASONA"). Es probable que el fármaco esté comercializado bajo nombres comerciales o en combinaciones que no fueron capturadas por la consulta. Se recomienda verificar en la base de datos de ANMAT con términos alternativos (e.g., "betamethasone", nombres comerciales como "Celestone", "Diprosone", combinaciones con gentamicina, etc.).
 

@@ -5,5 +5,49 @@
    "cut": " (TFDA query: 0 resultados)",
    "reason": "M5：TwTxGNN 模板殘留的台灣查詢註記（TFDA 是台灣主管機關，本站資料來源是 PAMI 給付清單），與本站無關；只刪括號，句子其餘部分保留（2026-11-06）"
   }
+ ],
+ "aciclovir": [
+  {
+   "sentence": "**Ausencia de datos regulatorios en Argentina**: El fármaco no cuenta con autorizaciones de comercialización registradas en Argentina (0 licencias), lo que limita el contexto regulatorio disponible para el análisis.",
+   "reason": "本站資料是 PAMI 給付清單（不含 ANMAT 許可狀態），清單列有本藥品項；「在阿根廷查無上市許可（0 licencias）」與事實矛盾，整條刪（2026-11-06）"
+  }
+ ],
+ "benznidazol": [
+  {
+   "sentence": "¹ Benznidazol no presenta indicaciones aprobadas en las bases de datos regulatorias consultadas (TFDA).",
+   "reason": "「TFDA」是 TwTxGNN 模板殘留（台灣食藥署）；只刪「 (TFDA)」（2026-11-06）",
+   "cut": " (TFDA)"
+  }
+ ],
+ "capecitabina": [
+  {
+   "sentence": "ya que la búsqueda TFDA retornó 0 resultados",
+   "reason": "「TFDA」是 TwTxGNN 模板殘留；只刪「, ya que la búsqueda TFDA retornó 0 resultados」，查 ANMAT 登記的待辦保留（2026-11-06）",
+   "cut": ", ya que la búsqueda TFDA retornó 0 resultados"
+  }
+ ],
+ "ciclosporina": [
+  {
+   "sentence": "descargar e interpretar el prospecto oficial (TFDA o ANMAT)",
+   "reason": "「TFDA」是 TwTxGNN 模板殘留；只刪「TFDA o 」（2026-11-06）",
+   "cut": "TFDA o "
+  }
+ ],
+ "cilostazol": [
+  {
+   "sentence": "Sin la información del prospecto (vía TFDA u ANMAT)",
+   "reason": "「TFDA」是 TwTxGNN 模板殘留；只刪「TFDA u 」（2026-11-06）",
+   "cut": "TFDA u "
+  },
+  {
+   "sentence": "Descargar y procesar el prospecto del fabricante desde TFDA o ANMAT",
+   "reason": "「TFDA」是 TwTxGNN 模板殘留；只刪「TFDA o 」（2026-11-06）",
+   "cut": "TFDA o "
+  },
+  {
+   "sentence": "Verificar el estado regulatorio vigente de CILOSTAZOL ante ANMAT (el query TFDA del 2026-03-29 devolvió 0 resultados)",
+   "reason": "「TFDA」是 TwTxGNN 模板殘留；只刪括號「(el query TFDA … 0 resultados)」（2026-11-06）",
+   "cut": " (el query TFDA del 2026-03-29 devolvió 0 resultados)"
+  }
  ]
 }

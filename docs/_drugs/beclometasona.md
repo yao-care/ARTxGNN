@@ -84,7 +84,7 @@ Actualmente no hay literatura relacionada disponible en el contexto de reposicio
 
 ## Información de Mercado en Argentina
 
-Beclometasona **no se encuentra comercializada** en Argentina según los datos disponibles. No se registraron autorizaciones de mercado (0 licencias).
+Beclometasona **no se encuentra comercializada** en Argentina según los datos disponibles.
 
 > **Nota:** Esto no implica que el principio activo no esté disponible en otras jurisdicciones. Beclometasona cuenta con aprobaciones regulatorias en múltiples países (EMA, FDA, entre otros) para indicaciones respiratorias y alérgicas.
 
@@ -119,7 +119,7 @@ El Evidence Pack identifica las siguientes brechas críticas que deben resolvers
 **Decisión: Hold**
 
 **Justificación:**
-No es posible avanzar con la evaluación de reposicionamiento de Beclometasona debido a la ausencia total de predicciones del modelo TxGNN y múltiples brechas de datos bloqueantes. El fármaco no cuenta con autorización de mercado en Argentina, lo que representa una barrera regulatoria adicional.
+No es posible avanzar con la evaluación de reposicionamiento de Beclometasona debido a la ausencia total de predicciones del modelo TxGNN y múltiples brechas de datos bloqueantes.
 
 **Para avanzar se necesita:**
 - Resolver el identificador DrugBank (`drugbank_id`) para permitir el mapeo en el Knowledge Graph

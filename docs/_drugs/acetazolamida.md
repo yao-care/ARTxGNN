@@ -84,7 +84,7 @@ Actualmente no hay literatura relacionada disponible en el Evidence Pack, dado q
 
 ## Información de Mercado en Argentina
 
-Acetazolamida **no se encuentra comercializada** en Argentina según los datos consultados. No se identificaron autorizaciones de comercialización vigentes.
+Acetazolamida **no se encuentra comercializada** en Argentina según los datos consultados.
 
 ---
 

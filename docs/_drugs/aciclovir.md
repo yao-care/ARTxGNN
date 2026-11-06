@@ -66,8 +66,6 @@ El Evidence Pack para Aciclovir presenta limitaciones significativas que probabl
 
 2. **Mecanismo de acción no disponible**: Aunque Aciclovir es un análogo nucleósido ampliamente conocido que inhibe la ADN polimerasa viral, el campo `original_moa` del Evidence Pack está vacío. Sin datos estructurados de mecanismo de acción, TxGNN no puede realizar inferencias de similitud mecanística con otras indicaciones.
 
-3. **Ausencia de datos regulatorios en Argentina**: El fármaco no cuenta con autorizaciones de comercialización registradas en Argentina (0 licencias), lo que limita el contexto regulatorio disponible para el análisis.
-
 ---
 
 ## Evidencia de Ensayos Clínicos
@@ -84,7 +82,7 @@ Actualmente no hay literatura relacionada disponible en el Evidence Pack para nu
 
 ## Información de Mercado en Argentina
 
-Aciclovir **no se encuentra comercializado** en Argentina según los registros consultados. No se identificaron autorizaciones de comercialización vigentes (total de licencias: 0).
+Aciclovir **no se encuentra comercializado** en Argentina según los registros consultados.
 
 ---
 

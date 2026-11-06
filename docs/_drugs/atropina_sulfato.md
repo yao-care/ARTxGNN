@@ -82,8 +82,6 @@ Actualmente no hay literatura relacionada con nuevas indicaciones disponible en 
 
 ## Información de Mercado en Argentina
 
-No se encontraron autorizaciones de comercialización vigentes para Atropina Sulfato en Argentina según los registros consultados (0 autorizaciones).
-
 > Esto puede deberse a que el fármaco se comercializa bajo formulaciones combinadas, denominaciones alternativas, o que los registros no fueron recuperados correctamente con el término de búsqueda "ATROPINA,SULFATO".
 
 ---

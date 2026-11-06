@@ -86,7 +86,7 @@ Actualmente no hay literatura relacionada disponible en el Evidence Pack para nu
 
 ## Información de Mercado en Argentina
 
-Bromhexina **no se encuentra comercializada** en Argentina según los registros consultados. No se identificaron autorizaciones de comercialización vigentes (total de autorizaciones: 0).
+Bromhexina **no se encuentra comercializada** en Argentina según los registros consultados.
 
 ---
 
