@@ -84,7 +84,7 @@ Actualmente no hay literatura relacionada disponible en este Evidence Pack.
 
 ## Información de Mercado en Argentina
 
-No se registran autorizaciones de comercialización para BUPROPIÓN en Argentina según los datos consultados (TFDA query: 0 resultados).
+No se registran autorizaciones de comercialización para BUPROPIÓN en Argentina según los datos consultados.
 
 ---
 
