@@ -10,7 +10,7 @@ description: "En estos medicamentos, todos los candidatos del modelo TxGNN ya so
 
 En estos medicamentos, todos los candidatos del modelo TxGNN ya son usos conocidos (registrados en el grafo de conocimiento o en un registro sanitario), por lo que no hay ninguna nueva indicación predicha. Cada página muestra los usos conocidos y la situación de comercialización local.
 
-{% assign known_drugs = site.drugs | where: "evidence_level", "N/A" | sort: "title" %}
+{% assign known_drugs = site.drugs | where: "evidence_level", "N/A" | where_exp: "d", "d.noindex != true" | sort: "title" %}
 
 **{{ known_drugs.size }} medicamentos**
 
