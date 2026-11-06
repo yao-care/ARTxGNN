@@ -6,7 +6,7 @@ nav_order: 235
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-30
-description: "Thioridazine: nueva indicación predicha, Trastorno afectivo bipolar maníaco (nivel de evidencia L4). Indicación original: No especificada en las licencias de ANMAT"
+description: "Thioridazine: nueva indicación predicha, Trastorno afectivo bipolar maníaco (nivel de evidencia L5). Indicación original: No especificada en las licencias de ANMAT"
 monitor_inn: "thioridazine"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "major affective disorder", "bipolar disorder", "obsessive-compulsive disorder", "attention deficit-hyperactivity disorder", "schizoid personality disorder", "schizotypal personality disorder"]
 ---
