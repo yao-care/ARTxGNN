@@ -7,7 +7,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 15
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -66,6 +66,12 @@ El Evidence Pack para Aciclovir presenta limitaciones significativas que probabl
 
 2. **Mecanismo de acción no disponible**: Aunque Aciclovir es un análogo nucleósido ampliamente conocido que inhibe la ADN polimerasa viral, el campo `original_moa` del Evidence Pack está vacío. Sin datos estructurados de mecanismo de acción, TxGNN no puede realizar inferencias de similitud mecanística con otras indicaciones.
 
+<!-- review:begin ar-lic-20261106-aciclovir-1 -->
+
+> **Corrección de verificación (2026-11-06)**: Texto original: «**Ausencia de datos regulatorios en Argentina**: El fármaco no cuenta con autorizaciones de comercialización registradas en Argentina (0 licencias), lo que limita el contexto regulatorio disponible para el análisis.» Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). Fuente: [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261106-aciclovir-1 -->
+
 ---
 
 ## Evidencia de Ensayos Clínicos
@@ -83,6 +89,12 @@ Actualmente no hay literatura relacionada disponible en el Evidence Pack para nu
 ## Información de Mercado en Argentina
 
 Aciclovir **no se encuentra comercializado** en Argentina según los registros consultados.
+
+<!-- review:begin ar-lic-20261106-aciclovir-2 -->
+
+> **Corrección de verificación (2026-11-06)**: Texto original: «Aciclovir **no se encuentra comercializado** en Argentina según los registros consultados. No se identificaron autorizaciones de comercialización vigentes (total de licencias: 0).» Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). Fuente: [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261106-aciclovir-2 -->
 
 ---
 
@@ -112,6 +124,20 @@ El modelo TxGNN no generó predicciones de nuevas indicaciones para Aciclovir. A
 - **Completar datos de MOA**: Registrar el mecanismo de acción estructurado (inhibidor de ADN polimerasa viral, análogo de nucleósido)
 - **Re-ejecutar la predicción TxGNN**: Una vez completados los datos anteriores, ejecutar nuevamente el modelo para evaluar si se generan predicciones válidas
 - **Verificar estado regulatorio**: Confirmar si existen formulaciones de Aciclovir registradas bajo otros nombres comerciales en Argentina
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-06 | Eliminado: «3. **Ausencia de datos regulatorios en Argentina**: El fármaco no cuenta con autorizaciones de comercialización registradas en Argentina (0 » | Corregido | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+| 2026-11-06 | Eliminado: «No se identificaron autorizaciones de comercialización vigentes (total de licencias: 0)» | Corregido | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

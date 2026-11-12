@@ -7,7 +7,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 37
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -82,6 +82,12 @@ Actualmente no hay literatura relacionada disponible en el contexto de reposicio
 
 Atomoxetina **no se encuentra comercializada** en Argentina según los registros consultados.
 
+<!-- review:begin ar-lic-20261106-atomoxetina-1 -->
+
+> **Corrección de verificación (2026-11-06)**: Texto original: «Atomoxetina **no se encuentra comercializada** en Argentina según los registros consultados. No existen autorizaciones de comercialización vigentes.» Eliminado: el número o el estado de los registros indicado no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). En los datos (listado de medicamentos de PAMI) figuran 5 registros para este medicamento, 5 vigentes; las cifras actualizadas están en el resumen rápido y en la información de mercado. Fuente: [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261106-atomoxetina-1 -->
+
 > **Nota:** La ausencia de registro en Argentina no implica que el fármaco carezca de aprobación en otros mercados. Atomoxetina (Strattera®) se encuentra aprobada y comercializada en múltiples países (EE.UU., UE, Japón, entre otros) para el tratamiento del TDAH.
 
 ---
@@ -109,6 +115,19 @@ No es posible avanzar con una evaluación de reposicionamiento dado que el model
 - Descargar y analizar el prospecto regulatorio para extraer advertencias y contraindicaciones
 - Re-ejecutar el modelo TxGNN con los datos completos del fármaco para generar predicciones
 - Evaluar el estado regulatorio en Argentina y la viabilidad de importación o registro
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-06 | Eliminado: «No existen autorizaciones de comercialización vigentes» | Corregido | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

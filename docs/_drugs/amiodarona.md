@@ -7,7 +7,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 27
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -72,6 +72,12 @@ Actualmente no hay literatura relacionada con una nueva indicación disponible e
 
 Amiodarona **no se encuentra comercializada** en Argentina según los registros consultados.
 
+<!-- review:begin ar-lic-20261106-amiodarona-1 -->
+
+> **Corrección de verificación (2026-11-06)**: Texto original: «Amiodarona **no se encuentra comercializada** en Argentina según los registros consultados. No se identificaron autorizaciones de comercialización vigentes (0 licencias).» Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). En los datos (listado de medicamentos de PAMI) figuran 4 registros para este medicamento, 4 vigentes; las cifras actualizadas están en el resumen rápido y en la información de mercado. Fuente: [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261106-amiodarona-1 -->
+
 > **Nota:** Esto puede deberse a que el fármaco se comercializa bajo un nombre diferente, en combinaciones no indexadas, o a una limitación en la consulta regulatoria. Se recomienda verificar directamente con la autoridad regulatoria local (ANMAT).
 
 ## Consideraciones de Seguridad
@@ -108,6 +114,19 @@ El Evidence Pack de Amiodarona se encuentra en un estado incompleto que impide l
 - Registrar el mecanismo de acción detallado (bloqueo multicanal: K⁺, Na⁺, Ca²⁺, β-adrenérgico)
 - Re-ejecutar el modelo TxGNN una vez completada la integración de datos
 - Verificar el estado regulatorio con ANMAT mediante consulta directa, dado que Amiodarona es un fármaco ampliamente utilizado a nivel mundial y su ausencia en los registros puede ser un artefacto de búsqueda
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-06 | Eliminado: «No se identificaron autorizaciones de comercialización vigentes (0 licencias)» | Corregido | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

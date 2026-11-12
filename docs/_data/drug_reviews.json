@@ -1,0 +1,469 @@
+{
+ "_doc": "藥物頁人工查核紀錄（單一真實來源；2026-11-12 建，核心流程比照 TwTxGNN docs/_data/drug_reviews.json，欄位相同）。每筆＝一次查核：drug／file／claim（頁面原句）／replacement（更正後）／note（頁面上顯示的說明，用本站語言）／finding（內部查證結論）／sources（網址＋查閱日）／checked（查核日）／action（correct 更正｜annotate 加註｜rereview 待重審｜section 附來源段落｜rereview_result 重審結果｜header_level｜description_level）。由 scripts/apply_drug_reviews.py 套到 docs/_drugs/*.md；改寫頁面的程式結尾都會重套，scripts/check_seo_docs.py 第 17 項擋未套用的紀錄。原則：基本事實照主管機關資料更正；模型預測原文不刪不改寫，只加註；證據等級與決策只在重審結果為降級、升級或撤回時更新。2026-10-31～11-06 正文裡跟許可證事實矛盾、直接刪掉的子句，2026-11-12 由 scripts/reviews_from_edits.py 依 git 前後版本轉入（id 以 <站碼>-lic- 開頭）；報告在 11 月經 AI 重產、原句已不在頁面的標 status=resolved_by_regeneration。同 id 重發時前版存進 history（retired、reason），不覆蓋丟棄。",
+ "schema_version": 1,
+ "records": [
+  {
+   "id": "ar-lic-20261106-acetazolamida-1",
+   "drug": "acetazolamida",
+   "file": "acetazolamida.md",
+   "action": "correct",
+   "claim": "Acetazolamida **no se encuentra comercializada** en Argentina según los datos consultados. No se identificaron autorizaciones de comercialización vigentes.",
+   "replacement": "Acetazolamida **no se encuentra comercializada** en Argentina según los datos consultados.",
+   "note": "Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). En los datos (listado de medicamentos de PAMI) figuran 2 registros para este medicamento, 2 vigentes; las cifras actualizadas están en el resumen rápido y en la información de mercado.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "sources": [
+    {
+     "title": "PAMI – Medicamentos para entidades (datos abiertos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Eliminado: «No se identificaron autorizaciones de comercialización vigentes»",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）"
+  },
+  {
+   "id": "ar-lic-20261106-aciclovir-1",
+   "drug": "aciclovir",
+   "file": "aciclovir.md",
+   "action": "correct",
+   "claim": "3. **Ausencia de datos regulatorios en Argentina**: El fármaco no cuenta con autorizaciones de comercialización registradas en Argentina (0 licencias), lo que limita el contexto regulatorio disponible para el análisis.",
+   "replacement": "",
+   "note": "Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06).",
+   "finding": "本站資料是 PAMI 給付清單（不含 ANMAT 許可狀態），清單列有本藥品項；「在阿根廷查無上市許可（0 licencias）」與事實矛盾，整條刪（2026-11-06）",
+   "sources": [
+    {
+     "title": "PAMI – Medicamentos para entidades (datos abiertos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Eliminado: «3. **Ausencia de datos regulatorios en Argentina**: El fármaco no cuenta con autorizaciones de comercialización registradas en Argentina (0 »",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）",
+   "anchor": "2. **Mecanismo de acción no disponible**: Aunque Aciclovir es un análogo nucleósido ampliamente conocido que inhibe la ADN polimerasa viral, el campo `original_moa` del Evidence Pack está vacío. Sin datos estructurados de mecanismo de acción, TxGNN no puede realizar inferencias de similitud mecanística con otras indicaciones."
+  },
+  {
+   "id": "ar-lic-20261106-aciclovir-2",
+   "drug": "aciclovir",
+   "file": "aciclovir.md",
+   "action": "correct",
+   "claim": "Aciclovir **no se encuentra comercializado** en Argentina según los registros consultados. No se identificaron autorizaciones de comercialización vigentes (total de licencias: 0).",
+   "replacement": "Aciclovir **no se encuentra comercializado** en Argentina según los registros consultados.",
+   "note": "Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06).",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "sources": [
+    {
+     "title": "PAMI – Medicamentos para entidades (datos abiertos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Eliminado: «No se identificaron autorizaciones de comercialización vigentes (total de licencias: 0)»",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）"
+  },
+  {
+   "id": "ar-lic-20261106-amiodarona-1",
+   "drug": "amiodarona",
+   "file": "amiodarona.md",
+   "action": "correct",
+   "claim": "Amiodarona **no se encuentra comercializada** en Argentina según los registros consultados. No se identificaron autorizaciones de comercialización vigentes (0 licencias).",
+   "replacement": "Amiodarona **no se encuentra comercializada** en Argentina según los registros consultados.",
+   "note": "Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). En los datos (listado de medicamentos de PAMI) figuran 4 registros para este medicamento, 4 vigentes; las cifras actualizadas están en el resumen rápido y en la información de mercado.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "sources": [
+    {
+     "title": "PAMI – Medicamentos para entidades (datos abiertos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Eliminado: «No se identificaron autorizaciones de comercialización vigentes (0 licencias)»",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）"
+  },
+  {
+   "id": "ar-lic-20261106-atomoxetina-1",
+   "drug": "atomoxetina",
+   "file": "atomoxetina.md",
+   "action": "correct",
+   "claim": "Atomoxetina **no se encuentra comercializada** en Argentina según los registros consultados. No existen autorizaciones de comercialización vigentes.",
+   "replacement": "Atomoxetina **no se encuentra comercializada** en Argentina según los registros consultados.",
+   "note": "Eliminado: el número o el estado de los registros indicado no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). En los datos (listado de medicamentos de PAMI) figuran 5 registros para este medicamento, 5 vigentes; las cifras actualizadas están en el resumen rápido y en la información de mercado.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "PAMI – Medicamentos para entidades (datos abiertos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Eliminado: «No existen autorizaciones de comercialización vigentes»",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）"
+  },
+  {
+   "id": "ar-lic-20261106-atropina_sulfato-1",
+   "drug": "atropina_sulfato",
+   "file": "atropina_sulfato.md",
+   "action": "correct",
+   "claim": "No se encontraron autorizaciones de comercialización vigentes para Atropina Sulfato en Argentina según los registros consultados (0 autorizaciones).",
+   "replacement": "",
+   "note": "Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). En los datos (listado de medicamentos de PAMI) figuran 2 registros para este medicamento, 2 vigentes; las cifras actualizadas están en el resumen rápido y en la información de mercado.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "sources": [
+    {
+     "title": "PAMI – Medicamentos para entidades (datos abiertos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Eliminado: «No se encontraron autorizaciones de comercialización vigentes para Atropina Sulfato en Argentina según los registros consultados (0 autoriza»",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）",
+   "anchor": "> Esto puede deberse a que el fármaco se comercializa bajo formulaciones combinadas, denominaciones alternativas, o que los registros no fueron recuperados correctamente con el término de búsqueda \"ATROPINA,SULFATO\"."
+  },
+  {
+   "id": "ar-lic-20261106-beclometasona-1",
+   "drug": "beclometasona",
+   "file": "beclometasona.md",
+   "action": "correct",
+   "claim": "Beclometasona **no se encuentra comercializada** en Argentina según los datos disponibles. No se registraron autorizaciones de mercado (0 licencias).",
+   "replacement": "Beclometasona **no se encuentra comercializada** en Argentina según los datos disponibles.",
+   "note": "Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). En los datos (listado de medicamentos de PAMI) figuran 2 registros para este medicamento, 2 vigentes; las cifras actualizadas están en el resumen rápido y en la información de mercado.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "sources": [
+    {
+     "title": "PAMI – Medicamentos para entidades (datos abiertos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Eliminado: «No se registraron autorizaciones de mercado (0 licencias)»",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）"
+  },
+  {
+   "id": "ar-lic-20261106-beclometasona-2",
+   "drug": "beclometasona",
+   "file": "beclometasona.md",
+   "action": "correct",
+   "claim": "No es posible avanzar con la evaluación de reposicionamiento de Beclometasona debido a la ausencia total de predicciones del modelo TxGNN y múltiples brechas de datos bloqueantes. El fármaco no cuenta con autorización de mercado en Argentina, lo que representa una barrera regulatoria adicional.",
+   "replacement": "No es posible avanzar con la evaluación de reposicionamiento de Beclometasona debido a la ausencia total de predicciones del modelo TxGNN y múltiples brechas de datos bloqueantes.",
+   "note": "Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). En los datos (listado de medicamentos de PAMI) figuran 2 registros para este medicamento, 2 vigentes; las cifras actualizadas están en el resumen rápido y en la información de mercado.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "sources": [
+    {
+     "title": "PAMI – Medicamentos para entidades (datos abiertos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Eliminado: «El fármaco no cuenta con autorización de mercado en Argentina, lo que representa una barrera regulatoria adicional»",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）"
+  },
+  {
+   "id": "ar-lic-20261106-benznidazol-1",
+   "drug": "benznidazol",
+   "file": "benznidazol.md",
+   "action": "correct",
+   "claim": "> ¹ Benznidazol no presenta indicaciones aprobadas en las bases de datos regulatorias consultadas (TFDA).",
+   "replacement": "> ¹ Benznidazol no presenta indicaciones aprobadas en las bases de datos regulatorias consultadas.",
+   "note": "Eliminado: texto residual de la plantilla taiwanesa (TFDA), que no corresponde a esta página.",
+   "finding": "「TFDA」是 TwTxGNN 模板殘留（台灣食藥署）；只刪「 (TFDA)」（2026-11-06）",
+   "sources": [
+    {
+     "title": "PAMI – Medicamentos para entidades (datos abiertos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Eliminado: «(TFDA)»",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）"
+  },
+  {
+   "id": "ar-lic-20261106-betametasona-1",
+   "drug": "betametasona",
+   "file": "betametasona.md",
+   "action": "correct",
+   "claim": "Betametasona **no se encuentra registrada** en la base de datos regulatoria consultada para Argentina. No se identificaron autorizaciones de comercialización vigentes.",
+   "replacement": "Betametasona **no se encuentra registrada** en la base de datos regulatoria consultada para Argentina.",
+   "note": "Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06).",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "sources": [
+    {
+     "title": "PAMI – Medicamentos para entidades (datos abiertos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Eliminado: «No se identificaron autorizaciones de comercialización vigentes»",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）"
+  },
+  {
+   "id": "ar-lic-20261106-bromhexina-1",
+   "drug": "bromhexina",
+   "file": "bromhexina.md",
+   "action": "correct",
+   "claim": "Bromhexina **no se encuentra comercializada** en Argentina según los registros consultados. No se identificaron autorizaciones de comercialización vigentes (total de autorizaciones: 0).",
+   "replacement": "Bromhexina **no se encuentra comercializada** en Argentina según los registros consultados.",
+   "note": "Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). En los datos (listado de medicamentos de PAMI) figuran 10 registros para este medicamento, 10 vigentes; las cifras actualizadas están en el resumen rápido y en la información de mercado.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "sources": [
+    {
+     "title": "PAMI – Medicamentos para entidades (datos abiertos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Eliminado: «No se identificaron autorizaciones de comercialización vigentes (total de autorizaciones: 0)»",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）"
+  },
+  {
+   "id": "ar-lic-20261106-capecitabina-1",
+   "drug": "capecitabina",
+   "file": "capecitabina.md",
+   "action": "correct",
+   "claim": "> **Nota importante:** El log de consultas muestra que DrugBank y el prospecto TFDA **sí retornaron resultados**, pero sus datos no fueron capturados en el Evidence Pack actual. Esto sugiere un problema en la etapa de extracción/integración del pipeline, no una ausencia real de información del fármaco.",
+   "replacement": "> Esto sugiere un problema en la etapa de extracción/integración del pipeline, no una ausencia real de información del fármaco.",
+   "note": "Eliminado: texto residual de la plantilla taiwanesa (TFDA), que no corresponde a esta página.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：tw）",
+   "sources": [
+    {
+     "title": "PAMI – Medicamentos para entidades (datos abiertos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Eliminado: «**Nota importante:** El log de consultas muestra que DrugBank y el prospecto TFDA **sí retornaron resultados**, pero sus datos no fueron cap»",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）"
+  },
+  {
+   "id": "ar-lic-20261106-capecitabina-2",
+   "drug": "capecitabina",
+   "file": "capecitabina.md",
+   "action": "correct",
+   "claim": "La ausencia de datos de indicación original, mecanismo de acción y predicciones TxGNN impide realizar cualquier análisis de reposicionamiento fundamentado. Los datos técnicamente existen en las fuentes (DrugBank y prospecto TFDA devolvieron resultados), pero no fueron integrados correctamente al Evidence Pack.",
+   "replacement": "La ausencia de datos de indicación original, mecanismo de acción y predicciones TxGNN impide realizar cualquier análisis de reposicionamiento fundamentado.",
+   "note": "Eliminado: texto residual de la plantilla taiwanesa (TFDA), que no corresponde a esta página.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：tw）",
+   "sources": [
+    {
+     "title": "PAMI – Medicamentos para entidades (datos abiertos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Eliminado: «Los datos técnicamente existen en las fuentes (DrugBank y prospecto TFDA devolvieron resultados), pero no fueron integrados correctamente al»",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）"
+  },
+  {
+   "id": "ar-lic-20261106-capecitabina-3",
+   "drug": "capecitabina",
+   "file": "capecitabina.md",
+   "action": "correct",
+   "claim": "- Revisar y corregir el paso de extracción del pipeline para DrugBank (1 resultado encontrado, no capturado): recuperar categorías, MOA, indicaciones originales y datos de toxicidad\n- Extraer advertencias, contraindicaciones y clasificación de seguridad del prospecto TFDA (1 documento encontrado, no capturado)",
+   "replacement": "- Revisar y corregir el paso de extracción del pipeline para DrugBank (1 resultado encontrado, no capturado): recuperar categorías, MOA, indicaciones originales y datos de toxicidad",
+   "note": "Eliminado: texto residual de la plantilla taiwanesa (TFDA), que no corresponde a esta página.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：tw）",
+   "sources": [
+    {
+     "title": "PAMI – Medicamentos para entidades (datos abiertos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Eliminado: «Extraer advertencias, contraindicaciones y clasificación de seguridad del prospecto TFDA (1 documento encontrado, no capturado)»",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）"
+  },
+  {
+   "id": "ar-lic-20261106-capecitabina-4",
+   "drug": "capecitabina",
+   "file": "capecitabina.md",
+   "action": "correct",
+   "claim": "Xeloda), ya que la búsqueda TFDA retornó 0 resultados",
+   "replacement": "Xeloda)",
+   "note": "Eliminado: texto residual de la plantilla taiwanesa (TFDA), que no corresponde a esta página.",
+   "finding": "「TFDA」是 TwTxGNN 模板殘留；只刪「, ya que la búsqueda TFDA retornó 0 resultados」，查 ANMAT 登記的待辦保留（2026-11-06）",
+   "sources": [
+    {
+     "title": "PAMI – Medicamentos para entidades (datos abiertos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Eliminado: «ya que la búsqueda TFDA retornó 0 resultados»",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）"
+  },
+  {
+   "id": "ar-lic-20261106-cetirizina-1",
+   "drug": "cetirizina",
+   "file": "cetirizina.md",
+   "action": "correct",
+   "claim": "> ⚠️ Nota: Cetirizina es un antihistamínico de uso común a nivel mundial. La ausencia de resultados puede deberse a variaciones en el nombre comercial, formato de búsqueda, o a que la consulta fue realizada contra la base de datos de TFDA (Taiwán) en lugar de ANMAT (Argentina).",
+   "replacement": "> ⚠️ Nota: Cetirizina es un antihistamínico de uso común a nivel mundial.",
+   "note": "Eliminado: texto residual de la plantilla taiwanesa (TFDA), que no corresponde a esta página.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：tw）",
+   "sources": [
+    {
+     "title": "PAMI – Medicamentos para entidades (datos abiertos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Eliminado: «La ausencia de resultados puede deberse a variaciones en el nombre comercial, formato de búsqueda, o a que la consulta fue realizada contra »",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）"
+  },
+  {
+   "id": "ar-lic-20261106-cetirizina-2",
+   "drug": "cetirizina",
+   "file": "cetirizina.md",
+   "action": "correct",
+   "claim": "No se encontraron autorizaciones de comercialización para **CETIRIZINA** en el sistema consultado.",
+   "replacement": "",
+   "note": "Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). En los datos (listado de medicamentos de PAMI) figuran 18 registros para este medicamento, 18 vigentes; las cifras actualizadas están en el resumen rápido y en la información de mercado.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "sources": [
+    {
+     "title": "PAMI – Medicamentos para entidades (datos abiertos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Eliminado: «No se encontraron autorizaciones de comercialización para **CETIRIZINA** en el sistema consultado»",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）",
+   "anchor": "> ⚠️ Nota: Cetirizina es un antihistamínico de uso común a nivel mundial. Se recomienda verificar directamente en el [buscador de productos de ANMAT](https://servicios.anmat.gov.ar/aplicaciones_net/psp_msp.aspx)."
+  },
+  {
+   "id": "ar-lic-20261106-cetirizina-3",
+   "drug": "cetirizina",
+   "file": "cetirizina.md",
+   "action": "correct",
+   "claim": "- [ ] **Resolver DG002**: Consultar DrugBank API con el INN correcto (`cetirizine`) para obtener MOA, categorías y datos de toxicidad\n- [ ] **Verificar la fuente regulatoria**: Confirmar si la búsqueda debe realizarse en ANMAT (Argentina) en lugar de TFDA (Taiwán), dado que el nombre `CETIRIZINA` corresponde a la nomenclatura en español",
+   "replacement": "- [ ] **Resolver DG002**: Consultar DrugBank API con el INN correcto (`cetirizine`) para obtener MOA, categorías y datos de toxicidad",
+   "note": "Eliminado: texto residual de la plantilla taiwanesa (TFDA), que no corresponde a esta página.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：tw）",
+   "sources": [
+    {
+     "title": "PAMI – Medicamentos para entidades (datos abiertos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Eliminado: «[ ] **Verificar la fuente regulatoria**: Confirmar si la búsqueda debe realizarse en ANMAT (Argentina) en lugar de TFDA (Taiwán), dado que e»",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）"
+  },
+  {
+   "id": "ar-lic-20261106-ciclosporina-1",
+   "drug": "ciclosporina",
+   "file": "ciclosporina.md",
+   "action": "correct",
+   "claim": "Sin registro regulatorio en Argentina**\nLa consulta a ANMAT/TFDA devolvió `result_count: 0` para el nombre INN \"CICLOSPORINA\". Esto puede deberse a que el fármaco está registrado bajo una grafía diferente (\"ciclosporina\", \"ciclosporin\" o marcas comerciales como Sandimmun / Neoral), lo cual requiere reejecutar la consulta con términos alternativos.",
+   "replacement": "Sin registro regulatorio en Argentina**",
+   "note": "Eliminado: texto residual de la plantilla taiwanesa (TFDA), que no corresponde a esta página.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：tw）",
+   "sources": [
+    {
+     "title": "PAMI – Medicamentos para entidades (datos abiertos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Eliminado: «La consulta a ANMAT/TFDA devolvió `result_count: 0` para el nombre INN \"CICLOSPORINA\". Esto puede deberse a que el fármaco está registrado b»",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）"
+  },
+  {
+   "id": "ar-lic-20261106-ciclosporina-2",
+   "drug": "ciclosporina",
+   "file": "ciclosporina.md",
+   "action": "correct",
+   "claim": "- [ ] **Resolver DG001**: descargar e interpretar el prospecto oficial (TFDA o ANMAT) para obtener advertencias y contraindicaciones",
+   "replacement": "- [ ] **Resolver DG001**: descargar e interpretar el prospecto oficial (ANMAT) para obtener advertencias y contraindicaciones",
+   "note": "Eliminado: texto residual de la plantilla taiwanesa (TFDA), que no corresponde a esta página.",
+   "finding": "「TFDA」是 TwTxGNN 模板殘留；只刪「TFDA o 」（2026-11-06）",
+   "sources": [
+    {
+     "title": "PAMI – Medicamentos para entidades (datos abiertos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Eliminado: «TFDA o»",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）"
+  },
+  {
+   "id": "ar-lic-20261106-cilostazol-1",
+   "drug": "cilostazol",
+   "file": "cilostazol.md",
+   "action": "correct",
+   "claim": "Advertencias y contraindicaciones del prospecto no disponibles (Data Gap DG001 — severidad Bloqueante).** Sin la información del prospecto (vía TFDA u ANMAT), el fármaco no puede avanzar a la evaluación inicial de seguridad S1.",
+   "replacement": "Advertencias y contraindicaciones del prospecto no disponibles (Data Gap DG001 — severidad Bloqueante).** Sin la información del prospecto (vía ANMAT), el fármaco no puede avanzar a la evaluación inicial de seguridad S1.",
+   "note": "Eliminado: texto residual de la plantilla taiwanesa (TFDA), que no corresponde a esta página.",
+   "finding": "「TFDA」是 TwTxGNN 模板殘留；只刪「TFDA u 」（2026-11-06）",
+   "sources": [
+    {
+     "title": "PAMI – Medicamentos para entidades (datos abiertos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Eliminado: «TFDA u»",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）"
+  },
+  {
+   "id": "ar-lic-20261106-cilostazol-2",
+   "drug": "cilostazol",
+   "file": "cilostazol.md",
+   "action": "correct",
+   "claim": "- Descargar y procesar el prospecto del fabricante desde TFDA o ANMAT para extraer advertencias, contraindicaciones y posología\n- Verificar el estado regulatorio vigente de CILOSTAZOL ante ANMAT (el query TFDA del 2026-03-29 devolvió 0 resultados)",
+   "replacement": "- Descargar y procesar el prospecto del fabricante desde ANMAT para extraer advertencias, contraindicaciones y posología\n- Verificar el estado regulatorio vigente de CILOSTAZOL ante ANMAT",
+   "note": "Eliminado: texto residual de la plantilla taiwanesa (TFDA), que no corresponde a esta página.",
+   "finding": "「TFDA」是 TwTxGNN 模板殘留；只刪「TFDA o 」（2026-11-06）",
+   "sources": [
+    {
+     "title": "PAMI – Medicamentos para entidades (datos abiertos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Eliminado: «TFDA o (el query TFDA del 2026-03-29 devolvió 0 resultados)»",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）"
+  },
+  {
+   "id": "ar-lic-20261106-cinitaprida-1",
+   "drug": "cinitaprida",
+   "file": "cinitaprida.md",
+   "action": "correct",
+   "claim": "El Evidence Pack de CINITAPRIDA carece de los insumos mínimos necesarios para completar el análisis de reposicionamiento: no están disponibles el mecanismo de acción, las indicaciones originales estructuradas, ni las predicciones TxGNN. Adicionalmente, el fármaco no cuenta con ninguna autorización de comercialización en Argentina, lo que añade una barrera regulatoria de base.",
+   "replacement": "El Evidence Pack de CINITAPRIDA carece de los insumos mínimos necesarios para completar el análisis de reposicionamiento: no están disponibles el mecanismo de acción, las indicaciones originales estructuradas, ni las predicciones TxGNN.",
+   "note": "Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). En los datos (listado de medicamentos de PAMI) figuran 7 registros para este medicamento, 7 vigentes; las cifras actualizadas están en el resumen rápido y en la información de mercado.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "sources": [
+    {
+     "title": "PAMI – Medicamentos para entidades (datos abiertos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Eliminado: «Adicionalmente, el fármaco no cuenta con ninguna autorización de comercialización en Argentina, lo que añade una barrera regulatoria de base»",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）"
+  }
+ ]
+}

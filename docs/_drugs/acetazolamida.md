@@ -7,7 +7,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 12
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -86,6 +86,12 @@ Actualmente no hay literatura relacionada disponible en el Evidence Pack, dado q
 
 Acetazolamida **no se encuentra comercializada** en Argentina según los datos consultados.
 
+<!-- review:begin ar-lic-20261106-acetazolamida-1 -->
+
+> **Corrección de verificación (2026-11-06)**: Texto original: «Acetazolamida **no se encuentra comercializada** en Argentina según los datos consultados. No se identificaron autorizaciones de comercialización vigentes.» Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). En los datos (listado de medicamentos de PAMI) figuran 2 registros para este medicamento, 2 vigentes; las cifras actualizadas están en el resumen rápido y en la información de mercado. Fuente: [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261106-acetazolamida-1 -->
+
 ---
 
 ## Consideraciones de Seguridad
@@ -118,6 +124,19 @@ No es posible avanzar con la evaluación de reposicionamiento de Acetazolamida e
 - Verificar el **estado regulatorio** en Argentina mediante fuentes locales (ANMAT)
 - Re-ejecutar el pipeline TxGNN con los datos completados para generar predicciones de nuevas indicaciones
 - Obtener información de seguridad del prospecto (advertencias, contraindicaciones, interacciones)
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-06 | Eliminado: «No se identificaron autorizaciones de comercialización vigentes» | Corregido | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

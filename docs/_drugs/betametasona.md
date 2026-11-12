@@ -7,7 +7,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 51
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -86,6 +86,12 @@ Actualmente no hay literatura relacionada disponible en el Evidence Pack, dado q
 
 Betametasona **no se encuentra registrada** en la base de datos regulatoria consultada para Argentina.
 
+<!-- review:begin ar-lic-20261106-betametasona-1 -->
+
+> **Corrección de verificación (2026-11-06)**: Texto original: «Betametasona **no se encuentra registrada** en la base de datos regulatoria consultada para Argentina. No se identificaron autorizaciones de comercialización vigentes.» Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). Fuente: [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261106-betametasona-1 -->
+
 > **Nota:** Esto puede reflejar una limitación en la fuente de datos consultada (la búsqueda se realizó con el término "BETAMETASONA"). Es probable que el fármaco esté comercializado bajo nombres comerciales o en combinaciones que no fueron capturadas por la consulta. Se recomienda verificar en la base de datos de ANMAT con términos alternativos (e.g., "betamethasone", nombres comerciales como "Celestone", "Diprosone", combinaciones con gentamicina, etc.).
 
 ---
@@ -114,6 +120,19 @@ No se dispone de predicciones TxGNN para nuevas indicaciones de betametasona, y 
 - Obtener las **advertencias, contraindicaciones e interacciones** desde el prospecto o fuentes regulatorias
 - Re-ejecutar el modelo **TxGNN** con el identificador correcto del fármaco para generar predicciones de nuevas indicaciones
 - Considerar ejecutar la predicción tanto para betametasona sola como para sus combinaciones de uso frecuente (e.g., betametasona + gentamicina, betametasona dipropionato)
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-06 | Eliminado: «No se identificaron autorizaciones de comercialización vigentes» | Corregido | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

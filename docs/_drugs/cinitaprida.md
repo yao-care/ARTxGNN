@@ -7,7 +7,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 103
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -79,12 +79,31 @@ Consultar el prospecto para información de seguridad.
 **Justificación:**
 El Evidence Pack de CINITAPRIDA carece de los insumos mínimos necesarios para completar el análisis de reposicionamiento: no están disponibles el mecanismo de acción, las indicaciones originales estructuradas, ni las predicciones TxGNN.
 
+<!-- review:begin ar-lic-20261106-cinitaprida-1 -->
+
+> **Corrección de verificación (2026-11-06)**: Texto original: «El Evidence Pack de CINITAPRIDA carece de los insumos mínimos necesarios para completar el análisis de reposicionamiento: no están disponibles el mecanismo de acción, las indicaciones originales estructuradas, ni las predicciones TxGNN. Adicionalmente, el fármaco no cuenta con ninguna autorización de comercialización en Argentina, lo que añade una barrera regulatoria de base.» Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). En los datos (listado de medicamentos de PAMI) figuran 7 registros para este medicamento, 7 vigentes; las cifras actualizadas están en el resumen rápido y en la información de mercado. Fuente: [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261106-cinitaprida-1 -->
+
 **Para avanzar se necesita:**
 - Integrar los datos de MOA obtenidos de DrugBank (la consulta al 2026-03-29 retornó 1 resultado, pero no fue poblado en el campo `drug.original_moa`)
 - Asignar el `drugbank_id` correcto a CINITAPRIDA para permitir el enlace con la Knowledge Graph de TxGNN
 - Registrar indicaciones originales aprobadas en países de referencia (México: dispepsia funcional; España: trastornos de la motilidad GI) en el campo `original_indications` para alimentar el modelo
 - Re-ejecutar el pipeline TxGNN con el Drug ID correctamente vinculado y verificar que las indicaciones semilla estén presentes
 - Evaluar la viabilidad de registro ante ANMAT como condición previa a cualquier estrategia de reposicionamiento en Argentina
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-06 | Eliminado: «Adicionalmente, el fármaco no cuenta con ninguna autorización de comercialización en Argentina, lo que añade una barrera regulatoria de base» | Corregido | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

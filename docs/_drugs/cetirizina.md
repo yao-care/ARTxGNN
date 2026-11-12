@@ -7,7 +7,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 95
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -84,6 +84,18 @@ El mecanismo de acción figura como `[Data Gap]` (severidad: **Alta**) y las adv
 
 > ⚠️ Nota: Cetirizina es un antihistamínico de uso común a nivel mundial. Se recomienda verificar directamente en el [buscador de productos de ANMAT](https://servicios.anmat.gov.ar/aplicaciones_net/psp_msp.aspx).
 
+<!-- review:begin ar-lic-20261106-cetirizina-1 -->
+
+> **Corrección de verificación (2026-11-06)**: Texto original: «> ⚠️ Nota: Cetirizina es un antihistamínico de uso común a nivel mundial. La ausencia de resultados puede deberse a variaciones en el nombre comercial, formato de búsqueda, o a que la consulta fue realizada contra la base de datos de TFDA (Taiwán) en lugar de ANMAT (Argentina).» Eliminado: texto residual de la plantilla taiwanesa (TFDA), que no corresponde a esta página. Fuente: [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261106-cetirizina-1 -->
+
+<!-- review:begin ar-lic-20261106-cetirizina-2 -->
+
+> **Corrección de verificación (2026-11-06)**: Texto original: «No se encontraron autorizaciones de comercialización para **CETIRIZINA** en el sistema consultado.» Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). En los datos (listado de medicamentos de PAMI) figuran 18 registros para este medicamento, 18 vigentes; las cifras actualizadas están en el resumen rápido y en la información de mercado. Fuente: [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261106-cetirizina-2 -->
+
 ---
 
 ## Consideraciones de Seguridad
@@ -104,6 +116,27 @@ El Evidence Pack está incompleto — sin indicaciones predichas por TxGNN y sin
 - [ ] **Resolver DG001**: Descargar y parsear el prospecto de ANMAT para extraer advertencias, contraindicaciones y precauciones
 - [ ] **Resolver DG002**: Consultar DrugBank API con el INN correcto (`cetirizine`) para obtener MOA, categorías y datos de toxicidad
 - [ ] **Regenrar el Evidence Pack** una vez resueltas las brechas, y volver a solicitar este informe
+
+<!-- review:begin ar-lic-20261106-cetirizina-3 -->
+
+> **Corrección de verificación (2026-11-06)**: Texto original: «[ ] **Resolver DG002**: Consultar DrugBank API con el INN correcto (`cetirizine`) para obtener MOA, categorías y datos de toxicidad / [ ] **Verificar la fuente regulatoria**: Confirmar si la búsqueda debe realizarse en ANMAT (Argentina) en lugar de TFDA (Taiwán), dado que el nombre `CETIRIZINA` corresponde a la nomenclatura en español» Eliminado: texto residual de la plantilla taiwanesa (TFDA), que no corresponde a esta página. Fuente: [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261106-cetirizina-3 -->
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-06 | Eliminado: «La ausencia de resultados puede deberse a variaciones en el nombre comercial, formato de búsqueda, o a que la consulta fue realizada contra » | Corregido | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+| 2026-11-06 | Eliminado: «No se encontraron autorizaciones de comercialización para **CETIRIZINA** en el sistema consultado» | Corregido | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+| 2026-11-06 | Eliminado: «[ ] **Verificar la fuente regulatoria**: Confirmar si la búsqueda debe realizarse en ANMAT (Argentina) en lugar de TFDA (Taiwán), dado que e» | Corregido | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -7,7 +7,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 43
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -86,6 +86,12 @@ Actualmente no hay literatura relacionada disponible en el contexto de reposicio
 
 Beclometasona **no se encuentra comercializada** en Argentina según los datos disponibles.
 
+<!-- review:begin ar-lic-20261106-beclometasona-1 -->
+
+> **Corrección de verificación (2026-11-06)**: Texto original: «Beclometasona **no se encuentra comercializada** en Argentina según los datos disponibles. No se registraron autorizaciones de mercado (0 licencias).» Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). En los datos (listado de medicamentos de PAMI) figuran 2 registros para este medicamento, 2 vigentes; las cifras actualizadas están en el resumen rápido y en la información de mercado. Fuente: [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261106-beclometasona-1 -->
+
 > **Nota:** Esto no implica que el principio activo no esté disponible en otras jurisdicciones. Beclometasona cuenta con aprobaciones regulatorias en múltiples países (EMA, FDA, entre otros) para indicaciones respiratorias y alérgicas.
 
 ---
@@ -121,6 +127,12 @@ El Evidence Pack identifica las siguientes brechas críticas que deben resolvers
 **Justificación:**
 No es posible avanzar con la evaluación de reposicionamiento de Beclometasona debido a la ausencia total de predicciones del modelo TxGNN y múltiples brechas de datos bloqueantes.
 
+<!-- review:begin ar-lic-20261106-beclometasona-2 -->
+
+> **Corrección de verificación (2026-11-06)**: Texto original: «No es posible avanzar con la evaluación de reposicionamiento de Beclometasona debido a la ausencia total de predicciones del modelo TxGNN y múltiples brechas de datos bloqueantes. El fármaco no cuenta con autorización de mercado en Argentina, lo que representa una barrera regulatoria adicional.» Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). En los datos (listado de medicamentos de PAMI) figuran 2 registros para este medicamento, 2 vigentes; las cifras actualizadas están en el resumen rápido y en la información de mercado. Fuente: [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261106-beclometasona-2 -->
+
 **Para avanzar se necesita:**
 - Resolver el identificador DrugBank (`drugbank_id`) para permitir el mapeo en el Knowledge Graph
 - Completar las indicaciones originales aprobadas del fármaco
@@ -132,6 +144,20 @@ No es posible avanzar con la evaluación de reposicionamiento de Beclometasona d
 ---
 
 *Este informe fue generado el 2026-04-03. Los resultados son únicamente para fines de investigación y no constituyen recomendación médica. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-06 | Eliminado: «No se registraron autorizaciones de mercado (0 licencias)» | Corregido | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+| 2026-11-06 | Eliminado: «El fármaco no cuenta con autorización de mercado en Argentina, lo que representa una barrera regulatoria adicional» | Corregido | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

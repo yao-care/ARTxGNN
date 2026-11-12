@@ -7,7 +7,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 101
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -72,6 +72,12 @@ El paquete de evidencia presenta tres brechas críticas que bloquean el flujo es
 
 **3. Advertencias y contraindicaciones del prospecto no disponibles (Data Gap DG001 — severidad Bloqueante).** Sin la información del prospecto (vía ANMAT), el fármaco no puede avanzar a la evaluación inicial de seguridad S1. La remediación indicada es descargar y analizar el PDF del prospecto del fabricante.
 
+<!-- review:begin ar-lic-20261106-cilostazol-1 -->
+
+> **Corrección de verificación (2026-11-06)**: Texto original: «Advertencias y contraindicaciones del prospecto no disponibles (Data Gap DG001 — severidad Bloqueante).** Sin la información del prospecto (vía TFDA u ANMAT), el fármaco no puede avanzar a la evaluación inicial de seguridad S1.» Eliminado: texto residual de la plantilla taiwanesa (TFDA), que no corresponde a esta página. Fuente: [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261106-cilostazol-1 -->
+
 ---
 
 ## Consideraciones de Seguridad
@@ -93,6 +99,26 @@ El paquete de evidencia actual no contiene predicciones de TxGNN ni datos de seg
 - Descargar y procesar el prospecto del fabricante desde ANMAT para extraer advertencias, contraindicaciones y posología
 - Verificar el estado regulatorio vigente de CILOSTAZOL ante ANMAT
 - Una vez completadas las brechas, reejecutar la generación del Evidence Pack y regenerar este informe
+
+<!-- review:begin ar-lic-20261106-cilostazol-2 -->
+
+> **Corrección de verificación (2026-11-06)**: Texto original: «Descargar y procesar el prospecto del fabricante desde TFDA o ANMAT para extraer advertencias, contraindicaciones y posología / Verificar el estado regulatorio vigente de CILOSTAZOL ante ANMAT (el query TFDA del 2026-03-29 devolvió 0 resultados)» Eliminado: texto residual de la plantilla taiwanesa (TFDA), que no corresponde a esta página. Fuente: [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261106-cilostazol-2 -->
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-06 | Eliminado: «TFDA u» | Corregido | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+| 2026-11-06 | Eliminado: «TFDA o (el query TFDA del 2026-03-29 devolvió 0 resultados)» | Corregido | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

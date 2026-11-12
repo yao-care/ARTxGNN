@@ -7,7 +7,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 39
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -84,6 +84,12 @@ Actualmente no hay literatura relacionada con nuevas indicaciones disponible en 
 
 > Esto puede deberse a que el fármaco se comercializa bajo formulaciones combinadas, denominaciones alternativas, o que los registros no fueron recuperados correctamente con el término de búsqueda "ATROPINA,SULFATO".
 
+<!-- review:begin ar-lic-20261106-atropina_sulfato-1 -->
+
+> **Corrección de verificación (2026-11-06)**: Texto original: «No se encontraron autorizaciones de comercialización vigentes para Atropina Sulfato en Argentina según los registros consultados (0 autorizaciones).» Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). En los datos (listado de medicamentos de PAMI) figuran 2 registros para este medicamento, 2 vigentes; las cifras actualizadas están en el resumen rápido y en la información de mercado. Fuente: [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261106-atropina_sulfato-1 -->
+
 ---
 
 ## Consideraciones de Seguridad
@@ -110,6 +116,19 @@ No se generaron predicciones de nuevas indicaciones para Atropina Sulfato. Adem�
 - Recuperar información de seguridad del prospecto oficial (advertencias, contraindicaciones)
 - Verificar si el fármaco se comercializa bajo otra denominación o formulación combinada en Argentina
 - Re-ejecutar el modelo TxGNN una vez que los datos de entrada estén completos para evaluar si se generan predicciones de reposicionamiento
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-06 | Eliminado: «No se encontraron autorizaciones de comercialización vigentes para Atropina Sulfato en Argentina según los registros consultados (0 autoriza» | Corregido | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
