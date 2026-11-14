@@ -8,6 +8,11 @@ description: "Candidatos a reposicionamiento de medicamentos L3-L4 en ARTxGNN, r
 
 # Evidencia Moderada (L3-L4)
 
+<!-- page-data:start（母目錄 .claude/gen_page_data_20261116.py 產生，勿手改）-->
+{% assign pd_m = site.data.drug_stats.level_counts.L3 | plus: site.data.drug_stats.level_counts.L4 %}
+Esta página incluye **{{ pd_m }}** de los **{{ site.data.drug_stats.total_drugs }}** medicamentos con informe publicado en este sitio ({{ pd_m | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }} %). Definición de los niveles: [Metodología]({{ '/methodology/' | relative_url }}).
+<!-- page-data:end -->
+
 <p style="font-size: 1.25rem; color: #666; margin-bottom: 1.5rem;">
 Candidatos con evidencia preliminar que requieren validación adicional
 </p>
