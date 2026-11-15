@@ -6,7 +6,7 @@
   <link rel="canonical" href="https://artxgnn.yao.care/smart/standalone.html">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ARTxGNN SMART App - Standalone Test Mode</title>
+  <title>ARTxGNN SMART App - Modo de prueba independiente</title>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-W7ZNBYKJHJ"></script>
   <script>
     window.TXGNN_ANALYTICS = Object.assign({"measurementId": "G-W7ZNBYKJHJ", "contentGroup": "ARTxGNN", "language": "es", "citationHosts": ["argentina.gob.ar"], "linkerDomains": ["yao.care", "www.yao.care", "artxgnn.yao.care", "www.ods.yao.care", "app.ods.yao.care"], "pageType": "smart", "pagePath": "/smart/standalone.html"}, { pageTitle: document.title });
@@ -561,75 +561,75 @@
 <body>
   <header class="header">
     <h1>ARTxGNN SMART App</h1>
-    <p>Drug Repurposing Candidate Search</p>
-    <span class="mode-badge">Standalone test mode</span>
+    <p>Búsqueda de candidatos para reposicionamiento de fármacos</p>
+    <span class="mode-badge">Modo de prueba independiente</span>
   </header>
 
   <main class="content">
     <div class="info-card">
-      <h3>Standalone test mode</h3>
+      <h3>Modo de prueba independiente</h3>
       <p>
-        This page lets you enter <strong>drug names</strong> manually to test ARTxGNN drug repurposing predictions
-        without connecting to an EHR. Enter drug names in English (e.g. Famotidine, Docetaxel, Paclitaxel).
+        Esta página permite introducir <strong>nombres de medicamentos</strong> manualmente para probar las predicciones de reposicionamiento de ARTxGNN
+        sin conectarse a una historia clínica electrónica. Escriba los nombres en inglés (denominación común internacional; p. ej. Bromfenac, Nepafenac, Ketorolac).
       </p>
       <p style="margin-top: 8px; color: #856404;">
-        <strong>Note:</strong> enter a drug name, not a disease name, e.g. "Famotidine" rather than "diabetes".
-        Click an example button below for a quick test.
+        <strong>Nota:</strong> introduzca el nombre de un medicamento, no de una enfermedad; p. ej. "Bromfenac" y no "diabetes".
+        Pulse un botón de ejemplo para una prueba rápida.
       </p>
     </div>
 
     <section class="section">
-      <h2 class="section-title">Enter drug names</h2>
+      <h2 class="section-title">Introduzca nombres de medicamentos</h2>
 
       <div class="input-group">
-        <input type="text" id="drug-input" placeholder="Enter a drug name, e.g. Famotidine, Docetaxel..." autocomplete="off">
-        <button class="btn btn-primary" id="add-btn">Add</button>
+        <input type="text" id="drug-input" placeholder="Nombre del medicamento, p. ej. Bromfenac, Nepafenac..." autocomplete="off">
+        <button class="btn btn-primary" id="add-btn">Añadir</button>
       </div>
 
       <div class="drug-tags" id="drug-tags">
-        <span style="color: #999; font-size: 14px;">No drugs added yet</span>
+        <span style="color: #999; font-size: 14px;">Aún no hay medicamentos añadidos</span>
       </div>
 
       <div style="display: flex; gap: 12px;">
-        <button class="btn btn-primary" id="query-btn">Search repurposing candidates</button>
-        <button class="btn btn-secondary" id="clear-btn">Clear all</button>
+        <button class="btn btn-primary" id="query-btn">Buscar candidatos de reposicionamiento</button>
+        <button class="btn btn-secondary" id="clear-btn">Borrar todo</button>
       </div>
 
       <div class="sample-drugs">
-        <p>Examples of L1 high-evidence drugs (click to add):</p>
+        <p>Ejemplos con los niveles de evidencia más altos de este sitio (haga clic para añadir):</p>
         <div class="sample-list">
-          <button class="sample-btn" data-drug="Famotidine">Famotidine</button>
-          <button class="sample-btn" data-drug="Docetaxel">Docetaxel</button>
-          <button class="sample-btn" data-drug="Paclitaxel">Paclitaxel</button>
-          <button class="sample-btn" data-drug="Remdesivir">Remdesivir</button>
-          <button class="sample-btn" data-drug="Vitamin E">Vitamin E</button>
-          <button class="sample-btn" data-drug="Isosorbide dinitrate">Isosorbide dinitrate</button>
-          <button class="sample-btn" data-drug="Dronedarone">Dronedarone</button>
-          <button class="sample-btn" data-drug="Nepafenac">Nepafenac</button>
+          <button class="sample-btn" data-drug="Bromfenac">Bromfenac (L1)</button>
+          <button class="sample-btn" data-drug="Nepafenac">Nepafenac (L1)</button>
+          <button class="sample-btn" data-drug="Ketorolac">Ketorolac (L1)</button>
+          <button class="sample-btn" data-drug="Diazepam">Diazepam (L2)</button>
+          <button class="sample-btn" data-drug="Trazodone">Trazodone (L2)</button>
+          <button class="sample-btn" data-drug="Levonorgestrel">Levonorgestrel (L2)</button>
+          <button class="sample-btn" data-drug="Calcipotriol">Calcipotriol (L3)</button>
+          <button class="sample-btn" data-drug="Citalopram">Citalopram (L3)</button>
         </div>
       </div>
     </section>
 
     <section class="ddi-section" id="ddi-section" style="display: none;">
-      <h2 class="section-title">⚠️ Drug interaction alerts</h2>
+      <h2 class="section-title">⚠️ Alertas de interacciones farmacológicas</h2>
       <div id="ddi-results"></div>
     </section>
 
     <section class="section">
-      <h2 class="section-title">Results</h2>
+      <h2 class="section-title">Resultados</h2>
       <div id="results">
         <div class="empty-state">
-          <p>Add drugs and click the "Search" button</p>
+          <p>Añada medicamentos y pulse «Buscar candidatos de reposicionamiento»</p>
         </div>
       </div>
     </section>
 
     <div class="disclaimer">
-      <strong>Disclaimer</strong>
-      This content is for research reference only and is not a substitute for professional medical advice. All drug repurposing predictions require clinical validation before use.
-      If you have health concerns, please consult a qualified healthcare professional.
+      <strong>Aviso</strong>
+      Este contenido es solo de referencia para la investigación y no sustituye el consejo médico profesional. Todas las predicciones de reposicionamiento requieren validación clínica antes de su uso.
+      Si tiene problemas de salud, consulte a un profesional sanitario cualificado.
       <br><br>
-      <a href="/privacy-policy/" style="color: #856404;">Privacy policy</a>
+      <a href="/privacy-policy/" style="color: #856404;">Política de privacidad</a>
     </div>
   </main>
 
@@ -674,7 +674,7 @@
       // Load search index
       async function init() {
         try {
-          resultsDiv.innerHTML = '<div class="loading">Loading drug database...</div>';
+          resultsDiv.innerHTML = '<div class="loading">Cargando la base de datos de medicamentos...</div>';
 
           const response = await fetch(CONFIG.searchIndexUrl);
           if (!response.ok) throw new Error('Failed to load search index');
@@ -697,18 +697,18 @@
             // Auto-query
             await queryRepurposing();
           } else {
-            resultsDiv.innerHTML = '<div class="empty-state"><p>Add drugs and click the "Search" button</p></div>';
+            resultsDiv.innerHTML = '<div class="empty-state"><p>Añada medicamentos y pulse «Buscar candidatos de reposicionamiento»</p></div>';
           }
         } catch (error) {
           console.error('Init error:', error);
-          resultsDiv.innerHTML = '<div class="empty-state" style="color: #c00;"><p>Failed to load the drug database</p></div>';
+          resultsDiv.innerHTML = '<div class="empty-state" style="color: #c00;"><p>No se pudo cargar la base de datos de medicamentos</p></div>';
         }
       }
 
       // Render drug tags
       function renderTags() {
         if (selectedDrugs.length === 0) {
-          drugTags.innerHTML = '<span style="color: #999; font-size: 14px;">No drugs added yet</span>';
+          drugTags.innerHTML = '<span style="color: #999; font-size: 14px;">Aún no hay medicamentos añadidos</span>';
           return;
         }
 
@@ -744,17 +744,17 @@
       // Query repurposing candidates
       async function queryRepurposing() {
         if (selectedDrugs.length === 0) {
-          resultsDiv.innerHTML = '<div class="empty-state"><p>Please add at least one drug</p></div>';
+          resultsDiv.innerHTML = '<div class="empty-state"><p>Añada al menos un medicamento</p></div>';
           document.getElementById('ddi-section').style.display = 'none';
           return;
         }
 
         if (!drugMapper) {
-          resultsDiv.innerHTML = '<div class="empty-state" style="color: #c00;"><p>The drug database has not loaded yet</p></div>';
+          resultsDiv.innerHTML = '<div class="empty-state" style="color: #c00;"><p>La base de datos de medicamentos aún no se ha cargado</p></div>';
           return;
         }
 
-        resultsDiv.innerHTML = '<div class="loading">Searching...</div>';
+        resultsDiv.innerHTML = '<div class="loading">Buscando...</div>';
 
         // Check DDI
         const ddiSection = document.getElementById('ddi-section');
@@ -766,7 +766,7 @@
             ddiResults.innerHTML = TwTxGNN.DDIChecker.formatAlertsHTML(ddiAlerts);
           } else {
             ddiSection.style.display = 'block';
-            ddiResults.innerHTML = '<div class="ddi-no-alerts">✓ No known drug interaction alerts</div>';
+            ddiResults.innerHTML = '<div class="ddi-no-alerts">✓ No hay alertas de interacciones conocidas</div>';
           }
         } else {
           ddiSection.style.display = 'none';
@@ -787,13 +787,13 @@
                     <a href="${CONFIG.drugsBaseUrl}${match.slug}/" target="_blank">${escapeHtml(match.name)}</a>
                     <span class="level-badge level-${match.level}">${match.level}</span>
                   </h3>
-                  <a href="${CONFIG.drugsBaseUrl}${match.slug}/" target="_blank" class="view-full">View full report →</a>
+                  <a href="${CONFIG.drugsBaseUrl}${match.slug}/" target="_blank" class="view-full">Ver informe completo →</a>
                 </div>
                 <div class="result-original">
-                  <strong>Original indication:</strong>${escapeHtml(match.original) || '—'}
+                  <strong>Indicación original:</strong>${escapeHtml(match.original) || '—'}
                 </div>
                 <div>
-                  <strong>Predicted new indications (repurposing candidates):</strong>
+                  <strong>Nuevas indicaciones predichas (candidatos de reposicionamiento):</strong>
                   <div class="indication-list">
             `;
 
@@ -807,7 +807,7 @@
                       <span class="ind-name">${escapeHtml(ind.name)}</span>
                       <span class="ind-score">${ind.score}%</span>
                       <button class="trials-btn" onclick="loadClinicalTrials('${escapeHtml(match.name)}', '${escapeHtml(ind.name)}', '${trialsContainerId}')">
-                        🔬 Clinical trials
+                        🔬 Ensayos clínicos
                       </button>
                     </div>
                     <div class="trials-container" id="${trialsContainerId}"></div>
@@ -818,13 +818,13 @@
               if (indications.length > 10) {
                 html += `
                   <div class="more-link">
-                    ...and ${indications.length - 10} more predicted indications
-                    <a href="${CONFIG.drugsBaseUrl}${match.slug}/" target="_blank">View all</a>
+                    ...y ${indications.length - 10} indicaciones predichas más
+                    <a href="${CONFIG.drugsBaseUrl}${match.slug}/" target="_blank">Ver todas</a>
                   </div>
                 `;
               }
             } else {
-              html += '<p style="color: #666; padding: 8px 0;">No predicted new indications</p>';
+              html += '<p style="color: #666; padding: 8px 0;">No hay nuevas indicaciones predichas</p>';
             }
 
             html += '</div></div></div>';
@@ -836,10 +836,10 @@
                   <h3>${escapeHtml(drugName)}</h3>
                 </div>
                 <p class="no-match">
-                  "${escapeHtml(drugName)}" was not found in the ARTxGNN database.
+                  "${escapeHtml(drugName)}" no se encontró en la base de datos de ARTxGNN.
                   <br><span style="font-style: normal; color: #666;">
-                    Check that this is a drug name (not a disease), or try the generic name.
-                    The database covers medicines approved in Argentina.
+                    Compruebe que es el nombre de un medicamento (no de una enfermedad) o pruebe con el nombre genérico.
+                    La base de datos incluye medicamentos autorizados en Argentina.
                   </span>
                 </p>
               </div>
@@ -847,7 +847,7 @@
           }
         }
 
-        resultsDiv.innerHTML = html || '<div class="empty-state"><p>No results</p></div>';
+        resultsDiv.innerHTML = html || '<div class="empty-state"><p>Sin resultados</p></div>';
       }
 
       function escapeHtml(text) {
@@ -915,18 +915,18 @@
         const container = document.getElementById(containerId);
         if (!container) return;
 
-        container.innerHTML = '<span class="trials-loading">Searching clinical trials...</span>';
+        container.innerHTML = '<span class="trials-loading">Buscando ensayos clínicos...</span>';
 
         const result = await searchClinicalTrials(drugName, indicationName);
 
         if (result.totalCount === 0) {
-          container.innerHTML = '<span class="trials-none">No related clinical trials</span>';
+          container.innerHTML = '<span class="trials-none">No hay ensayos clínicos relacionados</span>';
           return;
         }
 
         let html = `
           <div class="trials-summary">
-            <strong>${result.totalCount}</strong> related clinical trials found
+            <strong>${result.totalCount}</strong> ensayos clínicos relacionados encontrados
           </div>
           <div class="trials-list">
         `;
@@ -947,7 +947,7 @@
           const searchUrl = `https://clinicaltrials.gov/search?cond=${encodeURIComponent(indicationName)}&intr=${encodeURIComponent(drugName)}`;
           html += `
             <a href="${searchUrl}" target="_blank" class="trials-more">
-              View all ${result.totalCount} clinical trials →
+              Ver los ${result.totalCount} ensayos clínicos →
             </a>
           `;
         }
@@ -975,14 +975,14 @@
        */
       function formatTrialStatus(status) {
         const statusMap = {
-          'RECRUITING': 'Recruiting',
-          'ACTIVE_NOT_RECRUITING': 'Active, not recruiting',
-          'COMPLETED': 'Completed',
-          'TERMINATED': 'Terminated',
-          'NOT_YET_RECRUITING': 'Not yet recruiting',
-          'SUSPENDED': 'Suspended',
-          'WITHDRAWN': 'Withdrawn',
-          'ENROLLING_BY_INVITATION': 'Enrolling by invitation'
+          'RECRUITING': 'Reclutando',
+          'ACTIVE_NOT_RECRUITING': 'Activo, sin reclutamiento',
+          'COMPLETED': 'Completado',
+          'TERMINATED': 'Finalizado anticipadamente',
+          'NOT_YET_RECRUITING': 'Aún sin reclutar',
+          'SUSPENDED': 'Suspendido',
+          'WITHDRAWN': 'Retirado',
+          'ENROLLING_BY_INVITATION': 'Inscripción por invitación'
         };
         return statusMap[status] || status;
       }
@@ -1005,7 +1005,7 @@
       clearBtn.addEventListener('click', () => {
         selectedDrugs = [];
         renderTags();
-        resultsDiv.innerHTML = '<div class="empty-state"><p>Add drugs and click the "Search" button</p></div>';
+        resultsDiv.innerHTML = '<div class="empty-state"><p>Añada medicamentos y pulse «Buscar candidatos de reposicionamiento»</p></div>';
       });
 
       // Sample drug buttons
