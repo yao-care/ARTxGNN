@@ -39,7 +39,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 ## Resumen en Una Frase
 
-Ceftriaxona es un antibiótico cefalosporínico de tercera generación que actúa inhibiendo la síntesis de la pared celular bacteriana. El modelo TxGNN predice que podría ser útil para el **síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome)**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción. Se trata únicamente de una señal del modelo.
+Ceftriaxona es un antibiótico betalactámico de la clase de las cefalosporinas de tercera generación, que actúa inhibiendo la síntesis de la pared celular bacteriana.
+El modelo TxGNN predice que podría ser efectivo para el **síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome)**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata únicamente de una predicción del modelo.
 
 ## Resumen Rápido
 
@@ -55,11 +56,11 @@ Ceftriaxona es un antibiótico cefalosporínico de tercera generación que actú
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la ceftriaxona es una cefalosporina de tercera generación que inhibe la síntesis de la pared celular bacteriana. Su acción es exclusivamente antibacteriana.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la ceftriaxona es una cefalosporina de tercera generación que inhibe la síntesis de la pared celular bacteriana, con actividad antibacteriana de amplio espectro.
 
-Con este mecanismo no se identifica un vínculo plausible con el síndrome de hiperviscosidad policlonal. Esta condición se relaciona con la viscosidad sérica y la dinámica de las inmunoglobulinas, y la ceftriaxona no tiene un efecto conocido sobre ninguna de ellas.
+El síndrome de hiperviscosidad policlonal está causado por una elevación de las inmunoglobulinas y no tiene ninguna diana antibacteriana conocida. No se identificó un vínculo mecanístico plausible entre ambos.
 
-El puntaje alto (0,9939) es solo una predicción del modelo. Ningún estudio real lo respalda ni lo contradice, por lo que no hay base mecanística ni clínica para considerarla una oportunidad de reposicionamiento verosímil.
+El puntaje alto (0,9939) parece ser un artefacto de la predicción basada en el modelo, sin respaldo de ensayos clínicos ni literatura. Por ello, esta predicción no debe interpretarse como una hipótesis terapéutica sólida sin evidencia adicional.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -71,25 +72,31 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-El producto se encuentra **comercializado** en Argentina, con autorizaciones vigentes para presentaciones de un solo principio activo.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 48555 | ACANTEX | 500 mg IM, frasco ampolla x 1 |
+| 13323 | CEFTRIAXONA RICHET | 1 g IV, frasco ampolla + solvente |
+| 13807 | CEFTRIAXONA FABRA | 1 g, frasco ampolla x 1 |
+| 13324 | CEFTRIAXONA RICHET | 1 g IM, frasco ampolla + solvente |
+| 48516 | ACANTEX | 1 g IM, frasco ampolla x 1 |
+
+Se muestran 5 de las 7 autorizaciones vigentes.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. En los datos compilados para este informe no se registraron interacciones farmacológicas.
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-- La predicción no tiene ningún respaldo en ensayos clínicos ni literatura (nivel L5).
-- No existe un vínculo mecanístico plausible entre un antibiótico que inhibe la pared celular bacteriana y un trastorno de hiperviscosidad.
+La predicción no cuenta con ensayos clínicos ni literatura, no existe un vínculo mecanístico plausible y el nivel de evidencia es L5 (solo predicción del modelo).
 
 **Para avanzar se necesita:**
-- Una hipótesis mecanística creíble que conecte la ceftriaxona con la viscosidad sérica o la dinámica de las inmunoglobulinas.
-- Estudios preclínicos o clínicos que evalúen directamente esta condición.
-- Datos formales de mecanismo de acción y de seguridad (advertencias y contraindicaciones del prospecto local).
-- Evaluar si conviene priorizar otras predicciones del modelo con mayor respaldo antes de invertir recursos en esta.
+- Datos del mecanismo de acción (por ejemplo, desde DrugBank)
+- Información de seguridad del prospecto de ANMAT (advertencias y contraindicaciones)
+- Estudios preclínicos o clínicos que evalúen directamente el síndrome de hiperviscosidad policlonal, antes de considerar cualquier avance
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

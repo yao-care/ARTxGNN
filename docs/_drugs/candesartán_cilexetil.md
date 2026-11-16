@@ -9,7 +9,7 @@ drugbank_id: DB00796
 monitor_inn: "Candesartan cilexetil"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
 last_modified_at: 2026-11-16
-description: "Candesartán Cilexetil: nueva indicación predicha, Malignant hypertensive renal disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Candesartán Cilexetil: nueva indicación predicha, Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5)."
 ---
 
 # Candesartán Cilexetil
@@ -34,32 +34,34 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-## Candesartán Cilexetil: Malignant hypertensive renal disease
+## Candesartán Cilexetil: Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Candesartán cilexetil es un fármaco que actúa sobre el sistema renina-angiotensina-aldosterona, con licencias vigentes en Argentina.
+Candesartán cilexetilo es un fármaco comercializado en Argentina en varias presentaciones de comprimidos, solo y en combinación.
+El modelo TxGNN predice que podría ser efectivo para la **enfermedad renal hipertensiva maligna (malignant hypertensive renal disease)**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden directamente esta predicción; se trata únicamente de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Malignant hypertensive renal disease |
+| Nueva Indicación Predicha | Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) |
 | Puntaje de Predicción TxGNN | 0.9968 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (15 de 15) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorización | 15 (vigentes: 15) |
 | Decisión Recomendada | Hold |
 
-## ¿Por qué es razonable esta predicción?
+## ¿Por qué es Razonable esta Predicción?
 
-No se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, candesartán es un bloqueador del receptor de angiotensina II tipo 1 (AT1). La hipertensión renovascular maligna depende en gran medida de la activación del sistema renina-angiotensina-aldosterona, por lo que el mecanismo es biológicamente plausible.
+Los datos compilados para este informe no incluyen información detallada sobre el mecanismo de acción del fármaco. Según el conocimiento general, el candesartán es un bloqueador del receptor de angiotensina II tipo 1 (ARA-II). La hipertensión maligna con compromiso renal está fuertemente impulsada por la activación del sistema renina-angiotensina-aldosterona, por lo que reducir la presión arterial y proteger el riñón mediante el bloqueo del receptor AT1 es mecanísticamente plausible.
 
-Sin embargo, este razonamiento es indirecto y se basa en la clase farmacológica. Los bloqueadores del receptor de angiotensina pueden provocar un deterioro agudo de la función renal en la estenosis bilateral de la arteria renal o en pacientes con un solo riñón, lo cual es una preocupación de seguridad relevante en esta condición.
+Sin embargo, no se dispone de ensayos clínicos ni literatura para esta indicación, y el puntaje del modelo (0,9968) es solo una predicción. Dado que el fármaco ya se comercializa para uso cardiovascular, esto podría representar en gran parte una extensión de un uso existente más que un reposicionamiento genuino.
 
-El puntaje elevado del modelo es únicamente una predicción computacional. No hay estudios cuyo objeto sea esta enfermedad, por lo que el nivel de evidencia se limita a L5.
+Además, el uso en hipertensión maligna requeriría especial cautela: los ARA-II pueden empeorar la función renal en contextos agudos, por ejemplo con estenosis de la arteria renal o depleción de volumen.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -67,32 +69,40 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible para la indicación principal predicha.
+Actualmente no hay literatura relacionada disponible para esta indicación.
 
 ## Información de Mercado en Argentina
 
-Hay 15 autorizaciones, todas vigentes. Se listan las 5 principales:
+El fármaco está comercializado en Argentina, con 15 autorizaciones vigentes, todas de monofármaco según los registros. Ninguna incluye texto de indicación aprobada.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
 |---------|------|------|-----------|
-| 28929 | DACTEN | 8 mg comp. x 15 | No registrada en los datos locales |
-| 55471 | ATACAND | 8 mg comp. divis. x 28 | No registrada en los datos locales |
-| 55473 | ATACAND | 32 mg comp. divis. x 28 | No registrada en los datos locales |
-| 47502 | CANDESARTAN RICHET | 16 mg comp. x 30 | No registrada en los datos locales |
-| 28932 | DACTEN | 16 mg comp. x 30 | No registrada en los datos locales |
+| 28929 | DACTEN | 8 mg comp. x 15 | Elea |
+| 55471 | ATACAND | 8 mg comp. divisibles x 28 | Biopas Argentina |
+| 55473 | ATACAND | 32 mg comp. divisibles x 28 | Biopas Argentina |
+| 47502 | CANDESARTAN RICHET | 16 mg comp. x 30 | Richet |
+| 28932 | DACTEN | 16 mg comp. x 30 | Elea |
+
+Se muestran las 5 primeras de 15 autorizaciones.
+
+## Consideraciones de Seguridad
+
+Consultar el prospecto para información de seguridad.
+
+Como consideración general, derivada del análisis del modelo y no de datos del prospecto: los ARA-II pueden empeorar la función renal en situaciones agudas, y la hipotensión sistémica es una preocupación en poblaciones con enfermedad vascular pulmonar.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos ni literatura que estudien directamente la hipertensión renovascular maligna. El puntaje de predicción es alto, pero la evidencia es solo computacional y existe un riesgo de seguridad conocido de la clase (deterioro renal agudo en estenosis bilateral de la arteria renal o riñón único).
+La predicción se apoya solo en el puntaje del modelo (0,9968), sin ensayos clínicos ni publicaciones que estudien directamente esta enfermedad (nivel de evidencia L5).
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de acción y del prospecto de ANMAT (advertencias y contraindicaciones), que actualmente faltan
-- Revisión de la literatura clínica sobre bloqueadores del receptor AT1 en hipertensión renovascular maligna
-- Evaluación de seguridad renal (función renal, potasio) en pacientes con estenosis de la arteria renal
-- Verificación de que esta predicción no sea simplemente una extensión de la indicación de hipertensión ya existente
+- Revisar los ensayos clínicos y la literatura sobre candesartán en hipertensión maligna y nefropatía hipertensiva
+- Obtener y analizar el prospecto aprobado por ANMAT (advertencias y contraindicaciones)
+- Completar los datos del mecanismo de acción
+- Evaluar el riesgo de empeoramiento de la función renal en contextos agudos
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

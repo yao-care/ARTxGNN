@@ -9,7 +9,7 @@ drugbank_id: DB00594
 monitor_inn: "Amiloride"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease"]
 last_modified_at: 2026-11-16
-description: "Amilorida: nueva indicación predicha, Malignant hypertensive renal disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Amilorida: nueva indicación predicha, Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Amilorida
@@ -34,19 +34,20 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-## Amilorida: Malignant hypertensive renal disease
+## Amilorida: Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Amilorida es un diurético ahorrador de potasio que actúa bloqueando el canal epitelial de sodio (ENaC) en la nefrona distal.
+Amilorida es un diurético ahorrador de potasio que actúa bloqueando el canal epitelial de sodio (ENaC).
+El modelo TxGNN predice que podría ser útil para la **enfermedad renal hipertensiva maligna (malignant hypertensive renal disease)**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección; se trata solo de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Malignant hypertensive renal disease |
+| Nueva Indicación Predicha | Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) |
 | Puntaje de Predicción TxGNN | 0.9982 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (11 de 11) – el estado del registro en ANMAT no está incluido en estos datos |
@@ -55,11 +56,11 @@ Amilorida es un diurético ahorrador de potasio que actúa bloqueando el canal e
 
 ## ¿Por qué es Razonable esta Predicción?
 
-La amilorida bloquea el canal epitelial de sodio (ENaC) en la nefrona distal, lo que reduce la reabsorción de sodio y contribuye a disminuir la presión arterial. Se emplea en situaciones de hipertensión por exceso de mineralocorticoides.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, la amilorida bloquea el canal epitelial de sodio (ENaC) en el riñón, lo que favorece la eliminación de sodio y agua y reduce la pérdida de potasio. Se usa como diurético y antihipertensivo.
 
-La hipertensión renovascular maligna está impulsada principalmente por la activación del sistema renina-angiotensina-aldosterona. El hiperaldosteronismo secundario podría ofrecer un vínculo plausible, aunque indirecto, con el mecanismo de la amilorida.
+Mecanísticamente, el control del sodio y del volumen circulante podría ser relevante en el daño renal asociado a hipertensión grave. Sin embargo, el puntaje elevado (0,9982) corresponde solo a una predicción del modelo: no se aportaron ensayos clínicos ni literatura para esta enfermedad.
 
-Cabe subrayar que no existe evidencia clínica directa. La única publicación disponible es una revisión sobre hipertensión mineralocorticoide, que no estudia esta enfermedad específica. Por ello, el puntaje alto del modelo no está respaldado por ensayos y el nivel de evidencia se fija en L5, ya que ningún estudio citado aborda directamente la enfermedad predicha.
+La hipertensión maligna con compromiso renal es una condición aguda y de alto riesgo. En ella, el riesgo de hiperpotasemia de la amilorida en presencia de insuficiencia renal es una preocupación de seguridad importante, por lo que la plausibilidad mecanística no es suficiente para apoyar su uso.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -67,35 +68,40 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 41831 | DIUREX A 12.5 | 12.5/1.25 mg comp. x 30 | No registrada en los datos locales |
-| 542 | ERROLON A | comp. x 20 | No registrada en los datos locales |
-| 22138 | REN-UR | comp. x 20 | No registrada en los datos locales |
-| 22139 | REN-UR | comp. x 50 | No registrada en los datos locales |
-| 5385 | MODURETIC | comp. x 50 | No registrada en los datos locales |
+La amilorida se encuentra comercializada en Argentina, con 11 autorizaciones vigentes de productos de un solo principio activo (ninguna cancelada ni sin comercializar).
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 41831 | DIUREX A 12.5 | 12.5/1.25 mg comp. x 30 |
+| 542 | ERROLON A | comp. x 20 |
+| 22138 | REN-UR | comp. x 20 |
+| 22139 | REN-UR | comp. x 50 |
+| 5385 | MODURETIC | comp. x 50 |
+
+Se muestran las 5 primeras de 11 autorizaciones; las demás corresponden a DIUREX A 50, DIUREX A 25, MODURETIC (comp. x 30), ERROLON A (comp. x 50), REN-UR (comp. x 100) y HIDRENOX A.
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
+
+Como consideración general derivada de la evaluación de la predicción: la amilorida puede provocar hiperpotasemia, riesgo que aumenta en la insuficiencia renal, justamente el contexto de la enfermedad predicha.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos ni estudios que evalúen directamente la amilorida en hipertensión renovascular maligna. El puntaje del modelo (0,9982) es alto, pero el vínculo mecanístico es solo plausible e indirecto.
+La predicción se apoya únicamente en el puntaje del modelo (nivel de evidencia L5), sin ensayos clínicos ni publicaciones sobre esta enfermedad, y con un riesgo de seguridad relevante (hiperpotasemia en compromiso renal).
 
 **Para avanzar se necesita:**
-- Estudios preclínicos o clínicos que evalúen la amilorida directamente en hipertensión renovascular maligna
-- Datos del mecanismo de acción detallados y verificados
-- Información de seguridad del prospecto (advertencias y contraindicaciones), en especial el riesgo de hiperpotasemia en insuficiencia renal
-- Datos de las indicaciones aprobadas localmente
+- Datos del mecanismo de acción confirmados (por ejemplo, desde DrugBank)
+- Advertencias y contraindicaciones del prospecto aprobado por ANMAT
+- Revisión de literatura y de registros de ensayos específicos sobre la enfermedad renal hipertensiva maligna
+- Evaluación del riesgo de hiperpotasemia en pacientes con deterioro de la función renal
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

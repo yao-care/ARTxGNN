@@ -39,8 +39,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 ## Resumen en Una Frase
 
-Fenobarbital es un barbitúrico con acción anticonvulsivante y sedante, comercializado en Argentina en varias presentaciones.
-El modelo TxGNN predice que podría ser útil para **neoplasia del nervio trigémino (trigeminal nerve neoplasm)**, pero actualmente **no hay ensayos clínicos** y solo **1 publicación** (una serie de casos sobre síndrome de Sturge-Weber, sin relación directa con tumores), por lo que la predicción carece de respaldo real.
+Fenobarbital es un fármaco anticonvulsivante de la clase de los barbitúricos, con 7 autorizaciones vigentes en Argentina.
+El modelo TxGNN predice que podría ser efectivo para **neoplasia del nervio trigémino (trigeminal nerve neoplasm)**, pero no hay ensayos clínicos y la única publicación vinculada (una serie de casos sobre síndrome de Sturge-Weber) no estudia esta enfermedad, por lo que la evidencia es mínima.
 
 ## Resumen Rápido
 
@@ -56,11 +56,11 @@ El modelo TxGNN predice que podría ser útil para **neoplasia del nervio trigé
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Los datos compilados para este informe no incluyen el mecanismo de acción detallado del fármaco. Según la información conocida, el fenobarbital potencia la inhibición mediada por el receptor GABA-A y es un fármaco antiepiléptico y sedante establecido.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento farmacológico general, el fenobarbital es un modulador alostérico positivo del receptor GABA-A que refuerza la inhibición neuronal y reduce la excitabilidad, lo que explica su uso para controlar convulsiones.
 
-No se identifica una base mecanística para una actividad antitumoral. El puntaje alto del modelo probablemente refleja cercanía en la red de relaciones del modelo y no un efecto terapéutico real sobre tumores. La única publicación recuperada trata del síndrome de Sturge-Weber, donde lo relevante es el control de las convulsiones, no el tratamiento de una neoplasia.
+Ese mecanismo no tiene una conexión directa conocida con una actividad antitumoral sobre tumores del nervio trigémino. La única publicación asociada es una serie de 14 casos de síndrome de Sturge-Weber (1997), una enfermedad vascular neurocutánea en la que el fenobarbital se usa para controlar convulsiones. La relación con el tumor del trigémino probablemente sea un artefacto del modelo, vinculado a la distribución trigeminal de las lesiones faciales y al contexto del manejo de convulsiones, y no a evidencia de eficacia tumoral.
 
-En consecuencia, esta predicción debe considerarse una hipótesis sin sustento mecanístico ni clínico en este momento.
+En el mejor de los casos, el fármaco podría servir como tratamiento sintomático de convulsiones asociadas a un tumor, lo que constituye una indicación distinta a la predicha. Por lo tanto, el puntaje alto del modelo no está respaldado por un mecanismo plausible.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -70,19 +70,17 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [9157801](https://pubmed.ncbi.nlm.nih.gov/9157801/) | 1997 | Serie de casos | Anales Españoles de Pediatría | Experiencia con 14 casos de síndrome de Sturge-Weber a lo largo de 25 años; describe características clínicas, evolución y respuesta terapéutica. No estudia neoplasias del trigémino. |
+| [9157801](https://pubmed.ncbi.nlm.nih.gov/9157801/) | 1997 | Serie de casos | Anales españoles de pediatría | Revisión de 14 casos de síndrome de Sturge-Weber seguidos durante 25 años (características clínicas, evolución y respuesta terapéutica). No estudia neoplasias del nervio trigémino. |
 
 ## Información de Mercado en Argentina
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 17477 | LUMINAL | comp. x 60 | — |
-| 12624 | ALEPSAL | comp. x 60 | — |
-| 48440 | FENROS | 15 mg comp. x 30 | — |
-| 48442 | FENROS | 100 mg comp. x 60 | — |
-| 48441 | FENROS | 100 mg comp. x 20 | — |
-
-Hay 7 autorizaciones vigentes de producto de un solo principio activo; la tabla muestra las 5 principales. El texto de indicación aprobada no está registrado en los datos locales.
+| 17477 | LUMINAL | comp. x 60 | No registrada en los datos locales |
+| 12624 | ALEPSAL | comp. x 60 | No registrada en los datos locales |
+| 48440 | FENROS | 15 mg comp. x 30 | No registrada en los datos locales |
+| 48442 | FENROS | 100 mg comp. x 60 | No registrada en los datos locales |
+| 48441 | FENROS | 100 mg comp. x 20 | No registrada en los datos locales |
 
 ## Consideraciones de Seguridad
 
@@ -93,12 +91,13 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-No existen ensayos clínicos ni estudios que evalúen el fenobarbital en neoplasia del nervio trigémino. La única publicación recuperada no aborda esta enfermedad, y no hay un mecanismo antitumoral plausible. Por ello el nivel de evidencia es L5, solo predicción del modelo.
+El puntaje del modelo es muy alto, pero no hay ensayos clínicos, la única publicación no aborda esta enfermedad y no existe un mecanismo plausible que vincule al fenobarbital con tumores del nervio trigémino. El nivel de evidencia es L5.
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de acción y una justificación biológica de un posible efecto antitumoral
-- Estudios preclínicos o clínicos que evalúen directamente esta enfermedad
+- Datos del mecanismo de acción (por ejemplo, desde DrugBank) y un análisis de si existe algún vínculo mecanístico real con la enfermedad predicha
+- Estudios preclínicos o clínicos que evalúen directamente neoplasias del nervio trigémino
 - Información de seguridad del prospecto de ANMAT (advertencias y contraindicaciones)
+- Aclarar si el vínculo del modelo se debe a un artefacto (Sturge-Weber, control de convulsiones) antes de invertir en más estudios
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

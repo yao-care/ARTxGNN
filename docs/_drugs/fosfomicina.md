@@ -9,7 +9,7 @@ drugbank_id: DB00828
 monitor_inn: "Fosfomycin"
 predicted_indications: ["uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "epiglottitis", "urogenital tuberculosis", "laryngitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "pyelitis"]
 last_modified_at: 2026-11-16
-description: "Fosfomicina: nueva indicación predicha, Uterine inflammatory disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Fosfomicina: nueva indicación predicha, Enfermedad inflamatoria uterina (uterine inflammatory disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Fosfomicina
@@ -34,93 +34,74 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-## Fosfomicina: Uterine inflammatory disease
+## Fosfomicina: Enfermedad inflamatoria uterina (uterine inflammatory disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Fosfomicina es un antibiótico bactericida que bloquea un paso temprano de la síntesis de la pared celular bacteriana. Hoy se comercializa en Argentina en cápsulas orales y en inyectable intravenoso. La respaldan **0 ensayos clínicos registrados** y **6 publicaciones**, de las cuales al menos 3 estudian directamente fosfomicina en esta infección, incluido un ensayo aleatorizado de 2016.
-
----
+Fosfomicina es un antibiótico bactericida que se comercializa actualmente en Argentina. El modelo TxGNN predice que podría ser útil para la **enfermedad inflamatoria uterina (uterine inflammatory disease)**. Los datos compilados incluyen **2 ensayos clínicos** y **1 publicación**, pero ninguno estudia directamente esta enfermedad, por lo que la evidencia es muy débil.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Uterine inflammatory disease |
+| Nueva Indicación Predicha | Enfermedad inflamatoria uterina (uterine inflammatory disease) |
 | Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (3 de 3) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorización | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Fosfomicina inhibe la enzima MurA (UDP-N-acetilglucosamina enolpiruvil transferasa). Esta enzima cumple un paso temprano de la síntesis del peptidoglucano, y su bloqueo debilita la pared bacteriana y produce un efecto bactericida. *Neisseria gonorrhoeae*, el agente de la uretritis gonocócica, depende de esa pared, por lo que el mecanismo es biológicamente plausible.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la farmacología conocida, la fosfomicina inhibe la enzima MurA y bloquea el primer paso de la síntesis del peptidoglicano bacteriano. Tiene actividad amplia contra bacterias Gram negativas y algunas Gram positivas.
 
-Hay datos clínicos directos, aunque de calidad dispar:
+La inflamación del útero puede tener origen infeccioso bacteriano. Por eso es plausible, en teoría, que un antibiótico de amplio espectro tenga algún papel. Sin embargo, esta relación es solo una hipótesis. Los estudios vinculados no abordan la enfermedad uterina ni evalúan la fosfomicina para tratarla.
 
-- **Estudios de los años 70.** Un estudio con 70 pacientes tratados con fosfomicina intramuscular informó curas bacteriológicas y clínicas del 92 % (esquema de 4 g en dosis fraccionadas) y del 86 % (dosis única de 4 g).
-- **Ensayo aleatorizado de 2016.** Un ensayo abierto con 152 hombres evaluó fosfomicina trometamol 3 g por vía oral en los días 1, 3 y 5. Los resúmenes disponibles no permiten confirmar la eficacia final ni la dosificación.
-
-La resistencia antimicrobiana y los esquemas actuales de referencia, basados en ceftriaxona, limitan el valor práctico de esta indicación. Además, las formulaciones estudiadas (trometamol oral e intramuscular) no coinciden necesariamente con los productos autorizados localmente (cápsulas de 500 mg e inyectable intravenoso).
-
-Actualmente no se dispone de datos detallados de mecanismo de acción en la información compilada para este informe. La descripción anterior corresponde al mecanismo conocido de la fosfomicina.
-
----
+La predicción debe tomarse como una señal del modelo y no como una indicación respaldada por la clínica. No hay estudios que demuestren eficacia, dosis, vía de administración ni seguridad de la fosfomicina en esta enfermedad.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados.
-
----
+| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
+|---------|------|------|------|---------|
+| [NCT04278404](https://clinicaltrials.gov/study/NCT04278404) | N/A | Reclutando | 5000 | Estudio general de farmacocinética y seguridad de fármacos poco estudiados en niños y adultos jóvenes. No es específico de enfermedad uterina. |
+| [NCT01431326](https://clinicaltrials.gov/study/NCT01431326) | N/A | Completado | 3520 | Estudio farmacocinético pediátrico de fármacos usados según la práctica habitual. No tiene relación con enfermedad uterina; solo sirve como información de fondo sobre dosificación y seguridad. |
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [27064136](https://pubmed.ncbi.nlm.nih.gov/27064136/) | 2016 | ECA | Clinical Microbiology and Infection | Ensayo abierto en 152 hombres con uretritis gonocócica no complicada. 126 completaron el estudio. Se comparó fosfomicina trometamol 3 g oral (días 1, 3 y 5) con un grupo control. |
-| [832523](https://pubmed.ncbi.nlm.nih.gov/832523/) | 1977 | Evaluación clínica/bacteriológica (histórica) | Chemotherapy | Estudio de 959 pacientes con diversas infecciones, entre ellas uretritis gonocócica, en hospitales españoles. Evalúa el comportamiento de amplio espectro de la fosfomicina. |
-| [35820778](https://pubmed.ncbi.nlm.nih.gov/35820778/) | 2023 | Análisis secundario | Sexually Transmitted Infections | Describe la depuración espontánea de *N. gonorrhoeae* asintomática (ensayo NABOGO). No es específico de fosfomicina. |
-| [17878816](https://pubmed.ncbi.nlm.nih.gov/17878816/) | 2007 | Reporte de caso | Journal Français d'Ophtalmologie | Conjuntivitis gonocócica complicada en un adulto, con cepa resistente a penicilinas, tetraciclinas y fluoroquinolonas. Evidencia indirecta. |
-| [19593988](https://pubmed.ncbi.nlm.nih.gov/19593988/) | 2009 | Revisión | Zhonghua Nan Ke Xue | Diagnóstico y tratamiento de infecciones genitourinarias por *Neisseria* no gonocócicas en hombres. Evidencia indirecta. |
-
----
+| [35653789](https://pubmed.ncbi.nlm.nih.gov/35653789/) | 2022 | Cohorte prospectiva controlada | Journal of Obstetrics and Gynaecology | Estudio sobre cistitis asociada a dienogest en mujeres con endometriosis. No evalúa la fosfomicina para tratar inflamación uterina. |
 
 ## Información de Mercado en Argentina
-
-Los registros locales no traen texto de indicación aprobada, por lo que la indicación aprobada no figura en los datos locales. Las 3 autorizaciones están vigentes y corresponden a productos de un solo principio activo.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
 |---------|------|------|-----------|
 | 49334 | SOLUFOS | 500 mg cápsulas x 24 | Gobbi |
 | 49333 | SOLUFOS | 500 mg cápsulas x 12 | Gobbi |
-| 46123 | FOSFOMICINA LUAR | 1 g IV inyectable, frasco ampolla, caja x 10 | Química Luar |
+| 46123 | FOSFOMICINA LUAR | 1 g IV, inyectable, frasco ampolla, caja x 10 | Química Luar |
 
----
+Las tres autorizaciones están vigentes y corresponden a productos de principio activo único. El texto de indicación aprobada no figura en los datos locales.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. En los datos compilados para este informe no se encontraron interacciones farmacológicas registradas.
-
----
+Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas registradas en los datos compilados.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Existe un ensayo aleatorizado de 2016 y estudios históricos que estudian fosfomicina directamente en la uretritis gonocócica, y el mecanismo es plausible. Sin embargo, no hay ensayos clínicos registrados. Los resultados disponibles son limitados, los esquemas de referencia (basados en ceftriaxona) ya cubren la necesidad y la resistencia antimicrobiana restringe su utilidad práctica.
+- El puntaje del modelo es alto (0,9998), pero ningún ensayo ni publicación estudia la fosfomicina en enfermedad inflamatoria uterina. Por eso el nivel de evidencia es L5.
+- Los dos ensayos son estudios farmacocinéticos generales, y el único artículo trata un tema distinto.
 
 **Para avanzar se necesita:**
-- Obtener el texto completo del ensayo aleatorizado de 2016 para confirmar eficacia, dosis y tasas de curación.
-- Contar con datos actuales de sensibilidad de *N. gonorrhoeae* a fosfomicina en Argentina.
-- Verificar si las formulaciones locales (cápsulas de 500 mg e inyectable intravenoso) son comparables a las estudiadas (trometamol 3 g oral e intramuscular).
-- Revisar el prospecto aprobado por ANMAT para completar la información de advertencias y contraindicaciones.
-- Disponer de datos detallados del mecanismo de acción.
+- Revisión bibliográfica dirigida a la fosfomicina en infecciones ginecológicas y uterinas (por ejemplo, endometritis).
+- Datos del mecanismo de acción y de la penetración tisular de la fosfomicina en el tejido uterino.
+- Estudios clínicos o de cohortes que evalúen directamente la eficacia y la seguridad en esta enfermedad.
+- Información de seguridad del prospecto aprobado en Argentina, incluidas advertencias y contraindicaciones.
+- Definir la vía de administración y la formulación adecuadas para un posible uso.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

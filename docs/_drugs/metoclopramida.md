@@ -39,7 +39,10 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 ## Resumen en Una Frase
 
-Metoclopramida es un fármaco procinético y antiemético que actúa sobre los receptores de dopamina D2 y de serotonina 5-HT4, y que se comercializa en Argentina con múltiples autorizaciones vigentes.
+Metoclopramida es un procinético y antiemético que actúa sobre la motilidad gastrointestinal alta.
+El modelo TxGNN predice que podría ser efectivo para **gastroduodenitis (gastroduodenitis)**, con **0 ensayos clínicos** y **20 publicaciones** relacionadas en los datos compilados para este informe, la mayoría de tipo fisiológico, revisiones o estudios en animales.
+
+---
 
 ## Resumen Rápido
 
@@ -53,62 +56,75 @@ Metoclopramida es un fármaco procinético y antiemético que actúa sobre los r
 | Número de Autorización | 19 (vigentes: 19) |
 | Decisión Recomendada | Hold |
 
-## ¿Por qué es razonable esta predicción?
+---
 
-Metoclopramida antagoniza los receptores D2 de dopamina y estimula los receptores 5-HT4. Con ello acelera el vaciamiento gástrico y mejora la coordinación antroduodenal. Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción; esta descripción proviene del análisis de la predicción.
+## ¿Por qué es Razonable esta Predicción?
 
-La relación con la úlcera gástrica es débil e indirecta. El fármaco podría ayudar cuando la úlcera se acompaña de vaciamiento gástrico retardado o de reflujo duodenogástrico, y también para limpiar sangre y restos alimentarios antes de una endoscopia. Sin embargo, no suprime la acidez ni promueve la cicatrización de la mucosa, por lo que un efecto modificador de la enfermedad no tiene respaldo mecanístico.
+Metoclopramida es un antagonista del receptor de dopamina D2 y agonista del receptor 5-HT4. Estas acciones aumentan el vaciamiento gástrico, mejoran la coordinación entre el antro y el duodeno y reducen el reflujo duodenogástrico. Los datos compilados no incluyen una descripción detallada del mecanismo de acción; la descripción anterior se basa en el análisis de racionalidad de la predicción.
 
-Además, un estudio preclínico en ratas (PMID 3816940) mostró que antagonistas dopaminérgicos, incluida la metoclopramida, provocaron lesiones gástricas. Esto va en sentido contrario a la hipótesis de beneficio. Por todo ello, la alta puntuación del modelo debe interpretarse con cautela.
+La relación con la gastroduodenitis sería sintomática: el efecto procinético y antiemético podría aliviar las alteraciones de la motilidad y las náuseas o vómitos que acompañan a este cuadro. No se espera un efecto modificador de la enfermedad sobre la inflamación de la mucosa.
+
+El puntaje alto de TxGNN (0,9990) es una predicción computacional y no sustituye la evidencia clínica. Ningún estudio citado evalúa directamente a metoclopramida como tratamiento de la gastroduodenitis, por lo que el nivel de evidencia se fija en L5.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT05746377](https://clinicaltrials.gov/study/NCT05746377) | Fase 4 | Desconocido | 60 | Metoclopramida como premedicación en hemorragia digestiva alta; evalúa la necesidad de repetir la endoscopia y la visibilidad de la pared gástrica. No mide la cicatrización de la úlcera. Relevancia indirecta. |
+Actualmente no hay ensayos clínicos relacionados registrados.
+
+---
 
 ## Evidencia de Literatura
 
-La mayor parte de las publicaciones recuperadas trata temas relacionados (gastroparesia, dispepsia, reflujo) y no estudia directamente la úlcera gástrica. Se listan las más pertinentes.
+Se listan las publicaciones más relevantes. Ninguna estudia directamente la gastroduodenitis como indicación de metoclopramida.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [786607](https://pubmed.ncbi.nlm.nih.gov/786607/) | 1976 | Revisión | Drugs | Propiedades farmacológicas y uso clínico de metoclopramida; facilita la endoscopia de urgencia en hemorragia digestiva alta. |
-| [19445547](https://pubmed.ncbi.nlm.nih.gov/19445547/) | 2009 | Revisión sistemática | Paediatric Drugs | Tratamiento farmacológico del reflujo gastroesofágico en niños; tema relacionado, no úlcera. |
-| [3816940](https://pubmed.ncbi.nlm.nih.gov/3816940/) | 1986 | Preclínico (rata) | European Journal of Pharmacology | Los antagonistas dopaminérgicos, incluida la metoclopramida, provocaron lesiones gástricas en ratas. |
-| [12825960](https://pubmed.ncbi.nlm.nih.gov/12825960/) | 2003 | Revisión | Drugs | Gastroparesia diabética; tema relacionado. |
-| [11879596](https://pubmed.ncbi.nlm.nih.gov/11879596/) | 2002 | Revisión | Current Treatment Options in Gastroenterology | Dispepsia funcional (no ulcerosa); tema relacionado. |
-| [7215380](https://pubmed.ncbi.nlm.nih.gov/7215380/) | 1981 | Estudio retrospectivo | European Journal of Nuclear Medicine | Vaciamiento gástrico retardado que respondió a metoclopramida en gastroenteropatía diabética; sin respuesta en obstrucción de salida gástrica. |
-| [7017896](https://pubmed.ncbi.nlm.nih.gov/7017896/) | 1981 | Revisión | Scand J Gastroenterol Suppl | Implicaciones terapéuticas del reflujo duodenogástrico. |
+| [38059896](https://pubmed.ncbi.nlm.nih.gov/38059896/) | 2024 | ECA | Am J Gastroenterol | Metoclopramida intravenosa para mejorar la visualización gástrica por endoscopia en hemorragia digestiva alta activa (uso procedimental, no tratamiento de gastroduodenitis) |
+| [7886398](https://pubmed.ncbi.nlm.nih.gov/7886398/) | 1994 | Estudio fisiológico | Scand J Gastroenterol | Efecto de cisaprida y metoclopramida sobre la motilidad antroduodenal humana |
+| [4996971](https://pubmed.ncbi.nlm.nih.gov/4996971/) | 1971 | Estudio fisiológico | Gut | Metoclopramida aumentó la fuerza de las contracciones antrales y acopló mejor las duodenales en 23 sujetos |
+| [7072665](https://pubmed.ncbi.nlm.nih.gov/7072665/) | 1982 | Serie pediátrica | Am J Dis Child | Aumento de la motilidad gastroduodenal en niños con estasis gástrica y vómitos sin causa clara |
+| [3731974](https://pubmed.ncbi.nlm.nih.gov/3731974/) | 1986 | Estudio en voluntarios | Dig Dis Sci | Metoclopramida y cisaprida restablecieron el vaciamiento gástrico enlentecido por dopamina |
+| [18321441](https://pubmed.ncbi.nlm.nih.gov/18321441/) | 2008 | Revisión | Curr Treat Options Gastroenterol | Abordaje de náuseas y vómitos |
+| [3895390](https://pubmed.ncbi.nlm.nih.gov/3895390/) | 1985 | Revisión | Scand J Gastroenterol Suppl | Trastornos de la motilidad gastroduodenal en el ser humano |
+| [7017896](https://pubmed.ncbi.nlm.nih.gov/7017896/) | 1981 | Revisión | Scand J Gastroenterol Suppl | Implicancias terapéuticas del reflujo duodenogástrico |
+| [6382574](https://pubmed.ncbi.nlm.nih.gov/6382574/) | 1984 | Revisión | Scand J Gastroenterol Suppl | Antagonistas dopaminérgicos en el tracto digestivo alto |
+| [5548563](https://pubmed.ncbi.nlm.nih.gov/5548563/) | 1971 | Estudio en animales | Gut | Efecto de metoclopramida sobre contracciones gastroduodenales y de la vesícula en perros |
+
+---
 
 ## Información de Mercado en Argentina
 
-Se listan 5 de las 19 autorizaciones vigentes (todas de productos con un único principio activo).
+Metoclopramida figura como comercializada en Argentina, con 19 autorizaciones vigentes de producto de un solo principio activo. Se muestran las principales:
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 2217 | RELIVERAN | Gotas pediátricas, 20 ml | No registrada |
-| 48614 | RILAQUIN SL | Comprimidos sublinguales 10 mg x 10 | No registrada |
-| 2219 | RELIVERAN | Gotas para adultos, 20 ml | No registrada |
-| 21308 | RILAQUIN | Comprimidos 10 mg x 20 | No registrada |
-| 2220 | RELIVERAN | Gotas para adultos, 60 ml | No registrada |
+| 2217 | RELIVERAN | Gotas (20 ml) | No registrada |
+| 48614 | RILAQUIN SL | Comprimidos sublinguales de 10 mg | No registrada |
+| 2219 | RELIVERAN | Gotas para adultos (20 ml) | No registrada |
+| 21308 | RILAQUIN | Comprimidos de 10 mg | No registrada |
+| 52482 | RELIVERAN INYECTABLE | Ampollas de 10 mg (2 ml) | No registrada |
+
+---
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No hay estudios que evalúen directamente la metoclopramida en el tratamiento de la úlcera gástrica; el único ensayo evalúa la visualización endoscópica en hemorragia digestiva alta, y los datos preclínicos apuntan en sentido contrario. El fármaco no tiene acción antisecretora ni de protección de la mucosa, por lo que el nivel de evidencia es L5.
+La predicción no cuenta con ensayos clínicos ni con estudios que evalúen directamente la gastroduodenitis; la literatura es principalmente fisiológica, de revisión o en animales. El beneficio esperado sería solo sintomático, por lo que corresponde mantener la hipótesis como pregunta de investigación.
 
 **Para avanzar se necesita:**
-- Resultados publicados del ensayo NCT05746377 y estudios que evalúen la cicatrización de la úlcera como criterio principal.
-- Datos del mecanismo de acción verificados en fuentes farmacológicas.
-- Información de seguridad del prospecto (advertencias y contraindicaciones) de ANMAT.
-- Aclarar el riesgo señalado por los datos preclínicos de lesión gástrica antes de cualquier planteamiento clínico.
+- Estudios clínicos que evalúen metoclopramida en pacientes con gastroduodenitis
+- Datos de seguridad del prospecto de ANMAT (advertencias y contraindicaciones)
+- Datos detallados del mecanismo de acción
+- Definir si el objetivo es el control sintomático (náuseas, vómitos, vaciamiento gástrico) y no la inflamación de la mucosa
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -9,7 +9,7 @@ drugbank_id: DB00448
 monitor_inn: "Lansoprazole"
 predicted_indications: ["duodenal obstruction"]
 last_modified_at: 2026-11-16
-description: "Lansoprazol: nueva indicación predicha, Duodenal obstruction (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Lansoprazol: nueva indicación predicha, obstrucción duodenal (duodenal obstruction) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Lansoprazol
@@ -34,19 +34,21 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-## Lansoprazol: Duodenal obstruction
+## Lansoprazol: obstrucción duodenal (duodenal obstruction)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Lansoprazol es un inhibidor de la bomba de protones que reduce la secreción de ácido gástrico.
+El modelo TxGNN predice que podría ser efectivo para **obstrucción duodenal (duodenal obstruction)**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata solo de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Duodenal obstruction |
+| Nueva Indicación Predicha | obstrucción duodenal (duodenal obstruction) |
 | Puntaje de Predicción TxGNN | 0.9968 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (1 de 1) – el estado del registro en ANMAT no está incluido en estos datos |
@@ -55,11 +57,11 @@ Lansoprazol es un inhibidor de la bomba de protones que reduce la secreción de 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Lansoprazol es un inhibidor de la bomba de protones: suprime la secreción de ácido gástrico al inhibir de forma irreversible la enzima H+/K+-ATPasa de las células parietales. Los datos detallados sobre su mecanismo de acción no están disponibles en la información compilada para este informe; la descripción anterior corresponde a la caracterización farmacológica general de la clase.
+Lansoprazol es un inhibidor de la bomba de protones, es decir, disminuye la producción de ácido en el estómago. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe, por lo que el análisis mecanístico es limitado.
 
-El reflujo duodenogástrico consiste en el paso de contenido duodenal (bilis y secreciones pancreáticas) hacia el estómago. Reducir el ácido podría disminuir de forma indirecta la lesión de la mucosa y los síntomas asociados, pero no impide el reflujo en sí. El vínculo es, por lo tanto, plausible pero indirecto.
+Una posible relación es indirecta: al reducir la carga ácida, podría aliviar la lesión péptica (por ejemplo, úlcera duodenal con inflamación o edema asociados), que a veces contribuye a una obstrucción duodenal. En ese caso, la obstrucción sería una consecuencia secundaria de la enfermedad péptica y no un blanco directo del fármaco.
 
-El puntaje de TxGNN es muy alto (0,9968), pero es una predicción del modelo y no constituye evidencia clínica.
+Es importante ser cautos: las obstrucciones de causa mecánica (tumores malignos, páncreas anular, estenosis fibrosas) no se esperaría que respondan a la supresión ácida. El puntaje alto es únicamente una predicción del modelo y no está respaldado por estudios reales.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -67,32 +69,31 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [18679668](https://pubmed.ncbi.nlm.nih.gov/18679668/) | 2008 | Revisión | European Journal of Clinical Pharmacology | Actualización sobre el uso clínico y la farmacocinética de los inhibidores de la bomba de protones (úlcera péptica, infección por H. pylori, enfermedad por reflujo gastroesofágico, lesiones por AINE, síndrome de Zollinger-Ellison). No aborda directamente el reflujo duodenogástrico. |
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 32657 | LANZOPRAL (Roemmers) | Suspensión en sobres x 30 | No registrada en los datos locales |
+| 32657 | LANZOPRAL (Roemmers) | Suspensión, sobres x 30 | No registrada en los datos locales |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. En los datos compilados no se encontraron interacciones farmacológicas registradas.
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-El mecanismo (supresión ácida) es indirecto y no actúa sobre el reflujo biliar en sí.
+La predicción se basa solo en el modelo (nivel L5), sin ensayos ni publicaciones que estudien directamente la obstrucción duodenal, y el mecanismo propuesto es indirecto y no aplicable a obstrucciones mecánicas.
 
 **Para avanzar se necesita:**
-- Estudios clínicos o literatura que evalúen lansoprazol específicamente en reflujo duodenogástrico
-- Datos de advertencias y contraindicaciones del prospecto aprobado por ANMAT
-- Datos detallados del mecanismo de acción
-- Comparación con alternativas terapéuticas que actúen sobre el reflujo biliar
+- Obtener y revisar el prospecto de ANMAT (advertencias y contraindicaciones), pendiente de forma bloqueante
+- Completar los datos del mecanismo de acción desde DrugBank
+- Realizar una búsqueda de literatura y ensayos específicos sobre obstrucción duodenal
+- Definir si existe una subpoblación (obstrucción de origen péptico) donde la hipótesis sea plausible
+- Evaluar la compatibilidad de la vía de administración para la nueva indicación
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

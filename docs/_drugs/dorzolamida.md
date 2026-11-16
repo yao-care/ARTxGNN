@@ -9,7 +9,7 @@ drugbank_id: DB00869
 monitor_inn: "Dorzolamide"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "alopecia", "diffuse alopecia areata", "congestive heart failure", "acute pulmonary heart disease", "respiratory failure"]
 last_modified_at: 2026-11-16
-description: "Dorzolamida: nueva indicación predicha, Hypotrichosis simplex of the scalp (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Dorzolamida: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Dorzolamida
@@ -34,32 +34,33 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-## Dorzolamida: Hypotrichosis simplex of the scalp
+## Dorzolamida: Hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Dorzolamida es un inhibidor de la anhidrasa carbónica de uso oftálmico tópico, comercializado en Argentina en soluciones y gotas oftálmicas. Para esta enfermedad concreta no hay **ningún ensayo clínico ni publicación** en los datos compilados para este informe, por lo que la predicción se apoya solo en el modelo.
+Dorzolamida es un inhibidor tópico de la anhidrasa carbónica II, utilizado en forma de colirio para reducir la presión intraocular.
+El modelo TxGNN predice que podría ser efectivo para **hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp)**, con un puntaje de 0,9995, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Hypotrichosis simplex of the scalp |
+| Nueva Indicación Predicha | Hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp) |
 | Puntaje de Predicción TxGNN | 0.9995 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (8 de 8) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorización | 8 (vigentes: 8) |
 | Decisión Recomendada | Hold |
 
-## ¿Por qué es Razonable esta Predicción?
+## ¿Por qué es razonable esta predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información farmacológica general, la dorzolamida inhibe la anhidrasa carbónica II en el epitelio ciliar. Esto reduce la secreción de humor acuoso y disminuye la presión intraocular (PIO).
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, dorzolamida inhibe la anhidrasa carbónica II y, al aplicarse en el ojo, reduce la producción de humor acuoso y con ello la presión intraocular.
 
-Ese mecanismo es plausible para cualquier glaucoma en el que la presión intraocular sea el factor modificable. Esto incluye las formas hereditarias, donde un inhibidor tópico de la anhidrasa carbónica podría servir como terapia adyuvante o puente.
+La hipotricosis simple es un trastorno genético de miniaturización del folículo piloso. No se identificó ninguna vía que conecte la inhibición de la anhidrasa carbónica con este trastorno, por lo que no existe un vínculo mecanístico creíble.
 
-Hay que ser cautos. Los glaucomas congénitos y juveniles primarios se tratan principalmente con cirugía. El puntaje tan alto del modelo parece reflejar la asociación general con la clase de fármacos para glaucoma, más que datos específicos de esta enfermedad. No se recuperaron ensayos ni publicaciones sobre esta entidad exacta.
+El puntaje alto (0,9995) proviene únicamente de la predicción del modelo y no está respaldado por estudios reales. Esta predicción debe considerarse una señal exploratoria de muy baja plausibilidad.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -71,15 +72,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-El estado de mercado es **comercializado**, y todas las autorizaciones registradas están vigentes. Se muestran hasta 5 autorizaciones principales; la lista completa se genera por programa.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 36325 | DORLAMIDA | Solución oftálmica x 5 ml | — |
+| 40713 | ZOPIROL DM | Solución oftálmica x 5 ml | — |
+| 25086 | GLAUCOTENSIL TD | Colirio x 5 ml | — |
+| 36326 | DORLAMIDA T | Solución oftálmica x 5 ml | — |
+| 39900 | ALIVIAPRES | Solución oftálmica x 5 ml | — |
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 36325 | DORLAMIDA | Solución oftálmica x 5 ml |
-| 40713 | ZOPIROL DM | Solución oftálmica x 5 ml |
-| 25086 | GLAUCOTENSIL TD | Colirio x 5 ml |
-| 36326 | DORLAMIDA T | Solución oftálmica x 5 ml |
-| 39900 | ALIVIAPRES | Solución oftálmica x 5 ml |
+Se muestran 5 de las 8 autorizaciones vigentes. El texto de indicación aprobada no figura en los datos locales.
 
 ## Consideraciones de Seguridad
 
@@ -90,13 +91,13 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-Además, el manejo de estas formas es principalmente quirúrgico, y el fármaco solo tendría un papel adyuvante.
+La predicción no cuenta con ensayos clínicos ni literatura que estudien directamente esta enfermedad, y no se identifica un mecanismo plausible. El nivel de evidencia es L5.
 
 **Para avanzar se necesita:**
-- Revisión de la literatura específica sobre inhibidores tópicos de la anhidrasa carbónica en glaucoma congénito, juvenil y otras formas hereditarias.
-- Evaluación clínica de si un papel adyuvante o puente tiene valor real frente al manejo quirúrgico estándar.
-- Datos del mecanismo de acción confirmados desde fuentes farmacológicas.
-- Advertencias y contraindicaciones del prospecto aprobado en Argentina, que aún no están disponibles. Incluyen hipersensibilidad a sulfonamidas y salud del endotelio corneal.
+- Datos del mecanismo de acción (MOA) de dorzolamida
+- Estudios preclínicos que sugieran un vínculo entre la anhidrasa carbónica y la biología del folículo piloso
+- Información de seguridad del prospecto aprobado por ANMAT
+- Evaluación de compatibilidad de la vía de administración (colirio frente a aplicación en cuero cabelludo)
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -9,7 +9,7 @@ drugbank_id: DB00514
 monitor_inn: "Dextromethorphan"
 predicted_indications: ["nasal cavity disease", "faucial diphtheria", "trigeminal autonomic cephalalgia", "cervical disc degenerative disorder", "allergic urticaria"]
 last_modified_at: 2026-11-16
-description: "Dextrometorfano: nueva indicación predicha, enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Dextrometorfano: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Dextrometorfano
@@ -34,20 +34,20 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-## Dextrometorfano: enfermedad de la cavidad nasal (nasal cavity disease)
+## Dextrometorfano: Enfermedad de la cavidad nasal (nasal cavity disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Dextrometorfano es un antitusígeno de acción central que se comercializa en Argentina en forma de jarabe.
-El modelo TxGNN predice que podría ser efectivo para **enfermedad de la cavidad nasal (nasal cavity disease)**, con **0 ensayos clínicos** y **0 publicaciones** que respalden actualmente esta dirección.
+Dextrometorfano es un antitusígeno de acción central que actualmente se comercializa en Argentina en dos productos en forma de jarabe.
+El modelo TxGNN predice que podría ser útil para **enfermedad de la cavidad nasal (nasal cavity disease)**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata solo de una predicción computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | enfermedad de la cavidad nasal (nasal cavity disease) |
+| Nueva Indicación Predicha | Enfermedad de la cavidad nasal (nasal cavity disease) |
 | Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (2 de 2) – el estado del registro en ANMAT no está incluido en estos datos |
@@ -56,11 +56,11 @@ El modelo TxGNN predice que podría ser efectivo para **enfermedad de la cavidad
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Los datos compilados para este informe no incluyen el mecanismo de acción del fármaco. Según el conocimiento farmacológico general, el dextrometorfano actúa sobre el centro de la tos en el tronco encefálico, con antagonismo del receptor NMDA y agonismo del receptor sigma-1. No se conoce una acción directa sobre la mucosa nasal.
+Dextrometorfano es conocido como antagonista del receptor NMDA y agonista del receptor sigma-1, con actividad antitusígena. Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción, lo que limita el análisis mecanístico.
 
-Cualquier vínculo con enfermedades de la cavidad nasal sería probablemente sintomático (por ejemplo, la tos asociada a goteo posnasal) y no modificador de la enfermedad. Esta relación se infiere de la farmacología general y no está verificada por los datos disponibles.
+Un vínculo posible, aunque especulativo, sería la reducción de la tos o de la hipersensibilidad refleja de la vía aérea superior. Sin embargo, "enfermedad de la cavidad nasal" es una categoría amplia e inespecífica, por lo que este razonamiento no permite señalar una condición concreta.
 
-El puntaje alto (0,9998) es solo una predicción computacional. Sin ensayos ni literatura, no hay respaldo empírico para esta nueva indicación.
+El puntaje de 0,9998 refleja únicamente una predicción computacional. No hay estudios que evalúen directamente esta enfermedad, por lo que el nivel de evidencia es L5.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -86,13 +86,13 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura que estudien directamente la enfermedad de la cavidad nasal. El mecanismo conocido del fármaco no explica un efecto sobre esta condición más allá de un posible alivio sintomático de la tos.
+La predicción se basa solo en el modelo computacional, sin ensayos clínicos ni literatura que la respalden, y la categoría de enfermedad es demasiado amplia para evaluar un vínculo mecanístico concreto.
 
 **Para avanzar se necesita:**
-- Prospecto de ANMAT con advertencias y contraindicaciones para el cribado de seguridad
-- Datos detallados del mecanismo de acción
-- Estudios clínicos o literatura que evalúen directamente el uso en enfermedades de la cavidad nasal, con criterios de valoración definidos
-- Evaluación de compatibilidad de vía de administración y formulación para la nueva indicación
+- Obtener y revisar el prospecto de ANMAT (advertencias y contraindicaciones), actualmente sin datos
+- Completar los datos del mecanismo de acción
+- Realizar una búsqueda dirigida de literatura y ensayos sobre dextrometorfano en patología nasal
+- Definir con precisión qué condición nasal específica sería el objetivo terapéutico
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

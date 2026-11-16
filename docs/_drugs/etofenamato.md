@@ -9,7 +9,7 @@ drugbank_id: DB08984
 monitor_inn: "Etofenamate"
 predicted_indications: ["ankylosing spondylitis", "rheumatoid vasculitis", "hypermobility of coccyx", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "pseudoachondroplasia", "myosclerosis", "polyarticular juvenile rheumatoid arthritis", "Kummell disease"]
 last_modified_at: 2026-11-16
-description: "Etofenamato: nueva indicación predicha, Ankylosing spondylitis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Etofenamato: nueva indicación predicha, espondilitis anquilosante (ankylosing spondylitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Etofenamato
@@ -34,19 +34,21 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-## Etofenamato: Ankylosing spondylitis
+## Etofenamato: espondilitis anquilosante (ankylosing spondylitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Etofenamato es un antiinflamatorio no esteroideo (AINE) de uso tópico, éster del ácido flufenámico, que en Argentina se comercializa como gel.
+Etofenamato es un antiinflamatorio no esteroideo (AINE) de uso tópico, éster del ácido flufenámico.
+El modelo TxGNN predice que podría ser útil para **espondilitis anquilosante (ankylosing spondylitis)**,
+pero solo se dispone de **1 publicación** de tipo farmacocinético y **ningún ensayo clínico** que oriente en esta dirección; la evidencia es indirecta.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Ankylosing spondylitis |
+| Nueva Indicación Predicha | espondilitis anquilosante (ankylosing spondylitis) |
 | Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (1 de 1) – el estado del registro en ANMAT no está incluido en estos datos |
@@ -55,11 +57,11 @@ Etofenamato es un antiinflamatorio no esteroideo (AINE) de uso tópico, éster d
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción. Según lo conocido, etofenamato es un AINE tópico que inhibe la ciclooxigenasa y reduce la inflamación mediada por prostaglandinas. Su perfil de uso se orienta al dolor e inflamación musculoesqueléticos.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, el etofenamato es un AINE tópico de la clase de los fenamatos que inhibe la ciclooxigenasa y reduce la inflamación y el dolor mediados por prostaglandinas.
 
-Mecanísticamente, la inhibición de la COX es coherente con el manejo sintomático de cuadros inflamatorios articulares y de columna. Esa es la base plausible de la predicción.
+Los AINE son tratamiento de primera línea en la espondilitis anquilosante, por lo que el razonamiento mecanístico es plausible. Sin embargo, la espondilitis anquilosante afecta principalmente la columna axial y las articulaciones sacroilíacas, a las que un gel tópico difícilmente llegaría con una exposición suficiente.
 
-Hay que interpretar el resultado con cautela. La entrada predicha es una **etiqueta de susceptibilidad genética**, no una condición clínica tratable en sí misma. El puntaje muy alto es solo una predicción del modelo y ningún estudio la respalda. Además, por su vía tópica, la exposición sistémica del fármaco es limitada.
+El único estudio disponible (Bender et al., 2001) mostró que la iontoforesis permite que el etofenamato alcance el suero y el líquido sinovial en pacientes con lumbalgia y sinovitis de rodilla. Esto respalda la penetración tisular, pero no demuestra eficacia clínica en espondilitis anquilosante. Como ningún estudio citado analiza directamente esta enfermedad, el nivel de evidencia es L5, aunque el puntaje del modelo sea muy alto.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -67,15 +69,15 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [11455681](https://pubmed.ncbi.nlm.nih.gov/11455681/) | 2001 | Estudio farmacocinético | Arzneimittel-Forschung | Tras 5 días de iontoforesis con gel de etofenamato en 11 pacientes con lumbalgia y 13 con sinovitis de rodilla, se midieron niveles del fármaco en suero y líquido sinovial. No evalúa eficacia en espondilitis anquilosante. |
 
 ## Información de Mercado en Argentina
 
-Hay una autorización vigente, de tipo monofármaco.
-
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 4949 | FLOGOL (Lazar) | Gel x 50 g | No registrada en los datos locales |
+| 4949 | FLOGOL | Gel x 50 g | No registrada en los datos locales |
 
 ## Consideraciones de Seguridad
 
@@ -86,14 +88,13 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene nivel de evidencia L5: no existen ensayos ni publicaciones que estudien directamente esta condición. Además, la entrada es una etiqueta de susceptibilidad genética y no una enfermedad tratable, y la vía tópica limita la relevancia sistémica.
+La predicción se apoya solo en el puntaje del modelo y en un estudio farmacocinético indirecto, sin ensayos clínicos ni estudios que evalúen la enfermedad. Además, es dudoso que un gel tópico alcance estructuras axiales profundas.
 
 **Para avanzar se necesita:**
-- Aclarar si la entrada predicha corresponde a una condición clínica tratable o solo a una etiqueta genética.
-- Obtener datos detallados del mecanismo de acción.
-- Obtener las advertencias y contraindicaciones del prospecto aprobado en ANMAT.
-- Buscar estudios que evalúen directamente la eficacia de etofenamato tópico en espondiloartropatías.
-- Evaluar la compatibilidad de la vía de administración (tópica) con la afectación axial o sistémica.
+- Estudios clínicos o de literatura que evalúen directamente etofenamato en espondilitis anquilosante
+- Datos del mecanismo de acción y de la exposición tisular de la vía tópica en estructuras axiales
+- Información de advertencias y contraindicaciones del prospecto aprobado en ANMAT
+- Evaluación de la compatibilidad de la vía de administración con la nueva indicación
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

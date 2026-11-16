@@ -52,12 +52,12 @@ Informes por nivel de evidencia:
 | [Bupropión](/drugs/bupropión/) | L1 |
 | [Nepafenac](/drugs/nepafenac/) | L1 |
 | [Hidrocortisona](/drugs/hidrocortisona/) | L1 |
-| [Atorvastatín](/drugs/atorvastatín/) | L1 |
 | [Ketorolac](/drugs/ketorolac/) | L1 |
 | [Dapsona](/drugs/dapsona/) | L1 |
 | [Acetilcisteína](/drugs/acetilcisteína/) | L2 |
 | [Diazepam](/drugs/diazepam/) | L2 |
 | [Ropinirol](/drugs/ropinirol/) | L2 |
+| [Candesartán](/drugs/candesartán/) | L2 |
 
 ### Medicamentos que solo cubre este sitio entre los 30 sitios TxGNN
 
@@ -65,19 +65,19 @@ Informes por nivel de evidencia:
 |---|---|
 | [Bupropión](/drugs/bupropión/) | L1 |
 | [Hidrocortisona](/drugs/hidrocortisona/) | L1 |
-| [Atorvastatín](/drugs/atorvastatín/) | L1 |
 | [Dapsona](/drugs/dapsona/) | L1 |
 | [Acetilcisteína](/drugs/acetilcisteína/) | L2 |
 | [Ropinirol](/drugs/ropinirol/) | L2 |
 | [Candesartán](/drugs/candesartán/) | L2 |
 | [Prednisolona](/drugs/prednisolona/) | L2 |
-| [Betametasona](/drugs/betametasona/) | L2 |
+| [Atorvastatín](/drugs/atorvastatín/) | L2 |
 | [Nortriptilina](/drugs/nortriptilina/) | L2 |
 | [Sucralfato](/drugs/sucralfato/) | L2 |
 | [Cilastatín](/drugs/cilastatín/) | L3 |
 | [Prednisona](/drugs/prednisona/) | L3 |
-| [Clomipramina](/drugs/clomipramina/) | L3 |
+| [Fluoxetina](/drugs/fluoxetina/) | L3 |
 | [Fluvastatina](/drugs/fluvastatina/) | L3 |
+| [Medroxiprogesterona](/drugs/medroxiprogesterona/) | L3 |
 
 <!-- local-home:end -->
 

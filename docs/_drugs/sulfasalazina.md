@@ -9,7 +9,7 @@ drugbank_id: DB00795
 monitor_inn: "Sulfasalazine"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "WHIM syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis"]
 last_modified_at: 2026-11-16
-description: "Sulfasalazina: nueva indicación predicha, Síndrome de braquidactilia-sindactilia (brachydactyly-syndactyly syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Sulfasalazina: nueva indicación predicha, síndrome de braquidactilia-sindactilia (brachydactyly-syndactyly syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Sulfasalazina
@@ -34,20 +34,21 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-## Sulfasalazina: Síndrome de braquidactilia-sindactilia (brachydactyly-syndactyly syndrome)
+## Sulfasalazina: síndrome de braquidactilia-sindactilia (brachydactyly-syndactyly syndrome)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Sulfasalazina es un fármaco antiinflamatorio que se comercializa actualmente en Argentina.
-El modelo TxGNN predice que podría ser efectivo para el **síndrome de braquidactilia-sindactilia (brachydactyly-syndactyly syndrome)**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata únicamente de una predicción computacional.
+Sulfasalazina es un fármaco antiinflamatorio e inmunomodulador que se comercializa actualmente en Argentina.
+El modelo TxGNN predice que podría ser efectivo para el **síndrome de braquidactilia-sindactilia (brachydactyly-syndactyly syndrome)**, con **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
+Se trata de una predicción puramente computacional, sin estudios reales.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Síndrome de braquidactilia-sindactilia (brachydactyly-syndactyly syndrome) |
+| Nueva Indicación Predicha | síndrome de braquidactilia-sindactilia (brachydactyly-syndactyly syndrome) |
 | Puntaje de Predicción TxGNN | 0.9994 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (2 de 2) – el estado del registro en ANMAT no está incluido en estos datos |
@@ -56,11 +57,11 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de braquida
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, la sulfasalazina presenta actividad antiinflamatoria e inhibe la vía NF-kB.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, la sulfasalazina y sus metabolitos inhiben la señalización de NF-kB, modulan la vía de los folatos y las prostaglandinas, e inhiben el sistema xCT (system xc-).
 
-El síndrome de braquidactilia-sindactilia es una malformación congénita rara de las extremidades. Su origen está en el desarrollo del esqueleto durante la etapa embrionaria, y no en un proceso inflamatorio que la sulfasalazina pueda modificar.
+El síndrome de braquidactilia-sindactilia es una malformación congénita rara de las extremidades. Con los datos compilados para este informe no se identifica un vínculo mecanístico plausible: no existe un blanco antiinflamatorio o inmunomodulador evidente sobre el cual la sulfasalazina pudiera actuar en esta enfermedad.
 
-Con los datos compilados para este informe no se puede establecer un vínculo mecanístico plausible. El puntaje alto (0,9994) refleja solo el resultado del modelo y no está respaldado por estudios reales.
+El puntaje de 0,9994 es una predicción computacional que no está respaldada por ensayos clínicos ni por literatura. Por ello, debe interpretarse como una hipótesis sin sustento mecanístico ni clínico por el momento.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -74,8 +75,8 @@ Actualmente no hay literatura relacionada disponible.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 36460 | FLOGOSTOP | Comprimidos recubiertos de 500 mg x 60 | No registrada en los datos locales |
-| 22307 | AZULFIDINE EN-TABS | Comprimidos de 500 mg x 60 | No registrada en los datos locales |
+| 36460 | FLOGOSTOP | 500 mg comprimidos recubiertos x 60 | No registrada en los datos locales |
+| 22307 | AZULFIDINE EN-TABS | 500 mg comprimidos x 60 | No registrada en los datos locales |
 
 ## Consideraciones de Seguridad
 
@@ -86,13 +87,13 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción no cuenta con ensayos clínicos ni literatura, y no se identifica un mecanismo plausible entre la sulfasalazina y una malformación congénita del desarrollo. El nivel de evidencia es L5 (solo predicción del modelo).
+La predicción no cuenta con ensayos clínicos, literatura ni un vínculo mecanístico plausible; el nivel de evidencia es L5 y el puntaje alto refleja únicamente un resultado computacional.
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de acción de la sulfasalazina para analizar posibles vínculos con la vía biológica de esta enfermedad
-- Revisión de la literatura que evalúe si existe alguna base biológica para esta indicación
-- Información de seguridad del prospecto de ANMAT (advertencias y contraindicaciones), actualmente no disponible
-- Evidencia preclínica o clínica específica antes de reconsiderar la decisión
+- Datos de mecanismo de acción de la sulfasalazina confirmados en fuentes farmacológicas
+- Una hipótesis biológica que conecte el fármaco con la fisiopatología de la enfermedad
+- Estudios preclínicos que respalden cualquier efecto en esta enfermedad
+- Obtención y análisis del prospecto de ANMAT (advertencias y contraindicaciones) para completar la evaluación de seguridad
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

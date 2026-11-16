@@ -30,9 +30,9 @@ Predicciones de reposicionamiento de medicamentos para medicamentos del listado 
 
 | Nivel de evidencia | Cantidad de informes | Descripcion |
 |---------|-------|------|
-| **L1** | 7 | Multiples ECAs de Fase 3 |
+| **L1** | 6 | Multiples ECAs de Fase 3 |
 | **L2** | 10 | ECA unico o multiples Fase 2 |
-| **L3** | 14 | Estudios observacionales |
+| **L3** | 15 | Estudios observacionales |
 | **L4** | 10 | Estudios preclinicos / mecanisticos |
 | **L5** | 285 | Solo prediccion computacional |
 | **N/A** | 2 | Solo usos conocidos (sin nuevas predicciones) |

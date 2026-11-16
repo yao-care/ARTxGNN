@@ -9,7 +9,7 @@ drugbank_id: DB00736
 monitor_inn: "Esomeprazole"
 predicted_indications: ["duodenal obstruction"]
 last_modified_at: 2026-11-16
-description: "Esomeprazol: nueva indicación predicha, Duodenal obstruction (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Esomeprazol: nueva indicación predicha, obstrucción duodenal (duodenal obstruction) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Esomeprazol
@@ -34,20 +34,20 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-## Esomeprazol: Duodenal obstruction
+## Esomeprazol: obstrucción duodenal (duodenal obstruction)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Esomeprazol es un inhibidor de la bomba de protones que reduce la secreción de ácido gástrico.
-Hasta ahora esta predicción cuenta con **0 ensayos clínicos** y **1 publicación** de carácter general, que no estudia directamente esta enfermedad.
+Esomeprazol es un inhibidor de la bomba de protones que reduce la secreción de ácido gástrico y se comercializa en Argentina.
+El modelo TxGNN predice que podría ser efectivo para **obstrucción duodenal (duodenal obstruction)**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata solo de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Duodenal obstruction |
+| Nueva Indicación Predicha | obstrucción duodenal (duodenal obstruction) |
 | Puntaje de Predicción TxGNN | 0.9945 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (3 de 3) – el estado del registro en ANMAT no está incluido en estos datos |
@@ -56,11 +56,11 @@ Hasta ahora esta predicción cuenta con **0 ensayos clínicos** y **1 publicaci�
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por lo que se conoce de la clase, esomeprazol bloquea de forma irreversible la bomba H+/K+ ATPasa de las células parietales del estómago. Así reduce la secreción de ácido y eleva el pH intragástrico.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, esomeprazol pertenece a la clase de los inhibidores de la bomba de protones, que suprimen la secreción de ácido gástrico.
 
-En el reflujo duodenogástrico, los agentes dañinos son la bilis y las secreciones pancreáticas que refluyen hacia el estómago. Suprimir el ácido podría aliviar el daño de mucosa y los síntomas asociados al ácido, pero no actúa sobre el mecanismo principal del trastorno.
+Mecanísticamente, reducir el ácido podría disminuir la lesión de la mucosa, la ulceración y la inflamación del duodeno. Esto podría ayudar en casos de estenosis péptica u obstrucción asociada a úlcera, y en el alivio de síntomas.
 
-Por eso el vínculo mecanístico es **indirecto** y solo plausible como manejo sintomático. El puntaje alto del modelo es una predicción computacional y, por ahora, no está respaldado por datos clínicos para esta enfermedad.
+Sin embargo, el fármaco no aliviaría una obstrucción mecánica causada por una neoplasia, un páncreas anular u otras causas estructurales. El puntaje alto (0,9945) podría reflejar la cercanía del fármaco con enfermedades duodenales relacionadas con el ácido (por ejemplo, úlcera duodenal o reflujo) y no un efecto terapéutico específico sobre la obstrucción. Esta relación no pudo verificarse con datos de origen.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -68,17 +68,15 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [18679668](https://pubmed.ncbi.nlm.nih.gov/18679668/) | 2008 | Revisión | European Journal of Clinical Pharmacology | Actualización sobre el uso clínico y la farmacocinética de los inhibidores de la bomba de protones. Los describe como fármacos de primera elección en úlcera péptica, infección por *H. pylori*, enfermedad por reflujo gastroesofágico, lesiones por antiinflamatorios no esteroideos (AINE) y síndrome de Zollinger-Ellison. No aborda el reflujo duodenogástrico. |
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 45426 | NEXIUM | 10 mg sobres x 28 | AstraZeneca |
-| 47956 | VIMOVO | Comprimidos de liberación modificada x 30 | AstraZeneca |
-| 54068 | XINA | Comprimidos de liberación modificada x 30 | Finadiet |
+| 45426 | NEXIUM | 10 mg sobres x 28 | No registrada en los datos locales |
+| 47956 | VIMOVO | comp. lib. modif. x 30 | No registrada en los datos locales |
+| 54068 | XINA | comp. lib. modif. x 30 | No registrada en los datos locales |
 
 ## Consideraciones de Seguridad
 
@@ -89,13 +87,13 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-No hay ningún estudio publicado ni ensayo clínico que evalúe directamente esomeprazol en reflujo duodenogástrico. La única publicación disponible es una revisión general de la clase farmacológica. Además, el mecanismo no actúa sobre el factor causal (reflujo de bilis y secreciones pancreáticas). El puntaje del modelo no basta por sí solo para avanzar.
+La predicción se basa solo en el modelo, sin ensayos clínicos ni literatura que estudien directamente la obstrucción duodenal, y el efecto del fármaco no alcanzaría las causas mecánicas de obstrucción.
 
 **Para avanzar se necesita:**
-- Estudios clínicos o series de casos que evalúen directamente esomeprazol en reflujo duodenogástrico, con desenlaces sintomáticos y endoscópicos.
-- Datos detallados del mecanismo de acción y de su relevancia en el reflujo biliar.
-- Información de seguridad (advertencias, contraindicaciones e interacciones) tomada del prospecto aprobado en Argentina.
-- Si se avanza, tener presentes los riesgos conocidos del uso prolongado de esta clase (hipomagnesemia, déficit de vitamina B12, fracturas, infección por *C. difficile*) y las interacciones relacionadas con CYP2C19, como la que ocurre con clopidogrel.
+- Revisar la literatura y los registros de ensayos sobre esomeprazol en obstrucción duodenal
+- Obtener los datos del mecanismo de acción
+- Descargar y analizar los prospectos de ANMAT (advertencias y contraindicaciones), necesarios para el análisis de seguridad
+- Definir qué causas de obstrucción (p. ej., péptica o por úlcera) podrían responder a la supresión ácida
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

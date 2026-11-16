@@ -9,7 +9,7 @@ drugbank_id: DB00338
 monitor_inn: "Omeprazole"
 predicted_indications: ["duodenal obstruction"]
 last_modified_at: 2026-11-16
-description: "Omeprazol: nueva indicación predicha, Duodenal obstruction (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Omeprazol: nueva indicación predicha, obstrucción duodenal (duodenal obstruction) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Omeprazol
@@ -34,19 +34,20 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-## Omeprazol: Duodenal obstruction
+## Omeprazol: obstrucción duodenal (duodenal obstruction)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Omeprazol es un inhibidor de la bomba de protones que reduce la secreción de ácido gástrico.
+Omeprazol es un inhibidor de la bomba de protones que suprime la secreción de ácido gástrico.
+El modelo TxGNN predice que podría ser útil para **obstrucción duodenal (duodenal obstruction)**, pero ningún estudio citado la evalúa directamente: hay **1 ensayo clínico** de relevancia baja y **5 publicaciones** (reportes de caso, revisiones y una serie pequeña) de apoyo indirecto.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Duodenal obstruction |
+| Nueva Indicación Predicha | obstrucción duodenal (duodenal obstruction) |
 | Puntaje de Predicción TxGNN | 0.9964 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (11 de 11) – el estado del registro en ANMAT no está incluido en estos datos |
@@ -55,61 +56,58 @@ Omeprazol es un inhibidor de la bomba de protones que reduce la secreción de á
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Por conocimiento general, omeprazol es un inhibidor de la bomba de protones que suprime la secreción de ácido gástrico.
+Omeprazol es un inhibidor de la bomba de protones (IBP) que reduce la secreción de ácido gástrico. Actualmente no se dispone de datos detallados sobre su mecanismo de acción en los datos compilados para este informe; lo anterior corresponde al conocimiento general de la clase.
 
-En el reflujo duodenogástrico (reflujo biliar), la supresión ácida podría disminuir el daño de la mucosa causado por la exposición combinada a ácido y bilis, y aliviar síntomas asociados. Sin embargo, los inhibidores de la bomba de protones no detienen el reflujo del contenido duodenal (bilis, enzimas pancreáticas) en sí mismo.
+La obstrucción (estenosis) duodenal es con frecuencia una complicación de la enfermedad ulcerosa péptica. Suprimir el ácido podría disminuir la actividad de la úlcera, la inflamación y el edema que contribuyen a la obstrucción. Es un vínculo indirecto, basado en una enfermedad cercana y no en la obstrucción en sí.
 
-Los estudios en humanos con esófago de Barrett muestran efectos mixtos o modestos sobre el reflujo duodenogástrico y biliar. Además, dos estudios en ratas sugieren que el bloqueo ácido podría favorecer la carcinogénesis gástrica en presencia de este reflujo, lo que plantea una señal de seguridad a largo plazo. El puntaje elevado refleja una asociación plausible en la red del modelo, no una prueba de eficacia.
+Hay límites importantes: los IBP no resuelven una estenosis fibrótica fija, y no se esperaría respuesta en obstrucciones de origen estructural o maligno (por ejemplo, estenosis por enfermedad de Crohn). El puntaje alto (0,9964) es una predicción computacional y no sustituye la evidencia clínica.
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT02685150](https://clinicaltrials.gov/study/NCT02685150) | No aplica | Completado | 157 | Estudio diagnóstico de imagen endoscópica trimodal para distinguir dispepsia funcional de enfermedad por reflujo; no evalúa omeprazol |
+| [NCT00557921](https://clinicaltrials.gov/study/NCT00557921) | Fase 3 | Terminado | 5000 | COGENT-1: clopidogrel + omeprazol frente a clopidogrel para reducir sangrado gastrointestinal y úlcera sintomática en pacientes con aspirina. No estudia obstrucción duodenal y fue terminado antes de tiempo; relevancia baja. |
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [10994616](https://pubmed.ncbi.nlm.nih.gov/10994616/) | 2000 | Estudio clínico (humano) | Scand J Gastroenterol | Efecto de omeprazol sobre el reflujo duodenogástrico antral en esófago de Barrett |
-| [9824338](https://pubmed.ncbi.nlm.nih.gov/9824338/) | 1998 | Estudio clínico (humano) | Gut | Omeprazol 20 mg dos veces al día y reflujo biliar duodenogástrico y gastroesofágico en esófago de Barrett |
-| [16641575](https://pubmed.ncbi.nlm.nih.gov/16641575/) | 2006 | Estudio prospectivo | J Pediatr Gastroenterol Nutr | Efecto de omeprazol sobre el reflujo biliar esofágico en niños |
-| [12836018](https://pubmed.ncbi.nlm.nih.gov/12836018/) | 2003 | Serie de casos | Eur J Pediatr | Reflujo duodenogástrico primario en seis niños y adolescentes, sin respuesta a antiácidos |
-| [8076761](https://pubmed.ncbi.nlm.nih.gov/8076761/) | 1994 | Observacional | Gastroenterology | Relación entre pH, reflujo duodenogastroesofágico y daño esofágico |
-| [18679668](https://pubmed.ncbi.nlm.nih.gov/18679668/) | 2008 | Revisión | Eur J Clin Pharmacol | Uso clínico y farmacocinética de los inhibidores de la bomba de protones |
-| [10389684](https://pubmed.ncbi.nlm.nih.gov/10389684/) | 1999 | Preclínico (rata) | Dig Dis Sci | El bloqueo ácido con omeprazol promueve la carcinogénesis gástrica inducida por reflujo duodenogástrico |
-| [33027361](https://pubmed.ncbi.nlm.nih.gov/33027361/) | 2020 | Preclínico (rata) | Acta Cir Bras | Omeprazol y adenocarcinoma gástrico en ratas con reflujo duodenogástrico |
-| [8943968](https://pubmed.ncbi.nlm.nih.gov/8943968/) | 1996 | Preclínico (rata) | Dig Dis Sci | El reflujo duodenogástrico estimula el crecimiento de la mucosa, potenciado por el bloqueo ácido |
+| [7795284](https://pubmed.ncbi.nlm.nih.gov/7795284/) | 1995 | Cohorte (caso clínico) | Ital J Gastroenterol | Adolescente con úlcera duodenal y estenosis del bulbo; 4 meses de omeprazol 40 mg no modificaron el cuadro, y la erradicación de *H. pylori* con triple terapia resolvió úlcera y estenosis. |
+| [1475769](https://pubmed.ncbi.nlm.nih.gov/1475769/) | 1992 | Revisión | Ther Umsch | Diagnóstico de la úlcera péptica; menciona la obstrucción de salida gástrica y el papel de la endoscopia y los estudios contrastados. |
+| [9005711](https://pubmed.ncbi.nlm.nih.gov/9005711/) | 1996 | Revisión (caso) | Acta Med Port | Enfermedad de Crohn gastroduodenal con obstrucción de salida gástrica; prednisolona y omeprazol fracasaron y se requirió cirugía. |
+| [9306611](https://pubmed.ncbi.nlm.nih.gov/9306611/) | 1997 | Reporte de caso | Surg Today | Crohn duodenal con obstrucción persistente de salida gástrica, resuelta con cirugía. |
+| [8165479](https://pubmed.ncbi.nlm.nih.gov/8165479/) | 1994 | Reporte de caso | Surg Endosc | Úlcera marginal gigante tras gastroenterostomía; la obstrucción es una de sus complicaciones. |
+
+En conjunto, esta literatura no muestra beneficio de omeprazol en la obstrucción duodenal; en dos casos el omeprazol no resolvió el cuadro.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 53945 | ULCOZOL 20 | Polvo para suspensión oral x30 sobres | No registrada |
-| 24356 | OMEPRAZOL RICHET | 40 mg IV frasco ampolla x 1 | No registrada |
-| 46116 | DIOXAFLEX PROTECT | Cápsulas x 10 | No registrada |
-| 50468 | BLOKIUM PROTECT | Cápsulas x 30 | No registrada |
-| 52115 | BLOKIUM PROTECT | Cápsulas x 10 | No registrada |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 53945 | ULCOZOL 20 | Polvo para suspensión oral x 30 sobres |
+| 24356 | OMEPRAZOL RICHET | 40 mg IV, frasco ampolla x 1 |
+| 46116 | DIOXAFLEX PROTECT | Cápsulas x 10 |
+| 50468 | BLOKIUM PROTECT | Cápsulas x 30 |
+| 52115 | BLOKIUM PROTECT | Cápsulas x 10 |
 
-Hay 11 autorizaciones vigentes en total; se listan las 5 principales.
+Se muestran 5 de las 11 autorizaciones vigentes (todas de producto de un solo principio activo).
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
-
-Como señal relevante para esta nueva indicación, estudios preclínicos en ratas (PMID 10389684 y 33027361) sugieren que el bloqueo ácido prolongado podría promover la carcinogénesis gástrica en presencia de reflujo duodenogástrico. No está demostrado en humanos.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Ningún ensayo clínico evalúa omeprazol en reflujo duodenogástrico; la evidencia humana proviene de estudios en esófago de Barrett y niños, con resultados mixtos. Además, existe una señal preclínica de seguridad a largo plazo.
+Ningún estudio citado evalúa directamente la obstrucción duodenal: el único ensayo es de relevancia baja y fue terminado, y la literatura son casos aislados donde omeprazol no resolvió la obstrucción. El puntaje alto del modelo no basta por sí solo.
 
 **Para avanzar se necesita:**
-- Ensayos controlados que evalúen omeprazol específicamente en reflujo duodenogástrico
-- Datos del mecanismo de acción y del prospecto de ANMAT (advertencias y contraindicaciones)
-- Evaluación del riesgo de carcinogénesis gástrica con supresión ácida prolongada en este contexto
+- Estudios clínicos que evalúen omeprazol específicamente en obstrucción duodenal, distinguiendo causa péptica de causas fibróticas o malignas
+- Datos de seguridad del prospecto de ANMAT (advertencias y contraindicaciones)
+- Datos del mecanismo de acción para analizar mejor el vínculo mecanístico
+- Texto de indicaciones aprobadas en los registros locales
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -39,7 +39,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 ## Resumen en Una Frase
 
-Ceftazidima es un antibiótico betalactámico (cefalosporina de tercera generación) con actividad bactericida, utilizado en infecciones bacterianas. El modelo TxGNN predice que podría ser efectivo para **Síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome)**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección, por lo que se trata únicamente de una predicción del modelo.
+Ceftazidima es un antibiótico cefalosporínico de tercera generación con autorizaciones vigentes en Argentina. El modelo TxGNN predice como principal nueva indicación el **síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome)**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección, por lo que se trata de una predicción sin sustento real.
 
 ## Resumen Rápido
 
@@ -55,11 +55,11 @@ Ceftazidima es un antibiótico betalactámico (cefalosporina de tercera generaci
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Con base en los datos compilados para este informe, **no se identifica un mecanismo plausible**. Ceftazidima es un antibiótico bactericida que inhibe las proteínas fijadoras de penicilina (PBP) y bloquea la síntesis de la pared celular bacteriana. No se dispone de datos detallados adicionales sobre su mecanismo de acción.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por conocimiento general, ceftazidima es una cefalosporina de tercera generación con actividad antibacteriana, en particular frente a *Pseudomonas aeruginosa*.
 
-El síndrome de hiperviscosidad policlonal se debe a un exceso de inmunoglobulinas séricas. No es un problema infeccioso ni de síntesis de pared celular, por lo que no existe un vínculo mecanístico con la acción de un antibiótico betalactámico.
+El síndrome de hiperviscosidad policlonal es una condición de la sangre asociada a exceso de proteínas o inmunoglobulinas, y no una infección bacteriana. No se identifica un vínculo mecanístico entre un antibiótico y esta enfermedad. El puntaje alto del modelo parece ser un artefacto de la predicción y no refleja una base biológica o clínica.
 
-El puntaje alto (0,9951) probablemente refleja un artefacto de los embeddings del modelo y no una señal terapéutica real. Sin estudios clínicos ni literatura que la respalden, esta predicción no debe considerarse una oportunidad de reposicionamiento creíble.
+Por lo tanto, la predicción no es razonable desde el punto de vista farmacológico con la información disponible.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -71,8 +71,6 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-El fármaco figura como comercializado, con autorizaciones vigentes.
-
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 13320 | CEFTAZIDIMA RICHET | 1 g iny.f.a. (C/u) | No registrada en los datos locales |
@@ -80,20 +78,19 @@ El fármaco figura como comercializado, con autorizaciones vigentes.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se dispone de datos de advertencias, contraindicaciones ni interacciones farmacológicas en los datos compilados para este informe.
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-- La predicción no tiene respaldo clínico ni de literatura (nivel L5) y carece de un mecanismo plausible. El puntaje alto del modelo no basta para avanzar.
+No existe ningún estudio que evalúe ceftazidima en el síndrome de hiperviscosidad policlonal, no hay vínculo mecanístico plausible y el nivel de evidencia es L5 (solo predicción del modelo).
 
 **Para avanzar se necesita:**
-- Una hipótesis mecanística biológicamente fundamentada que vincule a ceftazidima con la hiperviscosidad por exceso de inmunoglobulinas.
-- Evidencia preclínica o clínica específica para esta enfermedad.
-- Información de seguridad obtenida del prospecto (advertencias, contraindicaciones e interacciones), actualmente ausente.
-- Datos de mecanismo de acción más detallados.
+- Una hipótesis mecanística biológicamente fundamentada que justifique el uso de un antibiótico en esta condición
+- Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones) de las autorizaciones locales
+- Evidencia preclínica o clínica directa en la indicación predicha, hoy inexistente
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

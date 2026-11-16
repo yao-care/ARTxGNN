@@ -9,7 +9,7 @@ drugbank_id: DB00927
 monitor_inn: "Famotidine"
 predicted_indications: ["duodenal obstruction", "abnormality of glucagon secretion", "multiple endocrine neoplasia", "acne (disease)"]
 last_modified_at: 2026-11-16
-description: "Famotidina: nueva indicación predicha, Duodenal obstruction (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Famotidina: nueva indicación predicha, obstrucción duodenal (duodenal obstruction) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Famotidina
@@ -34,19 +34,20 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-## Famotidina: Duodenal obstruction
+## Famotidina: obstrucción duodenal (duodenal obstruction)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Famotidina es un antagonista selectivo de los receptores H2 de histamina que reduce la secreción de ácido gástrico.
+Famotidina es un antagonista de los receptores H2 de histamina que reduce la secreción de ácido gástrico y se comercializa en Argentina.
+El modelo TxGNN predice que podría ser útil para **obstrucción duodenal (duodenal obstruction)**, pero no hay ensayos clínicos y solo 2 publicaciones (reportes de caso) que lo abordan de forma indirecta, por lo que la evidencia es muy limitada.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Duodenal obstruction |
+| Nueva Indicación Predicha | obstrucción duodenal (duodenal obstruction) |
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (10 de 10) – el estado del registro en ANMAT no está incluido en estos datos |
@@ -55,11 +56,11 @@ Famotidina es un antagonista selectivo de los receptores H2 de histamina que red
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por conocimiento farmacológico general, la famotidina bloquea los receptores H2 de las células parietales y disminuye la producción de ácido gástrico.
+Famotidina bloquea los receptores H2 de histamina y con ello disminuye la secreción de ácido gástrico. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe; la descripción anterior corresponde a la información farmacológica general de la clase.
 
-El reflujo duodenogástrico consiste en el retorno de bilis y contenido alcalino del duodeno al estómago. La supresión ácida solo es indirectamente relevante: puede reducir el daño de la mucosa asociado al ácido y los síntomas, pero no actúa sobre la exposición a bilis ni sobre la motilidad.
+La supresión ácida podría ayudar a controlar la enfermedad ulcerosa péptica que en ocasiones provoca estenosis u obstrucción duodenal (por ejemplo, estenosis asociada a úlcera o úlcera marginal). Sin embargo, famotidina no alivia una obstrucción mecánica. El puntaje alto probablemente refleja la proximidad en la red de relaciones con la úlcera péptica y las enfermedades duodenales, más que un efecto terapéutico directo sobre la obstrucción.
 
-Dos publicaciones clínicas sugieren un posible efecto sintomático o relacionado con el reflujo, pero son antiguas, de diseño incierto y no hay ensayos registrados. Por ello, el vínculo mecanístico es plausible solo de forma parcial.
+En conjunto, la relevancia es indirecta en el mejor de los casos y debe considerarse una hipótesis computacional que requiere validación.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -69,36 +70,39 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [12532466](https://pubmed.ncbi.nlm.nih.gov/12532466/) | 2003 | Estudio clínico (pacientes críticos) | World Journal of Gastroenterology | Evalúa el efecto de la famotidina sobre el reflujo gastroesofágico y duodeno-gastro-esofágico en pacientes críticamente enfermos y sus posibles mecanismos |
-| [16259441](https://pubmed.ncbi.nlm.nih.gov/16259441/) | 2004 | Estudio clínico/Revisión | Eksperimental'naia i klinicheskaia gastroenterologiia | Eficacia de famotidina 20 mg dos veces al día en etapas tempranas de la enfermedad por reflujo gastroduodenal, con evaluación clínica y endoscópica |
+| [9306611](https://pubmed.ncbi.nlm.nih.gov/9306611/) | 1997 | Reporte de caso | Surgery Today | Mujer de 29 años con enfermedad de Crohn duodenal y obstrucción persistente de la salida gástrica; se describe el tratamiento quirúrgico. No evalúa famotidina. |
+| [8165479](https://pubmed.ncbi.nlm.nih.gov/8165479/) | 1994 | Reporte de caso | Surgical Endoscopy | Úlcera marginal gigante como complicación de la gastroenterostomía, con posibles complicaciones como obstrucción, hemorragia y perforación. No evalúa famotidina. |
+
+Ninguna de las publicaciones estudia directamente el efecto de famotidina sobre la obstrucción duodenal.
 
 ## Información de Mercado en Argentina
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 57735 | GASTROSEDOL NF | 40 mg comp. x 30 | No registrada |
-| 57104 | TAURAL F 20 | 20 mg comp. x 60 | No registrada |
-| 58340 | LAZARTIDINA | 40 mg comp. rec. x 30 | No registrada |
-| 57103 | TAURAL F 20 | 20 mg comp. x 30 | No registrada |
-| 58338 | LAZARTIDINA | 20 mg comp. rec. x 30 | No registrada |
+| 57735 | GASTROSEDOL NF | 40 mg comp. x 30 | No registrada en los datos locales |
+| 57104 | TAURAL F 20 | 20 mg comp. x 60 | No registrada en los datos locales |
+| 58340 | LAZARTIDINA | 40 mg comp. rec. x 30 | No registrada en los datos locales |
+| 57103 | TAURAL F 20 | 20 mg comp. x 30 | No registrada en los datos locales |
+| 58338 | LAZARTIDINA | 20 mg comp. rec. x 30 | No registrada en los datos locales |
 
 Se muestran 5 de las 10 autorizaciones vigentes.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas registradas en los datos compilados.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia para reflujo duodenogástrico se limita a dos estudios clínicos pequeños y antiguos, sin ensayos registrados, y el mecanismo (supresión ácida) no aborda el componente biliar del reflujo.
+La predicción no cuenta con ensayos clínicos ni con estudios que evalúen directamente famotidina en obstrucción duodenal, y el mecanismo (supresión ácida) no resuelve una obstrucción mecánica. El nivel de evidencia es L5.
 
 **Para avanzar se necesita:**
-- Estudios controlados que midan directamente el reflujo duodenogástrico con famotidina
-- Datos del mecanismo de acción y del prospecto local (advertencias y contraindicaciones)
-- Comparación con alternativas habituales para este cuadro
+- Obtener y analizar el prospecto de ANMAT (advertencias y contraindicaciones), actualmente faltante
+- Completar los datos del mecanismo de acción desde DrugBank
+- Buscar estudios que evalúen directamente famotidina u otros antisecretores en obstrucción duodenal de origen ulceroso
+- Definir si el posible beneficio sería solo sintomático o adyuvante frente al tratamiento endoscópico o quirúrgico
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

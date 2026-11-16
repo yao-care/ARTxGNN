@@ -9,7 +9,7 @@ drugbank_id: DB00341
 monitor_inn: "Cetirizine"
 predicted_indications: ["nasal cavity disease", "rosacea conjunctivitis", "recalcitrant atopic dermatitis"]
 last_modified_at: 2026-11-16
-description: "Cetirizina: nueva indicación predicha, Nasal cavity disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Cetirizina: nueva indicación predicha, enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Cetirizina
@@ -34,93 +34,78 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Cetirizina: Nasal cavity disease
+## Cetirizina: enfermedad de la cavidad nasal (nasal cavity disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Cetirizina es un antihistamínico de segunda generación que actúa sobre el receptor H1 de la histamina.
-Esta dirección está respaldada por **1 ensayo clínico** (Fase 3 piloto, completado) y por literatura científica, en su mayoría revisiones y reportes indirectos.
+Cetirizina es un antihistamínico de segunda generación que actúa bloqueando el receptor H1 de histamina.
+El modelo TxGNN predice que podría ser efectivo para **enfermedad de la cavidad nasal (nasal cavity disease)**, pero actualmente no hay ensayos clínicos registrados y solo se dispone de **5 publicaciones** (revisiones y estudios preclínicos) relacionadas de forma indirecta con esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Nasal cavity disease |
+| Nueva Indicación Predicha | enfermedad de la cavidad nasal (nasal cavity disease) |
 | Puntaje de Predicción TxGNN | 0.9977 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (18 de 18) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorización | 18 (vigentes: 18) |
-| Decisión Recomendada | Proceed with Guardrails |
+| Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción. Según la información farmacológica conocida, cetirizina es un agonista inverso del receptor H1 de la histamina con selectividad periférica. Bloquea la vía mediada por histamina que produce el habón, el eritema y el prurito, que son las manifestaciones centrales de la urticaria.
+Cetirizina es un antagonista selectivo del receptor H1 de histamina. Al bloquear este receptor, reduce la vasodilatación, el aumento de la permeabilidad vascular, la estimulación de las terminaciones nerviosas sensitivas y el edema de la mucosa, procesos que dependen de la histamina. Además, se le atribuyen efectos antiinflamatorios modestos, como menor quimiotaxis de eosinófilos y menor expresión de moléculas de adhesión. Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción, por lo que esta explicación se basa en el conocimiento farmacológico general.
 
-El mecanismo es directamente relevante para esta predicción. La histamina liberada por los mastocitos es el mediador principal de la urticaria, y los antihistamínicos H1 son el tratamiento de primera línea habitual. Por eso la predicción se parece más a un uso farmacológicamente esperable que a un reposicionamiento de fondo.
+Estos mecanismos son biológicamente plausibles en afecciones nasales de tipo alérgico o inflamatorio, como la rinitis alérgica. Sin embargo, "enfermedad de la cavidad nasal" es una categoría muy amplia: el efecto se esperaría sobre todo en los subtipos dependientes de histamina, y no en la enfermedad no alérgica o estructural.
 
-Los datos disponibles no permiten confirmar si este uso figura en la información de uso aprobada localmente. Esa concordancia con el prospecto debe verificarse manualmente.
+Cabe señalar que, como los datos locales no traen texto de indicación, esta predicción podría reflejar un uso ya conocido del fármaco y no un reposicionamiento genuino. Esto no se puede confirmar con la información disponible.
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT02023164](https://clinicaltrials.gov/study/NCT02023164) | Fase 3 | Completado | 36 | Estudio piloto multicéntrico, aleatorizado y doble ciego. Compara cetirizina inyectable IV 10 mg con difenhidramina IV 50 mg en urticaria aguda atendida en urgencias, centros de atención inmediata y clínicas de alergia. Evalúa la factibilidad de un ensayo de Fase 3 posterior. |
-
-Este ensayo es un piloto de factibilidad con 36 participantes. No es un ensayo confirmatorio con poder estadístico suficiente. Además, evalúa la vía intravenosa, que debe confirmarse frente a las presentaciones disponibles en Argentina.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
+Ninguna de las publicaciones estudia directamente la enfermedad de la cavidad nasal como tal con cetirizina; se refieren a rinitis alérgica, inflamación nasal en general o modelos animales.
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [34862952](https://pubmed.ncbi.nlm.nih.gov/34862952/) | 2022 | Revisión narrativa | Advances in Therapy | Describe el papel de cetirizina IV entre los antihistamínicos intravenosos. Señala que en 2019 se aprobó la cetirizina IV para urticaria aguda (en EE. UU.). |
-| [7645679](https://pubmed.ncbi.nlm.nih.gov/7645679/) | 1995 | Revisión | Allergy | Estudios clínicos con cetirizina en rinitis alérgica y urticaria crónica (sin resumen disponible). |
-| [17017922](https://pubmed.ncbi.nlm.nih.gov/17017922/) | 2006 | Revisión | Current Medicinal Chemistry | Actualización sobre levocetirizina, enantiómero R de cetirizina, con baja metabolización hepática. |
-| [9951950](https://pubmed.ncbi.nlm.nih.gov/9951950/) | 1999 | Revisión comparativa | Drugs | Compara antihistamínicos de segunda generación, incluida cetirizina, en cuanto a sedación y características para elegir entre ellos. |
-| [29565188](https://pubmed.ncbi.nlm.nih.gov/29565188/) | 2018 | Revisión de seguridad / observacional | J Obstet Gynaecol | Resultados de embarazos con exposición materna a cetirizina, a partir de una base de datos de seguridad del fabricante. |
-| [27650241](https://pubmed.ncbi.nlm.nih.gov/27650241/) | 2016 | Revisión | Am J Med Sci | Uso de medicamentos para alergia durante el embarazo. |
-| [11034010](https://pubmed.ncbi.nlm.nih.gov/11034010/) | 2000 | Reporte de caso | J Clin Gastroenterol | Colestasis inducida por cetirizina en un hombre de 28 años. |
-| [19348661](https://pubmed.ncbi.nlm.nih.gov/19348661/) | 2009 | Reporte de caso | J Dermatol | Urticaria exacerbada por antihistamínicos H1 en una paciente, un fenómeno poco frecuente. |
-| [32853084](https://pubmed.ncbi.nlm.nih.gov/32853084/) | 2021 | Estudio de farmacocinética | J Hum Lact | Transferencia de cetirizina a la leche humana. |
-| [8477125](https://pubmed.ncbi.nlm.nih.gov/8477125/) | 1993 | Revisión | Ann Pharmacother | Presentación de cetirizina como antihistamínico no sedante: mecanismo, ensayos y efectos adversos. |
-
-La literatura recuperada es mayormente indirecta: revisiones generales y reportes de seguridad. No se identificó un ensayo aleatorizado publicado que estudie directamente cetirizina en urticaria alérgica.
+| [11291777](https://pubmed.ncbi.nlm.nih.gov/11291777/) | 2000 | Revisión | Allergy | Describe el antagonismo del receptor H1 como mecanismo principal de los antihistamínicos en enfermedades alérgicas, y analiza posibles efectos antialérgicos adicionales. |
+| [37970776](https://pubmed.ncbi.nlm.nih.gov/37970776/) | 2023 | Revisión | Vestnik otorinolaringologii | Enfoque patogénico del tratamiento de enfermedades inflamatorias de la nariz y los senos paranasales, con énfasis en reducir la hiperemia, el edema y la mucosidad. |
+| [35818943](https://pubmed.ncbi.nlm.nih.gov/35818943/) | 2022 | Revisión | Vestnik otorinolaringologii | Antihistamínicos H1 modernos en pacientes con rinitis alérgica e infecciones respiratorias agudas concomitantes. |
+| [36116201](https://pubmed.ncbi.nlm.nih.gov/36116201/) | 2022 | Preclínico (ratón) | Phytomedicine | Una cápsula herbal mejora la disfunción olfatoria en un modelo murino de rinitis alérgica; la intervención no es cetirizina. |
+| [9301130](https://pubmed.ncbi.nlm.nih.gov/9301130/) | 1997 | Preclínico (animal) | Arerugi | Betotastina en rinitis alérgica experimental; cetirizina se usó como comparador y inhibió de forma dependiente de la dosis el aumento de la respuesta. |
 
 ## Información de Mercado en Argentina
 
-El fármaco se encuentra comercializado en Argentina con autorizaciones vigentes como producto de un solo principio activo. El texto de indicación aprobada no figura en los registros locales. A continuación se listan 5 de las autorizaciones.
+Cetirizina cuenta con 18 autorizaciones, todas vigentes y de producto de un solo principio activo. Se listan las 5 principales:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 32730 | CETIZINE | 10 mg comp. rec. x 10 |
-| 9691 | ZYRTEC | 10 mg comp. x 10 |
-| 9692 | ZYRTEC | 10 mg comp. x 30 |
-| 28355 | CABAL | Gotas x 10 ml |
-| 51838 | DEXALERGIN NOVO CB | 10 mg cáps. blanda x 30 |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 32730 | CETIZINE | 10 mg comprimidos recubiertos x 10 | No registrada en los datos locales |
+| 32340 | CABAL | comprimidos x 30 | No registrada en los datos locales |
+| 28354 | CABAL | comprimidos x 10 | No registrada en los datos locales |
+| 56957 | ALIDIAL | comprimidos recubiertos x 10 | No registrada en los datos locales |
+| 33080 | CETIRIZINA CETUS | comprimidos x 10 | No registrada en los datos locales |
 
 ## Consideraciones de Seguridad
 
-Los datos compilados no incluyen advertencias, contraindicaciones ni interacciones del prospecto local. Consultar el prospecto para información de seguridad.
-
-La literatura recuperada aporta estas observaciones complementarias:
-- Se han descrito elevaciones transitorias y reversibles de transaminasas hepáticas en menos del 2 % de los pacientes en ensayos de EE. UU., y un caso de colestasis (PMID 11034010).
-- Un artículo de 2021 señala que la FDA no recomienda su uso durante la lactancia por falta de estudios suficientes (PMID 32853084).
-- Existen reportes aislados de urticaria desencadenada por antihistamínicos H1 (PMID 19348661).
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-Hay un ensayo de Fase 3 completado en urticaria aguda, aunque es un piloto de factibilidad pequeño. Falta evidencia confirmatoria directa y datos de seguridad locales, por lo que se recomienda avanzar con salvaguardas.
+Ningún estudio citado evalúa directamente la enfermedad de la cavidad nasal con cetirizina y no hay ensayos clínicos registrados, por lo que el nivel de evidencia es L5 y la predicción (0,9977) se apoya solo en el modelo y en plausibilidad mecanística. Además, la amplitud de la categoría y la falta de texto de indicación local impiden distinguir un reposicionamiento real de un uso ya establecido.
 
 **Para avanzar se necesita:**
-- Obtener y revisar el prospecto de ANMAT (advertencias, contraindicaciones, interacciones).
-- Verificar manualmente la concordancia del uso predicho con la información de uso aprobada localmente.
-- Complementar los datos de mecanismo de acción desde una fuente farmacológica de referencia.
-- Revisar los resultados completos del ensayo NCT02023164 (vía de administración, comparador y desenlaces) y buscar ensayos controlados adicionales.
-- Confirmar qué presentaciones y vías de administración están disponibles en Argentina para el uso propuesto.
+- Obtener el texto de indicación de los prospectos de ANMAT para aclarar si la predicción es un uso ya existente.
+- Obtener advertencias y contraindicaciones del prospecto, que hoy faltan.
+- Completar los datos de mecanismo de acción desde DrugBank.
+- Definir un subtipo nasal concreto (por ejemplo, rinitis alérgica) y buscar ensayos clínicos o estudios que lo evalúen directamente con cetirizina.
 
 <!-- review:begin log -->
 

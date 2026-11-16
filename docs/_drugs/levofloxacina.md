@@ -39,9 +39,9 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 ## Resumen en Una Frase
 
-Levofloxacina es un antibacteriano de la familia de las fluoroquinolonas, comercializado en Argentina en varias presentaciones.
-El modelo TxGNN predice que podría ser efectiva para **Queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis)**.
-Esta dirección no cuenta con ensayos clínicos y solo tiene **1 publicación** relacionada, un reporte de brote que no evalúa a la levofloxacina. La predicción es, por ahora, solo del modelo.
+Levofloxacina es un antibiótico fluoroquinolónico de amplio espectro.
+El modelo TxGNN predice que podría ser útil para la **queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis)**.
+Esta dirección cuenta con **0 ensayos clínicos** y **1 publicación** indirecta (un informe de brote de otra causa), por lo que el respaldo es muy limitado.
 
 ## Resumen Rápido
 
@@ -57,11 +57,11 @@ Esta dirección no cuenta con ensayos clínicos y solo tiene **1 publicación** 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Los datos compilados para este informe no incluyen información detallada del mecanismo de acción. En términos generales, la levofloxacina inhibe la ADN girasa y la topoisomerasa IV bacterianas, enzimas necesarias para la replicación del ADN de las bacterias. Por eso actúa contra una amplia gama de bacterias grampositivas y gramnegativas.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por conocimiento general, levofloxacina es una fluoroquinolona que inhibe la ADN girasa y la topoisomerasa IV bacterianas, y así detiene la replicación del ADN de las bacterias sensibles.
 
-La única publicación recuperada describe un brote de queratoconjuntivitis por microsporidios asociado a agua contaminada de piscinas. Los microsporidios son organismos eucariotas emparentados con los hongos y no son un blanco típico de las fluoroquinolonas. El título y el resumen no indican que la levofloxacina se haya evaluado ni que haya sido eficaz.
+La queratoconjuntivitis epitelial punteada es una inflamación de la superficie ocular con daño epitelial en forma de puntos. Puede tener causas infecciosas y no infecciosas. Un antibacteriano solo tendría sentido si hubiera un componente bacteriano, o como cobertura frente a una sobreinfección secundaria.
 
-Un papel de la levofloxacina en este cuadro solo sería plausible si hubiera una sobreinfección bacteriana o con fines profilácticos, y eso no está respaldado por los datos disponibles. El puntaje alto del modelo no se ve confirmado por evidencia clínica ni mecanística.
+El único artículo recuperado describe un brote de queratoconjuntivitis **microsporidiana** asociado a agua contaminada de piscinas. Los microsporidios no son bacterias y las fluoroquinolonas no los cubren de forma fiable. El vínculo entre el fármaco y esta indicación es, por tanto, indirecto y no demuestra un efecto terapéutico directo. El puntaje alto del modelo es una señal computacional que requiere validación clínica.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -71,27 +71,38 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [30055152](https://pubmed.ncbi.nlm.nih.gov/30055152/) | 2018 | Reporte de brote | American Journal of Ophthalmology | Describe un brote de queratoconjuntivitis por microsporidios vinculado a contaminación del agua de piscinas en Taiwán. No se informa evaluación de levofloxacina. |
+| [30055152](https://pubmed.ncbi.nlm.nih.gov/30055152/) | 2018 | Serie de casos / informe de brote | American Journal of Ophthalmology | Informe de un brote de queratoconjuntivitis microsporidiana por contaminación del agua en piscinas de Taiwán. No evalúa levofloxacina como tratamiento de la queratoconjuntivitis epitelial punteada. |
 
 ## Información de Mercado en Argentina
 
-La levofloxacina se encuentra **comercializada** en Argentina. Hay al menos 20 autorizaciones vigentes de productos con levofloxacina como único principio activo, y la lista puede ser parcial. Las presentaciones son principalmente comprimidos recubiertos de 500 mg y 750 mg, y también hay una presentación inyectable de 25 mg/ml en frasco ampolla de 20 ml.
+Levofloxacina está **comercializada** en Argentina, con al menos 20 autorizaciones vigentes (la lista puede ser parcial). Los registros locales no contienen texto de indicación aprobada. A continuación se muestran cinco de ellas:
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+|---------|------|------|-----------|
+| 43011 | FENTAXINA | 750 mg comprimidos recubiertos x 5 | Casasco |
+| 44818 | BACTOCILINA | 750 mg comprimidos recubiertos x 5 | Lazar |
+| 38313 | LEVOFLOXACINA RICHET | 500 mg comprimidos recubiertos x 7 | Richet |
+| 44693 | BACFURON | 500 mg comprimidos recubiertos x 14 | Laboratorios Be |
+| 21154 | LEVAQUIN | 500 mg comprimidos x 7 | Janssen-Cilag |
+
+Las presentaciones registradas son comprimidos de 500 mg y 750 mg y una presentación de 25 mg/ml en frasco ampolla de 20 ml. Entre ellas no figura ninguna formulación oftálmica, lo que sería una limitación práctica para esta nueva indicación.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+Consultar el prospecto para información de seguridad. Los datos compilados no incluyen advertencias, contraindicaciones ni interacciones farmacológicas.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el puntaje del modelo (0,9992). No hay ensayos clínicos, y la única publicación es un reporte de brote que no estudia a la levofloxacina. El mecanismo antibacteriano de la levofloxacina no corresponde al agente descrito (microsporidios). El nivel de evidencia es L5.
+No hay ensayos clínicos ni estudios que evalúen directamente levofloxacina en la queratoconjuntivitis epitelial punteada. La única publicación trata un brote de causa microsporidiana, que las fluoroquinolonas no cubren de forma fiable. La predicción se apoya solo en el modelo, por lo que el nivel de evidencia es L5.
 
 **Para avanzar se necesita:**
-- Estudios que evalúen directamente la levofloxacina en esta enfermedad, y definir si existe un componente bacteriano que justifique su uso
-- Datos de mecanismo de acción y de la plausibilidad de uso ocular o por vía adecuada (hoy no hay evaluación de compatibilidad de vías)
-- Advertencias, contraindicaciones e interacciones del prospecto de ANMAT, necesarias para cualquier evaluación de seguridad
+- Revisión sistemática de la literatura sobre antibacterianos fluoroquinolónicos en queratoconjuntivitis epitelial punteada, distinguiendo causas bacterianas, virales, microsporidianas y no infecciosas.
+- Datos del mecanismo de acción y de seguridad (advertencias, contraindicaciones) obtenidos del prospecto de ANMAT y de DrugBank.
+- Evaluación de la viabilidad de una formulación oftálmica, ya que las presentaciones registradas localmente son orales y parenterales.
+- Si la revisión resulta favorable, un estudio clínico exploratorio con un diagnóstico etiológico bien definido.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
