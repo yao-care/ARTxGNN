@@ -1,41 +1,16 @@
 ---
-noindex: true
-sitemap: false
-layout: default
-nav_exclude: true
-title: IBUPROFENO
-drugbank_id: DB01050
+layout: id_redirect
 permalink: /drugs/ibuprofeno/
+sitemap: false
 search_exclude: true
-last_modified_at: 2026-10-30
-predicted_indications: []
-indication_count: 0
-evidence_level: N/A
+nav_exclude: true
 ---
-
-# IBUPROFENO
-{: .fs-9 }
-
-Nivel de evidencia: **N/A** | Indicaciones predichas: **0** 
-{: .fs-6 .fw-300 }
-
----
-
-## Resumen Rápido
-
-| Item | Contenido |
-|------|-----------|
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (al menos 20) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de productos en el listado PAMI | al menos 20 |
-| DrugBank ID | [DB01050](https://go.drugbank.com/drugs/DB01050) |
-
----
-
-## Descargo de responsabilidad
-
-Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
-Se requiere validación clínica antes de cualquier aplicación clínica.
-
----
-
-[← Volver a Todos los Medicamentos](/drugs/)
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Redirecting&hellip;</title>
+<link rel="canonical" href="{{ site.url }}/drugs/ibuprofen/">
+<meta http-equiv="refresh" content="0; url=/drugs/ibuprofen/">
+<script>location="/drugs/ibuprofen/"</script>
+<a href="/drugs/ibuprofen/">/drugs/ibuprofen/</a>
+</html>
