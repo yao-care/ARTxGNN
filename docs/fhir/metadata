@@ -5,9 +5,9 @@
   "version": "1.0.0",
   "name": "ARTxGNNFHIRServer",
   "title": "ARTxGNN FHIR Server - Argentina Drug Repurposing",
-  "description": "FHIR R4 server for Argentina TxGNN drug repurposing predictions. Contains 153 drugs and 890 predicted indications.",
+  "description": "FHIR R4 server for Argentina TxGNN drug repurposing predictions. Contains 316 drugs and 2767 predicted indications.",
   "status": "active",
-  "date": "2026-11-15",
+  "date": "2026-11-16",
   "publisher": "TxGNN Project",
   "kind": "instance",
   "fhirVersion": "4.0.1",
@@ -43,15 +43,15 @@
       "extension": [
         {
           "url": "MedicationKnowledge",
-          "valueInteger": 153
+          "valueInteger": 316
         },
         {
           "url": "ClinicalUseDefinition",
-          "valueInteger": 890
+          "valueInteger": 2767
         },
         {
           "url": "countedAt",
-          "valueDate": "2026-11-15"
+          "valueDate": "2026-11-16"
         }
       ]
     }
