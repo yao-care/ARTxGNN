@@ -1,0 +1,31 @@
+{
+  "resourceType": "MedicationKnowledge",
+  "id": "db13919",
+  "status": "active",
+  "code": {
+    "coding": [
+      {
+        "system": "https://artxgnn.yao.care/drugs",
+        "code": "db13919",
+        "display": "CANDESARTÁN"
+      }
+    ]
+  },
+  "intendedJurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "AR",
+          "display": "Argentina"
+        }
+      ]
+    }
+  ],
+  "extension": [
+    {
+      "url": "https://artxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L2"
+    }
+  ]
+}
