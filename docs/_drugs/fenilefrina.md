@@ -39,9 +39,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 ## Resumen en Una Frase
 
-Fenilefrina es un fármaco simpaticomimético que actúa sobre los receptores alfa-1 adrenérgicos y que se comercializa actualmente en Argentina.
-El modelo TxGNN predice que podría ser efectivo para **enfermedad de la cavidad nasal (nasal cavity disease)**,
-con **0 ensayos clínicos** y **5 publicaciones** que se citan como respaldo, aunque ninguna estudia directamente esta enfermedad como objetivo terapéutico de la fenilefrina sola.
+Fenilefrina es un fármaco con presencia en múltiples productos comercializados en Argentina, en su mayoría de uso oftálmico. Según el modelo TxGNN, podría ser efectivo para **enfermedad de la cavidad nasal (nasal cavity disease)**. Actualmente no hay ensayos clínicos registrados y se dispone de **5 publicaciones** de relevancia indirecta, por lo que la evidencia es limitada.
 
 ## Resumen Rápido
 
@@ -57,9 +55,9 @@ con **0 ensayos clínicos** y **5 publicaciones** que se citan como respaldo, au
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Fenilefrina es un agonista selectivo de los receptores alfa-1 adrenérgicos. Al aplicarse de forma tópica, produce vasoconstricción de los vasos de la mucosa nasal, lo que reduce el edema, la congestión y el sangrado. Los datos detallados del mecanismo de acción no están disponibles en los datos compilados para este informe; la descripción anterior se basa en el conocimiento farmacológico general.
+La fenilefrina es un agonista selectivo de los receptores adrenérgicos alfa-1. Su acción sobre los receptores alfa-1 de los vasos de la mucosa nasal provoca vasoconstricción, lo que reduce el edema y la congestión de la mucosa y disminuye el sangrado en el campo quirúrgico. Este mecanismo es biológicamente plausible para enfermedades de la cavidad nasal y concuerda con su uso conocido como descongestivo tópico.
 
-Este mecanismo es coherente con el uso de la fenilefrina como descongestionante nasal y como vasoconstrictor tópico en la cirugía endoscópica de senos paranasales. Por ello, el puntaje elevado resulta biológicamente plausible, pero la predicción es en gran medida una extensión de un uso ya conocido del fármaco y no un hallazgo novedoso de reposicionamiento.
+Sin embargo, los datos compilados para este informe no incluyen un mecanismo de acción detallado y los estudios disponibles son indirectos: un estudio sobre el campo quirúrgico con otro fármaco (ácido tranexámico), un spray combinado con otros principios activos, un reporte de toxicidad por cocaína y revisiones generales sobre enfermedades inflamatorias nasales. Ninguno evalúa a la fenilefrina sola en una enfermedad de la cavidad nasal, por lo que el nivel de evidencia se limita a L5 (solo predicción del modelo). El puntaje alto es coherente con la plausibilidad mecanística, pero no sustituye evidencia clínica.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -69,42 +67,40 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [37970776](https://pubmed.ncbi.nlm.nih.gov/37970776/) | 2023 | Revisión | Vestnik otorinolaringologii | Enfoque patogenético del tratamiento de enfermedades inflamatorias de la nariz y los senos paranasales |
-| [25133491](https://pubmed.ncbi.nlm.nih.gov/25133491/) | 2014 | ECA | PloS one | Ácido tranexámico tópico sobre el sangrado en cirugía endoscópica de senos en rinosinusitis crónica; la fenilefrina no es el fármaco evaluado |
-| [40899890](https://pubmed.ncbi.nlm.nih.gov/40899890/) | 2025 | Estudio experimental/clínico | Vestnik otorinolaringologii | Seguridad y eficacia del aerosol combinado Polydexa con fenilefrina en rinosinusitis aguda |
-| [37184554](https://pubmed.ncbi.nlm.nih.gov/37184554/) | 2023 | Cohorte | Vestnik otorinolaringologii | Estado endoscópico de la mucosa nasal tras terapia local con aerosol combinado que contiene fenilefrina |
-| [7378007](https://pubmed.ncbi.nlm.nih.gov/7378007/) | 1980 | Reporte de caso | Archives of ophthalmology | Toxicidad por cocaína intranasal en dacriocistorrinostomía; una reacción adicional con fenilefrina intranasal |
+| [25133491](https://pubmed.ncbi.nlm.nih.gov/25133491/) | 2014 | ECA | PloS one | Ácido tranexámico tópico sobre el sangrado y el campo quirúrgico en cirugía endoscópica sinusal por rinosinusitis crónica; no evalúa fenilefrina |
+| [40899890](https://pubmed.ncbi.nlm.nih.gov/40899890/) | 2025 | Estudio experimental y clínico | Vestnik otorinolaringologii | Seguridad y eficacia del spray Polydexa con fenilefrina (producto combinado) en rinosinusitis aguda |
+| [37970776](https://pubmed.ncbi.nlm.nih.gov/37970776/) | 2023 | Revisión | Vestnik otorinolaringologii | Enfoque patogenético del tratamiento de enfermedades inflamatorias de la nariz y senos paranasales |
+| [37184554](https://pubmed.ncbi.nlm.nih.gov/37184554/) | 2023 | Revisión | Vestnik otorinolaringologii | Estado endoscópico de la mucosa nasal tras el uso de spray nasal combinado con fenilefrina |
+| [7378007](https://pubmed.ncbi.nlm.nih.gov/7378007/) | 1980 | Reporte de caso | Archives of ophthalmology | Toxicidad por cocaína intranasal en dacriocistorrinostomía; una paciente tuvo además una reacción a fenilefrina intranasal |
 
 ## Información de Mercado en Argentina
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 246 | PREDNEFRIN 0.12% | Suspensión oftálmica x 10 ml | — |
-| 42315 | OFTALDROP | Suspensión oftálmica x 10 ml | — |
-| 36802 | DELTAR | Suspensión oftálmica x 10 ml | — |
-| 11796 | ALZATEN DISGRELENT | Grageas x 20 | — |
-| 245 | PREDNEFRIN FORTE | Suspensión oftálmica x 10 ml | — |
-
-Se muestran 5 de las 10 autorizaciones vigentes.
+| 246 | PREDNEFRIN 0.12% | Suspensión oftálmica x 10 ml | No registrada |
+| 42315 | OFTALDROP | Suspensión oftálmica x 10 ml | No registrada |
+| 36802 | DELTAR | Suspensión oftálmica x 10 ml | No registrada |
+| 11796 | ALZATEN DISGRELENT | Grageas x 20 | No registrada |
+| 245 | PREDNEFRIN FORTE | Suspensión oftálmica x 10 ml | No registrada |
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
 
-Como dato de contexto, uno de los reportes citados describe una reacción adversa tras la administración intranasal de fenilefrina durante una cirugía, lo que sugiere cautela en pacientes con enfermedad cardiovascular hipertensiva o que reciben otros simpaticomiméticos.
+Como dato de la literatura, un reporte de caso describió una reacción a fenilefrina administrada por vía intranasal. Además, el uso de un agonista alfa-1 podría implicar riesgos cardiovasculares que deben evaluarse.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Ningún estudio citado evalúa directamente la fenilefrina como tratamiento de la enfermedad de la cavidad nasal: la literatura corresponde a estudios quirúrgicos, productos combinados y un reporte de caso, y no hay ensayos clínicos registrados. La evidencia se considera de nivel L5, apoyada solo en la predicción del modelo.
+El puntaje del modelo es muy alto y el mecanismo vasoconstrictor es plausible, pero no existen ensayos clínicos ni estudios que evalúen directamente a la fenilefrina sola en enfermedades de la cavidad nasal. Los datos de seguridad locales tampoco están disponibles.
 
 **Para avanzar se necesita:**
-- Estudios clínicos que evalúen la fenilefrina sola en una condición específica de la cavidad nasal
-- Datos de advertencias y contraindicaciones del prospecto aprobado por ANMAT
-- Datos detallados del mecanismo de acción
-- Confirmación de las indicaciones aprobadas en las autorizaciones locales
+- Obtener y revisar el prospecto aprobado por ANMAT (advertencias y contraindicaciones)
+- Completar los datos del mecanismo de acción
+- Identificar o diseñar estudios clínicos que evalúen directamente la fenilefrina en una enfermedad nasal concreta
+- Evaluar la compatibilidad de las vías de administración con los productos locales, que son principalmente oftálmicos
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

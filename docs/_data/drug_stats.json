@@ -2,9 +2,9 @@
   "generated": "2026-11-16",
   "total_drugs": 328,
   "level_counts": {
-    "L1": 7,
+    "L1": 6,
     "L2": 10,
-    "L3": 14,
+    "L3": 15,
     "L4": 10,
     "L5": 285
   },
@@ -168,7 +168,7 @@
     {
       "name": "Atorvastatín",
       "slug": "atorvastatín",
-      "level": "L1",
+      "level": "L2",
       "indication_count": 4
     },
     {
@@ -222,7 +222,7 @@
     {
       "name": "Betametasona",
       "slug": "betametasona",
-      "level": "L2",
+      "level": "L5",
       "indication_count": 7
     },
     {
@@ -492,7 +492,7 @@
     {
       "name": "Clomipramina",
       "slug": "clomipramina",
-      "level": "L3",
+      "level": "L5",
       "indication_count": 8
     },
     {
@@ -576,7 +576,7 @@
     {
       "name": "Desvenlafaxina",
       "slug": "desvenlafaxina",
-      "level": "L4",
+      "level": "L5",
       "indication_count": 8
     },
     {
@@ -906,7 +906,7 @@
     {
       "name": "Fluoxetina",
       "slug": "fluoxetina",
-      "level": "L5",
+      "level": "L3",
       "indication_count": 8
     },
     {
@@ -1260,7 +1260,7 @@
     {
       "name": "Medroxiprogesterona",
       "slug": "medroxiprogesterona",
-      "level": "L5",
+      "level": "L3",
       "indication_count": 6
     },
     {
@@ -1512,7 +1512,7 @@
     {
       "name": "Oxcarbazepina",
       "slug": "oxcarbazepina",
-      "level": "L5",
+      "level": "L4",
       "indication_count": 1
     },
     {

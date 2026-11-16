@@ -9,7 +9,7 @@ drugbank_id: DB13919
 monitor_inn: "Candesartan"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension", "Prinzmetal angina", "kyphoscoliotic heart disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "benign prostatic hyperplasia (disease)", "alopecia"]
 last_modified_at: 2026-11-16
-description: "Candesartán: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
+description: "Candesartán: nueva indicación predicha, trastorno de migraña (migraine disorder) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
 ---
 
 # Candesartán
@@ -34,108 +34,85 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **9**
 
 </div>
 
-## Candesartán: Trastorno de migraña (migraine disorder)
+## Candesartán: trastorno de migraña (migraine disorder)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Candesartán es un antagonista del receptor de angiotensina II tipo 1 (ARA-II) que ya se comercializa en Argentina. El modelo TxGNN predice que podría ser útil para el **trastorno de migraña (migraine disorder)**, con **4 ensayos clínicos** y **20 publicaciones** que respaldan esta dirección, incluido un ensayo aleatorizado de fase 2 publicado en 2025.
-
----
+Candesartán es un bloqueador del receptor de angiotensina II tipo 1 (AT1) comercializado en Argentina.
+El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña (migraine disorder)**,
+con **4 ensayos clínicos** y **20 publicaciones** que actualmente respaldan esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Trastorno de migraña (migraine disorder) |
+| Nueva Indicación Predicha | trastorno de migraña (migraine disorder) |
 | Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L2 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (6 de 6) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorización | 6 (vigentes: 6) |
 | Decisión Recomendada | Proceed with Guardrails |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción. Candesartán es un bloqueador del receptor de angiotensina II tipo 1. Los mecanismos antimigrañosos propuestos son la modulación del tono vascular cerebral, la reducción de la inflamación neurovascular y del estrés oxidativo, y efectos sobre las vías trigeminovasculares y la depresión cortical propagada.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Por su clase, candesartán bloquea el receptor AT1 de la angiotensina II. Los mecanismos propuestos para la prevención de la migraña incluyen la modulación de la señalización renina-angiotensina en la vasculatura cerebral y el sistema trigeminovascular, la reducción de la inflamación neurogénica y la atenuación de la depresión cortical propagada.
 
-La señal clínica es consistente entre ensayos aleatorizados independientes. Existen estudios controlados con comparador activo (propranolol) y con placebo, además de un estudio observacional de práctica clínica real.
-
-La evidencia se clasifica como L2 con el criterio estricto, porque los ensayos registrados son de fase 2 o fase 2/3 y no hay ninguno de fase 3 puro. En la práctica está cerca de L1: un ensayo multicéntrico controlado con placebo (n=450) está completado y su publicación en *The Lancet Neurology* (2025) parece reportar sus resultados.
-
----
+La evidencia es directa y clínica: un ensayo multicéntrico de Fase 2, triple ciego y controlado con placebo (n=450), completado y publicado en 2025, además de un ensayo previo de Fase 2/3 con doble simulación frente a propranolol y placebo. El nivel se mantiene en L2 porque el ensayo más grande es de Fase 2 y el de Fase 2/3 es pequeño (n=72), por lo que no existe una confirmación de Fase 3 propiamente dicha.
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT04574713](https://clinicaltrials.gov/study/NCT04574713) | Fase 2 | Completado | 450 | Estudio multicéntrico, triple ciego, controlado con placebo, de dos dosis de candesartán (8 y 16 mg) para prevenir la migraña. Busca confirmar el efecto preventivo observado en dos estudios cruzados más pequeños y evaluar la dosis menor y el perfil de efectos adversos. |
-| [NCT00884663](https://clinicaltrials.gov/study/NCT00884663) | Fase 2/3 | Completado | 72 | Doble ciego, doble simulación, controlado con placebo y cruzado triple: candesartán frente a propranolol para la profilaxis de la migraña. La muestra es pequeña. |
-| [NCT04138316](https://clinicaltrials.gov/study/NCT04138316) | N/A (observacional) | Completado | 85 | Estudio observacional prospectivo sobre predictores de respuesta y tolerabilidad de candesartán en migraña episódica o crónica con falla previa de tres o más preventivos. No aporta eficacia controlada. |
-| [NCT07655440](https://clinicaltrials.gov/study/NCT07655440) | Fase 4 | Aún no recluta | 120 | Compara preventivos de migraña y terapias anti-CGRP para el tinnitus en pacientes con migraña. Es de relevancia parcial, porque el desenlace es el tinnitus y no la prevención de la migraña. |
-
----
+| [NCT04574713](https://clinicaltrials.gov/study/NCT04574713) | Fase 2 | Completado | 450 | Candesartán 8 y 16 mg vs placebo para prevención de migraña; estudio multicéntrico, triple ciego |
+| [NCT00884663](https://clinicaltrials.gov/study/NCT00884663) | Fase 2/3 | Completado | 72 | Candesartán vs propranolol vs placebo en profilaxis de migraña, doble ciego, doble simulación, triple cruzado |
+| [NCT04138316](https://clinicaltrials.gov/study/NCT04138316) | N/A | Completado | 85 | Estudio observacional de predictores de respuesta y tolerabilidad en migraña tras fallo de ≥3 preventivos |
+| [NCT07655440](https://clinicaltrials.gov/study/NCT07655440) | Fase 4 | Aún no recluta | 120 | Preventivos de migraña vs anti-CGRP para acúfenos en pacientes con migraña (relación solo tangencial) |
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [40975098](https://pubmed.ncbi.nlm.nih.gov/40975098/) | 2025 | ECA | The Lancet Neurology | Ensayo de fase 2, aleatorizado, triple ciego y controlado con placebo. Evalúa seguridad, tolerabilidad y eficacia de candesartán en la prevención de la migraña episódica. |
-| [39899861](https://pubmed.ncbi.nlm.nih.gov/39899861/) | 2025 | Guía clínica | Annals of Internal Medicine | Guía del American College of Physicians sobre tratamientos farmacológicos preventivos de la migraña episódica en el ámbito ambulatorio. |
-| [39365169](https://pubmed.ncbi.nlm.nih.gov/39365169/) | 2024 | Revisión sistemática | Health Technology Assessment | Compara efectividad clínica y costo-efectividad de los fármacos preventivos de la migraña crónica. |
-| [40571531](https://pubmed.ncbi.nlm.nih.gov/40571531/) | 2025 | Revisión de alcance | Clinical Therapeutics | Revisa candesartán para la migraña y concluye que el ARA-II muestra potencial como opción de manejo. |
-| [37350141](https://pubmed.ncbi.nlm.nih.gov/37350141/) | 2023 | Revisión sistemática y metaanálisis | Cephalalgia | Evalúa el efecto de los antihipertensivos en la prevención de la migraña episódica. |
-| [38057728](https://pubmed.ncbi.nlm.nih.gov/38057728/) | 2023 | Revisión sistemática y metaanálisis en red | The Journal of Headache and Pain | Determina la efectividad y el ranking de los fármacos preventivos para la migraña crónica en adultos. |
-| [38663908](https://pubmed.ncbi.nlm.nih.gov/38663908/) | 2024 | Estudio observacional | Cephalalgia | Estudio CandeSpartan: efectividad, tolerabilidad y predictores de respuesta a candesartán en la prevención de la migraña. |
-| [38307673](https://pubmed.ncbi.nlm.nih.gov/38307673/) | 2024 | Capítulo de revisión | Handbook of Clinical Neurology | Candesartán figura entre los agentes orales no específicos para la prevención de la migraña. |
-| [18759728](https://pubmed.ncbi.nlm.nih.gov/18759728/) | 2008 | Revisión | The Medical Journal of Australia | La evidencia de eficacia de candesartán se describe como razonablemente buena pero limitada. |
-| [16417067](https://pubmed.ncbi.nlm.nih.gov/16417067/) | 2006 | Revisión | American Family Physician | Indica evidencia limitada para candesartán, entre otros fármacos, en la profilaxis de la migraña. |
-
----
+| [40975098](https://pubmed.ncbi.nlm.nih.gov/40975098/) | 2025 | ECA | The Lancet Neurology | Candesartán vs placebo en prevención de migraña episódica: ensayo de Fase 2 aleatorizado, triple ciego |
+| [39365169](https://pubmed.ncbi.nlm.nih.gov/39365169/) | 2024 | Revisión sistemática | Health Technology Assessment | Fármacos preventivos en migraña crónica con modelado económico |
+| [37350141](https://pubmed.ncbi.nlm.nih.gov/37350141/) | 2023 | Revisión sistemática y metaanálisis | Cephalalgia | Efecto de antihipertensivos en la prevención de migraña episódica |
+| [38057728](https://pubmed.ncbi.nlm.nih.gov/38057728/) | 2023 | Revisión sistemática y metaanálisis en red | J Headache Pain | Eficacia comparada de fármacos para migraña crónica |
+| [39899861](https://pubmed.ncbi.nlm.nih.gov/39899861/) | 2025 | Guía clínica | Annals of Internal Medicine | Guía del ACP sobre tratamiento farmacológico preventivo de migraña episódica |
+| [40571531](https://pubmed.ncbi.nlm.nih.gov/40571531/) | 2025 | Revisión exploratoria | Clinical Therapeutics | Candesartán como opción potencial para la migraña |
+| [38663908](https://pubmed.ncbi.nlm.nih.gov/38663908/) | 2024 | Observacional | Cephalalgia | Estudio CandeSpartan: efectividad, tolerabilidad y predictores de respuesta |
+| [38307673](https://pubmed.ncbi.nlm.nih.gov/38307673/) | 2024 | Revisión | Handbook of Clinical Neurology | Agentes orales inespecíficos; candesartán entre las opciones preventivas |
+| [34048395](https://pubmed.ncbi.nlm.nih.gov/34048395/) | 2021 | Revisión | Continuum | Panorama de intervenciones preventivas en migraña |
+| [18759728](https://pubmed.ncbi.nlm.nih.gov/18759728/) | 2008 | Revisión | Med J Aust | Evidencia razonable pero limitada para candesartán en profilaxis |
 
 ## Información de Mercado en Argentina
 
-Las autorizaciones listadas corresponden a productos de candesartán como único principio activo y todas figuran vigentes. Los registros locales no traen texto de indicación aprobada.
-
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 55475 | ATACAND D | 16 mg comprimidos divisibles x 28 | Biopas Argentina |
-| 27161 | ATACAND D | 16 mg comprimidos divisibles x 15 | AstraZeneca |
-| 31338 | DACTEN D | Comprimidos x 30 | Elea |
-| 29638 | TIADYL PLUS | 16 mg comprimidos x 30 | Abbott EPD |
-| 31337 | DACTEN D | Comprimidos x 15 | Elea |
-
----
+| 55475 | ATACAND D | 16 mg comprimidos divisibles x 28 | — |
+| 27161 | ATACAND D | 16 mg comprimidos divisibles x 15 | — |
+| 31338 | DACTEN D | Comprimidos x 30 | — |
+| 29638 | TIADYL PLUS | 16 mg comprimidos x 30 | — |
+| 31337 | DACTEN D | Comprimidos x 15 | — |
 
 ## Consideraciones de Seguridad
 
-No se compilaron advertencias ni contraindicaciones del prospecto. En la consulta de interacciones farmacológicas no se encontraron resultados. Se recomienda consultar el prospecto para la información de seguridad.
+Consultar el prospecto para información de seguridad.
 
-Como salvaguardas, la evaluación del reposicionamiento sugiere lo siguiente:
-
-- Evitar su uso en el embarazo y en mujeres que planean quedar embarazadas, por fetotoxicidad.
-- Monitorear la presión arterial, la función renal y el potasio.
-- Tener precaución con otros fármacos que actúan sobre el sistema renina-angiotensina-aldosterona.
-
-Candesartán ya está comercializado y tiene un perfil de seguridad bien caracterizado.
-
----
+Como medidas de resguardo propuestas para el uso en migraña: monitorizar presión arterial, función renal y potasio; evitar su uso en el embarazo o ante planificación de embarazo (fetotoxicidad); y tener precaución en pacientes con hipotensión basal.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Hay varios ensayos aleatorizados de fase 2 y fase 2/3 completados, entre ellos uno controlado con placebo de gran tamaño (n=450) publicado en 2025. Las guías y revisiones recientes también tratan a candesartán como opción preventiva. La evidencia es L2 y no L1 porque no hay un ensayo de fase 3 puro, y las salvaguardas de seguridad son necesarias.
+Un ensayo de Fase 2 grande, aleatorizado y controlado con placebo (n=450, publicado en 2025) y un ensayo de Fase 2/3 frente a propranolol respaldan directamente el uso preventivo en migraña. El fármaco está comercializado en Argentina, pero aún falta confirmación en Fase 3.
 
 **Para avanzar se necesita:**
-- Confirmar con un ensayo de fase 3, o con la revisión detallada de los resultados del ensayo de fase 2 de 450 pacientes, la magnitud del beneficio y la dosis óptima (8 mg frente a 16 mg).
-- Obtener y analizar las advertencias y contraindicaciones del prospecto aprobado por ANMAT.
-- Completar los datos de mecanismo de acción.
-- Definir un plan de monitoreo de presión arterial, función renal y potasio, y una política de uso en mujeres en edad fértil.
-- Evaluar la tolerabilidad en pacientes con migraña y presión arterial normal o baja.
+- Un ensayo de confirmación de Fase 3
+- Datos de advertencias y contraindicaciones del prospecto de ANMAT
+- Datos detallados del mecanismo de acción
+- Plan de monitorización de presión arterial, función renal y potasio, y de anticoncepción en mujeres en edad fértil
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -9,7 +9,7 @@ drugbank_id: DB06594
 monitor_inn: "Agomelatine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "neurotic disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type", "Keppen-Lubinsky syndrome"]
 last_modified_at: 2026-11-16
-description: "Agomelatina: nueva indicación predicha, Tortícolis paroxística benigna de la infancia (benign paroxysmal torticollis of infancy) (nivel de evidencia L5)."
+description: "Agomelatina: nueva indicación predicha, tortícolis paroxística benigna de la infancia (benign paroxysmal torticollis of infancy) (nivel de evidencia L5)."
 ---
 
 # Agomelatina
@@ -34,21 +34,21 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-## Agomelatina: Tortícolis paroxística benigna de la infancia (benign paroxysmal torticollis of infancy)
+## Agomelatina: tortícolis paroxística benigna de la infancia (benign paroxysmal torticollis of infancy)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Agomelatina es un antidepresivo que actúa sobre los receptores de melatonina y serotonina, y está comercializado en Argentina.
-El modelo TxGNN predice que podría ser efectivo para la **tortícolis paroxística benigna de la infancia (benign paroxysmal torticollis of infancy)**,
-pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección.
+Agomelatina es un fármaco comercializado en Argentina con acción sobre los receptores de melatonina MT1/MT2 y el receptor serotoninérgico 5-HT2C.
+El modelo TxGNN predice que podría ser útil para la **tortícolis paroxística benigna de la infancia (benign paroxysmal torticollis of infancy)**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: es una predicción puramente computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Tortícolis paroxística benigna de la infancia (benign paroxysmal torticollis of infancy) |
+| Nueva Indicación Predicha | tortícolis paroxística benigna de la infancia (benign paroxysmal torticollis of infancy) |
 | Puntaje de Predicción TxGNN | 0.9996 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (3 de 3) – el estado del registro en ANMAT no está incluido en estos datos |
@@ -57,11 +57,11 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la agomelatina es un agonista de los receptores de melatonina MT1/MT2 y un antagonista del receptor de serotonina 5-HT2C.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, agomelatina actúa como agonista de los receptores de melatonina MT1/MT2 y antagonista del receptor 5-HT2C.
 
-La tortícolis paroxística benigna de la infancia es un trastorno pediátrico, considerado equivalente migrañoso y relacionado con canalopatías (gen CACNA1A). No se identificó un vínculo mecanístico plausible con la farmacología de la agomelatina. Además, la agomelatina no está establecida en lactantes.
+La tortícolis paroxística benigna de la infancia es un trastorno raro, autolimitado, del espectro de la migraña, a menudo asociado a variantes del gen CACNA1A. No se ha establecido un vínculo mecanístico entre la acción de agomelatina y este trastorno; cualquier relación sería especulativa. El puntaje elevado (0,9996) refleja únicamente una predicción basada en el modelo.
 
-Por eso esta predicción debe considerarse una hipótesis sin respaldo actual.
+Además, el uso en lactantes plantea preocupaciones importantes de seguridad, y no hay datos que respalden su empleo en esta población.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -88,13 +88,13 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-No existen ensayos clínicos ni literatura sobre agomelatina en esta enfermedad, no se identificó un vínculo mecanístico plausible y el uso en lactantes no está establecido. El puntaje alto del modelo, por sí solo, no basta para avanzar.
+La predicción no cuenta con ensayos clínicos ni literatura que la respalden, no existe un vínculo mecanístico establecido y el uso en población infantil plantea serias dudas de seguridad.
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de acción desde una fuente como DrugBank
-- Advertencias y contraindicaciones del prospecto de ANMAT
-- Evidencia preclínica o clínica específica en esta enfermedad
-- Evaluación de seguridad y dosificación en población pediátrica y lactantes
+- Obtener datos del mecanismo de acción (por ejemplo, desde DrugBank)
+- Descargar y analizar el prospecto de ANMAT para advertencias y contraindicaciones
+- Búsqueda de estudios preclínicos o clínicos que vinculen agomelatina con esta condición
+- Evaluación específica de seguridad en población pediátrica antes de cualquier consideración adicional
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

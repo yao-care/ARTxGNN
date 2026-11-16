@@ -39,9 +39,9 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 ## Resumen en Una Frase
 
-Ziprasidona es un antipsicótico atípico que se comercializa en Argentina bajo la marca ZELDOX.
-El modelo TxGNN predice que podría ser efectivo para **tricotilomanía (trichotillomania)**,
-pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata solo de una predicción computacional.
+Ziprasidona es un antipsicótico atípico comercializado en Argentina bajo la marca ZELDOX.
+El modelo TxGNN predice que podría ser efectivo para **tricotilomanía (trichotillomania)**, con un puntaje de 0.9983.
+Sin embargo, actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección específica.
 
 ## Resumen Rápido
 
@@ -57,11 +57,11 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción de ziprasidona en los datos compilados para este informe. Se sabe que es un antipsicótico atípico que actúa sobre receptores dopaminérgicos y serotoninérgicos.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por lo conocido de su clase, ziprasidona antagoniza los receptores de dopamina D2 y de serotonina 5-HT2A, y tiene además acción agonista sobre 5-HT1A.
 
-La plausibilidad es solo por analogía: la modulación dopaminérgica y serotoninérgica se utiliza como tratamiento de aumento en otras afecciones del espectro obsesivo-compulsivo y de control de impulsos. La tricotilomanía pertenece a ese espectro, por lo que un mecanismo similar podría ser aplicable.
+Mecanísticamente, el bloqueo dopaminérgico y serotoninérgico podría guardar relación con trastornos compulsivos o de hábitos, como la tricotilomanía. No obstante, esta hipótesis es especulativa: ningún dato recopilado la respalda, y no se ha evaluado la similitud con la indicación original.
 
-Sin embargo, no se recuperaron ensayos clínicos ni literatura sobre ziprasidona en tricotilomanía. El puntaje alto es únicamente una predicción computacional y no constituye evidencia de eficacia.
+Por ello, la predicción debe considerarse solo una hipótesis generada por el modelo, que requiere validación independiente.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -69,16 +69,16 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Actualmente no hay literatura relacionada disponible que estudie directamente la tricotilomanía con ziprasidona.
 
 ## Información de Mercado en Argentina
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 28510 | ZELDOX | 40 mg cáps. x 30 | No registrada en los datos locales |
-| 28512 | ZELDOX | 80 mg cáps. x 30 | No registrada en los datos locales |
-| 28509 | ZELDOX | 20 mg cáps. x 30 | No registrada en los datos locales |
-| 28511 | ZELDOX | 60 mg cáps. x 30 | No registrada en los datos locales |
+| 28509 | ZELDOX | 20 mg cápsulas x 30 | — |
+| 28510 | ZELDOX | 40 mg cápsulas x 30 | — |
+| 28511 | ZELDOX | 60 mg cápsulas x 30 | — |
+| 28512 | ZELDOX | 80 mg cápsulas x 30 | — |
 
 ## Consideraciones de Seguridad
 
@@ -89,13 +89,13 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para tricotilomanía carece de ensayos clínicos y de literatura, por lo que el nivel de evidencia es L5 y el puntaje del modelo no basta para avanzar.
+La predicción principal no cuenta con ningún estudio que evalúe directamente ziprasidona en tricotilomanía, por lo que se mantiene en nivel L5 (solo predicción del modelo). El mecanismo propuesto es plausible pero especulativo.
 
 **Para avanzar se necesita:**
-- Revisión de la literatura específica sobre ziprasidona (u otros antipsicóticos atípicos) en tricotilomanía y trastornos del espectro obsesivo-compulsivo
-- Datos del mecanismo de acción de ziprasidona
-- Advertencias y contraindicaciones del prospecto de ANMAT, incluido el monitoreo del intervalo QTc
-- Estudios preclínicos o ensayos exploratorios controlados antes de considerar cualquier uso en esta indicación
+- Datos del mecanismo de acción (por ejemplo, desde DrugBank)
+- Búsqueda dirigida de estudios sobre tricotilomanía y trastornos de hábitos con antipsicóticos atípicos
+- Prospecto de ANMAT con advertencias y contraindicaciones para el análisis de seguridad
+- Si surge evidencia preliminar, estudios exploratorios antes de considerar un ensayo clínico
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

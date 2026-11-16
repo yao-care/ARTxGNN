@@ -9,7 +9,7 @@ drugbank_id: DB00257
 monitor_inn: "Clotrimazole"
 predicted_indications: ["acne (disease)", "postmenopausal atrophic vaginitis"]
 last_modified_at: 2026-11-16
-description: "Clotrimazol: nueva indicación predicha, Acné (acne (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Clotrimazol: nueva indicación predicha, acné (acne (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Clotrimazol
@@ -34,20 +34,20 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-## Clotrimazol: Acné (acne (disease))
+## Clotrimazol: acné (acne (disease))
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Clotrimazol es un antifúngico de la clase de los imidazoles, comercializado en Argentina en formas tópicas (cremas, spray, polvo y pasta dérmicos).
-El modelo TxGNN predice que podría ser útil para **Acné (acne (disease))**, pero solo hay **1 ensayo clínico** (suspendido, sin resultados y con una combinación triple) y **ninguna publicación** que respalde esta dirección. La evidencia es, por tanto, muy limitada.
+Clotrimazol es un antifúngico imidazólico de uso tópico, comercializado en Argentina en cremas, spray y polvo dérmico.
+El modelo TxGNN predice que podría ser efectivo para **acné (acne (disease))**, pero la evidencia es muy limitada: **1 ensayo clínico** suspendido (con un producto combinado) y **ninguna publicación** respaldan esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Acné (acne (disease)) |
+| Nueva Indicación Predicha | acné (acne (disease)) |
 | Puntaje de Predicción TxGNN | 0.9986 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (9 de 9) – el estado del registro en ANMAT no está incluido en estos datos |
@@ -56,25 +56,23 @@ El modelo TxGNN predice que podría ser útil para **Acné (acne (disease))**, p
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, clotrimazol pertenece a los antifúngicos imidazólicos, que inhiben la enzima fúngica lanosterol 14-alfa-desmetilasa (CYP51). Esto bloquea la síntesis de ergosterol y altera la membrana del hongo.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, el clotrimazol es un antifúngico imidazólico que inhibe la síntesis de ergosterol fúngico (lanosterol 14-alfa-desmetilasa, CYP51). También se han descrito cierta actividad antibacteriana y antiinflamatoria, y acción frente a *Malassezia*, levadura implicada en algunas afecciones foliculares y acneiformes.
 
-Un vínculo plausible con el acné es indirecto. Los azoles actúan contra *Malassezia* y tienen cierta actividad antiinflamatoria. La foliculitis por *Malassezia* (pitirosporo) se confunde a menudo con acné vulgar, y esto podría explicar parte de la señal del modelo. Clotrimazol no tiene actividad establecida contra el acné impulsado por *Cutibacterium acnes*.
-
-El puntaje de TxGNN es muy alto (0,9986), pero proviene de una predicción basada en redes y no es evidencia clínica. El único ensayo disponible prueba una combinación de beclometasona, gentamicina y clotrimazol. Cualquier efecto observado no podría atribuirse a clotrimazol por sí solo.
+Este vínculo es indirecto y especulativo. No hay evidencia directa que relacione al clotrimazol con la fisiopatología del acné vulgar (*Cutibacterium acnes*, producción de sebo, hiperqueratinización folicular, inflamación). El puntaje elevado del modelo es una predicción computacional y no reemplaza la evidencia clínica.
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT01244256](https://clinicaltrials.gov/study/NCT01244256) | Fase 2/3 | Suspendido | 80 | Compara la eficacia de una crema con beclometasona + gentamicina + clotrimazol en pacientes con dermatosis contaminada con lesiones bilaterales simétricas. No tiene resultados publicados. Al ser una combinación triple, no se puede aislar el aporte de clotrimazol. El enfoque parece ser más de dermatosis infectadas o fúngicas que de acné vulgar. |
+| [NCT01244256](https://clinicaltrials.gov/study/NCT01244256) | Fase 2/3 | Suspendido | 80 | Eficacia comparativa de la combinación betametasona/beclometasona + gentamicina + clotrimazol en crema en dermatosis contaminada con lesiones bilaterales simétricas. Sin resultados disponibles. |
+
+Este ensayo evalúa un producto combinado, por lo que cualquier efecto no puede atribuirse al clotrimazol solo. Además, la descripción apunta a una dermatosis contaminada y no necesariamente a acné vulgar. Su relevancia se considera débil e indirecta (grado C).
 
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
-
-Clotrimazol figura como comercializado, con 9 autorizaciones vigentes. Se muestran las 5 principales:
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica |
 |---------|------|------|
@@ -83,6 +81,8 @@ Clotrimazol figura como comercializado, con 9 autorizaciones vigentes. Se muestr
 | 32028 | MYCANDEN | Spray x 60 ml |
 | 20139 | IKOLAN | Crema 1% x 25 g |
 | 32425 | MICOSEP | Pasta dérmica x 30 g |
+
+Se muestran las 5 primeras de 9 autorizaciones vigentes, todas de productos de un solo principio activo.
 
 ## Consideraciones de Seguridad
 
@@ -93,12 +93,13 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-El puntaje del modelo es alto, pero no hay ningún estudio con datos interpretables que evalúe clotrimazol en acné. El único ensayo es una combinación triple, está suspendido y no tiene resultados. Tampoco hay literatura de respaldo, y la plausibilidad mecanística es débil.
+La predicción se basa solo en el modelo: no hay estudios que evalúen directamente el clotrimazol en acné, y el único ensayo registrado está suspendido y usa una combinación con corticoide y antibiótico. Por ello el nivel de evidencia es L5.
 
 **Para avanzar se necesita:**
-- Estudios clínicos o preclínicos que evalúen clotrimazol solo en acné, o en foliculitis por *Malassezia* si se quiere explorar esa hipótesis.
-- Datos del mecanismo de acción y de las advertencias y contraindicaciones del prospecto, que hoy no están disponibles.
-- Una definición clara de la población objetivo (acné vulgar frente a foliculitis por *Malassezia*) y de la formulación tópica adecuada.
+- Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones) de ANMAT
+- Estudios preclínicos o clínicos que evalúen clotrimazol solo en acné
+- Confirmar la relevancia del único ensayo registrado y su indicación real
+- Evaluar la compatibilidad de vías de administración y la similitud con la indicación original
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

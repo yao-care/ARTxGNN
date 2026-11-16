@@ -39,8 +39,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 ## Resumen en Una Frase
 
-Propafenona es un antiarrítmico comercializado en Argentina.
-El modelo TxGNN predice que podría ser efectivo para **trastorno afectivo bipolar maníaco (manic bipolar affective disorder)**, pero no hay ensayos clínicos ni estudios que respalden un beneficio terapéutico: la literatura disponible (3 publicaciones) describe casos de manía **provocada** por propafenona y una interacción farmacológica con psicosis, es decir, una señal de efecto adverso y no de tratamiento.
+Propafenona es un antiarrítmico que se comercializa en Argentina bajo la marca Normorytmin.
+El modelo TxGNN predice que podría ser efectivo para **trastorno afectivo bipolar maníaco (manic bipolar affective disorder)**, pero no hay ensayos clínicos y las **3 publicaciones** disponibles son un caso clínico de manía provocada por propafenona, un caso de psicosis por interacción con venlafaxina y una revisión de interacciones; es decir, señales de daño y no de beneficio.
 
 ## Resumen Rápido
 
@@ -54,13 +54,15 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno afectivo bipol
 | Número de Autorización | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
-## ¿Por qué es Razonable esta Predicción?
+## ¿Por qué es razonable esta predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por conocimiento general, propafenona es un antiarrítmico de clase IC que bloquea canales de sodio cardíacos.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por conocimiento general, la propafenona es un antiarrítmico de clase 1C (bloqueante de canales de sodio) con cierta actividad betabloqueante.
 
-Para la manía no se identifica un mecanismo terapéutico plausible. Los datos compilados indican lo contrario: un reporte de caso de 1985 describe manía secundaria a propafenona, y se plantea que, por su parecido químico con bupropión, podría tener actividad afectiva. Otro reporte describe una psicosis orgánica por interacción con venlafaxina en un paciente con trastorno bipolar.
+No se conoce un mecanismo establecido que vincule este perfil con la estabilización del ánimo. Un caso publicado de manía asociada a propafenona sugiere que el fármaco podría tener efectos sobre el estado de ánimo, pero en el sentido de provocar manía, no de tratarla.
 
-Por lo tanto, el puntaje alto probablemente sea un artefacto del modelo y no debe interpretarse como una predicción terapéutica.
+No debe interpretarse como indicio de beneficio.
+
+**Nota sobre el nivel de evidencia:** ninguna publicación estudia a la propafenona como tratamiento de esta enfermedad; por ello el nivel se fija en L5, aunque existan reportes de eventos adversos relacionados.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -70,38 +72,36 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [2579063](https://pubmed.ncbi.nlm.nih.gov/2579063/) | 1985 | Reporte de caso | J Clin Psychiatry | Caso de manía secundaria a propafenona; posible complicación afectiva no reconocida previamente |
-| [11949740](https://pubmed.ncbi.nlm.nih.gov/11949740/) | 2001 | Reporte de caso | Int J Psychiatry Med | Psicosis orgánica por interacción venlafaxina-propafenona en un paciente con trastorno bipolar |
-| [32124390](https://pubmed.ncbi.nlm.nih.gov/32124390/) | 2020 | Revisión | Pharmacol Rep | Interacciones adversas entre antipsicóticos y fármacos cardiovasculares en pacientes con comorbilidad |
-
-Ninguno de estos estudios evalúa a propafenona como tratamiento de la manía; por ello el nivel de evidencia se fija en L5.
+| [32124390](https://pubmed.ncbi.nlm.nih.gov/32124390/) | 2020 | Revisión | Pharmacological Reports | Analiza interacciones dañinas entre antipsicóticos y fármacos cardiovasculares en pacientes con trastorno bipolar o esquizofrenia y comorbilidad cardiovascular. |
+| [2579063](https://pubmed.ncbi.nlm.nih.gov/2579063/) | 1985 | Reporte de caso | J Clin Psychiatry | Caso de manía secundaria a propafenona; se plantea que podría tener efectos afectivos adversos. |
+| [11949740](https://pubmed.ncbi.nlm.nih.gov/11949740/) | 2001 | Reporte de caso | Int J Psychiatry Med | Psicosis orgánica por interacción venlafaxina-propafenona en un paciente con trastorno bipolar. |
 
 ## Información de Mercado en Argentina
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 7781 | NORMORYTMIN | 150 mg comp. rec. x 50 | — |
-| 7783 | NORMORYTMIN | 300 mg comp. rec. x 50 | — |
-| 4652 | NORMORYTMIN | 150 mg comp. rec. x 20 | — |
-| 4653 | NORMORYTMIN | 300 mg comp. rec. x 20 | — |
+| 7781 | NORMORYTMIN | 150 mg comprimidos recubiertos x 50 | No registrada |
+| 7783 | NORMORYTMIN | 300 mg comprimidos recubiertos x 50 | No registrada |
+| 4652 | NORMORYTMIN | 150 mg comprimidos recubiertos x 20 | No registrada |
+| 4653 | NORMORYTMIN | 300 mg comprimidos recubiertos x 20 | No registrada |
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
 
-Como señal relevante para esta predicción, la literatura compilada describe manía inducida por propafenona y psicosis por interacción con venlafaxina.
+Las publicaciones disponibles describen manía inducida por propafenona y toxicidad neuropsiquiátrica por interacción con venlafaxina, lo que apunta a posible daño en esta población.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos ni estudios que respalden un efecto terapéutico en la manía; la evidencia disponible apunta a un efecto adverso neuropsiquiátrico. El puntaje alto del modelo no compensa la ausencia de plausibilidad mecanística.
+La predicción se apoya solo en el puntaje del modelo. La literatura disponible señala riesgo de manía y de interacciones, no beneficio, y no existe un mecanismo plausible que respalde el uso en trastorno bipolar maníaco.
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de acción (MOA) y del prospecto (advertencias y contraindicaciones)
-- Un fundamento mecanístico que justifique un beneficio, y no un daño, en la manía
-- Estudios preclínicos o clínicos que evalúen directamente esta indicación
+- Datos del mecanismo de acción y del prospecto de ANMAT (advertencias y contraindicaciones)
+- Estudios preclínicos o clínicos que evalúen directamente la propafenona en manía
+- Evaluación del riesgo proarrítmico y de interacciones con estabilizadores del ánimo y antipsicóticos
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

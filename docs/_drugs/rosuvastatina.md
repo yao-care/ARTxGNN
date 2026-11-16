@@ -39,9 +39,9 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 ## Resumen en Una Frase
 
-Rosuvastatina es una estatina que inhibe la enzima HMG-CoA reductasa y reduce el colesterol LDL. Se comercializa actualmente en Argentina.
+Rosuvastatina es una estatina, es decir, un inhibidor de la enzima HMG-CoA reductasa que reduce el colesterol LDL.
 El modelo TxGNN predice que podría ser útil para la **deficiencia de la proteína de transferencia de ésteres de colesterol (cholesterol-ester transfer protein deficiency)**.
-Hasta ahora, **no hay ensayos clínicos ni publicaciones** en los datos compilados que estudien directamente esta enfermedad, así que la predicción se apoya solo en el modelo.
+Actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección, por lo que se trata de una predicción puramente computacional.
 
 ## Resumen Rápido
 
@@ -57,11 +57,11 @@ Hasta ahora, **no hay ensayos clínicos ni publicaciones** en los datos compilad
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Rosuvastatina inhibe de forma competitiva la HMG-CoA reductasa hepática. Esto reduce el colesterol dentro de la célula, aumenta los receptores de LDL y disminuye el colesterol LDL y la apolipoproteína B. No se dispone de datos detallados del mecanismo de acción en las fuentes compiladas, pero este efecto es el conocido de la clase.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la rosuvastatina inhibe la HMG-CoA reductasa, la enzima limitante de la síntesis de colesterol. Con ello reduce el colesterol LDL y, en menor medida, eleva modestamente el colesterol HDL.
 
-Con los datos disponibles **no se identifica un vínculo mecanístico claro** con la nueva indicación. La deficiencia de CETP se caracteriza por un colesterol HDL marcadamente elevado, y no es evidente por qué una estatina sería útil en ese cuadro. El puntaje alto del modelo probablemente refleja la cercanía funcional con el metabolismo de lípidos, no una razón farmacológica específica.
+El puntaje de 0,9954 parece reflejar la cercanía de ambos elementos dentro de la red del metabolismo lipídico. La deficiencia de CETP se caracteriza por un colesterol HDL marcadamente elevado. En los datos compilados no se identifica una necesidad clínica ni un fundamento terapéutico para reducir el LDL en esta condición.
 
-Por eso la predicción debe tratarse como una hipótesis de investigación, no como una indicación respaldada por evidencia.
+Por lo tanto, el vínculo entre el fármaco y esta enfermedad es solo una asociación calculada por el modelo. No hay estudios que la respalden, y debe tratarse como una hipótesis sin validar.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -73,32 +73,32 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-El medicamento figura como comercializado, con autorizaciones vigentes de productos de rosuvastatina como único principio activo. Los datos compilados indican al menos 20 autorizaciones, por lo que la lista puede ser parcial. Se muestran 5 como ejemplo:
+El fármaco figura como comercializado en Argentina, con al menos 20 autorizaciones vigentes de productos de un solo principio activo. La lista puede ser parcial. Algunos ejemplos:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
 |---------|------|------|-----------|
-| 45251 | SINLIP | 20 mg comprimidos recubiertos x 60 | No registrada en los datos locales |
-| 55857 | ROSUVASTATINA RICHET | 10 mg comprimidos x 30 | No registrada en los datos locales |
-| 50618 | PARASUL | 5 mg comprimidos x 28 | No registrada en los datos locales |
-| 33101 | CRESTOR | 20 mg comprimidos x 28 | No registrada en los datos locales |
-| 46502 | ARTOMEY | 20 mg comprimidos x 30 | No registrada en los datos locales |
+| 33101 | CRESTOR | 20 mg comp. x 28 | AstraZeneca |
+| 45251 | SINLIP | 20 mg comp. rec. x 60 | Gador |
+| 50618 | PARASUL | 5 mg comp. x 28 | Sidus |
+| 46502 | ARTOMEY | 20 mg comp. x 30 | Teva Argentina |
+| 49967 | ROSULIP | 20 mg comp. x 30 | Eurofarma |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. En los datos compilados no se encontraron interacciones farmacológicas registradas.
+Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas registradas en los datos compilados.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el puntaje del modelo (nivel L5). No hay ensayos ni publicaciones que estudien esta enfermedad, y el mecanismo de acción de la estatina no explica un beneficio en un cuadro con HDL elevado.
+La predicción no cuenta con ensayos clínicos ni publicaciones, por lo que el nivel de evidencia es L5. Además, no se aprecia una razón terapéutica para reducir el LDL en una condición caracterizada por HDL elevado.
 
 **Para avanzar se necesita:**
-- Una justificación mecanística específica que relacione la inhibición de la HMG-CoA reductasa con la deficiencia de CETP.
-- Estudios preclínicos o series de casos que evalúen rosuvastatina en esta enfermedad.
-- Datos de seguridad del prospecto de ANMAT (advertencias y contraindicaciones), que hoy no están disponibles.
-- Datos detallados del mecanismo de acción de la fuente farmacológica correspondiente.
+- Datos detallados del mecanismo de acción (MOA).
+- Un fundamento clínico o biológico que justifique el uso de una estatina en esta condición.
+- Estudios preclínicos o clínicos que evalúen directamente esta enfermedad.
+- Información de seguridad del prospecto de ANMAT (advertencias y contraindicaciones).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

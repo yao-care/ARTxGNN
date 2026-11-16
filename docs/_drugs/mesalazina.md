@@ -39,8 +39,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 ## Resumen en Una Frase
 
-Mesalazina (ácido 5-aminosalicílico) es un antiinflamatorio de la clase de los aminosalicilatos, con múltiples productos autorizados en Argentina.
-El modelo TxGNN predice que podría ser efectivo para **hipotricosis congénita con distrofia macular juvenil (congenital hypotrichosis with juvenile macular dystrophy)**, con un puntaje de 0,9965, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección.
+Mesalazina (ácido 5-aminosalicílico) es un antiinflamatorio aminosalicilato que se comercializa en Argentina en múltiples presentaciones.
+El modelo TxGNN predice que podría ser efectiva para **hipotricosis congénita con distrofia macular juvenil (congenital hypotrichosis with juvenile macular dystrophy)**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección.
 
 ## Resumen Rápido
 
@@ -54,13 +54,13 @@ El modelo TxGNN predice que podría ser efectivo para **hipotricosis congénita 
 | Número de Autorización | al menos 20 |
 | Decisión Recomendada | Hold |
 
-## ¿Por qué es Razonable esta Predicción?
+## ¿Por qué es razonable esta predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la mesalazina ejerce una acción antiinflamatoria local (modulación de PPAR-gamma, inhibición de COX/LOX y de NF-kB).
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. En términos generales, la mesalazina es un aminosalicilato con acción antiinflamatoria (inhibición de vías de ciclooxigenasa y lipooxigenasa, activación de PPAR-gamma y modulación de NF-kB).
 
-La condición predicha es un trastorno monogénico raro (mutaciones en CDH3, que afectan la P-cadherina). La acción antiinflamatoria de la mesalazina no tiene una conexión plausible con esta patología. No se identificó ningún vínculo mecanístico.
+La enfermedad predicha es un trastorno monogénico ultra raro, asociado a mutaciones en CDH3 que afectan la adhesión celular. No se identifica un vínculo mecanístico plausible entre la acción antiinflamatoria de la mesalazina y esta fisiopatología.
 
-Esta predicción debe considerarse puramente computacional.
+El puntaje de TxGNN es alto (0,9965), pero se trata únicamente de una predicción computacional, sin respaldo clínico ni bibliográfico. Debe interpretarse con mucha cautela.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -72,14 +72,14 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-Se registran **al menos 20** autorizaciones vigentes (la lista puede ser parcial). Todas son de producto de un solo principio activo. Principales productos:
+La mesalazina tiene al menos 20 autorizaciones vigentes en Argentina (la lista puede ser parcial). Principales autorizaciones:
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 18874 | PENTASA | 500 mg comp. x 50 | No registrada en los datos locales |
-| 18875 | PENTASA | 500 mg comp. x 100 | No registrada en los datos locales |
-| 11105 | 5-ASA 400 | 400 mg comp. x 30 | No registrada en los datos locales |
-| 33568 | YOLECOL | 800 mg comp. x 60 | No registrada en los datos locales |
+| 18874 | PENTASA | 500 mg comprimidos x 50 | No registrada en los datos locales |
+| 18875 | PENTASA | 500 mg comprimidos x 100 | No registrada en los datos locales |
+| 11105 | 5-ASA 400 | 400 mg comprimidos x 30 | No registrada en los datos locales |
+| 33568 | YOLECOL | 800 mg comprimidos x 60 | No registrada en los datos locales |
 | 53164 | 5-ASA 1000 | 1 g sobres x 30 | No registrada en los datos locales |
 
 ## Consideraciones de Seguridad
@@ -91,12 +91,13 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción no cuenta con ensayos clínicos ni literatura, no existe un vínculo mecanístico plausible con la mesalazina y la condición es un trastorno genético raro sin relación con su acción antiinflamatoria. El nivel de evidencia es L5.
+La predicción se basa solo en el modelo computacional: no hay ensayos clínicos, no hay literatura y no se identifica un vínculo mecanístico plausible con una enfermedad genética ultra rara de adhesión celular.
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de acción de la mesalazina para analizar posibles vínculos mecanísticos
-- Advertencias y contraindicaciones del prospecto aprobado por ANMAT
-- Estudios preclínicos que sustenten una relación biológica con la vía de la P-cadherina (CDH3), antes de considerar cualquier estudio clínico
+- Datos del mecanismo de acción de la mesalazina para analizar posibles vínculos con la vía de CDH3
+- Estudios preclínicos que respalden alguna relación biológica con esta enfermedad
+- Información de seguridad del prospecto de ANMAT (advertencias y contraindicaciones)
+- Evaluación de la compatibilidad de vías de administración, hoy pendiente
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

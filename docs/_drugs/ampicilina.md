@@ -39,8 +39,9 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 ## Resumen en Una Frase
 
-Ampicilina es un antibiótico betalactámico de uso antibacteriano, comercializado en Argentina en varias presentaciones.
-El modelo TxGNN predice que podría ser útil para **laringitis (laryngitis)**, pero no hay ensayos clínicos registrados y la literatura recuperada trata sobre entidades relacionadas pero distintas (epiglotitis, crup, infecciones profundas del cuello), por lo que la evidencia directa es muy limitada.
+Ampicilina es un antibiótico betalactámico que inhibe la síntesis de la pared celular bacteriana.
+El modelo TxGNN predice que podría ser efectivo para **laringitis (laryngitis)**,
+pero actualmente no hay ensayos clínicos registrados y la literatura disponible (20 publicaciones) se centra sobre todo en epiglotitis y otras infecciones laríngeas bacterianas, no en laringitis como tal.
 
 ## Resumen Rápido
 
@@ -56,11 +57,11 @@ El modelo TxGNN predice que podría ser útil para **laringitis (laryngitis)**, 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Por conocimiento general, la ampicilina es un betalactámico que inhibe la síntesis de la pared celular bacteriana y es activa contra bacterias sensibles como *Haemophilus influenzae* tipo b, causa de epiglotitis e infecciones supraglóticas.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento farmacológico general, la ampicilina es un betalactámico que impide la formación de la pared celular bacteriana y actúa contra organismos sensibles.
 
-El vínculo con la laringitis es indirecto. La mayoría de las laringitis son virales, por lo que un antibiótico solo tendría un papel en un subconjunto bacteriano. La literatura recuperada se centra en epiglotitis (donde la ampicilina aparece como parte del tratamiento en series de casos antiguas), crup y abscesos del cuello, que son enfermedades relacionadas pero diferentes.
+Mecanísticamente, podría ser plausible en infecciones bacterianas de la laringe y la región supraglótica (por ejemplo, epiglotitis) causadas por microorganismos sensibles. Sin embargo, su fiabilidad como agente único es limitada porque *H. influenzae* productor de betalactamasas es resistente. La laringitis viral y el crup, que son las formas más frecuentes, no responderían a un antibiótico.
 
-Además, la resistencia a ampicilina en *H. influenzae* (18,7 % de los casos en una serie de 1977) limita su uso como agente único.
+Importante: los estudios citados tratan sobre epiglotitis, abscesos laríngeos y otras infecciones de cuello, que son condiciones relacionadas pero distintas de la laringitis. Por ello, ningún estudio aborda directamente la enfermedad predicha y el nivel de evidencia se asigna como L5, aunque el análisis interno de los datos sugiere L4.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -68,18 +69,20 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Ningún estudio recuperado evalúa directamente la laringitis. Se listan los más cercanos (epiglotitis y entidades relacionadas):
+Selección de las publicaciones más relevantes (todas tratan condiciones relacionadas, no laringitis propiamente dicha):
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [2603419](https://pubmed.ncbi.nlm.nih.gov/2603419/) | 1989 | Serie de casos/Revisión | West J Med | 9 adultos con epiglotitis aguda; 4 requirieron intubación; en 6 el diagnóstico inicial fue incorrecto |
-| [7010270](https://pubmed.ncbi.nlm.nih.gov/7010270/) | 1980 | Revisión | Otolaryngol Head Neck Surg | 53 niños con epiglotitis, mayormente por *H. influenzae* b; resistencia a ampicilina del 18,7 % en 1977 |
-| [3977063](https://pubmed.ncbi.nlm.nih.gov/3977063/) | 1985 | Revisión | Anaesth Intensive Care | 161 niños con epiglotitis; 45 complicaciones y 5 muertes; énfasis en el manejo de la vía aérea |
-| [6881564](https://pubmed.ncbi.nlm.nih.gov/6881564/) | 1983 | Cohorte | Anesth Analg | 23 niños con epiglotitis tratados con ampicilina o cloranfenicol; duración de intubación y fiebre |
-| [3026014](https://pubmed.ncbi.nlm.nih.gov/3026014/) | 1986 | Revisión | Rev Infect Dis | Sulbactam/ampicilina en epiglotitis pediátrica ante cepas de Hib productoras de betalactamasa |
-| [7045555](https://pubmed.ncbi.nlm.nih.gov/7045555/) | 1982 | Reporte de caso | Laryngoscope | Epiglotitis por *Klebsiella* en un adulto que no respondió a ampicilina |
-| [6969397](https://pubmed.ncbi.nlm.nih.gov/6969397/) | 1980 | Reporte de caso | Postgrad Med J | Epiglotitis por *H. influenzae* en un adulto, tratada con ampicilina e hidrocortisona |
-| [38145982](https://pubmed.ncbi.nlm.nih.gov/38145982/) | 2024 | Cohorte | Eur Arch Otorhinolaryngol | Microbiología y selección de antibióticos en abscesos de cuello en pacientes con diabetes |
+| [2603419](https://pubmed.ncbi.nlm.nih.gov/2603419/) | 1989 | Revisión | The Western Journal of Medicine | Serie de 9 adultos con epiglotitis aguda; 4 requirieron intubación y 6 recibieron un diagnóstico erróneo inicial |
+| [7010270](https://pubmed.ncbi.nlm.nih.gov/7010270/) | 1980 | Revisión | Otolaryngology and Head and Neck Surgery | 53 niños con epiglotitis, mayormente por *H. influenzae* tipo B; se usaron ampicilina y cloranfenicol por la resistencia a ampicilina (18,7 % en 1977) |
+| [3977063](https://pubmed.ncbi.nlm.nih.gov/3977063/) | 1985 | Revisión | Anaesthesia and Intensive Care | 161 niños con epiglotitis; 45 complicaciones y 5 muertes; recomienda intubación nasotraqueal |
+| [6881564](https://pubmed.ncbi.nlm.nih.gov/6881564/) | 1983 | Cohorte | Anesthesia and Analgesia | 23 niños con epiglotitis tratados con ampicilina o cloranfenicol; criterios de duración de intubación |
+| [3026014](https://pubmed.ncbi.nlm.nih.gov/3026014/) | 1986 | No clasificado | Reviews of Infectious Diseases | Sulbactam/ampicilina en epiglotitis infantil, ante cepas de Hib productoras de betalactamasa |
+| [7045555](https://pubmed.ncbi.nlm.nih.gov/7045555/) | 1982 | No clasificado | The Laryngoscope | Epiglotitis por *Klebsiella* en un adulto que no respondió a ampicilina y requirió cefalosporina |
+| [6969397](https://pubmed.ncbi.nlm.nih.gov/6969397/) | 1980 | Reporte de caso | Postgraduate Medical Journal | Epiglotitis en un adulto con *H. influenzae*; mejoría con ampicilina e hidrocortisona |
+| [305660](https://pubmed.ncbi.nlm.nih.gov/305660/) | 1978 | No clasificado | Schweizerische Medizinische Wochenschrift | Dos adultos con epiglotitis por Hib recuperados con ampicilina; análisis de 100 casos de la literatura |
+| [35923122](https://pubmed.ncbi.nlm.nih.gov/35923122/) | 2023 | No clasificado | Annals of Otology, Rhinology, and Laryngology | Revisión histórica y caso de absceso laríngeo espontáneo en diabetes no controlada |
+| [41536375](https://pubmed.ncbi.nlm.nih.gov/41536375/) | 2025 | Revisión | Cureus | Cuándo reconsiderar el diagnóstico diferencial de crup en un niño con síntomas atípicos |
 
 ## Información de Mercado en Argentina
 
@@ -87,11 +90,11 @@ Ningún estudio recuperado evalúa directamente la laringitis. Se listan los má
 |---------|------|------|-----------|
 | 999 | AMPICILINA RICHET | 1 g comp. x 16 | No registrada |
 | 928 | AMPICILINA RICHET | 1 g comp. x 8 | No registrada |
-| 1039 | TRIFACILINA FORTE | jarabe x 120 ml | No registrada |
+| 1039 | TRIFACILINA FORTE | Jarabe x 120 ml | No registrada |
 | 7153 | AMPICILINA RICHET | 500 mg comp. x 16 | No registrada |
-| 1044 | TRIFACILINA | 1000 mg iny. liof. x 1 + solvente | No registrada |
+| 1044 | TRIFACILINA | 1000 mg inyectable liofilizado x 1 + solvente | No registrada |
 
-Existen 13 autorizaciones en total, todas vigentes.
+Se muestran 5 de las 13 autorizaciones vigentes.
 
 ## Consideraciones de Seguridad
 
@@ -102,13 +105,12 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-Ningún estudio citado evalúa directamente la laringitis y no hay ensayos clínicos, por lo que el nivel de evidencia es L5. La mayoría de las laringitis son virales y la literatura disponible corresponde a epiglotitis y otras infecciones, con resistencia documentada a ampicilina.
+Aunque el puntaje de TxGNN es muy alto (0,9997), no existen ensayos clínicos ni estudios que evalúen directamente la laringitis; la literatura se limita a epiglotitis y otras infecciones relacionadas. Además, la laringitis suele ser viral y la resistencia de *H. influenzae* limita la utilidad de la ampicilina.
 
 **Para avanzar se necesita:**
-- Estudios que evalúen directamente la laringitis bacteriana y definan el subgrupo que podría beneficiarse
-- Datos del mecanismo de acción y del perfil de resistencia local
-- Información de seguridad del prospecto aprobado por ANMAT (advertencias y contraindicaciones)
-- Revisión de las indicaciones registradas en los prospectos locales
+- Definir si la hipótesis se refiere a laringitis bacteriana o a infecciones supraglóticas (p. ej., epiglotitis), y buscar estudios que aborden directamente esa condición
+- Datos de mecanismo de acción y de advertencias y contraindicaciones del prospecto
+- Datos de resistencia local de los patógenos laríngeos relevantes (*H. influenzae* productor de betalactamasas)
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

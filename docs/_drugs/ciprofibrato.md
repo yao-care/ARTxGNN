@@ -9,7 +9,7 @@ drugbank_id: DB09064
 monitor_inn: "Ciprofibrate"
 predicted_indications: ["cholesterol-ester transfer protein deficiency", "fibroma of prostate"]
 last_modified_at: 2026-11-16
-description: "Ciprofibrato: nueva indicación predicha, Cholesterol-ester transfer protein deficiency (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Ciprofibrato: nueva indicación predicha, Deficiencia de la proteína de transferencia de ésteres de colesterol (cholesterol-ester transfer protein deficiency) (nivel de evidencia L5)."
 ---
 
 # Ciprofibrato
@@ -34,31 +34,33 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-## Ciprofibrato: Cholesterol-ester transfer protein deficiency
+## Ciprofibrato: Deficiencia de la proteína de transferencia de ésteres de colesterol (cholesterol-ester transfer protein deficiency)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Ciprofibrato es un fármaco hipolipemiante de la clase de los fibratos, que actúa sobre el receptor PPAR-alfa.
+Ciprofibrato es un fibrato que actúa como agonista de PPAR-alfa y modula el metabolismo de los lípidos.
+El modelo TxGNN predice que podría ser efectivo para **deficiencia de la proteína de transferencia de ésteres de colesterol (cholesterol-ester transfer protein deficiency)**, pero no hay ensayos clínicos y solo existe **1 publicación** preclínica e indirecta que se relaciona con esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Cholesterol-ester transfer protein deficiency |
+| Nueva Indicación Predicha | Deficiencia de la proteína de transferencia de ésteres de colesterol (cholesterol-ester transfer protein deficiency) |
 | Puntaje de Predicción TxGNN | 0.9991 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (4 de 4) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorización | 4 (vigentes: 4) |
-| Decisión Recomendada | Proceed with Guardrails |
+| Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, el ciprofibrato es un fibrato que activa PPAR-alfa, lo que aumenta la actividad de la lipoproteína lipasa y la oxidación de ácidos grasos, y reduce la producción hepática de VLDL. El resultado es una disminución de triglicéridos y un aumento del colesterol HDL.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, el ciprofibrato pertenece a la clase de los fibratos, agonistas de PPAR-alfa, que reducen los triglicéridos y elevan el colesterol HDL.
 
+La deficiencia de la proteína de transferencia de ésteres de colesterol se caracteriza por niveles muy elevados de colesterol HDL. Por ello, un fármaco que modula los lípidos tiene una conexión biológica plausible con la vía del HDL. Sin embargo, esta condición es genética y suele ser benigna, incluso asociada a longevidad, por lo que no está claro qué beneficio terapéutico se buscaría.
 
-Conviene precisar que, en este caso, se trata de un uso lipídico establecido más que de un reposicionamiento propiamente dicho. El nivel de evidencia se limita a L2 porque no hay ensayos registrados ni ensayos de fase 3 con resultados clínicos duros.
+El puntaje de 0.9991 es solo una predicción computacional y no está respaldado por datos clínicos. La falta de datos sobre el mecanismo de acción limita aún más la interpretación.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -68,44 +70,35 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [6753860](https://pubmed.ncbi.nlm.nih.gov/6753860/) | 1982 | ECA | Atherosclerosis | Ensayo doble ciego en hipercolesterolemia tipo II (20 pacientes completaron el estudio, 50 o 100 mg/día frente a placebo); bien tolerado, con descenso de lípidos |
-| [9015467](https://pubmed.ncbi.nlm.nih.gov/9015467/) | 1996 | ECA comparativo | Postgrad Med J | Ciprofibrato 100 mg frente a bezafibrato de liberación sostenida 400 mg en 174 pacientes con hiperlipidemia tipo II, durante 8 semanas |
-| [8831920](https://pubmed.ncbi.nlm.nih.gov/8831920/) | 1996 | Estudio clínico | Atherosclerosis | Eficaz en hipercolesterolemia IIa, hiperlipidemia combinada IIb e hipertrigliceridemia IV; reduce colesterol total, triglicéridos, apoB y LDL |
-| [2289217](https://pubmed.ncbi.nlm.nih.gov/2289217/) | 1990 | Estudio multicéntrico | Clin Ther | 127 pacientes con hiperlipidemia primaria tipo II y IV, 100 mg/día durante 12 semanas; descensos significativos de lípidos y aumento de HDL y apoA-I |
-| [3994783](https://pubmed.ncbi.nlm.nih.gov/3994783/) | 1985 | Comparativo doble ciego | Atherosclerosis | Ciprofibrato 100 mg/día frente a fenofibrato 300 mg/día; ambos redujeron colesterol total, LDL, VLDL y apoB |
-| [6951582](https://pubmed.ncbi.nlm.nih.gov/6951582/) | 1982 | Dosis-respuesta | Atherosclerosis | 50 pacientes con dosis de 50, 100 y 200 mg; el mayor efecto se observó con 200 mg/día |
-| [12915663](https://pubmed.ncbi.nlm.nih.gov/12915663/) | 2003 | Estudio clínico | J Clin Endocrinol Metab | En hiperlipidemia tipo IIb, reduce VLDL y modula el fenotipo lipoproteico aterogénico |
-| [17414592](https://pubmed.ncbi.nlm.nih.gov/17414592/) | 2007 | Estudio clínico | Am J Ther | En dislipidemia tipo IV, disminuye colesterol no HDL y triglicéridos y aumenta HDL |
-| [9364979](https://pubmed.ncbi.nlm.nih.gov/9364979/) | 1997 | Estudio clínico | Thromb Haemost | Efectos de gemfibrozilo y ciprofibrato sobre t-PA, PAI-1 y fibrinógeno en pacientes hiperlipidémicos |
-| [26704984](https://pubmed.ncbi.nlm.nih.gov/26704984/) | 2016 | Reporte de caso | Endocrinol Nutr | Síndrome de hiperquilomicronemia primaria tratado con ciprofibrato en la infancia |
+| [14570884](https://pubmed.ncbi.nlm.nih.gov/14570884/) | 2003 | Preclínico (modelo animal / transferencia génica con adenovirus) | The Journal of Biological Chemistry | En ratones deficientes en apoE, el ciprofibrato agravó la hipercolesterolemia; la sobreexpresión de SR-BI mediante vector adenoviral revirtió ese efecto. No estudia la deficiencia de CETP. |
+
+Este estudio aporta evidencia indirecta sobre los efectos de los fibratos en el metabolismo de lipoproteínas y no evalúa el ciprofibrato en la enfermedad predicha.
 
 ## Información de Mercado en Argentina
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 42619 | FIXERIL | 100 mg comp. x 30 | No registrada en los datos locales |
-| 42620 | FIXERIL | 100 mg comp. x 60 | No registrada en los datos locales |
-| 14555 | ESTAPROL | 100 mg caps. x 60 | No registrada en los datos locales |
-| 9522 | ESTAPROL | 100 mg caps. x 30 | No registrada en los datos locales |
+| 42619 | FIXERIL | Comprimidos 100 mg x 30 | No registrada en los datos locales |
+| 42620 | FIXERIL | Comprimidos 100 mg x 60 | No registrada en los datos locales |
+| 14555 | ESTAPROL | Cápsulas 100 mg x 60 | No registrada en los datos locales |
+| 9522 | ESTAPROL | Cápsulas 100 mg x 30 | No registrada en los datos locales |
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
 
-Como salvaguardas a considerar, la literatura compilada menciona el aumento de homocisteína con fibratos, el riesgo de miopatía o rabdomiólisis al combinarlos con estatinas y la necesidad de ajuste de dosis en insuficiencia renal.
-
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-Existen ensayos doble ciego y estudios comparativos que respaldan la reducción lipídica del ciprofibrato en hiperlipoproteinemia, y el fármaco está comercializado en Argentina. Sin embargo, la evidencia es antigua, de tamaño pequeño, sin ensayos registrados ni datos de desenlaces cardiovasculares.
+No hay ensayos clínicos y la única publicación es un estudio preclínico indirecto que no evalúa esta enfermedad, por lo que el nivel de evidencia es L5. Además, la deficiencia de CETP suele ser benigna, y el beneficio terapéutico de tratarla no está claro.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto de ANMAT (advertencias y contraindicaciones), actualmente no disponible
-- Completar los datos del mecanismo de acción desde una fuente farmacológica
-- Plan de monitoreo de seguridad, en especial para combinaciones con estatinas, la función renal y la homocisteína
-- Estudios más recientes o ensayos controlados con desenlaces clínicos para fortalecer el nivel de evidencia
+- Definir si existe una necesidad clínica real de tratar la deficiencia de CETP
+- Datos del mecanismo de acción del ciprofibrato
+- Información de seguridad del prospecto aprobado en ANMAT (advertencias y contraindicaciones)
+- Estudios preclínicos que respalden una hipótesis mecanística específica para esta enfermedad
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

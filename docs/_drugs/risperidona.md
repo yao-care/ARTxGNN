@@ -9,7 +9,7 @@ drugbank_id: DB00734
 monitor_inn: "Risperidone"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania"]
 last_modified_at: 2026-11-16
-description: "Risperidona: nueva indicación predicha, parálisis de la mirada, horizontal familiar, con escoliosis progresiva (gaze palsy, familial horizontal, with progressive scoliosis) (nivel de evidencia L5)."
+description: "Risperidona: nueva indicación predicha, síndrome de parálisis de la mirada horizontal familiar con escoliosis progresiva (gaze palsy, familial horizontal, with progressive scoliosis) (nivel de evidencia L5)."
 ---
 
 # Risperidona
@@ -34,20 +34,20 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-## Risperidona: parálisis de la mirada, horizontal familiar, con escoliosis progresiva (gaze palsy, familial horizontal, with progressive scoliosis)
+## Risperidona: síndrome de parálisis de la mirada horizontal familiar con escoliosis progresiva (gaze palsy, familial horizontal, with progressive scoliosis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Risperidona es un fármaco antipsicótico con presencia consolidada en el mercado argentino.
-El modelo TxGNN predice que podría ser efectivo para **parálisis de la mirada, horizontal familiar, con escoliosis progresiva (gaze palsy, familial horizontal, with progressive scoliosis)**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata únicamente de una predicción del modelo.
+Risperidona es un antipsicótico atípico comercializado en Argentina con múltiples autorizaciones vigentes.
+El modelo TxGNN predice que podría ser efectivo para la **síndrome de parálisis de la mirada horizontal familiar con escoliosis progresiva (gaze palsy, familial horizontal, with progressive scoliosis)**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata únicamente de una predicción computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | parálisis de la mirada, horizontal familiar, con escoliosis progresiva (gaze palsy, familial horizontal, with progressive scoliosis) |
+| Nueva Indicación Predicha | síndrome de parálisis de la mirada horizontal familiar con escoliosis progresiva (gaze palsy, familial horizontal, with progressive scoliosis) |
 | Puntaje de Predicción TxGNN | 0.9976 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (al menos 20) – el estado del registro en ANMAT no está incluido en estos datos |
@@ -56,11 +56,11 @@ El modelo TxGNN predice que podría ser efectivo para **parálisis de la mirada,
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. De manera general, risperidona es conocida como antagonista de los receptores de dopamina D2 y de serotonina 5-HT2A, aunque este dato no fue verificado en la información suministrada.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por conocimiento general, risperidona bloquea receptores dopaminérgicos D2 y serotoninérgicos 5-HT2A.
 
-La enfermedad predicha es un trastorno ultra raro, de origen neurológico y del control motor ocular, asociado a variantes del gen ROBO3. Con los datos disponibles no se identifica ningún vínculo mecanístico entre el bloqueo dopaminérgico/serotoninérgico y esta condición.
+La enfermedad predicha es un trastorno del neurodesarrollo ultra raro, asociado a mutaciones en ROBO3, que afectan la guía axonal. No se identifica un vínculo mecanístico plausible entre el bloqueo D2/5-HT2A y esta patología, y no sería esperable que risperidona modifique la alteración de base ni sus manifestaciones motoras y esqueléticas.
 
-El puntaje del modelo (0,9976) es una predicción basada en redes de relaciones y no constituye, por sí solo, evidencia clínica. Por ello la plausibilidad biológica de esta indicación permanece sin sustento.
+Por lo tanto, el puntaje alto (0,9976) debe interpretarse solo como una señal computacional, sin respaldo mecanístico ni clínico en los datos disponibles.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -72,15 +72,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-Se registran al menos 20 autorizaciones vigentes (la lista puede ser parcial). Presentaciones principales:
+Hay al menos 20 autorizaciones vigentes de productos con risperidona como único principio activo (la lista puede ser parcial). Se muestran las 5 principales:
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 27060 | DROPICINE | 1 mg comp. recubierto x 20 | No registrada en los datos locales |
-| 33527 | RIATUL 0.5 | 0,5 mg comp. recubierto ranurado x 20 | No registrada en los datos locales |
-| 52461 | RISPERDAL CONSTA | 37,5 mg vial de acción prolongada x 1 + aguja | No registrada en los datos locales |
-| 21153 | RISPERDAL | solución oral x 100 ml | No registrada en los datos locales |
-| 14548 | RISPERIN | 1 mg comp. x 20 | No registrada en los datos locales |
+| 27060 | DROPICINE | 1 mg comp. rec. x 20 | No registrada |
+| 33527 | RIATUL 0.5 | 0.5 mg comp. rec. ran. x 20 | No registrada |
+| 52461 | RISPERDAL CONSTA | 37.5 mg vial a. x 1 + aguja | No registrada |
+| 21153 | RISPERDAL | solución oral x 100 ml | No registrada |
+| 14548 | RISPERIN | 1 mg comp. x 20 | No registrada |
 
 ## Consideraciones de Seguridad
 
@@ -91,12 +91,12 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-No existen ensayos clínicos ni publicaciones sobre risperidona en esta enfermedad, no se identifica un vínculo mecanístico y la predicción se apoya solo en el puntaje del modelo (nivel de evidencia L5).
+La predicción carece de ensayos clínicos, de literatura y de un mecanismo plausible; se basa solo en el puntaje computacional del modelo. No hay base para avanzar.
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de acción verificados y análisis de su relación con la fisiopatología de la enfermedad (vía ROBO3)
-- Búsqueda dirigida de literatura y estudios preclínicos sobre esta condición
-- Información de seguridad del prospecto (advertencias y contraindicaciones) para completar el análisis de seguridad
+- Datos del mecanismo de acción de risperidona (DrugBank) y análisis de su relación con la vía de ROBO3
+- Evidencia preclínica o clínica que estudie directamente esta enfermedad
+- Información de seguridad del prospecto de ANMAT (advertencias y contraindicaciones)
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

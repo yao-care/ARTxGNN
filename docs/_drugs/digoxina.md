@@ -39,8 +39,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 ## Resumen en Una Frase
 
-Digoxina es un glucósido cardíaco que inhibe la bomba Na+/K+-ATPasa del miocardio y se comercializa en Argentina.
-El modelo TxGNN predice que podría ser efectivo para **Angina de Prinzmetal (Prinzmetal angina)**, pero la predicción no cuenta con ensayos clínicos y solo con **1 publicación** recuperada, que no estudia directamente esta enfermedad.
+Digoxina es un glucósido cardíaco que inhibe la bomba Na+/K+-ATPasa. El modelo TxGNN predice que podría ser efectivo para **Angina de Prinzmetal (Prinzmetal angina)**, pero no hay ensayos clínicos y solo se recuperó **1 publicación** (una revisión general sobre cronofarmacología del tratamiento antihipertensivo) que no estudia directamente esta enfermedad.
 
 ## Resumen Rápido
 
@@ -56,11 +55,11 @@ El modelo TxGNN predice que podría ser efectivo para **Angina de Prinzmetal (Pr
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción registrada en la fuente de datos. Según la información farmacológica conocida, la digoxina inhibe la Na+/K+-ATPasa, lo que eleva el calcio intracelular y aumenta la contractilidad del miocardio.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por conocimiento farmacológico general, la digoxina inhibe la Na+/K+-ATPasa y eleva el calcio intracelular, lo que aumenta la contractilidad del miocardio.
 
-Este mecanismo no tiene una justificación establecida para la angina de Prinzmetal, que es causada por vasoespasmo de las arterias coronarias y se trata con bloqueadores de los canales de calcio y nitratos. Es más, el aumento del calcio intracelular y los posibles efectos vasoconstrictores podrían, en teoría, empeorar el vasoespasmo.
+Con ese mecanismo, **no se identifica un vínculo creíble** con la angina de Prinzmetal. Esta enfermedad es de origen vasoespástico y se trata con vasodilatadores como los bloqueadores de los canales de calcio y los nitratos. La farmacología de la digoxina podría incluso aumentar el tono vascular y agravar teóricamente el vasoespasmo coronario, es decir, va en sentido contrario a la necesidad terapéutica.
 
-Por lo tanto, el puntaje alto (0,9981) es una predicción computacional que no está respaldada por mecanismo ni por datos clínicos. Debe interpretarse con mucha cautela.
+El puntaje alto (0,9981) probablemente refleja cercanía en la red de asociaciones cardiovasculares compartidas y no una señal terapéutica real. Debe interpretarse como un resultado computacional sin respaldo clínico.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -70,9 +69,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [10736610](https://pubmed.ncbi.nlm.nih.gov/10736610/) | 1999 | Revisión | Acta physiologica et pharmacologica Bulgarica | Revisión sobre cronofarmacología y su impacto en el tratamiento antihipertensivo; no evalúa la digoxina en angina de Prinzmetal. |
-
-Ningún estudio citado aborda directamente la angina de Prinzmetal con digoxina, por lo que el nivel de evidencia se mantiene en L5.
+| [10736610](https://pubmed.ncbi.nlm.nih.gov/10736610/) | 1999 | Revisión | Acta physiologica et pharmacologica Bulgarica | Revisión sobre ritmos circadianos y cronofarmacología aplicada al tratamiento antihipertensivo. No estudia digoxina ni angina de Prinzmetal. |
 
 ## Información de Mercado en Argentina
 
@@ -93,13 +90,12 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa únicamente en el modelo, sin ensayos clínicos ni estudios que evalúen la digoxina en la angina de Prinzmetal, y el mecanismo conocido sugiere que podría incluso agravar el vasoespasmo.
+No hay ensayos clínicos ni publicaciones que estudien directamente el uso de digoxina en la angina de Prinzmetal, por lo que el nivel de evidencia es L5. Además, el mecanismo conocido de la digoxina podría empeorar el vasoespasmo coronario, por lo que la predicción carece de plausibilidad biológica.
 
 **Para avanzar se necesita:**
-- Obtener y revisar el prospecto de ANMAT (advertencias y contraindicaciones), indispensable para cualquier evaluación de seguridad.
-- Completar los datos del mecanismo de acción desde DrugBank.
-- Realizar una revisión de la literatura dirigida a digoxina y vasoespasmo coronario, incluyendo evaluación de riesgo.
-- Identificar estudios preclínicos o clínicos que evalúen directamente esta indicación antes de reconsiderar la decisión.
+- Datos del mecanismo de acción y una justificación mecanística creíble que explique por qué la digoxina no agravaría el vasoespasmo.
+- Estudios preclínicos o clínicos que evalúen directamente la digoxina en la angina vasoespástica.
+- Revisión del prospecto aprobado en ANMAT para completar la información de advertencias, contraindicaciones e interacciones.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

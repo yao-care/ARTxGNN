@@ -9,7 +9,7 @@ drugbank_id: DB00646
 monitor_inn: "Nystatin"
 predicted_indications: ["disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
 last_modified_at: 2026-11-16
-description: "Nistatina: nueva indicación predicha, Disease of orbital region (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Nistatina: nueva indicación predicha, enfermedad de la región orbitaria (disease of orbital region) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Nistatina
@@ -34,82 +34,73 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-## Nistatina: Disease of orbital region
+## Nistatina: enfermedad de la región orbitaria (disease of orbital region)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-La nistatina es un antifúngico poliénico de uso tópico y oral.
+Nistatina es un antifúngico poliénico que se comercializa en Argentina en comprimidos vaginales, comprimidos orales, suspensión oral, crema y óvulos.
+El modelo TxGNN predice que podría ser efectivo para **enfermedad de la región orbitaria (disease of orbital region)**, con un puntaje de 0,9990.
+Para esta predicción no hay estudios que respalden la dirección: el único ensayo clínico vinculado corresponde a otra enfermedad (atrofia geográfica de la retina) y no hay literatura.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Disease of orbital region |
+| Nueva Indicación Predicha | enfermedad de la región orbitaria (disease of orbital region) |
 | Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (7 de 7) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorización | 7 (vigentes: 7) |
-| Decisión Recomendada | Proceed with Guardrails |
+| Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-La nistatina es un antifúngico poliénico que se une al ergosterol de la membrana celular del hongo, formando poros que provocan la fuga del contenido celular. Este mecanismo actúa directamente sobre las especies de *Candida*, la principal causa de la vulvovaginitis infecciosa. Cabe señalar que en los datos compilados para este informe el campo de mecanismo de acción no está registrado; la descripción anterior proviene del análisis mecanístico de la predicción.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado en los datos compilados para este informe. Por conocimiento general, la nistatina se une al ergosterol de la membrana de los hongos y altera su integridad. No se absorbe de forma sistémica tras su uso oral o tópico.
 
-La candidiasis vulvovaginal es una de las causas más frecuentes de vaginitis (*Candida albicans* explica el 85–90 % de los casos), por lo que la predicción es biológicamente plausible y coherente con el uso tópico conocido de la nistatina.
+Con ese mecanismo, no se identifica un vínculo biológico creíble con una enfermedad de la región orbitaria. El puntaje alto (0,9990) proviene de una predicción computacional sin respaldo biológico ni clínico, y probablemente refleja asociaciones entre términos de la ontología de enfermedades más que una relación terapéutica real.
 
-Limitaciones: la nistatina no se espera que funcione en causas no fúngicas de vulvovaginitis ni, probablemente, en cepas de *Candida* no albicans o resistentes. Además, una revisión de 1992 señala que los imidazoles y triazoles han superado a la nistatina como primera elección en candidiasis vulvovaginal.
+Por lo tanto, esta predicción debe tomarse solo como una hipótesis sin sustento y no como una indicación plausible.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados.
+| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
+|---------|------|------|------|---------|
+| [NCT03178149](https://clinicaltrials.gov/study/NCT03178149) | Fase 1 | Reclutando | 42 | Estudio de escalada de dosis de ASP7317 (terapia celular) en atrofia geográfica secundaria a degeneración macular asociada a la edad. No involucra nistatina ni enfermedad orbitaria; no aporta evidencia a esta predicción. |
 
 ## Evidencia de Literatura
 
-La evidencia disponible se compone principalmente de revisiones y artículos de manejo clínico; no se identificaron ensayos controlados aleatorizados. Se listan las publicaciones más relevantes:
-
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [25775428](https://pubmed.ncbi.nlm.nih.gov/25775428/) | 2015 | Revisión | BMJ Clinical Evidence | Candidiasis vulvovaginal: segunda causa más común de vaginitis; *C. albicans* en 85–90 % de los casos |
-| [21718579](https://pubmed.ncbi.nlm.nih.gov/21718579/) | 2010 | Revisión | BMJ Clinical Evidence | Actualización sobre tratamiento de la candidiasis vulvovaginal |
-| [19454049](https://pubmed.ncbi.nlm.nih.gov/19454049/) | 2007 | Revisión | BMJ Clinical Evidence | Revisión previa sobre candidiasis vulvovaginal |
-| [39771534](https://pubmed.ncbi.nlm.nih.gov/39771534/) | 2024 | Revisión | Pharmaceutics | Manejo de candidiasis vulvovaginal resistente a fluconazol; incluye nistatina entre las alternativas, junto con ácido bórico, oteseconazol e ibrexafungerp |
-| [21774671](https://pubmed.ncbi.nlm.nih.gov/21774671/) | 2011 | Revisión | Journal of Women's Health | Ácido bórico en candidiasis vulvovaginal recurrente; mayor resistencia de especies no albicans a azoles |
-| [1436934](https://pubmed.ncbi.nlm.nih.gov/1436934/) | 1992 | Revisión | Obstetrics and Gynecology Clinics of North America | Antifúngicos tópicos: la nistatina (introducida en los años 50) fue superada por imidazoles y triazoles como primera opción |
-| [4919155](https://pubmed.ncbi.nlm.nih.gov/4919155/) | 1970 | Revisión | Medical Clinics of North America | Monografía sobre nistatina |
-| [37830930](https://pubmed.ncbi.nlm.nih.gov/37830930/) | 2023 | Preclínico (modelo animal) | Future Microbiology | Violeta de genciana comparada con nistatina en candidiasis vulvovaginal murina |
-| [36588489](https://pubmed.ncbi.nlm.nih.gov/36588489/) | 2022 | Estudio clínico/morfopatológico | Rom J Morphol Embryol | Aspectos clínicos y microbiológicos de la vulvovaginitis por *Candida* antes del tratamiento local con nistatina |
-| [35136875](https://pubmed.ncbi.nlm.nih.gov/35136875/) | 2022 | Consenso de expertos | Women's Health Reports | Tratamiento tópico de la candidiasis vulvovaginal recurrente |
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica |
 |---------|------|------|
-| 12236 | DIPNI | 100000 UI comp. vaginales x 12 |
-| 12237 | DIPNI | 500000 UI comp. orales x 12 |
-| 12238 | DIPNI | 500000 UI comp. orales x 30 |
+| 12236 | DIPNI | Comprimidos vaginales 100000 UI x 12 |
+| 12237 | DIPNI | Comprimidos orales 500000 UI x 12 |
+| 12238 | DIPNI | Comprimidos orales 500000 UI x 30 |
 | 31789 | NISTATINA DENVER FARMA | Crema x 30 g |
 | 31788 | NISTATINA DENVER FARMA | Suspensión oral x 60 ml |
 
-Las 7 autorizaciones registradas corresponden a productos de un solo principio activo y todas están vigentes (se listan las 5 principales).
+Se muestran 5 de las 7 autorizaciones vigentes de nistatina de un solo principio activo (las otras dos corresponden a DIPNI comprimidos vaginales x 6 y O BIOL óvulos x 6).
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se registraron interacciones farmacológicas en los datos compilados.
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-La indicación es biológicamente plausible y respaldada por literatura (principalmente revisiones) que describe el uso de la nistatina en candidiasis vulvovaginal, pero no existen ensayos clínicos registrados y la nistatina ha sido superada por azoles como primera opción.
+La predicción no tiene respaldo: el nivel de evidencia es L5, no hay literatura y el único ensayo vinculado estudia una enfermedad retiniana con un tratamiento no relacionado. Además, no existe un mecanismo plausible para que un antifúngico sin absorción sistémica actúe sobre una enfermedad orbitaria.
 
 **Para avanzar se necesita:**
-- Obtener y revisar el prospecto de ANMAT (advertencias y contraindicaciones)
-- Confirmar el mecanismo de acción en una fuente farmacológica de referencia
-- Evidencia comparativa actual (ensayos controlados) frente a azoles
-- Definir la población objetivo: candidiasis por *Candida albicans* sensible, excluyendo causas no fúngicas y cepas resistentes
+- Datos del mecanismo de acción y una hipótesis biológica que vincule la nistatina con la región orbitaria
+- Estudios preclínicos o clínicos que evalúen directamente esta enfermedad
+- Información de seguridad del prospecto aprobado por ANMAT (advertencias y contraindicaciones)
+- Análisis de compatibilidad de vías de administración, dado que las formas disponibles son orales, vaginales y tópicas
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -39,7 +39,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 ## Resumen en Una Frase
 
-Felodipina es un bloqueador de los canales de calcio tipo L con actividad vasodilatadora arterial. El modelo TxGNN predice que podría ser útil para la **hipertensión pulmonar de mecanismo multifactorial poco claro (pulmonary hypertension with unclear multifactorial mechanism)**. Hasta ahora no hay **ningún ensayo clínico ni publicación** que respalde esta predicción, que por lo tanto se apoya solo en el modelo.
+Felodipina es un antagonista de los canales de calcio de tipo L del grupo de las dihidropiridinas, que relaja el músculo liso vascular y produce vasodilatación.
+El modelo TxGNN predice que podría ser útil para **hipertensión pulmonar de mecanismo multifactorial poco claro (pulmonary hypertension with unclear multifactorial mechanism)**, pero actualmente no hay ensayos clínicos ni publicaciones que respalden directamente esta predicción: el sustento es solo computacional.
 
 ## Resumen Rápido
 
@@ -53,11 +54,11 @@ Felodipina es un bloqueador de los canales de calcio tipo L con actividad vasodi
 | Número de Autorización | 6 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
-## ¿Por qué es razonable esta predicción?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, felodipina es un bloqueador de los canales de calcio tipo L con acción vasodilatadora sobre las arterias. Mecanísticamente, esto podría ser aplicable al tono vascular pulmonar.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, felodipina es un bloqueador de los canales de calcio de tipo L que relaja el músculo liso vascular y causa vasodilatación. Este es un fundamento plausible, aunque poco específico, para una acción vasodilatadora pulmonar.
 
-Esta plausibilidad es solo teórica. El puntaje de TxGNN es muy alto (0,9991), pero proviene de una predicción basada en el modelo y no de estudios en pacientes. Los bloqueadores de canales de calcio suelen ser útiles únicamente en el pequeño subgrupo de hipertensión arterial pulmonar con respuesta vasorreactiva. Esta entidad, en cambio, es heterogénea y de mecanismo poco claro, por lo que no se puede suponer que el beneficio se extienda a todos los casos.
+Los bloqueadores de los canales de calcio solo resultan útiles en un subgrupo pequeño de pacientes con hipertensión arterial pulmonar vasorreactiva, y la enfermedad predicha está mal definida. Por ello, el puntaje del modelo es muy alto, pero no existe evidencia clínica ni bibliográfica que lo confirme.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -69,15 +70,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-Los productos con autorización vigente de felodipina en Argentina son los siguientes (se muestran 5 de las 6 autorizaciones vigentes):
+Los datos locales registran 6 autorizaciones vigentes de productos con felodipina, todas del laboratorio AstraZeneca.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 55481 | PLENDIL | 10 mg comprimidos de liberación prolongada x 28 | No registrada en los datos locales |
-| 55482 | PLENDIL | 5 mg comprimidos de liberación prolongada x 28 | No registrada en los datos locales |
-| 45022 | ATACAND DUO | 16 mg/5 mg comprimidos x 60 | No registrada en los datos locales |
-| 45019 | ATACAND DUO | 8 mg/2,5 mg comprimidos x 60 | No registrada en los datos locales |
-| 45021 | ATACAND DUO | 16 mg/2,5 mg comprimidos x 60 | No registrada en los datos locales |
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 55481 | PLENDIL | 10 mg comprimidos de liberación prolongada x 28 |
+| 55482 | PLENDIL | 5 mg comprimidos de liberación prolongada x 28 |
+| 45022 | ATACAND DUO | 16 mg/5 mg comprimidos x 60 |
+| 45019 | ATACAND DUO | 8 mg/2,5 mg comprimidos x 60 |
+| 45021 | ATACAND DUO | 16 mg/2,5 mg comprimidos x 60 |
 
 ## Consideraciones de Seguridad
 
@@ -88,13 +89,14 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto en TxGNN, pero no cuenta con ensayos clínicos ni literatura que estudien directamente esta enfermedad (nivel L5). La hipertensión pulmonar es una condición heterogénea en la que los bloqueadores de canales de calcio solo benefician a un subgrupo reducido. Por eso no es posible avanzar con la información disponible.
+La predicción principal tiene un puntaje alto, pero carece de ensayos clínicos y de estudios que evalúen directamente esta enfermedad (nivel L5). Además, la indicación está mal definida y los bloqueadores de los canales de calcio solo benefician a un subgrupo reducido de pacientes con hipertensión pulmonar.
 
 **Para avanzar se necesita:**
-- Revisar la literatura clínica y preclínica que estudie directamente felodipina en hipertensión pulmonar, con medición de presión o resistencia vascular pulmonar.
-- Definir a qué subgrupo de pacientes (por ejemplo, con respuesta vasorreactiva) se aplicaría la hipótesis.
-- Obtener los datos del mecanismo de acción desde una fuente como DrugBank.
-- Obtener del prospecto de ANMAT las advertencias y contraindicaciones, y evaluar la seguridad de la vasodilatación en este contexto, en particular el efecto sobre la relación ventilación-perfusión.
+- Definir con precisión la entidad clínica predicha y el subgrupo de pacientes relevante.
+- Revisión bibliográfica dirigida a la circulación pulmonar y a pacientes con hipertensión pulmonar.
+- Datos del mecanismo de acción (por ejemplo, desde DrugBank).
+- Advertencias y contraindicaciones del prospecto aprobado por ANMAT.
+- Evaluar el riesgo de empeorar el equilibrio ventilación-perfusión por vasodilatación en pacientes con enfermedad pulmonar.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

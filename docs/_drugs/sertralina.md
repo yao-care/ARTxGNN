@@ -9,7 +9,7 @@ drugbank_id: DB01104
 monitor_inn: "Sertraline"
 predicted_indications: ["schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
 last_modified_at: 2026-11-16
-description: "Sertralina: nueva indicación predicha, Trastorno de personalidad esquizoide (schizoid personality disorder) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Sertralina: nueva indicación predicha, trastorno de personalidad esquizoide (schizoid personality disorder) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Sertralina
@@ -34,19 +34,20 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-## Sertralina: Trastorno de personalidad esquizoide (schizoid personality disorder)
+## Sertralina: trastorno de personalidad esquizoide (schizoid personality disorder)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Sertralina es un fármaco que se comercializa en Argentina con múltiples autorizaciones vigentes. El modelo TxGNN predice que podría ser útil para el **trastorno de personalidad esquizoide (schizoid personality disorder)**, pero actualmente **no hay ensayos clínicos** y solo hay **1 publicación**, que además trata sobre otro trastorno (atracón), por lo que la predicción se apoya únicamente en el modelo.
+Sertralina es un fármaco antidepresivo de la clase de los inhibidores selectivos de la recaptación de serotonina (ISRS), comercializado en Argentina.
+El modelo TxGNN predice que podría ser efectivo para **trastorno de personalidad esquizoide (schizoid personality disorder)**, pero actualmente **no hay ensayos clínicos** y solo **1 publicación** vinculada, que trata sobre otro trastorno (trastorno por atracón), por lo que la evidencia es únicamente la predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Trastorno de personalidad esquizoide (schizoid personality disorder) |
+| Nueva Indicación Predicha | trastorno de personalidad esquizoide (schizoid personality disorder) |
 | Puntaje de Predicción TxGNN | 0.9993 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (al menos 20) – el estado del registro en ANMAT no está incluido en estos datos |
@@ -55,9 +56,9 @@ Sertralina es un fármaco que se comercializa en Argentina con múltiples autori
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, sertralina pertenece a la clase de los inhibidores selectivos de la recaptación de serotonina, que aumentan la serotonina disponible en la sinapsis y modulan circuitos cerebrales del estado de ánimo y la ansiedad.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por conocimiento general, la sertralina pertenece a la clase de los ISRS, que aumentan la disponibilidad de serotonina en la sinapsis, y mecanísticamente se podría especular con un efecto sobre síntomas afectivos o de ansiedad asociados a la patología de personalidad.
 
-Para el trastorno de personalidad esquizoide, sin embargo, no se identificó un mecanismo específico que respalde el vínculo. La relación se sostiene solo en el puntaje alto del modelo, y la única publicación recuperada trata sobre el trastorno por atracón, no sobre esta enfermedad. Por ello, la predicción debe considerarse una hipótesis computacional sin respaldo clínico propio.
+Sin embargo, los datos compilados no respaldan un vínculo mecanístico directo con el trastorno de personalidad esquizoide. La única publicación vinculada aborda el trastorno por atracón, no la enfermedad predicha. Además, el puntaje de 0,9993 es idéntico para varios trastornos de personalidad no relacionados entre sí, lo que sugiere un artefacto a nivel de clase más que una señal específica de la enfermedad. Debe interpretarse como una hipótesis del modelo, no como evidencia.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -67,19 +68,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [19794312](https://pubmed.ncbi.nlm.nih.gov/19794312/) | 2009 | Estudio clínico / revisión | International Clinical Psychopharmacology | Estudio en 30 pacientes con trastorno por atracón que comparó tres tratamientos de 6 meses (dieta, terapia cognitivo-conductual y sertralina en distintas combinaciones). No aborda el trastorno esquizoide. |
+| [19794312](https://pubmed.ncbi.nlm.nih.gov/19794312/) | 2009 | Informe de tratamiento multimodal | International Clinical Psychopharmacology | En 30 pacientes con trastorno por atracón se compararon tres tratamientos de 6 meses (dieta, terapia cognitivo-conductual y sertralina, en distintas combinaciones). No aborda el trastorno de personalidad esquizoide. |
 
 ## Información de Mercado en Argentina
 
-Se identificaron al menos 20 autorizaciones, todas vigentes y de productos de un solo principio activo; la lista puede ser parcial. Los textos de indicación aprobada no están registrados en los datos locales.
+Sertralina cuenta con al menos 20 autorizaciones vigentes (la lista puede ser parcial), todas de productos de un solo principio activo. Los textos de indicación aprobada no están registrados en los datos locales.
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20681 | ATENIX | 50 mg comprimidos recubiertos ranurados x 60 | No registrada |
+| 20681 | ATENIX | 50 mg comprimidos ranurados x 60 | No registrada |
 | 40791 | ZOXX 50 | 50 mg comprimidos recubiertos x 30 | No registrada |
 | 23736 | BICROMIL | 100 mg comprimidos x 30 | No registrada |
 | 51568 | DIMENA | 100 mg comprimidos x 30 | No registrada |
-| 26875 | ATENIX | 25 mg comprimidos recubiertos ranurados x 30 | No registrada |
+| 26875 | ATENIX | 25 mg comprimidos ranurados x 30 | No registrada |
 
 ## Consideraciones de Seguridad
 
@@ -90,13 +91,13 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para el trastorno de personalidad esquizoide se basa solo en el puntaje del modelo (0,9993), sin ensayos clínicos ni estudios que evalúen directamente esta enfermedad. El nivel de evidencia es L5.
+La predicción se apoya solo en el puntaje del modelo (nivel L5): no hay ensayos clínicos ni estudios que evalúen directamente el trastorno de personalidad esquizoide, y el puntaje idéntico entre varios trastornos de personalidad indica una posible señal inespecífica.
 
 **Para avanzar se necesita:**
-- Estudios clínicos o literatura que evalúen sertralina directamente en el trastorno de personalidad esquizoide
-- Datos del mecanismo de acción y de un posible vínculo específico con esta enfermedad
-- Información de seguridad del prospecto (advertencias y contraindicaciones) aprobada por ANMAT
-- Revisión de la compatibilidad de vías de administración y de la similitud con la indicación original
+- Estudios clínicos o literatura que evalúen directamente la sertralina en el trastorno de personalidad esquizoide
+- Datos del mecanismo de acción y análisis de su vínculo con la enfermedad predicha
+- Advertencias y contraindicaciones del prospecto de ANMAT para completar la evaluación de seguridad
+- Consideración específica de la seguridad en poblaciones jóvenes (advertencia de los ISRS en menores) si se explorara el uso
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

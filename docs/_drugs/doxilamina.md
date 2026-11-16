@@ -9,7 +9,7 @@ drugbank_id: DB00366
 monitor_inn: "Doxylamine"
 predicted_indications: ["nasal cavity disease"]
 last_modified_at: 2026-11-16
-description: "Doxilamina: nueva indicación predicha, Nasal cavity disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Doxilamina: nueva indicación predicha, enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Doxilamina
@@ -34,20 +34,20 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-## Doxilamina: Nasal cavity disease
+## Doxilamina: enfermedad de la cavidad nasal (nasal cavity disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Doxilamina es un antihistamínico H1 de primera generación (etanolamina) que se comercializa actualmente en Argentina.
-Actualmente no hay ensayos clínicos ni publicaciones en los datos compilados para este informe que respalden esta dirección; la predicción se apoya solo en la farmacología de clase.
+Doxilamina es un antihistamínico H1 de primera generación (etanolamina) con marcada actividad anticolinérgica, comercializado en Argentina.
+El modelo TxGNN predice que podría ser efectivo para **enfermedad de la cavidad nasal (nasal cavity disease)**, pero actualmente **no hay ensayos clínicos ni publicaciones** en los datos compilados que respalden esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Nasal cavity disease |
+| Nueva Indicación Predicha | enfermedad de la cavidad nasal (nasal cavity disease) |
 | Puntaje de Predicción TxGNN | 0.9936 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (4 de 4) – el estado del registro en ANMAT no está incluido en estos datos |
@@ -56,11 +56,11 @@ Actualmente no hay ensayos clínicos ni publicaciones en los datos compilados pa
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, la doxilamina es un antihistamínico H1 de primera generación del grupo de las etanolaminas, con actividad anticolinérgica y sedante.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción de la doxilamina en los datos compilados. Según lo conocido de su clase, es un antihistamínico H1 de primera generación (etanolamina) con actividad anticolinérgica marcada.
 
-La urticaria alérgica es una enfermedad mediada en gran parte por la histamina liberada por los mastocitos. El bloqueo del receptor H1 es, por lo tanto, biológicamente coherente con la predicción, lo que explica en parte el puntaje alto del modelo.
+Mecanísticamente, el bloqueo de los receptores H1 en la mucosa nasal podría reducir la rinorrea, los estornudos, el prurito y la congestión mediados por histamina, como ocurre en la rinitis alérgica. Su efecto anticolinérgico podría además disminuir las secreciones nasales, por ejemplo en la rinorrea asociada al resfriado común.
 
-Sin embargo, este vínculo se basa solo en el efecto de clase (evidencia indirecta). No se aportaron estudios que evalúen la doxilamina en esta enfermedad. Además, las guías actuales prefieren antihistamínicos de segunda generación, por su menor sedación y carga anticolinérgica, lo que limita el valor práctico de esta opción.
+Esta justificación se infiere solo de las propiedades de la clase del fármaco. El puntaje alto es una predicción computacional sin respaldo de estudios en los datos disponibles, y probablemente refleja la asociación conocida entre antihistamínicos y enfermedad alérgica de vías aéreas superiores, por lo que podría representar un uso ya existente más que una señal novedosa de reposicionamiento. La sedación, los efectos adversos anticolinérgicos y la disponibilidad de antihistamínicos de segunda generación no sedantes y corticoides intranasales limitan su atractivo para este uso.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -75,9 +75,9 @@ Actualmente no hay literatura relacionada disponible.
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 51937 | TONVAL | 10/10 mg cáps. x 30 | No registrada en los datos locales |
-| 39716 | EPIDAC | Cápsulas x 24 | No registrada en los datos locales |
-| 54367 | DETIXOL | Cápsulas x 30 | No registrada en los datos locales |
-| 52593 | TUERIS | Cápsulas x 24 | No registrada en los datos locales |
+| 39716 | EPIDAC | Cáps. x 24 | No registrada en los datos locales |
+| 54367 | DETIXOL | Cáps. x 30 | No registrada en los datos locales |
+| 52593 | TUERIS | Cáps. x 24 | No registrada en los datos locales |
 
 ## Consideraciones de Seguridad
 
@@ -88,13 +88,14 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-Además, existen alternativas de segunda generación con mejor perfil de tolerabilidad.
+La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura que estudien directamente la enfermedad de la cavidad nasal. Además, existen alternativas establecidas con mejor perfil de tolerabilidad.
 
 **Para avanzar se necesita:**
-- Búsqueda de estudios clínicos o literatura que evalúen directamente la doxilamina en urticaria alérgica
-- Datos del mecanismo de acción confirmados en fuentes de referencia
-- Revisión de advertencias y contraindicaciones de los prospectos de ANMAT
-- Comparación frente a antihistamínicos de segunda generación para definir su valor práctico
+- Obtener y analizar el prospecto de ANMAT (advertencias y contraindicaciones), actualmente un vacío bloqueante para el cribado de seguridad
+- Completar los datos del mecanismo de acción desde DrugBank
+- Revisión de literatura y ensayos específicos sobre doxilamina en enfermedades nasales
+- Comparación frente a antihistamínicos de segunda generación y corticoides intranasales
+- Evaluación de compatibilidad de vía de administración y similitud con la indicación original
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

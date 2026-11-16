@@ -39,7 +39,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 ## Resumen en Una Frase
 
-El metotrexato es un antifolato que inhibe la enzima dihidrofolato reductasa (DHFR) y es citotóxico para células tumorales en proliferación. El modelo TxGNN predice que podría ser efectivo para **blastoma pulmonar (pulmonary blastoma)**, pero **no se recuperó ningún ensayo clínico ni publicación** que respalde esta predicción, por lo que se trata de una hipótesis basada solo en el modelo.
+El metotrexato es un antimetabolito antifolato, ya comercializado en Argentina. El modelo TxGNN predice que podría ser útil para **blastoma pulmonar (pulmonary blastoma)**, un tumor maligno raro del pulmón. Para esta predicción hay **0 ensayos clínicos** y **0 publicaciones** en los datos compilados para este informe, por lo que se trata de una predicción puramente computacional.
 
 ## Resumen Rápido
 
@@ -55,9 +55,11 @@ El metotrexato es un antifolato que inhibe la enzima dihidrofolato reductasa (DH
 
 ## ¿Por qué es Razonable esta Predicción?
 
-El metotrexato es un antifolato: bloquea la DHFR, enzima necesaria para sintetizar nucleótidos y, con ello, el ADN. Las células que se dividen rápido, como muchas células tumorales, son especialmente sensibles a este bloqueo. En los datos compilados para este informe no hay una descripción detallada del mecanismo de acción del fármaco, por lo que lo anterior corresponde al conocimiento general de su clase.
+En los datos compilados no hay información detallada sobre el mecanismo de acción del metotrexato. Según el conocimiento general, es un antifolato que inhibe la dihidrofolato reductasa (DHFR). Esta inhibición reduce la síntesis de nucleótidos y, con ella, la replicación del ADN en células que proliferan rápidamente.
 
-Para el blastoma pulmonar, un tumor pulmonar raro, los datos compilados no aportan ningún fundamento específico. El puntaje alto del modelo (0,9945) no se acompaña de estudios que muestren actividad del metotrexato en esta enfermedad. El único argumento disponible es la actividad antiproliferativa general de un citotóxico, lo cual no basta para sostener la predicción.
+Con ese mecanismo, un efecto sobre un tumor maligno de crecimiento rápido, como el blastoma pulmonar (de componente mixto epitelial y mesenquimático), es biológicamente plausible. Sin embargo, se trata de un argumento citotóxico genérico. No se recuperó ningún dato específico de esta enfermedad que lo respalde, y la relación de similitud con la indicación ya autorizada no pudo evaluarse.
+
+Por ello, la predicción debe considerarse una hipótesis para generar investigación y no una señal de eficacia. El puntaje alto del modelo no sustituye la evidencia clínica ni preclínica.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -69,17 +71,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-El metotrexato figura como **comercializado** en Argentina. Los registros locales indican que todas las autorizaciones son de producto de un solo principio activo y están vigentes. Las autorizaciones locales no traen texto de indicación aprobada, por lo que no es posible resumirlo aquí.
+El metotrexato figura como **comercializado** en Argentina, con autorizaciones vigentes de productos de un solo principio activo. Hay presentaciones orales (comprimidos) y otras en frasco ampolla. Los registros locales no incluyen texto de indicación aprobada en los datos compilados.
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
 | Clasificación de Citotoxicidad | Citotóxico convencional (antimetabolito, clase antifolato) |
-| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
-| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Hemograma, función hepática y renal (según prospecto) |
-| Protección en Manejo | Seguir las regulaciones de manejo de fármacos citotóxicos |
+| Riesgo de Mielosupresión | Alto, especialmente con dosis altas o función renal reducida (leucopenia, trombocitopenia, anemia) |
+| Clasificación de Emetogenicidad | Baja a moderada, según la dosis |
+| Items de Monitoreo | Hemograma con diferencial, función hepática y renal, niveles séricos de metotrexato con dosis altas |
+| Protección en Manejo | Debe seguir las regulaciones de manejo de fármacos citotóxicos |
+
+Esta información es general. Se debe confirmar con las advertencias y precauciones del prospecto.
 
 ## Consideraciones de Seguridad
 
@@ -90,13 +94,14 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para blastoma pulmonar se apoya únicamente en el puntaje del modelo. No hay ensayos clínicos ni publicaciones que estudien esta enfermedad, así que el nivel de evidencia es L5.
+La predicción no cuenta con ningún ensayo clínico ni publicación sobre el blastoma pulmonar (nivel L5). El único sustento es el mecanismo antifolato genérico, y además faltan los datos de seguridad del prospecto local.
 
 **Para avanzar se necesita:**
-- Una revisión sistemática de la literatura sobre blastoma pulmonar y el uso de antifolatos o quimioterapia citotóxica en este tumor (reportes de casos, series).
-- Datos detallados del mecanismo de acción y un fundamento mecanístico específico para este tumor.
-- Las advertencias y contraindicaciones del prospecto aprobado en Argentina, para el análisis de seguridad.
-- Evaluación de la compatibilidad de vías de administración y, de ser viable, estudios preclínicos o un diseño de ensayo exploratorio.
+- Datos detallados del mecanismo de acción.
+- Revisión del prospecto local de ANMAT (advertencias, contraindicaciones e interacciones).
+- Búsqueda dirigida de series de casos, estudios preclínicos o ensayos sobre blastoma pulmonar.
+- Evaluación de compatibilidad de la vía de administración con el tratamiento requerido.
+- Opinión de expertos en oncología torácica sobre la plausibilidad clínica antes de reconsiderar la decisión.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

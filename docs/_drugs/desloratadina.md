@@ -9,7 +9,7 @@ drugbank_id: DB00967
 monitor_inn: "Desloratadine"
 predicted_indications: ["nasal cavity disease", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis"]
 last_modified_at: 2026-11-16
-description: "Desloratadina: nueva indicación predicha, Nasal cavity disease (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Desloratadina: nueva indicación predicha, enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Desloratadina
@@ -34,81 +34,87 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-## Desloratadina: Nasal cavity disease
+## Desloratadina: enfermedad de la cavidad nasal (nasal cavity disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Desloratadina es un antihistamínico de segunda generación, antagonista selectivo de los receptores H1 periféricos, comercializado en Argentina.
+Desloratadina es un antihistamínico antagonista selectivo de los receptores H1 periféricos (metabolito activo de la loratadina).
+El modelo TxGNN predice que podría ser útil para **enfermedad de la cavidad nasal (nasal cavity disease)**, pero actualmente solo hay **2 publicaciones preclínicas o indirectas** y **ningún ensayo clínico** que respalden esta dirección.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Nasal cavity disease |
+| Nueva Indicación Predicha | enfermedad de la cavidad nasal (nasal cavity disease) |
 | Puntaje de Predicción TxGNN | 0.9987 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (al menos 20) – el estado del registro en ANMAT no está incluido en estos datos |
 | Número de Autorización | al menos 20 |
-| Decisión Recomendada | Proceed with Guardrails |
+| Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Los datos compilados no incluyen el mecanismo de acción de forma detallada. Según la información conocida, desloratadina es un agonista inverso selectivo del receptor H1 periférico, es decir, bloquea la acción de la histamina liberada por los mastocitos.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la desloratadina es un antagonista selectivo del receptor H1 de histamina de acción periférica y es el metabolito activo de la loratadina. Mecanísticamente, el bloqueo de la histamina podría ser aplicable a la patología de la cavidad nasal, donde la histamina contribuye a los síntomas de tipo alérgico.
 
-La urticaria por frío es una urticaria física mediada por mastocitos e histamina: el frío desencadena la liberación de histamina, que produce ronchas y picazón. Bloquear el receptor H1 reduce directamente estos síntomas, por lo que el mecanismo es biológicamente coherente.
+El puntaje alto (0,9987) es coherente con esta farmacología conocida, por lo que la predicción parece más un redescubrimiento de un uso ya esperable que un reposicionamiento novedoso. Conviene interpretarla con cautela: el puntaje del modelo no equivale a evidencia clínica.
 
-Además, las guías recomiendan aumentar la dosis de antihistamínicos de segunda generación (hasta 4 veces la estándar) en pacientes con urticaria por frío que no responden a la dosis habitual, lo que respalda el uso de desloratadina en esta enfermedad.
+Las dos publicaciones recuperadas no estudian la desloratadina en la enfermedad nasal de forma directa, por lo que no alcanzan para elevar el nivel de evidencia por encima de L5.
 
-**Nota sobre el nivel de evidencia:** los ensayos registrados son de Fase 4 (no Fase 3), aunque son aleatorizados, comparan dosis y/o usan placebo, y estudian directamente la enfermedad. Se asigna L1 por la solidez y relevancia directa de la evidencia; estrictamente según la definición basada en fases, podría clasificarse como L2.
+---
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT01444196](https://clinicaltrials.gov/study/NCT01444196) | Fase 4 | Completado | 30 | Estudio multicéntrico, doble ciego, con escalada de dosis (5, 10 y 20 mg) en urticaria por frío adquirida; busca la dosis suficiente para inhibir los síntomas |
-| [NCT00600847](https://clinicaltrials.gov/study/NCT00600847) | Fase 4 | Completado | 33 | Estudio cruzado, aleatorizado, doble ciego y controlado con placebo; compara 5 mg vs. 20 mg en lesiones de urticaria inducidas experimentalmente |
+Actualmente no hay ensayos clínicos relacionados registrados.
+
+---
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [19201016](https://pubmed.ncbi.nlm.nih.gov/19201016/) | 2009 | ECA | J Allergy Clin Immunol | Estudio aleatorizado, controlado con placebo y cruzado: la dosis alta de desloratadina reduce el volumen de las ronchas y mejora los umbrales de provocación por frío frente a la dosis estándar |
-| [22242678](https://pubmed.ncbi.nlm.nih.gov/22242678/) | 2012 | ECA | Br J Dermatol | Ensayo aleatorizado de escalada de dosis de antihistamínicos H1, con medición del umbral crítico de temperatura en urticaria por frío |
-| [14754651](https://pubmed.ncbi.nlm.nih.gov/14754651/) | 2004 | ECA | J Dermatol Treat | Desloratadina 5 mg durante 4 días, probada con cubos de hielo antes y después del tratamiento en 12 pacientes con urticaria por frío |
-| [15516152](https://pubmed.ncbi.nlm.nih.gov/15516152/) | 2004 | Revisión | Drugs | Revisión sobre etiología, manejo y opciones de tratamiento de la urticaria crónica |
-| [19032340](https://pubmed.ncbi.nlm.nih.gov/19032340/) | 2008 | Revisión | Allergy | Revisión de ebastina (otro antihistamínico) en rinitis alérgica y urticaria crónica idiopática; relevancia indirecta |
-| [38025339](https://pubmed.ncbi.nlm.nih.gov/38025339/) | 2023 | Reporte de caso | Qatar Med J | Primer caso de urticaria por frío tras anafilaxia por picadura de hormiga negra |
+| [30488351](https://pubmed.ncbi.nlm.nih.gov/30488351/) | 2019 | Estudio animal (preclínico) | European Archives of Oto-Rhino-Laryngology | Modelo de rinitis alérgica inducida por ovoalbúmina en ratas; evalúa hesperidina y timol, no desloratadina. |
+| [19769798](https://pubmed.ncbi.nlm.nih.gov/19769798/) | 2009 | Estudio animal (preclínico) | American Journal of Rhinology & Allergy | Modelo felino de congestión nasal; evalúa loratadina (compuesto original) con montelukast, y pseudoefedrina con y sin desloratadina. |
+
+---
 
 ## Información de Mercado en Argentina
 
-El medicamento está comercializado en Argentina. Se registran al menos 20 autorizaciones vigentes (la lista puede ser parcial). Principales autorizaciones:
+Hay al menos 20 autorizaciones vigentes de productos con desloratadina como único principio activo (la lista puede ser parcial). No se registra texto de indicación aprobada en los datos locales. Principales autorizaciones:
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 52847 | TERALMINA | 5 mg comprimidos recubiertos x 7 | — |
-| 35738 | HEXALER | Jarabe x 60 ml | — |
-| 37706 | NOVO ALERPRIV | 5 mg comprimidos recubiertos x 20 | — |
-| 32833 | FRENALER | 5 mg comprimidos recubiertos x 7 | — |
-| 31797 | AERIUS | Jarabe x 60 ml | — |
+| 52847 | TERALMINA | 5 mg comprimidos recubiertos x 7 | No registrada |
+| 35738 | HEXALER | jarabe x 60 ml | No registrada |
+| 37706 | NOVO ALERPRIV | 5 mg comprimidos recubiertos x 20 | No registrada |
+| 32833 | FRENALER | 5 mg comprimidos recubiertos x 7 | No registrada |
+| 31797 | AERIUS | jarabe x 60 ml | No registrada |
+
+---
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
 
+---
+
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-Dos ensayos de Fase 4 completados y tres ECA publicados estudian directamente desloratadina en urticaria por frío, con resultados coherentes con el mecanismo H1. Sin embargo, las muestras son pequeñas y no hay datos locales de seguridad.
+La predicción se apoya solo en el modelo y en dos estudios animales indirectos, ninguno con desloratadina como agente evaluado en esta enfermedad. No hay ensayos clínicos ni datos de seguridad que permitan avanzar.
 
 **Para avanzar se necesita:**
-- Obtener y revisar las advertencias y contraindicaciones del prospecto aprobado por ANMAT.
-- Completar los datos de mecanismo de acción.
-- Definir y justificar la pauta de dosis elevada (superior a la ficha técnica) y su monitoreo de seguridad.
-- Confirmar la indicación aprobada localmente para delimitar el uso fuera de prospecto.
+- Estudios clínicos o literatura que evalúen directamente la desloratadina en enfermedad de la cavidad nasal
+- Datos del mecanismo de acción confirmados desde fuentes farmacológicas
+- Advertencias y contraindicaciones del prospecto de ANMAT
+- Definir con precisión el criterio clínico (la categoría "enfermedad de la cavidad nasal" es amplia)
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

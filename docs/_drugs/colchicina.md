@@ -39,7 +39,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 ## Resumen en Una Frase
 
-Colchicina es un fármaco que actúa sobre los microtúbulos celulares y que cuenta con autorizaciones vigentes en Argentina. El modelo TxGNN predice que podría ser efectivo para **Malaria por Plasmodium falciparum (Plasmodium falciparum malaria)**, pero actualmente **no hay ensayos clínicos** y solo se dispone de **2 publicaciones preclínicas** (una de ellas sobre curcumina, no colchicina), por lo que el respaldo es muy limitado.
+Colchicina es un fármaco que se comercializa en Argentina en siete autorizaciones locales de un solo principio activo. El modelo TxGNN predice que podría ser efectivo para **Malaria por Plasmodium falciparum (Plasmodium falciparum malaria)**. Actualmente no hay ensayos clínicos registrados y solo hay **2 publicaciones** preclínicas, ninguna de las cuales estudia la eficacia de colchicina contra esta enfermedad.
 
 ## Resumen Rápido
 
@@ -53,13 +53,13 @@ Colchicina es un fármaco que actúa sobre los microtúbulos celulares y que cue
 | Número de Autorización | 7 (vigentes: 7) |
 | Decisión Recomendada | Hold |
 
-## ¿Por qué es razonable esta predicción?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la colchicina es un agente que altera los microtúbulos, y el *Plasmodium* depende de la tubulina para la mitosis y la formación de merozoítos. Esto sugiere un vínculo mecanístico plausible, pero indirecto.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida de la literatura farmacológica general, colchicina se une a la tubulina e inhibe la polimerización de los microtúbulos. Los parásitos del género Plasmodium dependen de los microtúbulos para la mitosis, la motilidad y la invasión celular, por lo que un mecanismo de disrupción de microtúbulos es biológicamente plausible.
 
-Un estudio in vitro vincula la expresión del gen plasmodial pfmdr1 en células de mamífero con una mayor susceptibilidad a la cloroquina, lo que sugiere una interacción con transportadores de tipo glicoproteína P. El segundo estudio trata sobre curcumina (no colchicina) y muestra alteración de microtúbulos en *P. falciparum*; solo apoya la biología del blanco por analogía.
+Los dos estudios disponibles apoyan esta idea solo de forma indirecta. El trabajo de 1994 sobre la expresión del gen pfmdr1 en células de mamífero sugiere que colchicina podría ser sustrato de transportadores de eflujo, lo que plantea una posible preocupación de resistencia. El trabajo de 2013 describe la alteración de microtúbulos en P. falciparum causada por curcumina, no por colchicina. No hay datos de eficacia antipalúdica de colchicina.
 
-Las principales barreras son el estrecho margen terapéutico de la colchicina y su toxicidad en el huésped a concentraciones antiparasitarias. No existe evidencia clínica ni in vivo. Dado que ningún estudio citado evalúa directamente colchicina en esta enfermedad, el nivel de evidencia se limita a L5.
+Además, colchicina tiene un índice terapéutico estrecho y toxicidad gastrointestinal y hematológica relevante, lo que sería una barrera importante para un uso antipalúdico. El puntaje elevado del modelo es solo una predicción computacional y no está respaldado por evidencia clínica.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -69,20 +69,18 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [7511206](https://pubmed.ncbi.nlm.nih.gov/7511206/) | 1994 | In vitro / preclínico | Molecular and Cellular Biology | La expresión de pfmdr1 en células de mamífero se asocia con mayor susceptibilidad a cloroquina; no estudia colchicina directamente |
-| [23505424](https://pubmed.ncbi.nlm.nih.gov/23505424/) | 2013 | In vitro / preclínico | PLoS One | La curcumina (no colchicina) altera los microtúbulos de *P. falciparum* |
+| [7511206](https://pubmed.ncbi.nlm.nih.gov/7511206/) | 1994 | Preclínico in vitro | Molecular and Cellular Biology | La expresión de pfmdr1 de Plasmodium en células de mamífero se asocia con mayor sensibilidad a cloroquina; relevante para mecanismos de transporte y resistencia, no evalúa eficacia de colchicina. |
+| [23505424](https://pubmed.ncbi.nlm.nih.gov/23505424/) | 2013 | Preclínico in vitro | PLoS One | Curcumina altera los microtúbulos de P. falciparum; colchicina no es el agente evaluado. |
 
 ## Información de Mercado en Argentina
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 24160 | COLCHICINA HOUDE | Comprimidos x 60 | — |
-| 8577 | COLCHICINA HOUDE | Comprimidos x 20 | — |
-| 6445 | COLPURIL | Comprimidos recubiertos 100 mg x 20 | — |
-| 6449 | COLPURIL 300 RETARD | Cápsulas de liberación prolongada x 20 | — |
-| 6450 | COLPURIL 300 RETARD | Cápsulas de liberación prolongada x 50 | — |
-
-Las 7 autorizaciones registradas están vigentes; se listan las 5 principales.
+| 24160 | COLCHICINA HOUDE | comp. x 60 | No registrada |
+| 8577 | COLCHICINA HOUDE | comp. x 20 | No registrada |
+| 6445 | COLPURIL | 100 mg comp. rec. x 20 | No registrada |
+| 6449 | COLPURIL 300 RETARD | cáps. lib. prol. x 20 | No registrada |
+| 6450 | COLPURIL 300 RETARD | cáps. lib. prol. x 50 | No registrada |
 
 ## Citotoxicidad
 
@@ -103,13 +101,13 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto (0,9960), pero no existen ensayos clínicos ni estudios que evalúen colchicina directamente en malaria por *P. falciparum*. Además, el estrecho margen terapéutico del fármaco es una barrera importante.
+No hay ensayos clínicos ni estudios que evalúen colchicina directamente contra la malaria por P. falciparum; la evidencia se limita a dos estudios preclínicos indirectos y a un puntaje de predicción del modelo. La toxicidad de colchicina y su estrecho margen terapéutico agravan la incertidumbre.
 
 **Para avanzar se necesita:**
-- Estudios in vitro de colchicina (o análogos menos tóxicos) frente a *P. falciparum*, con índice de selectividad frente a células humanas
-- Datos in vivo en modelos animales de malaria
-- Datos del mecanismo de acción y de seguridad del prospecto de ANMAT (advertencias y contraindicaciones)
-- Evaluación de interacciones farmacológicas con antimaláricos, en especial por posibles efectos sobre transportadores tipo glicoproteína P
+- Datos de eficacia in vitro e in vivo de colchicina frente a P. falciparum, incluidas cepas resistentes
+- Datos detallados del mecanismo de acción y evaluación del riesgo de eflujo mediado por pfmdr1
+- Información de seguridad del prospecto de ANMAT (advertencias y contraindicaciones)
+- Evaluación de la ventana terapéutica frente a las concentraciones antipalúdicas requeridas
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

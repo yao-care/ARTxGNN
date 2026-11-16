@@ -39,8 +39,9 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 ## Resumen en Una Frase
 
-Amiodarona es un antiarrítmico de uso cardiovascular con cuatro autorizaciones vigentes en Argentina.
-El modelo TxGNN predice que podría ser efectivo para **taquicardia ventricular polimórfica catecolaminérgica (catecholaminergic polymorphic ventricular tachycardia)**, pero los datos compilados no incluyen ensayos clínicos y la literatura disponible consiste en reportes de caso, cohortes y revisiones que no demuestran eficacia de amiodarona en esta enfermedad.
+Amiodarona es un antiarrítmico de clase III que bloquea múltiples canales iónicos y tiene efecto antagonista beta-adrenérgico.
+El modelo TxGNN predice que podría ser efectivo para **taquicardia ventricular polimórfica catecolaminérgica (catecholaminergic polymorphic ventricular tachycardia)**,
+pero actualmente no hay ensayos clínicos registrados y la literatura recopilada (9 publicaciones) consiste en reportes de caso, cohortes y revisiones en los que la amiodarona aparece solo como fármaco de rescate o comparador, sin evidencia directa de eficacia.
 
 ## Resumen Rápido
 
@@ -56,11 +57,11 @@ El modelo TxGNN predice que podría ser efectivo para **taquicardia ventricular 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. De forma general, amiodarona es un antiarrítmico con efectos sobre canales iónicos y acción simpaticolítica, y esto es lo que sustenta, en teoría, su uso en arritmias ventriculares.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la amiodarona bloquea canales de potasio, sodio y calcio y tiene antagonismo beta-adrenérgico, lo que en principio podría suprimir arritmias ventriculares desencadenadas por catecolaminas.
 
-La taquicardia ventricular polimórfica catecolaminérgica es una canalopatía hereditaria rara, causada por mutaciones en RYR2 o CASQ2, en la que la fuga diastólica de calcio genera arritmias desencadenadas por estimulación adrenérgica. Los efectos betabloqueantes y sobre el calcio de amiodarona son mecanísticamente plausibles, pero no actúan sobre el receptor RyR2.
+Sin embargo, esta taquicardia surge de una fuga diastólica de calcio mediada por RYR2/CASQ2, y el tratamiento de referencia son los betabloqueantes junto con flecainida. La plausibilidad mecanística es por lo tanto limitada y el puntaje elevado (0,9978) no está respaldado por datos clínicos.
 
-Los tratamientos preferidos en esta enfermedad son los betabloqueantes (p. ej., nadolol), la flecainida y la denervación simpática cardíaca. La literatura recuperada menciona amiodarona solo de forma incidental, por lo que el puntaje alto del modelo no está respaldado por evidencia clínica.
+Aunque algunas publicaciones sobre otras arritmias ventriculares pediátricas describen uso de amiodarona, ninguna estudia directamente esta enfermedad con amiodarona como tratamiento. Por ello el nivel de evidencia se fija en L5, pese a que la clasificación interna previa sugería L4.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -68,27 +69,26 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Ninguno de los estudios siguientes evalúa directamente la eficacia de amiodarona en esta enfermedad.
-
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [35892906](https://pubmed.ncbi.nlm.nih.gov/35892906/) | 2022 | Revisión sistemática (cohortes) | Life (Basel) | Características clínicas, genéticas y desenlaces arrítmicos de pacientes con CPVT en China |
-| [39076628](https://pubmed.ncbi.nlm.nih.gov/39076628/) | 2022 | Cohorte retrospectiva | Rev Cardiovasc Med | Características clínicas, base genética y costos sanitarios de CPVT en una ciudad china |
-| [26513538](https://pubmed.ncbi.nlm.nih.gov/26513538/) | 2015 | Revisión | Expert Opin Pharmacother | Avances en el tratamiento farmacológico de las arritmias ventriculares |
-| [39735866](https://pubmed.ncbi.nlm.nih.gov/39735866/) | 2024 | Reporte de caso | Front Cardiovasc Med | CPVT resuelta con denervación simpática cardíaca derecha en un adolescente |
-| [22553997](https://pubmed.ncbi.nlm.nih.gov/22553997/) | 2012 | Reporte de caso | Pacing Clin Electrophysiol | Flecainida suprime las tormentas inducidas por el desfibrilador en CPVT |
-| [29668588](https://pubmed.ncbi.nlm.nih.gov/29668588/) | 2018 | Reporte de caso | Medicine | Diagnóstico tardío de CPVT con mutación RYR2 en un niño de 9 años |
-| [30116135](https://pubmed.ncbi.nlm.nih.gov/30116135/) | 2018 | Reporte de caso | Turk Pediatri Arsivi | Paro cardíaco súbito por CPVT en un niño de 2 años |
-| [37852665](https://pubmed.ncbi.nlm.nih.gov/37852665/) | 2023 | Reporte de caso | BMJ Case Reports | Supervivencia de un niño con paro cardíaco extrahospitalario y taquicardia ventricular recurrente |
+| [35892906](https://pubmed.ncbi.nlm.nih.gov/35892906/) | 2022 | Revisión sistemática | Life (Basel) | Características clínicas, genética y desenlaces arrítmicos de pacientes con esta enfermedad en China |
+| [39076628](https://pubmed.ncbi.nlm.nih.gov/39076628/) | 2022 | Cohorte | Reviews in Cardiovascular Medicine | Características clínicas, base genética y costos sanitarios en una ciudad china |
+| [26513538](https://pubmed.ncbi.nlm.nih.gov/26513538/) | 2015 | Revisión | Expert Opinion on Pharmacotherapy | Avances en el tratamiento farmacológico de arritmias ventriculares |
+| [39735866](https://pubmed.ncbi.nlm.nih.gov/39735866/) | 2024 | Reporte de caso | Frontiers in Cardiovascular Medicine | Resolución con denervación simpática cardíaca derecha tras la izquierda en un adolescente |
+| [22553997](https://pubmed.ncbi.nlm.nih.gov/22553997/) | 2012 | Reporte de caso | PACE | Flecainida suprime las tormentas inducidas por el desfibrilador en un niño de 14 años |
+| [29668588](https://pubmed.ncbi.nlm.nih.gov/29668588/) | 2018 | Reporte de caso | Medicine | Diagnóstico retrasado seis años en un niño de 9 años con mutación de RYR2 |
+| [30116135](https://pubmed.ncbi.nlm.nih.gov/30116135/) | 2018 | Reporte de caso | Turk Pediatri Arşivi | Paro cardíaco súbito en un niño de 2 años |
+| [37852665](https://pubmed.ncbi.nlm.nih.gov/37852665/) | 2023 | Reporte de caso | BMJ Case Reports | Supervivencia de un niño con paro extrahospitalario y taquicardia/fibrilación ventricular recurrente |
+| [22218697](https://pubmed.ncbi.nlm.nih.gov/22218697/) | 2012 | Reporte de caso | Anesthesia & Analgesia | Neonato con síndrome de QT largo y arritmias refractarias tratado con lidocaína, esmolol y amiodarona |
 
 ## Información de Mercado en Argentina
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 7639 | ATLANSIL | comp. x 50 | No registrada en los datos locales |
-| 37428 | MIODARONA | 200 mg comp. x 40 | No registrada en los datos locales |
-| 37427 | MIODARONA | 200 mg comp. x 20 | No registrada en los datos locales |
-| 7638 | ATLANSIL | comp. x 20 | No registrada en los datos locales |
+| 7639 | ATLANSIL | comp. x 50 | — |
+| 37428 | MIODARONA | 200 mg comp. x 40 | — |
+| 37427 | MIODARONA | 200 mg comp. x 20 | — |
+| 7638 | ATLANSIL | comp. x 20 | — |
 
 ## Consideraciones de Seguridad
 
@@ -99,13 +99,12 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-Aunque el puntaje del modelo es muy alto (0,9978), no hay ensayos clínicos ni estudios que evalúen directamente amiodarona en esta enfermedad. Existen alternativas con respaldo clínico y mecanístico mejor establecido (betabloqueantes, flecainida, denervación simpática).
+No existe ningún ensayo ni publicación que estudie directamente la amiodarona en esta enfermedad, y el tratamiento de referencia (betabloqueantes y flecainida) está bien establecido. El puntaje del modelo no se corresponde con datos clínicos.
 
 **Para avanzar se necesita:**
-- Estudios clínicos o series de casos que evalúen específicamente amiodarona en esta enfermedad
-- Datos del mecanismo de acción y del prospecto de ANMAT (advertencias y contraindicaciones)
-- Comparación frente a las terapias de referencia
-- Revisión de interacciones farmacológicas, ya que los datos compilados no las registran
+- Datos del mecanismo de acción y comparación mecanística con las terapias actuales
+- Estudios que evalúen directamente la amiodarona en esta enfermedad
+- Información de seguridad del prospecto (advertencias y contraindicaciones) para el análisis de seguridad inicial
 
 <!-- review:begin log -->
 

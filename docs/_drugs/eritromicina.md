@@ -9,7 +9,7 @@ drugbank_id: DB00199
 monitor_inn: "Erythromycin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "lymphogranuloma venereum", "necrotizing ulcerative gingivitis"]
 last_modified_at: 2026-11-16
-description: "Eritromicina: nueva indicación predicha, Queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5)."
+description: "Eritromicina: nueva indicación predicha, queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5)."
 ---
 
 # Eritromicina
@@ -34,21 +34,21 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-## Eritromicina: Queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis)
+## Eritromicina: queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Eritromicina es un antibiótico macrólido con actividad antibacteriana y antiinflamatoria, comercializado en Argentina en presentaciones orales, oftálmicas y dermatológicas.
-El modelo TxGNN predice que podría ser útil para la **queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis)**.
-No hay ensayos clínicos registrados, y solo **1 publicación** relacionada, que trata una entidad cercana pero distinta.
+Eritromicina es un antibiótico macrólido con propiedades antibacterianas y antiinflamatorias, comercializado en Argentina en presentaciones orales, oftálmicas y tópicas.
+El modelo TxGNN predice que podría ser efectivo para **queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis)**,
+pero actualmente no hay ensayos clínicos y solo **1 publicación** (una revisión sobre blefaroqueratoconjuntivitis crónica en niños) se relaciona de forma indirecta con esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Nueva Indicación Predicha | Queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) |
+| Nueva Indicación Predicha | queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) |
 | Puntaje de Predicción TxGNN | 0.9989 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (16 de 16) – el estado del registro en ANMAT no está incluido en estos datos |
@@ -57,11 +57,11 @@ No hay ensayos clínicos registrados, y solo **1 publicación** relacionada, que
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la eritromicina es un macrólido que inhibe la síntesis proteica bacteriana al unirse a la subunidad ribosomal 50S, y además tiene efecto antiinflamatorio.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la eritromicina es un macrólido con actividad antibacteriana y propiedades antiinflamatorias, y mecanísticamente podría ser aplicable a cuadros oculares de origen bacteriano o inflamatorio.
 
-Esa combinación podría ser útil en cuadros de la superficie ocular donde la colonización bacteriana y la disfunción de las glándulas de Meibomio contribuyen a la inflamación, como la blefaroqueratoconjuntivitis. La única publicación disponible trata la blefaroqueratoconjuntivitis crónica en niños, una entidad relacionada pero distinta.
+Los macrólidos tópicos u orales se utilizan en la blefaroqueratoconjuntivitis crónica (por ejemplo, la asociada a estafilococos o a disfunción de las glándulas de Meibomio), que puede cursar con queratitis epitelial punteada. Sin embargo, el vínculo es indirecto: el único artículo disponible es una revisión sobre el manejo de la blefaroqueratoconjuntivitis pediátrica, no un estudio de la queratoconjuntivitis epitelial punteada en sí.
 
-La queratoconjuntivitis epitelial punteada no está abordada directamente por ningún estudio aportado. El puntaje de TxGNN es una predicción computacional y no constituye evidencia clínica.
+El puntaje elevado del modelo (0,9989) es solo una predicción computacional y no está respaldado por datos de ensayos clínicos. Dado que ningún estudio citado aborda directamente esta enfermedad, el nivel de evidencia se establece en L5.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -71,19 +71,23 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [11495307](https://pubmed.ncbi.nlm.nih.gov/11495307/) | 2001 | Revisión | Journal of Pediatric Ophthalmology and Strabismus | Describe la historia, los síntomas y los signos clínicos de la blefaroqueratoconjuntivitis crónica en niños y discute su tratamiento. No estudia directamente la queratoconjuntivitis epitelial punteada. |
+| [11495307](https://pubmed.ncbi.nlm.nih.gov/11495307/) | 2001 | Revisión | Journal of Pediatric Ophthalmology and Strabismus | Describe la historia, los síntomas, los signos clínicos y el tratamiento de la blefaroqueratoconjuntivitis crónica en niños; no estudia directamente la queratoconjuntivitis epitelial punteada |
 
 ## Información de Mercado en Argentina
 
-Todas las autorizaciones registradas son de productos con eritromicina como único principio activo y están vigentes. Las autorizaciones no incluyen texto de indicación en los datos locales. Se muestran cinco como ejemplo:
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 23320 | ERITROFARM | Colirio x 5 ml | No registrada en los datos locales |
+| 11986 | PANTOMICINA 500 | Comprimidos x 16 (500 mg) | No registrada en los datos locales |
+| 46126 | ERITROMICINA ELEA | Ungüento x 3,5 g | No registrada en los datos locales |
+| 31844 | ERITROFARM | Ungüento oftálmico unidosis x 20 | No registrada en los datos locales |
+| 9947 | PANTOMICINA 200 | Suspensión x 100 ml (200 mg) | No registrada en los datos locales |
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 23320 | ERITROFARM | Colirio x 5 ml |
-| 31844 | ERITROFARM | Ungüento oftálmico unidosis x 20 |
-| 53507 | ERITROPLOS | Ungüento oftálmico x 3,5 g |
-| 34206 | ERITROMICINA ATLAS | Gotas oftálmicas x 5 ml |
-| 46126 | ERITROMICINA ELEA | Ungüento x 3,5 g |
+Se muestran 5 de las 16 autorizaciones vigentes de productos de un solo principio activo.
+
+## Citotoxicidad
+
+No aplica a este fármaco; sección omitida por no ser antineoplásico.
 
 ## Consideraciones de Seguridad
 
@@ -94,13 +98,13 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-Ningún ensayo ni publicación estudia directamente la queratoconjuntivitis epitelial punteada. La única referencia trata una entidad relacionada, por lo que el nivel de evidencia es L5 y el respaldo es solo la predicción del modelo.
+No existen ensayos clínicos y la única publicación disponible aborda una enfermedad relacionada (blefaroqueratoconjuntivitis crónica pediátrica), no la queratoconjuntivitis epitelial punteada. El puntaje del modelo es alto, pero no tiene respaldo clínico directo.
 
 **Para avanzar se necesita:**
-- Estudios clínicos o series de casos que evalúen eritromicina en la queratoconjuntivitis epitelial punteada.
-- Datos de seguridad del prospecto (advertencias y contraindicaciones).
-- Datos del mecanismo de acción para fundamentar el vínculo mecanístico.
-- Evaluación de la compatibilidad de vía de administración, dado que existen presentaciones oftálmicas locales.
+- Estudios clínicos o series de casos que evalúen eritromicina tópica directamente en queratoconjuntivitis epitelial punteada
+- Datos del mecanismo de acción (MOA)
+- Información de seguridad del prospecto de ANMAT (advertencias y contraindicaciones)
+- Evaluación de la compatibilidad de vías de administración (las formas oftálmicas ya comercializadas serían el punto de partida)
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
