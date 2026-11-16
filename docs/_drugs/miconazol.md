@@ -1,36 +1,108 @@
 ---
-noindex: true
-sitemap: false
 layout: default
-nav_exclude: true
-title: MICONAZOL
+title: Miconazol
+parent: Solo Predicción del Modelo (L5)
+nav_order: 255
+evidence_level: L5
+indication_count: 1
 drugbank_id: DB01110
-permalink: /drugs/miconazol/
-search_exclude: true
-last_modified_at: 2026-10-30
-predicted_indications: []
-indication_count: 0
-evidence_level: N/A
+monitor_inn: "Miconazole"
+predicted_indications: ["acne (disease)"]
+last_modified_at: 2026-11-16
+description: "Miconazol: nueva indicación predicha, acné (acne (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
-# MICONAZOL
+# Miconazol
 {: .fs-9 }
 
-Nivel de evidencia: **N/A** | Indicaciones predichas: **0** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## Resumen Rápido
+## Índice
+{: .no_toc .text-delta }
 
-| Item | Contenido |
-|------|-----------|
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (al menos 20) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de productos en el listado PAMI | al menos 20 |
-| DrugBank ID | [DB01110](https://go.drugbank.com/drugs/DB01110) |
+1. TOC
+{:toc}
 
 ---
 
+<div id="pharmacist" markdown="1">
+
+## Informe de evaluación farmacéutica
+
+</div>
+
+## Miconazol: acné (acne (disease))
+{: .text-alpha }
+
+## Resumen en Una Frase
+
+Miconazol es un antifúngico de la clase de los imidazoles, con múltiples productos de uso tópico y vaginal comercializados en Argentina.
+El modelo TxGNN predice que podría ser efectivo para **acné (acne (disease))**, con un puntaje de 0.9954. Actualmente no hay ensayos clínicos registrados y la evidencia consiste en **4 publicaciones** (una revisión, dos estudios de cohorte y un estudio in vitro).
+
+## Resumen Rápido
+
+| Item | Contenido |
+|------|------|
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | acné (acne (disease)) |
+| Puntaje de Predicción TxGNN | 0.9954 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (al menos 20) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de Autorización | al menos 20 |
+| Decisión Recomendada | Hold |
+
+## ¿Por qué es Razonable esta Predicción?
+
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, el miconazol es un imidazol antifúngico que inhibe la síntesis de ergosterol fúngico (enzima CYP51/lanosterol 14-alfa-desmetilasa) y presenta cierta actividad antibacteriana frente a bacterias Gram positivas.
+
+El vínculo con el acné es plausible por tres vías: (1) actividad in vitro de antifúngicos azólicos contra *Cutibacterium (Propionibacterium) acnes*; (2) actividad frente a *Malassezia* (*Pityrosporum*), levadura implicada en la foliculitis por Malassezia, que clínicamente se parece al acné; y (3) efectos antiinflamatorios descritos en trastornos cutáneos.
+
+Es importante aclarar que el puntaje del modelo es una predicción computacional, no evidencia clínica. Además, la foliculitis por Malassezia es una entidad distinta del acné, y el estudio in vitro no equivale a eficacia clínica. Ninguna de las publicaciones disponibles demuestra, en un ensayo controlado, la eficacia del miconazol en acné; por eso el nivel de evidencia se mantiene en L5.
+
+## Evidencia de Ensayos Clínicos
+
+Actualmente no hay ensayos clínicos relacionados registrados.
+
+## Evidencia de Literatura
+
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [18627330](https://pubmed.ncbi.nlm.nih.gov/18627330/) | 2008 | Revisión | Expert Opinion on Pharmacotherapy | Revisión de los efectos del miconazol en trastornos de la piel, incluidos efectos antiinflamatorios |
+| [8593718](https://pubmed.ncbi.nlm.nih.gov/8593718/) | 1995 | Cohorte | Clinical and Experimental Dermatology | 62 pacientes con foliculitis por Pityrosporum, a menudo mal diagnosticada como acné vulgar; se evaluaron diagnóstico y ensayos terapéuticos |
+| [15536660](https://pubmed.ncbi.nlm.nih.gov/15536660/) | 2004 | Cohorte | Skin Research and Technology | Evaluación clínica y bioinstrumental en cara dividida de acné catamenial inflamatorio leve |
+| [20045949](https://pubmed.ncbi.nlm.nih.gov/20045949/) | 2010 | Estudio in vitro | Biological & Pharmaceutical Bulletin | Actividad in vitro de antifúngicos azólicos contra *P. acnes* aislado de pacientes con acné vulgar |
+
+## Información de Mercado en Argentina
+
+Se listan 20 autorizaciones vigentes de producto único; la cifra total es de al menos 20 y la lista puede ser parcial. Las 5 principales:
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 26902 | DERALBINE | Polvo en spray x 90 g | No registrada |
+| 18972 | MICOTRAL | Crema 2% x 30 g | No registrada |
+| 11834 | DAKTARIN | Gel oral x 40 g | No registrada |
+| 19976 | DERALBINE | Crema x 40 g | No registrada |
+| 39967 | MICOPUL | Crema x 40 g | No registrada |
+
+## Consideraciones de Seguridad
+
+Consultar el prospecto para información de seguridad.
+
+## Conclusión y Próximos Pasos
+
+**Decisión: Hold**
+
+**Justificación:**
+La predicción se apoya solo en el puntaje del modelo y en literatura indirecta (estudio in vitro, foliculitis por Malassezia y una revisión general), sin ensayos clínicos que estudien directamente el miconazol en acné. Además, faltan datos de seguridad y de mecanismo de acción.
+
+**Para avanzar se necesita:**
+- Estudios clínicos (idealmente ECA) que evalúen miconazol en acné vulgar
+- Datos curados del mecanismo de acción
+- Advertencias y contraindicaciones del prospecto de ANMAT
+- Evaluación de la compatibilidad de las vías y formas farmacéuticas con el uso en acné
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
@@ -38,4 +110,3 @@ Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 
-[← Volver a Todos los Medicamentos](/drugs/)

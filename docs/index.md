@@ -42,28 +42,42 @@ Informes por nivel de evidencia:
 | L5 | {{ site.data.drug_stats.level_counts.L5 }} | {{ site.data.drug_stats.level_counts.L5 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
 {% assign na = site.data.drug_stats.total_drugs | minus: site.data.drug_stats.level_counts.L1 | minus: site.data.drug_stats.level_counts.L2 | minus: site.data.drug_stats.level_counts.L3 | minus: site.data.drug_stats.level_counts.L4 | minus: site.data.drug_stats.level_counts.L5 %}{% if na > 0 %}| N/A | {{ na }} | {{ na | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |{% endif %}
 
-1 pares medicamento–enfermedad predichos en este sitio no aparecen en ningún otro de los 30 sitios TxGNN.
+795 pares medicamento–enfermedad predichos en este sitio no aparecen en ningún otro de los 30 sitios TxGNN.
 
 ### Medicamentos con mayor nivel de evidencia en este sitio
 
 | Medicamento | Nivel de evidencia |
 |---|---|
 | [Bromfenac](/drugs/bromfenac/) | L1 |
+| [Bupropión](/drugs/bupropión/) | L1 |
 | [Nepafenac](/drugs/nepafenac/) | L1 |
+| [Hidrocortisona](/drugs/hidrocortisona/) | L1 |
+| [Atorvastatín](/drugs/atorvastatín/) | L1 |
 | [Ketorolac](/drugs/ketorolac/) | L1 |
+| [Dapsona](/drugs/dapsona/) | L1 |
+| [Acetilcisteína](/drugs/acetilcisteína/) | L2 |
 | [Diazepam](/drugs/diazepam/) | L2 |
-| [Trazodone](/drugs/trazodone/) | L2 |
-| [Levonorgestrel](/drugs/levonorgestrel/) | L2 |
-| [Calcipotriol](/drugs/calcipotriol/) | L3 |
-| [Citalopram](/drugs/citalopram/) | L3 |
-| [Clonazepam](/drugs/clonazepam/) | L3 |
-| [Alprazolam](/drugs/alprazolam/) | L3 |
+| [Ropinirol](/drugs/ropinirol/) | L2 |
 
 ### Medicamentos que solo cubre este sitio entre los 30 sitios TxGNN
 
 | Medicamento | Nivel de evidencia |
 |---|---|
-| [Aniracetam](/drugs/aniracetam/) | L4 |
+| [Bupropión](/drugs/bupropión/) | L1 |
+| [Hidrocortisona](/drugs/hidrocortisona/) | L1 |
+| [Atorvastatín](/drugs/atorvastatín/) | L1 |
+| [Dapsona](/drugs/dapsona/) | L1 |
+| [Acetilcisteína](/drugs/acetilcisteína/) | L2 |
+| [Ropinirol](/drugs/ropinirol/) | L2 |
+| [Candesartán](/drugs/candesartán/) | L2 |
+| [Prednisolona](/drugs/prednisolona/) | L2 |
+| [Betametasona](/drugs/betametasona/) | L2 |
+| [Nortriptilina](/drugs/nortriptilina/) | L2 |
+| [Sucralfato](/drugs/sucralfato/) | L2 |
+| [Cilastatín](/drugs/cilastatín/) | L3 |
+| [Prednisona](/drugs/prednisona/) | L3 |
+| [Clomipramina](/drugs/clomipramina/) | L3 |
+| [Fluvastatina](/drugs/fluvastatina/) | L3 |
 
 <!-- local-home:end -->
 

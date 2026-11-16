@@ -1,21 +1,21 @@
 ---
-noindex: true
-sitemap: false
 layout: default
 title: Benznidazol
-parent: Solo usos conocidos (sin nuevas predicciones)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 47
-last_modified_at: 2026-11-12
-description: "Benznidazol: usos conocidos y situación de mercado en Argentina; actualmente sin nueva indicación candidata"
-predicted_indications: []
-indication_count: 0
-evidence_level: N/A
+evidence_level: L5
+indication_count: 3
+drugbank_id: DB11989
+monitor_inn: "Benznidazole"
+predicted_indications: ["congenital analbuminemia", "polyclonal hyperviscosity syndrome", "hyperamylasemia"]
+last_modified_at: 2026-11-16
+description: "Benznidazol: nueva indicación predicha, analbuminemia congénita (congenital analbuminemia) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Benznidazol
 {: .fs-9 }
 
-Nivel de evidencia: **N/A** | Indicaciones predichas: **0** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -34,26 +34,67 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 
 </div>
 
-## Benznidazol
+## Benznidazol: analbuminemia congénita (congenital analbuminemia)
 {: .text-alpha }
+
+## Resumen en Una Frase
+
+Benznidazol es un antiprotozoario de la familia de los nitroimidazoles, comercializado en Argentina con el nombre ABARAX.
+El modelo TxGNN predice que podría ser efectivo para **analbuminemia congénita (congenital analbuminemia)**, con un puntaje de 0,9951.
+Actualmente no hay **ningún ensayo clínico ni publicación** que respalde esta dirección, por lo que se trata únicamente de una predicción computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
-|------|-----------|
+|------|------|
 | Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | analbuminemia congénita (congenital analbuminemia) |
+| Puntaje de Predicción TxGNN | 0.9951 |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (2 de 2) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de productos en el listado PAMI | 2 (vigentes: 2) |
+| Número de Autorización | 2 (vigentes: 2) |
+| Decisión Recomendada | Hold |
 
-> ¹ Benznidazol no presenta indicaciones aprobadas en las bases de datos regulatorias consultadas. Sin embargo, es ampliamente reconocido como tratamiento estándar para la enfermedad de Chagas en Latinoamérica (aprobado por ANMAT en Argentina, FDA en EE.UU. para uso pediátrico, y recomendado por la OMS).
+## ¿Por qué es Razonable esta Predicción?
 
-<!-- review:begin ar-lic-20261106-benznidazol-1 -->
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información general conocida, benznidazol es un profármaco nitroimidazólico que es activado por nitrorreductasas del parásito *Trypanosoma cruzi*. Esa activación genera metabolitos reactivos que dañan el ADN, las proteínas y los lípidos del parásito.
 
-> **Corrección de verificación (2026-11-06)**: Texto original: «> ¹ Benznidazol no presenta indicaciones aprobadas en las bases de datos regulatorias consultadas (TFDA).» Eliminado: texto residual de la plantilla taiwanesa (TFDA), que no corresponde a esta página. Fuente: [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+La analbuminemia congénita es un trastorno autosómico recesivo raro, causado por mutaciones de pérdida de función en el gen *ALB*, que reducen o eliminan la albúmina sérica. Es un defecto genético de síntesis proteica, sin componente parasitario ni dependiente de nitrorreductasas.
 
-<!-- review:end ar-lic-20261106-benznidazol-1 -->
+Por lo tanto, **no se identifica un vínculo mecanístico plausible**. El puntaje alto (0,9951) probablemente refleja artefactos del modelo, como vecinos compartidos en la red de relaciones o el transporte de fármacos por la albúmina, y no una relación terapéutica real. No debe interpretarse como respaldo para reposicionar el fármaco.
 
----
+## Evidencia de Ensayos Clínicos
+
+Actualmente no hay ensayos clínicos relacionados registrados.
+
+## Evidencia de Literatura
+
+Actualmente no hay literatura relacionada disponible.
+
+## Información de Mercado en Argentina
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 47976 | ABARAX | 100 mg comp. x 100 | No registrada en los datos locales |
+| 47975 | ABARAX | 50 mg comp. x 100 | No registrada en los datos locales |
+
+Ambas autorizaciones corresponden a productos de un solo principio activo, están vigentes y pertenecen al fabricante Elea.
+
+## Consideraciones de Seguridad
+
+Consultar el prospecto para información de seguridad.
+
+## Conclusión y Próximos Pasos
+
+**Decisión: Hold**
+
+**Justificación:**
+La predicción no cuenta con ensayos clínicos ni literatura, no tiene un vínculo mecanístico plausible y el nivel de evidencia es L5. Además, faltan los datos de seguridad del prospecto local.
+
+**Para avanzar se necesita:**
+- Obtener y analizar el prospecto de ANMAT (advertencias y contraindicaciones), indispensable para cualquier evaluación de seguridad.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Disponer de evidencia preclínica o clínica que vincule benznidazol con la analbuminemia congénita; sin ella no se recomienda continuar.
 
 <!-- review:begin log -->
 
@@ -63,7 +104,7 @@ A continuación, el registro de verificación de esta página: afirmaciones cont
 
 | Fecha de verificación | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-06 | Eliminado: «(TFDA)» | Corregido | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+| 2026-11-06 | Eliminado: «(TFDA)» | Ya no aparece tras regenerar el informe (2026-11-16: The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page; antes: Corregido) | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
 
 <!-- review:end log -->
 

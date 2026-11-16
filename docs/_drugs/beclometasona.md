@@ -1,20 +1,21 @@
 ---
-noindex: true
-sitemap: false
 layout: default
 title: Beclometasona
-parent: Solo Predicción del Modelo (L5)
+parent: Evidencia Moderada (L3-L4)
 nav_order: 43
-evidence_level: L5
-indication_count: 0
-last_modified_at: 2026-11-12
-predicted_indications: []
+evidence_level: L3
+indication_count: 1
+drugbank_id: DB00394
+monitor_inn: "Beclomethasone dipropionate"
+predicted_indications: ["atopic eczema"]
+last_modified_at: 2026-11-16
+description: "Beclometasona: nueva indicación predicha, Eccema atópico (atopic eczema) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
 ---
 
 # Beclometasona
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **0** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,117 +34,77 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-## BECLOMETASONA: Evaluación Preliminar — Sin Indicaciones Predichas Disponibles
+## Beclometasona: Eccema atópico (atopic eczema)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Beclometasona es un corticosteroide conocido ampliamente utilizado en el tratamiento de enfermedades inflamatorias respiratorias y alérgicas. En esta evaluación, el modelo TxGNN **no ha generado predicciones de nuevas indicaciones** para este fármaco, y el Evidence Pack presenta múltiples brechas de datos críticas que impiden una evaluación completa.
-
----
+La beclometasona es un glucocorticoide sintético que actúa sobre el receptor de glucocorticoides y reduce la inflamación. El modelo TxGNN predice que podría ser útil para **Eccema atópico (atopic eczema)**. Hasta ahora no hay ensayos clínicos registrados para esta combinación y sí **9 publicaciones**, entre ellas dos estudios clínicos pequeños en dermatitis atópica.
 
 ## Resumen Rápido
 
 | Item | Contenido |
-|------|-----------|
-| Indicación Original | No disponible en el Evidence Pack |
-| Nueva Indicación Predicha | — (sin predicciones generadas) |
-| Puntaje de Predicción TxGNN | — |
-| Nivel de Evidencia | L5 — Solo datos preliminares, sin predicción ni estudios asociados |
+|------|------|
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Eccema atópico (atopic eczema) |
+| Puntaje de Predicción TxGNN | 0.9941 |
+| Nivel de Evidencia | L3 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (2 de 2) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de productos en el listado PAMI | 2 (vigentes: 2) |
-| Decisión Recomendada | **Hold** |
+| Número de Autorización | 2 (vigentes: 2) |
+| Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por qué no se Generaron Predicciones?
+Los datos compilados para este informe no incluyen el mecanismo de acción detallado. Según la información conocida, la beclometasona (dipropionato de beclometasona) es un glucocorticoide sintético. Se une al receptor de glucocorticoides y suprime la transcripción de citocinas proinflamatorias (por ejemplo IL-4, IL-5, IL-13 y TNF-alfa). Con ello reduce la inflamación mediada por linfocitos T y eosinófilos.
 
-Beclometasona (DCI: BECLOMETASONA) es un glucocorticoide sintético con actividad antiinflamatoria e inmunosupresora. Es ampliamente conocido a nivel mundial por su uso en el tratamiento del asma bronquial (vía inhalatoria), la rinitis alérgica (vía nasal) y ciertas enfermedades inflamatorias intestinales (vía oral/rectal). Sin embargo, el Evidence Pack actual presenta las siguientes limitaciones que probablemente explican la ausencia de predicciones:
+Ese mecanismo concuerda con la inflamación de tipo Th2 propia del eccema atópico. Los corticosteroides tópicos son un tratamiento establecido para esta enfermedad, y el puntaje alto del modelo refleja esa plausibilidad a nivel de clase. Sin embargo, no hay ensayos registrados con beclometasona en particular.
 
-1. **Ausencia de identificador DrugBank** (`drugbank_id: null`): Sin este identificador, el modelo TxGNN no puede mapear el fármaco correctamente en su grafo de conocimiento (Knowledge Graph), lo cual es un requisito previo para generar predicciones de reposicionamiento.
-
-2. **Mecanismo de acción no disponible**: El campo `original_moa` figura como brecha de datos (`[Data Gap]`), lo que limita la capacidad del sistema para evaluar la plausibilidad mecanística de cualquier predicción.
-
-3. **Sin indicaciones originales registradas**: El array `original_indications` está vacío, lo que impide al modelo establecer relaciones entre la indicación conocida y posibles nuevas indicaciones.
-
-Para que el pipeline de predicción funcione correctamente, es necesario resolver estas brechas de datos fundamentales antes de ejecutar nuevamente el modelo.
-
----
+Un punto práctico es que los productos locales del dato regulatorio son aerosoles. La literatura sobre dermatitis atópica corresponde a uso oral y tópico, incluidos apósitos oclusivos. Por eso la compatibilidad de vía y formulación aún no está resuelta.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados, dado que no se generó una predicción de nueva indicación.
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible en el contexto de reposicionamiento, dado que no se generó una predicción de nueva indicación.
-
----
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [1476023](https://pubmed.ncbi.nlm.nih.gov/1476023/) | 1992 | Estudio clínico | Acta Dermato-Venereologica. Supplementum | Beclometasona oral en niños con dermatitis atópica difícil: logró control estable en 10 de 14 pacientes (dosis media de 1000 µg/día). A esa dosis hubo signos de desaceleración del crecimiento lineal y se vigiló la función suprarrenal. |
+| [14522624](https://pubmed.ncbi.nlm.nih.gov/14522624/) | 2003 | Estudio clínico | The Journal of Dermatological Treatment | Efectos a corto plazo sobre el crecimiento y el recambio óseo en 8 niños con apósitos oclusivos de esteroides ("wet-wrap") para eccema atópico. Enfoque en seguridad. |
+| [374799](https://pubmed.ncbi.nlm.nih.gov/374799/) | 1979 | Estudio clínico comparativo | Nihon Hifuka Gakkai Zasshi | Efectos sistémicos de la beclometasona tópica frente a otros esteroides (betametasona valerato y fluocinonida). Enfoque en seguridad. No tiene resumen disponible. |
+| [19571596](https://pubmed.ncbi.nlm.nih.gov/19571596/) | 2009 | Revisión | Neuroimmunomodulation | Corticosteroides intranasales y supresión suprarrenal. Relevancia indirecta como dato de seguridad de la clase. |
+| [11488426](https://pubmed.ncbi.nlm.nih.gov/11488426/) | 2001 | Revisión | Japanese Journal of Pharmacology | Fármacos para enfermedades alérgicas. Los glucocorticoides son los más eficaces, y la beclometasona figura entre los de uso inhalado. Relevancia indirecta. |
+| [14616123](https://pubmed.ncbi.nlm.nih.gov/14616123/) | 2003 | Revisión / comentario clínico | Allergy | Alergia a corticosteroides en pacientes con asma. Relevancia indirecta. |
+| [7813169](https://pubmed.ncbi.nlm.nih.gov/7813169/) | 1994 | Revisión | La Clinica Terapeutica | Alergia y embarazo. Relevancia indirecta. |
+| [30911861](https://pubmed.ncbi.nlm.nih.gov/30911861/) | 2019 | Estudio preclínico de formulación | AAPS PharmSciTech | Micelas de dipropionato de beclometasona en hidrogel para uso dérmico, evaluadas en un modelo animal de dermatitis subcrónica. |
+| [8765824](https://pubmed.ncbi.nlm.nih.gov/8765824/) | 1996 | Estudio in vitro | The Journal of Allergy and Clinical Immunology | Los esteroides tópicos aumentaron la producción espontánea in vitro de IgE en pacientes con dermatitis atópica. Es un hallazgo de cautela. |
 
 ## Información de Mercado en Argentina
 
-Beclometasona **no se encuentra comercializada** en Argentina según los datos disponibles.
-
-<!-- review:begin ar-lic-20261106-beclometasona-1 -->
-
-> **Corrección de verificación (2026-11-06)**: Texto original: «Beclometasona **no se encuentra comercializada** en Argentina según los datos disponibles. No se registraron autorizaciones de mercado (0 licencias).» Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). En los datos (listado de medicamentos de PAMI) figuran 2 registros para este medicamento, 2 vigentes; las cifras actualizadas están en el resumen rápido y en la información de mercado. Fuente: [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
-
-<!-- review:end ar-lic-20261106-beclometasona-1 -->
-
-> **Nota:** Esto no implica que el principio activo no esté disponible en otras jurisdicciones. Beclometasona cuenta con aprobaciones regulatorias en múltiples países (EMA, FDA, entre otros) para indicaciones respiratorias y alérgicas.
-
----
+La beclometasona se encuentra comercializada en Argentina, con autorizaciones vigentes de productos de un solo principio activo, presentados como aerosoles. En los datos locales no figura texto de indicación aprobada.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. Los datos de advertencias, contraindicaciones e interacciones farmacológicas no se encuentran disponibles en el Evidence Pack actual.
+Los datos compilados no incluyen advertencias, contraindicaciones ni interacciones farmacológicas del prospecto local. Consultar el prospecto para información de seguridad.
 
-> **Nota general sobre corticosteroides inhalados:** Como referencia, los efectos adversos conocidos de beclometasona incluyen candidiasis orofaríngea, disfonía, supresión adrenal (a dosis altas) y reducción de la velocidad de crecimiento en niños. Estas consideraciones deberán verificarse con el prospecto aprobado una vez que se disponga de datos regulatorios completos.
-
----
-
-## Brechas de Datos Identificadas
-
-El Evidence Pack identifica las siguientes brechas críticas que deben resolverse:
-
-| ID | Categoría | Item Faltante | Severidad | Impacto | Remediación |
-|----|-----------|---------------|-----------|---------|-------------|
-| DG001 | Nivel de Fármaco | Advertencias y contraindicaciones del prospecto | **Bloqueante** | No es posible realizar la evaluación de seguridad inicial (S1) | Descargar y analizar prospecto desde fuente regulatoria |
-| DG002 | Nivel de Fármaco | Mecanismo de acción (MOA) | **Alta** | Afecta el análisis de relación mecanística | Consultar API de DrugBank |
-
-**Adicionalmente se detectan las siguientes carencias no listadas explícitamente:**
-- `drugbank_id` es `null` — Necesario para vincular el fármaco en el Knowledge Graph de TxGNN
-- `original_indications` está vacío — Necesario para contextualizar las predicciones
-- `predicted_indications` está vacío — El modelo no pudo generar predicciones, probablemente debido a las brechas anteriores
-
----
+La literatura revisada señala preocupaciones de seguridad propias de los corticosteroides, que deberían pesar en cualquier decisión de reposicionamiento:
+- Absorción sistémica y supresión del eje hipotálamo-hipofisario-suprarrenal.
+- Posible desaceleración del crecimiento lineal en niños con uso oral prolongado.
+- Alergia de contacto retardada, y ocasionalmente inmediata, a corticosteroides.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No es posible avanzar con la evaluación de reposicionamiento de Beclometasona debido a la ausencia total de predicciones del modelo TxGNN y múltiples brechas de datos bloqueantes.
-
-<!-- review:begin ar-lic-20261106-beclometasona-2 -->
-
-> **Corrección de verificación (2026-11-06)**: Texto original: «No es posible avanzar con la evaluación de reposicionamiento de Beclometasona debido a la ausencia total de predicciones del modelo TxGNN y múltiples brechas de datos bloqueantes. El fármaco no cuenta con autorización de mercado en Argentina, lo que representa una barrera regulatoria adicional.» Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). En los datos (listado de medicamentos de PAMI) figuran 2 registros para este medicamento, 2 vigentes; las cifras actualizadas están en el resumen rápido y en la información de mercado. Fuente: [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
-
-<!-- review:end ar-lic-20261106-beclometasona-2 -->
+El puntaje del modelo es alto (0,9941) y el mecanismo de clase es plausible. Pero la evidencia directa se limita a estudios clínicos pequeños y antiguos, sin ensayos registrados. Además, falta la información de seguridad del prospecto local, que es un dato bloqueante, y la vía de las presentaciones locales (aerosol) no coincide con la del uso dermatológico.
 
 **Para avanzar se necesita:**
-- Resolver el identificador DrugBank (`drugbank_id`) para permitir el mapeo en el Knowledge Graph
-- Completar las indicaciones originales aprobadas del fármaco
-- Obtener el mecanismo de acción (MOA) desde DrugBank u otra fuente confiable
-- Obtener advertencias y contraindicaciones desde el prospecto regulatorio
-- **Re-ejecutar el pipeline de predicción TxGNN** una vez resueltas las brechas anteriores
-- Evaluar el estado regulatorio en Argentina (consultar si existe algún registro bajo otro nombre comercial o combinación)
-
----
-
-*Este informe fue generado el 2026-04-03. Los resultados son únicamente para fines de investigación y no constituyen recomendación médica. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+- Descargar y analizar el prospecto de ANMAT para obtener advertencias y contraindicaciones.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Evaluar la compatibilidad de vía y formulación, ya que los productos locales son aerosoles y la evidencia en eccema es oral o tópica.
+- Buscar o diseñar ensayos clínicos controlados de beclometasona en eccema atópico, con vigilancia de supresión suprarrenal y crecimiento.
+- Comparar la beclometasona frente a los corticosteroides tópicos ya establecidos para esta enfermedad.
 
 <!-- review:begin log -->
 
@@ -153,8 +114,8 @@ A continuación, el registro de verificación de esta página: afirmaciones cont
 
 | Fecha de verificación | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-06 | Eliminado: «No se registraron autorizaciones de mercado (0 licencias)» | Corregido | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
-| 2026-11-06 | Eliminado: «El fármaco no cuenta con autorización de mercado en Argentina, lo que representa una barrera regulatoria adicional» | Corregido | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+| 2026-11-06 | Eliminado: «No se registraron autorizaciones de mercado (0 licencias)» | Ya no aparece tras regenerar el informe (2026-11-16: The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page; antes: Corregido) | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+| 2026-11-06 | Eliminado: «El fármaco no cuenta con autorización de mercado en Argentina, lo que representa una barrera regulatoria adicional» | Ya no aparece tras regenerar el informe (2026-11-16: The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page; antes: Corregido) | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
 
 <!-- review:end log -->
 

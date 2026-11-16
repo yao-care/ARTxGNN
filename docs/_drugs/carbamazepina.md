@@ -1,20 +1,21 @@
 ---
-noindex: true
-sitemap: false
 layout: default
 title: Carbamazepina
-parent: Solo Predicción del Modelo (L5)
+parent: Evidencia Moderada (L3-L4)
 nav_order: 78
-evidence_level: L5
-indication_count: 0
-last_modified_at: 2026-10-30
-predicted_indications: []
+evidence_level: L4
+indication_count: 3
+drugbank_id: DB00564
+monitor_inn: "Carbamazepine"
+predicted_indications: ["trigeminal nerve neoplasm", "beta-ketothiolase deficiency", "Rett syndrome, congenital variant"]
+last_modified_at: 2026-11-16
+description: "Carbamazepina: nueva indicación predicha, Neoplasia del nervio trigémino (trigeminal nerve neoplasm) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
 ---
 
 # Carbamazepina
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **0** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,74 +34,80 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-## Carbamazepina: Evaluación Pendiente — Datos de Predicción No Disponibles
+## Carbamazepina: Neoplasia del nervio trigémino (trigeminal nerve neoplasm)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Carbamazepina es un anticonvulsivante y estabilizador del ánimo ampliamente conocido, indicado clásicamente para epilepsia, trastorno bipolar y neuralgia del trigémino. El modelo TxGNN **no generó predicciones de nuevas indicaciones** para este fármaco en el ciclo actual de análisis, posiblemente por inconsistencias en el identificador de entrada. Con los datos disponibles en este Evidence Pack, **no es posible completar una evaluación de reposicionamiento**.
-
----
+La carbamazepina es un fármaco anticonvulsivante que actúa bloqueando los canales de sodio dependientes de voltaje.
+El modelo TxGNN predice que podría ser útil en **neoplasia del nervio trigémino (trigeminal nerve neoplasm)**.
+No hay ensayos clínicos registrados y hay **9 publicaciones relevantes** (informes de casos, revisiones y un estudio preclínico). Estas describen tumores del nervio trigémino cuyo dolor neurálgico se trató con carbamazepina, no un efecto antitumoral.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en este Evidence Pack |
-| Nueva Indicación Predicha | Sin predicciones generadas |
-| Puntaje de Predicción TxGNN | N/A |
-| Nivel de Evidencia | L5 — sin estudios vinculados a predicción |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Neoplasia del nervio trigémino (trigeminal nerve neoplasm) |
+| Puntaje de Predicción TxGNN | 1.0000 |
+| Nivel de Evidencia | L4 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (17 de 17) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de productos en el listado PAMI | 17 (vigentes: 17) |
-| Decisión Recomendada | **Hold** |
+| Número de Autorización | 17 (vigentes: 17) |
+| Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por Qué No se Puede Completar la Evaluación
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por la información farmacológica conocida, la carbamazepina bloquea los canales de sodio dependientes de voltaje y reduce la descarga neuronal anómala.
 
-El Evidence Pack recibido para Carbamazepina presenta tres brechas que impiden generar un informe de reposicionamiento válido:
+El puntaje alto del modelo parece reflejar la asociación entre el fármaco y la neuralgia del trigémino. Esta neuralgia aparece con frecuencia como síntoma cuando un tumor comprime o infiltra el nervio (meningioma petroclival, schwannoma, linfoma, melanoma de la cavidad de Meckel, tumores epidermoides). En ese contexto, la carbamazepina solo aportaría **control sintomático del dolor**. No hay evidencia de un efecto antitumoral.
 
-**1. Sin predicciones TxGNN**
-El campo `predicted_indications` está vacío. Sin una indicación candidata generada por el modelo, no existe dirección de reposicionamiento que evaluar. Esta es la brecha central que hace inviable el resto del informe.
+Por eso esta predicción no constituye un reposicionamiento terapéutico en sentido estricto. Un estudio preclínico antiguo (1988) mostró que la carbamazepina inhibe la actividad espontánea en neuromas experimentales de ratas, lo que apoya un mecanismo puramente sintomático. Varios informes de casos describen además tumores en los que el dolor no cedió con carbamazepina, y fue necesario tratar la lesión.
 
-**2. Sin mecanismo de acción (MOA)**
-Los datos de MOA no fueron integrados al Evidence Pack a pesar de que la consulta a DrugBank retornó 1 resultado el 29 de marzo de 2026. Esto impide cualquier análisis de racionalidad mecanística.
+## Evidencia de Ensayos Clínicos
 
-**3. Sin datos de seguridad estructurados**
-Las advertencias clave y contraindicaciones no fueron integradas, pese a que la consulta al prospecto oficial también retornó 1 resultado. Esto bloquea la evaluación inicial de seguridad (S1).
+Actualmente no hay ensayos clínicos relacionados registrados.
 
----
+## Evidencia de Literatura
+
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [36824641](https://pubmed.ncbi.nlm.nih.gov/36824641/) | 2022 | Revisión | Acta Clinica Croatica | Opciones de tratamiento de la neuralgia del trigémino; menciona que puede deberse a compresión vascular o a un proceso tumoral |
+| [30741017](https://pubmed.ncbi.nlm.nih.gov/30741017/) | 2023 | Reporte de caso | Br J Neurosurg | Linfoma primario del nervio trigémino con dolor facial; la carbamazepina no mejoró los síntomas |
+| [15235745](https://pubmed.ncbi.nlm.nih.gov/15235745/) | 2004 | Reporte de caso | Arq Neuropsiquiatr | Melanoma primario de la cavidad de Meckel; el dolor no cedió con carbamazepina ni con descompresión microvascular, y se resolvió con resección |
+| [33989821](https://pubmed.ncbi.nlm.nih.gov/33989821/) | 2021 | Reporte de caso | World Neurosurg | Meningioma petroclival con neuralgia del trigémino, resecado por abordaje de Kawase |
+| [32454201](https://pubmed.ncbi.nlm.nih.gov/32454201/) | 2020 | Reporte de caso | World Neurosurg | Resección endoscópica endonasal de un schwannoma de la fosa pterigopalatina (nervio trigémino) |
+| [25142539](https://pubmed.ncbi.nlm.nih.gov/25142539/) | 2014 | Reporte de caso | Rinsho Shinkeigaku | Linfoma con extensión perineural por el trigémino; mejoría inicial con carbamazepina y luego pérdida de respuesta |
+| [28666502](https://pubmed.ncbi.nlm.nih.gov/28666502/) | 2016 | Reporte de caso | J Coll Physicians Surg Pak | Tumor epidermoide prepontino con neuralgia bilateral intratable sin respuesta a carbamazepina |
+| [6857479](https://pubmed.ncbi.nlm.nih.gov/6857479/) | 1983 | Reporte de caso | Surg Neurol | Quiste epidermoide parapontino; dolor controlado inicialmente con carbamazepina y luego con cirugía |
+| [3181365](https://pubmed.ncbi.nlm.nih.gov/3181365/) | 1988 | Preclínico (animal) | Exp Neurol | La carbamazepina intravenosa inhibió la actividad espontánea en neuromas experimentales de rata |
 
 ## Información de Mercado en Argentina
 
-La consulta al registro ANMAT realizada el 29 de marzo de 2026 no retornó registros sanitarios para el término **"CARBAMAZEPINA"**.
+La carbamazepina está comercializada en Argentina, con 17 autorizaciones vigentes, todas de productos de un solo principio activo. Estas son algunas de las principales:
 
-> **Nota de calidad de datos**: Carbamazepina es un fármaco con décadas de uso clínico a nivel mundial. La ausencia de resultados probablemente refleja una discrepancia en el término de búsqueda (nombre en español en mayúsculas vs. nombre INN en inglés o nombre de marca). Se recomienda verificar manualmente en el ANMAT bajo las variantes: *Carbamazepina*, *Tegretol*, *Carbatrol* y *Equetro*.
-
----
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 43335 | TEGRETOL | Jarabe x 100 ml |
+| 9259 | TEGRETOL 400 LC | Comprimidos 400 mg x 30 |
+| 15837 | CARBAMAZEPINA FABRA | Comprimidos 200 mg x 30 |
+| 3329 | CONFORMAL | Comprimidos 200 mg x 30 |
+| 10635 | ACTINERVAL | Comprimidos 200 mg x 60 |
 
 ## Consideraciones de Seguridad
 
-Los datos de seguridad estructurados no están disponibles en este Evidence Pack. La consulta al sistema de interacciones farmacológicas (DDI) tampoco retornó resultados para este fármaco.
-
-> Consultar el prospecto oficial aprobado por ANMAT para información completa de advertencias, contraindicaciones e interacciones.
-
----
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-El Evidence Pack carece de predicciones de nuevas indicaciones y de datos de mecanismo de acción, lo que hace imposible generar un análisis de reposicionamiento fundamentado. La evaluación queda suspendida hasta que se subsanen los datos faltantes.
+No hay ensayos clínicos, y la literatura se limita a informes de casos, una revisión y un estudio preclínico antiguo. Describen tumores del nervio trigémino en los que la carbamazepina, en el mejor de los casos, alivia el dolor de forma sintomática y a veces ni eso. No hay evidencia de efecto antitumoral, por lo que el puntaje alto del modelo no basta para avanzar.
 
 **Para avanzar se necesita:**
-
-1. **[Crítico]** Re-ejecutar el pipeline TxGNN con el identificador correcto — usar el nombre INN en inglés **"Carbamazepine"** o el DrugBank ID (`DB00564`) para obtener predicciones de nuevas indicaciones
-2. **[Alto]** Integrar los datos de MOA desde DrugBank — la consulta ya retornó 1 resultado pero no fue procesado al Evidence Pack
-3. **[Bloqueante]** Integrar las advertencias y contraindicaciones del prospecto oficial — la consulta al prospecto también retornó 1 resultado sin procesar
-4. Verificar el registro ANMAT con variantes del nombre comercial (*Tegretol*, *Carbatrol*) para determinar el estado real de comercialización
-5. Re-generar este informe una vez disponibles las predicciones, el MOA y los datos de seguridad
+- Definir si el objetivo es el control sintomático del dolor neurálgico secundario o un efecto antitumoral. Solo el primero tiene sustento plausible.
+- Datos de mecanismo de acción y de seguridad del prospecto de ANMAT (advertencias, contraindicaciones e interacciones), hoy no disponibles.
+- Estudios clínicos o series de casos que evalúen la respuesta al dolor en neuralgia del trigémino secundaria a tumor.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

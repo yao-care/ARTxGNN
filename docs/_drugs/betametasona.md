@@ -1,20 +1,21 @@
 ---
-noindex: true
-sitemap: false
 layout: default
 title: Betametasona
-parent: Solo Predicción del Modelo (L5)
+parent: Evidencia Alta (L1-L2)
 nav_order: 51
-evidence_level: L5
-indication_count: 0
-last_modified_at: 2026-11-12
-predicted_indications: []
+evidence_level: L2
+indication_count: 7
+drugbank_id: DB00443
+monitor_inn: "Betamethasone"
+predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
+last_modified_at: 2026-11-16
+description: "Betametasona: nueva indicación predicha, Alopecia mucinosa (nivel de evidencia L2). Indicación original: No consta en los datos locales"
 ---
 
 # Betametasona
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **0** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,93 +34,86 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-## Betametasona: Evaluación Preliminar — Datos Insuficientes para Reposicionamiento
+## Betametasona: Alopecia mucinosa
 {: .text-alpha }
-
----
 
 ## Resumen en Una Frase
 
-Betametasona es un corticosteroide sintético ampliamente utilizado a nivel mundial para el tratamiento de condiciones inflamatorias, alérgicas y autoinmunes.
-Actualmente, **no se dispone de predicciones TxGNN** para nuevas indicaciones, y el fármaco **no se encuentra comercializado en Argentina** según los registros consultados.
-La evidencia disponible es insuficiente para avanzar en una evaluación de reposicionamiento.
-
----
+Betametasona es un glucocorticoide potente que en Argentina se comercializa en múltiples formas (cremas, lociones, gotas, suspensiones inyectables, comprimidos y suspensión oral).
 
 ## Resumen Rápido
 
 | Item | Contenido |
-|------|-----------|
-| Indicación Original | No registrada en la base de datos consultada (uso internacional conocido: condiciones inflamatorias, alérgicas y autoinmunes) |
-| Nueva Indicación Predicha | — Sin predicción disponible — |
-| Puntaje de Predicción TxGNN | N/A |
-| Nivel de Evidencia | L5 (sin estudios ni predicciones disponibles) |
+|------|------|
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Alopecia mucinosa |
+| Puntaje de Predicción TxGNN | 0.9997 |
+| Nivel de Evidencia | L2 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (al menos 20) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de productos en el listado PAMI | al menos 20 |
-| Decisión Recomendada | **Hold** |
+| Número de Autorización | al menos 20 |
+| Decisión Recomendada | Proceed with Guardrails |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## ¿Por qué no se Generó una Predicción?
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, betametasona es un glucocorticoide potente que suprime la señalización de citocinas y la actividad de los linfocitos T.
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción (MOA) en el Evidence Pack proporcionado. Según el conocimiento farmacológico establecido, betametasona es un glucocorticoide sintético de alta potencia que actúa mediante la unión al receptor de glucocorticoides intracelular, inhibiendo la transcripción de mediadores proinflamatorios (citoquinas, prostaglandinas, leucotrienos) y suprimiendo la respuesta inmune.
+La alopecia areata es una enfermedad autoinmune mediada por linfocitos T que ataca el folículo piloso, con pérdida de su privilegio inmunitario. Un antiinflamatorio e inmunosupresor como la betametasona puede, por lo tanto, actuar directamente sobre el proceso patológico. Además, puede administrarse por varias vías (tópica, intralesional, oral en minipulsos o mediante microagujas), lo que ofrece flexibilidad clínica.
 
-El modelo TxGNN no generó predicciones de nuevas indicaciones para betametasona. Esto puede deberse a varias razones: (1) el fármaco no está mapeado en el grafo de conocimiento del modelo con el identificador utilizado ("BETAMETASONA" en su denominación en español), (2) el DrugBank ID no fue identificado (`null`), lo cual impide el enlace con la ontología del modelo, o (3) las indicaciones ya cubiertas por corticosteroides son lo suficientemente amplias como para no generar candidatos novedosos con alta confianza.
-
-Sin la identificación correcta del fármaco en las bases de datos de referencia (DrugBank ID) y sin predicciones del modelo, no es posible realizar una evaluación de reposicionamiento significativa en este momento.
-
----
+El puntaje elevado del modelo (0,9997) es coherente con la señal clínica observada. Aun así, no se identifica ningún ensayo de Fase 3, y varios estudios usan la betametasona solo como comparador.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados en el Evidence Pack, dado que no se generó una predicción de nueva indicación.
-
----
+| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
+|---------|------|------|------|---------|
+| [NCT06786689](https://clinicaltrials.gov/study/NCT06786689) | Fase 2 | Completado | 60 | Comparación aleatorizada de azatioprina semanal en pulsos vs. minipulso oral de betametasona en alopecia areata moderada a grave |
+| [NCT02350023](https://clinicaltrials.gov/study/NCT02350023) | Fase 4 | Completado | 50 | Latanoprost tópico vs. corticoide tópico (probablemente betametasona; el título está truncado) en alopecia areata localizada |
+| [NCT04207931](https://clinicaltrials.gov/study/NCT04207931) | Fase 4 | Reclutando | 250 | Resultados de tratamiento en alopecia cicatricial centrífuga central (enfermedad distinta; relevancia solo indirecta) |
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible en el Evidence Pack, dado que no se generó una predicción de nueva indicación.
-
----
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [37870096](https://pubmed.ncbi.nlm.nih.gov/37870096/) | 2023 | Metaanálisis en red | Cochrane Database Syst Rev | Comparación de tratamientos para alopecia areata (inmunosupresores, estimulantes del crecimiento, inmunoterapia de contacto) |
+| [39393548](https://pubmed.ncbi.nlm.nih.gov/39393548/) | 2025 | ECA | J Am Acad Dermatol | Administración transdérmica con microagujas de betametasona compuesta en alopecia areata, como alternativa a la inyección intralesional dolorosa |
+| [32594786](https://pubmed.ncbi.nlm.nih.gov/32594786/) | 2022 | ECA intraindividual | J Dermatolog Treat | Betametasona intralesional vs. triamcinolona acetónido en alopecia areata localizada |
+| [37992355](https://pubmed.ncbi.nlm.nih.gov/37992355/) | 2023 | Revisión | Dermatol Pract Concept | Eficacia, recaídas y efectos adversos de la terapia de pulsos con corticoides en alopecia areata |
+| [36461625](https://pubmed.ncbi.nlm.nih.gov/36461625/) | 2023 | Revisión | Pediatr Dermatol | Pautas de dosificación y efectos adversos de corticoides en pulsos en niños con alopecia areata |
+| [29723356](https://pubmed.ncbi.nlm.nih.gov/29723356/) | 2018 | Estudio clínico | An Bras Dermatol | Betametasona intralesional como opción terapéutica en alopecia areata |
+| [38623137](https://pubmed.ncbi.nlm.nih.gov/38623137/) | 2024 | Estudio comparativo | Cureus | Betametasona dipropionato tópica vs. minoxidil tópico en alopecia areata |
+| [38660760](https://pubmed.ncbi.nlm.nih.gov/38660760/) | 2024 | Estudio comparativo | Clin Exp Dermatol | Tofacitinib como inducción vs. minipulso semanal de betametasona oral en alopecia areata grave |
+| [39305097](https://pubmed.ncbi.nlm.nih.gov/39305097/) | 2025 | Estudio piloto | J Cosmet Dermatol | Factores de crecimiento concentrados con betametasona compuesta asistida por microagujas en alopecia areata resistente |
+| [39912941](https://pubmed.ncbi.nlm.nih.gov/39912941/) | 2025 | Estudio clínico | Arch Dermatol Res | Luz excímer 308 nm combinada con betametasona valerato tópica en alopecia areata |
 
 ## Información de Mercado en Argentina
 
-Betametasona **no se encuentra registrada** en la base de datos regulatoria consultada para Argentina.
+Se registran al menos 20 autorizaciones vigentes de productos con betametasona como único principio activo; la lista puede ser parcial. Se muestran las principales:
 
-<!-- review:begin ar-lic-20261106-betametasona-1 -->
-
-> **Corrección de verificación (2026-11-06)**: Texto original: «Betametasona **no se encuentra registrada** en la base de datos regulatoria consultada para Argentina. No se identificaron autorizaciones de comercialización vigentes.» Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). Fuente: [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
-
-<!-- review:end ar-lic-20261106-betametasona-1 -->
-
-> **Nota:** Esto puede reflejar una limitación en la fuente de datos consultada (la búsqueda se realizó con el término "BETAMETASONA"). Es probable que el fármaco esté comercializado bajo nombres comerciales o en combinaciones que no fueron capturadas por la consulta. Se recomienda verificar en la base de datos de ANMAT con términos alternativos (e.g., "betamethasone", nombres comerciales como "Celestone", "Diprosone", combinaciones con gentamicina, etc.).
-
----
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 56322 | VITACORTIL B | Suspensión oral x 30 ml | No registrada |
+| 44188 | CORTICAS RETARD | Inyectable, frasco ampolla x 2 ml | No registrada |
+| 3338 | BETNOVATE CAPILAR | Loción x 30 ml | No registrada |
+| 3313 | BUTASONA FABRA | Crema x 15 g | No registrada |
+| 39517 | METAMAR | Comprimidos 0,5 mg x 30 | No registrada |
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
 
-> **Nota sobre brechas de datos:**
-> - Las advertencias principales, contraindicaciones e interacciones farmacológicas no están disponibles en el Evidence Pack actual.
-> - Se requiere consultar la ficha técnica/prospecto del producto o bases de datos como DrugBank para obtener el perfil de seguridad completo.
-
----
+Como pauta de cautela, el análisis de los datos compilados señala riesgos propios de los corticoides: atrofia cutánea, supresión del eje hipotálamo-hipófiso-suprarrenal con regímenes orales o en pulsos, y recaída tras la suspensión.
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Hold**
+**Decisión: Proceed with Guardrails**
 
 **Justificación:**
-No se dispone de predicciones TxGNN para nuevas indicaciones de betametasona, y existen múltiples brechas de datos críticas (DrugBank ID no identificado, MOA no documentado en el pack, sin registro regulatorio en Argentina). Sin una predicción válida ni datos regulatorios locales, no es posible avanzar en la evaluación de reposicionamiento.
+Existe un ensayo de Fase 2 completado que incluye betametasona como brazo activo en alopecia areata, además de un ECA reciente con microagujas y varios estudios comparativos. La señal clínica es coherente con el mecanismo, pero no hay ensayos de Fase 3 y varios estudios usan la betametasona solo como comparador.
 
 **Para avanzar se necesita:**
-- Resolver el mapeo del fármaco: identificar el **DrugBank ID** correcto para betametasona (probablemente DB00443)
-- Repetir la búsqueda regulatoria en ANMAT con términos alternativos y nombres comerciales
-- Obtener el **mecanismo de acción (MOA)** detallado desde DrugBank
-- Obtener las **advertencias, contraindicaciones e interacciones** desde el prospecto o fuentes regulatorias
-- Re-ejecutar el modelo **TxGNN** con el identificador correcto del fármaco para generar predicciones de nuevas indicaciones
-- Considerar ejecutar la predicción tanto para betametasona sola como para sus combinaciones de uso frecuente (e.g., betametasona + gentamicina, betametasona dipropionato)
+- Obtener y analizar el prospecto aprobado en ANMAT (advertencias y contraindicaciones)
+- Completar los datos del mecanismo de acción
+- Ensayos comparativos de mayor tamaño (idealmente Fase 3) con betametasona como brazo de intervención
+- Definir la vía y el régimen (tópico, intralesional, minipulso oral) y un plan de monitoreo de seguridad, incluido el eje suprarrenal y la recaída tras la suspensión
 
 <!-- review:begin log -->
 
@@ -129,7 +123,7 @@ A continuación, el registro de verificación de esta página: afirmaciones cont
 
 | Fecha de verificación | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-06 | Eliminado: «No se identificaron autorizaciones de comercialización vigentes» | Corregido | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+| 2026-11-06 | Eliminado: «No se identificaron autorizaciones de comercialización vigentes» | Ya no aparece tras regenerar el informe (2026-11-16: The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page; antes: Corregido) | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
 
 <!-- review:end log -->
 

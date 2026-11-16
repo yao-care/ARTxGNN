@@ -19,7 +19,7 @@ Predicciones de reposicionamiento de medicamentos para medicamentos del listado 
 
 | Elemento | Cantidad |
 |------|------|
-| **Informes de medicamentos** | 160 |
+| **Informes de medicamentos** | 329 |
 | **Predicciones totales** | 10,483,518 |
 | **Medicamentos unicos** | 390 |
 | **Indicaciones unicas** | 14,310 |
@@ -30,11 +30,11 @@ Predicciones de reposicionamiento de medicamentos para medicamentos del listado 
 
 | Nivel de evidencia | Cantidad de informes | Descripcion |
 |---------|-------|------|
-| **L1** | 3 | Multiples ECAs de Fase 3 |
-| **L2** | 3 | ECA unico o multiples Fase 2 |
-| **L3** | 8 | Estudios observacionales |
-| **L4** | 5 | Estudios preclinicos / mecanisticos |
-| **L5** | 139 | Solo prediccion computacional |
+| **L1** | 7 | Multiples ECAs de Fase 3 |
+| **L2** | 10 | ECA unico o multiples Fase 2 |
+| **L3** | 14 | Estudios observacionales |
+| **L4** | 10 | Estudios preclinicos / mecanisticos |
+| **L5** | 286 | Solo prediccion computacional |
 | **N/A** | 2 | Solo usos conocidos (sin nuevas predicciones) |
 
 ### Por fuente

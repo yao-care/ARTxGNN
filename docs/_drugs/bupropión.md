@@ -1,20 +1,21 @@
 ---
-noindex: true
-sitemap: false
 layout: default
 title: Bupropión
-parent: Solo Predicción del Modelo (L5)
+parent: Evidencia Alta (L1-L2)
 nav_order: 69
-evidence_level: L5
-indication_count: 0
-last_modified_at: 2026-09-17
-predicted_indications: []
+evidence_level: L1
+indication_count: 10
+drugbank_id: DB01156
+monitor_inn: "Bupropion"
+predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "benign paroxysmal torticollis of infancy", "trigeminal nerve neoplasm", "obsolete hypertelorism (disease)"]
+last_modified_at: 2026-11-16
+description: "Bupropión: nueva indicación predicha, Trastorno por déficit de atención con hiperactividad (attention deficit-hyperactivity disorder) (nivel de evidencia L1)."
 ---
 
 # Bupropión
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **0** 
+Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,81 +34,88 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-## BUPROPIÓN: Informe de Evaluación con Datos Insuficientes
+## Bupropión: Trastorno por déficit de atención con hiperactividad (attention deficit-hyperactivity disorder)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-BUPROPIÓN es un fármaco registrado en DrugBank, sin autorizaciones activas en Argentina según los datos disponibles.
-El Evidence Pack **no contiene indicaciones predichas por TxGNN**, por lo que no es posible evaluar una nueva indicación candidata en este ciclo.
-Los datos de mecanismo de acción, advertencias de seguridad y ensayos clínicos asociados se encuentran pendientes de recuperación.
-
----
+Bupropión es un fármaco comercializado en Argentina, conocido por inhibir la recaptación de noradrenalina y dopamina.
+El modelo TxGNN predice que podría ser útil para el **trastorno por déficit de atención con hiperactividad (attention deficit-hyperactivity disorder)**,
+con **6 ensayos clínicos** y **18 publicaciones** que actualmente respaldan esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
-|------|-----------|
-| Indicación Original | Sin datos disponibles |
-| Nueva Indicación Predicha | Sin datos disponibles (predicted_indications vacío) |
-| Puntaje de Predicción TxGNN | Sin datos disponibles |
-| Nivel de Evidencia | L5 — Solo predicción del modelo, sin estudios asociados cargados |
+|------|------|
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Trastorno por déficit de atención con hiperactividad (attention deficit-hyperactivity disorder) |
+| Puntaje de Predicción TxGNN | 0.9999 |
+| Nivel de Evidencia | L1 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (6 de 6) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de productos en el listado PAMI | 6 (vigentes: 6) |
-| Decisión Recomendada | **Hold** |
+| Número de Autorización | 6 (vigentes: 6) |
+| Decisión Recomendada | Proceed with Guardrails |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por qué No es Posible Completar el Análisis
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, el bupropión inhibe la recaptación de noradrenalina y dopamina (NDRI).
 
-El Evidence Pack recibido presenta dos brechas de datos críticas que bloquean la evaluación completa:
+Ese mecanismo se superpone con los sistemas catecolaminérgicos sobre los que actúan los tratamientos establecidos para el TDAH, como los estimulantes y la atomoxetina. Esto ofrece una base farmacológica plausible para un posible efecto en este trastorno.
 
-**DG001 (Blocking):** No se dispone de las advertencias, contraindicaciones ni texto del prospecto oficial. Sin esta información, es imposible completar la evaluación inicial de seguridad (S1). La remedación requiere descarga del PDF del prospecto desde el sitio oficial y su posterior extracción.
-
-**DG002 (High):** El mecanismo de acción (MOA) no está disponible. Esto impide realizar el análisis de relación mecanística entre la indicación original y cualquier indicación candidata. La fuente recomendada es DrugBank (la consulta ya registró 1 resultado exitoso pendiente de carga).
-
-Adicionalmente, el arreglo `predicted_indications` se encuentra vacío, lo que significa que el modelo TxGNN aún no ha generado candidatos de reposicionamiento para este fármaco, o los resultados no fueron incluidos en este pack.
-
----
+Conviene tener cautela: se trataría de una opción de segunda línea o fuera de indicación, con tamaños de efecto generalmente menores que los de los estimulantes. Además, deben considerarse el riesgo de convulsiones y las comorbilidades psiquiátricas.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados en este Evidence Pack.
-
----
+| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
+|---------|------|------|------|---------|
+| [NCT00048360](https://clinicaltrials.gov/study/NCT00048360) | Fase 3 | Completado | 162 | Ensayo multicéntrico, aleatorizado, doble ciego y controlado con placebo de 8 semanas: bupropión de liberación prolongada (300-450 mg/día) en adultos con TDAH |
+| [NCT00061087](https://clinicaltrials.gov/study/NCT00061087) | Fase 2/3 | Completado | 115 | Tratamiento del TDAH del adulto en pacientes en tratamiento con metadona |
+| [NCT00936299](https://clinicaltrials.gov/study/NCT00936299) | Fase 4 | Completado | 105 | Bupropión para el TDAH en adolescentes con trastorno por uso de sustancias |
+| [NCT01270555](https://clinicaltrials.gov/study/NCT01270555) | No aplica | Completado | 32 | Estudio abierto de bupropión SR en adultos con TDAH y trastornos por uso de sustancias actuales o recientes |
+| [NCT00000268](https://clinicaltrials.gov/study/NCT00000268) | No aplica | Completado | 32 | Abuso de cocaína y trastorno por déficit de atención; el foco principal es el consumo de sustancias |
+| [NCT04553263](https://clinicaltrials.gov/study/NCT04553263) | Fase 1 temprana | Retirado | 0 | Prevención de recaídas en trastorno por uso de estimulantes; sin inscripción, sin evidencia utilizable |
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible en este Evidence Pack.
-
----
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [30097390](https://pubmed.ncbi.nlm.nih.gov/30097390/) | 2018 | Revisión sistemática / metaanálisis en red | The Lancet Psychiatry | Eficacia y tolerabilidad comparadas de los medicamentos orales para el TDAH en niños, adolescentes y adultos |
+| [33085721](https://pubmed.ncbi.nlm.nih.gov/33085721/) | 2020 | Revisión sistemática / metaanálisis en red | PLoS One | Efectos relativos de los tratamientos farmacológicos del TDAH en adultos |
+| [40203844](https://pubmed.ncbi.nlm.nih.gov/40203844/) | 2025 | Estudio comparativo de seguridad | The Lancet Psychiatry | Seguridad cardiovascular comparada de los fármacos para el TDAH |
+| [38915262](https://pubmed.ncbi.nlm.nih.gov/38915262/) | 2024 | Revisión | Expert Rev Neurother | Medicamentos no estimulantes actuales para adultos con TDAH |
+| [39172673](https://pubmed.ncbi.nlm.nih.gov/39172673/) | 2024 | Revisión | Am Fam Physician | Panorama del TDAH en adultos |
+| [37405312](https://pubmed.ncbi.nlm.nih.gov/37405312/) | 2023 | Revisión | Health Psychol Res | Efectos del bupropión en depresión, TDAH y cesación tabáquica; farmacocinética, mecanismos e interacciones |
+| [26601963](https://pubmed.ncbi.nlm.nih.gov/26601963/) | 2016 | Revisión | Curr Pharm Des | Psicofarmacología del TDAH; menciona al bupropión entre los fármacos usados |
+| [24259638](https://pubmed.ncbi.nlm.nih.gov/24259638/) | 2014 | Revisión | Ann Pharmacother | Fisiopatología, etiología y tratamiento del TDAH |
+| [25092688](https://pubmed.ncbi.nlm.nih.gov/25092688/) | 2014 | Revisión | J Pharm Pract | Panorama general del TDAH |
+| [17136226](https://pubmed.ncbi.nlm.nih.gov/17136226/) | 2006 | Revisión | Drugs Today | Revisión del bupropión; mecanismo por inhibición de la recaptación de dopamina y noradrenalina |
 
 ## Información de Mercado en Argentina
 
-No se registran autorizaciones de comercialización para BUPROPIÓN en Argentina según los datos consultados.
-
----
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 23483 | ODRANAL | 150 mg comprimidos de liberación prolongada x 30 | No registrada |
+| 26876 | ODRANAL | 150 mg comprimidos de liberación prolongada x 60 | No registrada |
+| 49601 | BUP | 150 mg comprimidos de liberación prolongada x 30 | No registrada |
+| 49602 | BUP | 150 mg comprimidos de liberación prolongada x 60 | No registrada |
+| 41544 | WELLBUTRIN XL | 150 mg comprimidos de liberación extendida x 30 | No registrada |
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
 
----
-
 ## Conclusión y Próximos Pasos
 
-**Decisión: Hold**
+**Decisión: Proceed with Guardrails**
 
 **Justificación:**
-El Evidence Pack está incompleto: no contiene indicaciones predichas por TxGNN, ni datos de mecanismo de acción, ni información de seguridad, ni autorizaciones de mercado en Argentina. No existe base de evidencia suficiente para avanzar en ninguna dirección de reposicionamiento en este ciclo.
+Existe al menos un ensayo de Fase 3 completado, aleatorizado y controlado con placebo, que estudia directamente el TDAH, junto con ensayos adicionales y revisiones sistemáticas. Sin embargo, solo hay un ensayo de Fase 3, gran parte de la evidencia proviene de poblaciones con consumo de sustancias, y los datos de seguridad locales no están disponibles. Por ello, conviene avanzar con salvaguardas.
 
 **Para avanzar se necesita:**
-
-- **[DG001 — Blocking]** Recuperar y estructurar el prospecto oficial de BUPROPIÓN (advertencias, contraindicaciones, precauciones) desde la fuente regulatoria correspondiente
-- **[DG002 — High]** Cargar los datos de mecanismo de acción (MOA) desde DrugBank — la consulta ya devolvió 1 resultado exitoso que debe integrarse al pack
-- Ejecutar el pipeline TxGNN para generar indicaciones candidatas (`predicted_indications`) para este fármaco
-- Completar la consulta de interacciones farmacológicas (DDI query devolvió `not_found`)
-- Una vez disponibles las indicaciones predichas, reiniciar el ciclo de evaluación con un Evidence Pack completo
+- Obtener y analizar el prospecto de ANMAT (advertencias y contraindicaciones), una brecha crítica para el cribado de seguridad
+- Completar los datos del mecanismo de acción desde una fuente farmacológica de referencia
+- Confirmar los detalles del ensayo NCT00048360 (comparador y población), ya que el título está truncado
+- Evaluar el riesgo de convulsiones y las comorbilidades psiquiátricas antes de cualquier uso en TDAH
+- Comparar la eficacia con los tratamientos de primera línea (estimulantes) y confirmarla en estudios adicionales
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

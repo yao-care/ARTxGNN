@@ -1,20 +1,21 @@
 ---
-noindex: true
-sitemap: false
 layout: default
 title: Acetazolamida
 parent: Solo Predicción del Modelo (L5)
 nav_order: 12
 evidence_level: L5
-indication_count: 0
-last_modified_at: 2026-11-12
-predicted_indications: []
+indication_count: 10
+drugbank_id: DB00819
+monitor_inn: "Acetazolamide"
+predicted_indications: ["exercise-induced malignant hyperthermia", "hypertrophic cardiomyopathy", "congenital myopathy with excess of thin filaments", "hypertrophic cardiomyopathy due to intensive athletic training", "distal myopathy, Tateyama type", "cirrhotic cardiomyopathy", "cardiomyopathy", "intestinal obstruction", "glycogen storage disease due to acid maltase deficiency, late-onset", "unclassified intestinal pseudoobstruction"]
+last_modified_at: 2026-11-16
+description: "Acetazolamida: nueva indicación predicha, hipertermia maligna inducida por ejercicio (exercise-induced malignant hyperthermia) (nivel de evidencia L5)."
 ---
 
 # Acetazolamida
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **0** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,97 +34,65 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-## Acetazolamida: Evaluación Preliminar — Sin Indicaciones Predichas Disponibles
+## Acetazolamida: hipertermia maligna inducida por ejercicio (exercise-induced malignant hyperthermia)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Acetazolamida es un inhibidor de la anhidrasa carbónica con múltiples usos clínicos conocidos (glaucoma, mal de altura, epilepsia, edema). En esta evaluación, **el modelo TxGNN no ha generado predicciones de nuevas indicaciones**, y el Evidence Pack presenta vacíos de datos significativos que impiden un análisis completo de reposicionamiento.
-
----
+Acetazolamida es un fármaco con dos autorizaciones vigentes en Argentina, ambas como producto de un solo principio activo.
+El modelo TxGNN predice que podría ser útil para **hipertermia maligna inducida por ejercicio (exercise-induced malignant hyperthermia)**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata únicamente de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
-|------|-----------|
-| Indicación Original | No disponible en el Evidence Pack |
-| Nueva Indicación Predicha | — (Sin predicciones generadas por TxGNN) |
-| Puntaje de Predicción TxGNN | N/A |
-| Nivel de Evidencia | **L5** — Solo datos preliminares, sin predicciones ni estudios asociados |
+|------|------|
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | hipertermia maligna inducida por ejercicio (exercise-induced malignant hyperthermia) |
+| Puntaje de Predicción TxGNN | 0.9995 |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (2 de 2) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de productos en el listado PAMI | 2 (vigentes: 2) |
-| Decisión Recomendada | **Hold** |
+| Número de Autorización | 2 (vigentes: 2) |
+| Decisión Recomendada | Hold |
 
----
+## ¿Por qué es razonable esta predicción?
 
-## ¿Por qué no se Generaron Predicciones?
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por conocimiento general, la acetazolamida inhibe la anhidrasa carbónica, lo que modifica el pH y el manejo de iones, y se usa en trastornos musculares como las parálisis periódicas.
 
-El modelo TxGNN no produjo indicaciones predichas para Acetazolamida en esta ejecución. Esto puede deberse a varias razones:
+Una hipótesis puramente especulativa es que esa modulación del pH y de los iones en el músculo esquelético podría influir en la hipertermia maligna. Sin embargo, ningún dato muestra beneficio en esta enfermedad ni en la desregulación del calcio mediada por el receptor de rianodina que la caracteriza.
 
-1. **Falta de identificador DrugBank**: El Evidence Pack no incluye un `drugbank_id` válido, lo cual es un insumo crítico para que TxGNN pueda mapear el fármaco dentro de su grafo de conocimiento (Knowledge Graph). Sin esta conexión, el modelo no puede posicionar al fármaco en la red de relaciones fármaco-enfermedad.
-
-2. **Ausencia de datos de mecanismo de acción (MOA)**: El campo `original_moa` figura como vacío. Acetazolamida es un **inhibidor de la anhidrasa carbónica** (principalmente las isoenzimas CA-II y CA-IV), pero esta información no fue incorporada al Evidence Pack, limitando el análisis de plausibilidad mecanística.
-
-3. **Sin registro regulatorio en Argentina**: Al no encontrarse autorizaciones vigentes en el mercado argentino, no se dispone de indicaciones aprobadas locales que sirvan como punto de partida para el análisis de reposicionamiento.
-
-Para que TxGNN genere predicciones confiables, es necesario resolver primero los vacíos de datos identificados como **DG001** (información regulatoria/prospecto) y **DG002** (mecanismo de acción vía DrugBank).
-
----
+El puntaje muy alto (0,9995) sin ninguna evidencia de respaldo sugiere que podría tratarse de un artefacto de los embeddings del modelo, por lo que la predicción debe tomarse con mucha cautela.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados, dado que no se generaron indicaciones predichas.
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible en el Evidence Pack, dado que no se generaron indicaciones predichas.
-
----
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-Acetazolamida **no se encuentra comercializada** en Argentina según los datos consultados.
-
-<!-- review:begin ar-lic-20261106-acetazolamida-1 -->
-
-> **Corrección de verificación (2026-11-06)**: Texto original: «Acetazolamida **no se encuentra comercializada** en Argentina según los datos consultados. No se identificaron autorizaciones de comercialización vigentes.» Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). En los datos (listado de medicamentos de PAMI) figuran 2 registros para este medicamento, 2 vigentes; las cifras actualizadas están en el resumen rápido y en la información de mercado. Fuente: [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
-
-<!-- review:end ar-lic-20261106-acetazolamida-1 -->
-
----
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 48845 | ACETA (Novoplos) | Comprimidos 250 mg x 20 | No registrada en los datos locales |
+| 45899 | DIABO (Max Vision) | Comprimidos 250 mg x 50 | No registrada en los datos locales |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. Los datos de advertencias, contraindicaciones e interacciones farmacológicas no están disponibles en el Evidence Pack actual.
-
----
-
-## Vacíos de Datos Identificados
-
-Los siguientes vacíos de datos fueron registrados y deben resolverse antes de avanzar:
-
-| ID | Categoría | Item Faltante | Severidad | Impacto | Fuente de Remediación |
-|----|-----------|---------------|-----------|---------|----------------------|
-| DG001 | Nivel de Fármaco | Advertencias y contraindicaciones del prospecto | **Bloqueante** | No se puede realizar la evaluación inicial de seguridad (S1) | Sitio web del regulador — descargar y analizar prospecto PDF |
-| DG002 | Nivel de Fármaco | Mecanismo de acción (MOA) | **Alta** | Afecta el análisis de relación mecanística | DrugBank — consultar vía API |
-
----
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No es posible avanzar con la evaluación de reposicionamiento de Acetazolamida en este momento. El modelo TxGNN no generó predicciones de nuevas indicaciones, y existen vacíos de datos bloqueantes — en particular la falta de identificador DrugBank y la ausencia de información regulatoria en Argentina. Sin estos insumos fundamentales, el análisis carece de base suficiente para una recomendación de avance.
+La predicción se apoya solo en el puntaje del modelo, sin ensayos ni publicaciones sobre esta enfermedad (nivel L5), y no existe un mecanismo plausible que la sustente.
 
 **Para avanzar se necesita:**
-- Obtener el **DrugBank ID** de Acetazolamida (probablemente `DB00819`) y re-ejecutar la consulta
-- Incorporar el **mecanismo de acción** (inhibidor de anhidrasa carbónica) al Evidence Pack
-- Verificar el **estado regulatorio** en Argentina mediante fuentes locales (ANMAT)
-- Re-ejecutar el pipeline TxGNN con los datos completados para generar predicciones de nuevas indicaciones
-- Obtener información de seguridad del prospecto (advertencias, contraindicaciones, interacciones)
+- Datos del mecanismo de acción (por ejemplo, desde DrugBank) y una evaluación de su relación con la fisiopatología de la hipertermia maligna
+- Revisión sistemática de la literatura específica sobre acetazolamida e hipertermia maligna
+- Obtener y analizar el prospecto aprobado por ANMAT (advertencias y contraindicaciones), requisito previo a cualquier evaluación de seguridad
+- Estudios preclínicos que respalden la hipótesis antes de considerar ensayos clínicos
 
 <!-- review:begin log -->
 
@@ -133,7 +102,7 @@ A continuación, el registro de verificación de esta página: afirmaciones cont
 
 | Fecha de verificación | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-06 | Eliminado: «No se identificaron autorizaciones de comercialización vigentes» | Corregido | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+| 2026-11-06 | Eliminado: «No se identificaron autorizaciones de comercialización vigentes» | Ya no aparece tras regenerar el informe (2026-11-16: The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page; antes: Corregido) | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
 
 <!-- review:end log -->
 
