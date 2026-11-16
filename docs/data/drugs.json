@@ -1,6 +1,6 @@
 {
   "generated": "2026-11-16",
-  "total_count": 329,
+  "total_count": 328,
   "source": "ARTxGNN",
   "drugs": [
     {
@@ -352,16 +352,6 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/benzocaína/"
-    },
-    {
-      "slug": "beta-alanina",
-      "name": "Beta-Alanina",
-      "evidence_level": "L5",
-      "indication_count": 1,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/beta-alanina/"
     },
     {
       "slug": "betametasona",

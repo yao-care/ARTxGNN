@@ -1,12 +1,12 @@
 {
   "generated": "2026-11-16",
-  "total_drugs": 329,
+  "total_drugs": 328,
   "level_counts": {
     "L1": 7,
     "L2": 10,
     "L3": 14,
     "L4": 10,
-    "L5": 286
+    "L5": 285
   },
   "all_drugs": [
     {
@@ -216,12 +216,6 @@
     {
       "name": "Benzocaína",
       "slug": "benzocaína",
-      "level": "L5",
-      "indication_count": 1
-    },
-    {
-      "name": "Beta-Alanina",
-      "slug": "beta-alanina",
       "level": "L5",
       "indication_count": 1
     },
