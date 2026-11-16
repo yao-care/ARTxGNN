@@ -20,7 +20,10 @@
    ],
    "checked": "2026-11-06",
    "summary": "Eliminado: «No se identificaron autorizaciones de comercialización vigentes»",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）"
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）",
+   "status": "resolved_by_regeneration",
+   "resolved_on": "2026-11-16",
+   "resolved_note": "The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page"
   },
   {
    "id": "ar-lic-20261106-aciclovir-1",
@@ -41,7 +44,10 @@
    "checked": "2026-11-06",
    "summary": "Eliminado: «3. **Ausencia de datos regulatorios en Argentina**: El fármaco no cuenta con autorizaciones de comercialización registradas en Argentina (0 »",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）",
-   "anchor": "2. **Mecanismo de acción no disponible**: Aunque Aciclovir es un análogo nucleósido ampliamente conocido que inhibe la ADN polimerasa viral, el campo `original_moa` del Evidence Pack está vacío. Sin datos estructurados de mecanismo de acción, TxGNN no puede realizar inferencias de similitud mecanística con otras indicaciones."
+   "anchor": "2. **Mecanismo de acción no disponible**: Aunque Aciclovir es un análogo nucleósido ampliamente conocido que inhibe la ADN polimerasa viral, el campo `original_moa` del Evidence Pack está vacío. Sin datos estructurados de mecanismo de acción, TxGNN no puede realizar inferencias de similitud mecanística con otras indicaciones.",
+   "status": "resolved_by_regeneration",
+   "resolved_on": "2026-11-16",
+   "resolved_note": "The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page"
   },
   {
    "id": "ar-lic-20261106-aciclovir-2",
@@ -61,7 +67,10 @@
    ],
    "checked": "2026-11-06",
    "summary": "Eliminado: «No se identificaron autorizaciones de comercialización vigentes (total de licencias: 0)»",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）"
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）",
+   "status": "resolved_by_regeneration",
+   "resolved_on": "2026-11-16",
+   "resolved_note": "The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page"
   },
   {
    "id": "ar-lic-20261106-amiodarona-1",
@@ -81,7 +90,10 @@
    ],
    "checked": "2026-11-06",
    "summary": "Eliminado: «No se identificaron autorizaciones de comercialización vigentes (0 licencias)»",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）"
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）",
+   "status": "resolved_by_regeneration",
+   "resolved_on": "2026-11-16",
+   "resolved_note": "The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page"
   },
   {
    "id": "ar-lic-20261106-atomoxetina-1",
@@ -101,7 +113,10 @@
    ],
    "checked": "2026-11-06",
    "summary": "Eliminado: «No existen autorizaciones de comercialización vigentes»",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）"
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）",
+   "status": "resolved_by_regeneration",
+   "resolved_on": "2026-11-16",
+   "resolved_note": "The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page"
   },
   {
    "id": "ar-lic-20261106-atropina_sulfato-1",
@@ -122,7 +137,10 @@
    "checked": "2026-11-06",
    "summary": "Eliminado: «No se encontraron autorizaciones de comercialización vigentes para Atropina Sulfato en Argentina según los registros consultados (0 autoriza»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）",
-   "anchor": "> Esto puede deberse a que el fármaco se comercializa bajo formulaciones combinadas, denominaciones alternativas, o que los registros no fueron recuperados correctamente con el término de búsqueda \"ATROPINA,SULFATO\"."
+   "anchor": "> Esto puede deberse a que el fármaco se comercializa bajo formulaciones combinadas, denominaciones alternativas, o que los registros no fueron recuperados correctamente con el término de búsqueda \"ATROPINA,SULFATO\".",
+   "status": "resolved_by_regeneration",
+   "resolved_on": "2026-11-16",
+   "resolved_note": "The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page"
   },
   {
    "id": "ar-lic-20261106-beclometasona-1",
@@ -142,7 +160,10 @@
    ],
    "checked": "2026-11-06",
    "summary": "Eliminado: «No se registraron autorizaciones de mercado (0 licencias)»",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）"
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）",
+   "status": "resolved_by_regeneration",
+   "resolved_on": "2026-11-16",
+   "resolved_note": "The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page"
   },
   {
    "id": "ar-lic-20261106-beclometasona-2",
@@ -162,7 +183,10 @@
    ],
    "checked": "2026-11-06",
    "summary": "Eliminado: «El fármaco no cuenta con autorización de mercado en Argentina, lo que representa una barrera regulatoria adicional»",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）"
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）",
+   "status": "resolved_by_regeneration",
+   "resolved_on": "2026-11-16",
+   "resolved_note": "The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page"
   },
   {
    "id": "ar-lic-20261106-benznidazol-1",
@@ -182,7 +206,10 @@
    ],
    "checked": "2026-11-06",
    "summary": "Eliminado: «(TFDA)»",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）"
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）",
+   "status": "resolved_by_regeneration",
+   "resolved_on": "2026-11-16",
+   "resolved_note": "The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page"
   },
   {
    "id": "ar-lic-20261106-betametasona-1",
@@ -202,7 +229,10 @@
    ],
    "checked": "2026-11-06",
    "summary": "Eliminado: «No se identificaron autorizaciones de comercialización vigentes»",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）"
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）",
+   "status": "resolved_by_regeneration",
+   "resolved_on": "2026-11-16",
+   "resolved_note": "The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page"
   },
   {
    "id": "ar-lic-20261106-bromhexina-1",
@@ -322,7 +352,10 @@
    ],
    "checked": "2026-11-06",
    "summary": "Eliminado: «La ausencia de resultados puede deberse a variaciones en el nombre comercial, formato de búsqueda, o a que la consulta fue realizada contra »",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）"
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）",
+   "status": "resolved_by_regeneration",
+   "resolved_on": "2026-11-16",
+   "resolved_note": "The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page"
   },
   {
    "id": "ar-lic-20261106-cetirizina-2",
@@ -343,7 +376,10 @@
    "checked": "2026-11-06",
    "summary": "Eliminado: «No se encontraron autorizaciones de comercialización para **CETIRIZINA** en el sistema consultado»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）",
-   "anchor": "> ⚠️ Nota: Cetirizina es un antihistamínico de uso común a nivel mundial. Se recomienda verificar directamente en el [buscador de productos de ANMAT](https://servicios.anmat.gov.ar/aplicaciones_net/psp_msp.aspx)."
+   "anchor": "> ⚠️ Nota: Cetirizina es un antihistamínico de uso común a nivel mundial. Se recomienda verificar directamente en el [buscador de productos de ANMAT](https://servicios.anmat.gov.ar/aplicaciones_net/psp_msp.aspx).",
+   "status": "resolved_by_regeneration",
+   "resolved_on": "2026-11-16",
+   "resolved_note": "The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page"
   },
   {
    "id": "ar-lic-20261106-cetirizina-3",
@@ -363,7 +399,10 @@
    ],
    "checked": "2026-11-06",
    "summary": "Eliminado: «[ ] **Verificar la fuente regulatoria**: Confirmar si la búsqueda debe realizarse en ANMAT (Argentina) en lugar de TFDA (Taiwán), dado que e»",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）"
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）",
+   "status": "resolved_by_regeneration",
+   "resolved_on": "2026-11-16",
+   "resolved_note": "The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page"
   },
   {
    "id": "ar-lic-20261106-ciclosporina-1",
@@ -383,7 +422,10 @@
    ],
    "checked": "2026-11-06",
    "summary": "Eliminado: «La consulta a ANMAT/TFDA devolvió `result_count: 0` para el nombre INN \"CICLOSPORINA\". Esto puede deberse a que el fármaco está registrado b»",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）"
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）",
+   "status": "resolved_by_regeneration",
+   "resolved_on": "2026-11-16",
+   "resolved_note": "The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page"
   },
   {
    "id": "ar-lic-20261106-ciclosporina-2",
@@ -403,7 +445,10 @@
    ],
    "checked": "2026-11-06",
    "summary": "Eliminado: «TFDA o»",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）"
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）",
+   "status": "resolved_by_regeneration",
+   "resolved_on": "2026-11-16",
+   "resolved_note": "The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page"
   },
   {
    "id": "ar-lic-20261106-cilostazol-1",

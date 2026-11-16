@@ -1,20 +1,21 @@
 ---
-noindex: true
-sitemap: false
 layout: default
 title: Atomoxetina
 parent: Solo Predicción del Modelo (L5)
 nav_order: 37
 evidence_level: L5
-indication_count: 0
-last_modified_at: 2026-11-12
-predicted_indications: []
+indication_count: 10
+drugbank_id: DB00289
+monitor_inn: "Atomoxetine"
+predicted_indications: ["specific developmental disorder", "faciodigitogenital syndrome", "chondromyxoid fibroma", "trichotillomania", "restless legs syndrome", "manic bipolar affective disorder", "Tourette syndrome", "transient tic disorder", "cerebellar ataxia", "autosomal dominant cerebellar ataxia"]
+last_modified_at: 2026-11-16
+description: "Atomoxetina: nueva indicación predicha, trastorno específico del desarrollo (specific developmental disorder) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Atomoxetina
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **0** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,88 +34,76 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-## ATOMOXETINA: Evaluación Preliminar — Sin Indicaciones Predichas Disponibles
+## Atomoxetina: trastorno específico del desarrollo (specific developmental disorder)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Atomoxetina es un inhibidor selectivo de la recaptación de noradrenalina (ISRN), ampliamente conocido por su uso en el tratamiento del Trastorno por Déficit de Atención e Hiperactividad (TDAH). Actualmente, el modelo TxGNN **no ha generado predicciones de nuevas indicaciones** para este fármaco, y el Evidence Pack presenta múltiples brechas de datos que impiden una evaluación completa de reposicionamiento.
-
----
+Atomoxetina es un inhibidor selectivo de la recaptación de noradrenalina, comercializado en Argentina bajo la marca RECIT.
+El modelo TxGNN predice que podría ser efectivo para **trastorno específico del desarrollo (specific developmental disorder)**,
+pero actualmente no hay ensayos clínicos registrados y la literatura recopilada se refiere casi por completo al TDAH, no a esta categoría diagnóstica.
 
 ## Resumen Rápido
 
 | Item | Contenido |
-|------|-----------|
-| Indicación Original | No disponible en el registro regulatorio consultado (conocida: TDAH) |
-| Nueva Indicación Predicha | — Sin predicciones disponibles — |
-| Puntaje de Predicción TxGNN | N/A |
-| Nivel de Evidencia | L5 (solo datos preliminares, sin estudios ni predicción) |
+|------|------|
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | trastorno específico del desarrollo (specific developmental disorder) |
+| Puntaje de Predicción TxGNN | 1.0000 |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (5 de 5) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de productos en el listado PAMI | 5 (vigentes: 5) |
-| Decisión Recomendada | **Hold** |
+| Número de Autorización | 5 (vigentes: 5) |
+| Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## ¿Por qué no hay Predicciones Disponibles?
+Atomoxetina es un inhibidor selectivo de la recaptación de noradrenalina. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe, por lo que el análisis mecanístico es limitado.
 
-Atomoxetina es un inhibidor selectivo de la recaptación de noradrenalina (NRI). A diferencia de los estimulantes tradicionales (metilfenidato, anfetaminas), actúa bloqueando el transportador de noradrenalina (NET) en la corteza prefrontal, aumentando las concentraciones sinápticas de noradrenalina y, secundariamente, de dopamina en dicha región. Este mecanismo lo distingue como una opción no estimulante para el tratamiento del TDAH.
+"Trastorno específico del desarrollo" es una categoría amplia que se solapa con el TDAH y las dificultades de aprendizaje. El puntaje alto del modelo probablemente refleja esta cercanía con los trastornos del neurodesarrollo en los que atomoxetina ya se utiliza, más que una señal específica para esta categoría.
 
-El array `predicted_indications` del Evidence Pack se encuentra vacío, lo que significa que el modelo TxGNN no ha generado candidatos de reposicionamiento para este fármaco en el ciclo de análisis actual. Esto puede deberse a varias razones: (1) el fármaco no se encuentra representado en el grafo de conocimiento utilizado por TxGNN, (2) las asociaciones fármaco-enfermedad no alcanzaron el umbral mínimo de confianza del modelo, o (3) los datos de entrada del fármaco (DrugBank ID, MOA estructurado) están ausentes, lo que limita la capacidad predictiva.
-
-Adicionalmente, el mecanismo de acción detallado figura como brecha de datos (DG002, severidad Alta), lo cual impacta directamente la capacidad del modelo para establecer relaciones mecanísticas con nuevas indicaciones. Sin un DrugBank ID vinculado ni datos de MOA estructurados, el pipeline de predicción no puede operar de forma completa.
-
----
+La literatura recuperada incluye metaanálisis en red sobre TDAH en adultos y un metaanálisis sobre TDAH en niños con autismo, pero ningún estudio evalúa directamente un trastorno específico del desarrollo distinto del TDAH. Varios artículos recuperados no guardan relación con el tema (catinonas sintéticas, interacciones farmacológicas, costos sanitarios). Por ello el nivel de evidencia se fija en L5.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados, dado que no se ha generado una indicación predicha para evaluar.
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible en el contexto de reposicionamiento, dado que no se ha generado una indicación predicha.
-
----
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [39701638](https://pubmed.ncbi.nlm.nih.gov/39701638/) | 2025 | Revisión sistemática / metaanálisis en red | The Lancet Psychiatry | Eficacia y aceptabilidad comparativas de intervenciones farmacológicas, psicológicas y de neuroestimulación para el TDAH en adultos |
+| [30653855](https://pubmed.ncbi.nlm.nih.gov/30653855/) | 2019 | Revisión / metaanálisis | Autism Research | Atomoxetina para síntomas de TDAH en niños con autismo; tres ECA con 241 niños |
+| [35485452](https://pubmed.ncbi.nlm.nih.gov/35485452/) | 2022 | Cohorte retrospectiva | Neuropsychopharmacology Reports | Factores asociados con la eficacia de atomoxetina en TDAH adulto |
+| [27721971](https://pubmed.ncbi.nlm.nih.gov/27721971/) | 2016 | Revisión | Therapeutic Advances in Psychopharmacology | Eficacia de atomoxetina en TDAH con comorbilidades frecuentes |
+| [33012168](https://pubmed.ncbi.nlm.nih.gov/33012168/) | 2021 | Cohorte | Clinical EEG and Neuroscience | EEG cuantitativo en TDAH infantil y dificultades de aprendizaje |
+| [41332541](https://pubmed.ncbi.nlm.nih.gov/41332541/) | 2025 | Cohorte (preprint) | bioRxiv | Desviaciones de conectividad estructural en jóvenes con TDAH que predicen síntomas y resultados del tratamiento |
 
 ## Información de Mercado en Argentina
 
-Atomoxetina **no se encuentra comercializada** en Argentina según los registros consultados.
-
-<!-- review:begin ar-lic-20261106-atomoxetina-1 -->
-
-> **Corrección de verificación (2026-11-06)**: Texto original: «Atomoxetina **no se encuentra comercializada** en Argentina según los registros consultados. No existen autorizaciones de comercialización vigentes.» Eliminado: el número o el estado de los registros indicado no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). En los datos (listado de medicamentos de PAMI) figuran 5 registros para este medicamento, 5 vigentes; las cifras actualizadas están en el resumen rápido y en la información de mercado. Fuente: [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
-
-<!-- review:end ar-lic-20261106-atomoxetina-1 -->
-
-> **Nota:** La ausencia de registro en Argentina no implica que el fármaco carezca de aprobación en otros mercados. Atomoxetina (Strattera®) se encuentra aprobada y comercializada en múltiples países (EE.UU., UE, Japón, entre otros) para el tratamiento del TDAH.
-
----
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 33698 | RECIT | 10 mg cáps. x 7 | No registrada en los datos locales |
+| 33699 | RECIT | 18 mg cáps. x 7 | No registrada en los datos locales |
+| 33700 | RECIT | 25 mg cáps. x 14 | No registrada en los datos locales |
+| 33701 | RECIT | 40 mg cáps. x 14 | No registrada en los datos locales |
+| 33702 | RECIT | 60 mg cáps. x 14 | No registrada en los datos locales |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. Los datos de advertencias, contraindicaciones e interacciones farmacológicas no se encuentran disponibles en el Evidence Pack actual.
-
-> **Brechas de datos identificadas:**
-> - **DG001** (Severidad: Bloqueante) — Faltan las advertencias y contraindicaciones del prospecto regulatorio. Se requiere descargar y analizar el prospecto oficial.
-> - **DG002** (Severidad: Alta) — Falta el mecanismo de acción estructurado. Se requiere consulta a la API de DrugBank.
-
----
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No es posible avanzar con una evaluación de reposicionamiento dado que el modelo TxGNN no ha generado predicciones de nuevas indicaciones para Atomoxetina. Adicionalmente, existen brechas de datos críticas (ausencia de DrugBank ID, MOA, datos de seguridad) que impiden una evaluación integral. El fármaco tampoco se encuentra comercializado en Argentina, lo que añade una barrera regulatoria adicional.
+La predicción no cuenta con ensayos clínicos ni con estudios que evalúen directamente esta categoría diagnóstica; el puntaje alto parece reflejar la cercanía con el TDAH, y la categoría es demasiado amplia para orientar una decisión.
 
 **Para avanzar se necesita:**
-- Vincular el DrugBank ID correcto para Atomoxetina (probablemente **DB00289**)
-- Obtener los datos estructurados de mecanismo de acción (MOA) desde DrugBank
-- Descargar y analizar el prospecto regulatorio para extraer advertencias y contraindicaciones
-- Re-ejecutar el modelo TxGNN con los datos completos del fármaco para generar predicciones
-- Evaluar el estado regulatorio en Argentina y la viabilidad de importación o registro
+- Definir con precisión qué trastorno específico del desarrollo (por ejemplo, trastornos específicos del aprendizaje) se quiere evaluar
+- Estudios que evalúen atomoxetina directamente en esa población, distinta de la población con TDAH
+- Datos de mecanismo de acción
+- Advertencias y contraindicaciones del prospecto aprobado en Argentina
 
 <!-- review:begin log -->
 
@@ -124,7 +113,7 @@ A continuación, el registro de verificación de esta página: afirmaciones cont
 
 | Fecha de verificación | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-06 | Eliminado: «No existen autorizaciones de comercialización vigentes» | Corregido | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+| 2026-11-06 | Eliminado: «No existen autorizaciones de comercialización vigentes» | Ya no aparece tras regenerar el informe (2026-11-16: The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page; antes: Corregido) | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
 
 <!-- review:end log -->
 

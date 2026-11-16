@@ -1,20 +1,21 @@
 ---
-noindex: true
-sitemap: false
 layout: default
 title: Clindamicina
-parent: Solo usos conocidos (sin nuevas predicciones)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 110
-last_modified_at: 2026-10-31
-predicted_indications: []
-indication_count: 0
-evidence_level: N/A
+evidence_level: L5
+indication_count: 6
+drugbank_id: DB01190
+monitor_inn: "Clindamycin"
+predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "non-human animal disease", "neurotrophic keratopathy", "epidemic keratoconjunctivitis", "postmenopausal atrophic vaginitis"]
+last_modified_at: 2026-11-16
+description: "Clindamicina: nueva indicación predicha, queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5)."
 ---
 
 # Clindamicina
 {: .fs-9 }
 
-Nivel de evidencia: **N/A** | Indicaciones predichas: **0** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,19 +34,72 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 
 </div>
 
-## Clindamicina
+## Clindamicina: queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis)
 {: .text-alpha }
+
+## Resumen en Una Frase
+
+Clindamicina es un antibiótico de la clase de las lincosamidas, comercializado en Argentina en presentaciones orales, inyectables, tópicas y vaginales.
+El modelo TxGNN predice que podría ser efectivo para **queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis)**, pero **no se recuperó ningún ensayo clínico ni publicación** que respalde esta dirección: se trata de una predicción puramente del modelo.
 
 ## Resumen Rápido
 
-| Ítem | Contenido |
-|------|-----------|
+| Item | Contenido |
+|------|------|
 | Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) |
+| Puntaje de Predicción TxGNN | 0.9997 |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (al menos 20) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de productos en el listado PAMI | al menos 20 |
+| Número de Autorización | al menos 20 |
+| Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por conocimiento general, la clindamicina es un antibacteriano que inhibe la síntesis de proteínas bacterianas al unirse a la subunidad ribosomal 50S, con actividad principalmente frente a bacterias Gram positivas.
+
+La relación mecanística con la nueva indicación es débil. La queratitis epitelial punteada suele ser de origen viral (por ejemplo, adenovirus) o no infeccioso (ojo seco, toxicidad), por lo que un antibacteriano no tiene un fundamento terapéutico claro. El puntaje alto probablemente refleja cercanía con otros fármacos antiinfecciosos oculares en el modelo y no un vínculo terapéutico real.
+
+Por lo tanto, esta predicción debe considerarse una hipótesis sin respaldo, y no una recomendación de uso.
+
+## Evidencia de Ensayos Clínicos
+
+Actualmente no hay ensayos clínicos relacionados registrados.
+
+## Evidencia de Literatura
+
+Actualmente no hay literatura relacionada disponible.
+
+## Información de Mercado en Argentina
+
+El estado de mercado es **comercializado**: las 20 autorizaciones listadas están vigentes y la lista puede ser parcial (al menos 20 autorizaciones).
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
+|---------|------|------|-----------|
+| 36632 | CLIDAN | Gel dérmico x 15 g | Cassarß |
+| 17438 | CLINDAMICINA RICHET | Cápsulas 300 mg x 16 | Richet |
+| 59420 | MICROBION | Cápsulas 300 mg x 16 | Montpellier |
+| 15812 | CLINDAMICINA FABRA | Ampollas 600 mg x 1 | Fabra |
+| 21796 | DALACIN C 300 | Cápsulas 300 mg x 16 | Pfizer |
+
+Las presentaciones incluyen vías oral, inyectable, tópica (geles, loción, solución) y vaginal (óvulos y cápsulas blandas).
+
+## Consideraciones de Seguridad
+
+Consultar el prospecto para información de seguridad.
+
+## Conclusión y Próximos Pasos
+
+**Decisión: Hold**
+
+**Justificación:**
+La predicción principal no cuenta con ensayos clínicos ni literatura (nivel de evidencia L5), y su fundamento mecanístico es débil, ya que la enfermedad suele ser viral o no infecciosa y la clindamicina es un antibacteriano.
+
+**Para avanzar se necesita:**
+- Datos de mecanismo de acción detallados y verificados
+- Información de seguridad del prospecto de ANMAT (advertencias y contraindicaciones)
+- Estudios preclínicos o clínicos que evalúen directamente esta enfermedad
+- Evaluación de la compatibilidad de vía de administración (por ejemplo, formulación oftálmica, que no figura entre las presentaciones locales)
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

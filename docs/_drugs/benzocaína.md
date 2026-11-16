@@ -1,20 +1,21 @@
 ---
-noindex: true
-sitemap: false
 layout: default
 title: Benzocaína
 parent: Solo Predicción del Modelo (L5)
 nav_order: 48
 evidence_level: L5
-indication_count: 0
-last_modified_at: 2026-09-17
-predicted_indications: []
+indication_count: 1
+drugbank_id: DB01086
+monitor_inn: "Benzocaine"
+predicted_indications: ["papillary conjunctivitis"]
+last_modified_at: 2026-11-16
+description: "Benzocaína: nueva indicación predicha, conjuntivitis papilar (papillary conjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Benzocaína
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **0** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,73 +34,66 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-## BENZOCAÍNA: Evaluación Preliminar — Sin Nuevas Indicaciones Predichas
+## Benzocaína: conjuntivitis papilar (papillary conjunctivitis)
 {: .text-alpha }
-
----
 
 ## Resumen en Una Frase
 
-Benzocaína es un anestésico local de tipo éster, ampliamente utilizado para el alivio temporal del dolor en mucosas y piel. El modelo TxGNN **no ha generado predicciones de nuevas indicaciones** para este fármaco, y actualmente **no se encuentra comercializado en Argentina** según los registros consultados. La ausencia de predicciones y de datos regulatorios locales limita significativamente la evaluación de reposicionamiento.
+La benzocaína es un anestésico local tópico de tipo éster que bloquea los canales de sodio dependientes de voltaje. El modelo TxGNN predice que podría ser útil para **conjuntivitis papilar (papillary conjunctivitis)**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección.
 
 ---
 
 ## Resumen Rápido
 
 | Item | Contenido |
-|------|-----------|
-| Indicación Original | No disponible en los registros consultados |
-| Nueva Indicación Predicha | — (Sin predicciones de TxGNN) |
-| Puntaje de Predicción TxGNN | N/A |
-| Nivel de Evidencia | N/A |
+|------|------|
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | conjuntivitis papilar (papillary conjunctivitis) |
+| Puntaje de Predicción TxGNN | 0.9938 |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (8 de 8) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de productos en el listado PAMI | 8 (vigentes: 8) |
-| Decisión Recomendada | **Hold** |
+| Número de Autorización | 8 (vigentes: 8) |
+| Decisión Recomendada | Hold |
 
 ---
 
-## ¿Por qué no hay Predicciones para este Fármaco?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción (MOA) en la base de datos consultada. Según la información conocida, la benzocaína es un anestésico local del grupo de los ésteres del ácido para-aminobenzoico (PABA). Actúa bloqueando reversiblemente la conducción nerviosa al inhibir los canales de sodio dependientes de voltaje en las membranas neuronales, impidiendo así la generación y propagación de impulsos nerviosos. Se utiliza principalmente en formulaciones tópicas para el alivio del dolor en mucosas (oral, faríngea, rectal) y en la piel.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, la benzocaína es un anestésico local tópico de tipo éster que bloquea los canales de sodio dependientes de voltaje y suprime la conducción nerviosa.
 
-El modelo TxGNN no ha generado predicciones de nuevas indicaciones para benzocaína. Esto puede deberse a varios factores: (1) la ausencia de un identificador DrugBank válido que permita mapear el fármaco en el grafo de conocimiento, (2) la falta de datos estructurados de MOA necesarios para el análisis de relaciones fármaco-enfermedad, o (3) que el perfil farmacológico de un anestésico local tópico no genere señales significativas de reposicionamiento en el modelo.
+Un posible vínculo con la conjuntivitis papilar sería el alivio sintomático de la molestia o el picor de la superficie ocular mediante el bloqueo de los nervios sensitivos. Sin embargo, esta enfermedad se origina principalmente por inflamación alérgica o inmunomediada, o por irritación mecánica (por ejemplo, uso de lentes de contacto o prótesis oculares). La anestesia local no actúa sobre estas causas, por lo que el vínculo es, como máximo, sintomático y no modifica la enfermedad.
+
+Además, la benzocaína es un sensibilizante de contacto conocido. Los anestésicos de tipo éster pueden causar dermatitis alérgica de contacto y conjuntivitis, lo que podría agravar el cuadro. El puntaje alto (0,9938) es solo una predicción computacional y no constituye prueba de eficacia.
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados, dado que no se generaron predicciones de nuevas indicaciones.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ---
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible en el contexto de reposicionamiento, dado que no se generaron predicciones de nuevas indicaciones.
+Actualmente no hay literatura relacionada disponible.
 
 ---
 
 ## Información de Mercado en Argentina
 
-Benzocaína **no se encuentra comercializada en Argentina** según los registros consultados.
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 10501 | FILOTRICIN A | Colutorio x 45 ml | No registrada en los datos locales |
+| 54528 | BUCASMOL A SPRAY BUCAL | Envase x 45 ml | No registrada en los datos locales |
+| 51443 | FILOTRICIN A | Spray x 30 ml | No registrada en los datos locales |
+| 48483 | BUCOTRICIN | Colutorio x 60 ml | No registrada en los datos locales |
+| 13487 | FILOTRICIN A | Caramelos x 10 | No registrada en los datos locales |
 
 ---
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
-
-> **Nota importante:** Aunque los datos de seguridad específicos no están disponibles en este Evidence Pack, cabe señalar que la benzocaína tiene un riesgo conocido de **metahemoglobinemia**, una condición potencialmente grave. La FDA de EE.UU. ha emitido alertas al respecto, especialmente en su uso en niños menores de 2 años y en formulaciones de concentración elevada. Este riesgo debe ser considerado en cualquier evaluación futura.
-
----
-
-## Brechas de Datos Identificadas
-
-Las siguientes brechas de datos fueron detectadas durante la elaboración del Evidence Pack:
-
-| ID | Categoría | Dato Faltante | Severidad | Impacto | Fuente de Remediación |
-|----|-----------|---------------|-----------|---------|----------------------|
-| DG001 | Nivel de Fármaco | Advertencias y contraindicaciones del prospecto (ANMAT) | **Bloqueante** | No es posible realizar la evaluación inicial de seguridad (S1) | Sitio web ANMAT — descargar y analizar prospecto PDF |
-| DG002 | Nivel de Fármaco | Mecanismo de acción (MOA) | Alta | Afecta el análisis de relación mecanística | DrugBank — consultar API de DrugBank |
 
 ---
 
@@ -108,14 +102,13 @@ Las siguientes brechas de datos fueron detectadas durante la elaboración del Ev
 **Decisión: Hold**
 
 **Justificación:**
-Benzocaína no cuenta con predicciones de nuevas indicaciones generadas por TxGNN, presenta brechas de datos críticas (seguridad y MOA) que impiden una evaluación completa. No existe evidencia suficiente para avanzar en un proceso de reposicionamiento en este momento.
+La predicción se basa solo en el modelo computacional, sin ensayos clínicos ni literatura que estudien la conjuntivitis papilar. Además, el mecanismo solo ofrecería alivio sintomático y la benzocaína puede sensibilizar por contacto, con riesgo de empeorar la enfermedad.
 
 **Para avanzar se necesita:**
-- Obtener y vincular el identificador DrugBank (DB) para permitir el mapeo en el grafo de conocimiento de TxGNN
-- Completar los datos de mecanismo de acción (MOA) desde DrugBank u otras fuentes farmacológicas
-- Obtener información de seguridad (advertencias, contraindicaciones) desde prospectos oficiales
-- Evaluar si existen registros sanitarios vigentes en Argentina bajo denominaciones alternativas o combinaciones
-- Re-ejecutar el modelo TxGNN una vez resueltas las brechas de datos para verificar si se generan predicciones
+- Datos del mecanismo de acción (MOA) y de advertencias y contraindicaciones del prospecto de ANMAT
+- Revisión de la literatura sobre seguridad ocular y sensibilización por benzocaína
+- Evaluación de la compatibilidad de la vía de administración, ya que las presentaciones locales son orales/bucofaríngeas y no oftálmicas
+- Estudios preclínicos o clínicos que evalúen directamente la conjuntivitis papilar
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

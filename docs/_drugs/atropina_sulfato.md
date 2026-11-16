@@ -1,20 +1,21 @@
 ---
-noindex: true
-sitemap: false
 layout: default
 title: Atropina Sulfato
 parent: Solo Predicción del Modelo (L5)
 nav_order: 39
 evidence_level: L5
-indication_count: 0
-last_modified_at: 2026-11-12
-predicted_indications: []
+indication_count: 2
+drugbank_id: DB00572
+monitor_inn: "Atropine"
+predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
+last_modified_at: 2026-11-16
+description: "Atropina Sulfato: nueva indicación predicha, trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Atropina Sulfato
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **0** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,89 +34,78 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-## Atropina Sulfato: Evaluación Preliminar — Sin Nuevas Indicaciones Predichas
+## Atropina Sulfato: trastorno de migraña (migraine disorder)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Atropina Sulfato es un agente anticolinérgico ampliamente conocido, utilizado clásicamente como antiespasmódico, midriático y en el manejo de bradicardia e intoxicación por organofosforados. En esta evaluación, el modelo TxGNN **no ha generado predicciones de nuevas indicaciones** para este compuesto, y se han identificado **múltiples brechas de datos críticas** que impiden una evaluación completa.
-
----
+Atropina sulfato es un antagonista muscarínico no selectivo, presente en Argentina en soluciones oftálmicas.
+El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña (migraine disorder)**, pero actualmente **no hay ensayos clínicos** y solo existe **literatura indirecta** (principalmente preclínica y reportes de casos), sin estudios que evalúen la atropina como tratamiento de la migraña.
 
 ## Resumen Rápido
 
 | Item | Contenido |
-|------|-----------|
-| Indicación Original | No registrada en el Evidence Pack (ver nota abajo) |
-| Nueva Indicación Predicha | — Sin predicciones disponibles — |
-| Puntaje de Predicción TxGNN | N/A |
-| Nivel de Evidencia | L5 (sin evidencia disponible para reposicionamiento) |
+|------|------|
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | trastorno de migraña (migraine disorder) |
+| Puntaje de Predicción TxGNN | 0.9956 |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (2 de 2) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de productos en el listado PAMI | 2 (vigentes: 2) |
-| Decisión Recomendada | **Hold** |
+| Número de Autorización | 2 (vigentes: 2) |
+| Decisión Recomendada | Hold |
 
-> **Nota:** Aunque la atropina sulfato es un fármaco bien establecido a nivel mundial con múltiples indicaciones conocidas (anticolinérgico, antiespasmódico, midriático, antídoto para intoxicación por organofosforados), el Evidence Pack no contiene registros de indicaciones originales aprobadas ni autorizaciones en Argentina.
+## ¿Por qué es Razonable esta Predicción?
 
----
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Por conocimiento farmacológico general, la atropina bloquea de forma no selectiva los receptores muscarínicos de acetilcolina.
 
-## ¿Por qué No se Generaron Predicciones?
+La literatura compilada vincula la señalización colinérgica y parasimpática con la fisiopatología de la migraña: en ratas, la estimulación parasimpática del ganglio esfenopalatino induce extravasación de proteínas plasmáticas en la duramadre (inflamación neurogénica), y se ha descrito la modulación colinérgica mediada por mastocitos meníngeos. Además, en la hemicránea paroxística crónica, la atropina sistémica redujo la sudoración, el lagrimeo y la secreción nasal asociados a los ataques, lo que sugiere un vínculo autonómico indirecto.
 
-Atropina Sulfato es un alcaloide anticolinérgico que actúa como antagonista competitivo de los receptores muscarínicos de acetilcolina (M1–M5). Su mecanismo de acción está bien caracterizado farmacológicamente y abarca múltiples sistemas orgánicos: cardiovascular (aumento de la frecuencia cardíaca), ocular (midriasis y cicloplejia), gastrointestinal (reducción del peristaltismo y secreciones), y respiratorio (broncodilatación y reducción de secreciones).
-
-La ausencia de predicciones por parte de TxGNN puede deberse a varios factores. Primero, el identificador DrugBank no fue recuperado (`drugbank_id: null`), lo que limita la capacidad del modelo para mapear correctamente la entidad farmacológica dentro del grafo de conocimiento. Segundo, la ausencia de datos de indicaciones originales y de mecanismo de acción estructurado en el Evidence Pack impide al modelo establecer las conexiones necesarias entre el fármaco y posibles nuevas dianas terapéuticas.
-
-Es importante señalar que la atropina ya tiene un perfil de uso extremadamente amplio en la práctica clínica mundial (preanestesia, bradicardia, envenenamiento, oftalmología, manejo de miopía pediátrica en dosis bajas). Es posible que muchas de las potenciales "nuevas indicaciones" ya estén cubiertas por usos establecidos, lo cual reduciría el espacio de predicción del modelo.
-
----
+Sin embargo, ningún estudio evalúa la atropina como tratamiento de la migraña. El puntaje de 0,9956 es una predicción basada en el modelo, no evidencia clínica. Varios artículos recuperados no son pertinentes (glaucoma por topiramato, síndrome de cabeza caída por toxina botulínica, caso anestésico) y mencionan la migraña solo de forma incidental. Como no hay ningún estudio que aborde directamente esta enfermedad con atropina, el nivel de evidencia se establece en L5.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados con nuevas indicaciones registrados en el Evidence Pack.
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada con nuevas indicaciones disponible en el Evidence Pack.
-
----
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [17186568](https://pubmed.ncbi.nlm.nih.gov/17186568/) | 2007 | Revisión | J Appl Toxicol | Propiedades farmacológicas de la anisodamina, derivado de la atropina; menos potente y menos tóxico que la atropina |
+| [2943405](https://pubmed.ncbi.nlm.nih.gov/2943405/) | 1986 | Estudio de fisiología clínica | Cephalalgia | En 4 pacientes con hemicránea paroxística crónica, la atropina sistémica redujo sudoración, lagrimeo y secreción nasal durante los ataques |
+| [36485173](https://pubmed.ncbi.nlm.nih.gov/36485173/) | 2024 | Preclínico/mecanístico | Eur J Neurosci | Modulación colinérgica mediada por mastocitos meníngeos en inflamación neurogénica en modelo de migraña en ratas |
+| [9344563](https://pubmed.ncbi.nlm.nih.gov/9344563/) | 1997 | Preclínico (animal) | Exp Neurol | La estimulación del ganglio esfenopalatino parasimpático induce extravasación de proteínas plasmáticas en duramadre de rata |
+| [1786517](https://pubmed.ncbi.nlm.nih.gov/1786517/) | 1991 | Preclínico | Br J Pharmacol | Ergotamina y dihidroergotamina como agonistas potentes de receptores 5-HT1C en plexo coroideo de cerdo |
+| [10193781](https://pubmed.ncbi.nlm.nih.gov/10193781/) | 1999 | Preclínico (ex vivo) | Br J Pharmacol | Inhibición de la relajación inducida por nicotina en arteria basilar de cobayo por fármacos relacionados con la migraña |
+| [8930196](https://pubmed.ncbi.nlm.nih.gov/8930196/) | 1996 | Preclínico | J Pharmacol Exp Ther | El sistema colinérgico central participa en la antinocicepción inducida por sumatriptán en roedores |
+| [18604026](https://pubmed.ncbi.nlm.nih.gov/18604026/) | 2007 | Reporte de caso | Kathmandu Univ Med J | Glaucoma bilateral de ángulo cerrado inducido por topiramato (mención incidental de migraña) |
+| [18091300](https://pubmed.ncbi.nlm.nih.gov/18091300/) | 2007 | Reporte de caso | Optom Vis Sci | Presión intraocular elevada y miopización asociadas a topiramato |
+| [40590589](https://pubmed.ncbi.nlm.nih.gov/40590589/) | 2024 | Reporte de caso | Pain Med Case Rep | Síndrome de cabeza caída tras toxina botulínica en paciente con migraña crónica y esclerosis múltiple |
 
 ## Información de Mercado en Argentina
 
-> Esto puede deberse a que el fármaco se comercializa bajo formulaciones combinadas, denominaciones alternativas, o que los registros no fueron recuperados correctamente con el término de búsqueda "ATROPINA,SULFATO".
-
-<!-- review:begin ar-lic-20261106-atropina_sulfato-1 -->
-
-> **Corrección de verificación (2026-11-06)**: Texto original: «No se encontraron autorizaciones de comercialización vigentes para Atropina Sulfato en Argentina según los registros consultados (0 autorizaciones).» Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). En los datos (listado de medicamentos de PAMI) figuran 2 registros para este medicamento, 2 vigentes; las cifras actualizadas están en el resumen rápido y en la información de mercado. Fuente: [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
-
-<!-- review:end ar-lic-20261106-atropina_sulfato-1 -->
-
----
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 21822 | KLONATROPINA | Solución oftálmica x 5 ml | No registrada |
+| 163 | ALCON ATROPINA 1% | Solución oftálmica 1% x 5 ml | No registrada |
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
 
-> **Nota sobre brechas de datos:** Los datos de advertencias, contraindicaciones e interacciones farmacológicas no fueron recuperados en esta evaluación. Se identificaron las siguientes brechas críticas:
->
-> - **DG001 (Severidad: Bloqueante):** Falta información de advertencias y contraindicaciones del prospecto oficial. Esto impide la evaluación inicial de seguridad (S1).
-> - **DG002 (Severidad: Alta):** Falta información estructurada del mecanismo de acción (MOA) desde DrugBank, lo que afecta el análisis de relación mecanística.
-
----
+Como consideración farmacológica general, los efectos adversos anticolinérgicos (visión borrosa, aumento de la presión intraocular, taquicardia, efectos cognitivos) serían una preocupación relevante en un uso crónico y profiláctico como el de la migraña.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No se generaron predicciones de nuevas indicaciones para Atropina Sulfato. Además, existen brechas de datos críticas (ausencia de DrugBank ID, MOA, información regulatoria y de seguridad) que impiden cualquier evaluación significativa de reposicionamiento. El fármaco tampoco se encuentra registrado como comercializado en Argentina.
+No existe ningún ensayo clínico ni estudio que evalúe la atropina en la migraña; la evidencia es solo indirecta y preclínica, y el puntaje del modelo no constituye evidencia clínica. Además, el perfil anticolinérgico plantea dudas de seguridad para un uso crónico.
 
 **Para avanzar se necesita:**
-- Resolver la vinculación con DrugBank (obtener `drugbank_id` correcto, posiblemente buscando como "Atropine" en inglés o DB00572)
-- Obtener datos estructurados del mecanismo de acción (MOA) desde DrugBank
-- Recuperar información de seguridad del prospecto oficial (advertencias, contraindicaciones)
-- Verificar si el fármaco se comercializa bajo otra denominación o formulación combinada en Argentina
-- Re-ejecutar el modelo TxGNN una vez que los datos de entrada estén completos para evaluar si se generan predicciones de reposicionamiento
+- Datos del mecanismo de acción y de seguridad (advertencias y contraindicaciones del prospecto de ANMAT)
+- Estudios preclínicos o clínicos que evalúen directamente la atropina (u otros antimuscarínicos) en migraña
+- Análisis de compatibilidad de vía de administración, ya que los productos locales son soluciones oftálmicas
+- Evaluación de la relación riesgo-beneficio de los efectos anticolinérgicos para un uso prolongado
 
 <!-- review:begin log -->
 
@@ -125,7 +115,7 @@ A continuación, el registro de verificación de esta página: afirmaciones cont
 
 | Fecha de verificación | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-06 | Eliminado: «No se encontraron autorizaciones de comercialización vigentes para Atropina Sulfato en Argentina según los registros consultados (0 autoriza» | Corregido | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+| 2026-11-06 | Eliminado: «No se encontraron autorizaciones de comercialización vigentes para Atropina Sulfato en Argentina según los registros consultados (0 autoriza» | Ya no aparece tras regenerar el informe (2026-11-16: The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page; antes: Corregido) | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
 
 <!-- review:end log -->
 

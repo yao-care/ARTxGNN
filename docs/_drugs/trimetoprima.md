@@ -1,36 +1,104 @@
 ---
-noindex: true
-sitemap: false
 layout: default
-nav_exclude: true
-title: TRIMETOPRIMA
+title: Trimetoprima
+parent: Solo Predicción del Modelo (L5)
+nav_order: 353
+evidence_level: L5
+indication_count: 1
 drugbank_id: DB00440
-permalink: /drugs/trimetoprima/
-search_exclude: true
-last_modified_at: 2026-10-30
-predicted_indications: []
-indication_count: 0
-evidence_level: N/A
+monitor_inn: "Trimethoprim"
+predicted_indications: ["punctate epithelial keratoconjunctivitis"]
+last_modified_at: 2026-11-16
+description: "Trimetoprima: nueva indicación predicha, queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5)."
 ---
 
-# TRIMETOPRIMA
+# Trimetoprima
 {: .fs-9 }
 
-Nivel de evidencia: **N/A** | Indicaciones predichas: **0** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## Resumen Rápido
+## Índice
+{: .no_toc .text-delta }
 
-| Item | Contenido |
-|------|-----------|
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (17 de 17) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de productos en el listado PAMI | 17 (vigentes: 17) |
-| DrugBank ID | [DB00440](https://go.drugbank.com/drugs/DB00440) |
+1. TOC
+{:toc}
 
 ---
 
+<div id="pharmacist" markdown="1">
+
+## Informe de evaluación farmacéutica
+
+</div>
+
+## Trimetoprima: queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis)
+{: .text-alpha }
+
+## Resumen en Una Frase
+
+Trimetoprima es un antibacteriano que actúa inhibiendo la vía del folato y que cuenta con 17 autorizaciones vigentes en Argentina.
+El modelo TxGNN predice que podría ser efectivo para **queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis)**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta predicción específica.
+
+## Resumen Rápido
+
+| Item | Contenido |
+|------|------|
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) |
+| Puntaje de Predicción TxGNN | 0.9957 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (17 de 17) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de Autorización | 17 (vigentes: 17) |
+| Decisión Recomendada | Hold |
+
+## ¿Por qué es Razonable esta Predicción?
+
+Trimetoprima es un inhibidor de la dihidrofolato reductasa con actividad antibacteriana. Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción, por lo que este resumen se basa en el conocimiento general de la molécula.
+
+La queratoconjuntivitis epitelial punteada suele ser de origen viral (por ejemplo, adenoviral) o no infeccioso. Por ello, un antibacteriano tendría poco beneficio esperado, salvo en un subgrupo de casos de origen bacteriano. El puntaje alto (0,9957) es solo una predicción del modelo, probablemente influida por la cercanía con términos de infección conjuntival y ocular, y no constituye evidencia clínica.
+
+No se dispone de datos para evaluar la similitud con la indicación original ni la compatibilidad de vías de administración.
+
+## Evidencia de Ensayos Clínicos
+
+Actualmente no hay ensayos clínicos relacionados registrados.
+
+## Evidencia de Literatura
+
+Actualmente no hay literatura relacionada disponible.
+
+## Información de Mercado en Argentina
+
+Hay 17 autorizaciones vigentes, todas de productos con trimetoprima como único principio activo. Principales autorizaciones:
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 18740 | BACTRIM | comp. x 20 | No registrada en los datos locales |
+| 18317 | BACTICEL | comp. x 12 | No registrada en los datos locales |
+| 10614 | BACTRIM | IV amp. x 5 x 5 ml | No registrada en los datos locales |
+| 14645 | ADRENOL | comp. x 10 | No registrada en los datos locales |
+| 31642 | TRITENK FORTE | comp. x 10 | No registrada en los datos locales |
+
+## Consideraciones de Seguridad
+
+Consultar el prospecto para información de seguridad.
+
+## Conclusión y Próximos Pasos
+
+**Decisión: Hold**
+
+**Justificación:**
+La predicción se apoya únicamente en el modelo, sin ensayos ni publicaciones sobre esta enfermedad. Además, el origen habitualmente viral o no infeccioso del cuadro hace poco plausible un beneficio de un antibacteriano.
+
+**Para avanzar se necesita:**
+- Estudios clínicos o de literatura que evalúen directamente la queratoconjuntivitis epitelial punteada
+- Datos del mecanismo de acción y de la similitud con la indicación original
+- Información de seguridad del prospecto (advertencias y contraindicaciones)
+- Evaluación de la compatibilidad de vías de administración (p. ej., formulación oftálmica)
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
@@ -38,4 +106,3 @@ Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 
-[← Volver a Todos los Medicamentos](/drugs/)

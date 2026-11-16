@@ -345,6 +345,7 @@
       "page": "levonorgestrel",
       "sources": [
         "AuTxGNN",
+        "BrTxGNN",
         "CHTxGNN",
         "COTxGNN",
         "CaTxGNN",
@@ -589,12 +590,14 @@
     "db00542": {
       "page": "benazepril",
       "sources": [
+        "BrTxGNN",
         "CaTxGNN",
         "DETxGNN",
         "ESTxGNN",
         "HkTxGNN",
         "ITTxGNN",
         "InTxGNN",
+        "MyTxGNN",
         "SATxGNN",
         "UsTxGNN",
         "ZaTxGNN"
@@ -760,6 +763,7 @@
         "HkTxGNN",
         "InTxGNN",
         "JpTxGNN",
+        "MyTxGNN",
         "NZTxGNN",
         "SATxGNN",
         "SgTxGNN",
@@ -770,6 +774,7 @@
       "page": "triamcinolone",
       "sources": [
         "AuTxGNN",
+        "BrTxGNN",
         "CHTxGNN",
         "CaTxGNN",
         "FRTxGNN",
@@ -1276,6 +1281,7 @@
       "page": "oxymetazoline",
       "sources": [
         "AuTxGNN",
+        "BrTxGNN",
         "CHTxGNN",
         "CaTxGNN",
         "HkTxGNN",
@@ -1384,6 +1390,7 @@
       "page": "salbutamol",
       "sources": [
         "AuTxGNN",
+        "BrTxGNN",
         "CHTxGNN",
         "COTxGNN",
         "CaTxGNN",
@@ -1504,6 +1511,7 @@
         "InTxGNN",
         "JpTxGNN",
         "KrTxGNN",
+        "MyTxGNN",
         "SATxGNN",
         "SgTxGNN",
         "UkTxGNN",
@@ -1723,31 +1731,6 @@
         "UsTxGNN"
       ]
     },
-    "db01222": {
-      "page": "budesonide",
-      "sources": [
-        "AuTxGNN",
-        "CHTxGNN",
-        "COTxGNN",
-        "CaTxGNN",
-        "DETxGNN",
-        "ESTxGNN",
-        "FITxGNN",
-        "HkTxGNN",
-        "ITTxGNN",
-        "InTxGNN",
-        "JpTxGNN",
-        "KrTxGNN",
-        "NOTxGNN",
-        "NZTxGNN",
-        "NlTxGNN",
-        "SATxGNN",
-        "SgTxGNN",
-        "UkTxGNN",
-        "UsTxGNN",
-        "ZaTxGNN"
-      ]
-    },
     "db01225": {
       "page": "enoxaparin",
       "sources": [
@@ -1888,6 +1871,7 @@
         "AuTxGNN",
         "HkTxGNN",
         "InTxGNN",
+        "MyTxGNN",
         "SATxGNN",
         "SgTxGNN",
         "UsTxGNN"
@@ -2027,6 +2011,7 @@
       "page": "indacaterol",
       "sources": [
         "AuTxGNN",
+        "COTxGNN",
         "CaTxGNN",
         "HkTxGNN",
         "ZaTxGNN"
@@ -2097,6 +2082,8 @@
         "FRTxGNN",
         "HkTxGNN",
         "InTxGNN",
+        "KrTxGNN",
+        "MyTxGNN",
         "SATxGNN",
         "SgTxGNN"
       ]

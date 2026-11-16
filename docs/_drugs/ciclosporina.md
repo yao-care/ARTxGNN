@@ -1,20 +1,21 @@
 ---
-noindex: true
-sitemap: false
 layout: default
 title: Ciclosporina
 parent: Solo Predicción del Modelo (L5)
 nav_order: 99
 evidence_level: L5
-indication_count: 0
-last_modified_at: 2026-11-12
-predicted_indications: []
+indication_count: 7
+drugbank_id: DB00091
+monitor_inn: "Cyclosporine"
+predicted_indications: ["granulomatous disease, chronic, autosomal recessive", "brain aneurysm", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital ichthyosiform erythroderma", "fetal erythroblastosis", "brachydactyly-syndactyly syndrome", "prolapse of lacrimal gland"]
+last_modified_at: 2026-11-16
+description: "Ciclosporina: nueva indicación predicha, enfermedad granulomatosa crónica autosómica recesiva (granulomatous disease, chronic, autosomal recessive) (nivel de evidencia L5)."
 ---
 
 # Ciclosporina
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **0** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,71 +34,74 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-## Ciclosporina: Evaluación No Disponible — Datos Insuficientes para el Análisis
+## Ciclosporina: enfermedad granulomatosa crónica autosómica recesiva (granulomatous disease, chronic, autosomal recessive)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Ciclosporina (CICLOSPORINA) es un fármaco conocido por sus propiedades inmunosupresoras, empleado históricamente en el trasplante de órganos y enfermedades autoinmunes.
-Sin embargo, el presente Evidence Pack **no contiene indicaciones predichas por TxGNN**, ni datos regulatorios en Argentina, ni información de seguridad recuperable.
-En consecuencia, **no es posible realizar una evaluación de reposicionamiento en este momento**.
-
----
+Ciclosporina es un inmunosupresor que se comercializa en Argentina en formulaciones oftálmicas.
+El modelo TxGNN predice que podría ser efectivo para **enfermedad granulomatosa crónica autosómica recesiva (granulomatous disease, chronic, autosomal recessive)**,
+pero no hay ensayos clínicos registrados y solo **1 publicación** se relaciona con esta dirección, un estudio de cohorte sobre trasplante de células madre que no evalúa a la ciclosporina como tratamiento de la enfermedad.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en este Evidence Pack |
-| Nueva Indicación Predicha | Sin predicciones disponibles |
-| Puntaje de Predicción TxGNN | — |
-| Nivel de Evidencia | L5 (sin estudios reales; datos de modelo ausentes) |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | enfermedad granulomatosa crónica autosómica recesiva (granulomatous disease, chronic, autosomal recessive) |
+| Puntaje de Predicción TxGNN | 0.9968 |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (4 de 4) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de productos en el listado PAMI | 4 (vigentes: 4) |
-| Decisión Recomendada | **Hold** |
+| Número de Autorización | 4 (vigentes: 4) |
+| Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por qué No Es Posible Continuar el Análisis
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la ciclosporina es un inhibidor de la calcineurina (vía NFAT) que suprime la activación de los linfocitos T.
 
-El pipeline de generación del Evidence Pack encontró tres bloqueos críticos para este candidato:
+La enfermedad granulomatosa crónica es un defecto de la NADPH oxidasa de los fagocitos. La ciclosporina no tiene un efecto corrector conocido sobre este defecto. Cualquier vínculo es indirecto, a través de la inmunosupresión posterior a un trasplante de células madre hematopoyéticas.
 
-**1. Ausencia de indicaciones predichas (`predicted_indications: []`)**
-El modelo TxGNN no devolvió ninguna indicación candidata para CICLOSPORINA en la corrida del 2026-03-29. Sin una indicación objetivo, no es posible construir ninguna de las secciones centrales del informe (mecanismo, ensayos clínicos, literatura, ni decisión basada en evidencia).
+Además, la ciclosporina podría aumentar el riesgo de infecciones en un grupo de pacientes que ya es susceptible a ellas. Por eso la predicción debe considerarse con mucha cautela: el puntaje del modelo no está respaldado por estudios que evalúen directamente este fármaco en la enfermedad.
 
-**2. Sin registro regulatorio en Argentina**
+## Evidencia de Ensayos Clínicos
 
-<!-- review:begin ar-lic-20261106-ciclosporina-1 -->
+Actualmente no hay ensayos clínicos relacionados registrados.
 
-> **Corrección de verificación (2026-11-06)**: Texto original: «Sin registro regulatorio en Argentina** / La consulta a ANMAT/TFDA devolvió `result_count: 0` para el nombre INN "CICLOSPORINA". Esto puede deberse a que el fármaco está registrado bajo una grafía diferente ("ciclosporina", "ciclosporin" o marcas comerciales como Sandimmun / Neoral), lo cual requiere reejecutar la consulta con términos alternativos.» Eliminado: texto residual de la plantilla taiwanesa (TFDA), que no corresponde a esta página. Fuente: [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+## Evidencia de Literatura
 
-<!-- review:end ar-lic-20261106-ciclosporina-1 -->
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [22078471](https://pubmed.ncbi.nlm.nih.gov/22078471/) | 2012 | Cohorte | The Journal of Allergy and Clinical Immunology | Supervivencia excelente tras trasplante de células madre de donante hermano o no emparentado en enfermedad granulomatosa crónica; no estudia la ciclosporina como tratamiento de la enfermedad. |
 
-**3. Mecanismo de acción y datos de seguridad no recuperados**
-Los campos `original_moa`, `key_warnings` y `contraindications` están marcados como `[Data Gap]`, con severidad **Blocking** y **High** respectivamente (DG001, DG002). Sin esta información no se pueden evaluar la plausibilidad mecanística ni los riesgos clínicos.
+**Nivel de evidencia:** L5. El único estudio citado trata del trasplante de células madre y no estudia directamente a la ciclosporina en esta enfermedad, por lo que no se alcanza un nivel superior.
 
----
+## Información de Mercado en Argentina
+
+| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 42509 | RESTASIS | Viales x 30 unid. x 0,4 ml | — |
+| 55823 | INMUNOSPORIN 0.1% | Solución oftálmica x 5 ml | — |
+| 51198 | CIPOS 0.1 | Solución oftálmica x 5 ml | — |
+| 47768 | CLOSPORIL 0.1% | Gotas oftálmicas x 5 ml | — |
+
+Las cuatro autorizaciones están vigentes y corresponden a productos de un solo principio activo. Los registros locales no incluyen texto de indicación aprobada.
+
+## Consideraciones de Seguridad
+
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-El Evidence Pack para CICLOSPORINA está incompleto en sus tres dimensiones críticas: predicción del modelo, datos regulatorios y datos de seguridad. No existe base suficiente para emitir una recomendación de reposicionamiento.
+No existen ensayos clínicos y la única publicación disponible no estudia a la ciclosporina en esta enfermedad. Además, no hay un vínculo mecanístico plausible y existe un riesgo teórico de aumentar las infecciones en estos pacientes. Las formulaciones locales son oftálmicas, lo que tampoco es compatible con una indicación sistémica.
 
 **Para avanzar se necesita:**
-
-- [ ] **Re-ejecutar la consulta TxGNN** para CICLOSPORINA / ciclosporin / ciclosporina y verificar que el ID de DrugBank sea correcto (actualmente `null`)
-- [ ] **Corregir el término de búsqueda regulatoria**: intentar variantes de grafía ("ciclosporina", "ciclosporin A", "Sandimmun", "Neoral") en ANMAT para obtener registros de autorización
-- [ ] **Resolver DG001**: descargar e interpretar el prospecto oficial (ANMAT) para obtener advertencias y contraindicaciones
-- [ ] **Resolver DG002**: consultar DrugBank API con el ID correcto para recuperar MOA, categorías farmacológicas y datos de toxicidad
-- [ ] **Re-ejecutar el pipeline completo** una vez subsanados los gaps anteriores, y volver a generar el Evidence Pack antes de emitir un nuevo informe
-
-<!-- review:begin ar-lic-20261106-ciclosporina-2 -->
-
-> **Corrección de verificación (2026-11-06)**: Texto original: «[ ] **Resolver DG001**: descargar e interpretar el prospecto oficial (TFDA o ANMAT) para obtener advertencias y contraindicaciones» Eliminado: texto residual de la plantilla taiwanesa (TFDA), que no corresponde a esta página. Fuente: [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
-
-<!-- review:end ar-lic-20261106-ciclosporina-2 -->
+- Datos del mecanismo de acción y de las advertencias y contraindicaciones del prospecto de ANMAT
+- Estudios que evalúen directamente la ciclosporina en la enfermedad granulomatosa crónica
+- Análisis de compatibilidad de vías de administración, dado que las presentaciones locales son oftálmicas
+- Evaluación del riesgo de infecciones en pacientes con inmunodeficiencia de fagocitos
 
 <!-- review:begin log -->
 
@@ -107,8 +111,8 @@ A continuación, el registro de verificación de esta página: afirmaciones cont
 
 | Fecha de verificación | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-06 | Eliminado: «La consulta a ANMAT/TFDA devolvió `result_count: 0` para el nombre INN "CICLOSPORINA". Esto puede deberse a que el fármaco está registrado b» | Corregido | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
-| 2026-11-06 | Eliminado: «TFDA o» | Corregido | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+| 2026-11-06 | Eliminado: «La consulta a ANMAT/TFDA devolvió `result_count: 0` para el nombre INN "CICLOSPORINA". Esto puede deberse a que el fármaco está registrado b» | Ya no aparece tras regenerar el informe (2026-11-16: The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page; antes: Corregido) | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+| 2026-11-06 | Eliminado: «TFDA o» | Ya no aparece tras regenerar el informe (2026-11-16: The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page; antes: Corregido) | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
 
 <!-- review:end log -->
 
