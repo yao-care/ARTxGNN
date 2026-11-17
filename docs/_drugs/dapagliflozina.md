@@ -25,8 +25,8 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 
 | Item | Contenido |
 |------|-----------|
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (10 de 10) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de productos en el listado PAMI | 10 (vigentes: 10) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (9 de 10) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de productos en el listado PAMI | 10 (vigentes: 9) |
 | DrugBank ID | [DB06292](https://go.drugbank.com/drugs/DB06292) |
 
 ---

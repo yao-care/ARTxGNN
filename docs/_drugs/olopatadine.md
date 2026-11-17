@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **conjuntivitis rosácea**
 | Nueva Indicación Predicha | Conjuntivitis rosácea |
 | Puntaje de Predicción TxGNN | 0.9941 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (10 de 10) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de productos en el listado PAMI | 10 (vigentes: 10) |
+| Estado de Mercado en Argentina | No figura en el listado vigente de PAMI (los 10 productos de estos datos ya no figuran) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de productos en el listado PAMI | 10 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 Nota: las autorizaciones de ANMAT compiladas no incluyen el texto de indicación aprobada; la indicación original se tomó de la base de conocimiento del modelo TxGNN.
@@ -73,7 +73,13 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-Hay 10 autorizaciones vigentes, todas de producto único (sin combinaciones) y ninguna cancelada. Se listan las 5 principales:
+Estos datos registran 10 productos, todos de producto único (sin combinaciones); ninguno figura ya en el listado vigente de PAMI (el listado del 05/11/2026 no incluye ningún producto de olopatadina). Se listan 5:
+
+<!-- review:begin ar-lic-20261117-olopatadine-1 -->
+
+> **Corrección de verificación (2026-11-17)**: Texto original: «Hay 10 autorizaciones vigentes, todas de producto único (sin combinaciones) y ninguna cancelada. Se listan las 5 principales:» Corregido: los 10 productos de olopatadina figuraban en el listado de PAMI del 01/03/2026 y ninguno figura en el listado vigente (05/11/2026). Que un producto ya no figure en el listado de PAMI no significa que su registro en ANMAT esté dado de baja: el estado del registro en ANMAT no está incluido en estos datos. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261117-olopatadine-1 -->
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
@@ -103,6 +109,19 @@ La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínico
 - Realizar una revisión sistemática de la literatura y de registros de ensayos sobre antihistamínicos o estabilizadores de mastocitos en rosácea ocular.
 - Evaluar la similitud con la indicación original y la compatibilidad de vías de administración (ambas pendientes).
 - Considerar, de haber sustento, estudios preclínicos o un piloto exploratorio centrado en síntomas de picor y enrojecimiento.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-17 | «10 autorizaciones vigentes» → ninguno figura ya en PAMI | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

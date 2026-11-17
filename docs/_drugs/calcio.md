@@ -41,8 +41,8 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (6 de 6) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de productos en el listado PAMI | 6 (vigentes: 6) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (5 de 6) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de productos en el listado PAMI | 6 (vigentes: 5) |
 
 ---
 

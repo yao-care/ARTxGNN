@@ -8,6 +8,7 @@ indication_count: 1
 last_modified_at: 2026-10-30
 description: "Mosapride: nueva indicación predicha, Insomnio (nivel de evidencia L5). Indicación original: Trastornos gastrointestinales (uso procinético"
 monitor_inn: "MOSAPRIDE"
+drugbank_id: DB11675
 predicted_indications: ["insomnia (disease)"]
 ---
 

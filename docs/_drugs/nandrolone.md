@@ -8,6 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-30
 description: "Nandrolone: nueva indicación predicha, Enfermedad fibroquística de la mama (nivel de evidencia L5). Indicación original: No disponible en la licencia de ANMAT (texto de indicación vacío). Co…"
 monitor_inn: "nandrolone"
+drugbank_id: DB13169
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "blunt duct adenosis of breast", "apocrine adenosis of breast", "fetal erythroblastosis", "breast abscess", "fat necrosis of breast", "lactation disease", "breast adenosis", "renal osteodystrophy"]
 ---
 

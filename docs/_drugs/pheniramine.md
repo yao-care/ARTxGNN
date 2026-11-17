@@ -50,8 +50,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** en los datos comp
 | Nueva Indicación Predicha | Enfermedad de la cavidad nasal (nasal cavity disease) |
 | Puntaje de Predicción TxGNN | 0,9928 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (4 de 4) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de productos en el listado PAMI | 4 (vigentes: 4) |
+| Estado de Mercado en Argentina | No figura en el listado vigente de PAMI (los 4 productos de estos datos ya no figuran) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de productos en el listado PAMI | 4 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -79,7 +79,13 @@ Actualmente no hay literatura relacionada disponible.
 | 42850 | MIRA KLONAL | Frasco gotero x 5 ml | No registrada en los datos locales |
 | 174 | MIRUS | Solución oftálmica x 15 ml | No registrada en los datos locales |
 
-Las 4 autorizaciones son de producto de un solo principio activo y se encuentran vigentes.
+Los 4 productos ya no figuran en el listado vigente de PAMI (el listado del 05/11/2026 no incluye ningún producto con feniramina, aparte de clorfeniramina y dexclorfeniramina, que son otros principios activos).
+
+<!-- review:begin ar-lic-20261117-pheniramine-1 -->
+
+> **Corrección de verificación (2026-11-17)**: Texto original: «Las 4 autorizaciones son de producto de un solo principio activo y se encuentran vigentes.» Corregido: los 4 productos (174 MIRUS, 18650 REFENAX COLIRIO, 42850 MIRA KLONAL, 43809 VISUCLAR) figuraban en el listado de PAMI del 01/03/2026 y ya no figuran en el listado vigente (05/11/2026). Que un producto ya no figure en el listado de PAMI no significa que su registro en ANMAT esté dado de baja: el estado del registro en ANMAT no está incluido en estos datos. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261117-pheniramine-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -98,6 +104,19 @@ La predicción se apoya únicamente en el modelo (nivel L5), sin ensayos clínic
 - Definir con mayor precisión qué afecciones concretas de la cavidad nasal serían el objetivo
 - Buscar estudios clínicos o publicaciones que evalúen directamente esta indicación
 - Evaluar la compatibilidad de la vía de administración, ya que los productos locales son formulaciones oftálmicas
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-17 | «se encuentran vigentes» → ya no figuran en PAMI | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

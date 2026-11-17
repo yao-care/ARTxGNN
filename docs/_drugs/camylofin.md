@@ -8,6 +8,7 @@ indication_count: 1
 last_modified_at: 2026-10-30
 description: "Camylofin: nueva indicación predicha, Insomnio (nivel de evidencia L5). Indicación original: No registrada en la licencia de ANMAT"
 monitor_inn: "camylofin"
+drugbank_id: DB13738
 predicted_indications: ["insomnia (disease)"]
 ---
 

@@ -50,8 +50,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** en los datos comp
 | Nueva Indicación Predicha | Enfermedad de la cavidad nasal (nasal cavity disease) |
 | Puntaje de Predicción TxGNN | 0,9921 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (3 de 3) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de productos en el listado PAMI | 3 (vigentes: 3) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (2 de 3) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de productos en el listado PAMI | 3 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -78,7 +78,13 @@ Actualmente no hay literatura relacionada disponible.
 | 158 | CIPROVIT MAGNESICO | gránulos sobres x 20 | No registrada en los datos locales |
 | 50366 | CIPROVIT CALCICO | jarabe x 150 ml | No registrada en los datos locales |
 
-Las tres autorizaciones son de producto de un solo principio activo y se encuentran vigentes (fabricante: Beta).
+Dos de los tres productos (fabricante: Beta) siguen en el listado de medicamentos de PAMI; el tercero (50366, CIPROVIT CALCICO jarabe x 150 ml) ya no figura en el listado vigente de PAMI.
+
+<!-- review:begin ar-lic-20261117-cyproheptadine-1 -->
+
+> **Corrección de verificación (2026-11-17)**: Texto original: «Las tres autorizaciones son de producto de un solo principio activo y se encuentran vigentes (fabricante: Beta).» Corregido: el producto 50366 (CIPROVIT CALCICO jarabe) figuraba en el listado de PAMI del 01/03/2026 y ya no figura en el listado vigente (05/11/2026); 2 de los 3 productos siguen en el listado. Que un producto ya no figure en el listado de PAMI no significa que su registro en ANMAT esté dado de baja: el estado del registro en ANMAT no está incluido en estos datos. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261117-cyproheptadine-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -99,6 +105,19 @@ La predicción tiene un puntaje alto (0,9921), pero no cuenta con ningún ensayo
 - Datos detallados del mecanismo de acción
 - Advertencias y contraindicaciones del prospecto aprobado por ANMAT
 - Plan de monitoreo de seguridad, en especial por los efectos anticolinérgicos y las interacciones identificadas
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-17 | «se encuentran vigentes» → 2 de 3 siguen en el listado de PAMI | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

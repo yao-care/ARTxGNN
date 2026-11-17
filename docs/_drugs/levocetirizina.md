@@ -52,8 +52,8 @@ El modelo TxGNN predice que podría ser útil para **artritis reumatoide (rheuma
 | Nueva Indicación Predicha | artritis reumatoide (rheumatoid arthritis) |
 | Puntaje de Predicción TxGNN | 0.9973 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (10 de 10) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorización | 10 (vigentes: 10) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (3 de 10) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de Autorización | 10 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -82,7 +82,13 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-El estado de mercado es comercializado, con las 10 autorizaciones vigentes (todas de producto de un solo principio activo). Los datos locales no traen texto de indicación aprobada. Principales autorizaciones:
+De los 10 productos de estos datos (todos de un solo principio activo), 3 siguen en el listado de medicamentos de PAMI y 7, incluidos 41030, 33448, 41031 y 44841 de la tabla, ya no figuran en el listado vigente de PAMI. Los datos locales no traen texto de indicación aprobada. Principales productos:
+
+<!-- review:begin ar-lic-20261117-levocetirizina-1 -->
+
+> **Corrección de verificación (2026-11-17)**: Texto original: «El estado de mercado es comercializado, con las 10 autorizaciones vigentes (todas de producto de un solo principio activo). Los datos locales no traen texto de indicación aprobada. Principales autorizaciones:» Corregido: 7 productos de levocetirizina figuraban en el listado de PAMI del 01/03/2026 y ya no figuran en el listado vigente (05/11/2026); 3 siguen en el listado. Que un producto ya no figure en el listado de PAMI no significa que su registro en ANMAT esté dado de baja: el estado del registro en ANMAT no está incluido en estos datos. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261117-levocetirizina-1 -->
 
 | Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
@@ -112,6 +118,19 @@ La predicción para artritis reumatoide no cuenta con ningún ensayo clínico ni
 - Búsqueda sistemática de estudios preclínicos y clínicos sobre antihistamínicos H1 en artritis reumatoide
 - Prospecto de ANMAT con advertencias y contraindicaciones para el cribado de seguridad
 - Evaluación de si el posible rol sería solo complementario a los tratamientos establecidos
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-17 | «10 autorizaciones vigentes» → 3 siguen en PAMI, 7 ya no figuran | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

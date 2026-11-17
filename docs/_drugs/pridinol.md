@@ -8,6 +8,7 @@ indication_count: 1
 last_modified_at: 2026-10-31
 description: "Pridinol: nueva indicación predicha, Insomnio (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "PRIDINOL"
+drugbank_id: DB13642
 predicted_indications: ["insomnia (disease)"]
 ---
 

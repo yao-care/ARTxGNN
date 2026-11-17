@@ -49,8 +49,8 @@ Ivermectina es un antiparasitario con varias autorizaciones vigentes en Argentin
 | Nueva Indicación Predicha | candidiasis vulvovaginal (vulvovaginal candidiasis) |
 | Puntaje de Predicción TxGNN | 0.9995 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (7 de 7) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorización | 7 (vigentes: 7) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (6 de 7) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de Autorización | 7 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

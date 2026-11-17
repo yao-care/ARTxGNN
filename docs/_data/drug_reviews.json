@@ -509,6 +509,174 @@
    "checked": "2026-11-06",
    "summary": "Eliminado: «Adicionalmente, el fármaco no cuenta con ninguna autorización de comercialización en Argentina, lo que añade una barrera regulatoria de base»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）"
+  },
+  {
+   "id": "ar-lic-20261117-cyproheptadine-1",
+   "drug": "cyproheptadine",
+   "file": "cyproheptadine.md",
+   "action": "correct",
+   "claim": "Las tres autorizaciones son de producto de un solo principio activo y se encuentran vigentes (fabricante: Beta).",
+   "replacement": "Dos de los tres productos (fabricante: Beta) siguen en el listado de medicamentos de PAMI; el tercero (50366, CIPROVIT CALCICO jarabe x 150 ml) ya no figura en el listado vigente de PAMI.",
+   "note": "Corregido: el producto 50366 (CIPROVIT CALCICO jarabe) figuraba en el listado de PAMI del 01/03/2026 y ya no figura en el listado vigente (05/11/2026); 2 de los 3 productos siguen en el listado. Que un producto ya no figure en el listado de PAMI no significa que su registro en ANMAT esté dado de baja: el estado del registro en ANMAT no está incluido en estos datos.",
+   "finding": "2026-11-17：排程「新資料查不到」的 ALFABETA 代碼，在 2026-03-01 版 PAMI 價目表（data/raw/ar_fda_drugs.json，PVP PAMI AL 01/03/2026）裡有、2026-11-05 版（現行，8,734 列）沒有；PAMI 是給付清單，不推定 ANMAT 註冊失效",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "«se encuentran vigentes» → 2 de 3 siguen en el listado de PAMI"
+  },
+  {
+   "id": "ar-lic-20261117-fexofenadina-1",
+   "drug": "fexofenadina",
+   "file": "fexofenadina.md",
+   "action": "correct",
+   "claim": "Se registran al menos 20 autorizaciones vigentes, todas de monofármaco; la lista puede ser parcial. Principales autorizaciones:",
+   "replacement": "Estos datos registran al menos 20 productos de fexofenadina, todos de monofármaco; 13 de ellos, incluidos los 5 de la tabla, ya no figuran en el listado vigente de PAMI, y al menos 7 siguen en el listado. La lista puede ser parcial. Principales productos:",
+   "note": "Corregido: 13 productos de fexofenadina (entre ellos 37841, 23172, 54289, 53421 y 54926 de la tabla) figuraban en el listado de PAMI del 01/03/2026 y ya no figuran en el listado vigente (05/11/2026). Que un producto ya no figure en el listado de PAMI no significa que su registro en ANMAT esté dado de baja: el estado del registro en ANMAT no está incluido en estos datos.",
+   "finding": "2026-11-17：排程「新資料查不到」的 ALFABETA 代碼，在 2026-03-01 版 PAMI 價目表（data/raw/ar_fda_drugs.json，PVP PAMI AL 01/03/2026）裡有、2026-11-05 版（現行，8,734 列）沒有；PAMI 是給付清單，不推定 ANMAT 註冊失效",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "«al menos 20 autorizaciones vigentes» → 13 ya no figuran en PAMI, al menos 7 siguen"
+  },
+  {
+   "id": "ar-lic-20261117-insulina_glargina-1",
+   "drug": "insulina_glargina",
+   "file": "insulina_glargina.md",
+   "action": "correct",
+   "claim": "Todas las autorizaciones registradas están vigentes y corresponden a productos de un solo principio activo.",
+   "replacement": "Los productos corresponden a un solo principio activo; 3 de los 4 siguen en el listado de medicamentos de PAMI y el cartucho 32734 (INSULINA LANTUS, 5 x 3 ml) ya no figura en el listado vigente de PAMI.",
+   "note": "Corregido: el producto 32734 (INSULINA LANTUS cartuchos) figuraba en el listado de PAMI del 01/03/2026 y ya no figura en el listado vigente (05/11/2026). Que un producto ya no figure en el listado de PAMI no significa que su registro en ANMAT esté dado de baja: el estado del registro en ANMAT no está incluido en estos datos.",
+   "finding": "2026-11-17：排程「新資料查不到」的 ALFABETA 代碼，在 2026-03-01 版 PAMI 價目表（data/raw/ar_fda_drugs.json，PVP PAMI AL 01/03/2026）裡有、2026-11-05 版（現行，8,734 列）沒有；PAMI 是給付清單，不推定 ANMAT 註冊失效",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "«Todas … vigentes» → 3 de 4 siguen en el listado de PAMI"
+  },
+  {
+   "id": "ar-lic-20261117-levocetirizina-1",
+   "drug": "levocetirizina",
+   "file": "levocetirizina.md",
+   "action": "correct",
+   "claim": "El estado de mercado es comercializado, con las 10 autorizaciones vigentes (todas de producto de un solo principio activo). Los datos locales no traen texto de indicación aprobada. Principales autorizaciones:",
+   "replacement": "De los 10 productos de estos datos (todos de un solo principio activo), 3 siguen en el listado de medicamentos de PAMI y 7, incluidos 41030, 33448, 41031 y 44841 de la tabla, ya no figuran en el listado vigente de PAMI. Los datos locales no traen texto de indicación aprobada. Principales productos:",
+   "note": "Corregido: 7 productos de levocetirizina figuraban en el listado de PAMI del 01/03/2026 y ya no figuran en el listado vigente (05/11/2026); 3 siguen en el listado. Que un producto ya no figure en el listado de PAMI no significa que su registro en ANMAT esté dado de baja: el estado del registro en ANMAT no está incluido en estos datos.",
+   "finding": "2026-11-17：排程「新資料查不到」的 ALFABETA 代碼，在 2026-03-01 版 PAMI 價目表（data/raw/ar_fda_drugs.json，PVP PAMI AL 01/03/2026）裡有、2026-11-05 版（現行，8,734 列）沒有；PAMI 是給付清單，不推定 ANMAT 註冊失效",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "«10 autorizaciones vigentes» → 3 siguen en PAMI, 7 ya no figuran"
+  },
+  {
+   "id": "ar-lic-20261117-naphazoline-1",
+   "drug": "naphazoline",
+   "file": "naphazoline.md",
+   "action": "correct",
+   "claim": "Se muestran 5 de las 9 autorizaciones vigentes (todas de monodroga, ninguna cancelada). Las restantes corresponden a DRYNISAN, REFENAX COLIRIO, VISUCLAR y REFENAX (gotas nasales).",
+   "replacement": "Se muestran 5 de los 9 productos de estos datos; 5 siguen en el listado de medicamentos de PAMI y 4 (MIRUS y MIRA KLONAL de la tabla, REFENAX COLIRIO y VISUCLAR) ya no figuran en el listado vigente de PAMI. Los restantes corresponden a DRYNISAN, REFENAX COLIRIO, VISUCLAR y REFENAX (gotas nasales).",
+   "note": "Corregido: los productos 174 (MIRUS), 42850 (MIRA KLONAL), 18650 (REFENAX COLIRIO) y 43809 (VISUCLAR) figuraban en el listado de PAMI del 01/03/2026 y ya no figuran en el listado vigente (05/11/2026). Que un producto ya no figure en el listado de PAMI no significa que su registro en ANMAT esté dado de baja: el estado del registro en ANMAT no está incluido en estos datos.",
+   "finding": "2026-11-17：排程「新資料查不到」的 ALFABETA 代碼，在 2026-03-01 版 PAMI 價目表（data/raw/ar_fda_drugs.json，PVP PAMI AL 01/03/2026）裡有、2026-11-05 版（現行，8,734 列）沒有；PAMI 是給付清單，不推定 ANMAT 註冊失效",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "«9 autorizaciones vigentes, ninguna cancelada» → 5 siguen en PAMI, 4 ya no figuran"
+  },
+  {
+   "id": "ar-lic-20261117-olopatadine-1",
+   "drug": "olopatadine",
+   "file": "olopatadine.md",
+   "action": "correct",
+   "claim": "Hay 10 autorizaciones vigentes, todas de producto único (sin combinaciones) y ninguna cancelada. Se listan las 5 principales:",
+   "replacement": "Estos datos registran 10 productos, todos de producto único (sin combinaciones); ninguno figura ya en el listado vigente de PAMI (el listado del 05/11/2026 no incluye ningún producto de olopatadina). Se listan 5:",
+   "note": "Corregido: los 10 productos de olopatadina figuraban en el listado de PAMI del 01/03/2026 y ninguno figura en el listado vigente (05/11/2026). Que un producto ya no figure en el listado de PAMI no significa que su registro en ANMAT esté dado de baja: el estado del registro en ANMAT no está incluido en estos datos.",
+   "finding": "2026-11-17：排程「新資料查不到」的 ALFABETA 代碼，在 2026-03-01 版 PAMI 價目表（data/raw/ar_fda_drugs.json，PVP PAMI AL 01/03/2026）裡有、2026-11-05 版（現行，8,734 列）沒有；PAMI 是給付清單，不推定 ANMAT 註冊失效",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "«10 autorizaciones vigentes» → ninguno figura ya en PAMI"
+  },
+  {
+   "id": "ar-lic-20261117-pheniramine-1",
+   "drug": "pheniramine",
+   "file": "pheniramine.md",
+   "action": "correct",
+   "claim": "Las 4 autorizaciones son de producto de un solo principio activo y se encuentran vigentes.",
+   "replacement": "Los 4 productos ya no figuran en el listado vigente de PAMI (el listado del 05/11/2026 no incluye ningún producto con feniramina, aparte de clorfeniramina y dexclorfeniramina, que son otros principios activos).",
+   "note": "Corregido: los 4 productos (174 MIRUS, 18650 REFENAX COLIRIO, 42850 MIRA KLONAL, 43809 VISUCLAR) figuraban en el listado de PAMI del 01/03/2026 y ya no figuran en el listado vigente (05/11/2026). Que un producto ya no figure en el listado de PAMI no significa que su registro en ANMAT esté dado de baja: el estado del registro en ANMAT no está incluido en estos datos.",
+   "finding": "2026-11-17：排程「新資料查不到」的 ALFABETA 代碼，在 2026-03-01 版 PAMI 價目表（data/raw/ar_fda_drugs.json，PVP PAMI AL 01/03/2026）裡有、2026-11-05 版（現行，8,734 列）沒有；PAMI 是給付清單，不推定 ANMAT 註冊失效",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-17",
+   "summary": "«se encuentran vigentes» → ya no figuran en PAMI"
   }
  ]
 }

@@ -5,15 +5,29 @@
 來源：datos.pami.org.ar CKAN 資料集 medicamentos-para-entidades，取最新的 CSV 資源（免金鑰；; 分隔、latin-1）。
 欄位 ALFABETA（＝證據包 license_id）。只列當期在價目表的品項、沒有狀態欄：在列不改紀錄，
 新清單查不到的代碼保留原狀態、列在 summary（不推定為撤銷）。
+
+2026-11-17（用戶要求確認 11-16 排程「新資料查不到」的 53 張）：ALFABETA 是 Alfabeta（Manual Farmacéutico）的品項代碼，
+不是 ANMAT 的 certificado；PAMI 價目表只列當期給付的品項，代碼消失＝「ya no figura en el listado de PAMI」，不等於 ANMAT 註冊失效
+（ANMAT 註冊狀態不在這份資料裡，也沒有可下載的全量註冊檔）。同一 CKAN 上的「medicamentos para afiliados」是同一份清單（同 8,734 列）
+但沒有 ALFABETA 欄，不能逐號比對。做法：
+- fetch() 把整份清單的代碼記成 CURRENT（少於 MIN_CURRENT 不判定）。
+- preprocess：證據包裡不在 CURRENT 的代碼標 license_status＝cancelled（本站事實層「cancelled」＝不在 PAMI 現行清單）、
+  pami_not_listed＝第一次發現日，status 改「Ya no figura en el listado de PAMI」（原值存 status_before_pami_not_listed）；
+  又出現在清單就還原。頁面照 PAMI 的口徑寫，不寫 ANMAT 註冊失效。
+- confirmed_absent(lid)：CURRENT 有資料且代碼不在裡面。
 """
 import csv
 import io
+import re
 import time
 
 import requests
 
 RAW_FILE = "raw/pami_alfabeta.json"
 API = "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades"
+CURRENT: set = set()   # fetch() 填：最新 PAMI 價目表的 ALFABETA 代碼；空的就不做「不在清單」判定
+MIN_CURRENT = 7000     # 2026-03-01 版 8,035 列、2026-11-05 版 8,734 列
+NOT_LISTED = "Ya no figura en el listado de PAMI"
 
 
 def _get(url):
@@ -33,7 +47,7 @@ def fetch():
     if not res:
         raise RuntimeError("資料集沒有 CSV")
     res.sort(key=lambda r: r.get("last_modified") or r.get("created") or r.get("url"))
-    raw = _get(res[-1]["url"]).content
+    raw = _get(re.sub(r"^http://", "https://", res[-1]["url"])).content  # CKAN 給 http 網址；https 也可用（雲端代理只放 https）
     try:
         text = raw.decode("utf-8-sig")
     except UnicodeDecodeError:
@@ -41,7 +55,42 @@ def fetch():
     rows = csv.DictReader(io.StringIO(text), delimiter=";")
     if "ALFABETA" not in (rows.fieldnames or []):
         raise RuntimeError(f"欄位改變：{rows.fieldnames}")
-    return [{"alfabeta": (x["ALFABETA"] or "").strip()} for x in rows if x.get("ALFABETA")]
+    out = [{"alfabeta": (x["ALFABETA"] or "").strip()} for x in rows if x.get("ALFABETA")]
+    CURRENT.clear()
+    if len(out) >= MIN_CURRENT:
+        CURRENT.update(r["alfabeta"] for r in out)
+    return out
+
+
+def confirmed_absent(lid):
+    """給 license_refresh：PAMI 現行價目表確認已不列這個 ALFABETA 代碼（不代表 ANMAT 註冊失效）"""
+    lid = str(lid).strip()
+    return bool(CURRENT) and lid.isdigit() and lid not in CURRENT
+
+
+def preprocess(bundle):
+    """不在 PAMI 現行清單的代碼標 cancelled＋pami_not_listed；又出現在清單就還原。有改回 True"""
+    if not CURRENT:
+        return False
+    today = time.strftime("%Y-%m-%d")
+    ch = False
+    for r in (bundle.get("tfda") or {}).get("records") or []:
+        lid = str(r.get("license_id") or "").strip()
+        if not lid.isdigit():
+            continue
+        if lid in CURRENT:
+            if r.get("pami_not_listed"):
+                r.pop("pami_not_listed", None)
+                r.pop("license_status", None)
+                r["status"] = r.pop("status_before_pami_not_listed", "")
+                ch = True
+        elif not r.get("pami_not_listed"):
+            r["status_before_pami_not_listed"] = r.get("status") or ""
+            r["status"] = NOT_LISTED
+            r["license_status"] = "cancelled"
+            r["pami_not_listed"] = today
+            ch = True
+    return ch
 
 
 def validate(new, old):

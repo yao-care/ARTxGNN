@@ -8,6 +8,7 @@ indication_count: 1
 last_modified_at: 2026-10-30
 description: "Aniracetam: nueva indicación predicha, Insomnio (nivel de evidencia L4). Indicación original: No disponible en los registros de ANMAT compilados"
 monitor_inn: "ANIRACETAM"
+drugbank_id: DB04599
 predicted_indications: ["insomnia (disease)"]
 ---
 
