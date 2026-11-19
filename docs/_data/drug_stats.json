@@ -1,12 +1,12 @@
 {
-  "generated": "2026-11-16",
-  "total_drugs": 328,
+  "generated": "2026-11-19",
+  "total_drugs": 326,
   "level_counts": {
     "L1": 6,
     "L2": 10,
     "L3": 15,
     "L4": 10,
-    "L5": 285
+    "L5": 283
   },
   "all_drugs": [
     {
@@ -114,12 +114,6 @@
     {
       "name": "Amlodipina",
       "slug": "amlodipina",
-      "level": "L5",
-      "indication_count": 9
-    },
-    {
-      "name": "Amlodipino",
-      "slug": "amlodipino",
       "level": "L5",
       "indication_count": 9
     },
@@ -332,12 +326,6 @@
       "slug": "carbinoxamina",
       "level": "L5",
       "indication_count": 5
-    },
-    {
-      "name": "Carbocisteína",
-      "slug": "carbocisteína",
-      "level": "L5",
-      "indication_count": 1
     },
     {
       "name": "Carboximetilcisteína",

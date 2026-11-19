@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-16",
-  "total_count": 328,
+  "generated": "2026-11-19",
+  "total_count": 326,
   "source": "ARTxGNN",
   "drugs": [
     {
@@ -182,16 +182,6 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/amlodipina/"
-    },
-    {
-      "slug": "amlodipino",
-      "name": "Amlodipino",
-      "evidence_level": "L5",
-      "indication_count": 9,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/amlodipino/"
     },
     {
       "slug": "amoxicilina",
@@ -542,16 +532,6 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/carbinoxamina/"
-    },
-    {
-      "slug": "carbocisteína",
-      "name": "Carbocisteína",
-      "evidence_level": "L5",
-      "indication_count": 1,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/carbocisteína/"
     },
     {
       "slug": "carboximetilcisteína",
