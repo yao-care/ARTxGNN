@@ -5,7 +5,7 @@ layout: default
 title: Calcio
 parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 71
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-17
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A

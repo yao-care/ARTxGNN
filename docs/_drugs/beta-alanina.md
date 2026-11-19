@@ -5,7 +5,7 @@ layout: default
 title: Beta-Alanina
 parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 49
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-16
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A

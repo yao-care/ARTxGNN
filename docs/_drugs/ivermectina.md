@@ -8,7 +8,7 @@ indication_count: 9
 drugbank_id: DB00602
 monitor_inn: "Ivermectin"
 predicted_indications: ["vulvovaginal candidiasis", "esophageal candidiasis", "anogenital human papillomavirus infection", "vulvovaginitis", "neonatal candidiasis", "candida glabrata", "congenital candidiasis", "postmenopausal atrophic vaginitis", "candidiasis, invasive"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-17
 description: "Ivermectina: nueva indicación predicha, candidiasis vulvovaginal (vulvovaginal candidiasis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 

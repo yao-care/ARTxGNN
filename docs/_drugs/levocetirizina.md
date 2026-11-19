@@ -8,7 +8,7 @@ indication_count: 3
 drugbank_id: DB06282
 monitor_inn: "Levocetirizine"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-17
 description: "Levocetirizina: nueva indicación predicha, artritis reumatoide (rheumatoid arthritis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
