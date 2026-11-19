@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **infección ectótrix (ec
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, econazol pertenece a la clase de los antifúngicos imidazólicos, que en general se entiende que inhiben la lanosterol 14-alfa-desmetilasa y alteran la síntesis de ergosterol. Este mecanismo no está confirmado por los datos disponibles.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Econazole (traducción no oficial): «La espuma tópica Ecoza es un antifúngico azólico. […] El nitrato de econazol, un agente antifúngico azólico, inhibe la enzima 14 alfa-lanosterol desmetilasa fúngica mediada por el citocromo P-450. Esta enzima tiene la función de convertir el lanosterol en ergosterol. La acumulación de 14 alfa-metil esteroles se correlaciona con la consiguiente pérdida de ergosterol en la pared celular fúngica y puede ser responsable de la actividad fungistática del econazol.» Texto original en inglés: "Ecoza topical foam is an azole antifungal. […] Econazole nitrate, an azole antifungal agent, inhibits fungal cytochrome P-450-mediated 14 alpha-lanosterol demethylase enzyme. This enzyme functions to convert lanosterol to ergosterol. The accumulation of 14 alpha-methyl sterols correlates with the subsequent loss of ergosterol in the fungal cell wall and may be responsible for the fungistatic activity of econazole." ([DailyMed: Ecoza (econazole nitrate) prescribing information, Resilia Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0bb5fa27-32ed-ed13-e063-6394a90a1577), versión del 2023-12-04; consultado el 2026-11-19). Según la información conocida, econazol pertenece a la clase de los antifúngicos imidazólicos, que en general se entiende que inhiben la lanosterol 14-alfa-desmetilasa y alteran la síntesis de ergosterol. Este mecanismo no está confirmado por los datos disponibles.
 
 La infección ectótrix es una dermatofitosis del tallo piloso (por ejemplo, *Microsporum* y *Trichophyton*), en la que las artroconidias se forman en el exterior del pelo. El puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Sin embargo, es más una extensión dentro de la misma clase de fármacos y el mismo grupo de organismos que un reposicionamiento verdadero.
 
@@ -98,6 +98,19 @@ No existe ningún ensayo ni publicación que estudie directamente la infección 
 - Confirmar el mecanismo de acción de econazol con DrugBank.
 - Buscar estudios clínicos o in vitro sobre econazol en dermatofitosis del cuero cabelludo o del tallo piloso.
 - Evaluar la compatibilidad de la vía de administración (tópica frente a sistémica) y la comparación con antifúngicos sistémicos.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Ecoza (econazole nitrate) prescribing information, Resilia Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0bb5fa27-32ed-ed13-e063-6394a90a1577) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

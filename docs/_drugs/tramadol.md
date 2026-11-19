@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **displasia acromesomélic
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por conocimiento general, tramadol es un agonista de receptores opioides mu con inhibición de la recaptación de serotonina y noradrenalina, y actúa como analgésico.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Tramadol (traducción no oficial): «Tramadol clorhidrato cápsulas de liberación prolongada contiene tramadol, un agonista opioide e inhibidor de la recaptación de norepinefrina y serotonina. Aunque su modo de acción no se comprende por completo, a partir de pruebas en animales, parecen aplicables al menos dos mecanismos complementarios: la unión del fármaco original y del metabolito M1 a los receptores opioides mu y la inhibición débil de la recaptación de norepinefrina y serotonina.» Texto original en inglés: "Tramadol Hydrochloride Extended-Release Capsules contain tramadol, an opioid agonist, and an inhibitor of reuptake of norepinephrine and serotonin. Although its mode of action is not completely understood, from animal tests, at least two complementary mechanisms appear applicable: binding of parent and M1 metabolite to mu-opioid receptors and weak inhibition of reuptake of norepinephrine and serotonin." ([DailyMed: Tramadol Hydrochloride Extended-Release (tramadol hydrochloride) prescribing information, Trigen Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0bc7218-3fd0-4646-96f4-25355fc84aa9), versión del 2026-01-23; consultado el 2026-11-19). Por conocimiento general, tramadol es un agonista de receptores opioides mu con inhibición de la recaptación de serotonina y noradrenalina, y actúa como analgésico.
 
 La displasia acromesomélica tipo Hunter-Thompson es una enfermedad genética rara del esqueleto, causada por pérdida de función de CDMP1/GDF5, que afecta el crecimiento de las extremidades. Tramadol, en el mejor de los casos, podría aportar analgesia sintomática, pero no modifica la enfermedad de base.
 
@@ -99,6 +99,19 @@ La predicción no cuenta con ensayos clínicos ni literatura, y no existe un ví
 - Estudios preclínicos o clínicos que evalúen directamente tramadol en esta condición
 - Advertencias y contraindicaciones del prospecto de ANMAT
 - Evaluación de seguridad en las poblaciones relevantes, incluida la pediátrica, dado el riesgo de depresión respiratoria y las interacciones serotoninérgicas
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tramadol Hydrochloride Extended-Release (tramadol hydrochloride) prescribing information, Trigen Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0bc7218-3fd0-4646-96f4-25355fc84aa9) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

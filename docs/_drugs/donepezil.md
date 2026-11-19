@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por su clase, donepezilo inhibe la acetilcolinesterasa y aumenta la disponibilidad de acetilcolina en el sistema nervioso central.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Donepezil (traducción no oficial): «Las teorías actuales sobre la patogenia de los signos y síntomas cognitivos de la enfermedad de Alzheimer atribuyen algunos de ellos a una deficiencia de la neurotransmisión colinérgica. Se postula que el clorhidrato de donepezilo ejerce su efecto terapéutico al potenciar la función colinérgica.» Texto original en inglés: "Current theories on the pathogenesis of the cognitive signs and symptoms of Alzheimer’s disease attribute some of them to a deficiency of cholinergic neurotransmission. Donepezil hydrochloride is postulated to exert its therapeutic effect by enhancing cholinergic function." ([DailyMed: Aricept (donepezil hydrochloride) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e451e1-e4d7-4439-a675-c5457ba20975), versión del 2021-12-30; consultado el 2026-11-19). Por su clase, donepezilo inhibe la acetilcolinesterasa y aumenta la disponibilidad de acetilcolina en el sistema nervioso central.
 
 Una hipótesis posible es que la modulación colinérgica de los circuitos de los ganglios basales influya en la expresión de movimientos anormales. Sin embargo, esta idea es especulativa: los trastornos del movimiento psicógenos son de naturaleza funcional, por lo que el vínculo farmacológico directo no está claro.
 
@@ -104,6 +104,19 @@ La predicción tiene un puntaje alto (0,9923), pero no cuenta con ensayos clíni
 - Datos de mecanismo de acción y análisis de la plausibilidad mecanística.
 - Obtención y análisis del prospecto de ANMAT (advertencias y contraindicaciones).
 - Evaluación del riesgo-beneficio, considerando los reportes de trastornos del movimiento asociados a inhibidores de la colinesterasa, antes de cualquier estudio exploratorio.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Aricept (donepezil hydrochloride) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e451e1-e4d7-4439-a675-c5457ba20975) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

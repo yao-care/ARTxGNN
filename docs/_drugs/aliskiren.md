@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser útil para **hipertensión pulmonar por 
 
 ## Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, aliskiren es un inhibidor directo de la renina: bloquea el primer paso, limitante, del sistema renina-angiotensina (SRA) y reduce así la producción de angiotensina II.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Aliskiren (traducción no oficial): «La renina es secretada por el riñón en respuesta a disminuciones del volumen sanguíneo y de la perfusión renal. La renina escinde el angiotensinógeno para formar el decapéptido inactivo angiotensina I (Ang I). La Ang I se convierte en el octapéptido activo angiotensina II (Ang II) mediante la ECA y vías distintas de la ECA.» Texto original en inglés: "Renin is secreted by the kidney in response to decreases in blood volume and renal perfusion. Renin cleaves angiotensinogen to form the inactive decapeptide angiotensin I (Ang I). Ang I is converted to the active octapeptide angiotensin II (Ang II) by ACE and non-ACE pathways." ([DailyMed: aliskiren prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f3fd2503-25ef-4660-a29a-f62c491e28fb), versión del 2022-12-30; consultado el 2026-11-19). Según la información conocida, aliskiren es un inhibidor directo de la renina: bloquea el primer paso, limitante, del sistema renina-angiotensina (SRA) y reduce así la producción de angiotensina II.
 
 En modelos animales de hipoxia intermitente, la angiotensina II se asocia con activación simpática, y aliskiren atenuó el remodelado auricular en un modelo de rata. Esto ofrece un vínculo mecanístico plausible con el remodelado vascular y cardíaco asociado a hipoxia.
 
@@ -99,6 +99,19 @@ La predicción se apoya solo en el puntaje del modelo y en estudios preclínicos
 - Datos de mecanismo de acción detallados
 - Revisión del prospecto de ANMAT (advertencias y contraindicaciones) para completar la evaluación de seguridad
 - Evaluación del riesgo de hiperpotasemia, hipotensión y deterioro renal, en especial combinado con otros bloqueantes del SRA
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: aliskiren prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f3fd2503-25ef-4660-a29a-f62c491e28fb) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -57,7 +57,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** en los datos comp
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Carbinoxamina pertenece a la clase de los antihistamínicos H1 de primera generación y tiene además actividad anticolinérgica. Al bloquear los receptores H1, reduce la congestión nasal, la rinorrea, los estornudos y el picor mediados por histamina. No se dispone actualmente de datos detallados sobre el mecanismo de acción en los datos compilados, por lo que este razonamiento se basa en la farmacología de la clase.
+Carbinoxamina pertenece a la clase de los antihistamínicos H1 de primera generación y tiene además actividad anticolinérgica. Al bloquear los receptores H1, reduce la congestión nasal, la rinorrea, los estornudos y el picor mediados por histamina. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Carbinoxamina (traducción no oficial): «El maleato de carbinoxamina, un derivado de la etanolamina, es un antihistamínico con propiedades anticolinérgicas (secantes) y sedantes. La carbinoxamina parece competir con la histamina (tipo H1) por los sitios receptores de las células efectoras del tubo digestivo, los vasos sanguíneos y las vías respiratorias.» Texto original en inglés: "Carbinoxamine maleate, an ethanolamine derivative, is an antihistamine with anticholinergic (drying) and sedative properties. Carbinoxamine appears to compete with histamine (type H1) for receptor sites on effector cells in the gastrointestinal tract, blood vessels and respiratory tract." ([DailyMed: Carbzah (carbinoxamine maleate) prescribing information, IPG Pharmaceuticals, inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a845fc15-c675-4e33-840c-6a74e79d0ced), versión del 2026-10-05; consultado el 2026-11-19).
 
 Desde ese punto de vista, un beneficio en trastornos de la cavidad nasal (por ejemplo, la rinitis alérgica) es mecanísticamente plausible. Sin embargo, el apoyo es indirecto: se sustenta en la farmacología de clase y en un puntaje de predicción alto, no en evidencia clínica recuperada.
 
@@ -98,6 +98,19 @@ La predicción es plausible por la farmacología de clase, pero no existen ensay
 - Completar los datos del mecanismo de acción
 - Verificar si la indicación coincide con un uso ya autorizado en el prospecto
 - Realizar una búsqueda sistemática de ensayos clínicos y literatura sobre carbinoxamina en enfermedades de la cavidad nasal
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Carbzah (carbinoxamine maleate) prescribing information, IPG Pharmaceuticals, inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a845fc15-c675-4e33-840c-6a74e79d0ced) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

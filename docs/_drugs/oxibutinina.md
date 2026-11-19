@@ -57,7 +57,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, la oxibutinina es un antimuscarínico con actividad antiespasmódica sobre el músculo liso.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Oxibutinina (traducción no oficial): «La oxibutinina relaja el músculo liso de la vejiga. El cloruro de oxibutinina ejerce un efecto antiespasmódico directo sobre el músculo liso e inhibe la acción muscarínica de la acetilcolina sobre el músculo liso. No se producen efectos de bloqueo en las uniones neuromusculares esqueléticas ni en los ganglios autónomos (efectos antinicotínicos).» Texto original en inglés: "Oxybutynin relaxes bladder smooth muscle. Oxybutynin chloride exerts a direct antispasmodic effect on smooth muscle and inhibits the muscarinic action of acetylcholine on smooth muscle. No blocking effects occur at skeletal neuromuscular junctions or autonomic ganglia (antinicotinic effects)." ([DailyMed: Oxybutynin Chloride Extended Release (oxybutynin chloride) prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5653b7e-1e3b-4da3-b3a2-33318f448c67), versión del 2026-11-11; consultado el 2026-11-19). Según la información conocida, la oxibutinina es un antimuscarínico con actividad antiespasmódica sobre el músculo liso.
 
 El síndrome de piernas inquietas se asocia principalmente a disfunción dopaminérgica y a deficiencia de hierro cerebral. Con los datos disponibles no se aprecia un vínculo mecanístico plausible entre el bloqueo muscarínico y esta enfermedad.
 
@@ -99,6 +99,19 @@ La predicción para síndrome de piernas inquietas se apoya únicamente en el mo
 - Estudios preclínicos o clínicos que evalúen directamente esta enfermedad
 - Información de seguridad del prospecto (advertencias y contraindicaciones), en especial sobre efectos en sueño y cognición
 - Evaluación de la compatibilidad de vías de administración
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Oxybutynin Chloride Extended Release (oxybutynin chloride) prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5653b7e-1e3b-4da3-b3a2-33318f448c67) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -57,7 +57,7 @@ Hasta ahora no hay **ningún ensayo clínico ni publicación** que estudie direc
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Clonidina pertenece a la clase de los agonistas alfa-2 adrenérgicos. Estos fármacos reducen la liberación de noradrenalina y, con ello, la actividad simpática central.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Clonidina (traducción no oficial): «La clonidina estimula los adrenorreceptores alfa en el tronco encefálico. Esta acción produce una reducción de la eferencia simpática desde el sistema nervioso central y disminuciones de la resistencia periférica, la resistencia vascular renal, la frecuencia cardíaca y la presión arterial.» Texto original en inglés: "Clonidine stimulates alpha-adrenoreceptors in the brain stem. This action results in reduced sympathetic outflow from the central nervous system and in decreases in peripheral resistance, renal vascular resistance, heart rate, and blood pressure." ([DailyMed: Qlonilik (clonidine hydrochloride) prescribing information, CMP Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=826de1dc-378e-4c90-86d1-e33f7a4248cd), versión del 2026-08-12; consultado el 2026-11-19). Clonidina pertenece a la clase de los agonistas alfa-2 adrenérgicos. Estos fármacos reducen la liberación de noradrenalina y, con ello, la actividad simpática central.
 
 El síndrome faciodigitogenital es una enfermedad rara del desarrollo, y no se identifica un mecanismo adrenérgico que la vincule con la clonidina. El puntaje del modelo es muy alto, pero es solo una predicción computacional. No se apoya en hallazgos biológicos ni clínicos concretos. Por eso, desde el punto de vista mecanístico, la plausibilidad de esta asociación sigue sin demostrarse.
 
@@ -94,6 +94,19 @@ Consultar el prospecto para información de seguridad.
 - Estudios preclínicos o clínicos que evalúen directamente clonidina en el síndrome faciodigitogenital.
 - Información de seguridad del prospecto aprobado en Argentina (advertencias y contraindicaciones), que aún no está disponible.
 - Revisión por expertos clínicos para decidir si la enfermedad, muy poco frecuente, justifica una investigación adicional.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Qlonilik (clonidine hydrochloride) prescribing information, CMP Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=826de1dc-378e-4c90-86d1-e33f7a4248cd) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

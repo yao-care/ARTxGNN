@@ -56,7 +56,7 @@ El modelo TxGNN predice que podría ser efectivo para **neoplasia del nervio tri
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Lamotrigina bloquea los canales de sodio dependientes de voltaje de manera uso-dependiente y reduce la liberación de glutamato. Estos mecanismos explican su uso como antiepiléptico, pero no hay datos detallados de mecanismo de acción en los datos compilados para este informe.
+Lamotrigina bloquea los canales de sodio dependientes de voltaje de manera uso-dependiente y reduce la liberación de glutamato. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Lamotrigina (traducción no oficial): «Se desconoce(n) el(los) mecanismo(s) preciso(s) mediante el(los) cual(es) la lamotrigina ejerce su acción anticonvulsiva. En modelos animales diseñados para detectar actividad anticonvulsiva, la lamotrigina fue eficaz para prevenir la propagación de las convulsiones en las pruebas de electrochoque máximo (MES) y de pentilentetrazol (scMet), y previno las convulsiones en las pruebas de posdescarga evocada visual y eléctricamente (EEAD) para la actividad antiepiléptica.» Texto original en inglés: "The precise mechanism(s) by which lamotrigine exerts its anticonvulsant action are unknown. In animal models designed to detect anticonvulsant activity, lamotrigine was effective in preventing seizure spread in the maximum electroshock (MES) and pentylenetetrazol (scMet) tests, and prevented seizures in the visually and electrically evoked after-discharge (EEAD) tests for antiepileptic activity." ([DailyMed: Lamotrigine Kit (lamotrigine) prescribing information, OWP Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=474fb321-575c-4b97-9dbe-080061652ee4), versión del 2026-10-12; consultado el 2026-11-19).
 
 El puntaje muy alto (0,9997) probablemente refleja la cercanía en la red del modelo con la neuralgia del trigémino, un síntoma de las lesiones del nervio trigémino, y no un mecanismo antineoplásico. Este mecanismo podría aliviar el dolor neuropático asociado a una neoplasia, pero no hay ninguna evidencia de efecto sobre la biología del tumor.
 
@@ -98,6 +98,19 @@ La predicción principal no cuenta con ensayos clínicos ni literatura que estud
 - Datos del mecanismo de acción que sustenten un vínculo con la biología tumoral
 - Información de advertencias y contraindicaciones del prospecto de ANMAT para completar el análisis de seguridad
 - Aclarar si el objetivo real es el control del dolor neuropático asociado, lo que correspondería evaluar como otra pregunta de investigación
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Lamotrigine Kit (lamotrigine) prescribing information, OWP Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=474fb321-575c-4b97-9dbe-080061652ee4) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -56,7 +56,7 @@ con **0 ensayos clínicos** y **1 publicación** (indirectamente relacionada) qu
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información farmacológica general, carisoprodol es un relajante muscular de acción central. Su metabolito activo, el meprobamato, tiene efectos sedantes y ansiolíticos de tipo barbitúrico, y el propio carisoprodol modula los receptores GABA-A. Esto es una inferencia a partir de farmacología general y no proviene de los datos proporcionados.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Carisoprodol (traducción no oficial): «No se ha identificado con claridad el mecanismo de acción del carisoprodol para aliviar las molestias asociadas a afecciones musculoesqueléticas agudas dolorosas. En estudios en animales, la relajación muscular inducida por el carisoprodol se asocia a una alteración de la actividad interneuronal en la médula espinal y en la formación reticular descendente del encéfalo.» Texto original en inglés: "The mechanism of action of carisoprodol in relieving discomfort associated with acute painful musculoskeletal conditions has not been clearly identified. In animal studies, muscle relaxation induced by carisoprodol is associated with altered interneuronal activity in the spinal cord and in the descending reticular formation of the brain." ([DailyMed: Carisoprodol Tablets, Usp, 350 Mg (carisoprodol) prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1f08f4af-37c2-49b5-a4e3-284414f866fa), versión del 2026-11-03; consultado el 2026-11-19). Según la información farmacológica general, carisoprodol es un relajante muscular de acción central. Su metabolito activo, el meprobamato, tiene efectos sedantes y ansiolíticos de tipo barbitúrico, y el propio carisoprodol modula los receptores GABA-A. Esto es una inferencia a partir de farmacología general y no proviene de los datos proporcionados.
 
 Esa actividad sedante ofrece una justificación biológica plausible para promover el sueño. Además, los calambres musculares nocturnos pueden alterar el sueño, lo que conecta de forma indirecta el uso como relajante muscular con el insomnio.
 
@@ -108,6 +108,19 @@ La predicción se basa únicamente en el modelo (L5), sin ensayos clínicos y co
 - Búsqueda de estudios clínicos y literatura específicos sobre carisoprodol o meprobamato en insomnio
 - Evaluación del riesgo de abuso y dependencia frente a alternativas existentes para el insomnio
 - Análisis de compatibilidad de vía de administración y similitud con la indicación original
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Carisoprodol Tablets, Usp, 350 Mg (carisoprodol) prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1f08f4af-37c2-49b5-a4e3-284414f866fa) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

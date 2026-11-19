@@ -56,7 +56,7 @@ El modelo TxGNN predice que podría ser efectivo para **acné (acne (disease))**
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, el miconazol es un imidazol antifúngico que inhibe la síntesis de ergosterol fúngico (enzima CYP51/lanosterol 14-alfa-desmetilasa) y presenta cierta actividad antibacteriana frente a bacterias Gram positivas.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Miconazol (traducción no oficial): «El miconazol es un fármaco antifúngico. […] El miconazol inhibe la enzima citocromo P450 14α-desmetilasa, lo que conduce a la inhibición de la síntesis de ergosterol, un componente esencial de la membrana celular fúngica. El miconazol también afecta la síntesis de triglicéridos y ácidos grasos e inhibe las enzimas oxidativas y peroxidativas, lo que aumenta la cantidad de especies reactivas de oxígeno dentro de la célula.» Texto original en inglés: "Miconazole is an antifungal drug. […] Miconazole inhibits the enzyme cytochrome P450 14α-demethylase which leads to inhibition of ergosterol synthesis, an essential component of the fungal cell membrane. Miconazole also affects the synthesis of triglycerides and fatty acids and inhibits oxidative and peroxidative enzymes, increasing the amount of reactive oxygen species within the cell." ([DailyMed: Oravig (miconazole) prescribing information, Galt Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dc2427ff-e566-4b48-b289-9e51c011250a), versión del 2026-01-08; consultado el 2026-11-19). Según la información conocida, el miconazol es un imidazol antifúngico que inhibe la síntesis de ergosterol fúngico (enzima CYP51/lanosterol 14-alfa-desmetilasa) y presenta cierta actividad antibacteriana frente a bacterias Gram positivas.
 
 El vínculo con el acné es plausible por tres vías: (1) actividad in vitro de antifúngicos azólicos contra *Cutibacterium (Propionibacterium) acnes*; (2) actividad frente a *Malassezia* (*Pityrosporum*), levadura implicada en la foliculitis por Malassezia, que clínicamente se parece al acné; y (3) efectos antiinflamatorios descritos en trastornos cutáneos.
 
@@ -103,6 +103,19 @@ La predicción se apoya solo en el puntaje del modelo y en literatura indirecta 
 - Datos curados del mecanismo de acción
 - Advertencias y contraindicaciones del prospecto de ANMAT
 - Evaluación de la compatibilidad de las vías y formas farmacéuticas con el uso en acné
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Oravig (miconazole) prescribing information, Galt Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dc2427ff-e566-4b48-b289-9e51c011250a) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -56,7 +56,7 @@ pero hasta ahora no hay ensayos clínicos registrados y la literatura disponible
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la farmacología general, la oximetazolina es un agonista adrenérgico tópico (alfa-1 y alfa-2 parcial) que provoca vasoconstricción de los vasos de la mucosa nasal. Esto reduce la hinchazón y la congestión y mejora la permeabilidad nasal. Los datos de farmacología compilados muestran además afinidad por receptores adrenérgicos alfa-1 (A, B, D) y alfa-2 (A, B, C), y por receptores serotoninérgicos 5-HT1B, 5-HT1D y 5-HT2C.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Oxymetazoline (traducción no oficial): «La oximetazolina es un agonista de los adrenorreceptores alfa 1A. La oximetazolina actúa como vasoconstrictor.» Texto original en inglés: "Oxymetazoline is an alpha 1A adrenoceptor agonist. Oxymetazoline acts as a vasoconstrictor." ([DailyMed: Rhofade (oxymetazoline hydrochloride) prescribing information, Mayne Pharma](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34298db6-647d-480d-88a8-dc53258a5164), versión del 2026-07-13; consultado el 2026-11-19). Según la farmacología general, la oximetazolina es un agonista adrenérgico tópico (alfa-1 y alfa-2 parcial) que provoca vasoconstricción de los vasos de la mucosa nasal. Esto reduce la hinchazón y la congestión y mejora la permeabilidad nasal. Los datos de farmacología compilados muestran además afinidad por receptores adrenérgicos alfa-1 (A, B, D) y alfa-2 (A, B, C), y por receptores serotoninérgicos 5-HT1B, 5-HT1D y 5-HT2C.
 
 Este mecanismo es plausible para afecciones de la cavidad nasal con congestión vascular o edema, como la rinitis aguda o la sinusitis. Sin embargo, el puntaje muy alto (0,9996) probablemente refleja la cercanía con usos ya conocidos del fármaco más que una señal novedosa.
 
@@ -102,6 +102,19 @@ La predicción se apoya solo en el modelo: no hay ensayos clínicos y ningún es
 - Datos oficiales del mecanismo de acción
 - Advertencias y contraindicaciones del prospecto de ANMAT
 - Límites de seguridad respecto a IMAO, enfermedad cardiovascular y glaucoma de ángulo cerrado, y sobre la duración del uso
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Rhofade (oxymetazoline hydrochloride) prescribing information, Mayne Pharma](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34298db6-647d-480d-88a8-dc53258a5164) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

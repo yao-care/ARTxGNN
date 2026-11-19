@@ -56,7 +56,7 @@ El modelo TxGNN predice que podría ser efectiva para **Trastorno obsesivo-compu
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Desvenlafaxina es un IRSN y el metabolito activo de la venlafaxina. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la inhibición de la recaptación de serotonina es la base farmacológica del tratamiento del trastorno obsesivo-compulsivo (ISRS, clomipramina), por lo que existe una plausibilidad a nivel de clase.
+Desvenlafaxina es un IRSN y el metabolito activo de la venlafaxina. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Desvenlafaxina (traducción no oficial): «Se desconoce el mecanismo exacto de la acción antidepresiva de la desvenlafaxina, pero se cree que está relacionado con la potenciación de la serotonina y la norepinefrina en el sistema nervioso central mediante la inhibición de su recaptación. Los estudios no clínicos han demostrado que la desvenlafaxina es un IRSN potente y selectivo.» Texto original en inglés: "The exact mechanism of the antidepressant action of desvenlafaxine is unknown, but is thought to be related to the potentiation of serotonin and norepinephrine in the central nervous system, through inhibition of their reuptake. Non-clinical studies have shown that desvenlafaxine is a potent and selective SNRI." ([DailyMed: Pristiq Extended-Release (desvenlafaxine succinate) prescribing information, Wyeth Pharmaceuticals LLC, a subsidiary of Pfizer Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f43610c-f290-46ea-d186-4f998ed99fce), versión del 2026-04-28; consultado el 2026-11-19). Según la información conocida, la inhibición de la recaptación de serotonina es la base farmacológica del tratamiento del trastorno obsesivo-compulsivo (ISRS, clomipramina), por lo que existe una plausibilidad a nivel de clase.
 
 La venlafaxina, fármaco emparentado, tiene algunos datos de apoyo en este trastorno, pero para la desvenlafaxina no hay evidencia directa. El puntaje alto (0,9991) refleja la cercanía en la red del modelo con otros agentes serotoninérgicos y no constituye evidencia clínica.
 
@@ -100,6 +100,19 @@ No hay ningún estudio que evalúe directamente la desvenlafaxina en el trastorn
 - Revisión sistemática de la evidencia con venlafaxina y otros IRSN en trastorno obsesivo-compulsivo
 - Ensayos clínicos o estudios que evalúen directamente la desvenlafaxina en esta enfermedad
 - Información de seguridad del prospecto aprobado por ANMAT (advertencias y contraindicaciones)
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Pristiq Extended-Release (desvenlafaxine succinate) prescribing information, Wyeth Pharmaceuticals LLC, a subsidiary of Pfizer Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f43610c-f290-46ea-d186-4f998ed99fce) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

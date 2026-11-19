@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **colobomatous microphthal
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Por su clase, piroxicam es un AINE que inhibe las enzimas COX y reduce la síntesis de prostaglandinas, con efecto antiinflamatorio y analgésico.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Piroxicam (traducción no oficial): «El piroxicam tiene propiedades analgésicas, antiinflamatorias y antipiréticas. El mecanismo de acción de Piroxicam Cápsulas, al igual que el de otros AINE, no se comprende por completo, pero implica la inhibición de la ciclooxigenasa (COX-1 y COX-2).» Texto original en inglés: "Piroxicam has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of Piroxicam Capsules, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: piroxicam prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41425352-2a59-43ef-bccc-f8cc69e72be4), versión del 2026-09-29; consultado el 2026-11-19). Por su clase, piroxicam es un AINE que inhibe las enzimas COX y reduce la síntesis de prostaglandinas, con efecto antiinflamatorio y analgésico.
 
 No se identificó un vínculo mecanístico entre este mecanismo y la enfermedad predicha. Se trata de un trastorno raro del desarrollo, de origen genético, que afecta el ojo y el esqueleto; la inhibición de la COX no tiene una relevancia establecida sobre su patología subyacente.
 
@@ -98,6 +98,19 @@ La predicción carece de ensayos clínicos, literatura y vínculo mecanístico p
 - Datos del mecanismo de acción y una hipótesis biológica que conecte la inhibición de la COX con esta enfermedad
 - Estudios preclínicos o series de casos que apoyen la dirección propuesta
 - Revisión del prospecto de ANMAT para completar la información de advertencias y contraindicaciones
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: piroxicam prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41425352-2a59-43ef-bccc-f8cc69e72be4) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

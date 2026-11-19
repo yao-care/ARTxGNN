@@ -57,7 +57,7 @@ Actualmente hay **0 ensayos clínicos** y **9 publicaciones** relacionadas; ning
 
 ## ¿Por qué es razonable esta predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, la medroxiprogesterona (acetato de medroxiprogesterona, MPA) es un progestágeno sintético que actúa sobre los receptores de progesterona y suprime las gonadotrofinas, lo que reduce la producción ovárica de estrógenos.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Medroxiprogesterona (traducción no oficial): «Depo-Provera CI (acetato de medroxiprogesterona [MPA]) inhibe la secreción de gonadotropinas, lo que principalmente impide la maduración folicular y la ovulación y causa el espesamiento del moco cervical. Estas acciones contribuyen a su efecto anticonceptivo.» Texto original en inglés: "Depo-Provera CI (medroxyprogesterone acetate [MPA]) inhibits the secretion of gonadotropins which primarily prevents follicular maturation and ovulation and causes thickening of cervical mucus. These actions contribute to its contraceptive effect." ([DailyMed: Depo-Provera (medroxyprogesterone acetate) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=199cf13e-0859-4a73-9b45-e700d0cd1049), versión del 2026-08-25; consultado el 2026-11-19). Según la información conocida, la medroxiprogesterona (acetato de medroxiprogesterona, MPA) es un progestágeno sintético que actúa sobre los receptores de progesterona y suprime las gonadotrofinas, lo que reduce la producción ovárica de estrógenos.
 
 La fisiopatología de la enfermedad fibroquística de la mama se describe en la literatura como un predominio estrogénico con deficiencia relativa de progesterona, que favorece la proliferación del tejido conectivo y del epitelio. Por ello, un progestágeno podría, en teoría, contrarrestar esa proliferación dependiente de estrógenos.
 
@@ -106,6 +106,19 @@ No hay ensayos clínicos registrados y la literatura sobre la enfermedad fibroqu
 - Completar los datos del mecanismo de acción.
 - Evaluar la seguridad mamaria de los progestágenos en esta población, dada la evidencia contradictoria sobre proliferación epitelial y densidad mamográfica.
 - Considerar un estudio clínico controlado si la revisión de la literatura lo respalda.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Depo-Provera (medroxyprogesterone acetate) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=199cf13e-0859-4a73-9b45-e700d0cd1049) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

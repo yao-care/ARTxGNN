@@ -56,7 +56,7 @@ El modelo TxGNN predice que podría ser útil para **enfermedad de la cavidad na
 
 ## Por qué es Razonable esta Predicción
 
-Clorfeniramina es un antagonista de los receptores H1 de histamina de primera generación. La histamina provoca vasodilatación nasal, aumento de la permeabilidad vascular, edema de la mucosa, secreción glandular y estornudos. Por ello, el bloqueo H1 podría aliviar síntomas como rinorrea, estornudos y picazón. No se dispone de datos detallados del mecanismo de acción en los datos compilados para este informe; la descripción anterior corresponde a la farmacología conocida de la clase.
+Clorfeniramina es un antagonista de los receptores H1 de histamina de primera generación. La histamina provoca vasodilatación nasal, aumento de la permeabilidad vascular, edema de la mucosa, secreción glandular y estornudos. Por ello, el bloqueo H1 podría aliviar síntomas como rinorrea, estornudos y picazón. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para codeine phosphate and chlorpheniramine maleate (combinación que contiene Clorfeniramina) (traducción no oficial): «Clorfeniramina La clorfeniramina es un antihistamínico (antagonista del receptor H 1) derivado de la propilamina, de la clase de las alquilaminas, que también posee actividad anticolinérgica y sedante.» Texto original en inglés: "Chlorpheniramine Chlorpheniramine is a propylamine derivative antihistamine (H 1 -receptor antagonist) of the alkylamine class that also possesses anticholinergic and sedative activity." ([DailyMed: Tuxarin (codeine phosphate and chlorpheniramine maleate) prescribing information, Mainpointe Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a7cfab67-6087-4ab4-b7cd-4f9295413180), versión del 2024-01-10; consultado el 2026-11-19).
 
 La literatura recuperada se refiere a modelos animales (perro, rata, gato) de rinitis alérgica y congestión nasal, donde los antihistamínicos H1 se usaron como herramientas farmacológicas, y a un estudio fisiológico sobre secreciones nasales inducidas por histamina. Un estudio en gato (PMID 10582118) sugiere que la descongestión nasal requeriría bloqueo combinado H1 y H3, por lo que el bloqueo H1 por sí solo podría aliviar solo parcialmente la congestión.
 
@@ -107,6 +107,19 @@ La predicción se apoya únicamente en modelos animales y estudios fisiológicos
 - Completar los datos del mecanismo de acción
 - Buscar estudios clínicos en humanos que evalúen directamente clorfeniramina en enfermedades de la cavidad nasal
 - Aclarar si la predicción representa una nueva indicación o un uso ya establecido
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tuxarin (codeine phosphate and chlorpheniramine maleate) prescribing information, Mainpointe Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a7cfab67-6087-4ab4-b7cd-4f9295413180) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

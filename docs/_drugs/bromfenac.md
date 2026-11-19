@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **enfermedad ocular** (cat
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base consultada. Según la información conocida, el bromfenaco es un AINE tópico que inhibe la ciclooxigenasa (COX-1/COX-2) y reduce la síntesis de prostaglandina E2, un mediador clave de la inflamación ocular.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Bromfenac (traducción no oficial): «El bromfenaco es un antiinflamatorio no esteroideo (AINE) con actividad antiinflamatoria. Se cree que su mecanismo de acción se debe a su capacidad para bloquear la síntesis de prostaglandinas mediante la inhibición de la ciclooxigenasa (COX) 1 y 2.» Texto original en inglés: "Bromfenac is a nonsteroidal anti-inflammatory drug (NSAID) that has anti-inflammatory activity. The mechanism of its action is thought to be due to its ability to block prostaglandin synthesis by inhibiting cyclooxygenase (COX) 1 and 2." ([DailyMed: Bromfenac Ophthalmic Solution, 0.07% (bromfenac sodium) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4246c669-3c2a-2a2b-3b1c-696deb4ab519), versión del 2026-06-15; consultado el 2026-11-19). Según la información conocida, el bromfenaco es un AINE tópico que inhibe la ciclooxigenasa (COX-1/COX-2) y reduce la síntesis de prostaglandina E2, un mediador clave de la inflamación ocular.
 
 La etiqueta "enfermedad ocular" es muy amplia y abarca sobre todo usos oftálmicos ya establecidos: inflamación y dolor tras cirugía de cataratas y edema macular cistoide. Las subindicaciones más claramente relevantes para el reposicionamiento son el **ojo seco** (ensayo de Fase 3 NCT01212471, n=840) y las **maculopatías impulsadas por VEGF** (ensayo de Fase 2 NCT00805233 y un metaanálisis de 2024). Como el campo de indicaciones originales está vacío, no es posible confirmar cuáles de estos usos ya figuran en la etiqueta local.
 
@@ -137,6 +137,19 @@ Existen múltiples ensayos de Fase 3 completados con bromfenaco oftálmico, incl
 - Verificar los resultados de eficacia del ensayo de Fase 3 en ojo seco (NCT01212471), ya que no es una indicación estándar en la etiqueta.
 - Definir una subindicación específica (por ejemplo, ojo seco o maculopatías con anti-VEGF) en lugar de la categoría general.
 - Establecer un plan de monitoreo de seguridad corneal, especialmente en superficies oculares comprometidas.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Bromfenac Ophthalmic Solution, 0.07% (bromfenac sodium) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4246c669-3c2a-2a2b-3b1c-696deb4ab519) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

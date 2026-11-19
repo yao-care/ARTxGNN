@@ -57,7 +57,7 @@ Hasta ahora no hay ensayos clínicos que lo respalden. Solo hay **3 publicacione
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone de datos formales sobre el mecanismo de acción en la base consultada. La caracterización farmacológica disponible indica que rotigotina es un agonista dopaminérgico de amplio espectro (receptores D1 a D5, con actividad destacada sobre D3, D2 y D1). Además, tiene agonismo sobre el receptor 5-HT1A y antagonismo sobre el adrenoceptor alfa-2B.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Rotigotina (traducción no oficial): «La rotigotina es un agonista dopaminérgico no ergolínico. Se desconoce el mecanismo de acción preciso de la rotigotina como tratamiento de la enfermedad de Parkinson, aunque se cree que está relacionado con su capacidad de estimular los receptores de dopamina en el caudado-putamen del cerebro.» Texto original en inglés: "Rotigotine is a non-ergoline dopamine agonist. The precise mechanism of action of rotigotine as a treatment for Parkinson's disease is unknown, although it is thought to be related to its ability to stimulate dopamine receptors within the caudate-putamen in the brain." ([DailyMed: Neupro (rotigotine) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=939e28c5-f3a9-42c0-9a2d-8d471d82a6e0), versión del 2026-11-11; consultado el 2026-11-19). La caracterización farmacológica disponible indica que rotigotina es un agonista dopaminérgico de amplio espectro (receptores D1 a D5, con actividad destacada sobre D3, D2 y D1). Además, tiene agonismo sobre el receptor 5-HT1A y antagonismo sobre el adrenoceptor alfa-2B.
 
 La modulación dopaminérgica y noradrenérgica es biológicamente relevante en el TDAH. Un estudio preclínico señala que variantes del receptor D4 de dopamina y el adrenoceptor α2A se asocian con este trastorno. Sin embargo, ese trabajo analiza biología de receptores y no evalúa rotigotina en pacientes con TDAH.
 
@@ -102,6 +102,19 @@ No hay ensayos clínicos ni estudios que evalúen directamente rotigotina en TDA
 - Revisión del prospecto aprobado en ANMAT para obtener advertencias y contraindicaciones, hoy sin datos.
 - Búsqueda sistemática de estudios preclínicos o clínicos de agonistas dopaminérgicos en TDAH.
 - Evaluación de la compatibilidad de la vía transdérmica y del perfil de seguridad en poblaciones pediátricas antes de considerar un estudio exploratorio.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Neupro (rotigotine) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=939e28c5-f3a9-42c0-9a2d-8d471d82a6e0) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

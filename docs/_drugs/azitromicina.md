@@ -56,7 +56,7 @@ El modelo TxGNN predice que podría ser efectivo para **síndrome de hiperviscos
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción de la azitromicina en los datos compilados para este informe. Según la información general conocida, es un antibiótico macrólido con propiedades inmunomoduladoras.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Azitromicina (traducción no oficial): «La azitromicina es un fármaco antibacteriano macrólido. […] La azitromicina actúa uniéndose al ARNr 23S de la subunidad ribosómica 50S de los microorganismos sensibles, lo que inhibe la síntesis de proteínas bacterianas e impide el ensamblaje de la subunidad ribosómica 50S.» Texto original en inglés: "Azithromycin is a macrolide antibacterial drug. […] Azithromycin acts by binding to the 23S rRNA of the 50S ribosomal subunit of susceptible microorganisms inhibiting bacterial protein synthesis and impeding the assembly of the 50S ribosomal subunit." ([DailyMed: Zithromax (azithromycin dihydrate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d24bacb-feff-4c6a-b8df-625e1435387a), versión del 2026-09-09; consultado el 2026-11-19). Según la información general conocida, es un antibiótico macrólido con propiedades inmunomoduladoras.
 
 No se identificó una relación biológica clara entre la azitromicina y la hiperviscosidad sérica. El puntaje alto del modelo TxGNN refleja una predicción basada en redes de relaciones, sin respaldo clínico ni bibliográfico.
 
@@ -97,6 +97,19 @@ La predicción no cuenta con ensayos clínicos ni literatura que estudien direct
 - Datos del mecanismo de acción y una hipótesis mecanística plausible
 - Revisión sistemática de la literatura y estudios preclínicos que respalden la relación
 - Información de seguridad del prospecto de ANMAT (advertencias y contraindicaciones)
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Zithromax (azithromycin dihydrate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d24bacb-feff-4c6a-b8df-625e1435387a) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

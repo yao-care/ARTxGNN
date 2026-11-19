@@ -54,7 +54,7 @@ La insulina humana es una hormona de reemplazo utilizada en el control de la glu
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Por conocimiento general, la insulina humana actúa sobre el receptor de insulina promoviendo la captación de glucosa y el almacenamiento de energía en los tejidos.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Insulin Human (traducción no oficial): «La regulación del metabolismo de la glucosa es la actividad principal de las insulinas, incluida HUMULIN R U-500. Las insulinas reducen la glucosa en sangre al estimular la captación periférica de glucosa por el músculo esquelético y el tejido adiposo, y al inhibir la producción hepática de glucosa.» Texto original en inglés: "Regulation of glucose metabolism is the primary activity of insulins, including HUMULIN R U-500. Insulins lower blood glucose by stimulating peripheral glucose uptake by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Humulin R U-500 Kwikpen (insulin human) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b60e8dd0-1d48-4dc9-87fd-e14675255e8c), versión del 2026-07-01; consultado el 2026-11-19). Por conocimiento general, la insulina humana actúa sobre el receptor de insulina promoviendo la captación de glucosa y el almacenamiento de energía en los tejidos.
 
 No se establece un vínculo mecanístico directo con la ooforitis autoinmune. El puntaje alto probablemente refleja la cercanía en la red de relaciones entre enfermedades autoinmunes y endocrinas (por ejemplo, asociaciones poliendocrinas autoinmunes compartidas con la diabetes tipo 1). La insulina no actúa sobre el proceso autoinmune en el tejido ovárico, por lo que cualquier justificación sería especulativa.
 
@@ -95,6 +95,19 @@ La predicción no cuenta con ensayos clínicos ni literatura que estudien direct
 - Revisión sistemática de la literatura sobre insulina y ooforitis autoinmune
 - Datos del mecanismo de acción y de advertencias/contraindicaciones del prospecto de ANMAT
 - Evaluación de la vía de administración (compatibilidad de rutas) para el tejido ovárico
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Humulin R U-500 Kwikpen (insulin human) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b60e8dd0-1d48-4dc9-87fd-e14675255e8c) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

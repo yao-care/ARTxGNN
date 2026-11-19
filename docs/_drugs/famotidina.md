@@ -56,7 +56,7 @@ El modelo TxGNN predice que podría ser útil para **obstrucción duodenal (duod
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Famotidina bloquea los receptores H2 de histamina y con ello disminuye la secreción de ácido gástrico. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe; la descripción anterior corresponde a la información farmacológica general de la clase.
+Famotidina bloquea los receptores H2 de histamina y con ello disminuye la secreción de ácido gástrico. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Famotidina (traducción no oficial): «La famotidina es un inhibidor competitivo de los receptores de histamina-2 (H2). La principal actividad farmacológica clínicamente importante de la famotidina es la inhibición de la secreción gástrica. La famotidina suprime tanto la concentración de ácido como el volumen de la secreción gástrica, mientras que los cambios en la secreción de pepsina son proporcionales al volumen secretado.» Texto original en inglés: "Famotidine is a competitive inhibitor of histamine-2 (H2) receptors. The primary clinically important pharmacologic activity of famotidine is inhibition of gastric secretion. Both the acid concentration and volume of gastric secretion are suppressed by famotidine, while changes in pepsin secretion are proportional to volume output." ([DailyMed: Pepcid (famotidine) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a06502d9-7903-4f37-833e-e5763d502def), versión del 2024-06-01; consultado el 2026-11-19).
 
 La supresión ácida podría ayudar a controlar la enfermedad ulcerosa péptica que en ocasiones provoca estenosis u obstrucción duodenal (por ejemplo, estenosis asociada a úlcera o úlcera marginal). Sin embargo, famotidina no alivia una obstrucción mecánica. El puntaje alto probablemente refleja la proximidad en la red de relaciones con la úlcera péptica y las enfermedades duodenales, más que un efecto terapéutico directo sobre la obstrucción.
 
@@ -103,6 +103,19 @@ La predicción no cuenta con ensayos clínicos ni con estudios que evalúen dire
 - Completar los datos del mecanismo de acción desde DrugBank
 - Buscar estudios que evalúen directamente famotidina u otros antisecretores en obstrucción duodenal de origen ulceroso
 - Definir si el posible beneficio sería solo sintomático o adyuvante frente al tratamiento endoscópico o quirúrgico
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Pepcid (famotidine) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a06502d9-7903-4f37-833e-e5763d502def) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

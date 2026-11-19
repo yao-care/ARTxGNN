@@ -55,7 +55,7 @@ Amoxicilina es un antibiótico betalactámico que actúa sobre bacterias. El mod
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por conocimiento general, la amoxicilina es un betalactámico que interfiere con la síntesis de la pared celular bacteriana.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Amoxicilina (traducción no oficial): «La amoxicilina es un fármaco antibacteriano. […] La amoxicilina es similar a la penicilina en su acción bactericida contra las bacterias sensibles durante la fase de multiplicación activa. Actúa mediante la inhibición de la biosíntesis de la pared celular, lo que provoca la muerte de las bacterias.» Texto original en inglés: "Amoxicillin is an antibacterial drug. […] Amoxicillin is similar to penicillin in its bactericidal action against susceptible bacteria during the stage of active multiplication. It acts through the inhibition of cell wall biosynthesis that leads to the death of the bacteria." ([DailyMed: amoxicillin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e9274c-c02e-44d9-8cc5-17536ef03a77), versión del 2026-11-13; consultado el 2026-11-19). Por conocimiento general, la amoxicilina es un betalactámico que interfiere con la síntesis de la pared celular bacteriana.
 
 La hiperamilasemia es un hallazgo de laboratorio (de origen pancreático o salival) y no una enfermedad infecciosa. No se identificó ningún mecanismo plausible que conecte la acción antibacteriana de la amoxicilina con la regulación de la amilasa.
 
@@ -96,6 +96,19 @@ La predicción no cuenta con ensayos clínicos ni literatura, carece de mecanism
 - Datos del mecanismo de acción de la amoxicilina
 - Información de seguridad del prospecto de ANMAT (advertencias y contraindicaciones)
 - Una hipótesis biológica que justifique la relación con la amilasa, antes de considerar cualquier estudio
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: amoxicillin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e9274c-c02e-44d9-8cc5-17536ef03a77) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

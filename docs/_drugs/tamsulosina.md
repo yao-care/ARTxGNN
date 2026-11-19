@@ -57,7 +57,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la tamsulosina bloquea selectivamente los receptores alfa-1A/1D adrenérgicos, y su uso se centra en afecciones urológicas.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Tamsulosina (traducción no oficial): «Los síntomas asociados a la hiperplasia prostática benigna (HPB) están relacionados con la obstrucción del tracto de salida vesical, que consta de dos componentes subyacentes: estático y dinámico. El componente estático está relacionado con un aumento del tamaño de la próstata causado, en parte, por una proliferación de células de músculo liso en el estroma prostático. […] La tamsulosina, un agente bloqueante de los adrenorreceptores alfa 1, presenta selectividad por los receptores alfa 1 de la próstata humana.» Texto original en inglés: "The symptoms associated with benign prostatic hyperplasia (BPH) are related to bladder outlet obstruction, which is comprised of two underlying components: static and dynamic. The static component is related to an increase in prostate size caused, in part, by a proliferation of smooth muscle cells in the prostatic stroma. […] Tamsulosin, an alpha 1 adrenoceptor blocking agent, exhibits selectivity for alpha 1 receptors in the human prostate." ([DailyMed: tamsulosin hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6b6aeab-bedd-4254-8811-4f65cf8a351f), versión del 2026-11-12; consultado el 2026-11-19). Según la información conocida, la tamsulosina bloquea selectivamente los receptores alfa-1A/1D adrenérgicos, y su uso se centra en afecciones urológicas.
 
 Desde el punto de vista mecanístico, no se identifica un vínculo plausible con esta enfermedad. La hipertricosis tipo Ambras es una condición congénita rara, asociada a reordenamientos cromosómicos que afectan la regulación de TRPS1. El bloqueo alfa-1 adrenérgico no actúa sobre esa vía.
 
@@ -98,6 +98,19 @@ La predicción carece de ensayos clínicos y de literatura que estudien directam
 - Datos del mecanismo de acción del fármaco
 - Texto de indicaciones y advertencias/contraindicaciones del prospecto de ANMAT
 - Evidencia preclínica o clínica que estudie directamente esta enfermedad antes de reconsiderar la decisión
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: tamsulosin hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6b6aeab-bedd-4254-8811-4f65cf8a351f) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

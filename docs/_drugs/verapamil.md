@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **bloqueo de rama obsoleto
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, el verapamilo bloquea los canales de calcio tipo L y enlentece la conducción en el nodo auriculoventricular.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Verapamil (traducción no oficial): «Angina: El mecanismo de acción preciso del clorhidrato de verapamilo como agente antianginoso aún no se ha determinado por completo, pero incluye los dos mecanismos siguientes: 1. Relajación y prevención del espasmo de las arterias coronarias: El clorhidrato de verapamilo dilata las arterias coronarias principales y las arteriolas coronarias, tanto en las regiones normales como en las isquémicas, y es un potente inhibidor del espasmo de las arterias coronarias, ya sea espontáneo o inducido por ergonovina.» Texto original en inglés: "Angina: The precise mechanism of action of verapamil hydrochloride as an antianginal agent remains to be fully determined, but includes the following two mechanisms: 1. Relaxation and prevention of coronary artery spasm: Verapamil hydrochloride dilates the main coronary arteries and coronary arterioles, both in normal and ischemic regions, and is a potent inhibitor of coronary artery spasm, whether spontaneous or ergonovine-induced." ([DailyMed: verapamil hydrochloride prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c7a54ee0-80c0-4c7e-a6a3-cb60142f860c), versión del 2026-10-30; consultado el 2026-11-19). Según la información conocida, el verapamilo bloquea los canales de calcio tipo L y enlentece la conducción en el nodo auriculoventricular.
 
 El bloqueo de rama compromete la conducción infranodal (sistema His-Purkinje), donde el bloqueo de canales de calcio no se espera que ayude y podría empeorar los trastornos de conducción. El puntaje alto parece reflejar la cercanía en el modelo con indicaciones de arritmias, y no un efecto terapéutico plausible.
 
@@ -97,6 +97,19 @@ No existe ningún estudio que evalúe verapamilo en esta enfermedad, el término
 - Confirmar si el término de la enfermedad corresponde a un artefacto de la ontología o a una entidad clínica vigente
 - Datos del mecanismo de acción y del prospecto aprobado en Argentina (advertencias y contraindicaciones)
 - Evidencia preclínica o clínica que estudie directamente esta enfermedad antes de reconsiderar la decisión
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: verapamil hydrochloride prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c7a54ee0-80c0-4c7e-a6a3-cb60142f860c) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

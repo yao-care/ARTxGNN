@@ -56,7 +56,7 @@ pero hasta ahora no hay ensayos clínicos registrados y las **13 publicaciones**
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, la eplerenona bloquea de forma selectiva el receptor de mineralocorticoides (MR), que normalmente se activa por la aldosterona y también, en ciertos contextos, por glucocorticoides.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Eplerenone (traducción no oficial): «La eplerenona se une al receptor de mineralocorticoides y bloquea la unión de la aldosterona, un componente del sistema renina-angiotensina-aldosterona (SRAA). La síntesis de aldosterona, que tiene lugar principalmente en la glándula suprarrenal, está modulada por múltiples factores, entre ellos la angiotensina II y mediadores ajenos al SRAA, como la hormona adrenocorticotropa (ACTH) y el potasio.» Texto original en inglés: "Eplerenone binds to the mineralocorticoid receptor and blocks the binding of aldosterone, a component of the renin-angiotensin-aldosterone-system (RAAS). Aldosterone synthesis, which occurs primarily in the adrenal gland, is modulated by multiple factors, including angiotensin II and non-RAAS mediators such as adrenocorticotropic hormone (ACTH) and potassium." ([DailyMed: Inspra (eplerenone) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a52bedc-8e2c-4116-a296-a87770676b4a), versión del 2025-06-23; consultado el 2026-11-19). Según la información conocida, la eplerenona bloquea de forma selectiva el receptor de mineralocorticoides (MR), que normalmente se activa por la aldosterona y también, en ciertos contextos, por glucocorticoides.
 
 Los datos preclínicos muestran que la hipoxia intermitente crónica activa el MR y favorece fibrosis renal y remodelado auricular en roedores, efectos que la eplerenona atenúa. Otros trabajos experimentales indican que la hipoxia aumenta la síntesis de aldosterona en células endoteliales de la arteria pulmonar y que esto promueve fibrosis y remodelado vascular pulmonar. Un estudio clínico pequeño en pacientes con apnea obstructiva del sueño e hipertensión resistente exploró el efecto de la eplerenona sobre la gravedad de la apnea y la rigidez arterial.
 
@@ -111,6 +111,19 @@ Ningún estudio citado evalúa directamente la hipertensión pulmonar por enferm
 - Datos de mecanismo de acción detallados
 - Revisión de advertencias y contraindicaciones del prospecto de ANMAT, en especial riesgo de hiperpotasemia y función renal
 - Plan de manejo de las interacciones farmacológicas relevantes
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Inspra (eplerenone) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a52bedc-8e2c-4116-a296-a87770676b4a) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

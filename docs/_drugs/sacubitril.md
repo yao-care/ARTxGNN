@@ -54,7 +54,7 @@ Sacubitril es un inhibidor de la neprilisina que se comercializa en Argentina ba
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, sacubitril inhibe la neprilisina, con lo que aumentan los péptidos natriuréticos, y se utiliza junto con un bloqueador del receptor de angiotensina (valsartán). Esto podría influir teóricamente en el tono vascular y la presión arterial.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para sacubitril and valsartan (combinación que contiene Sacubitril) (traducción no oficial): «Sacubitrilo y valsartán contiene un inhibidor de la neprilisina, el sacubitrilo, y un antagonista del receptor de angiotensina, el valsartán. Sacubitrilo y valsartán inhibe la neprilisina (endopeptidasa neutra; NEP) a través de LBQ657, el metabolito activo del profármaco sacubitrilo, y bloquea el receptor de angiotensina II de tipo 1 (AT 1 ) a través del valsartán.» Texto original en inglés: "Sacubitril and valsartan contains a neprilysin inhibitor, sacubitril, and an angiotensin receptor blocker, valsartan. Sacubitril and valsartan inhibits neprilysin (neutral endopeptidase; NEP) via LBQ657, the active metabolite of the prodrug sacubitril, and blocks the angiotensin II type-1 (AT 1 ) receptor via valsartan." ([DailyMed: sacubitril and valsartan prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44db8114-622e-41f6-96a1-447d47b0267c), versión del 2026-10-30; consultado el 2026-11-19). Según la información conocida, sacubitril inhibe la neprilisina, con lo que aumentan los péptidos natriuréticos, y se utiliza junto con un bloqueador del receptor de angiotensina (valsartán). Esto podría influir teóricamente en el tono vascular y la presión arterial.
 
 La enfermedad predicha es un trastorno monogénico raro, relacionado con COL4A1, que afecta la integridad de la membrana basal de los vasos pequeños. No existe evidencia de que sacubitril modifique esta vasculopatía. La única publicación vinculada estudia la insuficiencia ventricular derecha sistémica, no la enfermedad cerebral de vasos pequeños.
 
@@ -99,6 +99,19 @@ La predicción no cuenta con ensayos clínicos ni estudios que evalúen directam
 - Datos del mecanismo de acción y estudios preclínicos que evalúen sacubitril en modelos de vasculopatía relacionada con COL4A1
 - Revisión de advertencias y contraindicaciones del prospecto de ANMAT
 - Evidencia clínica o de series de casos directamente en esta enfermedad
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: sacubitril and valsartan prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44db8114-622e-41f6-96a1-447d47b0267c) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

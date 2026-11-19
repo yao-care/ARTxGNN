@@ -60,7 +60,7 @@ Actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta pre
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, celecoxib es un inhibidor selectivo de la COX-2 que reduce la inflamación y el dolor mediados por prostaglandinas. Su eficacia en enfermedades articulares inflamatorias está comprobada.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Celecoxib (traducción no oficial): «El celecoxib tiene propiedades analgésicas, antiinflamatorias y antipiréticas. Se cree que el mecanismo de acción del celecoxib se debe a la inhibición de la síntesis de prostaglandinas, principalmente mediante la inhibición de la COX-2. El celecoxib es un potente inhibidor de la síntesis de prostaglandinas in vitro.» Texto original en inglés: "Celecoxib has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of celecoxib is believed to be due to inhibition of prostaglandin synthesis, primarily via inhibition of COX-2. Celecoxib is a potent inhibitor of prostaglandin synthesis in vitro." ([DailyMed: Vyscoxa (celecoxib) prescribing information, Carwin Pharmaceutical Associates, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5094d47e-f791-4190-9397-b7500143a74d), versión del 2025-07-31; consultado el 2026-11-19). Según la información conocida, celecoxib es un inhibidor selectivo de la COX-2 que reduce la inflamación y el dolor mediados por prostaglandinas. Su eficacia en enfermedades articulares inflamatorias está comprobada.
 
 Sin embargo, el análisis mecanístico **no encuentra un vínculo claro** con la nueva indicación. La displasia acromesomélica tipo Hunter-Thompson es un trastorno esquelético raro causado por variantes de pérdida de función en *CDMP1/GDF5*, que alteran la señalización de un factor de crecimiento. La inhibición de la COX-2 no corrige ese defecto.
 
@@ -117,6 +117,19 @@ La predicción carece de ensayos clínicos, literatura y vínculo mecanístico p
 - Advertencias y contraindicaciones del prospecto de ANMAT.
 - Estudios preclínicos que muestren alguna relación entre la inhibición de la COX-2 y la señalización de GDF5/CDMP1.
 - Priorizar otras predicciones del análisis con mayor respaldo antes de invertir recursos en esta.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Vyscoxa (celecoxib) prescribing information, Carwin Pharmaceutical Associates, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5094d47e-f791-4190-9397-b7500143a74d) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

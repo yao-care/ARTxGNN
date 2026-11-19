@@ -59,7 +59,7 @@ La duloxetina es un antidepresivo de la clase de los inhibidores de la recaptaci
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción de la duloxetina en los datos compilados para este informe. Por su clase, se sabe que inhibe la recaptación de serotonina y noradrenalina.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Duloxetina (traducción no oficial): «Aunque se desconocen los mecanismos exactos de las acciones antidepresiva, inhibidora central del dolor y ansiolítica de la duloxetina en los seres humanos, se cree que estas acciones están relacionadas con su potenciación de la actividad serotoninérgica y noradrenérgica en el SNC.» Texto original en inglés: "Although the exact mechanisms of the antidepressant, central pain inhibitory and anxiolytic actions of duloxetine in humans are unknown, these actions are believed to be related to its potentiation of serotonergic and noradrenergic activity in the CNS." ([DailyMed: Duloxetine Delayed-Release (duloxetine hydrochloride) prescribing information, Golden State Medical Supply, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00628e5e-4c5b-2573-e063-6294a90a0e3b), versión del 2026-08-20; consultado el 2026-11-19). Por su clase, se sabe que inhibe la recaptación de serotonina y noradrenalina.
 
 La tortícolis paroxística benigna de la infancia es un trastorno pediátrico autolimitado. Suele asociarse a variantes del gen CACNA1A y se relaciona con el espectro de la migraña. No hay un mecanismo plausible establecido que vincule la inhibición de la recaptación de serotonina y noradrenalina con esta condición.
 
@@ -111,6 +111,19 @@ La predicción no cuenta con ensayos clínicos ni literatura que la respalden (n
 - Revisión de la literatura sobre la fisiopatología de la tortícolis paroxística benigna de la infancia y su posible relación con la serotonina o la noradrenalina.
 - Información de seguridad del prospecto (advertencias y contraindicaciones), con atención al uso pediátrico.
 - Estudios preclínicos o de mecanismo que justifiquen una hipótesis antes de plantear ensayos clínicos.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Duloxetine Delayed-Release (duloxetine hydrochloride) prescribing information, Golden State Medical Supply, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00628e5e-4c5b-2573-e063-6294a90a0e3b) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

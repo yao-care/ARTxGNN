@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **amenorrea**, pero no hay
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información general conocida, misoprostol es un análogo de la prostaglandina E1 que induce contracciones uterinas y maduración cervical, y mecanísticamente podría relacionarse con causas de amenorrea vinculadas al embarazo (aborto retenido, embarazo anembrionario, restos ovulares).
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para diclofenac sodium and misoprostol (combinación que contiene Misoprostol) (traducción no oficial): «Misoprostol El misoprostol es un análogo sintético de la PGE1 con propiedades antisecretoras gástricas y protectoras de la mucosa. El misoprostol puede aumentar la producción de bicarbonato y de moco, pero se ha demostrado que esto ocurre con dosis de 200 mcg y superiores, que también son antisecretoras.» Texto original en inglés: "Misoprostol Misoprostol is a synthetic PGE1 analog with gastric antisecretory and mucosal protective properties. Misoprostol can increase bicarbonate and mucus production, but it has been shown at doses 200 mcg and above that are also antisecretory." ([DailyMed: diclofenac sodium and misoprostol prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a7701e8c-4e16-4165-8b83-de2c08d5ded3), versión del 2026-08-31; consultado el 2026-11-19). Según la información general conocida, misoprostol es un análogo de la prostaglandina E1 que induce contracciones uterinas y maduración cervical, y mecanísticamente podría relacionarse con causas de amenorrea vinculadas al embarazo (aborto retenido, embarazo anembrionario, restos ovulares).
 
 Sin embargo, la relación es indirecta. Las publicaciones recuperadas describen el uso de misoprostol (con frecuencia combinado con mifepristona) para la interrupción médica del embarazo o el manejo del aborto retenido. En ellas la amenorrea aparece como criterio de inclusión (por ejemplo, embarazo de ≤35 días de amenorrea), no como la enfermedad tratada. Ningún estudio muestra que misoprostol restablezca la menstruación o trate la amenorrea primaria o secundaria.
 
@@ -109,6 +109,19 @@ No hay ensayos clínicos y la literatura recuperada trata sobre la interrupción
 - Definir si la indicación es clínicamente plausible, dado que el uso de un uterotónico en amenorrea requiere descartar embarazo y evaluar riesgos.
 
 **Nota sobre la segunda predicción (coartación atípica de la aorta, puntaje 0.9930):** no hay ensayos ni literatura (nivel L5) y no se identificó un vínculo mecanístico claro. La prostaglandina E1 (alprostadil) se usa para mantener permeable el conducto arterioso, pero misoprostol no se utiliza con ese fin. La coartación es una anomalía estructural que requiere reparación quirúrgica o intervencionista. Se recomienda mantener **Hold**.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: diclofenac sodium and misoprostol prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a7701e8c-4e16-4165-8b83-de2c08d5ded3) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

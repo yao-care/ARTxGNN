@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para el **linfoma cutáneo prim
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro del fármaco. Según la farmacología general, el clobetasol propionato es un corticosteroide tópico de potencia muy alta que actúa activando el receptor de glucocorticoides, con efectos antiinflamatorios e inmunosupresores. Estos efectos pueden además inducir apoptosis de linfocitos T, tanto malignos como reactivos, en la piel.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Clobetasol (traducción no oficial): «Al igual que otros corticosteroides tópicos, el propionato de clobetasol tiene propiedades antiinflamatorias, antipruriginosas y vasoconstrictoras. En general, el mecanismo de la actividad antiinflamatoria de los esteroides tópicos no está claro.» Texto original en inglés: "Like other topical corticosteroids, clobetasol propionate has anti-inflammatory, antipruritic, and vasoconstrictive properties. The mechanism of the anti-inflammatory activity of the topical steroids, in general, is unclear." ([DailyMed: Clobetasol Propionate (Emollient) (clobetasol propionate) prescribing information, The J. Molner Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26ccb1d8-c466-e238-e063-6394a90a0069), versión del 2026-11-10; consultado el 2026-11-19). Según la farmacología general, el clobetasol propionato es un corticosteroide tópico de potencia muy alta que actúa activando el receptor de glucocorticoides, con efectos antiinflamatorios e inmunosupresores. Estos efectos pueden además inducir apoptosis de linfocitos T, tanto malignos como reactivos, en la piel.
 
 En el linfoma cutáneo primario de células T, y en particular en la micosis fungoide (su variante más común), la carga de linfocitos T en la lesión es el blanco terapéutico. Por ello, reducirla en lesiones en parche o placa es mecanísticamente plausible. Esta explicación es una inferencia de farmacología general y no proviene del registro suministrado.
 
@@ -130,6 +130,19 @@ La literatura observacional (cohortes y series de casos) respalda el uso de clob
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Evaluar estudios comparativos o ECA en micosis fungoide temprana.
 - Definir un plan de monitoreo de efectos adversos cutáneos y de absorción sistémica con el uso prolongado.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Clobetasol Propionate (Emollient) (clobetasol propionate) prescribing information, The J. Molner Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26ccb1d8-c466-e238-e063-6394a90a0069) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -60,7 +60,7 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, sotalol es un antiarrítmico de clase III que además bloquea los receptores beta-adrenérgicos. Su eficacia en la fibrilación auricular está establecida y, en teoría, podría relacionarse con otras alteraciones del ritmo cardíaco.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Sotalol (traducción no oficial): «El sotalol tiene propiedades antiarrítmicas tanto de bloqueo de los receptores beta-adrenérgicos (clase II de Vaughan Williams) como de prolongación de la duración del potencial de acción cardíaco (clase III de Vaughan Williams). Los dos isómeros del sotalol tienen efectos antiarrítmicos de clase III similares, mientras que el isómero l es responsable de prácticamente toda la actividad betabloqueante.» Texto original en inglés: "Sotalol has both beta-adrenoreceptor blocking (Vaughan Williams Class II) and cardiac action potential duration prolongation (Vaughan Williams Class III) antiarrhythmic properties. The two isomers of sotalol have similar Class III antiarrhythmic effects, while the l-isomer is responsible for virtually all of the beta-blocking activity." ([DailyMed: Betapace (sotalol hydrochloride) prescribing information, Legacy Pharma USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6a7702f-36c9-45db-b640-453dc324baee), versión del 2024-12-16; consultado el 2026-11-19). Según la información conocida, sotalol es un antiarrítmico de clase III que además bloquea los receptores beta-adrenérgicos. Su eficacia en la fibrilación auricular está establecida y, en teoría, podría relacionarse con otras alteraciones del ritmo cardíaco.
 
 Sin embargo, la relación mecanística con el nuevo candidato es **débil y potencialmente desfavorable**. El síndrome del seno enfermo es una disfunción del nodo sinusal. Sotalol suprime la actividad del nodo sinusal y puede causar bradicardia, por lo que en esta enfermedad suele estar contraindicado si no hay marcapasos.
 
@@ -120,6 +120,19 @@ La predicción se apoya solo en el modelo (nivel L5), sin ensayos ni literatura.
 - Estudios preclínicos o clínicos que justifiquen un beneficio en esta enfermedad, algo poco probable dado el perfil farmacológico
 
 **Nota adicional:** entre las demás predicciones del modelo, "trastorno de accidente cerebrovascular" (puntaje 0.9944) tiene un ensayo de Fase 3 completado (NCT00007605, n=706) y literatura de apoyo. Esa evidencia trata del manejo de la fibrilación auricular, no de la prevención o el tratamiento del ACV como desenlace, y se superpone con la indicación original. Por lo tanto, no constituye una oportunidad de reposicionamiento diferenciada.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Betapace (sotalol hydrochloride) prescribing information, Legacy Pharma USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6a7702f-36c9-45db-b640-453dc324baee) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

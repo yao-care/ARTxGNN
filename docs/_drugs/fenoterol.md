@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **atrofia multisistémica*
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, fenoterol es un agonista de receptores beta-adrenérgicos (con actividad sobre ADRB1, ADRB2 y ADRB3, siendo su efecto principal sobre beta-2), utilizado como broncodilatador y para suprimir el trabajo de parto prematuro.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Fenoterol es (traducción no oficial): «Agonista de los receptores adrenérgicos beta-2» Texto original en inglés: "Beta-2 adrenergic receptor agonist" ([ChEMBL CHEMBL32800 (fenoterol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL32800), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, fenoterol es un agonista de receptores beta-adrenérgicos (con actividad sobre ADRB1, ADRB2 y ADRB3, siendo su efecto principal sobre beta-2), utilizado como broncodilatador y para suprimir el trabajo de parto prematuro.
 
 La relación con la atrofia multisistémica (AMS) es **especulativa**. La AMS cursa con falla autonómica e hipotensión ortostática neurogénica. La vasodilatación mediada por beta-2 y la taquicardia podrían alterar la hemodinamia, pero cabría esperar que la vasodilatación empeore la hipotensión ortostática. No se identifica un mecanismo modificador de la enfermedad.
 
@@ -126,6 +126,19 @@ La predicción para atrofia multisistémica se basa solo en el modelo (nivel L5)
 - Revisión de literatura y ensayos preclínicos que respalden algún vínculo con atrofia multisistémica.
 - Evaluar si otras candidatas (por ejemplo, glaucoma de ángulo abierto) tienen un fundamento más sólido antes de priorizar recursos.
 - Analizar la compatibilidad de vía de administración (actualmente las formas disponibles son solución y aerosol inhalatorio/nebulizable).
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL32800 (fenoterol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL32800) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

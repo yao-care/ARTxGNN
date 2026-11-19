@@ -55,7 +55,7 @@ Doxiciclina es un antibiótico de la familia de las tetraciclinas, comercializad
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la doxiciclina es una tetraciclina con actividad frente a *Chlamydia trachomatis*, y se le atribuyen además efectos antiinflamatorios y de inhibición de metaloproteinasas de matriz (MMP) en la superficie ocular.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Doxiciclina (traducción no oficial): «La doxiciclina inhibe la síntesis de proteínas bacterianas al unirse a la subunidad ribosómica 30S. La doxiciclina tiene actividad bacteriostática contra una amplia variedad de bacterias grampositivas y gramnegativas.» Texto original en inglés: "Doxycycline inhibits bacterial protein synthesis by binding to the 30S ribosomal subunit. Doxycycline has bacteriostatic activity against a broad range of Gram-positive and Gram-negative bacteria." ([DailyMed: Doxycyclate Hyclate (doxycycline hyclate) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4dc319c1-b7ef-40e4-9e66-fb24cfdefea8), versión del 2026-07-09; consultado el 2026-11-19). Según la información conocida, la doxiciclina es una tetraciclina con actividad frente a *Chlamydia trachomatis*, y se le atribuyen además efectos antiinflamatorios y de inhibición de metaloproteinasas de matriz (MMP) en la superficie ocular.
 
 La única publicación disponible describe dos casos de queratitis epitelial punteada persistente tras la resolución de una conjuntivitis folicular por clamidia, tratada inicialmente con tetraciclina o doxiciclina. Las lesiones reaparecieron después de que los folículos se resolvieron, lo que sugiere un componente inmunomediado que un antibiótico podría no abordar.
 
@@ -101,6 +101,19 @@ La predicción tiene un puntaje alto en TxGNN, pero solo cuenta con un reporte d
 - Datos del mecanismo de acción y de la plausibilidad inmunomediada en superficie ocular
 - Definir la vía de administración (sistémica u ocular) y evaluar su compatibilidad con las presentaciones disponibles en Argentina
 - Obtener la información de advertencias y contraindicaciones del prospecto de ANMAT para una evaluación de seguridad
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Doxycyclate Hyclate (doxycycline hyclate) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4dc319c1-b7ef-40e4-9e66-fb24cfdefea8) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

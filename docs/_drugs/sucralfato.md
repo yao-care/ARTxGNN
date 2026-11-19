@@ -57,7 +57,7 @@ y actualmente no hay ensayos clínicos registrados, pero sí **10 publicaciones*
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la farmacología general conocida, el sucralfato forma, en medio ácido, una barrera viscosa y adherente sobre la mucosa dañada. Además, se une a ácidos biliares y pepsina, y estimula la producción local de prostaglandinas y moco.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Sucralfato (traducción no oficial): «Aunque el mecanismo por el cual el sucralfato es capaz de acelerar la cicatrización de las úlceras duodenales aún no se ha definido por completo, se sabe que ejerce su efecto mediante una acción local, y no sistémica. Las siguientes observaciones también parecen pertinentes: 1.» Texto original en inglés: "Although the mechanism of sucralfate's ability to accelerate healing of duodenal ulcers remains to be fully defined, it is known that it exerts its effect through a local, rather than systemic, action. The following observations also appear pertinent: 1." ([DailyMed: Sucralfate Oral Suspension (sucralfate) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e595c2a-edd0-43f7-a2db-69553b9557d9), versión del 2026-01-06; consultado el 2026-11-19). Según la farmacología general conocida, el sucralfato forma, en medio ácido, una barrera viscosa y adherente sobre la mucosa dañada. Además, se une a ácidos biliares y pepsina, y estimula la producción local de prostaglandinas y moco.
 
 En el reflujo duodenogástrico, el contenido alcalino del duodeno (con bilis) vuelve al estómago y puede lesionar la mucosa, causando gastritis alcalina y, en ocasiones, esofagitis. La capacidad del sucralfato de proteger la mucosa y fijar sales biliares encaja de forma plausible con este daño, lo que es coherente con el puntaje elevado del modelo. Este mecanismo se infiere de la farmacología general y no de un registro de mecanismo de acción verificado.
 
@@ -105,6 +105,19 @@ Hay dos ensayos aleatorizados que evalúan el sucralfato en gastritis por refluj
 - Confirmar el mecanismo de acción con una fuente verificada.
 - Revisar con detalle los resultados de los ensayos aleatorizados y diseñar un estudio actualizado con criterios diagnósticos objetivos del reflujo (p. ej., bilimetría).
 - Considerar la precaución con productos que contienen aluminio en pacientes con vaciamiento gástrico alterado u obstrucción.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Sucralfate Oral Suspension (sucralfate) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e595c2a-edd0-43f7-a2db-69553b9557d9) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

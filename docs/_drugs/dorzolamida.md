@@ -56,7 +56,7 @@ El modelo TxGNN predice que podría ser efectivo para **hipotricosis simple del 
 
 ## ¿Por qué es razonable esta predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, dorzolamida inhibe la anhidrasa carbónica II y, al aplicarse en el ojo, reduce la producción de humor acuoso y con ello la presión intraocular.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Dorzolamida (traducción no oficial): «La anhidrasa carbónica (AC) es una enzima presente en muchos tejidos del organismo, incluido el ojo. Cataliza la reacción reversible que comprende la hidratación del dióxido de carbono y la deshidratación del ácido carbónico. […] La solución oftálmica de clorhidrato de dorzolamida contiene clorhidrato de dorzolamida, un inhibidor de la anhidrasa carbónica II humana.» Texto original en inglés: "Carbonic anhydrase (CA) is an enzyme found in many tissues of the body including the eye. It catalyzes the reversible reaction involving the hydration of carbon dioxide and the dehydration of carbonic acid. […] Dorzolamide hydrochloride ophthalmic solution contains dorzolamide hydrochloride, an inhibitor of human carbonic anhydrase II." ([DailyMed: Dorzolamide Hydrochloride Ophthalmic Solution (dorzolamide hydrochloride) prescribing information, Micro Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4698e4e1-c5f6-4db1-9328-74464a85afea), versión del 2026-11-14; consultado el 2026-11-19). Según la información conocida, dorzolamida inhibe la anhidrasa carbónica II y, al aplicarse en el ojo, reduce la producción de humor acuoso y con ello la presión intraocular.
 
 La hipotricosis simple es un trastorno genético de miniaturización del folículo piloso. No se identificó ninguna vía que conecte la inhibición de la anhidrasa carbónica con este trastorno, por lo que no existe un vínculo mecanístico creíble.
 
@@ -98,6 +98,19 @@ La predicción no cuenta con ensayos clínicos ni literatura que estudien direct
 - Estudios preclínicos que sugieran un vínculo entre la anhidrasa carbónica y la biología del folículo piloso
 - Información de seguridad del prospecto aprobado por ANMAT
 - Evaluación de compatibilidad de la vía de administración (colirio frente a aplicación en cuero cabelludo)
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Dorzolamide Hydrochloride Ophthalmic Solution (dorzolamide hydrochloride) prescribing information, Micro Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4698e4e1-c5f6-4db1-9328-74464a85afea) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

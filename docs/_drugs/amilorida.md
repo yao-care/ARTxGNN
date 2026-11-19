@@ -56,7 +56,7 @@ El modelo TxGNN predice que podría ser útil para la **enfermedad renal hiperte
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, la amilorida bloquea el canal epitelial de sodio (ENaC) en el riñón, lo que favorece la eliminación de sodio y agua y reduce la pérdida de potasio. Se usa como diurético y antihipertensivo.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Amilorida (traducción no oficial): «El clorhidrato de amilorida es un fármaco ahorrador de potasio (antikaliurético) que posee una actividad natriurética, diurética y antihipertensiva débil (en comparación con los diuréticos tiazídicos). En algunos estudios clínicos, estos efectos han sido parcialmente aditivos a los efectos de los diuréticos tiazídicos.» Texto original en inglés: "Amiloride HCl is a potassium-conserving (antikaliuretic) drug that possesses weak (compared with thiazide diuretics) natriuretic, diuretic, and antihypertensive activity. These effects have been partially additive to the effects of thiazide diuretics in some clinical studies." ([DailyMed: amiloride hydrochloride prescribing information, Kesin Pharma Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5eedadbd-9be9-b920-e063-6394a90afa68), versión del 2026-11-11; consultado el 2026-11-19). Según la información conocida, la amilorida bloquea el canal epitelial de sodio (ENaC) en el riñón, lo que favorece la eliminación de sodio y agua y reduce la pérdida de potasio. Se usa como diurético y antihipertensivo.
 
 Mecanísticamente, el control del sodio y del volumen circulante podría ser relevante en el daño renal asociado a hipertensión grave. Sin embargo, el puntaje elevado (0,9982) corresponde solo a una predicción del modelo: no se aportaron ensayos clínicos ni literatura para esta enfermedad.
 
@@ -102,6 +102,19 @@ La predicción se apoya únicamente en el puntaje del modelo (nivel de evidencia
 - Advertencias y contraindicaciones del prospecto aprobado por ANMAT
 - Revisión de literatura y de registros de ensayos específicos sobre la enfermedad renal hipertensiva maligna
 - Evaluación del riesgo de hiperpotasemia en pacientes con deterioro de la función renal
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: amiloride hydrochloride prescribing information, Kesin Pharma Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5eedadbd-9be9-b920-e063-6394a90afa68) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

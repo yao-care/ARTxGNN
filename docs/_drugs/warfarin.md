@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser útil para la **deficiencia del cofactor
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, la warfarina es un antagonista de la vitamina K que reduce la síntesis de los factores II, VII, IX y X.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Warfarin (traducción no oficial): «La warfarina actúa inhibiendo la síntesis de los factores de la coagulación dependientes de la vitamina K, que incluyen los factores II, VII, IX y X, y las proteínas anticoagulantes C y S. La vitamina K es un cofactor esencial para la síntesis posribosómica de los factores de la coagulación dependientes de la vitamina K. La vitamina K promueve la biosíntesis de residuos de ácido γ-carboxiglutámico en las proteínas, que son esenciales para la actividad biológica.» Texto original en inglés: "Warfarin acts by inhibiting the synthesis of vitamin K-dependent clotting factors, which include Factors II, VII, IX, and X, and the anticoagulant proteins C and S. Vitamin K is an essential cofactor for the post ribosomal synthesis of the vitamin K-dependent clotting factors. Vitamin K promotes the biosynthesis of γ-carboxyglutamic acid residues in the proteins that are essential for biological activity." ([DailyMed: Jantoven (warfarin sodium) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=19a69a72-ac5d-45d5-a94d-a5aaecbe4730), versión del 2026-10-28; consultado el 2026-11-19). Según la información conocida, la warfarina es un antagonista de la vitamina K que reduce la síntesis de los factores II, VII, IX y X.
 
 La deficiencia del cofactor II de la heparina es una trombofilia hereditaria que predispone a trombosis venosa. Por ello, es mecanísticamente plausible emplear un anticoagulante como la warfarina para la profilaxis secundaria. Sin embargo, esto se solapa con el uso antitrombótico habitual del fármaco y no constituye un mecanismo nuevo.
 
@@ -99,6 +99,19 @@ La predicción se apoya solo en reportes de caso, sin ensayos clínicos ni estud
 - Estudios (observacionales o ensayos) que evalúen directamente la warfarina en esta deficiencia.
 - Datos del mecanismo de acción y del prospecto aprobado en Argentina (advertencias y contraindicaciones).
 - Evaluación de seguridad, en particular del riesgo hemorrágico y de las interacciones con medicamentos de uso frecuente.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Jantoven (warfarin sodium) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=19a69a72-ac5d-45d5-a94d-a5aaecbe4730) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

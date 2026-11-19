@@ -57,7 +57,7 @@ Actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dir
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, silodosina es un antagonista selectivo del receptor alfa-1A adrenérgico, con selectividad por el tracto urogenital.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Silodosina (traducción no oficial): «La silodosina es un antagonista selectivo de los adrenorreceptores alfa-1 postsinápticos, que se localizan en la próstata, la base de la vejiga, el cuello vesical, la cápsula prostática y la uretra prostática humanas. El bloqueo de estos adrenorreceptores alfa-1 puede provocar la relajación del músculo liso de estos tejidos, lo que da lugar a una mejoría del flujo urinario y a una reducción de los síntomas de la HPB.» Texto original en inglés: "Silodosin is a selective antagonist of post-synaptic alpha-1 adrenoreceptors, which are located in the human prostate, bladder base, bladder neck, prostatic capsule, and prostatic urethra. Blockade of these alpha-1 adrenoreceptors can cause smooth muscle in these tissues to relax, resulting in an improvement in urine flow and a reduction in BPH symptoms." ([DailyMed: silodosin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=94bca72c-c74a-4181-8b6a-a0a2f654a0a7), versión del 2026-10-30; consultado el 2026-11-19). Según la información conocida, silodosina es un antagonista selectivo del receptor alfa-1A adrenérgico, con selectividad por el tracto urogenital.
 
 La hipertricosis tipo Ambras es un trastorno genético raro del crecimiento del pelo, asociado a reordenamientos cromosómicos que afectan la regulación de *TRPS1*. No se conoce un vínculo biológico entre el bloqueo alfa-1A y esta condición, y la hipertricosis no es un efecto reconocido de dicho bloqueo.
 
@@ -94,6 +94,19 @@ La predicción carece de ensayos clínicos, de literatura y de un mecanismo biol
 - Estudios preclínicos que respalden algún efecto sobre el crecimiento del pelo.
 - Información de seguridad del prospecto de ANMAT (advertencias y contraindicaciones).
 - Evaluación de la compatibilidad de la vía de administración y la similitud con la indicación original.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: silodosin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=94bca72c-c74a-4181-8b6a-a0a2f654a0a7) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

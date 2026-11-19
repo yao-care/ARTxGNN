@@ -57,7 +57,7 @@ con **8 ensayos clínicos** y **20 publicaciones** compilados que rodean esta di
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la farmacología general, la clomipramina es un antidepresivo tricíclico que inhibe de forma potente la recaptación de serotonina (SERT). Su metabolito activo, la desmetilclomipramina, añade inhibición de la recaptación de noradrenalina.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Clomipramina (traducción no oficial): «Se presume que la clomipramina (CMI) influye en las conductas obsesivas y compulsivas a través de sus efectos sobre la transmisión neuronal serotoninérgica. Se desconoce el mecanismo neuroquímico real, pero se cree que la capacidad de la CMI para inhibir la recaptación de serotonina (5-HT) es importante.» Texto original en inglés: "Clomipramine (CMI) is presumed to influence obsessive and compulsive behaviors through its effects on serotonergic neuronal transmission. The actual neurochemical mechanism is unknown, but CMI's capacity to inhibit the reuptake of serotonin (5-HT) is thought to be important." ([DailyMed: Anafranil (clomipramine hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4074b555-7635-41a9-809d-fae3b3610059), versión del 2024-11-26; consultado el 2026-11-19). Según la farmacología general, la clomipramina es un antidepresivo tricíclico que inhibe de forma potente la recaptación de serotonina (SERT). Su metabolito activo, la desmetilclomipramina, añade inhibición de la recaptación de noradrenalina.
 
 La modulación serotoninérgica y noradrenérgica de los circuitos del miedo y la compulsión (bucles córtico-estriado-tálamo-corticales y amígdala) es un mecanismo plausible para el TOC, el pánico y otros trastornos del espectro ansioso. Esto es coherente con la eficacia de clase de los tricíclicos y los ISRS en el trastorno de pánico.
 
@@ -121,6 +121,19 @@ Ningún estudio citado evalúa directamente el trastorno de ansiedad como entida
 - Datos del mecanismo de acción desde una fuente curada (por ejemplo, DrugBank)
 - Advertencias y contraindicaciones del prospecto de ANMAT para completar la evaluación de seguridad
 - Plan de monitoreo de seguridad (por ejemplo, riesgo de suicidio y efectos cardiovasculares y anticolinérgicos típicos de los tricíclicos) para poblaciones específicas
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Anafranil (clomipramine hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4074b555-7635-41a9-809d-fae3b3610059) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

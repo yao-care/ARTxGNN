@@ -54,7 +54,7 @@ Ezetimibe es un fármaco hipolipemiante utilizado originalmente para tratar la h
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según el conocimiento general, ezetimibe inhibe la absorción intestinal de colesterol mediada por NPC1L1 y reduce el colesterol LDL.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ezetimibe (traducción no oficial): «La ezetimiba reduce el colesterol en sangre al inhibir la absorción del colesterol en el intestino delgado. Se ha demostrado que la diana molecular de la ezetimiba es el transportador de esteroles Niemann-Pick C1-Like 1 (NPC1L1), que participa en la captación intestinal del colesterol y de los fitoesteroles.» Texto original en inglés: "Ezetimibe reduces blood cholesterol by inhibiting the absorption of cholesterol by the small intestine. The molecular target of ezetimibe has been shown to be the sterol transporter, Niemann-Pick C1-Like 1 (NPC1L1), which is involved in the intestinal uptake of cholesterol and phytosterols." ([DailyMed: ezetimibe prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c37c695b-fb40-423c-9b73-d1aa58a34db9), versión del 2026-10-08; consultado el 2026-11-19). Según el conocimiento general, ezetimibe inhibe la absorción intestinal de colesterol mediada por NPC1L1 y reduce el colesterol LDL.
 
 La deficiencia de CETP es una condición genética en la que la transferencia de ésteres de colesterol desde las HDL hacia las lipoproteínas con apoB está alterada, lo que suele producir HDL-C elevado y LDL-C más bajo. Ambas situaciones comparten vías del metabolismo lipídico, lo que probablemente explica el puntaje alto del modelo.
 
@@ -104,6 +104,19 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 - Datos del mecanismo de acción y análisis mecanístico específico.
 - Revisión del prospecto aprobado por ANMAT (advertencias y contraindicaciones).
 - Evidencia directa (preclínica o clínica) sobre ezetimibe en esta condición.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: ezetimibe prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c37c695b-fb40-423c-9b73-d1aa58a34db9) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

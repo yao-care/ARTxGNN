@@ -55,7 +55,7 @@ Ivermectina es un antiparasitario con varias autorizaciones vigentes en Argentin
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información general conocida, la ivermectina actúa sobre canales de cloruro dependientes de glutamato de parásitos invertebrados, lo que causa su parálisis y muerte.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ivermectina (traducción no oficial): «Los estudios in vitro con microsomas hepáticos humanos y enzimas CYP450 recombinantes han demostrado que la ivermectina se metaboliza principalmente por CYP3A4.» Texto original en inglés: "In vitro studies using human liver microsomes and recombinant CYP450 enzymes have shown that ivermectin is primarily metabolized by CYP3A4." ([DailyMed: Stromectol (ivermectin) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=681888c9-af79-4b7d-ae80-c3f4f6f1effd), versión del 2024-09-20; consultado el 2026-11-19). Según la información general conocida, la ivermectina actúa sobre canales de cloruro dependientes de glutamato de parásitos invertebrados, lo que causa su parálisis y muerte.
 
 No se identifica un vínculo mecanístico establecido con la candidiasis vulvovaginal: la ivermectina no tiene una acción antifúngica primaria reconocida contra *Candida*. Además, existen alternativas antifúngicas eficaces y bien establecidas (azoles), por lo que hay poca justificación para reposicionar el fármaco.
 
@@ -95,6 +95,19 @@ La predicción no cuenta con ensayos clínicos ni publicaciones que estudien la 
 - Estudios in vitro que demuestren actividad contra *Candida*
 - Información de seguridad del prospecto (advertencias y contraindicaciones)
 - Estudios preclínicos o clínicos que evalúen directamente esta indicación antes de reconsiderar la decisión
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Stromectol (ivermectin) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=681888c9-af79-4b7d-ae80-c3f4f6f1effd) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

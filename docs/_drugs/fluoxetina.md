@@ -55,7 +55,7 @@ La fluoxetina es un antidepresivo de tipo ISRS que se comercializa actualmente e
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la fluoxetina pertenece a la clase de los ISRS, que aumentan la disponibilidad de serotonina en la sinapsis al bloquear su recaptación.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Fluoxetina (traducción no oficial): «Aunque se desconoce el mecanismo exacto de PROZAC, se presume que está relacionado con su inhibición de la captación neuronal de serotonina en el SNC.» Texto original en inglés: "Although the exact mechanism of PROZAC is unknown, it is presumed to be linked to its inhibition of CNS neuronal uptake of serotonin." ([DailyMed: Prozac (fluoxetine hydrochloride) prescribing information, Dista Products Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c88f33ed-6dfb-4c5e-bc01-d8e36dd97299), versión del 2026-01-08; consultado el 2026-11-19). Según la información conocida, la fluoxetina pertenece a la clase de los ISRS, que aumentan la disponibilidad de serotonina en la sinapsis al bloquear su recaptación.
 
 Mecanísticamente, la modulación serotoninérgica podría reducir la inestabilidad afectiva y los rasgos obsesivos e impulsivos. Estos rasgos se superponen entre el trastorno esquizotípico y el trastorno límite de la personalidad. Un estudio abierto en pacientes con trastorno límite, esquizotípico o ambos describió reducciones significativas de las autolesiones y de los síntomas generales con fluoxetina.
 
@@ -102,6 +102,19 @@ Consultar el prospecto para el resto de la información de seguridad.
 - Datos de mecanismo de acción y un análisis de la relación mecanística con este trastorno.
 - Advertencias y contraindicaciones del prospecto aprobado en Argentina, para completar el análisis de seguridad.
 - Evaluación del riesgo de psicosis transitoria y polidipsia en esta población.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Prozac (fluoxetine hydrochloride) prescribing information, Dista Products Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c88f33ed-6dfb-4c5e-bc01-d8e36dd97299) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

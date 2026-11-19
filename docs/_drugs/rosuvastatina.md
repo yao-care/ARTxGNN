@@ -57,7 +57,7 @@ Actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dir
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la rosuvastatina inhibe la HMG-CoA reductasa, la enzima limitante de la síntesis de colesterol. Con ello reduce el colesterol LDL y, en menor medida, eleva modestamente el colesterol HDL.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Rosuvastatina (traducción no oficial): «CRESTOR es un inhibidor de la HMG‑CoA reductasa, la enzima limitante de la velocidad que convierte la 3‑hidroxi‑3‑metilglutaril coenzima A en mevalonato, un precursor del colesterol.» Texto original en inglés: "CRESTOR is an inhibitor of HMG‑CoA reductase, the rate-limiting enzyme that converts 3‑hydroxy‑3‑methylglutaryl coenzyme A to mevalonate, a precursor of cholesterol." ([DailyMed: Crestor (rosuvastatin) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=325a5d0e-9a72-4015-9fcd-1655fb504cee), versión del 2026-09-23; consultado el 2026-11-19). Según la información conocida, la rosuvastatina inhibe la HMG-CoA reductasa, la enzima limitante de la síntesis de colesterol. Con ello reduce el colesterol LDL y, en menor medida, eleva modestamente el colesterol HDL.
 
 El puntaje de 0,9954 parece reflejar la cercanía de ambos elementos dentro de la red del metabolismo lipídico. La deficiencia de CETP se caracteriza por un colesterol HDL marcadamente elevado. En los datos compilados no se identifica una necesidad clínica ni un fundamento terapéutico para reducir el LDL en esta condición.
 
@@ -99,6 +99,19 @@ La predicción no cuenta con ensayos clínicos ni publicaciones, por lo que el n
 - Un fundamento clínico o biológico que justifique el uso de una estatina en esta condición.
 - Estudios preclínicos o clínicos que evalúen directamente esta enfermedad.
 - Información de seguridad del prospecto de ANMAT (advertencias y contraindicaciones).
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Crestor (rosuvastatin) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=325a5d0e-9a72-4015-9fcd-1655fb504cee) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

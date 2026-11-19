@@ -55,7 +55,7 @@ Selegilina es un inhibidor de la monoaminooxidasa B (MAO-B) que se comercializa 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Por conocimiento general, la selegilina inhibe la MAO-B y aumenta la disponibilidad de dopamina.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Selegilina (traducción no oficial): «La selegilina es un inhibidor irreversible de la monoaminooxidasa (MAO), que regula la degradación metabólica de las catecolaminas y de la serotonina en el sistema nervioso central y en los tejidos periféricos. A las dosis recomendadas, la selegilina es selectiva para la MAO de tipo B (MAO-B), la forma principal en el cerebro.» Texto original en inglés: "Selegiline is an irreversible inhibitor of monoamine oxidase (MAO), which regulates the metabolic degradation of catecholamines and serotonin in the central nervous system and peripheral tissues. At recommended doses, selegiline is selective for MAO type B (MAO-B), the major form in the brain." ([DailyMed: Zelapar (selegiline hydrochloride) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=380d7717-2a79-42f3-a712-efe5e7696ba0), versión del 2021-06-01; consultado el 2026-11-19). Por conocimiento general, la selegilina inhibe la MAO-B y aumenta la disponibilidad de dopamina.
 
 La enfermedad predicha es un síndrome de malformación del neurodesarrollo ultra raro y de base genética, que afecta la corteza cerebral y el cerebelo. No se identifica un vínculo mecanístico plausible entre la inhibición de la MAO-B y la reversión de una malformación estructural cortical y cerebelosa.
 
@@ -94,6 +94,19 @@ La predicción no cuenta con ensayos clínicos ni literatura, no hay un mecanism
 - Obtener las advertencias y contraindicaciones del prospecto aprobado por ANMAT.
 - Realizar estudios preclínicos que justifiquen cualquier investigación clínica.
 - Revisar si el puntaje de predicción refleja una asociación biológica real o un artefacto del modelo.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Zelapar (selegiline hydrochloride) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=380d7717-2a79-42f3-a712-efe5e7696ba0) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

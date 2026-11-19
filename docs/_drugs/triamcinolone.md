@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **alopecia mucinosa (alope
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la triamcinolona es un corticosteroide potente que suprime la inflamación local y la respuesta inmunitaria.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Triamcinolone (traducción no oficial): «Los estudios indican que, tras una dosis intramuscular única de 60 mg a 100 mg de acetónido de triamcinolona, la supresión suprarrenal se produce en un plazo de 24 a 48 horas y luego vuelve gradualmente a la normalidad, por lo general en 30 a 40 días. Este hallazgo se correlaciona estrechamente con la duración prolongada de la acción terapéutica que se logra con el fármaco.» Texto original en inglés: "Studies indicate that following a single intramuscular dose of 60 mg to 100 mg of triamcinolone acetonide, adrenal suppression occurs within 24 to 48 hours and then gradually returns to normal, usually in 30 to 40 days. This finding correlates closely with the extended duration of therapeutic action achieved with the drug." ([DailyMed: Kenalog-40 (triamcinolone acetonide) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4ce116aa-b330-4da9-9cdd-ba8e6be0c4ad), versión del 2026-01-05; consultado el 2026-11-19). Según la información conocida, la triamcinolona es un corticosteroide potente que suprime la inflamación local y la respuesta inmunitaria.
 
 La alopecia mucinosa (mucinosis folicular) se caracteriza por un infiltrado linfocitario perifolicular y acumulación de mucina en los folículos. Mecanísticamente, un antiinflamatorio como la triamcinolona (por ejemplo, intralesional) podría reducir ese componente inflamatorio, y esto es consistente con la práctica dermatológica habitual. Sin embargo, se trata de un razonamiento plausible y no de una demostración.
 
@@ -100,6 +100,19 @@ La predicción tiene un puntaje TxGNN muy alto, pero no existen ensayos clínico
 - Series de casos o estudios observacionales que documenten resultados con triamcinolona en esta enfermedad
 - Datos del mecanismo de acción y del prospecto aprobado en ANMAT (advertencias y contraindicaciones)
 - Confirmación de la compatibilidad de la vía de administración (intralesional vs. tópica) con las presentaciones disponibles en Argentina
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Kenalog-40 (triamcinolone acetonide) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4ce116aa-b330-4da9-9cdd-ba8e6be0c4ad) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

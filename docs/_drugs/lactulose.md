@@ -56,7 +56,7 @@ Sin embargo, no se encontraron ensayos clínicos ni publicaciones que respalden 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según el conocimiento farmacológico general, la lactulosa es un azúcar no absorbible que ejerce un efecto osmótico en el intestino y se fermenta en el colon, lo que lo acidifica y reduce la absorción de amoníaco.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Lactulose (traducción no oficial): «La lactulosa causa una disminución de la concentración de amoníaco en sangre y reduce el grado de encefalopatía portosistémica. Se considera que estas acciones son resultado de lo siguiente: la degradación bacteriana de la lactulosa en el colon acidifica el contenido colónico.» Texto original en inglés: "Lactulose causes a decrease in blood ammonia concentration and reduces the degree of portalsystemic encephalopathy. These actions are considered to be results of the following: Bacterial degradation of lactulose in the colon acidifies the colonic contents." ([DailyMed: Enulose (lactulose) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fa3aae7c-6f98-4fbb-85dc-32affe9874d5), versión del 2024-12-18; consultado el 2026-11-19). Según el conocimiento farmacológico general, la lactulosa es un azúcar no absorbible que ejerce un efecto osmótico en el intestino y se fermenta en el colon, lo que lo acidifica y reduce la absorción de amoníaco.
 
 No se ha establecido un mecanismo directo que vincule este perfil con la lesión renal asociada al ácido úrico. La relación con una nefropatía por uratos no tiene sustento farmacológico en los datos compilados.
 
@@ -100,6 +100,19 @@ La predicción no cuenta con ensayos clínicos ni literatura, no tiene un mecani
 - Estudios preclínicos que respalden la hipótesis
 - Obtención y revisión del prospecto aprobado por ANMAT (advertencias y contraindicaciones)
 - Datos detallados del mecanismo de acción
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Enulose (lactulose) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fa3aae7c-6f98-4fbb-85dc-32affe9874d5) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

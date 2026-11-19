@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **hipotricosis simple del 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Por su clase, diclofenaco es un AINE que inhibe la ciclooxigenasa (COX-1/COX-2) y reduce la síntesis de prostaglandinas, con efecto antiinflamatorio y analgésico.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Diclofenac (traducción no oficial): «El diclofenaco tiene propiedades analgésicas, antiinflamatorias y antipiréticas. El mecanismo de acción del diclofenaco, al igual que el de otros AINE, no se comprende por completo, pero implica la inhibición de la ciclooxigenasa (COX-1 y COX-2).» Texto original en inglés: "Diclofenac has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of diclofenac, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: Diclofenac Sodium Delayed Release (diclofenac sodium) prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bc99e6af-7050-4653-a681-5b252305a970), versión del 2026-09-24; consultado el 2026-11-19). Por su clase, diclofenaco es un AINE que inhibe la ciclooxigenasa (COX-1/COX-2) y reduce la síntesis de prostaglandinas, con efecto antiinflamatorio y analgésico.
 
 La hipotricosis simple del cuero cabelludo es un trastorno genético del folículo piloso (variantes como CDSN, APCDD1 o RPL21). No se identifica un vínculo mecanístico claro con la inhibición de COX: la enfermedad tiene un origen genético que un AINE no debería corregir.
 
@@ -99,6 +99,19 @@ La predicción no tiene ensayos clínicos ni literatura que estudien esta enferm
 - Evidencia preclínica que muestre un papel de las prostaglandinas o la COX en esta enfermedad.
 - Revisión del prospecto aprobado en ANMAT para advertencias y contraindicaciones.
 - Evaluación de la vía de administración (por ejemplo, formulación tópica) si surgiera evidencia que lo justifique.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Diclofenac Sodium Delayed Release (diclofenac sodium) prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bc99e6af-7050-4653-a681-5b252305a970) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -57,7 +57,7 @@ Actualmente **no hay ensayos clínicos ni publicaciones** en los datos compilado
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Los datos detallados sobre el mecanismo de acción no están disponibles en los datos compilados. Según la información conocida, la insulina glulisina es un análogo de insulina de acción rápida que actúa a través del receptor de insulina y favorece la captación de glucosa.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Insulina Glulisina (traducción no oficial): «La regulación del metabolismo de la glucosa es la actividad principal de las insulinas y los análogos de insulina, incluida la insulina glulisina. Las insulinas disminuyen la glucemia al estimular la captación periférica de glucosa por el músculo esquelético y el tejido adiposo, y al inhibir la producción hepática de glucosa.» Texto original en inglés: "Regulation of glucose metabolism is the primary activity of insulins and insulin analogs, including insulin glulisine. Insulins lower blood glucose by stimulating peripheral glucose uptake by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Apidra (insulin glulisine) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e7af6a7a-8046-4fb4-9979-4ec4230b23aa), versión del 2025-11-25; consultado el 2026-11-19). Según la información conocida, la insulina glulisina es un análogo de insulina de acción rápida que actúa a través del receptor de insulina y favorece la captación de glucosa.
 
 Los síndromes de disfunción sensibles a tiamina (por ejemplo, la anemia megaloblástica sensible a tiamina, causada por mutaciones en SLC19A2) incluyen la diabetes mellitus como rasgo central. Por ello, la insulina podría manejar de forma plausible el componente diabético.
 
@@ -93,6 +93,19 @@ La predicción se basa únicamente en el modelo, sin ensayos clínicos ni litera
 - Datos del mecanismo de acción
 - Advertencias y contraindicaciones del prospecto de ANMAT
 - Evaluación de la utilidad real frente a la suplementación con tiamina
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Apidra (insulin glulisine) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e7af6a7a-8046-4fb4-9979-4ec4230b23aa) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

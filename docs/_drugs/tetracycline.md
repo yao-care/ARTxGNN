@@ -56,7 +56,7 @@ pero actualmente solo existe **1 publicación** (un reporte de casos) y **ningú
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la tetraciclina es un antibiótico bacteriostático de amplio espectro que inhibe la síntesis proteica bacteriana. Además, las tetraciclinas tienen efectos antiinflamatorios, como la inhibición de metaloproteinasas de matriz, que son relevantes en la superficie ocular.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Tetracycline es (traducción no oficial): «Inhibidor del ribosoma 70S bacteriano» Texto original en inglés: "Bacterial 70S ribosome inhibitor" ([ChEMBL CHEMBL1440 (tetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1440), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, la tetraciclina es un antibiótico bacteriostático de amplio espectro que inhibe la síntesis proteica bacteriana. Además, las tetraciclinas tienen efectos antiinflamatorios, como la inhibición de metaloproteinasas de matriz, que son relevantes en la superficie ocular.
 
 La queratitis epitelial punctata puede aparecer como secuela de infecciones por clamidia, un agente sensible a las tetraciclinas. El vínculo es por lo tanto plausible pero indirecto, a través de la etiología infecciosa y la actividad antiinflamatoria, y no está demostrado para esta enfermedad. El puntaje tan alto del modelo probablemente refleja la cercanía con las indicaciones de conjuntivitis.
 
@@ -96,6 +96,19 @@ La predicción se apoya solo en el puntaje del modelo y en un reporte de casos q
 - Datos del mecanismo de acción
 - Advertencias y contraindicaciones del prospecto aprobado por ANMAT
 - Evaluación de la vía de administración (oral frente a oftálmica) necesaria para esta indicación
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL1440 (tetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1440) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

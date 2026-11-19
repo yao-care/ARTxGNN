@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **Candidiasis oral (oral c
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la rifaximina es un antibacteriano no absorbible que actúa principalmente en el tracto gastrointestinal y no tiene actividad antifúngica conocida.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Rifaximin (traducción no oficial): «La rifaximina es un fármaco antibacteriano. […] La rifaximina es un derivado semisintético de la rifampicina y actúa uniéndose a la subunidad beta de la ARN polimerasa dependiente de ADN bacteriana, bloqueando uno de los pasos de la transcripción. Esto da lugar a la inhibición de la síntesis de proteínas bacterianas y, en consecuencia, inhibe el crecimiento de las bacterias.» Texto original en inglés: "Rifaximin is an antibacterial drug. […] Rifaximin is a semi-synthetic derivative of rifampin and acts by binding to the beta-subunit of bacterial DNA-dependent RNA polymerase blocking one of the steps in transcription. This results in inhibition of bacterial protein synthesis and consequently inhibits the growth of bacteria." ([DailyMed: Xifaxan (rifaximin) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7afafa63-3236-4212-9589-045db6b01c0b), versión del 2025-08-27; consultado el 2026-11-19). Según la información conocida, la rifaximina es un antibacteriano no absorbible que actúa principalmente en el tracto gastrointestinal y no tiene actividad antifúngica conocida.
 
 La única publicación vinculada sugiere lo contrario de un efecto terapéutico: el uso de rifaximina se asoció con infecciones por *Candida* resistentes a micafungina en receptores de trasplante alogénico de células madre hematopoyéticas, probablemente por alteración de la microbiota intestinal.
 
@@ -116,6 +116,19 @@ No existen ensayos clínicos ni estudios que evalúen un beneficio de la rifaxim
 - Estudios preclínicos que evalúen un efecto sobre *Candida* en la mucosa oral
 - Evaluación de la señal de riesgo de candidiasis resistente descrita en pacientes trasplantados
 - Textos de advertencias y contraindicaciones del prospecto de ANMAT
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Xifaxan (rifaximin) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7afafa63-3236-4212-9589-045db6b01c0b) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

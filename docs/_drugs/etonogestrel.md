@@ -56,7 +56,7 @@ La predicción probablemente refleja un efecto farmacodinámico conocido (la ame
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, etonogestrel es un progestágeno que suprime la ovulación y adelgaza el endometrio.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Etonogestrel (traducción no oficial): «El efecto anticonceptivo de NEXPLANON se logra mediante la supresión de la ovulación, el aumento de la viscosidad del moco cervical y alteraciones en el endometrio.» Texto original en inglés: "The contraceptive effect of NEXPLANON is achieved by suppression of ovulation, increased viscosity of the cervical mucus, and alterations in the endometrium." ([DailyMed: Nexplanon (etonogestrel) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=487f8a62-e142-457c-97cc-2e398fde7594), versión del 2026-05-28; consultado el 2026-11-19). Según la información conocida, etonogestrel es un progestágeno que suprime la ovulación y adelgaza el endometrio.
 
 La alta puntuación del modelo probablemente refleja una asociación farmacodinámica o de efecto adverso: la amenorrea es un efecto bien conocido de los métodos con etonogestrel. Sin embargo, usar un fármaco para inducir amenorrea (por ejemplo, para controlar el sangrado) es un objetivo distinto de tratar la amenorrea patológica, que normalmente exige corregir la causa subyacente (hipotalámica, hormonal o anatómica). Por ello, un vínculo terapéutico no está respaldado.
 
@@ -98,6 +98,19 @@ La predicción se sustenta solo en el modelo (L5), sin ensayos clínicos y con u
 - Completar los datos del mecanismo de acción
 - Definir si el objetivo es tratar la amenorrea patológica o inducir amenorrea de forma controlada (por ejemplo, control del sangrado)
 - Realizar una búsqueda bibliográfica dirigida a etonogestrel y las afecciones mamarias benignas o los trastornos menstruales
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Nexplanon (etonogestrel) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=487f8a62-e142-457c-97cc-2e398fde7594) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

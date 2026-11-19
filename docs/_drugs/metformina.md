@@ -57,7 +57,7 @@ pero **no hay ensayos clínicos ni publicaciones** en los datos compilados para 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Por conocimiento general, la metformina actúa activando AMPK, inhibiendo el complejo I mitocondrial y reduciendo la gluconeogénesis hepática.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Metformina (traducción no oficial): «La metformina es un antihiperglucemiante que mejora la tolerancia a la glucosa en pacientes con diabetes mellitus de tipo 2 y reduce tanto la glucosa plasmática basal como la posprandial. La metformina disminuye la producción hepática de glucosa, disminuye la absorción intestinal de glucosa y mejora la sensibilidad a la insulina al aumentar la captación y la utilización periféricas de glucosa.» Texto original en inglés: "Metformin is an antihyperglycemic agent which improves glucose tolerance in patients with type 2 diabetes mellitus, lowering both basal and postprandial plasma glucose. Metformin decreases hepatic glucose production, decreases intestinal absorption of glucose, and improves insulin sensitivity by increasing peripheral glucose uptake and utilization." ([DailyMed: Metformin Hydrochloride Er (metformin hydrochloride) prescribing information, Leading Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3dca884d-ec44-496f-9eeb-31fd8fa3f574), versión del 2026-09-21; consultado el 2026-11-19). Por conocimiento general, la metformina actúa activando AMPK, inhibiendo el complejo I mitocondrial y reduciendo la gluconeogénesis hepática.
 
 El síndrome de rigidez focal de las extremidades pertenece al espectro del síndrome de la persona rígida, cuyo origen se atribuye a una disfunción de la transmisión GABAérgica/glicinérgica y, con frecuencia, a autoinmunidad (anti-GAD o anti-anfifisina). No existe un vínculo establecido entre las acciones conocidas de la metformina y estos mecanismos.
 
@@ -99,6 +99,19 @@ No hay ensayos clínicos ni literatura que estudien directamente esta enfermedad
 - Revisión sistemática de la literatura sobre metformina y síndromes de rigidez
 - Información de seguridad del prospecto de ANMAT (advertencias y contraindicaciones)
 - Evaluación de plausibilidad biológica antes de cualquier estudio preclínico
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Metformin Hydrochloride Er (metformin hydrochloride) prescribing information, Leading Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3dca884d-ec44-496f-9eeb-31fd8fa3f574) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

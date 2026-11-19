@@ -57,7 +57,7 @@ Actualmente no hay **ningún ensayo clínico** ni **ninguna publicación** que r
 
 ## ¿Por qué es razonable esta predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, la orfenadrina es un agente anticolinérgico, antihistamínico H1 y antagonista del receptor NMDA, que se usa como relajante muscular para aliviar el espasmo y el dolor.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Orfenadrina (traducción no oficial): «El modo de acción no se ha identificado con claridad, pero podría estar relacionado con sus propiedades analgésicas. El citrato de orfenadrina posee acciones anticolinérgicas.» Texto original en inglés: "The mode of action has not been clearly identified but may be related to analgesic properties. Orphenadrine citrate possesses anticholinergic actions." ([DailyMed: orphenadrine citrate prescribing information, Actavis Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aec8ad3a-f717-4e74-b7b9-19debdaad79a), versión del 2016-07-20; consultado el 2026-11-19). Según la información conocida, la orfenadrina es un agente anticolinérgico, antihistamínico H1 y antagonista del receptor NMDA, que se usa como relajante muscular para aliviar el espasmo y el dolor.
 
 No se identificó un vínculo mecanístico entre estas acciones y la distrofia retiniana. Las distrofias retinianas hereditarias son enfermedades monogénicas, y no existe una justificación farmacológica plausible que conecte a la orfenadrina con su patología de fondo.
 
@@ -96,6 +96,19 @@ La predicción no cuenta con ensayos clínicos ni publicaciones, y no se identif
 - Completar los datos del mecanismo de acción (MOA).
 - Disponer de una justificación biológica o de estudios preclínicos que vinculen la orfenadrina con la fisiopatología de la distrofia retiniana.
 - Evaluar la viabilidad de la vía de administración sistémica para una enfermedad ocular.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: orphenadrine citrate prescribing information, Actavis Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aec8ad3a-f717-4e74-b7b9-19debdaad79a) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -56,7 +56,7 @@ El modelo TxGNN predice que podría ser efectivo para **acné (acne (disease))**
 
 ## ¿Por qué es razonable esta predicción?
 
-Por ahora, la predicción no tiene una base mecanística creíble. Mebendazol es un antihelmíntico bencimidazólico que se une a la beta-tubulina del parásito e inhibe la polimerización de los microtúbulos. Los datos detallados sobre su mecanismo de acción no figuran en la información compilada para este informe; esta descripción proviene del análisis de la relación mecanística.
+Por ahora, la predicción no tiene una base mecanística creíble. Mebendazol es un antihelmíntico bencimidazólico que se une a la beta-tubulina del parásito e inhibe la polimerización de los microtúbulos. Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Mebendazol (traducción no oficial): «El mebendazol, un bencimidazol, es un antihelmíntico. […] El mebendazol interfiere con la formación de tubulina celular en el helminto y causa cambios degenerativos ultraestructurales en su intestino. Como resultado, se alteran su captación de glucosa y sus funciones digestivas y reproductivas, lo que conduce a la inmovilización, la inhibición de la producción de huevos y la muerte del helminto.» Texto original en inglés: "Mebendazole, a benzimidazole, is an anthelmintic. […] Mebendazole interferes with cellular tubulin formation in the helminth and causes ultrastructural degenerative changes in its intestine. As a result, its glucose uptake and the digestive and reproductive functions are disrupted, leading to immobilization, inhibition of egg production and death of the helminth." ([DailyMed: Vermox (mebendazole) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a720c424-517a-461b-8e13-6c37caf8aa3f), versión del 2021-10-05; consultado el 2026-11-19).
 
 La patogenia del acné implica producción excesiva de sebo, hiperqueratinización folicular, colonización por *Cutibacterium acnes* e inflamación. Ninguno de estos procesos es un blanco conocido de la inhibición de tubulina.
 
@@ -99,6 +99,19 @@ No hay ensayos clínicos ni estudios que evalúen mebendazol en acné, y no se i
 - Datos del mecanismo de acción de mebendazol y su posible relevancia en la patogenia del acné
 - Estudios preclínicos o clínicos que evalúen directamente mebendazol en acné
 - Advertencias y contraindicaciones del prospecto aprobado por ANMAT para el análisis de seguridad
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Vermox (mebendazole) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a720c424-517a-461b-8e13-6c37caf8aa3f) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

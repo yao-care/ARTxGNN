@@ -56,7 +56,7 @@ El modelo TxGNN predice que podría ser efectivo para **obstrucción duodenal (d
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, esomeprazol pertenece a la clase de los inhibidores de la bomba de protones, que suprimen la secreción de ácido gástrico.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Esomeprazol (traducción no oficial): «El esomeprazol pertenece a una clase de compuestos antisecretores, los bencimidazoles sustituidos, que suprimen la secreción de ácido gástrico mediante la inhibición específica del sistema enzimático H+/K+ ATPasa en la superficie secretora de la célula parietal gástrica. El esomeprazol se protona y se convierte en el compartimento ácido de la célula parietal, formando el inhibidor activo, la sulfenamida aquiral.» Texto original en inglés: "Esomeprazole belongs to a class of antisecretory compounds, the substituted benzimidazoles, that suppress gastric acid secretion by specific inhibition of the H+/K+ ATPase enzyme system at the secretory surface of the gastric parietal cell. Esomeprazole is protonated and converted in the acidic compartment of the parietal cell forming the active inhibitor, the achiral sulphenamide." ([DailyMed: Nexium (esomeprazole magnesium) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f4853677-1622-4037-688b-fdf533a11d96), versión del 2025-12-19; consultado el 2026-11-19). Según la información conocida, esomeprazol pertenece a la clase de los inhibidores de la bomba de protones, que suprimen la secreción de ácido gástrico.
 
 Mecanísticamente, reducir el ácido podría disminuir la lesión de la mucosa, la ulceración y la inflamación del duodeno. Esto podría ayudar en casos de estenosis péptica u obstrucción asociada a úlcera, y en el alivio de síntomas.
 
@@ -94,6 +94,19 @@ La predicción se basa solo en el modelo, sin ensayos clínicos ni literatura qu
 - Obtener los datos del mecanismo de acción
 - Descargar y analizar los prospectos de ANMAT (advertencias y contraindicaciones), necesarios para el análisis de seguridad
 - Definir qué causas de obstrucción (p. ej., péptica o por úlcera) podrían responder a la supresión ácida
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Nexium (esomeprazole magnesium) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f4853677-1622-4037-688b-fdf533a11d96) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -56,7 +56,7 @@ El modelo TxGNN predice que podría ser efectivo para **queratoconjuntivitis epi
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por conocimiento general, la clindamicina es un antibacteriano que inhibe la síntesis de proteínas bacterianas al unirse a la subunidad ribosomal 50S, con actividad principalmente frente a bacterias Gram positivas.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Clindamicina (traducción no oficial): «La clindamicina inhibe la síntesis de proteínas bacterianas mediante su unión al ARN 23S de la subunidad 50S del ribosoma. La clindamicina es bacteriostática.» Texto original en inglés: "Clindamycin inhibits bacterial protein synthesis by binding to the 23S RNA of the 50S subunit of the ribosome. Clindamycin is bacteriostatic." ([DailyMed: Cleocin Hydrochloride (clindamycin hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df9a2a41-b132-4f43-8940-b2d773b1369a), versión del 2026-09-16; consultado el 2026-11-19). Por conocimiento general, la clindamicina es un antibacteriano que inhibe la síntesis de proteínas bacterianas al unirse a la subunidad ribosomal 50S, con actividad principalmente frente a bacterias Gram positivas.
 
 La relación mecanística con la nueva indicación es débil. La queratitis epitelial punteada suele ser de origen viral (por ejemplo, adenovirus) o no infeccioso (ojo seco, toxicidad), por lo que un antibacteriano no tiene un fundamento terapéutico claro. El puntaje alto probablemente refleja cercanía con otros fármacos antiinfecciosos oculares en el modelo y no un vínculo terapéutico real.
 
@@ -100,6 +100,19 @@ La predicción principal no cuenta con ensayos clínicos ni literatura (nivel de
 - Información de seguridad del prospecto de ANMAT (advertencias y contraindicaciones)
 - Estudios preclínicos o clínicos que evalúen directamente esta enfermedad
 - Evaluación de la compatibilidad de vía de administración (por ejemplo, formulación oftálmica, que no figura entre las presentaciones locales)
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Cleocin Hydrochloride (clindamycin hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df9a2a41-b132-4f43-8940-b2d773b1369a) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

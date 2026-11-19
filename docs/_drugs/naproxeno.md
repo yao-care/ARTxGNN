@@ -56,7 +56,7 @@ El modelo TxGNN predice que podría ser efectivo para **síndrome de braquidacti
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento farmacológico general, naproxeno inhibe de forma no selectiva las enzimas COX-1 y COX-2 y reduce la síntesis de prostaglandinas, lo que explica su efecto analgésico y antiinflamatorio.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Naproxeno (traducción no oficial): «El naproxeno tiene propiedades analgésicas, antiinflamatorias y antipiréticas. El mecanismo de acción de NAPRELAN, al igual que el de otros AINE, no se comprende por completo, pero implica la inhibición de la ciclooxigenasa (COX-1 y COX-2).» Texto original en inglés: "Naproxen has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of NAPRELAN, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: Naprelan (naproxen sodium) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b8a51c9a-488e-4377-a041-436f6a2f8893), versión del 2026-01-08; consultado el 2026-11-19). Según el conocimiento farmacológico general, naproxeno inhibe de forma no selectiva las enzimas COX-1 y COX-2 y reduce la síntesis de prostaglandinas, lo que explica su efecto analgésico y antiinflamatorio.
 
 Sin embargo, no se identifica un vínculo mecanístico plausible con este síndrome, que es un trastorno genético del desarrollo con alteraciones en la formación de las extremidades. En el mejor de los casos, un AINE aportaría alivio sintomático del dolor, sin modificar la enfermedad.
 
@@ -100,6 +100,19 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos ni publicacione
 - Revisión sistemática de literatura que estudie directamente la enfermedad
 - Obtención y análisis del prospecto de ANMAT (advertencias y contraindicaciones)
 - Evidencia preclínica que respalde cualquier efecto más allá del alivio sintomático
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Naprelan (naproxen sodium) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b8a51c9a-488e-4377-a041-436f6a2f8893) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

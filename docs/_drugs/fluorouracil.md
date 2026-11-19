@@ -56,7 +56,7 @@ La evidencia actual es muy limitada y se basa principalmente en la predicción d
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, el fluorouracilo es un antimetabolito que inhibe la timidilato sintasa y se incorpora al ARN y ADN, lo que interrumpe la síntesis de ácidos nucleicos en células de rápida división.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Fluorouracil (traducción no oficial): «El fluorouracilo es un inhibidor metabólico nucleosídico que interfiere con la síntesis del ácido desoxirribonucleico (DNA) y, en menor medida, inhibe la formación del ácido ribonucleico (RNA); estos efectos afectan a las células de crecimiento rápido y pueden provocar la muerte celular. El fluorouracilo se convierte en tres metabolitos activos principales: 5-fluoro-2′-desoxiuridina-5′-monofosfato (FdUMP), 5-fluorouridina-5′trifosfato (FUTP) y 5-fluoro-2′-desoxiuridina-5′-trifosfato (FdUTP).» Texto original en inglés: "Fluorouracil is a nucleoside metabolic inhibitor that interferes with the synthesis of deoxyribonucleic acid (DNA) and to a lesser extent inhibits the formation of ribonucleic acid (RNA); these affect rapidly growing cells and may lead to cell death. Fluorouracil is converted to three main active metabolites: 5-fluoro-2′-deoxyuridine-5′-monophosphate (FdUMP), 5-fluorouridine-5′triphosphate (FUTP) and 5-fluoro-2′-deoxyuridine-5′-triphosphate (FdUTP)." ([DailyMed: Favlyxa (fluorouracil) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1daf714b-704c-4bcc-b6e0-6f0eb2bfe66b), versión del 2026-10-23; consultado el 2026-11-19). Según la información conocida, el fluorouracilo es un antimetabolito que inhibe la timidilato sintasa y se incorpora al ARN y ADN, lo que interrumpe la síntesis de ácidos nucleicos en células de rápida división.
 
 Su eficacia en tumores epiteliales (piel, estómago, páncreas, colon) está comprobada. Mecanísticamente, esa acción citotóxica general podría ser aplicable a un sarcoma proliferativo como el rabdomiosarcoma.
 
@@ -115,6 +115,19 @@ La predicción se apoya casi solo en el modelo: no hay ensayos clínicos y la li
 - Revisión de literatura específica sobre fluorouracilo en rabdomiosarcoma y sarcomas de tejidos blandos
 - Evaluación de la compatibilidad de vía de administración (se requeriría formulación sistémica)
 - Datos preclínicos o ensayos exploratorios que respalden eficacia y relación riesgo-beneficio
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Favlyxa (fluorouracil) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1daf714b-704c-4bcc-b6e0-6f0eb2bfe66b) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

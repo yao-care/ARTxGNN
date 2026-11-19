@@ -57,7 +57,7 @@ La predicción se apoya únicamente en el modelo y no en estudios reales.
 
 ## ¿Por qué es razonable esta predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por el conocimiento farmacológico general, la vancomicina es un glucopéptido que inhibe la síntesis de la pared celular de bacterias Gram positivas.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Vancomicina (traducción no oficial): «La vancomicina es un fármaco antibacteriano. […] La acción bactericida de la vancomicina se debe principalmente a la inhibición de la biosíntesis de la pared celular. Además, la vancomicina altera la permeabilidad de la membrana celular bacteriana y la síntesis de ARN.» Texto original en inglés: "Vancomycin is an antibacterial drug. […] The bactericidal action of vancomycin results primarily from inhibition of cell-wall biosynthesis. In addition, vancomycin alters bacterial-cell-membrane permeability and RNA synthesis." ([DailyMed: Tyzavan (vancomycin) prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=72e9c5e2-07cc-4a8b-ba64-b2e7619ea560), versión del 2026-08-19; consultado el 2026-11-19). Por el conocimiento farmacológico general, la vancomicina es un glucopéptido que inhibe la síntesis de la pared celular de bacterias Gram positivas.
 
 Ese mecanismo no tiene relación conocida con la esclerodermia difusa (esclerosis sistémica), una enfermedad autoinmune y fibrosante. La vancomicina no tiene actividad antifibrótica ni inmunomoduladora conocida que sea relevante para ella.
 
@@ -100,6 +100,19 @@ La predicción no tiene respaldo clínico ni mecanístico: no hay ensayos, la ú
 - Una hipótesis mecanística fundamentada que justifique la relación
 - Datos de seguridad del prospecto de ANMAT (advertencias y contraindicaciones)
 - Datos del mecanismo de acción desde una fuente farmacológica de referencia
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tyzavan (vancomycin) prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=72e9c5e2-07cc-4a8b-ba64-b2e7619ea560) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -55,7 +55,7 @@ Pioglitazona es un fármaco sensibilizador de insulina que actúa como agonista 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por conocimiento general, la pioglitazona activa el receptor PPAR-gamma, mejora la sensibilidad a la insulina y favorece la diferenciación de los adipocitos.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Pioglitazona (traducción no oficial): «ACTOS es una tiazolidinediona cuyo mecanismo de acción depende de la presencia de insulina. ACTOS disminuye la resistencia a la insulina en la periferia y en el hígado, lo que da lugar a un aumento de la eliminación de glucosa dependiente de insulina y a una disminución de la producción hepática de glucosa. […] La pioglitazona no es un secretagogo de insulina.» Texto original en inglés: "ACTOS is a thiazolidinedione that depends on the presence of insulin for its mechanism of action. ACTOS decreases insulin resistance in the periphery and in the liver resulting in increased insulin-dependent glucose disposal and decreased hepatic glucose output. […] Pioglitazone is not an insulin secretagogue." ([DailyMed: Actos (pioglitazone) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d2ddc491-88a9-4063-9150-443b4fa4330c), versión del 2025-03-28; consultado el 2026-11-19). Por conocimiento general, la pioglitazona activa el receptor PPAR-gamma, mejora la sensibilidad a la insulina y favorece la diferenciación de los adipocitos.
 
 La opsismodisplasia es una displasia esquelética rara causada por mutaciones en INPPL1 (SHIP2), que alteran la señalización PI3K/AKT y la osificación endocondral. No se identificó un vínculo mecanístico creíble con la pioglitazona; cualquier conexión con la biología de INPPL1 es especulativa.
 
@@ -97,6 +97,19 @@ La predicción no cuenta con ensayos clínicos ni literatura que estudien la ops
 - Estudios preclínicos que respalden la plausibilidad en este tipo de displasia esquelética
 - Información de seguridad del prospecto de ANMAT (advertencias y contraindicaciones)
 - Evaluación de la compatibilidad de vía de administración y formulaciones disponibles
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Actos (pioglitazone) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d2ddc491-88a9-4063-9150-443b4fa4330c) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -56,7 +56,7 @@ El modelo TxGNN predice que podría ser útil para **enfermedad autoinmune del s
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, la piridostigmina inhibe de forma reversible la acetilcolinesterasa, lo que aumenta la disponibilidad de acetilcolina en la sinapsis neuromuscular.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Piridostigmina (traducción no oficial): «La solución oral de bromuro de piridostigmina inhibe la destrucción de la acetilcolina por la colinesterasa y, de este modo, permite una transmisión más libre de los impulsos nerviosos a través de la unión neuromuscular. La piridostigmina es un análogo de la neostigmina (Prostigmine TM ), pero difiere de ella en ciertos aspectos clínicamente significativos; por ejemplo, la piridostigmina se caracteriza por una duración de acción más prolongada y menos efectos secundarios gastrointestinales.» Texto original en inglés: "Pyridostigmine bromide oral solution inhibits the destruction of acetylcholine by cholinesterase and thereby permits freer transmission of nerve impulses across the neuromuscular junction. Pyridostigmine is an analog of neostigmine (Prostigmine TM ), but differs from it in certain clinically significant respects; for example, pyridostigmine is characterized by a longer duration of action and fewer gastrointestinal side effects." ([DailyMed: Pryidostigmine Bromide (pyridostigmine bromide) prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=beda905e-005a-439d-ac74-92db4e269780), versión del 2022-09-07; consultado el 2026-11-19). Según la información conocida, la piridostigmina inhibe de forma reversible la acetilcolinesterasa, lo que aumenta la disponibilidad de acetilcolina en la sinapsis neuromuscular.
 
 En trastornos autoinmunes de la unión neuromuscular, como la miastenia gravis, hay pérdida de receptores funcionales de acetilcolina por acción de autoanticuerpos. Aumentar la acetilcolina disponible compensa en parte esa pérdida y mejora los síntomas. Esto explica que la literatura recopilada esté dominada por la miastenia gravis.
 
@@ -106,6 +106,19 @@ La literatura es amplia pero compuesta por revisiones, estudios de cohorte y rep
 - Ensayos clínicos o estudios comparativos en la población objetivo, incluidos subtipos como anti-MuSK
 - Información de seguridad del prospecto aprobado por ANMAT (advertencias y contraindicaciones)
 - Datos detallados del mecanismo de acción
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Pryidostigmine Bromide (pyridostigmine bromide) prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=beda905e-005a-439d-ac74-92db4e269780) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

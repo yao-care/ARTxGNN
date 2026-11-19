@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **amenorrea**, pero actual
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción ni sobre las indicaciones originales aprobadas. Según el conocimiento general (no proveniente de los datos compilados), la diosmina es un flavonoide venoactivo, asociado a efectos sobre el tono vascular y la microcirculación, además de actividad antiinflamatoria y antioxidante.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Diosmin es (traducción no oficial): «Desconocido» Texto original en inglés: "Unknown" ([ChEMBL CHEMBL231884 (diosmin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL231884), CC BY-SA 3.0; consultado el 2026-11-19). Según el conocimiento general (no proveniente de los datos compilados), la diosmina es un flavonoide venoactivo, asociado a efectos sobre el tono vascular y la microcirculación, además de actividad antiinflamatoria y antioxidante.
 
 No hay un vínculo mecanístico establecido entre estas propiedades y la amenorrea, ni con la regulación menstrual o el eje hipotálamo-hipófiso-ovárico. El puntaje de 0.9942 proviene exclusivamente del modelo y no está respaldado por estudios reales. Una hipótesis especulativa sería un posible efecto sobre la función venosa o microvascular pélvica, que requeriría validación independiente.
 
@@ -84,6 +84,19 @@ La predicción se basa solo en el modelo (L5), sin ensayos clínicos ni literatu
 - Realizar una revisión sistemática de literatura y de registros de ensayos clínicos sobre diosmina y trastornos menstruales
 - Evaluar la plausibilidad biológica (por ejemplo, función microvascular pélvica) con estudios preclínicos o de mecanismo
 - Verificar la compatibilidad de vías de administración, dado que las presentaciones disponibles son principalmente orales y una crema
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL231884 (diosmin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL231884) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

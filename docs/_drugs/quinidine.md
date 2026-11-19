@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la quinidina es un antiarrítmico de clase IA (bloqueante de canales de sodio y potasio) con actividad antimalárica. Su eficacia en la fibrilación auricular y la malaria es conocida, pero no existe un vínculo mecanístico establecido con la nueva indicación.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Quinidine (traducción no oficial): «En pacientes con malaria, la quinidina actúa principalmente como esquizonticida intraeritrocitario, con poco efecto sobre los esporozoítos o sobre los parásitos preeritrocitarios. La quinidina es gametocida para Plasmodium vivax y P. malariae, pero no para P. falciparum.» Texto original en inglés: "In patients with malaria, quinidine acts primarily as an intra-erythrocytic schizonticide, with little effect upon sporozites or upon pre-erythrocytic parasites. Quinidine is gametocidal to Plasmodium vivax and P. malariae, but not to P. falciparum." ([DailyMed: quinidine gluconate prescribing information, Golden State Medical Supply](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ad2ad985-cca2-25b5-e053-2995a90a402f), versión del 2024-08-27; consultado el 2026-11-19). Según la información conocida, la quinidina es un antiarrítmico de clase IA (bloqueante de canales de sodio y potasio) con actividad antimalárica. Su eficacia en la fibrilación auricular y la malaria es conocida, pero no existe un vínculo mecanístico establecido con la nueva indicación.
 
 El NSIAD se debe a mutaciones con ganancia de función en el gen del receptor 2 de la arginina vasopresina (AVPR2). Esto produce una activación constitutiva del receptor V2, retención de agua e hiponatremia. No se conoce que la quinidina antagonice el receptor V2 ni que inhiba la señalización posterior de AMPc/acuaporina-2, por lo que no hay una explicación plausible de cómo contrarrestaría esta alteración.
 
@@ -89,6 +89,19 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni li
 - Obtener y analizar el prospecto de ANMAT (advertencias y contraindicaciones) para completar la evaluación de seguridad.
 - Revisión sistemática de la literatura y de registros de ensayos sobre NSIAD.
 - Evaluar alternativas terapéuticas existentes y la relación riesgo-beneficio cardiovascular en esta población.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: quinidine gluconate prescribing information, Golden State Medical Supply](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ad2ad985-cca2-25b5-e053-2995a90a402f) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

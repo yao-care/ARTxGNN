@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectiva para **hipertricosis universal 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Finasterida inhibe la 5-alfa reductasa tipo II y disminuye la DHT. Los datos de mecanismo de acción detallados no figuran en la información compilada para este informe; la descripción anterior corresponde al conocimiento general sobre el fármaco.
+Finasterida inhibe la 5-alfa reductasa tipo II y disminuye la DHT. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Finasteride (traducción no oficial): «El desarrollo y el agrandamiento de la glándula prostática dependen del potente andrógeno 5α-dihidrotestosterona (DHT). La 5α-reductasa de tipo II metaboliza la testosterona a DHT en la glándula prostática, el hígado y la piel. […] La finasterida es un inhibidor competitivo y específico de la 5α-reductasa de tipo II, con la que forma lentamente un complejo enzimático estable.» Texto original en inglés: "The development and enlargement of the prostate gland is dependent on the potent androgen, 5α-dihydrotestosterone (DHT). Type II 5α-reductase metabolizes testosterone to DHT in the prostate gland, liver and skin. […] Finasteride is a competitive and specific inhibitor of Type II 5α-reductase with which it slowly forms a stable enzyme complex." ([DailyMed: Proscar (finasteride) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6f988153-fc74-4ca4-b29a-111f750c4a4b), versión del 2026-03-18; consultado el 2026-11-19).
 
 El síndrome de Ambras es una hipertricosis congénita causada por alteraciones genéticas (por ejemplo, reordenamientos en la región reguladora de TRPS1) y no es principalmente dependiente de andrógenos. Por ello, el fundamento para suprimir la DHT es débil.
 
@@ -99,6 +99,19 @@ No hay ensayos ni publicaciones que estudien finasterida en esta enfermedad, el 
 - Revisión de la literatura y de modelos preclínicos específicos para el síndrome de Ambras
 - Obtener y analizar el prospecto de ANMAT (advertencias y contraindicaciones)
 - Evaluación de seguridad, en particular por el riesgo en el desarrollo fetal y las interacciones farmacológicas sin clasificar
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Proscar (finasteride) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6f988153-fc74-4ca4-b29a-111f750c4a4b) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

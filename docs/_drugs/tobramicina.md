@@ -57,7 +57,7 @@ Actualmente hay **0 ensayos clínicos** y **8 publicaciones** relacionadas, pero
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Tobramicina es un aminoglucósido; esta clase inhibe la síntesis de proteínas bacterianas al unirse a la subunidad ribosomal 30S, y se usa por vía tópica en infecciones bacterianas oculares.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Tobramicina (traducción no oficial): «La tobramicina es un antibacteriano aminoglucósido. […] La tobramicina es un antibacteriano aminoglucósido producido por Streptomyces tenebrarius. Actúa principalmente alterando la síntesis de proteínas, lo que provoca una alteración de la permeabilidad de la membrana celular, la disrupción progresiva de la envoltura celular y, finalmente, la muerte celular.» Texto original en inglés: "Tobramycin is an aminoglycoside antibacterial. […] Tobramycin is an aminoglycoside antibacterial produced by Streptomyces tenebrarius. It acts primarily by disrupting protein synthesis leading to altered cell membrane permeability, progressive disruption of the cell envelope, and eventual cell death." ([DailyMed: Tobi Podhaler (tobramycin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4b5bb1f-e158-4ac1-9c35-e98a416c743a), versión del 2026-04-15; consultado el 2026-11-19). Tobramicina es un aminoglucósido; esta clase inhibe la síntesis de proteínas bacterianas al unirse a la subunidad ribosomal 30S, y se usa por vía tópica en infecciones bacterianas oculares.
 
 La queratitis por exposición se produce por sequedad de la córnea cuando los párpados no cierran bien. Esa superficie dañada tiene riesgo de infección bacteriana secundaria, por lo que un antibiótico tópico podría servir como profilaxis o para tratar una sobreinfección. Este es un razonamiento plausible, pero no está demostrado.
 
@@ -110,6 +110,19 @@ No hay ensayos clínicos ni estudios que evalúen tobramicina en la queratitis p
 - Completar los datos del mecanismo de acción
 - Revisar la seguridad epitelial de tobramicina tópica en córneas con epitelio comprometido
 - Buscar o realizar estudios clínicos que evalúen la profilaxis antibiótica en la queratitis por exposición
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tobi Podhaler (tobramycin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4b5bb1f-e158-4ac1-9c35-e98a416c743a) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

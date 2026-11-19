@@ -60,7 +60,7 @@ Actualmente **no hay ensayos clínicos ni publicaciones** que respalden directam
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, salbutamol es un agonista del receptor beta-2 adrenérgico, clase que produce relajación del músculo liso bronquial y puede reducir la liberación de mediadores desde los mastocitos.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Salbutamol (traducción no oficial): «El sulfato de salbutamol es un agonista beta 2 -adrenérgico. Los efectos farmacológicos del sulfato de salbutamol se atribuyen a la activación de los receptores beta 2 -adrenérgicos del músculo liso de las vías respiratorias. La activación de los receptores beta 2 -adrenérgicos produce la activación de la adenilciclasa y un aumento de la concentración intracelular de 3',5'-adenosín monofosfato cíclico (AMP cíclico).» Texto original en inglés: "Albuterol sulfate is a beta 2 -adrenergic agonist. The pharmacologic effects of albuterol sulfate are attributable to activation of beta 2 -adrenergic receptors on airway smooth muscle. Activation of beta 2 -adrenergic receptors leads to the activation of adenylcyclase and to an increase in the intracellular concentration of cyclic-3', 5’-adenosine monophosphate (cyclic AMP)." ([DailyMed: Albuterol Sulfate Inhalation (albuterol sulfate) prescribing information, Amneal Pharmaceuticals NY LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e449282-ee58-4e36-b983-85c4e6f0864d), versión del 2024-12-20; consultado el 2026-11-19). Según la información conocida, salbutamol es un agonista del receptor beta-2 adrenérgico, clase que produce relajación del músculo liso bronquial y puede reducir la liberación de mediadores desde los mastocitos.
 
 Mecanísticamente, un efecto beta-2 sobre los mastocitos conjuntivales o sobre la vasculatura ocular es teóricamente plausible, ya que la conjuntivitis papilar tiene un componente alérgico/inflamatorio mediado en parte por mastocitos. Sin embargo, este vínculo es solo una hipótesis: no hay ensayos clínicos ni literatura que evalúen salbutamol en esta enfermedad.
 
@@ -119,6 +119,19 @@ La predicción se apoya únicamente en el puntaje del modelo (0.9999), sin ensay
 - Evaluación de viabilidad de una vía de administración oftálmica, ya que las presentaciones disponibles en Argentina son inhaladas, nebulizadas o en gotas orales/de inhalación
 - Revisión de advertencias y contraindicaciones del prospecto de ANMAT
 - Evaluación específica de seguridad ocular (glaucoma de ángulo cerrado, hipertensión ocular)
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Albuterol Sulfate Inhalation (albuterol sulfate) prescribing information, Amneal Pharmaceuticals NY LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e449282-ee58-4e36-b983-85c4e6f0864d) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

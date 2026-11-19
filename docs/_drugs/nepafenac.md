@@ -58,7 +58,7 @@ Nepafenac es un antiinflamatorio no esteroideo (AINE) de uso tópico oftálmico,
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos. Según la información compilada, nepafenac es un profármaco que los tejidos oculares convierten, mediante hidrolasas, en amfenac, un inhibidor de COX-1 y COX-2. Al reducirse la síntesis de prostaglandinas, disminuyen la inflamación ocular, el dolor y la ruptura de la barrera hematorretiniana.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Nepafenac (traducción no oficial): «Después de la administración ocular tópica, el nepafenaco penetra en la córnea y es convertido por las hidrolasas del tejido ocular en amfenaco, un AINE. Se cree que el nepafenaco y el amfenaco inhiben la acción de la prostaglandina H sintasa (ciclooxigenasa), una enzima necesaria para la producción de prostaglandinas.» Texto original en inglés: "After topical ocular dosing, nepafenac penetrates the cornea and is converted by ocular tissue hydrolases to amfenac, a NSAID. Nepafenac and amfenac are thought to inhibit the action of prostaglandin H synthase (cyclooxygenase), an enzyme required for prostaglandin production." ([DailyMed: Ilevro (nepafenac) prescribing information, Harrow Eye, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10f411d3-a81e-074a-e063-6294a90ab547), versión del 2026-04-01; consultado el 2026-11-19). Según la información compilada, nepafenac es un profármaco que los tejidos oculares convierten, mediante hidrolasas, en amfenac, un inhibidor de COX-1 y COX-2. Al reducirse la síntesis de prostaglandinas, disminuyen la inflamación ocular, el dolor y la ruptura de la barrera hematorretiniana.
 
 Este mecanismo concuerda con su uso comercializado en la inflamación y el dolor posteriores a la cirugía de catarata, y con la evidencia de penetración al segmento posterior del ojo. Por ello, la predicción de "enfermedad ocular" es coherente, pero tan general que coincide en buena medida con el uso oftálmico ya establecido. Las subindicaciones específicas (por ejemplo, edema macular o inflamación posvitrectomía) deberían evaluarse por separado.
 
@@ -137,6 +137,19 @@ Existen múltiples ensayos de Fase 3 completados, con cientos de participantes, 
 - Definir subindicaciones concretas (por ejemplo, edema macular diabético, inflamación posvitrectomía) y evaluarlas individualmente.
 - Revisar con especial cuidado las contraindicaciones del grafo de conocimiento (queratitis, úlcera corneal, ojo seco, diabetes), dado el riesgo descrito de afectación corneal.
 - Confirmar el texto de la indicación aprobada en la licencia 38114.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Ilevro (nepafenac) prescribing information, Harrow Eye, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10f411d3-a81e-074a-e063-6294a90ab547) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

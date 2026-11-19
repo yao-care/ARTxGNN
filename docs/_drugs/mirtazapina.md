@@ -57,7 +57,7 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por conocimiento general, la mirtazapina antagoniza los receptores adrenérgicos alfa-2, 5-HT2A/2C, 5-HT3 y H1.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Mirtazapina (traducción no oficial): «El mecanismo de acción de la mirtazapina en el tratamiento del trastorno depresivo mayor no está claro. Sin embargo, su eficacia podría estar mediada por su actividad como antagonista de los autorreceptores y heterorreceptores inhibidores α 2 -adrenérgicos presinápticos centrales y por la potenciación de la actividad noradrenérgica y serotoninérgica central.» Texto original en inglés: "The mechanism of action of mirtazapine for the treatment of major depressive disorder, is unclear. However, its efficacy could be mediated through its activity as an antagonist at central presynaptic α 2 -adrenergic inhibitory autoreceptors and heteroreceptors and enhancing central noradrenergic and serotonergic activity." ([DailyMed: Remeronsoltab (mirtazapine) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98ad1917-a094-44f5-a28f-a64a8cfcd887), versión del 2025-08-06; consultado el 2026-11-19). Por conocimiento general, la mirtazapina antagoniza los receptores adrenérgicos alfa-2, 5-HT2A/2C, 5-HT3 y H1.
 
 El síndrome de Ohdo es un trastorno genético raro asociado a variantes de *KAT6B* y a la regulación de la cromatina y la transcripción. A partir de la información disponible no se puede establecer una conexión biológica plausible entre los receptores sobre los que actúa la mirtazapina y la fisiopatología de esta enfermedad.
 
@@ -98,6 +98,19 @@ La predicción no cuenta con ensayos clínicos ni publicaciones, y no se identif
 - Obtener el prospecto de ANMAT con advertencias y contraindicaciones para completar la evaluación de seguridad.
 - Completar los datos del mecanismo de acción.
 - Identificar estudios preclínicos o de mecanismo que vinculen la mirtazapina con la fisiopatología del síndrome de Ohdo (variantes de *KAT6B*).
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Remeronsoltab (mirtazapine) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98ad1917-a094-44f5-a28f-a64a8cfcd887) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

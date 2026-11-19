@@ -54,7 +54,7 @@ Levonorgestrel es un progestágeno sintético ampliamente utilizado en anticonce
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, levonorgestrel es un progestágeno que suprime la ovulación y modifica el moco cervical y el endometrio. Su vínculo con el acné pasa por el eje hormonal-androgénico de la unidad pilosebácea.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Levonorgestrel (traducción no oficial): «No se ha demostrado de manera concluyente el mecanismo local por el cual el LNG liberado de forma continua contribuye a la eficacia anticonceptiva de Skyla. Los estudios de Skyla y de prototipos similares de SIU de LNG han sugerido varios mecanismos que previenen el embarazo: el espesamiento del moco cervical, que impide el paso de los espermatozoides al útero; la inhibición de la capacitación o de la supervivencia de los espermatozoides, y la alteración del endometrio.» Texto original en inglés: "The local mechanism by which continuously released LNG contributes to the contraceptive effectiveness of Skyla has not been conclusively demonstrated. Studies of Skyla and similar LNG IUS prototypes have suggested several mechanisms that prevent pregnancy: thickening of cervical mucus preventing passage of sperm into the uterus, inhibition of sperm capacitation or survival, and alteration of the endometrium." ([DailyMed: Skyla (levonorgestrel) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f44ff35-e052-49cd-a1c2-0bfd87d49309), versión del 2026-03-04; consultado el 2026-11-19). Según la información conocida, levonorgestrel es un progestágeno que suprime la ovulación y modifica el moco cervical y el endometrio. Su vínculo con el acné pasa por el eje hormonal-androgénico de la unidad pilosebácea.
 
 El acné depende en buena medida de los andrógenos, que estimulan la producción de sebo. Los anticonceptivos hormonales combinados pueden mejorarlo, sobre todo por el componente estrogénico: aumenta la globulina transportadora de hormonas sexuales (SHBG) y reduce la testosterona libre. Los progestágenos con acción antiandrogénica, como el acetato de clormadinona, también contribuyen. Una revisión publicada en *Drugs* (2004) señala que la combinación etinilestradiol/acetato de clormadinona fue más eficaz que etinilestradiol/levonorgestrel en acné papulopustular leve a moderado.
 
@@ -111,6 +111,18 @@ Existe un ensayo aleatorizado controlado con placebo que estudia directamente el
 - Datos detallados del mecanismo de acción.
 - Revisión del prospecto aprobado en Argentina para completar advertencias y contraindicaciones.
 - Plan de monitoreo de seguridad, en particular por interacciones con antidiabéticos e insulinas.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Skyla (levonorgestrel) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f44ff35-e052-49cd-a1c2-0bfd87d49309) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

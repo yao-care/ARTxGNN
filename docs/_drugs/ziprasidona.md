@@ -57,7 +57,7 @@ Sin embargo, actualmente **no hay ensayos clínicos ni publicaciones** que respa
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por lo conocido de su clase, ziprasidona antagoniza los receptores de dopamina D2 y de serotonina 5-HT2A, y tiene además acción agonista sobre 5-HT1A.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ziprasidona (traducción no oficial): «El mecanismo de acción de la ziprasidona en el tratamiento de las indicaciones enumeradas podría estar mediado por una combinación de antagonismo de los receptores de dopamina tipo 2 (D 2 ) y de serotonina tipo 2 (5HT 2 ).» Texto original en inglés: "The mechanism of action of ziprasidone in the treatment of the listed indications could be mediated through a combination of dopamine type 2 (D 2 ) and serotonin type 2 (5HT 2 ) antagonism." ([DailyMed: Ziprasidone Mesylate 20 Mg/Ml (ziprasidone mesylate) prescribing information, Armas Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c5c27f0f-4e45-4bca-bb9a-2d3f1c243348), versión del 2026-09-18; consultado el 2026-11-19). Por lo conocido de su clase, ziprasidona antagoniza los receptores de dopamina D2 y de serotonina 5-HT2A, y tiene además acción agonista sobre 5-HT1A.
 
 Mecanísticamente, el bloqueo dopaminérgico y serotoninérgico podría guardar relación con trastornos compulsivos o de hábitos, como la tricotilomanía. No obstante, esta hipótesis es especulativa: ningún dato recopilado la respalda, y no se ha evaluado la similitud con la indicación original.
 
@@ -96,6 +96,19 @@ La predicción principal no cuenta con ningún estudio que evalúe directamente 
 - Búsqueda dirigida de estudios sobre tricotilomanía y trastornos de hábitos con antipsicóticos atípicos
 - Prospecto de ANMAT con advertencias y contraindicaciones para el análisis de seguridad
 - Si surge evidencia preliminar, estudios exploratorios antes de considerar un ensayo clínico
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Ziprasidone Mesylate 20 Mg/Ml (ziprasidone mesylate) prescribing information, Armas Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c5c27f0f-4e45-4bca-bb9a-2d3f1c243348) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

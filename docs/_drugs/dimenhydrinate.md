@@ -56,7 +56,7 @@ pero actualmente solo se dispone de **1 publicación** indirecta (un estudio far
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone de datos detallados del mecanismo de acción en los datos compilados para este informe. Según la información conocida, el dimenhidrinato es una sal de difenhidramina y 8-cloroteofilina; la difenhidramina es un antagonista del receptor H1 de primera generación.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Dimenhydrinate (traducción no oficial): «Aunque se desconoce el modo de acción preciso del dimenhidrinato, este tiene una acción depresora sobre la función laberíntica hiperestimulada.» Texto original en inglés: "While the precise mode of action of dimenhydrinate is not known, it has a depressant action on hyperstimulated labyrinthine function." ([DailyMed: dimenhydrinate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bc71539e-1a33-4709-8a24-c2894e8dbc1c), versión del 2025-01-15; consultado el 2026-11-19). Según la información conocida, el dimenhidrinato es una sal de difenhidramina y 8-cloroteofilina; la difenhidramina es un antagonista del receptor H1 de primera generación.
 
 La urticaria está mediada en gran parte por la histamina liberada de los mastocitos (ronchas, eritema y prurito). El bloqueo H1 es un mecanismo bien establecido para aliviar estos síntomas, por lo que la predicción es mecanísticamente coherente.
 
@@ -100,6 +100,19 @@ La predicción es mecanísticamente plausible, pero no hay ensayos clínicos y l
 - Datos de advertencias y contraindicaciones del prospecto de ANMAT
 - Datos detallados del mecanismo de acción
 - Comparación de eficacia y tolerabilidad (sedación, efecto anticolinérgico) frente a antihistamínicos de segunda generación
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: dimenhydrinate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bc71539e-1a33-4709-8a24-c2894e8dbc1c) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

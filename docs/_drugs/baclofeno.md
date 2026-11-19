@@ -55,7 +55,7 @@ Baclofeno es un agonista del receptor GABA-B que cuenta con autorizaciones vigen
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción del fármaco en los datos compilados para este informe. Según la información conocida, baclofeno es un agonista del receptor GABA-B.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Baclofeno (traducción no oficial): «El mecanismo de acción preciso del baclofeno no se comprende por completo. El baclofeno inhibe los reflejos tanto monosinápticos como polisinápticos a nivel espinal, posiblemente al disminuir la liberación de neurotransmisores excitadores desde las terminales aferentes, aunque también pueden producirse acciones en sitios supraespinales que contribuyan a su efecto clínico.» Texto original en inglés: "The precise mechanism of action of baclofen is not fully understood. Baclofen inhibits both monosynaptic and polysynaptic reflexes at the spinal level, possibly by decreasing excitatory neurotransmitter release from afferent terminals, although actions at supraspinal sites may also occur and contribute to its clinical effect." ([DailyMed: Lyvispah (baclofen) prescribing information, Anvi Pharmaceuticals Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b13c40d-a109-f838-e063-6294a90aecf2), versión del 2026-09-22; consultado el 2026-11-19). Según la información conocida, baclofeno es un agonista del receptor GABA-B.
 
 Una hipótesis plausible, pero no demostrada, es que la activación de GABA-B atenúe la señalización dopaminérgica y glutamatérgica mesolímbica y cortical, lo que podría reducir la impulsividad. Esta es una extrapolación mecanística y no cuenta con respaldo clínico directo.
 
@@ -106,6 +106,19 @@ El puntaje del modelo es alto (0,9932), pero es una predicción computacional si
 - Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones) de baclofeno
 - Estudios preclínicos o clínicos que evalúen directamente baclofeno en TDAH
 - Evaluación de la sedación y los efectos cognitivos en niños y adultos con TDAH antes de cualquier ensayo
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Lyvispah (baclofen) prescribing information, Anvi Pharmaceuticals Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b13c40d-a109-f838-e063-6294a90aecf2) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

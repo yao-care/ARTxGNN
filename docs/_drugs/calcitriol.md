@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **Deficiencia de vitamina 
 
 ## Por qué es Razonable esta Predicción
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, calcitriol es la forma activa (1,25-dihidroxivitamina D3) de la vitamina D y actúa sobre el metabolismo del calcio y del fosfato.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Calcitriol (traducción no oficial): «La síntesis endógena y el catabolismo del calcitriol, así como los mecanismos de control fisiológico que afectan a estos procesos, desempeñan un papel fundamental en la regulación de la concentración sérica de calcitriol. La producción diaria fisiológica es normalmente de 0.5 a 1.0 mcg y es algo mayor durante los períodos de aumento de la síntesis ósea (p. ej., crecimiento o embarazo).» Texto original en inglés: "Endogenous synthesis and catabolism of calcitriol, as well as physiological control mechanisms affecting these processes, play a critical role regulating the serum level of calcitriol. Physiological daily production is normally 0.5 to 1.0 mcg and is somewhat higher during periods of increased bone synthesis (eg, growth or pregnancy)." ([DailyMed: calcitriol prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=45f78bbe-4bbc-404d-a061-ead3db50908e), versión del 2026-10-15; consultado el 2026-11-19). Según la información conocida, calcitriol es la forma activa (1,25-dihidroxivitamina D3) de la vitamina D y actúa sobre el metabolismo del calcio y del fosfato.
 
 Dado que calcitriol es el metabolito activo de la vitamina D, una predicción relacionada con la deficiencia de vitamina D es biológicamente verosímil. Sin embargo, el término de la enfermedad está marcado como obsoleto, por lo que probablemente corresponde a una entrada desactualizada de la ontología y no a una entidad clínica vigente.
 
@@ -98,6 +98,19 @@ La predicción principal no cuenta con ensayos clínicos ni literatura, el térm
 - Aclarar a qué entidad clínica vigente corresponde el término obsoleto de la predicción.
 - Estudios o literatura que evalúen directamente calcitriol en esa condición frente a colecalciferol o ergocalciferol.
 - Datos del mecanismo de acción y del prospecto local (advertencias y contraindicaciones).
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: calcitriol prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=45f78bbe-4bbc-404d-a061-ead3db50908e) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

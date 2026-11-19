@@ -64,7 +64,7 @@ Orlistat inhibe las lipasas gástrica y pancreática y reduce la absorción de g
 
 La relación con la nueva indicación es, por lo tanto, indirecta: una menor absorción de vitaminas liposolubles (sobre todo A y D) podría, en teoría, limitar su acumulación en casos de exceso. Es un mecanismo plausible pero no validado. Además, la hipervitaminosis suele deberse a suplementación excesiva, por lo que el manejo principal sería suspender el suplemento y cualquier beneficio de orlistat probablemente sería modesto y secundario.
 
-Cabe señalar que los datos detallados del mecanismo de acción no estaban disponibles en los datos compilados para este informe; la explicación anterior se basa en el conocimiento farmacológico general. El puntaje alto de TxGNN (0.9942) es solo una predicción del modelo. Además, el efecto malabsortivo de orlistat podría agregar riesgo en pacientes que necesitan mantener niveles adecuados de vitaminas.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Orlistat (traducción no oficial): «El orlistat es un inhibidor reversible de las lipasas gastrointestinales. Ejerce su actividad terapéutica en la luz del estómago y del intestino delgado mediante la formación de un enlace covalente con el sitio del residuo de serina activo de las lipasas gástrica y pancreática.» Texto original en inglés: "Orlistat is a reversible inhibitor of gastrointestinal lipases. It exerts its therapeutic activity in the lumen of the stomach and small intestine by forming a covalent bond with the active serine residue site of gastric and pancreatic lipases." ([DailyMed: Xenical (orlistat) prescribing information, H2-Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6240792b-9224-2d10-e053-2a91aa0a2c3e), versión del 2026-09-30; consultado el 2026-11-19). El puntaje alto de TxGNN (0.9942) es solo una predicción del modelo. Además, el efecto malabsortivo de orlistat podría agregar riesgo en pacientes que necesitan mantener niveles adecuados de vitaminas.
 
 ---
 
@@ -118,6 +118,19 @@ La predicción se apoya solo en el modelo (L5), sin ensayos clínicos ni literat
 - Advertencias y contraindicaciones del prospecto de ANMAT
 - Evidencia preclínica o clínica que demuestre un beneficio real frente a suspender la suplementación
 - Evaluación de la relación riesgo-beneficio en pacientes con riesgo de deficiencia vitamínica
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Xenical (orlistat) prescribing information, H2-Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6240792b-9224-2d10-e053-2a91aa0a2c3e) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -61,7 +61,7 @@ Los datos compilados no incluyen ensayos clínicos registrados. Sí incluyen **1
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la farmacología general, la nortriptilina es un antidepresivo tricíclico de amina secundaria. Inhibe de forma relativamente selectiva la recaptación de noradrenalina y, en menor medida, la de serotonina. Su actividad anticolinérgica, antihistamínica y alfa-adrenérgica contribuye a su perfil de efectos adversos. Esta descripción es una inferencia basada en conocimiento general y no proviene de los datos suministrados.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Nortriptilina (traducción no oficial): «El mecanismo de elevación del estado de ánimo de los antidepresivos tricíclicos se desconoce actualmente. Pamelor no es un inhibidor de la monoaminooxidasa. Inhibe la actividad de agentes tan diversos como la histamina, la 5-hidroxitriptamina y la acetilcolina.» Texto original en inglés: "The mechanism of mood elevation by tricyclic antidepressants is at present unknown. Pamelor is not a monoamine oxidase inhibitor. It inhibits the activity of such diverse agents as histamine, 5-hydroxytryptamine, and acetylcholine." ([DailyMed: Pamelor (nortriptyline hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e17dc299-f52d-414d-ab6e-e809bd6f8acb), versión del 2024-12-04; consultado el 2026-11-19). Según la farmacología general, la nortriptilina es un antidepresivo tricíclico de amina secundaria. Inhibe de forma relativamente selectiva la recaptación de noradrenalina y, en menor medida, la de serotonina. Su actividad anticolinérgica, antihistamínica y alfa-adrenérgica contribuye a su perfil de efectos adversos. Esta descripción es una inferencia basada en conocimiento general y no proviene de los datos suministrados.
 
 La señal noradrenérgica reforzada en los circuitos prefrontales es la misma vía que utilizan fármacos no estimulantes aprobados para el TDAH, como la atomoxetina. Una revisión de 2004 señala que los compuestos con actividad anti-TDAH documentada comparten una actividad noradrenérgica/dopaminérgica. También indica que los tricíclicos de amina secundaria, como la desipramina y la nortriptilina, son tratamientos alternativos establecidos, aunque su estrecho margen terapéutico y su posible toxicidad cardiovascular han limitado su uso. Un estudio de tomografía por emisión de positrones (PET) de 2014 mostró además que la nortriptilina ocupa el transportador de noradrenalina en pacientes, lo que respalda la plausibilidad del mecanismo.
 
@@ -130,6 +130,19 @@ Existe un ensayo controlado en TDAH pediátrico, otro ensayo aleatorizado doble 
 - Revisar en detalle los resultados y el diseño del ensayo controlado de 2000 y de la revisión Cochrane, ya que los resúmenes disponibles son parciales.
 - Definir un plan de monitoreo cardiovascular (electrocardiograma y niveles séricos) para las poblaciones objetivo.
 - Verificar si existen ensayos clínicos recientes en registros internacionales.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Pamelor (nortriptyline hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e17dc299-f52d-414d-ab6e-e809bd6f8acb) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

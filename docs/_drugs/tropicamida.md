@@ -56,7 +56,7 @@ El modelo TxGNN predice que podría ser efectivo para **síndrome de la cola de 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-La tropicamida es un antagonista muscarínico no selectivo (M1–M5) que se usa en el ojo. Los datos detallados sobre su mecanismo de acción no están disponibles en la información compilada para este informe, lo que limita la validación mecanística.
+La tropicamida es un antagonista muscarínico no selectivo (M1–M5) que se usa en el ojo. Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Tropicamida (traducción no oficial): «Esta preparación anticolinérgica bloquea las respuestas del músculo esfínter del iris y del músculo ciliar a la estimulación colinérgica, lo que dilata la pupila (midriasis). La preparación más concentrada (1%) también paraliza la acomodación.» Texto original en inglés: "This anticholinergic preparation blocks the responses of the sphincter muscle of the iris and the ciliary muscle to cholinergic stimulation, dilating the pupil (mydriasis). The stronger preparation (1%) also paralyzes accommodation." ([DailyMed: Mydriacyl (tropicamide) prescribing information, Alcon Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d4f4a2e-eb00-4c65-b3fa-baf5738d468d), versión del 2023-02-15; consultado el 2026-11-19).
 
 El puntaje del modelo es muy alto (0,9953), pero probablemente refleja la cercanía en la red con fármacos anticolinérgicos usados en la disfunción neurogénica de vejiga o intestino asociada al síndrome de la cola de caballo. No hay datos clínicos ni mecanísticos que respalden a la tropicamida para la patología neurológica de fondo.
 
@@ -94,6 +94,19 @@ La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínico
 - Advertencias y contraindicaciones del prospecto de ANMAT.
 - Caracterización de la exposición sistémica y de la vejiga tras la administración.
 - Estudios que evalúen directamente esta enfermedad.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Mydriacyl (tropicamide) prescribing information, Alcon Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d4f4a2e-eb00-4c65-b3fa-baf5738d468d) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

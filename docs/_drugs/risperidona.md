@@ -56,7 +56,7 @@ El modelo TxGNN predice que podría ser efectivo para la **síndrome de parális
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por conocimiento general, risperidona bloquea receptores dopaminérgicos D2 y serotoninérgicos 5-HT2A.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Risperidona (traducción no oficial): «Se desconoce el mecanismo de acción de la risperidona en la esquizofrenia. La actividad terapéutica del fármaco en la esquizofrenia podría estar mediada por una combinación de antagonismo de los receptores de dopamina tipo 2 (D 2 ) y de serotonina tipo 2 (5HT 2 ).» Texto original en inglés: "The mechanism of action of risperidone in schizophrenia is unclear. The drug's therapeutic activity in schizophrenia could be mediated through a combination of dopamine Type 2 (D 2 ) and serotonin Type 2 (5HT 2 ) receptor antagonism." ([DailyMed: Risperdal (risperidone) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e117c7e-02fc-4343-92a1-230061dfc5e0), versión del 2026-10-23; consultado el 2026-11-19). Por conocimiento general, risperidona bloquea receptores dopaminérgicos D2 y serotoninérgicos 5-HT2A.
 
 La enfermedad predicha es un trastorno del neurodesarrollo ultra raro, asociado a mutaciones en ROBO3, que afectan la guía axonal. No se identifica un vínculo mecanístico plausible entre el bloqueo D2/5-HT2A y esta patología, y no sería esperable que risperidona modifique la alteración de base ni sus manifestaciones motoras y esqueléticas.
 
@@ -97,6 +97,19 @@ La predicción carece de ensayos clínicos, de literatura y de un mecanismo plau
 - Datos del mecanismo de acción de risperidona (DrugBank) y análisis de su relación con la vía de ROBO3
 - Evidencia preclínica o clínica que estudie directamente esta enfermedad
 - Información de seguridad del prospecto de ANMAT (advertencias y contraindicaciones)
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Risperdal (risperidone) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e117c7e-02fc-4343-92a1-230061dfc5e0) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

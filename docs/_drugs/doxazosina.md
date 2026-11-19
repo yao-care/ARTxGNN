@@ -57,7 +57,7 @@ con **0 ensayos clínicos** y **1 publicación** (una revisión de 1997) que act
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Doxazosina bloquea de forma selectiva los receptores adrenérgicos alfa-1. Este bloqueo podría modular el tono vascular cerebral y la señalización noradrenérgica central, dos procesos que se vinculan con la fisiopatología de la migraña. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe, por lo que este razonamiento se basa en lo conocido sobre la clase farmacológica.
+Doxazosina bloquea de forma selectiva los receptores adrenérgicos alfa-1. Este bloqueo podría modular el tono vascular cerebral y la señalización noradrenérgica central, dos procesos que se vinculan con la fisiopatología de la migraña. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Doxazosina (traducción no oficial): «Hiperplasia prostática benigna (HPB) Los síntomas asociados a la hiperplasia prostática benigna (HPB), como la polaquiuria, la nicturia, el chorro débil, la dificultad para iniciar la micción y el vaciado incompleto, están relacionados con dos componentes, uno anatómico (estático) y otro funcional (dinámico). El componente estático está relacionado con un aumento del tamaño de la próstata causado, en parte, por una proliferación de células de músculo liso en el estroma prostático. […] Los estudios en sujetos humanos sanos han demostrado que la doxazosina antagonizó de forma competitiva los efectos presores de la fenilefrina (un agonista alfa 1) y el efecto presor sistólico de la norepinefrina.» Texto original en inglés: "Benign Prostatic Hyperplasia (BPH) The symptoms associated with benign prostatic hyperplasia (BPH), such as urinary frequency, nocturia, weak stream, hesitancy, and incomplete emptying are related to two components, anatomical (static) and functional (dynamic). The static component is related to an increase in prostate size caused, in part, by a proliferation of smooth muscle cells in the prostatic stroma. […] Studies in normal human subjects have shown that doxazosin competitively antagonized the pressor effects of phenylephrine (an alpha 1 agonist) and the systolic pressor effect of norepinephrine." ([DailyMed: Cardura (doxazosin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5e1f5e49-2da1-43ab-9795-228a8bcc5a82), versión del 2023-10-15; consultado el 2026-11-19).
 
 El único respaldo es una revisión de 1997 que comenta el posible papel de los bloqueantes alfa-1 en la profilaxis de la migraña, con una pequeña serie de 10 pacientes tratados con terazosina o doxazosina. Los bloqueantes alfa-1 no son profilácticos establecidos de la migraña, por lo que el mecanismo sigue siendo hipotético y el puntaje alto del modelo (0,9920) no está validado por estudios clínicos.
 
@@ -91,6 +91,19 @@ La evidencia se limita a una revisión antigua basada en una serie muy pequeña,
 - Datos detallados del mecanismo de acción
 - Estudios controlados que evalúen la doxazosina en la profilaxis de la migraña
 - Evaluación de tolerabilidad, dado que la mitad de los pacientes de la serie suspendió el fármaco por efectos secundarios
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Cardura (doxazosin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5e1f5e49-2da1-43ab-9795-228a8bcc5a82) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

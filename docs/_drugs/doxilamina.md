@@ -56,7 +56,7 @@ El modelo TxGNN predice que podría ser efectivo para **enfermedad de la cavidad
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción de la doxilamina en los datos compilados. Según lo conocido de su clase, es un antihistamínico H1 de primera generación (etanolamina) con actividad anticolinérgica marcada.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para doxylamine succinate and pyridoxine hydrochloride, delayed release tablets 10 mg/10 mg (combinación que contiene Doxilamina) (traducción no oficial): «Se desconoce el mecanismo de acción del succinato de doxilamina y el clorhidrato de piridoxina.» Texto original en inglés: "The mechanism of action of doxylamine succinate and pyridoxine hydrochloride is unknown." ([DailyMed: Doxylamine Succinate And Pyridoxine Hydrochloride (doxylamine succinate and pyridoxine hydrochloride, delayed release tablets 10 mg/10 mg) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de265fd1-bc22-4da1-aab5-b5fedd649c8b), versión del 2026-08-24; consultado el 2026-11-19). Según lo conocido de su clase, es un antihistamínico H1 de primera generación (etanolamina) con actividad anticolinérgica marcada.
 
 Mecanísticamente, el bloqueo de los receptores H1 en la mucosa nasal podría reducir la rinorrea, los estornudos, el prurito y la congestión mediados por histamina, como ocurre en la rinitis alérgica. Su efecto anticolinérgico podría además disminuir las secreciones nasales, por ejemplo en la rinorrea asociada al resfriado común.
 
@@ -96,6 +96,19 @@ La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínico
 - Revisión de literatura y ensayos específicos sobre doxilamina en enfermedades nasales
 - Comparación frente a antihistamínicos de segunda generación y corticoides intranasales
 - Evaluación de compatibilidad de vía de administración y similitud con la indicación original
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Doxylamine Succinate And Pyridoxine Hydrochloride (doxylamine succinate and pyridoxine hydrochloride, delayed release tablets 10 mg/10 mg) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de265fd1-bc22-4da1-aab5-b5fedd649c8b) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

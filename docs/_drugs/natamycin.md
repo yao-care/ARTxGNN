@@ -56,7 +56,7 @@ Los datos compilados no incluyen ningún estudio que evalúe directamente la vul
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según lo conocido, la natamicina es un antifúngico polieno que se une al ergosterol de la membrana de los hongos y altera su integridad. Esto explica su actividad contra hongos y levaduras.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Natamycin es (traducción no oficial): «Agente secuestrante de ergosterol» Texto original en inglés: "Ergosterol sequestering agent" ([ChEMBL CHEMBL1200656 (natamycin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200656), CC BY-SA 3.0; consultado el 2026-11-19). Según lo conocido, la natamicina es un antifúngico polieno que se une al ergosterol de la membrana de los hongos y altera su integridad. Esto explica su actividad contra hongos y levaduras.
 
 La vulvitis puede ser la manifestación vulvar de una infección fúngica. En ese escenario, un antifúngico de este tipo podría tener un fundamento mecanístico razonable.
 
@@ -95,6 +95,18 @@ No existe ningún estudio que evalúe directamente la vulvitis, por lo que el ni
 - Estudios clínicos o publicaciones que evalúen directamente la vulvitis con natamicina, definiendo la causa (fúngica o no fúngica).
 - Datos del mecanismo de acción y de seguridad a partir del prospecto aprobado por ANMAT.
 - Evaluación de la formulación y la vía de administración adecuadas para uso vulvar.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL1200656 (natamycin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200656) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

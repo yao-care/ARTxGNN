@@ -57,7 +57,7 @@ Para esta indicación **no hay ensayos clínicos ni publicaciones** que respalde
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. En general, aripiprazol se describe como agonista parcial de los receptores dopaminérgicos D2 y serotoninérgicos 5-HT1A, y antagonista de 5-HT2A.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Aripiprazol (traducción no oficial): «Se desconoce el mecanismo de acción del aripiprazol en el tratamiento de la esquizofrenia y del trastorno bipolar I. La eficacia del aripiprazol podría estar mediada por una combinación de actividad agonista parcial en los receptores de dopamina D 2 y de serotonina 5-HT 1A y actividad antagonista en los receptores 5-HT 2A.» Texto original en inglés: "The mechanism of action of aripiprazole in the treatment of schizophrenia and bipolar I disorder is unknown. The efficacy of aripiprazole could be mediated through a combination of partial agonist activity at dopamine D 2 and serotonin 5-HT 1A receptors and antagonist activity at 5-HT 2A receptors." ([DailyMed: Abilify Asimtufii (aripiprazole) prescribing information, Otsuka America Pharmaceutical, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da4c07fd-1130-4341-bb44-63acfa4162be), versión del 2025-04-04; consultado el 2026-11-19). En general, aripiprazol se describe como agonista parcial de los receptores dopaminérgicos D2 y serotoninérgicos 5-HT1A, y antagonista de 5-HT2A.
 
 La enfermedad predicha es un trastorno neurológico y del desarrollo extremadamente raro, relacionado con el gen ROBO3. A partir de los datos disponibles no se identifica un vínculo mecanístico plausible entre la farmacología dopaminérgica o serotoninérgica de aripiprazol y la fisiopatología de esta condición.
 
@@ -99,6 +99,19 @@ La predicción no cuenta con ensayos clínicos, literatura ni un mecanismo plaus
 - Estudios preclínicos o series de casos que examinen aripiprazol en esta condición.
 - Advertencias y contraindicaciones del prospecto de ANMAT para completar la evaluación de seguridad.
 - Un análisis de la relevancia clínica de un tratamiento farmacológico para una enfermedad con base estructural y genética, como la asociada a ROBO3.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Abilify Asimtufii (aripiprazole) prescribing information, Otsuka America Pharmaceutical, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da4c07fd-1130-4341-bb44-63acfa4162be) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -56,7 +56,7 @@ pero actualmente no hay ensayos clínicos registrados y solo existe un estudio p
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Los datos de mecanismo de acción no están disponibles en forma detallada en la información compilada para este informe. Con base en el conocimiento general, ramipril inhibe la ECA y reduce la formación de angiotensina II, un vasoconstrictor que participa en la remodelación vascular.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ramipril (traducción no oficial): «El ramipril y el ramiprilato inhiben la ECA en seres humanos y en animales. La enzima convertidora de angiotensina es una peptidil dipeptidasa que cataliza la conversión de la angiotensina I en la sustancia vasoconstrictora angiotensina II. La angiotensina II también estimula la secreción de aldosterona por la corteza suprarrenal.» Texto original en inglés: "Ramipril and ramiprilat inhibit ACE in human subjects and animals. Angiotensin converting enzyme is a peptidyl dipeptidase that catalyzes the conversion of angiotensin I to the vasoconstrictor substance, angiotensin II. Angiotensin II also stimulates aldosterone secretion by the adrenal cortex." ([DailyMed: ramipril prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=245d3580-77c6-4c0f-b324-c8514b792c59), versión del 2026-11-11; consultado el 2026-11-19). Con base en el conocimiento general, ramipril inhibe la ECA y reduce la formación de angiotensina II, un vasoconstrictor que participa en la remodelación vascular.
 
 Un estudio preclínico de 1996 (PMID 9200213) en ratas expuestas a hipoxia crónica durante tres semanas y tratadas con ramipril (10 mg/kg diarios) mostró menor presión de perfusión basal en el pulmón aislado. Esto sugiere que la inhibición de la ECA atenúa los efectos de la hipoxia crónica sobre los vasos pulmonares, lo que respalda el vínculo mecanístico con esta predicción.
 
@@ -109,6 +109,19 @@ La predicción se apoya en un único estudio preclínico en ratas sobre hipoxia 
 - Revisión del prospecto de ANMAT (advertencias y contraindicaciones), aún pendiente
 - Estudios preclínicos adicionales y, de ser posibles, estudios clínicos en pacientes con hipertensión pulmonar asociada a enfermedad pulmonar o hipoxia
 - Evaluación de seguridad en esta población, especialmente en cuanto a hipotensión y función renal
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: ramipril prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=245d3580-77c6-4c0f-b324-c8514b792c59) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

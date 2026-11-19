@@ -56,7 +56,7 @@ El modelo TxGNN predice que podría ser efectiva para **hipotricosis congénita 
 
 ## ¿Por qué es razonable esta predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. En términos generales, la mesalazina es un aminosalicilato con acción antiinflamatoria (inhibición de vías de ciclooxigenasa y lipooxigenasa, activación de PPAR-gamma y modulación de NF-kB).
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Mesalazina (traducción no oficial): «El mecanismo de acción de la mesalamina no se conoce por completo, pero parece tener un efecto antiinflamatorio tópico sobre las células epiteliales del colon. La producción mucosa de metabolitos del ácido araquidónico, tanto por la vía de la ciclooxigenasa como por la de la lipooxigenasa, está aumentada en los pacientes con colitis ulcerosa, y es posible que la mesalamina disminuya la inflamación al bloquear la ciclooxigenasa e inhibir la producción de prostaglandinas en el colon.» Texto original en inglés: "The mechanism of action of mesalamine is not fully understood, but it appears to have a topical anti-inflammatory effect on the colonic epithelial cells. Mucosal production of arachidonic acid metabolites, both through the cyclooxygenase and lipoxygenase pathways, is increased in patients with ulcerative colitis, and it is possible that mesalamine diminishes inflammation by blocking cyclooxygenase and inhibiting prostaglandin production in the colon." ([DailyMed: Lialda (mesalamine) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3098a080-be86-4265-9818-7fc4beab77b7), versión del 2026-10-26; consultado el 2026-11-19). En términos generales, la mesalazina es un aminosalicilato con acción antiinflamatoria (inhibición de vías de ciclooxigenasa y lipooxigenasa, activación de PPAR-gamma y modulación de NF-kB).
 
 La enfermedad predicha es un trastorno monogénico ultra raro, asociado a mutaciones en CDH3 que afectan la adhesión celular. No se identifica un vínculo mecanístico plausible entre la acción antiinflamatoria de la mesalazina y esta fisiopatología.
 
@@ -98,6 +98,19 @@ La predicción se basa solo en el modelo computacional: no hay ensayos clínicos
 - Estudios preclínicos que respalden alguna relación biológica con esta enfermedad
 - Información de seguridad del prospecto de ANMAT (advertencias y contraindicaciones)
 - Evaluación de la compatibilidad de vías de administración, hoy pendiente
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Lialda (mesalamine) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3098a080-be86-4265-9818-7fc4beab77b7) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

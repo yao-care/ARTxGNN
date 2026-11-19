@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **conjuntivitis (conjuncti
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Rifampicina inhibe la ARN polimerasa dependiente de ADN de las bacterias. Tiene actividad contra bacterias Gram positivas, Chlamydia y otros patógenos oculares. Por ello, la actividad antibacteriana frente a una conjuntivitis infecciosa es biológicamente plausible. Actualmente no se dispone de datos detallados de mecanismo de acción en los datos compilados para este informe.
+Rifampicina inhibe la ARN polimerasa dependiente de ADN de las bacterias. Tiene actividad contra bacterias Gram positivas, Chlamydia y otros patógenos oculares. Por ello, la actividad antibacteriana frente a una conjuntivitis infecciosa es biológicamente plausible. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Rifampicin (traducción no oficial): «La rifampicina inhibe la actividad de la ARN polimerasa dependiente de ADN en los microorganismos sensibles de Mycobacterium tuberculosis. En concreto, interactúa con la ARN polimerasa bacteriana, pero no inhibe la enzima de los mamíferos.» Texto original en inglés: "Rifampin inhibits DNA-dependent RNA polymerase activity in susceptible Mycobacterium tuberculosis organisms. Specifically, it interacts with bacterial RNA polymerase but does not inhibit the mammalian enzyme." ([DailyMed: rifampin prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8be91604-d7cd-4f2b-997d-e3364e4092e5), versión del 2026-05-05; consultado el 2026-11-19).
 
 La señal clínica más cercana es un estudio controlado de 1975 en Túnez, con tetraciclina y rifampicina en ungüento tópico para tracoma endémico, una conjuntivitis por clamidia (PMID 1096630). También hay un ensayo abierto de 1977 con ungüento de rifampicina al 1 % frente a cloranfenicol en infección ocular por Chlamydia trachomatis, con 63 pacientes: un curso de 6 o 7 semanas logró alrededor de 90 % de curación clínica y microbiológica (PMID 322700).
 
@@ -115,6 +115,19 @@ La predicción es biológicamente plausible para conjuntivitis infecciosa, espec
 - Revisar el prospecto aprobado para obtener advertencias y contraindicaciones.
 - Comparar con los antibióticos tópicos habituales y con la resistencia actual.
 - Datos de mecanismo de acción y de seguridad ocular en uso tópico.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: rifampin prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8be91604-d7cd-4f2b-997d-e3364e4092e5) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

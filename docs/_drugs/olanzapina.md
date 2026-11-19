@@ -57,7 +57,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, olanzapina actúa como antagonista de los receptores dopaminérgicos D2 y serotoninérgicos 5-HT2A.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Olanzapina (traducción no oficial): «Se desconoce el mecanismo de acción de la olanzapina en las indicaciones enumeradas. Sin embargo, la eficacia de la olanzapina en la esquizofrenia podría estar mediada por una combinación de antagonismo de los receptores de dopamina y de serotonina tipo 2 (5HT 2 ).» Texto original en inglés: "The mechanism of action of olanzapine, in the listed indications, is unclear. However, the efficacy of olanzapine in schizophrenia could be mediated through a combination of dopamine and serotonin type 2 (5HT 2 ) antagonism." ([DailyMed: Weltruza (olanzapine) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a23e99c7-fb76-46d2-95af-e03d5a4d1f2c), versión del 2026-10-26; consultado el 2026-11-19). Según la información conocida, olanzapina actúa como antagonista de los receptores dopaminérgicos D2 y serotoninérgicos 5-HT2A.
 
 La torticolis paroxística benigna de la infancia es un trastorno pediátrico raro, relacionado con canalopatías (a menudo vinculado a CACNA1A), que suele resolverse de forma espontánea. La predicción parece originarse en la cercanía dentro de la red de relaciones con otros trastornos neurológicos o del movimiento, y no en una justificación farmacológica sólida.
 
@@ -100,6 +100,19 @@ La puntuación del modelo es alta, pero no existe ningún ensayo ni publicación
 - Evidencia directa (preclínica o clínica) sobre olanzapina en esta enfermedad
 - Datos del mecanismo de acción que justifiquen un vínculo farmacológico
 - Información de seguridad del prospecto de ANMAT (advertencias y contraindicaciones) y evaluación de seguridad pediátrica
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Weltruza (olanzapine) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a23e99c7-fb76-46d2-95af-e03d5a4d1f2c) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

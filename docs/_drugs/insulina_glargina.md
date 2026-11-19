@@ -59,7 +59,7 @@ Insulina glargina es un análogo de insulina de acción prolongada que se comerc
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Insulina glargina es un análogo de insulina de acción prolongada. Su acción conocida es metabólica, a través de la vía de señalización de la insulina.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Insulina Glargina (traducción no oficial): «La actividad principal de la insulina, incluidos los productos de insulina glargina, es la regulación del metabolismo de la glucosa. La insulina y sus análogos disminuyen la glucemia al estimular la captación periférica de glucosa, especialmente por el músculo esquelético y el tejido adiposo, y al inhibir la producción hepática de glucosa.» Texto original en inglés: "The primary activity of insulin, including insulin glargine products, is regulation of glucose metabolism. Insulin and its analogs lower blood glucose by stimulating peripheral glucose uptake, especially by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Langlara (insulin glargine-aldy) prescribing information, Lanexa Biologics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5328761e-59d3-ca7a-e063-6394a90ae810), versión del 2026-10-15; consultado el 2026-11-19). Insulina glargina es un análogo de insulina de acción prolongada. Su acción conocida es metabólica, a través de la vía de señalización de la insulina.
 
 El vínculo con la ooforitis autoinmune es plausible pero no está demostrado. Las enfermedades endocrinas autoinmunes suelen coexistir con la diabetes autoinmune y con vías relacionadas con la insulina. Sin embargo, no se conoce una acción inmunomoduladora directa de la insulina glargina sobre el tejido ovárico.
 
@@ -122,11 +122,12 @@ La predicción se apoya solo en el puntaje del modelo, sin ensayos clínicos ni 
 
 ## Registro de verificación
 
-A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de verificación | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-17 | «Todas … vigentes» → 3 de 4 siguen en el listado de PAMI | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Langlara (insulin glargine-aldy) prescribing information, Lanexa Biologics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5328761e-59d3-ca7a-e063-6394a90ae810) |
 
 <!-- review:end log -->
 

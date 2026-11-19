@@ -56,7 +56,7 @@ El modelo TxGNN predice que podría ser efectivo para **miasis (myiasis)**, con 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, la griseofulvina se une a la tubulina e inhibe la mitosis de las células fúngicas.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Griseofulvina (traducción no oficial): «El mecanismo de la griseofulvina consiste en la unión a proteínas microtubulares, que son necesarias para la mitosis. […] El mecanismo de la griseofulvina consiste en la unión a proteínas microtubulares, que son necesarias para la mitosis. Actividad in vivo La griseofulvina puede ser activa contra la mayoría de las cepas de los siguientes dermatofitos, según se describe en la sección INDICACIONES Y USO: Epidermophyton floccosum, Microsporum audouinii, Microsporum canis, Microsporum gypseum, Trichophyton crateriformis, Trichophyton gallinae, Trichophyton interdigitalis, Trichophyton megnini, Trichophyton mentagrophytes, Trichophyton rubrum, Trichophyton sulphureum, Trichophyton schoenleini, Trichophyton tonsurans y Trichophyton verrucosum.» Texto original en inglés: "The mechanism of griseofulvin consists of binding microtubular proteins, which are required for mitosis. […] The mechanism of griseofulvin consists of binding microtubular proteins, which are required for mitosis. Activity In Vivo Griseofulvin may be active against most strains of the following dermatophytes as described in the INDICATIONS AND USAGE section: Epidermophyton floccosum, Microsporum audouinii, Microsporum canis, Microsporum gypseum, Trichophyton crateriformis, Trichophyton gallinae, Trichophyton interdigitalis, Trichophyton megnini, Trichophyton mentagrophytes, Trichophyton rubrum, Trichophyton sulphureum, Trichophyton schoenleini, Trichophyton tonsurans and Trichophyton verrucosum." ([DailyMed: griseofulvin prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98829d90-b289-4bec-a625-7af412a5cb2d), versión del 2025-05-14; consultado el 2026-11-19). Según la información conocida, la griseofulvina se une a la tubulina e inhibe la mitosis de las células fúngicas.
 
 La miasis es una infestación por larvas de moscas (dípteros). Su tratamiento habitual consiste en la extracción de las larvas, el cuidado de la herida y, en algunos casos, ivermectina. No existe evidencia clínica ni preclínica que vincule a la griseofulvina con esta enfermedad.
 
@@ -92,6 +92,19 @@ La predicción se basa únicamente en el modelo, sin ensayos clínicos, literatu
 - Información de seguridad del prospecto de ANMAT (advertencias y contraindicaciones)
 - Estudios in vitro o preclínicos que muestren actividad contra larvas causantes de miasis
 - Revisión bibliográfica dirigida que identifique cualquier estudio directo sobre miasis
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: griseofulvin prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98829d90-b289-4bec-a625-7af412a5cb2d) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

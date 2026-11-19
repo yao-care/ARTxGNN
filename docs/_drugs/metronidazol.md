@@ -56,7 +56,7 @@ El modelo TxGNN predice que podría ser efectivo para **neumocistosis (pneumocys
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por conocimiento general, metronidazol es un profármaco nitroimidazólico que requiere reducción anaeróbica para activarse, por lo que actúa sobre bacterias anaerobias y protozoos.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Metronidazol (traducción no oficial): «El metronidazol, un nitroimidazol, ejerce efectos antibacterianos en un entorno anaerobio contra la mayoría de los anaerobios obligados. Una vez que el metronidazol ingresa en el microorganismo por difusión pasiva y se activa en el citoplasma de las bacterias anaerobias sensibles, se reduce; este proceso incluye donantes intracelulares de transporte de electrones, como la ferredoxina, y la transferencia de un electrón al grupo nitro del metronidazol, lo que conduce a la formación de un radical libre nitroso de vida corta.» Texto original en inglés: "Metronidazole, a nitroimidazole, exerts antibacterial effects in an anaerobic environment against most obligate anaerobes. Once metronidazole enters the organism by passive diffusion and activated in the cytoplasm of susceptible anaerobic bacteria, it is reduced; this process includes intra-cellular electron transport donors such as ferredoxin and transfer of an electron to the nitro group of the metronidazole leading to formation of a short-lived nitroso free radical." ([DailyMed: metronidazole prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49360d6f-c8b3-420e-af75-154cf7b05255), versión del 2026-11-02; consultado el 2026-11-19). Por conocimiento general, metronidazol es un profármaco nitroimidazólico que requiere reducción anaeróbica para activarse, por lo que actúa sobre bacterias anaerobias y protozoos.
 
 *Pneumocystis jirovecii* es un hongo y no posee la vía de activación por nitrorreductasa anaeróbica de la que depende metronidazol. Por ello, el mecanismo conocido del fármaco no es aplicable a esta enfermedad, y no se identifica un vínculo mecanístico plausible.
 
@@ -111,6 +111,19 @@ No existen ensayos clínicos ni estudios que evalúen metronidazol en neumocisto
 - Estudios preclínicos in vitro o en modelos animales que muestren actividad frente a *Pneumocystis*
 - Prospecto con advertencias y contraindicaciones de ANMAT para el análisis de seguridad
 - Comparación con el tratamiento estándar (trimetoprima-sulfametoxazol) antes de considerar cualquier estudio clínico
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: metronidazole prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49360d6f-c8b3-420e-af75-154cf7b05255) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

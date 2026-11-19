@@ -56,7 +56,7 @@ Actualmente no hay ensayos clínicos registrados y la evidencia consiste en **20
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según el conocimiento de la clase, clonazepam es una benzodiazepina que potencia la inhibición mediada por el receptor GABA-A. Esto reduce la excitabilidad motora central y los microdespertares durante el sueño.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Clonazepam (traducción no oficial): «Se desconoce el mecanismo preciso por el cual el clonazepam ejerce sus efectos anticonvulsivos y antipánico, aunque se cree que está relacionado con su capacidad para potenciar la actividad del ácido gamma-aminobutírico (GABA), el principal neurotransmisor inhibidor del sistema nervioso central.» Texto original en inglés: "The precise mechanism by which clonazepam exerts its antiseizure and antipanic effects is unknown, although it is believed to be related to its ability to enhance the activity of gamma aminobutyric acid (GABA), the major inhibitory neurotransmitter in the central nervous system." ([DailyMed: Klonopin (clonazepam) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cfa0d79a-843c-4b88-95a1-e9511d649ca1), versión del 2025-12-01; consultado el 2026-11-19). Según el conocimiento de la clase, clonazepam es una benzodiazepina que potencia la inhibición mediada por el receptor GABA-A. Esto reduce la excitabilidad motora central y los microdespertares durante el sueño.
 
 En el síndrome de piernas inquietas, esa acción podría aliviar los síntomas sensoriales de las piernas y la fragmentación del sueño, incluidos los movimientos periódicos de las piernas. El efecto sería sintomático y no modificaría la enfermedad: no actúa sobre la vía dopaminérgica ni sobre el déficit de hierro asociados al síndrome.
 
@@ -114,6 +114,19 @@ Existe plausibilidad mecanística, un puntaje TxGNN alto (0,9965) y literatura e
 - Definir un plan de salvaguardas: población objetivo, límites de dosis y duración, y monitoreo de sedación, caídas y dependencia.
 - Datos de mecanismo de acción del fármaco, hoy no disponibles.
 - Idealmente, un ensayo controlado de mayor tamaño frente a los agonistas dopaminérgicos.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Klonopin (clonazepam) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cfa0d79a-843c-4b88-95a1-e9511d649ca1) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -56,7 +56,7 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de la perso
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por la clase farmacológica conocida, empagliflozina es un inhibidor de SGLT2, que reduce la reabsorción renal de glucosa.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Empagliflozina (traducción no oficial): «La empagliflozina es un inhibidor del SGLT2, el transportador predominante responsable de la reabsorción de la glucosa desde el filtrado glomerular de vuelta a la circulación. Al inhibir el SGLT2, la empagliflozina reduce la reabsorción renal de la glucosa filtrada y disminuye el umbral renal de glucosa, con lo que aumenta la excreción urinaria de glucosa.» Texto original en inglés: "Empagliflozin is an inhibitor of SGLT2, the predominant transporter responsible for reabsorption of glucose from the glomerular filtrate back into the circulation. By inhibiting SGLT2, empagliflozin reduces renal reabsorption of filtered glucose and lowers the renal threshold for glucose, and thereby increases urinary glucose excretion." ([DailyMed: Jardiance (empagliflozin) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=faf3dd6a-9cd0-39c2-0d2e-232cb3f67565), versión del 2026-11-10; consultado el 2026-11-19). Por la clase farmacológica conocida, empagliflozina es un inhibidor de SGLT2, que reduce la reabsorción renal de glucosa.
 
 El síndrome de la persona rígida es un trastorno neurológico autoinmune asociado a anticuerpos anti-GAD65 y a una alteración de la inhibición GABAérgica. Los datos compilados no respaldan un vínculo mecanístico claro entre ambos. Una posible conexión a través de efectos metabólicos o antiinflamatorios es meramente especulativa.
 
@@ -95,6 +95,19 @@ La predicción se basa solo en el modelo, sin ensayos clínicos ni literatura qu
 - Información de seguridad del prospecto de ANMAT (advertencias y contraindicaciones)
 - Estudios preclínicos o de mecanismo que justifiquen un vínculo con la inhibición GABAérgica o la autoinmunidad en el síndrome de la persona rígida
 - Búsqueda de literatura y ensayos específicos en esta enfermedad
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Jardiance (empagliflozin) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=faf3dd6a-9cd0-39c2-0d2e-232cb3f67565) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos** y solo **1 publicación** (una rev
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la cefoxitina es una cefamicina de segunda generación con actividad contra bacterias grampositivas, gramnegativas y anaerobias, por lo que existe un vínculo antibacteriano plausible con los patógenos que causan otitis media.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Cefoxitin (traducción no oficial): «La cefoxitina es un fármaco antibacteriano. […] La cefoxitina es un agente bactericida que actúa mediante la inhibición de la síntesis de la pared celular bacteriana. La cefoxitina tiene actividad en presencia de algunas betalactamasas, tanto penicilinasas como cefalosporinasas, de bacterias gramnegativas y grampositivas.» Texto original en inglés: "Cefoxitin is an antibacterial drug. […] Cefoxitin is a bactericidal agent that acts by inhibition of bacterial cell wall synthesis. Cefoxitin has activity in the presence of some beta-lactamases, both penicillinases and cephalosporinases, of Gram-negative and Gram-positive bacteria." ([DailyMed: Cefoxitin And Dextrose (cefoxitin sodium) prescribing information, B. Braun Medical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6c7e9485-1ede-411c-8c46-911439332864), versión del 2019-07-29; consultado el 2026-11-19). Según la información conocida, la cefoxitina es una cefamicina de segunda generación con actividad contra bacterias grampositivas, gramnegativas y anaerobias, por lo que existe un vínculo antibacteriano plausible con los patógenos que causan otitis media.
 
 Sin embargo, la única publicación recuperada es una revisión general sobre *Staphylococcus aureus* resistente a meticilina (MRSA) desde la perspectiva "Una Salud", que menciona la otitis media solo como una de las infecciones que este patógeno puede causar. Además, la cefoxitina se usa habitualmente como marcador de laboratorio para detectar resistencia a meticilina, y no como tratamiento en este contexto.
 
@@ -97,6 +97,18 @@ No hay ensayos clínicos y la única publicación vinculada es una revisión gen
 - Datos de mecanismo de acción y de sensibilidad de los patógenos típicos del oído medio frente a cefoxitina
 - Información de advertencias y contraindicaciones del prospecto aprobado por ANMAT
 - Evaluación de la compatibilidad de la vía de administración (la presentación local es inyectable) con esta indicación
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Cefoxitin And Dextrose (cefoxitin sodium) prescribing information, B. Braun Medical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6c7e9485-1ede-411c-8c46-911439332864) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

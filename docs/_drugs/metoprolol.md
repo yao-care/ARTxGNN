@@ -56,7 +56,7 @@ pero para esta indicación no hay ensayos clínicos ni publicaciones que respald
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por conocimiento farmacológico general, metoprolol bloquea los receptores beta-1, lo que reduce la frecuencia cardíaca, el gasto cardíaco y la liberación de renina.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Metoprolol (traducción no oficial): «El metoprolol es un agente bloqueante de los receptores adrenérgicos beta 1 -selectivo (cardioselectivo). Sin embargo, este efecto preferente no es absoluto y, a concentraciones plasmáticas más altas, el metoprolol también inhibe los adrenorreceptores beta 2, ubicados principalmente en la musculatura bronquial y vascular.» Texto original en inglés: "Metoprolol is a beta 1 -selective (cardioselective) adrenergic receptor blocking agent. This preferential effect is not absolute, however, and at higher plasma concentrations, metoprolol also inhibits beta 2 -adrenoreceptors, chiefly located in the bronchial and vascular musculature." ([DailyMed: Toprol Xl (metoprolol succinate) prescribing information, Melinta Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=496ddfaa-7c9c-4888-b747-a210249b367a), versión del 2026-03-03; consultado el 2026-11-19). Por conocimiento farmacológico general, metoprolol bloquea los receptores beta-1, lo que reduce la frecuencia cardíaca, el gasto cardíaco y la liberación de renina.
 
 La reducción de la presión arterial y de la actividad del sistema renina-angiotensina es plausiblemente relevante para el daño renal causado por hipertensión grave. El puntaje alto probablemente refleja la cercanía con el uso antihipertensivo ya conocido del fármaco, más que un hallazgo de reposicionamiento genuino.
 
@@ -99,6 +99,19 @@ La predicción no cuenta con ningún estudio que evalúe directamente la enferme
 - Datos del mecanismo de acción y análisis de su vínculo con el daño renal hipertensivo
 - Advertencias y contraindicaciones del prospecto aprobado por ANMAT
 - Evaluación de seguridad renal e hemodinámica en pacientes con hipertensión grave
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Toprol Xl (metoprolol succinate) prescribing information, Melinta Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=496ddfaa-7c9c-4888-b747-a210249b367a) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

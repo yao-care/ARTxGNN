@@ -56,7 +56,7 @@ El modelo TxGNN predice que podría ser efectivo para **acné (acne (disease))**
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, el clotrimazol es un antifúngico imidazólico que inhibe la síntesis de ergosterol fúngico (lanosterol 14-alfa-desmetilasa, CYP51). También se han descrito cierta actividad antibacteriana y antiinflamatoria, y acción frente a *Malassezia*, levadura implicada en algunas afecciones foliculares y acneiformes.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Clotrimazol (traducción no oficial): «El clotrimazol es un agente antifúngico de amplio espectro que inhibe el crecimiento de levaduras patógenas al alterar la permeabilidad de las membranas celulares. La acción del clotrimazol es fungistática a concentraciones del fármaco de hasta 20 mcg/mL y puede ser fungicida in vitro contra Candida albicans y otras especies del género Candida a concentraciones más altas.» Texto original en inglés: "Clotrimazole is a broad-spectrum antifungal agent that inhibits the growth of pathogenic yeasts by altering the permeability of cell membranes. The action of clotrimazole is fungistatic at concentrations of drug up to 20 mcg/mL and may be fungicidal in vitro against Candida albicans and other species of the genus Candida at higher concentrations." ([DailyMed: clotrimazole prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=980736aa-751a-4642-ab85-a309435fd02f), versión del 2025-03-27; consultado el 2026-11-19). Según la información conocida, el clotrimazol es un antifúngico imidazólico que inhibe la síntesis de ergosterol fúngico (lanosterol 14-alfa-desmetilasa, CYP51). También se han descrito cierta actividad antibacteriana y antiinflamatoria, y acción frente a *Malassezia*, levadura implicada en algunas afecciones foliculares y acneiformes.
 
 Este vínculo es indirecto y especulativo. No hay evidencia directa que relacione al clotrimazol con la fisiopatología del acné vulgar (*Cutibacterium acnes*, producción de sebo, hiperqueratinización folicular, inflamación). El puntaje elevado del modelo es una predicción computacional y no reemplaza la evidencia clínica.
 
@@ -100,6 +100,19 @@ La predicción se basa solo en el modelo: no hay estudios que evalúen directame
 - Estudios preclínicos o clínicos que evalúen clotrimazol solo en acné
 - Confirmar la relevancia del único ensayo registrado y su indicación real
 - Evaluar la compatibilidad de vías de administración y la similitud con la indicación original
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: clotrimazole prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=980736aa-751a-4642-ab85-a309435fd02f) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

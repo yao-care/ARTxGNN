@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **hipotricosis simple del 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, diazoxide actúa como abridor de canales KATP, igual que el minoxidil, un agente establecido para estimular el crecimiento del cabello.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Diazoxide (traducción no oficial): «PROGLYCEM produce un aumento de la glucemia relacionado con la dosis, debido principalmente a una inhibición de la liberación de insulina por el páncreas y también a un efecto extrapancreático. El efecto hiperglucemiante de PROGLYCEM comienza en el plazo de una hora y, por lo general, no dura más de 8 horas en presencia de una función renal normal.» Texto original en inglés: "PROGLYCEM produces a dose-related increase in blood glucose, due primarily to an inhibition of insulin release from the pancreas, and also to an extrapancreatic effect. The hyperglycemic effect of PROGLYCEM begins within an hour and generally lasts no more than 8 hours in the presence of normal renal function." ([DailyMed: Proglycem (diazoxide) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b16c7832-2fd9-49af-b923-1dc0d91fd6e2), versión del 2026-10-06; consultado el 2026-11-19). Según la información conocida, diazoxide actúa como abridor de canales KATP, igual que el minoxidil, un agente establecido para estimular el crecimiento del cabello.
 
 Un efecto adverso bien descrito de diazoxide es la hipertricosis (crecimiento excesivo de vello). Esto podría vincular mecanísticamente al fármaco con trastornos de falta de cabello. Un estudio preclínico en macacos con calvicie frontal (PMID 2085505) mostró efectos de diazoxide tópico sobre el crecimiento folicular, aunque ese estudio se refiere a la alopecia en general y no a la hipotricosis simple.
 
@@ -92,6 +92,19 @@ La predicción (puntaje 0,9996) se basa únicamente en el modelo, sin ensayos ni
 - Datos del mecanismo de acción y del prospecto local (advertencias y contraindicaciones)
 - Desarrollo de una formulación tópica con evaluación de seguridad y farmacocinética
 - Plan de monitoreo de la glucemia y de los efectos sistémicos si hubiera absorción
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Proglycem (diazoxide) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b16c7832-2fd9-49af-b923-1dc0d91fd6e2) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

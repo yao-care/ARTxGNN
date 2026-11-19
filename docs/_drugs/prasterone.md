@@ -54,7 +54,7 @@ Prasterona (dehidroepiandrosterona, DHEA) es un precursor esteroideo con autoriz
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción de la prasterona. Según la información compilada, es un precursor de esteroides sexuales (andrógenos y estrógenos) y actúa también sobre el receptor de glicina, según los datos farmacológicos disponibles.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Prasterone (traducción no oficial): «La prasterona es un esteroide endógeno inactivo que se convierte en andrógenos y/o estrógenos activos. El mecanismo de acción de INTRAROSA en mujeres posmenopáusicas con atrofia vulvar y vaginal no está completamente establecido.» Texto original en inglés: "Prasterone is an inactive endogenous steroid and is converted into active androgens and/or estrogens. The mechanism of action of INTRAROSA in postmenopausal women with vulvar and vaginal atrophy is not fully established." ([DailyMed: Intrarosa (prasterone) prescribing information, Millicent US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ada639d4-bac0-2ad0-e053-2a95a90afce7), versión del 2026-07-17; consultado el 2026-11-19). Según la información compilada, es un precursor de esteroides sexuales (andrógenos y estrógenos) y actúa también sobre el receptor de glicina, según los datos farmacológicos disponibles.
 
 La deficiencia del cofactor 2 de la heparina es un trastorno de la coagulación asociado a la proteína SERPIND1. No se conoce ningún mecanismo por el cual la prasterona influya en la función de esta proteína. Cualquier vínculo sería especulativo (por ejemplo, efectos indirectos sobre la coagulación o la síntesis hepática de proteínas).
 
@@ -97,6 +97,19 @@ La predicción no cuenta con ensayos clínicos ni publicaciones que estudien dir
 - Obtención y análisis del prospecto aprobado por ANMAT (advertencias y contraindicaciones)
 - Estudios preclínicos que respalden un efecto sobre la coagulación antes de considerar cualquier ensayo clínico
 - Evaluación del riesgo trombótico asociado a la administración de esteroides
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Intrarosa (prasterone) prescribing information, Millicent US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ada639d4-bac0-2ad0-e053-2a95a90afce7) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

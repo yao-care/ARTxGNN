@@ -57,7 +57,7 @@ pero actualmente no hay ensayos clínicos registrados y la literatura recopilada
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la amiodarona bloquea canales de potasio, sodio y calcio y tiene antagonismo beta-adrenérgico, lo que en principio podría suprimir arritmias ventriculares desencadenadas por catecolaminas.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Amiodarona (traducción no oficial): «La amiodarona se considera un fármaco antiarrítmico de clase III, pero posee características electrofisiológicas de las cuatro clases de Vaughan Williams. Al igual que los fármacos de clase I, la amiodarona bloquea los canales de sodio a frecuencias de estimulación rápidas y, al igual que los fármacos de clase II, la amiodarona ejerce una acción antisimpática no competitiva.» Texto original en inglés: "Amiodarone is considered a class III antiarrhythmic drug, but it possesses electrophysiologic characteristics of all four Vaughan Williams classes. Like class I drugs, amiodarone blocks sodium channels at rapid pacing frequencies, and like class II drugs, amiodarone exerts a noncompetitive antisympathetic action." ([DailyMed: Pacerone (amiodarone hydrochloride) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dcadce9c-d0a0-4235-8ff8-dd93c09e03b3), versión del 2025-11-05; consultado el 2026-11-19). Según la información conocida, la amiodarona bloquea canales de potasio, sodio y calcio y tiene antagonismo beta-adrenérgico, lo que en principio podría suprimir arritmias ventriculares desencadenadas por catecolaminas.
 
 Sin embargo, esta taquicardia surge de una fuga diastólica de calcio mediada por RYR2/CASQ2, y el tratamiento de referencia son los betabloqueantes junto con flecainida. La plausibilidad mecanística es por lo tanto limitada y el puntaje elevado (0,9978) no está respaldado por datos clínicos.
 
@@ -110,11 +110,12 @@ No existe ningún ensayo ni publicación que estudie directamente la amiodarona 
 
 ## Registro de verificación
 
-A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de verificación | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-06 | Eliminado: «No se identificaron autorizaciones de comercialización vigentes (0 licencias)» | Ya no aparece tras regenerar el informe (2026-11-16: The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page; antes: Corregido) | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Pacerone (amiodarone hydrochloride) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dcadce9c-d0a0-4235-8ff8-dd93c09e03b3) |
 
 <!-- review:end log -->
 

@@ -57,7 +57,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, amantadina actúa como antagonista del receptor NMDA, modulador de la transmisión dopaminérgica e inhibidor del canal iónico M2 viral.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Amantadina (traducción no oficial): «Se desconoce el mecanismo por el cual la amantadina ejerce su eficacia en el tratamiento de la discinesia en pacientes con enfermedad de Parkinson o como tratamiento complementario de levodopa/carbidopa en pacientes con enfermedad de Parkinson que presentan episodios 'off'. La amantadina es un antagonista no competitivo débil del receptor NMDA.» Texto original en inglés: "The mechanism by which amantadine exerts efficacy in the treatment of dyskinesia in patients with Parkinson's disease or as adjunctive treatment to levodopa/carbidopa in patients with Parkinson's disease experiencing 'off' episodes is unknown. Amantadine is a weak uncompetitive antagonist of the NMDA receptor." ([DailyMed: Gocovri (amantadine) prescribing information, Adamas Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=82ff865f-78f3-4c94-b6a9-727a54944b28), versión del 2026-10-05; consultado el 2026-11-19). Según la información conocida, amantadina actúa como antagonista del receptor NMDA, modulador de la transmisión dopaminérgica e inhibidor del canal iónico M2 viral.
 
 Una hipótesis puramente especulativa es que el bloqueo NMDA podría reducir la excitotoxicidad mediada por glutamato. La encefalitis de Rasmussen implica neuroinflamación mediada por linfocitos T y mecanismos relacionados con receptores de glutamato, por lo que existiría un punto de contacto teórico.
 
@@ -95,6 +95,19 @@ La predicción se apoya solo en el puntaje del modelo, sin ensayos clínicos ni 
 - Datos del mecanismo de acción y de seguridad del prospecto de ANMAT
 - Revisión de literatura preclínica sobre antagonismo NMDA y excitotoxicidad en encefalitis de Rasmussen
 - Evaluación de plausibilidad biológica por parte de expertos antes de cualquier estudio clínico
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Gocovri (amantadine) prescribing information, Adamas Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=82ff865f-78f3-4c94-b6a9-727a54944b28) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

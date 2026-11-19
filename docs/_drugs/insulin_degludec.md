@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, la insulina degludec es un análogo de insulina basal de acción prolongada que actúa sobre el receptor de insulina.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Insulin Degludec (traducción no oficial): «La actividad principal de la insulina, incluida TRESIBA, es la regulación del metabolismo de la glucosa. La insulina y sus análogos reducen la glucemia al estimular la captación periférica de glucosa, especialmente por el músculo esquelético y el tejido adiposo, y al inhibir la producción hepática de glucosa.» Texto original en inglés: "The primary activity of insulin, including TRESIBA, is regulation of glucose metabolism. Insulin and its analogs lower blood glucose by stimulating peripheral glucose uptake, especially by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Tresiba (insulin degludec) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8ccd2f4-6ba9-4839-87f8-4742dc9b1c17), versión del 2024-02-22; consultado el 2026-11-19). Según la información conocida, la insulina degludec es un análogo de insulina basal de acción prolongada que actúa sobre el receptor de insulina.
 
 La ooforitis autoinmune es un trastorno ovárico de origen inmunitario que suele coexistir con otras endocrinopatías autoinmunes, como la diabetes tipo 1 o la enfermedad de Addison. El puntaje elevado probablemente refleja esta cercanía por asociaciones autoinmunes y endocrinas compartidas, y no un efecto terapéutico.
 
@@ -99,6 +99,19 @@ No existen ensayos clínicos ni publicaciones sobre ooforitis autoinmune, y no h
 - Revisión del prospecto de ANMAT para advertencias y contraindicaciones
 - Estudios preclínicos o de mecanismo que justifiquen una hipótesis terapéutica en ooforitis autoinmune
 - Revisión de literatura que evalúe si existe algún estudio directo en esta enfermedad
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tresiba (insulin degludec) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8ccd2f4-6ba9-4839-87f8-4742dc9b1c17) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

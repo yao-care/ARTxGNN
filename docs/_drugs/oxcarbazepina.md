@@ -55,7 +55,7 @@ Oxcarbazepina es un anticonvulsivante que se comercializa actualmente en Argenti
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según los datos compilados, oxcarbazepina bloquea los canales de sodio dependientes de voltaje a través de su metabolito activo, la licarbazepina. Con ello reduce la hiperexcitabilidad neuronal y estabiliza las membranas neuronales. No se dispone de datos detallados sobre el mecanismo de acción en la ficha del fármaco, por lo que esta descripción es una interpretación general.
+Según los datos compilados, oxcarbazepina bloquea los canales de sodio dependientes de voltaje a través de su metabolito activo, la licarbazepina. Con ello reduce la hiperexcitabilidad neuronal y estabiliza las membranas neuronales. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Oxcarbazepina (traducción no oficial): «La actividad farmacológica de TRILEPTAL se ejerce principalmente a través del metabolito 10-monohidroxi (MHD) de la oxcarbazepina. Se desconoce el mecanismo exacto por el cual la oxcarbazepina y el MHD ejercen su efecto anticonvulsivo; sin embargo, estudios electrofisiológicos in vitro indican que producen el bloqueo de los canales de sodio sensibles al voltaje, lo que da lugar a la estabilización de las membranas neuronales hiperexcitadas, la inhibición de las descargas neuronales repetitivas y la disminución de la propagación de los impulsos sinápticos.» Texto original en inglés: "The pharmacological activity of TRILEPTAL is primarily exerted through the 10-monohydroxy metabolite (MHD) of oxcarbazepine. The precise mechanism by which oxcarbazepine and MHD exert their anti-seizure effect is unknown; however, in vitro electrophysiological studies indicate that they produce blockade of voltage-sensitive sodium channels, resulting in stabilization of hyperexcited neural membranes, inhibition of repetitive neuronal firing, and diminution of propagation of synaptic impulses." ([DailyMed: Trileptal (oxcarbazepine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c5c86c8-ab7f-4fcf-bc1b-5a0b1fd0691b), versión del 2026-10-28; consultado el 2026-11-19).
 
 En el síndrome de piernas inquietas se piensa que intervienen una hiperexcitabilidad sensitivo-motora y una señalización espinal o cortical anormal. Un fármaco que amortigüe la excitabilidad neuronal podría, en teoría, aliviar esos síntomas. Otros antiepilépticos con acción sobre la excitabilidad neuronal, como gabapentina y pregabalina, y carbamazepina en reportes más antiguos, han mostrado beneficio en esta condición. Esto da cierta plausibilidad biológica a nivel de clase.
 
@@ -104,6 +104,19 @@ La evidencia sobre síndrome de piernas inquietas se limita a reportes y series 
 - Completar los datos del mecanismo de acción y analizar su vínculo con la fisiopatología del síndrome de piernas inquietas.
 - Realizar una revisión sistemática de la literatura y, de ser posible, un ensayo clínico controlado pequeño.
 - Evaluar la compatibilidad de vía y forma farmacéutica con el uso propuesto.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Trileptal (oxcarbazepine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c5c86c8-ab7f-4fcf-bc1b-5a0b1fd0691b) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

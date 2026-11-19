@@ -57,7 +57,7 @@ pero actualmente no hay ensayos clínicos registrados y las 19 publicaciones rec
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Se sabe que la progesterona actúa a través de los receptores de progesterona, y que los cambios fibroquísticos de la mama responden a hormonas.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Progesterona (traducción no oficial): «La progesterona es un esteroide natural secretado por el ovario, la placenta y la glándula suprarrenal. En presencia de estrógeno suficiente, la progesterona transforma un endometrio proliferativo en un endometrio secretor.» Texto original en inglés: "Progesterone is a naturally occurring steroid that is secreted by the ovary, placenta, and adrenal gland. In the presence of adequate estrogen, progesterone transforms a proliferative endometrium into a secretory endometrium." ([DailyMed: Progesterone Vaginal Insert (progesterone) prescribing information, XIROMED, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=473ab609-5b9e-3cb8-68d5-4a459a2ea6c1), versión del 2026-10-05; consultado el 2026-11-19). Se sabe que la progesterona actúa a través de los receptores de progesterona, y que los cambios fibroquísticos de la mama responden a hormonas.
 
 La literatura propone que un déficit relativo de progesterona en la fase lútea, o un predominio estrogénico, podría contribuir a estos cambios. Esto ofrece una justificación biológica plausible para usar progesterona, pero es una hipótesis, no una demostración.
 
@@ -108,6 +108,19 @@ No hay ensayos clínicos ni estudios que evalúen la progesterona en esta enferm
 - Información de advertencias y contraindicaciones del prospecto aprobado por ANMAT.
 - Revisión sistemática de estudios de progesterona o progestágenos en mastopatía fibroquística.
 - Si la revisión es favorable, un ensayo clínico controlado con progesterona frente a placebo.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Progesterone Vaginal Insert (progesterone) prescribing information, XIROMED, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=473ab609-5b9e-3cb8-68d5-4a459a2ea6c1) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

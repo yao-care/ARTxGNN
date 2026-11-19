@@ -56,7 +56,7 @@ El modelo TxGNN predice que podría ser efectivo para **neoplasia del nervio tri
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento farmacológico general, el fenobarbital es un modulador alostérico positivo del receptor GABA-A que refuerza la inhibición neuronal y reduce la excitabilidad, lo que explica su uso para controlar convulsiones.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Fenobarbital (traducción no oficial): «El mecanismo de acción preciso del fenobarbital para el tratamiento de las crisis convulsivas neonatales no se conoce por completo, pero se cree que implica la potenciación de la inhibición sináptica mediante una acción sobre el receptor GABA A.» Texto original en inglés: "The precise mechanism of action for phenobarbital for the treatment of neonatal seizures is not fully understood, but it is thought to involve potentiation of synaptic inhibition through an action on the GABA A receptor." ([DailyMed: Sezaby (phenobarbital sodium) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8c7d0402-4977-4c25-bc4b-11db91339e9a), versión del 2026-10-23; consultado el 2026-11-19). Según el conocimiento farmacológico general, el fenobarbital es un modulador alostérico positivo del receptor GABA-A que refuerza la inhibición neuronal y reduce la excitabilidad, lo que explica su uso para controlar convulsiones.
 
 Ese mecanismo no tiene una conexión directa conocida con una actividad antitumoral sobre tumores del nervio trigémino. La única publicación asociada es una serie de 14 casos de síndrome de Sturge-Weber (1997), una enfermedad vascular neurocutánea en la que el fenobarbital se usa para controlar convulsiones. La relación con el tumor del trigémino probablemente sea un artefacto del modelo, vinculado a la distribución trigeminal de las lesiones faciales y al contexto del manejo de convulsiones, y no a evidencia de eficacia tumoral.
 
@@ -98,6 +98,19 @@ El puntaje del modelo es muy alto, pero no hay ensayos clínicos, la única publ
 - Estudios preclínicos o clínicos que evalúen directamente neoplasias del nervio trigémino
 - Información de seguridad del prospecto de ANMAT (advertencias y contraindicaciones)
 - Aclarar si el vínculo del modelo se debe a un artefacto (Sturge-Weber, control de convulsiones) antes de invertir en más estudios
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Sezaby (phenobarbital sodium) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8c7d0402-4977-4c25-bc4b-11db91339e9a) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -57,7 +57,7 @@ pero actualmente no hay ensayos clínicos registrados y la literatura disponible
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento farmacológico general, la ampicilina es un betalactámico que impide la formación de la pared celular bacteriana y actúa contra organismos sensibles.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ampicilina (traducción no oficial): «La ampicilina es similar a la penicilina en su acción bactericida contra las bacterias sensibles durante la fase de multiplicación activa. Actúa mediante la inhibición de la biosíntesis de la pared celular, lo que conduce a la muerte de las bacterias.» Texto original en inglés: "Ampicillin is similar to penicillin in its bactericidal action against susceptible bacteria during the stage of active multiplication. It acts through the inhibition of cell wall biosynthesis that leads to the death of the bacteria." ([DailyMed: ampicillin prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4134cd79-c895-4e6e-b1d5-8e01c38bf2d1), versión del 2026-07-27; consultado el 2026-11-19). Según el conocimiento farmacológico general, la ampicilina es un betalactámico que impide la formación de la pared celular bacteriana y actúa contra organismos sensibles.
 
 Mecanísticamente, podría ser plausible en infecciones bacterianas de la laringe y la región supraglótica (por ejemplo, epiglotitis) causadas por microorganismos sensibles. Sin embargo, su fiabilidad como agente único es limitada porque *H. influenzae* productor de betalactamasas es resistente. La laringitis viral y el crup, que son las formas más frecuentes, no responderían a un antibiótico.
 
@@ -111,6 +111,19 @@ Aunque el puntaje de TxGNN es muy alto (0,9997), no existen ensayos clínicos ni
 - Definir si la hipótesis se refiere a laringitis bacteriana o a infecciones supraglóticas (p. ej., epiglotitis), y buscar estudios que aborden directamente esa condición
 - Datos de mecanismo de acción y de advertencias y contraindicaciones del prospecto
 - Datos de resistencia local de los patógenos laríngeos relevantes (*H. influenzae* productor de betalactamasas)
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: ampicillin prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4134cd79-c895-4e6e-b1d5-8e01c38bf2d1) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

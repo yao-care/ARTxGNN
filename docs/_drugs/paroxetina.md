@@ -56,7 +56,7 @@ El modelo TxGNN predice que podría ser efectivo para el **Síndrome de Ohdo y v
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, la paroxetina es un ISRS: inhibe el transportador de serotonina (SERT) y, de forma secundaria, se ha descrito un efecto sobre la quinasa GRK2.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Paroxetina (traducción no oficial): «Se desconoce el mecanismo de acción de PAXIL CR en el tratamiento del trastorno depresivo mayor (TDM), el trastorno de pánico (TP), el trastorno de ansiedad social (TAS) y el trastorno disfórico premenstrual (TDPM), pero se presume que está relacionado con la potenciación de la actividad serotoninérgica en el sistema nervioso central como resultado de la inhibición de la recaptación neuronal de serotonina (5-HT).» Texto original en inglés: "The mechanism of action of PAXIL CR in the treatment of major depressive disorder (MDD), panic disorder (PD), social anxiety disorder (SAD), and premenstrual dysphoric disorder (PMDD) is unknown, but is presumed to be linked to potentiation of serotonergic activity in the central nervous system resulting from inhibition of neuronal reuptake of serotonin (5-HT)." ([DailyMed: Paxil Cr (paroxetine hydrochloride) prescribing information, Apotex Corp](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=483bd97f-c4d0-4e23-aaa8-6334f4471e0c), versión del 2026-09-30; consultado el 2026-11-19). Según la información conocida, la paroxetina es un ISRS: inhibe el transportador de serotonina (SERT) y, de forma secundaria, se ha descrito un efecto sobre la quinasa GRK2.
 
 El síndrome de Ohdo (incluida la variante Say-Barber-Biesecker-Young-Simpson, asociada a variantes de KAT6B) es un trastorno congénito raro que cursa con discapacidad intelectual, blefarofimosis e hipotonía. Con los datos disponibles no se ha podido establecer un puente mecanístico plausible entre la farmacología de los ISRS y la patología de KAT6B, vinculada a la acetilación de cromatina.
 
@@ -100,6 +100,19 @@ La única base de la predicción es un puntaje computacional alto, sin ensayos c
 - Estudios preclínicos o series de casos que evalúen directamente el síndrome de Ohdo
 - Prospecto de ANMAT con advertencias y contraindicaciones para el cribado de seguridad
 - Evaluación del perfil de seguridad en poblaciones pediátricas y con trastornos del desarrollo
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Paxil Cr (paroxetine hydrochloride) prescribing information, Apotex Corp](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=483bd97f-c4d0-4e23-aaa8-6334f4471e0c) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

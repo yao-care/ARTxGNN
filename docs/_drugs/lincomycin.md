@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **hiperamilasemia (hyperam
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, lincomycin es una lincosamida que inhibe la síntesis proteica bacteriana al unirse a la subunidad ribosomal 50S, y su actividad es antibacteriana.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Lincomycin (traducción no oficial): «La lincomicina inhibe la síntesis de proteínas bacterianas al unirse al ARN 23S de la subunidad 50S del ribosoma bacteriano. La lincomicina es predominantemente bacteriostática in vitro.» Texto original en inglés: "Lincomycin inhibits bacterial protein synthesis by binding to the 23S RNA of the 50S subunit of the bacterial ribosome. Lincomycin is predominantly bacteriostatic in vitro." ([DailyMed: Lincocin (lincomycin hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c01906fa-2c73-4c13-9765-2fd06628d263), versión del 2025-03-10; consultado el 2026-11-19). Según la información conocida, lincomycin es una lincosamida que inhibe la síntesis proteica bacteriana al unirse a la subunidad ribosomal 50S, y su actividad es antibacteriana.
 
 La hiperamilasemia es un hallazgo de laboratorio (elevación de la amilasa en sangre), habitualmente secundario a causas pancreáticas, salivales o renales, y no una enfermedad que un antibiótico trate de forma directa. Con los datos compilados para este informe no se sostiene un vínculo mecanístico plausible entre el fármaco y esta condición.
 
@@ -94,6 +94,19 @@ No existen ensayos clínicos ni literatura que estudien la hiperamilasemia con l
 - Datos del prospecto de ANMAT (advertencias y contraindicaciones)
 - Datos detallados del mecanismo de acción y de su posible relación con la condición predicha
 - Estudios preclínicos o clínicos que evalúen directamente la hiperamilasemia antes de reconsiderar la decisión
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Lincocin (lincomycin hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c01906fa-2c73-4c13-9765-2fd06628d263) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

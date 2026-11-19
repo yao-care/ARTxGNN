@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **porfiria hepática (hepa
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción de idebenona en la información compilada. Por su perfil farmacológico conocido, idebenona se describe como antioxidante y transportador de electrones mitocondrial.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Idebenone es (traducción no oficial): «Antioxidante y transportador de electrones mitocondrial» Texto original en inglés: "Antioxidant and mitochondrial electron carrier" ([ChEMBL CHEMBL252556 (idebenone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL252556), CC BY-SA 3.0; consultado el 2026-11-19). Por su perfil farmacológico conocido, idebenona se describe como antioxidante y transportador de electrones mitocondrial.
 
 Un vínculo plausible, pero no verificado, es que estas propiedades podrían mitigar teóricamente el estrés oxidativo causado por la acumulación de precursores de porfirinas en los hepatocitos. Esta hipótesis no puede validarse con los datos disponibles, ya que no hay estudios que evalúen idebenona en porfiria hepática.
 
@@ -97,6 +97,19 @@ No existe ningún ensayo clínico ni publicación que estudie idebenona en porfi
 - Estudios preclínicos que respalden el efecto en modelos de porfiria
 - Advertencias y contraindicaciones del prospecto de ANMAT para completar la evaluación de seguridad
 - Revisión de la señal del modelo, dado que varias enfermedades hepáticas comparten puntajes casi idénticos
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL252556 (idebenone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL252556) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

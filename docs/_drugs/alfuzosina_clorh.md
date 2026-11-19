@@ -57,7 +57,7 @@ Hasta ahora no hay **ningún ensayo clínico** ni **ninguna publicación** que r
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Alfuzosina se conoce como un antagonista alfa-1 adrenérgico uroselectivo, cuyo efecto farmacológico es bloquear receptores alfa-1 y relajar el músculo liso.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Alfuzosina Clorh (traducción no oficial): «La alfuzosina es un antagonista selectivo de los adrenorreceptores alfa 1 postsinápticos, que se localizan en la próstata, la base de la vejiga, el cuello de la vejiga, la cápsula prostática y la uretra prostática.» Texto original en inglés: "Alfuzosin is a selective antagonist of post-synaptic alpha 1 -adrenoreceptors, which are located in the prostate, bladder base, bladder neck, prostatic capsule, and prostatic urethra." ([DailyMed: Uroxatral (alfuzosin hcl) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9fc7f119-f36b-44cf-945d-940160f3afe3), versión del 2024-12-05; consultado el 2026-11-19). Alfuzosina se conoce como un antagonista alfa-1 adrenérgico uroselectivo, cuyo efecto farmacológico es bloquear receptores alfa-1 y relajar el músculo liso.
 
 El análisis no identificó un mecanismo que sustente la predicción. El síndrome de Ambras es un trastorno congénito raro, vinculado a reordenamientos cromosómicos que afectan la regulación de *TRPS1*. El bloqueo alfa-1 no es una vía reconocida de control del crecimiento del vello.
 
@@ -93,6 +93,19 @@ La predicción no cuenta con ensayos clínicos ni literatura, y no se identific�
 - Completar los datos del mecanismo de acción.
 - Realizar una revisión sistemática de la literatura y de registros de ensayos sobre alfuzosina y la hipertricosis de tipo Ambras.
 - Evaluar, si se continúa, la plausibilidad biológica con estudios preclínicos antes de pensar en estudios clínicos.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Uroxatral (alfuzosin hcl) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9fc7f119-f36b-44cf-945d-940160f3afe3) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

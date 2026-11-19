@@ -56,7 +56,7 @@ El modelo TxGNN predice que podría ser efectiva para **hipodisplasia/aplasia re
 
 ## ¿Por qué es razonable esta predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la levotiroxina es un reemplazo de la hormona tiroidea que participa en el desarrollo y la maduración de múltiples órganos, incluido el riñón.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Levotiroxina (traducción no oficial): «Las hormonas tiroideas ejercen sus acciones fisiológicas mediante el control de la transcripción del DNA y de la síntesis de proteínas. La triyodotironina (T3) y la L-tiroxina (T4) difunden al núcleo celular y se unen a proteínas receptoras tiroideas unidas al DNA.» Texto original en inglés: "Thyroid hormones exert their physiologic actions through control of DNA transcription and protein synthesis. Triiodothyronine (T3) and L-thyroxine (T4) diffuse into the cell nucleus and bind to thyroid receptor proteins attached to DNA." ([DailyMed: Levoxyl (levothyroxine sodium) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=758588c3-c63e-491b-0aa2-4f50d80cb174), versión del 2026-11-06; consultado el 2026-11-19). Según la información conocida, la levotiroxina es un reemplazo de la hormona tiroidea que participa en el desarrollo y la maduración de múltiples órganos, incluido el riñón.
 
 Sin embargo, la hipodisplasia/aplasia renal es una malformación estructural congénita, habitualmente de origen genético (por ejemplo, PAX2, HNF1B, RET). No se espera que la levotiroxina administrada después del nacimiento revierta un defecto del desarrollo ya establecido.
 
@@ -90,6 +90,19 @@ No existen ensayos clínicos ni literatura que estudien la levotiroxina en hipod
 - Datos del mecanismo de acción y una hipótesis mecanística plausible
 - Información de seguridad del prospecto de ANMAT (advertencias y contraindicaciones)
 - Revisión de la ruta de administración y de la población objetivo (por ejemplo, uso fetal o neonatal)
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Levoxyl (levothyroxine sodium) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=758588c3-c63e-491b-0aa2-4f50d80cb174) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

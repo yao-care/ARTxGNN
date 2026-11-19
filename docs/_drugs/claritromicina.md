@@ -55,7 +55,7 @@ Claritromicina es un antibiótico macrólido que se comercializa en Argentina en
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción de la claritromicina en los datos compilados para este informe. Según la información general conocida, es un antibiótico macrólido con cierta actividad inmunomoduladora.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Claritromicina (traducción no oficial): «La claritromicina es un fármaco antimicrobiano macrólido. […] La claritromicina ejerce su acción antibacteriana al unirse a la subunidad ribosómica 50S de las bacterias sensibles, lo que da lugar a la inhibición de la síntesis de proteínas.» Texto original en inglés: "Clarithromycin is a macrolide antimicrobial drug. […] Clarithromycin exerts its antibacterial action by binding to the 50S ribosomal subunit of susceptible bacteria resulting in inhibition of protein synthesis." ([DailyMed: clarithromycin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ba216276-b0bd-420a-9e0d-090bdfcc2460), versión del 2026-11-12; consultado el 2026-11-19). Según la información general conocida, es un antibiótico macrólido con cierta actividad inmunomoduladora.
 
 No se identifica un vínculo mecanístico entre este fármaco y el síndrome de hiperviscosidad policlonal, que se relaciona con una elevación policlonal de inmunoglobulinas que aumenta la viscosidad del suero. No existe una justificación establecida por la cual un macrólido pudiera reducir esa viscosidad.
 
@@ -97,6 +97,19 @@ La predicción no cuenta con ensayos clínicos, publicaciones ni un mecanismo pl
 - Una hipótesis biológica que vincule el fármaco con la reducción de la viscosidad sérica
 - Estudios preclínicos o clínicos que evalúen directamente esta enfermedad
 - Información de seguridad del prospecto aprobado por ANMAT (advertencias y contraindicaciones)
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: clarithromycin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ba216276-b0bd-420a-9e0d-090bdfcc2460) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -55,7 +55,7 @@ La acetilcisteína es un agente mucolítico y antioxidante con grupos tiol que e
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Aun así, la acetilcisteína es un compuesto con grupos tiol capaz de reducir puentes disulfuro. Esto es relevante para el factor de von Willebrand (VWF), cuyos multímeros ultralargos se unen a las plaquetas y favorecen la formación de trombos. Al reducir esos puentes, el fármaco disminuye el tamaño de los multímeros y su capacidad de unirse a las plaquetas.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Acetilcisteína (traducción no oficial): «Se ha demostrado que la acetilcisteína reduce la extensión de la lesión hepática tras una sobredosis de paracetamol. Las dosis de paracetamol de 150 mg/kg o superiores se han asociado con hepatotoxicidad. Probablemente, la acetilcisteína protege el hígado al mantener o restablecer los niveles de glutatión, o al actuar como sustrato alternativo para la conjugación con el metabolito reactivo del paracetamol y, por tanto, para su destoxificación.» Texto original en inglés: "Acetylcysteine has been shown to reduce the extent of liver injury following acetaminophen overdose. Acetaminophen doses of 150 mg/kg or greater have been associated with hepatotoxicity. Acetylcysteine probably protects the liver by maintaining or restoring the glutathione levels, or by acting as an alternate substrate for conjugation with, and thus detoxification of, the reactive metabolite of acetaminophen." ([DailyMed: Acetadote (acetylcysteine) prescribing information, Cumberland Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=472f158a-5ab9-4308-8e49-1116e6ea3d39), versión del 2025-04-30; consultado el 2026-11-19). Aun así, la acetilcisteína es un compuesto con grupos tiol capaz de reducir puentes disulfuro. Esto es relevante para el factor de von Willebrand (VWF), cuyos multímeros ultralargos se unen a las plaquetas y favorecen la formación de trombos. Al reducir esos puentes, el fármaco disminuye el tamaño de los multímeros y su capacidad de unirse a las plaquetas.
 
 Además, repone glutatión y reduce el estrés oxidativo y la activación endotelial, factores asociados a un fenotipo protrombótico. Estos mecanismos se relacionan con las microangiopatías trombóticas, como la púrpura trombocitopénica trombótica (PTT) y la microangiopatía trombótica asociada a trasplante (TA-TMA). Los modelos preclínicos en ratón y babuino con PTT respaldan esta lógica.
 
@@ -118,6 +118,19 @@ Existe un ensayo de Fase 3 completado y otro de Fase 2/3 en curso en microangiop
 - Obtener datos formales de mecanismo de acción.
 - Revisar advertencias, contraindicaciones e interacciones en los prospectos aprobados por ANMAT, porque no hay datos de seguridad disponibles.
 - Definir una dosis y una vía de administración adecuadas, ya que los estudios de PTT usaron dosis altas por vía intravenosa, distintas de las presentaciones orales comercializadas.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Acetadote (acetylcysteine) prescribing information, Cumberland Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=472f158a-5ab9-4308-8e49-1116e6ea3d39) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

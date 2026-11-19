@@ -57,7 +57,7 @@ pero actualmente no hay ensayos clínicos registrados y la literatura recopilada
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Atomoxetina es un inhibidor selectivo de la recaptación de noradrenalina. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe, por lo que el análisis mecanístico es limitado.
+Atomoxetina es un inhibidor selectivo de la recaptación de noradrenalina. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Atomoxetina (traducción no oficial): «Se desconoce el mecanismo preciso por el cual STRATTERA produce sus efectos terapéuticos en el TDAH, pero se cree que está relacionado con la inhibición selectiva del transportador presináptico de noradrenalina, según se determinó en estudios ex vivo de captación y de depleción de neurotransmisores.» Texto original en inglés: "The precise mechanism by which STRATTERA produces its therapeutic effects in ADHD is unknown, but is thought to be related to selective inhibition of the pre-synaptic norepinephrine transporter, as determined in ex vivo uptake and neurotransmitter depletion studies." ([DailyMed: Strattera (atomoxetine hydrochloride) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=309de576-c318-404a-bc15-660c2b1876fb), versión del 2026-06-30; consultado el 2026-11-19).
 
 "Trastorno específico del desarrollo" es una categoría amplia que se solapa con el TDAH y las dificultades de aprendizaje. El puntaje alto del modelo probablemente refleja esta cercanía con los trastornos del neurodesarrollo en los que atomoxetina ya se utiliza, más que una señal específica para esta categoría.
 
@@ -109,11 +109,12 @@ La predicción no cuenta con ensayos clínicos ni con estudios que evalúen dire
 
 ## Registro de verificación
 
-A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de verificación | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-06 | Eliminado: «No existen autorizaciones de comercialización vigentes» | Ya no aparece tras regenerar el informe (2026-11-16: The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page; antes: Corregido) | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Strattera (atomoxetine hydrochloride) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=309de576-c318-404a-bc15-660c2b1876fb) |
 
 <!-- review:end log -->
 

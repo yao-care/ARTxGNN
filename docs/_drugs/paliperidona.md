@@ -57,7 +57,7 @@ pero **no existe ningún ensayo clínico ni publicación** que respalde esta dir
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por su clase, paliperidona es un antagonista de los receptores de dopamina D2 y serotonina 5-HT2A, el mecanismo habitual de los antipsicóticos atípicos.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Paliperidona (traducción no oficial): «La paliperidona es el principal metabolito activo de la risperidona. El mecanismo de acción de la paliperidona en la esquizofrenia no está claro. Sin embargo, el efecto terapéutico del fármaco en la esquizofrenia podría estar mediado por una combinación de antagonismo de los receptores centrales de dopamina de tipo 2 (D 2 ) y de serotonina de tipo 2 (5HT 2A ).» Texto original en inglés: "Paliperidone is the major active metabolite of risperidone. The mechanism of action of paliperidone in schizophrenia is unclear. However, the drug's therapeutic effect in schizophrenia could be mediated through a combination of central dopamine Type 2 (D 2 ) and serotonin Type 2 (5HT 2A ) receptor antagonism." ([DailyMed: Invega (paliperidone) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7b8e5b26-b9e4-4704-921b-3c3c0d159916), versión del 2025-01-31; consultado el 2026-11-19). Por su clase, paliperidona es un antagonista de los receptores de dopamina D2 y serotonina 5-HT2A, el mecanismo habitual de los antipsicóticos atípicos.
 
 No se identifica un vínculo mecanístico evidente con la nueva indicación. Las distrofias retinianas son enfermedades genéticas degenerativas, y el antagonismo dopaminérgico/serotoninérgico no es un mecanismo plausible para modificar su evolución.
 
@@ -98,6 +98,19 @@ La predicción no tiene ensayos clínicos ni literatura que la respalden, no hay
 - Datos detallados del mecanismo de acción y del prospecto (advertencias y contraindicaciones)
 - Estudios preclínicos que justifiquen una hipótesis biológica en modelos de distrofia retiniana
 - Revisión de la plausibilidad biológica antes de destinar recursos a evaluación clínica
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Invega (paliperidone) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7b8e5b26-b9e4-4704-921b-3c3c0d159916) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

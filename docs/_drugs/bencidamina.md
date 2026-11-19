@@ -57,7 +57,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** en los datos comp
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, la bencidamina actúa localmente como antiinflamatorio: inhibe citocinas proinflamatorias (TNF-alfa e IL-1beta), tiene efecto estabilizador de membrana y una inhibición débil de la síntesis de prostaglandinas.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Bencidamina es (traducción no oficial): «Inhibidor de la ciclooxigenasa» Texto original en inglés: "Cyclooxygenase inhibitor" ([ChEMBL CHEMBL12610 (benzydamine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL12610), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, la bencidamina actúa localmente como antiinflamatorio: inhibe citocinas proinflamatorias (TNF-alfa e IL-1beta), tiene efecto estabilizador de membrana y una inhibición débil de la síntesis de prostaglandinas.
 
 Una posible vía hacia la hiperplasia prostática benigna sería la modulación de la inflamación prostática crónica, que se considera un factor que contribuye a la progresión de la enfermedad y a los síntomas urinarios bajos. Esto es solo una hipótesis: no hay evidencia clínica ni preclínica recuperada que la respalde.
 
@@ -93,6 +93,19 @@ La predicción se apoya únicamente en el puntaje del modelo, sin ensayos clíni
 - Completar los datos del mecanismo de acción (por ejemplo, consultando DrugBank)
 - Buscar estudios preclínicos o clínicos que vinculen la bencidamina con la hiperplasia prostática benigna o con la inflamación prostática
 - Evaluar la compatibilidad de la vía de administración, dado que el producto local registrado es de otra forma farmacéutica (frasco de 200 ml)
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL12610 (benzydamine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL12610) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

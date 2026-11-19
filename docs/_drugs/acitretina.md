@@ -55,7 +55,7 @@ Acitretina es un retinoide oral de segunda generación, comercializado en Argent
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción del fármaco en los datos compilados. Por farmacología conocida de la clase, la acitretina normaliza la diferenciación de los queratinocitos y la queratinización folicular, y tiene efectos inmunomoduladores sobre vías inflamatorias como Th17. Estos efectos podrían, en teoría, ser relevantes en enfermedades que afectan al folículo pilosebáceo.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Acitretina (traducción no oficial): «Se desconoce el mecanismo de acción de la acitretina.» Texto original en inglés: "The mechanism of action of acitretin is unknown." ([DailyMed: acitretin prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6af396c2-af3e-436d-ba9a-583637495910), versión del 2026-10-20; consultado el 2026-11-19). Por farmacología conocida de la clase, la acitretina normaliza la diferenciación de los queratinocitos y la queratinización folicular, y tiene efectos inmunomoduladores sobre vías inflamatorias como Th17. Estos efectos podrían, en teoría, ser relevantes en enfermedades que afectan al folículo pilosebáceo.
 
 Las revisiones sobre retinoides respaldan efectos sobre la glándula sebácea, pero el retinoide oral establecido para el acné vulgar es la isotretinoína, no la acitretina. Además, la etiqueta "acné" de la predicción parece mezclarse con el acné inverso (hidradenitis supurativa): el único ensayo y varias publicaciones tratan esa enfermedad. Por eso la relación con el acné vulgar es débil.
 
@@ -106,6 +106,19 @@ Ningún estudio compilado evalúa directamente el acné vulgar; la evidencia dis
 - Datos del mecanismo de acción
 - Advertencias y contraindicaciones del prospecto de ANMAT
 - Plan de prevención del embarazo y de monitoreo de seguridad
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: acitretin prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6af396c2-af3e-436d-ba9a-583637495910) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

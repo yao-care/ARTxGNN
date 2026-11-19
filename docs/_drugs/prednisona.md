@@ -57,7 +57,7 @@ Actualmente no hay ensayos clínicos registrados, pero sí **20 publicaciones** 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Sin embargo, la prednisona es un glucocorticoide sistémico conocido por sus efectos antiinflamatorios e inmunosupresores amplios, entre ellos la supresión de la activación de los linfocitos T y de las citocinas proinflamatorias.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Prednisona (traducción no oficial): «Los corticosteroides de origen natural (hidrocortisona y cortisona), que también tienen propiedades retenedoras de sal, se utilizan como terapia de reemplazo en los estados de insuficiencia corticosuprarrenal. Sus análogos sintéticos, como la prednisona, se utilizan principalmente por sus potentes efectos antiinflamatorios en trastornos de muchos sistemas orgánicos.» Texto original en inglés: "Naturally occurring corticosteroids (hydrocortisone and cortisone), which also have salt-retaining properties, are used as replacement therapy in adrenocortical deficiency states. Their synthetic analogs, such as prednisone, are primarily used for their potent anti-inflammatory effects in disorders of many organ systems." ([DailyMed: Prednisone Delayed Release (prednisone) prescribing information, Dr. Reddys Laboratories Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=01bdc479-1f1f-af94-837c-12e7e861321a), versión del 2026-09-23; consultado el 2026-11-19). Sin embargo, la prednisona es un glucocorticoide sistémico conocido por sus efectos antiinflamatorios e inmunosupresores amplios, entre ellos la supresión de la activación de los linfocitos T y de las citocinas proinflamatorias.
 
 La alopecia areata es una enfermedad autoinmune mediada por linfocitos T: los linfocitos T CD8+ citotóxicos atacan el folículo piloso, que pierde su privilegio inmunitario. Un fármaco que frena la activación de los linfocitos T es, por lo tanto, mecanísticamente plausible, y es coherente con la recuperación del cabello descrita en series clínicas.
 
@@ -112,6 +112,19 @@ Hay un ensayo aleatorizado doble ciego y varias series clínicas que estudian di
 - Definir un esquema con salvaguardas (dosis baja, pulsos, ciclos cortos o combinación con fármacos ahorradores de corticoides)
 - Confirmar la compatibilidad de la forma farmacéutica y la vía de administración con el uso propuesto
 - Plan de seguimiento de recaídas y de efectos adversos de los corticoides
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Prednisone Delayed Release (prednisone) prescribing information, Dr. Reddys Laboratories Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=01bdc479-1f1f-af94-837c-12e7e861321a) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

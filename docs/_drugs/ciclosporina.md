@@ -57,7 +57,7 @@ pero no hay ensayos clínicos registrados y solo **1 publicación** se relaciona
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la ciclosporina es un inhibidor de la calcineurina (vía NFAT) que suprime la activación de los linfocitos T.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ciclosporina (traducción no oficial): «La ciclosporina es un potente agente inmunosupresor que, en animales, prolonga la supervivencia de trasplantes alogénicos de piel, riñón, hígado, corazón, páncreas, médula ósea, intestino delgado y pulmón. Se ha demostrado que la ciclosporina suprime parte de la inmunidad humoral y, en mayor medida, las reacciones inmunitarias mediadas por células, como el rechazo de aloinjertos, la hipersensibilidad retardada, la encefalomielitis alérgica experimental, la artritis por adyuvante de Freund y la enfermedad de injerto contra huésped, en muchas especies animales y para diversos órganos.» Texto original en inglés: "Cyclosporine is a potent immunosuppressive agent that in animals prolongs survival of allogeneic transplants involving skin, kidney, liver, heart, pancreas, bone marrow, small intestine, and lung. Cyclosporine has been demonstrated to suppress some humoral immunity and to a greater extent, cell-mediated immune reactions such as allograft rejection, delayed hypersensitivity, experimental allergic encephalomyelitis, Freund’s adjuvant arthritis, and graft versus host disease in many animal species for a variety of organs." ([DailyMed: Cyclosporine, Modfied (cyclosporine) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5baaf78c-90f6-abcf-52c8-814490f3cf9f), versión del 2026-09-10; consultado el 2026-11-19). Según la información conocida, la ciclosporina es un inhibidor de la calcineurina (vía NFAT) que suprime la activación de los linfocitos T.
 
 La enfermedad granulomatosa crónica es un defecto de la NADPH oxidasa de los fagocitos. La ciclosporina no tiene un efecto corrector conocido sobre este defecto. Cualquier vínculo es indirecto, a través de la inmunosupresión posterior a un trasplante de células madre hematopoyéticas.
 
@@ -107,12 +107,13 @@ No existen ensayos clínicos y la única publicación disponible no estudia a la
 
 ## Registro de verificación
 
-A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de verificación | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-06 | Eliminado: «La consulta a ANMAT/TFDA devolvió `result_count: 0` para el nombre INN "CICLOSPORINA". Esto puede deberse a que el fármaco está registrado b» | Ya no aparece tras regenerar el informe (2026-11-16: The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page; antes: Corregido) | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
 | 2026-11-06 | Eliminado: «TFDA o» | Ya no aparece tras regenerar el informe (2026-11-16: The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page; antes: Corregido) | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Cyclosporine, Modfied (cyclosporine) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5baaf78c-90f6-abcf-52c8-814490f3cf9f) |
 
 <!-- review:end log -->
 

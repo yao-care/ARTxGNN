@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **hipouricemia renal**, pe
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, febuxostat es un inhibidor selectivo no purínico de la xantina oxidasa que reduce la producción de ácido úrico, y su eficacia en la hiperuricemia está comprobada.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Febuxostat (traducción no oficial): «ULORIC, un inhibidor de la xantina oxidasa, logra su efecto terapéutico al disminuir el ácido úrico sérico. No se espera que ULORIC inhiba otras enzimas implicadas en la síntesis y el metabolismo de las purinas y las pirimidinas a concentraciones terapéuticas.» Texto original en inglés: "ULORIC, a xanthine oxidase inhibitor, achieves its therapeutic effect by decreasing serum uric acid. ULORIC is not expected to inhibit other enzymes involved in purine and pyrimidine synthesis and metabolism at therapeutic concentrations." ([DailyMed: Uloric (febuxostat) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=54de10ef-fe5f-4930-b91d-6bbb04c664bd), versión del 2025-12-24; consultado el 2026-11-19). Según la información conocida, febuxostat es un inhibidor selectivo no purínico de la xantina oxidasa que reduce la producción de ácido úrico, y su eficacia en la hiperuricemia está comprobada.
 
 Sin embargo, la hipouricemia renal es una condición en la que el ácido úrico sérico ya es bajo por una reabsorción renal deficiente de urato (por ejemplo, pérdida de función de URAT1/SLC22A12 o GLUT9). Reducir aún más el urato es mecanísticamente contraintuitivo y no ofrece una justificación terapéutica para la enfermedad en sí.
 
@@ -116,6 +116,19 @@ No existe una justificación mecanística directa para reducir aún más el áci
 - Definir si la hipótesis útil es la profilaxis de la lesión renal aguda inducida por ejercicio (y no el tratamiento de la hipouricemia), con estudios clínicos específicos.
 - Obtener los datos del mecanismo de acción y las advertencias/contraindicaciones del prospecto de ANMAT.
 - Considerar que las otras dos indicaciones predichas (deficiencia parcial de HPRT y síndrome de Lesch-Nyhan) tienen un fundamento mecanístico más sólido para el control de la hiperuricemia, aunque con evidencia limitada a reportes de casos, y podrían priorizarse como preguntas de investigación.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Uloric (febuxostat) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=54de10ef-fe5f-4930-b91d-6bbb04c664bd) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

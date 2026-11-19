@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos** y solo **2 publicaciones** indirec
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, alopurinol inhibe la xantina oxidasa, enzima clave en la producción de ácido úrico.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Allopurinol (traducción no oficial): «El alopurinol es un análogo estructural de la base púrica natural hipoxantina. El alopurinol y su metabolito oxipurinol inhiben la xantina oxidasa, la enzima responsable de la conversión de hipoxantina en xantina y de xantina en ácido úrico, el producto final del metabolismo de las purinas en los seres humanos.» Texto original en inglés: "Allopurinol is a structural analogue of the natural purine base, hypoxanthine. Allopurinol and its oxypurinol metabolite inhibitor xanthine oxidase, the enzyme responsible for the conversion of hypoxanthine to xanthine and of xanthine to uric acid, the end product of purine metabolism in humans." ([DailyMed: Aloprim (allopurinol) prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10cc918f-aa44-415b-932d-2404695ac449), versión del 2022-02-18; consultado el 2026-11-19). Según la información conocida, alopurinol inhibe la xantina oxidasa, enzima clave en la producción de ácido úrico.
 
 La relación con la porfiria hepática es incierta. Un artículo de hipótesis de 2019 propone dirigirse al metabolismo del hemo (5-aminolevulinato sintasa y utilización del hemo por la triptófano 2,3-dioxigenasa) como terapia de las porfirias hepáticas agudas. Ese trabajo no estudia el alopurinol y no aporta datos clínicos.
 
@@ -106,6 +106,19 @@ La predicción se apoya solo en el puntaje del modelo y en literatura indirecta 
 - Revisión sistemática de la evidencia preclínica y clínica sobre el efecto del alopurinol en el metabolismo del hemo y su carácter porfirinogénico.
 - Datos detallados del mecanismo de acción y de las advertencias y contraindicaciones del prospecto aprobado por ANMAT.
 - Estudios preclínicos específicos en modelos de porfiria hepática antes de considerar ensayos clínicos.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Aloprim (allopurinol) prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10cc918f-aa44-415b-932d-2404695ac449) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

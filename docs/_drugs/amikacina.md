@@ -61,7 +61,7 @@ Esta dirección cuenta con **0 ensayos clínicos** y **8 publicaciones** relacio
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Amikacina pertenece a la clase de los aminoglucósidos, que tienen actividad antibacteriana de amplio espectro contra bacilos Gram negativos. *Salmonella* Paratyphi, agente de la fiebre paratifoidea, es un microorganismo Gram negativo sensible a este tipo de antibióticos *in vitro*. Ese es el vínculo plausible detrás de la predicción.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Amikacina (traducción no oficial): «La amikacina, un aminoglucósido, se une al ribosoma procariota e inhibe la síntesis de proteínas en las bacterias sensibles. Es bactericida in vitro frente a bacterias grampositivas y gramnegativas.» Texto original en inglés: "Amikacin, an aminoglycoside, binds to the prokaryotic ribosome, inhibiting protein synthesis in susceptible bacteria. It is bactericidal in vitro against Gram-positive and Gram-negative bacteria." ([DailyMed: amikacin sulfate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f260ff2a-76a0-4672-9516-91c344b67890), versión del 2026-07-27; consultado el 2026-11-19). Amikacina pertenece a la clase de los aminoglucósidos, que tienen actividad antibacteriana de amplio espectro contra bacilos Gram negativos. *Salmonella* Paratyphi, agente de la fiebre paratifoidea, es un microorganismo Gram negativo sensible a este tipo de antibióticos *in vitro*. Ese es el vínculo plausible detrás de la predicción.
 
 Hay una limitación importante. Los aminoglucósidos penetran mal en el interior de las células, y *Salmonella* es un patógeno intracelular facultativo. Por eso no son una opción confiable para la fiebre entérica. El tratamiento estándar se basa en fluoroquinolonas, azitromicina o cefalosporinas de tercera generación. Amikacina solo podría considerarse como opción de rescate ante aislamientos multirresistentes, y esto sigue siendo hipotético por falta de datos clínicos.
 
@@ -117,6 +117,19 @@ La evidencia disponible se limita a estudios observacionales, vigilancia de sens
 - Datos de mecanismo de acción y de seguridad (advertencias, contraindicaciones e interacciones) a partir del prospecto aprobado.
 - Estudios de sensibilidad *in vitro* y, si corresponde, estudios clínicos que evalúen amikacina en fiebre paratifoidea multirresistente frente a las alternativas estándar.
 - Una evaluación de su posible papel solo como opción de rescate, con un plan de monitoreo de seguridad adecuado.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: amikacin sulfate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f260ff2a-76a0-4672-9516-91c344b67890) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

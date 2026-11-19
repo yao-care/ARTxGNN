@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Por conocimiento general, haloperidol es un antagonista de los receptores de dopamina D2 de la clase de los antipsicóticos típicos (butirofenonas).
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Haloperidol (traducción no oficial): «El mecanismo de acción del decanoato de haloperidol en el tratamiento de la esquizofrenia en adultos no está claro. Sin embargo, su efecto en la esquizofrenia podría estar mediado por su actividad como antagonista de los receptores dopaminérgicos centrales de tipo 2.» Texto original en inglés: "The mechanism of action of haloperidol decanoate for the treatment of schizophrenia in adults is unclear. However, its effect in schizophrenia could be mediated through its activity as an antagonist at central dopamine type 2 receptors." ([DailyMed: haloperidol decanoate prescribing information, BluePoint Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3d011250-a517-4c27-8ce3-d59d441ea61c), versión del 2026-11-03; consultado el 2026-11-19). Por conocimiento general, haloperidol es un antagonista de los receptores de dopamina D2 de la clase de los antipsicóticos típicos (butirofenonas).
 
 No se identificó un vínculo mecanístico plausible entre el bloqueo dopaminérgico D2 y los defectos de fucosilación. El puntaje elevado (0,9991) refleja únicamente una predicción computacional, sin respaldo de estudios reales en los datos compilados.
 
@@ -97,6 +97,19 @@ La predicción se apoya únicamente en el puntaje del modelo (0,9991), sin ensay
 - Una hipótesis mecanística que relacione el antagonismo D2 con la vía de fucosilación
 - Estudios preclínicos que evalúen un posible efecto en modelos de este defecto de glicosilación
 - Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones) para una evaluación de seguridad
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: haloperidol decanoate prescribing information, BluePoint Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3d011250-a517-4c27-8ce3-d59d441ea61c) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

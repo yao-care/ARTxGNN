@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **vasculitis postinfeccios
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado en los datos compilados para este informe. Según la información farmacológica disponible, la fluorometholona actúa sobre el receptor de glucocorticoides (NR3C1), y se usa para tratar la conjuntivitis inflamatoria.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Fluorometholone (traducción no oficial): «Los corticosteroides inhiben la respuesta inflamatoria a diversos agentes desencadenantes y probablemente retrasan o enlentecen la cicatrización. Inhiben el edema, el depósito de fibrina, la dilatación capilar, la migración de leucocitos, la proliferación capilar, la proliferación de fibroblastos, el depósito de colágeno y la formación de cicatrices asociados con la inflamación. […] En estudios clínicos de pacientes con respuesta documentada a los esteroides, la fluorometolona demostró un tiempo promedio significativamente más largo para producir un aumento de la presión intraocular que el fosfato de dexametasona; sin embargo, en un pequeño porcentaje de individuos, se produjo un aumento significativo de la presión intraocular en el plazo de una semana.» Texto original en inglés: "Corticosteroids inhibit the inflammatory response to a variety of inciting agents and probably delay or slow healing. They inhibit the edema, fibrin deposition, capillary dilation, leukocyte migration, capillary proliferation, fibroblast proliferation, deposition of collagen, and scar formation associated with inflammation. […] In clinical studies of documented steroid-responders, fluorometholone demonstrated a significantly longer average time to produce a rise in intraocular pressure than dexamethasone phosphate; however, in a small percentage of individuals, a significant rise in intraocular pressure occurred within one week." ([DailyMed: Fluorometholone Ophthalmic Suspension (fluorometholone) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e7988a3b-e432-4d42-a8d2-63ca017e6a01), versión del 2026-08-12; consultado el 2026-11-19). Según la información farmacológica disponible, la fluorometholona actúa sobre el receptor de glucocorticoides (NR3C1), y se usa para tratar la conjuntivitis inflamatoria.
 
 Un glucocorticoide podría, en teoría, atenuar la vasculitis mediada por inmunocomplejos. Sin embargo, la fluorometholona está formulada para uso ocular, con exposición sistémica mínima, por lo que el vínculo con una vasculitis sistémica es débil.
 
@@ -98,6 +98,19 @@ La predicción se basa únicamente en el modelo, sin ensayos ni literatura, y la
 - Datos del mecanismo de acción y de exposición sistémica con la formulación actual
 - Revisión del prospecto de ANMAT para advertencias y contraindicaciones
 - Análisis de viabilidad de una vía de administración adecuada para esta indicación
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Fluorometholone Ophthalmic Suspension (fluorometholone) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e7988a3b-e432-4d42-a8d2-63ca017e6a01) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

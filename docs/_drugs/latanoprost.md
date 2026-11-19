@@ -56,7 +56,7 @@ Actualmente no hay ensayos clínicos ni publicaciones que respalden esta direcci
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por conocimiento general, latanoprost es un análogo de prostaglandina F2-alfa que actúa como agonista del receptor FP y tiene propiedades vasoactivas.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Latanoprost (traducción no oficial): «El latanoprost es un análogo de la prostaglandina F 2α que se cree que reduce la presión intraocular (PIO) al aumentar el drenaje del humor acuoso. Los estudios en animales y en seres humanos sugieren que el principal mecanismo de acción es el aumento del drenaje uveoescleral.» Texto original en inglés: "Latanoprost is a prostaglandin F 2α analogue that is believed to reduce the intraocular pressure (IOP) by increasing the outflow of aqueous humor. Studies in animals and man suggest that the main mechanism of action is increased uveoscleral outflow." ([DailyMed: Xelpros (latanoprost) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34ad5cf6-4df0-4104-bddd-4c7631133ded), versión del 2025-12-18; consultado el 2026-11-19). Por conocimiento general, latanoprost es un análogo de prostaglandina F2-alfa que actúa como agonista del receptor FP y tiene propiedades vasoactivas.
 
 La relación entre su uso actual y la calcifilaxia visceral es especulativa. Esta enfermedad implica calcificación vascular y oclusión de vasos pequeños, y no existe un vínculo terapéutico reconocido con la activación del receptor FP.
 
@@ -101,6 +101,19 @@ No existe ningún ensayo ni publicación sobre calcifilaxia visceral, el mecanis
 - Estudios preclínicos que respalden una relación biológica con la calcifilaxia
 - Evaluación de exposición sistémica, dado que el producto es de uso oftálmico tópico
 - Revisión del prospecto local para advertencias y contraindicaciones
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Xelpros (latanoprost) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34ad5cf6-4df0-4104-bddd-4c7631133ded) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

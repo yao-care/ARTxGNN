@@ -57,7 +57,7 @@ Actualmente no hay ensayos clínicos registrados y la evidencia se limita a **2 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por conocimiento general, ciprofloxacina inhibe la ADN girasa y la topoisomerasa IV bacterianas, y su actividad antibacteriana está bien establecida.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ciprofloxacina (traducción no oficial): «El ciprofloxacino pertenece a la clase de agentes antibacterianos de las fluoroquinolonas. […] La acción bactericida del ciprofloxacino se debe a la inhibición de las enzimas topoisomerasa II (ADN girasa) y topoisomerasa IV (ambas topoisomerasas de tipo II), que son necesarias para la replicación, la transcripción, la reparación y la recombinación del ADN bacteriano.» Texto original en inglés: "Ciprofloxacin is a member of the fluoroquinolone class of antibacterial agents. […] The bactericidal action of ciprofloxacin results from inhibition of the enzymes topoisomerase II (DNA gyrase) and topoisomerase IV (both Type II topoisomerases), which are required for bacterial DNA replication, transcription, repair, and recombination." ([DailyMed: Ciprofloxacin In Dextrose (ciprofloxacin) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbbbf939-3219-4515-a48e-ca264daa4d07), versión del 2025-11-04; consultado el 2026-11-19). Por conocimiento general, ciprofloxacina inhibe la ADN girasa y la topoisomerasa IV bacterianas, y su actividad antibacteriana está bien establecida.
 
 Para la esclerodermia difusa se plantean dos vías plausibles pero no demostradas. La primera es el tratamiento del sobrecrecimiento bacteriano del intestino delgado, una complicación gastrointestinal reconocida de la esclerosis sistémica; sería un efecto de apoyo y sintomático. La segunda es un posible efecto antifibrótico sobre los fibroblastos de la piel y la matriz extracelular, sugerido por un reporte de 2010. Se desconoce el alcance de cualquier efecto modificador de la enfermedad.
 
@@ -100,6 +100,19 @@ La predicción tiene un puntaje alto (0.9987), pero la evidencia directa es esca
 - Ensayos clínicos controlados que evalúen resultados cutáneos y funcionales en esclerodermia difusa
 - Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones) de ANMAT
 - Evaluación del balance riesgo-beneficio de un uso prolongado de fluoroquinolonas en esta población
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Ciprofloxacin In Dextrose (ciprofloxacin) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbbbf939-3219-4515-a48e-ca264daa4d07) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

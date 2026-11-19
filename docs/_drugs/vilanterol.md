@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Por su clase farmacológica, vilanterol es un agonista beta2 de acción prolongada que relaja el músculo liso bronquial y favorece la broncodilatación.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para fluticasone furoate and vilanterol (combinación que contiene Vilanterol) (traducción no oficial): «Los efectos farmacológicos de los fármacos agonistas beta 2 -adrenérgicos, incluido el vilanterol, se atribuyen, al menos en parte, a la estimulación de la adenilciclasa intracelular, la enzima que cataliza la conversión del trifosfato de adenosina (ATP) en 3′,5′-adenosín monofosfato cíclico (AMP cíclico).» Texto original en inglés: "The pharmacologic effects of beta 2 -adrenergic agonist drugs, including vilanterol, are at least in part attributable to stimulation of intracellular adenyl cyclase, the enzyme that catalyzes the conversion of adenosine triphosphate (ATP) to cyclic-3′,5′-adenosine monophosphate (cyclic AMP)." ([DailyMed: fluticasone furoate and vilanterol prescribing information, Prasco Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a761487-c300-451a-8537-3196c00c11b5), versión del 2024-11-21; consultado el 2026-11-19). Por su clase farmacológica, vilanterol es un agonista beta2 de acción prolongada que relaja el músculo liso bronquial y favorece la broncodilatación.
 
 El pulmón hiperlúcido es un hallazgo radiográfico y fisiopatológico que suele asociarse con enfisema y atrapamiento aéreo. Esta superposición con enfermedades obstructivas de las vías respiratorias hace plausible un vínculo a través de la broncodilatación.
 
@@ -102,6 +102,19 @@ La predicción tiene un puntaje alto (0,9972), pero carece de ensayos clínicos 
 - Estudios clínicos o revisiones de literatura que evalúen directamente esta condición
 - Datos del mecanismo de acción
 - Advertencias y contraindicaciones del prospecto de ANMAT
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: fluticasone furoate and vilanterol prescribing information, Prasco Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a761487-c300-451a-8537-3196c00c11b5) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos** registrados y la literatura recopi
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Por su clase farmacológica, lisinopril inhibe la ECA y reduce la producción de angiotensina II, lo que podría atenuar la vasoconstricción y el remodelado vascular pulmonar.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Lisinopril (traducción no oficial): «El lisinopril inhibe la enzima convertidora de angiotensina (ECA) en seres humanos y en animales. La ECA es una peptidil dipeptidasa que cataliza la conversión de la angiotensina I en la sustancia vasoconstrictora angiotensina II. La angiotensina II también estimula la secreción de aldosterona por la corteza suprarrenal.» Texto original en inglés: "Lisinopril inhibits angiotensin-converting enzyme (ACE) in human subjects and animals. ACE is a peptidyl dipeptidase that catalyzes the conversion of angiotensin I to the vasoconstrictor substance, angiotensin II. Angiotensin II also stimulates aldosterone secretion by the adrenal cortex." ([DailyMed: Qbrelis (lisinopril) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f6e4e57-a489-4b36-b093-b93865d3717c), versión del 2025-12-16; consultado el 2026-11-19). Por su clase farmacológica, lisinopril inhibe la ECA y reduce la producción de angiotensina II, lo que podría atenuar la vasoconstricción y el remodelado vascular pulmonar.
 
 Sin embargo, el mecanismo es débil para esta enfermedad: un estudio preclínico en arterias pulmonares aisladas de rata (PMID 10456287) indica que la respuesta contráctil a la hipoxia depende sobre todo de la endotelina y no de la angiotensina II. Esto debilita la justificación mecanística.
 
@@ -111,6 +111,19 @@ La predicción (puntaje 0,9989) no cuenta con ensayos clínicos ni estudios dire
 - Revisión dirigida de la literatura clínica sobre inhibidores de la ECA en hipertensión pulmonar asociada a enfermedad pulmonar/hipoxia.
 - Estudios clínicos que evalúen directamente esta indicación.
 - Obtención y análisis del prospecto aprobado por ANMAT para completar advertencias y contraindicaciones.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Qbrelis (lisinopril) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f6e4e57-a489-4b36-b093-b93865d3717c) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

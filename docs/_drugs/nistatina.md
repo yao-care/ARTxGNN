@@ -57,7 +57,7 @@ Para esta predicción no hay estudios que respalden la dirección: el único ens
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado en los datos compilados para este informe. Por conocimiento general, la nistatina se une al ergosterol de la membrana de los hongos y altera su integridad. No se absorbe de forma sistémica tras su uso oral o tópico.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Nistatina (traducción no oficial): «La nistatina actúa uniéndose a los esteroles de la membrana celular de las especies de Candida sensibles, con el consiguiente cambio en la permeabilidad de la membrana que permite la salida de componentes intracelulares. La nistatina no muestra una actividad apreciable contra bacterias, protozoos ni virus.» Texto original en inglés: "Nystatin acts by binding to sterols in the cell membrane of susceptible Candida species with a resultant change in membrane permeability allowing leakage of intracellular components. Nystatin exhibits no appreciable activity against bacteria, protozoa, or viruses." ([DailyMed: Nystatin Oral Suspension (nystatin) prescribing information, Xttrium Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4a670371-d373-1ba6-e063-6394a90a13b6), versión del 2026-02-06; consultado el 2026-11-19). Por conocimiento general, la nistatina se une al ergosterol de la membrana de los hongos y altera su integridad. No se absorbe de forma sistémica tras su uso oral o tópico.
 
 Con ese mecanismo, no se identifica un vínculo biológico creíble con una enfermedad de la región orbitaria. El puntaje alto (0,9990) proviene de una predicción computacional sin respaldo biológico ni clínico, y probablemente refleja asociaciones entre términos de la ontología de enfermedades más que una relación terapéutica real.
 
@@ -101,6 +101,19 @@ La predicción no tiene respaldo: el nivel de evidencia es L5, no hay literatura
 - Estudios preclínicos o clínicos que evalúen directamente esta enfermedad
 - Información de seguridad del prospecto aprobado por ANMAT (advertencias y contraindicaciones)
 - Análisis de compatibilidad de vías de administración, dado que las formas disponibles son orales, vaginales y tópicas
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Nystatin Oral Suspension (nystatin) prescribing information, Xttrium Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4a670371-d373-1ba6-e063-6394a90a13b6) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

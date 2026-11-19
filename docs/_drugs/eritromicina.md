@@ -57,7 +57,7 @@ pero actualmente no hay ensayos clínicos y solo **1 publicación** (una revisi�
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la eritromicina es un macrólido con actividad antibacteriana y propiedades antiinflamatorias, y mecanísticamente podría ser aplicable a cuadros oculares de origen bacteriano o inflamatorio.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Eritromicina (traducción no oficial): «La eritromicina actúa inhibiendo la síntesis de proteínas al unirse a las subunidades ribosómicas 50S de los microorganismos sensibles. No afecta a la síntesis de ácidos nucleicos.» Texto original en inglés: "Erythromycin acts by inhibition of protein synthesis by binding 50S ribosomal subunits of susceptible organisms. It does not affect nucleic acid synthesis." ([DailyMed: Ery-Tab (erythromycin) prescribing information, Arbor Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda44eb6-7901-4b80-ba0b-216f6cacf3fd), versión del 2018-12-04; consultado el 2026-11-19). Según la información conocida, la eritromicina es un macrólido con actividad antibacteriana y propiedades antiinflamatorias, y mecanísticamente podría ser aplicable a cuadros oculares de origen bacteriano o inflamatorio.
 
 Los macrólidos tópicos u orales se utilizan en la blefaroqueratoconjuntivitis crónica (por ejemplo, la asociada a estafilococos o a disfunción de las glándulas de Meibomio), que puede cursar con queratitis epitelial punteada. Sin embargo, el vínculo es indirecto: el único artículo disponible es una revisión sobre el manejo de la blefaroqueratoconjuntivitis pediátrica, no un estudio de la queratoconjuntivitis epitelial punteada en sí.
 
@@ -105,6 +105,19 @@ No existen ensayos clínicos y la única publicación disponible aborda una enfe
 - Datos del mecanismo de acción (MOA)
 - Información de seguridad del prospecto de ANMAT (advertencias y contraindicaciones)
 - Evaluación de la compatibilidad de vías de administración (las formas oftálmicas ya comercializadas serían el punto de partida)
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Ery-Tab (erythromycin) prescribing information, Arbor Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda44eb6-7901-4b80-ba0b-216f6cacf3fd) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

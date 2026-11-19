@@ -55,7 +55,7 @@ Norfloxacina es un antibiótico de la clase de las fluoroquinolonas que se comer
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la norfloxacina es una fluoroquinolona que inhibe la ADN girasa y la topoisomerasa IV bacterianas.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Norfloxacina es (traducción no oficial): «Inhibidor de la topoisomerasa IV; inhibidor de la ADN girasa bacteriana» Texto original en inglés: "Topoisomerase IV inhibitor; Bacterial DNA gyrase inhibitor" ([ChEMBL CHEMBL9 (norfloxacin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL9), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, la norfloxacina es una fluoroquinolona que inhibe la ADN girasa y la topoisomerasa IV bacterianas.
 
 Ese mecanismo no tiene relación identificable con la regulación de la amilasa ni con el manejo de enzimas pancreáticas. El puntaje alto del modelo parece ser un artefacto de la estructura de datos del modelo, sin respaldo clínico ni bibliográfico.
 
@@ -97,6 +97,19 @@ La predicción no cuenta con ensayos clínicos ni literatura, no tiene un mecani
 - Prospecto de ANMAT con advertencias y contraindicaciones, para el cribado de seguridad
 - Cualquier estudio clínico o preclínico que evalúe directamente la norfloxacina en hiperamilasemia
 - Justificación biológica que explique la asociación antes de reconsiderar la decisión
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL9 (norfloxacin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL9) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

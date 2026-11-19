@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, la etosuximida actúa en la epilepsia de ausencia bloqueando los canales de calcio tipo T de las neuronas talámicas, y su eficacia en esa indicación está bien establecida.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ethosuximide (traducción no oficial): «La etosuximida suprime la actividad paroxística de punta-onda de tres ciclos por segundo asociada a lapsos de conciencia, que es frecuente en las crisis de ausencia (pequeño mal). La frecuencia de los ataques epileptiformes se reduce, aparentemente mediante la depresión de la corteza motora y la elevación del umbral del sistema nervioso central a los estímulos convulsivos.» Texto original en inglés: "Ethosuximide suppresses the paroxysmal three cycle per second spike and wave activity associated with lapses of consciousness which is common in absence (petit mal) seizures. The frequency of epileptiform attacks is reduced, apparently by depression of the motor cortex and elevation of the threshold of the central nervous system to convulsive stimuli." ([DailyMed: Zarontin (ethosuximide) prescribing information, Parke-Davis Div of Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e008f33-70a1-4bc6-b3a0-d45214418ab6), versión del 2026-05-25; consultado el 2026-11-19). Según la información conocida, la etosuximida actúa en la epilepsia de ausencia bloqueando los canales de calcio tipo T de las neuronas talámicas, y su eficacia en esa indicación está bien establecida.
 
 El SNAI es causado por mutaciones de ganancia de función en el receptor V2 de vasopresina (AVPR2, por ejemplo R137C/R137L) o en GNAS, que provocan activación constitutiva del receptor y retención de agua independiente de la arginina vasopresina. No existe una conexión establecida entre el bloqueo de canales de calcio tipo T y esta fisiopatología.
 
@@ -91,6 +91,19 @@ La predicción se basa solo en el modelo (L5), sin ensayos clínicos ni literatu
 - Realizar estudios preclínicos o de mecanismo que evalúen un posible efecto sobre la vía AVPR2/cAMP/acuaporina-2.
 - Revisar la literatura y los registros de ensayos para detectar cualquier evidencia relacionada con SNAI.
 - Evaluar la compatibilidad de vías de administración y la similitud con la indicación original.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Zarontin (ethosuximide) prescribing information, Parke-Davis Div of Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e008f33-70a1-4bc6-b3a0-d45214418ab6) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

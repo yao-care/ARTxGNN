@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectiva para **queratosis seborreica**,
 
 ## Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado. Según la información conocida, la hidroquinona inhibe la tirosinasa y reduce la síntesis de melanina, por lo que se usa en trastornos de hiperpigmentación como el melasma.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Hydroquinone (traducción no oficial): «La aplicación tópica de hidroquinona produce una despigmentación reversible de la piel mediante la inhibición de la oxidación enzimática de la tirosina a 3,4-dihidroxifenilalanina (dopa) (Denton, C. et al., 1952)1 y la supresión de otros procesos metabólicos de los melanocitos (Jimbow, K. et al., 1974)2. La exposición a la luz solar o a la luz ultravioleta causará la repigmentación de las zonas despigmentadas (Parrish, L.A. et al., 1978)3.» Texto original en inglés: "Topical application of hydroquinone produces a reversible depigmentation of the skin by inhibition of the enzymatic oxidation of tyrosine to 3,4-dihydroxyphenylalanine (dopa) (Denton, C. et al., 1952)1 and suppression of other melanocyte metabolic processes (Jimbow, K. et al., 1974)2. Exposure to sunlight or ultraviolet light will cause repigmentation of bleached areas (Parrish, L.A. et al., 1978)3." ([DailyMed: Hydroquinone 4% (hydroquinone) prescribing information, Acella Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=595dfc50-ee6f-41b5-ab5b-4c293aee342b), versión del 2026-07-10; consultado el 2026-11-19). Según la información conocida, la hidroquinona inhibe la tirosinasa y reduce la síntesis de melanina, por lo que se usa en trastornos de hiperpigmentación como el melasma.
 
 La queratosis seborreica es una proliferación epidérmica benigna que a veces presenta hiperpigmentación. La hidroquinona podría aclarar ese componente pigmentario en algunas lesiones, pero la queratosis seborreica no es principalmente un trastorno de producción de melanina, por lo que el ajuste mecanístico es indirecto.
 
@@ -100,6 +100,19 @@ La predicción se apoya en un puntaje computacional alto, pero sin ensayos clín
 ---
 
 **Nota sobre otras predicciones evaluadas:** queratosis folicular invertida vulvar (L5), exantema (L4) y enfermedad liquenoide (L4) también quedan en *Hold*. Las tres carecen de evidencia directa y en el caso del exantema la predicción parece un artefacto de mapeo de etiquetas.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Hydroquinone 4% (hydroquinone) prescribing information, Acella Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=595dfc50-ee6f-41b5-ab5b-4c293aee342b) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

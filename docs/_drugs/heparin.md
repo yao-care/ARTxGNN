@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser útil para **trombofilia por deficiencia
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento general, la heparina potencia la antitrombina e inhibe la trombina y el factor Xa, lo que reduce la generación de trombina.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Heparin (traducción no oficial): «La heparina interactúa con la proteína plasmática de origen natural antitrombina III e induce un cambio conformacional que potencia notablemente la actividad inhibidora de serina proteasas de la antitrombina III, con lo que inhibe los factores de coagulación activados que participan en la secuencia final, en particular Xa y IIa. Pequeñas cantidades de heparina inhiben el factor Xa, y cantidades mayores inhiben la trombina (factor IIa).» Texto original en inglés: "Heparin interacts with the naturally occurring plasma protein, antithrombin III, to induce a conformational change, which markedly enhances the serine protease activity of antithrombin III, thereby inhibiting the activated coagulation factors involved in the closing sequence, particularly Xa and IIa. Small amounts of heparin inhibit Factor Xa, and larger amounts inhibit thrombin (Factor IIa)." ([DailyMed: Heparin Sodium And Dextrose (heparin sodium) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eede8a0c-5ae6-4166-84b3-12081405f08e), versión del 2026-05-25; consultado el 2026-11-19). Según el conocimiento general, la heparina potencia la antitrombina e inhibe la trombina y el factor Xa, lo que reduce la generación de trombina.
 
 La deficiencia grave congénita de proteína C provoca una generación descontrolada de trombina y trombosis microvascular (por ejemplo, púrpura fulminante neonatal). Como la heparina actúa sobre esa misma vía de coagulación, existe una justificación mecanística plausible. El puntaje elevado (0,9929) probablemente refleja esa cercanía fisiopatológica.
 
@@ -99,6 +99,19 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos ni publicacione
 - Comparación con el tratamiento estándar (reposición de proteína C, antagonistas de la vitamina K)
 - Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones)
 - Evaluación de la disponibilidad de una formulación sistémica en Argentina
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Heparin Sodium And Dextrose (heparin sodium) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eede8a0c-5ae6-4166-84b3-12081405f08e) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

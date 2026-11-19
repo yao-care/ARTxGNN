@@ -58,7 +58,7 @@ Gemfibrozil es un fármaco hipolipemiante que actúa sobre los receptores PPAR-a
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este fármaco. Según la información conocida, gemfibrozil es un agonista de PPAR-alfa, una clase de fármacos que regula el metabolismo de los lípidos.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Gemfibrozil (traducción no oficial): «El gemfibrozilo es un agente regulador de los lípidos que disminuye los triglicéridos séricos y el colesterol de las lipoproteínas de muy baja densidad (VLDL), y aumenta el colesterol de las lipoproteínas de alta densidad (HDL). Si bien pueden observarse disminuciones moderadas del colesterol total y del colesterol de las lipoproteínas de baja densidad (LDL) con el tratamiento con gemfibrozilo, el tratamiento de pacientes con triglicéridos elevados debido a hiperlipoproteinemia de tipo IV a menudo produce un aumento del colesterol LDL.» Texto original en inglés: "Gemfibrozil is a lipid regulating agent which decreases serum triglycerides and very low density lipoprotein (VLDL) cholesterol, and increases high density lipoprotein (HDL) cholesterol. While modest decreases in total and low density lipoprotein (LDL) cholesterol may be observed with gemfibrozil therapy, treatment of patients with elevated triglycerides due to Type IV hyperlipoproteinemia often results in a rise in LDL-cholesterol." ([DailyMed: gemfibrozil prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5501438d-5247-4f2a-8e15-085276d01725), versión del 2026-11-10; consultado el 2026-11-19). Según la información conocida, gemfibrozil es un agonista de PPAR-alfa, una clase de fármacos que regula el metabolismo de los lípidos.
 
 Mecanísticamente, la activación de PPAR podría reducir citocinas proinflamatorias y modular respuestas de los linfocitos T (por ejemplo, la regulación de Foxp3), algo plausible en una artritis autoinmune. Sin embargo, este razonamiento es indirecto.
 
@@ -117,6 +117,19 @@ Pese al puntaje alto de predicción (0,9990), no existen ensayos clínicos ni es
 - Datos detallados del mecanismo de acción aplicables a la inflamación articular
 - Revisión del prospecto de ANMAT para completar advertencias y contraindicaciones
 - Evaluación de seguridad en una población con artritis reumatoide, que suele recibir medicación concomitante con posibles interacciones
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: gemfibrozil prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5501438d-5247-4f2a-8e15-085276d01725) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

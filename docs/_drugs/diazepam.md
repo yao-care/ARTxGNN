@@ -58,7 +58,7 @@ No hay ensayos clínicos registrados para esta indicación. La evidencia son **1
 
 Diazepam es un modulador alostérico positivo del receptor GABA-A. Aumenta la inhibición neuronal mediada por GABA, lo que produce sedación, reduce la latencia del sueño y disminuye la actividad neuronal que mantiene la vigilia. Esta acción farmacológica es la base de los hipnóticos benzodiazepínicos.
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la fuente de datos de fármacos. La descripción anterior corresponde a la farmacología conocida de la clase. Mecanísticamente, la modulación de GABA-A es un camino plausible para iniciar y mantener el sueño. Otras benzodiazepinas ya se usan para el insomnio de corta duración.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Diazepam (traducción no oficial): «Se cree que el mecanismo de acción del diazepam en las indicaciones enumeradas implica la potenciación del ácido gamma-aminobutírico (GABA), un neurotransmisor inhibidor, como resultado de la unión al sitio de las benzodiazepinas del receptor GABA A.» Texto original en inglés: "The mechanism of action of diazepam for the listed indications is thought to involve potentiation of gamma aminobutyric acid (GABA), an inhibitory neurotransmitter, resulting from binding at the benzodiazepine site of the GABA A receptor." ([DailyMed: Valium (diazepam) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=260e2041-2bb3-482f-850e-b5d47a7bdbe6), versión del 2026-10-06; consultado el 2026-11-19). La descripción anterior corresponde a la farmacología conocida de la clase. Mecanísticamente, la modulación de GABA-A es un camino plausible para iniciar y mantener el sueño. Otras benzodiazepinas ya se usan para el insomnio de corta duración.
 
 Esta predicción es en gran medida un uso propio de la clase y no un reposicionamiento totalmente novedoso. Los riesgos del uso prolongado (dependencia, tolerancia, alteración de la arquitectura del sueño, deterioro cognitivo) limitan la recomendación.
 
@@ -116,6 +116,18 @@ Consultar el prospecto para conocer las advertencias y contraindicaciones oficia
 - Datos detallados del mecanismo de acción.
 - Revisión del prospecto aprobado en ANMAT para extraer advertencias y contraindicaciones.
 - Un plan de limitación de duración, dosis mínima y retirada gradual, con atención especial a adultos mayores y a interacciones con opioides y otros depresores del sistema nervioso central.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Valium (diazepam) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=260e2041-2bb3-482f-850e-b5d47a7bdbe6) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

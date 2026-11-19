@@ -56,7 +56,7 @@ El modelo TxGNN predice como principal nueva indicación el **trastorno de perso
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la fluvoxamina es un ISRS y además un agonista potente del receptor sigma-1.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Fluvoxamina (traducción no oficial): «Se presume que el mecanismo de acción del maleato de fluvoxamina en el trastorno obsesivo-compulsivo está relacionado con su inhibición específica de la recaptación de serotonina en las neuronas cerebrales. Se ha demostrado en estudios preclínicos, tanto in vitro como in vivo, que la fluvoxamina es un potente inhibidor del transportador de recaptación de serotonina.» Texto original en inglés: "The mechanism of action of fluvoxamine maleate in obsessive compulsive disorder is presumed to be linked to its specific serotonin reuptake inhibition in brain neurons. Fluvoxamine has been shown to be a potent inhibitor of the serotonin reuptake transporter in preclinical studies, both in vitro and in vivo." ([DailyMed: fluvoxamine maleate prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9972efbb-46cd-45b7-b71c-35032311b70c), versión del 2026-10-26; consultado el 2026-11-19). Según la información conocida, la fluvoxamina es un ISRS y además un agonista potente del receptor sigma-1.
 
 El vínculo con los rasgos paranoides es especulativo. El puntaje alto probablemente refleja la cercanía de la fluvoxamina con otros trastornos de personalidad en la red de relaciones del modelo, y no una evidencia farmacológica directa. No se identificó ningún estudio que evalúe la fluvoxamina en esta condición, por lo que la predicción debe tratarse como una hipótesis sin respaldo empírico.
 
@@ -90,6 +90,19 @@ Consultar el prospecto para información de seguridad.
 - Datos del mecanismo de acción que justifiquen un vínculo plausible con esta condición
 - Información de seguridad del prospecto aprobado por ANMAT (advertencias y contraindicaciones)
 - Verificación de las interacciones farmacológicas, dado el conocido riesgo por inhibición de CYP1A2 y CYP2C19
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: fluvoxamine maleate prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9972efbb-46cd-45b7-b71c-35032311b70c) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

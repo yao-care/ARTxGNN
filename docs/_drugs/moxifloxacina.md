@@ -56,7 +56,7 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de hipervis
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, moxifloxacina es una fluoroquinolona que inhibe la ADN girasa y la topoisomerasa IV bacterianas, y su uso es antibacteriano.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Moxifloxacina (traducción no oficial): «Moxifloxacino Tableta es un miembro de la clase de agentes antibacterianos de las fluoroquinolonas. […] La acción bactericida del moxifloxacino resulta de la inhibición de la topoisomerasa II (DNA girasa) y de la topoisomerasa IV, necesarias para la replicación, la transcripción, la reparación y la recombinación del DNA bacteriano.» Texto original en inglés: "Moxifloxacin Tablet is a member of the fluoroquinolone class of antibacterial agents. […] The bactericidal action of moxifloxacin results from inhibition of the topoisomerase II (DNA gyrase) and topoisomerase IV required for bacterial DNA replication, transcription, repair, and recombination." ([DailyMed: Moxifloxacin (moxifloxacin hydrochloride) prescribing information, Kesin Pharma Corportation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5a6d3ff1-e853-a3d8-e063-6394a90a18f5), versión del 2026-11-06; consultado el 2026-11-19). Según la información conocida, moxifloxacina es una fluoroquinolona que inhibe la ADN girasa y la topoisomerasa IV bacterianas, y su uso es antibacteriano.
 
 Con base en el análisis de los datos compilados, **no se identifica un vínculo mecanístico plausible** con la nueva indicación: moxifloxacina no tiene efecto conocido sobre la viscosidad sérica ni sobre los niveles de inmunoglobulinas. El puntaje elevado (0,9998) es solo una salida del modelo y no está respaldado por estudios reales.
 
@@ -100,6 +100,19 @@ La predicción principal no cuenta con ensayos clínicos ni literatura, no tiene
 - Estudios preclínicos o clínicos que evalúen directamente esta enfermedad
 - Obtener del prospecto de ANMAT las advertencias y contraindicaciones, y los datos del mecanismo de acción
 - Contrastar la predicción con otras opciones de mayor sustento antes de asignar recursos
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Moxifloxacin (moxifloxacin hydrochloride) prescribing information, Kesin Pharma Corportation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5a6d3ff1-e853-a3d8-e063-6394a90a18f5) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

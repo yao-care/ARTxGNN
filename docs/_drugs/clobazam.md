@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser útil para el **síndrome epiléptico re
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, clobazam es un modulador alostérico positivo del receptor GABA-A, mecanismo plausible para el estado epiléptico refractario que caracteriza al síndrome epiléptico relacionado con infección febril (FIRES).
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Clobazam (traducción no oficial): «El mecanismo de acción exacto del clobazam, una 1,5-benzodiazepina, no se conoce por completo, pero se cree que implica la potenciación de la neurotransmisión GABAérgica derivada de la unión al sitio de las benzodiazepinas del receptor GABA A.» Texto original en inglés: "The exact mechanism of action for clobazam, a 1,5-benzodiazepine, is not fully understood but is thought to involve potentiation of GABAergic neurotransmission resulting from binding at the benzodiazepine site of the GABA A receptor." ([DailyMed: Onfi (clobazam) prescribing information, Lundbeck Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de03bd69-2dca-459c-93b4-541fd3e9571c), versión del 2026-10-16; consultado el 2026-11-19). Según la información conocida, clobazam es un modulador alostérico positivo del receptor GABA-A, mecanismo plausible para el estado epiléptico refractario que caracteriza al síndrome epiléptico relacionado con infección febril (FIRES).
 
 La literatura recuperada trata otros fármacos en contextos de abandono de benzodiazepinas o barbitúricos: lorazepam enteral como sustituto en el destete de midazolam (serie de casos, 2022) y perampanel para reducir la dependencia de barbitúricos (reporte de caso, 2025). Estos trabajos respaldan la plausibilidad de la clase, pero no aportan datos de clobazam. Ningún estudio citado evalúa directamente clobazam en esta enfermedad.
 
@@ -102,6 +102,19 @@ No existen ensayos clínicos ni estudios que evalúen clobazam directamente en F
 - Datos detallados del mecanismo de acción
 - Advertencias y contraindicaciones del prospecto aprobado por ANMAT
 - Evaluación de las interacciones de gravedad mayor (opioides como la morfina) en el contexto de cuidados intensivos
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Onfi (clobazam) prescribing information, Lundbeck Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de03bd69-2dca-459c-93b4-541fd3e9571c) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

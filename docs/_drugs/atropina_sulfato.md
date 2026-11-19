@@ -56,7 +56,7 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña (m
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Por conocimiento farmacológico general, la atropina bloquea de forma no selectiva los receptores muscarínicos de acetilcolina.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Atropina Sulfato (traducción no oficial): «La atropina bloquea de forma competitiva los efectos de la acetilcolina, incluido el exceso de acetilcolina debido a la intoxicación por organofosforados, en los receptores colinérgicos muscarínicos del músculo liso, el músculo cardíaco y las células de las glándulas secretoras, así como en los ganglios autónomos periféricos y en el sistema nervioso central.» Texto original en inglés: "Atropine competitively blocks the effects of acetylcholine, including excess acetylcholine due to organophosphorus poisoning, at muscarinic cholinergic receptors on smooth muscle, cardiac muscle, secretory gland cells, and in peripheral autonomic ganglia and the central nervous system." ([DailyMed: Atropen Auto-Injector (atropine) prescribing information, Meridian Medical Technologies LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e2d4307d-da8f-49f5-aac0-02355dd9ffb7), versión del 2022-09-15; consultado el 2026-11-19). Por conocimiento farmacológico general, la atropina bloquea de forma no selectiva los receptores muscarínicos de acetilcolina.
 
 La literatura compilada vincula la señalización colinérgica y parasimpática con la fisiopatología de la migraña: en ratas, la estimulación parasimpática del ganglio esfenopalatino induce extravasación de proteínas plasmáticas en la duramadre (inflamación neurogénica), y se ha descrito la modulación colinérgica mediada por mastocitos meníngeos. Además, en la hemicránea paroxística crónica, la atropina sistémica redujo la sudoración, el lagrimeo y la secreción nasal asociados a los ataques, lo que sugiere un vínculo autonómico indirecto.
 
@@ -111,11 +111,12 @@ No existe ningún ensayo clínico ni estudio que evalúe la atropina en la migra
 
 ## Registro de verificación
 
-A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de verificación | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-06 | Eliminado: «No se encontraron autorizaciones de comercialización vigentes para Atropina Sulfato en Argentina según los registros consultados (0 autoriza» | Ya no aparece tras regenerar el informe (2026-11-16: The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page; antes: Corregido) | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Atropen Auto-Injector (atropine) prescribing information, Meridian Medical Technologies LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e2d4307d-da8f-49f5-aac0-02355dd9ffb7) |
 
 <!-- review:end log -->
 

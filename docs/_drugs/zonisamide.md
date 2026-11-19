@@ -58,7 +58,7 @@ Zonisamida es un fármaco antiepiléptico (anticonvulsivante) comercializado en 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la fuente principal de fármacos. Según la información conocida, zonisamida bloquea los canales de sodio dependientes de voltaje y los canales de calcio tipo T. También modula la transmisión dopaminérgica y serotoninérgica. Su eficacia como antiepiléptico está establecida, y mecanísticamente podría relacionarse con los circuitos de los tics, en los que participan la dopamina y la excitabilidad neuronal.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Zonisamide (traducción no oficial): «Se desconoce el mecanismo o los mecanismos precisos por los que la zonisamida ejerce su efecto anticonvulsivo. La zonisamida demostró actividad anticonvulsivante en varios modelos experimentales. En animales, la zonisamida fue eficaz contra las convulsiones de extensión tónica inducidas por electrochoque máximo, pero ineficaz contra las convulsiones clónicas inducidas por pentilenotetrazol subcutáneo.» Texto original en inglés: "The precise mechanism(s) by which zonisamide exerts its antiseizure effect is unknown. Zonisamide demonstrated anticonvulsant activity in several experimental models. In animals, zonisamide was effective against tonic extension seizures induced by maximal electroshock but ineffective against clonic seizures induced by subcutaneous pentylenetetrazol." ([DailyMed: Zonegran (zonisamide) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d12de43e-3ac3-4335-bc85-70d7366a91eb), versión del 2026-09-23; consultado el 2026-11-19). Según la información conocida, zonisamida bloquea los canales de sodio dependientes de voltaje y los canales de calcio tipo T. También modula la transmisión dopaminérgica y serotoninérgica. Su eficacia como antiepiléptico está establecida, y mecanísticamente podría relacionarse con los circuitos de los tics, en los que participan la dopamina y la excitabilidad neuronal.
 
 Esta relación es especulativa. No se aportaron ensayos ni literatura que la sustenten. Además, una revisión pragmática (PMID 36005856) sugiere que los medicamentos antiepilépticos pueden **inducir** trastorno de tics y trastorno obsesivo-compulsivo. Por eso la dirección del efecto es incierta: el fármaco podría incluso empeorar el cuadro.
 
@@ -120,6 +120,19 @@ La predicción para síndrome de Tourette se basa solo en el modelo (nivel L5), 
 - Si se prosigue, un estudio piloto bien diseñado antes de considerar cualquier uso.
 
 **Nota:** entre las otras predicciones de zonisamida, la **epilepsia de ausencia** tiene mayor respaldo (nivel L3). Se apoya en estudios pequeños (PMID 15847848 y 24907183), pero tampoco incluye ensayos de Fase 3. Podría ser una alternativa a evaluar con mayor prioridad que el síndrome de Tourette.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Zonegran (zonisamide) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d12de43e-3ac3-4335-bc85-70d7366a91eb) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

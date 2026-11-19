@@ -57,7 +57,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden dir
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la epinastina es un antagonista del receptor H1 con actividad estabilizadora de mastocitos, y se comercializa como agente oftálmico para la conjuntivitis alérgica.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Epinastina (traducción no oficial): «La epinastina es un antagonista directo del receptor H 1, de acción tópica, y un inhibidor de la liberación de histamina desde el mastocito. La epinastina es selectiva para el receptor H 1 de la histamina y tiene afinidad por el receptor H 2 de la histamina.» Texto original en inglés: "Epinastine is a topically active, direct H 1 -receptor antagonist and an inhibitor of the release of histamine from the mast cell. Epinastine is selective for the histamine H 1 -receptor and has affinity for the histamine H 2 -receptor." ([DailyMed: epinastine hydrochloride prescribing information, Somerset Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d4ee45c-e58f-4b7c-b389-898f5c27f54d), versión del 2025-03-22; consultado el 2026-11-19). Según la información conocida, la epinastina es un antagonista del receptor H1 con actividad estabilizadora de mastocitos, y se comercializa como agente oftálmico para la conjuntivitis alérgica.
 
 Mecanísticamente, el alivio sintomático de la inflamación y el prurito de la superficie ocular es plausible. Sin embargo, la rosácea ocular depende principalmente de la disfunción de las glándulas de Meibomio, factores microbianos y de *Demodex*, e inflamación innata, por lo que el beneficio de un antihistamínico es especulativo.
 
@@ -95,6 +95,19 @@ El puntaje del modelo es muy alto, pero no existe ningún ensayo clínico ni pub
 - Datos del mecanismo de acción desde fuentes farmacológicas
 - Advertencias y contraindicaciones del prospecto de ANMAT
 - Evaluar si un posible beneficio sintomático (prurito, inflamación) justifica un estudio exploratorio frente a los tratamientos habituales de la rosácea ocular
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: epinastine hydrochloride prescribing information, Somerset Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d4ee45c-e58f-4b7c-b389-898f5c27f54d) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

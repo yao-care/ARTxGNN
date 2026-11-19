@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectiva para **eccema atópico**, pero 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, la budesonida es un glucocorticoide con actividad antiinflamatoria e inmunosupresora amplia. Su eficacia en enfermedades inflamatorias del intestino y de las vías respiratorias está comprobada.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Budesonide (traducción no oficial): «La budesonida es un corticosteroide antiinflamatorio que presenta una potente actividad glucocorticoide y una débil actividad mineralocorticoide. En modelos estándar in vitro y en animales, la budesonida tiene una afinidad por el receptor de glucocorticoides aproximadamente 200 veces mayor y una potencia antiinflamatoria tópica 1000 veces mayor que el cortisol (ensayo de edema auricular inducido por aceite de crotón en ratas).» Texto original en inglés: "Budesonide is an anti-inflammatory corticosteroid that exhibits potent glucocorticoid activity and weak mineralocorticoid activity. In standard in vitro and animal models, budesonide has approximately a 200-fold higher affinity for the glucocorticoid receptor and a 1000-fold higher topical anti-inflammatory potency than cortisol (rat croton oil ear edema assay)." ([DailyMed: Budesonide Inhalation Suspension (budesonide) prescribing information, Cipla USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c52c5382-1400-44b9-95be-a30e1cf706da), versión del 2026-06-10; consultado el 2026-11-19). Según la información conocida, la budesonida es un glucocorticoide con actividad antiinflamatoria e inmunosupresora amplia. Su eficacia en enfermedades inflamatorias del intestino y de las vías respiratorias está comprobada.
 
 El eccema atópico es una enfermedad inflamatoria de la piel dirigida por citocinas Th2, con participación de eosinófilos y mastocitos. Mecanísticamente, la supresión de esas vías es biológicamente plausible. Esa es la misma lógica que respalda su uso en asma y rinitis alérgica, que son también enfermedades atópicas.
 
@@ -120,6 +120,19 @@ No hay ensayos clínicos y la literatura es indirecta, sin evidencia de eficacia
 - Datos oficiales de mecanismo de acción, advertencias y contraindicaciones del prospecto de ANMAT.
 - Evaluación de seguridad pediátrica (crecimiento, supresión adrenal) y del riesgo de sensibilización de contacto.
 - Justificar el valor diferencial frente a las opciones tópicas actuales.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Budesonide Inhalation Suspension (budesonide) prescribing information, Cipla USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c52c5382-1400-44b9-95be-a30e1cf706da) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

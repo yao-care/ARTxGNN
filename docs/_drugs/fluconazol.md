@@ -55,7 +55,7 @@ Fluconazol es un antifúngico de tipo azol. El modelo TxGNN predice que podría 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información farmacológica conocida, el fluconazol es un azol que inhibe la enzima fúngica CYP51 (lanosterol 14-alfa-desmetilasa) y bloquea la síntesis de ergosterol, un componente esencial de la membrana de los hongos.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Fluconazol (traducción no oficial): «El fluconazol es un inhibidor altamente selectivo de la enzima fúngica dependiente del citocromo P450 lanosterol 14-α-desmetilasa. Esta enzima tiene la función de convertir el lanosterol en ergosterol. La consiguiente pérdida de esteroles normales se correlaciona con la acumulación de 14-α-metilesteroles en los hongos y puede ser responsable de la actividad fungistática del fluconazol.» Texto original en inglés: "Fluconazole is a highly selective inhibitor of fungal cytochrome P450 dependent enzyme lanosterol 14-α-demethylase. This enzyme functions to convert lanosterol to ergosterol. The subsequent loss of normal sterols correlates with the accumulation of 14-α-methyl sterols in fungi and may be responsible for the fungistatic activity of fluconazole." ([DailyMed: Diflucan (fluconazole) prescribing information, Roerig](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f694c617-3383-416c-91b6-b94fda371204), versión del 2026-04-02; consultado el 2026-11-19). Según la información farmacológica conocida, el fluconazol es un azol que inhibe la enzima fúngica CYP51 (lanosterol 14-alfa-desmetilasa) y bloquea la síntesis de ergosterol, un componente esencial de la membrana de los hongos.
 
 La queratoconjuntivitis epitelial punteada suele ser de origen viral (adenovirus) o estar asociada a otras alteraciones de la superficie ocular; solo en algunos casos interviene un componente fúngico o microbiano. Un vínculo mecanístico plausible existiría únicamente en esos casos de etiología fúngica, y aun así sería indirecto.
 
@@ -98,6 +98,19 @@ La predicción se apoya solo en el puntaje del modelo, sin ensayos clínicos ni 
 - Revisión de literatura y de registros de ensayos sobre fluconazol u otros azoles en queratoconjuntivitis, especialmente de origen fúngico
 - Evaluar la viabilidad de una vía de administración ocular, ya que no se ha confirmado la compatibilidad de vías
 - Una vez completados estos puntos, reevaluar la decisión
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Diflucan (fluconazole) prescribing information, Roerig](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f694c617-3383-416c-91b6-b94fda371204) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -57,7 +57,7 @@ con **4 ensayos clínicos** y **20 publicaciones** que actualmente respaldan est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Por su clase, candesartán bloquea el receptor AT1 de la angiotensina II. Los mecanismos propuestos para la prevención de la migraña incluyen la modulación de la señalización renina-angiotensina en la vasculatura cerebral y el sistema trigeminovascular, la reducción de la inflamación neurogénica y la atenuación de la depresión cortical propagada.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Candesartán (traducción no oficial): «La angiotensina II se forma a partir de la angiotensina I en una reacción catalizada por la enzima convertidora de angiotensina (ECA, cininasa II). La angiotensina II es el principal agente presor del sistema renina-angiotensina, con efectos que incluyen vasoconstricción, estimulación de la síntesis y liberación de aldosterona, estimulación cardíaca y reabsorción renal de sodio. […] El candesartán bloquea los efectos vasoconstrictores y secretores de aldosterona de la angiotensina II al bloquear selectivamente la unión de la angiotensina II al receptor AT 1 en muchos tejidos, como el músculo liso vascular y la glándula suprarrenal.» Texto original en inglés: "Angiotensin II is formed from angiotensin I in a reaction catalyzed by angiotensin-converting enzyme (ACE, kininase II). Angiotensin II is the principal pressor agent of the renin-angiotensin system, with effects that include vasoconstriction, stimulation of synthesis and release of aldosterone, cardiac stimulation, and renal reabsorption of sodium. […] Candesartan blocks the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively blocking the binding of angiotensin II to the AT 1 receptor in many tissues, such as vascular smooth muscle and the adrenal gland." ([DailyMed: candesartan prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7eb297cb-ef1b-44e0-a49d-03727100579e), versión del 2026-02-05; consultado el 2026-11-19). Por su clase, candesartán bloquea el receptor AT1 de la angiotensina II. Los mecanismos propuestos para la prevención de la migraña incluyen la modulación de la señalización renina-angiotensina en la vasculatura cerebral y el sistema trigeminovascular, la reducción de la inflamación neurogénica y la atenuación de la depresión cortical propagada.
 
 La evidencia es directa y clínica: un ensayo multicéntrico de Fase 2, triple ciego y controlado con placebo (n=450), completado y publicado en 2025, además de un ensayo previo de Fase 2/3 con doble simulación frente a propranolol y placebo. El nivel se mantiene en L2 porque el ensayo más grande es de Fase 2 y el de Fase 2/3 es pequeño (n=72), por lo que no existe una confirmación de Fase 3 propiamente dicha.
 
@@ -113,6 +113,19 @@ Un ensayo de Fase 2 grande, aleatorizado y controlado con placebo (n=450, public
 - Datos de advertencias y contraindicaciones del prospecto de ANMAT
 - Datos detallados del mecanismo de acción
 - Plan de monitorización de presión arterial, función renal y potasio, y de anticoncepción en mujeres en edad fértil
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: candesartan prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7eb297cb-ef1b-44e0-a49d-03727100579e) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

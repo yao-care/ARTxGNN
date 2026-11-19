@@ -60,7 +60,7 @@ El modelo TxGNN predice que podría ser útil para **enfermedad de la cavidad na
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la desloratadina es un antagonista selectivo del receptor H1 de histamina de acción periférica y es el metabolito activo de la loratadina. Mecanísticamente, el bloqueo de la histamina podría ser aplicable a la patología de la cavidad nasal, donde la histamina contribuye a los síntomas de tipo alérgico.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Desloratadina (traducción no oficial): «La desloratadina es un antagonista tricíclico de la histamina de acción prolongada con actividad antagonista selectiva de la histamina en los receptores H1. Los datos de unión a receptores indican que, a una concentración de 2-3 ng/mL (7 nanomolar), la desloratadina muestra una interacción significativa con el receptor H1 de la histamina humano.» Texto original en inglés: "Desloratadine is a long-acting tricyclic histamine antagonist with selective H1-receptor histamine antagonist activity. Receptor binding data indicates that at a concentration of 2-3 ng/mL (7 nanomolar), desloratadine shows significant interaction with the human histamine H1-receptor." ([DailyMed: Desloratadine Oral Solution (desloratadine) prescribing information, INA Pharmaceutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41d5e0d4-6188-847b-e063-6294a90a2e2f), versión del 2025-10-23; consultado el 2026-11-19). Según la información conocida, la desloratadina es un antagonista selectivo del receptor H1 de histamina de acción periférica y es el metabolito activo de la loratadina. Mecanísticamente, el bloqueo de la histamina podría ser aplicable a la patología de la cavidad nasal, donde la histamina contribuye a los síntomas de tipo alérgico.
 
 El puntaje alto (0,9987) es coherente con esta farmacología conocida, por lo que la predicción parece más un redescubrimiento de un uso ya esperable que un reposicionamiento novedoso. Conviene interpretarla con cautela: el puntaje del modelo no equivale a evidencia clínica.
 
@@ -115,6 +115,19 @@ La predicción se apoya solo en el modelo y en dos estudios animales indirectos,
 - Datos del mecanismo de acción confirmados desde fuentes farmacológicas
 - Advertencias y contraindicaciones del prospecto de ANMAT
 - Definir con precisión el criterio clínico (la categoría "enfermedad de la cavidad nasal" es amplia)
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Desloratadine Oral Solution (desloratadine) prescribing information, INA Pharmaceutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41d5e0d4-6188-847b-e063-6294a90a2e2f) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

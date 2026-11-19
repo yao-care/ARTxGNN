@@ -57,7 +57,7 @@ Actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta pre
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Clortalidona es un diurético de tipo tiazídico. Se sabe que actúa sobre el cotransportador de sodio y cloro del túbulo distal, y reduce el volumen de líquido corporal.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Clortalidona (traducción no oficial): «La clortalidona es un diurético oral de acción prolongada con actividad antihipertensiva. Los efectos diuréticos de la clortalidona y de los diuréticos benzotiadiazínicos (tiazídicos) parecen surgir de mecanismos similares, y el efecto máximo de la clortalidona y el de las tiazidas parecen ser similares.» Texto original en inglés: "Chlorthalidone is a long-acting oral diuretic with antihypertensive activity. The diuretic effects of chlorthalidone and the benzothiadiazine (thiazide) diuretics appear to arise from similar mechanisms and the maximal effect of chlorthalidone and the thiazides appear to be similar." ([DailyMed: Thalitone (chlorthalidone) prescribing information, Casper Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bc5a0299-115b-4e60-bb3f-c75a95c51c15), versión del 2026-06-25; consultado el 2026-11-19). Clortalidona es un diurético de tipo tiazídico. Se sabe que actúa sobre el cotransportador de sodio y cloro del túbulo distal, y reduce el volumen de líquido corporal.
 
 Un vínculo posible, pero no demostrado, sería un efecto pequeño sobre la presión intraocular o sobre el equilibrio de líquidos. Sin embargo, el glaucoma hereditario primario tiene una base genética y estructural en la malla trabecular y el ángulo de drenaje. Un diurético sistémico difícilmente corrija esa alteración.
 
@@ -99,6 +99,19 @@ La predicción se basa solo en el modelo, sin ensayos clínicos ni literatura so
 - Estudios preclínicos o clínicos que evalúen el efecto de clortalidona sobre la presión intraocular.
 - Revisión de las advertencias y contraindicaciones del prospecto de ANMAT.
 - Revisión por un oftalmólogo para decidir si la hipótesis merece estudiarse.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Thalitone (chlorthalidone) prescribing information, Casper Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bc5a0299-115b-4e60-bb3f-c75a95c51c15) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

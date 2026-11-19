@@ -55,7 +55,7 @@ Ciclobenzaprina es un relajante muscular de acción central, relacionado estruct
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Por farmacología general, la ciclobenzaprina antagoniza receptores 5-HT2A, alfa-1 adrenérgicos, H1 y muscarínicos. Esto reduce la actividad motora somática tónica a nivel del tronco encefálico y puede mejorar la calidad del sueño.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ciclobenzaprina (traducción no oficial): «Se desconoce el mecanismo de acción de la ciclobenzaprina para el tratamiento de la fibromialgia en adultos. En estudios farmacológicos in vitro, la ciclobenzaprina demostró antagonismo funcional de los receptores 5-HT 2A, adrenérgicos α 1, histaminérgicos H 1 y muscarínicos de acetilcolina M 1.» Texto original en inglés: "The mechanism of action of cyclobenzaprine for the treatment of fibromyalgia in adults is unknown. In in vitro pharmacology studies, cyclobenzaprine demonstrated functional antagonism of 5-HT 2A, α 1 -adrenergic, H 1 -histaminergic, and M 1 -muscarinic acetylcholine receptors." ([DailyMed: Tonmya (cyclobenzaprine hydrochloride) prescribing information, Tonix Medicines, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6fa59588-ce9b-48cf-8c5f-725a448f8571), versión del 2026-08-14; consultado el 2026-11-19). Por farmacología general, la ciclobenzaprina antagoniza receptores 5-HT2A, alfa-1 adrenérgicos, H1 y muscarínicos. Esto reduce la actividad motora somática tónica a nivel del tronco encefálico y puede mejorar la calidad del sueño.
 
 Estas acciones se relacionan con tres elementos del dolor miofascial: el espasmo muscular, la hipersensibilidad nociceptiva y la alteración del sueño. Por eso el mecanismo podría ser aplicable a esta condición.
 
@@ -109,6 +109,19 @@ Consultar el prospecto para información de seguridad. Los datos compilados no i
 - Obtener y revisar el prospecto de ANMAT (advertencias y contraindicaciones) y los datos del mecanismo de acción.
 - Limitar el uso a tratamientos de corta duración y monitorear los efectos anticolinérgicos y sedantes.
 - Vigilar las interacciones con fármacos serotoninérgicos.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tonmya (cyclobenzaprine hydrochloride) prescribing information, Tonix Medicines, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6fa59588-ce9b-48cf-8c5f-725a448f8571) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

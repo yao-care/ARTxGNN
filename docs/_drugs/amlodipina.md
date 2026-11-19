@@ -57,7 +57,7 @@ Hasta ahora no hay **ningún ensayo clínico ni publicación** que estudie direc
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por conocimiento general, amlodipino bloquea los canales de calcio de tipo L en el músculo liso vascular. Esto produce vasodilatación y reduce la resistencia vascular periférica y la presión arterial.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Amlodipina (traducción no oficial): «La amlodipina es un antagonista del calcio de tipo dihidropiridínico (antagonista de los iones calcio o bloqueante de los canales lentos) que inhibe el flujo transmembrana de entrada de iones calcio al músculo liso vascular y al músculo cardíaco. Los datos experimentales sugieren que la amlodipina se une tanto a los sitios de unión dihidropiridínicos como a los no dihidropiridínicos.» Texto original en inglés: "Amlodipine is a dihydropyridine calcium antagonist (calcium ion antagonist or slow-channel blocker) that inhibits the transmembrane influx of calcium ions into vascular smooth muscle and cardiac muscle. Experimental data suggest that amlodipine binds to both dihydropyridine and nondihydropyridine binding sites." ([DailyMed: Sdamlo (amlodipine) prescribing information, Pangea Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=886a7f97-60a4-4206-a6c7-5206069ed487), versión del 2026-09-28; consultado el 2026-11-19). Por conocimiento general, amlodipino bloquea los canales de calcio de tipo L en el músculo liso vascular. Esto produce vasodilatación y reduce la resistencia vascular periférica y la presión arterial.
 
 Como la hipertensión es un factor de riesgo central de la enfermedad cerebrovascular isquémica, es plausible que un fármaco que reduce la presión arterial disminuya el riesgo de eventos como el infarto del tronco encefálico. Este razonamiento es hipotético. Los datos compilados no incluyen estudios que lo confirmen para esta enfermedad en particular.
 
@@ -99,6 +99,19 @@ La predicción para infarto del tronco encefálico no cuenta con ensayos clínic
 - Obtener datos del mecanismo de acción desde una fuente de referencia farmacológica.
 - Descargar y analizar el prospecto de ANMAT para completar la evaluación de advertencias y contraindicaciones.
 - Definir un plan de seguridad (control de hipotensión y eventos adversos) antes de cualquier evaluación clínica.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Sdamlo (amlodipine) prescribing information, Pangea Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=886a7f97-60a4-4206-a6c7-5206069ed487) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

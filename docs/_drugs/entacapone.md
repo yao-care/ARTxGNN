@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la entacapona actúa como inhibidor periférico de la COMT, prolongando el efecto de la levodopa al reducir su degradación.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Entacapone (traducción no oficial): «La entacapona es un inhibidor selectivo y reversible de la COMT. En los mamíferos, la COMT está distribuida en diversos órganos, con las actividades más altas en el hígado y el riñón. La COMT también se encuentra en el corazón, el pulmón, los músculos liso y esquelético, el tracto intestinal, los órganos reproductores, diversas glándulas, el tejido adiposo, la piel, las células sanguíneas y los tejidos neuronales, especialmente en las células gliales.» Texto original en inglés: "Entacapone is a selective and reversible inhibitor of COMT. In mammals, COMT is distributed throughout various organs with the highest activities in the liver and kidney. COMT also occurs in the heart, lung, smooth and skeletal muscles, intestinal tract, reproductive organs, various glands, adipose tissue, skin, blood cells, and neuronal tissues, especially in glial cells." ([DailyMed: entacapone prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ee02a04a-4b42-4cfa-8d9d-b1459c0ee9fd), versión del 2026-02-16; consultado el 2026-11-19). Según la información conocida, la entacapona actúa como inhibidor periférico de la COMT, prolongando el efecto de la levodopa al reducir su degradación.
 
 La neurodegeneración asociada a PLA2G6 incluye fenotipos de distonía-parkinsonismo, por lo que un enfoque dopaminérgico o con inhibidores de la COMT es concebible como tratamiento sintomático. Esa es la única base de plausibilidad identificada.
 
@@ -100,6 +100,19 @@ La predicción tiene un puntaje alto (0,9976), pero no cuenta con ningún ensayo
 - Estudios preclínicos que respalden un beneficio sintomático en los fenotipos de distonía-parkinsonismo
 - Revisión de las advertencias y contraindicaciones del prospecto aprobado en Argentina
 - Evaluación de seguridad en una población pediátrica y neurodegenerativa, con las interacciones mencionadas
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: entacapone prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ee02a04a-4b42-4cfa-8d9d-b1459c0ee9fd) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

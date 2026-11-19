@@ -57,7 +57,7 @@ Los datos compilados incluyen **3 ensayos clínicos** (todos en fibrosis quísti
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según el conocimiento general de la clase, el tiotropio bloquea el receptor muscarínico M3, relaja el músculo liso de la vía aérea y reduce la broncoconstricción colinérgica y la secreción de moco.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Tiotropio (traducción no oficial): «El tiotropio es un agente antimuscarínico de acción prolongada, al que a menudo se denomina anticolinérgico. Tiene una afinidad similar por los subtipos de receptores muscarínicos, de M 1 a M 5. En las vías respiratorias, ejerce efectos farmacológicos mediante la inhibición de los receptores M 3 del músculo liso, lo que produce broncodilatación.» Texto original en inglés: "Tiotropium is a long-acting, antimuscarinic agent, which is often referred to as an anticholinergic. It has similar affinity to the subtypes of muscarinic receptors, M 1 to M 5. In the airways, it exhibits pharmacological effects through inhibition of M 3 -receptors at the smooth muscle leading to bronchodilation." ([DailyMed: Spiriva Handihaler (tiotropium bromide) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=820839ef-e53d-47e8-a3b9-d911ff92e6a9), versión del 2025-11-10; consultado el 2026-11-19). Según el conocimiento general de la clase, el tiotropio bloquea el receptor muscarínico M3, relaja el músculo liso de la vía aérea y reduce la broncoconstricción colinérgica y la secreción de moco.
 
 Mecanísticamente, esto podría aliviar una obstrucción secundaria del flujo de aire o una hiperreactividad bronquial en algunos trastornos estructurales de la vía aérea o de la pared torácica. Sin embargo, "malformación respiratoria" es una categoría amplia y heterogénea, y ningún ensayo ni publicación disponible muestra eficacia del tiotropio en una cohorte con malformaciones congénitas o estructurales.
 
@@ -104,6 +104,19 @@ No existe ningún estudio que evalúe el tiotropio directamente en malformacione
 - Definir qué tipo de malformación respiratoria y qué componente obstructivo reversible se pretende tratar
 - Datos del mecanismo de acción y de seguridad (advertencias y contraindicaciones del prospecto de ANMAT)
 - Estudios exploratorios en una cohorte con malformación respiratoria antes de considerar ensayos clínicos
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Spiriva Handihaler (tiotropium bromide) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=820839ef-e53d-47e8-a3b9-d911ff92e6a9) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

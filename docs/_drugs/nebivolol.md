@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **enfermedad renal hiperte
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, nebivolol es un bloqueador β1 altamente selectivo que además promueve vasodilatación mediante la activación de la óxido nítrico sintasa endotelial (eNOS) y el agonismo sobre receptores β3. Se comercializa en Argentina como antihipertensivo.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Nebivolol (traducción no oficial): «El mecanismo de acción de la respuesta antihipertensiva de BYSTOLIC no se ha establecido de forma definitiva. Entre los posibles factores que pueden estar implicados se incluyen: disminución de la frecuencia cardíaca, disminución de la contractilidad miocárdica, disminución del flujo simpático tónico hacia la periferia desde los centros vasomotores cerebrales, supresión de la actividad de la renina y vasodilatación y disminución de la resistencia vascular periférica.» Texto original en inglés: "The mechanism of action of the antihypertensive response of BYSTOLIC has not been definitively established. Possible factors that may be involved include: decreased heart rate, decreased myocardial contractility, diminution of tonic sympathetic outflow to the periphery from cerebral vasomotor centers, suppression of renin activity and vasodilation and decreased peripheral vascular resistance." ([DailyMed: Bystolic (nebivolol hydrochloride) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8b8ad213-1dc8-454e-a524-075685c0e1a8), versión del 2024-08-01; consultado el 2026-11-19). Según la información conocida, nebivolol es un bloqueador β1 altamente selectivo que además promueve vasodilatación mediante la activación de la óxido nítrico sintasa endotelial (eNOS) y el agonismo sobre receptores β3. Se comercializa en Argentina como antihipertensivo.
 
 Este perfil ofrece una justificación plausible para una enfermedad renal de origen hipertensivo: reducir la presión arterial y mejorar la función endotelial podría, en teoría, proteger el riñón. Sin embargo, la puntuación del modelo es únicamente una predicción computacional.
 
@@ -99,6 +99,19 @@ La predicción se apoya solo en el modelo computacional (L5), sin ensayos ni pub
 - Datos del mecanismo de acción y de las advertencias y contraindicaciones del prospecto de ANMAT
 - Análisis de compatibilidad de vía de administración frente al manejo habitual (agentes intravenosos)
 - Evaluación de seguridad en pacientes con compromiso renal agudo
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Bystolic (nebivolol hydrochloride) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8b8ad213-1dc8-454e-a524-075685c0e1a8) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

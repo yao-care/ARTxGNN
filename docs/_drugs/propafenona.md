@@ -56,7 +56,7 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno afectivo bipol
 
 ## ¿Por qué es razonable esta predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por conocimiento general, la propafenona es un antiarrítmico de clase 1C (bloqueante de canales de sodio) con cierta actividad betabloqueante.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Propafenona (traducción no oficial): «La propafenona es un fármaco antiarrítmico de clase 1C con efectos anestésicos locales y una acción estabilizadora directa sobre las membranas miocárdicas. El efecto electrofisiológico de la propafenona se manifiesta en una reducción de la velocidad de ascenso (fase 0) del potencial de acción monofásico.» Texto original en inglés: "Propafenone is a Class 1C antiarrhythmic drug with local anesthetic effects, and a direct stabilizing action on myocardial membranes. The electrophysiological effect of propafenone manifests itself in a reduction of upstroke velocity (Phase 0) of the monophasic action potential." ([DailyMed: propafenone hydrochloride prescribing information, Northstar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2ecd6452-ccc3-493f-9a4a-69f0fbf67a42), versión del 2026-06-04; consultado el 2026-11-19). Por conocimiento general, la propafenona es un antiarrítmico de clase 1C (bloqueante de canales de sodio) con cierta actividad betabloqueante.
 
 No se conoce un mecanismo establecido que vincule este perfil con la estabilización del ánimo. Un caso publicado de manía asociada a propafenona sugiere que el fármaco podría tener efectos sobre el estado de ánimo, pero en el sentido de provocar manía, no de tratarla.
 
@@ -102,6 +102,19 @@ La predicción se apoya solo en el puntaje del modelo. La literatura disponible 
 - Datos del mecanismo de acción y del prospecto de ANMAT (advertencias y contraindicaciones)
 - Estudios preclínicos o clínicos que evalúen directamente la propafenona en manía
 - Evaluación del riesgo proarrítmico y de interacciones con estabilizadores del ánimo y antipsicóticos
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: propafenone hydrochloride prescribing information, Northstar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2ecd6452-ccc3-493f-9a4a-69f0fbf67a42) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

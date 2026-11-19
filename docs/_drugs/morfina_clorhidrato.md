@@ -56,7 +56,7 @@ El modelo TxGNN predice que podría ser útil para **síndrome de dolor miofasci
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento farmacológico general, la morfina es un agonista del receptor opioide mu que produce analgesia amplia. El dolor miofascial es una condición dolorosa musculoesquelética, por lo que un vínculo mecanístico es plausible en teoría.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Morfina Clorhidrato (traducción no oficial): «La morfina es un agonista opioide completo y es relativamente selectiva para el receptor opioide mu, aunque puede unirse a otros receptores opioides a dosis más altas. La principal acción terapéutica de la morfina es la analgesia. Como ocurre con todos los agonistas opioides completos, la morfina no presenta efecto techo para la analgesia.» Texto original en inglés: "Morphine is a full opioid agonist and is relatively selective for the mu-opioid receptor, although it can bind to other opioid receptors at higher doses. The principal therapeutic action of morphine is analgesia. Like all full opioid agonists, there is no ceiling effect for analgesia with morphine." ([DailyMed: Ms Contin (morphine sulfate) prescribing information, Rhodes Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c354b3bf-86c0-4bb8-8b1f-be2164942698), versión del 2026-08-14; consultado el 2026-11-19). Según el conocimiento farmacológico general, la morfina es un agonista del receptor opioide mu que produce analgesia amplia. El dolor miofascial es una condición dolorosa musculoesquelética, por lo que un vínculo mecanístico es plausible en teoría.
 
 Sin embargo, el uso opioide prolongado suele desaconsejarse en el dolor miofascial por los riesgos de dependencia e hiperalgesia. La única señal directamente relacionada es un ensayo aleatorizado doble ciego de 2026 que comparó dexmedetomidina más morfina frente a ropivacaína simple en infiltración miofascial durante fusión espinal toracolumbar. Esto sugiere un uso local como coadyuvante, no una terapia sistémica.
 
@@ -104,6 +104,19 @@ Ningún estudio citado evalúa directamente la morfina para el síndrome de dolo
 - Datos del mecanismo de acción.
 - Estudios clínicos que evalúen morfina, local o sistémica, específicamente en dolor miofascial.
 - Evaluación del riesgo de abuso y dependencia frente a las alternativas no opioides.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Ms Contin (morphine sulfate) prescribing information, Rhodes Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c354b3bf-86c0-4bb8-8b1f-be2164942698) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

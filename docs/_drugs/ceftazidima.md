@@ -55,7 +55,7 @@ Ceftazidima es un antibiótico cefalosporínico de tercera generación con autor
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por conocimiento general, ceftazidima es una cefalosporina de tercera generación con actividad antibacteriana, en particular frente a *Pseudomonas aeruginosa*.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ceftazidima (traducción no oficial): «La ceftazidima es un agente bactericida que actúa mediante la inhibición de la síntesis de la pared celular bacteriana. La ceftazidima tiene actividad en presencia de algunas betalactamasas, tanto penicilinasas como cefalosporinasas, de bacterias gramnegativas y grampositivas.» Texto original en inglés: "Ceftazidime is a bactericidal agent that acts by inhibition of bacterial cell wall synthesis. Ceftazidime has activity in the presence of some beta-lactamases, both penicillinases and cephalosporinases, of Gram-negative and Gram-positive bacteria." ([DailyMed: ceftazidime prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=112c5457-8d71-49f5-b531-9761d7d38c93), versión del 2026-08-03; consultado el 2026-11-19). Por conocimiento general, ceftazidima es una cefalosporina de tercera generación con actividad antibacteriana, en particular frente a *Pseudomonas aeruginosa*.
 
 El síndrome de hiperviscosidad policlonal es una condición de la sangre asociada a exceso de proteínas o inmunoglobulinas, y no una infección bacteriana. No se identifica un vínculo mecanístico entre un antibiótico y esta enfermedad. El puntaje alto del modelo parece ser un artefacto de la predicción y no refleja una base biológica o clínica.
 
@@ -91,6 +91,19 @@ No existe ningún estudio que evalúe ceftazidima en el síndrome de hiperviscos
 - Una hipótesis mecanística biológicamente fundamentada que justifique el uso de un antibiótico en esta condición
 - Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones) de las autorizaciones locales
 - Evidencia preclínica o clínica directa en la indicación predicha, hoy inexistente
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: ceftazidime prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=112c5457-8d71-49f5-b531-9761d7d38c93) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

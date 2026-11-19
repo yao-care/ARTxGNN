@@ -55,7 +55,7 @@ Fluvastatina es una estatina, utilizada para reducir los lípidos en sangre. El 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Por su clase, fluvastatina inhibe la HMG-CoA reductasa, lo que reduce la síntesis de colesterol e isoprenoides. Estos efectos pleiotrópicos (antiinflamatorios, modulación de balsas lipídicas) ofrecen un vínculo plausible, pero no demostrado, con la fisiopatología del VIH.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Fluvastatina (traducción no oficial): «La fluvastatina es un inhibidor competitivo de la HMG-CoA reductasa, la enzima limitante de la velocidad que convierte la 3-hidroxi-3-metilglutaril-coenzima A (HMG-CoA) en mevalonato, un precursor del colesterol.» Texto original en inglés: "Fluvastatin is a competitive inhibitor of HMG-CoA reductase, the rate limiting enzyme that converts 3-hydroxy-3-methylglutaryl-coenzyme A (HMG-CoA) to mevalonate, a precursor of cholesterol." ([DailyMed: Fluvastatin Sodium Er (fluvastatin sodium) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ab4296c-87c2-4c64-b218-d620eef51310), versión del 2024-01-31; consultado el 2026-11-19). Por su clase, fluvastatina inhibe la HMG-CoA reductasa, lo que reduce la síntesis de colesterol e isoprenoides. Estos efectos pleiotrópicos (antiinflamatorios, modulación de balsas lipídicas) ofrecen un vínculo plausible, pero no demostrado, con la fisiopatología del VIH.
 
 En la literatura compilada, fluvastatina se estudió en pacientes con VIH principalmente para la dislipidemia asociada a inhibidores de proteasa, es decir, una complicación del VIH y no actividad antiviral. Además, hay datos preclínicos de posible efecto nefroprotector en un modelo murino de nefropatía asociada al VIH, y un estudio pequeño la exploró como adyuvante de interferón pegilado y ribavirina en coinfección VIH/VHC.
 
@@ -106,6 +106,19 @@ La literatura sobre fluvastatina en pacientes con VIH aborda sobre todo la disli
 - Completar los datos del mecanismo de acción
 - Evaluar si existe una hipótesis antiviral o inmunomoduladora que justifique estudios dirigidos, más allá del manejo de la dislipidemia
 - Analizar de forma específica las interacciones con los esquemas antirretrovirales
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Fluvastatin Sodium Er (fluvastatin sodium) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ab4296c-87c2-4c64-b218-d620eef51310) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

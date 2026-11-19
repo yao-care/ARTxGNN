@@ -55,7 +55,7 @@ Pramipexol es un agonista dopaminérgico con preferencia por los receptores D3, 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, pramipexol es un agonista dopaminérgico D2/D3 con afinidad preferente por D3. Mecanísticamente podría ser aplicable al trastorno por déficit de atención e hiperactividad (TDAH), porque la disfunción dopaminérgica se considera plausiblemente implicada en esta condición.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Pramipexol (traducción no oficial): «El pramipexol es un agonista dopaminérgico no ergolínico con una especificidad relativa in vitro elevada y actividad intrínseca completa en la subfamilia D 2 de receptores de dopamina, que se une con mayor afinidad a los subtipos de receptores D 3 que a los D 2 o D 4. Enfermedad de Parkinson Se desconoce el mecanismo de acción exacto del pramipexol como tratamiento de la enfermedad de Parkinson, aunque se cree que está relacionado con su capacidad para estimular los receptores de dopamina en el cuerpo estriado.» Texto original en inglés: "Pramipexole is a non-ergot dopamine agonist with high relative in vitro specificity and full intrinsic activity at the D 2 subfamily of dopamine receptors, binding with higher affinity to D 3 than to D 2 or D 4 receptor subtypes. Parkinson’s Disease The precise mechanism of action of pramipexole as a treatment for Parkinson's disease is unknown, although it is believed to be related to its ability to stimulate dopamine receptors in the striatum." ([DailyMed: pramipexole dihydrochloride prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29b639e3-25a5-4c2f-b4ea-a119db79fe0c), versión del 2026-09-09; consultado el 2026-11-19). Según la información conocida, pramipexol es un agonista dopaminérgico D2/D3 con afinidad preferente por D3. Mecanísticamente podría ser aplicable al trastorno por déficit de atención e hiperactividad (TDAH), porque la disfunción dopaminérgica se considera plausiblemente implicada en esta condición.
 
 Hay además señales de apoyo biológico indirecto. Variantes polimórficas del receptor dopaminérgico D4 se han asociado con el TDAH, y un estudio de farmacología de receptores describe interacciones entre ese receptor y los receptores adrenérgicos α2A, otro blanco terapéutico conocido en el TDAH. Sin embargo, esos trabajos no prueban que pramipexol sea eficaz en esta condición.
 
@@ -107,6 +107,19 @@ No hay ensayos clínicos ni estudios controlados que evalúen pramipexol en TDAH
 - Datos del mecanismo de acción y del perfil de seguridad completo, obtenidos del prospecto de ANMAT; hoy no hay advertencias ni contraindicaciones disponibles.
 - Evaluación de la seguridad en la población objetivo, que incluye niños y adolescentes, y de la tolerabilidad de un agonista dopaminérgico en ese contexto.
 - Si hay interés en continuar, diseñar un estudio exploratorio, por ejemplo una fase 2 controlada con placebo.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: pramipexole dihydrochloride prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29b639e3-25a5-4c2f-b4ea-a119db79fe0c) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

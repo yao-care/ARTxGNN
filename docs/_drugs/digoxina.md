@@ -55,7 +55,7 @@ Digoxina es un glucósido cardíaco que inhibe la bomba Na+/K+-ATPasa. El modelo
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por conocimiento farmacológico general, la digoxina inhibe la Na+/K+-ATPasa y eleva el calcio intracelular, lo que aumenta la contractilidad del miocardio.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Digoxina (traducción no oficial): «Todas las acciones de la digoxina están mediadas por sus efectos sobre la Na-K ATPasa. Esta enzima, la «bomba de sodio», se encarga de mantener el medio intracelular en todo el organismo, desplazando los iones sodio hacia el exterior de las células y los iones potasio hacia su interior.» Texto original en inglés: "All of digoxin’s actions are mediated through its effects on Na-K ATPase. This enzyme, the “sodium pump,” is responsible for maintaining the intracellular milieu throughout the body by moving sodium ions out of and potassium ions into cells." ([DailyMed: Lanoxin (digoxin) prescribing information, Covis Pharma US, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9ec84cac-6ecc-43dc-8006-6ccc029e2707), versión del 2025-10-17; consultado el 2026-11-19). Por conocimiento farmacológico general, la digoxina inhibe la Na+/K+-ATPasa y eleva el calcio intracelular, lo que aumenta la contractilidad del miocardio.
 
 Con ese mecanismo, **no se identifica un vínculo creíble** con la angina de Prinzmetal. Esta enfermedad es de origen vasoespástico y se trata con vasodilatadores como los bloqueadores de los canales de calcio y los nitratos. La farmacología de la digoxina podría incluso aumentar el tono vascular y agravar teóricamente el vasoespasmo coronario, es decir, va en sentido contrario a la necesidad terapéutica.
 
@@ -96,6 +96,19 @@ No hay ensayos clínicos ni publicaciones que estudien directamente el uso de di
 - Datos del mecanismo de acción y una justificación mecanística creíble que explique por qué la digoxina no agravaría el vasoespasmo.
 - Estudios preclínicos o clínicos que evalúen directamente la digoxina en la angina vasoespástica.
 - Revisión del prospecto aprobado en ANMAT para completar la información de advertencias, contraindicaciones e interacciones.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Lanoxin (digoxin) prescribing information, Covis Pharma US, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9ec84cac-6ecc-43dc-8006-6ccc029e2707) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

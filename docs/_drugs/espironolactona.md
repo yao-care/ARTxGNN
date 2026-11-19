@@ -57,7 +57,7 @@ Actualmente **no hay ensayos clínicos ni publicaciones** en los datos compilado
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, la espironolactona es un antagonista del receptor de mineralocorticoides que además bloquea el receptor de andrógenos y reduce la síntesis androgénica. Por esta actividad antiandrogénica se usa fuera de indicación en la pérdida de cabello de patrón femenino.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Espironolactona (traducción no oficial): «La espironolactona y sus metabolitos activos son antagonistas farmacológicos específicos de la aldosterona, que actúan principalmente mediante la unión competitiva a los receptores en el sitio de intercambio sodio-potasio dependiente de aldosterona en el túbulo contorneado distal renal. La espironolactona provoca la excreción de mayores cantidades de sodio y agua, mientras que el potasio se retiene.» Texto original en inglés: "Spironolactone and its active metabolites are specific pharmacologic antagonists of aldosterone, acting primarily through competitive binding of receptors at the aldosterone-dependent sodium-potassium exchange site in the distal convoluted renal tubule. Spironolactone causes increased amounts of sodium and water to be excreted, while potassium is retained." ([DailyMed: Aldactone (spironolactone) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0fed2822-3a03-4b64-9857-c682fcd462bc), versión del 2025-11-28; consultado el 2026-11-19). Según la información conocida, la espironolactona es un antagonista del receptor de mineralocorticoides que además bloquea el receptor de andrógenos y reduce la síntesis androgénica. Por esta actividad antiandrogénica se usa fuera de indicación en la pérdida de cabello de patrón femenino.
 
 La hipotricosis simple es un trastorno hereditario raro de pérdida de cabello, asociado sobre todo a genes como CDSN, APCDD1 y RPL21, y no es principalmente andrógeno-dependiente. Por ello, el mecanismo antiandrogénico no aborda claramente la patología genética subyacente.
 
@@ -99,6 +99,19 @@ La predicción se apoya únicamente en el puntaje del modelo (nivel L5), sin ens
 - Completar los datos del mecanismo de acción desde DrugBank
 - Buscar estudios clínicos o preclínicos que evalúen directamente la hipotricosis simple del cuero cabelludo
 - Evaluar la compatibilidad de vía de administración, dado que las presentaciones locales son orales
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Aldactone (spironolactone) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0fed2822-3a03-4b64-9857-c682fcd462bc) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

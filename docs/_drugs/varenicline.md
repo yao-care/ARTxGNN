@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**,
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida de la literatura, la vareniclina es un agonista parcial de los receptores nicotínicos de acetilcolina α4β2 y un agonista pleno de los receptores α7. Esta actividad ayuda a reducir el deseo de fumar y los síntomas de abstinencia.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Varenicline (traducción no oficial): «La vareniclina se une con alta afinidad y selectividad a los receptores nicotínicos neuronales de acetilcolina α4β2. Se cree que la eficacia de CHANTIX para dejar de fumar es el resultado de la actividad de la vareniclina en el subtipo α4β2 del receptor nicotínico, donde su unión produce actividad agonista y, al mismo tiempo, impide la unión de la nicotina a estos receptores.» Texto original en inglés: "Varenicline binds with high affinity and selectivity at α4β2 neuronal nicotinic acetylcholine receptors. The efficacy of CHANTIX in smoking cessation is believed to be the result of varenicline's activity at α4β2 sub-type of the nicotinic receptor where its binding produces agonist activity, while simultaneously preventing nicotine binding to these receptors." ([DailyMed: Chantix (varenicline tartrate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0ff4f27-5185-4881-a749-c6b7a0ca5696), versión del 2026-01-23; consultado el 2026-11-19). Según la información conocida de la literatura, la vareniclina es un agonista parcial de los receptores nicotínicos de acetilcolina α4β2 y un agonista pleno de los receptores α7. Esta actividad ayuda a reducir el deseo de fumar y los síntomas de abstinencia.
 
 Desde el punto de vista mecanístico, la señalización colinérgica nicotínica podría modular las vías trigeminovasculares y la depresión cortical propagada, por lo que un vínculo con la migraña es biológicamente plausible, aunque **no está demostrado**. El puntaje de TxGNN es muy alto (0.999), pero es solo una predicción del modelo.
 
@@ -113,6 +113,19 @@ La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínico
 - Revisar la señal de cefalea/migraña como evento adverso (por ejemplo, con datos de farmacovigilancia).
 - Realizar estudios preclínicos o ensayos exploratorios que evalúen eficacia en migraña antes de considerar cualquier avance.
 - Evaluar la compatibilidad de vía de administración y la relevancia de las contraindicaciones neuropsiquiátricas y cardiovasculares.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Chantix (varenicline tartrate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0ff4f27-5185-4881-a749-c6b7a0ca5696) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

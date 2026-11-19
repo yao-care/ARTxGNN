@@ -56,7 +56,7 @@ El modelo TxGNN predice que podría ser útil para **hipertermia maligna inducid
 
 ## ¿Por qué es razonable esta predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por conocimiento general, la acetazolamida inhibe la anhidrasa carbónica, lo que modifica el pH y el manejo de iones, y se usa en trastornos musculares como las parálisis periódicas.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Acetazolamida (traducción no oficial): «La acetazolamida es un potente inhibidor de la anhidrasa carbónica, eficaz en el control de la secreción de líquidos (p. ej., algunos tipos de glaucoma), en el tratamiento de ciertos trastornos convulsivos (p. ej., epilepsia) y en la promoción de la diuresis en casos de retención anormal de líquidos (p. ej., edema cardíaco). La acetazolamida no es un diurético mercurial.» Texto original en inglés: "Acetazolamide is a potent carbonic anhydrase inhibitor, effective in the control of fluid secretion (e.g., some types of glaucoma), in the treatment of certain convulsive disorders (e.g., epilepsy), and in the promotion of diuresis in instances of abnormal fluid retention (e.g., cardiac edema). Acetazolamide is not a mercurial diuretic." ([DailyMed: acetazolamide prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8e48a25-5f6c-4b5a-a5f2-ee87aabea33b), versión del 2026-11-10; consultado el 2026-11-19). Por conocimiento general, la acetazolamida inhibe la anhidrasa carbónica, lo que modifica el pH y el manejo de iones, y se usa en trastornos musculares como las parálisis periódicas.
 
 Una hipótesis puramente especulativa es que esa modulación del pH y de los iones en el músculo esquelético podría influir en la hipertermia maligna. Sin embargo, ningún dato muestra beneficio en esta enfermedad ni en la desregulación del calcio mediada por el receptor de rianodina que la caracteriza.
 
@@ -98,11 +98,12 @@ La predicción se apoya solo en el puntaje del modelo, sin ensayos ni publicacio
 
 ## Registro de verificación
 
-A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de verificación | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-06 | Eliminado: «No se identificaron autorizaciones de comercialización vigentes» | Ya no aparece tras regenerar el informe (2026-11-16: The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page; antes: Corregido) | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: acetazolamide prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8e48a25-5f6c-4b5a-a5f2-ee87aabea33b) |
 
 <!-- review:end log -->
 

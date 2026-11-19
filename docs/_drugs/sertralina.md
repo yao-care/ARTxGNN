@@ -56,7 +56,7 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno de personalida
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por conocimiento general, la sertralina pertenece a la clase de los ISRS, que aumentan la disponibilidad de serotonina en la sinapsis, y mecanísticamente se podría especular con un efecto sobre síntomas afectivos o de ansiedad asociados a la patología de personalidad.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Sertralina (traducción no oficial): «La sertralina potencia la actividad serotoninérgica en el sistema nervioso central mediante la inhibición de la recaptación neuronal de serotonina (5-HT).» Texto original en inglés: "Sertraline potentiates serotonergic activity in the central nervous system through inhibition of neuronal reuptake of serotonin (5-HT)." ([DailyMed: Zoloft (sertraline hydrochloride) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda754f6-d0f3-4dce-a17a-927d64f912f7), versión del 2023-08-08; consultado el 2026-11-19). Por conocimiento general, la sertralina pertenece a la clase de los ISRS, que aumentan la disponibilidad de serotonina en la sinapsis, y mecanísticamente se podría especular con un efecto sobre síntomas afectivos o de ansiedad asociados a la patología de personalidad.
 
 Sin embargo, los datos compilados no respaldan un vínculo mecanístico directo con el trastorno de personalidad esquizoide. La única publicación vinculada aborda el trastorno por atracón, no la enfermedad predicha. Además, el puntaje de 0,9993 es idéntico para varios trastornos de personalidad no relacionados entre sí, lo que sugiere un artefacto a nivel de clase más que una señal específica de la enfermedad. Debe interpretarse como una hipótesis del modelo, no como evidencia.
 
@@ -98,6 +98,19 @@ La predicción se apoya solo en el puntaje del modelo (nivel L5): no hay ensayos
 - Datos del mecanismo de acción y análisis de su vínculo con la enfermedad predicha
 - Advertencias y contraindicaciones del prospecto de ANMAT para completar la evaluación de seguridad
 - Consideración específica de la seguridad en poblaciones jóvenes (advertencia de los ISRS en menores) si se explorara el uso
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Zoloft (sertraline hydrochloride) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda754f6-d0f3-4dce-a17a-927d64f912f7) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

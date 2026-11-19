@@ -56,7 +56,7 @@ El modelo TxGNN predice que podría ser efectivo para **deficiencia de la prote�
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, el ciprofibrato pertenece a la clase de los fibratos, agonistas de PPAR-alfa, que reducen los triglicéridos y elevan el colesterol HDL.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Ciprofibrato es (traducción no oficial): «Agonista del receptor alfa activado por proliferadores de peroxisomas» Texto original en inglés: "Peroxisome proliferator-activated receptor alpha agonist" ([ChEMBL CHEMBL557555 (ciprofibrate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL557555), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, el ciprofibrato pertenece a la clase de los fibratos, agonistas de PPAR-alfa, que reducen los triglicéridos y elevan el colesterol HDL.
 
 La deficiencia de la proteína de transferencia de ésteres de colesterol se caracteriza por niveles muy elevados de colesterol HDL. Por ello, un fármaco que modula los lípidos tiene una conexión biológica plausible con la vía del HDL. Sin embargo, esta condición es genética y suele ser benigna, incluso asociada a longevidad, por lo que no está claro qué beneficio terapéutico se buscaría.
 
@@ -99,6 +99,19 @@ No hay ensayos clínicos y la única publicación es un estudio preclínico indi
 - Datos del mecanismo de acción del ciprofibrato
 - Información de seguridad del prospecto aprobado en ANMAT (advertencias y contraindicaciones)
 - Estudios preclínicos que respalden una hipótesis mecanística específica para esta enfermedad
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL557555 (ciprofibrate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL557555) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

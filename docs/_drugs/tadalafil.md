@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **Hipertricosis universal 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por conocimiento general, el tadalafilo inhibe la PDE5, lo que aumenta el GMP cíclico (cGMP) y produce vasodilatación.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Tadalafil (traducción no oficial): «La erección del pene durante la estimulación sexual se produce por el aumento del flujo sanguíneo peniano resultante de la relajación de las arterias del pene y del músculo liso de los cuerpos cavernosos. Esta respuesta está mediada por la liberación de óxido nítrico (NO) desde las terminaciones nerviosas y las células endoteliales, que estimula la síntesis de cGMP en las células del músculo liso. […] El tadalafilo inhibe la PDE5.» Texto original en inglés: "Penile erection during sexual stimulation is caused by increased penile blood flow resulting from the relaxation of penile arteries and corpus cavernosal smooth muscle. This response is mediated by the release of nitric oxide (NO) from nerve terminals and endothelial cells, which stimulates the synthesis of cGMP in smooth muscle cells. […] Tadalafil inhibits PDE5." ([DailyMed: Cialis (tadalafil) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcd8f8ab-81a2-4891-83db-24a0b0e25895), versión del 2026-06-03; consultado el 2026-11-19). Por conocimiento general, el tadalafilo inhibe la PDE5, lo que aumenta el GMP cíclico (cGMP) y produce vasodilatación.
 
 Un vínculo con la biología del folículo piloso es posible en teoría, pero especulativo. La hipertricosis de Ambras es un trastorno genético raro, asociado a reordenamientos cromosómicos que afectan la regulación del gen TRPS1. No hay motivo para esperar que la inhibición de PDE5 corrija esa causa de fondo.
 
@@ -114,6 +114,19 @@ La predicción no cuenta con ensayos clínicos ni publicaciones, y el mecanismo 
 - Estudios preclínicos (modelos de folículo piloso) que aclaren la dirección del efecto
 - Revisión del prospecto aprobado en ANMAT para completar la información de seguridad
 - Evaluación de la necesidad clínica y de la seguridad en una población pediátrica o con enfermedad genética rara
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Cialis (tadalafil) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcd8f8ab-81a2-4891-83db-24a0b0e25895) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

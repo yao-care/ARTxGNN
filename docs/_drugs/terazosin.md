@@ -54,7 +54,7 @@ Terazosina es un bloqueante alfa-1 adrenérgico que se comercializa en Argentina
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Por su clase, la terazosina bloquea los receptores alfa-1 adrenérgicos, lo que produce vasodilatación y relajación del músculo liso.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Terazosin (traducción no oficial): «Hiperplasia prostática benigna Los síntomas asociados a la hiperplasia prostática benigna (HPB) están relacionados con la obstrucción del tracto de salida de la vejiga, que consta de dos componentes subyacentes: estático y dinámico. El componente estático está relacionado con un aumento del tamaño de la próstata causado, en parte, por una proliferación de células de músculo liso en el estroma prostático. […] El bloqueo del receptor alfa-1 disminuye la resistencia uretral y puede aliviar la obstrucción de los síntomas de la HPB y mejorar el flujo urinario Hipertensión El mecanismo de acción de la terazosina es el bloqueo selectivo del subtipo alfa-1 de los receptores adrenérgicos.» Texto original en inglés: "Benign Prostatic Hyperplasia The symptoms associated with benign prostatic hyperplasia (BPH) are related to bladder outlet obstruction, which is comprised of two underlying components: static and dynamic. The static component is related to an increase in prostate size caused, in part by a proliferation of smooth muscle cells in the prostatic stroma. […] Blockade of the alpha-1 receptor decreases urethral resistance and may relieve the obstruction of BPH symptoms and improve urine flow Hypertension The mechanism of action of terazosin is selective blockade of the alpha-1 subtype of adrenergic receptors." ([DailyMed: Tezruly (terazosin) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69582e0c-6569-490c-8c14-999f3750336f), versión del 2025-04-18; consultado el 2026-11-19). Por su clase, la terazosina bloquea los receptores alfa-1 adrenérgicos, lo que produce vasodilatación y relajación del músculo liso.
 
 Un vínculo con el cuero cabelludo solo sería plausible a través de una mayor perfusión de los folículos, como ocurre con otros agentes vasoactivos. Esta hipótesis es especulativa y no cuenta con datos que la respalden.
 
@@ -97,6 +97,19 @@ La predicción no cuenta con ensayos clínicos ni literatura, el mecanismo propu
 - Datos del mecanismo de acción del fármaco
 - Texto de advertencias y contraindicaciones del prospecto de ANMAT
 - Definir si una vía de administración distinta de la oral sería necesaria para un efecto local en el cuero cabelludo
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tezruly (terazosin) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69582e0c-6569-490c-8c14-999f3750336f) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

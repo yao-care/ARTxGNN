@@ -21,11 +21,12 @@
   "items_current": 1407
  },
  "reviews": {
-  "records": 30,
-  "pages": 21,
-  "public_pages_with_records": 17,
+  "records": 255,
+  "pages": 236,
+  "public_pages_with_records": 232,
   "by_action": {
-   "correct": 30
+   "correct": 30,
+   "mechanism": 225
   }
  },
  "fhir": {
@@ -39,7 +40,7 @@
    "l": "L5",
    "lt": 20,
    "lv": 20,
-   "r": 0,
+   "r": 1,
    "i": "hipertricosis universal congénita tipo Ambras"
   },
   {
@@ -57,7 +58,7 @@
    "l": "L5",
    "lt": 20,
    "lv": 20,
-   "r": 0,
+   "r": 1,
    "i": "hiperamilasemia"
   },
   {
@@ -75,7 +76,7 @@
    "l": "L5",
    "lt": 19,
    "lv": 19,
-   "r": 0,
+   "r": 1,
    "i": "Síndrome de piernas inquietas"
   },
   {
@@ -84,7 +85,7 @@
    "l": "L5",
    "lt": 19,
    "lv": 19,
-   "r": 0,
+   "r": 1,
    "i": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
   },
   {
@@ -102,7 +103,7 @@
    "l": "L5",
    "lt": 18,
    "lv": 18,
-   "r": 0,
+   "r": 1,
    "i": "hipotricosis simple del cuero cabelludo"
   }
  ],
@@ -113,7 +114,7 @@
    "l": "L5",
    "lt": 10,
    "lv": 0,
-   "r": 1,
+   "r": 2,
    "i": "rosacea conjunctivitis"
   },
   {
@@ -129,6 +130,15 @@
  "no_current_more": 0,
  "most_reviewed": [
   {
+   "t": "Aciclovir",
+   "u": "/drugs/aciclovir/",
+   "l": "L5",
+   "lt": 0,
+   "lv": 20,
+   "r": 3,
+   "i": "queratoconjuntivitis epitelial punteada"
+  },
+  {
    "t": "Cetirizina",
    "u": "/drugs/cetirizina/",
    "l": "L5",
@@ -138,30 +148,12 @@
    "i": "enfermedad de la cavidad nasal"
   },
   {
-   "t": "Aciclovir",
-   "u": "/drugs/aciclovir/",
-   "l": "L5",
-   "lt": 0,
-   "lv": 20,
-   "r": 2,
-   "i": "queratoconjuntivitis epitelial punteada"
-  },
-  {
-   "t": "Beclometasona",
-   "u": "/drugs/beclometasona/",
-   "l": "L3",
-   "lt": 2,
-   "lv": 2,
-   "r": 2,
-   "i": "Eccema atópico"
-  },
-  {
    "t": "Ciclosporina",
    "u": "/drugs/ciclosporina/",
    "l": "L5",
    "lt": 4,
    "lv": 4,
-   "r": 2,
+   "r": 3,
    "i": "enfermedad granulomatosa crónica autosómica recesiva"
   },
   {
@@ -170,7 +162,7 @@
    "l": "L5",
    "lt": 2,
    "lv": 2,
-   "r": 1,
+   "r": 2,
    "i": "hipertermia maligna inducida por ejercicio"
   },
   {
@@ -179,8 +171,17 @@
    "l": "L5",
    "lt": 4,
    "lv": 4,
-   "r": 1,
+   "r": 2,
    "i": "taquicardia ventricular polimórfica catecolaminérgica"
+  },
+  {
+   "t": "Atomoxetina",
+   "u": "/drugs/atomoxetina/",
+   "l": "L5",
+   "lt": 5,
+   "lv": 5,
+   "r": 2,
+   "i": "trastorno específico del desarrollo"
   }
  ],
  "example": {
@@ -189,7 +190,7 @@
   "l": "L1",
   "lt": 6,
   "lv": 6,
-  "r": 0,
+  "r": 1,
   "i": "Trastorno por déficit de atención con hiperactividad"
  },
  "recent_reviews": [

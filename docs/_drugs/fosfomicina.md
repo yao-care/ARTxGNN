@@ -55,7 +55,7 @@ Fosfomicina es un antibiótico bactericida que se comercializa actualmente en Ar
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la farmacología conocida, la fosfomicina inhibe la enzima MurA y bloquea el primer paso de la síntesis del peptidoglicano bacteriano. Tiene actividad amplia contra bacterias Gram negativas y algunas Gram positivas.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Fosfomicina (traducción no oficial): «CONTEPO es un fármaco antibacteriano. […] La fosfomicina es un fármaco antibacteriano epóxido que altera la síntesis de la pared celular bacteriana al unirse covalentemente a la fosfoenolpiruvato transferasa (MurA) e inhibirla, con lo que bloquea la síntesis de peptidoglucano. La fosfomicina es bactericida frente a Enterobacterales.» Texto original en inglés: "CONTEPO is an antibacterial drug. […] Fosfomycin is an epoxide antibacterial drug that disrupts bacterial cell wall synthesis by covalently binding and inhibiting phosphoenolpyruvate transferase (MurA), thereby blocking the synthesis of peptidoglycan. Fosfomycin is bactericidal against Enterobacterales." ([DailyMed: Contepo (fosfomycin disodium) prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=855574f2-39f8-43bc-a3d2-79dbb578cb94), versión del 2025-11-04; consultado el 2026-11-19). Según la farmacología conocida, la fosfomicina inhibe la enzima MurA y bloquea el primer paso de la síntesis del peptidoglicano bacteriano. Tiene actividad amplia contra bacterias Gram negativas y algunas Gram positivas.
 
 La inflamación del útero puede tener origen infeccioso bacteriano. Por eso es plausible, en teoría, que un antibiótico de amplio espectro tenga algún papel. Sin embargo, esta relación es solo una hipótesis. Los estudios vinculados no abordan la enfermedad uterina ni evalúan la fosfomicina para tratarla.
 
@@ -102,6 +102,19 @@ Consultar el prospecto para información de seguridad. No se encontraron interac
 - Estudios clínicos o de cohortes que evalúen directamente la eficacia y la seguridad en esta enfermedad.
 - Información de seguridad del prospecto aprobado en Argentina, incluidas advertencias y contraindicaciones.
 - Definir la vía de administración y la formulación adecuadas para un posible uso.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Contepo (fosfomycin disodium) prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=855574f2-39f8-43bc-a3d2-79dbb578cb94) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

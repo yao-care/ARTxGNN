@@ -54,7 +54,7 @@ Glucagón es un péptido derivado del proglucagón que se comercializa en Argent
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción del glucagón en los datos compilados para este informe. Se sabe que es un péptido derivado del proglucagón, igual que el GLP-1, y que ambos actúan sobre receptores acoplados a proteína G de clase B relacionados.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Glucagon (traducción no oficial): «El glucagón aumenta la concentración de glucosa en sangre mediante la activación de los receptores hepáticos de glucagón, lo que estimula la degradación del glucógeno y la liberación de glucosa desde el hígado. Las reservas hepáticas de glucógeno son necesarias para que el glucagón produzca un efecto antihipoglucemiante.» Texto original en inglés: "Glucagon increases blood glucose concentration by activating hepatic glucagon receptors, thereby stimulating glycogen breakdown and release of glucose from the liver. Hepatic stores of glycogen are necessary for glucagon to produce an antihypoglycemic effect." ([DailyMed: glucagon prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e4be1c0e-0fe6-45a0-9229-5cde98434b84), versión del 2020-09-16; consultado el 2026-11-19). Se sabe que es un péptido derivado del proglucagón, igual que el GLP-1, y que ambos actúan sobre receptores acoplados a proteína G de clase B relacionados.
 
 El glucagón tiene un efecto antiespasmódico conocido sobre el músculo liso, que se utiliza en radiología y endoscopia digestiva. Esto sugiere un vínculo plausible, aunque indirecto, con síntomas del síndrome del intestino irritable como los calambres y la alteración de la motilidad.
 
@@ -107,6 +107,18 @@ Ningún estudio evaluó el glucagón en el síndrome del intestino irritable; la
 - Datos del mecanismo de acción del glucagón
 - Advertencias y contraindicaciones del prospecto de ANMAT
 - Evaluación de la compatibilidad de la vía de administración con el uso propuesto
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: glucagon prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e4be1c0e-0fe6-45a0-9229-5cde98434b84) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

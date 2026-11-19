@@ -58,7 +58,7 @@ La evidencia es débil: solo hay un estudio preclínico y un estudio de fase 1B 
 
 ## Por que es Razonable esta Prediccion?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la fludrocortisona es un mineralocorticoide sintético con cierta actividad glucocorticoide, y su uso establecido es en la hipotensión ortostática y la insuficiencia suprarrenal (como se desprende de la literatura recuperada). Mecanísticamente, podría ser aplicable a algunas afecciones donde interviene la señalización de receptores de mineralocorticoides y glucocorticoides.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Fludrocortisone (traducción no oficial): «Se cree que los corticosteroides actúan, al menos en parte, controlando la velocidad de síntesis de proteínas. Aunque existen varios casos en los que se sabe que los corticosteroides inducen la síntesis de proteínas específicas, los vínculos entre las acciones iniciales de las hormonas y los efectos metabólicos finales no se han dilucidado por completo. […] La acción fisiológica del acetato de fludrocortisona es similar a la de la hidrocortisona.» Texto original en inglés: "Corticosteroids are thought to act at least in part, by controlling the rate of synthesis of proteins. Although there are a number of instances in which the synthesis of specific proteins is known to be induced by corticosteroids, the links between the initial actions of the hormones and the final metabolic effects have not been completely elucidated. […] The physiologic action of fludrocortisone acetate is similar to that of hydrocortisone." ([DailyMed: fludrocortisone acetate prescribing information, Major Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=933e28ef-05e8-419e-a786-21eab67f33a2), versión del 2026-06-24; consultado el 2026-11-19). Según la información conocida, la fludrocortisona es un mineralocorticoide sintético con cierta actividad glucocorticoide, y su uso establecido es en la hipotensión ortostática y la insuficiencia suprarrenal (como se desprende de la literatura recuperada). Mecanísticamente, podría ser aplicable a algunas afecciones donde interviene la señalización de receptores de mineralocorticoides y glucocorticoides.
 
 **Linfoma cutáneo primario de células T (rank 1):** no hay ensayos ni literatura. Los glucocorticoides tienen un papel conocido en neoplasias linfoides, pero no existe fundamento documentado para la fludrocortisona en esta enfermedad; el vínculo mecanístico es especulativo y el puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
@@ -113,6 +113,19 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 - Evaluar la compatibilidad de vías de administración (la vía intravítrea no corresponde a la forma oral comercializada).
 - Para enfermedad ocular, ensayos de eficacia (fase 2) en atrofia geográfica u otras patologías retinianas específicas, y revisión de la relevancia de la literatura recuperada, ya que gran parte es indirecta.
 - Para las demás predicciones (linfoma cutáneo, quistes, exostosis), no se recomienda inversión adicional salvo que surja evidencia biológica nueva.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: fludrocortisone acetate prescribing information, Major Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=933e28ef-05e8-419e-a786-21eab67f33a2) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

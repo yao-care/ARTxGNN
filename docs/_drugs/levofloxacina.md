@@ -57,7 +57,7 @@ Esta dirección cuenta con **0 ensayos clínicos** y **1 publicación** indirect
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por conocimiento general, levofloxacina es una fluoroquinolona que inhibe la ADN girasa y la topoisomerasa IV bacterianas, y así detiene la replicación del ADN de las bacterias sensibles.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Levofloxacina (traducción no oficial): «La levofloxacina es un miembro de la clase de agentes antibacterianos de las fluoroquinolonas. […] La levofloxacina es el isómero L del racemato ofloxacina, un agente antimicrobiano quinolónico. La actividad antibacteriana de la ofloxacina reside principalmente en el isómero L. El mecanismo de acción de la levofloxacina y de otros antimicrobianos fluoroquinolónicos implica la inhibición de la topoisomerasa IV bacteriana y de la ADN girasa (ambas topoisomerasas de tipo II), enzimas necesarias para la replicación, la transcripción, la reparación y la recombinación del ADN.» Texto original en inglés: "Levofloxacin is a member of the fluoroquinolone class of antibacterial agents. […] Levofloxacin is the L-isomer of the racemate, ofloxacin, a quinolone antimicrobial agent. The antibacterial activity of ofloxacin resides primarily in the L-isomer. The mechanism of action of levofloxacin and other fluoroquinolone antimicrobials involves inhibition of bacterial topoisomerase IV and DNA gyrase (both of which are type II topoisomerases), enzymes required for DNA replication, transcription, repair and recombination." ([DailyMed: levofloxacin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=814450ae-439e-4a5d-8c60-9b21b6f14be5), versión del 2026-11-05; consultado el 2026-11-19). Por conocimiento general, levofloxacina es una fluoroquinolona que inhibe la ADN girasa y la topoisomerasa IV bacterianas, y así detiene la replicación del ADN de las bacterias sensibles.
 
 La queratoconjuntivitis epitelial punteada es una inflamación de la superficie ocular con daño epitelial en forma de puntos. Puede tener causas infecciosas y no infecciosas. Un antibacteriano solo tendría sentido si hubiera un componente bacteriano, o como cobertura frente a una sobreinfección secundaria.
 
@@ -103,6 +103,19 @@ No hay ensayos clínicos ni estudios que evalúen directamente levofloxacina en 
 - Datos del mecanismo de acción y de seguridad (advertencias, contraindicaciones) obtenidos del prospecto de ANMAT y de DrugBank.
 - Evaluación de la viabilidad de una formulación oftálmica, ya que las presentaciones registradas localmente son orales y parenterales.
 - Si la revisión resulta favorable, un estudio clínico exploratorio con un diagnóstico etiológico bien definido.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: levofloxacin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=814450ae-439e-4a5d-8c60-9b21b6f14be5) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -57,7 +57,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, la nimodipina es un bloqueador de los canales de calcio de tipo L de la clase de las dihidropiridinas, con acción preferente sobre los vasos cerebrales.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Nimodipina (traducción no oficial): «El nimodipino es un bloqueante de los canales de calcio del grupo de las dihidropiridinas. Los procesos contráctiles de las células del músculo liso dependen de los iones de calcio, que entran en estas células durante la despolarización como corrientes iónicas transmembrana lentas.» Texto original en inglés: "Nimodipine is a dihydropyridine calcium channel blocker. The contractile processes of smooth muscle cells are dependent upon calcium ions, which enter these cells during depolarization as slow ionic transmembrane currents." ([DailyMed: Nymalize (nimodipine) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e660fa26-b5c4-4d6d-8887-9e22b6666a10), versión del 2024-08-30; consultado el 2026-11-19). Según la información conocida, la nimodipina es un bloqueador de los canales de calcio de tipo L de la clase de las dihidropiridinas, con acción preferente sobre los vasos cerebrales.
 
 La hipercolesterolemia familiar homocigota se debe a una deficiencia del receptor de LDL que provoca niveles muy elevados de colesterol LDL. No se identifica un vínculo mecanístico establecido entre el bloqueo de canales de calcio y este defecto de base. Cualquier relación sería especulativa (por ejemplo, efectos vasculares o antiaterogénicos indirectos) y no corregiría el problema subyacente del receptor.
 
@@ -98,6 +98,19 @@ La predicción se apoya únicamente en el modelo (nivel L5), sin ensayos ni lite
 - Datos del mecanismo de acción de la nimodipina para evaluar un posible vínculo con el metabolismo lipídico
 - Estudios preclínicos o clínicos que evalúen directamente la hipercolesterolemia familiar homocigota
 - Revisión de las advertencias y contraindicaciones del prospecto de ANMAT para completar el análisis de seguridad
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Nymalize (nimodipine) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e660fa26-b5c4-4d6d-8887-9e22b6666a10) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

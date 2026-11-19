@@ -55,7 +55,7 @@ Prednisolona es un glucocorticoide de uso sistémico y local, con nueve autoriza
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, la prednisolona es un glucocorticoide con actividad antiinflamatoria e inmunosupresora amplia, que suprime la activación de los linfocitos T y de las citocinas proinflamatorias.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Prednisolona (traducción no oficial): «La prednisolona es un fármaco esteroide corticosuprarrenal sintético con propiedades predominantemente glucocorticoides. Algunas de estas propiedades reproducen las acciones fisiológicas de los glucocorticosteroides endógenos, pero otras no reflejan necesariamente ninguna de las funciones normales de las hormonas suprarrenales; solo se observan tras la administración de dosis terapéuticas elevadas del fármaco.» Texto original en inglés: "Prednisolone is a synthetic adrenocortical steroid drug with predominantly glucocorticoid properties. Some of these properties reproduce the physiological actions of endogenous glucocorticosteroids, but others do not necessarily reflect any of the adrenal hormones' normal functions; they are seen only after administration of large therapeutic doses of the drug." ([DailyMed: Orapred Odt (prednisolone sodium phosphate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e379543-c4cf-4e72-953b-db15b7f0c2a1), versión del 2025-06-03; consultado el 2026-11-19). Según la información conocida, la prednisolona es un glucocorticoide con actividad antiinflamatoria e inmunosupresora amplia, que suprime la activación de los linfocitos T y de las citocinas proinflamatorias.
 
 La alopecia areata es una enfermedad autoinmune mediada por linfocitos T, en la que se pierde el privilegio inmune del folículo piloso y este es atacado. Un fármaco que frena la activación de linfocitos T y la inflamación podría contrarrestar ese ataque, por lo que el mecanismo es plausible.
 
@@ -107,6 +107,19 @@ Existe un ensayo aleatorizado controlado con placebo y varias revisiones sobre p
 - Ensayos más amplios y con mayor seguimiento que evalúen recaídas y toxicidad.
 - Plan de monitoreo de seguridad (dosis, duración de los pulsos, efectos adversos de los corticoides).
 - Verificar la compatibilidad de las vías de administración: las autorizaciones locales corresponden a formas oftálmicas, rectales y orales de otro tipo, y no se evaluó la vía necesaria para esta indicación.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Orapred Odt (prednisolone sodium phosphate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e379543-c4cf-4e72-953b-db15b7f0c2a1) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

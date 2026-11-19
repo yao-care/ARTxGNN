@@ -54,7 +54,7 @@ Levodopa es un precursor de la dopamina que se utiliza para reponer la dopamina 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, la levodopa es un precursor de la dopamina que se convierte en el cerebro en dopamina, lo que permite reponer la que falta en los trastornos parkinsonianos.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Levodopa (traducción no oficial): «La levodopa, el precursor metabólico de la dopamina, atraviesa la barrera hematoencefálica y presumiblemente se convierte en dopamina en el cerebro. Se cree que este es el mecanismo por el cual la levodopa alivia los síntomas de la enfermedad de Parkinson.» Texto original en inglés: "Levodopa, the metabolic precursor of dopamine, crosses the blood-brain barrier and presumably is converted to dopamine in the brain. This is thought to be the mechanism whereby levodopa relieves symptoms of Parkinson's disease." ([DailyMed: Inbrija (levodopa) prescribing information, Merz Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=077c0f39-a3a2-4b2b-a184-09131889dcfb), versión del 2026-07-20; consultado el 2026-11-19). Según la información conocida, la levodopa es un precursor de la dopamina que se convierte en el cerebro en dopamina, lo que permite reponer la que falta en los trastornos parkinsonianos.
 
 La encefalitis de Rasmussen es una enfermedad rara, unilateral y de origen inmunitario. Se caracteriza por citotoxicidad mediada por linfocitos T, activación microglial, atrofia progresiva de un hemisferio cerebral y convulsiones focales refractarias (epilepsia parcial continua).
 
@@ -97,6 +97,19 @@ La predicción se basa solo en el puntaje del modelo (nivel L5), sin ensayos cl�
 - Estudios preclínicos o de mecanismo que vinculen la reposición dopaminérgica con la patología de la encefalitis de Rasmussen
 - Revisión de seguridad centrada en el riesgo de convulsiones y síntomas psiquiátricos
 - Advertencias y contraindicaciones del prospecto aprobado por ANMAT
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Inbrija (levodopa) prescribing information, Merz Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=077c0f39-a3a2-4b2b-a184-09131889dcfb) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

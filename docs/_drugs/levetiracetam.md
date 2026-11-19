@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por lo tanto, no se puede establecer un vínculo mecanístico directo entre levetiracetam y la nueva indicación.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Levetiracetam (traducción no oficial): «Se desconoce(n) el(los) mecanismo(s) preciso(s) mediante el(los) cual(es) el levetiracetam ejerce su efecto antiepiléptico. Se ha descrito para el levetiracetam un sitio de unión neuronal saturable y estereoselectivo en tejido cerebral de rata. Los datos experimentales indican que este sitio de unión es la proteína de las vesículas sinápticas SV2A, que se cree que participa en la regulación de la exocitosis de las vesículas.» Texto original en inglés: "The precise mechanism(s) by which levetiracetam exerts its antiepileptic effect is unknown. A saturable and stereoselective neuronal binding site in rat brain tissue has been described for levetiracetam. Experimental data indicate that this binding site is the synaptic vesicle protein SV2A, thought to be involved in the regulation of vesicle exocytosis." ([DailyMed: Keppra (levetiracetam) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6d5784d-abf9-45fe-ac5a-d5c53bd50f7e), versión del 2026-11-11; consultado el 2026-11-19). Por lo tanto, no se puede establecer un vínculo mecanístico directo entre levetiracetam y la nueva indicación.
 
 El déficit de beta-cetotiolasa (deficiencia de acetoacetil-CoA tiolasa mitocondrial, ACAT1/T2) es un error innato del metabolismo del catabolismo de la isoleucina y de los cuerpos cetónicos, que se caracteriza por episodios de cetoacidosis. La actividad anticonvulsivante de levetiracetam no corrige de forma plausible este defecto metabólico.
 
@@ -100,6 +100,19 @@ La predicción se basa solo en el modelo, sin ensayos clínicos ni literatura, y
 - Estudios preclínicos que respalden un efecto en el déficit de beta-cetotiolasa
 - Revisión del prospecto aprobado en ANMAT (advertencias y contraindicaciones)
 - Evaluación de seguridad en pacientes con enfermedad metabólica, incluyendo función renal y hepática, y recuento hematológico
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Keppra (levetiracetam) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6d5784d-abf9-45fe-ac5a-d5c53bd50f7e) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

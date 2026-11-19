@@ -56,7 +56,7 @@ El modelo TxGNN predice que podría ser útil para **alopecia mucinosa (alopecia
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción de este fármaco en los datos compilados para este informe. Según la información conocida, la betametasona es un corticosteroide potente con actividad antiinflamatoria e inmunosupresora.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Betametasona (traducción no oficial): «Los corticosteroides desempeñan un papel en la señalización celular, la función inmunitaria, la inflamación y la regulación de las proteínas; sin embargo, se desconoce el mecanismo de acción exacto de SERNIVO Spray en la psoriasis.» Texto original en inglés: "Corticosteroids play a role in cellular signaling, immune function, inflammation, and protein regulation; however, the precise mechanism of action of SERNIVO Spray in psoriasis is unknown." ([DailyMed: Sernivo (betamethasone dipropionate) prescribing information, Primus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b1b3d1b0-da9b-11eb-ad76-0800200c9a66), versión del 2026-04-22; consultado el 2026-11-19). Según la información conocida, la betametasona es un corticosteroide potente con actividad antiinflamatoria e inmunosupresora.
 
 La alopecia mucinosa (mucinosis folicular) se caracteriza por infiltrados inflamatorios perifoliculares con depósito de mucina. Por ello, un corticosteroide tópico o intralesional es una opción terapéutica plausible desde el punto de vista mecanístico.
 
@@ -105,11 +105,12 @@ La predicción se apoya en un puntaje alto de TxGNN y en una plausibilidad mecan
 
 ## Registro de verificación
 
-A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de verificación | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-06 | Eliminado: «No se identificaron autorizaciones de comercialización vigentes» | Ya no aparece tras regenerar el informe (2026-11-16: The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page; antes: Corregido) | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Sernivo (betamethasone dipropionate) prescribing information, Primus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b1b3d1b0-da9b-11eb-ad76-0800200c9a66) |
 
 <!-- review:end log -->
 

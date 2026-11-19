@@ -57,7 +57,7 @@ No hay **ningún ensayo clínico** ni **ninguna publicación** que estudie direc
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción de este fármaco en los datos compilados para este informe. Según la información conocida, la liotironina es una hormona tiroidea que actúa sobre los receptores nucleares de hormona tiroidea y regula el metabolismo y el desarrollo de varios tejidos.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Liotironina (traducción no oficial): «Las hormonas tiroideas ejercen sus acciones fisiológicas mediante el control de la transcripción del DNA y de la síntesis de proteínas. La triyodotironina (T3) y la L-tiroxina (T4) difunden al núcleo celular y se unen a proteínas receptoras tiroideas unidas al DNA.» Texto original en inglés: "Thyroid hormones exert their physiologic actions through control of DNA transcription and protein synthesis. Triiodothyronine (T3) and L-thyroxine (T4) diffuse into the cell nucleus and bind to thyroid receptor proteins attached to DNA." ([DailyMed: Cytomel (liothyronine sodium) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=51452b31-ff68-4e0c-b982-c15502ebf1d3), versión del 2026-05-18; consultado el 2026-11-19). Según la información conocida, la liotironina es una hormona tiroidea que actúa sobre los receptores nucleares de hormona tiroidea y regula el metabolismo y el desarrollo de varios tejidos.
 
 Un vínculo biológico posible es que la señalización de hormonas tiroideas participa en el desarrollo renal. Sin embargo, la hipodisplasia y la aplasia renal son malformaciones congénitas estructurales que se establecen durante la vida fetal. Es poco probable que un tratamiento posnatal con liotironina las revierta.
 
@@ -95,6 +95,19 @@ No existe ningún estudio que evalúe la liotironina en hipodisplasia/aplasia re
 - Evidencia preclínica o clínica que estudie directamente esta enfermedad y justifique un vínculo mecanístico.
 - Información de seguridad del prospecto aprobado en Argentina (advertencias y contraindicaciones).
 - Evaluación de la vía de administración y de la población, ya que la enfermedad es principalmente prenatal.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Cytomel (liothyronine sodium) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=51452b31-ff68-4e0c-b982-c15502ebf1d3) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

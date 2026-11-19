@@ -55,7 +55,7 @@ Atorvastatín es una estatina (inhibidor de la HMG-CoA reductasa) utilizada en A
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, atorvastatín es un inhibidor de la HMG-CoA reductasa con efectos pleiotrópicos antiinflamatorios e inmunomoduladores: reduce la activación de monocitos/macrófagos, disminuye la inflamación sistémica y mejora la función endotelial.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Atorvastatín (traducción no oficial): «LIPITOR es un inhibidor selectivo y competitivo de la HMG-CoA reductasa, la enzima limitante de la velocidad que convierte la 3-hidroxi-3-metilglutaril-coenzima A en mevalonato, un precursor de los esteroles, incluido el colesterol. En modelos animales, LIPITOR reduce las concentraciones plasmáticas de colesterol y de lipoproteínas al inhibir la HMG-CoA reductasa y la síntesis de colesterol en el hígado y al aumentar el número de receptores hepáticos de LDL en la superficie celular para potenciar la captación y el catabolismo de las LDL; LIPITOR también reduce la producción de LDL y el número de partículas de LDL.» Texto original en inglés: "LIPITOR is a selective, competitive inhibitor of HMG-CoA reductase, the rate-limiting enzyme that converts 3-hydroxy-3-methylglutaryl-coenzyme A to mevalonate, a precursor of sterols, including cholesterol. In animal models, LIPITOR lowers plasma cholesterol and lipoprotein levels by inhibiting HMG-CoA reductase and cholesterol synthesis in the liver and by increasing the number of hepatic LDL receptors on the cell surface to enhance uptake and catabolism of LDL; LIPITOR also reduces LDL production and the number of LDL particles." ([DailyMed: Lipitor (atorvastatin calcium) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a60cc18b-0631-4cf0-b021-9f52224ece65), versión del 2024-04-15; consultado el 2026-11-19). Según la información conocida, atorvastatín es un inhibidor de la HMG-CoA reductasa con efectos pleiotrópicos antiinflamatorios e inmunomoduladores: reduce la activación de monocitos/macrófagos, disminuye la inflamación sistémica y mejora la función endotelial.
 
 Estos efectos son relevantes en la infección por VIH, donde persisten la activación inmune crónica y una aterosclerosis acelerada, incluso con tratamiento antirretroviral eficaz. También es relevante la dislipidemia asociada a inhibidores de la proteasa. El uso respaldado por la evidencia es el manejo adyuvante de la dislipidemia, la inflamación y el riesgo cardiovascular, no una acción antiviral directa.
 
@@ -125,6 +125,19 @@ Hay ensayos de Fase 2 completados y ECA publicados que estudian directamente ato
 - Verificación de advertencias y contraindicaciones en el prospecto de ANMAT.
 - Datos del mecanismo de acción desde fuentes primarias (p. ej., DrugBank).
 - Reverificación de interacciones con antirretrovirales, en especial inhibidores de la proteasa potenciados, con límites de dosis y monitoreo de miopatía.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Lipitor (atorvastatin calcium) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a60cc18b-0631-4cf0-b021-9f52224ece65) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

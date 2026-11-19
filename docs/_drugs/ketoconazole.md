@@ -56,7 +56,7 @@ con **1 ensayo clínico** registrado (de fase no aplicable, aún sin resultados)
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este reporte. Según el conocimiento farmacológico general, ketoconazol actúa contra levaduras del género *Malassezia* (*Pityrosporum*), implicadas en erupciones foliculares y acneiformes como la foliculitis por Malassezia y la pustulosis cefálica neonatal, y puede contribuir a reducir la inflamación en algunos cuadros parecidos al acné.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ketoconazole (traducción no oficial): «El ketoconazol bloquea la síntesis de ergosterol, un componente clave de la membrana celular fúngica, mediante la inhibición de la enzima dependiente del citocromo P-450 lanosterol 14α-desmetilasa, responsable de la conversión del lanosterol en ergosterol en la membrana celular fúngica. Esto da lugar a una acumulación de precursores de esteroles metilados y a una depleción de ergosterol en la membrana celular, lo que debilita la estructura y la función de la membrana celular fúngica.» Texto original en inglés: "Ketoconazole blocks the synthesis of ergosterol, a key component of the fungal cell membrane, through the inhibition of cytochrome P-450 dependent enzyme lanosterol 14α-demethylase responsible for the conversion of lanosterol to ergosterol in the fungal cell membrane. This results in an accumulation of methylated sterol precursors and a depletion of ergosterol within the cell membrane thus weakening the structure and function of the fungal cell membrane." ([DailyMed: ketoconazole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4baebcab-a237-42c0-9183-6f447a44e371), versión del 2025-11-18; consultado el 2026-11-19). Según el conocimiento farmacológico general, ketoconazol actúa contra levaduras del género *Malassezia* (*Pityrosporum*), implicadas en erupciones foliculares y acneiformes como la foliculitis por Malassezia y la pustulosis cefálica neonatal, y puede contribuir a reducir la inflamación en algunos cuadros parecidos al acné.
 
 Además, ketoconazol inhibe CYP17A1 y otras enzimas esteroidogénicas, lo que disminuye la síntesis de andrógenos. Esto sugiere un posible beneficio en acné de origen androgénico, por ejemplo en el síndrome de ovario poliquístico con hiperandrogenismo. Un estudio in vitro también describió que inhibe el crecimiento y la actividad lipasa de *Propionibacterium acnes* (*Cutibacterium acnes*).
 
@@ -109,6 +109,19 @@ Ningún estudio citado evalúa de forma directa la eficacia clínica de ketocona
 - Definir la vía de administración objetivo (tópica frente a sistémica) y su balance de riesgo, dada la hepatotoxicidad del uso sistémico
 - Datos de mecanismo de acción y texto de advertencias y contraindicaciones del prospecto aprobado en Argentina
 - Plan de monitoreo hepático y de intervalo QT si se contempla el uso sistémico
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: ketoconazole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4baebcab-a237-42c0-9183-6f447a44e371) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

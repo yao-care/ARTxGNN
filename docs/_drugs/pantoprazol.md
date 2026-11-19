@@ -55,7 +55,7 @@ Pantoprazol es un inhibidor de la bomba de protones que reduce la secreción de 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, pantoprazol pertenece a la clase de los inhibidores de la bomba de protones, que suprimen la secreción de ácido gástrico.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Pantoprazol (traducción no oficial): «El pantoprazol es un IBP que suprime el paso final de la producción de ácido gástrico mediante su unión covalente al sistema enzimático (H +, K + )-ATPasa en la superficie secretora de la célula parietal gástrica. Este efecto conduce a la inhibición de la secreción de ácido gástrico tanto basal como estimulada, independientemente del estímulo.» Texto original en inglés: "Pantoprazole is a PPI that suppresses the final step in gastric acid production by covalently binding to the (H +, K + )-ATPase enzyme system at the secretory surface of the gastric parietal cell. This effect leads to inhibition of both basal and stimulated gastric acid secretion irrespective of the stimulus." ([DailyMed: Protonix I.V. (pantoprazole sodium) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cde88e6-28f2-4cbe-8c3f-770b05cc0e1b), versión del 2026-11-06; consultado el 2026-11-19). Según la información conocida, pantoprazol pertenece a la clase de los inhibidores de la bomba de protones, que suprimen la secreción de ácido gástrico.
 
 Mecanísticamente, un fármaco de este tipo podría, en teoría, aliviar la lesión de la mucosa relacionada con el ácido (por ejemplo, úlcera péptica o inflamación que contribuya a una estenosis duodenal). Sin embargo, no trata la obstrucción mecánica o estructural (tumor, páncreas anular, adherencias, síndrome de la arteria mesentérica superior o bezoar).
 
@@ -93,6 +93,19 @@ La predicción se apoya solo en el puntaje del modelo; no hay ensayos clínicos 
 - Datos del mecanismo de acción y revisión del prospecto aprobado en ANMAT (advertencias y contraindicaciones)
 - Estudios clínicos o observacionales que evalúen pantoprazol en obstrucción duodenal
 - Definir si existe algún subgrupo (por ejemplo, estenosis de origen inflamatorio por ácido) donde el fármaco tendría sentido biológico
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Protonix I.V. (pantoprazole sodium) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cde88e6-28f2-4cbe-8c3f-770b05cc0e1b) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

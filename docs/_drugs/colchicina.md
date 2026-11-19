@@ -55,7 +55,7 @@ Colchicina es un fármaco que se comercializa en Argentina en siete autorizacion
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida de la literatura farmacológica general, colchicina se une a la tubulina e inhibe la polimerización de los microtúbulos. Los parásitos del género Plasmodium dependen de los microtúbulos para la mitosis, la motilidad y la invasión celular, por lo que un mecanismo de disrupción de microtúbulos es biológicamente plausible.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Colchicina (traducción no oficial): «Se ha postulado que la eficacia de la colchicina como tratamiento de la gota se debe a su capacidad para bloquear las respuestas inflamatorias mediadas por neutrófilos inducidas por los cristales de urato monosódico en el líquido sinovial. La colchicina altera la polimerización de la β-tubulina en microtúbulos, lo que impide la activación, la desgranulación y la migración de los neutrófilos a los sitios de inflamación.» Texto original en inglés: "Colchicine’s effectiveness as a treatment for gout has been postulated to be due to its ability to block neutrophil-mediated inflammatory responses induced by monosodium urate crystals in synovial fluid. Colchicine disrupts the polymerization of β-tubulin into microtubules, thereby preventing the activation, degranulation, and migration of neutrophils to sites of inflammation." ([DailyMed: Mitigare (colchicine) prescribing information, Hikma Specialty USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb5f9d85-6b81-49f8-bcd6-17b7bfbc10f2), versión del 2026-10-16; consultado el 2026-11-19). Según la información conocida de la literatura farmacológica general, colchicina se une a la tubulina e inhibe la polimerización de los microtúbulos. Los parásitos del género Plasmodium dependen de los microtúbulos para la mitosis, la motilidad y la invasión celular, por lo que un mecanismo de disrupción de microtúbulos es biológicamente plausible.
 
 Los dos estudios disponibles apoyan esta idea solo de forma indirecta. El trabajo de 1994 sobre la expresión del gen pfmdr1 en células de mamífero sugiere que colchicina podría ser sustrato de transportadores de eflujo, lo que plantea una posible preocupación de resistencia. El trabajo de 2013 describe la alteración de microtúbulos en P. falciparum causada por curcumina, no por colchicina. No hay datos de eficacia antipalúdica de colchicina.
 
@@ -108,6 +108,19 @@ No hay ensayos clínicos ni estudios que evalúen colchicina directamente contra
 - Datos detallados del mecanismo de acción y evaluación del riesgo de eflujo mediado por pfmdr1
 - Información de seguridad del prospecto de ANMAT (advertencias y contraindicaciones)
 - Evaluación de la ventana terapéutica frente a las concentraciones antipalúdicas requeridas
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Mitigare (colchicine) prescribing information, Hikma Specialty USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb5f9d85-6b81-49f8-bcd6-17b7bfbc10f2) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

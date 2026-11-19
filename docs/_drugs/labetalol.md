@@ -56,7 +56,7 @@ Actualmente no hay ensayos clínicos ni publicaciones que estudien directamente 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Labetalol bloquea los receptores alfa-1 (reduce la resistencia vascular sistémica) y los receptores beta de forma no selectiva (reduce la frecuencia y la contractilidad cardíacas). Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe; la descripción anterior corresponde a la farmacología general conocida del fármaco.
+Labetalol bloquea los receptores alfa-1 (reduce la resistencia vascular sistémica) y los receptores beta de forma no selectiva (reduce la frecuencia y la contractilidad cardíacas). Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Labetalol (traducción no oficial): «El labetalol tiene actividad bloqueante alfa1-adrenérgica competitiva y actividad bloqueante beta-adrenérgica competitiva. En el ser humano, se ha estimado que la relación entre el bloqueo alfa y el bloqueo beta es de aproximadamente 1:7 tras la administración intravenosa.» Texto original en inglés: "Labetalol has both competitive alpha1-adrenergic blocking and competitive beta-adrenergic blocking activity. In man, the ratio of alpha- to beta-blockade has been estimated to be approximately 1:7 following intravenous administration." ([DailyMed: Labetalol Hcl In Dextrose (labetalol hydrochloride) prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=99a715a0-4579-410c-b102-7ef6fab8db55), versión del 2025-12-19; consultado el 2026-11-19).
 
 La enfermedad renal hipertensiva maligna (nefroesclerosis maligna) es una complicación renal de la hipertensión grave. Por ello, es mecanísticamente plausible que reducir la presión arterial proteja el riñón.
 
@@ -101,6 +101,19 @@ No hay ensayos clínicos ni literatura que estudien directamente la enfermedad r
 - Estudios clínicos u observacionales de labetalol con desenlaces renales en hipertensión maligna
 - Datos de mecanismo de acción y de advertencias y contraindicaciones del prospecto de ANMAT
 - Comparación con los antihipertensivos ya usados en esta condición, para determinar si aporta un valor adicional
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Labetalol Hcl In Dextrose (labetalol hydrochloride) prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=99a715a0-4579-410c-b102-7ef6fab8db55) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

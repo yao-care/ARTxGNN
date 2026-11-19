@@ -56,7 +56,7 @@ pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por lo que se conoce de la clase, bimatoprost actúa sobre los receptores FP/prostamida, y esta vía es la base de sus efectos oftálmicos y del crecimiento de pestañas.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Bimatoprost (traducción no oficial): «El bimatoprost, un análogo de prostaglandina, es un análogo estructural sintético de la prostaglandina con actividad hipotensora ocular. Se cree que el bimatoprost reduce la PIO en los seres humanos al aumentar el drenaje del humor acuoso tanto por la malla trabecular (vía convencional) como por la vía uveoescleral (vía no convencional).» Texto original en inglés: "Bimatoprost, a prostaglandin analog, is a synthetic structural analog of prostaglandin with ocular hypotensive activity. Bimatoprost is believed to lower IOP in humans by increasing outflow of aqueous humor through both the trabecular meshwork (conventional) and uveoscleral routes (unconventional)." ([DailyMed: Durysta (bimatoprost) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3f59da84-0bcc-4c84-b3e2-e215681ef341), versión del 2024-10-16; consultado el 2026-11-19). Por lo que se conoce de la clase, bimatoprost actúa sobre los receptores FP/prostamida, y esta vía es la base de sus efectos oftálmicos y del crecimiento de pestañas.
 
 Para esta predicción concreta no se identifica un vínculo mecanístico: no existe una conexión conocida entre la activación de receptores FP/prostamida y los síndromes de malformación dental o periodontal. El puntaje alto de TxGNN refleja una asociación estadística del modelo, no un racional biológico demostrado.
 
@@ -97,6 +97,19 @@ No existe ningún ensayo ni publicación sobre esta condición, y no se identifi
 - Una hipótesis biológica que justifique el vínculo con esta condición
 - Estudios preclínicos que respalden la plausibilidad antes de plantear cualquier ensayo
 - Texto del prospecto aprobado por ANMAT con advertencias y contraindicaciones
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Durysta (bimatoprost) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3f59da84-0bcc-4c84-b3e2-e215681ef341) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

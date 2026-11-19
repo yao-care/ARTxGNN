@@ -56,7 +56,7 @@ El modelo TxGNN predice que podría ser útil para **hipertensión pulmonar de m
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, felodipina es un bloqueador de los canales de calcio de tipo L que relaja el músculo liso vascular y causa vasodilatación. Este es un fundamento plausible, aunque poco específico, para una acción vasodilatadora pulmonar.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Felodipina (traducción no oficial): «El felodipino pertenece a la clase de las dihidropiridinas de antagonistas de los canales de calcio (bloqueantes de los canales de calcio). Compite de forma reversible con el nitrendipino y/u otros bloqueantes de los canales de calcio por los sitios de unión de las dihidropiridinas, bloquea las corrientes de Ca ++ dependientes de voltaje en el músculo liso vascular y en células auriculares de conejo en cultivo, y bloquea la contractura inducida por potasio de la vena porta de rata.» Texto original en inglés: "Felodipine is a member of the dihydropyridine class of calcium channel antagonists (calcium channel blockers). It reversibly competes with nitrendipine and/or other calcium channel blockers for dihydropyridine binding sites, blocks voltage-dependent Ca ++ currents in vascular smooth muscle and cultured rabbit atrial cells, and blocks potassium-induced contracture of the rat portal vein." ([DailyMed: Felopdipine (felodipine) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=129c48eb-29f2-462b-ad8a-b3bf1b193115), versión del 2024-08-07; consultado el 2026-11-19). Según la información conocida, felodipina es un bloqueador de los canales de calcio de tipo L que relaja el músculo liso vascular y causa vasodilatación. Este es un fundamento plausible, aunque poco específico, para una acción vasodilatadora pulmonar.
 
 Los bloqueadores de los canales de calcio solo resultan útiles en un subgrupo pequeño de pacientes con hipertensión arterial pulmonar vasorreactiva, y la enfermedad predicha está mal definida. Por ello, el puntaje del modelo es muy alto, pero no existe evidencia clínica ni bibliográfica que lo confirme.
 
@@ -97,6 +97,19 @@ La predicción principal tiene un puntaje alto, pero carece de ensayos clínicos
 - Datos del mecanismo de acción (por ejemplo, desde DrugBank).
 - Advertencias y contraindicaciones del prospecto aprobado por ANMAT.
 - Evaluar el riesgo de empeorar el equilibrio ventilación-perfusión por vasodilatación en pacientes con enfermedad pulmonar.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Felopdipine (felodipine) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=129c48eb-29f2-462b-ad8a-b3bf1b193115) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -57,7 +57,7 @@ Hasta ahora no hay **ningún ensayo clínico ni publicación** que respalde esta
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, tinidazol pertenece a los 5-nitroimidazoles, que actúan sobre bacterias anaerobias y protozoos.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Tinidazol (traducción no oficial): «El tinidazol es un agente antiprotozoario y antibacteriano.. […] El tinidazol es un agente antiprotozoario y antibacteriano. El grupo nitro del tinidazol es reducido por extractos celulares de Trichomonas. El radical nitro libre generado como resultado de esta reducción puede ser responsable de la actividad antiprotozoaria.» Texto original en inglés: "Tinidazole is an antiprotozoal, antibacterial agent.. […] Tinidazole is an antiprotozoal, antibacterial agent. The nitro- group of tinidazole is reduced by cell extracts of Trichomonas. The free nitro radical generated as a result of this reduction may be responsible for the antiprotozoal activity." ([DailyMed: Tindazole (tinidazole) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=45fa3ebd-52da-4987-82a1-4a64f99785a7), versión del 2026-08-18; consultado el 2026-11-19). Según la información conocida, tinidazol pertenece a los 5-nitroimidazoles, que actúan sobre bacterias anaerobias y protozoos.
 
 Los datos compilados no respaldan un vínculo mecanístico directo con esta nueva indicación. La vaginitis atrófica posmenopáusica se debe principalmente a la deficiencia de estrógenos, no a una infección. El puntaje alto del modelo probablemente refleja la cercanía con otras afecciones vaginales de origen infeccioso (como tricomoniasis o vaginosis bacteriana) y no una relación terapéutica real.
 
@@ -91,6 +91,19 @@ La predicción se apoya solo en el modelo (nivel L5), sin ensayos clínicos ni l
 - Revisión del prospecto aprobado por ANMAT (advertencias y contraindicaciones).
 - Evidencia clínica o preclínica que estudie directamente tinidazol en vaginitis atrófica posmenopáusica.
 - Evaluación de la compatibilidad de la vía de administración (por ejemplo, vaginal frente a oral) para esta indicación.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tindazole (tinidazole) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=45fa3ebd-52da-4987-82a1-4a64f99785a7) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

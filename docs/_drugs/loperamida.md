@@ -57,7 +57,7 @@ pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados en los datos compilados para este informe. Por conocimiento farmacológico general, la loperamida es un agonista opioide mu de acción periférica sobre las neuronas del plexo mientérico intestinal, que reduce la motilidad y el tránsito.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Loperamida (traducción no oficial): «Los estudios in vitro y en animales muestran que las cápsulas de clorhidrato de loperamida actúan al enlentecer la motilidad intestinal y al afectar el movimiento de agua y electrolitos a través del intestino. La loperamida se une al receptor de opiáceos en la pared intestinal.» Texto original en inglés: "In vitro and animal studies show that loperamide hydrochloride capsules act by slowing intestinal motility and by affecting water and electrolyte movement through the bowel. Loperamide binds to the opiate receptor in the gut wall." ([DailyMed: loperamide hydrochloride prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74b9893a-18c3-4117-85c2-edab8e7b3b3b), versión del 2026-07-09; consultado el 2026-11-19). Por conocimiento farmacológico general, la loperamida es un agonista opioide mu de acción periférica sobre las neuronas del plexo mientérico intestinal, que reduce la motilidad y el tránsito.
 
 Con base en el análisis disponible, **no existe un vínculo mecanístico plausible** entre este mecanismo y la conjuntivitis contagiosa aguda. La loperamida no tiene actividad antimicrobiana, antiinflamatoria ni ocular conocida. El puntaje alto (0,9997) es una salida del modelo sin respaldo clínico ni bibliográfico, y probablemente refleja artefactos de la red de relaciones y no una razón biológica.
 
@@ -100,6 +100,19 @@ La predicción no cuenta con ensayos clínicos, literatura ni mecanismo plausibl
 - Evidencia preclínica o clínica que estudie directamente la conjuntivitis contagiosa aguda
 - Una hipótesis mecanística justificada, incluida la compatibilidad de vía de administración (el fármaco se comercializa en formas orales)
 - Datos de mecanismo de acción y de advertencias y contraindicaciones del prospecto local
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: loperamide hydrochloride prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74b9893a-18c3-4117-85c2-edab8e7b3b3b) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

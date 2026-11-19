@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser útil para **hipertensión pulmonar (pul
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, prasugrel es un inhibidor del receptor plaquetario P2Y12 que reduce la agregación plaquetaria.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Prasugrel (traducción no oficial): «El prasugrel es un inhibidor de la activación y la agregación plaquetarias mediante la unión irreversible de su metabolito activo a la clase P2Y 12 de receptores de ADP en las plaquetas.» Texto original en inglés: "Prasugrel is an inhibitor of platelet activation and aggregation through the irreversible binding of its active metabolite to the P2Y 12 class of ADP receptors on platelets." ([DailyMed: Effient (prasugrel hydrochloride) prescribing information, Cosette Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69ea2d58-5353-4222-b61f-cab976fa7e5e), versión del 2022-09-07; consultado el 2026-11-19). Según la información conocida, prasugrel es un inhibidor del receptor plaquetario P2Y12 que reduce la agregación plaquetaria.
 
 Existe una justificación biológica plausible: la activación plaquetaria y la trombosis in situ participan en el remodelado vascular pulmonar, por lo que bloquear la agregación podría, en teoría, ser relevante en la hipertensión pulmonar.
 
@@ -106,6 +106,19 @@ Ninguna publicación ni ensayo recuperado estudia prasugrel en hipertensión pul
 - Datos del mecanismo de acción detallados del fármaco.
 - Texto del prospecto de ANMAT (advertencias y contraindicaciones) para evaluar la seguridad.
 - Evaluación del balance beneficio-riesgo hemorrágico en esta población antes de plantear cualquier estudio clínico.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Effient (prasugrel hydrochloride) prescribing information, Cosette Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69ea2d58-5353-4222-b61f-cab976fa7e5e) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

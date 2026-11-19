@@ -56,7 +56,7 @@ El modelo TxGNN predice que podría ser efectivo para **esclerodermia difusa (di
 
 ## ¿Por qué es razonable esta predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. El cloranfenicol es un antibiótico que inhibe la síntesis de proteínas bacterianas, y no hay datos en la información compilada que lo conecten con una enfermedad fibrosa autoinmune como la esclerodermia.
+Según las secciones «Clinical Pharmacology» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Cloranfenicol (traducción no oficial): «El cloranfenicol es un antibiótico de amplio espectro aislado originalmente de Streptomyces venezuelae. Inhibe la síntesis de proteínas bacterianas al interferir en la transferencia de aminoácidos activados desde el ARN soluble a los ribosomas.» Texto original en inglés: "Chloramphenicol is a broad-spectrum antibiotic originally isolated from Streptomyces venezuelae. It inhibits bacterial protein synthesis by interfering with the transfer of activated amino acids from soluble RNA to ribosomes." ([DailyMed: chloramphenicol sodium succinate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aed29594-211d-49ef-813f-131975a8d0e3), versión del 2024-10-10; consultado el 2026-11-19). El cloranfenicol es un antibiótico que inhibe la síntesis de proteínas bacterianas, y no hay datos en la información compilada que lo conecten con una enfermedad fibrosa autoinmune como la esclerodermia.
 
 Las cuatro publicaciones recuperadas describen la regulación del gen del colágeno en fibroblastos de esclerodermia (activación del promotor del procolágeno α1(I), interacciones de Smad3/Sp1/p300 y bloqueo de la señal de TGF-β). Ninguna estudia el cloranfenicol. Un posible vínculo especulativo sería la inhibición de la síntesis proteica mitocondrial, pero nada en los datos lo respalda.
 
@@ -101,6 +101,19 @@ No existen ensayos clínicos ni estudios que evalúen el cloranfenicol en escler
 - Estudios preclínicos que evalúen directamente el cloranfenicol en modelos de esclerodermia
 - Revisión del prospecto aprobado en ANMAT (advertencias y contraindicaciones)
 - Evaluación de la viabilidad de la vía de administración, ya que los productos locales son ungüentos y no hay datos de compatibilidad con la enfermedad
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: chloramphenicol sodium succinate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aed29594-211d-49ef-813f-131975a8d0e3) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **Enfermedad renal hiperte
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, benazepril pertenece a la clase de los IECA, que reducen la activación del sistema renina-angiotensina-aldosterona (SRAA) y, con ello, la presión arterial.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Benazepril (traducción no oficial): «El benazepril y el benazeprilato inhiben la enzima convertidora de angiotensina (ECA) en seres humanos y en animales. El benazeprilato tiene una actividad inhibidora de la ECA mucho mayor que la del benazepril. La ECA es una peptidil dipeptidasa que cataliza la conversión de la angiotensina I en la sustancia vasoconstrictora angiotensina II.» Texto original en inglés: "Benazepril and benazeprilat inhibit angiotensin-converting enzyme (ACE) in human subjects and animals. Benazeprilat has much greater ACE inhibitory activity than does benazepril. ACE is a peptidyl dipeptidase that catalyzes the conversion of angiotensin I to the vasoconstrictor substance, angiotensin II." ([DailyMed: Lotensin (benazepril hydrochloride) prescribing information, Validus Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2abb091b-a53e-46b0-9b84-e5ee8f2bdd8e), versión del 2025-09-30; consultado el 2026-11-19). Según la información conocida, benazepril pertenece a la clase de los IECA, que reducen la activación del sistema renina-angiotensina-aldosterona (SRAA) y, con ello, la presión arterial.
 
 La enfermedad renal hipertensiva maligna (nefroesclerosis maligna) está impulsada por elevaciones muy intensas de la presión arterial y por la activación del SRAA. Por eso, mecanísticamente, un fármaco que bloquea este sistema podría ser aplicable. Los IECA también se usan ampliamente por su efecto protector renal.
 
@@ -94,6 +94,19 @@ No existen ensayos clínicos ni literatura que estudien directamente benazepril 
 - Información de seguridad del prospecto de ANMAT (advertencias y contraindicaciones), en especial para pacientes con insuficiencia renal, dado el riesgo de empeoramiento de la función renal y de hiperpotasemia
 - Texto de indicación aprobada en los registros locales
 - Evaluación de la relación riesgo-beneficio en pacientes con hipertensión maligna, que suelen requerir manejo hospitalario
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Lotensin (benazepril hydrochloride) prescribing information, Validus Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2abb091b-a53e-46b0-9b84-e5ee8f2bdd8e) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

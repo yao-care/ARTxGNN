@@ -60,7 +60,7 @@ El modelo TxGNN predice que podría ser efectivo para **queratoconjuntivitis epi
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por conocimiento general, aciclovir es un análogo de nucleósidos que, tras ser activado por la timidina quinasa viral, inhibe la ADN polimerasa de los herpesvirus (HSV, VZV).
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Aciclovir (traducción no oficial): «El aciclovir es un análogo sintético de nucleósido de purina con actividad inhibitoria in vitro e in vivo contra los virus del herpes simple tipo 1 (VHS-1) y tipo 2 (VHS-2) y el virus de la varicela-zóster (VVZ). La actividad inhibitoria del aciclovir es altamente selectiva debido a su afinidad por la enzima timidina cinasa (TK) codificada por el VHS y el VVZ.» Texto original en inglés: "Acyclovir is a synthetic purine nucleoside analogue with in vitro and in vivo inhibitory activity against herpes simplex virus types 1 (HSV-1), 2 (HSV-2), and varicella-zoster virus (VZV). The inhibitory activity of acyclovir is highly selective due to its affinity for the enzyme thymidine kinase (TK) encoded by HSV and VZV." ([DailyMed: acyclovir prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=499c6a98-0614-4ded-8526-909942bae8a4), versión del 2026-06-26; consultado el 2026-11-19). Por conocimiento general, aciclovir es un análogo de nucleósidos que, tras ser activado por la timidina quinasa viral, inhibe la ADN polimerasa de los herpesvirus (HSV, VZV).
 
 La queratoconjuntivitis epitelial punteada puede tener causa viral (por ejemplo, HSV o adenovirus), por lo que existe un vínculo plausible solo en los casos de origen herpético. Los adenovirus carecen de timidina quinasa viral, por lo que no cabe esperar eficacia en ese contexto.
 
@@ -114,12 +114,13 @@ No hay ensayos clínicos ni estudios que evalúen aciclovir en queratoconjuntivi
 
 ## Registro de verificación
 
-A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de verificación | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-06 | Eliminado: «3. **Ausencia de datos regulatorios en Argentina**: El fármaco no cuenta con autorizaciones de comercialización registradas en Argentina (0 » | Ya no aparece tras regenerar el informe (2026-11-16: The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page; antes: Corregido) | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
 | 2026-11-06 | Eliminado: «No se identificaron autorizaciones de comercialización vigentes (total de licencias: 0)» | Ya no aparece tras regenerar el informe (2026-11-16: The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page; antes: Corregido) | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: acyclovir prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=499c6a98-0614-4ded-8526-909942bae8a4) |
 
 <!-- review:end log -->
 

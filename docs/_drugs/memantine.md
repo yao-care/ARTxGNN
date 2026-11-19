@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectiva para **hipertensión pulmonar (
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, memantina actúa bloqueando el receptor NMDA de glutamato, y mecanísticamente podría ser aplicable a la hipertensión pulmonar solo de forma especulativa.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Memantine (traducción no oficial): «Se ha planteado la hipótesis de que la activación persistente de los receptores de N-metil-D-aspartato (NMDA) del sistema nervioso central por el aminoácido excitador glutamato contribuye a la sintomatología de la enfermedad de Alzheimer. Se postula que la memantina ejerce su efecto terapéutico mediante su acción como antagonista no competitivo (de canal abierto) de los receptores NMDA, de afinidad baja a moderada, que se une preferentemente a los canales catiónicos operados por receptores NMDA.» Texto original en inglés: "Persistent activation of central nervous system N-methyl-D-aspartate (NMDA) receptors by the excitatory amino acid glutamate has been hypothesized to contribute to the symptomatology of Alzheimer’s disease. Memantine is postulated to exert its therapeutic effect through its action as a low to moderate affinity uncompetitive (open-channel) NMDA receptor antagonist which binds preferentially to the NMDA receptor-operated cation channels." ([DailyMed: memantine hydrochloride prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e6977ef-6a0a-4bd9-b500-6ceb15abbd5e), versión del 2026-11-11; consultado el 2026-11-19). Según la información conocida, memantina actúa bloqueando el receptor NMDA de glutamato, y mecanísticamente podría ser aplicable a la hipertensión pulmonar solo de forma especulativa.
 
 Un artículo preclínico sugiere que el eje glutamato/receptor NMDA se ha vinculado con lesión pulmonar aguda, hipertensión arterial pulmonar y diabetes. Sin embargo, ese trabajo estudia la sensibilidad a la insulina y el metabolismo lipídico, no a memantina en hipertensión pulmonar.
 
@@ -105,6 +105,19 @@ No existe ningún estudio que evalúe directamente memantina en hipertensión pu
 - Datos del mecanismo de acción y su vínculo con la vasculatura pulmonar
 - Información de seguridad del prospecto de ANMAT (advertencias y contraindicaciones)
 - Revisión de las interacciones farmacológicas antes de cualquier ensayo clínico
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: memantine hydrochloride prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e6977ef-6a0a-4bd9-b500-6ceb15abbd5e) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

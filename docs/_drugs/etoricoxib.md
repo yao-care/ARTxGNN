@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**,
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Etoricoxib es un inhibidor selectivo de la COX-2 que reduce la síntesis de prostaglandina E2 (PGE2). Actualmente no se dispone de datos detallados del mecanismo de acción en la base de datos consultada, pero el objetivo farmacológico registrado es la COX-2 (gen PTGS2), lo que concuerda con esta clase de fármacos.
+Etoricoxib es un inhibidor selectivo de la COX-2 que reduce la síntesis de prostaglandina E2 (PGE2). Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Etoricoxib es (traducción no oficial): «Inhibidor de la ciclooxigenasa-2» Texto original en inglés: "Cyclooxygenase-2 inhibitor" ([ChEMBL CHEMBL416146 (etoricoxib): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416146), CC BY-SA 3.0; consultado el 2026-11-19).
 
 La PGE2 contribuye a la inflamación neurogénica y a la sensibilización trigeminovascular en la migraña, por lo que el mecanismo es plausible. Un estudio preclínico en ganglios trigeminales de rata (PMID 29209105, asociado a una entrada relacionada de susceptibilidad a migraña) evaluó el efecto de AINE, incluido etoricoxib, sobre la liberación de CGRP y PGE2, lo que ofrece apoyo mecanístico indirecto.
 
@@ -107,6 +107,19 @@ La predicción para migraña se basa únicamente en el modelo (nivel L5): no hay
 - Estudios clínicos controlados que evalúen eficacia en migraña, con evaluación del perfil de riesgo cardiovascular y renal
 
 **Nota complementaria:** entre las demás predicciones, la **cefalea (headache disorder)** y la **cefalea autonómica trigeminal** tienen evidencia nivel L4 con serie de casos y reportes de caso (etoricoxib en cefalea punzante primaria, cefaleas sensibles a indometacina y cefalea tusígena secundaria). Podrían ser líneas de investigación más sólidas que la migraña, aunque aún sin ensayos controlados.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL416146 (etoricoxib): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416146) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
