@@ -14,6 +14,23 @@ De la predicción por IA a la gradación de evidencia: cada candidato tiene una 
 
 ---
 
+<!-- local-facts:start（母目錄 .claude/gen_local_pages_20261119.py 產生，勿手改）-->
+## Argentina: cómo se aplica el método en este sitio
+
+Datos locales: [PAMI: Medicamentos para entidades](https://datos.pami.org.ar/dataset/medicamentos-para-entidades). Los datos locales son el listado de precios de PAMI «Medicamentos para entidades» (códigos ALFABETA). Que un producto ya no figure en el listado de PAMI no significa que su registro en ANMAT esté dado de baja: el estado del registro en ANMAT no está incluido en estos datos.
+
+| Nivel | Informes | …con registro local vigentes |
+|---|---|---|
+| L1 | {{ site.data.local_facts.by_level.L1.n }} | {{ site.data.local_facts.by_level.L1.current }} |
+| L2 | {{ site.data.local_facts.by_level.L2.n }} | {{ site.data.local_facts.by_level.L2.current }} |
+| L3 | {{ site.data.local_facts.by_level.L3.n }} | {{ site.data.local_facts.by_level.L3.current }} |
+| L4 | {{ site.data.local_facts.by_level.L4.n }} | {{ site.data.local_facts.by_level.L4.current }} |
+| L5 | {{ site.data.local_facts.by_level.L5.n }} | {{ site.data.local_facts.by_level.L5.current }} |
+
+El registro de revisiones tiene **{{ site.data.local_facts.reviews.records }}** entradas en **{{ site.data.local_facts.reviews.public_pages_with_records }}** páginas; las correcciones solo cambian datos regulatorios, nunca las predicciones del modelo.
+
+<!-- local-facts:end -->
+
 ## Flujo general
 
 <p class="key-answer" data-question="¿Cómo genera ARTxGNN sus predicciones?">

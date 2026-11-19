@@ -48,11 +48,32 @@ envían a ClinicalTrials.gov los nombres del medicamento y de la indicación.
 
 ---
 
-## Derechos del titular de los datos
+<!-- privacy-law:start（母目錄 .claude/gen_local_pages_20261119.py 產生，勿手改；法規與連結見 .claude/privacy_text_20261119.py）-->
+## Legislación aplicable
 
-Este sitio no tiene cuentas y no guarda registros personales en servidores propios (no los tiene). Las estadísticas
-de uso las recopila Google Analytics 4; puede bloquear o eliminar sus cookies en la configuración de su navegador.
-Si tiene consultas sobre esta política, escriba a service@yao.care.
+Para visitantes en Argentina, la norma aplicable es la [Ley 25.326 de Protección de los Datos Personales](https://www.argentina.gob.ar/normativa/nacional/ley-25326-64790) y su reglamentación, cuyo órgano de control es la [Agencia de Acceso a la Información Pública (AAIP)](https://www.argentina.gob.ar/aaip). Los únicos datos personales en juego son los datos de uso que recoge Google Analytics 4 mediante cookies, que Google trata fuera de Argentina.
+
+## Sus derechos y cómo ejercerlos
+
+- Derecho de acceso a sus datos, en forma gratuita y a intervalos de seis meses (art. 14).
+- Derecho de rectificación, actualización y supresión (art. 16).
+- Derecho a oponerse al análisis bloqueando o borrando las cookies.
+- Derecho a presentar una denuncia ante la AAIP.
+
+Solicitudes: service@yao.care (no hay cuentas: indique la fecha y las páginas de su visita). Puede bloquear o borrar las cookies de análisis en su navegador.
+
+## Derechos de autor y fuentes de datos
+
+Los textos del sitio están protegidos por la [Ley 11.723 de Propiedad Intelectual](https://www.argentina.gob.ar/normativa/nacional/ley-11723-42755). El código del sitio se publica con licencia MIT en el [repositorio de GitHub](https://github.com/yao-care/ARTxGNN); los textos de los informes son © 藥提醒科技有限公司 (yao.care).
+
+Fuentes de datos de este sitio y sus condiciones:
+
+- Datos de **TxGNN** (Harvard Dataverse): CC0 1.0; cite Huang et al., *Nature Medicine* 2024.
+- **ClinicalTrials.gov**, **PubMed**: [condiciones de ClinicalTrials.gov](https://clinicaltrials.gov/about-site/terms-conditions), [políticas del NCBI](https://www.ncbi.nlm.nih.gov/home/about/policies/).
+- **DrugBank**: términos de licencia de [DrugBank](https://go.drugbank.com/), uso no comercial.
+- **Conjunto de datos local**: [PAMI: Medicamentos para entidades](https://datos.pami.org.ar/dataset/medicamentos-para-entidades): Creative Commons Atribución 4.0 (CC BY 4.0), según el portal datos.pami.org.ar (https://datos.pami.org.ar/dataset/medicamentos-para-entidades).
+
+<!-- privacy-law:end -->
 
 ---
 

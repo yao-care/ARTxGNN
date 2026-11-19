@@ -1,0 +1,425 @@
+{
+ "_about": "本檔由 scripts/local_facts.py 產生（母目錄 .claude/local_facts_lib.py），勿手改；cross 欄位由母目錄 .claude/gen_local_pages_20261119.py 更新",
+ "drugs_total": 325,
+ "level_counts": {
+  "L1": 6,
+  "L2": 10,
+  "L3": 15,
+  "L4": 10,
+  "L5": 282
+ },
+ "level_na": 2,
+ "public_pages": 325,
+ "licence_snapshot": "ar_licenses.json.gz",
+ "licence": {
+  "drugs_with_data": 244,
+  "drugs_with_current": 242,
+  "drugs_none_current": 2,
+  "drugs_without_data": 81,
+  "drugs_partial": 0,
+  "items_total": 1446,
+  "items_current": 1407
+ },
+ "reviews": {
+  "records": 30,
+  "pages": 21,
+  "public_pages_with_records": 17,
+  "by_action": {
+   "correct": 30
+  }
+ },
+ "fhir": {
+  "medication_knowledge": 325,
+  "clinical_use_definition": 1833
+ },
+ "top_licensed": [
+  {
+   "t": "Finasteride",
+   "u": "/drugs/finasteride/",
+   "l": "L5",
+   "lt": 20,
+   "lv": 20,
+   "r": 0,
+   "i": "hipertricosis universal congénita tipo Ambras"
+  },
+  {
+   "t": "Itraconazol",
+   "u": "/drugs/itraconazol/",
+   "l": "L5",
+   "lt": 20,
+   "lv": 20,
+   "r": 0,
+   "i": "Neumocistosis"
+  },
+  {
+   "t": "Norfloxacina",
+   "u": "/drugs/norfloxacina/",
+   "l": "L5",
+   "lt": 20,
+   "lv": 20,
+   "r": 0,
+   "i": "hiperamilasemia"
+  },
+  {
+   "t": "Metoclopramida",
+   "u": "/drugs/metoclopramida/",
+   "l": "L5",
+   "lt": 19,
+   "lv": 19,
+   "r": 0,
+   "i": "gastroduodenitis"
+  },
+  {
+   "t": "Oxibutinina",
+   "u": "/drugs/oxibutinina/",
+   "l": "L5",
+   "lt": 19,
+   "lv": 19,
+   "r": 0,
+   "i": "Síndrome de piernas inquietas"
+  },
+  {
+   "t": "Piroxicam",
+   "u": "/drugs/piroxicam/",
+   "l": "L5",
+   "lt": 19,
+   "lv": 19,
+   "r": 0,
+   "i": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+  },
+  {
+   "t": "Cetirizina",
+   "u": "/drugs/cetirizina/",
+   "l": "L5",
+   "lt": 18,
+   "lv": 18,
+   "r": 3,
+   "i": "enfermedad de la cavidad nasal"
+  },
+  {
+   "t": "Terazosin",
+   "u": "/drugs/terazosin/",
+   "l": "L5",
+   "lt": 18,
+   "lv": 18,
+   "r": 0,
+   "i": "hipotricosis simple del cuero cabelludo"
+  }
+ ],
+ "no_current": [
+  {
+   "t": "Olopatadine",
+   "u": "/drugs/olopatadine/",
+   "l": "L5",
+   "lt": 10,
+   "lv": 0,
+   "r": 1,
+   "i": "rosacea conjunctivitis"
+  },
+  {
+   "t": "Pheniramine",
+   "u": "/drugs/pheniramine/",
+   "l": "L5",
+   "lt": 4,
+   "lv": 0,
+   "r": 1,
+   "i": "Enfermedad de la cavidad nasal"
+  }
+ ],
+ "no_current_more": 0,
+ "most_reviewed": [
+  {
+   "t": "Cetirizina",
+   "u": "/drugs/cetirizina/",
+   "l": "L5",
+   "lt": 18,
+   "lv": 18,
+   "r": 3,
+   "i": "enfermedad de la cavidad nasal"
+  },
+  {
+   "t": "Aciclovir",
+   "u": "/drugs/aciclovir/",
+   "l": "L5",
+   "lt": 0,
+   "lv": 20,
+   "r": 2,
+   "i": "queratoconjuntivitis epitelial punteada"
+  },
+  {
+   "t": "Beclometasona",
+   "u": "/drugs/beclometasona/",
+   "l": "L3",
+   "lt": 2,
+   "lv": 2,
+   "r": 2,
+   "i": "Eccema atópico"
+  },
+  {
+   "t": "Ciclosporina",
+   "u": "/drugs/ciclosporina/",
+   "l": "L5",
+   "lt": 4,
+   "lv": 4,
+   "r": 2,
+   "i": "enfermedad granulomatosa crónica autosómica recesiva"
+  },
+  {
+   "t": "Acetazolamida",
+   "u": "/drugs/acetazolamida/",
+   "l": "L5",
+   "lt": 2,
+   "lv": 2,
+   "r": 1,
+   "i": "hipertermia maligna inducida por ejercicio"
+  },
+  {
+   "t": "Amiodarona",
+   "u": "/drugs/amiodarona/",
+   "l": "L5",
+   "lt": 4,
+   "lv": 4,
+   "r": 1,
+   "i": "taquicardia ventricular polimórfica catecolaminérgica"
+  }
+ ],
+ "example": {
+  "t": "Bupropión",
+  "u": "/drugs/bupropión/",
+  "l": "L1",
+  "lt": 6,
+  "lv": 6,
+  "r": 0,
+  "i": "Trastorno por déficit de atención con hiperactividad"
+ },
+ "recent_reviews": [
+  {
+   "t": "Pheniramine",
+   "u": "/drugs/pheniramine/",
+   "s": "«se encuentran vigentes» → ya no figuran en PAMI",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Olopatadine",
+   "u": "/drugs/olopatadine/",
+   "s": "«10 autorizaciones vigentes» → ninguno figura ya en PAMI",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Naphazoline",
+   "u": "/drugs/naphazoline/",
+   "s": "«9 autorizaciones vigentes, ninguna cancelada» → 5 siguen en PAMI, 4 ya no figuran",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Levocetirizina",
+   "u": "/drugs/levocetirizina/",
+   "s": "«10 autorizaciones vigentes» → 3 siguen en PAMI, 7 ya no figuran",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Insulina Glargina",
+   "u": "/drugs/insulina-glargina/",
+   "s": "«Todas … vigentes» → 3 de 4 siguen en el listado de PAMI",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Fexofenadina",
+   "u": "/drugs/fexofenadina/",
+   "s": "«al menos 20 autorizaciones vigentes» → 13 ya no figuran en PAMI, al menos 7 siguen",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Cyproheptadine",
+   "u": "/drugs/cyproheptadine/",
+   "s": "«se encuentran vigentes» → 2 de 3 siguen en el listado de PAMI",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Ciclosporina",
+   "u": "/drugs/ciclosporina/",
+   "s": "Eliminado: «TFDA o»",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Cetirizina",
+   "u": "/drugs/cetirizina/",
+   "s": "Eliminado: «[ ] Verificar la fuente regulatoria: Confirmar si la búsqueda debe realizarse en ANMAT…",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Betametasona",
+   "u": "/drugs/betametasona/",
+   "s": "Eliminado: «No se identificaron autorizaciones de comercialización vigentes»",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Benznidazol",
+   "u": "/drugs/benznidazol/",
+   "s": "Eliminado: «(TFDA)»",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Beclometasona",
+   "u": "/drugs/beclometasona/",
+   "s": "Eliminado: «El fármaco no cuenta con autorización de mercado en Argentina, lo que representa una barrera…",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Atropina Sulfato",
+   "u": "/drugs/atropina-sulfato/",
+   "s": "Eliminado: «No se encontraron autorizaciones de comercialización vigentes para Atropina Sulfato en Argentina…",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Atomoxetina",
+   "u": "/drugs/atomoxetina/",
+   "s": "Eliminado: «No existen autorizaciones de comercialización vigentes»",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Amiodarona",
+   "u": "/drugs/amiodarona/",
+   "s": "Eliminado: «No se identificaron autorizaciones de comercialización vigentes (0 licencias)»",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Aciclovir",
+   "u": "/drugs/aciclovir/",
+   "s": "Eliminado: «No se identificaron autorizaciones de comercialización vigentes (total de licencias: 0)»",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Acetazolamida",
+   "u": "/drugs/acetazolamida/",
+   "s": "Eliminado: «No se identificaron autorizaciones de comercialización vigentes»",
+   "d": "2026-11-06"
+  }
+ ],
+ "recent_licence_reviews": [
+  {
+   "t": "Pheniramine",
+   "u": "/drugs/pheniramine/",
+   "s": "«se encuentran vigentes» → ya no figuran en PAMI",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Olopatadine",
+   "u": "/drugs/olopatadine/",
+   "s": "«10 autorizaciones vigentes» → ninguno figura ya en PAMI",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Naphazoline",
+   "u": "/drugs/naphazoline/",
+   "s": "«9 autorizaciones vigentes, ninguna cancelada» → 5 siguen en PAMI, 4 ya no figuran",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Levocetirizina",
+   "u": "/drugs/levocetirizina/",
+   "s": "«10 autorizaciones vigentes» → 3 siguen en PAMI, 7 ya no figuran",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Insulina Glargina",
+   "u": "/drugs/insulina-glargina/",
+   "s": "«Todas … vigentes» → 3 de 4 siguen en el listado de PAMI",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Fexofenadina",
+   "u": "/drugs/fexofenadina/",
+   "s": "«al menos 20 autorizaciones vigentes» → 13 ya no figuran en PAMI, al menos 7 siguen",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Cyproheptadine",
+   "u": "/drugs/cyproheptadine/",
+   "s": "«se encuentran vigentes» → 2 de 3 siguen en el listado de PAMI",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Ciclosporina",
+   "u": "/drugs/ciclosporina/",
+   "s": "Eliminado: «TFDA o»",
+   "d": "2026-11-06"
+  }
+ ],
+ "files": {
+  "search_index": 325,
+  "drugs_json": 325
+ },
+ "by_level": {
+  "L1": {
+   "n": 6,
+   "current": 6
+  },
+  "L2": {
+   "n": 10,
+   "current": 10
+  },
+  "L3": {
+   "n": 15,
+   "current": 15
+  },
+  "L4": {
+   "n": 10,
+   "current": 10
+  },
+  "L5": {
+   "n": 282,
+   "current": 280
+  }
+ },
+ "cross": {
+  "unique_pairs": 38,
+  "unique_examples": [
+   {
+    "t": "Candesartán",
+    "u": "/drugs/candesartán/",
+    "i": "trastorno de migraña"
+   },
+   {
+    "t": "Beclometasona",
+    "u": "/drugs/beclometasona/",
+    "i": "Eccema atópico"
+   },
+   {
+    "t": "Aniracetam",
+    "u": "/drugs/aniracetam/",
+    "i": "insomnia (disease)"
+   },
+   {
+    "t": "Acetilcarnitina",
+    "u": "/drugs/acetilcarnitina/",
+    "i": "porfiria aguda intermitente"
+   },
+   {
+    "t": "Candesartán Cilexetil",
+    "u": "/drugs/candesartán-cilexetil/",
+    "i": "Enfermedad renal hipertensiva maligna"
+   },
+   {
+    "t": "Carboximetilcisteína",
+    "u": "/drugs/carboximetilcisteína/",
+    "i": "gota"
+   },
+   {
+    "t": "Ciprofibrato",
+    "u": "/drugs/ciprofibrato/",
+    "i": "Deficiencia de la proteína de transferencia de ésteres de colesterol"
+   },
+   {
+    "t": "Idoxuridina",
+    "u": "/drugs/idoxuridina/",
+    "i": "candidiasis vulvovaginal"
+   },
+   {
+    "t": "Insulina Glulisina",
+    "u": "/drugs/insulina-glulisina/",
+    "i": "síndrome de disfunción sensible a tiamina"
+   }
+  ]
+ }
+}

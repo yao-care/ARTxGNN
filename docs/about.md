@@ -14,27 +14,31 @@ Acelerar la validación de evidencia del reposicionamiento de medicamentos con I
 
 ---
 
-<!-- site-data:start（母目錄 .claude/gen_page_data_20261116.py 產生，勿手改）-->
-## Argentina: datos de este sitio
+<!-- local-facts:start（母目錄 .claude/gen_local_pages_20261119.py 產生，勿手改）-->
+## Argentina: los datos de este sitio en cifras
 
-Este sitio publica informes de **{{ site.data.drug_stats.total_drugs }}** medicamentos que figuran en el listado de precios de medicamentos de [PAMI: Medicamentos para entidades](https://datos.pami.org.ar/dataset/medicamentos-para-entidades) (Argentina).
+Datos locales: [PAMI: Medicamentos para entidades](https://datos.pami.org.ar/dataset/medicamentos-para-entidades). Los datos locales son el listado de precios de PAMI «Medicamentos para entidades» (códigos ALFABETA). Que un producto ya no figure en el listado de PAMI no significa que su registro en ANMAT esté dado de baja: el estado del registro en ANMAT no está incluido en estos datos.
 
-Conjunto de datos: [PAMI: Medicamentos para entidades](https://datos.pami.org.ar/dataset/medicamentos-para-entidades); se descarga y se compara automáticamente cada semana (los lunes). Detalles: [Fuentes de Datos]({{ '/sources/' | relative_url }}).
+| Concepto | Valor |
+|---|---|
+| Medicamentos con informe publicado | {{ site.data.local_facts.drugs_total }} |
+| Medicamentos presentes en los datos locales | {{ site.data.local_facts.licence.drugs_with_data }} |
+| …con al menos un registro vigentes | {{ site.data.local_facts.licence.drugs_with_current }} |
+| …con registros pero ninguno vigentes | {{ site.data.local_facts.licence.drugs_none_current }} |
+| Medicamentos ausentes de los datos locales | {{ site.data.local_facts.licence.drugs_without_data }} |
+| Registros locales (productos del listado de PAMI) | {{ site.data.local_facts.licence.items_total }} |
+| …de ellos vigentes | {{ site.data.local_facts.licence.items_current }} |
+| Entradas del registro de revisiones | {{ site.data.local_facts.reviews.records }} |
+| Páginas con entradas de revisión | {{ site.data.local_facts.reviews.public_pages_with_records }} |
+| Pares medicamento–enfermedad predichos que no figuran en ningún otro sitio TxGNN | {{ site.data.local_facts.cross.unique_pairs }} |
 
-Informes por nivel de evidencia:
+{% if site.data.local_facts.top_licensed.size > 0 %}Medicamentos con más productos del listado de PAMI vigentes: {% for r in site.data.local_facts.top_licensed %}[{{ r.t }}]({{ r.u | relative_url }}) ({{ r.lv }}){% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}
 
-| Nivel de evidencia | Informes | Proporción |
-|---|---|---|
-| L1 | {{ site.data.drug_stats.level_counts.L1 }} | {{ site.data.drug_stats.level_counts.L1 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L2 | {{ site.data.drug_stats.level_counts.L2 }} | {{ site.data.drug_stats.level_counts.L2 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L3 | {{ site.data.drug_stats.level_counts.L3 }} | {{ site.data.drug_stats.level_counts.L3 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L4 | {{ site.data.drug_stats.level_counts.L4 }} | {{ site.data.drug_stats.level_counts.L4 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L5 | {{ site.data.drug_stats.level_counts.L5 }} | {{ site.data.drug_stats.level_counts.L5 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-{% assign na = site.data.drug_stats.total_drugs | minus: site.data.drug_stats.level_counts.L1 | minus: site.data.drug_stats.level_counts.L2 | minus: site.data.drug_stats.level_counts.L3 | minus: site.data.drug_stats.level_counts.L4 | minus: site.data.drug_stats.level_counts.L5 %}{% if na > 0 %}| N/A | {{ na }} | {{ na | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |{% endif %}
+{% if site.data.local_facts.recent_reviews.size > 0 %}Últimas correcciones del registro de revisiones: {% for r in site.data.local_facts.recent_reviews limit: 8 %}[{{ r.t }}]({{ r.u | relative_url }}) ({{ r.d }}): {{ r.s }}{% unless forloop.last %}; {% endunless %}{% endfor %}{% endif %}
 
-794 pares medicamento–enfermedad predichos en este sitio no aparecen en ningún otro de los 30 sitios TxGNN.
+Ejemplos de predicciones que ningún otro sitio TxGNN incluye para el mismo medicamento: [Candesartán]({{ '/drugs/candesartán/' | relative_url }}) → trastorno de migraña, [Beclometasona]({{ '/drugs/beclometasona/' | relative_url }}) → Eccema atópico, [Aniracetam]({{ '/drugs/aniracetam/' | relative_url }}) → insomnia (disease), [Acetilcarnitina]({{ '/drugs/acetilcarnitina/' | relative_url }}) → porfiria aguda intermitente, [Candesartán Cilexetil]({{ '/drugs/candesartán-cilexetil/' | relative_url }}) → Enfermedad renal hipertensiva maligna, [Carboximetilcisteína]({{ '/drugs/carboximetilcisteína/' | relative_url }}) → gota, [Ciprofibrato]({{ '/drugs/ciprofibrato/' | relative_url }}) → Deficiencia de la proteína de transferencia de ésteres de colesterol, [Idoxuridina]({{ '/drugs/idoxuridina/' | relative_url }}) → candidiasis vulvovaginal.
 
-<!-- site-data:end -->
+<!-- local-facts:end -->
 
 ## Antecedentes
 
@@ -49,102 +53,17 @@ evaluar rápidamente qué tan creíble es cada predicción.
 
 ---
 
+<!-- local-condensed:start（母目錄 .claude/gen_local_pages_20261119.py；原共用段落縮寫，勿手改）-->
 ## Acerca del Desarrollador
 
-Esta plataforma es desarrollada y operada por **藥提醒科技有限公司** (yao.care, número de registro
-de empresa 83620786, 12F, No. 220, Sec. 2, Taiwan Blvd., West Dist., Taichung City, Taiwan).
-
-ARTxGNN es el sitio de Argentina de la línea de productos "TxGNN Drug Repurposing" de la empresa.
-El mismo sistema está desplegado en 30 países y regiones, cada uno denominado `{CC}TxGNN`
-(JpTxGNN, UsTxGNN, DETxGNN, y así sucesivamente) en `{cc}txgnn.yao.care`.
-Descripción del producto: <https://www.yao.care/medical/txgnn/>.
-
-El modelo TxGNN en sí fue desarrollado por el Zitnik Lab de Harvard Medical School y publicado
-en *Nature Medicine*. Esta plataforma es el sistema de producción que 藥提醒科技有限公司 construyó
-sobre ese modelo, y abarca la integración del listado local de medicamentos, la
-predicción por aprendizaje profundo que excluye los usos ya registrados en el grafo de conocimiento, la gradación de evidencia con
-PubMed / ClinicalTrials y la integración con la historia clínica electrónica mediante SMART on FHIR.
+Esta plataforma la desarrolla y opera **藥提醒科技有限公司** (yao.care, registro 83620786, Taichung, Taiwán) como uno de los 30 sitios por país y región de su línea de productos TxGNN ([presentación del producto](https://www.yao.care/medical/txgnn/)).
 
 ---
 
-## ¿Qué es el reposicionamiento de medicamentos?
+## El método en breve
 
-<p class="key-answer" data-question="¿Qué es el reposicionamiento de medicamentos?">
-El <strong>reposicionamiento de medicamentos</strong> consiste en encontrar nuevos usos terapéuticos
-para medicamentos ya existentes. En comparación con desarrollar un fármaco nuevo desde cero
-&mdash; de 10 a 15 años y USD 1&ndash;2 mil millones &mdash;, el reposicionamiento lleva de 3 a 5 años
-y USD 100&ndash;300 millones, y ya existen datos de seguridad en humanos, por lo que el riesgo de
-fracaso es menor.
-</p>
-
-<table class="comparison-table">
-<thead>
-<tr><th>Aspecto</th><th>Desarrollo de un fármaco nuevo</th><th>Reposicionamiento de medicamentos</th></tr>
-</thead>
-<tbody>
-<tr><td>Tiempo</td><td>10&ndash;15 años</td><td>3&ndash;5 años</td></tr>
-<tr><td>Costo</td><td>USD 1&ndash;2 mil millones</td><td>USD 100&ndash;300 millones</td></tr>
-<tr><td>Datos de seguridad</td><td>Deben generarse desde cero</td><td>Ya se dispone de datos en humanos</td></tr>
-<tr><td>Riesgo de fracaso</td><td>Muy alto (&gt;90%)</td><td>Menor</td></tr>
-</tbody>
-</table>
-
-Cada predicción de reposicionamiento que genera esta plataforma recibe un nivel de evidencia.
-Los criterios de clasificación están en la página de
-<a href="{{ '/methodology/' | relative_url }}">Metodología</a>, y los informes que ya cuentan con
-respaldo de ensayos clínicos se listan en
-<a href="{{ '/evidence-high/' | relative_url }}">evidencia alta</a>.
-
----
-
-## ¿Qué es TxGNN?
-
-<p class="key-answer" data-question="¿Qué es TxGNN?">
-<a href="https://www.nature.com/articles/s41591-024-03233-x">TxGNN</a> es un modelo de aprendizaje
-profundo desarrollado por el Zitnik Lab de Harvard Medical School y publicado en
-<em>Nature Medicine</em>. Predice asociaciones nuevas entre fármacos y enfermedades y es el primer
-modelo fundacional de reposicionamiento de medicamentos diseñado específicamente para el personal
-clínico.
-</p>
-
-<blockquote class="expert-quote">
-"TxGNN integra un grafo de conocimiento que abarca 17.080 enfermedades y utiliza redes neuronales
-de grafos para aprender relaciones complejas entre nodos, prediciendo la eficacia potencial de
-fármacos frente a enfermedades raras."
-<cite>&mdash; Huang et al., Nature Medicine (2024)</cite>
-</blockquote>
-
----
-
-## Fuentes de datos
-
-Las fuentes de datos de esta plataforma (predicción TxGNN, ensayos clínicos, literatura, DrugBank y el
-listado local de medicamentos), sus licencias y su frecuencia de actualización se detallan en
-<a href="{{ '/sources/' | relative_url }}">Fuentes de Datos</a>.
-
----
-
-## Base académica
-
-> Huang, K., et al. (2024). A foundation model for clinician-centered drug repurposing. *Nature Medicine*.
-> [DOI: 10.1038/s41591-024-03233-x](https://doi.org/10.1038/s41591-024-03233-x)
-
----
-
-## Escala
-
-| Ítem | Valor |
-|------|-------|
-| Informes de medicamentos | <a href="{{ '/drugs/' | relative_url }}">{{ site.drugs.size }}</a> |
-| Listado local de medicamentos | PAMI (Medicamentos para entidades) |
-| Sitios desplegados | 30 países / regiones |
-
-Consulte el listado completo en <a href="{{ '/drugs/' | relative_url }}">Todos los Medicamentos</a>,
-la clasificación por nivel de evidencia en
-<a href="{{ '/evidence-high/' | relative_url }}">alta</a>,
-<a href="{{ '/evidence-medium/' | relative_url }}">moderada</a> y
-<a href="{{ '/evidence-low/' | relative_url }}">solo predicción del modelo</a>,
-y las fuentes de datos completas en <a href="{{ '/sources/' | relative_url }}">Fuentes</a>.
+Las predicciones provienen de TxGNN, un modelo de redes neuronales de grafos del Zitnik Lab de la Facultad de Medicina de Harvard (Huang et al., *Nature Medicine* 2024, [DOI: 10.1038/s41591-024-03233-x](https://doi.org/10.1038/s41591-024-03233-x)); cada indicación predicha se clasifica de L1 a L5 con ClinicalTrials.gov y PubMed. Modelo, niveles y reglas: [Metodología]({{ '/methodology/' | relative_url }}). Conjuntos de datos, descargas y licencias: [Fuentes de Datos]({{ '/sources/' | relative_url }}).
+<!-- local-condensed:end -->
 
 ---
 
