@@ -8,7 +8,7 @@ indication_count: 9
 drugbank_id: DB00310
 monitor_inn: "Chlorthalidone"
 predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "acute pulmonary heart disease", "congenital hypotrichosis milia"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-20
 description: "Clortalidona: nueva indicación predicha, Glaucoma hereditario primario (primary hereditary glaucoma) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 7 (en el listado vigente: 7)"
 ---
 

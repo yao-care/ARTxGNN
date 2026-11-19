@@ -8,7 +8,7 @@ indication_count: 3
 drugbank_id: DB01062
 monitor_inn: "Oxybutynin"
 predicted_indications: ["restless legs syndrome", "gastroduodenitis", "peptic ulcer disease"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-20
 description: "Oxibutinina: nueva indicación predicha, Síndrome de piernas inquietas (restless legs syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 19 (en el listado vigente: 19)"
 ---
 

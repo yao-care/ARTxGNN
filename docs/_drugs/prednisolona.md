@@ -8,7 +8,7 @@ indication_count: 9
 drugbank_id: DB00860
 monitor_inn: "Prednisolone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-20
 description: "Prednisolona: nueva indicación predicha, Alopecia areata (nivel de evidencia L2). En Argentina, productos en el listado de PAMI: 9 (en el listado vigente: 9)"
 ---
 

@@ -8,7 +8,7 @@ indication_count: 9
 drugbank_id: DB00246
 monitor_inn: "Ziprasidone"
 predicted_indications: ["trichotillomania", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "retinal dystrophy with or without extraocular anomalies", "Tourette syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "syndromic myopia"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-20
 description: "Ziprasidona: nueva indicación predicha, tricotilomanía (trichotillomania) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)"
 ---
 

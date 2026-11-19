@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "DIAZEPAM"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "sleep disorder, initiating and maintaining sleep", "attention deficit hyperactivity disorder, inattentive type", "barbiturate abuse", "antidepressant type abuse", "hallucinogen abuse", "specific developmental disorder", "attention deficit-hyperactivity disorder", "obsolete neurogenic bladder (disease)"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 description: "Diazepam: nueva indicación predicha, Insomnio (insomnia (disease)) (nivel de evidencia L2). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "insulin degludec"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 description: "Insulin Degludec: nueva indicación predicha, ooforitis autoinmune (autoimmune oophoritis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)"
 ---
 

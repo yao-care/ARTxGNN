@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "warfarin"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "rheumatoid arthritis", "breast fibrocystic disease", "benign mammary dysplasia"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 description: "Warfarin: nueva indicación predicha, Deficiencia del cofactor II de la heparina (heparin cofactor 2 deficiency) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)"
 ---
 

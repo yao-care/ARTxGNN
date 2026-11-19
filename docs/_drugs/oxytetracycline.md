@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "oxytetracycline"
 predicted_indications: ["chronic rhinosinusitis", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "punctate epithelial keratoconjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "otitis externa"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 description: "Oxytetracycline: nueva indicación predicha, rinosinusitis crónica (chronic rhinosinusitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)"
 ---
 

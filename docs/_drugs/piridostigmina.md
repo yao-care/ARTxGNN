@@ -8,7 +8,7 @@ indication_count: 4
 drugbank_id: DB00545
 monitor_inn: "Pyridostigmine"
 predicted_indications: ["autoimmune disease of peripheral nervous system", "disease of receptor activity", "hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-20
 description: "Piridostigmina: nueva indicación predicha, enfermedad autoinmune del sistema nervioso periférico (autoimmune disease of peripheral nervous system) (nivel de evidencia L5)."
 ---
 

@@ -8,7 +8,7 @@ indication_count: 10
 drugbank_id: DB00479
 monitor_inn: "Amikacin"
 predicted_indications: ["paratyphoid fever", "diffuse scleroderma", "punctate epithelial keratoconjunctivitis", "typhoid fever", "epiglottitis", "salmonellosis", "congenital analbuminemia", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "meningococcemia"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-20
 description: "Amikacina: nueva indicación predicha, Fiebre paratifoidea (paratyphoid fever) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)"
 ---
 

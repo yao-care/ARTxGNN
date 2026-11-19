@@ -8,7 +8,7 @@ indication_count: 6
 drugbank_id: DB01095
 monitor_inn: "Fluvastatin"
 predicted_indications: ["HIV infectious disease", "cholesterol-ester transfer protein deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "fibroma of prostate"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-20
 description: "Fluvastatina: nueva indicación predicha, Infección por VIH (HIV infectious disease) (nivel de evidencia L3). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)"
 ---
 

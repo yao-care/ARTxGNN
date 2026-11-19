@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "MEMANTINE"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 description: "Memantine: nueva indicación predicha, hipertensión pulmonar (pulmonary hypertension) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 

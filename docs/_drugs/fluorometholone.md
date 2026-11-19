@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "fluorometholone"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "otitis externa", "infective urethral stricture", "post-infectious syndrome", "punctate epithelial keratoconjunctivitis", "infection-related hemolytic uremic syndrome", "Chagas cardiomyopathy", "glaucomatocyclitic crisis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 description: "Fluorometholone: nueva indicación predicha, Vasculitis postinfecciosa (postinfectious vasculitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)"
 ---
 

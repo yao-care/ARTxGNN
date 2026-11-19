@@ -8,7 +8,7 @@ indication_count: 2
 drugbank_id: DB00751
 monitor_inn: "Epinastine"
 predicted_indications: ["rosacea conjunctivitis", "allergic urticaria"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-20
 description: "Epinastina: nueva indicación predicha, conjuntivitis rosácea (rosacea conjunctivitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)"
 ---
 

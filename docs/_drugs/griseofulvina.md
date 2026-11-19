@@ -8,7 +8,7 @@ indication_count: 5
 drugbank_id: DB00400
 monitor_inn: "Griseofulvin"
 predicted_indications: ["myiasis", "creeping myiasis", "furuncular myiasis", "wound myiasis", "echinococcus granulosus infectious disease"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-20
 description: "Griseofulvina: nueva indicación predicha, miasis (myiasis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)"
 ---
 

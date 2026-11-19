@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 5
 monitor_inn: "LEVONORGESTREL"
 predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 description: "Levonorgestrel: nueva indicación predicha, Acné (acne (disease)) (nivel de evidencia L2). En Argentina, productos en el listado de PAMI: 13 (en el listado vigente: 13)"
 ---
 

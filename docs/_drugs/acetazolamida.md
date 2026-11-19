@@ -8,7 +8,7 @@ indication_count: 10
 drugbank_id: DB00819
 monitor_inn: "Acetazolamide"
 predicted_indications: ["exercise-induced malignant hyperthermia", "hypertrophic cardiomyopathy", "congenital myopathy with excess of thin filaments", "hypertrophic cardiomyopathy due to intensive athletic training", "distal myopathy, Tateyama type", "cirrhotic cardiomyopathy", "cardiomyopathy", "intestinal obstruction", "glycogen storage disease due to acid maltase deficiency, late-onset", "unclassified intestinal pseudoobstruction"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-20
 description: "Acetazolamida: nueva indicación predicha, hipertermia maligna inducida por ejercicio (exercise-induced malignant hyperthermia) (nivel de evidencia L5)."
 ---
 

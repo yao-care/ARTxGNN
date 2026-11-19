@@ -8,7 +8,7 @@ indication_count: 8
 drugbank_id: DB00472
 monitor_inn: "Fluoxetine"
 predicted_indications: ["schizotypal personality disorder", "schizoid personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "manic bipolar affective disorder", "phobic disorder", "Ohdo syndrome and variants"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-20
 description: "Fluoxetina: nueva indicación predicha, Trastorno esquizotípico de la personalidad (schizotypal personality disorder) (nivel de evidencia L3). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 

@@ -8,7 +8,7 @@ indication_count: 2
 drugbank_id: DB00364
 monitor_inn: "Sucralfate"
 predicted_indications: ["duodenogastric reflux", "duodenal obstruction"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-20
 description: "Sucralfato: nueva indicación predicha, reflujo duodenogástrico (duodenogastric reflux) (nivel de evidencia L2). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)"
 ---
 

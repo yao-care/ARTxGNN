@@ -8,7 +8,7 @@ indication_count: 6
 drugbank_id: DB00921
 monitor_inn: "Buprenorphine"
 predicted_indications: ["acute intermittent porphyria", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "continuous spikes and waves during sleep", "benign shuddering attacks", "extrapyramidal and movement disease"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-20
 description: "Buprenorfina: nueva indicación predicha, porfiria aguda intermitente (acute intermittent porphyria) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)"
 ---
 

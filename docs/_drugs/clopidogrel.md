@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "CLOPIDOGREL"
 predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "rheumatoid arthritis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 description: "Clopidogrel: nueva indicación predicha, migraña con aura de tronco encefálico (migraine with brainstem aura) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 

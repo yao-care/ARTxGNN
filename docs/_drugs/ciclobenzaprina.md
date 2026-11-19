@@ -8,7 +8,7 @@ indication_count: 3
 drugbank_id: DB00924
 monitor_inn: "Cyclobenzaprine"
 predicted_indications: ["myofascial pain syndrome", "neuralgia", "papillary conjunctivitis"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-20
 description: "Ciclobenzaprina: nueva indicación predicha, Síndrome de dolor miofascial (myofascial pain syndrome) (nivel de evidencia L3). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)"
 ---
 

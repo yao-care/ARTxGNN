@@ -8,7 +8,7 @@ indication_count: 1
 drugbank_id: DB00776
 monitor_inn: "Oxcarbazepine"
 predicted_indications: ["restless legs syndrome"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-20
 description: "Oxcarbazepina: nueva indicación predicha, Síndrome de piernas inquietas (restless legs syndrome) (nivel de evidencia L4). En Argentina, productos en el listado de PAMI: 13 (en el listado vigente: 13)"
 ---
 

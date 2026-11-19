@@ -8,7 +8,7 @@ indication_count: 1
 drugbank_id: DB01110
 monitor_inn: "Miconazole"
 predicted_indications: ["acne (disease)"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-20
 description: "Miconazol: nueva indicación predicha, acné (acne (disease)) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 

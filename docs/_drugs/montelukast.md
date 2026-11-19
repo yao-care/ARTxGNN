@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 2
 monitor_inn: "MONTELUKAST"
 predicted_indications: ["bronchitis", "atopic eczema"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 description: "Montelukast: nueva indicación predicha, bronquitis (bronchitis) (nivel de evidencia L4). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 

@@ -8,7 +8,7 @@ indication_count: 1
 drugbank_id: DB00736
 monitor_inn: "Esomeprazole"
 predicted_indications: ["duodenal obstruction"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-20
 description: "Esomeprazol: nueva indicación predicha, obstrucción duodenal (duodenal obstruction) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)"
 ---
 

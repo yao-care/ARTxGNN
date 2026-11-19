@@ -8,7 +8,7 @@ indication_count: 2
 drugbank_id: DB09064
 monitor_inn: "Ciprofibrate"
 predicted_indications: ["cholesterol-ester transfer protein deficiency", "fibroma of prostate"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-20
 description: "Ciprofibrato: nueva indicación predicha, Deficiencia de la proteína de transferencia de ésteres de colesterol (cholesterol-ester transfer protein deficiency) (nivel de evidencia L5)."
 ---
 

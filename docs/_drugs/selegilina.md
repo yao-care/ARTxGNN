@@ -8,7 +8,7 @@ indication_count: 4
 drugbank_id: DB01037
 monitor_inn: "Selegiline"
 predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "schizophrenia", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-20
 description: "Selegilina: nueva indicación predicha, Polimicrogiria perisilviana con hipoplasia cerebelosa y artrogriposis (polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis) (nivel de evidencia L5)."
 ---
 

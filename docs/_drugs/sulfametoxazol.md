@@ -8,7 +8,7 @@ indication_count: 1
 drugbank_id: DB01015
 monitor_inn: "Sulfamethoxazole"
 predicted_indications: ["acute contagious conjunctivitis"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-20
 description: "Sulfametoxazol: nueva indicación predicha, Conjuntivitis contagiosa aguda (acute contagious conjunctivitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 17 (en el listado vigente: 17)"
 ---
 

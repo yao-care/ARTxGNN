@@ -8,7 +8,7 @@ indication_count: 8
 drugbank_id: DB06700
 monitor_inn: "Desvenlafaxine"
 predicted_indications: ["obsessive-compulsive disorder", "schizotypal personality disorder", "schizoid personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "Ohdo syndrome and variants", "benign paroxysmal torticollis of infancy", "agoraphobia"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-20
 description: "Desvenlafaxina: nueva indicación predicha, Trastorno obsesivo-compulsivo (obsessive-compulsive disorder) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 16 (en el listado vigente: 16)"
 ---
 

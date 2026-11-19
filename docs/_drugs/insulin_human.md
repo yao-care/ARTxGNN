@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "insulin human"
 predicted_indications: ["autoimmune oophoritis", "focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "pancreatic agenesis", "idiopathic localized lipodystrophy"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 description: "Insulin Human: nueva indicación predicha, ooforitis autoinmune (autoimmune oophoritis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 12 (en el listado vigente: 12)"
 ---
 

@@ -8,7 +8,7 @@ indication_count: 8
 drugbank_id: DB01242
 monitor_inn: "Clomipramine"
 predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of infancy", "schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder", "agoraphobia", "attention deficit-hyperactivity disorder"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-20
 description: "Clomipramina: nueva indicación predicha, trastorno de ansiedad (anxiety disorder) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 5 (en el listado vigente: 5)"
 ---
 

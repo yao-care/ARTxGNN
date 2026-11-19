@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "rifaximin"
 predicted_indications: ["oral candidiasis", "commissural lip fistula", "osteoradionecrosis of the mandible", "oral leukoedema", "burning mouth syndrome", "candidiasis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-20
 description: "Rifaximin: nueva indicación predicha, Candidiasis oral (oral candidiasis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 

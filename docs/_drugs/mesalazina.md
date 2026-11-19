@@ -8,7 +8,7 @@ indication_count: 6
 drugbank_id: DB00244
 monitor_inn: "Mesalazine"
 predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "vulvar inverted follicular keratosis", "pseudoachondroplasia"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-20
 description: "Mesalazina: nueva indicación predicha, hipotricosis congénita con distrofia macular juvenil (congenital hypotrichosis with juvenile macular dystrophy) (nivel de evidencia L5)."
 ---
 

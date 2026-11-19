@@ -8,7 +8,7 @@ indication_count: 2
 drugbank_id: DB00257
 monitor_inn: "Clotrimazole"
 predicted_indications: ["acne (disease)", "postmenopausal atrophic vaginitis"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-20
 description: "Clotrimazol: nueva indicación predicha, acné (acne (disease)) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 9 (en el listado vigente: 9)"
 ---
 

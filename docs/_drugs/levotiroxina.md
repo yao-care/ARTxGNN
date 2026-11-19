@@ -8,7 +8,7 @@ indication_count: 4
 drugbank_id: DB00451
 monitor_inn: "Levothyroxine"
 predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "Potter sequence", "Carney complex"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-20
 description: "Levotiroxina: nueva indicación predicha, hipodisplasia/aplasia renal (renal hypodysplasia/aplasia) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 

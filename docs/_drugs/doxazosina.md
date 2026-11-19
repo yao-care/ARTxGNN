@@ -8,7 +8,7 @@ indication_count: 2
 drugbank_id: DB00590
 monitor_inn: "Doxazosin"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-20
 description: "Doxazosina: nueva indicación predicha, trastorno de migraña (migraine disorder) (nivel de evidencia L4). En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)"
 ---
 

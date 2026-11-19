@@ -8,7 +8,7 @@ indication_count: 4
 drugbank_id: DB00608
 monitor_inn: "Chloroquine"
 predicted_indications: ["rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "rheumatoid nodulosis", "juvenile chronic polyarthritis", "juvenile idiopathic arthritis"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-20
 description: "Cloroquina: nueva indicación predicha, artritis idiopática juvenil poliarticular con factor reumatoide positivo (rheumatoid factor-positive polyarticular juvenile idiopathic arthritis) (nivel de evidencia L5)."
 ---
 

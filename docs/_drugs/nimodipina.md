@@ -8,7 +8,7 @@ indication_count: 2
 drugbank_id: DB00393
 monitor_inn: "Nimodipine"
 predicted_indications: ["homozygous familial hypercholesterolemia", "nephrogenic syndrome of inappropriate antidiuresis"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-20
 description: "Nimodipina: nueva indicación predicha, hipercolesterolemia familiar homocigota (homozygous familial hypercholesterolemia) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 

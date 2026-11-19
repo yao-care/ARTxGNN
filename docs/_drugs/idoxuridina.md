@@ -8,7 +8,7 @@ indication_count: 10
 drugbank_id: DB00249
 monitor_inn: "Idoxuridine"
 predicted_indications: ["vulvovaginal candidiasis", "vaginitis (disease)", "trichomonal vulvovaginitis", "vulvitis", "herpetic vulvovaginitis", "vaginal discharge", "bacterial vaginosis", "leukoplakia of vagina", "vulvovaginitis", "postmenopausal atrophic vaginitis"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-20
 description: "Idoxuridina: nueva indicación predicha, candidiasis vulvovaginal (vulvovaginal candidiasis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)"
 ---
 
