@@ -1,12 +1,12 @@
 {
   "generated": "2026-11-19",
-  "total_drugs": 326,
+  "total_drugs": 325,
   "level_counts": {
     "L1": 6,
     "L2": 10,
     "L3": 15,
     "L4": 10,
-    "L5": 283
+    "L5": 282
   },
   "all_drugs": [
     {
@@ -253,12 +253,6 @@
       "name": "Bromfenac",
       "slug": "bromfenac",
       "level": "L1",
-      "indication_count": 10
-    },
-    {
-      "name": "Budesonida",
-      "slug": "budesonida",
-      "level": "L5",
       "indication_count": 10
     },
     {

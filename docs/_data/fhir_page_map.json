@@ -345,7 +345,6 @@
       "page": "levonorgestrel",
       "sources": [
         "AuTxGNN",
-        "BrTxGNN",
         "CHTxGNN",
         "COTxGNN",
         "CaTxGNN",
@@ -1390,7 +1389,6 @@
       "page": "salbutamol",
       "sources": [
         "AuTxGNN",
-        "BrTxGNN",
         "CHTxGNN",
         "COTxGNN",
         "CaTxGNN",
@@ -1731,6 +1729,31 @@
         "UsTxGNN"
       ]
     },
+    "db01222": {
+      "page": "budesonide",
+      "sources": [
+        "AuTxGNN",
+        "CHTxGNN",
+        "COTxGNN",
+        "CaTxGNN",
+        "DETxGNN",
+        "ESTxGNN",
+        "FITxGNN",
+        "HkTxGNN",
+        "ITTxGNN",
+        "InTxGNN",
+        "JpTxGNN",
+        "KrTxGNN",
+        "NOTxGNN",
+        "NZTxGNN",
+        "NlTxGNN",
+        "SATxGNN",
+        "SgTxGNN",
+        "UkTxGNN",
+        "UsTxGNN",
+        "ZaTxGNN"
+      ]
+    },
     "db01225": {
       "page": "enoxaparin",
       "sources": [
@@ -2012,7 +2035,6 @@
       "page": "indacaterol",
       "sources": [
         "AuTxGNN",
-        "COTxGNN",
         "CaTxGNN",
         "HkTxGNN",
         "ZaTxGNN"
