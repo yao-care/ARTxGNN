@@ -9,7 +9,7 @@ drugbank_id: DB00927
 monitor_inn: "Famotidine"
 predicted_indications: ["duodenal obstruction", "abnormality of glucagon secretion", "multiple endocrine neoplasia", "acne (disease)"]
 last_modified_at: 2026-11-16
-description: "Famotidina: nueva indicación predicha, obstrucción duodenal (duodenal obstruction) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Famotidina: nueva indicación predicha, obstrucción duodenal (duodenal obstruction) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 10 (en el listado vigente: 10)"
 ---
 
 # Famotidina

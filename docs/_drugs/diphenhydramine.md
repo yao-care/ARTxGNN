@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "diphenhydramine"
 predicted_indications: ["rosacea conjunctivitis"]
 last_modified_at: 2026-10-30
-description: "Diphenhydramine: nueva indicación predicha, conjuntivitis rosácea (rosacea conjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Diphenhydramine: nueva indicación predicha, conjuntivitis rosácea (rosacea conjunctivitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 11 (en el listado vigente: 11)"
 ---
 
 # Diphenhydramine

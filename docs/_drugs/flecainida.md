@@ -9,7 +9,7 @@ drugbank_id: DB01195
 monitor_inn: "Flecainide"
 predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "ABri amyloidosis", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "duodenal obstruction", "cerebrovascular disorder", "nephrogenic syndrome of inappropriate antidiuresis"]
 last_modified_at: 2026-11-16
-description: "Flecainida: nueva indicación predicha, Accidente cerebrovascular (stroke disorder) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Flecainida: nueva indicación predicha, Accidente cerebrovascular (stroke disorder) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)"
 ---
 
 # Flecainida

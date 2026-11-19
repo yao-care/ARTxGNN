@@ -9,7 +9,7 @@ drugbank_id: DB04339
 monitor_inn: "Carbocisteine"
 predicted_indications: ["gout"]
 last_modified_at: 2026-11-16
-description: "Carboximetilcisteína: nueva indicación predicha, gota (gout) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Carboximetilcisteína: nueva indicación predicha, gota (gout) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 5 (en el listado vigente: 3)"
 ---
 
 # Carboximetilcisteína

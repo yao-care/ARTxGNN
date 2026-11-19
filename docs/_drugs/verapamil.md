@@ -8,7 +8,7 @@ indication_count: 6
 monitor_inn: "verapamil"
 predicted_indications: ["obsolete bundle branch block", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "periodic paralysis with transient compartment-like syndrome"]
 last_modified_at: 2026-10-30
-description: "Verapamil: nueva indicación predicha, Bloqueo de rama obsoleto (obsolete bundle branch block) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Verapamil: nueva indicación predicha, Bloqueo de rama obsoleto (obsolete bundle branch block) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)"
 ---
 
 # Verapamil

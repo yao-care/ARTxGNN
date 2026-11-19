@@ -9,7 +9,7 @@ drugbank_id: DB00564
 monitor_inn: "Carbamazepine"
 predicted_indications: ["trigeminal nerve neoplasm", "beta-ketothiolase deficiency", "Rett syndrome, congenital variant"]
 last_modified_at: 2026-11-16
-description: "Carbamazepina: nueva indicación predicha, Neoplasia del nervio trigémino (trigeminal nerve neoplasm) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
+description: "Carbamazepina: nueva indicación predicha, Neoplasia del nervio trigémino (trigeminal nerve neoplasm) (nivel de evidencia L4). En Argentina, productos en el listado de PAMI: 17 (en el listado vigente: 17)"
 ---
 
 # Carbamazepina

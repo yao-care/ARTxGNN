@@ -9,7 +9,7 @@ drugbank_id: DB00575
 monitor_inn: "Clonidine"
 predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "trichotillomania", "Tourette syndrome", "obesity disorder", "hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "migraine disorder", "manic bipolar affective disorder"]
 last_modified_at: 2026-11-16
-description: "Clonidina: nueva indicación predicha, Síndrome faciodigitogenital (faciodigitogenital syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Clonidina: nueva indicación predicha, Síndrome faciodigitogenital (faciodigitogenital syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)"
 ---
 
 # Clonidina

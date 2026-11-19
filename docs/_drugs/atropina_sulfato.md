@@ -9,7 +9,7 @@ drugbank_id: DB00572
 monitor_inn: "Atropine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 last_modified_at: 2026-11-16
-description: "Atropina Sulfato: nueva indicación predicha, trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Atropina Sulfato: nueva indicación predicha, trastorno de migraña (migraine disorder) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)"
 ---
 
 # Atropina Sulfato

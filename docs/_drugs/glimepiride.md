@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "GLIMEPIRIDE"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
 last_modified_at: 2026-10-30
-description: "Glimepiride: nueva indicación predicha, Síndrome de la persona rígida clásica (classic stiff person syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Glimepiride: nueva indicación predicha, Síndrome de la persona rígida clásica (classic stiff person syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
 # Glimepiride

@@ -8,7 +8,7 @@ indication_count: 2
 monitor_inn: "tioconazole"
 predicted_indications: ["vulvitis", "postmenopausal atrophic vaginitis"]
 last_modified_at: 2026-11-03
-description: "Tioconazole: nueva indicación predicha, Vulvitis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Tioconazole: nueva indicación predicha, Vulvitis (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)"
 ---
 
 # Tioconazole

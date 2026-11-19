@@ -8,7 +8,7 @@ indication_count: 4
 monitor_inn: "dexlansoprazole"
 predicted_indications: ["gastroduodenitis", "duodenal obstruction", "achlorhydria", "leather-bottle stomach"]
 last_modified_at: 2026-10-30
-description: "Dexlansoprazole: nueva indicación predicha, gastroduodenitis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Dexlansoprazole: nueva indicación predicha, gastroduodenitis (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 15 (en el listado vigente: 15)"
 ---
 
 # Dexlansoprazole

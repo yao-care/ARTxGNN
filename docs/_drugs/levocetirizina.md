@@ -9,7 +9,7 @@ drugbank_id: DB06282
 monitor_inn: "Levocetirizine"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
 last_modified_at: 2026-11-17
-description: "Levocetirizina: nueva indicación predicha, artritis reumatoide (rheumatoid arthritis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Levocetirizina: nueva indicación predicha, artritis reumatoide (rheumatoid arthritis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 10 (en el listado vigente: 3)"
 ---
 
 # Levocetirizina

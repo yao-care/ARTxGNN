@@ -8,7 +8,7 @@ indication_count: 5
 monitor_inn: "CALCITRIOL"
 predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis", "acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "hereditary hypophosphatemic rickets"]
 last_modified_at: 2026-10-30
-description: "Calcitriol: nueva indicación predicha, Deficiencia de vitamina D obsoleta (obsolete vitamin D deficiency) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Calcitriol: nueva indicación predicha, Deficiencia de vitamina D obsoleta (obsolete vitamin D deficiency) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)"
 ---
 
 # Calcitriol

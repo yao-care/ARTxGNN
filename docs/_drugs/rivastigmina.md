@@ -9,7 +9,7 @@ drugbank_id: DB00989
 monitor_inn: "Rivastigmine"
 predicted_indications: ["glaucoma"]
 last_modified_at: 2026-11-16
-description: "Rivastigmina: nueva indicación predicha, Glaucoma (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Rivastigmina: nueva indicación predicha, Glaucoma (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
 # Rivastigmina

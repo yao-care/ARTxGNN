@@ -9,7 +9,7 @@ drugbank_id: DB00341
 monitor_inn: "Cetirizine"
 predicted_indications: ["nasal cavity disease", "rosacea conjunctivitis", "recalcitrant atopic dermatitis"]
 last_modified_at: 2026-11-16
-description: "Cetirizina: nueva indicación predicha, enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Cetirizina: nueva indicación predicha, enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 18 (en el listado vigente: 18)"
 ---
 
 # Cetirizina

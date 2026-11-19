@@ -9,7 +9,7 @@ drugbank_id: DB00366
 monitor_inn: "Doxylamine"
 predicted_indications: ["nasal cavity disease"]
 last_modified_at: 2026-11-16
-description: "Doxilamina: nueva indicación predicha, enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Doxilamina: nueva indicación predicha, enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)"
 ---
 
 # Doxilamina

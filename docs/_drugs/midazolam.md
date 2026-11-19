@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "MIDAZOLAM"
 predicted_indications: ["insomnia (disease)"]
 last_modified_at: 2026-10-30
-description: "Midazolam: nueva indicación predicha, insomnio (insomnia (disease)) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
+description: "Midazolam: nueva indicación predicha, insomnio (insomnia (disease)) (nivel de evidencia L3). En Argentina, productos en el listado de PAMI: 5 (en el listado vigente: 5)"
 ---
 
 # Midazolam

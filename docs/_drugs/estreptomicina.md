@@ -9,7 +9,7 @@ drugbank_id: DB01082
 monitor_inn: "Streptomycin"
 predicted_indications: ["conjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "otitis externa", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "Lyme disease", "infectious otitis interna"]
 last_modified_at: 2026-11-16
-description: "Estreptomicina: nueva indicación predicha, Conjuntivitis (conjunctivitis) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
+description: "Estreptomicina: nueva indicación predicha, Conjuntivitis (conjunctivitis) (nivel de evidencia L4). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)"
 ---
 
 # Estreptomicina

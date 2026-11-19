@@ -9,7 +9,7 @@ drugbank_id: DB08842
 monitor_inn: "Acetylcarnitine"
 predicted_indications: ["acute intermittent porphyria"]
 last_modified_at: 2026-11-16
-description: "Acetilcarnitina: nueva indicación predicha, porfiria aguda intermitente (acute intermittent porphyria) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Acetilcarnitina: nueva indicación predicha, porfiria aguda intermitente (acute intermittent porphyria) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)"
 ---
 
 # Acetilcarnitina

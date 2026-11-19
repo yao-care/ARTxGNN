@@ -9,7 +9,7 @@ drugbank_id: DB01597
 monitor_inn: "Cilastatin"
 predicted_indications: ["staphylococcus aureus infection", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "sinusitis", "paranasal sinus neoplasm (disease)", "paratyphoid fever", "bronchitis", "diffuse scleroderma", "salmonellosis"]
 last_modified_at: 2026-11-16
-description: "Cilastatín: nueva indicación predicha, Infección por Staphylococcus aureus (staphylococcus aureus infection) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
+description: "Cilastatín: nueva indicación predicha, Infección por Staphylococcus aureus (staphylococcus aureus infection) (nivel de evidencia L3). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)"
 ---
 
 # Cilastatín

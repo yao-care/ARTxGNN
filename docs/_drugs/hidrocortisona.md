@@ -9,7 +9,7 @@ drugbank_id: DB00741
 monitor_inn: "Hydrocortisone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 last_modified_at: 2026-11-16
-description: "Hidrocortisona: nueva indicación predicha, Alopecia areata (nivel de evidencia L1). Indicación original: No consta en los datos locales"
+description: "Hidrocortisona: nueva indicación predicha, Alopecia areata (nivel de evidencia L1). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
 # Hidrocortisona

@@ -9,7 +9,7 @@ drugbank_id: DB00443
 monitor_inn: "Betamethasone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
 last_modified_at: 2026-11-16
-description: "Betametasona: nueva indicación predicha, Alopecia mucinosa (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Betametasona: nueva indicación predicha, Alopecia mucinosa (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
 # Betametasona

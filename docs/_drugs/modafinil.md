@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "modafinil"
 predicted_indications: ["insomnia (disease)"]
 last_modified_at: 2026-11-04
-description: "Modafinil: nueva indicación predicha, insomnio (insomnia (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Modafinil: nueva indicación predicha, insomnio (insomnia (disease)) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 7 (en el listado vigente: 7)"
 ---
 
 # Modafinil

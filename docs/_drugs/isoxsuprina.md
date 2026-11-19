@@ -9,7 +9,7 @@ drugbank_id: DB08941
 monitor_inn: "Isoxsuprine"
 predicted_indications: ["benign prostatic hyperplasia (disease)", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "blue toe syndrome", "atheroembolism of kidney", "hemangioendothelioma", "angiodysplasia of stomach", "respiratory failure", "neurogenic thoracic outlet syndrome", "idiopathic spontaneous coronary artery dissection"]
 last_modified_at: 2026-11-16
-description: "Isoxsuprina: nueva indicación predicha, hiperplasia prostática benigna (benign prostatic hyperplasia (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Isoxsuprina: nueva indicación predicha, hiperplasia prostática benigna (benign prostatic hyperplasia (disease)) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)"
 ---
 
 # Isoxsuprina

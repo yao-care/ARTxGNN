@@ -9,7 +9,7 @@ drugbank_id: DB06151
 monitor_inn: "Acetylcysteine"
 predicted_indications: ["thrombotic disease", "closed-angle glaucoma", "nasal cavity disease", "dry eye syndrome", "pharyngitis", "acute laryngopharyngitis", "tracheal disease", "transient ischemic attack (disease)", "laryngotracheitis", "angle-closure glaucoma"]
 last_modified_at: 2026-11-16
-description: "Acetilcisteína: nueva indicación predicha, Enfermedad trombótica (thrombotic disease) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
+description: "Acetilcisteína: nueva indicación predicha, Enfermedad trombótica (thrombotic disease) (nivel de evidencia L2). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
 # Acetilcisteína

@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-10-30
 monitor_inn: "ESTRIOL"
 predicted_indications: ["amenorrhea (disease)"]
-description: "Estriol: nueva indicación predicha, Amenorrea (amenorrhea (disease)) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
+description: "Estriol: nueva indicación predicha, Amenorrea (amenorrhea (disease)) (nivel de evidencia L3). En Argentina, productos en el listado de PAMI: 6 (en el listado vigente: 6)"
 ---
 
 # Estriol

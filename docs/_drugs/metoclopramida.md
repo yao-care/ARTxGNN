@@ -9,7 +9,7 @@ drugbank_id: DB01233
 monitor_inn: "Metoclopramide"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
 last_modified_at: 2026-11-16
-description: "Metoclopramida: nueva indicación predicha, Gastroduodenitis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Metoclopramida: nueva indicación predicha, Gastroduodenitis (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 19 (en el listado vigente: 19)"
 ---
 
 # Metoclopramida

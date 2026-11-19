@@ -8,7 +8,7 @@ indication_count: 8
 monitor_inn: "SALBUTAMOL"
 predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "anaphylaxis", "common cold", "atopic conjunctivitis", "anorectal stricture"]
 last_modified_at: 2026-11-03
-description: "Salbutamol: nueva indicación predicha, conjuntivitis papilar (papillary conjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Salbutamol: nueva indicación predicha, conjuntivitis papilar (papillary conjunctivitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
 # Salbutamol

@@ -9,7 +9,7 @@ drugbank_id: DB13919
 monitor_inn: "Candesartan"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension", "Prinzmetal angina", "kyphoscoliotic heart disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "benign prostatic hyperplasia (disease)", "alopecia"]
 last_modified_at: 2026-11-16
-description: "Candesartán: nueva indicación predicha, trastorno de migraña (migraine disorder) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
+description: "Candesartán: nueva indicación predicha, trastorno de migraña (migraine disorder) (nivel de evidencia L2). En Argentina, productos en el listado de PAMI: 6 (en el listado vigente: 6)"
 ---
 
 # Candesartán

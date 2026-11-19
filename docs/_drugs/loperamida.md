@@ -9,7 +9,7 @@ drugbank_id: DB00836
 monitor_inn: "Loperamide"
 predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "conjunctivitis", "gastroduodenitis", "pseudomembranous conjunctivitis", "chronic follicular conjunctivitis", "conjunctival folliculosis", "serous conjunctivitis except viral", "parasitic conjunctivitis", "Angelucci syndrome"]
 last_modified_at: 2026-11-16
-description: "Loperamida: nueva indicación predicha, conjuntivitis contagiosa aguda (acute contagious conjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Loperamida: nueva indicación predicha, conjuntivitis contagiosa aguda (acute contagious conjunctivitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
 # Loperamida

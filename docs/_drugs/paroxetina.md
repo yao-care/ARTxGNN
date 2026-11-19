@@ -9,7 +9,7 @@ drugbank_id: DB00715
 monitor_inn: "Paroxetine"
 predicted_indications: ["Ohdo syndrome and variants"]
 last_modified_at: 2026-11-16
-description: "Paroxetina: nueva indicación predicha, Síndrome de Ohdo y variantes (Ohdo syndrome and variants) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Paroxetina: nueva indicación predicha, Síndrome de Ohdo y variantes (Ohdo syndrome and variants) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
 # Paroxetina

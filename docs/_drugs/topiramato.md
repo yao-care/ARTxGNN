@@ -9,7 +9,7 @@ drugbank_id: DB00273
 monitor_inn: "Topiramate"
 predicted_indications: ["trigeminal nerve neoplasm"]
 last_modified_at: 2026-11-16
-description: "Topiramato: nueva indicación predicha, Neoplasia del nervio trigémino (trigeminal nerve neoplasm) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Topiramato: nueva indicación predicha, Neoplasia del nervio trigémino (trigeminal nerve neoplasm) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
 # Topiramato

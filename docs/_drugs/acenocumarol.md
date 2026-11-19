@@ -9,7 +9,7 @@ drugbank_id: DB01418
 monitor_inn: "Acenocoumarol"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2"]
 last_modified_at: 2026-11-16
-description: "Acenocumarol: nueva indicación predicha, deficiencia de cofactor II de la heparina (heparin cofactor 2 deficiency) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Acenocumarol: nueva indicación predicha, deficiencia de cofactor II de la heparina (heparin cofactor 2 deficiency) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 5 (en el listado vigente: 5)"
 ---
 
 # Acenocumarol

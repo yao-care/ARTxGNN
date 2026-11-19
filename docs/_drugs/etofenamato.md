@@ -9,7 +9,7 @@ drugbank_id: DB08984
 monitor_inn: "Etofenamate"
 predicted_indications: ["ankylosing spondylitis", "rheumatoid vasculitis", "hypermobility of coccyx", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "pseudoachondroplasia", "myosclerosis", "polyarticular juvenile rheumatoid arthritis", "Kummell disease"]
 last_modified_at: 2026-11-16
-description: "Etofenamato: nueva indicación predicha, espondilitis anquilosante (ankylosing spondylitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Etofenamato: nueva indicación predicha, espondilitis anquilosante (ankylosing spondylitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)"
 ---
 
 # Etofenamato

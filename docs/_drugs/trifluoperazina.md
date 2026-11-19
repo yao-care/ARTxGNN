@@ -9,7 +9,7 @@ drugbank_id: DB00831
 monitor_inn: "Trifluoperazine"
 predicted_indications: ["manic bipolar affective disorder"]
 last_modified_at: 2026-11-16
-description: "Trifluoperazina: nueva indicación predicha, Trastorno afectivo bipolar maníaco (manic bipolar affective disorder) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Trifluoperazina: nueva indicación predicha, Trastorno afectivo bipolar maníaco (manic bipolar affective disorder) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)"
 ---
 
 # Trifluoperazina

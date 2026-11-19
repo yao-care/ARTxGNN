@@ -9,7 +9,7 @@ drugbank_id: DB01114
 monitor_inn: "Chlorpheniramine"
 predicted_indications: ["nasal cavity disease"]
 last_modified_at: 2026-11-16
-description: "Clorfeniramina: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Clorfeniramina: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 14 (en el listado vigente: 14)"
 ---
 
 # Clorfeniramina

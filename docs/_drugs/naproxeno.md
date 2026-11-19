@@ -9,7 +9,7 @@ drugbank_id: DB00788
 monitor_inn: "Naproxen"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome"]
 last_modified_at: 2026-11-16
-description: "Naproxeno: nueva indicación predicha, síndrome de braquidactilia-sindactilia (brachydactyly-syndactyly syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Naproxeno: nueva indicación predicha, síndrome de braquidactilia-sindactilia (brachydactyly-syndactyly syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
 # Naproxeno

@@ -8,7 +8,7 @@ indication_count: 10
 monitor_inn: "flumethasone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "hereditary hypotrichosis with recurrent skin vesicles", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "primary cutaneous B-cell lymphoma", "alopecia universalis onychodystrophy vitiligo"]
 last_modified_at: 2026-10-30
-description: "Flumethasone: nueva indicación predicha, alopecia areata (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Flumethasone: nueva indicación predicha, alopecia areata (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)"
 ---
 
 # Flumethasone

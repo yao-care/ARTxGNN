@@ -9,7 +9,7 @@ drugbank_id: DB00176
 monitor_inn: "Fluvoxamine"
 predicted_indications: ["paranoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "schizoid personality disorder", "anxiety disorder", "agoraphobia", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
 last_modified_at: 2026-11-16
-description: "Fluvoxamina: nueva indicación predicha, Trastorno de personalidad paranoide (paranoid personality disorder) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Fluvoxamina: nueva indicación predicha, Trastorno de personalidad paranoide (paranoid personality disorder) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)"
 ---
 
 # Fluvoxamina

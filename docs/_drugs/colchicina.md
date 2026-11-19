@@ -9,7 +9,7 @@ drugbank_id: DB01394
 monitor_inn: "Colchicine"
 predicted_indications: ["Plasmodium falciparum malaria", "dermatofibrosarcoma protuberans"]
 last_modified_at: 2026-11-16
-description: "Colchicina: nueva indicación predicha, Malaria por Plasmodium falciparum (Plasmodium falciparum malaria) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Colchicina: nueva indicación predicha, Malaria por Plasmodium falciparum (Plasmodium falciparum malaria) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 7 (en el listado vigente: 7)"
 ---
 
 # Colchicina

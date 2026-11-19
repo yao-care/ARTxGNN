@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "TRAZODONE"
 predicted_indications: ["obsessive-compulsive disorder", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "phobic disorder", "Ohdo syndrome and variants"]
 last_modified_at: 2026-10-30
-description: "Trazodone: nueva indicación predicha, Trastorno obsesivo-compulsivo (obsessive-compulsive disorder) (nivel de evidencia L2). Indicación original: No consta en los datos locales"
+description: "Trazodone: nueva indicación predicha, Trastorno obsesivo-compulsivo (obsessive-compulsive disorder) (nivel de evidencia L2). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)"
 ---
 
 # Trazodone

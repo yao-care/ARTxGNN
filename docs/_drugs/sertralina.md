@@ -9,7 +9,7 @@ drugbank_id: DB01104
 monitor_inn: "Sertraline"
 predicted_indications: ["schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
 last_modified_at: 2026-11-16
-description: "Sertralina: nueva indicación predicha, trastorno de personalidad esquizoide (schizoid personality disorder) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Sertralina: nueva indicación predicha, trastorno de personalidad esquizoide (schizoid personality disorder) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
 # Sertralina

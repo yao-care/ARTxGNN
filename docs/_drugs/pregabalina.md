@@ -9,7 +9,7 @@ drugbank_id: DB00230
 monitor_inn: "Pregabalin"
 predicted_indications: ["tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
 last_modified_at: 2026-11-16
-description: "Pregabalina: nueva indicación predicha, Tendinitis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Pregabalina: nueva indicación predicha, Tendinitis (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
 # Pregabalina

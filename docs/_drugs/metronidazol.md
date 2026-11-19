@@ -9,7 +9,7 @@ drugbank_id: DB00916
 monitor_inn: "Metronidazole"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis", "ulcerative proctosigmoiditis", "nocardiosis", "postmenopausal atrophic vaginitis", "Cryptococcal meningitis", "papillary conjunctivitis", "myiasis", "cap polyposis", "ulceration of vulva"]
 last_modified_at: 2026-11-16
-description: "Metronidazol: nueva indicación predicha, neumocistosis (pneumocystosis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Metronidazol: nueva indicación predicha, neumocistosis (pneumocystosis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
 # Metronidazol

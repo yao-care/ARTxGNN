@@ -9,7 +9,7 @@ drugbank_id: DB00394
 monitor_inn: "Beclomethasone dipropionate"
 predicted_indications: ["atopic eczema"]
 last_modified_at: 2026-11-16
-description: "Beclometasona: nueva indicación predicha, Eccema atópico (atopic eczema) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
+description: "Beclometasona: nueva indicación predicha, Eccema atópico (atopic eczema) (nivel de evidencia L3). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)"
 ---
 
 # Beclometasona

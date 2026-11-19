@@ -9,7 +9,7 @@ drugbank_id: DB00295
 monitor_inn: "Morphine"
 predicted_indications: ["myofascial pain syndrome", "manic bipolar affective disorder", "Tourette syndrome", "restless legs syndrome", "attention deficit hyperactivity disorder, inattentive type", "migraine disorder", "trichotillomania", "methemoglobinemia", "migraine with brainstem aura", "specific developmental disorder"]
 last_modified_at: 2026-11-16
-description: "Morfina Clorhidrato: nueva indicación predicha, síndrome de dolor miofascial (myofascial pain syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Morfina Clorhidrato: nueva indicación predicha, síndrome de dolor miofascial (myofascial pain syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 17 (en el listado vigente: 17)"
 ---
 
 # Morfina Clorhidrato

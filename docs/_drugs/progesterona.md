@@ -9,7 +9,7 @@ drugbank_id: DB00396
 monitor_inn: "Progesterone"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
 last_modified_at: 2026-11-16
-description: "Progesterona: nueva indicación predicha, enfermedad fibroquística de la mama (breast fibrocystic disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Progesterona: nueva indicación predicha, enfermedad fibroquística de la mama (breast fibrocystic disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 11 (en el listado vigente: 11)"
 ---
 
 # Progesterona

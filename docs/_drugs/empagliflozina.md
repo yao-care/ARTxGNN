@@ -9,7 +9,7 @@ drugbank_id: DB09038
 monitor_inn: "Empagliflozin"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia"]
 last_modified_at: 2026-11-16
-description: "Empagliflozina: nueva indicación predicha, Síndrome de la persona rígida clásica (classic stiff person syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Empagliflozina: nueva indicación predicha, Síndrome de la persona rígida clásica (classic stiff person syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)"
 ---
 
 # Empagliflozina

@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "ketoconazole"
 predicted_indications: ["acne (disease)"]
 last_modified_at: 2026-10-30
-description: "Ketoconazole: nueva indicación predicha, acné (acne (disease)) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
+description: "Ketoconazole: nueva indicación predicha, acné (acne (disease)) (nivel de evidencia L4). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
 # Ketoconazole

@@ -8,7 +8,7 @@ indication_count: 8
 monitor_inn: "triamcinolone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 last_modified_at: 2026-10-30
-description: "Triamcinolone: nueva indicación predicha, alopecia mucinosa (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Triamcinolone: nueva indicación predicha, alopecia mucinosa (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 5 (en el listado vigente: 5)"
 ---
 
 # Triamcinolone

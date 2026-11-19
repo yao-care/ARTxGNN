@@ -9,7 +9,7 @@ drugbank_id: DB00422
 monitor_inn: "Methylphenidate"
 predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder"]
 last_modified_at: 2026-11-16
-description: "Metilfenidato: nueva indicación predicha, Síndrome faciodigitogenital (faciodigitogenital syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Metilfenidato: nueva indicación predicha, Síndrome faciodigitogenital (faciodigitogenital syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 17 (en el listado vigente: 17)"
 ---
 
 # Metilfenidato

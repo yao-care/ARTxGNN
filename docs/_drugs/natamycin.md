@@ -8,7 +8,7 @@ indication_count: 6
 monitor_inn: "natamycin"
 predicted_indications: ["vulvitis", "trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "tinea nigra"]
 last_modified_at: 2026-11-03
-description: "Natamycin: nueva indicación predicha, Vulvitis (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Natamycin: nueva indicación predicha, Vulvitis (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)"
 ---
 
 # Natamycin

@@ -9,7 +9,7 @@ drugbank_id: DB00949
 monitor_inn: "Felbamate"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
 last_modified_at: 2026-11-16
-description: "Felbamato: nueva indicación predicha, neoplasia del nervio trigémino (trigeminal nerve neoplasm) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Felbamato: nueva indicación predicha, neoplasia del nervio trigémino (trigeminal nerve neoplasm) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)"
 ---
 
 # Felbamato

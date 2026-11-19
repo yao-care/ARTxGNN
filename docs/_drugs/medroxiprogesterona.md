@@ -9,7 +9,7 @@ drugbank_id: DB00603
 monitor_inn: "Medroxyprogesterone acetate"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
 last_modified_at: 2026-11-16
-description: "Medroxiprogesterona: nueva indicación predicha, Enfermedad fibroquística de la mama (breast fibrocystic disease) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
+description: "Medroxiprogesterona: nueva indicación predicha, Enfermedad fibroquística de la mama (breast fibrocystic disease) (nivel de evidencia L3). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)"
 ---
 
 # Medroxiprogesterona

@@ -9,7 +9,7 @@ drugbank_id: DB01327
 monitor_inn: "Cefazolin"
 predicted_indications: ["infectious otitis media", "bronchitis", "middle ear disease", "chronic otitis media", "suppurative otitis media", "otosalpingitis", "non-suppurative otitis media", "allergic otitis media"]
 last_modified_at: 2026-11-16
-description: "Cefazolina: nueva indicación predicha, Otitis media infecciosa (infectious otitis media) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Cefazolina: nueva indicación predicha, Otitis media infecciosa (infectious otitis media) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)"
 ---
 
 # Cefazolina

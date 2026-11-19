@@ -9,7 +9,7 @@ drugbank_id: DB01167
 monitor_inn: "Itraconazole"
 predicted_indications: ["pneumocystosis"]
 last_modified_at: 2026-11-16
-description: "Itraconazol: nueva indicación predicha, Neumocistosis (pneumocystosis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Itraconazol: nueva indicación predicha, Neumocistosis (pneumocystosis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 20 (en el listado vigente: 20)"
 ---
 
 # Itraconazol

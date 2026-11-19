@@ -9,7 +9,7 @@ drugbank_id: DB00674
 monitor_inn: "Galantamine"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "benign shuddering attacks", "extrapyramidal and movement disease", "tremor-nystagmus-duodenal ulcer syndrome", "lingual-facial-buccal dyskinesia", "benign paroxysmal tonic upgaze of childhood with ataxia", "acute intermittent porphyria"]
 last_modified_at: 2026-11-16
-description: "Galantamina: nueva indicación predicha, Trastornos del movimiento psicógenos (psychogenic movement disorders) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Galantamina: nueva indicación predicha, Trastornos del movimiento psicógenos (psychogenic movement disorders) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 11 (en el listado vigente: 11)"
 ---
 
 # Galantamina

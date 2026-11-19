@@ -8,7 +8,7 @@ indication_count: 2
 monitor_inn: "dimenhydrinate"
 predicted_indications: ["allergic urticaria", "cold urticaria"]
 last_modified_at: 2026-11-17
-description: "Dimenhydrinate: nueva indicación predicha, urticaria alérgica (allergic urticaria) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Dimenhydrinate: nueva indicación predicha, urticaria alérgica (allergic urticaria) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 10 (en el listado vigente: 1)"
 ---
 
 # Dimenhydrinate

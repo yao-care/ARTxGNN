@@ -9,7 +9,7 @@ drugbank_id: DB00828
 monitor_inn: "Fosfomycin"
 predicted_indications: ["uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "epiglottitis", "urogenital tuberculosis", "laryngitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "pyelitis"]
 last_modified_at: 2026-11-16
-description: "Fosfomicina: nueva indicación predicha, Enfermedad inflamatoria uterina (uterine inflammatory disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Fosfomicina: nueva indicación predicha, Enfermedad inflamatoria uterina (uterine inflammatory disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)"
 ---
 
 # Fosfomicina

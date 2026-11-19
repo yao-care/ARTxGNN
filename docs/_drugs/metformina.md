@@ -9,7 +9,7 @@ drugbank_id: DB00331
 monitor_inn: "Metformin"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
 last_modified_at: 2026-11-16
-description: "Metformina: nueva indicación predicha, síndrome de rigidez focal de las extremidades (focal stiff limb syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Metformina: nueva indicación predicha, síndrome de rigidez focal de las extremidades (focal stiff limb syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
 # Metformina

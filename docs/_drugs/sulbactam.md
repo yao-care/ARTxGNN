@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "SULBACTAM"
 predicted_indications: ["bacterial arthritis"]
 last_modified_at: 2026-10-30
-description: "Sulbactam: nueva indicación predicha, artritis bacteriana (bacterial arthritis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Sulbactam: nueva indicación predicha, artritis bacteriana (bacterial arthritis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 9 (en el listado vigente: 9)"
 ---
 
 # Sulbactam

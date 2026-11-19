@@ -1,0 +1,2599 @@
+{
+  "_note": "藥物頁 front matter description 句尾「原適應症：本地資料未記載」換成本站許可證快照事實層品項數的紀錄（母目錄 .claude/drug_meta_description.py --apply，2026-11-19 起）。pages＝目前產生的句尾（tail）與被換掉的原字樣（original）；entries＝每次改動的前後整行（from／to，可還原：把第一筆的 from 寫回該頁 description）。",
+  "pages": {
+    "acenocumarol": {
+      "tail": "En Argentina, productos en el listado de PAMI: 5 (en el listado vigente: 5)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "acetilcarnitina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "acetilcisteína": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "aciclovir": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "acitretina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "adapaleno": {
+      "tail": "En Argentina, productos en el listado de PAMI: 7 (en el listado vigente: 7)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "allopurinol": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "alprazolam": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "amantadina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "ambroxol": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "amikacina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "amilorida": {
+      "tail": "En Argentina, productos en el listado de PAMI: 11 (en el listado vigente: 11)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "amlodipina": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "amoxicilina": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "ampicilina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 13 (en el listado vigente: 13)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "arginina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "atenolol": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "atomoxetina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 5 (en el listado vigente: 5)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "atorvastatín": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "atropina_sulfato": {
+      "tail": "En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "azitromicina": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "beclometasona": {
+      "tail": "En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "benazepril": {
+      "tail": "En Argentina, productos en el listado de PAMI: 12 (en el listado vigente: 12)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "bencidamina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "benznidazol": {
+      "tail": "En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "benzocaína": {
+      "tail": "En Argentina, productos en el listado de PAMI: 8 (en el listado vigente: 8)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "betametasona": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "biotina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "biperideno": {
+      "tail": "En Argentina, productos en el listado de PAMI: 6 (en el listado vigente: 6)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "bisoprolol": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "buprenorfina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "calcitriol": {
+      "tail": "En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "candesartán": {
+      "tail": "En Argentina, productos en el listado de PAMI: 6 (en el listado vigente: 6)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "carbamazepina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 17 (en el listado vigente: 17)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "carbinoxamina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "carboximetilcisteína": {
+      "tail": "En Argentina, productos en el listado de PAMI: 5 (en el listado vigente: 3)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "carvedilol": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "cefazolina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "cefoxitin": {
+      "tail": "En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "ceftazidima": {
+      "tail": "En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "ceftriaxona": {
+      "tail": "En Argentina, productos en el listado de PAMI: 7 (en el listado vigente: 7)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "cefuroxima": {
+      "tail": "En Argentina, productos en el listado de PAMI: 9 (en el listado vigente: 9)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "cetirizina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 18 (en el listado vigente: 18)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "ciclobenzaprina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "cilastatín": {
+      "tail": "En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "cinchocaine": {
+      "tail": "En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "ciprofloxacina": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "citalopram": {
+      "tail": "En Argentina, productos en el listado de PAMI: 7 (en el listado vigente: 7)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "claritromicina": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "clofedanol": {
+      "tail": "En Argentina, productos en el listado de PAMI: 8 (en el listado vigente: 8)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "clomipramina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 5 (en el listado vigente: 5)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "clonazepam": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "clonidina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "clopidogrel": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "cloranfenicol": {
+      "tail": "En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "clorfeniramina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 14 (en el listado vigente: 14)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "clortalidona": {
+      "tail": "En Argentina, productos en el listado de PAMI: 7 (en el listado vigente: 7)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "clotrimazol": {
+      "tail": "En Argentina, productos en el listado de PAMI: 9 (en el listado vigente: 9)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "colchicina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 7 (en el listado vigente: 7)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "cyproheptadine": {
+      "tail": "En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 2)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "dapsona": {
+      "tail": "En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "desloratadina": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "desvenlafaxina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 16 (en el listado vigente: 16)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "dexametasona": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "dexketoprofen": {
+      "tail": "En Argentina, productos en el listado de PAMI: 10 (en el listado vigente: 10)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "dexlansoprazole": {
+      "tail": "En Argentina, productos en el listado de PAMI: 15 (en el listado vigente: 15)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "dextrometorfano": {
+      "tail": "En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "diazepam": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "diazoxide": {
+      "tail": "En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "diclofenac": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "digoxina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 5 (en el listado vigente: 5)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "dimenhydrinate": {
+      "tail": "En Argentina, productos en el listado de PAMI: 10 (en el listado vigente: 1)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "diphenhydramine": {
+      "tail": "En Argentina, productos en el listado de PAMI: 11 (en el listado vigente: 11)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "donepezil": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "dorzolamida": {
+      "tail": "En Argentina, productos en el listado de PAMI: 8 (en el listado vigente: 8)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "doxazosina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "doxiciclina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 9 (en el listado vigente: 9)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "doxilamina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "empagliflozina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "entacapone": {
+      "tail": "En Argentina, productos en el listado de PAMI: 8 (en el listado vigente: 8)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "epinastina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "esomeprazol": {
+      "tail": "En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "espironolactona": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "estreptomicina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "estriol": {
+      "tail": "En Argentina, productos en el listado de PAMI: 6 (en el listado vigente: 6)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "etinilestradiol": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "etofenamato": {
+      "tail": "En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "famotidina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 10 (en el listado vigente: 10)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "felbamato": {
+      "tail": "En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "fenilefrina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 10 (en el listado vigente: 10)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "fenobarbital": {
+      "tail": "En Argentina, productos en el listado de PAMI: 7 (en el listado vigente: 7)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "fexofenadina": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "flecainida": {
+      "tail": "En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "fluconazol": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "flumethasone": {
+      "tail": "En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "flunitrazepam": {
+      "tail": "En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "fluorometholone": {
+      "tail": "En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "fluoxetina": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "fluvastatina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "fluvoxamina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "formoterol": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "fosfomicina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "galantamina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 11 (en el listado vigente: 11)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "gemfibrozil": {
+      "tail": "En Argentina, productos en el listado de PAMI: 7 (en el listado vigente: 7)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "glimepiride": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "glucagon": {
+      "tail": "En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "glycerin": {
+      "tail": "En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "griseofulvina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "hidrocortisona": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "homatropine": {
+      "tail": "En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "idebenone": {
+      "tail": "En Argentina, productos en el listado de PAMI: 5 (en el listado vigente: 5)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "idoxuridina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "imipenem": {
+      "tail": "En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "indometacina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 9 (en el listado vigente: 9)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "insulin_degludec": {
+      "tail": "En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "insulin_human": {
+      "tail": "En Argentina, productos en el listado de PAMI: 12 (en el listado vigente: 12)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "insulina_glargina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 3)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "isoxsuprina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "itopride": {
+      "tail": "En Argentina, productos en el listado de PAMI: 12 (en el listado vigente: 12)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "itraconazol": {
+      "tail": "En Argentina, productos en el listado de PAMI: 20 (en el listado vigente: 20)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "ivermectina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 7 (en el listado vigente: 6)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "ketoconazole": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "labetalol": {
+      "tail": "En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "lactulose": {
+      "tail": "En Argentina, productos en el listado de PAMI: 6 (en el listado vigente: 6)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "lamotrigina": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "lansoprazol": {
+      "tail": "En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "latanoprost": {
+      "tail": "En Argentina, productos en el listado de PAMI: 14 (en el listado vigente: 14)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "leflunomida": {
+      "tail": "En Argentina, productos en el listado de PAMI: 8 (en el listado vigente: 8)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "levetiracetam": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "levocetirizina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 10 (en el listado vigente: 3)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "levodopa": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "levonorgestrel": {
+      "tail": "En Argentina, productos en el listado de PAMI: 13 (en el listado vigente: 13)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "levotiroxina": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "lincomycin": {
+      "tail": "En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "liotironina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "loperamida": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "lorazepam": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "lornoxicam": {
+      "tail": "En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "mazindol": {
+      "tail": "En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "mebendazol": {
+      "tail": "En Argentina, productos en el listado de PAMI: 11 (en el listado vigente: 11)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "medroxiprogesterona": {
+      "tail": "En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "memantine": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "metformina": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "metilfenidato": {
+      "tail": "En Argentina, productos en el listado de PAMI: 17 (en el listado vigente: 17)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "metoclopramida": {
+      "tail": "En Argentina, productos en el listado de PAMI: 19 (en el listado vigente: 19)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "metoprolol": {
+      "tail": "En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "metotrexato": {
+      "tail": "En Argentina, productos en el listado de PAMI: 14 (en el listado vigente: 14)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "metronidazol": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "miconazol": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "midazolam": {
+      "tail": "En Argentina, productos en el listado de PAMI: 5 (en el listado vigente: 5)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "minocycline": {
+      "tail": "En Argentina, productos en el listado de PAMI: 8 (en el listado vigente: 8)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "minoxidil": {
+      "tail": "En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "mirtazapina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 7 (en el listado vigente: 7)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "modafinil": {
+      "tail": "En Argentina, productos en el listado de PAMI: 7 (en el listado vigente: 7)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "montelukast": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "morfina_clorhidrato": {
+      "tail": "En Argentina, productos en el listado de PAMI: 17 (en el listado vigente: 17)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "moxifloxacina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 10 (en el listado vigente: 10)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "mupirocin": {
+      "tail": "En Argentina, productos en el listado de PAMI: 10 (en el listado vigente: 10)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "naproxeno": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "natamycin": {
+      "tail": "En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "nebivolol": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "nimodipina": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "nistatina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 7 (en el listado vigente: 7)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "norfloxacina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 20 (en el listado vigente: 20)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "ofloxacin": {
+      "tail": "En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "olmesartan": {
+      "tail": "En Argentina, productos en el listado de PAMI: 7 (en el listado vigente: 7)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "omeprazol": {
+      "tail": "En Argentina, productos en el listado de PAMI: 11 (en el listado vigente: 11)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "oxcarbazepina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 13 (en el listado vigente: 13)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "oxibutinina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 19 (en el listado vigente: 19)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "oxymetazoline": {
+      "tail": "En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "oxytetracycline": {
+      "tail": "En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "pantoprazol": {
+      "tail": "En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "paroxetina": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "perindopril": {
+      "tail": "En Argentina, productos en el listado de PAMI: 13 (en el listado vigente: 13)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "pheniramine": {
+      "tail": "En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 0)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "pioglitazona": {
+      "tail": "En Argentina, productos en el listado de PAMI: 12 (en el listado vigente: 12)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "podofilox": {
+      "tail": "En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "prasterone": {
+      "tail": "En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "prasugrel": {
+      "tail": "En Argentina, productos en el listado de PAMI: 8 (en el listado vigente: 8)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "prednisolona": {
+      "tail": "En Argentina, productos en el listado de PAMI: 9 (en el listado vigente: 9)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "prednisona": {
+      "tail": "En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "pregabalina": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "progesterona": {
+      "tail": "En Argentina, productos en el listado de PAMI: 11 (en el listado vigente: 11)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "propafenona": {
+      "tail": "En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "propranolol": {
+      "tail": "En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "pseudoephedrine": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "rasagilina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 5 (en el listado vigente: 5)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "rifampicin": {
+      "tail": "En Argentina, productos en el listado de PAMI: 6 (en el listado vigente: 6)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "rifaximin": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "rivastigmina": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "salbutamol": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "salmeterol": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "sertralina": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "simvastatin": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "sucralfato": {
+      "tail": "En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "sulbactam": {
+      "tail": "En Argentina, productos en el listado de PAMI: 9 (en el listado vigente: 9)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "sulfametoxazol": {
+      "tail": "En Argentina, productos en el listado de PAMI: 17 (en el listado vigente: 17)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "sulfasalazina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "terazosin": {
+      "tail": "En Argentina, productos en el listado de PAMI: 18 (en el listado vigente: 18)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "ticagrelor": {
+      "tail": "En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "tinidazol": {
+      "tail": "En Argentina, productos en el listado de PAMI: 5 (en el listado vigente: 5)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "tioconazole": {
+      "tail": "En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "tiotropio": {
+      "tail": "En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "tobramicina": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "topiramato": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "travoprost": {
+      "tail": "En Argentina, productos en el listado de PAMI: 8 (en el listado vigente: 8)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "trazodone": {
+      "tail": "En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "triamcinolone": {
+      "tail": "En Argentina, productos en el listado de PAMI: 5 (en el listado vigente: 5)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "trifluoperazina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "tropicamida": {
+      "tail": "En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "vancomicina": {
+      "tail": "En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "verapamil": {
+      "tail": "En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "vilanterol": {
+      "tail": "En Argentina, productos en el listado de PAMI: 5 (en el listado vigente: 5)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "vildagliptin": {
+      "tail": "En Argentina, productos en el listado de PAMI: al menos 20",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "warfarin": {
+      "tail": "En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "ziprasidona": {
+      "tail": "En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    }
+  },
+  "entries": [
+    {
+      "page": "docs/_drugs/acenocumarol.md",
+      "date": "2026-11-19",
+      "from": "\"Acenocumarol: nueva indicación predicha, deficiencia de cofactor II de la heparina (heparin cofactor 2 deficiency) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Acenocumarol: nueva indicación predicha, deficiencia de cofactor II de la heparina (heparin cofactor 2 deficiency) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 5 (en el listado vigente: 5)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/acetilcarnitina.md",
+      "date": "2026-11-19",
+      "from": "\"Acetilcarnitina: nueva indicación predicha, porfiria aguda intermitente (acute intermittent porphyria) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Acetilcarnitina: nueva indicación predicha, porfiria aguda intermitente (acute intermittent porphyria) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/acetilcisteína.md",
+      "date": "2026-11-19",
+      "from": "\"Acetilcisteína: nueva indicación predicha, Enfermedad trombótica (thrombotic disease) (nivel de evidencia L2). Indicación original: No consta en los datos locales\"",
+      "to": "\"Acetilcisteína: nueva indicación predicha, Enfermedad trombótica (thrombotic disease) (nivel de evidencia L2). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/aciclovir.md",
+      "date": "2026-11-19",
+      "from": "\"Aciclovir: nueva indicación predicha, queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Aciclovir: nueva indicación predicha, queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/acitretina.md",
+      "date": "2026-11-19",
+      "from": "\"Acitretina: nueva indicación predicha, acné (acne (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Acitretina: nueva indicación predicha, acné (acne (disease)) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/adapaleno.md",
+      "date": "2026-11-19",
+      "from": "\"Adapaleno: nueva indicación predicha, zinc plasmático elevado (zinc, elevated plasma) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Adapaleno: nueva indicación predicha, zinc plasmático elevado (zinc, elevated plasma) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 7 (en el listado vigente: 7)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/allopurinol.md",
+      "date": "2026-11-19",
+      "from": "\"Allopurinol: nueva indicación predicha, porfiria hepática (hepatic porphyria) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Allopurinol: nueva indicación predicha, porfiria hepática (hepatic porphyria) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/alprazolam.md",
+      "date": "2026-11-19",
+      "from": "\"Alprazolam: nueva indicación predicha, insomnio (insomnia (disease)) (nivel de evidencia L3). Indicación original: No consta en los datos locales\"",
+      "to": "\"Alprazolam: nueva indicación predicha, insomnio (insomnia (disease)) (nivel de evidencia L3). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/amantadina.md",
+      "date": "2026-11-19",
+      "from": "\"Amantadina: nueva indicación predicha, Encefalitis subaguda de Rasmussen (Rasmussen subacute encephalitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Amantadina: nueva indicación predicha, Encefalitis subaguda de Rasmussen (Rasmussen subacute encephalitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ambroxol.md",
+      "date": "2026-11-19",
+      "from": "\"Ambroxol: nueva indicación predicha, enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Ambroxol: nueva indicación predicha, enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/amikacina.md",
+      "date": "2026-11-19",
+      "from": "\"Amikacina: nueva indicación predicha, Fiebre paratifoidea (paratyphoid fever) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Amikacina: nueva indicación predicha, Fiebre paratifoidea (paratyphoid fever) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/amilorida.md",
+      "date": "2026-11-19",
+      "from": "\"Amilorida: nueva indicación predicha, Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Amilorida: nueva indicación predicha, Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 11 (en el listado vigente: 11)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/amlodipina.md",
+      "date": "2026-11-19",
+      "from": "\"Amlodipina: nueva indicación predicha, Infarto del tronco encefálico (brain stem infarction) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Amlodipina: nueva indicación predicha, Infarto del tronco encefálico (brain stem infarction) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/amoxicilina.md",
+      "date": "2026-11-19",
+      "from": "\"Amoxicilina: nueva indicación predicha, hiperamilasemia (hyperamylasemia) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Amoxicilina: nueva indicación predicha, hiperamilasemia (hyperamylasemia) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ampicilina.md",
+      "date": "2026-11-19",
+      "from": "\"Ampicilina: nueva indicación predicha, laringitis (laryngitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Ampicilina: nueva indicación predicha, laringitis (laryngitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 13 (en el listado vigente: 13)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/arginina.md",
+      "date": "2026-11-19",
+      "from": "\"Arginina: nueva indicación predicha, Gastroparesia (gastroparesis (disease)) (nivel de evidencia L4). Indicación original: No consta en los datos locales\"",
+      "to": "\"Arginina: nueva indicación predicha, Gastroparesia (gastroparesis (disease)) (nivel de evidencia L4). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/atenolol.md",
+      "date": "2026-11-19",
+      "from": "\"Atenolol: nueva indicación predicha, Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Atenolol: nueva indicación predicha, Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/atomoxetina.md",
+      "date": "2026-11-19",
+      "from": "\"Atomoxetina: nueva indicación predicha, trastorno específico del desarrollo (specific developmental disorder) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Atomoxetina: nueva indicación predicha, trastorno específico del desarrollo (specific developmental disorder) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 5 (en el listado vigente: 5)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/atorvastatín.md",
+      "date": "2026-11-19",
+      "from": "\"Atorvastatín: nueva indicación predicha, Infección por VIH (HIV infectious disease) (nivel de evidencia L2). Indicación original: No consta en los datos locales\"",
+      "to": "\"Atorvastatín: nueva indicación predicha, Infección por VIH (HIV infectious disease) (nivel de evidencia L2). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/atropina_sulfato.md",
+      "date": "2026-11-19",
+      "from": "\"Atropina Sulfato: nueva indicación predicha, trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Atropina Sulfato: nueva indicación predicha, trastorno de migraña (migraine disorder) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/azitromicina.md",
+      "date": "2026-11-19",
+      "from": "\"Azitromicina: nueva indicación predicha, síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Azitromicina: nueva indicación predicha, síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/beclometasona.md",
+      "date": "2026-11-19",
+      "from": "\"Beclometasona: nueva indicación predicha, Eccema atópico (atopic eczema) (nivel de evidencia L3). Indicación original: No consta en los datos locales\"",
+      "to": "\"Beclometasona: nueva indicación predicha, Eccema atópico (atopic eczema) (nivel de evidencia L3). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/benazepril.md",
+      "date": "2026-11-19",
+      "from": "\"Benazepril: nueva indicación predicha, Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Benazepril: nueva indicación predicha, Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 12 (en el listado vigente: 12)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/bencidamina.md",
+      "date": "2026-11-19",
+      "from": "\"Bencidamina: nueva indicación predicha, hiperplasia prostática benigna (benign prostatic hyperplasia (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Bencidamina: nueva indicación predicha, hiperplasia prostática benigna (benign prostatic hyperplasia (disease)) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/benznidazol.md",
+      "date": "2026-11-19",
+      "from": "\"Benznidazol: nueva indicación predicha, analbuminemia congénita (congenital analbuminemia) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Benznidazol: nueva indicación predicha, analbuminemia congénita (congenital analbuminemia) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/benzocaína.md",
+      "date": "2026-11-19",
+      "from": "\"Benzocaína: nueva indicación predicha, conjuntivitis papilar (papillary conjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Benzocaína: nueva indicación predicha, conjuntivitis papilar (papillary conjunctivitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 8 (en el listado vigente: 8)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/betametasona.md",
+      "date": "2026-11-19",
+      "from": "\"Betametasona: nueva indicación predicha, Alopecia mucinosa (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Betametasona: nueva indicación predicha, Alopecia mucinosa (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/biotina.md",
+      "date": "2026-11-19",
+      "from": "\"Biotina: nueva indicación predicha, dispepsia (dyspepsia) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Biotina: nueva indicación predicha, dispepsia (dyspepsia) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/biperideno.md",
+      "date": "2026-11-19",
+      "from": "\"Biperideno: nueva indicación predicha, Encefalitis subaguda de Rasmussen (Rasmussen subacute encephalitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Biperideno: nueva indicación predicha, Encefalitis subaguda de Rasmussen (Rasmussen subacute encephalitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 6 (en el listado vigente: 6)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/bisoprolol.md",
+      "date": "2026-11-19",
+      "from": "\"Bisoprolol: nueva indicación predicha, Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Bisoprolol: nueva indicación predicha, Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/buprenorfina.md",
+      "date": "2026-11-19",
+      "from": "\"Buprenorfina: nueva indicación predicha, porfiria aguda intermitente (acute intermittent porphyria) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Buprenorfina: nueva indicación predicha, porfiria aguda intermitente (acute intermittent porphyria) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/calcitriol.md",
+      "date": "2026-11-19",
+      "from": "\"Calcitriol: nueva indicación predicha, Deficiencia de vitamina D obsoleta (obsolete vitamin D deficiency) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Calcitriol: nueva indicación predicha, Deficiencia de vitamina D obsoleta (obsolete vitamin D deficiency) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/candesartán.md",
+      "date": "2026-11-19",
+      "from": "\"Candesartán: nueva indicación predicha, trastorno de migraña (migraine disorder) (nivel de evidencia L2). Indicación original: No consta en los datos locales\"",
+      "to": "\"Candesartán: nueva indicación predicha, trastorno de migraña (migraine disorder) (nivel de evidencia L2). En Argentina, productos en el listado de PAMI: 6 (en el listado vigente: 6)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/carbamazepina.md",
+      "date": "2026-11-19",
+      "from": "\"Carbamazepina: nueva indicación predicha, Neoplasia del nervio trigémino (trigeminal nerve neoplasm) (nivel de evidencia L4). Indicación original: No consta en los datos locales\"",
+      "to": "\"Carbamazepina: nueva indicación predicha, Neoplasia del nervio trigémino (trigeminal nerve neoplasm) (nivel de evidencia L4). En Argentina, productos en el listado de PAMI: 17 (en el listado vigente: 17)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/carbinoxamina.md",
+      "date": "2026-11-19",
+      "from": "\"Carbinoxamina: nueva indicación predicha, enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Carbinoxamina: nueva indicación predicha, enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/carboximetilcisteína.md",
+      "date": "2026-11-19",
+      "from": "\"Carboximetilcisteína: nueva indicación predicha, gota (gout) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Carboximetilcisteína: nueva indicación predicha, gota (gout) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 5 (en el listado vigente: 3)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/carvedilol.md",
+      "date": "2026-11-19",
+      "from": "\"Carvedilol: nueva indicación predicha, enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Carvedilol: nueva indicación predicha, enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/cefazolina.md",
+      "date": "2026-11-19",
+      "from": "\"Cefazolina: nueva indicación predicha, Otitis media infecciosa (infectious otitis media) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Cefazolina: nueva indicación predicha, Otitis media infecciosa (infectious otitis media) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/cefoxitin.md",
+      "date": "2026-11-19",
+      "from": "\"Cefoxitin: nueva indicación predicha, Otitis media infecciosa (infectious otitis media) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Cefoxitin: nueva indicación predicha, Otitis media infecciosa (infectious otitis media) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ceftazidima.md",
+      "date": "2026-11-19",
+      "from": "\"Ceftazidima: nueva indicación predicha, Síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Ceftazidima: nueva indicación predicha, Síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ceftriaxona.md",
+      "date": "2026-11-19",
+      "from": "\"Ceftriaxona: nueva indicación predicha, Síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Ceftriaxona: nueva indicación predicha, Síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 7 (en el listado vigente: 7)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/cefuroxima.md",
+      "date": "2026-11-19",
+      "from": "\"Cefuroxima: nueva indicación predicha, hiperamilasemia (hyperamylasemia) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Cefuroxima: nueva indicación predicha, hiperamilasemia (hyperamylasemia) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 9 (en el listado vigente: 9)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/cetirizina.md",
+      "date": "2026-11-19",
+      "from": "\"Cetirizina: nueva indicación predicha, enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Cetirizina: nueva indicación predicha, enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 18 (en el listado vigente: 18)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ciclobenzaprina.md",
+      "date": "2026-11-19",
+      "from": "\"Ciclobenzaprina: nueva indicación predicha, Síndrome de dolor miofascial (myofascial pain syndrome) (nivel de evidencia L3). Indicación original: No consta en los datos locales\"",
+      "to": "\"Ciclobenzaprina: nueva indicación predicha, Síndrome de dolor miofascial (myofascial pain syndrome) (nivel de evidencia L3). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/cilastatín.md",
+      "date": "2026-11-19",
+      "from": "\"Cilastatín: nueva indicación predicha, Infección por Staphylococcus aureus (staphylococcus aureus infection) (nivel de evidencia L3). Indicación original: No consta en los datos locales\"",
+      "to": "\"Cilastatín: nueva indicación predicha, Infección por Staphylococcus aureus (staphylococcus aureus infection) (nivel de evidencia L3). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/cinchocaine.md",
+      "date": "2026-11-19",
+      "from": "\"Cinchocaine: nueva indicación predicha, Bronquitis (bronchitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Cinchocaine: nueva indicación predicha, Bronquitis (bronchitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ciprofloxacina.md",
+      "date": "2026-11-19",
+      "from": "\"Ciprofloxacina: nueva indicación predicha, esclerodermia difusa (diffuse scleroderma) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Ciprofloxacina: nueva indicación predicha, esclerodermia difusa (diffuse scleroderma) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/citalopram.md",
+      "date": "2026-11-19",
+      "from": "\"Citalopram: nueva indicación predicha, Trastorno obsesivo-compulsivo (obsessive-compulsive disorder) (nivel de evidencia L3). Indicación original: No consta en los datos locales\"",
+      "to": "\"Citalopram: nueva indicación predicha, Trastorno obsesivo-compulsivo (obsessive-compulsive disorder) (nivel de evidencia L3). En Argentina, productos en el listado de PAMI: 7 (en el listado vigente: 7)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/claritromicina.md",
+      "date": "2026-11-19",
+      "from": "\"Claritromicina: nueva indicación predicha, síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Claritromicina: nueva indicación predicha, síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/clofedanol.md",
+      "date": "2026-11-19",
+      "from": "\"Clofedanol: nueva indicación predicha, enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Clofedanol: nueva indicación predicha, enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 8 (en el listado vigente: 8)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/clomipramina.md",
+      "date": "2026-11-19",
+      "from": "\"Clomipramina: nueva indicación predicha, trastorno de ansiedad (anxiety disorder) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Clomipramina: nueva indicación predicha, trastorno de ansiedad (anxiety disorder) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 5 (en el listado vigente: 5)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/clonazepam.md",
+      "date": "2026-11-19",
+      "from": "\"Clonazepam: nueva indicación predicha, Síndrome de piernas inquietas (restless legs syndrome) (nivel de evidencia L3). Indicación original: No consta en los datos locales\"",
+      "to": "\"Clonazepam: nueva indicación predicha, Síndrome de piernas inquietas (restless legs syndrome) (nivel de evidencia L3). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/clonidina.md",
+      "date": "2026-11-19",
+      "from": "\"Clonidina: nueva indicación predicha, Síndrome faciodigitogenital (faciodigitogenital syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Clonidina: nueva indicación predicha, Síndrome faciodigitogenital (faciodigitogenital syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/clopidogrel.md",
+      "date": "2026-11-19",
+      "from": "\"Clopidogrel: nueva indicación predicha, migraña con aura de tronco encefálico (migraine with brainstem aura) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Clopidogrel: nueva indicación predicha, migraña con aura de tronco encefálico (migraine with brainstem aura) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/cloranfenicol.md",
+      "date": "2026-11-19",
+      "from": "\"Cloranfenicol: nueva indicación predicha, esclerodermia difusa (diffuse scleroderma) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Cloranfenicol: nueva indicación predicha, esclerodermia difusa (diffuse scleroderma) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/clorfeniramina.md",
+      "date": "2026-11-19",
+      "from": "\"Clorfeniramina: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Clorfeniramina: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 14 (en el listado vigente: 14)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/clortalidona.md",
+      "date": "2026-11-19",
+      "from": "\"Clortalidona: nueva indicación predicha, Glaucoma hereditario primario (primary hereditary glaucoma) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Clortalidona: nueva indicación predicha, Glaucoma hereditario primario (primary hereditary glaucoma) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 7 (en el listado vigente: 7)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/clotrimazol.md",
+      "date": "2026-11-19",
+      "from": "\"Clotrimazol: nueva indicación predicha, acné (acne (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Clotrimazol: nueva indicación predicha, acné (acne (disease)) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 9 (en el listado vigente: 9)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/colchicina.md",
+      "date": "2026-11-19",
+      "from": "\"Colchicina: nueva indicación predicha, Malaria por Plasmodium falciparum (Plasmodium falciparum malaria) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Colchicina: nueva indicación predicha, Malaria por Plasmodium falciparum (Plasmodium falciparum malaria) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 7 (en el listado vigente: 7)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/cyproheptadine.md",
+      "date": "2026-11-19",
+      "from": "\"Cyproheptadine: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Cyproheptadine: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 2)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/dapsona.md",
+      "date": "2026-11-19",
+      "from": "\"Dapsona: nueva indicación predicha, neumocistosis (pneumocystosis) (nivel de evidencia L1). Indicación original: No consta en los datos locales\"",
+      "to": "\"Dapsona: nueva indicación predicha, neumocistosis (pneumocystosis) (nivel de evidencia L1). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/desloratadina.md",
+      "date": "2026-11-19",
+      "from": "\"Desloratadina: nueva indicación predicha, enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Desloratadina: nueva indicación predicha, enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/desvenlafaxina.md",
+      "date": "2026-11-19",
+      "from": "\"Desvenlafaxina: nueva indicación predicha, Trastorno obsesivo-compulsivo (obsessive-compulsive disorder) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Desvenlafaxina: nueva indicación predicha, Trastorno obsesivo-compulsivo (obsessive-compulsive disorder) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 16 (en el listado vigente: 16)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/dexametasona.md",
+      "date": "2026-11-19",
+      "from": "\"Dexametasona: nueva indicación predicha, Alopecia mucinosa (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Dexametasona: nueva indicación predicha, Alopecia mucinosa (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/dexketoprofen.md",
+      "date": "2026-11-19",
+      "from": "\"Dexketoprofen: nueva indicación predicha, tendinitis (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Dexketoprofen: nueva indicación predicha, tendinitis (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 10 (en el listado vigente: 10)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/dexlansoprazole.md",
+      "date": "2026-11-19",
+      "from": "\"Dexlansoprazole: nueva indicación predicha, gastroduodenitis (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Dexlansoprazole: nueva indicación predicha, gastroduodenitis (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 15 (en el listado vigente: 15)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/dextrometorfano.md",
+      "date": "2026-11-19",
+      "from": "\"Dextrometorfano: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Dextrometorfano: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/diazepam.md",
+      "date": "2026-11-19",
+      "from": "\"Diazepam: nueva indicación predicha, Insomnio (insomnia (disease)) (nivel de evidencia L2). Indicación original: No consta en los datos locales\"",
+      "to": "\"Diazepam: nueva indicación predicha, Insomnio (insomnia (disease)) (nivel de evidencia L2). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/diazoxide.md",
+      "date": "2026-11-19",
+      "from": "\"Diazoxide: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Diazoxide: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/diclofenac.md",
+      "date": "2026-11-19",
+      "from": "\"Diclofenac: nueva indicación predicha, hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Diclofenac: nueva indicación predicha, hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/digoxina.md",
+      "date": "2026-11-19",
+      "from": "\"Digoxina: nueva indicación predicha, Angina de Prinzmetal (Prinzmetal angina) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Digoxina: nueva indicación predicha, Angina de Prinzmetal (Prinzmetal angina) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 5 (en el listado vigente: 5)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/dimenhydrinate.md",
+      "date": "2026-11-19",
+      "from": "\"Dimenhydrinate: nueva indicación predicha, urticaria alérgica (allergic urticaria) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Dimenhydrinate: nueva indicación predicha, urticaria alérgica (allergic urticaria) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 10 (en el listado vigente: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/diphenhydramine.md",
+      "date": "2026-11-19",
+      "from": "\"Diphenhydramine: nueva indicación predicha, conjuntivitis rosácea (rosacea conjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Diphenhydramine: nueva indicación predicha, conjuntivitis rosácea (rosacea conjunctivitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 11 (en el listado vigente: 11)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/donepezil.md",
+      "date": "2026-11-19",
+      "from": "\"Donepezil: nueva indicación predicha, Trastornos del movimiento psicógenos (psychogenic movement disorders) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Donepezil: nueva indicación predicha, Trastornos del movimiento psicógenos (psychogenic movement disorders) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/dorzolamida.md",
+      "date": "2026-11-19",
+      "from": "\"Dorzolamida: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Dorzolamida: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 8 (en el listado vigente: 8)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/doxazosina.md",
+      "date": "2026-11-19",
+      "from": "\"Doxazosina: nueva indicación predicha, trastorno de migraña (migraine disorder) (nivel de evidencia L4). Indicación original: No consta en los datos locales\"",
+      "to": "\"Doxazosina: nueva indicación predicha, trastorno de migraña (migraine disorder) (nivel de evidencia L4). En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/doxiciclina.md",
+      "date": "2026-11-19",
+      "from": "\"Doxiciclina: nueva indicación predicha, queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Doxiciclina: nueva indicación predicha, queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 9 (en el listado vigente: 9)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/doxilamina.md",
+      "date": "2026-11-19",
+      "from": "\"Doxilamina: nueva indicación predicha, enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Doxilamina: nueva indicación predicha, enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/empagliflozina.md",
+      "date": "2026-11-19",
+      "from": "\"Empagliflozina: nueva indicación predicha, Síndrome de la persona rígida clásica (classic stiff person syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Empagliflozina: nueva indicación predicha, Síndrome de la persona rígida clásica (classic stiff person syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/entacapone.md",
+      "date": "2026-11-19",
+      "from": "\"Entacapone: nueva indicación predicha, Neurodegeneración asociada a PLA2G6 (PLA2G6-associated neurodegeneration) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Entacapone: nueva indicación predicha, Neurodegeneración asociada a PLA2G6 (PLA2G6-associated neurodegeneration) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 8 (en el listado vigente: 8)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/epinastina.md",
+      "date": "2026-11-19",
+      "from": "\"Epinastina: nueva indicación predicha, conjuntivitis rosácea (rosacea conjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Epinastina: nueva indicación predicha, conjuntivitis rosácea (rosacea conjunctivitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/esomeprazol.md",
+      "date": "2026-11-19",
+      "from": "\"Esomeprazol: nueva indicación predicha, obstrucción duodenal (duodenal obstruction) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Esomeprazol: nueva indicación predicha, obstrucción duodenal (duodenal obstruction) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/espironolactona.md",
+      "date": "2026-11-19",
+      "from": "\"Espironolactona: nueva indicación predicha, hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Espironolactona: nueva indicación predicha, hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/estreptomicina.md",
+      "date": "2026-11-19",
+      "from": "\"Estreptomicina: nueva indicación predicha, Conjuntivitis (conjunctivitis) (nivel de evidencia L4). Indicación original: No consta en los datos locales\"",
+      "to": "\"Estreptomicina: nueva indicación predicha, Conjuntivitis (conjunctivitis) (nivel de evidencia L4). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/estriol.md",
+      "date": "2026-11-19",
+      "from": "\"Estriol: nueva indicación predicha, Amenorrea (amenorrhea (disease)) (nivel de evidencia L3). Indicación original: No consta en los datos locales\"",
+      "to": "\"Estriol: nueva indicación predicha, Amenorrea (amenorrhea (disease)) (nivel de evidencia L3). En Argentina, productos en el listado de PAMI: 6 (en el listado vigente: 6)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/etinilestradiol.md",
+      "date": "2026-11-19",
+      "from": "\"Etinilestradiol: nueva indicación predicha, Zinc plasmático elevado (zinc, elevated plasma) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Etinilestradiol: nueva indicación predicha, Zinc plasmático elevado (zinc, elevated plasma) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/etofenamato.md",
+      "date": "2026-11-19",
+      "from": "\"Etofenamato: nueva indicación predicha, espondilitis anquilosante (ankylosing spondylitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Etofenamato: nueva indicación predicha, espondilitis anquilosante (ankylosing spondylitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/famotidina.md",
+      "date": "2026-11-19",
+      "from": "\"Famotidina: nueva indicación predicha, obstrucción duodenal (duodenal obstruction) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Famotidina: nueva indicación predicha, obstrucción duodenal (duodenal obstruction) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 10 (en el listado vigente: 10)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/felbamato.md",
+      "date": "2026-11-19",
+      "from": "\"Felbamato: nueva indicación predicha, neoplasia del nervio trigémino (trigeminal nerve neoplasm) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Felbamato: nueva indicación predicha, neoplasia del nervio trigémino (trigeminal nerve neoplasm) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/fenilefrina.md",
+      "date": "2026-11-19",
+      "from": "\"Fenilefrina: nueva indicación predicha, enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Fenilefrina: nueva indicación predicha, enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 10 (en el listado vigente: 10)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/fenobarbital.md",
+      "date": "2026-11-19",
+      "from": "\"Fenobarbital: nueva indicación predicha, neoplasia del nervio trigémino (trigeminal nerve neoplasm) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Fenobarbital: nueva indicación predicha, neoplasia del nervio trigémino (trigeminal nerve neoplasm) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 7 (en el listado vigente: 7)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/fexofenadina.md",
+      "date": "2026-11-19",
+      "from": "\"Fexofenadina: nueva indicación predicha, conjuntivitis rosácea (rosacea conjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Fexofenadina: nueva indicación predicha, conjuntivitis rosácea (rosacea conjunctivitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/flecainida.md",
+      "date": "2026-11-19",
+      "from": "\"Flecainida: nueva indicación predicha, Accidente cerebrovascular (stroke disorder) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Flecainida: nueva indicación predicha, Accidente cerebrovascular (stroke disorder) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/fluconazol.md",
+      "date": "2026-11-19",
+      "from": "\"Fluconazol: nueva indicación predicha, queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Fluconazol: nueva indicación predicha, queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/flumethasone.md",
+      "date": "2026-11-19",
+      "from": "\"Flumethasone: nueva indicación predicha, alopecia areata (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Flumethasone: nueva indicación predicha, alopecia areata (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/flunitrazepam.md",
+      "date": "2026-11-19",
+      "from": "\"Flunitrazepam: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Flunitrazepam: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/fluorometholone.md",
+      "date": "2026-11-19",
+      "from": "\"Fluorometholone: nueva indicación predicha, Vasculitis postinfecciosa (postinfectious vasculitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Fluorometholone: nueva indicación predicha, Vasculitis postinfecciosa (postinfectious vasculitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/fluoxetina.md",
+      "date": "2026-11-19",
+      "from": "\"Fluoxetina: nueva indicación predicha, Trastorno esquizotípico de la personalidad (schizotypal personality disorder) (nivel de evidencia L3). Indicación original: No consta en los datos locales\"",
+      "to": "\"Fluoxetina: nueva indicación predicha, Trastorno esquizotípico de la personalidad (schizotypal personality disorder) (nivel de evidencia L3). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/fluvastatina.md",
+      "date": "2026-11-19",
+      "from": "\"Fluvastatina: nueva indicación predicha, Infección por VIH (HIV infectious disease) (nivel de evidencia L3). Indicación original: No consta en los datos locales\"",
+      "to": "\"Fluvastatina: nueva indicación predicha, Infección por VIH (HIV infectious disease) (nivel de evidencia L3). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/fluvoxamina.md",
+      "date": "2026-11-19",
+      "from": "\"Fluvoxamina: nueva indicación predicha, Trastorno de personalidad paranoide (paranoid personality disorder) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Fluvoxamina: nueva indicación predicha, Trastorno de personalidad paranoide (paranoid personality disorder) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/formoterol.md",
+      "date": "2026-11-19",
+      "from": "\"Formoterol: nueva indicación predicha, malformación respiratoria (respiratory malformation) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Formoterol: nueva indicación predicha, malformación respiratoria (respiratory malformation) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/fosfomicina.md",
+      "date": "2026-11-19",
+      "from": "\"Fosfomicina: nueva indicación predicha, Enfermedad inflamatoria uterina (uterine inflammatory disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Fosfomicina: nueva indicación predicha, Enfermedad inflamatoria uterina (uterine inflammatory disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/galantamina.md",
+      "date": "2026-11-19",
+      "from": "\"Galantamina: nueva indicación predicha, Trastornos del movimiento psicógenos (psychogenic movement disorders) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Galantamina: nueva indicación predicha, Trastornos del movimiento psicógenos (psychogenic movement disorders) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 11 (en el listado vigente: 11)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/gemfibrozil.md",
+      "date": "2026-11-19",
+      "from": "\"Gemfibrozil: nueva indicación predicha, Artritis reumatoide (rheumatoid arthritis) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Gemfibrozil: nueva indicación predicha, Artritis reumatoide (rheumatoid arthritis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 7 (en el listado vigente: 7)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/glimepiride.md",
+      "date": "2026-11-19",
+      "from": "\"Glimepiride: nueva indicación predicha, Síndrome de la persona rígida clásica (classic stiff person syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Glimepiride: nueva indicación predicha, Síndrome de la persona rígida clásica (classic stiff person syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/glucagon.md",
+      "date": "2026-11-19",
+      "from": "\"Glucagon: nueva indicación predicha, Síndrome del intestino irritable (irritable bowel syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Glucagon: nueva indicación predicha, Síndrome del intestino irritable (irritable bowel syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/glycerin.md",
+      "date": "2026-11-19",
+      "from": "\"Glycerin: nueva indicación predicha, síndrome de la cola de caballo (cauda equina syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Glycerin: nueva indicación predicha, síndrome de la cola de caballo (cauda equina syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/griseofulvina.md",
+      "date": "2026-11-19",
+      "from": "\"Griseofulvina: nueva indicación predicha, miasis (myiasis) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Griseofulvina: nueva indicación predicha, miasis (myiasis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/hidrocortisona.md",
+      "date": "2026-11-19",
+      "from": "\"Hidrocortisona: nueva indicación predicha, Alopecia areata (nivel de evidencia L1). Indicación original: No consta en los datos locales\"",
+      "to": "\"Hidrocortisona: nueva indicación predicha, Alopecia areata (nivel de evidencia L1). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/homatropine.md",
+      "date": "2026-11-19",
+      "from": "\"Homatropine: nueva indicación predicha, Síndrome de la cola de caballo (cauda equina syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Homatropine: nueva indicación predicha, Síndrome de la cola de caballo (cauda equina syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/idebenone.md",
+      "date": "2026-11-19",
+      "from": "\"Idebenone: nueva indicación predicha, porfiria hepática (hepatic porphyria) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Idebenone: nueva indicación predicha, porfiria hepática (hepatic porphyria) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 5 (en el listado vigente: 5)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/idoxuridina.md",
+      "date": "2026-11-19",
+      "from": "\"Idoxuridina: nueva indicación predicha, candidiasis vulvovaginal (vulvovaginal candidiasis) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Idoxuridina: nueva indicación predicha, candidiasis vulvovaginal (vulvovaginal candidiasis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/imipenem.md",
+      "date": "2026-11-19",
+      "from": "\"Imipenem: nueva indicación predicha, Esclerodermia difusa (diffuse scleroderma) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Imipenem: nueva indicación predicha, Esclerodermia difusa (diffuse scleroderma) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/indometacina.md",
+      "date": "2026-11-19",
+      "from": "\"Indometacina: nueva indicación predicha, Síndrome de braquidactilia-sindactilia (brachydactyly-syndactyly syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Indometacina: nueva indicación predicha, Síndrome de braquidactilia-sindactilia (brachydactyly-syndactyly syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 9 (en el listado vigente: 9)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/insulin_degludec.md",
+      "date": "2026-11-19",
+      "from": "\"Insulin Degludec: nueva indicación predicha, ooforitis autoinmune (autoimmune oophoritis) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Insulin Degludec: nueva indicación predicha, ooforitis autoinmune (autoimmune oophoritis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/insulin_human.md",
+      "date": "2026-11-19",
+      "from": "\"Insulin Human: nueva indicación predicha, ooforitis autoinmune (autoimmune oophoritis) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Insulin Human: nueva indicación predicha, ooforitis autoinmune (autoimmune oophoritis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 12 (en el listado vigente: 12)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/insulina_glargina.md",
+      "date": "2026-11-19",
+      "from": "\"Insulina Glargina: nueva indicación predicha, ooforitis autoinmune (autoimmune oophoritis) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Insulina Glargina: nueva indicación predicha, ooforitis autoinmune (autoimmune oophoritis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 3)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/isoxsuprina.md",
+      "date": "2026-11-19",
+      "from": "\"Isoxsuprina: nueva indicación predicha, hiperplasia prostática benigna (benign prostatic hyperplasia (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Isoxsuprina: nueva indicación predicha, hiperplasia prostática benigna (benign prostatic hyperplasia (disease)) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/itopride.md",
+      "date": "2026-11-19",
+      "from": "\"Itopride: nueva indicación predicha, Enfermedad de Crohn del intestino delgado (small bowel Crohn disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Itopride: nueva indicación predicha, Enfermedad de Crohn del intestino delgado (small bowel Crohn disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 12 (en el listado vigente: 12)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/itraconazol.md",
+      "date": "2026-11-19",
+      "from": "\"Itraconazol: nueva indicación predicha, Neumocistosis (pneumocystosis) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Itraconazol: nueva indicación predicha, Neumocistosis (pneumocystosis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 20 (en el listado vigente: 20)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ivermectina.md",
+      "date": "2026-11-19",
+      "from": "\"Ivermectina: nueva indicación predicha, candidiasis vulvovaginal (vulvovaginal candidiasis) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Ivermectina: nueva indicación predicha, candidiasis vulvovaginal (vulvovaginal candidiasis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 7 (en el listado vigente: 6)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ketoconazole.md",
+      "date": "2026-11-19",
+      "from": "\"Ketoconazole: nueva indicación predicha, acné (acne (disease)) (nivel de evidencia L4). Indicación original: No consta en los datos locales\"",
+      "to": "\"Ketoconazole: nueva indicación predicha, acné (acne (disease)) (nivel de evidencia L4). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/labetalol.md",
+      "date": "2026-11-19",
+      "from": "\"Labetalol: nueva indicación predicha, Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Labetalol: nueva indicación predicha, Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/lactulose.md",
+      "date": "2026-11-19",
+      "from": "\"Lactulose: nueva indicación predicha, Nefropatía aguda por uratos (acute urate nephropathy) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Lactulose: nueva indicación predicha, Nefropatía aguda por uratos (acute urate nephropathy) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 6 (en el listado vigente: 6)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/lamotrigina.md",
+      "date": "2026-11-19",
+      "from": "\"Lamotrigina: nueva indicación predicha, Neoplasia del nervio trigémino (trigeminal nerve neoplasm) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Lamotrigina: nueva indicación predicha, Neoplasia del nervio trigémino (trigeminal nerve neoplasm) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/lansoprazol.md",
+      "date": "2026-11-19",
+      "from": "\"Lansoprazol: nueva indicación predicha, obstrucción duodenal (duodenal obstruction) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Lansoprazol: nueva indicación predicha, obstrucción duodenal (duodenal obstruction) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/latanoprost.md",
+      "date": "2026-11-19",
+      "from": "\"Latanoprost: nueva indicación predicha, calcifilaxia visceral (visceral calciphylaxis) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Latanoprost: nueva indicación predicha, calcifilaxia visceral (visceral calciphylaxis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 14 (en el listado vigente: 14)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/leflunomida.md",
+      "date": "2026-11-19",
+      "from": "\"Leflunomida: nueva indicación predicha, síndrome de braquidactilia-sindactilia (brachydactyly-syndactyly syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Leflunomida: nueva indicación predicha, síndrome de braquidactilia-sindactilia (brachydactyly-syndactyly syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 8 (en el listado vigente: 8)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/levetiracetam.md",
+      "date": "2026-11-19",
+      "from": "\"Levetiracetam: nueva indicación predicha, Déficit de beta-cetotiolasa (beta-ketothiolase deficiency) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Levetiracetam: nueva indicación predicha, Déficit de beta-cetotiolasa (beta-ketothiolase deficiency) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/levocetirizina.md",
+      "date": "2026-11-19",
+      "from": "\"Levocetirizina: nueva indicación predicha, artritis reumatoide (rheumatoid arthritis) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Levocetirizina: nueva indicación predicha, artritis reumatoide (rheumatoid arthritis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 10 (en el listado vigente: 3)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/levodopa.md",
+      "date": "2026-11-19",
+      "from": "\"Levodopa: nueva indicación predicha, Encefalitis subaguda de Rasmussen (Rasmussen subacute encephalitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Levodopa: nueva indicación predicha, Encefalitis subaguda de Rasmussen (Rasmussen subacute encephalitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/levonorgestrel.md",
+      "date": "2026-11-19",
+      "from": "\"Levonorgestrel: nueva indicación predicha, Acné (acne (disease)) (nivel de evidencia L2). Indicación original: No consta en los datos locales\"",
+      "to": "\"Levonorgestrel: nueva indicación predicha, Acné (acne (disease)) (nivel de evidencia L2). En Argentina, productos en el listado de PAMI: 13 (en el listado vigente: 13)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/levotiroxina.md",
+      "date": "2026-11-19",
+      "from": "\"Levotiroxina: nueva indicación predicha, hipodisplasia/aplasia renal (renal hypodysplasia/aplasia) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Levotiroxina: nueva indicación predicha, hipodisplasia/aplasia renal (renal hypodysplasia/aplasia) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/lincomycin.md",
+      "date": "2026-11-19",
+      "from": "\"Lincomycin: nueva indicación predicha, hiperamilasemia (hyperamylasemia) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Lincomycin: nueva indicación predicha, hiperamilasemia (hyperamylasemia) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/liotironina.md",
+      "date": "2026-11-19",
+      "from": "\"Liotironina: nueva indicación predicha, hipodisplasia/aplasia renal (renal hypodysplasia/aplasia) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Liotironina: nueva indicación predicha, hipodisplasia/aplasia renal (renal hypodysplasia/aplasia) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/loperamida.md",
+      "date": "2026-11-19",
+      "from": "\"Loperamida: nueva indicación predicha, conjuntivitis contagiosa aguda (acute contagious conjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Loperamida: nueva indicación predicha, conjuntivitis contagiosa aguda (acute contagious conjunctivitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/lorazepam.md",
+      "date": "2026-11-19",
+      "from": "\"Lorazepam: nueva indicación predicha, Neoplasia del nervio trigémino (trigeminal nerve neoplasm) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Lorazepam: nueva indicación predicha, Neoplasia del nervio trigémino (trigeminal nerve neoplasm) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/lornoxicam.md",
+      "date": "2026-11-19",
+      "from": "\"Lornoxicam: nueva indicación predicha, trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Lornoxicam: nueva indicación predicha, trastorno de migraña (migraine disorder) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/mazindol.md",
+      "date": "2026-11-19",
+      "from": "\"Mazindol: nueva indicación predicha, hipervitaminosis (hypervitaminosis) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Mazindol: nueva indicación predicha, hipervitaminosis (hypervitaminosis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/mebendazol.md",
+      "date": "2026-11-19",
+      "from": "\"Mebendazol: nueva indicación predicha, acné (acne (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Mebendazol: nueva indicación predicha, acné (acne (disease)) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 11 (en el listado vigente: 11)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/medroxiprogesterona.md",
+      "date": "2026-11-19",
+      "from": "\"Medroxiprogesterona: nueva indicación predicha, Enfermedad fibroquística de la mama (breast fibrocystic disease) (nivel de evidencia L3). Indicación original: No consta en los datos locales\"",
+      "to": "\"Medroxiprogesterona: nueva indicación predicha, Enfermedad fibroquística de la mama (breast fibrocystic disease) (nivel de evidencia L3). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/memantine.md",
+      "date": "2026-11-19",
+      "from": "\"Memantine: nueva indicación predicha, hipertensión pulmonar (pulmonary hypertension) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Memantine: nueva indicación predicha, hipertensión pulmonar (pulmonary hypertension) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/metformina.md",
+      "date": "2026-11-19",
+      "from": "\"Metformina: nueva indicación predicha, síndrome de rigidez focal de las extremidades (focal stiff limb syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Metformina: nueva indicación predicha, síndrome de rigidez focal de las extremidades (focal stiff limb syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/metilfenidato.md",
+      "date": "2026-11-19",
+      "from": "\"Metilfenidato: nueva indicación predicha, Síndrome faciodigitogenital (faciodigitogenital syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Metilfenidato: nueva indicación predicha, Síndrome faciodigitogenital (faciodigitogenital syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 17 (en el listado vigente: 17)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/metoclopramida.md",
+      "date": "2026-11-19",
+      "from": "\"Metoclopramida: nueva indicación predicha, Gastroduodenitis (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Metoclopramida: nueva indicación predicha, Gastroduodenitis (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 19 (en el listado vigente: 19)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/metoprolol.md",
+      "date": "2026-11-19",
+      "from": "\"Metoprolol: nueva indicación predicha, enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Metoprolol: nueva indicación predicha, enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/metotrexato.md",
+      "date": "2026-11-19",
+      "from": "\"Metotrexato: nueva indicación predicha, Blastoma pulmonar (pulmonary blastoma) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Metotrexato: nueva indicación predicha, Blastoma pulmonar (pulmonary blastoma) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 14 (en el listado vigente: 14)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/metronidazol.md",
+      "date": "2026-11-19",
+      "from": "\"Metronidazol: nueva indicación predicha, neumocistosis (pneumocystosis) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Metronidazol: nueva indicación predicha, neumocistosis (pneumocystosis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/miconazol.md",
+      "date": "2026-11-19",
+      "from": "\"Miconazol: nueva indicación predicha, acné (acne (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Miconazol: nueva indicación predicha, acné (acne (disease)) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/midazolam.md",
+      "date": "2026-11-19",
+      "from": "\"Midazolam: nueva indicación predicha, insomnio (insomnia (disease)) (nivel de evidencia L3). Indicación original: No consta en los datos locales\"",
+      "to": "\"Midazolam: nueva indicación predicha, insomnio (insomnia (disease)) (nivel de evidencia L3). En Argentina, productos en el listado de PAMI: 5 (en el listado vigente: 5)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/minocycline.md",
+      "date": "2026-11-19",
+      "from": "\"Minocycline: nueva indicación predicha, queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Minocycline: nueva indicación predicha, queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 8 (en el listado vigente: 8)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/minoxidil.md",
+      "date": "2026-11-19",
+      "from": "\"Minoxidil: nueva indicación predicha, hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Minoxidil: nueva indicación predicha, hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/mirtazapina.md",
+      "date": "2026-11-19",
+      "from": "\"Mirtazapina: nueva indicación predicha, Síndrome de Ohdo y variantes (Ohdo syndrome and variants) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Mirtazapina: nueva indicación predicha, Síndrome de Ohdo y variantes (Ohdo syndrome and variants) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 7 (en el listado vigente: 7)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/modafinil.md",
+      "date": "2026-11-19",
+      "from": "\"Modafinil: nueva indicación predicha, insomnio (insomnia (disease)) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Modafinil: nueva indicación predicha, insomnio (insomnia (disease)) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 7 (en el listado vigente: 7)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/montelukast.md",
+      "date": "2026-11-19",
+      "from": "\"Montelukast: nueva indicación predicha, bronquitis (bronchitis) (nivel de evidencia L4). Indicación original: No consta en los datos locales\"",
+      "to": "\"Montelukast: nueva indicación predicha, bronquitis (bronchitis) (nivel de evidencia L4). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/morfina_clorhidrato.md",
+      "date": "2026-11-19",
+      "from": "\"Morfina Clorhidrato: nueva indicación predicha, síndrome de dolor miofascial (myofascial pain syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Morfina Clorhidrato: nueva indicación predicha, síndrome de dolor miofascial (myofascial pain syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 17 (en el listado vigente: 17)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/moxifloxacina.md",
+      "date": "2026-11-19",
+      "from": "\"Moxifloxacina: nueva indicación predicha, Síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Moxifloxacina: nueva indicación predicha, Síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 10 (en el listado vigente: 10)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/mupirocin.md",
+      "date": "2026-11-19",
+      "from": "\"Mupirocin: nueva indicación predicha, Empiema pleural (pleural empyema) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Mupirocin: nueva indicación predicha, Empiema pleural (pleural empyema) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 10 (en el listado vigente: 10)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/naproxeno.md",
+      "date": "2026-11-19",
+      "from": "\"Naproxeno: nueva indicación predicha, síndrome de braquidactilia-sindactilia (brachydactyly-syndactyly syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Naproxeno: nueva indicación predicha, síndrome de braquidactilia-sindactilia (brachydactyly-syndactyly syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/natamycin.md",
+      "date": "2026-11-19",
+      "from": "\"Natamycin: nueva indicación predicha, Vulvitis (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Natamycin: nueva indicación predicha, Vulvitis (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/nebivolol.md",
+      "date": "2026-11-19",
+      "from": "\"Nebivolol: nueva indicación predicha, enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Nebivolol: nueva indicación predicha, enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/nimodipina.md",
+      "date": "2026-11-19",
+      "from": "\"Nimodipina: nueva indicación predicha, hipercolesterolemia familiar homocigota (homozygous familial hypercholesterolemia) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Nimodipina: nueva indicación predicha, hipercolesterolemia familiar homocigota (homozygous familial hypercholesterolemia) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/nistatina.md",
+      "date": "2026-11-19",
+      "from": "\"Nistatina: nueva indicación predicha, enfermedad de la región orbitaria (disease of orbital region) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Nistatina: nueva indicación predicha, enfermedad de la región orbitaria (disease of orbital region) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 7 (en el listado vigente: 7)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/norfloxacina.md",
+      "date": "2026-11-19",
+      "from": "\"Norfloxacina: nueva indicación predicha, hiperamilasemia (hyperamylasemia) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Norfloxacina: nueva indicación predicha, hiperamilasemia (hyperamylasemia) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 20 (en el listado vigente: 20)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ofloxacin.md",
+      "date": "2026-11-19",
+      "from": "\"Ofloxacin: nueva indicación predicha, síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Ofloxacin: nueva indicación predicha, síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/olmesartan.md",
+      "date": "2026-11-19",
+      "from": "\"Olmesartan: nueva indicación predicha, Angina de Prinzmetal (Prinzmetal angina) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Olmesartan: nueva indicación predicha, Angina de Prinzmetal (Prinzmetal angina) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 7 (en el listado vigente: 7)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/omeprazol.md",
+      "date": "2026-11-19",
+      "from": "\"Omeprazol: nueva indicación predicha, obstrucción duodenal (duodenal obstruction) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Omeprazol: nueva indicación predicha, obstrucción duodenal (duodenal obstruction) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 11 (en el listado vigente: 11)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/oxcarbazepina.md",
+      "date": "2026-11-19",
+      "from": "\"Oxcarbazepina: nueva indicación predicha, Síndrome de piernas inquietas (restless legs syndrome) (nivel de evidencia L4). Indicación original: No consta en los datos locales\"",
+      "to": "\"Oxcarbazepina: nueva indicación predicha, Síndrome de piernas inquietas (restless legs syndrome) (nivel de evidencia L4). En Argentina, productos en el listado de PAMI: 13 (en el listado vigente: 13)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/oxibutinina.md",
+      "date": "2026-11-19",
+      "from": "\"Oxibutinina: nueva indicación predicha, Síndrome de piernas inquietas (restless legs syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Oxibutinina: nueva indicación predicha, Síndrome de piernas inquietas (restless legs syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 19 (en el listado vigente: 19)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/oxymetazoline.md",
+      "date": "2026-11-19",
+      "from": "\"Oxymetazoline: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Oxymetazoline: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/oxytetracycline.md",
+      "date": "2026-11-19",
+      "from": "\"Oxytetracycline: nueva indicación predicha, rinosinusitis crónica (chronic rhinosinusitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Oxytetracycline: nueva indicación predicha, rinosinusitis crónica (chronic rhinosinusitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/pantoprazol.md",
+      "date": "2026-11-19",
+      "from": "\"Pantoprazol: nueva indicación predicha, obstrucción duodenal (duodenal obstruction) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Pantoprazol: nueva indicación predicha, obstrucción duodenal (duodenal obstruction) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/paroxetina.md",
+      "date": "2026-11-19",
+      "from": "\"Paroxetina: nueva indicación predicha, Síndrome de Ohdo y variantes (Ohdo syndrome and variants) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Paroxetina: nueva indicación predicha, Síndrome de Ohdo y variantes (Ohdo syndrome and variants) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/perindopril.md",
+      "date": "2026-11-19",
+      "from": "\"Perindopril: nueva indicación predicha, enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Perindopril: nueva indicación predicha, enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 13 (en el listado vigente: 13)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/pheniramine.md",
+      "date": "2026-11-19",
+      "from": "\"Pheniramine: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Pheniramine: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 0)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/pioglitazona.md",
+      "date": "2026-11-19",
+      "from": "\"Pioglitazona: nueva indicación predicha, opsismodisplasia (opsismodysplasia) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Pioglitazona: nueva indicación predicha, opsismodisplasia (opsismodysplasia) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 12 (en el listado vigente: 12)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/podofilox.md",
+      "date": "2026-11-19",
+      "from": "\"Podofilox: nueva indicación predicha, candidiasis vulvovaginal (vulvovaginal candidiasis) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Podofilox: nueva indicación predicha, candidiasis vulvovaginal (vulvovaginal candidiasis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/prasterone.md",
+      "date": "2026-11-19",
+      "from": "\"Prasterone: nueva indicación predicha, Deficiencia del cofactor 2 de la heparina (heparin cofactor 2 deficiency) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Prasterone: nueva indicación predicha, Deficiencia del cofactor 2 de la heparina (heparin cofactor 2 deficiency) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/prasugrel.md",
+      "date": "2026-11-19",
+      "from": "\"Prasugrel: nueva indicación predicha, Hipertensión pulmonar (pulmonary hypertension) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Prasugrel: nueva indicación predicha, Hipertensión pulmonar (pulmonary hypertension) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 8 (en el listado vigente: 8)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/prednisolona.md",
+      "date": "2026-11-19",
+      "from": "\"Prednisolona: nueva indicación predicha, Alopecia areata (nivel de evidencia L2). Indicación original: No consta en los datos locales\"",
+      "to": "\"Prednisolona: nueva indicación predicha, Alopecia areata (nivel de evidencia L2). En Argentina, productos en el listado de PAMI: 9 (en el listado vigente: 9)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/prednisona.md",
+      "date": "2026-11-19",
+      "from": "\"Prednisona: nueva indicación predicha, Alopecia areata (nivel de evidencia L3). Indicación original: No consta en los datos locales\"",
+      "to": "\"Prednisona: nueva indicación predicha, Alopecia areata (nivel de evidencia L3). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/pregabalina.md",
+      "date": "2026-11-19",
+      "from": "\"Pregabalina: nueva indicación predicha, Tendinitis (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Pregabalina: nueva indicación predicha, Tendinitis (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/progesterona.md",
+      "date": "2026-11-19",
+      "from": "\"Progesterona: nueva indicación predicha, enfermedad fibroquística de la mama (breast fibrocystic disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Progesterona: nueva indicación predicha, enfermedad fibroquística de la mama (breast fibrocystic disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 11 (en el listado vigente: 11)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/propafenona.md",
+      "date": "2026-11-19",
+      "from": "\"Propafenona: nueva indicación predicha, trastorno afectivo bipolar maníaco (manic bipolar affective disorder) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Propafenona: nueva indicación predicha, trastorno afectivo bipolar maníaco (manic bipolar affective disorder) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/propranolol.md",
+      "date": "2026-11-19",
+      "from": "\"Propranolol: nueva indicación predicha, miopatía distal tipo Tateyama (distal myopathy, Tateyama type) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Propranolol: nueva indicación predicha, miopatía distal tipo Tateyama (distal myopathy, Tateyama type) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/pseudoephedrine.md",
+      "date": "2026-11-19",
+      "from": "\"Pseudoephedrine: nueva indicación predicha, enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Pseudoephedrine: nueva indicación predicha, enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/rasagilina.md",
+      "date": "2026-11-19",
+      "from": "\"Rasagilina: nueva indicación predicha, PLA2G6-associated neurodegeneration (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Rasagilina: nueva indicación predicha, PLA2G6-associated neurodegeneration (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 5 (en el listado vigente: 5)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/rifampicin.md",
+      "date": "2026-11-19",
+      "from": "\"Rifampicin: nueva indicación predicha, conjuntivitis (conjunctivitis) (nivel de evidencia L4). Indicación original: No consta en los datos locales\"",
+      "to": "\"Rifampicin: nueva indicación predicha, conjuntivitis (conjunctivitis) (nivel de evidencia L4). En Argentina, productos en el listado de PAMI: 6 (en el listado vigente: 6)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/rifaximin.md",
+      "date": "2026-11-19",
+      "from": "\"Rifaximin: nueva indicación predicha, Candidiasis oral (oral candidiasis) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Rifaximin: nueva indicación predicha, Candidiasis oral (oral candidiasis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/rivastigmina.md",
+      "date": "2026-11-19",
+      "from": "\"Rivastigmina: nueva indicación predicha, Glaucoma (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Rivastigmina: nueva indicación predicha, Glaucoma (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/salbutamol.md",
+      "date": "2026-11-19",
+      "from": "\"Salbutamol: nueva indicación predicha, conjuntivitis papilar (papillary conjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Salbutamol: nueva indicación predicha, conjuntivitis papilar (papillary conjunctivitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/salmeterol.md",
+      "date": "2026-11-19",
+      "from": "\"Salmeterol: nueva indicación predicha, malformación respiratoria (respiratory malformation) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Salmeterol: nueva indicación predicha, malformación respiratoria (respiratory malformation) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/sertralina.md",
+      "date": "2026-11-19",
+      "from": "\"Sertralina: nueva indicación predicha, trastorno de personalidad esquizoide (schizoid personality disorder) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Sertralina: nueva indicación predicha, trastorno de personalidad esquizoide (schizoid personality disorder) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/simvastatin.md",
+      "date": "2026-11-19",
+      "from": "\"Simvastatin: nueva indicación predicha, Infarto del tronco encefálico (brain stem infarction) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Simvastatin: nueva indicación predicha, Infarto del tronco encefálico (brain stem infarction) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/sucralfato.md",
+      "date": "2026-11-19",
+      "from": "\"Sucralfato: nueva indicación predicha, reflujo duodenogástrico (duodenogastric reflux) (nivel de evidencia L2). Indicación original: No consta en los datos locales\"",
+      "to": "\"Sucralfato: nueva indicación predicha, reflujo duodenogástrico (duodenogastric reflux) (nivel de evidencia L2). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/sulbactam.md",
+      "date": "2026-11-19",
+      "from": "\"Sulbactam: nueva indicación predicha, artritis bacteriana (bacterial arthritis) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Sulbactam: nueva indicación predicha, artritis bacteriana (bacterial arthritis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 9 (en el listado vigente: 9)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/sulfametoxazol.md",
+      "date": "2026-11-19",
+      "from": "\"Sulfametoxazol: nueva indicación predicha, Conjuntivitis contagiosa aguda (acute contagious conjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Sulfametoxazol: nueva indicación predicha, Conjuntivitis contagiosa aguda (acute contagious conjunctivitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 17 (en el listado vigente: 17)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/sulfasalazina.md",
+      "date": "2026-11-19",
+      "from": "\"Sulfasalazina: nueva indicación predicha, síndrome de braquidactilia-sindactilia (brachydactyly-syndactyly syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Sulfasalazina: nueva indicación predicha, síndrome de braquidactilia-sindactilia (brachydactyly-syndactyly syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/terazosin.md",
+      "date": "2026-11-19",
+      "from": "\"Terazosin: nueva indicación predicha, hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Terazosin: nueva indicación predicha, hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 18 (en el listado vigente: 18)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ticagrelor.md",
+      "date": "2026-11-19",
+      "from": "\"Ticagrelor: nueva indicación predicha, arteriosclerosis intracraneal (intracranial arteriosclerosis) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Ticagrelor: nueva indicación predicha, arteriosclerosis intracraneal (intracranial arteriosclerosis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/tinidazol.md",
+      "date": "2026-11-19",
+      "from": "\"Tinidazol: nueva indicación predicha, Vaginitis atrófica posmenopáusica (postmenopausal atrophic vaginitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Tinidazol: nueva indicación predicha, Vaginitis atrófica posmenopáusica (postmenopausal atrophic vaginitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 5 (en el listado vigente: 5)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/tioconazole.md",
+      "date": "2026-11-19",
+      "from": "\"Tioconazole: nueva indicación predicha, Vulvitis (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Tioconazole: nueva indicación predicha, Vulvitis (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/tiotropio.md",
+      "date": "2026-11-19",
+      "from": "\"Tiotropio: nueva indicación predicha, malformación respiratoria (respiratory malformation) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Tiotropio: nueva indicación predicha, malformación respiratoria (respiratory malformation) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/tobramicina.md",
+      "date": "2026-11-19",
+      "from": "\"Tobramicina: nueva indicación predicha, Queratitis por exposición (exposure keratitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Tobramicina: nueva indicación predicha, Queratitis por exposición (exposure keratitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/topiramato.md",
+      "date": "2026-11-19",
+      "from": "\"Topiramato: nueva indicación predicha, Neoplasia del nervio trigémino (trigeminal nerve neoplasm) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Topiramato: nueva indicación predicha, Neoplasia del nervio trigémino (trigeminal nerve neoplasm) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/travoprost.md",
+      "date": "2026-11-19",
+      "from": "\"Travoprost: nueva indicación predicha, calcifilaxis visceral (visceral calciphylaxis) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Travoprost: nueva indicación predicha, calcifilaxis visceral (visceral calciphylaxis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 8 (en el listado vigente: 8)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/trazodone.md",
+      "date": "2026-11-19",
+      "from": "\"Trazodone: nueva indicación predicha, Trastorno obsesivo-compulsivo (obsessive-compulsive disorder) (nivel de evidencia L2). Indicación original: No consta en los datos locales\"",
+      "to": "\"Trazodone: nueva indicación predicha, Trastorno obsesivo-compulsivo (obsessive-compulsive disorder) (nivel de evidencia L2). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/triamcinolone.md",
+      "date": "2026-11-19",
+      "from": "\"Triamcinolone: nueva indicación predicha, alopecia mucinosa (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Triamcinolone: nueva indicación predicha, alopecia mucinosa (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 5 (en el listado vigente: 5)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/trifluoperazina.md",
+      "date": "2026-11-19",
+      "from": "\"Trifluoperazina: nueva indicación predicha, Trastorno afectivo bipolar maníaco (manic bipolar affective disorder) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Trifluoperazina: nueva indicación predicha, Trastorno afectivo bipolar maníaco (manic bipolar affective disorder) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/tropicamida.md",
+      "date": "2026-11-19",
+      "from": "\"Tropicamida: nueva indicación predicha, síndrome de la cola de caballo (cauda equina syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Tropicamida: nueva indicación predicha, síndrome de la cola de caballo (cauda equina syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/vancomicina.md",
+      "date": "2026-11-19",
+      "from": "\"Vancomicina: nueva indicación predicha, Esclerodermia difusa (diffuse scleroderma) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Vancomicina: nueva indicación predicha, Esclerodermia difusa (diffuse scleroderma) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/verapamil.md",
+      "date": "2026-11-19",
+      "from": "\"Verapamil: nueva indicación predicha, Bloqueo de rama obsoleto (obsolete bundle branch block) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Verapamil: nueva indicación predicha, Bloqueo de rama obsoleto (obsolete bundle branch block) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/vilanterol.md",
+      "date": "2026-11-19",
+      "from": "\"Vilanterol: nueva indicación predicha, pulmón hiperlúcido (hyperlucent lung) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Vilanterol: nueva indicación predicha, pulmón hiperlúcido (hyperlucent lung) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 5 (en el listado vigente: 5)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/vildagliptin.md",
+      "date": "2026-11-19",
+      "from": "\"Vildagliptin: nueva indicación predicha, Síndrome de la persona rígida clásica (classic stiff person syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Vildagliptin: nueva indicación predicha, Síndrome de la persona rígida clásica (classic stiff person syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/warfarin.md",
+      "date": "2026-11-19",
+      "from": "\"Warfarin: nueva indicación predicha, Deficiencia del cofactor II de la heparina (heparin cofactor 2 deficiency) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Warfarin: nueva indicación predicha, Deficiencia del cofactor II de la heparina (heparin cofactor 2 deficiency) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ziprasidona.md",
+      "date": "2026-11-19",
+      "from": "\"Ziprasidona: nueva indicación predicha, tricotilomanía (trichotillomania) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Ziprasidona: nueva indicación predicha, tricotilomanía (trichotillomania) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    }
+  ]
+}

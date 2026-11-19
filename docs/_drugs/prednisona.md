@@ -9,7 +9,7 @@ drugbank_id: DB00635
 monitor_inn: "Prednisone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
 last_modified_at: 2026-11-16
-description: "Prednisona: nueva indicación predicha, Alopecia areata (nivel de evidencia L3). Indicación original: No consta en los datos locales"
+description: "Prednisona: nueva indicación predicha, Alopecia areata (nivel de evidencia L3). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)"
 ---
 
 # Prednisona

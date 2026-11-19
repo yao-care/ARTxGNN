@@ -8,7 +8,7 @@ indication_count: 2
 monitor_inn: "ALPRAZOLAM"
 predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy"]
 last_modified_at: 2026-11-04
-description: "Alprazolam: nueva indicación predicha, insomnio (insomnia (disease)) (nivel de evidencia L3). Indicación original: No consta en los datos locales"
+description: "Alprazolam: nueva indicación predicha, insomnio (insomnia (disease)) (nivel de evidencia L3). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
 # Alprazolam

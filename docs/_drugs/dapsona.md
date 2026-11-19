@@ -9,7 +9,7 @@ drugbank_id: DB00250
 monitor_inn: "Dapsone"
 predicted_indications: ["pneumocystosis"]
 last_modified_at: 2026-11-16
-description: "Dapsona: nueva indicación predicha, neumocistosis (pneumocystosis) (nivel de evidencia L1). Indicación original: No consta en los datos locales"
+description: "Dapsona: nueva indicación predicha, neumocistosis (pneumocystosis) (nivel de evidencia L1). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)"
 ---
 
 # Dapsona

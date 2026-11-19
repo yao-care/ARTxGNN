@@ -8,7 +8,7 @@ indication_count: 10
 monitor_inn: "glycerin"
 predicted_indications: ["cauda equina syndrome", "open-angle glaucoma", "primary hereditary glaucoma", "alopecia", "congenital hypotrichosis milia", "irritable bowel syndrome", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "migraine disorder", "migraine with brainstem aura"]
 last_modified_at: 2026-10-30
-description: "Glycerin: nueva indicación predicha, síndrome de la cola de caballo (cauda equina syndrome) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Glycerin: nueva indicación predicha, síndrome de la cola de caballo (cauda equina syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)"
 ---
 
 # Glycerin

@@ -9,7 +9,7 @@ drugbank_id: DB01367
 monitor_inn: "Rasagiline"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis"]
 last_modified_at: 2026-11-16
-description: "Rasagilina: nueva indicación predicha, PLA2G6-associated neurodegeneration (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Rasagilina: nueva indicación predicha, PLA2G6-associated neurodegeneration (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 5 (en el listado vigente: 5)"
 ---
 
 # Rasagilina

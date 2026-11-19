@@ -9,7 +9,7 @@ drugbank_id: DB00125
 monitor_inn: "Arginine"
 predicted_indications: ["gastroparesis (disease)"]
 last_modified_at: 2026-11-16
-description: "Arginina: nueva indicación predicha, Gastroparesia (gastroparesis (disease)) (nivel de evidencia L4). Indicación original: No consta en los datos locales"
+description: "Arginina: nueva indicación predicha, Gastroparesia (gastroparesis (disease)) (nivel de evidencia L4). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)"
 ---
 
 # Arginina

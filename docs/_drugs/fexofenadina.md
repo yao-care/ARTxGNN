@@ -9,7 +9,7 @@ drugbank_id: DB00950
 monitor_inn: "Fexofenadine"
 predicted_indications: ["rosacea conjunctivitis"]
 last_modified_at: 2026-11-17
-description: "Fexofenadina: nueva indicación predicha, conjuntivitis rosácea (rosacea conjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Fexofenadina: nueva indicación predicha, conjuntivitis rosácea (rosacea conjunctivitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
 # Fexofenadina

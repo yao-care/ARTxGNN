@@ -9,7 +9,7 @@ drugbank_id: DB00563
 monitor_inn: "Methotrexate"
 predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "Hodgkins lymphoma", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 last_modified_at: 2026-11-16
-description: "Metotrexato: nueva indicación predicha, Blastoma pulmonar (pulmonary blastoma) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Metotrexato: nueva indicación predicha, Blastoma pulmonar (pulmonary blastoma) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 14 (en el listado vigente: 14)"
 ---
 
 # Metotrexato

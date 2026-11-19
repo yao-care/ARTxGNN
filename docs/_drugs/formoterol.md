@@ -8,7 +8,7 @@ indication_count: 2
 monitor_inn: "FORMOTEROL"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
 last_modified_at: 2026-11-03
-description: "Formoterol: nueva indicación predicha, malformación respiratoria (respiratory malformation) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
+description: "Formoterol: nueva indicación predicha, malformación respiratoria (respiratory malformation) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
 # Formoterol
