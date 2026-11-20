@@ -2468,9 +2468,9 @@
    "drug": "diazepam",
    "file": "diazepam.md",
    "action": "mechanism",
-   "claim": "Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la fuente de datos de fármacos.",
-   "replacement": "Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Diazepam (traducción no oficial): «Se cree que el mecanismo de acción del diazepam en las indicaciones enumeradas implica la potenciación del ácido gamma-aminobutírico (GABA), un neurotransmisor inhibidor, como resultado de la unión al sitio de las benzodiazepinas del receptor GABA A.» Texto original en inglés: \"The mechanism of action of diazepam for the listed indications is thought to involve potentiation of gamma aminobutyric acid (GABA), an inhibitory neurotransmitter, resulting from binding at the benzodiazepine site of the GABA A receptor.\" ([DailyMed: Valium (diazepam) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=260e2041-2bb3-482f-850e-b5d47a7bdbe6), versión del 2026-10-06; consultado el 2026-11-19).",
-   "summary": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU.",
+   "claim": "Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la fuente de datos de fármacos. La descripción anterior corresponde a la farmacología conocida de la clase.",
+   "replacement": "La descripción anterior corresponde a la farmacología conocida de la clase. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Diazepam (traducción no oficial): «Se cree que el mecanismo de acción del diazepam en las indicaciones enumeradas implica la potenciación del ácido gamma-aminobutírico (GABA), un neurotransmisor inhibidor, como resultado de la unión al sitio de las benzodiazepinas del receptor GABA A.» Texto original en inglés: \"The mechanism of action of diazepam for the listed indications is thought to involve potentiation of gamma aminobutyric acid (GABA), an inhibitory neurotransmitter, resulting from binding at the benzodiazepine site of the GABA A receptor.\" ([DailyMed: Valium (diazepam) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=260e2041-2bb3-482f-850e-b5d47a7bdbe6), versión del 2026-10-06; consultado el 2026-11-19).",
+   "summary": "\"Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la fuente de datos de fármacos. La descripción anterior corresponde a la farmacología conocida de la clase\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
     {
@@ -2487,8 +2487,39 @@
      "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "ar-moa-20261119-diazepam-1",
+     "drug": "diazepam",
+     "file": "diazepam.md",
+     "action": "mechanism",
+     "claim": "Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la fuente de datos de fármacos.",
+     "replacement": "Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Diazepam (traducción no oficial): «Se cree que el mecanismo de acción del diazepam en las indicaciones enumeradas implica la potenciación del ácido gamma-aminobutírico (GABA), un neurotransmisor inhibidor, como resultado de la unión al sitio de las benzodiazepinas del receptor GABA A.» Texto original en inglés: \"The mechanism of action of diazepam for the listed indications is thought to involve potentiation of gamma aminobutyric acid (GABA), an inhibitory neurotransmitter, resulting from binding at the benzodiazepine site of the GABA A receptor.\" ([DailyMed: Valium (diazepam) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=260e2041-2bb3-482f-850e-b5d47a7bdbe6), versión del 2026-10-06; consultado el 2026-11-19).",
+     "summary": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU.",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Valium (diazepam) prescribing information, Waylis Therapeutics LLC",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=260e2041-2bb3-482f-850e-b5d47a7bdbe6",
+       "accessed": "2026-11-19",
+       "excerpt": "The mechanism of action of diazepam for the listed indications is thought to involve potentiation of gamma aminobutyric acid (GABA), an inhibitory neurotransmitter, resulting from binding at the benzodiazepine site of the GABA A receptor.",
+       "label_version": "2026-10-06",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "260e2041-2bb3-482f-850e-b5d47a7bdbe6",
+       "translation": "Se cree que el mecanismo de acción del diazepam en las indicaciones enumeradas implica la potenciación del ácido gamma-aminobutírico (GABA), un neurotransmisor inhibidor, como resultado de la unión al sitio de las benzodiazepinas del receptor GABA A.",
+       "translation_lang": "es",
+       "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "ar-moa-20261119-diazoxide-1",
