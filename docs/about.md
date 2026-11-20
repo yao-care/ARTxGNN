@@ -53,6 +53,14 @@ evaluar rápidamente qué tan creíble es cada predicción.
 
 ---
 
+## ¿Los datos son abiertos y gratuitos?
+
+<p class="key-answer" data-question="¿Hay datos abiertos de predicciones de reposicionamiento de medicamentos que se puedan descargar gratis?">
+Sí. Todas las predicciones de reposicionamiento de medicamentos de ARTxGNN y la evidencia clínica que las acompaña son datos abiertos: se publican gratuitamente en el sitio y como conjuntos de datos descargables, sin coste. Vea <a href="{{ '/sources/' | relative_url }}">Fuentes de Datos</a> para las licencias y formatos de descarga, y el repositorio público en <a href="https://github.com/yao-care/ARTxGNN">GitHub</a> para el código y los datos estructurados.
+</p>
+
+---
+
 <!-- local-condensed:start（母目錄 .claude/gen_local_pages_20261119.py；原共用段落縮寫，勿手改）-->
 ## Acerca del Desarrollador
 
