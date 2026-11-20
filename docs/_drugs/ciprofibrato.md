@@ -56,7 +56,7 @@ El modelo TxGNN predice que podría ser efectivo para **deficiencia de la prote�
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Ciprofibrato es (traducción no oficial): «Agonista del receptor alfa activado por proliferadores de peroxisomas» Texto original en inglés: "Peroxisome proliferator-activated receptor alpha agonist" ([ChEMBL CHEMBL557555 (ciprofibrate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL557555), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, el ciprofibrato pertenece a la clase de los fibratos, agonistas de PPAR-alfa, que reducen los triglicéridos y elevan el colesterol HDL.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Ciprofibrato es (traducción no oficial): «Agonista del receptor alfa activado por proliferadores de peroxisomas». Texto original en inglés: "Peroxisome proliferator-activated receptor alpha agonist" ([ChEMBL CHEMBL557555 (ciprofibrate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL557555), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, el ciprofibrato pertenece a la clase de los fibratos, agonistas de PPAR-alfa, que reducen los triglicéridos y elevan el colesterol HDL.
 
 La deficiencia de la proteína de transferencia de ésteres de colesterol se caracteriza por niveles muy elevados de colesterol HDL. Por ello, un fármaco que modula los lípidos tiene una conexión biológica plausible con la vía del HDL. Sin embargo, esta condición es genética y suele ser benigna, incluso asociada a longevidad, por lo que no está claro qué beneficio terapéutico se buscaría.
 
@@ -108,7 +108,7 @@ A continuación, el registro de verificación de esta página. La frase que indi
 
 | Fecha de verificación | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL557555 (ciprofibrate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL557555) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; versión anterior conservada en el registro) | [ChEMBL CHEMBL557555 (ciprofibrate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL557555) |
 
 <!-- review:end log -->
 

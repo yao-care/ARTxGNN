@@ -792,7 +792,7 @@
    "file": "agomelatina.md",
    "action": "mechanism",
    "claim": "Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe.",
-   "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Agomelatina es (traducción no oficial): «Agonista de los receptores de melatonina; antagonista del receptor de serotonina 2c (5-HT2c)» Texto original en inglés: \"Melatonin receptor agonist; Serotonin 2c (5-HT2c) receptor antagonist\" ([ChEMBL CHEMBL10878 (agomelatine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL10878), CC BY-SA 3.0; consultado el 2026-11-19).",
+   "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Agomelatina es (traducción no oficial): «Agonista de los receptores de melatonina; antagonista del receptor de serotonina 2c (5-HT2c)». Texto original en inglés: \"Melatonin receptor agonist; Serotonin 2c (5-HT2c) receptor antagonist\" ([ChEMBL CHEMBL10878 (agomelatine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL10878), CC BY-SA 3.0; consultado el 2026-11-19).",
    "summary": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU.",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -809,7 +809,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Agomelatina es (traducción no oficial): «Agonista de los receptores de melatonina; antagonista del receptor de serotonina 2c (5-HT2c)» Texto original en inglés: \"Melatonin receptor agonist; Serotonin 2c (5-HT2c) receptor antagonist\" ([ChEMBL CHEMBL10878 (agomelatine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL10878), CC BY-SA 3.0; consultado el 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "ar-moa-20261119-alfuzosina_clorh-1",
@@ -1303,7 +1310,7 @@
    "file": "bencidamina.md",
    "action": "mechanism",
    "claim": "Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco.",
-   "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Bencidamina es (traducción no oficial): «Inhibidor de la ciclooxigenasa» Texto original en inglés: \"Cyclooxygenase inhibitor\" ([ChEMBL CHEMBL12610 (benzydamine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL12610), CC BY-SA 3.0; consultado el 2026-11-19).",
+   "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Bencidamina es (traducción no oficial): «Inhibidor de la ciclooxigenasa». Texto original en inglés: \"Cyclooxygenase inhibitor\" ([ChEMBL CHEMBL12610 (benzydamine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL12610), CC BY-SA 3.0; consultado el 2026-11-19).",
    "summary": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU.",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -1320,7 +1327,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Bencidamina es (traducción no oficial): «Inhibidor de la ciclooxigenasa» Texto original en inglés: \"Cyclooxygenase inhibitor\" ([ChEMBL CHEMBL12610 (benzydamine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL12610), CC BY-SA 3.0; consultado el 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "ar-moa-20261119-benznidazol-1",
@@ -1436,7 +1450,7 @@
    "file": "bromazepam.md",
    "action": "mechanism",
    "claim": "Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco.",
-   "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Bromazepam es (traducción no oficial): «Modulador alostérico positivo de la subunidad alfa-2 del receptor GABA» Texto original en inglés: \"GABA receptor alpha-2 subunit positive allosteric modulator\" ([ChEMBL CHEMBL277062 (bromazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL277062), CC BY-SA 3.0; consultado el 2026-11-19).",
+   "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Bromazepam es (traducción no oficial): «Modulador alostérico positivo de la subunidad alfa-2 del receptor GABA». Texto original en inglés: \"GABA receptor alpha-2 subunit positive allosteric modulator\" ([ChEMBL CHEMBL277062 (bromazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL277062), CC BY-SA 3.0; consultado el 2026-11-19).",
    "summary": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU.",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -1453,7 +1467,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Bromazepam es (traducción no oficial): «Modulador alostérico positivo de la subunidad alfa-2 del receptor GABA» Texto original en inglés: \"GABA receptor alpha-2 subunit positive allosteric modulator\" ([ChEMBL CHEMBL277062 (bromazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL277062), CC BY-SA 3.0; consultado el 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "ar-moa-20261119-bromfenac-1",
@@ -1866,7 +1887,7 @@
    "file": "ciprofibrato.md",
    "action": "mechanism",
    "claim": "Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe.",
-   "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Ciprofibrato es (traducción no oficial): «Agonista del receptor alfa activado por proliferadores de peroxisomas» Texto original en inglés: \"Peroxisome proliferator-activated receptor alpha agonist\" ([ChEMBL CHEMBL557555 (ciprofibrate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL557555), CC BY-SA 3.0; consultado el 2026-11-19).",
+   "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Ciprofibrato es (traducción no oficial): «Agonista del receptor alfa activado por proliferadores de peroxisomas». Texto original en inglés: \"Peroxisome proliferator-activated receptor alpha agonist\" ([ChEMBL CHEMBL557555 (ciprofibrate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL557555), CC BY-SA 3.0; consultado el 2026-11-19).",
    "summary": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU.",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -1883,7 +1904,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Ciprofibrato es (traducción no oficial): «Agonista del receptor alfa activado por proliferadores de peroxisomas» Texto original en inglés: \"Peroxisome proliferator-activated receptor alpha agonist\" ([ChEMBL CHEMBL557555 (ciprofibrate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL557555), CC BY-SA 3.0; consultado el 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "ar-moa-20261119-ciprofloxacina-1",
@@ -2350,7 +2378,7 @@
    "file": "desogestrel.md",
    "action": "mechanism",
    "claim": "Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada.",
-   "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Desogestrel es (traducción no oficial): «Agonista del receptor de progesterona» Texto original en inglés: \"Progesterone receptor agonist\" ([ChEMBL CHEMBL1533 (desogestrel): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1533), CC BY-SA 3.0; consultado el 2026-11-19).",
+   "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Desogestrel es (traducción no oficial): «Agonista del receptor de progesterona». Texto original en inglés: \"Progesterone receptor agonist\" ([ChEMBL CHEMBL1533 (desogestrel): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1533), CC BY-SA 3.0; consultado el 2026-11-19).",
    "summary": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU.",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -2367,7 +2395,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Desogestrel es (traducción no oficial): «Agonista del receptor de progesterona» Texto original en inglés: \"Progesterone receptor agonist\" ([ChEMBL CHEMBL1533 (desogestrel): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1533), CC BY-SA 3.0; consultado el 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "ar-moa-20261119-desvenlafaxina-1",
@@ -2402,7 +2437,7 @@
    "file": "dexketoprofen.md",
    "action": "mechanism",
    "claim": "Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este reporte.",
-   "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Dexketoprofen es (traducción no oficial): «Inhibidor de la ciclooxigenasa» Texto original en inglés: \"Cyclooxygenase inhibitor\" ([ChEMBL CHEMBL75435 (dexketoprofen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL75435), CC BY-SA 3.0; consultado el 2026-11-19).",
+   "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Dexketoprofen es (traducción no oficial): «Inhibidor de la ciclooxigenasa». Texto original en inglés: \"Cyclooxygenase inhibitor\" ([ChEMBL CHEMBL75435 (dexketoprofen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL75435), CC BY-SA 3.0; consultado el 2026-11-19).",
    "summary": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU.",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -2419,7 +2454,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Dexketoprofen es (traducción no oficial): «Inhibidor de la ciclooxigenasa» Texto original en inglés: \"Cyclooxygenase inhibitor\" ([ChEMBL CHEMBL75435 (dexketoprofen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL75435), CC BY-SA 3.0; consultado el 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "ar-moa-20261119-diazepam-1",
@@ -2508,7 +2550,7 @@
    "file": "dienogest.md",
    "action": "mechanism",
    "claim": "Actualmente no se dispone de datos detallados sobre el mecanismo de acción.",
-   "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Dienogest es (traducción no oficial): «Desconocido» Texto original en inglés: \"Unknown\" ([ChEMBL CHEMBL1201864 (dienogest): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201864), CC BY-SA 3.0; consultado el 2026-11-19).",
+   "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Dienogest es (traducción no oficial): «Desconocido». Texto original en inglés: \"Unknown\" ([ChEMBL CHEMBL1201864 (dienogest): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201864), CC BY-SA 3.0; consultado el 2026-11-19).",
    "summary": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU.",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -2525,7 +2567,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Dienogest es (traducción no oficial): «Desconocido» Texto original en inglés: \"Unknown\" ([ChEMBL CHEMBL1201864 (dienogest): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201864), CC BY-SA 3.0; consultado el 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "ar-moa-20261119-digoxina-1",
@@ -2587,7 +2636,7 @@
    "file": "diosmin.md",
    "action": "mechanism",
    "claim": "Actualmente no se dispone de datos detallados sobre el mecanismo de acción ni sobre las indicaciones originales aprobadas.",
-   "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Diosmin es (traducción no oficial): «Desconocido» Texto original en inglés: \"Unknown\" ([ChEMBL CHEMBL231884 (diosmin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL231884), CC BY-SA 3.0; consultado el 2026-11-19).",
+   "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Diosmin es (traducción no oficial): «Desconocido». Texto original en inglés: \"Unknown\" ([ChEMBL CHEMBL231884 (diosmin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL231884), CC BY-SA 3.0; consultado el 2026-11-19).",
    "summary": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU.",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -2604,7 +2653,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Diosmin es (traducción no oficial): «Desconocido» Texto original en inglés: \"Unknown\" ([ChEMBL CHEMBL231884 (diosmin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL231884), CC BY-SA 3.0; consultado el 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "ar-moa-20261119-donepezil-1",
@@ -3044,7 +3100,7 @@
    "file": "etoricoxib.md",
    "action": "mechanism",
    "claim": "Actualmente no se dispone de datos detallados del mecanismo de acción en la base de datos consultada, pero el objetivo farmacológico registrado es la COX-2 (gen PTGS2), lo que concuerda con esta clase de fármacos.",
-   "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Etoricoxib es (traducción no oficial): «Inhibidor de la ciclooxigenasa-2» Texto original en inglés: \"Cyclooxygenase-2 inhibitor\" ([ChEMBL CHEMBL416146 (etoricoxib): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416146), CC BY-SA 3.0; consultado el 2026-11-19).",
+   "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Etoricoxib es (traducción no oficial): «Inhibidor de la ciclooxigenasa-2». Texto original en inglés: \"Cyclooxygenase-2 inhibitor\" ([ChEMBL CHEMBL416146 (etoricoxib): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416146), CC BY-SA 3.0; consultado el 2026-11-19).",
    "summary": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU.",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -3061,7 +3117,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Etoricoxib es (traducción no oficial): «Inhibidor de la ciclooxigenasa-2» Texto original en inglés: \"Cyclooxygenase-2 inhibitor\" ([ChEMBL CHEMBL416146 (etoricoxib): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416146), CC BY-SA 3.0; consultado el 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "ar-moa-20261119-ezetimibe-1",
@@ -3204,7 +3267,7 @@
    "file": "fenoterol.md",
    "action": "mechanism",
    "claim": "Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados.",
-   "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Fenoterol es (traducción no oficial): «Agonista de los receptores adrenérgicos beta-2» Texto original en inglés: \"Beta-2 adrenergic receptor agonist\" ([ChEMBL CHEMBL32800 (fenoterol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL32800), CC BY-SA 3.0; consultado el 2026-11-19).",
+   "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Fenoterol es (traducción no oficial): «Agonista de los receptores adrenérgicos beta-2». Texto original en inglés: \"Beta-2 adrenergic receptor agonist\" ([ChEMBL CHEMBL32800 (fenoterol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL32800), CC BY-SA 3.0; consultado el 2026-11-19).",
    "summary": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU.",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -3221,7 +3284,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Fenoterol es (traducción no oficial): «Agonista de los receptores adrenérgicos beta-2» Texto original en inglés: \"Beta-2 adrenergic receptor agonist\" ([ChEMBL CHEMBL32800 (fenoterol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL32800), CC BY-SA 3.0; consultado el 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "ar-moa-20261119-finasteride-1",
@@ -3715,7 +3785,7 @@
    "file": "idebenone.md",
    "action": "mechanism",
    "claim": "Actualmente no se dispone de datos detallados sobre el mecanismo de acción de idebenona en la información compilada.",
-   "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Idebenone es (traducción no oficial): «Antioxidante y transportador de electrones mitocondrial» Texto original en inglés: \"Antioxidant and mitochondrial electron carrier\" ([ChEMBL CHEMBL252556 (idebenone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL252556), CC BY-SA 3.0; consultado el 2026-11-19).",
+   "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Idebenone es (traducción no oficial): «Antioxidante y transportador de electrones mitocondrial». Texto original en inglés: \"Antioxidant and mitochondrial electron carrier\" ([ChEMBL CHEMBL252556 (idebenone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL252556), CC BY-SA 3.0; consultado el 2026-11-19).",
    "summary": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU.",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -3732,7 +3802,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Idebenone es (traducción no oficial): «Antioxidante y transportador de electrones mitocondrial» Texto original en inglés: \"Antioxidant and mitochondrial electron carrier\" ([ChEMBL CHEMBL252556 (idebenone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL252556), CC BY-SA 3.0; consultado el 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "ar-moa-20261119-idoxuridina-1",
@@ -3740,7 +3817,7 @@
    "file": "idoxuridina.md",
    "action": "mechanism",
    "claim": "Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe.",
-   "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Idoxuridina es (traducción no oficial): «Inhibidor del ADN» Texto original en inglés: \"DNA inhibitor\" ([ChEMBL CHEMBL788 (idoxuridine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL788), CC BY-SA 3.0; consultado el 2026-11-19).",
+   "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Idoxuridina es (traducción no oficial): «Inhibidor del ADN». Texto original en inglés: \"DNA inhibitor\" ([ChEMBL CHEMBL788 (idoxuridine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL788), CC BY-SA 3.0; consultado el 2026-11-19).",
    "summary": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU.",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -3757,7 +3834,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Idoxuridina es (traducción no oficial): «Inhibidor del ADN» Texto original en inglés: \"DNA inhibitor\" ([ChEMBL CHEMBL788 (idoxuridine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL788), CC BY-SA 3.0; consultado el 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "ar-moa-20261119-imipenem-1",
@@ -3765,7 +3849,7 @@
    "file": "imipenem.md",
    "action": "mechanism",
    "claim": "Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe.",
-   "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Imipenem es (traducción no oficial): «Inhibidor de las proteínas bacterianas de unión a penicilina» Texto original en inglés: \"Bacterial penicillin-binding protein inhibitor\" ([ChEMBL CHEMBL43708 (imipenem): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL43708), CC BY-SA 3.0; consultado el 2026-11-19).",
+   "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Imipenem es (traducción no oficial): «Inhibidor de las proteínas bacterianas de unión a penicilina». Texto original en inglés: \"Bacterial penicillin-binding protein inhibitor\" ([ChEMBL CHEMBL43708 (imipenem): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL43708), CC BY-SA 3.0; consultado el 2026-11-19).",
    "summary": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU.",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -3782,7 +3866,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Imipenem es (traducción no oficial): «Inhibidor de las proteínas bacterianas de unión a penicilina» Texto original en inglés: \"Bacterial penicillin-binding protein inhibitor\" ([ChEMBL CHEMBL43708 (imipenem): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL43708), CC BY-SA 3.0; consultado el 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "ar-moa-20261119-insulin_degludec-1",
@@ -4330,7 +4421,7 @@
    "file": "loxoprofen.md",
    "action": "mechanism",
    "claim": "Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe.",
-   "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Loxoprofen es (traducción no oficial): «Inhibidor de la ciclooxigenasa» Texto original en inglés: \"Cyclooxygenase inhibitor\" ([ChEMBL CHEMBL19299 (loxoprofen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL19299), CC BY-SA 3.0; consultado el 2026-11-19).",
+   "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Loxoprofen es (traducción no oficial): «Inhibidor de la ciclooxigenasa». Texto original en inglés: \"Cyclooxygenase inhibitor\" ([ChEMBL CHEMBL19299 (loxoprofen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL19299), CC BY-SA 3.0; consultado el 2026-11-19).",
    "summary": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU.",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -4347,7 +4438,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Loxoprofen es (traducción no oficial): «Inhibidor de la ciclooxigenasa» Texto original en inglés: \"Cyclooxygenase inhibitor\" ([ChEMBL CHEMBL19299 (loxoprofen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL19299), CC BY-SA 3.0; consultado el 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "ar-moa-20261119-mazindol-1",
@@ -4355,7 +4453,7 @@
    "file": "mazindol.md",
    "action": "mechanism",
    "claim": "Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe.",
-   "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Mazindol es (traducción no oficial): «Inhibidor de los transportadores de monoaminas» Texto original en inglés: \"Monoamine transporter inhibitor\" ([ChEMBL CHEMBL781 (mazindol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL781), CC BY-SA 3.0; consultado el 2026-11-19).",
+   "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Mazindol es (traducción no oficial): «Inhibidor de los transportadores de monoaminas». Texto original en inglés: \"Monoamine transporter inhibitor\" ([ChEMBL CHEMBL781 (mazindol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL781), CC BY-SA 3.0; consultado el 2026-11-19).",
    "summary": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU.",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -4372,7 +4470,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Mazindol es (traducción no oficial): «Inhibidor de los transportadores de monoaminas» Texto original en inglés: \"Monoamine transporter inhibitor\" ([ChEMBL CHEMBL781 (mazindol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL781), CC BY-SA 3.0; consultado el 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "ar-moa-20261119-mebendazol-1",
@@ -4623,7 +4728,7 @@
    "file": "minoxidil.md",
    "action": "mechanism",
    "claim": "Actualmente no se dispone de datos detallados del mecanismo de acción en la información compilada para este informe.",
-   "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Minoxidil es (traducción no oficial): «Abridor del receptor de sulfonilurea 2, Kir6.2» Texto original en inglés: \"Sulfonylurea receptor 2, Kir6.2 opener\" ([ChEMBL CHEMBL802 (minoxidil): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL802), CC BY-SA 3.0; consultado el 2026-11-19).",
+   "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Minoxidil es (traducción no oficial): «Abridor del receptor de sulfonilurea 2, Kir6.2». Texto original en inglés: \"Sulfonylurea receptor 2, Kir6.2 opener\" ([ChEMBL CHEMBL802 (minoxidil): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL802), CC BY-SA 3.0; consultado el 2026-11-19).",
    "summary": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU.",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -4640,7 +4745,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Minoxidil es (traducción no oficial): «Abridor del receptor de sulfonilurea 2, Kir6.2» Texto original en inglés: \"Sulfonylurea receptor 2, Kir6.2 opener\" ([ChEMBL CHEMBL802 (minoxidil): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL802), CC BY-SA 3.0; consultado el 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "ar-moa-20261119-mirtazapina-1",
@@ -4864,7 +4976,7 @@
    "file": "natamycin.md",
    "action": "mechanism",
    "claim": "Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada.",
-   "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Natamycin es (traducción no oficial): «Agente secuestrante de ergosterol» Texto original en inglés: \"Ergosterol sequestering agent\" ([ChEMBL CHEMBL1200656 (natamycin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200656), CC BY-SA 3.0; consultado el 2026-11-19).",
+   "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Natamycin es (traducción no oficial): «Agente secuestrante de ergosterol». Texto original en inglés: \"Ergosterol sequestering agent\" ([ChEMBL CHEMBL1200656 (natamycin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200656), CC BY-SA 3.0; consultado el 2026-11-19).",
    "summary": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU.",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -4881,7 +4993,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Natamycin es (traducción no oficial): «Agente secuestrante de ergosterol» Texto original en inglés: \"Ergosterol sequestering agent\" ([ChEMBL CHEMBL1200656 (natamycin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200656), CC BY-SA 3.0; consultado el 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "ar-moa-20261119-nebivolol-1",
@@ -4997,7 +5116,7 @@
    "file": "norfloxacina.md",
    "action": "mechanism",
    "claim": "Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe.",
-   "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Norfloxacina es (traducción no oficial): «Inhibidor de la topoisomerasa IV; inhibidor de la ADN girasa bacteriana» Texto original en inglés: \"Topoisomerase IV inhibitor; Bacterial DNA gyrase inhibitor\" ([ChEMBL CHEMBL9 (norfloxacin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL9), CC BY-SA 3.0; consultado el 2026-11-19).",
+   "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Norfloxacina es (traducción no oficial): «Inhibidor de la topoisomerasa IV; inhibidor de la ADN girasa bacteriana». Texto original en inglés: \"Topoisomerase IV inhibitor; Bacterial DNA gyrase inhibitor\" ([ChEMBL CHEMBL9 (norfloxacin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL9), CC BY-SA 3.0; consultado el 2026-11-19).",
    "summary": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU.",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -5014,7 +5133,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Norfloxacina es (traducción no oficial): «Inhibidor de la topoisomerasa IV; inhibidor de la ADN girasa bacteriana» Texto original en inglés: \"Topoisomerase IV inhibitor; Bacterial DNA gyrase inhibitor\" ([ChEMBL CHEMBL9 (norfloxacin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL9), CC BY-SA 3.0; consultado el 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "ar-moa-20261119-nortriptilina-1",
@@ -5211,7 +5337,7 @@
    "file": "oxazepam.md",
    "action": "mechanism",
    "claim": "Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro.",
-   "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Oxazepam es (traducción no oficial): «Receptor GABA-A; modulador alostérico positivo del canal aniónico» Texto original en inglés: \"GABA-A receptor; anion channel positive allosteric modulator\" ([ChEMBL CHEMBL568 (oxazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL568), CC BY-SA 3.0; consultado el 2026-11-19).",
+   "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Oxazepam es (traducción no oficial): «Receptor GABA-A; modulador alostérico positivo del canal aniónico». Texto original en inglés: \"GABA-A receptor; anion channel positive allosteric modulator\" ([ChEMBL CHEMBL568 (oxazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL568), CC BY-SA 3.0; consultado el 2026-11-19).",
    "summary": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU.",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -5228,7 +5354,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Oxazepam es (traducción no oficial): «Receptor GABA-A; modulador alostérico positivo del canal aniónico» Texto original en inglés: \"GABA-A receptor; anion channel positive allosteric modulator\" ([ChEMBL CHEMBL568 (oxazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL568), CC BY-SA 3.0; consultado el 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "ar-moa-20261119-oxcarbazepina-1",
@@ -5317,7 +5450,7 @@
    "file": "oxytetracycline.md",
    "action": "mechanism",
    "claim": "Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco.",
-   "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Oxytetracycline es (traducción no oficial): «Inhibidor del ribosoma 70S bacteriano» Texto original en inglés: \"Bacterial 70S ribosome inhibitor\" ([ChEMBL CHEMBL1517 (oxytetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1517), CC BY-SA 3.0; consultado el 2026-11-19).",
+   "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Oxytetracycline es (traducción no oficial): «Inhibidor del ribosoma 70S bacteriano». Texto original en inglés: \"Bacterial 70S ribosome inhibitor\" ([ChEMBL CHEMBL1517 (oxytetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1517), CC BY-SA 3.0; consultado el 2026-11-19).",
    "summary": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU.",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -5334,7 +5467,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Oxytetracycline es (traducción no oficial): «Inhibidor del ribosoma 70S bacteriano» Texto original en inglés: \"Bacterial 70S ribosome inhibitor\" ([ChEMBL CHEMBL1517 (oxytetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1517), CC BY-SA 3.0; consultado el 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "ar-moa-20261119-paliperidona-1",
@@ -6179,7 +6319,7 @@
    "file": "sulfametoxazol.md",
    "action": "mechanism",
    "claim": "Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe.",
-   "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Sulfametoxazol es (traducción no oficial): «Inhibidor de la dihidropteroato sintasa bacteriana» Texto original en inglés: \"Bacterial dihydropteroate synthase inhibitor\" ([ChEMBL CHEMBL443 (sulfamethoxazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL443), CC BY-SA 3.0; consultado el 2026-11-19).",
+   "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Sulfametoxazol es (traducción no oficial): «Inhibidor de la dihidropteroato sintasa bacteriana». Texto original en inglés: \"Bacterial dihydropteroate synthase inhibitor\" ([ChEMBL CHEMBL443 (sulfamethoxazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL443), CC BY-SA 3.0; consultado el 2026-11-19).",
    "summary": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU.",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -6196,7 +6336,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Sulfametoxazol es (traducción no oficial): «Inhibidor de la dihidropteroato sintasa bacteriana» Texto original en inglés: \"Bacterial dihydropteroate synthase inhibitor\" ([ChEMBL CHEMBL443 (sulfamethoxazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL443), CC BY-SA 3.0; consultado el 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "ar-moa-20261119-sulfasalazina-1",
@@ -6312,7 +6459,7 @@
    "file": "tetracycline.md",
    "action": "mechanism",
    "claim": "Actualmente no se dispone de datos detallados sobre el mecanismo de acción.",
-   "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Tetracycline es (traducción no oficial): «Inhibidor del ribosoma 70S bacteriano» Texto original en inglés: \"Bacterial 70S ribosome inhibitor\" ([ChEMBL CHEMBL1440 (tetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1440), CC BY-SA 3.0; consultado el 2026-11-19).",
+   "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Tetracycline es (traducción no oficial): «Inhibidor del ribosoma 70S bacteriano». Texto original en inglés: \"Bacterial 70S ribosome inhibitor\" ([ChEMBL CHEMBL1440 (tetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1440), CC BY-SA 3.0; consultado el 2026-11-19).",
    "summary": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU.",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -6329,7 +6476,14 @@
     }
    ],
    "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "retired": "2026-11-20",
+     "reason": "ChEMBL 譯文後補句號",
+     "replacement": "Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Tetracycline es (traducción no oficial): «Inhibidor del ribosoma 70S bacteriano» Texto original en inglés: \"Bacterial 70S ribosome inhibitor\" ([ChEMBL CHEMBL1440 (tetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1440), CC BY-SA 3.0; consultado el 2026-11-19)."
+    }
+   ]
   },
   {
    "id": "ar-moa-20261119-tinidazol-1",

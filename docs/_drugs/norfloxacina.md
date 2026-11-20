@@ -55,7 +55,7 @@ Norfloxacina es un antibiótico de la clase de las fluoroquinolonas que se comer
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Norfloxacina es (traducción no oficial): «Inhibidor de la topoisomerasa IV; inhibidor de la ADN girasa bacteriana» Texto original en inglés: "Topoisomerase IV inhibitor; Bacterial DNA gyrase inhibitor" ([ChEMBL CHEMBL9 (norfloxacin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL9), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, la norfloxacina es una fluoroquinolona que inhibe la ADN girasa y la topoisomerasa IV bacterianas.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Norfloxacina es (traducción no oficial): «Inhibidor de la topoisomerasa IV; inhibidor de la ADN girasa bacteriana». Texto original en inglés: "Topoisomerase IV inhibitor; Bacterial DNA gyrase inhibitor" ([ChEMBL CHEMBL9 (norfloxacin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL9), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, la norfloxacina es una fluoroquinolona que inhibe la ADN girasa y la topoisomerasa IV bacterianas.
 
 Ese mecanismo no tiene relación identificable con la regulación de la amilasa ni con el manejo de enzimas pancreáticas. El puntaje alto del modelo parece ser un artefacto de la estructura de datos del modelo, sin respaldo clínico ni bibliográfico.
 
@@ -106,7 +106,7 @@ A continuación, el registro de verificación de esta página. La frase que indi
 
 | Fecha de verificación | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL9 (norfloxacin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL9) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; versión anterior conservada en el registro) | [ChEMBL CHEMBL9 (norfloxacin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL9) |
 
 <!-- review:end log -->
 

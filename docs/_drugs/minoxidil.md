@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **hipotricosis simple del 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Minoxidil es (traducción no oficial): «Abridor del receptor de sulfonilurea 2, Kir6.2» Texto original en inglés: "Sulfonylurea receptor 2, Kir6.2 opener" ([ChEMBL CHEMBL802 (minoxidil): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL802), CC BY-SA 3.0; consultado el 2026-11-19). Según la literatura revisada, minoxidil actúa (a través de su metabolito sulfato) como abridor de canales de potasio: prolonga la fase anágena, acorta la fase telógena y aumenta el tamaño del folículo y el flujo sanguíneo perifolicular.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Minoxidil es (traducción no oficial): «Abridor del receptor de sulfonilurea 2, Kir6.2». Texto original en inglés: "Sulfonylurea receptor 2, Kir6.2 opener" ([ChEMBL CHEMBL802 (minoxidil): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL802), CC BY-SA 3.0; consultado el 2026-11-19). Según la literatura revisada, minoxidil actúa (a través de su metabolito sulfato) como abridor de canales de potasio: prolonga la fase anágena, acorta la fase telógena y aumenta el tamaño del folículo y el flujo sanguíneo perifolicular.
 
 La hipotricosis simple hereditaria del cuero cabelludo es un trastorno raro de miniaturización y crecimiento del folículo piloso. Por ello, un fármaco que estimula el crecimiento folicular es mecanísticamente plausible para esta enfermedad.
 
@@ -107,7 +107,7 @@ A continuación, el registro de verificación de esta página. La frase que indi
 
 | Fecha de verificación | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL802 (minoxidil): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL802) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; versión anterior conservada en el registro) | [ChEMBL CHEMBL802 (minoxidil): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL802) |
 
 <!-- review:end log -->
 

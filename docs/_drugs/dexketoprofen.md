@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **tendinitis (tendinitis)*
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Dexketoprofen es (traducción no oficial): «Inhibidor de la ciclooxigenasa» Texto original en inglés: "Cyclooxygenase inhibitor" ([ChEMBL CHEMBL75435 (dexketoprofen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL75435), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, el dexketoprofeno es un AINE que bloquea la ciclooxigenasa y, con ello, la producción de prostaglandinas que median la inflamación y el dolor.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Dexketoprofen es (traducción no oficial): «Inhibidor de la ciclooxigenasa». Texto original en inglés: "Cyclooxygenase inhibitor" ([ChEMBL CHEMBL75435 (dexketoprofen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL75435), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, el dexketoprofeno es un AINE que bloquea la ciclooxigenasa y, con ello, la producción de prostaglandinas que median la inflamación y el dolor.
 
 Mecanísticamente, reducir la inflamación mediada por prostaglandinas es plausible en trastornos del tendón, y los AINE se usan habitualmente para el dolor musculoesquelético. Por eso la predicción tiene una base biológica razonable.
 
@@ -107,7 +107,7 @@ A continuación, el registro de verificación de esta página. La frase que indi
 
 | Fecha de verificación | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL75435 (dexketoprofen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL75435) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; versión anterior conservada en el registro) | [ChEMBL CHEMBL75435 (dexketoprofen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL75435) |
 
 <!-- review:end log -->
 

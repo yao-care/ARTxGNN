@@ -56,7 +56,7 @@ Mazindol es un anorexígeno simpaticomimético que se comercializa en Argentina.
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Mazindol es (traducción no oficial): «Inhibidor de los transportadores de monoaminas» Texto original en inglés: "Monoamine transporter inhibitor" ([ChEMBL CHEMBL781 (mazindol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL781), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, mazindol es un simpaticomimético anorexígeno que inhibe la recaptación de noradrenalina y dopamina.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Mazindol es (traducción no oficial): «Inhibidor de los transportadores de monoaminas». Texto original en inglés: "Monoamine transporter inhibitor" ([ChEMBL CHEMBL781 (mazindol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL781), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, mazindol es un simpaticomimético anorexígeno que inhibe la recaptación de noradrenalina y dopamina.
 
 La hipervitaminosis es una condición tóxica o metabólica causada por la ingesta excesiva de vitaminas. La inhibición de la recaptación de monoaminas no tiene un papel plausible en su tratamiento, por lo que **no se identifica un vínculo mecanístico claro** entre el fármaco y esta condición.
 
@@ -111,7 +111,7 @@ A continuación, el registro de verificación de esta página. La frase que indi
 
 | Fecha de verificación | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL781 (mazindol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL781) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; versión anterior conservada en el registro) | [ChEMBL CHEMBL781 (mazindol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL781) |
 
 <!-- review:end log -->
 

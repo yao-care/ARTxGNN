@@ -56,7 +56,7 @@ El modelo TxGNN predice que podría ser efectiva para **candidiasis vulvovaginal
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Idoxuridina es (traducción no oficial): «Inhibidor del ADN» Texto original en inglés: "DNA inhibitor" ([ChEMBL CHEMBL788 (idoxuridine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL788), CC BY-SA 3.0; consultado el 2026-11-19). Por conocimiento general, la idoxuridina es un análogo de la timidina que se incorpora al ADN viral e inhibe su replicación, por lo que su actividad es antiviral.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Idoxuridina es (traducción no oficial): «Inhibidor del ADN». Texto original en inglés: "DNA inhibitor" ([ChEMBL CHEMBL788 (idoxuridine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL788), CC BY-SA 3.0; consultado el 2026-11-19). Por conocimiento general, la idoxuridina es un análogo de la timidina que se incorpora al ADN viral e inhibe su replicación, por lo que su actividad es antiviral.
 
 *Candida*, el agente habitual de la candidiasis vulvovaginal, es un hongo. La idoxuridina no tiene actividad antifúngica reconocida, de modo que no se identifica un vínculo mecanístico plausible con esta enfermedad.
 
@@ -102,7 +102,7 @@ A continuación, el registro de verificación de esta página. La frase que indi
 
 | Fecha de verificación | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL788 (idoxuridine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL788) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; versión anterior conservada en el registro) | [ChEMBL CHEMBL788 (idoxuridine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL788) |
 
 <!-- review:end log -->
 

@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **atrofia multisistémica*
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Fenoterol es (traducción no oficial): «Agonista de los receptores adrenérgicos beta-2» Texto original en inglés: "Beta-2 adrenergic receptor agonist" ([ChEMBL CHEMBL32800 (fenoterol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL32800), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, fenoterol es un agonista de receptores beta-adrenérgicos (con actividad sobre ADRB1, ADRB2 y ADRB3, siendo su efecto principal sobre beta-2), utilizado como broncodilatador y para suprimir el trabajo de parto prematuro.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Fenoterol es (traducción no oficial): «Agonista de los receptores adrenérgicos beta-2». Texto original en inglés: "Beta-2 adrenergic receptor agonist" ([ChEMBL CHEMBL32800 (fenoterol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL32800), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, fenoterol es un agonista de receptores beta-adrenérgicos (con actividad sobre ADRB1, ADRB2 y ADRB3, siendo su efecto principal sobre beta-2), utilizado como broncodilatador y para suprimir el trabajo de parto prematuro.
 
 La relación con la atrofia multisistémica (AMS) es **especulativa**. La AMS cursa con falla autonómica e hipotensión ortostática neurogénica. La vasodilatación mediada por beta-2 y la taquicardia podrían alterar la hemodinamia, pero cabría esperar que la vasodilatación empeore la hipotensión ortostática. No se identifica un mecanismo modificador de la enfermedad.
 
@@ -135,7 +135,7 @@ A continuación, el registro de verificación de esta página. La frase que indi
 
 | Fecha de verificación | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL32800 (fenoterol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL32800) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; versión anterior conservada en el registro) | [ChEMBL CHEMBL32800 (fenoterol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL32800) |
 
 <!-- review:end log -->
 

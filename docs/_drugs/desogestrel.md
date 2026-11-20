@@ -56,7 +56,7 @@ con **1 ensayo clínico** (de relevancia solo indirecta) y **11 publicaciones** 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Desogestrel es (traducción no oficial): «Agonista del receptor de progesterona» Texto original en inglés: "Progesterone receptor agonist" ([ChEMBL CHEMBL1533 (desogestrel): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1533), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, desogestrel es un progestágeno que suprime la secreción de gonadotropinas; se usa como anticonceptivo, solo o combinado con etinilestradiol.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Desogestrel es (traducción no oficial): «Agonista del receptor de progesterona». Texto original en inglés: "Progesterone receptor agonist" ([ChEMBL CHEMBL1533 (desogestrel): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1533), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, desogestrel es un progestágeno que suprime la secreción de gonadotropinas; se usa como anticonceptivo, solo o combinado con etinilestradiol.
 
 En la oligo/amenorrea hipotalámica, la combinación de un progestágeno con un estrógeno puede restablecer el sangrado cíclico por deprivación y apoyar la salud ósea. Mecanísticamente la hipótesis es plausible, pero se trata de manejo sintomático y reemplazo hormonal, no de una cura de la causa subyacente.
 
@@ -129,7 +129,7 @@ A continuación, el registro de verificación de esta página. La frase que indi
 
 | Fecha de verificación | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL1533 (desogestrel): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1533) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; versión anterior conservada en el registro) | [ChEMBL CHEMBL1533 (desogestrel): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1533) |
 
 <!-- review:end log -->
 

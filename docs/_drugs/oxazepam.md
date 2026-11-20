@@ -56,7 +56,7 @@ pero hasta ahora **no hay ensayos clínicos registrados** y solo **10 publicacio
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Oxazepam es (traducción no oficial): «Receptor GABA-A; modulador alostérico positivo del canal aniónico» Texto original en inglés: "GABA-A receptor; anion channel positive allosteric modulator" ([ChEMBL CHEMBL568 (oxazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL568), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida de la clase, oxazepam es una benzodiacepina de acción corta que actúa como modulador alostérico positivo de los receptores GABA-A, potenciando la neurotransmisión inhibitoria. Este mecanismo es compartido por la clase y es el que sustenta su eficacia en ansiedad y abstinencia alcohólica.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Oxazepam es (traducción no oficial): «Receptor GABA-A; modulador alostérico positivo del canal aniónico». Texto original en inglés: "GABA-A receptor; anion channel positive allosteric modulator" ([ChEMBL CHEMBL568 (oxazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL568), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida de la clase, oxazepam es una benzodiacepina de acción corta que actúa como modulador alostérico positivo de los receptores GABA-A, potenciando la neurotransmisión inhibitoria. Este mecanismo es compartido por la clase y es el que sustenta su eficacia en ansiedad y abstinencia alcohólica.
 
 El efecto sedante-hipnótico derivado de esta modulación se vincula plausiblemente con una mejor iniciación y mantenimiento del sueño. La ansiedad y el insomnio suelen coexistir, lo que refuerza la coherencia de la predicción. Cabe señalar que este vínculo se infiere de la farmacología de clase y no de datos del registro.
 
@@ -121,7 +121,7 @@ A continuación, el registro de verificación de esta página. La frase que indi
 
 | Fecha de verificación | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL568 (oxazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL568) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; versión anterior conservada en el registro) | [ChEMBL CHEMBL568 (oxazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL568) |
 
 <!-- review:end log -->
 

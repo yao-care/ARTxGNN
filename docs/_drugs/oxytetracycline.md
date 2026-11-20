@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectiva para **rinosinusitis crónica (
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Oxytetracycline es (traducción no oficial): «Inhibidor del ribosoma 70S bacteriano» Texto original en inglés: "Bacterial 70S ribosome inhibitor" ([ChEMBL CHEMBL1517 (oxytetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1517), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, la oxitetraciclina pertenece a la clase de las tetraciclinas, que actúan como antibacterianos de amplio espectro y además presentan propiedades antiinflamatorias y de inhibición de metaloproteinasas de matriz (MMP).
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Oxytetracycline es (traducción no oficial): «Inhibidor del ribosoma 70S bacteriano». Texto original en inglés: "Bacterial 70S ribosome inhibitor" ([ChEMBL CHEMBL1517 (oxytetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1517), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, la oxitetraciclina pertenece a la clase de las tetraciclinas, que actúan como antibacterianos de amplio espectro y además presentan propiedades antiinflamatorias y de inhibición de metaloproteinasas de matriz (MMP).
 
 Mecanísticamente, estas propiedades podrían relacionarse con la inflamación crónica de los senos paranasales y con infecciones bacterianas de las vías respiratorias superiores. Es una hipótesis plausible, pero especulativa.
 
@@ -123,7 +123,7 @@ A continuación, el registro de verificación de esta página. La frase que indi
 
 | Fecha de verificación | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL1517 (oxytetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1517) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; versión anterior conservada en el registro) | [ChEMBL CHEMBL1517 (oxytetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1517) |
 
 <!-- review:end log -->
 

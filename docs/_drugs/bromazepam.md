@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**,
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Bromazepam es (traducción no oficial): «Modulador alostérico positivo de la subunidad alfa-2 del receptor GABA» Texto original en inglés: "GABA receptor alpha-2 subunit positive allosteric modulator" ([ChEMBL CHEMBL277062 (bromazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL277062), CC BY-SA 3.0; consultado el 2026-11-19). Según la información farmacológica conocida, bromazepam es una benzodiazepina que actúa como modulador alostérico positivo de los receptores GABA-A, lo que potencia la neurotransmisión inhibitoria.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Bromazepam es (traducción no oficial): «Modulador alostérico positivo de la subunidad alfa-2 del receptor GABA». Texto original en inglés: "GABA receptor alpha-2 subunit positive allosteric modulator" ([ChEMBL CHEMBL277062 (bromazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL277062), CC BY-SA 3.0; consultado el 2026-11-19). Según la información farmacológica conocida, bromazepam es una benzodiazepina que actúa como modulador alostérico positivo de los receptores GABA-A, lo que potencia la neurotransmisión inhibitoria.
 
 Mecanísticamente, podría plantearse un vínculo con la migraña a través de la reducción de la hiperexcitabilidad cortical y trigeminal, además del alivio de la ansiedad y la tensión muscular, que pueden actuar como desencadenantes o comorbilidades de la migraña.
 
@@ -101,7 +101,7 @@ A continuación, el registro de verificación de esta página. La frase que indi
 
 | Fecha de verificación | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL277062 (bromazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL277062) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; versión anterior conservada en el registro) | [ChEMBL CHEMBL277062 (bromazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL277062) |
 
 <!-- review:end log -->
 
