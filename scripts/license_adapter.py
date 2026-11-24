@@ -112,3 +112,18 @@ def record_id(rec):
 
 def update(rec, new):
     return False  # 在列不改紀錄；只用來確認仍在列，查不到的列在 summary
+
+
+# 2026-11-24：市場段落的許可證表改成程式產生（scripts/sync_license_tables.py，用戶決定）。
+# 每週排程 3b 自我檢查：程式區塊裡表格列以外的行（標記、表下說明句、沒有紀錄句）也算程式產生的行。
+PAGE_NOTE = (r"^(La tabla muestra (el único producto|los \d+ productos|\d+ de los \d+ productos) (recopilados )?de este medicamento en los datos \(.*|"
+             r"Este medicamento no tiene productos en el listado de medicamentos para entidades de PAMI usado en este informe\.|<!-- licenses:(begin|end) -->)$")
+
+
+def sync_tables(site_dir, bundles):
+    """程式許可證表依證據包重排（狀態有變或證據包補收的藥都跟上）；全站都跑（便宜），回傳改到的頁"""
+    import importlib.util
+    s = importlib.util.spec_from_file_location("ar_slt", site_dir / "scripts/sync_license_tables.py")
+    m = importlib.util.module_from_spec(s)
+    s.loader.exec_module(m)
+    return [(pg, "許可證表", "", "依證據包重排") for pg in m.run()]

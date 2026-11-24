@@ -395,6 +395,12 @@ indication_count: {indication_count}
         import apply_drug_reviews as _adr
         _probs, _chg = _adr.run(only={f"{n}.md" for n in synced_names})
         print(f"查核紀錄重套：{len(_chg)} 頁、問題 {len(_probs)} 項")
+        # 2026-11-24：整頁重寫後市場段落的 AI 許可證表換回程式表（依快照）、正文張數依快照改寫
+        import sync_license_tables as _slt
+        import rewrite_license_counts as _rlc
+        _t = _slt.run(only=set(synced_names), from_snapshot=True)
+        _r, _ = _rlc.run(only={f"{n}.md" for n in synced_names})
+        print(f"程式許可證表：{len(_t)} 頁；正文許可證張數改寫：{len(_r)} 頁")
         for _p in _probs[:20]:
             print("  ✗", _p)
     print(f"Errors: {len(errors)}")

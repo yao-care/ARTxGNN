@@ -82,3 +82,22 @@ PAMI「medicamentos para entidades」只列當期給付的品項——代碼消�
 例：acenocumarol「Indicación original: No consta en los datos locales」→「En Argentina, productos en el listado de PAMI: 5 (en el listado vigente: 5)」；2026-11-19 改了 216 頁。
 由母目錄 `.claude/drug_meta_description.py --apply --site ARTxGNN` 產生（站上複本 `tools/txgnn/.claude/drug_meta_description.py --apply --root .`），改動記在 `docs/_data/description_local_log.json`（pages＝目前句尾與原字樣、entries＝每次改動前後整行，可還原）。快照數字變了重跑會換新數字；`apply_drug_reviews.py`、`build_license_snapshot.py` 結尾會自動 --apply，`check_seo_docs.py` 跑 --check 擋「還是未記載句尾」或「數字跟快照不符」。只改 front matter，lastmod_fix 不算正文改動、last_modified_at 不動。
 同日修：`apply_drug_reviews.py`、`build_license_snapshot.py` 結尾重算 local_facts 的 atexit 掛鉤在結束時取不到 `__file__`（NameError，之前其實沒跑成），改成先算好路徑。
+
+## 市場段落許可證表與正文張數改由程式維護（2026-11-24）
+
+用戶 2026-11-24 決定（30 站逐站做，本站做表＋B）：每週許可證排程只改概覽表狀態列／張數列，AI 寫的自由格式許可證表（多半只列前 5 筆、第四欄寫「No registrada en los datos locales」）與正文寫死的張數會跟每週變的 PAMI 價目表矛盾、checker 擋頁。做法照 BrTxGNN（結構同為 site_config）與 COTxGNN（同為西班牙文）。
+- A. `scripts/sync_license_tables.py`：市場段落（「## Información de Mercado en Argentina」，known_use 頁的標題「Usos conocidos y situación de mercado」不算）的第一張表換成程式依證據包 tfda.records 產生的表
+  「| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |」（ALFABETA 代碼、nombre_comercial、presentacion、laboratorio_titular 原文；PAMI 把非 ASCII 字存成「¿」「ß」的 9 個廠商名照 LAB_FIX 寫回，例 Bag¿→Bagó、Cassarß→Cassará）；
+  狀態只有「Vigente」（在 PAMI 現行清單）與「Ya no figura en el listado de PAMI」（adapter 的 pami_not_listed），不寫 ANMAT 註冊狀態；在清單的在前。
+  列數照 CO：原表列數與 min(5, 筆數) 取大（最多 20），段落裡有 AI 的「列了幾筆」說明句（se muestran／la lista muestra／principales…）時照原表列數；重排時以頁面現有程式表列數為準。
+  表下程式句「La tabla muestra N de los M productos … (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.」（部分收錄另寫「los datos solo incluyen una parte…」）；沒有紀錄時 NONE_LINE。
+  段落沒有表的公開頁在段落最後補程式區塊（noindex 頁不補）。正文或查核紀錄更正文字指名「表上／表外」產品的 6 頁（fexofenadina、levocetirizina、naphazoline、modafinil、metilfenidato、oxcarbazepina）照 `config/license_table_pins.json` 置頂原表的號碼與順序。
+  前後 `<!-- licenses:begin/end -->`；快照存 rows／total／partial；gate 第 18 項（`src/artxgnn/regulatory/licenses.py` 的 program_block_problems）擋「段落有表卻不是程式區塊」「程式區塊≠快照重算」。
+  接進：每週排程（`scripts/license_adapter.py` 的 sync_tables＋PAGE_NOTE）、`apply_drug_reviews.py`（非 --check）結尾、`build_license_snapshot.py` 結尾（`--from-snapshot`；`--ws` 可省略，預設 tools/txgnn）、`sync_notes_to_docs.py` 重套紀錄之後。
+- B. `scripts/rewrite_license_counts.py`＋`src/artxgnn/regulatory/count_prose.py`（照 CO 移植，本站句型）：依快照事實層改寫句型明確的「N autorizaciones vigentes／N productos／ya no figuran」；本站 vigente＝在 PAMI 現行清單。
+  有保留、講證據包或查詢、相對數、劑型或廠商子集、顯示筆數、partial 頁不動；同一行有判斷不了的整行不動。不改、列待查：文字數詞不符（word-numeral）、同一行另有 las otras dos／los demás／todas 之類說法（relative）、跨過 1（plural）、0 張前提或改成 0、
+  單方／複方張數（本站事實層 single_total 沒拆「+」複方，只驗不改：single-combo）。`apply_drug_reviews.py`（非 --check）、`build_license_snapshot.py` 結尾自動跑；gate 第 22 項擋「再跑一次會變」。
+- 2026-11-24 套用（Release data-20261117-103852）：公開藥物頁 325 頁全部有程式區塊（AI 表換掉 318 頁、段落沒有表補 7 頁；noindex 頁 0 頁），改到的行只有表格列、區塊標記與表下程式句，last_modified_at 改 2026-11-24。
+  被換掉的表上沒有錨著查核紀錄（superseded 0 筆）。正文張數現況全部跟快照一致，B 改寫 0 句、判斷不了 0 句（有保留而略過 10 句）；以「每藥有效＋3」模擬事實變動，B 會改 12 行、列待查 71 句（single-combo 44、word-numeral 19、relative 4、plural 3、ambiguous 1），其餘 22 句有保留不動。
+  checker 全量前後都是 0、gate exit 0；另寫的寬偵測（正文張數／全部有效／不在清單說法跟事實不符）前後都是 7 句，全是誤中（DDI 查詢「devolvió 4 registros」、「una sexta autorización」等）。
+- 未處理：noindex 的 cefalexina、ciclopirox 正文寫「沒有許可」但證據包有 5、2 筆（段落沒有表，沒補程式區塊）；母目錄 `.claude/license_labels/ARTxGNN.json` 只有「Vigente」，要加「Ya no figura en el listado de PAMI」→cancelled（不在本站改）。

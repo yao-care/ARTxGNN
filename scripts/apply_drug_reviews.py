@@ -452,6 +452,19 @@ if __name__ == "__main__":
     check = "--check" in sys.argv
     only = {a if a.endswith(".md") else a + ".md" for a in sys.argv[1:] if not a.startswith("--")} or None
     problems, changed = run(check=check, only=only, touch_date="--touch" in sys.argv)
+    if not check:
+        # 2026-11-24：市場段落的程式許可證表依快照重排（scripts/sync_license_tables.py，不需要 data/），
+        # 正文許可證張數依快照事實層改寫（scripts/rewrite_license_counts.py；全頁，不只有紀錄的頁）
+        import importlib.util as _ilu
+        for _name in ("sync_license_tables", "rewrite_license_counts"):
+            _spec = _ilu.spec_from_file_location(_name, Path(__file__).resolve().parent / f"{_name}.py")
+            _m = _ilu.module_from_spec(_spec)
+            _spec.loader.exec_module(_m)
+            if _name == "sync_license_tables":
+                _cc = [f"{x}.md" for x in _m.run(only=only and {x[:-3] for x in only}, from_snapshot=True)]
+            else:
+                _cc, _ = _m.run(only=only, touch_date="--touch" in sys.argv)
+            changed += [f for f in _cc if f not in changed]
     for p in problems:
         print("  ✗", p)
     if check:

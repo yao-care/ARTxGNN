@@ -1,0 +1,65 @@
+{
+ "note": "程式許可證表（scripts/sync_license_tables.py）的置頂列：這些頁的正文或查核紀錄更正文字指名「表上／表外」的產品，2026-11-24 換成程式表時照原 AI 表的號碼與順序排在最前面，免得句子跟表對不上（不在證據包的號碼略過）。正文或紀錄改寫後可拿掉該頁。",
+ "pages": {
+  "fexofenadina": {
+   "ids": [
+    "37841",
+    "23172",
+    "54289",
+    "53421",
+    "54926"
+   ],
+   "reason": "查核紀錄 ar-lic-20261117-fexofenadina-1 的更正文字寫「incluidos los 5 de la tabla, ya no figuran」"
+  },
+  "levocetirizina": {
+   "ids": [
+    "41030",
+    "51108",
+    "33448",
+    "41031",
+    "44841"
+   ],
+   "reason": "查核紀錄 ar-lic-20261117-levocetirizina-1 的更正文字點名表上的 41030、33448、41031、44841"
+  },
+  "metilfenidato": {
+   "ids": [
+    "13494",
+    "33839",
+    "47988",
+    "58486",
+    "50252"
+   ],
+   "reason": "正文「Las demás corresponden a … RUBIFEN, RUBIFEN SR …」指表外的產品"
+  },
+  "modafinil": {
+   "ids": [
+    "52079",
+    "52080",
+    "49669",
+    "49670",
+    "42592"
+   ],
+   "reason": "正文「Las otras dos corresponden a FORCILIN (58761 y 58762)」指表外的兩筆"
+  },
+  "naphazoline": {
+   "ids": [
+    "39532",
+    "28599",
+    "174",
+    "12536",
+    "42850"
+   ],
+   "reason": "查核紀錄 ar-lic-20261117-naphazoline-1 的更正文字寫「MIRUS y MIRA KLONAL de la tabla」"
+  },
+  "oxcarbazepina": {
+   "ids": [
+    "10129",
+    "10130",
+    "10131",
+    "22592",
+    "14088"
+   ],
+   "reason": "正文「Los demás productos pertenecen a las marcas RUPOX、AURENE、TRILEPTAL」指表外的產品"
+  }
+ }
+}

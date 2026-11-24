@@ -9,14 +9,20 @@
   facts：事實層那一筆（market_status、total、valid、cancelled、partial、licenses{號碼: 狀態} …）
   own：本藥證據包 tfda.records 的許可證號（license_id 或 registration_number）、事實層 licenses 的號碼，
        加上 config/license_own_extra.json（有的站才有）逐筆附依據的補充號碼
+  rows／total／partial（2026-11-24 起）：程式許可證表的列、列數、證據包是否只收了一部分（scripts/sync_license_tables.py rows_of），
+       gate 依這幾欄重算程式區塊、apply_drug_reviews 依它重排表（不需要 data/）
   meta：產生日、Release tag、比對規則所在檔案
 什麼時候跑：證據包或事實層變了之後（每週許可證排程 license-refresh.yml 會在改頁後跑，並把 snapshots/ 跟 docs/ 一起 commit）。
 用法（repo 根目錄，先還原 data/ 並在工作目錄跑 dump_license_facts）：
-  python3 scripts/build_license_snapshot.py --ws <工作目錄> [--release-tag data-YYYYMMDD-HHMMSS]
+  python3 scripts/build_license_snapshot.py [--ws <工作目錄>] [--release-tag data-YYYYMMDD-HHMMSS] [--no-rewrite]
+  沒給 --ws 時用 tools/txgnn（事實層在 tools/txgnn/.claude/cache/license_facts）。
+寫完快照後（--no-rewrite 不跑）：scripts/sync_license_tables.py --from-snapshot 重排程式許可證表、
+scripts/rewrite_license_counts.py 依新事實改寫正文張數（2026-11-24；每週排程在 checker 前就跑這支，見母目錄 license_refresh 3a'）。
 """
 import datetime as dt
 import gzip
 import importlib as _il
+import importlib.util
 import json
 import re
 import sys
@@ -29,6 +35,9 @@ C = _il.import_module(f"{_PKG}.regulatory.site_config").C
 SITE = C["SITE"]
 OUT = ROOT / "snapshots" / C["SNAPSHOT"]
 EXTRA = ROOT / "config" / "license_own_extra.json"
+_s = importlib.util.spec_from_file_location("ar_slt", ROOT / "scripts" / "sync_license_tables.py")
+SLT = importlib.util.module_from_spec(_s)
+_s.loader.exec_module(SLT)
 
 
 def facts(ws):
@@ -62,6 +71,9 @@ def build(ws, tag=""):
                for r in ((b or {}).get("tfda") or {}).get("records") or []} - {""}
         own = sorted(own | set((fc or {}).get("licenses") or {}) | set(extra.get(page.stem) or {}))
         drugs[page.stem] = {"bundle": key, "facts": fc, "own": own}
+        if b is not None:
+            rows, total, partial = SLT.rows_of(b.get("tfda") or {}, page.stem)
+            drugs[page.stem].update(rows=rows, total=total, partial=partial)
     meta = {"built": dt.date.today().isoformat(), "release_tag": tag, "pages": len(drugs),
             "rule": "事實層：tools/txgnn/.claude/dump_license_facts_20261021.py；本藥號碼：證據包 tfda.records、事實層 licenses、config/license_own_extra.json"}
     OUT.parent.mkdir(exist_ok=True)
@@ -88,8 +100,13 @@ if __name__ == "__main__":
     _dl_p = _lf_os.path.join(_dl_root, "tools", "txgnn", ".claude", "drug_meta_description.py")
     _lf_ax.register(lambda: "--check" in _lf_sys.argv or not _lf_os.path.exists(_dl_p) or _lf_chk(_lf_sp.run([_lf_sys.executable, _dl_p, "--apply", "--root", _dl_root]), "drug_meta_description.py --apply"))
     a = sys.argv[1:]
-    ws = a[a.index("--ws") + 1]
+    ws = a[a.index("--ws") + 1] if "--ws" in a else str(ROOT / "tools" / "txgnn")
     tag = a[a.index("--release-tag") + 1] if "--release-tag" in a else ""
     if not re.fullmatch(r"(data-[\w-]+)?", tag):
         sys.exit("--release-tag 要是 data-… 的 tag")
     build(ws, tag)
+    # 2026-11-24：快照換了事實，程式許可證表與正文許可證張數跟著改（每週排程在 checker 前就跑這支，所以這裡用新快照再跑一次）
+    if "--no-rewrite" not in a:
+        import subprocess
+        subprocess.run([sys.executable, str(ROOT / "scripts" / "sync_license_tables.py"), "--from-snapshot"], check=True)
+        subprocess.run([sys.executable, str(ROOT / "scripts" / "rewrite_license_counts.py")], check=True)
