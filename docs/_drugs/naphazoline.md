@@ -94,11 +94,11 @@ La tabla muestra 5 de los 9 productos de este medicamento en los datos (listado 
 
 <!-- licenses:end -->
 
-Se muestran 5 de los 9 productos de estos datos; 5 siguen en el listado de medicamentos de PAMI y 4 (MIRUS y MIRA KLONAL de la tabla, REFENAX COLIRIO y VISUCLAR) ya no figuran en el listado vigente de PAMI. Los restantes corresponden a DRYNISAN, REFENAX COLIRIO, VISUCLAR y REFENAX (gotas nasales).
+Varios productos, entre ellos MIRUS y MIRA KLONAL de la tabla, ya no figuran en el listado vigente de PAMI (el estado de cada producto figura en la tabla y las cifras en el resumen rápido). Fuera de la tabla figuran DRYNISAN, REFENAX COLIRIO, VISUCLAR y REFENAX (gotas nasales); REFENAX COLIRIO y VISUCLAR tampoco figuran ya en el listado vigente de PAMI.
 
 <!-- review:begin ar-lic-20261117-naphazoline-1 -->
 
-> **Corrección de verificación (2026-11-17)**: Texto original: «Se muestran 5 de las 9 autorizaciones vigentes (todas de monodroga, ninguna cancelada). Las restantes corresponden a DRYNISAN, REFENAX COLIRIO, VISUCLAR y REFENAX (gotas nasales).» Corregido: los productos 174 (MIRUS), 42850 (MIRA KLONAL), 18650 (REFENAX COLIRIO) y 43809 (VISUCLAR) figuraban en el listado de PAMI del 01/03/2026 y ya no figuran en el listado vigente (05/11/2026). Que un producto ya no figure en el listado de PAMI no significa que su registro en ANMAT esté dado de baja: el estado del registro en ANMAT no está incluido en estos datos. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+> **Corrección de verificación (2026-11-24)**: Texto original: «Se muestran 5 de las 9 autorizaciones vigentes (todas de monodroga, ninguna cancelada). Las restantes corresponden a DRYNISAN, REFENAX COLIRIO, VISUCLAR y REFENAX (gotas nasales).» Corregido: los productos 174 (MIRUS), 42850 (MIRA KLONAL), 18650 (REFENAX COLIRIO) y 43809 (VISUCLAR) figuraban en el listado de PAMI del 01/03/2026 y ya no figuran en el listado vigente (05/11/2026); varios productos son asociaciones de nafazolina (con feniramina, cromoglicato disódico u otros), no de monodroga. Que un producto ya no figure en el listado de PAMI no significa que su registro en ANMAT esté dado de baja: el estado del registro en ANMAT no está incluido en estos datos. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
 
 <!-- review:end ar-lic-20261117-naphazoline-1 -->
 
@@ -136,7 +136,7 @@ A continuación, el registro de verificación de esta página: afirmaciones cont
 
 | Fecha de verificación | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-17 | «9 autorizaciones vigentes, ninguna cancelada» → 5 siguen en PAMI, 4 ya no figuran | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+| 2026-11-24 | «9 autorizaciones vigentes, ninguna cancelada» → varias ya no figuran en PAMI | Corregido (revisado el 2026-11-24; versión anterior conservada en el registro) | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
 
 <!-- review:end log -->
 

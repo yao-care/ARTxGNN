@@ -81,11 +81,11 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-Los productos corresponden a un solo principio activo; 3 de los 4 siguen en el listado de medicamentos de PAMI y el cartucho 32734 (INSULINA LANTUS, 5 x 3 ml) ya no figura en el listado vigente de PAMI.
+Los productos corresponden a un solo principio activo; el cartucho 32734 (INSULINA LANTUS, 5 x 3 ml) ya no figura en el listado vigente de PAMI (el estado de cada producto figura en la tabla).
 
 <!-- review:begin ar-lic-20261117-insulina_glargina-1 -->
 
-> **Corrección de verificación (2026-11-17)**: Texto original: «Todas las autorizaciones registradas están vigentes y corresponden a productos de un solo principio activo.» Corregido: el producto 32734 (INSULINA LANTUS cartuchos) figuraba en el listado de PAMI del 01/03/2026 y ya no figura en el listado vigente (05/11/2026). Que un producto ya no figure en el listado de PAMI no significa que su registro en ANMAT esté dado de baja: el estado del registro en ANMAT no está incluido en estos datos. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+> **Corrección de verificación (2026-11-24)**: Texto original: «Todas las autorizaciones registradas están vigentes y corresponden a productos de un solo principio activo.» Corregido: el producto 32734 (INSULINA LANTUS cartuchos) figuraba en el listado de PAMI del 01/03/2026 y ya no figura en el listado vigente (05/11/2026); las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado. Que un producto ya no figure en el listado de PAMI no significa que su registro en ANMAT esté dado de baja: el estado del registro en ANMAT no está incluido en estos datos. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
 
 <!-- review:end ar-lic-20261117-insulina_glargina-1 -->
 
@@ -132,7 +132,7 @@ A continuación, el registro de verificación de esta página: afirmaciones cont
 
 | Fecha de verificación | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-17 | «Todas … vigentes» → 3 de 4 siguen en el listado de PAMI | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+| 2026-11-24 | «Todas … vigentes» → 32734 ya no figura en el listado de PAMI | Corregido (revisado el 2026-11-24; versión anterior conservada en el registro) | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Langlara (insulin glargine-aldy) prescribing information, Lanexa Biologics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5328761e-59d3-ca7a-e063-6394a90ae810) |
 
 <!-- review:end log -->

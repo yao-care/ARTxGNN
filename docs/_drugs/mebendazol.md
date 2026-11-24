@@ -74,7 +74,13 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-Mebendazol se comercializa en Argentina con 11 autorizaciones vigentes de productos de un solo principio activo.
+Mebendazol se comercializa en Argentina como único principio activo y en asociación con tinidazol (TRU COMPUESTO, MEBUTAR COMPUESTO).
+
+<!-- review:begin ar-lic-20261124-mebendazol-1 -->
+
+> **Corrección de verificación (2026-11-24)**: Texto original: «Mebendazol se comercializa en Argentina con 11 autorizaciones vigentes de productos de un solo principio activo.» Corregido: según los datos (listado de medicamentos de PAMI), TRU COMPUESTO y MEBUTAR COMPUESTO son asociaciones de mebendazol con tinidazol; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261124-mebendazol-1 -->
 
 <!-- licenses:begin -->
 
@@ -110,11 +116,12 @@ No hay ensayos clínicos ni estudios que evalúen mebendazol en acné, y no se i
 
 ## Registro de verificación
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de verificación | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Vermox (mebendazole) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a720c424-517a-461b-8e13-6c37caf8aa3f) |
+| 2026-11-24 | «de un solo principio activo» → también asociaciones con tinidazol | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
 
 <!-- review:end log -->
 

@@ -86,7 +86,13 @@ La tabla muestra 5 de los 8 productos de este medicamento en los datos (listado 
 
 <!-- licenses:end -->
 
-Se muestran 5 de 8 autorizaciones; todas son de producto de un solo principio activo y están vigentes.
+Todos los productos son asociaciones de clofedianol con bromhexina.
+
+<!-- review:begin ar-lic-20261124-clofedanol-1 -->
+
+> **Corrección de verificación (2026-11-24)**: Texto original: «Se muestran 5 de 8 autorizaciones; todas son de producto de un solo principio activo y están vigentes.» Corregido: según los datos (listado de medicamentos de PAMI), todos los productos (COFRON, UNITOS, PECTORAL HEBERT) son asociaciones de clofedianol con bromhexina; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261124-clofedanol-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -104,6 +110,19 @@ La predicción tiene un puntaje alto (0.9999), pero no hay ensayos clínicos, li
 - Revisión del prospecto de ANMAT para advertencias y contraindicaciones
 - Búsqueda de estudios clínicos o literatura que evalúen directamente la enfermedad de la cavidad nasal
 - Definir si la indicación aporta algo distinto de los usos respiratorios ya conocidos
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-24 | «de un solo principio activo» → asociaciones con bromhexina | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -7,7 +7,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 64
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 predicted_indications: []
 ---
 
@@ -90,7 +90,7 @@ Bromhexina **no se encuentra comercializada** en Argentina según los registros 
 
 <!-- review:begin ar-lic-20261106-bromhexina-1 -->
 
-> **Corrección de verificación (2026-11-06)**: Texto original: «Bromhexina **no se encuentra comercializada** en Argentina según los registros consultados. No se identificaron autorizaciones de comercialización vigentes (total de autorizaciones: 0).» Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). En los datos (listado de medicamentos de PAMI) figuran 10 registros para este medicamento, 10 vigentes; las cifras actualizadas están en el resumen rápido y en la información de mercado. Fuente: [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+> **Corrección de verificación (2026-11-24)**: Texto original: «Bromhexina **no se encuentra comercializada** en Argentina según los registros consultados. No se identificaron autorizaciones de comercialización vigentes (total de autorizaciones: 0).» Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). Las cifras actualizadas de productos y su estado en el listado de medicamentos de PAMI están en el resumen rápido y en la tabla de la información de mercado. Fuente: [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
 
 <!-- review:end ar-lic-20261106-bromhexina-1 -->
 
@@ -138,7 +138,7 @@ A continuación, el registro de verificación de esta página: afirmaciones cont
 
 | Fecha de verificación | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-06 | Eliminado: «No se identificaron autorizaciones de comercialización vigentes (total de autorizaciones: 0)» | Corregido | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+| 2026-11-24 | Eliminado: «No se identificaron autorizaciones de comercialización vigentes (total de autorizaciones: 0)» | Corregido (revisado el 2026-11-24; versión anterior conservada en el registro) | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
 
 <!-- review:end log -->
 

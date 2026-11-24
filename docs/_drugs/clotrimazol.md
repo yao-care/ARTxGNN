@@ -88,7 +88,13 @@ La tabla muestra 5 de los 9 productos de este medicamento en los datos (listado 
 
 <!-- licenses:end -->
 
-Se muestran las 5 primeras de 9 autorizaciones vigentes, todas de productos de un solo principio activo.
+Además de los productos de clotrimazol como único principio activo, hay asociaciones con betametasona (LOTRICOMB) o con gentamicina y betametasona (METAMAR PLUS, DICASONE COMPLEX).
+
+<!-- review:begin ar-lic-20261124-clotrimazol-1 -->
+
+> **Corrección de verificación (2026-11-24)**: Texto original: «Se muestran las 5 primeras de 9 autorizaciones vigentes, todas de productos de un solo principio activo.» Corregido: según los datos (listado de medicamentos de PAMI), LOTRICOMB, METAMAR PLUS y DICASONE COMPLEX son asociaciones de clotrimazol con betametasona (y gentamicina); las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261124-clotrimazol-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -111,11 +117,12 @@ La predicción se basa solo en el modelo: no hay estudios que evalúen directame
 
 ## Registro de verificación
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de verificación | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: clotrimazole prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=980736aa-751a-4642-ab85-a309435fd02f) |
+| 2026-11-24 | «todas de un solo principio activo» → también asociaciones | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
 
 <!-- review:end log -->
 

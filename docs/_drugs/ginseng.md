@@ -38,9 +38,15 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Ginseng es un producto de origen vegetal comercializado en Argentina en 6 autorizaciones de producto único, para el cual los registros disponibles no detallan una indicación aprobada.
+Ginseng es un producto de origen vegetal comercializado en Argentina en productos que lo asocian con vitaminas, minerales u otros componentes, para el cual los registros disponibles no detallan una indicación aprobada.
 El modelo TxGNN predice que podría ser efectivo para **osteoporosis inducida por fármacos**, pero esta predicción no cuenta con ensayos clínicos ni publicaciones que la respalden.
 Entre las demás indicaciones predichas, la **retinopatía diabética** es la que reúne más literatura (20 publicaciones, casi todas preclínicas o revisiones, y un estudio clínico prospectivo de 2026).
+
+<!-- review:begin ar-lic-20261124-ginseng-1 -->
+
+> **Corrección de verificación (2026-11-24)**: Texto original: «Ginseng es un producto de origen vegetal comercializado en Argentina en 6 autorizaciones de producto único, para el cual los registros disponibles no detallan una indicación aprobada.» Corregido: según los datos (listado de medicamentos de PAMI), todos los productos (TANVIMIL GINSENG, MARATHON, TOTAL MAGNESIANO GINSENG) son asociaciones de ginseng con vitaminas, minerales u otros componentes; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261124-ginseng-1 -->
 
 ## Resumen Rápido
 
@@ -111,7 +117,13 @@ La tabla muestra 5 de los 6 productos de este medicamento en los datos (listado 
 
 <!-- licenses:end -->
 
-Existe una sexta autorización vigente (15430, TANVIMIL GINSENG, cápsulas x 30). Las 6 autorizaciones son de producto único y están vigentes.
+Existe una sexta autorización vigente (15430, TANVIMIL GINSENG, cápsulas x 30). Todos los productos son asociaciones de ginseng con vitaminas, minerales u otros componentes.
+
+<!-- review:begin ar-lic-20261124-ginseng-2 -->
+
+> **Corrección de verificación (2026-11-24)**: Texto original: «Las 6 autorizaciones son de producto único y están vigentes.» Corregido: según los datos (listado de medicamentos de PAMI), todos los productos (TANVIMIL GINSENG, MARATHON, TOTAL MAGNESIANO GINSENG) son asociaciones de ginseng con vitaminas, minerales u otros componentes; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261124-ginseng-2 -->
 
 ## Consideraciones de Seguridad
 
@@ -133,6 +145,20 @@ Para osteoporosis inducida por fármacos solo existe una predicción del modelo 
 - Para osteoporosis: revisión de literatura y estudios preclínicos que sustenten la hipótesis
 - Para retinopatía diabética: ECA de mayor tamaño que confirme el estudio de 2026, con evaluación de la interacción con antidiabéticos
 - Definir la compatibilidad de vía de administración y la similitud con la indicación original
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-24 | «de producto único» → asociaciones | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+| 2026-11-24 | «de producto único» → asociaciones | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

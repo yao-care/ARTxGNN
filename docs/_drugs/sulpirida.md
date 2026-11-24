@@ -88,7 +88,13 @@ La tabla muestra los 5 productos de este medicamento en los datos (listado de me
 
 <!-- licenses:end -->
 
-Las cinco autorizaciones listadas están vigentes y corresponden a productos con sulpirida como único principio activo.
+VIPRAL contiene sulpirida como único principio activo; los demás productos son asociaciones con alprazolam (ALPLAX DIGEST, TRANQUINAL SOMA) o con clorazepato dipotásico (VEGESTABIL).
+
+<!-- review:begin ar-lic-20261124-sulpirida-1 -->
+
+> **Corrección de verificación (2026-11-24)**: Texto original: «Las cinco autorizaciones listadas están vigentes y corresponden a productos con sulpirida como único principio activo.» Corregido: según los datos (listado de medicamentos de PAMI), ALPLAX DIGEST, TRANQUINAL SOMA y VEGESTABIL son asociaciones; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261124-sulpirida-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -106,6 +112,19 @@ No hay ensayos clínicos y la única base son dos estudios electrofisiológicos 
 - Datos detallados del mecanismo de acción y su relación con la vía dopaminérgica retiniana.
 - Información de seguridad del prospecto (advertencias, contraindicaciones e interacciones), que no estaba disponible, para evaluar la viabilidad de un uso prolongado.
 - Una evaluación de la vía de administración y de la exposición ocular antes de plantear estudios en humanos.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-24 | «como único principio activo» → la mayoría asociaciones | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

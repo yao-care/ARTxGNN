@@ -19,6 +19,7 @@ C = _json.loads(r"""{
  "DESC_LEVEL_RE": "nivel de evidencia (L[1-5]|N/A)",
  "DESC_LEVEL_FMT": "nivel de evidencia {lv}",
  "NA_DESC": "solo usos conocidos",
+ "FIGURES_NOTE": "2026-11-24（用戶決定）：figures 原本寫死「figuran {total} registros para este medicamento, {valid} vigentes」，會跟每週資料過期；改成不寫數字、指向概覽表與程式許可證表（既有紀錄同 id 重發）",
  "HEADER_RULE_NOTE": "2026-11-12 實測：有 Quick Overview 等級的 173 頁，頁首全部等於第一個等級（整格取最高會有 2 頁不同）",
  "MARKET_RE": "[Mm]ercado",
  "ID_RE": "\\b\\d{4,6}\\b",
@@ -122,7 +123,7 @@ C = _json.loads(r"""{
   "intro": "A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.",
   "intro_header": "A continuación, el registro de verificación de esta página; el nivel de evidencia del encabezado sigue al resumen rápido. Las predicciones del modelo, la tabla resumen y las conclusiones no se reescribieron.",
   "intro_rr": "A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos y el texto de la predicción no se reescribió; los niveles de evidencia y las decisiones solo cambiaron por un resultado de revisión (rebaja, elevación o retiro), con los valores originales abajo.",
-  "figures": "En los datos (listado de medicamentos de PAMI) figuran {total} registros para este medicamento, {valid} vigentes; las cifras actualizadas están en el resumen rápido y en la información de mercado.",
+  "figures": "Las cifras actualizadas de productos y su estado en el listado de medicamentos de PAMI están en el resumen rápido y en la tabla de la información de mercado.",
   "data_as_of": "listado de medicamentos de PAMI, al {date}",
   "notes": {
    "rewrite": "Corregido: la afirmación no coincidía con los datos oficiales ({d}) y se reemplazó por el texto actual.",

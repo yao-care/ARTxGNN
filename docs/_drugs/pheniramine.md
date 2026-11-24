@@ -85,11 +85,11 @@ La tabla muestra los 4 productos de este medicamento en los datos (listado de me
 
 <!-- licenses:end -->
 
-Los 4 productos ya no figuran en el listado vigente de PAMI (el listado del 05/11/2026 no incluye ningún producto con feniramina, aparte de clorfeniramina y dexclorfeniramina, que son otros principios activos).
+Los productos de estos datos (asociaciones de feniramina con nafazolina) ya no figuran en el listado vigente de PAMI (el listado del 05/11/2026 no incluye ningún producto con feniramina, aparte de clorfeniramina y dexclorfeniramina, que son otros principios activos).
 
 <!-- review:begin ar-lic-20261117-pheniramine-1 -->
 
-> **Corrección de verificación (2026-11-17)**: Texto original: «Las 4 autorizaciones son de producto de un solo principio activo y se encuentran vigentes.» Corregido: los 4 productos (174 MIRUS, 18650 REFENAX COLIRIO, 42850 MIRA KLONAL, 43809 VISUCLAR) figuraban en el listado de PAMI del 01/03/2026 y ya no figuran en el listado vigente (05/11/2026). Que un producto ya no figure en el listado de PAMI no significa que su registro en ANMAT esté dado de baja: el estado del registro en ANMAT no está incluido en estos datos. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+> **Corrección de verificación (2026-11-24)**: Texto original: «Las 4 autorizaciones son de producto de un solo principio activo y se encuentran vigentes.» Corregido: los productos de feniramina de estos datos (174 MIRUS, 18650 REFENAX COLIRIO, 42850 MIRA KLONAL, 43809 VISUCLAR), todos asociaciones con nafazolina, figuraban en el listado de PAMI del 01/03/2026 y ya no figuran en el listado vigente (05/11/2026). Que un producto ya no figure en el listado de PAMI no significa que su registro en ANMAT esté dado de baja: el estado del registro en ANMAT no está incluido en estos datos. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
 
 <!-- review:end ar-lic-20261117-pheniramine-1 -->
 
@@ -119,7 +119,7 @@ A continuación, el registro de verificación de esta página: afirmaciones cont
 
 | Fecha de verificación | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-17 | «se encuentran vigentes» → ya no figuran en PAMI | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+| 2026-11-24 | «se encuentran vigentes» → ya no figuran en PAMI | Corregido (revisado el 2026-11-24; versión anterior conservada en el registro) | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
 
 <!-- review:end log -->
 

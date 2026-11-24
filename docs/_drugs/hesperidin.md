@@ -38,8 +38,14 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 ## Resumen en Una Frase
 
-Hesperidina es un flavonoide comercializado en Argentina en varios productos de un solo principio activo (por ejemplo, TERBENOL UD, DAFLON y ATUREN). Los datos compilados para este informe no incluyen el texto de la indicación aprobada.
+Hesperidina es un flavonoide comercializado en Argentina en asociación con diosmina (por ejemplo, TERBENOL UD, DAFLON y ATUREN). Los datos compilados para este informe no incluyen el texto de la indicación aprobada.
 El modelo TxGNN predice que podría ser efectiva para **neoplasia mieloproliferativa**, pero **no hay ensayos clínicos** y solo **1 publicación** (un estudio in silico) respalda esta dirección, por lo que la evidencia es muy limitada.
+
+<!-- review:begin ar-lic-20261124-hesperidin-1 -->
+
+> **Corrección de verificación (2026-11-24)**: Texto original: «Hesperidina es un flavonoide comercializado en Argentina en varios productos de un solo principio activo (por ejemplo, TERBENOL UD, DAFLON y ATUREN).» Corregido: según los datos (listado de medicamentos de PAMI), todos los productos de estos datos son asociaciones de hesperidina micronizada con diosmina; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261124-hesperidin-1 -->
 
 ---
 
@@ -85,7 +91,13 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-Las autorizaciones listadas no incluyen texto de indicación aprobada. Se muestran 5 de las 20 autorizaciones vigentes (todas de un solo principio activo).
+Las autorizaciones listadas no incluyen texto de indicación aprobada. Todos los productos son asociaciones de hesperidina micronizada con diosmina; la lista puede ser parcial.
+
+<!-- review:begin ar-lic-20261124-hesperidin-2 -->
+
+> **Corrección de verificación (2026-11-24)**: Texto original: «Se muestran 5 de las 20 autorizaciones vigentes (todas de un solo principio activo).» Corregido: según los datos (listado de medicamentos de PAMI), todos los productos de estos datos son asociaciones de hesperidina micronizada con diosmina; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261124-hesperidin-2 -->
 
 <!-- licenses:begin -->
 
@@ -122,6 +134,20 @@ La predicción se basa casi exclusivamente en el modelo TxGNN, con un único est
 - Validación experimental in vitro (líneas celulares de LMC y otras neoplasias mieloproliferativas), considerando la actividad de la aglicona hesperetina frente a la hesperidina.
 - Evaluar la biodisponibilidad y la viabilidad de alcanzar concentraciones eficaces por vía oral.
 - Revisar la compatibilidad de vías de administración y la comparación con las terapias dirigidas ya establecidas para estas neoplasias.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-24 | «de un solo principio activo» → asociaciones con diosmina | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+| 2026-11-24 | «todas de un solo principio activo» → asociaciones con diosmina | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

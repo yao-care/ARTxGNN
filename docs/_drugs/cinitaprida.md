@@ -7,7 +7,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 103
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 predicted_indications: []
 ---
 
@@ -81,7 +81,7 @@ El Evidence Pack de CINITAPRIDA carece de los insumos mínimos necesarios para c
 
 <!-- review:begin ar-lic-20261106-cinitaprida-1 -->
 
-> **Corrección de verificación (2026-11-06)**: Texto original: «El Evidence Pack de CINITAPRIDA carece de los insumos mínimos necesarios para completar el análisis de reposicionamiento: no están disponibles el mecanismo de acción, las indicaciones originales estructuradas, ni las predicciones TxGNN. Adicionalmente, el fármaco no cuenta con ninguna autorización de comercialización en Argentina, lo que añade una barrera regulatoria de base.» Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). En los datos (listado de medicamentos de PAMI) figuran 7 registros para este medicamento, 7 vigentes; las cifras actualizadas están en el resumen rápido y en la información de mercado. Fuente: [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+> **Corrección de verificación (2026-11-24)**: Texto original: «El Evidence Pack de CINITAPRIDA carece de los insumos mínimos necesarios para completar el análisis de reposicionamiento: no están disponibles el mecanismo de acción, las indicaciones originales estructuradas, ni las predicciones TxGNN. Adicionalmente, el fármaco no cuenta con ninguna autorización de comercialización en Argentina, lo que añade una barrera regulatoria de base.» Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). Las cifras actualizadas de productos y su estado en el listado de medicamentos de PAMI están en el resumen rápido y en la tabla de la información de mercado. Fuente: [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
 
 <!-- review:end ar-lic-20261106-cinitaprida-1 -->
 
@@ -100,7 +100,7 @@ A continuación, el registro de verificación de esta página: afirmaciones cont
 
 | Fecha de verificación | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-06 | Eliminado: «Adicionalmente, el fármaco no cuenta con ninguna autorización de comercialización en Argentina, lo que añade una barrera regulatoria de base» | Corregido | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+| 2026-11-24 | Eliminado: «Adicionalmente, el fármaco no cuenta con ninguna autorización de comercialización en Argentina, lo que añade una barrera regulatoria de base» | Corregido (revisado el 2026-11-24; versión anterior conservada en el registro) | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
 
 <!-- review:end log -->
 

@@ -80,7 +80,13 @@ La tabla muestra el único producto de este medicamento en los datos (listado de
 
 <!-- licenses:end -->
 
-El estado de mercado en Argentina es comercializado, con una autorización vigente de un producto de un solo principio activo (fabricante: Fabra).
+El estado de mercado en Argentina es comercializado; el producto (IMIPENEM FABRA, fabricante: Fabra) es una asociación de imipenem con cilastatina.
+
+<!-- review:begin ar-lic-20261124-imipenem-1 -->
+
+> **Corrección de verificación (2026-11-24)**: Texto original: «El estado de mercado en Argentina es comercializado, con una autorización vigente de un producto de un solo principio activo (fabricante: Fabra).» Corregido: según los datos (listado de medicamentos de PAMI), IMIPENEM FABRA es una asociación de imipenem con cilastatina; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261124-imipenem-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -108,11 +114,12 @@ No existen ensayos clínicos ni literatura que estudien imipenem en esclerodermi
 
 ## Registro de verificación
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de verificación | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; versión anterior conservada en el registro) | [ChEMBL CHEMBL43708 (imipenem): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL43708) |
+| 2026-11-24 | «de un solo principio activo» → asociación con cilastatina | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
 
 <!-- review:end log -->
 

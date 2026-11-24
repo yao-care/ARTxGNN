@@ -39,7 +39,13 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 ## Resumen en Una Frase
 
-Colchicina es un fármaco que se comercializa en Argentina en siete autorizaciones locales de un solo principio activo. El modelo TxGNN predice que podría ser efectivo para **Malaria por Plasmodium falciparum (Plasmodium falciparum malaria)**. Actualmente no hay ensayos clínicos registrados y solo hay **2 publicaciones** preclínicas, ninguna de las cuales estudia la eficacia de colchicina contra esta enfermedad.
+Colchicina es un fármaco que se comercializa en Argentina como único principio activo y en asociación con alopurinol. El modelo TxGNN predice que podría ser efectivo para **Malaria por Plasmodium falciparum (Plasmodium falciparum malaria)**. Actualmente no hay ensayos clínicos registrados y solo hay **2 publicaciones** preclínicas, ninguna de las cuales estudia la eficacia de colchicina contra esta enfermedad.
+
+<!-- review:begin ar-lic-20261124-colchicina-1 -->
+
+> **Corrección de verificación (2026-11-24)**: Texto original: «Colchicina es un fármaco que se comercializa en Argentina en siete autorizaciones locales de un solo principio activo.» Corregido: según los datos (listado de medicamentos de PAMI), la mayoría de los productos (COLPURIL, ARTREX RETARD) son asociaciones de colchicina con alopurinol; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261124-colchicina-1 -->
 
 ## Resumen Rápido
 
@@ -119,11 +125,12 @@ No hay ensayos clínicos ni estudios que evalúen colchicina directamente contra
 
 ## Registro de verificación
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de verificación | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Mitigare (colchicine) prescribing information, Hikma Specialty USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb5f9d85-6b81-49f8-bcd6-17b7bfbc10f2) |
+| 2026-11-24 | «de un solo principio activo» → también asociación con alopurinol | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
 
 <!-- review:end log -->
 

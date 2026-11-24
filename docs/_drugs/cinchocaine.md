@@ -82,7 +82,13 @@ La tabla muestra los 2 productos de este medicamento en los datos (listado de me
 
 <!-- licenses:end -->
 
-Ambas autorizaciones son de producto de un solo principio activo y están vigentes.
+Los productos (PROCTYL) son asociaciones de cincocaína con otros principios activos.
+
+<!-- review:begin ar-lic-20261124-cinchocaine-1 -->
+
+> **Corrección de verificación (2026-11-24)**: Texto original: «Ambas autorizaciones son de producto de un solo principio activo y están vigentes.» Corregido: según los datos (listado de medicamentos de PAMI), PROCTYL es una asociación de cincocaína clorhidrato con otros principios activos; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261124-cinchocaine-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -102,6 +108,19 @@ La predicción para bronquitis se apoya únicamente en el puntaje del modelo (ni
 - Revisión de literatura y estudios preclínicos sobre anestésicos locales en tos y bronquitis
 - Evaluación de la vía de administración y de la viabilidad de una formulación adecuada para vía respiratoria
 - Evaluación de seguridad cardiovascular, neuromuscular y respiratoria antes de cualquier estudio clínico
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-24 | «de un solo principio activo» → asociación | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

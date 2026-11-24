@@ -39,7 +39,13 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 ## Resumen en Una Frase
 
-Fexofenadina es un fármaco comercializado en Argentina en múltiples presentaciones de un solo principio activo. El modelo TxGNN predice que podría ser útil para **conjuntivitis rosácea (rosacea conjunctivitis)**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata únicamente de una predicción del modelo.
+Fexofenadina es un fármaco comercializado en Argentina en múltiples presentaciones, como único principio activo y en asociación (por ejemplo, ALERCAS D, con pseudoefedrina). El modelo TxGNN predice que podría ser útil para **conjuntivitis rosácea (rosacea conjunctivitis)**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata únicamente de una predicción del modelo.
+
+<!-- review:begin ar-lic-20261124-fexofenadina-1 -->
+
+> **Corrección de verificación (2026-11-24)**: Texto original: «Fexofenadina es un fármaco comercializado en Argentina en múltiples presentaciones de un solo principio activo.» Corregido: según los datos (listado de medicamentos de PAMI), ALERCAS D es una asociación de fexofenadina con pseudoefedrina; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261124-fexofenadina-1 -->
 
 ## Resumen Rápido
 
@@ -71,11 +77,11 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-Estos datos registran al menos 20 productos de fexofenadina, todos de monofármaco; 13 de ellos, incluidos los 5 de la tabla, ya no figuran en el listado vigente de PAMI, y al menos 7 siguen en el listado. La lista puede ser parcial. Principales productos:
+Estos datos solo recogen una parte de los productos de fexofenadina, en su mayoría de un solo principio activo y alguno en asociación (ALERCAS D, con pseudoefedrina); varios, entre ellos los de la tabla, ya no figuran en el listado vigente de PAMI, y otros siguen en el listado (cifras en el resumen rápido). La lista puede ser parcial. Principales productos:
 
 <!-- review:begin ar-lic-20261117-fexofenadina-1 -->
 
-> **Corrección de verificación (2026-11-17)**: Texto original: «Se registran al menos 20 autorizaciones vigentes, todas de monofármaco; la lista puede ser parcial. Principales autorizaciones:» Corregido: 13 productos de fexofenadina (entre ellos 37841, 23172, 54289, 53421 y 54926 de la tabla) figuraban en el listado de PAMI del 01/03/2026 y ya no figuran en el listado vigente (05/11/2026). Que un producto ya no figure en el listado de PAMI no significa que su registro en ANMAT esté dado de baja: el estado del registro en ANMAT no está incluido en estos datos. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+> **Corrección de verificación (2026-11-24)**: Texto original: «Se registran al menos 20 autorizaciones vigentes, todas de monofármaco; la lista puede ser parcial. Principales autorizaciones:» Corregido: varios productos de fexofenadina (entre ellos 37841, 23172, 54289, 53421 y 54926, que figuran en la tabla) figuraban en el listado de PAMI del 01/03/2026 y ya no figuran en el listado vigente (05/11/2026); ALERCAS D es una asociación de fexofenadina con pseudoefedrina; las cifras actualizadas están en el resumen rápido. Que un producto ya no figure en el listado de PAMI no significa que su registro en ANMAT esté dado de baja: el estado del registro en ANMAT no está incluido en estos datos. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
 
 <!-- review:end ar-lic-20261117-fexofenadina-1 -->
 
@@ -118,7 +124,8 @@ A continuación, el registro de verificación de esta página: afirmaciones cont
 
 | Fecha de verificación | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-17 | «al menos 20 autorizaciones vigentes» → 13 ya no figuran en PAMI, al menos 7 siguen | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+| 2026-11-24 | «al menos 20 autorizaciones vigentes» → varios ya no figuran en PAMI | Corregido (revisado el 2026-11-24; versión anterior conservada en el registro) | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+| 2026-11-24 | «de un solo principio activo» → también asociación con pseudoefedrina | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
 
 <!-- review:end log -->
 

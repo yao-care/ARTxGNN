@@ -71,7 +71,13 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-Meloxicam figura como comercializado en Argentina, con 20 autorizaciones vigentes en la lista disponible (la cantidad total es de al menos 20 y la lista puede ser parcial). Las autorizaciones son de productos de un solo principio activo.
+Meloxicam figura como comercializado en Argentina, con 20 autorizaciones vigentes en la lista disponible (la cantidad total es de al menos 20 y la lista puede ser parcial). Hay productos de meloxicam como único principio activo y también asociaciones (por ejemplo, con pridinol).
+
+<!-- review:begin ar-lic-20261124-meloxicam-1 -->
+
+> **Corrección de verificación (2026-11-24)**: Texto original: «Las autorizaciones son de productos de un solo principio activo.» Corregido: según los datos (listado de medicamentos de PAMI), el listado de PAMI incluye asociaciones de meloxicam con pridinol o con betametasona; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261124-meloxicam-1 -->
 
 <!-- licenses:begin -->
 
@@ -118,11 +124,12 @@ La predicción no cuenta con ningún ensayo clínico ni publicación, el mecanis
 
 ## Registro de verificación
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de verificación | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Zybic (meloxicam) prescribing information, Redmont Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a1c2d65f-ebb1-48bf-8fa1-c216f7d570ec) |
+| 2026-11-24 | «de un solo principio activo» → también asociaciones | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
 
 <!-- review:end log -->
 

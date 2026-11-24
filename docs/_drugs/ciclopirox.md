@@ -7,7 +7,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 98
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 predicted_indications: []
 ---
 
@@ -38,9 +38,15 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 ## Resumen en Una Frase
 
-CICLOPIROX (DrugBank ID: DB01188) es un fármaco con registro en DrugBank pero sin autorizaciones de comercialización en el mercado local.
+CICLOPIROX (DrugBank ID: DB01188) es un fármaco con registro en DrugBank que figura en el listado de medicamentos de PAMI (lacas para uñas LOPROX y MICOPIROX LACA).
 Este Evidence Pack **no contiene indicaciones predichas por TxGNN**, por lo que no es posible identificar una nueva indicación candidata en este momento.
 Sin datos de mecanismo de acción, advertencias de seguridad ni indicaciones originales documentadas, la evaluación de reposicionamiento no puede completarse con la información disponible.
+
+<!-- review:begin ar-lic-20261124b-ciclopirox-1 -->
+
+> **Corrección de verificación (2026-11-24)**: Texto original: «CICLOPIROX (DrugBank ID: DB01188) es un fármaco con registro en DrugBank pero sin autorizaciones de comercialización en el mercado local.» Corregido: en los datos de este informe (listado de medicamentos de PAMI) figura ciclopirox (LOPROX y MICOPIROX LACA, lacas para uñas); las cifras están en el resumen rápido. El estado del registro en ANMAT no está incluido en estos datos. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261124b-ciclopirox-1 -->
 
 ---
 
@@ -66,7 +72,13 @@ El presente Evidence Pack presenta tres brechas de datos críticas que impiden r
 
 2. **Mecanismo de acción no disponible**: El campo `original_moa` figura como dato faltante. Sin conocer el mecanismo farmacológico, no es posible razonar sobre la transferibilidad a nuevas indicaciones.
 
-3. **Indicaciones originales no registradas**: El campo `original_indications` está vacío y no hay autorizaciones locales de las cuales extraer la indicación aprobada.
+3. **Indicaciones originales no registradas**: El campo `original_indications` está vacío y los datos locales (listado de medicamentos de PAMI) no incluyen el texto de la indicación aprobada.
+
+<!-- review:begin ar-lic-20261124b-ciclopirox-2 -->
+
+> **Corrección de verificación (2026-11-24)**: Texto original: «El campo `original_indications` está vacío y no hay autorizaciones locales de las cuales extraer la indicación aprobada.» Corregido: en los datos de este informe (listado de medicamentos de PAMI) figura ciclopirox; ese listado no incluye el texto de la indicación aprobada; las cifras están en el resumen rápido. El estado del registro en ANMAT no está incluido en estos datos. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261124b-ciclopirox-2 -->
 
 Sin al menos una indicación predicha, este informe no puede seguir el flujo estándar de evaluación.
 
@@ -74,7 +86,13 @@ Sin al menos una indicación predicha, este informe no puede seguir el flujo est
 
 ## Información de Mercado en Argentina
 
-CICLOPIROX **no tiene autorizaciones de comercialización registradas** en el mercado local. No se encontraron licencias activas en la consulta realizada el 2026-03-29.
+CICLOPIROX figura en el listado de medicamentos de PAMI en lacas para uñas (LOPROX, MICOPIROX LACA); las cifras están en el resumen rápido y el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- review:begin ar-lic-20261124b-ciclopirox-3 -->
+
+> **Corrección de verificación (2026-11-24)**: Texto original: «CICLOPIROX **no tiene autorizaciones de comercialización registradas** en el mercado local. No se encontraron licencias activas en la consulta realizada el 2026-03-29.» Corregido: en los datos de este informe (listado de medicamentos de PAMI) figura ciclopirox (LOPROX y MICOPIROX LACA, lacas para uñas); las cifras están en el resumen rápido. El estado del registro en ANMAT no está incluido en estos datos. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261124b-ciclopirox-3 -->
 
 ---
 
@@ -98,6 +116,21 @@ Este Evidence Pack no contiene predicciones de TxGNN ni datos de mecanismo de ac
 - **[Bloqueante]** Re-ejecutar el pipeline TxGNN con datos de entrada completos para generar `predicted_indications`
 - **[Alta prioridad]** Descargar y analizar el prospecto oficial (PDF) para extraer advertencias y contraindicaciones
 - Verificar si existen presentaciones de CICLOPIROX en otros mercados de referencia (EMA, FDA) que puedan orientar la indicación original
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-24 | «sin autorizaciones de comercialización en el mercado local» → figura en el listado de PAMI | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+| 2026-11-24 | «no hay autorizaciones locales» → los datos locales no incluyen la indicación | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+| 2026-11-24 | «no tiene autorizaciones de comercialización registradas» → figura en el listado de PAMI | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

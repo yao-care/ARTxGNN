@@ -81,7 +81,13 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-La beclometasona se encuentra comercializada en Argentina, con autorizaciones vigentes de productos de un solo principio activo, presentados como aerosoles. En los datos locales no figura texto de indicación aprobada.
+La beclometasona se encuentra comercializada en Argentina en aerosoles que la asocian con salbutamol (BUTOCORT HFA, VENTIDE); en estos datos no hay productos de beclometasona como único principio activo. En los datos locales no figura texto de indicación aprobada.
+
+<!-- review:begin ar-lic-20261124-beclometasona-1 -->
+
+> **Corrección de verificación (2026-11-24)**: Texto original: «La beclometasona se encuentra comercializada en Argentina, con autorizaciones vigentes de productos de un solo principio activo, presentados como aerosoles.» Corregido: según los datos (listado de medicamentos de PAMI), los dos aerosoles (BUTOCORT HFA, VENTIDE) son asociaciones de beclometasona con salbutamol; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261124-beclometasona-1 -->
 
 <!-- licenses:begin -->
 
@@ -125,8 +131,9 @@ A continuación, el registro de verificación de esta página: afirmaciones cont
 
 | Fecha de verificación | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-06 | Eliminado: «No se registraron autorizaciones de mercado (0 licencias)» | Ya no aparece tras regenerar el informe (2026-11-16: The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page; antes: Corregido) | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
-| 2026-11-06 | Eliminado: «El fármaco no cuenta con autorización de mercado en Argentina, lo que representa una barrera regulatoria adicional» | Ya no aparece tras regenerar el informe (2026-11-16: The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page; antes: Corregido) | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+| 2026-11-24 | Eliminado: «No se registraron autorizaciones de mercado (0 licencias)» | Ya no aparece tras regenerar el informe (2026-11-16: The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page; antes: Corregido (revisado el 2026-11-24; versión anterior conservada en el registro)) | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+| 2026-11-24 | Eliminado: «El fármaco no cuenta con autorización de mercado en Argentina, lo que representa una barrera regulatoria adicional» | Ya no aparece tras regenerar el informe (2026-11-16: The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page; antes: Corregido (revisado el 2026-11-24; versión anterior conservada en el registro)) | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+| 2026-11-24 | «de un solo principio activo» → asociaciones con salbutamol | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
 
 <!-- review:end log -->
 

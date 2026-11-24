@@ -69,7 +69,13 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-Se registran al menos 20 autorizaciones, todas vigentes y de productos de un solo principio activo (la lista puede ser parcial). A continuación se muestran las 5 principales.
+Se registran productos de carvedilol como único principio activo y también asociaciones con hidroclorotiazida (la lista puede ser parcial). A continuación se muestran las 5 principales.
+
+<!-- review:begin ar-lic-20261124-carvedilol-1 -->
+
+> **Corrección de verificación (2026-11-24)**: Texto original: «Se registran al menos 20 autorizaciones, todas vigentes y de productos de un solo principio activo (la lista puede ser parcial).» Corregido: según los datos (listado de medicamentos de PAMI), el listado de PAMI incluye asociaciones de carvedilol con hidroclorotiazida; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261124-carvedilol-1 -->
 
 <!-- licenses:begin -->
 
@@ -106,6 +112,19 @@ La predicción es solo computacional (nivel L5), sin ensayos clínicos ni litera
 - Revisión de literatura y estudios clínicos o preclínicos que evalúen directamente esta condición.
 - Revisión del prospecto de ANMAT (advertencias y contraindicaciones) para completar el análisis de seguridad.
 - Evaluación de la ruta de administración, dado que el manejo habitual de este cuadro es intravenoso.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-24 | «todas … de un solo principio activo» → también asociaciones | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

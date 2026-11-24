@@ -82,11 +82,11 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-De los 10 productos de estos datos (todos de un solo principio activo), 3 siguen en el listado de medicamentos de PAMI y 7, incluidos 41030, 33448, 41031 y 44841 de la tabla, ya no figuran en el listado vigente de PAMI. Los datos locales no traen texto de indicación aprobada. Principales productos:
+Los productos de estos datos contienen levocetirizina como único principio activo o en asociación con montelukast; varios, entre ellos 41030, 33448, 41031 y 44841 de la tabla, ya no figuran en el listado vigente de PAMI y otros siguen en el listado (cifras en el resumen rápido). Los datos locales no traen texto de indicación aprobada. Principales productos:
 
 <!-- review:begin ar-lic-20261117-levocetirizina-1 -->
 
-> **Corrección de verificación (2026-11-17)**: Texto original: «El estado de mercado es comercializado, con las 10 autorizaciones vigentes (todas de producto de un solo principio activo). Los datos locales no traen texto de indicación aprobada. Principales autorizaciones:» Corregido: 7 productos de levocetirizina figuraban en el listado de PAMI del 01/03/2026 y ya no figuran en el listado vigente (05/11/2026); 3 siguen en el listado. Que un producto ya no figure en el listado de PAMI no significa que su registro en ANMAT esté dado de baja: el estado del registro en ANMAT no está incluido en estos datos. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+> **Corrección de verificación (2026-11-24)**: Texto original: «El estado de mercado es comercializado, con las 10 autorizaciones vigentes (todas de producto de un solo principio activo). Los datos locales no traen texto de indicación aprobada. Principales autorizaciones:» Corregido: varios productos de levocetirizina figuraban en el listado de PAMI del 01/03/2026 y ya no figuran en el listado vigente (05/11/2026); AIREAL PLUS, ALERVITAN y LUKAST COMPUESTO son asociaciones de levocetirizina con montelukast; las cifras actualizadas están en el resumen rápido. Que un producto ya no figure en el listado de PAMI no significa que su registro en ANMAT esté dado de baja: el estado del registro en ANMAT no está incluido en estos datos. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
 
 <!-- review:end ar-lic-20261117-levocetirizina-1 -->
 
@@ -133,7 +133,7 @@ A continuación, el registro de verificación de esta página: afirmaciones cont
 
 | Fecha de verificación | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-17 | «10 autorizaciones vigentes» → 3 siguen en PAMI, 7 ya no figuran | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+| 2026-11-24 | «10 autorizaciones vigentes» → varias ya no figuran en PAMI | Corregido (revisado el 2026-11-24; versión anterior conservada en el registro) | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
 
 <!-- review:end log -->
 

@@ -84,11 +84,11 @@ La tabla muestra los 3 productos de este medicamento en los datos (listado de me
 
 <!-- licenses:end -->
 
-Dos de los tres productos (fabricante: Beta) siguen en el listado de medicamentos de PAMI; el tercero (50366, CIPROVIT CALCICO jarabe x 150 ml) ya no figura en el listado vigente de PAMI.
+Los productos (fabricante: Beta) son asociaciones de ciproheptadina con calcio o con vitaminas; el jarabe 50366 (CIPROVIT CALCICO x 150 ml) ya no figura en el listado vigente de PAMI (el estado de cada producto figura en la tabla).
 
 <!-- review:begin ar-lic-20261117-cyproheptadine-1 -->
 
-> **Corrección de verificación (2026-11-17)**: Texto original: «Las tres autorizaciones son de producto de un solo principio activo y se encuentran vigentes (fabricante: Beta).» Corregido: el producto 50366 (CIPROVIT CALCICO jarabe) figuraba en el listado de PAMI del 01/03/2026 y ya no figura en el listado vigente (05/11/2026); 2 de los 3 productos siguen en el listado. Que un producto ya no figure en el listado de PAMI no significa que su registro en ANMAT esté dado de baja: el estado del registro en ANMAT no está incluido en estos datos. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+> **Corrección de verificación (2026-11-24)**: Texto original: «Las tres autorizaciones son de producto de un solo principio activo y se encuentran vigentes (fabricante: Beta).» Corregido: el producto 50366 (CIPROVIT CALCICO jarabe) figuraba en el listado de PAMI del 01/03/2026 y ya no figura en el listado vigente (05/11/2026); los productos de estos datos son asociaciones (ciproheptadina con calcio o con vitaminas), no productos de un solo principio activo; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado. Que un producto ya no figure en el listado de PAMI no significa que su registro en ANMAT esté dado de baja: el estado del registro en ANMAT no está incluido en estos datos. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
 
 <!-- review:end ar-lic-20261117-cyproheptadine-1 -->
 
@@ -120,7 +120,7 @@ A continuación, el registro de verificación de esta página: afirmaciones cont
 
 | Fecha de verificación | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-17 | «se encuentran vigentes» → 2 de 3 siguen en el listado de PAMI | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+| 2026-11-24 | «se encuentran vigentes» → 50366 ya no figura en el listado de PAMI | Corregido (revisado el 2026-11-24; versión anterior conservada en el registro) | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
 
 <!-- review:end log -->
 

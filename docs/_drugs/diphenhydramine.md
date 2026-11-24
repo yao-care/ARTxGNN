@@ -71,7 +71,13 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-El fármaco figura como comercializado, con 11 autorizaciones vigentes, todas de productos de un solo principio activo.
+El fármaco figura como comercializado, como único principio activo y en asociaciones (BENADRYL ANTITUSIVO, BENADRYL DM COMPUESTO, CORIZINA CETUS).
+
+<!-- review:begin ar-lic-20261124-diphenhydramine-1 -->
+
+> **Corrección de verificación (2026-11-24)**: Texto original: «El fármaco figura como comercializado, con 11 autorizaciones vigentes, todas de productos de un solo principio activo.» Corregido: según los datos (listado de medicamentos de PAMI), BENADRYL ANTITUSIVO, BENADRYL DM COMPUESTO y CORIZINA CETUS son asociaciones; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261124-diphenhydramine-1 -->
 
 <!-- licenses:begin -->
 
@@ -107,6 +113,19 @@ La predicción se apoya solo en el modelo (nivel L5), sin ensayos ni publicacion
 - Advertencias y contraindicaciones del prospecto de ANMAT.
 - Evaluación de la vía de administración (ocular o tópica) y de la tolerabilidad en ojo seco.
 - Estudios preclínicos o piloto que justifiquen un ensayo clínico.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-24 | «todas de un solo principio activo» → también asociaciones | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

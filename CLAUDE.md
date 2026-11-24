@@ -101,3 +101,14 @@ PAMI「medicamentos para entidades」只列當期給付的品項——代碼消�
   被換掉的表上沒有錨著查核紀錄（superseded 0 筆）。正文張數現況全部跟快照一致，B 改寫 0 句、判斷不了 0 句（有保留而略過 10 句）；以「每藥有效＋3」模擬事實變動，B 會改 12 行、列待查 71 句（single-combo 44、word-numeral 19、relative 4、plural 3、ambiguous 1），其餘 22 句有保留不動。
   checker 全量前後都是 0、gate exit 0；另寫的寬偵測（正文張數／全部有效／不在清單說法跟事實不符）前後都是 7 句，全是誤中（DDI 查詢「devolvió 4 registros」、「una sexta autorización」等）。
 - 未處理：noindex 的 cefalexina、ciclopirox 正文寫「沒有許可」但證據包有 5、2 筆（段落沒有表，沒補程式區塊）；母目錄 `.claude/license_labels/ARTxGNN.json` 只有「Vigente」，要加「Ya no figura en el listado de PAMI」→cancelled（不在本站改）。
+
+## 第二輪：舊錯句、單方／複方、劑型說法與紀錄張數（2026-11-24）
+
+用戶 2026-11-24 第二輪決定（處理第一輪列待查的事；本站第一輪待查清單沒有新增項目，處理派工點名的句子與全站掃描）。依據照本站口徑：PAMI 給付清單（證據包 tfda.records、`data/raw/ar_fda_drugs.json` 2026-03-01 全量），不寫 ANMAT 註冊狀態。
+- 派工點名：noindex 的 cefalexina（證據包 61 筆收 20 筆）、ciclopirox（2 筆）正文寫「沒有許可／沒有登記」，以 `ar-lic-20261124b-cefalexina-1`～`-5`、`ciclopirox-1`～`-3` 更正（待辦條目只拿掉「查不到、要換名稱再查」的前提）。noindex 頁照本站規則不補程式許可證表，更正文字指向概覽表。
+  另 tinidazol、varenicline 的「autorizaciones vigentes de ANMAT」改成 PAMI 口徑（`ar-lic-20261124b-*`）。
+- 單方／複方標籤（第一輪 B 的 single-combo 只驗不改）：全量掃公開頁寫「un solo principio activo／monofármaco／monodroga／producto único／sin combinaciones」的句子 176 句，逐句對照證據包成分欄（「+」＝複方），部分收錄的頁另對 2026-03 全量同成分品項；跟事實相反的 54 句以 `ar-lic-20261124-<藥>-N` 更正（例：amilorida、sulfametoxazol、trimetoprima、sacubitril、salmeterol 全部是複方；allopurinol、nimodipina、salbutamol「至少 20 張單方」實際單方不到 20）；其餘查證成立（例：pioglitazona「單方或與 metformina 複方」、部分收錄頁單方確實 ≥20）。
+- 劑型說法：全量掃市場相關句子 384 句（劑型、品牌、單方字樣），自動比對證據包劑型類別後人工讀過，只有 prednisolona 待辦寫「orales」不成立（`ar-lic-20261124b-prednisolona-1`），其餘成立。
+- 缺表：公開頁 325 頁都有程式區塊（第一輪已做），沒有「表另行補上」之類矛盾句。
+- 張數樣板：site_config 的 `figures` 改成不寫數字（FIGURES_NOTE）；既有 9 筆紀錄說明裡寫死張數的同 id 重發。查核紀錄更正文字裡寫死張數／舊表筆數的 7 筆 `ar-lic-20261117-*`（cyproheptadine、fexofenadina、insulina_glargina、levocetirizina、naphazoline、olopatadine、pheniramine）同 id 重發，前版存 history，順便補正其中的單方說法（fexofenadina 有 ALERCAS D、levocetirizina 有 montelukast 複方、cyproheptadine／pheniramine 全是複方）。
+- 驗證：checker 全量前後 0、gate exit 0、B 改寫 0 句；寬偵測（ar_wide）剩 8 句都是誤中（DDI 查詢筆數、「una sexta autorización」等）；單方字樣重掃剩下的命中都已查證成立或是文獻句。

@@ -78,7 +78,13 @@ Por ello, el nivel de evidencia se mantiene en L5.
 
 ## Información de Mercado en Argentina
 
-Dutasterida figura como **comercializada**, con licencias vigentes en los registros locales (17 en total, ninguna cancelada). Productos de un solo principio activo, como ejemplo:
+Dutasterida figura como **comercializada**, con licencias vigentes en los registros locales (17 en total, ninguna cancelada). Productos de dutasterida como único principio activo y en asociación con tamsulosina:
+
+<!-- review:begin ar-lic-20261124-dutasteride-1 -->
+
+> **Corrección de verificación (2026-11-24)**: Texto original: «Productos de un solo principio activo, como ejemplo:» Corregido: según los datos (listado de medicamentos de PAMI), varios productos (DUODART, LINUS DUO, PROSTOKLAR DUO, entre otros) son asociaciones de dutasterida con tamsulosina; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261124-dutasteride-1 -->
 
 <!-- licenses:begin -->
 
@@ -115,6 +121,19 @@ La predicción carece de ensayos clínicos y de literatura directa, y el víncul
 - Datos preclínicos o series de casos que estudien directamente la enfermedad
 - Datos de mecanismo de acción detallados y las advertencias y contraindicaciones del prospecto de ANMAT
 - Evaluación del riesgo teratogénico en el contexto de una enfermedad congénita
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-24 | «Productos de un solo principio activo» → también asociaciones con tamsulosina | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

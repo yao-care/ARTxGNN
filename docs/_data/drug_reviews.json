@@ -9,7 +9,7 @@
    "action": "correct",
    "claim": "Acetazolamida **no se encuentra comercializada** en Argentina según los datos consultados. No se identificaron autorizaciones de comercialización vigentes.",
    "replacement": "Acetazolamida **no se encuentra comercializada** en Argentina según los datos consultados.",
-   "note": "Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). En los datos (listado de medicamentos de PAMI) figuran 2 registros para este medicamento, 2 vigentes; las cifras actualizadas están en el resumen rápido y en la información de mercado.",
+   "note": "Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). Las cifras actualizadas de productos y su estado en el listado de medicamentos de PAMI están en el resumen rápido y en la tabla de la información de mercado.",
    "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
    "sources": [
     {
@@ -18,12 +18,39 @@
      "accessed": "2026-11-06"
     }
    ],
-   "checked": "2026-11-06",
+   "checked": "2026-11-24",
    "summary": "Eliminado: «No se identificaron autorizaciones de comercialización vigentes»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）",
    "status": "resolved_by_regeneration",
    "resolved_on": "2026-11-16",
-   "resolved_note": "The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page"
+   "resolved_note": "The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page",
+   "history": [
+    {
+     "id": "ar-lic-20261106-acetazolamida-1",
+     "drug": "acetazolamida",
+     "file": "acetazolamida.md",
+     "action": "correct",
+     "claim": "Acetazolamida **no se encuentra comercializada** en Argentina según los datos consultados. No se identificaron autorizaciones de comercialización vigentes.",
+     "replacement": "Acetazolamida **no se encuentra comercializada** en Argentina según los datos consultados.",
+     "note": "Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). En los datos (listado de medicamentos de PAMI) figuran 2 registros para este medicamento, 2 vigentes; las cifras actualizadas están en el resumen rápido y en la información de mercado.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "PAMI – Medicamentos para entidades (datos abiertos)",
+       "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+       "accessed": "2026-11-06"
+      }
+     ],
+     "checked": "2026-11-06",
+     "summary": "Eliminado: «No se identificaron autorizaciones de comercialización vigentes»",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）",
+     "status": "resolved_by_regeneration",
+     "resolved_on": "2026-11-16",
+     "resolved_note": "The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page",
+     "retired": "2026-11-24",
+     "reason": "site_config figures 樣板改成不寫數字（2026-11-24 用戶決定，第二輪）"
+    }
+   ]
   },
   {
    "id": "ar-lic-20261106-aciclovir-1",
@@ -79,7 +106,7 @@
    "action": "correct",
    "claim": "Amiodarona **no se encuentra comercializada** en Argentina según los registros consultados. No se identificaron autorizaciones de comercialización vigentes (0 licencias).",
    "replacement": "Amiodarona **no se encuentra comercializada** en Argentina según los registros consultados.",
-   "note": "Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). En los datos (listado de medicamentos de PAMI) figuran 4 registros para este medicamento, 4 vigentes; las cifras actualizadas están en el resumen rápido y en la información de mercado.",
+   "note": "Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). Las cifras actualizadas de productos y su estado en el listado de medicamentos de PAMI están en el resumen rápido y en la tabla de la información de mercado.",
    "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
    "sources": [
     {
@@ -88,12 +115,39 @@
      "accessed": "2026-11-06"
     }
    ],
-   "checked": "2026-11-06",
+   "checked": "2026-11-24",
    "summary": "Eliminado: «No se identificaron autorizaciones de comercialización vigentes (0 licencias)»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）",
    "status": "resolved_by_regeneration",
    "resolved_on": "2026-11-16",
-   "resolved_note": "The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page"
+   "resolved_note": "The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page",
+   "history": [
+    {
+     "id": "ar-lic-20261106-amiodarona-1",
+     "drug": "amiodarona",
+     "file": "amiodarona.md",
+     "action": "correct",
+     "claim": "Amiodarona **no se encuentra comercializada** en Argentina según los registros consultados. No se identificaron autorizaciones de comercialización vigentes (0 licencias).",
+     "replacement": "Amiodarona **no se encuentra comercializada** en Argentina según los registros consultados.",
+     "note": "Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). En los datos (listado de medicamentos de PAMI) figuran 4 registros para este medicamento, 4 vigentes; las cifras actualizadas están en el resumen rápido y en la información de mercado.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "PAMI – Medicamentos para entidades (datos abiertos)",
+       "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+       "accessed": "2026-11-06"
+      }
+     ],
+     "checked": "2026-11-06",
+     "summary": "Eliminado: «No se identificaron autorizaciones de comercialización vigentes (0 licencias)»",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）",
+     "status": "resolved_by_regeneration",
+     "resolved_on": "2026-11-16",
+     "resolved_note": "The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page",
+     "retired": "2026-11-24",
+     "reason": "site_config figures 樣板改成不寫數字（2026-11-24 用戶決定，第二輪）"
+    }
+   ]
   },
   {
    "id": "ar-lic-20261106-atomoxetina-1",
@@ -102,7 +156,7 @@
    "action": "correct",
    "claim": "Atomoxetina **no se encuentra comercializada** en Argentina según los registros consultados. No existen autorizaciones de comercialización vigentes.",
    "replacement": "Atomoxetina **no se encuentra comercializada** en Argentina según los registros consultados.",
-   "note": "Eliminado: el número o el estado de los registros indicado no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). En los datos (listado de medicamentos de PAMI) figuran 5 registros para este medicamento, 5 vigentes; las cifras actualizadas están en el resumen rápido y en la información de mercado.",
+   "note": "Eliminado: el número o el estado de los registros indicado no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). Las cifras actualizadas de productos y su estado en el listado de medicamentos de PAMI están en el resumen rápido y en la tabla de la información de mercado.",
    "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
    "sources": [
     {
@@ -111,12 +165,39 @@
      "accessed": "2026-11-06"
     }
    ],
-   "checked": "2026-11-06",
+   "checked": "2026-11-24",
    "summary": "Eliminado: «No existen autorizaciones de comercialización vigentes»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）",
    "status": "resolved_by_regeneration",
    "resolved_on": "2026-11-16",
-   "resolved_note": "The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page"
+   "resolved_note": "The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page",
+   "history": [
+    {
+     "id": "ar-lic-20261106-atomoxetina-1",
+     "drug": "atomoxetina",
+     "file": "atomoxetina.md",
+     "action": "correct",
+     "claim": "Atomoxetina **no se encuentra comercializada** en Argentina según los registros consultados. No existen autorizaciones de comercialización vigentes.",
+     "replacement": "Atomoxetina **no se encuentra comercializada** en Argentina según los registros consultados.",
+     "note": "Eliminado: el número o el estado de los registros indicado no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). En los datos (listado de medicamentos de PAMI) figuran 5 registros para este medicamento, 5 vigentes; las cifras actualizadas están en el resumen rápido y en la información de mercado.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+     "sources": [
+      {
+       "title": "PAMI – Medicamentos para entidades (datos abiertos)",
+       "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+       "accessed": "2026-11-06"
+      }
+     ],
+     "checked": "2026-11-06",
+     "summary": "Eliminado: «No existen autorizaciones de comercialización vigentes»",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）",
+     "status": "resolved_by_regeneration",
+     "resolved_on": "2026-11-16",
+     "resolved_note": "The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page",
+     "retired": "2026-11-24",
+     "reason": "site_config figures 樣板改成不寫數字（2026-11-24 用戶決定，第二輪）"
+    }
+   ]
   },
   {
    "id": "ar-lic-20261106-atropina_sulfato-1",
@@ -125,7 +206,7 @@
    "action": "correct",
    "claim": "No se encontraron autorizaciones de comercialización vigentes para Atropina Sulfato en Argentina según los registros consultados (0 autorizaciones).",
    "replacement": "",
-   "note": "Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). En los datos (listado de medicamentos de PAMI) figuran 2 registros para este medicamento, 2 vigentes; las cifras actualizadas están en el resumen rápido y en la información de mercado.",
+   "note": "Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). Las cifras actualizadas de productos y su estado en el listado de medicamentos de PAMI están en el resumen rápido y en la tabla de la información de mercado.",
    "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
    "sources": [
     {
@@ -134,13 +215,41 @@
      "accessed": "2026-11-06"
     }
    ],
-   "checked": "2026-11-06",
+   "checked": "2026-11-24",
    "summary": "Eliminado: «No se encontraron autorizaciones de comercialización vigentes para Atropina Sulfato en Argentina según los registros consultados (0 autoriza»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）",
    "anchor": "> Esto puede deberse a que el fármaco se comercializa bajo formulaciones combinadas, denominaciones alternativas, o que los registros no fueron recuperados correctamente con el término de búsqueda \"ATROPINA,SULFATO\".",
    "status": "resolved_by_regeneration",
    "resolved_on": "2026-11-16",
-   "resolved_note": "The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page"
+   "resolved_note": "The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page",
+   "history": [
+    {
+     "id": "ar-lic-20261106-atropina_sulfato-1",
+     "drug": "atropina_sulfato",
+     "file": "atropina_sulfato.md",
+     "action": "correct",
+     "claim": "No se encontraron autorizaciones de comercialización vigentes para Atropina Sulfato en Argentina según los registros consultados (0 autorizaciones).",
+     "replacement": "",
+     "note": "Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). En los datos (listado de medicamentos de PAMI) figuran 2 registros para este medicamento, 2 vigentes; las cifras actualizadas están en el resumen rápido y en la información de mercado.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "PAMI – Medicamentos para entidades (datos abiertos)",
+       "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+       "accessed": "2026-11-06"
+      }
+     ],
+     "checked": "2026-11-06",
+     "summary": "Eliminado: «No se encontraron autorizaciones de comercialización vigentes para Atropina Sulfato en Argentina según los registros consultados (0 autoriza»",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）",
+     "anchor": "> Esto puede deberse a que el fármaco se comercializa bajo formulaciones combinadas, denominaciones alternativas, o que los registros no fueron recuperados correctamente con el término de búsqueda \"ATROPINA,SULFATO\".",
+     "status": "resolved_by_regeneration",
+     "resolved_on": "2026-11-16",
+     "resolved_note": "The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page",
+     "retired": "2026-11-24",
+     "reason": "site_config figures 樣板改成不寫數字（2026-11-24 用戶決定，第二輪）"
+    }
+   ]
   },
   {
    "id": "ar-lic-20261106-beclometasona-1",
@@ -149,7 +258,7 @@
    "action": "correct",
    "claim": "Beclometasona **no se encuentra comercializada** en Argentina según los datos disponibles. No se registraron autorizaciones de mercado (0 licencias).",
    "replacement": "Beclometasona **no se encuentra comercializada** en Argentina según los datos disponibles.",
-   "note": "Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). En los datos (listado de medicamentos de PAMI) figuran 2 registros para este medicamento, 2 vigentes; las cifras actualizadas están en el resumen rápido y en la información de mercado.",
+   "note": "Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). Las cifras actualizadas de productos y su estado en el listado de medicamentos de PAMI están en el resumen rápido y en la tabla de la información de mercado.",
    "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
    "sources": [
     {
@@ -158,12 +267,39 @@
      "accessed": "2026-11-06"
     }
    ],
-   "checked": "2026-11-06",
+   "checked": "2026-11-24",
    "summary": "Eliminado: «No se registraron autorizaciones de mercado (0 licencias)»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）",
    "status": "resolved_by_regeneration",
    "resolved_on": "2026-11-16",
-   "resolved_note": "The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page"
+   "resolved_note": "The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page",
+   "history": [
+    {
+     "id": "ar-lic-20261106-beclometasona-1",
+     "drug": "beclometasona",
+     "file": "beclometasona.md",
+     "action": "correct",
+     "claim": "Beclometasona **no se encuentra comercializada** en Argentina según los datos disponibles. No se registraron autorizaciones de mercado (0 licencias).",
+     "replacement": "Beclometasona **no se encuentra comercializada** en Argentina según los datos disponibles.",
+     "note": "Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). En los datos (listado de medicamentos de PAMI) figuran 2 registros para este medicamento, 2 vigentes; las cifras actualizadas están en el resumen rápido y en la información de mercado.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "PAMI – Medicamentos para entidades (datos abiertos)",
+       "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+       "accessed": "2026-11-06"
+      }
+     ],
+     "checked": "2026-11-06",
+     "summary": "Eliminado: «No se registraron autorizaciones de mercado (0 licencias)»",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）",
+     "status": "resolved_by_regeneration",
+     "resolved_on": "2026-11-16",
+     "resolved_note": "The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page",
+     "retired": "2026-11-24",
+     "reason": "site_config figures 樣板改成不寫數字（2026-11-24 用戶決定，第二輪）"
+    }
+   ]
   },
   {
    "id": "ar-lic-20261106-beclometasona-2",
@@ -172,7 +308,7 @@
    "action": "correct",
    "claim": "No es posible avanzar con la evaluación de reposicionamiento de Beclometasona debido a la ausencia total de predicciones del modelo TxGNN y múltiples brechas de datos bloqueantes. El fármaco no cuenta con autorización de mercado en Argentina, lo que representa una barrera regulatoria adicional.",
    "replacement": "No es posible avanzar con la evaluación de reposicionamiento de Beclometasona debido a la ausencia total de predicciones del modelo TxGNN y múltiples brechas de datos bloqueantes.",
-   "note": "Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). En los datos (listado de medicamentos de PAMI) figuran 2 registros para este medicamento, 2 vigentes; las cifras actualizadas están en el resumen rápido y en la información de mercado.",
+   "note": "Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). Las cifras actualizadas de productos y su estado en el listado de medicamentos de PAMI están en el resumen rápido y en la tabla de la información de mercado.",
    "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
    "sources": [
     {
@@ -181,12 +317,39 @@
      "accessed": "2026-11-06"
     }
    ],
-   "checked": "2026-11-06",
+   "checked": "2026-11-24",
    "summary": "Eliminado: «El fármaco no cuenta con autorización de mercado en Argentina, lo que representa una barrera regulatoria adicional»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）",
    "status": "resolved_by_regeneration",
    "resolved_on": "2026-11-16",
-   "resolved_note": "The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page"
+   "resolved_note": "The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page",
+   "history": [
+    {
+     "id": "ar-lic-20261106-beclometasona-2",
+     "drug": "beclometasona",
+     "file": "beclometasona.md",
+     "action": "correct",
+     "claim": "No es posible avanzar con la evaluación de reposicionamiento de Beclometasona debido a la ausencia total de predicciones del modelo TxGNN y múltiples brechas de datos bloqueantes. El fármaco no cuenta con autorización de mercado en Argentina, lo que representa una barrera regulatoria adicional.",
+     "replacement": "No es posible avanzar con la evaluación de reposicionamiento de Beclometasona debido a la ausencia total de predicciones del modelo TxGNN y múltiples brechas de datos bloqueantes.",
+     "note": "Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). En los datos (listado de medicamentos de PAMI) figuran 2 registros para este medicamento, 2 vigentes; las cifras actualizadas están en el resumen rápido y en la información de mercado.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "PAMI – Medicamentos para entidades (datos abiertos)",
+       "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+       "accessed": "2026-11-06"
+      }
+     ],
+     "checked": "2026-11-06",
+     "summary": "Eliminado: «El fármaco no cuenta con autorización de mercado en Argentina, lo que representa una barrera regulatoria adicional»",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）",
+     "status": "resolved_by_regeneration",
+     "resolved_on": "2026-11-16",
+     "resolved_note": "The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page",
+     "retired": "2026-11-24",
+     "reason": "site_config figures 樣板改成不寫數字（2026-11-24 用戶決定，第二輪）"
+    }
+   ]
   },
   {
    "id": "ar-lic-20261106-benznidazol-1",
@@ -241,7 +404,7 @@
    "action": "correct",
    "claim": "Bromhexina **no se encuentra comercializada** en Argentina según los registros consultados. No se identificaron autorizaciones de comercialización vigentes (total de autorizaciones: 0).",
    "replacement": "Bromhexina **no se encuentra comercializada** en Argentina según los registros consultados.",
-   "note": "Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). En los datos (listado de medicamentos de PAMI) figuran 10 registros para este medicamento, 10 vigentes; las cifras actualizadas están en el resumen rápido y en la información de mercado.",
+   "note": "Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). Las cifras actualizadas de productos y su estado en el listado de medicamentos de PAMI están en el resumen rápido y en la tabla de la información de mercado.",
    "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
    "sources": [
     {
@@ -250,9 +413,33 @@
      "accessed": "2026-11-06"
     }
    ],
-   "checked": "2026-11-06",
+   "checked": "2026-11-24",
    "summary": "Eliminado: «No se identificaron autorizaciones de comercialización vigentes (total de autorizaciones: 0)»",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）"
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）",
+   "history": [
+    {
+     "id": "ar-lic-20261106-bromhexina-1",
+     "drug": "bromhexina",
+     "file": "bromhexina.md",
+     "action": "correct",
+     "claim": "Bromhexina **no se encuentra comercializada** en Argentina según los registros consultados. No se identificaron autorizaciones de comercialización vigentes (total de autorizaciones: 0).",
+     "replacement": "Bromhexina **no se encuentra comercializada** en Argentina según los registros consultados.",
+     "note": "Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). En los datos (listado de medicamentos de PAMI) figuran 10 registros para este medicamento, 10 vigentes; las cifras actualizadas están en el resumen rápido y en la información de mercado.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "PAMI – Medicamentos para entidades (datos abiertos)",
+       "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+       "accessed": "2026-11-06"
+      }
+     ],
+     "checked": "2026-11-06",
+     "summary": "Eliminado: «No se identificaron autorizaciones de comercialización vigentes (total de autorizaciones: 0)»",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）",
+     "retired": "2026-11-24",
+     "reason": "site_config figures 樣板改成不寫數字（2026-11-24 用戶決定，第二輪）"
+    }
+   ]
   },
   {
    "id": "ar-lic-20261106-capecitabina-1",
@@ -364,7 +551,7 @@
    "action": "correct",
    "claim": "No se encontraron autorizaciones de comercialización para **CETIRIZINA** en el sistema consultado.",
    "replacement": "",
-   "note": "Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). En los datos (listado de medicamentos de PAMI) figuran 18 registros para este medicamento, 18 vigentes; las cifras actualizadas están en el resumen rápido y en la información de mercado.",
+   "note": "Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). Las cifras actualizadas de productos y su estado en el listado de medicamentos de PAMI están en el resumen rápido y en la tabla de la información de mercado.",
    "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
    "sources": [
     {
@@ -373,13 +560,41 @@
      "accessed": "2026-11-06"
     }
    ],
-   "checked": "2026-11-06",
+   "checked": "2026-11-24",
    "summary": "Eliminado: «No se encontraron autorizaciones de comercialización para **CETIRIZINA** en el sistema consultado»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）",
    "anchor": "> ⚠️ Nota: Cetirizina es un antihistamínico de uso común a nivel mundial. Se recomienda verificar directamente en el [buscador de productos de ANMAT](https://servicios.anmat.gov.ar/aplicaciones_net/psp_msp.aspx).",
    "status": "resolved_by_regeneration",
    "resolved_on": "2026-11-16",
-   "resolved_note": "The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page"
+   "resolved_note": "The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page",
+   "history": [
+    {
+     "id": "ar-lic-20261106-cetirizina-2",
+     "drug": "cetirizina",
+     "file": "cetirizina.md",
+     "action": "correct",
+     "claim": "No se encontraron autorizaciones de comercialización para **CETIRIZINA** en el sistema consultado.",
+     "replacement": "",
+     "note": "Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). En los datos (listado de medicamentos de PAMI) figuran 18 registros para este medicamento, 18 vigentes; las cifras actualizadas están en el resumen rápido y en la información de mercado.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "PAMI – Medicamentos para entidades (datos abiertos)",
+       "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+       "accessed": "2026-11-06"
+      }
+     ],
+     "checked": "2026-11-06",
+     "summary": "Eliminado: «No se encontraron autorizaciones de comercialización para **CETIRIZINA** en el sistema consultado»",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）",
+     "anchor": "> ⚠️ Nota: Cetirizina es un antihistamínico de uso común a nivel mundial. Se recomienda verificar directamente en el [buscador de productos de ANMAT](https://servicios.anmat.gov.ar/aplicaciones_net/psp_msp.aspx).",
+     "status": "resolved_by_regeneration",
+     "resolved_on": "2026-11-16",
+     "resolved_note": "The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page",
+     "retired": "2026-11-24",
+     "reason": "site_config figures 樣板改成不寫數字（2026-11-24 用戶決定，第二輪）"
+    }
+   ]
   },
   {
    "id": "ar-lic-20261106-cetirizina-3",
@@ -497,7 +712,7 @@
    "action": "correct",
    "claim": "El Evidence Pack de CINITAPRIDA carece de los insumos mínimos necesarios para completar el análisis de reposicionamiento: no están disponibles el mecanismo de acción, las indicaciones originales estructuradas, ni las predicciones TxGNN. Adicionalmente, el fármaco no cuenta con ninguna autorización de comercialización en Argentina, lo que añade una barrera regulatoria de base.",
    "replacement": "El Evidence Pack de CINITAPRIDA carece de los insumos mínimos necesarios para completar el análisis de reposicionamiento: no están disponibles el mecanismo de acción, las indicaciones originales estructuradas, ni las predicciones TxGNN.",
-   "note": "Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). En los datos (listado de medicamentos de PAMI) figuran 7 registros para este medicamento, 7 vigentes; las cifras actualizadas están en el resumen rápido y en la información de mercado.",
+   "note": "Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). Las cifras actualizadas de productos y su estado en el listado de medicamentos de PAMI están en el resumen rápido y en la tabla de la información de mercado.",
    "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
    "sources": [
     {
@@ -506,9 +721,33 @@
      "accessed": "2026-11-06"
     }
    ],
-   "checked": "2026-11-06",
+   "checked": "2026-11-24",
    "summary": "Eliminado: «Adicionalmente, el fármaco no cuenta con ninguna autorización de comercialización en Argentina, lo que añade una barrera regulatoria de base»",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）"
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）",
+   "history": [
+    {
+     "id": "ar-lic-20261106-cinitaprida-1",
+     "drug": "cinitaprida",
+     "file": "cinitaprida.md",
+     "action": "correct",
+     "claim": "El Evidence Pack de CINITAPRIDA carece de los insumos mínimos necesarios para completar el análisis de reposicionamiento: no están disponibles el mecanismo de acción, las indicaciones originales estructuradas, ni las predicciones TxGNN. Adicionalmente, el fármaco no cuenta con ninguna autorización de comercialización en Argentina, lo que añade una barrera regulatoria de base.",
+     "replacement": "El Evidence Pack de CINITAPRIDA carece de los insumos mínimos necesarios para completar el análisis de reposicionamiento: no están disponibles el mecanismo de acción, las indicaciones originales estructuradas, ni las predicciones TxGNN.",
+     "note": "Eliminado: la afirmación de que el medicamento no figura o de que sus registros están dados de baja no coincidía con los datos oficiales (listado de medicamentos de PAMI, al 2026-11-06). En los datos (listado de medicamentos de PAMI) figuran 7 registros para este medicamento, 7 vigentes; las cifras actualizadas están en el resumen rápido y en la información de mercado.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "PAMI – Medicamentos para entidades (datos abiertos)",
+       "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+       "accessed": "2026-11-06"
+      }
+     ],
+     "checked": "2026-11-06",
+     "summary": "Eliminado: «Adicionalmente, el fármaco no cuenta con ninguna autorización de comercialización en Argentina, lo que añade una barrera regulatoria de base»",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：101ac6e8（2026-11-06）",
+     "retired": "2026-11-24",
+     "reason": "site_config figures 樣板改成不寫數字（2026-11-24 用戶決定，第二輪）"
+    }
+   ]
   },
   {
    "id": "ar-lic-20261117-cyproheptadine-1",
@@ -516,8 +755,8 @@
    "file": "cyproheptadine.md",
    "action": "correct",
    "claim": "Las tres autorizaciones son de producto de un solo principio activo y se encuentran vigentes (fabricante: Beta).",
-   "replacement": "Dos de los tres productos (fabricante: Beta) siguen en el listado de medicamentos de PAMI; el tercero (50366, CIPROVIT CALCICO jarabe x 150 ml) ya no figura en el listado vigente de PAMI.",
-   "note": "Corregido: el producto 50366 (CIPROVIT CALCICO jarabe) figuraba en el listado de PAMI del 01/03/2026 y ya no figura en el listado vigente (05/11/2026); 2 de los 3 productos siguen en el listado. Que un producto ya no figure en el listado de PAMI no significa que su registro en ANMAT esté dado de baja: el estado del registro en ANMAT no está incluido en estos datos.",
+   "replacement": "Los productos (fabricante: Beta) son asociaciones de ciproheptadina con calcio o con vitaminas; el jarabe 50366 (CIPROVIT CALCICO x 150 ml) ya no figura en el listado vigente de PAMI (el estado de cada producto figura en la tabla).",
+   "note": "Corregido: el producto 50366 (CIPROVIT CALCICO jarabe) figuraba en el listado de PAMI del 01/03/2026 y ya no figura en el listado vigente (05/11/2026); los productos de estos datos son asociaciones (ciproheptadina con calcio o con vitaminas), no productos de un solo principio activo; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado. Que un producto ya no figure en el listado de PAMI no significa que su registro en ANMAT esté dado de baja: el estado del registro en ANMAT no está incluido en estos datos.",
    "finding": "2026-11-17：排程「新資料查不到」的 ALFABETA 代碼，在 2026-03-01 版 PAMI 價目表（data/raw/ar_fda_drugs.json，PVP PAMI AL 01/03/2026）裡有、2026-11-05 版（現行，8,734 列）沒有；PAMI 是給付清單，不推定 ANMAT 註冊失效",
    "sources": [
     {
@@ -531,8 +770,36 @@
      "accessed": "2026-11-17"
     }
    ],
-   "checked": "2026-11-17",
-   "summary": "«se encuentran vigentes» → 2 de 3 siguen en el listado de PAMI"
+   "checked": "2026-11-24",
+   "summary": "«se encuentran vigentes» → 50366 ya no figura en el listado de PAMI",
+   "history": [
+    {
+     "id": "ar-lic-20261117-cyproheptadine-1",
+     "drug": "cyproheptadine",
+     "file": "cyproheptadine.md",
+     "action": "correct",
+     "claim": "Las tres autorizaciones son de producto de un solo principio activo y se encuentran vigentes (fabricante: Beta).",
+     "replacement": "Dos de los tres productos (fabricante: Beta) siguen en el listado de medicamentos de PAMI; el tercero (50366, CIPROVIT CALCICO jarabe x 150 ml) ya no figura en el listado vigente de PAMI.",
+     "note": "Corregido: el producto 50366 (CIPROVIT CALCICO jarabe) figuraba en el listado de PAMI del 01/03/2026 y ya no figura en el listado vigente (05/11/2026); 2 de los 3 productos siguen en el listado. Que un producto ya no figure en el listado de PAMI no significa que su registro en ANMAT esté dado de baja: el estado del registro en ANMAT no está incluido en estos datos.",
+     "finding": "2026-11-17：排程「新資料查不到」的 ALFABETA 代碼，在 2026-03-01 版 PAMI 價目表（data/raw/ar_fda_drugs.json，PVP PAMI AL 01/03/2026）裡有、2026-11-05 版（現行，8,734 列）沒有；PAMI 是給付清單，不推定 ANMAT 註冊失效",
+     "sources": [
+      {
+       "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+       "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+       "accessed": "2026-11-17"
+      },
+      {
+       "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+       "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+       "accessed": "2026-11-17"
+      }
+     ],
+     "checked": "2026-11-17",
+     "summary": "«se encuentran vigentes» → 2 de 3 siguen en el listado de PAMI",
+     "retired": "2026-11-24",
+     "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：更正文字不寫死張數與舊表筆數（第二輪）"
+    }
+   ]
   },
   {
    "id": "ar-lic-20261117-fexofenadina-1",
@@ -540,8 +807,8 @@
    "file": "fexofenadina.md",
    "action": "correct",
    "claim": "Se registran al menos 20 autorizaciones vigentes, todas de monofármaco; la lista puede ser parcial. Principales autorizaciones:",
-   "replacement": "Estos datos registran al menos 20 productos de fexofenadina, todos de monofármaco; 13 de ellos, incluidos los 5 de la tabla, ya no figuran en el listado vigente de PAMI, y al menos 7 siguen en el listado. La lista puede ser parcial. Principales productos:",
-   "note": "Corregido: 13 productos de fexofenadina (entre ellos 37841, 23172, 54289, 53421 y 54926 de la tabla) figuraban en el listado de PAMI del 01/03/2026 y ya no figuran en el listado vigente (05/11/2026). Que un producto ya no figure en el listado de PAMI no significa que su registro en ANMAT esté dado de baja: el estado del registro en ANMAT no está incluido en estos datos.",
+   "replacement": "Estos datos solo recogen una parte de los productos de fexofenadina, en su mayoría de un solo principio activo y alguno en asociación (ALERCAS D, con pseudoefedrina); varios, entre ellos los de la tabla, ya no figuran en el listado vigente de PAMI, y otros siguen en el listado (cifras en el resumen rápido). La lista puede ser parcial. Principales productos:",
+   "note": "Corregido: varios productos de fexofenadina (entre ellos 37841, 23172, 54289, 53421 y 54926, que figuran en la tabla) figuraban en el listado de PAMI del 01/03/2026 y ya no figuran en el listado vigente (05/11/2026); ALERCAS D es una asociación de fexofenadina con pseudoefedrina; las cifras actualizadas están en el resumen rápido. Que un producto ya no figure en el listado de PAMI no significa que su registro en ANMAT esté dado de baja: el estado del registro en ANMAT no está incluido en estos datos.",
    "finding": "2026-11-17：排程「新資料查不到」的 ALFABETA 代碼，在 2026-03-01 版 PAMI 價目表（data/raw/ar_fda_drugs.json，PVP PAMI AL 01/03/2026）裡有、2026-11-05 版（現行，8,734 列）沒有；PAMI 是給付清單，不推定 ANMAT 註冊失效",
    "sources": [
     {
@@ -555,8 +822,36 @@
      "accessed": "2026-11-17"
     }
    ],
-   "checked": "2026-11-17",
-   "summary": "«al menos 20 autorizaciones vigentes» → 13 ya no figuran en PAMI, al menos 7 siguen"
+   "checked": "2026-11-24",
+   "summary": "«al menos 20 autorizaciones vigentes» → varios ya no figuran en PAMI",
+   "history": [
+    {
+     "id": "ar-lic-20261117-fexofenadina-1",
+     "drug": "fexofenadina",
+     "file": "fexofenadina.md",
+     "action": "correct",
+     "claim": "Se registran al menos 20 autorizaciones vigentes, todas de monofármaco; la lista puede ser parcial. Principales autorizaciones:",
+     "replacement": "Estos datos registran al menos 20 productos de fexofenadina, todos de monofármaco; 13 de ellos, incluidos los 5 de la tabla, ya no figuran en el listado vigente de PAMI, y al menos 7 siguen en el listado. La lista puede ser parcial. Principales productos:",
+     "note": "Corregido: 13 productos de fexofenadina (entre ellos 37841, 23172, 54289, 53421 y 54926 de la tabla) figuraban en el listado de PAMI del 01/03/2026 y ya no figuran en el listado vigente (05/11/2026). Que un producto ya no figure en el listado de PAMI no significa que su registro en ANMAT esté dado de baja: el estado del registro en ANMAT no está incluido en estos datos.",
+     "finding": "2026-11-17：排程「新資料查不到」的 ALFABETA 代碼，在 2026-03-01 版 PAMI 價目表（data/raw/ar_fda_drugs.json，PVP PAMI AL 01/03/2026）裡有、2026-11-05 版（現行，8,734 列）沒有；PAMI 是給付清單，不推定 ANMAT 註冊失效",
+     "sources": [
+      {
+       "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+       "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+       "accessed": "2026-11-17"
+      },
+      {
+       "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+       "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+       "accessed": "2026-11-17"
+      }
+     ],
+     "checked": "2026-11-17",
+     "summary": "«al menos 20 autorizaciones vigentes» → 13 ya no figuran en PAMI, al menos 7 siguen",
+     "retired": "2026-11-24",
+     "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：更正文字不寫死張數與舊表筆數（第二輪）"
+    }
+   ]
   },
   {
    "id": "ar-lic-20261117-insulina_glargina-1",
@@ -564,8 +859,8 @@
    "file": "insulina_glargina.md",
    "action": "correct",
    "claim": "Todas las autorizaciones registradas están vigentes y corresponden a productos de un solo principio activo.",
-   "replacement": "Los productos corresponden a un solo principio activo; 3 de los 4 siguen en el listado de medicamentos de PAMI y el cartucho 32734 (INSULINA LANTUS, 5 x 3 ml) ya no figura en el listado vigente de PAMI.",
-   "note": "Corregido: el producto 32734 (INSULINA LANTUS cartuchos) figuraba en el listado de PAMI del 01/03/2026 y ya no figura en el listado vigente (05/11/2026). Que un producto ya no figure en el listado de PAMI no significa que su registro en ANMAT esté dado de baja: el estado del registro en ANMAT no está incluido en estos datos.",
+   "replacement": "Los productos corresponden a un solo principio activo; el cartucho 32734 (INSULINA LANTUS, 5 x 3 ml) ya no figura en el listado vigente de PAMI (el estado de cada producto figura en la tabla).",
+   "note": "Corregido: el producto 32734 (INSULINA LANTUS cartuchos) figuraba en el listado de PAMI del 01/03/2026 y ya no figura en el listado vigente (05/11/2026); las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado. Que un producto ya no figure en el listado de PAMI no significa que su registro en ANMAT esté dado de baja: el estado del registro en ANMAT no está incluido en estos datos.",
    "finding": "2026-11-17：排程「新資料查不到」的 ALFABETA 代碼，在 2026-03-01 版 PAMI 價目表（data/raw/ar_fda_drugs.json，PVP PAMI AL 01/03/2026）裡有、2026-11-05 版（現行，8,734 列）沒有；PAMI 是給付清單，不推定 ANMAT 註冊失效",
    "sources": [
     {
@@ -579,8 +874,36 @@
      "accessed": "2026-11-17"
     }
    ],
-   "checked": "2026-11-17",
-   "summary": "«Todas … vigentes» → 3 de 4 siguen en el listado de PAMI"
+   "checked": "2026-11-24",
+   "summary": "«Todas … vigentes» → 32734 ya no figura en el listado de PAMI",
+   "history": [
+    {
+     "id": "ar-lic-20261117-insulina_glargina-1",
+     "drug": "insulina_glargina",
+     "file": "insulina_glargina.md",
+     "action": "correct",
+     "claim": "Todas las autorizaciones registradas están vigentes y corresponden a productos de un solo principio activo.",
+     "replacement": "Los productos corresponden a un solo principio activo; 3 de los 4 siguen en el listado de medicamentos de PAMI y el cartucho 32734 (INSULINA LANTUS, 5 x 3 ml) ya no figura en el listado vigente de PAMI.",
+     "note": "Corregido: el producto 32734 (INSULINA LANTUS cartuchos) figuraba en el listado de PAMI del 01/03/2026 y ya no figura en el listado vigente (05/11/2026). Que un producto ya no figure en el listado de PAMI no significa que su registro en ANMAT esté dado de baja: el estado del registro en ANMAT no está incluido en estos datos.",
+     "finding": "2026-11-17：排程「新資料查不到」的 ALFABETA 代碼，在 2026-03-01 版 PAMI 價目表（data/raw/ar_fda_drugs.json，PVP PAMI AL 01/03/2026）裡有、2026-11-05 版（現行，8,734 列）沒有；PAMI 是給付清單，不推定 ANMAT 註冊失效",
+     "sources": [
+      {
+       "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+       "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+       "accessed": "2026-11-17"
+      },
+      {
+       "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+       "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+       "accessed": "2026-11-17"
+      }
+     ],
+     "checked": "2026-11-17",
+     "summary": "«Todas … vigentes» → 3 de 4 siguen en el listado de PAMI",
+     "retired": "2026-11-24",
+     "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：更正文字不寫死張數與舊表筆數（第二輪）"
+    }
+   ]
   },
   {
    "id": "ar-lic-20261117-levocetirizina-1",
@@ -588,8 +911,8 @@
    "file": "levocetirizina.md",
    "action": "correct",
    "claim": "El estado de mercado es comercializado, con las 10 autorizaciones vigentes (todas de producto de un solo principio activo). Los datos locales no traen texto de indicación aprobada. Principales autorizaciones:",
-   "replacement": "De los 10 productos de estos datos (todos de un solo principio activo), 3 siguen en el listado de medicamentos de PAMI y 7, incluidos 41030, 33448, 41031 y 44841 de la tabla, ya no figuran en el listado vigente de PAMI. Los datos locales no traen texto de indicación aprobada. Principales productos:",
-   "note": "Corregido: 7 productos de levocetirizina figuraban en el listado de PAMI del 01/03/2026 y ya no figuran en el listado vigente (05/11/2026); 3 siguen en el listado. Que un producto ya no figure en el listado de PAMI no significa que su registro en ANMAT esté dado de baja: el estado del registro en ANMAT no está incluido en estos datos.",
+   "replacement": "Los productos de estos datos contienen levocetirizina como único principio activo o en asociación con montelukast; varios, entre ellos 41030, 33448, 41031 y 44841 de la tabla, ya no figuran en el listado vigente de PAMI y otros siguen en el listado (cifras en el resumen rápido). Los datos locales no traen texto de indicación aprobada. Principales productos:",
+   "note": "Corregido: varios productos de levocetirizina figuraban en el listado de PAMI del 01/03/2026 y ya no figuran en el listado vigente (05/11/2026); AIREAL PLUS, ALERVITAN y LUKAST COMPUESTO son asociaciones de levocetirizina con montelukast; las cifras actualizadas están en el resumen rápido. Que un producto ya no figure en el listado de PAMI no significa que su registro en ANMAT esté dado de baja: el estado del registro en ANMAT no está incluido en estos datos.",
    "finding": "2026-11-17：排程「新資料查不到」的 ALFABETA 代碼，在 2026-03-01 版 PAMI 價目表（data/raw/ar_fda_drugs.json，PVP PAMI AL 01/03/2026）裡有、2026-11-05 版（現行，8,734 列）沒有；PAMI 是給付清單，不推定 ANMAT 註冊失效",
    "sources": [
     {
@@ -603,8 +926,36 @@
      "accessed": "2026-11-17"
     }
    ],
-   "checked": "2026-11-17",
-   "summary": "«10 autorizaciones vigentes» → 3 siguen en PAMI, 7 ya no figuran"
+   "checked": "2026-11-24",
+   "summary": "«10 autorizaciones vigentes» → varias ya no figuran en PAMI",
+   "history": [
+    {
+     "id": "ar-lic-20261117-levocetirizina-1",
+     "drug": "levocetirizina",
+     "file": "levocetirizina.md",
+     "action": "correct",
+     "claim": "El estado de mercado es comercializado, con las 10 autorizaciones vigentes (todas de producto de un solo principio activo). Los datos locales no traen texto de indicación aprobada. Principales autorizaciones:",
+     "replacement": "De los 10 productos de estos datos (todos de un solo principio activo), 3 siguen en el listado de medicamentos de PAMI y 7, incluidos 41030, 33448, 41031 y 44841 de la tabla, ya no figuran en el listado vigente de PAMI. Los datos locales no traen texto de indicación aprobada. Principales productos:",
+     "note": "Corregido: 7 productos de levocetirizina figuraban en el listado de PAMI del 01/03/2026 y ya no figuran en el listado vigente (05/11/2026); 3 siguen en el listado. Que un producto ya no figure en el listado de PAMI no significa que su registro en ANMAT esté dado de baja: el estado del registro en ANMAT no está incluido en estos datos.",
+     "finding": "2026-11-17：排程「新資料查不到」的 ALFABETA 代碼，在 2026-03-01 版 PAMI 價目表（data/raw/ar_fda_drugs.json，PVP PAMI AL 01/03/2026）裡有、2026-11-05 版（現行，8,734 列）沒有；PAMI 是給付清單，不推定 ANMAT 註冊失效",
+     "sources": [
+      {
+       "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+       "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+       "accessed": "2026-11-17"
+      },
+      {
+       "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+       "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+       "accessed": "2026-11-17"
+      }
+     ],
+     "checked": "2026-11-17",
+     "summary": "«10 autorizaciones vigentes» → 3 siguen en PAMI, 7 ya no figuran",
+     "retired": "2026-11-24",
+     "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：更正文字不寫死張數與舊表筆數（第二輪）"
+    }
+   ]
   },
   {
    "id": "ar-lic-20261117-naphazoline-1",
@@ -612,8 +963,8 @@
    "file": "naphazoline.md",
    "action": "correct",
    "claim": "Se muestran 5 de las 9 autorizaciones vigentes (todas de monodroga, ninguna cancelada). Las restantes corresponden a DRYNISAN, REFENAX COLIRIO, VISUCLAR y REFENAX (gotas nasales).",
-   "replacement": "Se muestran 5 de los 9 productos de estos datos; 5 siguen en el listado de medicamentos de PAMI y 4 (MIRUS y MIRA KLONAL de la tabla, REFENAX COLIRIO y VISUCLAR) ya no figuran en el listado vigente de PAMI. Los restantes corresponden a DRYNISAN, REFENAX COLIRIO, VISUCLAR y REFENAX (gotas nasales).",
-   "note": "Corregido: los productos 174 (MIRUS), 42850 (MIRA KLONAL), 18650 (REFENAX COLIRIO) y 43809 (VISUCLAR) figuraban en el listado de PAMI del 01/03/2026 y ya no figuran en el listado vigente (05/11/2026). Que un producto ya no figure en el listado de PAMI no significa que su registro en ANMAT esté dado de baja: el estado del registro en ANMAT no está incluido en estos datos.",
+   "replacement": "Varios productos, entre ellos MIRUS y MIRA KLONAL de la tabla, ya no figuran en el listado vigente de PAMI (el estado de cada producto figura en la tabla y las cifras en el resumen rápido). Fuera de la tabla figuran DRYNISAN, REFENAX COLIRIO, VISUCLAR y REFENAX (gotas nasales); REFENAX COLIRIO y VISUCLAR tampoco figuran ya en el listado vigente de PAMI.",
+   "note": "Corregido: los productos 174 (MIRUS), 42850 (MIRA KLONAL), 18650 (REFENAX COLIRIO) y 43809 (VISUCLAR) figuraban en el listado de PAMI del 01/03/2026 y ya no figuran en el listado vigente (05/11/2026); varios productos son asociaciones de nafazolina (con feniramina, cromoglicato disódico u otros), no de monodroga. Que un producto ya no figure en el listado de PAMI no significa que su registro en ANMAT esté dado de baja: el estado del registro en ANMAT no está incluido en estos datos.",
    "finding": "2026-11-17：排程「新資料查不到」的 ALFABETA 代碼，在 2026-03-01 版 PAMI 價目表（data/raw/ar_fda_drugs.json，PVP PAMI AL 01/03/2026）裡有、2026-11-05 版（現行，8,734 列）沒有；PAMI 是給付清單，不推定 ANMAT 註冊失效",
    "sources": [
     {
@@ -627,8 +978,36 @@
      "accessed": "2026-11-17"
     }
    ],
-   "checked": "2026-11-17",
-   "summary": "«9 autorizaciones vigentes, ninguna cancelada» → 5 siguen en PAMI, 4 ya no figuran"
+   "checked": "2026-11-24",
+   "summary": "«9 autorizaciones vigentes, ninguna cancelada» → varias ya no figuran en PAMI",
+   "history": [
+    {
+     "id": "ar-lic-20261117-naphazoline-1",
+     "drug": "naphazoline",
+     "file": "naphazoline.md",
+     "action": "correct",
+     "claim": "Se muestran 5 de las 9 autorizaciones vigentes (todas de monodroga, ninguna cancelada). Las restantes corresponden a DRYNISAN, REFENAX COLIRIO, VISUCLAR y REFENAX (gotas nasales).",
+     "replacement": "Se muestran 5 de los 9 productos de estos datos; 5 siguen en el listado de medicamentos de PAMI y 4 (MIRUS y MIRA KLONAL de la tabla, REFENAX COLIRIO y VISUCLAR) ya no figuran en el listado vigente de PAMI. Los restantes corresponden a DRYNISAN, REFENAX COLIRIO, VISUCLAR y REFENAX (gotas nasales).",
+     "note": "Corregido: los productos 174 (MIRUS), 42850 (MIRA KLONAL), 18650 (REFENAX COLIRIO) y 43809 (VISUCLAR) figuraban en el listado de PAMI del 01/03/2026 y ya no figuran en el listado vigente (05/11/2026). Que un producto ya no figure en el listado de PAMI no significa que su registro en ANMAT esté dado de baja: el estado del registro en ANMAT no está incluido en estos datos.",
+     "finding": "2026-11-17：排程「新資料查不到」的 ALFABETA 代碼，在 2026-03-01 版 PAMI 價目表（data/raw/ar_fda_drugs.json，PVP PAMI AL 01/03/2026）裡有、2026-11-05 版（現行，8,734 列）沒有；PAMI 是給付清單，不推定 ANMAT 註冊失效",
+     "sources": [
+      {
+       "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+       "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+       "accessed": "2026-11-17"
+      },
+      {
+       "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+       "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+       "accessed": "2026-11-17"
+      }
+     ],
+     "checked": "2026-11-17",
+     "summary": "«9 autorizaciones vigentes, ninguna cancelada» → 5 siguen en PAMI, 4 ya no figuran",
+     "retired": "2026-11-24",
+     "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：更正文字不寫死張數與舊表筆數（第二輪）"
+    }
+   ]
   },
   {
    "id": "ar-lic-20261117-olopatadine-1",
@@ -636,8 +1015,8 @@
    "file": "olopatadine.md",
    "action": "correct",
    "claim": "Hay 10 autorizaciones vigentes, todas de producto único (sin combinaciones) y ninguna cancelada. Se listan las 5 principales:",
-   "replacement": "Estos datos registran 10 productos, todos de producto único (sin combinaciones); ninguno figura ya en el listado vigente de PAMI (el listado del 05/11/2026 no incluye ningún producto de olopatadina). Se listan 5:",
-   "note": "Corregido: los 10 productos de olopatadina figuraban en el listado de PAMI del 01/03/2026 y ninguno figura en el listado vigente (05/11/2026). Que un producto ya no figure en el listado de PAMI no significa que su registro en ANMAT esté dado de baja: el estado del registro en ANMAT no está incluido en estos datos.",
+   "replacement": "Estos datos registran productos de olopatadina, todos de producto único (sin combinaciones); ninguno figura ya en el listado vigente de PAMI (el listado del 05/11/2026 no incluye ningún producto de olopatadina). Algunos de ellos:",
+   "note": "Corregido: los productos de olopatadina de estos datos figuraban en el listado de PAMI del 01/03/2026 y ninguno figura en el listado vigente (05/11/2026); las cifras están en el resumen rápido. Que un producto ya no figure en el listado de PAMI no significa que su registro en ANMAT esté dado de baja: el estado del registro en ANMAT no está incluido en estos datos.",
    "finding": "2026-11-17：排程「新資料查不到」的 ALFABETA 代碼，在 2026-03-01 版 PAMI 價目表（data/raw/ar_fda_drugs.json，PVP PAMI AL 01/03/2026）裡有、2026-11-05 版（現行，8,734 列）沒有；PAMI 是給付清單，不推定 ANMAT 註冊失效",
    "sources": [
     {
@@ -651,8 +1030,36 @@
      "accessed": "2026-11-17"
     }
    ],
-   "checked": "2026-11-17",
-   "summary": "«10 autorizaciones vigentes» → ninguno figura ya en PAMI"
+   "checked": "2026-11-24",
+   "summary": "«10 autorizaciones vigentes» → ninguno figura ya en PAMI",
+   "history": [
+    {
+     "id": "ar-lic-20261117-olopatadine-1",
+     "drug": "olopatadine",
+     "file": "olopatadine.md",
+     "action": "correct",
+     "claim": "Hay 10 autorizaciones vigentes, todas de producto único (sin combinaciones) y ninguna cancelada. Se listan las 5 principales:",
+     "replacement": "Estos datos registran 10 productos, todos de producto único (sin combinaciones); ninguno figura ya en el listado vigente de PAMI (el listado del 05/11/2026 no incluye ningún producto de olopatadina). Se listan 5:",
+     "note": "Corregido: los 10 productos de olopatadina figuraban en el listado de PAMI del 01/03/2026 y ninguno figura en el listado vigente (05/11/2026). Que un producto ya no figure en el listado de PAMI no significa que su registro en ANMAT esté dado de baja: el estado del registro en ANMAT no está incluido en estos datos.",
+     "finding": "2026-11-17：排程「新資料查不到」的 ALFABETA 代碼，在 2026-03-01 版 PAMI 價目表（data/raw/ar_fda_drugs.json，PVP PAMI AL 01/03/2026）裡有、2026-11-05 版（現行，8,734 列）沒有；PAMI 是給付清單，不推定 ANMAT 註冊失效",
+     "sources": [
+      {
+       "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+       "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+       "accessed": "2026-11-17"
+      },
+      {
+       "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+       "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+       "accessed": "2026-11-17"
+      }
+     ],
+     "checked": "2026-11-17",
+     "summary": "«10 autorizaciones vigentes» → ninguno figura ya en PAMI",
+     "retired": "2026-11-24",
+     "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：更正文字不寫死張數與舊表筆數（第二輪）"
+    }
+   ]
   },
   {
    "id": "ar-lic-20261117-pheniramine-1",
@@ -660,8 +1067,8 @@
    "file": "pheniramine.md",
    "action": "correct",
    "claim": "Las 4 autorizaciones son de producto de un solo principio activo y se encuentran vigentes.",
-   "replacement": "Los 4 productos ya no figuran en el listado vigente de PAMI (el listado del 05/11/2026 no incluye ningún producto con feniramina, aparte de clorfeniramina y dexclorfeniramina, que son otros principios activos).",
-   "note": "Corregido: los 4 productos (174 MIRUS, 18650 REFENAX COLIRIO, 42850 MIRA KLONAL, 43809 VISUCLAR) figuraban en el listado de PAMI del 01/03/2026 y ya no figuran en el listado vigente (05/11/2026). Que un producto ya no figure en el listado de PAMI no significa que su registro en ANMAT esté dado de baja: el estado del registro en ANMAT no está incluido en estos datos.",
+   "replacement": "Los productos de estos datos (asociaciones de feniramina con nafazolina) ya no figuran en el listado vigente de PAMI (el listado del 05/11/2026 no incluye ningún producto con feniramina, aparte de clorfeniramina y dexclorfeniramina, que son otros principios activos).",
+   "note": "Corregido: los productos de feniramina de estos datos (174 MIRUS, 18650 REFENAX COLIRIO, 42850 MIRA KLONAL, 43809 VISUCLAR), todos asociaciones con nafazolina, figuraban en el listado de PAMI del 01/03/2026 y ya no figuran en el listado vigente (05/11/2026). Que un producto ya no figure en el listado de PAMI no significa que su registro en ANMAT esté dado de baja: el estado del registro en ANMAT no está incluido en estos datos.",
    "finding": "2026-11-17：排程「新資料查不到」的 ALFABETA 代碼，在 2026-03-01 版 PAMI 價目表（data/raw/ar_fda_drugs.json，PVP PAMI AL 01/03/2026）裡有、2026-11-05 版（現行，8,734 列）沒有；PAMI 是給付清單，不推定 ANMAT 註冊失效",
    "sources": [
     {
@@ -675,8 +1082,36 @@
      "accessed": "2026-11-17"
     }
    ],
-   "checked": "2026-11-17",
-   "summary": "«se encuentran vigentes» → ya no figuran en PAMI"
+   "checked": "2026-11-24",
+   "summary": "«se encuentran vigentes» → ya no figuran en PAMI",
+   "history": [
+    {
+     "id": "ar-lic-20261117-pheniramine-1",
+     "drug": "pheniramine",
+     "file": "pheniramine.md",
+     "action": "correct",
+     "claim": "Las 4 autorizaciones son de producto de un solo principio activo y se encuentran vigentes.",
+     "replacement": "Los 4 productos ya no figuran en el listado vigente de PAMI (el listado del 05/11/2026 no incluye ningún producto con feniramina, aparte de clorfeniramina y dexclorfeniramina, que son otros principios activos).",
+     "note": "Corregido: los 4 productos (174 MIRUS, 18650 REFENAX COLIRIO, 42850 MIRA KLONAL, 43809 VISUCLAR) figuraban en el listado de PAMI del 01/03/2026 y ya no figuran en el listado vigente (05/11/2026). Que un producto ya no figure en el listado de PAMI no significa que su registro en ANMAT esté dado de baja: el estado del registro en ANMAT no está incluido en estos datos.",
+     "finding": "2026-11-17：排程「新資料查不到」的 ALFABETA 代碼，在 2026-03-01 版 PAMI 價目表（data/raw/ar_fda_drugs.json，PVP PAMI AL 01/03/2026）裡有、2026-11-05 版（現行，8,734 列）沒有；PAMI 是給付清單，不推定 ANMAT 註冊失效",
+     "sources": [
+      {
+       "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+       "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+       "accessed": "2026-11-17"
+      },
+      {
+       "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+       "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+       "accessed": "2026-11-17"
+      }
+     ],
+     "checked": "2026-11-17",
+     "summary": "«se encuentran vigentes» → ya no figuran en PAMI",
+     "retired": "2026-11-24",
+     "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：更正文字不寫死張數與舊表筆數（第二輪）"
+    }
+   ]
   },
   {
    "id": "ar-moa-20261119-acetazolamida-1",
@@ -6893,6 +7328,1566 @@
    ],
    "checked": "2026-11-19",
    "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "ar-lic-20261124-allopurinol-1",
+   "drug": "allopurinol",
+   "file": "allopurinol.md",
+   "action": "correct",
+   "claim": "Se registran al menos 20 autorizaciones vigentes de productos de un solo principio activo.",
+   "replacement": "Se registran productos de un solo principio activo y también asociaciones de alopurinol con colchicina (por ejemplo, COLPURIL 300 RETARD y ARTREX RETARD).",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), varios productos son asociaciones de alopurinol con colchicina (COLPURIL 300 RETARD, ARTREX RETARD), por lo que no hay al menos 20 productos de un solo principio activo; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«al menos 20 … de un solo principio activo» → también asociaciones con colchicina"
+  },
+  {
+   "id": "ar-lic-20261124-amilorida-1",
+   "drug": "amilorida",
+   "file": "amilorida.md",
+   "action": "correct",
+   "claim": "La amilorida se encuentra comercializada en Argentina, con 11 autorizaciones vigentes de productos de un solo principio activo (ninguna cancelada ni sin comercializar).",
+   "replacement": "La amilorida se encuentra comercializada en Argentina en productos en asociación (con hidroclorotiazida o con furosemida); en estos datos no hay productos de amilorida como único principio activo.",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), todos los productos de amilorida son asociaciones con hidroclorotiazida (DIUREX A, REN-UR, MODURETIC, HIDRENOX A) o con furosemida (ERROLON A); las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«de un solo principio activo» → todos en asociación"
+  },
+  {
+   "id": "ar-lic-20261124-beclometasona-1",
+   "drug": "beclometasona",
+   "file": "beclometasona.md",
+   "action": "correct",
+   "claim": "La beclometasona se encuentra comercializada en Argentina, con autorizaciones vigentes de productos de un solo principio activo, presentados como aerosoles.",
+   "replacement": "La beclometasona se encuentra comercializada en Argentina en aerosoles que la asocian con salbutamol (BUTOCORT HFA, VENTIDE); en estos datos no hay productos de beclometasona como único principio activo.",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), los dos aerosoles (BUTOCORT HFA, VENTIDE) son asociaciones de beclometasona con salbutamol; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«de un solo principio activo» → asociaciones con salbutamol"
+  },
+  {
+   "id": "ar-lic-20261124-candesartán_cilexetil-1",
+   "drug": "candesartán_cilexetil",
+   "file": "candesartán_cilexetil.md",
+   "action": "correct",
+   "claim": "El fármaco está comercializado en Argentina, con 15 autorizaciones vigentes, todas de monofármaco según los registros.",
+   "replacement": "El fármaco está comercializado en Argentina, como monofármaco y en asociación con felodipina (ATACAND DUO).",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), ATACAND DUO es una asociación de candesartán cilexetilo con felodipina; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«todas de monofármaco» → también asociación con felodipina"
+  },
+  {
+   "id": "ar-lic-20261124-carisoprodol-1",
+   "drug": "carisoprodol",
+   "file": "carisoprodol.md",
+   "action": "correct",
+   "claim": "Se muestran 5 de las 10 autorizaciones vigentes (todas de monofármaco).",
+   "replacement": "Además de LISTAFLEX (monofármaco), los productos son asociaciones de carisoprodol con piroxicam o con naproxeno.",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), salvo LISTAFLEX, los productos son asociaciones de carisoprodol con piroxicam (FLEXICAMIN, SOLOCALM) o con naproxeno (NAPRUX DISTEN); las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«todas de monofármaco» → la mayoría asociaciones"
+  },
+  {
+   "id": "ar-lic-20261124-cinchocaine-1",
+   "drug": "cinchocaine",
+   "file": "cinchocaine.md",
+   "action": "correct",
+   "claim": "Ambas autorizaciones son de producto de un solo principio activo y están vigentes.",
+   "replacement": "Los productos (PROCTYL) son asociaciones de cincocaína con otros principios activos.",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), PROCTYL es una asociación de cincocaína clorhidrato con otros principios activos; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«de un solo principio activo» → asociación"
+  },
+  {
+   "id": "ar-lic-20261124-clofedanol-1",
+   "drug": "clofedanol",
+   "file": "clofedanol.md",
+   "action": "correct",
+   "claim": "Se muestran 5 de 8 autorizaciones; todas son de producto de un solo principio activo y están vigentes.",
+   "replacement": "Todos los productos son asociaciones de clofedianol con bromhexina.",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), todos los productos (COFRON, UNITOS, PECTORAL HEBERT) son asociaciones de clofedianol con bromhexina; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«de un solo principio activo» → asociaciones con bromhexina"
+  },
+  {
+   "id": "ar-lic-20261124-clonidina-1",
+   "drug": "clonidina",
+   "file": "clonidina.md",
+   "action": "correct",
+   "claim": "Las dos autorizaciones registradas son de producto de principio activo único y ambas están vigentes.",
+   "replacement": "Los productos (BEMPLAS) son asociaciones de clonidina con clortalidona.",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), BEMPLAS es una asociación de clonidina con clortalidona; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«principio activo único» → asociación con clortalidona"
+  },
+  {
+   "id": "ar-lic-20261124-clortalidona-1",
+   "drug": "clortalidona",
+   "file": "clortalidona.md",
+   "action": "correct",
+   "claim": "Hay 7 autorizaciones vigentes, todas de producto de un solo principio activo.",
+   "replacement": "Hay productos de clortalidona como único principio activo y asociaciones con atenolol (PRENORETIC) o con clonidina (BEMPLAS).",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), PRENORETIC (con atenolol) y BEMPLAS (con clonidina) son asociaciones; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«todas de un solo principio activo» → también asociaciones"
+  },
+  {
+   "id": "ar-lic-20261124-clotrimazol-1",
+   "drug": "clotrimazol",
+   "file": "clotrimazol.md",
+   "action": "correct",
+   "claim": "Se muestran las 5 primeras de 9 autorizaciones vigentes, todas de productos de un solo principio activo.",
+   "replacement": "Además de los productos de clotrimazol como único principio activo, hay asociaciones con betametasona (LOTRICOMB) o con gentamicina y betametasona (METAMAR PLUS, DICASONE COMPLEX).",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), LOTRICOMB, METAMAR PLUS y DICASONE COMPLEX son asociaciones de clotrimazol con betametasona (y gentamicina); las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«todas de un solo principio activo» → también asociaciones"
+  },
+  {
+   "id": "ar-lic-20261124-colchicina-1",
+   "drug": "colchicina",
+   "file": "colchicina.md",
+   "action": "correct",
+   "claim": "Colchicina es un fármaco que se comercializa en Argentina en siete autorizaciones locales de un solo principio activo.",
+   "replacement": "Colchicina es un fármaco que se comercializa en Argentina como único principio activo y en asociación con alopurinol.",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), la mayoría de los productos (COLPURIL, ARTREX RETARD) son asociaciones de colchicina con alopurinol; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«de un solo principio activo» → también asociación con alopurinol"
+  },
+  {
+   "id": "ar-lic-20261124-diosmin-1",
+   "drug": "diosmin",
+   "file": "diosmin.md",
+   "action": "correct",
+   "claim": "Se muestran 5 de las 20 autorizaciones vigentes (todas de producto único, ninguna cancelada).",
+   "replacement": "La mayoría de los productos son asociaciones de diosmina con hesperidina micronizada; también hay productos de diosmina como único principio activo (comprimidos y crema). La lista puede ser parcial.",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), la mayoría de los productos (DAFLON, ATUREN, VARINON, entre otros) son asociaciones de diosmina con hesperidina micronizada; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«todas de producto único» → mayoría asociaciones con hesperidina"
+  },
+  {
+   "id": "ar-lic-20261124-diphenhydramine-1",
+   "drug": "diphenhydramine",
+   "file": "diphenhydramine.md",
+   "action": "correct",
+   "claim": "El fármaco figura como comercializado, con 11 autorizaciones vigentes, todas de productos de un solo principio activo.",
+   "replacement": "El fármaco figura como comercializado, como único principio activo y en asociaciones (BENADRYL ANTITUSIVO, BENADRYL DM COMPUESTO, CORIZINA CETUS).",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), BENADRYL ANTITUSIVO, BENADRYL DM COMPUESTO y CORIZINA CETUS son asociaciones; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«todas de un solo principio activo» → también asociaciones"
+  },
+  {
+   "id": "ar-lic-20261124-dutasteride-1",
+   "drug": "dutasteride",
+   "file": "dutasteride.md",
+   "action": "correct",
+   "claim": "Productos de un solo principio activo, como ejemplo:",
+   "replacement": "Productos de dutasterida como único principio activo y en asociación con tamsulosina:",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), varios productos (DUODART, LINUS DUO, PROSTOKLAR DUO, entre otros) son asociaciones de dutasterida con tamsulosina; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«Productos de un solo principio activo» → también asociaciones con tamsulosina"
+  },
+  {
+   "id": "ar-lic-20261124-econazole-1",
+   "drug": "econazole",
+   "file": "econazole.md",
+   "action": "correct",
+   "claim": "Ambas autorizaciones son de un solo principio activo, están vigentes y corresponden al fabricante Teva Argentina.",
+   "replacement": "Los productos (FILODERMA PLUS, GRISEOCREM NF) son asociaciones de econazol con diflorasona y gentamicina, del fabricante Teva Argentina.",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), FILODERMA PLUS y GRISEOCREM NF son asociaciones de econazol con diflorasona y gentamicina; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«de un solo principio activo» → asociaciones"
+  },
+  {
+   "id": "ar-lic-20261124-fexofenadina-1",
+   "drug": "fexofenadina",
+   "file": "fexofenadina.md",
+   "action": "correct",
+   "claim": "Fexofenadina es un fármaco comercializado en Argentina en múltiples presentaciones de un solo principio activo.",
+   "replacement": "Fexofenadina es un fármaco comercializado en Argentina en múltiples presentaciones, como único principio activo y en asociación (por ejemplo, ALERCAS D, con pseudoefedrina).",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), ALERCAS D es una asociación de fexofenadina con pseudoefedrina; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«de un solo principio activo» → también asociación con pseudoefedrina"
+  },
+  {
+   "id": "ar-lic-20261124-finasteride-1",
+   "drug": "finasteride",
+   "file": "finasteride.md",
+   "action": "correct",
+   "claim": "El fármaco se encuentra comercializado, con 20 autorizaciones vigentes (todas de producto de un solo principio activo).",
+   "replacement": "El fármaco se encuentra comercializado, como único principio activo y en un envase combinado con tamsulosina (PROSTENE PLUS).",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), PROSTENE PLUS combina tamsulosina y finasterida; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«todas de un solo principio activo» → también envase combinado con tamsulosina"
+  },
+  {
+   "id": "ar-lic-20261124-fluorometholone-1",
+   "drug": "fluorometholone",
+   "file": "fluorometholone.md",
+   "action": "correct",
+   "claim": "Las tres autorizaciones están vigentes y son de productos de un solo principio activo.",
+   "replacement": "FLAREX y F M L LIQUIFILM contienen fluorometolona como único principio activo; F M L NEO LIQUIFILM es una asociación.",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), F M L NEO LIQUIFILM es una asociación de fluorometolona con otros principios activos; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«de un solo principio activo» → F M L NEO LIQUIFILM es asociación"
+  },
+  {
+   "id": "ar-lic-20261124-ginseng-1",
+   "drug": "ginseng",
+   "file": "ginseng.md",
+   "action": "correct",
+   "claim": "Ginseng es un producto de origen vegetal comercializado en Argentina en 6 autorizaciones de producto único, para el cual los registros disponibles no detallan una indicación aprobada.",
+   "replacement": "Ginseng es un producto de origen vegetal comercializado en Argentina en productos que lo asocian con vitaminas, minerales u otros componentes, para el cual los registros disponibles no detallan una indicación aprobada.",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), todos los productos (TANVIMIL GINSENG, MARATHON, TOTAL MAGNESIANO GINSENG) son asociaciones de ginseng con vitaminas, minerales u otros componentes; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«de producto único» → asociaciones"
+  },
+  {
+   "id": "ar-lic-20261124-ginseng-2",
+   "drug": "ginseng",
+   "file": "ginseng.md",
+   "action": "correct",
+   "claim": "Las 6 autorizaciones son de producto único y están vigentes.",
+   "replacement": "Todos los productos son asociaciones de ginseng con vitaminas, minerales u otros componentes.",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), todos los productos (TANVIMIL GINSENG, MARATHON, TOTAL MAGNESIANO GINSENG) son asociaciones de ginseng con vitaminas, minerales u otros componentes; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«de producto único» → asociaciones"
+  },
+  {
+   "id": "ar-lic-20261124-hesperidin-1",
+   "drug": "hesperidin",
+   "file": "hesperidin.md",
+   "action": "correct",
+   "claim": "Hesperidina es un flavonoide comercializado en Argentina en varios productos de un solo principio activo (por ejemplo, TERBENOL UD, DAFLON y ATUREN).",
+   "replacement": "Hesperidina es un flavonoide comercializado en Argentina en asociación con diosmina (por ejemplo, TERBENOL UD, DAFLON y ATUREN).",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), todos los productos de estos datos son asociaciones de hesperidina micronizada con diosmina; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«de un solo principio activo» → asociaciones con diosmina"
+  },
+  {
+   "id": "ar-lic-20261124-hesperidin-2",
+   "drug": "hesperidin",
+   "file": "hesperidin.md",
+   "action": "correct",
+   "claim": "Se muestran 5 de las 20 autorizaciones vigentes (todas de un solo principio activo).",
+   "replacement": "Todos los productos son asociaciones de hesperidina micronizada con diosmina; la lista puede ser parcial.",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), todos los productos de estos datos son asociaciones de hesperidina micronizada con diosmina; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«todas de un solo principio activo» → asociaciones con diosmina"
+  },
+  {
+   "id": "ar-lic-20261124-homatropine-1",
+   "drug": "homatropine",
+   "file": "homatropine.md",
+   "action": "correct",
+   "claim": "El estado de mercado es comercializado, con licencias vigentes de producto de un solo principio activo.",
+   "replacement": "El estado de mercado es comercializado, con productos que asocian homatropina metilbromuro con otros principios activos (por ejemplo, simeticona).",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), SUMAL y FACTOR AG ANTIESPASMODICO son asociaciones de homatropina metilbromuro con otros principios activos; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«de un solo principio activo» → asociaciones"
+  },
+  {
+   "id": "ar-lic-20261124-idebenone-1",
+   "drug": "idebenone",
+   "file": "idebenone.md",
+   "action": "correct",
+   "claim": "Las cinco autorizaciones registradas están vigentes y corresponden a productos de un solo principio activo del laboratorio Teva Argentina.",
+   "replacement": "Los productos son del laboratorio Teva Argentina; NEMOCEBRAL PLUS es una asociación de idebenona con nimodipina y los demás contienen idebenona como único principio activo.",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), NEMOCEBRAL PLUS es una asociación de idebenona con nimodipina; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«de un solo principio activo» → NEMOCEBRAL PLUS es asociación"
+  },
+  {
+   "id": "ar-lic-20261124-imipenem-1",
+   "drug": "imipenem",
+   "file": "imipenem.md",
+   "action": "correct",
+   "claim": "El estado de mercado en Argentina es comercializado, con una autorización vigente de un producto de un solo principio activo (fabricante: Fabra).",
+   "replacement": "El estado de mercado en Argentina es comercializado; el producto (IMIPENEM FABRA, fabricante: Fabra) es una asociación de imipenem con cilastatina.",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), IMIPENEM FABRA es una asociación de imipenem con cilastatina; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«de un solo principio activo» → asociación con cilastatina"
+  },
+  {
+   "id": "ar-lic-20261124-latanoprost-1",
+   "drug": "latanoprost",
+   "file": "latanoprost.md",
+   "action": "correct",
+   "claim": "El medicamento figura como comercializado, con 14 autorizaciones vigentes (todas de producto de un solo principio activo y ninguna cancelada).",
+   "replacement": "El medicamento figura como comercializado, como único principio activo y en asociación con timolol.",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), XALACOM, GLAUCOGESIC T, GLAUCOSTAT T, LATIMODORF y LOUTEN T son asociaciones de latanoprost con timolol; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«todas de un solo principio activo» → también asociaciones con timolol"
+  },
+  {
+   "id": "ar-lic-20261124-lisinopril-1",
+   "drug": "lisinopril",
+   "file": "lisinopril.md",
+   "action": "correct",
+   "claim": "Las 11 autorizaciones registradas son de producto de un solo principio activo y están vigentes.",
+   "replacement": "Los productos contienen lisinopril como único principio activo, salvo TENSOPRIL D (asociación con hidroclorotiazida).",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), TENSOPRIL D es una asociación de lisinopril con hidroclorotiazida; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«de un solo principio activo» → TENSOPRIL D es asociación"
+  },
+  {
+   "id": "ar-lic-20261124-mebendazol-1",
+   "drug": "mebendazol",
+   "file": "mebendazol.md",
+   "action": "correct",
+   "claim": "Mebendazol se comercializa en Argentina con 11 autorizaciones vigentes de productos de un solo principio activo.",
+   "replacement": "Mebendazol se comercializa en Argentina como único principio activo y en asociación con tinidazol (TRU COMPUESTO, MEBUTAR COMPUESTO).",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), TRU COMPUESTO y MEBUTAR COMPUESTO son asociaciones de mebendazol con tinidazol; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«de un solo principio activo» → también asociaciones con tinidazol"
+  },
+  {
+   "id": "ar-lic-20261124-metoclopramida-1",
+   "drug": "metoclopramida",
+   "file": "metoclopramida.md",
+   "action": "correct",
+   "claim": "Metoclopramida figura como comercializada en Argentina, con 19 autorizaciones vigentes de producto de un solo principio activo.",
+   "replacement": "Metoclopramida figura como comercializada en Argentina, como único principio activo y en asociaciones (por ejemplo, con pancreatina o con simeticona).",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), PRAXIS NF, BIL 13 ENZIMATICO, DIGESPLEN, FARADIL y BITECAIN A.A. son asociaciones de metoclopramida con otros principios activos; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«de un solo principio activo» → también asociaciones"
+  },
+  {
+   "id": "ar-lic-20261124-miconazol-1",
+   "drug": "miconazol",
+   "file": "miconazol.md",
+   "action": "correct",
+   "claim": "Se listan 20 autorizaciones vigentes de producto único; la cifra total es de al menos 20 y la lista puede ser parcial.",
+   "replacement": "Hay productos de miconazol como único principio activo y asociaciones (con betametasona y gentamicina en cremas, o con metronidazol en óvulos); la lista puede ser parcial.",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), muchos productos son asociaciones de miconazol con betametasona y gentamicina (cremas) o con metronidazol (óvulos); las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«de producto único» → también asociaciones"
+  },
+  {
+   "id": "ar-lic-20261124-moxifloxacina-1",
+   "drug": "moxifloxacina",
+   "file": "moxifloxacina.md",
+   "action": "correct",
+   "claim": "Las 10 autorizaciones registradas están vigentes y corresponden a productos de un solo principio activo.",
+   "replacement": "Los productos contienen moxifloxacina como único principio activo, salvo VIGADEXA y MOFLAG D (asociaciones con dexametasona).",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), VIGADEXA y MOFLAG D son asociaciones de moxifloxacina con dexametasona; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«de un solo principio activo» → VIGADEXA y MOFLAG D son asociaciones"
+  },
+  {
+   "id": "ar-lic-20261124-nimodipina-1",
+   "drug": "nimodipina",
+   "file": "nimodipina.md",
+   "action": "correct",
+   "claim": "Los datos compilados muestran al menos 20 autorizaciones vigentes de productos con nimodipina como único principio activo (la lista puede ser parcial).",
+   "replacement": "Los datos compilados muestran productos con nimodipina como único principio activo y asociaciones (por ejemplo, NIVAS PLUS, con citicolina); la lista puede ser parcial.",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), varios productos son asociaciones de nimodipina con citicolina (NIVAS PLUS) o con idebenona, por lo que no hay al menos 20 productos de nimodipina como único principio activo; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«al menos 20 … como único principio activo» → también asociaciones"
+  },
+  {
+   "id": "ar-lic-20261124-nistatina-1",
+   "drug": "nistatina",
+   "file": "nistatina.md",
+   "action": "correct",
+   "claim": "Se muestran 5 de las 7 autorizaciones vigentes de nistatina de un solo principio activo (las otras dos corresponden a DIPNI comprimidos vaginales x 6 y O BIOL óvulos x 6).",
+   "replacement": "Los productos de la tabla contienen nistatina como único principio activo; fuera de la tabla figuran DIPNI comprimidos vaginales x 6 (nistatina) y O BIOL óvulos x 6 (asociación de nistatina con neomicina y otros principios activos).",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), O BIOL óvulos es una asociación de nistatina con neomicina y otros principios activos; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«de un solo principio activo» → O BIOL es asociación"
+  },
+  {
+   "id": "ar-lic-20261124-norfloxacina-1",
+   "drug": "norfloxacina",
+   "file": "norfloxacina.md",
+   "action": "correct",
+   "claim": "Se muestran las 5 primeras de 20 autorizaciones vigentes, todas de producto de un solo principio activo.",
+   "replacement": "Los productos contienen norfloxacina como único principio activo, salvo UROTEM DOL (asociación con fenazopiridina).",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), UROTEM DOL es una asociación de norfloxacina con fenazopiridina; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«todas de un solo principio activo» → UROTEM DOL es asociación"
+  },
+  {
+   "id": "ar-lic-20261124-nortriptilina-1",
+   "drug": "nortriptilina",
+   "file": "nortriptilina.md",
+   "action": "correct",
+   "claim": "Las 4 autorizaciones registradas están vigentes y corresponden a productos de un solo principio activo.",
+   "replacement": "Los productos (KARILE) son asociaciones de nortriptilina con otros principios activos.",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), KARILE es una asociación de nortriptilina con otros principios activos; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«de un solo principio activo» → asociación"
+  },
+  {
+   "id": "ar-lic-20261124-omeprazol-1",
+   "drug": "omeprazol",
+   "file": "omeprazol.md",
+   "action": "correct",
+   "claim": "Se muestran 5 de las 11 autorizaciones vigentes (todas de producto de un solo principio activo).",
+   "replacement": "La mayoría de los productos son asociaciones de omeprazol con bicarbonato de sodio o con diclofenac sódico; también hay productos de omeprazol como único principio activo.",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), ULCOZOL RAPID, GASTEC RAPIDO y ULCOZOL SUSP (con bicarbonato de sodio) y DIOXAFLEX PROTECT y BLOKIUM PROTECT (con diclofenac sódico) son asociaciones; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«todas de un solo principio activo» → mayoría asociaciones"
+  },
+  {
+   "id": "ar-lic-20261124-orfenadrina-1",
+   "drug": "orfenadrina",
+   "file": "orfenadrina.md",
+   "action": "correct",
+   "claim": "Hay 2 autorizaciones vigentes, ambas de productos con un único principio activo.",
+   "replacement": "Los productos son asociaciones de orfenadrina con paracetamol (JOKER FLEX) o con diclofenac sódico (BELMALEN).",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), JOKER FLEX (con paracetamol) y BELMALEN (con diclofenac sódico) son asociaciones; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«un único principio activo» → asociaciones"
+  },
+  {
+   "id": "ar-lic-20261124-oxytetracycline-1",
+   "drug": "oxytetracycline",
+   "file": "oxytetracycline.md",
+   "action": "correct",
+   "claim": "Las dos autorizaciones están vigentes y corresponden a productos de un solo principio activo, fabricados por Pfizer.",
+   "replacement": "Los productos (TERRA CORTRIL, fabricados por Pfizer) son asociaciones de oxitetraciclina con hidrocortisona.",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), TERRA CORTRIL es una asociación de oxitetraciclina con hidrocortisona; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«de un solo principio activo» → asociación con hidrocortisona"
+  },
+  {
+   "id": "ar-lic-20261124-prasterone-1",
+   "drug": "prasterone",
+   "file": "prasterone.md",
+   "action": "correct",
+   "claim": "Ambas autorizaciones están vigentes y corresponden a productos de un solo principio activo.",
+   "replacement": "Los productos son asociaciones de prasterona con otros principios activos (estradiol en SUPLIGOL NF; procaína y otros en LONGEVITAL).",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), SUPLIGOL NF (con estradiol) y LONGEVITAL (con procaína y otros) son asociaciones; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«de un solo principio activo» → asociaciones"
+  },
+  {
+   "id": "ar-lic-20261124-pseudoephedrine-1",
+   "drug": "pseudoephedrine",
+   "file": "pseudoephedrine.md",
+   "action": "correct",
+   "claim": "Todas las autorizaciones listadas son de productos de un solo principio activo y están vigentes.",
+   "replacement": "Todos los productos de estos datos son asociaciones de pseudoefedrina con otros principios activos (por ejemplo, loratadina, desloratadina, fexofenadina o ibuprofeno).",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), todos los productos de estos datos son asociaciones de pseudoefedrina con otros principios activos; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«de un solo principio activo» → asociaciones"
+  },
+  {
+   "id": "ar-lic-20261124-sacubitril-1",
+   "drug": "sacubitril",
+   "file": "sacubitril.md",
+   "action": "correct",
+   "claim": "El medicamento figura como comercializado, con licencias vigentes en los registros locales (todas de producto de un solo principio activo).",
+   "replacement": "El medicamento figura como comercializado, siempre en asociación con valsartán (por ejemplo, ENTRESTO).",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), todos los productos son asociaciones de sacubitrilo con valsartán; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«de un solo principio activo» → asociación con valsartán"
+  },
+  {
+   "id": "ar-lic-20261124-salbutamol-1",
+   "drug": "salbutamol",
+   "file": "salbutamol.md",
+   "action": "correct",
+   "claim": "Hay al menos 20 autorizaciones registradas, todas vigentes y de producto de un solo principio activo; la lista podría ser parcial.",
+   "replacement": "Hay productos de salbutamol como único principio activo y asociaciones con beclometasona o con bromuro de ipratropio; la lista podría ser parcial.",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), varios productos son asociaciones de salbutamol con beclometasona (VENTIDE, BUTOCORT HFA) o con bromuro de ipratropio (SALBUTRAL AC HFA, MAXAIR, entre otros); las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«todas … de un solo principio activo» → también asociaciones"
+  },
+  {
+   "id": "ar-lic-20261124-salmeterol-1",
+   "drug": "salmeterol",
+   "file": "salmeterol.md",
+   "action": "correct",
+   "claim": "Se registran 20 autorizaciones vigentes, todas de producto con un solo principio activo según los registros; la lista puede ser parcial.",
+   "replacement": "Todos los productos de estos datos son asociaciones de salmeterol con fluticasona; la lista puede ser parcial.",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), todos los productos de estos datos son asociaciones de salmeterol con fluticasona; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«de un solo principio activo» → asociaciones con fluticasona"
+  },
+  {
+   "id": "ar-lic-20261124-sulfametoxazol-1",
+   "drug": "sulfametoxazol",
+   "file": "sulfametoxazol.md",
+   "action": "correct",
+   "claim": "Hay 17 autorizaciones vigentes de productos con sulfametoxazol como único principio activo.",
+   "replacement": "Todos los productos son asociaciones de sulfametoxazol con trimetoprima.",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), todos los productos son asociaciones de sulfametoxazol con trimetoprima; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«como único principio activo» → asociaciones con trimetoprima"
+  },
+  {
+   "id": "ar-lic-20261124-sulpirida-1",
+   "drug": "sulpirida",
+   "file": "sulpirida.md",
+   "action": "correct",
+   "claim": "Las cinco autorizaciones listadas están vigentes y corresponden a productos con sulpirida como único principio activo.",
+   "replacement": "VIPRAL contiene sulpirida como único principio activo; los demás productos son asociaciones con alprazolam (ALPLAX DIGEST, TRANQUINAL SOMA) o con clorazepato dipotásico (VEGESTABIL).",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), ALPLAX DIGEST, TRANQUINAL SOMA y VEGESTABIL son asociaciones; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«como único principio activo» → la mayoría asociaciones"
+  },
+  {
+   "id": "ar-lic-20261124-trimetoprima-1",
+   "drug": "trimetoprima",
+   "file": "trimetoprima.md",
+   "action": "correct",
+   "claim": "Hay 17 autorizaciones vigentes, todas de productos con trimetoprima como único principio activo.",
+   "replacement": "Todos los productos son asociaciones de trimetoprima con sulfametoxazol.",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), todos los productos son asociaciones de trimetoprima con sulfametoxazol; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«como único principio activo» → asociaciones con sulfametoxazol"
+  },
+  {
+   "id": "ar-lic-20261124-bromazepam-1",
+   "drug": "bromazepam",
+   "file": "bromazepam.md",
+   "action": "correct",
+   "claim": "Se registran 20 autorizaciones vigentes, todas de monofármaco (sin combinaciones) y ninguna cancelada.",
+   "replacement": "Se registran productos de bromazepam como único principio activo y también asociaciones (con trimebutina, o con domperidona y simeticona); la lista de estos datos es parcial.",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), el listado de PAMI incluye asociaciones de bromazepam con trimebutina o con domperidona y simeticona; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«sin combinaciones» → también asociaciones"
+  },
+  {
+   "id": "ar-lic-20261124-budesonide-1",
+   "drug": "budesonide",
+   "file": "budesonide.md",
+   "action": "correct",
+   "claim": "Se registran 20 autorizaciones vigentes, todas de monofármaco.",
+   "replacement": "Se registran productos de budesonida como único principio activo y también asociaciones con formoterol; la lista de estos datos es parcial.",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), el listado de PAMI incluye asociaciones de budesonida con formoterol; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«todas de monofármaco» → también asociaciones con formoterol"
+  },
+  {
+   "id": "ar-lic-20261124-carvedilol-1",
+   "drug": "carvedilol",
+   "file": "carvedilol.md",
+   "action": "correct",
+   "claim": "Se registran al menos 20 autorizaciones, todas vigentes y de productos de un solo principio activo (la lista puede ser parcial).",
+   "replacement": "Se registran productos de carvedilol como único principio activo y también asociaciones con hidroclorotiazida (la lista puede ser parcial).",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), el listado de PAMI incluye asociaciones de carvedilol con hidroclorotiazida; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«todas … de un solo principio activo» → también asociaciones"
+  },
+  {
+   "id": "ar-lic-20261124-dexametasona-1",
+   "drug": "dexametasona",
+   "file": "dexametasona.md",
+   "action": "correct",
+   "claim": "La lista de autorizaciones puede ser parcial: los datos indican al menos 20 autorizaciones, todas vigentes y de producto de un solo principio activo.",
+   "replacement": "La lista de autorizaciones puede ser parcial: los datos indican productos de dexametasona como único principio activo y también numerosas asociaciones (por ejemplo, con tobramicina, ciprofloxacina o neomicina).",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), el listado de PAMI incluye numerosas asociaciones de dexametasona (con tobramicina, ciprofloxacina, neomicina y otros); las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«todas … de un solo principio activo» → también asociaciones"
+  },
+  {
+   "id": "ar-lic-20261124-glimepiride-1",
+   "drug": "glimepiride",
+   "file": "glimepiride.md",
+   "action": "correct",
+   "claim": "Se registran al menos 20 autorizaciones vigentes (la lista puede ser parcial), todas de productos de un solo principio activo.",
+   "replacement": "Se registran productos de glimepirida como único principio activo y también asociaciones con metformina (la lista puede ser parcial).",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), el listado de PAMI incluye asociaciones de glimepirida con metformina; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«todas de un solo principio activo» → también asociaciones con metformina"
+  },
+  {
+   "id": "ar-lic-20261124-naproxeno-1",
+   "drug": "naproxeno",
+   "file": "naproxeno.md",
+   "action": "correct",
+   "claim": "Hay al menos 20 autorizaciones registradas, todas vigentes y de producto de un solo principio activo;",
+   "replacement": "Hay productos de naproxeno como único principio activo y también asociaciones (con carisoprodol o con esomeprazol);",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), el listado de PAMI incluye asociaciones de naproxeno con carisoprodol o con esomeprazol; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«todas … de un solo principio activo» → también asociaciones"
+  },
+  {
+   "id": "ar-lic-20261124-meloxicam-1",
+   "drug": "meloxicam",
+   "file": "meloxicam.md",
+   "action": "correct",
+   "claim": "Las autorizaciones son de productos de un solo principio activo.",
+   "replacement": "Hay productos de meloxicam como único principio activo y también asociaciones (por ejemplo, con pridinol).",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), el listado de PAMI incluye asociaciones de meloxicam con pridinol o con betametasona; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«de un solo principio activo» → también asociaciones"
+  },
+  {
+   "id": "ar-lic-20261124b-cefalexina-1",
+   "drug": "cefalexina",
+   "file": "cefalexina.md",
+   "action": "correct",
+   "claim": "Sin datos regulatorios en Argentina, sin información de seguridad disponible y sin predicciones del modelo, no es posible completar una evaluación de reposicionamiento en esta instancia.",
+   "replacement": "Sin información de seguridad disponible y sin predicciones del modelo, no es posible completar una evaluación de reposicionamiento en esta instancia.",
+   "note": "Corregido: en los datos de este informe (listado de medicamentos de PAMI) figuran numerosos productos de cefalexina; las cifras están en el resumen rápido. El estado del registro en ANMAT no está incluido en estos datos.",
+   "finding": "2026-11-24 第二輪（派工點名，用戶決定）：noindex 頁正文寫「沒有許可／沒有登記」，但證據包 tfda.records 有 PAMI 清單品項（cefalexina total_matches 61、收 20 筆，ciclopirox 2 筆，快照事實層全部在清單）；照 PAMI 口徑更正，不寫 ANMAT 註冊狀態；noindex 頁照本站規則不補程式許可證表，更正文字指向概覽表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Eliminado: «Sin datos regulatorios en Argentina»"
+  },
+  {
+   "id": "ar-lic-20261124b-cefalexina-2",
+   "drug": "cefalexina",
+   "file": "cefalexina.md",
+   "action": "correct",
+   "claim": "Adicionalmente, el fármaco no presenta registros activos en Argentina (ANMAT), y todos los datos de seguridad",
+   "replacement": "Adicionalmente, todos los datos de seguridad",
+   "note": "Corregido: en los datos de este informe (listado de medicamentos de PAMI) figuran numerosos productos de cefalexina; las cifras están en el resumen rápido. El estado del registro en ANMAT no está incluido en estos datos.",
+   "finding": "2026-11-24 第二輪（派工點名，用戶決定）：noindex 頁正文寫「沒有許可／沒有登記」，但證據包 tfda.records 有 PAMI 清單品項（cefalexina total_matches 61、收 20 筆，ciclopirox 2 筆，快照事實層全部在清單）；照 PAMI 口徑更正，不寫 ANMAT 註冊狀態；noindex 頁照本站規則不補程式許可證表，更正文字指向概覽表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Eliminado: «el fármaco no presenta registros activos en Argentina (ANMAT)»"
+  },
+  {
+   "id": "ar-lic-20261124b-cefalexina-3",
+   "drug": "cefalexina",
+   "file": "cefalexina.md",
+   "action": "correct",
+   "claim": "El fármaco no presenta autorizaciones de comercialización registradas en la base de datos consultada. Cabe notar que cefalexina es un antibiótico genérico de uso extendido; es posible que las búsquedas deban repetirse con variantes ortográficas del INN (ej. \"cefalexina\", \"cephalexin\") o por nombre de marca.",
+   "replacement": "Cefalexina, antibiótico genérico de uso extendido, figura en el listado de medicamentos de PAMI con numerosos productos (por ejemplo, SEPTILISIN, KEFORAL y CEFALEXINA RICHET); las cifras están en el resumen rápido y el estado del registro en ANMAT no está incluido en estos datos.",
+   "note": "Corregido: en los datos de este informe (listado de medicamentos de PAMI) figuran numerosos productos de cefalexina (SEPTILISIN, KEFORAL, CEFALEXINA RICHET, entre otros); las cifras están en el resumen rápido. El estado del registro en ANMAT no está incluido en estos datos.",
+   "finding": "2026-11-24 第二輪（派工點名，用戶決定）：noindex 頁正文寫「沒有許可／沒有登記」，但證據包 tfda.records 有 PAMI 清單品項（cefalexina total_matches 61、收 20 筆，ciclopirox 2 筆，快照事實層全部在清單）；照 PAMI 口徑更正，不寫 ANMAT 註冊狀態；noindex 頁照本站規則不補程式許可證表，更正文字指向概覽表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«no presenta autorizaciones de comercialización registradas» → figura en el listado de PAMI"
+  },
+  {
+   "id": "ar-lic-20261124b-cefalexina-4",
+   "drug": "cefalexina",
+   "file": "cefalexina.md",
+   "action": "correct",
+   "claim": "ausencia de indicaciones predichas por TxGNN, datos de seguridad no disponibles y sin registros regulatorios en Argentina.",
+   "replacement": "ausencia de indicaciones predichas por TxGNN y datos de seguridad no disponibles.",
+   "note": "Corregido: en los datos de este informe (listado de medicamentos de PAMI) figuran numerosos productos de cefalexina; las cifras están en el resumen rápido. El estado del registro en ANMAT no está incluido en estos datos.",
+   "finding": "2026-11-24 第二輪（派工點名，用戶決定）：noindex 頁正文寫「沒有許可／沒有登記」，但證據包 tfda.records 有 PAMI 清單品項（cefalexina total_matches 61、收 20 筆，ciclopirox 2 筆，快照事實層全部在清單）；照 PAMI 口徑更正，不寫 ANMAT 註冊狀態；noindex 頁照本站規則不補程式許可證表，更正文字指向概覽表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Eliminado: «sin registros regulatorios en Argentina»"
+  },
+  {
+   "id": "ar-lic-20261124b-ciclopirox-1",
+   "drug": "ciclopirox",
+   "file": "ciclopirox.md",
+   "action": "correct",
+   "claim": "CICLOPIROX (DrugBank ID: DB01188) es un fármaco con registro en DrugBank pero sin autorizaciones de comercialización en el mercado local.",
+   "replacement": "CICLOPIROX (DrugBank ID: DB01188) es un fármaco con registro en DrugBank que figura en el listado de medicamentos de PAMI (lacas para uñas LOPROX y MICOPIROX LACA).",
+   "note": "Corregido: en los datos de este informe (listado de medicamentos de PAMI) figura ciclopirox (LOPROX y MICOPIROX LACA, lacas para uñas); las cifras están en el resumen rápido. El estado del registro en ANMAT no está incluido en estos datos.",
+   "finding": "2026-11-24 第二輪（派工點名，用戶決定）：noindex 頁正文寫「沒有許可／沒有登記」，但證據包 tfda.records 有 PAMI 清單品項（cefalexina total_matches 61、收 20 筆，ciclopirox 2 筆，快照事實層全部在清單）；照 PAMI 口徑更正，不寫 ANMAT 註冊狀態；noindex 頁照本站規則不補程式許可證表，更正文字指向概覽表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«sin autorizaciones de comercialización en el mercado local» → figura en el listado de PAMI"
+  },
+  {
+   "id": "ar-lic-20261124b-ciclopirox-2",
+   "drug": "ciclopirox",
+   "file": "ciclopirox.md",
+   "action": "correct",
+   "claim": "El campo `original_indications` está vacío y no hay autorizaciones locales de las cuales extraer la indicación aprobada.",
+   "replacement": "El campo `original_indications` está vacío y los datos locales (listado de medicamentos de PAMI) no incluyen el texto de la indicación aprobada.",
+   "note": "Corregido: en los datos de este informe (listado de medicamentos de PAMI) figura ciclopirox; ese listado no incluye el texto de la indicación aprobada; las cifras están en el resumen rápido. El estado del registro en ANMAT no está incluido en estos datos.",
+   "finding": "2026-11-24 第二輪（派工點名，用戶決定）：noindex 頁正文寫「沒有許可／沒有登記」，但證據包 tfda.records 有 PAMI 清單品項（cefalexina total_matches 61、收 20 筆，ciclopirox 2 筆，快照事實層全部在清單）；照 PAMI 口徑更正，不寫 ANMAT 註冊狀態；noindex 頁照本站規則不補程式許可證表，更正文字指向概覽表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«no hay autorizaciones locales» → los datos locales no incluyen la indicación"
+  },
+  {
+   "id": "ar-lic-20261124b-ciclopirox-3",
+   "drug": "ciclopirox",
+   "file": "ciclopirox.md",
+   "action": "correct",
+   "claim": "CICLOPIROX **no tiene autorizaciones de comercialización registradas** en el mercado local. No se encontraron licencias activas en la consulta realizada el 2026-03-29.",
+   "replacement": "CICLOPIROX figura en el listado de medicamentos de PAMI en lacas para uñas (LOPROX, MICOPIROX LACA); las cifras están en el resumen rápido y el estado del registro en ANMAT no está incluido en estos datos.",
+   "note": "Corregido: en los datos de este informe (listado de medicamentos de PAMI) figura ciclopirox (LOPROX y MICOPIROX LACA, lacas para uñas); las cifras están en el resumen rápido. El estado del registro en ANMAT no está incluido en estos datos.",
+   "finding": "2026-11-24 第二輪（派工點名，用戶決定）：noindex 頁正文寫「沒有許可／沒有登記」，但證據包 tfda.records 有 PAMI 清單品項（cefalexina total_matches 61、收 20 筆，ciclopirox 2 筆，快照事實層全部在清單）；照 PAMI 口徑更正，不寫 ANMAT 註冊狀態；noindex 頁照本站規則不補程式許可證表，更正文字指向概覽表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«no tiene autorizaciones de comercialización registradas» → figura en el listado de PAMI"
+  },
+  {
+   "id": "ar-lic-20261124b-tinidazol-1",
+   "drug": "tinidazol",
+   "file": "tinidazol.md",
+   "action": "correct",
+   "claim": "Tinidazol figura como **comercializado** en Argentina, con autorizaciones vigentes de ANMAT.",
+   "replacement": "Tinidazol figura como **comercializado** en Argentina, con productos en el listado de medicamentos de PAMI (el estado del registro en ANMAT no está incluido en estos datos).",
+   "note": "Corregido: estos datos son el listado de medicamentos de PAMI y no incluyen el estado del registro en ANMAT.",
+   "finding": "2026-11-24 第二輪（用戶決定）：本站資料是 PAMI 給付清單，不含 ANMAT 註冊狀態（站上口徑不寫 ANMAT 註冊有效／失效）；正文寫「ANMAT 有效許可」跟程式許可證表說明句矛盾，改成 PAMI 口徑。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«autorizaciones vigentes de ANMAT» → productos en el listado de PAMI"
+  },
+  {
+   "id": "ar-lic-20261124b-varenicline-1",
+   "drug": "varenicline",
+   "file": "varenicline.md",
+   "action": "correct",
+   "claim": "Vareniclina (comercializada en Argentina como CHAMPIX) es un fármaco que cuenta con autorizaciones vigentes de ANMAT;",
+   "replacement": "Vareniclina (comercializada en Argentina como CHAMPIX) es un fármaco con productos en el listado de medicamentos de PAMI;",
+   "note": "Corregido: estos datos son el listado de medicamentos de PAMI y no incluyen el estado del registro en ANMAT.",
+   "finding": "2026-11-24 第二輪（用戶決定）：本站資料是 PAMI 給付清單，不含 ANMAT 註冊狀態（站上口徑不寫 ANMAT 註冊有效／失效）；正文寫「ANMAT 有效許可」跟程式許可證表說明句矛盾，改成 PAMI 口徑。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«autorizaciones vigentes de ANMAT» → productos en el listado de PAMI"
+  },
+  {
+   "id": "ar-lic-20261124b-prednisolona-1",
+   "drug": "prednisolona",
+   "file": "prednisolona.md",
+   "action": "correct",
+   "claim": "las autorizaciones locales corresponden a formas oftálmicas, rectales y orales de otro tipo,",
+   "replacement": "las autorizaciones locales corresponden a formas oftálmicas y rectales,",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), los productos de prednisolona de estos datos son suspensiones o gotas oftálmicas (PREDNEFRIN, DELTAR, ESODAR, entre otros) y una pomada proctológica (PROCTO VENART); no hay formas orales.",
+   "finding": "2026-11-24 第二輪（用戶決定）劑型說法：逐張對照證據包 tfda.records 的劑型（presentación），9 個品項都是眼用懸液／滴劑或痔瘡用軟膏，沒有口服劑型；待辦條目只拿掉錯的前提。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Eliminado: «y orales de otro tipo»"
+  },
+  {
+   "id": "ar-lic-20261124-piroxicam-1",
+   "drug": "piroxicam",
+   "file": "piroxicam.md",
+   "action": "correct",
+   "claim": "El estado de mercado es comercializado, con licencias vigentes para productos de piroxicam de un solo principio activo.",
+   "replacement": "El estado de mercado es comercializado, con productos de piroxicam como único principio activo y también asociaciones (por ejemplo, con carisoprodol, vitamina B12 o dexametasona).",
+   "note": "Corregido: según los datos (listado de medicamentos de PAMI), muchos productos son asociaciones de piroxicam (FLEXICAMIN y SOLOCALM con carisoprodol, BUTA RUT B12 con vitamina B12, PIROXICAM RELAX, entre otros); las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado.",
+   "finding": "2026-11-24 第二輪（用戶決定）：單方／複方標籤錯誤。逐句對照證據包 tfda.records 的成分欄（ingredients，「+」＝複方）與 data/raw/ar_fda_drugs.json（PAMI 2026-03-01 全量）同成分全部品項：正文寫「全部／至少 N 張單方」而實際有複方。更正文字不寫張數，指向概覽表與程式許可證表。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "«de un solo principio activo» → también asociaciones"
+  },
+  {
+   "id": "ar-lic-20261124b-cefalexina-5",
+   "drug": "cefalexina",
+   "file": "cefalexina.md",
+   "action": "correct",
+   "claim": "- Verificar el estado regulatorio en ANMAT con variantes del nombre y por número de principio activo, ya que cefalexina tiene amplia disponibilidad genérica en Argentina",
+   "replacement": "- Verificar el estado regulatorio en ANMAT (estos datos son el listado de medicamentos de PAMI, que no incluye el estado del registro en ANMAT)",
+   "note": "Corregido: se eliminó la premisa de que la búsqueda no encontró productos (motivo para repetirla con variantes del nombre); en los datos de este informe (listado de medicamentos de PAMI) figuran numerosos productos de cefalexina. La recomendación de verificar el estado en ANMAT se mantiene.",
+   "finding": "2026-11-24 第二輪（派工點名，用戶決定）：noindex 頁正文寫「沒有許可／沒有登記」，但證據包 tfda.records 有 PAMI 清單品項（cefalexina total_matches 61、收 20 筆，ciclopirox 2 筆，快照事實層全部在清單）；照 PAMI 口徑更正，不寫 ANMAT 註冊狀態；noindex 頁照本站規則不補程式許可證表，更正文字指向概覽表。 待辦條目只拿掉錯的前提（以為查不到、要換名稱再查），建議內容（查 ANMAT 註冊狀態）不動。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Próximos pasos: eliminada la premisa «búsqueda sin resultados»"
   }
  ]
 }

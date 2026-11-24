@@ -88,7 +88,13 @@ La tabla muestra 5 de los 10 productos de este medicamento en los datos (listado
 
 <!-- licenses:end -->
 
-Se muestran 5 de las 10 autorizaciones vigentes (todas de monofármaco).
+Además de LISTAFLEX (monofármaco), los productos son asociaciones de carisoprodol con piroxicam o con naproxeno.
+
+<!-- review:begin ar-lic-20261124-carisoprodol-1 -->
+
+> **Corrección de verificación (2026-11-24)**: Texto original: «Se muestran 5 de las 10 autorizaciones vigentes (todas de monofármaco).» Corregido: según los datos (listado de medicamentos de PAMI), salvo LISTAFLEX, los productos son asociaciones de carisoprodol con piroxicam (FLEXICAMIN, SOLOCALM) o con naproxeno (NAPRUX DISTEN); las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261124-carisoprodol-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -119,11 +125,12 @@ La predicción se basa únicamente en el modelo (L5), sin ensayos clínicos y co
 
 ## Registro de verificación
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de verificación | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Carisoprodol Tablets, Usp, 350 Mg (carisoprodol) prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1f08f4af-37c2-49b5-a4e3-284414f866fa) |
+| 2026-11-24 | «todas de monofármaco» → la mayoría asociaciones | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
 
 <!-- review:end log -->
 

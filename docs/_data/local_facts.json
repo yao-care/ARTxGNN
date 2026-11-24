@@ -21,11 +21,11 @@
   "items_current": 1407
  },
  "reviews": {
-  "records": 255,
-  "pages": 236,
-  "public_pages_with_records": 232,
+  "records": 320,
+  "pages": 252,
+  "public_pages_with_records": 246,
   "by_action": {
-   "correct": 30,
+   "correct": 95,
    "mechanism": 225
   }
  },
@@ -40,7 +40,7 @@
    "l": "L5",
    "lt": 20,
    "lv": 20,
-   "r": 1,
+   "r": 2,
    "i": "hipertricosis universal congénita tipo Ambras"
   },
   {
@@ -58,7 +58,7 @@
    "l": "L5",
    "lt": 20,
    "lv": 20,
-   "r": 1,
+   "r": 2,
    "i": "hiperamilasemia"
   },
   {
@@ -67,7 +67,7 @@
    "l": "L5",
    "lt": 19,
    "lv": 19,
-   "r": 0,
+   "r": 1,
    "i": "gastroduodenitis"
   },
   {
@@ -85,7 +85,7 @@
    "l": "L5",
    "lt": 19,
    "lv": 19,
-   "r": 1,
+   "r": 2,
    "i": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
   },
   {
@@ -139,6 +139,15 @@
    "i": "queratoconjuntivitis epitelial punteada"
   },
   {
+   "t": "Beclometasona",
+   "u": "/drugs/beclometasona/",
+   "l": "L3",
+   "lt": 2,
+   "lv": 2,
+   "r": 3,
+   "i": "Eccema atópico"
+  },
+  {
    "t": "Cetirizina",
    "u": "/drugs/cetirizina/",
    "l": "L5",
@@ -166,22 +175,13 @@
    "i": "hipertermia maligna inducida por ejercicio"
   },
   {
-   "t": "Amiodarona",
-   "u": "/drugs/amiodarona/",
+   "t": "Allopurinol",
+   "u": "/drugs/allopurinol/",
    "l": "L5",
-   "lt": 4,
-   "lv": 4,
+   "lt": 0,
+   "lv": 20,
    "r": 2,
-   "i": "taquicardia ventricular polimórfica catecolaminérgica"
-  },
-  {
-   "t": "Atomoxetina",
-   "u": "/drugs/atomoxetina/",
-   "l": "L5",
-   "lt": 5,
-   "lv": 5,
-   "r": 2,
-   "i": "trastorno específico del desarrollo"
+   "i": "porfiria hepática"
   }
  ],
  "example": {
@@ -195,156 +195,198 @@
  },
  "recent_reviews": [
   {
-   "t": "Pheniramine",
-   "u": "/drugs/pheniramine/",
-   "s": "«se encuentran vigentes» → ya no figuran en PAMI",
-   "d": "2026-11-17"
+   "t": "Varenicline",
+   "u": "/drugs/varenicline/",
+   "s": "«autorizaciones vigentes de ANMAT» → productos en el listado de PAMI",
+   "d": "2026-11-24"
   },
   {
-   "t": "Olopatadine",
-   "u": "/drugs/olopatadine/",
-   "s": "«10 autorizaciones vigentes» → ninguno figura ya en PAMI",
-   "d": "2026-11-17"
+   "t": "Tinidazol",
+   "u": "/drugs/tinidazol/",
+   "s": "«autorizaciones vigentes de ANMAT» → productos en el listado de PAMI",
+   "d": "2026-11-24"
   },
   {
-   "t": "Naphazoline",
-   "u": "/drugs/naphazoline/",
-   "s": "«9 autorizaciones vigentes, ninguna cancelada» → 5 siguen en PAMI, 4 ya no figuran",
-   "d": "2026-11-17"
+   "t": "Prednisolona",
+   "u": "/drugs/prednisolona/",
+   "s": "Eliminado: «y orales de otro tipo»",
+   "d": "2026-11-24"
   },
   {
-   "t": "Levocetirizina",
-   "u": "/drugs/levocetirizina/",
-   "s": "«10 autorizaciones vigentes» → 3 siguen en PAMI, 7 ya no figuran",
-   "d": "2026-11-17"
+   "t": "Trimetoprima",
+   "u": "/drugs/trimetoprima/",
+   "s": "«como único principio activo» → asociaciones con sulfametoxazol",
+   "d": "2026-11-24"
   },
   {
-   "t": "Insulina Glargina",
-   "u": "/drugs/insulina-glargina/",
-   "s": "«Todas … vigentes» → 3 de 4 siguen en el listado de PAMI",
-   "d": "2026-11-17"
+   "t": "Sulpirida",
+   "u": "/drugs/sulpirida/",
+   "s": "«como único principio activo» → la mayoría asociaciones",
+   "d": "2026-11-24"
   },
   {
-   "t": "Fexofenadina",
-   "u": "/drugs/fexofenadina/",
-   "s": "«al menos 20 autorizaciones vigentes» → 13 ya no figuran en PAMI, al menos 7 siguen",
-   "d": "2026-11-17"
+   "t": "Sulfametoxazol",
+   "u": "/drugs/sulfametoxazol/",
+   "s": "«como único principio activo» → asociaciones con trimetoprima",
+   "d": "2026-11-24"
   },
   {
-   "t": "Cyproheptadine",
-   "u": "/drugs/cyproheptadine/",
-   "s": "«se encuentran vigentes» → 2 de 3 siguen en el listado de PAMI",
-   "d": "2026-11-17"
+   "t": "Salmeterol",
+   "u": "/drugs/salmeterol/",
+   "s": "«de un solo principio activo» → asociaciones con fluticasona",
+   "d": "2026-11-24"
   },
   {
-   "t": "Ciclosporina",
-   "u": "/drugs/ciclosporina/",
-   "s": "Eliminado: «TFDA o»",
-   "d": "2026-11-06"
+   "t": "Salbutamol",
+   "u": "/drugs/salbutamol/",
+   "s": "«todas … de un solo principio activo» → también asociaciones",
+   "d": "2026-11-24"
   },
   {
-   "t": "Cetirizina",
-   "u": "/drugs/cetirizina/",
-   "s": "Eliminado: «[ ] Verificar la fuente regulatoria: Confirmar si la búsqueda debe realizarse en ANMAT…",
-   "d": "2026-11-06"
+   "t": "Sacubitril",
+   "u": "/drugs/sacubitril/",
+   "s": "«de un solo principio activo» → asociación con valsartán",
+   "d": "2026-11-24"
   },
   {
-   "t": "Betametasona",
-   "u": "/drugs/betametasona/",
-   "s": "Eliminado: «No se identificaron autorizaciones de comercialización vigentes»",
-   "d": "2026-11-06"
+   "t": "Pseudoephedrine",
+   "u": "/drugs/pseudoephedrine/",
+   "s": "«de un solo principio activo» → asociaciones",
+   "d": "2026-11-24"
   },
   {
-   "t": "Benznidazol",
-   "u": "/drugs/benznidazol/",
-   "s": "Eliminado: «(TFDA)»",
-   "d": "2026-11-06"
+   "t": "Prasterone",
+   "u": "/drugs/prasterone/",
+   "s": "«de un solo principio activo» → asociaciones",
+   "d": "2026-11-24"
   },
   {
-   "t": "Beclometasona",
-   "u": "/drugs/beclometasona/",
-   "s": "Eliminado: «El fármaco no cuenta con autorización de mercado en Argentina, lo que representa una barrera…",
-   "d": "2026-11-06"
+   "t": "Piroxicam",
+   "u": "/drugs/piroxicam/",
+   "s": "«de un solo principio activo» → también asociaciones",
+   "d": "2026-11-24"
   },
   {
-   "t": "Atropina Sulfato",
-   "u": "/drugs/atropina-sulfato/",
-   "s": "Eliminado: «No se encontraron autorizaciones de comercialización vigentes para Atropina Sulfato en Argentina…",
-   "d": "2026-11-06"
+   "t": "Oxytetracycline",
+   "u": "/drugs/oxytetracycline/",
+   "s": "«de un solo principio activo» → asociación con hidrocortisona",
+   "d": "2026-11-24"
   },
   {
-   "t": "Atomoxetina",
-   "u": "/drugs/atomoxetina/",
-   "s": "Eliminado: «No existen autorizaciones de comercialización vigentes»",
-   "d": "2026-11-06"
+   "t": "Orfenadrina",
+   "u": "/drugs/orfenadrina/",
+   "s": "«un único principio activo» → asociaciones",
+   "d": "2026-11-24"
   },
   {
-   "t": "Amiodarona",
-   "u": "/drugs/amiodarona/",
-   "s": "Eliminado: «No se identificaron autorizaciones de comercialización vigentes (0 licencias)»",
-   "d": "2026-11-06"
+   "t": "Omeprazol",
+   "u": "/drugs/omeprazol/",
+   "s": "«todas de un solo principio activo» → mayoría asociaciones",
+   "d": "2026-11-24"
   },
   {
-   "t": "Aciclovir",
-   "u": "/drugs/aciclovir/",
-   "s": "Eliminado: «No se identificaron autorizaciones de comercialización vigentes (total de licencias: 0)»",
-   "d": "2026-11-06"
+   "t": "Nortriptilina",
+   "u": "/drugs/nortriptilina/",
+   "s": "«de un solo principio activo» → asociación",
+   "d": "2026-11-24"
   },
   {
-   "t": "Acetazolamida",
-   "u": "/drugs/acetazolamida/",
-   "s": "Eliminado: «No se identificaron autorizaciones de comercialización vigentes»",
-   "d": "2026-11-06"
+   "t": "Norfloxacina",
+   "u": "/drugs/norfloxacina/",
+   "s": "«todas de un solo principio activo» → UROTEM DOL es asociación",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Nistatina",
+   "u": "/drugs/nistatina/",
+   "s": "«de un solo principio activo» → O BIOL es asociación",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Nimodipina",
+   "u": "/drugs/nimodipina/",
+   "s": "«al menos 20 … como único principio activo» → también asociaciones",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Naproxeno",
+   "u": "/drugs/naproxeno/",
+   "s": "«todas … de un solo principio activo» → también asociaciones",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Moxifloxacina",
+   "u": "/drugs/moxifloxacina/",
+   "s": "«de un solo principio activo» → VIGADEXA y MOFLAG D son asociaciones",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Miconazol",
+   "u": "/drugs/miconazol/",
+   "s": "«de producto único» → también asociaciones",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Metoclopramida",
+   "u": "/drugs/metoclopramida/",
+   "s": "«de un solo principio activo» → también asociaciones",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Meloxicam",
+   "u": "/drugs/meloxicam/",
+   "s": "«de un solo principio activo» → también asociaciones",
+   "d": "2026-11-24"
   }
  ],
  "recent_licence_reviews": [
   {
-   "t": "Pheniramine",
-   "u": "/drugs/pheniramine/",
-   "s": "«se encuentran vigentes» → ya no figuran en PAMI",
-   "d": "2026-11-17"
+   "t": "Varenicline",
+   "u": "/drugs/varenicline/",
+   "s": "«autorizaciones vigentes de ANMAT» → productos en el listado de PAMI",
+   "d": "2026-11-24"
   },
   {
-   "t": "Olopatadine",
-   "u": "/drugs/olopatadine/",
-   "s": "«10 autorizaciones vigentes» → ninguno figura ya en PAMI",
-   "d": "2026-11-17"
+   "t": "Tinidazol",
+   "u": "/drugs/tinidazol/",
+   "s": "«autorizaciones vigentes de ANMAT» → productos en el listado de PAMI",
+   "d": "2026-11-24"
   },
   {
-   "t": "Naphazoline",
-   "u": "/drugs/naphazoline/",
-   "s": "«9 autorizaciones vigentes, ninguna cancelada» → 5 siguen en PAMI, 4 ya no figuran",
-   "d": "2026-11-17"
+   "t": "Prednisolona",
+   "u": "/drugs/prednisolona/",
+   "s": "Eliminado: «y orales de otro tipo»",
+   "d": "2026-11-24"
   },
   {
-   "t": "Levocetirizina",
-   "u": "/drugs/levocetirizina/",
-   "s": "«10 autorizaciones vigentes» → 3 siguen en PAMI, 7 ya no figuran",
-   "d": "2026-11-17"
+   "t": "Trimetoprima",
+   "u": "/drugs/trimetoprima/",
+   "s": "«como único principio activo» → asociaciones con sulfametoxazol",
+   "d": "2026-11-24"
   },
   {
-   "t": "Insulina Glargina",
-   "u": "/drugs/insulina-glargina/",
-   "s": "«Todas … vigentes» → 3 de 4 siguen en el listado de PAMI",
-   "d": "2026-11-17"
+   "t": "Sulpirida",
+   "u": "/drugs/sulpirida/",
+   "s": "«como único principio activo» → la mayoría asociaciones",
+   "d": "2026-11-24"
   },
   {
-   "t": "Fexofenadina",
-   "u": "/drugs/fexofenadina/",
-   "s": "«al menos 20 autorizaciones vigentes» → 13 ya no figuran en PAMI, al menos 7 siguen",
-   "d": "2026-11-17"
+   "t": "Sulfametoxazol",
+   "u": "/drugs/sulfametoxazol/",
+   "s": "«como único principio activo» → asociaciones con trimetoprima",
+   "d": "2026-11-24"
   },
   {
-   "t": "Cyproheptadine",
-   "u": "/drugs/cyproheptadine/",
-   "s": "«se encuentran vigentes» → 2 de 3 siguen en el listado de PAMI",
-   "d": "2026-11-17"
+   "t": "Salmeterol",
+   "u": "/drugs/salmeterol/",
+   "s": "«de un solo principio activo» → asociaciones con fluticasona",
+   "d": "2026-11-24"
   },
   {
-   "t": "Ciclosporina",
-   "u": "/drugs/ciclosporina/",
-   "s": "Eliminado: «TFDA o»",
-   "d": "2026-11-06"
+   "t": "Salbutamol",
+   "u": "/drugs/salbutamol/",
+   "s": "«todas … de un solo principio activo» → también asociaciones",
+   "d": "2026-11-24"
   }
  ],
  "files": {

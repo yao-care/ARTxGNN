@@ -77,7 +77,13 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-Se listan 20 autorizaciones vigentes de producto único; la cifra total es de al menos 20 y la lista puede ser parcial. Las 5 principales:
+Hay productos de miconazol como único principio activo y asociaciones (con betametasona y gentamicina en cremas, o con metronidazol en óvulos); la lista puede ser parcial. Las 5 principales:
+
+<!-- review:begin ar-lic-20261124-miconazol-1 -->
+
+> **Corrección de verificación (2026-11-24)**: Texto original: «Se listan 20 autorizaciones vigentes de producto único; la cifra total es de al menos 20 y la lista puede ser parcial.» Corregido: según los datos (listado de medicamentos de PAMI), muchos productos son asociaciones de miconazol con betametasona y gentamicina (cremas) o con metronidazol (óvulos); las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261124-miconazol-1 -->
 
 <!-- licenses:begin -->
 
@@ -114,11 +120,12 @@ La predicción se apoya solo en el puntaje del modelo y en literatura indirecta 
 
 ## Registro de verificación
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de verificación | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Oravig (miconazole) prescribing information, Galt Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dc2427ff-e566-4b48-b289-9e51c011250a) |
+| 2026-11-24 | «de producto único» → también asociaciones | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
 
 <!-- review:end log -->
 
