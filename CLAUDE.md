@@ -112,3 +112,8 @@ PAMI「medicamentos para entidades」只列當期給付的品項——代碼消�
 - 缺表：公開頁 325 頁都有程式區塊（第一輪已做），沒有「表另行補上」之類矛盾句。
 - 張數樣板：site_config 的 `figures` 改成不寫數字（FIGURES_NOTE）；既有 9 筆紀錄說明裡寫死張數的同 id 重發。查核紀錄更正文字裡寫死張數／舊表筆數的 7 筆 `ar-lic-20261117-*`（cyproheptadine、fexofenadina、insulina_glargina、levocetirizina、naphazoline、olopatadine、pheniramine）同 id 重發，前版存 history，順便補正其中的單方說法（fexofenadina 有 ALERCAS D、levocetirizina 有 montelukast 複方、cyproheptadine／pheniramine 全是複方）。
 - 驗證：checker 全量前後 0、gate exit 0、B 改寫 0 句；寬偵測（ar_wide）剩 8 句都是誤中（DDI 查詢筆數、「una sexta autorización」等）；單方字樣重掃剩下的命中都已查證成立或是文獻句。
+
+## 缺市場段落的公開頁（2026-11-24 第三輪）
+
+用戶 2026-11-24 決定（比照 JpTxGNN 第二輪 `add_section`）：公開頁（非 noindex、非轉址）整頁沒有市場段落（## Información de Mercado en Argentina）、證據包卻有許可證紀錄的，要補段落與程式表。
+2026-11-24 全量量測本站 0 頁，所以只加 gate：`src/artxgnn/regulatory/licenses.py` 的 page_problems 擋「公開頁快照有程式表列卻沒有市場段落」（之後若出現，再比照 Jp 在 `scripts/sync_license_tables.py` 加 add_section）。gate exit 0。
