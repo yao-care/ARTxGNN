@@ -117,6 +117,12 @@ PAMI「medicamentos para entidades」只列當期給付的品項——代碼消�
 
 用戶 2026-11-24 決定（比照 JpTxGNN 第二輪 `add_section`）：公開頁（非 noindex、非轉址）整頁沒有市場段落（## Información de Mercado en Argentina）、證據包卻有許可證紀錄的，要補段落與程式表。
 2026-11-24 全量量測本站 0 頁，所以只加 gate：`src/artxgnn/regulatory/licenses.py` 的 page_problems 擋「公開頁快照有程式表列卻沒有市場段落」（之後若出現，再比照 Jp 在 `scripts/sync_license_tables.py` 加 add_section）。gate exit 0。
+2026-11-24 第四輪（用戶決定）：補上自動補段落的程式。`scripts/sync_license_tables.py` 的 `add_section`（process 找不到市場段落時呼叫）：公開頁、證據包有紀錄的，
+在「## Consideraciones de Seguridad」之前（沒有就 Conclusión y Próximos Pasos、Registro de verificación、Descargo de responsabilidad 之前；查核紀錄段標題在 `<!-- review:begin log -->` 區塊裡時放在區塊之前）
+補「## Información de Mercado en Argentina」與程式表（min(5, 筆數) 列＋程式說明句）；noindex 頁、沒有紀錄的頁不補。快照模式與證據包模式都會補，所以 apply_drug_reviews.py、build_license_snapshot.py 結尾、
+每週排程 sync_tables、sync_notes_to_docs.py 重寫後都會自動補；license_adapter 的 PAGE_NOTE 放行新標題行。全量量測 0 頁要補（dry-run 0 頁）。
+驗證：拿掉 acenocumarol、adapaleno（公開頁）與 bromhexina（noindex）的市場段落：gate 擋 2 頁（noindex 不擋），快照模式與證據包模式（adapter sync_tables）補回的程式表與原頁一字不差（AI 寫的段落說明句不會補回，預期內）、
+noindex 不補、再跑 0 頁；另以拿掉市場／安全性／結論段的 acetazolamida 確認段落放在 log 區塊之前、可重複執行；之後還原原頁。checker 全量 0、gate exit 0。
 
 ## 事實層單方／複方依本站成分欄切分（2026-11-24）
 

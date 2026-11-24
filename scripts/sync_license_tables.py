@@ -16,6 +16,8 @@
   不寫 ANMAT 註冊狀態（不在這份資料裡）。
 - 表下一句程式說明（SHOW_*）：顯示幾筆、共幾筆、資料來源、不含 ANMAT 註冊狀態；證據包只收了一部分（total_matches 大於紀錄數）時寫明清單可能不完整。
 - 證據包沒有任何紀錄：表換成一句 NONE_LINE。段落裡沒有表、也沒有標記的公開頁，程式區塊補在段落最後（同 CO；noindex 頁不補）。
+- 公開頁整頁沒有市場段落、證據包有紀錄（2026-11-24 第四輪，用戶決定；比照 JpTxGNN）：add_section 在安全性段之前（沒有就結論、
+  查核紀錄、免責聲明段之前；查核紀錄段標題在 log 區塊裡時放在區塊之前）補「## Información de Mercado en Argentina」與程式表（min(5, 筆數) 列）；noindex 頁不補。
 資料來源兩種：bundle（data/bundles 的 tfda.records；每週排程 adapter 的 sync_tables、手動）與 snapshot
 （snapshots/ar_licenses.json.gz 的 rows／total／partial；scripts/apply_drug_reviews.py 結尾、scripts/build_license_snapshot.py 結尾，不需要 data/）。
 gate（src/artxgnn/regulatory/licenses.py 的 program_block_problems）擋「程式區塊≠快照重算結果」「市場段落有表卻不是程式區塊」。
@@ -179,12 +181,45 @@ def block_rows(lines):
     return sum(1 for l in blk if l.startswith("| ") and not l.startswith(HEAD[0]))
 
 
+TITLE = "Información de Mercado en Argentina"  # 本站市場段落標題（add_section 補段落用）
+# add_section 的插入位置：依序找這些二級標題，段落放在第一個找到的之前（照 JpTxGNN 第二輪的 add_section）
+ADD_BEFORE = ("Consideraciones de Seguridad", "Conclusión y Próximos Pasos", "Conclusion y Proximos Pasos",
+              "Registro de verificación", "Descargo de responsabilidad")
+
+
+def add_section(text, rows, total, partial):
+    """公開頁（非 noindex）整頁沒有市場段落、證據包有紀錄：補「## Información de Mercado en Argentina」與程式表
+    （2026-11-24 第四輪，用戶決定；比照 JpTxGNN）。位置在安全性段之前（沒有就結論、查核紀錄、免責聲明段之前；
+    查核紀錄段標題在 <!-- review:begin log --> 區塊裡時放在區塊之前）；不補時回 None。"""
+    if not rows or re.search(r"^noindex:\s*true", text[:3000], re.M):
+        return None
+    lines = text.split("\n")
+    heads = {}
+    for i, l in enumerate(lines):
+        m = re.match(r"^## (.+?)\s*$", l)
+        if m and m.group(1) not in heads:
+            heads[m.group(1)] = i
+    at = next((heads[h] for h in ADD_BEFORE if h in heads), None)
+    if at is None:
+        return None
+    k = at - 1
+    while k > 0 and not lines[k].strip():
+        k -= 1
+    if lines[k].strip() == "<!-- review:begin log -->":
+        at = k
+    sec = ["## " + TITLE, "", BEGIN, ""] + program_block(rows, total, partial, min(5, len(rows))) + ["", END, ""]
+    head = lines[:at]
+    while head and not head[-1].strip():
+        head.pop()
+    return re.sub(r"\n{3,}", "\n\n", "\n".join(head + [""] + sec + lines[at:]))
+
+
 def process(text, rows, total, partial):
-    """回傳新頁面；沒有市場段落時回傳原文"""
+    """回傳新頁面；沒有市場段落時照 add_section 補（不補時回傳原文）"""
     lines = text.split("\n")
     a, b = _section(lines)
     if a is None:
-        return text
+        return add_section(text, rows, total, partial) or text
     mask = _review_mask(lines)
     if BEGIN in lines[a:b] and END in lines[a:b]:
         x, y = lines.index(BEGIN, a), lines.index(END, a)

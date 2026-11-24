@@ -173,7 +173,7 @@ def page_problems(stem: str, text: str) -> list[str]:
     # 2026-11-24 第三輪（用戶決定）：公開頁快照有程式表列、整頁卻沒有市場段落 → 擋
     _fm = text.split("---", 2)[1] if text.startswith("---") else ""
     if e.get("rows") and SLT()._section(lines)[0] is None and not re.search(r"^noindex:\s*true", _fm, re.M):
-        errs.append("公開頁有證據包許可證紀錄卻沒有「## Información de Mercado en Argentina」市場段落（要補段落與程式表，比照 JpTxGNN 的 sync_license_tables.add_section）")
+        errs.append("公開頁有證據包許可證紀錄卻沒有「## Información de Mercado en Argentina」市場段落（跑 python3 scripts/sync_license_tables.py：add_section 會補段落與程式表）")
     if fc:
         all_rows = [r for t in _tables(lines) for r in _rows(t)]
         st = ck.status_row(SITE, all_rows)

@@ -117,7 +117,7 @@ def update(rec, new):
 # 2026-11-24：市場段落的許可證表改成程式產生（scripts/sync_license_tables.py，用戶決定）。
 # 每週排程 3b 自我檢查：程式區塊裡表格列以外的行（標記、表下說明句、沒有紀錄句）也算程式產生的行。
 PAGE_NOTE = (r"^(La tabla muestra (el único producto|los \d+ productos|\d+ de los \d+ productos) (recopilados )?de este medicamento en los datos \(.*|"
-             r"Este medicamento no tiene productos en el listado de medicamentos para entidades de PAMI usado en este informe\.|<!-- licenses:(begin|end) -->)$")
+             r"Este medicamento no tiene productos en el listado de medicamentos para entidades de PAMI usado en este informe\.|<!-- licenses:(begin|end) -->|## Información de Mercado en Argentina)$")
 
 
 def sync_tables(site_dir, bundles):
