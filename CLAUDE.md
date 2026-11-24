@@ -117,3 +117,8 @@ PAMI「medicamentos para entidades」只列當期給付的品項——代碼消�
 
 用戶 2026-11-24 決定（比照 JpTxGNN 第二輪 `add_section`）：公開頁（非 noindex、非轉址）整頁沒有市場段落（## Información de Mercado en Argentina）、證據包卻有許可證紀錄的，要補段落與程式表。
 2026-11-24 全量量測本站 0 頁，所以只加 gate：`src/artxgnn/regulatory/licenses.py` 的 page_problems 擋「公開頁快照有程式表列卻沒有市場段落」（之後若出現，再比照 Jp 在 `scripts/sync_license_tables.py` 加 add_section）。gate exit 0。
+
+## 事實層單方／複方依本站成分欄切分（2026-11-24）
+
+用戶 2026-11-24 決定：事實層依各站成分欄正確切分。reviewer/drug_evidence_pack.py 原本用「;;」切成分，本站 PAMI 成分欄的複方以「+」連接（diosmina+hesperidina、「+asoc.」），都算成單方；改用 `src/artxgnn/regulatory/ingredients.py`（逗號是「成分,鹽類」寫法，不切）。
+事實層 479 藥中 165 藥 single_total 改變；證據包 122 個重算（data-overlay）。寬偵測掃事實有變的頁：第二輪紀錄已更正，跟新事實矛盾 0 句；B（單方數字只驗不改）判斷不了 0 句；checker 0→0。
