@@ -15,8 +15,8 @@
   - 數字不動：顯示筆數（se muestran／la lista muestra／la tabla／listadas／principales、「N de M」的 N）、文字數詞（cinco、ambas…，不比對）。
 角色看數字右側：ya no figura(n)／cancelad／dad(o)s de baja→不在清單；vigente(s)／siguen en el listado→在清單；
 de un solo principio activo／monofármaco→單方；en combinación→複方；其餘→總數。
-單方／複方：本站事實層的 single_total 沒有拆「+」複方（diosmina+hesperidina 也算單方，2026-11-24 實測非 partial 頁 single_total＝total），
-所以單方／複方數字只驗不改：不等於事實層讀法就列 single-combo 待查；句中另有單方／複方說法而其他張數要改時，也整句列 single-combo。
+單方／複方：本站事實層的 single_total 原本沒有拆「+」複方（diosmina+hesperidina 也算單方）；2026-11-24 起 reviewer 依「+」切分
+（src/artxgnn/regulatory/ingredients.py），單方／複方數字仍只驗不改：不等於事實層讀法就列 single-combo 待查；句中另有單方／複方說法而其他張數要改時，也整句列 single-combo。
 同一行只要有一句含許可證數字而被略過，整行都不動（免得前後句數字對不上）。
 同一句另有明確的在清單／不在清單數字時，沒有限定詞的數字確定是總數。
 數字已等於該角色的任一合理讀法就不動；不等於時各讀法相同才改，不同就列 ambiguous。
