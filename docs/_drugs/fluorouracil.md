@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 148
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fluorouracil: nueva indicación predicha, rabdomiosarcoma embrionario de tipo botrioide de la vagina (nivel de evidencia L5). Indicación original: Las licencias locales no incluyen texto d…"
 monitor_inn: "fluorouracil"
 predicted_indications: ["botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "sickle cell-beta-thalassemia disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-hemoglobin E disease syndrome"]
@@ -81,9 +81,15 @@ Para otras predicciones (sarcoma hepático, rabdomiosarcoma de vía biliar extra
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 40612 | ACLER (Pharmatrix) | Crema, 20 g | No se dispone de texto de indicación |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 40612 | ACLER | cr.x 20 g | Pharmatrix | Vigente |
+
+La tabla muestra el único producto de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

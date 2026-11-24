@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 205
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Olopatadine: nueva indicación predicha, Conjuntivitis rosácea (nivel de evidencia L5). Indicación original: Rinitis alérgica…"
 monitor_inn: "OLOPATADINE"
 predicted_indications: ["rosacea conjunctivitis"]
@@ -81,13 +81,19 @@ Estos datos registran 10 productos, todos de producto único (sin combinaciones)
 
 <!-- review:end ar-lic-20261117-olopatadine-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 41436 | PATANOL S (Novartis) | 0.2% frasco gotero x 2.5 ml | No disponible en el registro |
-| 21143 | PATANOL (Novartis) | 0.1% frasco gotero x 5 ml | No disponible en el registro |
-| 41039 | OLOPAT (Elea) | 0.1% solución oftálmica x 5 ml | No disponible en el registro |
-| 57800 | TIMALERG (Max Vision) | 0.2% solución oftálmica x 5 ml | No disponible en el registro |
-| 52910 | OLORATAN (Sidus) | 0.2% solución oftálmica x 2.5 ml | No disponible en el registro |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 41436 | PATANOL S | 0.2% fco.gotero x 2.5 ml | Novartis | Ya no figura en el listado de PAMI |
+| 57800 | TIMALERG | 0.2% sol.oft.x 5 ml | Max Vision | Ya no figura en el listado de PAMI |
+| 41039 | OLOPAT | 0.1% sol.oft.x 5 ml | Elea | Ya no figura en el listado de PAMI |
+| 51489 | KEIM ALER | 0.1% sol.oft.ester.x6 ml | PharmaDorf | Ya no figura en el listado de PAMI |
+| 21143 | PATANOL | 0.1% fco.gotero x 5 ml | Novartis | Ya no figura en el listado de PAMI |
+
+La tabla muestra 5 de los 10 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI), primero los que siguen en el listado vigente; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "TRAVOPROST"
 predicted_indications: ["visceral calciphylaxis", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis", "idiopathic spontaneous coronary artery dissection", "hemangioendothelioma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Travoprost: nueva indicación predicha, calcifilaxis visceral (visceral calciphylaxis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 8 (en el listado vigente: 8)"
 ---
 
@@ -73,13 +73,19 @@ Actualmente no hay literatura relacionada disponible para calcifilaxis visceral.
 
 Todas las autorizaciones registradas están vigentes (8 de 8). Productos principales:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 38893 | ARVO | Solución oftálmica x 2,5 ml | No registrada en los datos locales |
-| 43391 | GLAUNOT | Solución oftálmica x 2,5 ml | No registrada en los datos locales |
-| 32252 | GLAUCOPROST | Solución oftálmica x 3 ml | No registrada en los datos locales |
-| 56010 | TRAVOPLOS | Solución oftálmica x 5 ml | No registrada en los datos locales |
-| 52151 | GLAUNOT SC | Solución oftálmica x 2,5 ml | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 38893 | ARVO | sol.oft.x 2.5 ml | Elea | Vigente |
+| 43391 | GLAUNOT | sol.oft.x 2.5 ml | Lab Internacion | Vigente |
+| 32252 | GLAUCOPROST | sol.oft.x 3 ml | Max Vision | Vigente |
+| 56010 | TRAVOPLOS | sol.oft.x 5 ml | Novoplos | Vigente |
+| 52151 | GLAUNOT SC | sol.oft.x 2.5 ml | Lab Internacion | Vigente |
+
+La tabla muestra 5 de los 8 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

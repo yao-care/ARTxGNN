@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "tadalafil"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tadalafil: nueva indicación predicha, Hipertricosis universal congénita tipo Ambras (Ambras type hypertrichosis universalis congenita) (nivel de evidencia L5). Indicación original: No consta en los d…"
 ---
 
@@ -83,13 +83,19 @@ Actualmente no hay literatura relacionada disponible.
 
 El estado de mercado es **comercializado**: los datos compilados registran al menos 20 autorizaciones vigentes (la lista puede ser parcial). No se dispone del texto de indicación aprobada en los registros locales. Principales autorizaciones:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 58124 | DROTAQ | 20 mg comp. rec. x 4 | No registrada |
-| 52111 | TADAL 20 | 20 mg comp. rec. x 4 | No registrada |
-| 57636 | TADALAFILO RICHET | 20 mg comp. x 4 | No registrada |
-| 51691 | VIRILON MAX | 20 mg comp. rec. x 2 | No registrada |
-| 51991 | MOMENTUM | 5 mg comp. rec. x 15 | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 58124 | DROTAQ | 20 mg comp.rec.x 4 | Baliarda | Vigente |
+| 52111 | TADAL 20 | 20 mg comp.rec.x 4 | Finadiet | Vigente |
+| 57636 | TADALAFILO RICHET | 20 mg comp.x 4 | Richet | Vigente |
+| 51691 | VIRILON MAX | 20 mg comp.rec.x 2 | Temis-Lostaló | Vigente |
+| 51991 | MOMENTUM | 5 mg comp.rec.x 15 | Panalab | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ---
 

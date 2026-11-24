@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 113
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Clobetasone: nueva indicación predicha, Linfoma cutáneo primario de células T (nivel de evidencia L5). Indicación original: No disponible en la autorización de ANMAT (texto de indicación vacío)"
 monitor_inn: "clobetasone"
 predicted_indications: ["primary cutaneous T-cell lymphoma", "Sezary syndrome", "primary cutaneous B-cell lymphoma", "granulomatous slack skin disease", "Crohn's colitis", "adrenocortical insufficiency", "primary cutaneous T-cell non-Hodgkin lymphoma", "nephrotic syndrome", "cystic teratoma", "spinal cord dermoid cyst"]
@@ -95,9 +95,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1669 | EUMOVATE | Crema (cr.x 15 g) | No especificada en el registro |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 1669 | EUMOVATE | cr.x 15 g | Siegfried | Vigente |
+
+La tabla muestra el único producto de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ---
 

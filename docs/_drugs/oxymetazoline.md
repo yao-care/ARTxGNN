@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "oxymetazoline"
 predicted_indications: ["nasal cavity disease", "headache disorder"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Oxymetazoline: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)"
 ---
 
@@ -78,9 +78,15 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 43788 | OXILER D | Spray x 10 ml | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 43788 | OXILER D | spray x 10 ml | Cassará | Vigente |
+
+La tabla muestra el único producto de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

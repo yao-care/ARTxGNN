@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 202
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Nepafenac: nueva indicación predicha, Enfermedad ocular (eye disease) (nivel de evidencia L1). Indicación original: No disponible en la autorización de ANMAT (el texto de indicación est…"
 monitor_inn: "NEPAFENAC"
 predicted_indications: ["eye disease", "optic papillitis", "hypotrichosis simplex of the scalp", "seborrheic keratosis", "von Hippel anomaly", "congenital hypotrichosis milia", "mcpherson robertson cammarano syndrome", "lagophthalmos", "vulvar inverted follicular keratosis", "vitreous detachment"]
@@ -108,9 +108,15 @@ Se muestran las 10 publicaciones más relevantes (de 20 registradas), priorizand
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 38114 | NEVANAC (Novartis) | 0,1 % frasco gotero x 5 ml | Texto de indicación no disponible en el registro |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 38114 | NEVANAC | 0.1% fco.got.x 5 ml | Novartis | Vigente |
+
+La tabla muestra el único producto de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ---
 

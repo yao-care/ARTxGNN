@@ -8,7 +8,7 @@ indication_count: 9
 drugbank_id: DB00246
 monitor_inn: "Ziprasidone"
 predicted_indications: ["trichotillomania", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "retinal dystrophy with or without extraocular anomalies", "Tourette syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "syndromic myopia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ziprasidona: nueva indicación predicha, tricotilomanía (trichotillomania) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)"
 ---
 
@@ -73,12 +73,18 @@ Actualmente no hay literatura relacionada disponible que estudie directamente la
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 28509 | ZELDOX | 20 mg cápsulas x 30 | — |
-| 28510 | ZELDOX | 40 mg cápsulas x 30 | — |
-| 28511 | ZELDOX | 60 mg cápsulas x 30 | — |
-| 28512 | ZELDOX | 80 mg cápsulas x 30 | — |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 28510 | ZELDOX | 40 mg cáps.x 30 | Aspen Pharma | Vigente |
+| 28512 | ZELDOX | 80 mg cáps.x 30 | Aspen Pharma | Vigente |
+| 28509 | ZELDOX | 20 mg cáps.x 30 | Aspen Pharma | Vigente |
+| 28511 | ZELDOX | 60 mg cáps.x 30 | Aspen Pharma | Vigente |
+
+La tabla muestra los 4 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

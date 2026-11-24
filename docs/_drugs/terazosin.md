@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "terazosin"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine disorder", "migraine with brainstem aura", "Raynaud disease", "Ambras type hypertrichosis universalis congenita", "manic bipolar affective disorder", "kyphoscoliotic heart disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Terazosin: nueva indicación predicha, hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 18 (en el listado vigente: 18)"
 ---
 
@@ -72,13 +72,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Todas las autorizaciones registradas (18) son de productos de un solo principio activo y están vigentes. La lista siguiente muestra las 5 principales; el texto de indicación aprobada no figura en los datos locales.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 32798 | ANDRIN | 2 mg comp. x 30 | No registrada |
-| 34232 | GERIPROST | 10 mg comp. ran. x 20 | No registrada |
-| 16334 | FOSFOMIK | 5 mg comp. birran. x 20 | No registrada |
-| 18283 | BLAVIN | 2 mg comp. x 30 | No registrada |
-| 24737 | BENAPROST | 5 mg comp. x 28 | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 32798 | ANDRIN | 2 mg comp.x 30 | Casasco | Vigente |
+| 34232 | GERIPROST | 10 mg comp.ran.x 20 | Teva Argentina | Vigente |
+| 16334 | FOSFOMIK | 5 mg comp.birran.x 20 | Finadiet | Vigente |
+| 18283 | BLAVIN | 2 mg comp.x 30 | Baliarda | Vigente |
+| 24737 | BENAPROST | 5 mg comp.x 28 | Bagó | Vigente |
+
+La tabla muestra 5 de los 18 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -8,7 +8,7 @@ indication_count: 4
 drugbank_id: DB01037
 monitor_inn: "Selegiline"
 predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "schizophrenia", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Selegilina: nueva indicación predicha, Polimicrogiria perisilviana con hipoplasia cerebelosa y artrogriposis (polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis) (nivel de evidencia L5)."
 ---
 
@@ -71,12 +71,18 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 682 | JUMEX | comp. x 20 | No registrada en los datos locales |
-| 11987 | JUMEX | comp. x 40 | No registrada en los datos locales |
-| 15138 | BRINTENAL | 5 mg comp. x 20 | No registrada en los datos locales |
-| 37440 | BRINTENAL | 5 mg comp. x 60 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 682 | JUMEX | comp.x 20 | Teva Argentina | Vigente |
+| 11987 | JUMEX | comp.x 40 | Teva Argentina | Vigente |
+| 15138 | BRINTENAL | 5 mg comp.x 20 | Beta | Vigente |
+| 37440 | BRINTENAL | 5 mg comp.x 60 | Beta | Vigente |
+
+La tabla muestra los 4 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

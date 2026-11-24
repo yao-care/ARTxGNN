@@ -8,7 +8,7 @@ indication_count: 10
 drugbank_id: DB08941
 monitor_inn: "Isoxsuprine"
 predicted_indications: ["benign prostatic hyperplasia (disease)", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "blue toe syndrome", "atheroembolism of kidney", "hemangioendothelioma", "angiodysplasia of stomach", "respiratory failure", "neurogenic thoracic outlet syndrome", "idiopathic spontaneous coronary artery dissection"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Isoxsuprina: nueva indicación predicha, hiperplasia prostática benigna (benign prostatic hyperplasia (disease)) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)"
 ---
 
@@ -72,11 +72,17 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 8268 | DUVADILAN | 10 mg comp. x 20 | — |
-| 13782 | ISOXSUPRINA FABRA | 20 mg comp. x 20 | — |
-| 13781 | ISOXSUPRINA FABRA | 10 mg comp. x 10 mg x 20 | — |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 8268 | DUVADILAN | 10 mg comp.x 20 | Adium | Vigente |
+| 13782 | ISOXSUPRINA FABRA | 20 mg comp.x 20 | Fabra | Vigente |
+| 13781 | ISOXSUPRINA FABRA | 10 mg comp.x 20 | Fabra | Vigente |
+
+La tabla muestra los 3 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

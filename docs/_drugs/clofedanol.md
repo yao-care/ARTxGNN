@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "clofedanol"
 predicted_indications: ["nasal cavity disease", "allergic urticaria", "papillary conjunctivitis", "cold urticaria", "faucial diphtheria", "cervical disc degenerative disorder"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Clofedanol: nueva indicación predicha, enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 8 (en el listado vigente: 8)"
 ---
 
@@ -72,13 +72,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 59698 | UNITOS | Jarabe adultos, 100 ml | No registrada en los datos locales |
-| 50823 | COFRON | Jarabe pediátrico, 180 ml | No registrada en los datos locales |
-| 50822 | COFRON | Jarabe pediátrico, 100 ml | No registrada en los datos locales |
-| 59699 | UNITOS | Jarabe pediátrico, 100 ml | No registrada en los datos locales |
-| 50820 | COFRON | Jarabe adultos, 100 ml | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 59698 | UNITOS | ad.jbe.x 100 ml | Casasco | Vigente |
+| 50823 | COFRON | Ped.jbe.x 180 ml | Abbott EPD | Vigente |
+| 50822 | COFRON | ped.jbe.x 100 ml | Abbott EPD | Vigente |
+| 59699 | UNITOS | ped.jbe.x 100 ml | Casasco | Vigente |
+| 50820 | COFRON | ad.jbe.x 100 ml | Abbott EPD | Vigente |
+
+La tabla muestra 5 de los 8 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Se muestran 5 de 8 autorizaciones; todas son de producto de un solo principio activo y están vigentes.
 

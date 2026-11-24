@@ -8,7 +8,7 @@ indication_count: 5
 drugbank_id: DB01211
 monitor_inn: "Clarithromycin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Claritromicina: nueva indicación predicha, síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -71,13 +71,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 31701 | AEROXINA U.D. | 500 mg comp. rec. x 8 |
-| 56680 | NEUMODRYL | 500 mg comp. x 16 |
-| 12610 | KLARICID | IV iny. f.a. x 1 |
-| 38660 | CLARIMAX 500 | 500 mg comp. rec. x 8 |
-| 23792 | CLARITROMICINA RICHET | 500 mg IV iny. f.a. |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 31701 | AEROXINA U.D. | 500 mg comp.rec.x 8 | Elea | Vigente |
+| 56680 | NEUMODRYL | 500 mg comp.x 16 | Fecofar | Vigente |
+| 12610 | KLARICID | IV iny.f.a.x 1 | Abbott EPD | Vigente |
+| 38660 | CLARIMAX 500 | 500 mg comp.rec.x 8 | Montpellier | Vigente |
+| 23792 | CLARITROMICINA RICHET | 500 mg IV iny.f.a. | Richet | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Hay al menos 20 autorizaciones vigentes de producto de un solo principio activo; la lista puede ser parcial.
 

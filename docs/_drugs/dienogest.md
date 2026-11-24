@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 125
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dienogest: nueva indicación predicha, Amenorrea (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "DIENOGEST"
 predicted_indications: ["amenorrhea (disease)", "primary ovarian failure", "breast fibrocystic disease", "isolated growth hormone deficiency", "symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "hypogonadotropic hypogonadism with or without anosmia", "partial trisomy/tetrasomy of the short arm of chromosome 5", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18"]
@@ -88,11 +88,17 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 43302 | DIENOPIL (PharmaDorf) | Comprimidos x 21 | No especificada |
-| 47828 | AZUCENA (Laboratorios Be) | Comprimidos recubiertos x 28 | No especificada |
-| 45493 | RUBI (Gador) | Comprimidos recubiertos x 28 | No especificada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 43302 | DIENOPIL | comp.x 21 | PharmaDorf | Vigente |
+| 47828 | AZUCENA | comp.rec.x 28 | Laboratorios Be | Vigente |
+| 45493 | RUBI | comp.rec.x 28 | Gador | Vigente |
+
+La tabla muestra los 3 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ---
 

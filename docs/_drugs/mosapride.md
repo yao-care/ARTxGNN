@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 196
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Mosapride: nueva indicación predicha, Insomnio (nivel de evidencia L5). Indicación original: Trastornos gastrointestinales (uso procinético"
 monitor_inn: "MOSAPRIDE"
 drugbank_id: DB11675
@@ -64,13 +64,19 @@ Sin embargo, no existe en los datos disponibles un mecanismo directo que conecte
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 31829 | VAGANTYL (Sidus) | 5 mg comprimidos recubiertos x 30 | No especificada |
-| 42057 | GASTROKIN (Sanitas) | 5 mg comprimidos recubiertos x 30 | No especificada |
-| 37453 | LEVUSID (Eurofarma) | 5 mg comprimidos x 30 | No especificada |
-| 37452 | LEVUSID (Eurofarma) | 5 mg comprimidos x 20 | No especificada |
-| 27070 | INTESUL (Beta) | 5 mg comprimidos recubiertos x 60 | No especificada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 31829 | VAGANTYL | 5 mg comp.rec.x 30 | Sidus | Vigente |
+| 42057 | GASTROKIN | 5 mg comp.rec.x 30 | Sanitas | Vigente |
+| 37453 | LEVUSID | 5 mg comp.x 30 | Eurofarma | Vigente |
+| 37452 | LEVUSID | 5 mg comp.x 20 | Eurofarma | Vigente |
+| 27070 | INTESUL | 5 mg comp.rec.x 60 | Beta | Vigente |
+
+La tabla muestra 5 de los 10 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Existen 10 autorizaciones vigentes en total, todas de monofármaco (también hay MOSAR de Elea y una presentación en gotas de VAGANTYL, 5 mg/ml x 20 ml).
 

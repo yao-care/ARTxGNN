@@ -8,7 +8,7 @@ indication_count: 1
 drugbank_id: DB00736
 monitor_inn: "Esomeprazole"
 predicted_indications: ["duodenal obstruction"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Esomeprazol: nueva indicación predicha, obstrucción duodenal (duodenal obstruction) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)"
 ---
 
@@ -72,11 +72,17 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 45426 | NEXIUM | 10 mg sobres x 28 | No registrada en los datos locales |
-| 47956 | VIMOVO | comp. lib. modif. x 30 | No registrada en los datos locales |
-| 54068 | XINA | comp. lib. modif. x 30 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 45426 | NEXIUM | 10 mg sobres x 28 | AstraZeneca | Vigente |
+| 47956 | VIMOVO | comp.lib.modif.x 30 | AstraZeneca | Vigente |
+| 54068 | XINA | comp.lib.modif.x 30 | Finadiet | Vigente |
+
+La tabla muestra los 3 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

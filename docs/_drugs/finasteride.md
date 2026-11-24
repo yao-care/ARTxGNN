@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "FINASTERIDE"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Finasteride: nueva indicación predicha, hipertricosis universal congénita tipo Ambras (Ambras type hypertrichosis universalis congenita) (nivel de evidencia L5). Indicación original: No consta en los…"
 ---
 
@@ -73,13 +73,19 @@ Actualmente no hay literatura relacionada disponible.
 
 El fármaco se encuentra comercializado, con 20 autorizaciones vigentes (todas de producto de un solo principio activo). Principales autorizaciones:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 11845 | PROSCAR | comp. x 30 | No registrada en los datos locales |
-| 21216 | PROPECIA | 1 mg comp. rec. x 30 | No registrada en los datos locales |
-| 13953 | PROSTENE | 5 mg comp. x 30 | No registrada en los datos locales |
-| 48814 | HPB PANALAB | 5 mg comp. rec. x 28 | No registrada en los datos locales |
-| 23124 | CAPILFOR | 1 mg comp. x 30 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 11845 | PROSCAR | comp.x 30 | Organon Arg. | Vigente |
+| 48814 | HPB PANALAB | 5 mg comp.rec.x 28 | Panalab | Vigente |
+| 48815 | HPB PANALAB | 5 mg comp.rec.x 56 | Panalab | Vigente |
+| 23124 | CAPILFOR | 1 mg comp.x 30 | Finadiet | Vigente |
+| 25611 | PROSMIN | 5 mg comp.x 30 | Biotenk | Vigente |
+
+La tabla muestra 5 de los 20 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -8,7 +8,7 @@ indication_count: 1
 drugbank_id: DB00213
 monitor_inn: "Pantoprazole"
 predicted_indications: ["duodenal obstruction"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pantoprazol: nueva indicación predicha, obstrucción duodenal (duodenal obstruction) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)"
 ---
 
@@ -73,10 +73,16 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 23256 | PANTOP | IV iny.x 1 | — |
-| 32555 | PANTUS IV | 40 mg IV f.a.liof.x 1 | — |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 23256 | PANTOP | IV iny.x 1 | Adium | Vigente |
+| 32555 | PANTUS IV | 40 mg IV f.a.liof.x 1 | Baliarda | Vigente |
+
+La tabla muestra los 2 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

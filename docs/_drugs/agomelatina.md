@@ -8,7 +8,7 @@ indication_count: 7
 drugbank_id: DB06594
 monitor_inn: "Agomelatine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "neurotic disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type", "Keppen-Lubinsky syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Agomelatina: nueva indicación predicha, tortícolis paroxística benigna de la infancia (benign paroxysmal torticollis of infancy) (nivel de evidencia L5)."
 ---
 
@@ -73,11 +73,17 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 47653 | VESTIN (Gador) | Comprimidos 25 mg x 28 | No registrada en los datos locales |
-| 43069 | VALDOXAN (Servier) | Comprimidos 25 mg x 28 | No registrada en los datos locales |
-| 43068 | VALDOXAN (Servier) | Comprimidos 25 mg x 14 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 47653 | VESTIN | 25 mg comp.x 28 | Gador | Vigente |
+| 43069 | VALDOXAN | 25 mg comp.x 28 | Servier | Vigente |
+| 43068 | VALDOXAN | 25 mg comp.x 14 | Servier | Vigente |
+
+La tabla muestra los 3 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 207
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Oxazepam: nueva indicación predicha, Insomnio (nivel de evidencia L3). Indicación original: Delirium por abstinencia alcohólica y ansiedad"
 monitor_inn: "OXAZEPAM"
 predicted_indications: ["insomnia (disease)"]
@@ -83,9 +83,15 @@ Nota: se omitieron dos publicaciones sin relación con la eficacia de oxazepam (
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 23427 | PAUSAFREN T | Comprimidos x 40 | Sin texto de indicación registrado |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 23427 | PAUSAFREN T | comp.x 40 | Finadiet | Vigente |
+
+La tabla muestra el único producto de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

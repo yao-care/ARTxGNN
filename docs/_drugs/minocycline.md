@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "minocycline"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Minocycline: nueva indicación predicha, queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 8 (en el listado vigente: 8)"
 ---
 
@@ -72,13 +72,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 55081 | LIMAFIL 50 | 50 mg comp. x 30 |
-| 32863 | SEBOCLEAR 100 | comp. rec. x 30 |
-| 25427 | MEIBI | 50 mg comp. x 30 |
-| 47719 | MINOCICLINA RICHET | 100 mg comp. x 30 |
-| 32862 | SEBOCLEAR 100 | comp. rec. x 10 |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 55081 | LIMAFIL 50 | 50 mg comp.x 30 | Casasco | Vigente |
+| 32863 | SEBOCLEAR 100 | comp.rec.x 30 | Megalabs Argent | Vigente |
+| 25427 | MEIBI | 50 mg comp.x 30 | Megalabs Argent | Vigente |
+| 47719 | MINOCICLINA RICHET | 100 mg comp.x 30 | Richet | Vigente |
+| 32862 | SEBOCLEAR 100 | comp.rec.x 10 | Megalabs Argent | Vigente |
+
+La tabla muestra 5 de los 8 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Se muestran 5 de las 8 autorizaciones vigentes, todas de producto de un solo principio activo.
 

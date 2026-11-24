@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "SALBUTAMOL"
 predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "anaphylaxis", "common cold", "atopic conjunctivitis", "anorectal stricture"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Salbutamol: nueva indicación predicha, conjuntivitis papilar (papillary conjunctivitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -84,13 +84,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Salbutamol se encuentra comercializado en Argentina. Hay al menos 20 autorizaciones registradas, todas vigentes y de producto de un solo principio activo; la lista podría ser parcial. Principales autorizaciones:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19370 | MICROTEROL | 5mg/ml sol.p/nebul.x20ml | No registrada |
-| 50519 | SALBUDEN HFA CON AEROCAMARA DF 280 | inh.HFA+aeroc.x 250ds. | No registrada |
-| 19840 | SALBUTAMOL FABRA | 0.5% gts.x 20 ml | No registrada |
-| 13001 | VENTOLIN HFA | aer.inh.c/aplic.x200ds. | No registrada |
-| 47141 | SALBUTRAL C/AEROMED | aer.hfa x 250 dosis | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 19370 | MICROTEROL | 5mg/ml sol.p/nebul.x20ml | Microsules Arg. | Vigente |
+| 50519 | SALBUDEN HFA CON AEROCAMARA DF 280 | inh.HFA+aeroc.x 250ds. | Denver Farma | Vigente |
+| 19840 | SALBUTAMOL FABRA | 0.5% gts.x 20 ml | Fabra | Vigente |
+| 13001 | VENTOLIN HFA | aer.inh.c/aplic.x200ds. | GlaxoSmithKline | Vigente |
+| 47141 | SALBUTRAL C/AEROMED | aer.hfa x 250 dosis | Cassará | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ---
 

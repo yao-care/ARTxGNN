@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 158
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-24
 description: "Hesperidin: nueva indicación predicha, Neoplasia mieloproliferativa (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "hesperidin"
 predicted_indications: ["myeloproliferative neoplasm", "monocytic leukemia", "spermatocytic seminoma", "tubular variant testicular seminoma", "gestational trophoblastic neoplasm"]
@@ -87,13 +87,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Las autorizaciones listadas no incluyen texto de indicación aprobada. Se muestran 5 de las 20 autorizaciones vigentes (todas de un solo principio activo).
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 50487 | TERBENOL UD | sobres x 30 | No disponible |
-| 57669 | MILCANOR 500 | comprimidos recubiertos x 60 | No disponible |
-| 13576 | DAFLON 500 | 500 mg, comprimidos x 30 | No disponible |
-| 50329 | DAFLON 1000 | sachets x 30 | No disponible |
-| 58280 | ATUREN | 1000 mg, comprimidos recubiertos x 30 | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 50487 | TERBENOL UD | sob.x 30 | Laboratorios Be | Vigente |
+| 57669 | MILCANOR 500 | comp.rec.x 60 | Casasco | Vigente |
+| 41061 | DIOSMIN | comp.x 60 | Craveri | Vigente |
+| 58279 | ATUREN | 500 mg comp.rec.x 60 | Gador | Vigente |
+| 46705 | DIOSMIN | comp.rec.x 100 | Craveri | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ---
 

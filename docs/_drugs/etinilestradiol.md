@@ -8,7 +8,7 @@ indication_count: 1
 drugbank_id: DB00977
 monitor_inn: "Ethinylestradiol"
 predicted_indications: ["zinc, elevated plasma"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Etinilestradiol: nueva indicación predicha, Zinc plasmático elevado (zinc, elevated plasma) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -75,13 +75,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Hay al menos 20 autorizaciones registradas, todas vigentes; la lista puede ser parcial. Las principales son:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 55887 | ELLERING | Anillo vaginal, sobre x 1 |
-| 8317 | TRIQUILAR | Blíster de grageas x 21 |
-| 36244 | DAMSEL | Comprimidos recubiertos x 28 |
-| 38259 | MAXIMA | Comprimidos recubiertos x 28 |
-| 8305 | PRIMOSISTON | Comprimidos x 30 |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 55887 | ELLERING | anillo vaginal sob.x 1 | Elea | Vigente |
+| 8317 | TRIQUILAR | blist.grag.x 21 | Adium | Vigente |
+| 36244 | DAMSEL | comp.rec.x 28 | Gador | Vigente |
+| 38259 | MAXIMA | comp.rec.x 28 | PharmaDorf | Vigente |
+| 8305 | PRIMOSISTON | comp.x 30 | Adium | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

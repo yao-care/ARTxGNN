@@ -8,7 +8,7 @@ indication_count: 10
 drugbank_id: DB00207
 monitor_inn: "Azithromycin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Azitromicina: nueva indicación predicha, síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -74,13 +74,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Se registran al menos 20 autorizaciones, todas vigentes y de producto de un solo principio activo; la lista puede ser parcial. A continuación se muestran las 5 principales:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 41365 | AZIBIOTIC 500 | Comprimidos recubiertos ranurados x 5 |
-| 36595 | AZITROX | Comprimidos 500 mg x 3 |
-| 43892 | AZITRONA KLONAL | Comprimidos 500 mg x 6 |
-| 17244 | MACROMAX | Comprimidos 500 mg x 3 |
-| 18733 | MISULTINA | Comprimidos recubiertos 500 mg x 6 |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 41365 | AZIBIOTIC 500 | comp.rec.ran.x 5 | Baliarda | Vigente |
+| 36595 | AZITROX | 500 mg comp.x 3 | Austral | Vigente |
+| 43892 | AZITRONA KLONAL | 500 mg comp.x 6 | Klonal | Vigente |
+| 17244 | MACROMAX | 500 mg comp.x 3 | Siegfried | Vigente |
+| 18733 | MISULTINA | 500 mg comp.rec.x 6 | Laboratorios Be | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

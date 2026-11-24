@@ -8,7 +8,7 @@ indication_count: 9
 drugbank_id: DB13919
 monitor_inn: "Candesartan"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension", "Prinzmetal angina", "kyphoscoliotic heart disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "benign prostatic hyperplasia (disease)", "alopecia"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Candesartán: nueva indicación predicha, trastorno de migraña (migraine disorder) (nivel de evidencia L2). En Argentina, productos en el listado de PAMI: 6 (en el listado vigente: 6)"
 ---
 
@@ -87,13 +87,19 @@ La evidencia es directa y clínica: un ensayo multicéntrico de Fase 2, triple c
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 55475 | ATACAND D | 16 mg comprimidos divisibles x 28 | — |
-| 27161 | ATACAND D | 16 mg comprimidos divisibles x 15 | — |
-| 31338 | DACTEN D | Comprimidos x 30 | — |
-| 29638 | TIADYL PLUS | 16 mg comprimidos x 30 | — |
-| 31337 | DACTEN D | Comprimidos x 15 | — |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 55475 | ATACAND D | 16 mg comp.divis.x 28 | Biopas Argentin | Vigente |
+| 27161 | ATACAND D | 16 mg comp.divis.x 15 | AstraZeneca | Vigente |
+| 31338 | DACTEN D | comp.x 30 | Elea | Vigente |
+| 29638 | TIADYL PLUS | 16 mg comp.x 30 | Abbott EPD | Vigente |
+| 31337 | DACTEN D | comp.x 15 | Elea | Vigente |
+
+La tabla muestra 5 de los 6 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "CLOBAZAM"
 predicted_indications: ["febrile infection-related epilepsy syndrome", "perioral myoclonia with absences", "photosensitive occipital lobe epilepsy", "atypical childhood epilepsy with centrotemporal spikes", "cryptogenic late-onset epileptic spasms", "childhood onset epileptic encephalopathy", "benign occipital epilepsy", "early-onset epileptic encephalopathy and intellectual disability due to GRIN2A mutation", "restless legs syndrome", "polymicrogyria with optic nerve hypoplasia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clobazam: nueva indicación predicha, Síndrome epiléptico relacionado con infección febril (febrile infection-related epilepsy syndrome) (nivel de evidencia L5). Indicación original: No consta en los …"
 ---
 
@@ -74,12 +74,18 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 5466 | KARIDIUM | 20 mg comp. x 60 | No registrada en los datos locales |
-| 61503 | KARIDIUM | 10 mg comp. x 15 | No registrada en los datos locales |
-| 4306 | KARIDIUM | 10 mg comp. x 60 | No registrada en los datos locales |
-| 61504 | KARIDIUM | 10 mg comp. x 30 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 5466 | KARIDIUM | 20 mg comp.x 60 | Elea | Vigente |
+| 61503 | KARIDIUM | 10 mg comp.x 15 | Elea | Vigente |
+| 4306 | KARIDIUM | 10 mg comp.x 60 | Elea | Vigente |
+| 61504 | KARIDIUM | 10 mg comp.x 30 | Elea | Vigente |
+
+La tabla muestra los 4 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

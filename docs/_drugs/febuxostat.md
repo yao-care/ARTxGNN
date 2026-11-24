@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 141
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Febuxostat: nueva indicación predicha, Hipouricemia renal (nivel de evidencia L4). Indicación original: Hiperuricemia (según la base de conocimiento del modelo"
 monitor_inn: "FEBUXOSTAT"
 predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "Lesch-Nyhan syndrome"]
@@ -86,10 +86,16 @@ El único vínculo plausible es indirecto: se ha planteado que los inhibidores d
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 47762 | DUTRINOL (Teva Argentina) | Comprimidos 80 mg x 30 | No disponible |
-| 46249 | FEBUXTAT (Ariston) | Comprimidos recubiertos/ranurados 80 mg x 30 | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 47762 | DUTRINOL | 80 mg comp.x 30 | Teva Argentina | Vigente |
+| 46249 | FEBUXTAT | 80 mg comp.ran.x 30 | Ariston | Vigente |
+
+La tabla muestra los 2 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ---
 

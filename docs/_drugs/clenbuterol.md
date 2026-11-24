@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 109
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Clenbuterol: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "CLENBUTEROL"
 drugbank_id: DB01407
@@ -74,13 +74,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 5487 | BRONQ C | Jarabe x 100 ml | No disponible |
-| 18230 | BRONQ C | Comprimidos x 30 | No disponible |
-| 10116 | OXIBRON | Comprimidos x 20 | No disponible |
-| 3239 | OXIBRON N.F. | Gotas x 30 ml | No disponible |
-| 3238 | OXIBRON N.F. | Comprimidos x 30 | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 5487 | BRONQ C | jbe.x 100 ml | Laboratorios Be | Vigente |
+| 18230 | BRONQ C | comp.x 30 | Laboratorios Be | Vigente |
+| 10116 | OXIBRON | comp.x 20 | Montpellier | Vigente |
+| 3239 | OXIBRON N.F. | gts.x 30 ml | Montpellier | Vigente |
+| 3238 | OXIBRON N.F. | comp.x 30 | Montpellier | Vigente |
+
+La tabla muestra los 5 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

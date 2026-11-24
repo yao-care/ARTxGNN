@@ -8,7 +8,7 @@ indication_count: 10
 drugbank_id: DB06151
 monitor_inn: "Acetylcysteine"
 predicted_indications: ["thrombotic disease", "closed-angle glaucoma", "nasal cavity disease", "dry eye syndrome", "pharyngitis", "acute laryngopharyngitis", "tracheal disease", "transient ischemic attack (disease)", "laryngotracheitis", "angle-closure glaucoma"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Acetilcisteína: nueva indicación predicha, Enfermedad trombótica (thrombotic disease) (nivel de evidencia L2). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -93,13 +93,19 @@ Las demás publicaciones recuperadas son revisiones sobre COVID-19 o estudios b�
 
 El texto de indicación aprobada no figura en los datos locales. Se listan 5 de las autorizaciones vigentes; hay al menos 20 y el listado puede ser parcial.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
-|---------|------|------|-----------|
-| 44931 | BRONCOLIUM | 600 mg, comprimidos efervescentes x 12 | Temis-Lostal |
-| 21647 | ACEMUK | 600 mg, tabletas efervescentes x 20 | Siegfried |
-| 52064 | DOSOMUK | 600 mg, comprimidos dispersables x 10 | Beta |
-| 54594 | ACETILCISTEINA TEVA | 600 mg, comprimidos efervescentes x 10 | Teva Argentina |
-| 42683 | ACC EXPECTORANTE | 600 mg, comprimidos efervescentes x 10 | Novartis-Sandoz |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 44931 | BRONCOLIUM | 600 mg comp.eferv.x 12 | Temis-Lostaló | Vigente |
+| 21647 | ACEMUK | 600 mg tab.eferv.x 20 | Siegfried | Vigente |
+| 45711 | ACEMUK | 600 mg tab.eferv.x 60 | Siegfried | Vigente |
+| 52064 | DOSOMUK | 600 mg comp.dispers.x 10 | Beta | Vigente |
+| 54594 | ACETILCISTEINA TEVA | 600 mg comp.eferv.x 10 | Teva Argentina | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

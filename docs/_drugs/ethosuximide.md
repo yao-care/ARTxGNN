@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 137
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ethosuximide: nueva indicación predicha, Síndrome nefrogénico de antidiuresis inapropiada (nivel de evidencia L5). Indicación original: Epilepsia de ausencia"
 monitor_inn: "ethosuximide"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
@@ -64,10 +64,16 @@ Cualquier vínculo sería especulativo (por ejemplo, a través de la modulación
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 6357 | ZARONTIN | Líquido x 120 ml | No disponible en los datos compilados |
-| 6356 | ZARONTIN | Cápsulas x 25 | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 6357 | ZARONTIN | líq.x 120 ml | Elea | Vigente |
+| 6356 | ZARONTIN | cáps.x 25 | Elea | Vigente |
+
+La tabla muestra los 2 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Ambas autorizaciones están vigentes (fabricante: Elea).
 

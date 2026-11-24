@@ -8,7 +8,7 @@ indication_count: 5
 drugbank_id: DB00514
 monitor_inn: "Dextromethorphan"
 predicted_indications: ["nasal cavity disease", "faucial diphtheria", "trigeminal autonomic cephalalgia", "cervical disc degenerative disorder", "allergic urticaria"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Dextrometorfano: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)"
 ---
 
@@ -72,10 +72,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 22175 | DEXTROTOS | Jarabe x 100 ml | No registrada en los datos locales |
-| 8766 | ASEPTOBRON | Jarabe x 150 ml | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 22175 | DEXTROTOS | jbe.x 100 ml | Lafedar | Vigente |
+| 8766 | ASEPTOBRON | jbe.x 150 ml | Temis-Lostaló | Vigente |
+
+La tabla muestra los 2 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

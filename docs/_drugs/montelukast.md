@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 2
 monitor_inn: "MONTELUKAST"
 predicted_indications: ["bronchitis", "atopic eczema"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Montelukast: nueva indicación predicha, bronquitis (bronchitis) (nivel de evidencia L4). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -97,13 +97,19 @@ Solo se listan los ensayos más relevantes para la enfermedad predicha (bronquit
 
 Montelukast figura como comercializado en Argentina, con al menos 20 autorizaciones vigentes (la lista puede ser parcial). Se muestran las principales:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 22037 | SINGULAIR | 10 mg comprimidos x 30 | No registrada en los datos locales |
-| 21564 | SINGULAIR | niños 5 mg comprimidos masticables x 30 | No registrada en los datos locales |
-| 33860 | SINGULAIR | niños 4 mg granulado en sobres x 30 | No registrada en los datos locales |
-| 39879 | ROLAST | niños 5 mg comprimidos masticables x 30 | No registrada en los datos locales |
-| 43013 | MONTRATE | 5 mg comprimidos masticables x 30 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 46558 | LUKAST 5 | 5 mg comp.mast.x 30 | Bagó | Vigente |
+| 43013 | MONTRATE | 5 mg comp.mast.x 30 | Casasco | Vigente |
+| 39879 | ROLAST | niños 5 mg comp.mast.x30 | Elea | Vigente |
+| 46646 | ASMAVITAN | 4 mg comp.mast.x 30 | Montpellier | Vigente |
+| 46557 | LUKAST 4 | 4 mg comp.mast.x 30 | Bagó | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

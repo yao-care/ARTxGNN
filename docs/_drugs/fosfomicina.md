@@ -8,7 +8,7 @@ indication_count: 8
 drugbank_id: DB00828
 monitor_inn: "Fosfomycin"
 predicted_indications: ["uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "epiglottitis", "urogenital tuberculosis", "laryngitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "pyelitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fosfomicina: nueva indicación predicha, Enfermedad inflamatoria uterina (uterine inflammatory disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)"
 ---
 
@@ -76,11 +76,17 @@ La predicción debe tomarse como una señal del modelo y no como una indicación
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
-|---------|------|------|-----------|
-| 49334 | SOLUFOS | 500 mg cápsulas x 24 | Gobbi |
-| 49333 | SOLUFOS | 500 mg cápsulas x 12 | Gobbi |
-| 46123 | FOSFOMICINA LUAR | 1 g IV, inyectable, frasco ampolla, caja x 10 | Química Luar |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 49334 | SOLUFOS | 500 mg caps.x 24 | Gobbi | Vigente |
+| 49333 | SOLUFOS | 500 mg caps.x 12 | Gobbi | Vigente |
+| 46123 | FOSFOMICINA LUAR | 1 g IV iny.f.a.caja x 10 | Química Luar | Vigente |
+
+La tabla muestra los 3 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Las tres autorizaciones están vigentes y corresponden a productos de principio activo único. El texto de indicación aprobada no figura en los datos locales.
 

@@ -8,7 +8,7 @@ indication_count: 1
 drugbank_id: DB00210
 monitor_inn: "Adapalene"
 predicted_indications: ["zinc, elevated plasma"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Adapaleno: nueva indicación predicha, zinc plasmático elevado (zinc, elevated plasma) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 7 (en el listado vigente: 7)"
 ---
 
@@ -75,13 +75,19 @@ Actualmente no hay literatura relacionada disponible.
 
 El adapaleno tiene autorizaciones vigentes en Argentina, todas para formulaciones tópicas en gel:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
-|---------|------|------|-----------|
-| 46381 | SINAC | Gel 0,3 % x 30 g | Andrómaco |
-| 47441 | DERMOTOPIC | Gel 0,3 % x 30 g | Lazar |
-| 55143 | EXOGEL | Gel 0,3 % x 30 g | Casasco |
-| 55142 | EXOGEL | Gel 0,1 % x 30 g | Casasco |
-| 46356 | DERMOTOPIC | Gel 0,1 % x 30 g | Lazar |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 46381 | SINAC | 0.3% gel x 30 g | Andrómaco | Vigente |
+| 47441 | DERMOTOPIC | gel 0.3% x 30 g | Lazar | Vigente |
+| 55143 | EXOGEL | 0.3% gel x 30 g | Casasco | Vigente |
+| 55142 | EXOGEL | 0.1% gel x 30 g (VL) | Casasco | Vigente |
+| 46356 | DERMOTOPIC | gel 0.1% x 30 g | Lazar | Vigente |
+
+La tabla muestra 5 de los 7 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

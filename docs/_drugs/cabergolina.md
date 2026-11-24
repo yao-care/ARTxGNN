@@ -8,7 +8,7 @@ indication_count: 4
 drugbank_id: DB00248
 monitor_inn: "Cabergoline"
 predicted_indications: ["progeria-short stature-pigmented nevi syndrome", "pituitary cancer", "cerebral palsy, spastic quadriplegic", "glaucoma"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Cabergolina: nueva indicación predicha, Síndrome de progeria, talla baja y nevos pigmentados (progeria-short stature-pigmented nevi syndrome) (nivel de evidencia L5)."
 ---
 
@@ -75,13 +75,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Hay 8 autorizaciones vigentes de productos con cabergolina como único principio activo. El texto de indicación aprobada no figura en los datos locales.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
-|---------|------|------|-----------|
-| 26682 | LACTAMAX | 0.5 mg comp. x 2 | Beta |
-| 18983 | DOSTINEX | 0.5 mg comp. x 2 | Pfizer |
-| 37382 | CABERPAR | 1 mg comp. x 10 | Rontag |
-| 29560 | CABASER | 2 mg comp. x 30 | Pfizer |
-| 29559 | CABASER | 1 mg comp. x 30 | Pfizer |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 26682 | LACTAMAX | 0.5 mg comp.x 2 | Beta | Vigente |
+| 18983 | DOSTINEX | 0.5 mg comp.x 2 | Pfizer | Vigente |
+| 37382 | CABERPAR | 1 mg comp.x 10 | Rontag | Vigente |
+| 29560 | CABASER | 2 mg comp.x 30 | Pfizer | Vigente |
+| 29559 | CABASER | 1 mg comp.x 30 | Pfizer | Vigente |
+
+La tabla muestra 5 de los 8 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

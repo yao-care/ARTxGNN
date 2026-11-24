@@ -8,7 +8,7 @@ indication_count: 2
 drugbank_id: DB00334
 monitor_inn: "Olanzapine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Olanzapina: nueva indicación predicha, torticolis paroxística benigna de la infancia (benign paroxysmal torticollis of infancy) (nivel de evidencia L5)."
 ---
 
@@ -75,13 +75,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Se identificaron al menos 20 autorizaciones, todas vigentes y de producto de un solo principio activo; la lista puede ser parcial. Principales registros:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 43521 | APSICO | 5 mg comprimidos recubiertos x 28 | — |
-| 61891 | MIDAX | 2,5 mg comprimidos x 28 | — |
-| 48279 | OLANZAPINA ROSPAW | 10 mg comprimidos x 28 | — |
-| 47583 | ROLANZAX 10 | 10 mg comprimidos recubiertos x 28 | — |
-| 52689 | ONOTRAN | 10 mg comprimidos recubiertos x 28 | — |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 43521 | APSICO | 5 mg comp.rec.x 28 | Megalabs Argent | Vigente |
+| 61891 | MIDAX | 2.5 mg comp.x 28 (Nac.) | Gador | Vigente |
+| 48279 | OLANZAPINA ROSPAW | 10 mg comp.x 28 | Rospaw | Vigente |
+| 43522 | APSICO | 10 mg comp.x 14 | Megalabs Argent | Vigente |
+| 47583 | ROLANZAX 10 | 10 mg comp.rec.x 28 | Vannier | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

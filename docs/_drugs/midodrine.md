@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "MIDODRINE"
 predicted_indications: ["variably protease-sensitive prionopathy", "faciodigitogenital syndrome", "attention deficit-hyperactivity disorder", "hypotensive disorder", "attention deficit hyperactivity disorder, inattentive type", "sinoatrial node disease", "monogenic obesity", "specific developmental disorder", "obsolete hypertelorism (disease)", "sinoatrial block"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Midodrine: nueva indicación predicha, Prionopatía variablemente sensible a proteasas (variably protease-sensitive prionopathy) (nivel de evidencia L5). Indicación original: No consta en los datos loc…"
 ---
 
@@ -71,10 +71,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 43726 | GUTRON | Comprimidos de 2,5 mg x 20 | No registrada en los datos locales |
-| 43727 | GUTRON | Comprimidos de 2,5 mg x 50 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 43726 | GUTRON | 2.5 mg comp.x 20 | Domínguez | Vigente |
+| 43727 | GUTRON | 2.5 mg comp.x 50 | Domínguez | Vigente |
+
+La tabla muestra los 2 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

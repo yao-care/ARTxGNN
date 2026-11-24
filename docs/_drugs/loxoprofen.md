@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 183
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Loxoprofen: nueva indicación predicha, Síndrome de microftalmía colobomatosa-displasia rizomélica (nivel de evidencia L5). Indicación original: Artritis reumatoide (según la base de conocimiento del …"
 monitor_inn: "loxoprofen"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
@@ -65,9 +65,15 @@ Como referencia, el segundo candidato predicho es el **síndrome de braquidactil
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 50496 | TABE | 60 mg comp. x 20 | No especificada en los datos disponibles |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 50496 | TABE | 60 mg comp.x 20 | Laboratorios Be | Vigente |
+
+La tabla muestra el único producto de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

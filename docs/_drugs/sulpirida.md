@@ -8,7 +8,7 @@ indication_count: 9
 drugbank_id: DB00391
 monitor_inn: "Sulpiride"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "syndromic myopia", "atypical glycine encephalopathy"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Sulpirida: nueva indicación predicha, distrofia retiniana con o sin anomalías extraoculares (retinal dystrophy with or without extraocular anomalies) (nivel de evidencia L5)."
 ---
 
@@ -74,13 +74,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
-|---------|------|------|-----------|
-| 7955 | VIPRAL | Comprimidos x 50 | Teva Argentina |
-| 10135 | ALPLAX DIGEST | Caplets x 30 | Gador |
-| 17561 | TRANQUINAL SOMA | Comprimidos x 30 | Bagó |
-| 11010 | VEGESTABIL | Comprimidos x 30 | Siegfried |
-| 10136 | ALPLAX DIGEST | Caplets x 60 | Gador |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 7955 | VIPRAL | comp.x 50 | Teva Argentina | Vigente |
+| 10135 | ALPLAX DIGEST | caplets x 30 | Gador | Vigente |
+| 17561 | TRANQUINAL SOMA | comp.x 30 | Bagó | Vigente |
+| 11010 | VEGESTABIL | comp.x 30 | Siegfried | Vigente |
+| 10136 | ALPLAX DIGEST | caplets x 60 | Gador | Vigente |
+
+La tabla muestra los 5 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Las cinco autorizaciones listadas están vigentes y corresponden a productos con sulpirida como único principio activo.
 

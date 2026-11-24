@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 199
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Naphazoline: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "naphazoline"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "primary hereditary glaucoma", "hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "open-angle glaucoma", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
@@ -80,13 +80,19 @@ Actualmente no hay literatura relacionada disponible para la indicación princip
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 39532 | NAFAZOLEX | Envase gotero x 20 ml | No disponible |
-| 28599 | RHINAL | Gotas x 30 ml | No disponible |
-| 174 | MIRUS | Solución oftálmica x 15 ml | No disponible |
-| 12536 | RINOGEL | Gel nasal x 15 ml | No disponible |
-| 42850 | MIRA KLONAL | Frasco gotero x 5 ml | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 39532 | NAFAZOLEX | env.gotero x 20 ml | Biosintex Retai | Vigente |
+| 28599 | RHINAL | gts.x 30 ml | Microsules Arg. | Vigente |
+| 174 | MIRUS | sol.oft.x 15 ml | Alcon | Ya no figura en el listado de PAMI |
+| 12536 | RINOGEL | gel nasal x 15 ml | Cassará | Vigente |
+| 42850 | MIRA KLONAL | fco.gotero x 5 ml | Klonal | Ya no figura en el listado de PAMI |
+
+La tabla muestra 5 de los 9 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Se muestran 5 de los 9 productos de estos datos; 5 siguen en el listado de medicamentos de PAMI y 4 (MIRUS y MIRA KLONAL de la tabla, REFENAX COLIRIO y VISUCLAR) ya no figuran en el listado vigente de PAMI. Los restantes corresponden a DRYNISAN, REFENAX COLIRIO, VISUCLAR y REFENAX (gotas nasales).
 

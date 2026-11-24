@@ -8,7 +8,7 @@ indication_count: 3
 drugbank_id: DB01418
 monitor_inn: "Acenocoumarol"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Acenocumarol: nueva indicación predicha, deficiencia de cofactor II de la heparina (heparin cofactor 2 deficiency) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 5 (en el listado vigente: 5)"
 ---
 
@@ -71,13 +71,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 35327 | FORTONOL | 4 mg comp. x 20 |
-| 53398 | SINTROM | 1 mg comp. x 20 |
-| 2232 | SINTROM | 4 mg comp. x 20 |
-| 40384 | ACENOCOUMAROL ROSPAW | 4 mg comp. x 20 |
-| 37909 | AZECAR | 4 mg comp. x 30 |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 35327 | FORTONOL | 4 mg comp.x 20 | Microsules Arg. | Vigente |
+| 53398 | SINTROM | 1 mg comp.x 20 | Siegfried | Vigente |
+| 2232 | SINTROM | 4 mg comp.x 20 | Siegfried | Vigente |
+| 40384 | ACENOCOUMAROL ROSPAW | 4 mg comp.x 20 | Rospaw | Vigente |
+| 37909 | AZECAR | 4 mg comp.x 30 | Bagó | Vigente |
+
+La tabla muestra los 5 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Las cinco autorizaciones están vigentes y corresponden a productos de un solo principio activo.
 

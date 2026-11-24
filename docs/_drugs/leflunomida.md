@@ -8,7 +8,7 @@ indication_count: 2
 drugbank_id: DB01097
 monitor_inn: "Leflunomide"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Leflunomida: nueva indicación predicha, síndrome de braquidactilia-sindactilia (brachydactyly-syndactyly syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 8 (en el listado vigente: 8)"
 ---
 
@@ -74,13 +74,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Hay 8 autorizaciones vigentes, todas de producto de un solo principio activo.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
-|---------|------|------|-----------|
-| 51313 | FLUXAP | 20 mg comprimidos recubiertos x 30 | Trb-Pharma |
-| 33168 | AFIANCEN | 20 mg comprimidos recubiertos x 30 | Eurofarma |
-| 54995 | FLUDART | 20 mg comprimidos recubiertos x 30 | Craveri |
-| 23537 | ARAVA | 20 mg comprimidos x 30 | Sanofi-Aventis |
-| 26578 | FILARTROS | 20 mg comprimidos recubiertos x 30 | Teva Argentina |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 51313 | FLUXAP | 20 mg comp.rec.x 30 | Trb-Pharma | Vigente |
+| 33168 | AFIANCEN | 20 mg comp.rec.x 30 | Eurofarma | Vigente |
+| 54995 | FLUDART | 20 mg comp.rec.x 30 | Craveri | Vigente |
+| 23537 | ARAVA | 20 mg comp.x 30 | Sanofi-Aventis | Vigente |
+| 26578 | FILARTROS | 20 mg comp.rec.x 30 | Teva Argentina | Vigente |
+
+La tabla muestra 5 de los 8 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "CARVEDILOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Carvedilol: nueva indicación predicha, enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -71,13 +71,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Se registran al menos 20 autorizaciones, todas vigentes y de productos de un solo principio activo (la lista puede ser parcial). A continuación se muestran las 5 principales.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 59509 | CARVEDIL 12.5 | 12.5 mg comp. x 60 | No registrada en los datos locales |
-| 59512 | CARVEDIL 50 | 50 mg comp. x 30 | No registrada en los datos locales |
-| 36205 | CORUBIN | 6.25 mg comp. x 28 | No registrada en los datos locales |
-| 45532 | ENTARSOL 6.25 | 6.25 mg comp. x 28 | No registrada en los datos locales |
-| 51831 | ISOBLOC | 6.25 mg comp. x 60 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 59509 | CARVEDIL 12.5 | 12.5 mg comp.x 60 | Bagó | Vigente |
+| 59512 | CARVEDIL 50 | 50 mg comp.x 30 | Bagó | Vigente |
+| 36205 | CORUBIN | 6.25 mg comp.x 28 | Lazar | Vigente |
+| 45532 | ENTARSOL 6.25 | 6.25 mg comp.x 28 | Microsules Arg. | Vigente |
+| 51831 | ISOBLOC | 6.25 mg comp.x 60 | Casasco | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 138
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Etonogestrel: nueva indicación predicha, Amenorrea (nivel de evidencia L5). Indicación original: No disponible en las autorizaciones registradas"
 monitor_inn: "ETONOGESTREL"
 predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "apocrine adenosis of breast", "blunt duct adenosis of breast", "benign mammary dysplasia"]
@@ -74,10 +74,16 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 55887 | ELLERING | Anillo vaginal (sobre x 1) | No especificada |
-| 51084 | CIRCLET | Anillo vaginal (sobre x 1) | No especificada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 55887 | ELLERING | anillo vaginal sob.x 1 | Elea | Vigente |
+| 51084 | CIRCLET | anillo vaginal sob.x 1 | Bagó | Vigente |
+
+La tabla muestra los 2 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -8,7 +8,7 @@ indication_count: 8
 drugbank_id: DB00472
 monitor_inn: "Fluoxetine"
 predicted_indications: ["schizotypal personality disorder", "schizoid personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "manic bipolar affective disorder", "phobic disorder", "Ohdo syndrome and variants"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fluoxetina: nueva indicación predicha, Trastorno esquizotípico de la personalidad (schizotypal personality disorder) (nivel de evidencia L3). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -81,6 +81,20 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 ## Información de Mercado en Argentina
 
 La fluoxetina está **comercializada** en Argentina. Se registran al menos 20 autorizaciones, todas vigentes entre las listadas, y la lista puede ser parcial. Los productos incluyen presentaciones de 10 mg y 20 mg en comprimidos, cápsulas y comprimidos recubiertos, de varios laboratorios.
+
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 821 | FOXETIN | 20 mg comp.x 20 | Gador | Vigente |
+| 23416 | NERVOSAL | 20 mg cáps.x 30 | Sidus | Vigente |
+| 16361 | FOXETIN | 20 mg comp.x 60 | Gador | Vigente |
+| 18792 | ALENTAL | 20 mg comp.rec.x 40 | Soubeiran Chobe | Vigente |
+| 34642 | FOXETIN | 20 mg comp.x 30 | Gador | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

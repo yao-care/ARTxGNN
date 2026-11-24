@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 204
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 monitor_inn: "OLMESARTAN"
 predicted_indications: ["Prinzmetal angina", "hypotrichosis simplex of the scalp", "migraine disorder", "alopecia", "pulmonary hypertension", "congenital hypotrichosis milia", "diffuse alopecia areata", "migraine with brainstem aura", "kyphoscoliotic heart disease", "open-angle glaucoma"]
 description: "Olmesartan: nueva indicación predicha, Angina de Prinzmetal (Prinzmetal angina) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 7 (en el listado vigente: 7)"
@@ -101,13 +101,19 @@ Para hipertensión pulmonar, la evidencia es preclínica (PMID [18209564](https:
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 60980 | OLTUX (Nolter) | 40 mg, comprimidos recubiertos x 30 | No disponible |
-| 40680 | OLMETEC (MSD Argentina) | 40 mg, comprimidos recubiertos x 28 | No disponible |
-| 40679 | OLMETEC (MSD Argentina) | 20 mg, comprimidos recubiertos x 28 | No disponible |
-| 60979 | OLTUX (Nolter) | 20 mg, comprimidos recubiertos x 30 | No disponible |
-| 35191 | TENSONIT (Teva Argentina) | 20 mg, comprimidos recubiertos x 30 | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 60980 | OLTUX | 40 mg comp.rec.x 30 | Nolter | Vigente |
+| 40680 | OLMETEC | 40 mg comp.rec.x 28 | MSD Argentina S | Vigente |
+| 40679 | OLMETEC | 20 mg comp.rec.x 28 | MSD Argentina S | Vigente |
+| 60979 | OLTUX | 20 mg comp.rec.x 30 | Nolter | Vigente |
+| 35191 | TENSONIT | 20 mg comp.rec.x 30 | Teva Argentina | Vigente |
+
+La tabla muestra 5 de los 7 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Hay 7 autorizaciones vigentes en total; se muestran las 5 principales. Las otras dos corresponden a OLMETEC D 20/12.5 (40681) y OLMETEC D 40/12.5 (40682), de MSD Argentina.
 

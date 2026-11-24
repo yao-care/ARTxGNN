@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 198
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Nandrolone: nueva indicación predicha, Enfermedad fibroquística de la mama (nivel de evidencia L5). Indicación original: No disponible en la licencia de ANMAT (texto de indicación vacío). Co…"
 monitor_inn: "nandrolone"
 drugbank_id: DB13169
@@ -91,9 +91,15 @@ Debe tenerse cautela: el único respaldo es un artículo de 1964 sobre el tratam
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 6181 | DECA-DURABOLIN (Aspen Pharma) | 50 mg inyectable x 1 x 1 ml | No especificada en la licencia |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 6181 | DECA-DURABOLIN | 50 mg iny.a.x 1 x 1 ml | Aspen Pharma | Vigente |
+
+La tabla muestra el único producto de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ---
 

@@ -8,7 +8,7 @@ indication_count: 9
 drugbank_id: DB00381
 monitor_inn: "Amlodipine"
 predicted_indications: ["brain stem infarction", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "cerebral artery occlusion", "Braddock syndrome", "MRI defined brain infarct", "ABri amyloidosis", "intracerebral hemorrhage"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Amlodipina: nueva indicación predicha, Infarto del tronco encefálico (brain stem infarction) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -75,13 +75,19 @@ Actualmente no hay literatura relacionada disponible.
 
 La lista puede ser parcial. El texto de indicación aprobada no figura en los datos locales. A continuación se muestran cinco autorizaciones como ejemplo:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
-|---------|------|------|-----------|
-| 13687 | TERLOC | 5 mg comp. x 30 | Siegfried |
-| 52012 | BRANCILINA | 5 mg comp. x 30 | Fecofar |
-| 41319 | AMLODIPINA DENVER FARMA | 10 mg comp. x 30 | Denver Farma |
-| 27041 | ZUNDIC | 5 mg comp. x 30 | Nolter |
-| 28048 | ILDUC | 5 mg comp. ran. x 30 | Baliarda |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 13687 | TERLOC | 5 mg comp.x 30 | Siegfried | Vigente |
+| 52012 | BRANCILINA | 5 mg comp.x 30 | Fecofar | Vigente |
+| 41319 | AMLODIPINA DENVER FARMA | 10 mg comp.x 30 | Denver Farma | Vigente |
+| 27041 | ZUNDIC | 5 mg comp.x 30 | Nolter | Vigente |
+| 28048 | ILDUC | 5 mg comp.ran.x 30 | Baliarda | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 165
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Indacaterol: nueva indicación predicha, Síndrome nefrogénico de antidiuresis inapropiada (NSIAD) (nivel de evidencia L5). Indicación original: No consignada en las autorizaciones de ANMAT (fármaco br…"
 monitor_inn: "INDACATEROL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "headache disorder", "trigeminal autonomic cephalalgia", "paratenonitis", "calcific tendinitis", "hypertrichosis (disease)", "bronchial disease", "myositis", "anaphylaxis", "Ambras type hypertrichosis universalis congenita"]
@@ -81,10 +81,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 45706 | ONBRIZE BREEZHALER | 300 mcg cáps. p/inh. x30 | No consignada |
-| 45705 | ONBRIZE BREEZHALER | 150 mcg cáps. p/inh. x30 | No consignada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 45706 | ONBRIZE BREEZHALER | 300 mcg cáps.p/inh.x30 | Novartis | Vigente |
+| 45705 | ONBRIZE BREEZHALER | 150 mcg cáps.p/inh.x30 | Novartis | Vigente |
+
+La tabla muestra los 2 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Ambas autorizaciones están vigentes, son de monofármaco y pertenecen a Novartis.
 

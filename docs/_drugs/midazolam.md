@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 1
 monitor_inn: "MIDAZOLAM"
 predicted_indications: ["insomnia (disease)"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Midazolam: nueva indicación predicha, insomnio (insomnia (disease)) (nivel de evidencia L3). En Argentina, productos en el listado de PAMI: 5 (en el listado vigente: 5)"
 ---
 
@@ -82,13 +82,19 @@ Ninguno de los ensayos estudia insomnio primario; ambos son de relevancia indire
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 32660 | REM CHOBET | 15 mg/3 ml a.x 2 | No registrada en los datos locales |
-| 52500 | REM CHOBET | 15 mg comp.x 30 | No registrada en los datos locales |
-| 30321 | REM CHOBET | 50 mg/10 ml a.x 25 | No registrada en los datos locales |
-| 52499 | REM CHOBET | 15 mg comp.x 10 | No registrada en los datos locales |
-| 52501 | REM CHOBET | 15 mg comp.x 50 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 32660 | REM CHOBET | 15 mg/3 ml a.x 2 | Soubeiran Chobe | Vigente |
+| 52500 | REM CHOBET | 15 mg comp.x 30 | Soubeiran Chobe | Vigente |
+| 30321 | REM CHOBET | 50 mg/10 ml a.x 25 | Soubeiran Chobe | Vigente |
+| 52499 | REM CHOBET | 15 mg comp.x 10 | Soubeiran Chobe | Vigente |
+| 52501 | REM CHOBET | 15 mg comp.x 50 | Soubeiran Chobe | Vigente |
+
+La tabla muestra los 5 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Las cinco autorizaciones (fabricante: Soubeiran Chobet) están vigentes y corresponden a producto de un solo principio activo.
 

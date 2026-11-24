@@ -8,7 +8,7 @@ indication_count: 4
 drugbank_id: DB00927
 monitor_inn: "Famotidine"
 predicted_indications: ["duodenal obstruction", "abnormality of glucagon secretion", "multiple endocrine neoplasia", "acne (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Famotidina: nueva indicación predicha, obstrucción duodenal (duodenal obstruction) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 10 (en el listado vigente: 10)"
 ---
 
@@ -77,13 +77,19 @@ Ninguna de las publicaciones estudia directamente el efecto de famotidina sobre 
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 57735 | GASTROSEDOL NF | 40 mg comp. x 30 | No registrada en los datos locales |
-| 57104 | TAURAL F 20 | 20 mg comp. x 60 | No registrada en los datos locales |
-| 58340 | LAZARTIDINA | 40 mg comp. rec. x 30 | No registrada en los datos locales |
-| 57103 | TAURAL F 20 | 20 mg comp. x 30 | No registrada en los datos locales |
-| 58338 | LAZARTIDINA | 20 mg comp. rec. x 30 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 57735 | GASTROSEDOL NF | 40 mg comp.x 30 | Siegfried | Vigente |
+| 57104 | TAURAL F 20 | 20 mg comp.x 60 | Roemmers | Vigente |
+| 58340 | LAZARTIDINA | 40 mg comp.rec.x 30 | Lazar | Vigente |
+| 57103 | TAURAL F 20 | 20 mg comp.x 30 | Roemmers | Vigente |
+| 58338 | LAZARTIDINA | 20 mg comp.rec.x 30 | Lazar | Vigente |
+
+La tabla muestra 5 de los 10 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Se muestran 5 de las 10 autorizaciones vigentes.
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "ALLOPURINOL"
 predicted_indications: ["hepatic porphyria", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "idiopathic copper-associated cirrhosis", "primitive portal vein thrombosis", "hepatoportal sclerosis", "disorder of phenylalanine metabolism", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "inflammatory myopathy with abundant macrophages"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Allopurinol: nueva indicación predicha, porfiria hepática (hepatic porphyria) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -79,13 +79,19 @@ Ninguno de estos estudios evalúa directamente el alopurinol en porfiria hepáti
 
 El listado de autorizaciones puede ser parcial. Se registran al menos 20 autorizaciones vigentes de productos de un solo principio activo.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
-|---------|------|------|-----------|
-| 48995 | ALLOPURINOL 300 CRAVERI | 300 mg comp. x 60 | Craveri |
-| 49651 | ALLOPURINOL GADOR RETARD | 300 mg comp. x 30 | Gador |
-| 22580 | PURITENK | 300 mg comp. x 20 | Biotenk |
-| 35535 | ALLOPURINOL GADOR | 100 mg comp. x 30 | Gador |
-| 44167 | COLPURIL A RETARD | cáps. con microgránulos x 50 | Siegfried |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 48995 | ALLOPURINOL 300 CRAVERI | 300 mg comp.x 60 | Craveri | Vigente |
+| 49651 | ALLOPURINOL GADOR RETARD | 300 mg comp.x 30 | Gador | Vigente |
+| 22580 | PURITENK | 300 mg comp.x 20 | Biotenk | Vigente |
+| 35535 | ALLOPURINOL GADOR | 100 mg comp.x 30 | Gador | Vigente |
+| 40473 | ALLOPURINOL CRAVERI RETARD | 300 mg comp.lib.prol.x50 | Craveri | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

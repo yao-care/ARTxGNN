@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "MELOXICAM"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "rheumatoid nodulosis", "WHIM syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Meloxicam: nueva indicación predicha, Displasia acromesomélica tipo Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) (nivel de evidencia L5). Indicación original: No consta en los dato…"
 ---
 
@@ -73,13 +73,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Meloxicam figura como comercializado en Argentina, con 20 autorizaciones vigentes en la lista disponible (la cantidad total es de al menos 20 y la lista puede ser parcial). Las autorizaciones son de productos de un solo principio activo.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 53872 | FLEXIDOL CB | 15 mg cápsulas blandas x 20 | No registrada en los datos locales |
-| 54324 | MELOXICAM TEVA | 15 mg tabletas x 30 | No registrada en los datos locales |
-| 38348 | MIOLOX | 15 mg comprimidos ranurados x 30 | No registrada en los datos locales |
-| 18518 | FLEXIDOL | 15 mg comprimidos ranurados x 30 | No registrada en los datos locales |
-| 19079 | MOBIC | 15 mg comprimidos x 20 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 53872 | FLEXIDOL CB | 15 mg cáps.blandas x 20 | Adium | Vigente |
+| 54324 | MELOXICAM TEVA | 15 mg tabl.x 30 | Teva Argentina | Vigente |
+| 38348 | MIOLOX | 15 mg comp.ran.x 30 | Baliarda | Vigente |
+| 18518 | FLEXIDOL | 15 mg comp.ran.x 30 | Adium | Vigente |
+| 19079 | MOBIC | 15 mg comp.x 20 | Boehringer Inge | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

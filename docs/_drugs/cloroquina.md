@@ -8,7 +8,7 @@ indication_count: 4
 drugbank_id: DB00608
 monitor_inn: "Chloroquine"
 predicted_indications: ["rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "rheumatoid nodulosis", "juvenile chronic polyarthritis", "juvenile idiopathic arthritis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cloroquina: nueva indicación predicha, artritis idiopática juvenil poliarticular con factor reumatoide positivo (rheumatoid factor-positive polyarticular juvenile idiopathic arthritis) (nivel de evidencia L5)."
 ---
 
@@ -73,9 +73,15 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 7082 | NIVAQUINE | Comprimidos x 30 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 7082 | NIVAQUINE | comp.x 30 | Sanofi-Aventis | Vigente |
+
+La tabla muestra el único producto de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

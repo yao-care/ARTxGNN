@@ -8,7 +8,7 @@ indication_count: 1
 drugbank_id: DB00196
 monitor_inn: "Fluconazole"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fluconazol: nueva indicación predicha, queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -73,13 +73,19 @@ Actualmente no hay literatura relacionada disponible.
 
 El fluconazol está comercializado en Argentina. Se registran al menos 20 autorizaciones vigentes de productos de un solo principio activo; la lista puede ser parcial. Las principales:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
-|---------|------|------|-----------|
-| 31519 | DAMICOL | 150 mg caps. x 1 | Biol |
-| 50783 | FUNGOCINA | 150 mg comp. x 8 | Lazar |
-| 23526 | MUTUM | 150 mg comp. x 4 | Adium |
-| 46179 | NIMIC 150 | 150 mg comp. x 8 | Géminis Farmacéutica |
-| 21766 | FLUZOL | 150 mg comp. x 4 | Megalabs Argentina |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 31519 | DAMICOL | 150 mg caps.x 1 | Biol | Vigente |
+| 50783 | FUNGOCINA | 150 mg comp.x 8 | Lazar | Vigente |
+| 23526 | MUTUM | 150 mg comp.x 4 | Adium | Vigente |
+| 16283 | FUNGOCINA | 150 mg comp.x 1 | Lazar | Vigente |
+| 16364 | MUTUM | 150 mg comp.x 1 | Adium | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

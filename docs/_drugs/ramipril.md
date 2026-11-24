@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "RAMIPRIL"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "brain stem infarction", "Prinzmetal angina", "intracerebral hemorrhage", "ABri amyloidosis", "cerebral artery occlusion"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ramipril: nueva indicación predicha, Hipertensión pulmonar por enfermedad pulmonar y/o hipoxia (pulmonary hypertension owing to lung disease and/or hypoxia) (nivel de evidencia L5). Indicación origin…"
 ---
 
@@ -79,13 +79,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 21981 | LOSTAPRES | 2.5 mg comp. x 30 | No registrada en los datos locales |
-| 45497 | TRITACE | 10 mg comp. x 30 | No registrada en los datos locales |
-| 20465 | TRITACE | 2.5 mg comp. x 30 | No registrada en los datos locales |
-| 47211 | LOSTAPRES | 10 mg comp. x 30 | No registrada en los datos locales |
-| 20467 | TRITACE | 5 mg comp. x 30 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 21981 | LOSTAPRES | 2.5 mg comp.x 30 | Temis-Lostaló | Vigente |
+| 45497 | TRITACE | 10 mg comp.x 30 | PharmaDorf | Vigente |
+| 20465 | TRITACE | 2.5 mg comp.x 30 | PharmaDorf | Vigente |
+| 47211 | LOSTAPRES | 10 mg comp.x 30 | Temis-Lostaló | Vigente |
+| 20467 | TRITACE | 5 mg comp.x 30 | PharmaDorf | Vigente |
+
+La tabla muestra 5 de los 9 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Las 9 autorizaciones registradas están vigentes; se listan las 5 principales.
 

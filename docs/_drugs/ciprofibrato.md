@@ -8,7 +8,7 @@ indication_count: 2
 drugbank_id: DB09064
 monitor_inn: "Ciprofibrate"
 predicted_indications: ["cholesterol-ester transfer protein deficiency", "fibroma of prostate"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ciprofibrato: nueva indicación predicha, Deficiencia de la proteína de transferencia de ésteres de colesterol (cholesterol-ester transfer protein deficiency) (nivel de evidencia L5)."
 ---
 
@@ -76,12 +76,18 @@ Este estudio aporta evidencia indirecta sobre los efectos de los fibratos en el 
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 42619 | FIXERIL | Comprimidos 100 mg x 30 | No registrada en los datos locales |
-| 42620 | FIXERIL | Comprimidos 100 mg x 60 | No registrada en los datos locales |
-| 14555 | ESTAPROL | Cápsulas 100 mg x 60 | No registrada en los datos locales |
-| 9522 | ESTAPROL | Cápsulas 100 mg x 30 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 42619 | FIXERIL | 100 mg comp.x 30 | Lazar | Vigente |
+| 42620 | FIXERIL | 100 mg comp.x 60 | Lazar | Vigente |
+| 14555 | ESTAPROL | 100 mg caps.x 60 | Sanofi-Aventis | Vigente |
+| 9522 | ESTAPROL | 100 mg caps.x 30 | Sanofi-Aventis | Vigente |
+
+La tabla muestra los 4 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "econazole"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Econazole: nueva indicación predicha, Infección ectótrix (nivel de evidencia L5). Indicación original: No hay texto de indicación aprobada en las autorizaciones locales. La…"
 ---
 
@@ -73,10 +73,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 10790 | FILODERMA PLUS | Crema, 20 g | Texto de indicación no disponible en el registro |
-| 14091 | GRISEOCREM NF | Pomada, 20 g | Texto de indicación no disponible en el registro |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 10790 | FILODERMA PLUS | cr.x 20 g | Teva Argentina | Vigente |
+| 14091 | GRISEOCREM NF | pomo x 20 g | Teva Argentina | Vigente |
+
+La tabla muestra los 2 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Ambas autorizaciones son de un solo principio activo, están vigentes y corresponden al fabricante Teva Argentina.
 

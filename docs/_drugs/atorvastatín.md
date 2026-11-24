@@ -8,7 +8,7 @@ indication_count: 4
 drugbank_id: DB01076
 monitor_inn: "Atorvastatin"
 predicted_indications: ["HIV infectious disease", "brain stem infarction", "cholesterol-ester transfer protein deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Atorvastatín: nueva indicación predicha, Infección por VIH (HIV infectious disease) (nivel de evidencia L2). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -99,13 +99,19 @@ Se muestran las 10 publicaciones más relevantes de las 22 recuperadas.
 
 Hay al menos 20 autorizaciones vigentes y la lista puede ser parcial. Los registros revisados no incluyen texto de indicación aprobada. Se muestran 5 de las principales.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 51549 | LIPITOR | 80 mg comp. x 30 | No registrada |
-| 56350 | NORMOLIPOL | 40 mg comp. rec. x 60 | No registrada |
-| 22370 | LIPIFEN | 20 mg comp. x 30 | No registrada |
-| 28383 | LIPIBEC | 20 mg comp. rec. x 60 | No registrada |
-| 59802 | RONATOR | 20 mg comp. x 60 | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 56350 | NORMOLIPOL | 40 mg comp.rec.x 60 | Lepetit | Vigente |
+| 22370 | LIPIFEN | 20 mg comp.x 30 | Adium | Vigente |
+| 46168 | LIPOCAMBI | 40 mg comp.x 30 | Laboratorios Be | Vigente |
+| 28383 | LIPIBEC | 20 mg comp.rec.x 60 | Teva Argentina | Vigente |
+| 59802 | RONATOR | 20 mg comp.x 60 | Ronnet | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

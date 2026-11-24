@@ -8,7 +8,7 @@ indication_count: 2
 drugbank_id: DB00949
 monitor_inn: "Felbamate"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Felbamato: nueva indicación predicha, neoplasia del nervio trigémino (trigeminal nerve neoplasm) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)"
 ---
 
@@ -72,10 +72,16 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 22178 | FELBAMYL | 600 mg/5 ml susp. x 230 ml | — |
-| 38438 | FELBAMYL | 600 mg comp. x 40 | — |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 22178 | FELBAMYL | 600 mg/5 ml susp.x 230ml | Organon Arg. | Vigente |
+| 38438 | FELBAMYL | 600 mg comp.x 40 | Organon Arg. | Vigente |
+
+La tabla muestra los 2 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

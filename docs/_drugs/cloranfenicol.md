@@ -8,7 +8,7 @@ indication_count: 8
 drugbank_id: DB00446
 monitor_inn: "Chloramphenicol"
 predicted_indications: ["diffuse scleroderma", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cloranfenicol: nueva indicación predicha, esclerodermia difusa (diffuse scleroderma) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)"
 ---
 
@@ -79,11 +79,17 @@ Ninguno de estos estudios evalúa el cloranfenicol; describen la biología de la
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 21875 | IRUXOL | Ungüento x 15 g | No registrada |
-| 4640 | IRUXOL | Ungüento x 30 g | No registrada |
-| 21877 | IRUXOL | Ungüento x 50 g | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 21875 | IRUXOL | ung.x 15 g | Abbott EPD | Vigente |
+| 4640 | IRUXOL | ung.x 30 g | Abbott EPD | Vigente |
+| 21877 | IRUXOL | ung.x 50 g | Abbott EPD | Vigente |
+
+La tabla muestra los 3 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

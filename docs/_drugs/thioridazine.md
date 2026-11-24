@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 235
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Thioridazine: nueva indicación predicha, Trastorno afectivo bipolar maníaco (nivel de evidencia L5). Indicación original: No especificada en las licencias de ANMAT"
 monitor_inn: "thioridazine"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "major affective disorder", "bipolar disorder", "obsessive-compulsive disorder", "attention deficit-hyperactivity disorder", "schizoid personality disorder", "schizotypal personality disorder"]
@@ -92,11 +92,17 @@ Actualmente no hay ensayos clínicos relacionados registrados para esta indicaci
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 8144 | MELERIL | 25 mg comp. rec. x 25 | No especificada |
-| 8142 | MELERIL | 10 mg comp. rec. x 25 | No especificada |
-| 8143 | MELERIL | Rtd. 200 mg comp. x 20 | No especificada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 8144 | MELERIL | 25 mg comp.rec.x 25 | Siegfried | Vigente |
+| 8142 | MELERIL | 10 mg comp.rec.x 25 | Siegfried | Vigente |
+| 8143 | MELERIL | Rtd.200 mg comp.x 20 | Siegfried | Vigente |
+
+La tabla muestra los 3 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Las tres autorizaciones corresponden al fabricante Siegfried, son de un solo principio activo y están vigentes.
 

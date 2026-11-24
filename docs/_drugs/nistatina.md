@@ -8,7 +8,7 @@ indication_count: 9
 drugbank_id: DB00646
 monitor_inn: "Nystatin"
 predicted_indications: ["disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Nistatina: nueva indicación predicha, enfermedad de la región orbitaria (disease of orbital region) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 7 (en el listado vigente: 7)"
 ---
 
@@ -75,13 +75,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 12236 | DIPNI | Comprimidos vaginales 100000 UI x 12 |
-| 12237 | DIPNI | Comprimidos orales 500000 UI x 12 |
-| 12238 | DIPNI | Comprimidos orales 500000 UI x 30 |
-| 31789 | NISTATINA DENVER FARMA | Crema x 30 g |
-| 31788 | NISTATINA DENVER FARMA | Suspensión oral x 60 ml |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 12236 | DIPNI | 100000 UI comp.vag.x 12 | Omega | Vigente |
+| 12237 | DIPNI | 500000 UI comp.oral.x 12 | Omega | Vigente |
+| 12238 | DIPNI | 500000 UI comp.oral.x 30 | Omega | Vigente |
+| 31789 | NISTATINA DENVER FARMA | cr.x 30 g | Denver Farma | Vigente |
+| 31788 | NISTATINA DENVER FARMA | susp.oral x 60 ml | Denver Farma | Vigente |
+
+La tabla muestra 5 de los 7 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Se muestran 5 de las 7 autorizaciones vigentes de nistatina de un solo principio activo (las otras dos corresponden a DIPNI comprimidos vaginales x 6 y O BIOL óvulos x 6).
 

@@ -8,7 +8,7 @@ indication_count: 5
 drugbank_id: DB00331
 monitor_inn: "Metformin"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Metformina: nueva indicación predicha, síndrome de rigidez focal de las extremidades (focal stiff limb syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -75,13 +75,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Hay al menos 20 autorizaciones (la lista puede ser parcial); las 20 listadas están vigentes y corresponden a productos de un solo principio activo. Las principales:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 46018 | METFORMINA ROSPAW 850 AP | 850 mg comp. rec. AP x 30 | No registrada en los datos locales |
-| 50161 | DAZOMET | AP 1000 mg comp. x 60 | No registrada en los datos locales |
-| 43470 | DIABESIL AP 850 | AP 850 mg comp. rec. x 60 | No registrada en los datos locales |
-| 17330 | METFORMIN TEMIS | 500 mg comp. x 60 | No registrada en los datos locales |
-| 55308 | REDUGLUC | 1000 mg comp. x 100 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 46018 | METFORMINA ROSPAW 850 AP | 850 mg comp.rec.AP x 30 | Rospaw | Vigente |
+| 50161 | DAZOMET | AP 1000 mg comp.x 60 | Savant Generic | Vigente |
+| 43470 | DIABESIL AP 850 | AP 850 mg comp.rec.x60 | Gador | Vigente |
+| 17330 | METFORMIN TEMIS | 500 mg comp.x 60 | Temis-Lostaló | Vigente |
+| 55308 | REDUGLUC | 1000 mg comp.x 100 | Microsules Arg. | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

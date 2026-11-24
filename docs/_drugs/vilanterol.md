@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "VILANTEROL"
 predicted_indications: ["hyperlucent lung", "tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Vilanterol: nueva indicación predicha, pulmón hiperlúcido (hyperlucent lung) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 5 (en el listado vigente: 5)"
 ---
 
@@ -74,13 +74,19 @@ Actualmente no hay literatura relacionada disponible.
 
 El estado de mercado es comercializado: las 5 autorizaciones registradas están vigentes.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 51924 | ANORO ELLIPTA | 55/22 mcg polvo para inhalación x 30 dosis |
-| 51203 | RELVAR ELLIPTA | 92/22 mcg x 30 dosis |
-| 61275 | ALVETIDE | 92/22 mcg x 30 dosis |
-| 51204 | RELVAR ELLIPTA | 184/22 mcg x 30 dosis |
-| 61276 | ALVETIDE | 184/22 mcg x 30 dosis |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 51924 | ANORO ELLIPTA | 55/22 mcg pvo.inh.x30ds. | GlaxoSmithKline | Vigente |
+| 51203 | RELVAR ELLIPTA | 92/22 mcg x 30 dosis | GlaxoSmithKline | Vigente |
+| 61275 | ALVETIDE | 92/22 mcg x 30 dosis | Elea | Vigente |
+| 51204 | RELVAR ELLIPTA | 184/22 mcg x 30 dosis | GlaxoSmithKline | Vigente |
+| 61276 | ALVETIDE | 184/22 mcg x 30 dosis | Elea | Vigente |
+
+La tabla muestra los 5 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

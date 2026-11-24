@@ -8,7 +8,7 @@ indication_count: 9
 drugbank_id: DB00602
 monitor_inn: "Ivermectin"
 predicted_indications: ["vulvovaginal candidiasis", "esophageal candidiasis", "anogenital human papillomavirus infection", "vulvovaginitis", "neonatal candidiasis", "candida glabrata", "congenital candidiasis", "postmenopausal atrophic vaginitis", "candidiasis, invasive"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ivermectina: nueva indicación predicha, candidiasis vulvovaginal (vulvovaginal candidiasis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 7 (en el listado vigente: 6)"
 ---
 
@@ -71,13 +71,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 51610 | IVER P | 3 mg comp. x 6 | No registrada en los datos locales |
-| 50342 | IVER P | 6 mg comp. x 6 | No registrada en los datos locales |
-| 55128 | IVERCASS | Solución oral en gotas x 20 ml | No registrada en los datos locales |
-| 55470 | IVERCASS | Comp. x 4 | No registrada en los datos locales |
-| 26621 | SECURO | Comp. x 6 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 51610 | IVER P | 3 mg comp.x 6 | Elea | Vigente |
+| 50342 | IVER P | 6 mg comp.x 6 | Elea | Vigente |
+| 55128 | IVERCASS | sol.oral gtas.x 20 ml | Cassará | Vigente |
+| 55470 | IVERCASS | comp.x 4 | Cassará | Vigente |
+| 26621 | SECURO | comp.x 6 | Megalabs Argent | Vigente |
+
+La tabla muestra 5 de los 7 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI), primero los que siguen en el listado vigente; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

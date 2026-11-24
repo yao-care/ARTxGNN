@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "PERINDOPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Perindopril: nueva indicación predicha, enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 13 (en el listado vigente: 13)"
 ---
 
@@ -74,13 +74,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 42977 | COVERENE 10 | 10 mg comprimidos x 30 | No registrada en los datos locales |
-| 42976 | COVERENE | 5 mg comprimidos x 30 | No registrada en los datos locales |
-| 43975 | PRETERAX | 2,5/0,625 mg comprimidos recubiertos x 30 | No registrada en los datos locales |
-| 46415 | COVERAM 10/10 | 10/10 comprimidos x 30 | No registrada en los datos locales |
-| 46418 | PRETERAX 10 | 10/2,5 mg comprimidos recubiertos x 30 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 42977 | COVERENE 10 | 10 mg comp.x 30 | Servier | Vigente |
+| 42976 | COVERENE | 5 mg comp.x 30 | Servier | Vigente |
+| 43975 | PRETERAX | 2.5/0.625mg comp.rec.x30 | Servier | Vigente |
+| 46415 | COVERAM 10/10 | 10/10 comp.x 30 | Servier | Vigente |
+| 46418 | PRETERAX 10 | 10/2.5mg comp.rec.x 30 | Servier | Vigente |
+
+La tabla muestra 5 de los 13 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Se muestran 5 de las 13 autorizaciones vigentes, todas del titular Servier.
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "pseudoephedrine"
 predicted_indications: ["nasal cavity disease", "allergic urticaria"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Pseudoephedrine: nueva indicación predicha, enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -78,13 +78,19 @@ Ninguna de las publicaciones identificadas es un ensayo clínico que evalúe la 
 
 Hay al menos 20 autorizaciones vigentes registradas; la lista puede ser parcial. Todas las autorizaciones listadas son de productos de un solo principio activo y están vigentes.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 33956 | IBUNASTIZOL | cáps. blandas x 12 |
-| 42043 | SINALER D | cáps. x 10 |
-| 46334 | FRENALER D | cáps. lib. prol. x 10 |
-| 21179 | DECIDEX PLUS | cáps. x 10 |
-| 47819 | NASTIZOL | jarabe x 100 ml |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 33956 | IBUNASTIZOL | cáps.blandas x 12 | Bagó | Vigente |
+| 42043 | SINALER D | caps.x 10 | Cassará | Vigente |
+| 46334 | FRENALER D | cáps.lib.prol.x 10 | Roemmers | Vigente |
+| 21179 | DECIDEX PLUS | cáps.x 10 | Roemmers | Vigente |
+| 47819 | NASTIZOL | jbe.x 100 ml | Bagó | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

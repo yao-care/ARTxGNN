@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "glycerin"
 predicted_indications: ["cauda equina syndrome", "open-angle glaucoma", "primary hereditary glaucoma", "alopecia", "congenital hypotrichosis milia", "irritable bowel syndrome", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "migraine disorder", "migraine with brainstem aura"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Glycerin: nueva indicación predicha, síndrome de la cola de caballo (cauda equina syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)"
 ---
 
@@ -71,11 +71,17 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 40574 | OPTIVE | Solución oftálmica x 15 ml | No registrada en los datos locales |
-| 43004 | OPTIVE | Solución oftálmica x 10 ml | No registrada en los datos locales |
-| 3899 | MICRONEMA | Tubos x 3 x 6,2 ml | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 40574 | OPTIVE | sol.oft.x 15 ml | Abbvie | Vigente |
+| 43004 | OPTIVE | sol.oft.x 10 ml | Abbvie | Vigente |
+| 3899 | MICRONEMA | tubos x 3 x 6.2 ml | Pfizer | Vigente |
+
+La tabla muestra los 3 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

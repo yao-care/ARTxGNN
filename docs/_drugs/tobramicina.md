@@ -8,7 +8,7 @@ indication_count: 10
 drugbank_id: DB00684
 monitor_inn: "Tobramycin"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tobramicina: nueva indicación predicha, Queratitis por exposición (exposure keratitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -84,13 +84,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 La lista de autorizaciones puede ser parcial (se registran al menos 20). Todas las autorizaciones listadas están vigentes. Los datos locales no incluyen texto de indicación aprobada.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 35300 | FOTEX | Solución oftálmica x 5 ml |
-| 19577 | GOTABIOTIC | Gel oftálmico x 5 g |
-| 24421 | RADINA | Gotas oftálmicas x 10 ml |
-| 26301 | TOBRAGAN | Gotas oftálmicas 0,3 % x 5 ml |
-| 18659 | TOBREX | Gotas oftálmicas x 5 ml |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 35300 | FOTEX | sol.oft.x 5 ml | Elea | Vigente |
+| 19577 | GOTABIOTIC | gel oft.x 5 g | Poen | Vigente |
+| 24421 | RADINA | gts.oft.x 10 ml | Valmax | Vigente |
+| 38713 | GOTABIOTIC | pack sol.oft.x 6 x 5 ml | Poen | Vigente |
+| 23947 | OFTALBRAX | gts.oft.x 5 ml | Biosintex | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

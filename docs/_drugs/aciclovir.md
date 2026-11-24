@@ -8,7 +8,7 @@ indication_count: 10
 drugbank_id: DB00787
 monitor_inn: "Acyclovir"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "common wart", "post-infectious neuralgia", "hepatitis C induced liver cirrhosis", "eosinophilic pustular folliculitis", "sequela of COVID-19", "vulvovaginal candidiasis", "papular urticaria", "disease of orbital region", "epidemic keratoconjunctivitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Aciclovir: nueva indicación predicha, queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -85,13 +85,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 15577 | LISOVYR 800 | comp.rec.x 20 | No registrada en los datos locales |
-| 17127 | XICLOVIR 800 | comp.x 40 | No registrada en los datos locales |
-| 17126 | XICLOVIR 800 | comp.x 20 | No registrada en los datos locales |
-| 50570 | XICLOVIR | 400 mg comp. x 20 | No registrada en los datos locales |
-| 49805 | VIROSTATIC 800 | comp.x 20 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 15577 | LISOVYR 800 | comp.rec.x 20 | Elea | Vigente |
+| 17127 | XICLOVIR 800 | comp.x 40 | Lazar | Vigente |
+| 17126 | XICLOVIR 800 | comp.x 20 | Lazar | Vigente |
+| 50570 | XICLOVIR | 400 mg comp. x 20 | Lazar | Vigente |
+| 49805 | VIROSTATIC 800 | comp.x 20 | Cassará | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 La lista puede ser parcial: se registran al menos 20 autorizaciones, todas vigentes.
 

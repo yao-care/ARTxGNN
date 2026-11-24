@@ -8,7 +8,7 @@ indication_count: 2
 drugbank_id: DB00364
 monitor_inn: "Sucralfate"
 predicted_indications: ["duodenogastric reflux", "duodenal obstruction"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sucralfato: nueva indicación predicha, reflujo duodenogástrico (duodenogastric reflux) (nivel de evidencia L2). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)"
 ---
 
@@ -82,12 +82,18 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 22935 | SUCRALFATO DENVER FARMA | Suspensión 20 % x 200 ml | — |
-| 44924 | GASTROMED | Suspensión x 200 ml | — |
-| 17343 | SUCRALMAX | Suspensión x 200 ml | — |
-| 17250 | NETUNAL | Suspensión x 200 ml | — |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 22935 | SUCRALFATO DENVER FARMA | 20% susp.x 200 ml | Denver Farma | Vigente |
+| 44924 | GASTROMED | susp.x 200 ml | Sanitas | Vigente |
+| 17343 | SUCRALMAX | susp.x 200 ml | Eurofarma | Vigente |
+| 17250 | NETUNAL | susp.x 200 ml | Elea | Vigente |
+
+La tabla muestra los 4 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

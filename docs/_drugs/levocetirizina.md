@@ -8,7 +8,7 @@ indication_count: 3
 drugbank_id: DB06282
 monitor_inn: "Levocetirizine"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Levocetirizina: nueva indicación predicha, artritis reumatoide (rheumatoid arthritis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 10 (en el listado vigente: 3)"
 ---
 
@@ -90,13 +90,19 @@ De los 10 productos de estos datos (todos de un solo principio activo), 3 siguen
 
 <!-- review:end ar-lic-20261117-levocetirizina-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 41030 | ANALERG | 5 mg comp. rec. x 10 | No registrada |
-| 51108 | TIRIZ | 5 mg comp. rec. x 10 | No registrada |
-| 33448 | SUPRALER | 5 mg comp. x 30 | No registrada |
-| 41031 | ANALERG | 5 mg comp. rec. x 30 | No registrada |
-| 44841 | LEVOMINE | 5 mg comp. x 30 | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 41030 | ANALERG | 5 mg comp.rec.x 10 | Rontag | Ya no figura en el listado de PAMI |
+| 51108 | TIRIZ | 5 mg comp.rec.x 10 | Eurofarma | Ya no figura en el listado de PAMI |
+| 33448 | SUPRALER | 5 mg comp.x 30 | Panalab | Ya no figura en el listado de PAMI |
+| 41031 | ANALERG | 5 mg comp.rec.x 30 | Rontag | Ya no figura en el listado de PAMI |
+| 44841 | LEVOMINE | 5 mg comp.x 30 | Andrómaco | Ya no figura en el listado de PAMI |
+
+La tabla muestra 5 de los 10 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ---
 

@@ -8,7 +8,7 @@ indication_count: 6
 drugbank_id: DB00603
 monitor_inn: "Medroxyprogesterone acetate"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Medroxiprogesterona: nueva indicación predicha, Enfermedad fibroquística de la mama (breast fibrocystic disease) (nivel de evidencia L3). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)"
 ---
 
@@ -85,9 +85,15 @@ La evidencia que estudia directamente la enfermedad fibroquística es limitada y
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 585 | FARLUDIOL | comp. x 30 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 585 | FARLUDIOL | comp.x 30 | Pfizer | Vigente |
+
+La tabla muestra el único producto de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "BISOPROLOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bisoprolol: nueva indicación predicha, Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -74,13 +74,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Se registran al menos 20 autorizaciones vigentes (la lista puede ser parcial). Las principales:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 55671 | PROBLOCK | 5 mg comprimidos recubiertos x 30 | No registrada en los datos locales |
-| 57506 | PROBLOCK | 10 mg comprimidos recubiertos x 30 | No registrada en los datos locales |
-| 25417 | CORBIS | 10 mg comprimidos recubiertos x 30 | No registrada en los datos locales |
-| 53329 | BISOPIL | 2,5 mg comprimidos recubiertos x 30 | No registrada en los datos locales |
-| 55925 | BISOPROLOL TEVA | 5 mg comprimidos x 30 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 55671 | PROBLOCK | 5 mg comp.rec.x 30 | Eczane | Vigente |
+| 57506 | PROBLOCK | 10 mg comp.rec.x 30 | Eczane | Vigente |
+| 25417 | CORBIS | 10 mg comp.rec.x 30 | Roemmers | Vigente |
+| 58967 | CORBIS | 10 mg comp.rec.x 60 | Roemmers | Vigente |
+| 53329 | BISOPIL | 2.5 mg comp.rec.x 30 | Gador | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -8,7 +8,7 @@ indication_count: 3
 drugbank_id: DB00924
 monitor_inn: "Cyclobenzaprine"
 predicted_indications: ["myofascial pain syndrome", "neuralgia", "papillary conjunctivitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ciclobenzaprina: nueva indicación predicha, Síndrome de dolor miofascial (myofascial pain syndrome) (nivel de evidencia L3). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)"
 ---
 
@@ -88,9 +88,15 @@ La mayor parte del programa de fase 3 (TNX-102 SL, ciclobenzaprina sublingual) s
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante | Estado |
-|---------|------|------|-----------|-----------|
-| 51689 | MITRUL | 15 mg cáps. x 10 | Adium | Vigente |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 51689 | MITRUL | 15 mg cáps.x 10 | Adium | Vigente |
+
+La tabla muestra el único producto de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "diphenhydramine"
 predicted_indications: ["rosacea conjunctivitis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Diphenhydramine: nueva indicación predicha, conjuntivitis rosácea (rosacea conjunctivitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 11 (en el listado vigente: 11)"
 ---
 
@@ -73,13 +73,19 @@ Actualmente no hay literatura relacionada disponible.
 
 El fármaco figura como comercializado, con 11 autorizaciones vigentes, todas de productos de un solo principio activo.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 49698 | BENADRYL (Elea) | Cápsulas x 30 | No registrada en los datos locales |
-| 41413 | FADALEX (Biosintex Retai) | Jarabe 2,5 mg/ml x 120 ml | No registrada en los datos locales |
-| 20854 | DIFENHIDRAMINA DENVER FARMA | Jarabe x 120 ml | No registrada en los datos locales |
-| 30218 | DIFENHIDRAMINA DENVER FARMA | Comprimidos 50 mg x 20 | No registrada en los datos locales |
-| 49749 | BENADRYL (Elea) | Jarabe x 240 ml | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 49698 | BENADRYL | cáps.x 30 | Elea | Vigente |
+| 41413 | FADALEX | 2.5 mg/ml jbe.x 120 ml | Biosintex Retai | Vigente |
+| 20854 | DIFENHIDRAMINA DENVER FARMA | jbe.x 120 ml | Denver Farma | Vigente |
+| 30218 | DIFENHIDRAMINA DENVER FARMA | 50 mg comp.x 20 | Denver Farma | Vigente |
+| 49749 | BENADRYL | jbe.x 240 ml | Elea | Vigente |
+
+La tabla muestra 5 de los 11 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

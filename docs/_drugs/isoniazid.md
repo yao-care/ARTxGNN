@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 168
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Isoniazid: nueva indicación predicha, Conjuntivitis (nivel de evidencia L5). Indicación original: Tuberculosis pulmonar (según la base de conocimiento de TxGNN"
 monitor_inn: "isoniazid"
 predicted_indications: ["conjunctivitis"]
@@ -80,10 +80,16 @@ Nota: se omitieron dos publicaciones de relevancia muy baja (necrólisis epidér
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 5080 | NICOTIBINA (Sanofi-Aventis) | Comprimidos 300 mg x 30 | No se dispone del texto de indicación |
-| 5099 | RIFINAH (Sanofi-Aventis) | Cápsulas x 30 | No se dispone del texto de indicación |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 5080 | NICOTIBINA | 300 mg comp.x 30 | Sanofi-Aventis | Vigente |
+| 5099 | RIFINAH | caps.x 30 | Sanofi-Aventis | Vigente |
+
+La tabla muestra los 2 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

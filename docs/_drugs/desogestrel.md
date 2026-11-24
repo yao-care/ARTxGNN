@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 119
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Desogestrel: nueva indicación predicha, Amenorrea (nivel de evidencia L5). Indicación original: No disponible en los textos de autorización"
 monitor_inn: "DESOGESTREL"
 predicted_indications: ["amenorrhea (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast", "acne (disease)", "fat necrosis of breast", "breast abscess", "lactation disease", "breast adenosis", "primary ovarian failure", "symptomatic form of fragile X syndrome in female carrier"]
@@ -85,13 +85,19 @@ Cabe señalar que la evidencia disponible proviene sobre todo de productos combi
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 47786 | PINK | Comprimidos recubiertos x 28 | No especificada |
-| 39902 | LUMILAC | Comprimidos recubiertos x 28 | No especificada |
-| 28879 | CERAZETTE | Comprimidos recubiertos x 28 | No especificada |
-| 38178 | CARMIN | Comprimidos recubiertos x 28 | No especificada |
-| 42079 | CAMELIA | Comprimidos recubiertos x 28 | No especificada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 47786 | PINK | comp.rec.x 28 | Craveri | Vigente |
+| 39902 | LUMILAC | comp.rec.x 28 | PharmaDorf | Vigente |
+| 28879 | CERAZETTE | comp.rec.x 28 | Organon Arg. | Vigente |
+| 38178 | CARMIN | comp.rec.x 28 | Elea | Vigente |
+| 42079 | CAMELIA | comp.rec.x 28 | Laboratorios Be | Vigente |
+
+La tabla muestra 5 de los 7 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Existen además dos autorizaciones vigentes (MARVELON, N.º 6191, y MERCILON, N.º 15883, ambas comprimidos x 21), para un total de 7.
 

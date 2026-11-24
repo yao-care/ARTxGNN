@@ -8,7 +8,7 @@ indication_count: 10
 drugbank_id: DB00476
 monitor_inn: "Duloxetine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "schizoid personality disorder", "paranoid personality disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Duloxetina: nueva indicación predicha, Tortícolis paroxística benigna de la infancia (benign paroxysmal torticollis of infancy) (nivel de evidencia L5)."
 ---
 
@@ -83,13 +83,19 @@ Actualmente no hay literatura relacionada disponible.
 
 El estado de mercado es **Comercializado**, y las autorizaciones listadas figuran vigentes. Los registros locales no incluyen texto de indicación aprobada. Principales autorizaciones:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
-|---------|------|------|-----------|
-| 52741 | DULOXIN | 60 mg cáps. x 30 | Eurofarma |
-| 44427 | NITIDEX | 30 mg cáps. x 14 | Teva Argentina |
-| 57323 | ALACIR | 60 mg comp. rec. x 28 | Megalabs Argent |
-| 36185 | DUXETIN | 60 mg cáps. x 28 | Gador |
-| 51321 | DUERIX | 60 mg cáps. lib. mod. x 28 | Ariston |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 52741 | DULOXIN | 60 mg cáps.x 30 | Eurofarma | Vigente |
+| 52739 | DULOXIN | 30 mg caps.x 10 | Eurofarma | Vigente |
+| 44427 | NITIDEX | 30 mg cáps.x 14 | Teva Argentina | Vigente |
+| 44429 | NITIDEX | 60 mg cáps.x 28 | Teva Argentina | Vigente |
+| 57323 | ALACIR | 60 mg comp.rec.x 28 | Megalabs Argent | Vigente |
+
+La tabla muestra 5 de los 17 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ---
 

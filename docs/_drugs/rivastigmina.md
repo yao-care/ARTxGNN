@@ -8,7 +8,7 @@ indication_count: 1
 drugbank_id: DB00989
 monitor_inn: "Rivastigmine"
 predicted_indications: ["glaucoma"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Rivastigmina: nueva indicación predicha, Glaucoma (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -79,13 +79,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Hay al menos 20 autorizaciones vigentes de productos de rivastigmina de un solo principio activo; la lista puede ser parcial. Principales registros:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 56217 | REMIZERAL PARCHES | 9.5 mg parches x 30 | No registrada en los datos locales |
-| 45808 | RIVASMINA | 1.5 mg cáps. x 14 | No registrada en los datos locales |
-| 21128 | EXELON | 3 mg cáps. x 28 | No registrada en los datos locales |
-| 49522 | EXELON PARCHE 15 | 27 mg parches x 30 | No registrada en los datos locales |
-| 42089 | EXELON PARCHE 10 | 18 mg parches x 30 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 56217 | REMIZERAL PARCHES | 9.5 mg parches x 30 | Adium | Vigente |
+| 45808 | RIVASMINA | 1.5 mg cáps.x 14 | Lafedar | Vigente |
+| 45820 | RIVASMINA | 4.5 mg cáps.x 56 | Lafedar | Vigente |
+| 56218 | REMIZERAL PARCHES | 13.3 mg parches x 30 | Adium | Vigente |
+| 21128 | EXELON | 3 mg cáps.x 28 | LKM | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

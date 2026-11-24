@@ -8,7 +8,7 @@ indication_count: 6
 drugbank_id: DB01182
 monitor_inn: "Propafenone"
 predicted_indications: ["manic bipolar affective disorder", "periodic paralysis with transient compartment-like syndrome", "Prinzmetal angina", "arrhythmogenic right ventricular cardiomyopathy", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Propafenona: nueva indicación predicha, trastorno afectivo bipolar maníaco (manic bipolar affective disorder) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)"
 ---
 
@@ -78,12 +78,18 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 7781 | NORMORYTMIN | 150 mg comprimidos recubiertos x 50 | No registrada |
-| 7783 | NORMORYTMIN | 300 mg comprimidos recubiertos x 50 | No registrada |
-| 4652 | NORMORYTMIN | 150 mg comprimidos recubiertos x 20 | No registrada |
-| 4653 | NORMORYTMIN | 300 mg comprimidos recubiertos x 20 | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 7781 | NORMORYTMIN | 150 mg comp.rec.x 50 | Abbott EPD | Vigente |
+| 7783 | NORMORYTMIN | 300 mg comp.rec.x 50 | Abbott EPD | Vigente |
+| 4652 | NORMORYTMIN | 150 mg comp.rec.x 20 | Abbott EPD | Vigente |
+| 4653 | NORMORYTMIN | 300 mg comp.rec.x 20 | Abbott EPD | Vigente |
+
+La tabla muestra los 4 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

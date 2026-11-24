@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "verapamil"
 predicted_indications: ["obsolete bundle branch block", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "periodic paralysis with transient compartment-like syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Verapamil: nueva indicación predicha, Bloqueo de rama obsoleto (obsolete bundle branch block) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)"
 ---
 
@@ -71,12 +71,18 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 23137 | VERAL | rtd. 240 mg comp. x 30 |
-| 20438 | ISOPTINO | 80 mg comp. rec. x 30 |
-| 2141 | ISOPTINO MD | 240 mg comp. rec. x 30 |
-| 4642 | ISOPTINO RETARD | 120 mg comp. rec. x 20 |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 23137 | VERAL | rtd.240 mg comp.x 30 | Siegfried | Vigente |
+| 20438 | ISOPTINO | 80 mg comp.rec.x 30 | Abbott EPD | Vigente |
+| 2141 | ISOPTINO MD | 240 mg comp. rec.x 30 | Abbott EPD | Vigente |
+| 4642 | ISOPTINO RETARD | 120 mg comp.rec.x 20 | Abbott EPD | Vigente |
+
+La tabla muestra los 4 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Las cuatro autorizaciones figuran como vigentes y corresponden a productos de un solo principio activo.
 

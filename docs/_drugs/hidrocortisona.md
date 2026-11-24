@@ -8,7 +8,7 @@ indication_count: 9
 drugbank_id: DB00741
 monitor_inn: "Hydrocortisone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Hidrocortisona: nueva indicación predicha, Alopecia areata (nivel de evidencia L1). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -83,13 +83,19 @@ Hay una limitación importante: en alopecia areata suelen preferirse corticoster
 
 Se listan 20 autorizaciones vigentes; el total es de al menos 20 y la lista puede ser parcial. Los textos de indicación aprobada no están registrados en los datos locales.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 26462 | ALFACORT | Emulsión 1 % x 15 ml | No registrada |
-| 24231 | ALFACORT | Crema 1 % x 30 g | No registrada |
-| 38925 | DEMACORT | Crema x 15 g | No registrada |
-| 2048 | MICROSONA | Crema 1 % x 15 g | No registrada |
-| 7742 | HIDROCORTISONA RICHET | Liofilizado 500 mg x 1 | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 26462 | ALFACORT | 1% emuls.x 15 ml | Cassará | Vigente |
+| 24231 | ALFACORT | 1% cr.x 30 g | Cassará | Vigente |
+| 38925 | DEMACORT | cr.x 15 g | Andrómaco | Vigente |
+| 2048 | MICROSONA | 1% cr.x 15 g | Siegfried | Vigente |
+| 7742 | HIDROCORTISONA RICHET | 500 mg liof.f.a.x 1 | Richet | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

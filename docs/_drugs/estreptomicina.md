@@ -8,7 +8,7 @@ indication_count: 10
 drugbank_id: DB01082
 monitor_inn: "Streptomycin"
 predicted_indications: ["conjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "otitis externa", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "Lyme disease", "infectious otitis interna"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Estreptomicina: nueva indicación predicha, Conjuntivitis (conjunctivitis) (nivel de evidencia L4). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)"
 ---
 
@@ -85,6 +85,16 @@ No hay ensayos controlados aleatorizados. Se muestran las 10 publicaciones más 
 ## Información de Mercado en Argentina
 
 La estreptomicina figura como **comercializada** en Argentina, en forma inyectable. Los registros locales disponibles no traen texto de indicación aprobada.
+
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 6377 | ESTREPTOMICINA RICHET TP | 1 g iny.f.a.x 1 | Richet | Vigente |
+
+La tabla muestra el único producto de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

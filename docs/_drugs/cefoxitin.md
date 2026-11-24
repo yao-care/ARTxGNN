@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 90
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "cefoxitin"
 predicted_indications: ["infectious otitis media", "chronic otitis media", "suppurative otitis media", "middle ear disease", "Ureaplasma urethritis", "toxocariasis", "otosalpingitis", "non-suppurative otitis media"]
 description: "Cefoxitin: nueva indicación predicha, Otitis media infecciosa (infectious otitis media) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)"
@@ -76,9 +76,15 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Estado de mercado: Comercializado. Hay 1 autorización vigente.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 17797 | CEFOXITINA RICHET | 1 g iny.f.a.+a.sol. (inyectable, frasco ampolla con ampolla de solvente) | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 17797 | CEFOXITINA RICHET | 1 g iny.f.a.+a.sol. | Richet | Vigente |
+
+La tabla muestra el único producto de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

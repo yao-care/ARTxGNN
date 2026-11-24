@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "lactulose"
 predicted_indications: ["acute urate nephropathy", "nephrolithiasis", "obstructive jaundice", "bile duct disease", "biliary tract disease", "hyperphosphatemia (disease)", "exercise-induced malignant hyperthermia", "bile duct neoplasm"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lactulose: nueva indicación predicha, Nefropatía aguda por uratos (acute urate nephropathy) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 6 (en el listado vigente: 6)"
 ---
 
@@ -74,13 +74,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Todas las autorizaciones registradas están vigentes (6 de 6) y el fármaco figura como comercializado. El texto de indicación aprobada no está registrado en los datos locales.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
-|---------|------|------|-----------|
-| 17926 | GENOCOLAN | Jarabe x 120 ml | Craveri |
-| 56700 | RONELAX | Jarabe x 120 ml | Ronnet |
-| 56701 | RONELAX | Jarabe x 250 ml | Ronnet |
-| 1402 | LACTULON | Jarabe x 120 ml | Lazar |
-| 36218 | LAFELAX | Jarabe x 120 ml | Lafedar |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 17926 | GENOCOLAN | jbe.x 120 ml | Craveri | Vigente |
+| 56700 | RONELAX | jbe.x 120 ml | Ronnet | Vigente |
+| 56701 | RONELAX | jbe.x 250 ml | Ronnet | Vigente |
+| 1402 | LACTULON | jbe.x 120 ml | Lazar | Vigente |
+| 36218 | LAFELAX | jbe.x 120 ml | Lafedar | Vigente |
+
+La tabla muestra 5 de los 6 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

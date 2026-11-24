@@ -8,7 +8,7 @@ indication_count: 10
 drugbank_id: DB00289
 monitor_inn: "Atomoxetine"
 predicted_indications: ["specific developmental disorder", "faciodigitogenital syndrome", "chondromyxoid fibroma", "trichotillomania", "restless legs syndrome", "manic bipolar affective disorder", "Tourette syndrome", "transient tic disorder", "cerebellar ataxia", "autosomal dominant cerebellar ataxia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Atomoxetina: nueva indicación predicha, trastorno específico del desarrollo (specific developmental disorder) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 5 (en el listado vigente: 5)"
 ---
 
@@ -80,13 +80,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 33698 | RECIT | 10 mg cáps. x 7 | No registrada en los datos locales |
-| 33699 | RECIT | 18 mg cáps. x 7 | No registrada en los datos locales |
-| 33700 | RECIT | 25 mg cáps. x 14 | No registrada en los datos locales |
-| 33701 | RECIT | 40 mg cáps. x 14 | No registrada en los datos locales |
-| 33702 | RECIT | 60 mg cáps. x 14 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 33698 | RECIT | 10 mg cáps.x 7 | Gador | Vigente |
+| 33701 | RECIT | 40 mg cáps.x 14 | Gador | Vigente |
+| 33702 | RECIT | 60 mg cáps.x 14 | Gador | Vigente |
+| 33699 | RECIT | 18 mg cáps.x 7 | Gador | Vigente |
+| 33700 | RECIT | 25 mg cáps.x 14 | Gador | Vigente |
+
+La tabla muestra los 5 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

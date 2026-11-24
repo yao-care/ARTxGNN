@@ -8,7 +8,7 @@ indication_count: 6
 drugbank_id: DB00396
 monitor_inn: "Progesterone"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Progesterona: nueva indicación predicha, enfermedad fibroquística de la mama (breast fibrocystic disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 11 (en el listado vigente: 11)"
 ---
 
@@ -84,13 +84,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 30542 | UTROGESTAN | 200 mg cáps. x 14 | No registrada en los datos locales |
-| 18977 | MAFEL | cáps. x 30 | No registrada en los datos locales |
-| 43202 | MAFEL 200 | cáps. x 28 | No registrada en los datos locales |
-| 44773 | UTROGESTAN | 200 mg cáps. x 28 | No registrada en los datos locales |
-| 14192 | UTROGESTAN | 100 mg cáps. x 30 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 30542 | UTROGESTAN | 200 mg cáps.x 14 | Ferring | Vigente |
+| 18977 | MAFEL | cáps.x 30 | Megalabs Argent | Vigente |
+| 43202 | MAFEL 200 | cáps.x 28 | Megalabs Argent | Vigente |
+| 44773 | UTROGESTAN | 200 mg cáps.x 28 | Ferring | Vigente |
+| 14192 | UTROGESTAN | 100 mg cáps.x 30 | Ferring | Vigente |
+
+La tabla muestra 5 de los 11 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

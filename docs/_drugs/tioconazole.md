@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "tioconazole"
 predicted_indications: ["vulvitis", "postmenopausal atrophic vaginitis"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-24
 description: "Tioconazole: nueva indicación predicha, Vulvitis (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)"
 ---
 
@@ -83,11 +83,17 @@ Ninguna publicación estudia directamente la vulvitis; las siguientes son las m�
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 22628 | TIOMICOL (Panalab) | Solución para uñas x 12 ml | No registrada en los datos locales |
-| 18628 | HONGUIL (Megalabs Argent) | Cápsulas vaginales x 1 | No registrada en los datos locales |
-| 13596 | TROSYD (Pfizer) | Solución para uñas al 28% x 12 ml | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 22628 | TIOMICOL | sol.p/uñas x 12 ml | Panalab | Vigente |
+| 18628 | HONGUIL | cáps.vag.x 1 | Megalabs Argent | Vigente |
+| 13596 | TROSYD | 28% sol.p/uñas x 12 ml | Pfizer | Vigente |
+
+La tabla muestra los 3 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

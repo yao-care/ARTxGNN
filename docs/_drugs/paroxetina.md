@@ -8,7 +8,7 @@ indication_count: 1
 drugbank_id: DB00715
 monitor_inn: "Paroxetine"
 predicted_indications: ["Ohdo syndrome and variants"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Paroxetina: nueva indicación predicha, Síndrome de Ohdo y variantes (Ohdo syndrome and variants) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -74,13 +74,19 @@ Actualmente no hay literatura relacionada disponible.
 
 La lista de autorizaciones puede ser parcial: hay al menos 20 autorizaciones y todas las listadas están vigentes. A continuación se muestran las principales (el texto de indicación aprobada no está registrado en los datos locales).
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
-|---------|------|------|-----------|
-| 59864 | TIARIX | 20 mg comprimidos x 60 | Casasco |
-| 28151 | PSICOASTEN 10 MG | 10 mg comprimidos recubiertos x 30 | Beta |
-| 24495 | PAMOXET | 40 mg comprimidos x 30 | Megalabs Argent |
-| 31882 | NEUROTROX | 20 mg comprimidos x 30 | Elea |
-| 14153 | AROPAX | 20 mg comprimidos recubiertos x 30 | GlaxoSmithKline |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 59864 | TIARIX | 20 mg comp.x 60 | Casasco | Vigente |
+| 28151 | PSICOASTEN 10 MG | 10 mg comp.rec.x 30 | Beta | Vigente |
+| 24495 | PAMOXET | 40 mg comp.x 30 | Megalabs Argent | Vigente |
+| 31882 | NEUROTROX | 20 mg comp.x 30 | Elea | Vigente |
+| 38409 | SOSTEL | 20 mg comp.rec.x 30 | Richmond | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

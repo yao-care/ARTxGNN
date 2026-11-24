@@ -8,7 +8,7 @@ indication_count: 9
 drugbank_id: DB01234
 monitor_inn: "Dexamethasone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Dexametasona: nueva indicación predicha, Alopecia mucinosa (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -75,13 +75,19 @@ Actualmente no hay literatura relacionada disponible.
 
 La lista de autorizaciones puede ser parcial: los datos indican al menos 20 autorizaciones, todas vigentes y de producto de un solo principio activo. Se muestran las 5 principales.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 33509 | DEXATOTAL | 4 mg comprimidos ranurados x 10 | No registrada |
-| 50467 | DECADRON | 4 mg/ml frasco ampolla x 2 ml + jeringa descartable | No registrada |
-| 51328 | DEXALAF | 8 mg comprimidos x 10 | No registrada |
-| 49099 | DEXAMERAL 40 | 40 mg comprimidos x 14 | No registrada |
-| 30440 | NEXADRON OFTAL | 0,1 % solución oftálmica x 5 ml | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 33509 | DEXATOTAL | 4 mg comp.ran.x 10 | Ariston | Vigente |
+| 50467 | DECADRON | 4mg/ml f.a.x2ml+jga.desc | Siegfried | Vigente |
+| 51328 | DEXALAF | 8 mg comp.x 10 | Lafedar | Vigente |
+| 49099 | DEXAMERAL 40 | 40 mg comp.x 14 | LKM | Vigente |
+| 49642 | DECADRON | 0.5 mg comp.x 30 | Siegfried | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

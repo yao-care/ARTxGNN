@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "dexketoprofen"
 predicted_indications: ["tendinitis", "fibromyalgia", "myositis fibrosa", "idiopathic granulomatous myositis", "rheumatoid arthritis", "migraine disorder", "headache disorder", "migraine with brainstem aura", "exostosis", "congenital hypotrichosis milia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dexketoprofen: nueva indicación predicha, tendinitis (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 10 (en el listado vigente: 10)"
 ---
 
@@ -73,13 +73,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 29099 | ENANTYUM | 25 mg comp. x 40 | No registrada en los datos locales |
-| 53512 | IDOLGINA | 25 mg comp. rec. ran. x 20 | No registrada en los datos locales |
-| 30573 | ENANTYUM | gel x 60 g | No registrada en los datos locales |
-| 33647 | ENANTYUM | 50 mg/2 ml iny. a. x 6 | No registrada en los datos locales |
-| 52060 | TACRAF GEL | gel x 60 g | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 29099 | ENANTYUM | 25 mg comp.x 40 | Siegfried | Vigente |
+| 53512 | IDOLGINA | 25 mg comp.rec.ran.x 20 | Baliarda | Vigente |
+| 30573 | ENANTYUM | gel x 60 g | Siegfried | Vigente |
+| 53513 | IDOLGINA | 25 mg comp.rec.ran.x 40 | Baliarda | Vigente |
+| 52060 | TACRAF GEL | gel x 60 g | Trb-Pharma | Vigente |
+
+La tabla muestra 5 de los 10 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Todas las autorizaciones registradas son de productos de un solo principio activo y están vigentes. Hay presentaciones tópicas (gel), orales e inyectables.
 

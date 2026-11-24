@@ -8,7 +8,7 @@ indication_count: 7
 drugbank_id: DB00091
 monitor_inn: "Cyclosporine"
 predicted_indications: ["granulomatous disease, chronic, autosomal recessive", "brain aneurysm", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital ichthyosiform erythroderma", "fetal erythroblastosis", "brachydactyly-syndactyly syndrome", "prolapse of lacrimal gland"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ciclosporina: nueva indicación predicha, enfermedad granulomatosa crónica autosómica recesiva (granulomatous disease, chronic, autosomal recessive) (nivel de evidencia L5)."
 ---
 
@@ -77,12 +77,18 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 42509 | RESTASIS | Viales x 30 unid. x 0,4 ml | — |
-| 55823 | INMUNOSPORIN 0.1% | Solución oftálmica x 5 ml | — |
-| 51198 | CIPOS 0.1 | Solución oftálmica x 5 ml | — |
-| 47768 | CLOSPORIL 0.1% | Gotas oftálmicas x 5 ml | — |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 42509 | RESTASIS | viales x 30 unid.x 0.4ml | Abbvie | Vigente |
+| 55823 | INMUNOSPORIN 0.1% | sol.oft.x 5 ml | Elea | Vigente |
+| 51198 | CIPOS 0.1 | sol.oft.x 5 ml | Max Vision | Vigente |
+| 47768 | CLOSPORIL 0.1% | gts.oft.x 5 ml | Poen | Vigente |
+
+La tabla muestra los 4 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Las cuatro autorizaciones están vigentes y corresponden a productos de un solo principio activo. Los registros locales no incluyen texto de indicación aprobada.
 

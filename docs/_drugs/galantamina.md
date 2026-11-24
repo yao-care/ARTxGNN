@@ -8,7 +8,7 @@ indication_count: 9
 drugbank_id: DB00674
 monitor_inn: "Galantamine"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "benign shuddering attacks", "extrapyramidal and movement disease", "tremor-nystagmus-duodenal ulcer syndrome", "lingual-facial-buccal dyskinesia", "benign paroxysmal tonic upgaze of childhood with ataxia", "acute intermittent porphyria"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Galantamina: nueva indicación predicha, Trastornos del movimiento psicógenos (psychogenic movement disorders) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 11 (en el listado vigente: 11)"
 ---
 
@@ -73,13 +73,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Todas las autorizaciones registradas están vigentes y el producto se comercializa. A continuación se muestran las cinco principales:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
-|---------|------|------|-----------|
-| 37380 | REMINYL ER | 8 mg cáps. x 28 | Janssen-Cilag |
-| 37381 | REMINYL ER | 16 mg cáps. x 28 | Janssen-Cilag |
-| 27210 | REMINYL | 4 mg tab. x 14 | Janssen-Cilag |
-| 27213 | REMINYL | 12 mg tab. x 56 | Janssen-Cilag |
-| 29373 | NUMENCIAL | 8 mg comp. rec. x 56 | Teva Argentina |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 37380 | REMINYL ER | 8 mg cáps.x 28 | Janssen-Cilag | Vigente |
+| 37381 | REMINYL ER | 16 mg cáps.x 28 | Janssen-Cilag | Vigente |
+| 44132 | MEMOLOS | 12 mg comp.x 56 | Lafedar | Vigente |
+| 27210 | REMINYL | 4 mg tab.x 14 | Janssen-Cilag | Vigente |
+| 27213 | REMINYL | 12 mg tab.x 56 | Janssen-Cilag | Vigente |
+
+La tabla muestra 5 de los 11 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

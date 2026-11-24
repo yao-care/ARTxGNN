@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "PIRIBEDIL"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "paralysis agitans, juvenile, of Hunt", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "PLA2G6-associated neurodegeneration"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Piribedil: nueva indicación predicha, Distrofia retiniana con o sin anomalías extraoculares (retinal dystrophy with or without extraocular anomalies) (nivel de evidencia L5). Indicación original: No …"
 ---
 
@@ -72,10 +72,16 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 26027 | TRIVASTAL RETARD 50 | Comprimidos de liberación prolongada x 60 | No registrada en los datos locales |
-| 23279 | TRIVASTAL RETARD 50 | Comprimidos de liberación prolongada x 30 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 26027 | TRIVASTAL RETARD 50 | comp.rec.x 60 | Servier | Vigente |
+| 23279 | TRIVASTAL RETARD 50 | comp.rec.x 30 | Servier | Vigente |
+
+La tabla muestra los 2 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

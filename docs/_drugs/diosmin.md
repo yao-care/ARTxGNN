@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 128
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Diosmin: nueva indicación predicha, Amenorrea (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "diosmin"
 predicted_indications: ["amenorrhea (disease)"]
@@ -63,13 +63,19 @@ No hay un vínculo mecanístico establecido entre estas propiedades y la amenorr
 
 Se muestran 5 de las 20 autorizaciones vigentes (todas de producto único, ninguna cancelada). Los textos de indicación aprobada no están disponibles en los datos compilados.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 51186 | DIOSMIN CREMA (Craveri) | Pomo x 30 g | No disponible |
-| 14737 | FLEBON 500 (Teva Argentina) | Comprimidos 500 mg x 30 | No disponible |
-| 13576 | DAFLON 500 (Servier) | Comprimidos 500 mg x 30 | No disponible |
-| 50329 | DAFLON 1000 (Servier) | Sobres x 30 | No disponible |
-| 58280 | ATUREN (Gador) | Comprimidos recubiertos 1000 mg x 30 | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 51186 | DIOSMIN CREMA | pomo x 30 g | Craveri | Vigente |
+| 14737 | FLEBON 500 | 500 mg comp.x 30 | Teva Argentina | Vigente |
+| 52849 | DIOSMIN CREMA | pomo x 90 g | Craveri | Vigente |
+| 944 | FLEBOTROPIN 300 | comp.x 40 | Bagó | Vigente |
+| 943 | FLEBOTROPIN 300 | comp.x 20 | Bagó | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Conclusión y Próximos Pasos
 

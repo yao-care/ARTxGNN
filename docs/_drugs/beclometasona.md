@@ -8,7 +8,7 @@ indication_count: 1
 drugbank_id: DB00394
 monitor_inn: "Beclomethasone dipropionate"
 predicted_indications: ["atopic eczema"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Beclometasona: nueva indicación predicha, Eccema atópico (atopic eczema) (nivel de evidencia L3). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)"
 ---
 
@@ -82,6 +82,17 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 ## Información de Mercado en Argentina
 
 La beclometasona se encuentra comercializada en Argentina, con autorizaciones vigentes de productos de un solo principio activo, presentados como aerosoles. En los datos locales no figura texto de indicación aprobada.
+
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 39858 | BUTOCORT HFA | aer.x 250 dosis | Cassará | Vigente |
+| 9458 | VENTIDE | aer.x 200 dosis | GlaxoSmithKline | Vigente |
+
+La tabla muestra los 2 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

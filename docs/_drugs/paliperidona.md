@@ -8,7 +8,7 @@ indication_count: 9
 drugbank_id: DB01267
 monitor_inn: "Paliperidone"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "syndromic myopia", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "atypical glycine encephalopathy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Paliperidona: nueva indicación predicha, distrofia retiniana con o sin anomalías extraoculares (retinal dystrophy with or without extraocular anomalies) (nivel de evidencia L5)."
 ---
 
@@ -73,13 +73,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 41787 | INVEGA | 3 mg comprimidos de liberación prolongada x 28 |
-| 41788 | INVEGA | 6 mg comprimidos de liberación prolongada x 28 |
-| 51654 | INVEGA SUSTENNA | 75 mg/0,75 ml jeringa prellenada |
-| 51655 | INVEGA SUSTENNA | 50 mg/0,5 ml jeringa prellenada |
-| 51656 | INVEGA SUSTENNA | 100 mg/1 ml jeringa prellenada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 41787 | INVEGA | 3 mg comp.lib.prol.x 28 | Janssen-Cilag | Vigente |
+| 51655 | INVEGA SUSTENNA | 50 mg/0.5 ml jga.prell. | Janssen-Cilag | Vigente |
+| 51654 | INVEGA SUSTENNA | 75 mg/0.75 ml jga.prell. | Janssen-Cilag | Vigente |
+| 41788 | INVEGA | 6 mg comp.lib.prol.x 28 | Janssen-Cilag | Vigente |
+| 51657 | INVEGA SUSTENNA | 150 mg/1.5 ml jga.prell. | Janssen-Cilag | Vigente |
+
+La tabla muestra 5 de los 6 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 La lista muestra las 5 autorizaciones principales; el titular de todas es Janssen-Cilag.
 

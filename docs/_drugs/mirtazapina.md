@@ -8,7 +8,7 @@ indication_count: 3
 drugbank_id: DB00370
 monitor_inn: "Mirtazapine"
 predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Mirtazapina: nueva indicación predicha, Síndrome de Ohdo y variantes (Ohdo syndrome and variants) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 7 (en el listado vigente: 7)"
 ---
 
@@ -75,13 +75,19 @@ Actualmente no hay literatura relacionada disponible.
 
 El fármaco figura como comercializado, con licencias de productos de un solo principio activo vigentes.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
-|---------|------|------|-----------|
-| 29028 | COMENTER | 30 mg comp. x 30 | Adium |
-| 23145 | REMERON | 30 mg comp. x 10 | MSD Argentina S |
-| 42885 | BILANZ | 30 mg comp. rec. x 30 | Rontag |
-| 42884 | BILANZ | 30 mg comp. rec. x 10 | Rontag |
-| 30342 | NOXIBEL | 30 mg comp. rec. x 30 | Bagó |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 29028 | COMENTER | 30 mg comp.x 30 | Adium | Vigente |
+| 23145 | REMERON | 30 mg comp.x 10 | MSD Argentina S | Vigente |
+| 42885 | BILANZ | 30 mg comp.rec.x 30 | Rontag | Vigente |
+| 42884 | BILANZ | 30 mg comp.rec.x 10 | Rontag | Vigente |
+| 30342 | NOXIBEL | 30 mg comp.rec.x 30 | Bagó | Vigente |
+
+La tabla muestra 5 de los 7 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

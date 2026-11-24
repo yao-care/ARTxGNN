@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "ZOLPIDEM"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Zolpidem: nueva indicación predicha, Tortícolis paroxística benigna de la infancia (benign paroxysmal torticollis of infancy) (nivel de evidencia L5). Indicación original: No consta en los datos loca…"
 ---
 
@@ -73,13 +73,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Hay 15 autorizaciones, todas vigentes y de producto de un solo principio activo. Se listan las 5 principales:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 46350 | NOCTE 10 | 10 mg comp. subl. x 30 | No registrada en los datos locales |
-| 36111 | DORMILAN | 10 mg comp. ran. x 30 | No registrada en los datos locales |
-| 54718 | ZOLDEM | 10 mg comp. rec. x 30 | No registrada en los datos locales |
-| 42613 | AMBIEN CR | 12,5 mg comp. x 28 | No registrada en los datos locales |
-| 54332 | ZOLPIDEM TEVA | 10 mg tab. x 30 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 46350 | NOCTE 10 | 10 mg comp.subl.x 30 | Bagó | Vigente |
+| 36111 | DORMILAN | 10 mg comp.ran.x 30 | Baliarda | Vigente |
+| 54718 | ZOLDEM | 10 mg comp.rec.x 30 | Biotechno Pharm | Vigente |
+| 42613 | AMBIEN CR | 12.5 mg comp.x 28 | Sanofi-Aventis | Vigente |
+| 54332 | ZOLPIDEM TEVA | 10 mg tab.x 30 | Teva Argentina | Vigente |
+
+La tabla muestra 5 de los 15 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

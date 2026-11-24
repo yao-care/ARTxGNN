@@ -8,7 +8,7 @@ indication_count: 4
 drugbank_id: DB00734
 monitor_inn: "Risperidone"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Risperidona: nueva indicación predicha, síndrome de parálisis de la mirada horizontal familiar con escoliosis progresiva (gaze palsy, familial horizontal, with progressive scoliosis) (nivel de evidencia L5)."
 ---
 
@@ -74,13 +74,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Hay al menos 20 autorizaciones vigentes de productos con risperidona como único principio activo (la lista puede ser parcial). Se muestran las 5 principales:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 27060 | DROPICINE | 1 mg comp. rec. x 20 | No registrada |
-| 33527 | RIATUL 0.5 | 0.5 mg comp. rec. ran. x 20 | No registrada |
-| 52461 | RISPERDAL CONSTA | 37.5 mg vial a. x 1 + aguja | No registrada |
-| 21153 | RISPERDAL | solución oral x 100 ml | No registrada |
-| 14548 | RISPERIN | 1 mg comp. x 20 | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 27060 | DROPICINE | 1 mg comp.rec.x 20 | Beta | Vigente |
+| 33527 | RIATUL 0.5 | 0.5 mg comp.rec.ran.x 20 | Baliarda | Vigente |
+| 34303 | DROPICINE | 0.5 mg comp.rec.x 20 | Beta | Vigente |
+| 35248 | RISPEX | 1 mg comp.x 60 | Vannier | Vigente |
+| 14548 | RISPERIN | 1 mg comp.x 20 | Gador | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

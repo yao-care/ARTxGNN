@@ -8,7 +8,7 @@ indication_count: 2
 drugbank_id: DB00590
 monitor_inn: "Doxazosin"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Doxazosina: nueva indicación predicha, trastorno de migraña (migraine disorder) (nivel de evidencia L4). En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)"
 ---
 
@@ -73,11 +73,17 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 35927 | CARDURA | 4 mg tab. x 30 | No registrada en los datos locales |
-| 23080 | DOXASIN | 4 mg comp. x 30 | No registrada en los datos locales |
-| 35926 | CARDURA | 2 mg tab. x 30 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 35927 | CARDURA | 4 mg tab.x 30 | Aspen Pharma | Vigente |
+| 23080 | DOXASIN | 4 mg comp.x 30 | Fortbenton | Vigente |
+| 35926 | CARDURA | 2 mg tab.x 30 | Aspen Pharma | Vigente |
+
+La tabla muestra los 3 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Conclusión y Próximos Pasos
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 142
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fenoterol: nueva indicación predicha, Atrofia multisistémica (nivel de evidencia L5). Indicación original: No consta en los datos compilados (las autorizaciones de ANMAT no inc…"
 monitor_inn: "FENOTEROL"
 predicted_indications: ["multiple system atrophy", "postural orthostatic tachycardia syndrome", "variably protease-sensitive prionopathy", "open-angle glaucoma", "Raynaud disease", "primary hereditary glaucoma", "sinoatrial block", "sinoatrial node disease"]
@@ -93,12 +93,18 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1639 | BEROTEC | Solución 0.5% x 20 ml | No especificada en los datos |
-| 44183 | BEROTEC HFA | Aerosol HFA x 10 ml | No especificada en los datos |
-| 1407 | BERODUAL | Solución x 20 ml | No especificada en los datos |
-| 44184 | BERODUAL HFA | Aerosol HFA x 10 ml | No especificada en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 1639 | BEROTEC | 0.5% sol.x 20 ml | Boehringer Inge | Vigente |
+| 44183 | BEROTEC HFA | aerosol hfa x 10 ml | Boehringer Inge | Vigente |
+| 1407 | BERODUAL | sol.x 20 ml | Boehringer Inge | Vigente |
+| 44184 | BERODUAL HFA | aerosol hfa x 10 ml | Boehringer Inge | Vigente |
+
+La tabla muestra los 4 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Todas las autorizaciones están vigentes y pertenecen a Boehringer Ingelheim.
 

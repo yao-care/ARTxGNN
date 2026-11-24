@@ -8,7 +8,7 @@ indication_count: 10
 drugbank_id: DB00575
 monitor_inn: "Clonidine"
 predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "trichotillomania", "Tourette syndrome", "obesity disorder", "hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "migraine disorder", "manic bipolar affective disorder"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clonidina: nueva indicación predicha, Síndrome faciodigitogenital (faciodigitogenital syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)"
 ---
 
@@ -73,10 +73,16 @@ Actualmente no hay literatura relacionada disponible.
 
 Clonidina figura como **comercializada** en Argentina. Las dos autorizaciones registradas son de producto de principio activo único y ambas están vigentes.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
-|---------|------|------|-----------|
-| 10473 | BEMPLAS | comp. x 60 | Casasco |
-| 10758 | BEMPLAS | comp. x 30 | Casasco |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 10473 | BEMPLAS | comp.x 60 | Casasco | Vigente |
+| 10758 | BEMPLAS | comp.x 30 | Casasco | Vigente |
+
+La tabla muestra los 2 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

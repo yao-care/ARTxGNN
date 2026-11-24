@@ -8,7 +8,7 @@ indication_count: 6
 drugbank_id: DB01098
 monitor_inn: "Rosuvastatin"
 predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain stem infarction", "HIV infectious disease", "hypoalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "ABri amyloidosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Rosuvastatina: nueva indicación predicha, Deficiencia de la proteína de transferencia de ésteres de colesterol (cholesterol-ester transfer protein deficiency) (nivel de evidencia L5)."
 ---
 
@@ -75,13 +75,19 @@ Actualmente no hay literatura relacionada disponible.
 
 El fármaco figura como comercializado en Argentina, con al menos 20 autorizaciones vigentes de productos de un solo principio activo. La lista puede ser parcial. Algunos ejemplos:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
-|---------|------|------|-----------|
-| 33101 | CRESTOR | 20 mg comp. x 28 | AstraZeneca |
-| 45251 | SINLIP | 20 mg comp. rec. x 60 | Gador |
-| 50618 | PARASUL | 5 mg comp. x 28 | Sidus |
-| 46502 | ARTOMEY | 20 mg comp. x 30 | Teva Argentina |
-| 49967 | ROSULIP | 20 mg comp. x 30 | Eurofarma |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 45251 | SINLIP | 20 mg comp.rec.x 60 | Gador | Vigente |
+| 55857 | ROSUVASTATINA RICHET | 10 mg comp.x 30 | Richet | Vigente |
+| 50618 | PARASUL | 5 mg comp.x 28 | Sidus | Vigente |
+| 23712 | HIPOLIPOL | 5 mg comp.rec.x 28 | Casasco | Vigente |
+| 51038 | SINLIP | 40 mg comp.rec.x 30 | Gador | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -8,7 +8,7 @@ indication_count: 1
 drugbank_id: DB01110
 monitor_inn: "Miconazole"
 predicted_indications: ["acne (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Miconazol: nueva indicación predicha, acné (acne (disease)) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -79,13 +79,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Se listan 20 autorizaciones vigentes de producto único; la cifra total es de al menos 20 y la lista puede ser parcial. Las 5 principales:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 26902 | DERALBINE | Polvo en spray x 90 g | No registrada |
-| 18972 | MICOTRAL | Crema 2% x 30 g | No registrada |
-| 11834 | DAKTARIN | Gel oral x 40 g | No registrada |
-| 19976 | DERALBINE | Crema x 40 g | No registrada |
-| 39967 | MICOPUL | Crema x 40 g | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 26902 | DERALBINE | pvo.en spray x 90 g | Andrómaco | Vigente |
+| 18972 | MICOTRAL | 2% cr.x 30 g | Austral | Vigente |
+| 11834 | DAKTARIN | gel oral x 40 g | Janssen-Cilag | Vigente |
+| 19976 | DERALBINE | cr.x 40 g | Andrómaco | Vigente |
+| 39967 | MICOPUL | cr.x 40 g | Pharmatrix | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

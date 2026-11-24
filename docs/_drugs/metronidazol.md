@@ -8,7 +8,7 @@ indication_count: 10
 drugbank_id: DB00916
 monitor_inn: "Metronidazole"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis", "ulcerative proctosigmoiditis", "nocardiosis", "postmenopausal atrophic vaginitis", "Cryptococcal meningitis", "papillary conjunctivitis", "myiasis", "cap polyposis", "ulceration of vulva"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Metronidazol: nueva indicación predicha, neumocistosis (pneumocystosis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -87,13 +87,19 @@ Ninguna publicación estudia directamente metronidazol en neumocistosis. Se list
 
 Metronidazol figura como comercializado, con al menos 20 autorizaciones vigentes (el listado puede ser parcial). Principales autorizaciones:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 38357 | METRAL | Crema 1 % x 30 g | No registrada en los datos locales |
-| 14653 | METRONIDAZOL FABRA | Comprimidos 500 mg x 20 | No registrada en los datos locales |
-| 46537 | ROZEX | Gel 0,75 % x 30 g | No registrada en los datos locales |
-| 7063 | FLAGYL | Comprimidos 500 mg x 20 | No registrada en los datos locales |
-| 37913 | COLPOFILIN | Comprimidos 500 mg x 10 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 38357 | METRAL | 1% cr.x 30 g | Cassará | Vigente |
+| 14653 | METRONIDAZOL FABRA | 500 mg comp.x 20 | Fabra | Vigente |
+| 46537 | ROZEX | 0.75% gel x 30 g | Galderma | Vigente |
+| 7063 | FLAGYL | 500 mg comp.x 20 | PharmaDorf | Vigente |
+| 37913 | COLPOFILIN | 500 mg comp.x 10 | Lazar | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

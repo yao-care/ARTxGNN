@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "IBUPROFEN"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Ibuprofen: nueva indicación predicha, Displasia acromesomélica tipo Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) (nivel de evidencia L5). Indicación original: No consta en los dato…"
 ---
 
@@ -74,13 +74,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Se registran al menos 20 autorizaciones vigentes (la lista puede ser parcial). Principales:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 46593 | IBUMAR 600 | 600 mg comp. x 20 | No registrada en los datos locales |
-| 40445 | IBUPROFENO 600 FECOFAR | 600 mg comp. x 10 | No registrada en los datos locales |
-| 38942 | IBUTENK | 800 mg comp. x 10 | No registrada en los datos locales |
-| 39622 | IBUPIRETAS JR. | comp. masticables x 20 | No registrada en los datos locales |
-| 46707 | ACTRON PEDIATRICO 4% | Suspensión oral x 100 ml | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 46593 | IBUMAR 600 | 600 mg comp.x 20 | Mar | Vigente |
+| 40445 | IBUPROFENO 600 FECOFAR | 600 mg comp.x 10 | Fecofar | Vigente |
+| 38942 | IBUTENK | 800 mg comp.x 10 | Biotenk | Vigente |
+| 39622 | IBUPIRETAS JR. | comp.mast.x 20 | Pfizer | Vigente |
+| 36612 | IBUFABRA | 400 mg comp.x 20 | Fabra | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

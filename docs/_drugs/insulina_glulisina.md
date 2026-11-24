@@ -8,7 +8,7 @@ indication_count: 9
 drugbank_id: DB01309
 monitor_inn: "Insulin glulisine"
 predicted_indications: ["thiamine-responsive dysfunction syndrome", "opsismodysplasia", "classic stiff person syndrome", "focal stiff limb syndrome", "autoimmune oophoritis", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Insulina Glulisina: nueva indicación predicha, síndrome de disfunción sensible a tiamina (thiamine-responsive dysfunction syndrome) (nivel de evidencia L5)."
 ---
 
@@ -73,9 +73,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 41518 | INSULINA APIDRA SOLOSTAR | 100UI/ml lap.prellx5x3ml (lapicera prellenada, 5 x 3 ml) | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 41518 | INSULINA APIDRA SOLOSTAR | 100UI/ml lap.prellx5x3ml | Sanofi-Aventis | Vigente |
+
+La tabla muestra el único producto de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

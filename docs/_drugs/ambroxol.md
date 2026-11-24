@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "AMBROXOL"
 predicted_indications: ["nasal cavity disease", "vulvovaginal candidiasis", "faucial diphtheria", "cervical disc degenerative disorder"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Ambroxol: nueva indicación predicha, enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -76,13 +76,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 La lista de autorizaciones es parcial (al menos 20 registros); los textos de indicación aprobada no figuran en los datos locales.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 47539 | AMBRIL | jarabe x 120 ml |
-| 40692 | GRINSIL RESPIRATORIO NF | 500 mg comp. rec. x 16 |
-| 32206 | TRIFAMOX BRONQUIAL DUO | suspensión x 50 ml |
-| 28092 | AMOXIDAL RESPIRATORIO DUO | comp. rec. x 14 |
-| 53412 | QUOTAL MUC | 500/60 mg comp. rec. x 16 |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 47539 | AMBRIL | jbe.x 120 ml | Elea | Vigente |
+| 40692 | GRINSIL RESPIRATORIO NF | 500 mg comp.rec.x 16 | Nova Argentia | Vigente |
+| 32206 | TRIFAMOX BRONQUIAL DUO | susp.x 50 ml | Bagó | Vigente |
+| 28092 | AMOXIDAL RESPIRATORIO DUO | comp.rec.x 14 | Roemmers | Vigente |
+| 53412 | QUOTAL MUC | 500/60 mg comp.rec.x 16 | Siegfried | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

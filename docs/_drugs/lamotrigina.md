@@ -8,7 +8,7 @@ indication_count: 2
 drugbank_id: DB00555
 monitor_inn: "Lamotrigine"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lamotrigina: nueva indicación predicha, Neoplasia del nervio trigémino (trigeminal nerve neoplasm) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -74,13 +74,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Hay al menos 20 autorizaciones registradas (la lista puede ser parcial), todas vigentes y de producto de un solo principio activo. Se muestran las 5 principales:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 39062 | LATRIGIN 100 | comp. dispersable x 30 | No registrada en los datos locales |
-| 41442 | LAMOCAS | 50 mg comp. dispersable x 30 | No registrada en los datos locales |
-| 50171 | LAMIRAX | 100 mg comp. dispersable x 60 | No registrada en los datos locales |
-| 21953 | LAMICTAL DISPERSABLE | 25 mg comp. x 30 | No registrada en los datos locales |
-| 33277 | EPILEPAX | 25 mg comp. dispersable x 30 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 39062 | LATRIGIN 100 | comp.disper.ran.x 30 | Baliarda | Vigente |
+| 41442 | LAMOCAS | 50 mg comp.dispers.x 30 | Casasco | Vigente |
+| 50171 | LAMIRAX | 100 mg comp.dispers.x 60 | Elea | Vigente |
+| 21953 | LAMICTAL DISPERSABLE | 25 mg comp.x 30 | GlaxoSmithKline | Vigente |
+| 33277 | EPILEPAX | 25 mg comp.dispers.x 30 | Teva Argentina | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

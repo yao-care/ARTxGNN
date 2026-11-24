@@ -8,7 +8,7 @@ indication_count: 1
 drugbank_id: DB00950
 monitor_inn: "Fexofenadine"
 predicted_indications: ["rosacea conjunctivitis"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Fexofenadina: nueva indicación predicha, conjuntivitis rosácea (rosacea conjunctivitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -79,13 +79,19 @@ Estos datos registran al menos 20 productos de fexofenadina, todos de monofárma
 
 <!-- review:end ar-lic-20261117-fexofenadina-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 37841 | ALERCAS | 60 mg comp. x 10 | No registrada |
-| 23172 | ALERFEDINE | 120 mg comp. rec. x 10 | No registrada |
-| 54289 | MUDANTIL F | 120 mg comp. x 30 | No registrada |
-| 53421 | VAGRAN 120 | 120 mg comp. x 10 | No registrada |
-| 54926 | ALERFEDINE | Suspensión oral x 150 ml | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 37841 | ALERCAS | 60 mg comp.x 10 | Casasco | Ya no figura en el listado de PAMI |
+| 23172 | ALERFEDINE | 120 mg comp.rec.x 10 | Lazar | Ya no figura en el listado de PAMI |
+| 54289 | MUDANTIL F | 120 mg comp.x 30 | Géminis Farmac. | Ya no figura en el listado de PAMI |
+| 53421 | VAGRAN 120 | 120 mg comp.x 10 | Finadiet | Ya no figura en el listado de PAMI |
+| 54926 | ALERFEDINE | susp.oral x 150 ml | Lazar | Ya no figura en el listado de PAMI |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "GLIMEPIRIDE"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Glimepiride: nueva indicación predicha, Síndrome de la persona rígida clásica (classic stiff person syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -73,13 +73,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Se registran al menos 20 autorizaciones vigentes (la lista puede ser parcial), todas de productos de un solo principio activo. Los registros locales no incluyen texto de indicación aprobada. Principales autorizaciones:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 25924 | GLEMAZ | 4 mg comp. trirran. x 30 | No registrada |
-| 42330 | GLIMEPLIC | 4 mg comp. ran. x 30 | No registrada |
-| 43474 | HIPOGLUT 4 | 4 mg comp. x 30 | No registrada |
-| 17745 | AMARYL | 4 mg comp. x 15 | No registrada |
-| 17756 | ENDIAL | 4 mg comp. x 30 | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 25924 | GLEMAZ | 4 mg comp.trirran.x 30 | Montpellier | Vigente |
+| 42330 | GLIMEPLIC | 4 mg comp.ran.x 30 | Baliarda | Vigente |
+| 43474 | HIPOGLUT 4 | 4 mg comp.x 30 | Gador | Vigente |
+| 38772 | NEXT STEP 4 | 4 mg comp.x 30 | Francelab | Vigente |
+| 32674 | LOMET | 4 mg comp.x 30 | Microsules Arg. | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

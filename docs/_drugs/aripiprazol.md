@@ -8,7 +8,7 @@ indication_count: 8
 drugbank_id: DB01238
 monitor_inn: "Aripiprazole"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Aripiprazol: nueva indicación predicha, Parálisis de la mirada horizontal familiar con escoliosis progresiva (gaze palsy, familial horizontal, with progressive scoliosis) (nivel de evidencia L5)."
 ---
 
@@ -75,13 +75,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Se registran autorizaciones vigentes de productos de un solo principio activo. Según los datos compilados, hay al menos 20 autorizaciones y la lista puede ser parcial. A continuación se muestran las cinco primeras.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 36637 | IRAZEM (Roemmers) | 5 mg comprimidos x 30 | No registrada en los datos locales |
-| 50996 | IRAZEM (Roemmers) | Solución oral x 150 ml | No registrada en los datos locales |
-| 36861 | SIBLIX (Beta) | 10 mg comprimidos x 30 | No registrada en los datos locales |
-| 34275 | GROVEN (Siegfried) | 10 mg comprimidos x 30 | No registrada en los datos locales |
-| 34277 | GROVEN (Siegfried) | 15 mg comprimidos x 30 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 36637 | IRAZEM | 5 mg comp.x 30 | Roemmers | Vigente |
+| 50996 | IRAZEM | sol.oral x 150 ml | Roemmers | Vigente |
+| 36861 | SIBLIX | 10 mg comp.x 30 | Beta | Vigente |
+| 34275 | GROVEN | 10 mg comp.x 30 | Siegfried | Vigente |
+| 34277 | GROVEN | 15 mg comp.x 30 | Siegfried | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

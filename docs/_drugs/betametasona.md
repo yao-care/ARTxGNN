@@ -8,7 +8,7 @@ indication_count: 7
 drugbank_id: DB00443
 monitor_inn: "Betamethasone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Betametasona: nueva indicación predicha, Alopecia mucinosa (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -76,13 +76,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 La lista siguiente puede ser parcial: el total de autorizaciones es de al menos 20, y todas las listadas figuran como vigentes. Los registros no incluyen texto de indicación aprobada.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 56322 | VITACORTIL B | Suspensión oral x 30 ml | No registrada |
-| 44188 | CORTICAS RETARD | Inyectable x 2 ml | No registrada |
-| 3338 | BETNOVATE CAPILAR | Loción x 30 ml | No registrada |
-| 44186 | CORTICAS | Gotas x 20 ml | No registrada |
-| 3313 | BUTASONA FABRA | Crema x 15 g | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 56322 | VITACORTIL B | susp.oral x 30 ml | Biosintex | Vigente |
+| 44188 | CORTICAS RETARD | iny.f.a.x 1 x 2 ml | Casasco | Vigente |
+| 3338 | BETNOVATE CAPILAR | loc.x 30 ml | GlaxoSmithKline | Vigente |
+| 44186 | CORTICAS | gts.x 20 ml | Casasco | Vigente |
+| 39514 | METAMAR RETARD | f.a.x 1 x 2 ml + jga. | Mar | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

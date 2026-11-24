@@ -8,7 +8,7 @@ indication_count: 6
 drugbank_id: DB01367
 monitor_inn: "Rasagiline"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Rasagilina: nueva indicación predicha, PLA2G6-associated neurodegeneration (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 5 (en el listado vigente: 5)"
 ---
 
@@ -73,13 +73,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
-|---------|------|------|-----------|
-| 54334 | AZILECT | 1 mg comp. x 30 | Teva Argentina |
-| 41635 | RASAX | 1 mg comp. x 30 | Rontag |
-| 39046 | ELBRUS | 1 mg comp. x 30 | Roemmers |
-| 54694 | AGILINE | 1 mg comp. x 30 | Beta |
-| 53511 | RAGIPAR | 1 mg comp. ran. x 30 | Baliarda |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 54334 | AZILECT | 1 mg comp.x 30 | Teva Argentina | Vigente |
+| 41635 | RASAX | 1 mg comp.x 30 | Rontag | Vigente |
+| 39046 | ELBRUS | 1 mg comp.x 30 | Roemmers | Vigente |
+| 54694 | AGILINE | 1 mg comp.x 30 | Beta | Vigente |
+| 53511 | RAGIPAR | 1 mg comp.ran.x 30 | Baliarda | Vigente |
+
+La tabla muestra los 5 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Las cinco autorizaciones son de producto de un solo principio activo y se encuentran vigentes.
 

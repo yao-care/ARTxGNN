@@ -8,7 +8,7 @@ indication_count: 1
 drugbank_id: DB00831
 monitor_inn: "Trifluoperazine"
 predicted_indications: ["manic bipolar affective disorder"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Trifluoperazina: nueva indicación predicha, Trastorno afectivo bipolar maníaco (manic bipolar affective disorder) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)"
 ---
 
@@ -85,9 +85,15 @@ Ninguna de las publicaciones estudia directamente trifluoperazina en manía bipo
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 48495 | CUAIT TRIFLUOPERAZINA | 10 mg comp. x 30 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 48495 | CUAIT TRIFLUOPERAZINA | 10 mg comp.x 30 | Ariston | Vigente |
+
+La tabla muestra el único producto de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -8,7 +8,7 @@ indication_count: 7
 drugbank_id: DB01104
 monitor_inn: "Sertraline"
 predicted_indications: ["schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sertralina: nueva indicación predicha, trastorno de personalidad esquizoide (schizoid personality disorder) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -74,13 +74,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Sertralina cuenta con al menos 20 autorizaciones vigentes (la lista puede ser parcial), todas de productos de un solo principio activo. Los textos de indicación aprobada no están registrados en los datos locales.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20681 | ATENIX | 50 mg comprimidos ranurados x 60 | No registrada |
-| 40791 | ZOXX 50 | 50 mg comprimidos recubiertos x 30 | No registrada |
-| 23736 | BICROMIL | 100 mg comprimidos x 30 | No registrada |
-| 51568 | DIMENA | 100 mg comprimidos x 30 | No registrada |
-| 26875 | ATENIX | 25 mg comprimidos ranurados x 30 | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 20681 | ATENIX | 50 mg comp.ran.x 60 | Adium | Vigente |
+| 40791 | ZOXX 50 | 50 mg comp.rec.x 30 | Casasco | Vigente |
+| 23736 | BICROMIL | 100 mg comp.x 30 | Cetus | Vigente |
+| 51568 | DIMENA | 100 mg comp.x 30 | Lepetit | Vigente |
+| 26875 | ATENIX | 25 mg comp.ran.x 30 | Adium | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

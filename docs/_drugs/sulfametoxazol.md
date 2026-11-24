@@ -8,7 +8,7 @@ indication_count: 1
 drugbank_id: DB01015
 monitor_inn: "Sulfamethoxazole"
 predicted_indications: ["acute contagious conjunctivitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sulfametoxazol: nueva indicación predicha, Conjuntivitis contagiosa aguda (acute contagious conjunctivitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 17 (en el listado vigente: 17)"
 ---
 
@@ -77,13 +77,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Hay 17 autorizaciones vigentes de productos con sulfametoxazol como único principio activo. Principales (5 de 17):
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 18740 | BACTRIM | Comprimidos x 20 | No registrada en los datos locales |
-| 18317 | BACTICEL | Comprimidos x 12 | No registrada en los datos locales |
-| 10614 | BACTRIM | Ampollas IV x 5 x 5 ml | No registrada en los datos locales |
-| 14645 | ADRENOL | Comprimidos x 10 | No registrada en los datos locales |
-| 31642 | TRITENK FORTE | Comprimidos x 10 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 18740 | BACTRIM | comp.x 20 | Siegfried | Vigente |
+| 18317 | BACTICEL | comp.x 12 | Bagó | Vigente |
+| 10614 | BACTRIM | IV a.x 5 x 5 ml | Siegfried | Vigente |
+| 14645 | ADRENOL | comp.x 10 | Fabra | Vigente |
+| 31642 | TRITENK FORTE | comp.x 10 | Biotenk | Vigente |
+
+La tabla muestra 5 de los 17 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

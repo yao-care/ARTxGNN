@@ -8,7 +8,7 @@ indication_count: 2
 drugbank_id: DB00121
 monitor_inn: "Biotin"
 predicted_indications: ["dyspepsia", "gastroparesis (disease)"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Biotina: nueva indicación predicha, dispepsia (dyspepsia) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)"
 ---
 
@@ -81,9 +81,15 @@ Ninguna de las publicaciones estudia directamente el efecto de la biotina en la 
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 25889 | BIOTIN-A | 5 mg comprimidos x 30 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 25889 | BIOTIN-A | 5 mg comp.x 30 | Megalabs Argent | Vigente |
+
+La tabla muestra el único producto de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

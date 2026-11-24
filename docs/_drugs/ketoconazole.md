@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 1
 monitor_inn: "ketoconazole"
 predicted_indications: ["acne (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ketoconazole: nueva indicación predicha, acné (acne (disease)) (nivel de evidencia L4). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -83,13 +83,19 @@ Conviene distinguir las vías: el uso tópico ejercería sobre todo efectos anti
 
 Se registran al menos 20 licencias vigentes y la lista puede ser parcial. Principales autorizaciones:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20561 | FANGAN | Óvulos x 5 | No registrada en los datos locales |
-| 6121 | MICORAL | Champú x 100 ml | No registrada en los datos locales |
-| 27577 | QUADION | Champú x 250 g | No registrada en los datos locales |
-| 15160 | KEDUO | Crema 2 % x 15 g | No registrada en los datos locales |
-| 15822 | KETOCONAZOL FABRA | Comprimidos 200 mg x 20 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 20561 | FANGAN | ov.x 5 | Lazar | Vigente |
+| 6121 | MICORAL | shamp.x 100 ml | Siegfried | Vigente |
+| 27577 | QUADION | shamp.x 250 g | Fortbenton | Vigente |
+| 15160 | KEDUO | 2% cr.x 15 g | Megalabs Argent | Vigente |
+| 29895 | KETONAZOL LAFEDAR | pvo.x 50 g | Lafedar | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

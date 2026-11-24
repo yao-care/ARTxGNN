@@ -8,7 +8,7 @@ indication_count: 10
 drugbank_id: DB00706
 monitor_inn: "Tamsulosin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine with brainstem aura"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tamsulosina: nueva indicación predicha, Hipertricosis universal congénita tipo Ambras (Ambras type hypertrichosis universalis congenita) (nivel de evidencia L5)."
 ---
 
@@ -75,13 +75,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Hay al menos 20 autorizaciones vigentes de tamsulosina como monofármaco (la lista puede ser parcial). Se muestran las 5 principales:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 51153 | OMNIC OCAS | 0.4 mg comp. lib. prol. x 60 | No registrada |
-| 50819 | DENVERPROST | 0.4 mg cáps. lib. cont. x 30 | No registrada |
-| 43134 | UROPROST-Q | 0.4 mg cáps. x 30 | No registrada |
-| 59850 | URALOS CR | 0.4 mg comp. x 60 | No registrada |
-| 22906 | OMNIC | 0.4 mg caps. lib. cont. x 30 | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 51153 | OMNIC OCAS | 0.4mg comp.lib.prol.x 60 | Gador | Vigente |
+| 50819 | DENVERPROST | 0.4 mg cáps.lib.cont.x30 | Denver Farma | Vigente |
+| 43134 | UROPROST-Q | 0.4 mg cáps.x 30 | Ariston | Vigente |
+| 59850 | URALOS CR | 0.4 mg comp.x 60 | Casasco | Vigente |
+| 22906 | OMNIC | 0.4mg caps.lib.cont.x 30 | Gador | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

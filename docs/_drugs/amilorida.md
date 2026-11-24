@@ -8,7 +8,7 @@ indication_count: 5
 drugbank_id: DB00594
 monitor_inn: "Amiloride"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Amilorida: nueva indicación predicha, Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 11 (en el listado vigente: 11)"
 ---
 
@@ -74,13 +74,19 @@ Actualmente no hay literatura relacionada disponible.
 
 La amilorida se encuentra comercializada en Argentina, con 11 autorizaciones vigentes de productos de un solo principio activo (ninguna cancelada ni sin comercializar).
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 41831 | DIUREX A 12.5 | 12.5/1.25 mg comp. x 30 |
-| 542 | ERROLON A | comp. x 20 |
-| 22138 | REN-UR | comp. x 20 |
-| 22139 | REN-UR | comp. x 50 |
-| 5385 | MODURETIC | comp. x 50 |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 41831 | DIUREX A 12.5 | 12.5/1.25 mg comp.x 30 | Bagó | Vigente |
+| 542 | ERROLON A | comp.x 20 | Siegfried | Vigente |
+| 22138 | REN-UR | comp.x 20 | Lafedar | Vigente |
+| 22139 | REN-UR | comp.x 50 | Lafedar | Vigente |
+| 5385 | MODURETIC | comp.x 50 | MSD Argentina S | Vigente |
+
+La tabla muestra 5 de los 11 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Se muestran las 5 primeras de 11 autorizaciones; las demás corresponden a DIUREX A 50, DIUREX A 25, MODURETIC (comp. x 30), ERROLON A (comp. x 50), REN-UR (comp. x 100) y HIDRENOX A.
 

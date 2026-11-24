@@ -8,7 +8,7 @@ indication_count: 7
 drugbank_id: DB00869
 monitor_inn: "Dorzolamide"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "alopecia", "diffuse alopecia areata", "congestive heart failure", "acute pulmonary heart disease", "respiratory failure"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dorzolamida: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 8 (en el listado vigente: 8)"
 ---
 
@@ -72,13 +72,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 36325 | DORLAMIDA | Solución oftálmica x 5 ml | — |
-| 40713 | ZOPIROL DM | Solución oftálmica x 5 ml | — |
-| 25086 | GLAUCOTENSIL TD | Colirio x 5 ml | — |
-| 36326 | DORLAMIDA T | Solución oftálmica x 5 ml | — |
-| 39900 | ALIVIAPRES | Solución oftálmica x 5 ml | — |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 36325 | DORLAMIDA | sol.oft.x 5 ml | Lab Internacion | Vigente |
+| 40713 | ZOPIROL DM | sol.oft.x 5 ml | Elea | Vigente |
+| 25086 | GLAUCOTENSIL TD | colirio x 5 ml | Poen | Vigente |
+| 36326 | DORLAMIDA T | sol.oft.x 5 ml | Lab Internacion | Vigente |
+| 39900 | ALIVIAPRES | sol.oft.x 5 ml | Denver Farma | Vigente |
+
+La tabla muestra 5 de los 8 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Se muestran 5 de las 8 autorizaciones vigentes. El texto de indicación aprobada no figura en los datos locales.
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 74
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Camylofin: nueva indicación predicha, Insomnio (nivel de evidencia L5). Indicación original: No registrada en la licencia de ANMAT"
 monitor_inn: "camylofin"
 drugbank_id: DB13738
@@ -64,9 +64,15 @@ Como no hay indicación original registrada, tampoco es posible evaluar la simil
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 50332 | APASMO | Gotas, 20 ml (laboratorio: Laboratorio Mil) | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 50332 | APASMO | gts.x 20 ml | Laboratorio Mil | Vigente |
+
+La tabla muestra el único producto de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

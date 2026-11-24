@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 176
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Levobunolol: usos conocidos y estado de mercado en Argentina; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -73,9 +73,15 @@ Todos los candidatos que el modelo TxGNN propone para Levobunolol y que se puede
 
 ## Información de Mercado en Argentina
 
-| Registro | Producto | Forma farmacéutica | Estado |
-|------|------|------|------|
-| 19724 | levobunolol | 0.50% sol.x 5 ml | Vigente |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 19724 | BETAGAN LIQUIFILM | 0.50% sol.x 5 ml | Abbvie | Vigente |
+
+La tabla muestra el único producto de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

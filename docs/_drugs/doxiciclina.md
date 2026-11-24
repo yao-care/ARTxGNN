@@ -8,7 +8,7 @@ indication_count: 10
 drugbank_id: DB00254
 monitor_inn: "Doxycycline"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "exposure keratitis", "chronic gingivitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Doxiciclina: nueva indicación predicha, queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 9 (en el listado vigente: 9)"
 ---
 
@@ -75,13 +75,19 @@ Esta publicación describe una condición relacionada, pero no demuestra un bene
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 23754 | VERBORIL | 100 mg comp. rec. x 8 | No registrada |
-| 9887 | VIBRAMICINA | 100 mg tab. x 16 | No registrada |
-| 23502 | DOXIBIOT | 100 mg comp. x 10 | No registrada |
-| 31677 | ASOLMICINA.DOX | 100 mg comp. rec. x 15 | No registrada |
-| 10048 | VIBRAMICINA | 100 mg tab. x 5 | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 23754 | VERBORIL | 100 mg comp.rec.x 8 | Trb-Pharma | Vigente |
+| 9887 | VIBRAMICINA | 100 mg tab.x 16 | Pfizer | Vigente |
+| 23502 | DOXIBIOT | 100 mg comp.x 10 | Siegfried | Vigente |
+| 31677 | ASOLMICINA.DOX | 100 mg comp.rec.x 15 | Megalabs Argent | Vigente |
+| 10048 | VIBRAMICINA | 100 mg tab.x 5 | Pfizer | Vigente |
+
+La tabla muestra 5 de los 9 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Se listan las 5 primeras autorizaciones; todas las autorizaciones registradas son de producto de un solo principio activo y se encuentran vigentes.
 

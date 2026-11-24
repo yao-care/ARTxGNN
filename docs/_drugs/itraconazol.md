@@ -8,7 +8,7 @@ indication_count: 1
 drugbank_id: DB01167
 monitor_inn: "Itraconazole"
 predicted_indications: ["pneumocystosis"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Itraconazol: nueva indicación predicha, Neumocistosis (pneumocystosis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 20 (en el listado vigente: 20)"
 ---
 
@@ -87,13 +87,19 @@ Ninguna de las publicaciones estudia directamente el itraconazol en neumocistosi
 
 El itraconazol está comercializado en Argentina con 20 autorizaciones vigentes, todas de productos de un solo principio activo. Principales presentaciones:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 28998 | SPORANOX | Cápsulas x 10 | No registrada |
-| 21742 | SPORANOX PULSO | Cápsulas x 28 | No registrada |
-| 25700 | SPORANOX | Solución oral x 150 ml | No registrada |
-| 35342 | MICOTENK | Comprimidos recubiertos 100 mg x 30 | No registrada |
-| 52804 | SALIMIDIN 200 | Cápsulas 200 mg x 21 | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 35342 | MICOTENK | 100 mg comp.rec.x 30 | Biotenk | Vigente |
+| 32877 | PANASTAT | cáps.x 15 | Panalab | Vigente |
+| 28998 | SPORANOX | caps.x 10 | Janssen-Cilag | Vigente |
+| 38963 | PANASTAT 200 | cáps.x 7 | Panalab | Vigente |
+| 52804 | SALIMIDIN 200 | 200 mg cáps.x 21 | Megalabs Argent | Vigente |
+
+La tabla muestra 5 de los 20 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

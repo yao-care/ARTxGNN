@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "SIMVASTATIN"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Simvastatin: nueva indicación predicha, Infarto del tronco encefálico (brain stem infarction) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -74,13 +74,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Se listan hasta 5 de las autorizaciones registradas. La lista de autorizaciones es parcial: hay al menos 20 autorizaciones y pueden existir más. Todas las listadas están vigentes. Los datos locales no incluyen texto de indicación aprobada.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 40944 | COLEFLUX | 80 mg comprimidos recubiertos x 30 | No registrada |
-| 14602 | REDUSTEROL | 20 mg comprimidos x 30 | No registrada |
-| 20850 | LISAC | 10 mg comprimidos recubiertos x 30 | No registrada |
-| 33230 | TANAVAT | 20 mg comprimidos x 30 | No registrada |
-| 18182 | ZOCOR | 20 mg comprimidos x 30 | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 40944 | COLEFLUX | 80 mg comp.rec.x 30 | Lafedar | Vigente |
+| 14602 | REDUSTEROL | 20 mg comp.x 30 | Adium | Vigente |
+| 20850 | LISAC | 10 mg comp.rec.x 30 | Laboratorios Be | Vigente |
+| 33230 | TANAVAT | 20 mg comp.x 30 | Microsules Arg. | Vigente |
+| 40943 | COLEFLUX | 40 mg comp.rec.x 30 | Lafedar | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

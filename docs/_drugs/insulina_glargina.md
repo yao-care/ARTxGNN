@@ -8,7 +8,7 @@ indication_count: 10
 drugbank_id: DB00047
 monitor_inn: "Insulin glargine"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Insulina Glargina: nueva indicación predicha, ooforitis autoinmune (autoimmune oophoritis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 3)"
 ---
 
@@ -89,12 +89,18 @@ Los productos corresponden a un solo principio activo; 3 de los 4 siguen en el l
 
 <!-- review:end ar-lic-20261117-insulina_glargina-1 -->
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
-|---------|------|------|-----------|
-| 32734 | INSULINA LANTUS | Cartuchos, 5 x 3 ml | Sanofi-Aventis |
-| 53290 | TOUJEO | 300 U/ml, lapicera, 3 x 1,5 ml | Sanofi-Aventis |
-| 41517 | INSULINA LANTUS SOLOSTAR | 100 UI/ml, lapicera prellenada, 5 x 3 ml | Sanofi-Aventis |
-| 50984 | INSULINA OPTISULIN SOLOSTAR | Lapicera prellenada descartable, 5 x 3 ml | Montpellier |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 53290 | TOUJEO | 300U/ml lapicerax3x1.5ml | Sanofi-Aventis | Vigente |
+| 41517 | INSULINA LANTUS SOLOSTAR | 100UI/ml lap.prellx5x3ml | Sanofi-Aventis | Vigente |
+| 50984 | INSULINA OPTISULIN SOLOSTAR | lap.prell.desc.x5x3ml | Montpellier | Vigente |
+| 32734 | INSULINA LANTUS | cart.x 5 x 3 ml | Sanofi-Aventis | Ya no figura en el listado de PAMI |
+
+La tabla muestra los 4 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ---
 

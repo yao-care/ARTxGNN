@@ -8,7 +8,7 @@ indication_count: 9
 drugbank_id: DB00176
 monitor_inn: "Fluvoxamine"
 predicted_indications: ["paranoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "schizoid personality disorder", "anxiety disorder", "agoraphobia", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fluvoxamina: nueva indicación predicha, Trastorno de personalidad paranoide (paranoid personality disorder) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)"
 ---
 
@@ -70,10 +70,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 49097 | LUVOX | 100 mg comp. ran. x 30 | No registrada en los datos locales |
-| 49096 | LUVOX | 100 mg comp. rec. x 15 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 49097 | LUVOX | 100 mg comp.ran.x 30 | Abbott EPD | Vigente |
+| 49096 | LUVOX | 100 mg comp.rec.x 15 | Abbott EPD | Vigente |
+
+La tabla muestra los 2 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

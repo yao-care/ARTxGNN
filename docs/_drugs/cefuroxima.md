@@ -8,7 +8,7 @@ indication_count: 8
 drugbank_id: DB01112
 monitor_inn: "Cefuroxime"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "Peptostreptococcus infectious disease", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cefuroxima: nueva indicación predicha, hiperamilasemia (hyperamylasemia) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 9 (en el listado vigente: 9)"
 ---
 
@@ -83,13 +83,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Cefuroxima cuenta con licencias vigentes en Argentina, todas de productos de un solo principio activo. Principales autorizaciones:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 17800 | CEFUROXIMA RICHET | 500 mg comprimidos x 8 | No registrada en los datos locales |
-| 17802 | CEFUROXIMA RICHET | 750 mg inyectable, frasco ampolla | No registrada en los datos locales |
-| 17801 | CEFUROXIMA RICHET SUSPENSION 125 MG | Jarabe x 70 ml | No registrada en los datos locales |
-| 1644 | CEFUROX | 500 mg comprimidos recubiertos x 8 | No registrada en los datos locales |
-| 3982 | CEFUROX | 750 mg frasco ampolla x 1 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 17800 | CEFUROXIMA RICHET | 500 mg comp.x 8 | Richet | Vigente |
+| 17802 | CEFUROXIMA RICHET | 750 mg iny.f.a. | Richet | Vigente |
+| 17801 | CEFUROXIMA RICHET SUSPENSION 125 MG | jbe.x 70 ml | Richet | Vigente |
+| 1644 | CEFUROX | 500 mg comp.rec.x 8 | Elea | Vigente |
+| 3982 | CEFUROX | 750 mg f.a.x 1 | Elea | Vigente |
+
+La tabla muestra 5 de los 9 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ---
 

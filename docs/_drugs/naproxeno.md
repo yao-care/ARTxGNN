@@ -8,7 +8,7 @@ indication_count: 4
 drugbank_id: DB00788
 monitor_inn: "Naproxen"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Naproxeno: nueva indicación predicha, síndrome de braquidactilia-sindactilia (brachydactyly-syndactyly syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -74,13 +74,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Hay al menos 20 autorizaciones registradas, todas vigentes y de producto de un solo principio activo; la lista puede ser parcial. Principales autorizaciones:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 40276 | DEBRIL | 500 mg comp. x 10 | No registrada |
-| 41754 | NAPRUX RAPID | 550 mg comp. rec. ran. x 10 | No registrada |
-| 8779 | NAPRONTAG | 500 mg comp. x 50 | No registrada |
-| 603 | ALIDASE 500 | comp. x 40 | No registrada |
-| 54335 | NAPROXENO TEVA | 500 mg tab. x 20 | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 40276 | DEBRIL | 500 mg comp.x 10 | Monserrat | Vigente |
+| 41754 | NAPRUX RAPID | 550 mg comp.rec.ran.x 10 | Andrómaco | Vigente |
+| 8779 | NAPRONTAG | 500 mg comp.x 50 | Rontag | Vigente |
+| 603 | ALIDASE 500 | comp.x 40 | Laboratorios Be | Vigente |
+| 40403 | NAPRONTAG GESIC | 550 mg comp.rec.x 10 | Rontag | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

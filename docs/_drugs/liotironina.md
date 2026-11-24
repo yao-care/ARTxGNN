@@ -8,7 +8,7 @@ indication_count: 9
 drugbank_id: DB00279
 monitor_inn: "Liothyronine"
 predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "Carney complex", "peripheral dysostosis", "Potter sequence", "acrodysostosis with or without hormone resistance", "angiomyxoma", "myxoma", "hypotrichosis simplex of the scalp"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Liotironina: nueva indicación predicha, hipodisplasia/aplasia renal (renal hypodysplasia/aplasia) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)"
 ---
 
@@ -73,9 +73,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 54595 | T3 MONTPELLIER 20 | comp.x 30 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 54595 | T3 MONTPELLIER 20 | comp.x 30 | Montpellier | Vigente |
+
+La tabla muestra el único producto de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Esta autorización corresponde a un producto de un solo principio activo y se encuentra vigente.
 

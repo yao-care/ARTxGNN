@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "LEVETIRACETAM"
 predicted_indications: ["beta-ketothiolase deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Levetiracetam: nueva indicación predicha, Déficit de beta-cetotiolasa (beta-ketothiolase deficiency) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -74,13 +74,19 @@ Actualmente no hay literatura relacionada disponible.
 
 El fármaco figura como comercializado, con al menos 20 autorizaciones válidas (la lista puede ser parcial). Todas las autorizaciones listadas son de producto de un solo principio activo y están vigentes. Principales autorizaciones:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 43270 | CALLEXE | 500 mg comp. rec. x 50 | No registrada en los datos locales |
-| 48497 | LEVAXON | 500 mg comp. x 20 | No registrada en los datos locales |
-| 43272 | CALLEXE | 1000 mg comp. rec. x 50 | No registrada en los datos locales |
-| 48527 | LEVECOM XR 750 | 750 mg comp. lib. prol. x 30 | No registrada en los datos locales |
-| 59275 | CALLEXE | 1000 mg comp. rec. x 60 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 43270 | CALLEXE | 500 mg comp.rec.x 50 | Casasco | Vigente |
+| 48497 | LEVAXON | 500 mg comp.x 20 | Adium | Vigente |
+| 43272 | CALLEXE | 1000 mg comp.rec.x 50 | Casasco | Vigente |
+| 48527 | LEVECOM XR 750 | 750 mg comp.lib.prol.x30 | Baliarda | Vigente |
+| 59275 | CALLEXE | 1000 mg comp.rec.x 60 | Casasco | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

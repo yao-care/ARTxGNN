@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "PIROXICAM"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "WHIM syndrome", "rheumatoid nodulosis", "juvenile idiopathic arthritis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Piroxicam: nueva indicación predicha, colobomatous microphthalmia-rhizomelic dysplasia syndrome (síndrome de microftalmia colobomatosa con displasia rizoméli… (nivel de evidencia L5). Indicación orig…"
 ---
 
@@ -73,13 +73,19 @@ Actualmente no hay literatura relacionada disponible.
 
 El estado de mercado es comercializado, con licencias vigentes para productos de piroxicam de un solo principio activo. A continuación, las principales autorizaciones (el texto de indicación aprobada no figura en los registros locales):
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 5516 | SOLOCALM | 20 mg comp. x 40 |
-| 2824 | PIROXICAM DUPOMAR | 20 mg comp. x 10 |
-| 2825 | PIROXICAM DUPOMAR | 20 mg comp. x 30 |
-| 15483 | SOLOCALM GEL | 1% env. x 30 g |
-| 2832 | PIROXICAM DUPOMAR | gel x 50 g |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 5516 | SOLOCALM | 20 mg comp.x 40 | Laboratorios Be | Vigente |
+| 2824 | PIROXICAM DUPOMAR | 20 mg comp.x 10 | Siegfried | Vigente |
+| 2825 | PIROXICAM DUPOMAR | 20 mg comp.x 30 | Siegfried | Vigente |
+| 15483 | SOLOCALM GEL | 1% env.x 30 g | Laboratorios Be | Vigente |
+| 2832 | PIROXICAM DUPOMAR | gel x 50 g | Siegfried | Vigente |
+
+La tabla muestra 5 de los 19 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

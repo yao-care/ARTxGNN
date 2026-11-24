@@ -8,7 +8,7 @@ indication_count: 8
 drugbank_id: DB06700
 monitor_inn: "Desvenlafaxine"
 predicted_indications: ["obsessive-compulsive disorder", "schizotypal personality disorder", "schizoid personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "Ohdo syndrome and variants", "benign paroxysmal torticollis of infancy", "agoraphobia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Desvenlafaxina: nueva indicación predicha, Trastorno obsesivo-compulsivo (obsessive-compulsive disorder) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 16 (en el listado vigente: 16)"
 ---
 
@@ -76,13 +76,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 49725 | DROSIX | 50 mg comprimidos de liberación prolongada x 30 | No registrada |
-| 48450 | PRISTIQ | 100 mg comprimidos de liberación prolongada x 30 | No registrada |
-| 50767 | DESLAFAX | 100 mg comprimidos de acción prolongada x 30 | No registrada |
-| 48657 | IXIUM | 100 mg comprimidos de liberación prolongada x 10 | No registrada |
-| 49282 | ALFAXIN 100 | 100 mg comprimidos recubiertos de liberación prolongada x 30 | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 49725 | DROSIX | 50 mg comp.lib.prol.x 30 | Baliarda | Vigente |
+| 49726 | DROSIX | 100mg comp.lib.prol.x 30 | Baliarda | Vigente |
+| 48450 | PRISTIQ | 100mg comp.lib.prol.x 30 | Pfizer | Vigente |
+| 50767 | DESLAFAX | 100 mg comp.acc.prol.x30 | Gador | Vigente |
+| 48874 | PRISTIQ | 50 mg comp.lib.prol.x 60 | Pfizer | Vigente |
+
+La tabla muestra 5 de los 16 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "TRAMADOL"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "juvenile idiopathic arthritis", "juvenile arthritis due to defect in LACC1", "rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tramadol: nueva indicación predicha, displasia acromesomélica tipo Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) (nivel de evidencia L5). Indicación original: No consta en los datos…"
 ---
 
@@ -73,13 +73,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Hay al menos 20 autorizaciones vigentes (la lista puede ser parcial). Principales registros:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 57554 | ULTRAGESIC CB | 50 mg cáps.bl. x 30 | No registrada en los datos locales |
-| 23408 | TRAMAL | 100 mg/ml gts. x 10 ml | No registrada en los datos locales |
-| 45866 | TRAMAL | 50 mg cáps. x 20 | No registrada en los datos locales |
-| 52661 | TRAMADOLTEN | 50 mg comp. x 20 | No registrada en los datos locales |
-| 58307 | LIXIDOL GOTAS | 50 mg gotas x 10 ml | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 57554 | ULTRAGESIC CB | 50 mg cáps.bl. x 30 | Adium | Vigente |
+| 23408 | TRAMAL | 100 mg/ml gts.x 10 ml | Vannier-Grunent | Vigente |
+| 45866 | TRAMAL | 50 mg cáps.x 20 | Vannier-Grunent | Vigente |
+| 52661 | TRAMADOLTEN | 50 mg comp.x 20 | Pfizer | Vigente |
+| 58307 | LIXIDOL GOTAS | 50 mg gotas x 10 ml | Casasco | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

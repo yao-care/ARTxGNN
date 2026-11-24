@@ -8,7 +8,7 @@ indication_count: 1
 drugbank_id: DB04339
 monitor_inn: "Carbocisteine"
 predicted_indications: ["gout"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Carboximetilcisteína: nueva indicación predicha, gota (gout) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 5 (en el listado vigente: 3)"
 ---
 
@@ -72,13 +72,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 2952 | MUCOLITIC | Jarabe x 150 ml | No registrada en los datos locales |
-| 37832 | SALVITOS | Jarabe x 120 ml | No registrada en los datos locales |
-| 44979 | MUCOLITIC | Comprimidos efervescentes x 10 | No registrada en los datos locales |
-| 55261 | SUPRITOS | Jarabe x 100 ml | No registrada en los datos locales |
-| 10234 | MUCOLITIC ANTITUSIVO | Jarabe x 100 ml | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 44979 | MUCOLITIC | comp.eferv.x 10 | Roemmers | Vigente |
+| 55261 | SUPRITOS | jbe.x 100 ml | Casasco | Vigente |
+| 10234 | MUCOLITIC ANTITUSIVO | jbe.x 100 ml | Roemmers | Vigente |
+| 2952 | MUCOLITIC | jbe.x 150 ml | Roemmers | Ya no figura en el listado de PAMI |
+| 37832 | SALVITOS | jbe.x 120 ml | Ronnet | Ya no figura en el listado de PAMI |
+
+La tabla muestra los 5 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

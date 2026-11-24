@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "modafinil"
 predicted_indications: ["insomnia (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Modafinil: nueva indicación predicha, insomnio (insomnia (disease)) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 7 (en el listado vigente: 7)"
 ---
 
@@ -69,13 +69,19 @@ Una posible vía de aplicación sería indirecta: mejorar el funcionamiento diur
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 52079 | VISPER | 200 mg comp. x 15 | No registrada en los datos locales |
-| 52080 | VISPER | 200 mg comp. x 30 | No registrada en los datos locales |
-| 49669 | VIGICER | 200 mg comp. x 15 | No registrada en los datos locales |
-| 49670 | VIGICER | 200 mg comp. x 30 | No registrada en los datos locales |
-| 42592 | INTENSIT | 200 mg comp. x 10 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 52079 | VISPER | 200 mg comp.x 15 | Ariston | Vigente |
+| 52080 | VISPER | 200 mg comp.x 30 | Ariston | Vigente |
+| 49669 | VIGICER | 200 mg comp.x 15 | Beta | Vigente |
+| 49670 | VIGICER | 200 mg comp.x 30 | Beta | Vigente |
+| 42592 | INTENSIT | 200 mg comp.x 10 | Rontag | Vigente |
+
+La tabla muestra 5 de los 7 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Hay 7 autorizaciones vigentes en total; se muestran las 5 principales. Las otras dos corresponden a FORCILIN (58761 y 58762).
 

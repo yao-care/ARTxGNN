@@ -8,7 +8,7 @@ indication_count: 1
 drugbank_id: DB00440
 monitor_inn: "Trimethoprim"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Trimetoprima: nueva indicación predicha, queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5)."
 ---
 
@@ -75,13 +75,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Hay 17 autorizaciones vigentes, todas de productos con trimetoprima como único principio activo. Principales autorizaciones:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 18740 | BACTRIM | comp. x 20 | No registrada en los datos locales |
-| 18317 | BACTICEL | comp. x 12 | No registrada en los datos locales |
-| 10614 | BACTRIM | IV amp. x 5 x 5 ml | No registrada en los datos locales |
-| 14645 | ADRENOL | comp. x 10 | No registrada en los datos locales |
-| 31642 | TRITENK FORTE | comp. x 10 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 18740 | BACTRIM | comp.x 20 | Siegfried | Vigente |
+| 18317 | BACTICEL | comp.x 12 | Bagó | Vigente |
+| 10614 | BACTRIM | IV a.x 5 x 5 ml | Siegfried | Vigente |
+| 14645 | ADRENOL | comp.x 10 | Fabra | Vigente |
+| 31642 | TRITENK FORTE | comp.x 10 | Biotenk | Vigente |
+
+La tabla muestra 5 de los 17 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

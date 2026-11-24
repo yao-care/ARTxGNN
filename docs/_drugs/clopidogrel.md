@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "CLOPIDOGREL"
 predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "rheumatoid arthritis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clopidogrel: nueva indicación predicha, migraña con aura de tronco encefálico (migraine with brainstem aura) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -86,13 +86,19 @@ Las publicaciones siguientes estudian la migraña con aura en general, no el aur
 
 Clopidogrel figura como comercializado en Argentina, con al menos 20 autorizaciones vigentes (la lista puede ser parcial). Los registros locales no incluyen texto de indicación aprobada.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 47456 | CLOPILEP | 75 mg comprimidos recubiertos x 30 | No registrada |
-| 22962 | PLAVIX | 75 mg comprimidos recubiertos x 28 | No registrada |
-| 47399 | NADENEL | 75 mg comprimidos recubiertos x 30 | No registrada |
-| 49142 | TROKEN 75 | 75 mg comprimidos x 15 | No registrada |
-| 46131 | CLODREL | 75 mg comprimidos recubiertos x 30 | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 47456 | CLOPILEP | 75 mg comp.rec.x 30 | Lepetit | Vigente |
+| 22962 | PLAVIX | 75 mg comp.rec.x 28 | Sanofi-Aventis | Vigente |
+| 47399 | NADENEL | 75 mg comp.rec.x 30 | Géminis Farmac. | Vigente |
+| 49142 | TROKEN 75 | 75 mg comp.x 15 | Bagó | Vigente |
+| 46131 | CLODREL | 75 mg comp.rec.x 30 | Baliarda | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

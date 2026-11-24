@@ -8,7 +8,7 @@ indication_count: 6
 drugbank_id: DB00230
 monitor_inn: "Pregabalin"
 predicted_indications: ["tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Pregabalina: nueva indicación predicha, Tendinitis (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -80,13 +80,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Pregabalina se comercializa en Argentina con al menos 20 autorizaciones vigentes (la lista puede ser parcial). Algunas de las principales:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 42932 | AXUAL | Cápsulas 75 mg x 15 | No registrada |
-| 49154 | PREBICTAL | Cápsulas 100 mg x 28 | No registrada |
-| 53931 | GAVANEURAL | Cápsulas 25 mg x 30 | No registrada |
-| 50363 | LYRICA | Cápsulas 300 mg x 30 | No registrada |
-| 52070 | PLENICA | Cápsulas 50 mg x 15 | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 42932 | AXUAL | 75 mg caps.x 15 | Teva Argentina | Vigente |
+| 49154 | PREBICTAL | 100 mg cáps.x 28 | Adium | Vigente |
+| 53931 | GAVANEURAL | 25 mg caps.x 30 | Denver Farma | Vigente |
+| 50363 | LYRICA | 300 mg cáps.x 30 | Aspen Pharma | Vigente |
+| 52070 | PLENICA | 50 mg cáps.x 15 | Roemmers | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

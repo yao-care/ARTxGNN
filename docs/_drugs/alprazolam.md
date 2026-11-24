@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 2
 monitor_inn: "ALPRAZOLAM"
 predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-24
 description: "Alprazolam: nueva indicación predicha, insomnio (insomnia (disease)) (nivel de evidencia L3). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -83,13 +83,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Hay al menos 20 autorizaciones vigentes de productos monofármaco (la lista puede ser parcial). Ninguna está cancelada.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 17228 | TRANQUINAL | 0,25 mg comp. x 50 | No registrada en los datos locales |
-| 49837 | TRANQUINAL 0.5 | 0,5 mg comp. x 60 | No registrada en los datos locales |
-| 23721 | ALPRAZOL | 1 mg comp. x 30 | No registrada en los datos locales |
-| 13402 | BESTROL | 0,5 mg comp. x 60 | No registrada en los datos locales |
-| 41505 | NOVAZOLAM 0.50 MG | 0,50 mg comp. ran. x 60 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 17228 | TRANQUINAL | 0.25 mg comp.x 50 | Bagó | Vigente |
+| 49837 | TRANQUINAL 0.5 | 0.5 mg comp.x 60 | Bagó | Vigente |
+| 23721 | ALPRAZOL | 1 mg comp.x 30 | Casasco | Vigente |
+| 13402 | BESTROL | 0.5 mg comp.x 60 | Cetus | Vigente |
+| 41505 | NOVAZOLAM 0.50 MG | 0.50 mg comp.ran.x 60 | Monserrat | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

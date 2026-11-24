@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 242
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Varenicline: nueva indicación predicha, Trastorno de migraña (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "varenicline"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "congenital hypotrichosis milia", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "alopecia", "open-angle glaucoma", "primary hereditary glaucoma", "headache disorder", "pulmonary hypertension"]
@@ -83,11 +83,17 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 43437 | CHAMPIX | Kit tratamiento completo | No disponible |
-| 41101 | CHAMPIX | Comprimidos de 1 mg x 56 | No disponible |
-| 43436 | CHAMPIX | Kit de inicio | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 43437 | CHAMPIX | kit tratamiento completo | Pfizer | Vigente |
+| 41101 | CHAMPIX | 1 mg comp.x 56 | Pfizer | Vigente |
+| 43436 | CHAMPIX | kit de inicio | Pfizer | Vigente |
+
+La tabla muestra los 3 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ---
 

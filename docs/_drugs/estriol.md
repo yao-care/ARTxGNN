@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 136
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 monitor_inn: "ESTRIOL"
 predicted_indications: ["amenorrhea (disease)"]
 description: "Estriol: nueva indicación predicha, Amenorrea (amenorrhea (disease)) (nivel de evidencia L3). En Argentina, productos en el listado de PAMI: 6 (en el listado vigente: 6)"
@@ -77,13 +77,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 32392 | COLPOESTRIOL | Crema x 15 g | No especificada |
-| 48647 | COLPOESTRIOL | Óvulos x 15 | No especificada |
-| 45460 | MENOCLIM | Óvulos x 10 | No especificada |
-| 54764 | MENOCLIM CREMA | Crema x 15 g | No especificada |
-| 6193 | ORGESTRIOL | Crema vaginal x 15 g con aplicador | No especificada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 32392 | COLPOESTRIOL | cr.x 15 g | Temis-Lostaló | Vigente |
+| 48647 | COLPOESTRIOL | óv.x 15 | Temis-Lostaló | Vigente |
+| 45460 | MENOCLIM | óv.x 10 | Beta | Vigente |
+| 54764 | MENOCLIM CREMA | cr.x 15 g | Beta | Vigente |
+| 6193 | ORGESTRIOL | cr.vag.x 15 g c/aplic. | Aspen Pharma | Vigente |
+
+La tabla muestra 5 de los 6 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Existe además una sexta autorización vigente (8412, ORGESTRIOL, óvulos x 10, Aspen Pharma). Las seis autorizaciones son de monofármaco y están vigentes.
 

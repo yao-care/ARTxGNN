@@ -8,7 +8,7 @@ indication_count: 10
 drugbank_id: DB01224
 monitor_inn: "Quetiapine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "distal 17p13.3 microdeletion syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "trichotillomania", "syndromic myopia", "myopia 26, X-linked, female-limited"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Quetiapina: nueva indicación predicha, distrofia retiniana con o sin anomalías extraoculares (retinal dystrophy with or without extraocular anomalies) (nivel de evidencia L5)."
 ---
 
@@ -75,13 +75,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Hay al menos 20 autorizaciones de productos de un solo principio activo, todas vigentes; la lista puede ser parcial. Se muestran las 5 principales:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 41591 | SEROQUEL 300 | 300 mg comp. x 30 | No registrada en los datos locales |
-| 42666 | ETIASEL XR | 50 mg comp. x 30 | No registrada en los datos locales |
-| 47614 | QUETIAPINA VANNIER 100 | 100 mg comp. x 30 | No registrada en los datos locales |
-| 54190 | QTP 100 | 100 mg comp. recubiertos x 30 | No registrada en los datos locales |
-| 49534 | SEROQUEL XR 150 | 150 mg comp. x 30 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 41591 | SEROQUEL 300 | 300 mg comp.x 30 | Bagó | Vigente |
+| 42666 | ETIASEL XR | 50 mg comp.x 30 | AstraZeneca | Vigente |
+| 47614 | QUETIAPINA VANNIER 100 | 100 mg comp.x 30 | Vannier | Vigente |
+| 54190 | QTP 100 | 100 mg comp.rec.x 30 | Siegfried | Vigente |
+| 49534 | SEROQUEL XR 150 | 150 mg comp.x 30 | Bagó | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

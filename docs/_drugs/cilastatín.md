@@ -8,7 +8,7 @@ indication_count: 9
 drugbank_id: DB01597
 monitor_inn: "Cilastatin"
 predicted_indications: ["staphylococcus aureus infection", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "sinusitis", "paranasal sinus neoplasm (disease)", "paratyphoid fever", "bronchitis", "diffuse scleroderma", "salmonellosis"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Cilastatín: nueva indicación predicha, Infección por Staphylococcus aureus (staphylococcus aureus infection) (nivel de evidencia L3). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)"
 ---
 
@@ -87,9 +87,15 @@ No se identificaron ensayos controlados aleatorizados. La tabla muestra las publ
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
-|---------|------|------|-----------|
-| 38546 | IMIPENEM FABRA | 500 mg IV polvo para inyección x 1 | Fabra |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 38546 | IMIPENEM FABRA | 500 mg IV pvo.p/iny.x 1 | Fabra | Vigente |
+
+La tabla muestra el único producto de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 La autorización figura como vigente. El texto de indicación aprobada no está registrado en los datos locales.
 

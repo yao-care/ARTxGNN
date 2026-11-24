@@ -8,7 +8,7 @@ indication_count: 5
 drugbank_id: DB01212
 monitor_inn: "Ceftriaxone"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "chronic otitis media"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ceftriaxona: nueva indicación predicha, Síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 7 (en el listado vigente: 7)"
 ---
 
@@ -72,13 +72,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 48555 | ACANTEX | 500 mg IM, frasco ampolla x 1 |
-| 13323 | CEFTRIAXONA RICHET | 1 g IV, frasco ampolla + solvente |
-| 13807 | CEFTRIAXONA FABRA | 1 g, frasco ampolla x 1 |
-| 13324 | CEFTRIAXONA RICHET | 1 g IM, frasco ampolla + solvente |
-| 48516 | ACANTEX | 1 g IM, frasco ampolla x 1 |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 48555 | ACANTEX | 500 mg IM f.a.x 1 | Siegfried | Vigente |
+| 13323 | CEFTRIAXONA RICHET | 1 g IV f.a.+a.solv. | Richet | Vigente |
+| 13807 | CEFTRIAXONA FABRA | 1 g f.a.x 1 | Fabra | Vigente |
+| 13324 | CEFTRIAXONA RICHET | 1 g IM f.a.+a.solv.(C/u) | Richet | Vigente |
+| 48516 | ACANTEX | 1 g IM f.a.x 1 | Siegfried | Vigente |
+
+La tabla muestra 5 de los 7 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Se muestran 5 de las 7 autorizaciones vigentes.
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "DUTASTERIDE"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "migraine with brainstem aura", "familial isolated trichomegaly"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Dutasteride: nueva indicación predicha, Hipertricosis universal congénita tipo Ambras (Ambras type hypertrichosis universalis congenita) (nivel de evidencia L5). Indicación original: No consta en los…"
 ---
 
@@ -80,13 +80,19 @@ Por ello, el nivel de evidencia se mantiene en L5.
 
 Dutasterida figura como **comercializada**, con licencias vigentes en los registros locales (17 en total, ninguna cancelada). Productos de un solo principio activo, como ejemplo:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
-|---------|------|------|-----------|
-| 38295 | AVODART | 0,5 mg cápsulas x 30 | GlaxoSmithKline |
-| 47722 | LUDASTERIN | 0,5 mg comprimidos x 30 | Finadiet |
-| 52217 | DOXATEN | 0,5 mg cápsulas x 30 | Beta |
-| 51554 | TUMULAN | 0,5 mg comprimidos x 30 | Lazar |
-| 49694 | PLENUR | 0,5 mg comprimidos x 30 | Casasco |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 47722 | LUDASTERIN | 0.5 mg comp.x 30 | Finadiet | Vigente |
+| 57756 | LUDASTERIN | 0.5 mg comp.x 60 | Finadiet | Vigente |
+| 38295 | AVODART | 0.5 mg cáps.x 30 | GlaxoSmithKline | Vigente |
+| 52217 | DOXATEN | 0.5 mg cáps.x 30 | Beta | Vigente |
+| 47805 | LINUS | comp.x 30 | Elea | Vigente |
+
+La tabla muestra 5 de los 17 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 El texto de indicación aprobada no figura en los datos locales compilados.
 

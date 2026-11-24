@@ -8,7 +8,7 @@ indication_count: 7
 drugbank_id: DB00563
 monitor_inn: "Methotrexate"
 predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "Hodgkins lymphoma", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Metotrexato: nueva indicación predicha, Blastoma pulmonar (pulmonary blastoma) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 14 (en el listado vigente: 14)"
 ---
 
@@ -72,6 +72,20 @@ Actualmente no hay literatura relacionada disponible.
 ## Información de Mercado en Argentina
 
 El metotrexato figura como **comercializado** en Argentina, con autorizaciones vigentes de productos de un solo principio activo. Hay presentaciones orales (comprimidos) y otras en frasco ampolla. Los registros locales no incluyen texto de indicación aprobada en los datos compilados.
+
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 53350 | ARTRAIT SC | 20 mg f.a.x 4 | Trb-Pharma | Vigente |
+| 9865 | ERVEMIN | 2.5 mg comp.x 20 | Teva Argentina | Vigente |
+| 38111 | ARTRAIT | 15 mg comp.ran.x 4 | Trb-Pharma | Vigente |
+| 26155 | ARTRAIT | 7.5 mg comp.ran.x 10 | Trb-Pharma | Vigente |
+| 44943 | ARTRAIT | 15 mg comp.ran.x 8 | Trb-Pharma | Vigente |
+
+La tabla muestra 5 de los 14 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

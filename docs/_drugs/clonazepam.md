@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 3
 monitor_inn: "CLONAZEPAM"
 predicted_indications: ["restless legs syndrome", "insomnia (disease)", "trigeminal nerve neoplasm"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clonazepam: nueva indicación predicha, Síndrome de piernas inquietas (restless legs syndrome) (nivel de evidencia L3). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -85,13 +85,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 El listado puede ser parcial: hay al menos 20 autorizaciones vigentes, todas de productos con clonazepam como único principio activo.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 25919 | CLONAGIN 1 | 1 mg, comprimidos x 60 |
-| 36118 | LEPTIC | 2 mg, comprimidos x 50 |
-| 56426 | QUAZEMIC | 0,25 mg, comprimidos x 60 |
-| 26896 | NEURYL 2 | 2 mg, comprimidos x 50 |
-| 50407 | DIOCAM | 0,5 mg, comprimidos x 60 |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 25919 | CLONAGIN 1 | 1 mg comp.x 60 | Baliarda | Vigente |
+| 36118 | LEPTIC | 2 mg comp.x 50 | Soubeiran Chobe | Vigente |
+| 56426 | QUAZEMIC | 0.25 mg comp.x 60 | Casasco | Vigente |
+| 26896 | NEURYL 2 | 2 mg comp.x 50 | Bagó | Vigente |
+| 50407 | DIOCAM | 0.5 mg comp.x 60 | Gador | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

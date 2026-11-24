@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "LATANOPROST"
 predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the scalp", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "congenital hypotrichosis milia", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Latanoprost: nueva indicación predicha, calcifilaxia visceral (visceral calciphylaxis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 14 (en el listado vigente: 14)"
 ---
 
@@ -74,13 +74,19 @@ Actualmente no hay literatura relacionada disponible.
 
 El medicamento figura como comercializado, con 14 autorizaciones vigentes (todas de producto de un solo principio activo y ninguna cancelada). Principales autorizaciones:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 43876 | GLAUCOGESIC | Frasco gotero, solución oftálmica x 2.5 ml | No registrada en los datos locales |
-| 34716 | LATANOPROST DORF | Solución oftálmica 50 mcg/ml x 2.5 ml | No registrada en los datos locales |
-| 47508 | OFTALPRES | Solución oftálmica estéril x 2.5 ml | No registrada en los datos locales |
-| 37736 | LATANOFLAX | Gotas oftálmicas 50 mcg/ml x 2.5 ml | No registrada en los datos locales |
-| 19634 | XALATAN | Gotas oftálmicas x 2.5 ml | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 43876 | GLAUCOGESIC | fco.got.sol.oft.x 2.5ml | Lab Internacion | Vigente |
+| 34716 | LATANOPROST DORF | 50mcg/ml sol.oft.x 2.5ml | PharmaDorf | Vigente |
+| 47508 | OFTALPRES | sol.oft.estéril x 2.5 ml | Denver Farma | Vigente |
+| 37736 | LATANOFLAX | 50mcg/ml gts.oft.x 2.5ml | Sidus | Vigente |
+| 19634 | XALATAN | gts.oft.x 2.5 ml | Aspen Pharma | Vigente |
+
+La tabla muestra 5 de los 14 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

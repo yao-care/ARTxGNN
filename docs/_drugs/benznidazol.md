@@ -8,7 +8,7 @@ indication_count: 3
 drugbank_id: DB11989
 monitor_inn: "Benznidazole"
 predicted_indications: ["congenital analbuminemia", "polyclonal hyperviscosity syndrome", "hyperamylasemia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Benznidazol: nueva indicación predicha, analbuminemia congénita (congenital analbuminemia) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)"
 ---
 
@@ -73,10 +73,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 47976 | ABARAX | 100 mg comp. x 100 | No registrada en los datos locales |
-| 47975 | ABARAX | 50 mg comp. x 100 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 47976 | ABARAX | 100 mg comp.x 100 | Elea | Vigente |
+| 47975 | ABARAX | 50 mg comp.x 100 | Elea | Vigente |
+
+La tabla muestra los 2 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Ambas autorizaciones corresponden a productos de un solo principio activo, están vigentes y pertenecen al fabricante Elea.
 

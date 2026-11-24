@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "ENTACAPONE"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "lethal infantile mitochondrial myopathy", "Lewy body dementia", "fructose-1,6-bisphosphatase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "progressive supranuclear palsy-corticobasal syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Entacapone: nueva indicación predicha, Neurodegeneración asociada a PLA2G6 (PLA2G6-associated neurodegeneration) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 8 (en el listado vigente: 8)"
 ---
 
@@ -74,13 +74,19 @@ Actualmente no hay literatura relacionada disponible.
 
 El estado de mercado es **comercializado**, con 8 autorizaciones vigentes y ninguna cancelada. Todas corresponden a productos de nombre comercial STALEVO (Biosidus S.A.U.) en comprimidos recubiertos:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 45029 | STALEVO 125 | 125 mg comp. rec. x 30 |
-| 46200 | STALEVO 150 | 150 mg comp. rec. x 100 |
-| 43440 | STALEVO 200 | 200 mg comp. rec. x 30 |
-| 35401 | STALEVO 50 | 50 mg comp. rec. x 30 |
-| 35403 | STALEVO 150 | 150 mg comp. rec. x 30 |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 45029 | STALEVO 125 | 125 mg comp.rec.x 30 | Biosidus S.A.U. | Vigente |
+| 46200 | STALEVO 150 | 150 mg comp.rec.x 100 | Biosidus S.A.U. | Vigente |
+| 43440 | STALEVO 200 | 200 mg comp.rec.x 30 | Biosidus S.A.U. | Vigente |
+| 35401 | STALEVO 50 | 50 mg comp.rec.x 30 | Biosidus S.A.U. | Vigente |
+| 35403 | STALEVO 150 | 150 mg comp.rec.x 30 | Biosidus S.A.U. | Vigente |
+
+La tabla muestra 5 de los 8 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

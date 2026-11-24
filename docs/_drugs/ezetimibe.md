@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "EZETIMIBE"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ezetimibe: nueva indicación predicha, Deficiencia de la proteína de transferencia de ésteres de colesterol (nivel de evidencia L5). Indicación original: Hiperlipidemia"
 ---
 
@@ -77,13 +77,19 @@ Ninguna de las publicaciones estudia directamente la enfermedad predicha.
 
 La lista de autorizaciones es parcial (se muestran 20 registros, con al menos 20 en total); los registros no incluyen texto de indicación aprobada. Se muestran las 5 principales:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 33428 | ZETIA | 10 mg comprimidos x 28 | No disponible en el registro |
-| 35857 | EZETROL | 10 mg comprimidos x 30 | No disponible en el registro |
-| 35799 | VADEL | 10 mg comprimidos x 30 | No disponible en el registro |
-| 36512 | ALIPAS | 10 mg comprimidos x 30 | No disponible en el registro |
-| 33900 | TRILIP | 10 mg comprimidos x 30 | No disponible en el registro |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 33428 | ZETIA | 10 mg comp.x 28 | Organon Arg. | Vigente |
+| 35857 | EZETROL | 10 mg comp.x 30 | Organon Arg. | Vigente |
+| 35799 | VADEL | 10 mg comp.x 30 | Teva Argentina | Vigente |
+| 36512 | ALIPAS | 10 mg comp.x 30 | Laboratorios Be | Vigente |
+| 33900 | TRILIP | 10 mg comp.x 30 | Elea | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

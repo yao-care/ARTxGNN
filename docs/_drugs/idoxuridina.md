@@ -8,7 +8,7 @@ indication_count: 10
 drugbank_id: DB00249
 monitor_inn: "Idoxuridine"
 predicted_indications: ["vulvovaginal candidiasis", "vaginitis (disease)", "trichomonal vulvovaginitis", "vulvitis", "herpetic vulvovaginitis", "vaginal discharge", "bacterial vaginosis", "leukoplakia of vagina", "vulvovaginitis", "postmenopausal atrophic vaginitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Idoxuridina: nueva indicación predicha, candidiasis vulvovaginal (vulvovaginal candidiasis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)"
 ---
 
@@ -72,10 +72,16 @@ Actualmente no hay literatura relacionada disponible para candidiasis vulvovagin
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 2930 | IDULEA CON ADHEFILM | Gotas, 10 ml |
-| 2931 | IDULEA | Ungüento dérmico, 10 g |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 2930 | IDULEA CON ADHEFILM | gts.x 10 ml | Laboratorio Val | Vigente |
+| 2931 | IDULEA | ung.derm.x 10 g | Laboratorio Val | Vigente |
+
+La tabla muestra los 2 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

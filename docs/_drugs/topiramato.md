@@ -8,7 +8,7 @@ indication_count: 1
 drugbank_id: DB00273
 monitor_inn: "Topiramate"
 predicted_indications: ["trigeminal nerve neoplasm"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Topiramato: nueva indicación predicha, Neoplasia del nervio trigémino (trigeminal nerve neoplasm) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -75,13 +75,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Topiramato tiene autorizaciones vigentes en Argentina y se comercializa. A continuación se listan 5 de las autorizaciones principales; la lista completa puede ser parcial.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
-|---------|------|------|-----------|
-| 34432 | TOPAMAC | 100 mg comprimidos x 60 | Janssen-Cilag |
-| 41286 | TOPICTAL | 25 mg comprimidos recubiertos x 56 | Adium |
-| 34843 | NEUTOP | 50 mg comprimidos recubiertos x 28 | Elea |
-| 25665 | TOPAMAC SPRINKLE | 15 mg cápsulas dispersables x 60 | Janssen-Cilag |
-| 49689 | EPISTAL | 100 mg comprimidos x 56 | Casasco |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 34432 | TOPAMAC | 100 mg comp.x 60 | Janssen-Cilag | Vigente |
+| 41286 | TOPICTAL | 25 mg comp.rec.x 56 | Adium | Vigente |
+| 34843 | NEUTOP | 50 mg comp.rec.x 28 | Elea | Vigente |
+| 32775 | TOPICTAL | 50 mg comp.rec.x 28 | Adium | Vigente |
+| 19761 | TOPAMAC | 50 mg comp.x 28 | Janssen-Cilag | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

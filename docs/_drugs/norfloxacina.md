@@ -8,7 +8,7 @@ indication_count: 10
 drugbank_id: DB01059
 monitor_inn: "Norfloxacin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "punctate epithelial keratoconjunctivitis", "premalignant hematological system disease", "diffuse scleroderma", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Norfloxacina: nueva indicación predicha, hiperamilasemia (hyperamylasemia) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 20 (en el listado vigente: 20)"
 ---
 
@@ -71,13 +71,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 12196 | NORFLOXACINA CRAVERI | comp. x 10 |
-| 47270 | ACTOBIAN | 400 mg comp. rec. x 20 |
-| 1537 | UROXACIN | 400 mg comp. rec. x 10 |
-| 25454 | NORFLOXACINA KLONAL | 400 mg comp. x 20 |
-| 9457 | UROTEM | comp. x 14 |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 12196 | NORFLOXACINA CRAVERI | comp.x 10 | Craveri | Vigente |
+| 47270 | ACTOBIAN | 400 mg comp.rec.x 20 | Savant Generic | Vigente |
+| 1537 | UROXACIN | 400 mg comp.rec.x 10 | Lazar | Vigente |
+| 25454 | NORFLOXACINA KLONAL | 400 mg comp.x 20 | Klonal | Vigente |
+| 9457 | UROTEM | comp.x 14 | Temis-Lostaló | Vigente |
+
+La tabla muestra 5 de los 20 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Se muestran las 5 primeras de 20 autorizaciones vigentes, todas de producto de un solo principio activo. Los textos de indicación aprobada no están registrados en los datos locales.
 

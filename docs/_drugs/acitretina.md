@@ -8,7 +8,7 @@ indication_count: 4
 drugbank_id: DB00459
 monitor_inn: "Acitretin"
 predicted_indications: ["acne (disease)", "pediatric systemic lupus erythematosus", "fetal erythroblastosis", "familial cutaneous telangiectasia and oropharyngeal predisposition cancer syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Acitretina: nueva indicación predicha, acné (acne (disease)) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)"
 ---
 
@@ -84,10 +84,16 @@ Dado que ningún estudio citado evalúa directamente el acné vulgar, el nivel d
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 27610 | NEOTIGASON | 10 mg cáps. x 30 | No registrada en los datos locales |
-| 26974 | NEOTIGASON | 25 mg cáps. x 30 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 27610 | NEOTIGASON | 10 mg cáps.x 30 | Teva Argentina | Vigente |
+| 26974 | NEOTIGASON | 25 mg cáps.x 30 | Teva Argentina | Vigente |
+
+La tabla muestra los 2 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

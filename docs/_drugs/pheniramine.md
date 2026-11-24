@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "pheniramine"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Pheniramine: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 0)"
 ---
 
@@ -72,12 +72,18 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 43809 | VISUCLAR | Frasco gotero x 10 ml | No registrada en los datos locales |
-| 18650 | REFENAX COLIRIO | Solución oftálmica x 15 ml | No registrada en los datos locales |
-| 42850 | MIRA KLONAL | Frasco gotero x 5 ml | No registrada en los datos locales |
-| 174 | MIRUS | Solución oftálmica x 15 ml | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 43809 | VISUCLAR | fco.gotero x 10 ml | Elea | Ya no figura en el listado de PAMI |
+| 18650 | REFENAX COLIRIO | sol.oft.x 15 ml | Monserrat | Ya no figura en el listado de PAMI |
+| 42850 | MIRA KLONAL | fco.gotero x 5 ml | Klonal | Ya no figura en el listado de PAMI |
+| 174 | MIRUS | sol.oft.x 15 ml | Alcon | Ya no figura en el listado de PAMI |
+
+La tabla muestra los 4 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Los 4 productos ya no figuran en el listado vigente de PAMI (el listado del 05/11/2026 no incluye ningún producto con feniramina, aparte de clorfeniramina y dexclorfeniramina, que son otros principios activos).
 

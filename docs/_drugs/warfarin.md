@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "warfarin"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "rheumatoid arthritis", "breast fibrocystic disease", "benign mammary dysplasia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Warfarin: nueva indicación predicha, Deficiencia del cofactor II de la heparina (heparin cofactor 2 deficiency) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)"
 ---
 
@@ -75,12 +75,18 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20634 | CIRCUVIT | 5 mg comp. x 20 | No registrada en los datos locales |
-| 38257 | CIRCUVIT | 5 mg comp. x 50 | No registrada en los datos locales |
-| 20633 | CIRCUVIT | 2 mg comp. x 20 | No registrada en los datos locales |
-| 38256 | CIRCUVIT | 2 mg comp. x 50 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 20634 | CIRCUVIT | 5 mg comp.x 20 | Ariston | Vigente |
+| 38257 | CIRCUVIT | 5 mg comp.x 50 | Ariston | Vigente |
+| 20633 | CIRCUVIT | 2 mg comp.x 20 | Ariston | Vigente |
+| 38256 | CIRCUVIT | 2 mg comp.x 50 | Ariston | Vigente |
+
+La tabla muestra los 4 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

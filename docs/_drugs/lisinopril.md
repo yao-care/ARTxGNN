@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "LISINOPRIL"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lisinopril: nueva indicación predicha, Hipertensión pulmonar debida a enfermedad pulmonar y/o hipoxia (pulmonary hypertension owing to lung disease and/or hyp… (nivel de evidencia L5). Indicación ori…"
 ---
 
@@ -83,13 +83,19 @@ Selección de las publicaciones más cercanas al tema; ninguna estudia directame
 
 Las 11 autorizaciones registradas son de producto de un solo principio activo y están vigentes. El texto de indicación aprobada no está registrado en los datos locales.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 7048 | TENSOPRIL | 10 mg comp. x 20 | No registrada en los datos locales |
-| 564 | TENSOPRIL | 10 mg comp. x 40 | No registrada en los datos locales |
-| 563 | TENSOPRIL | 5 mg comp. x 40 | No registrada en los datos locales |
-| 3249 | ZESTRIL | 10 mg comp. x 60 | No registrada en los datos locales |
-| 565 | TENSOPRIL | 20 mg comp. x 40 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 7048 | TENSOPRIL | 10 mg comp.x 20 | Teva Argentina | Vigente |
+| 564 | TENSOPRIL | 10 mg comp.x 40 | Teva Argentina | Vigente |
+| 563 | TENSOPRIL | 5 mg comp.x 40 | Teva Argentina | Vigente |
+| 3249 | ZESTRIL | 10 mg comp.x 60 | AstraZeneca | Vigente |
+| 565 | TENSOPRIL | 20 mg comp.x 40 | Teva Argentina | Vigente |
+
+La tabla muestra 5 de los 11 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

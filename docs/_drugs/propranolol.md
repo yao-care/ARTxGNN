@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "PROPRANOLOL"
 predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy with excess of thin filaments", "chondroma", "cirrhotic cardiomyopathy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Propranolol: nueva indicación predicha, miopatía distal tipo Tateyama (distal myopathy, Tateyama type) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)"
 ---
 
@@ -73,12 +73,18 @@ Actualmente no hay literatura relacionada disponible.
 
 Propranolol cuenta con autorizaciones vigentes en Argentina (todas de producto de un solo principio activo, fabricante Gador):
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 12900 | PROPRANOLOL GADOR | 40 mg comp. x 100 | No registrada en los datos locales |
-| 3910 | PROPRANOLOL GADOR | 80 mg comp. x 50 | No registrada en los datos locales |
-| 9130 | PROPRANOLOL GADOR | 40 mg comp. x 50 | No registrada en los datos locales |
-| 3908 | PROPRANOLOL GADOR | 10 mg comp. x 20 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 12900 | PROPRANOLOL GADOR | 40 mg comp.x 100 | Gador | Vigente |
+| 3910 | PROPRANOLOL GADOR | 80 mg comp.x 50 | Gador | Vigente |
+| 9130 | PROPRANOLOL GADOR | 40 mg comp.x 50 | Gador | Vigente |
+| 3908 | PROPRANOLOL GADOR | 10 mg comp.x 20 | Gador | Vigente |
+
+La tabla muestra los 4 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

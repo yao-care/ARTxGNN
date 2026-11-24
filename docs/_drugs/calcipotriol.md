@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 72
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Calcipotriol: nueva indicación predicha, Queratosis seborreica (nivel de evidencia L3). Indicación original: No disponible en los datos de las autorizaciones de ANMAT"
 monitor_inn: "CALCIPOTRIOL"
 predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "vulvovaginitis", "vulvitis", "vulvar neoplasm", "ulceration of vulva", "vulvar squamous neoplasm", "postmenopausal atrophic vaginitis", "bone Paget disease", "breast fibrocystic disease"]
@@ -85,12 +85,18 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 47733 | CUTANIT | Ungüento x 30 g | No especificada |
-| 50317 | CUTANIT LOCION | Envase x 20 ml | No especificada |
-| 50473 | CALCI CORTICAS | Ungüento x 30 g | No especificada |
-| 47734 | CUTANIT B | Ungüento x 30 g | No especificada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 47733 | CUTANIT | ung.x 30 g | Lazar | Vigente |
+| 50317 | CUTANIT LOCION | env.x 20 ml | Lazar | Vigente |
+| 50473 | CALCI CORTICAS | ung.x 30 g | Casasco | Vigente |
+| 47734 | CUTANIT B | ung. x 30 g | Lazar | Vigente |
+
+La tabla muestra los 4 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ---
 

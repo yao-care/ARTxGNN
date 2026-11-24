@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "TICAGRELOR"
 predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arteriosclerosis", "priapism", "ischemic disease", "May-Thurner syndrome", "livedo reticularis", "vascular ectasia", "angiodysplasia", "venous thromboembolism"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Ticagrelor: nueva indicación predicha, arteriosclerosis intracraneal (intracranial arteriosclerosis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)"
 ---
 
@@ -78,11 +78,17 @@ Además, el estudio CHANCE-2 en portadores de pérdida de función de CYP2C19 co
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 47785 | BRILINTA | 90 mg comp. x 60 | No registrada en los datos locales |
-| 57586 | TICAZAN | 90 mg comp. x 30 | No registrada en los datos locales |
-| 47784 | BRILINTA | 90 mg comp. x 30 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 47785 | BRILINTA | 90 mg comp.x 60 | AstraZeneca | Vigente |
+| 57586 | TICAZAN | 90 mg comp.x 30 | Elea | Vigente |
+| 47784 | BRILINTA | 90 mg comp.x 30 | AstraZeneca | Vigente |
+
+La tabla muestra los 3 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

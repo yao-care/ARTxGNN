@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "sacubitril"
 predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sacubitril: nueva indicación predicha, Enfermedad de vasos pequeños cerebrales tipo 1 con o sin anomalías oculares (brain small vessel disease 1 with or witho… (nivel de evidencia L5). Indicación ori…"
 ---
 
@@ -74,13 +74,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 El medicamento figura como comercializado, con licencias vigentes en los registros locales (todas de producto de un solo principio activo). Principales autorizaciones:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 58264 | HIPERVAL PLUS 50 | comp. rec. x 30 | No registrada en los datos locales |
-| 59273 | RISTONEL | 100 mg comp. rec. x 30 | No registrada en los datos locales |
-| 58265 | HIPERVAL PLUS 100 | comp. rec. x 30 | No registrada en los datos locales |
-| 59531 | DUPERTAN | 100 mg comp. rec. x 60 | No registrada en los datos locales |
-| 52091 | ENTRESTO | 50 mg comp. rec. x 30 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 58264 | HIPERVAL PLUS 50 | comp.rec.x 30 | Richmond | Vigente |
+| 59273 | RISTONEL | 100 mg comp.rec.x 30 | Elea | Vigente |
+| 58265 | HIPERVAL PLUS 100 | comp.rec.x 30 | Richmond | Vigente |
+| 59531 | DUPERTAN | 100 mg comp.rec.x 60 | Adium | Vigente |
+| 59274 | RISTONEL | 100 mg comp.rec.x 60 | Elea | Vigente |
+
+La tabla muestra 5 de los 16 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

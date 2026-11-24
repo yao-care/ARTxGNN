@@ -8,7 +8,7 @@ indication_count: 10
 drugbank_id: DB00328
 monitor_inn: "Indomethacin"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "WHIM syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "brachyolmia", "myosclerosis", "juvenile idiopathic arthritis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "rheumatoid nodulosis"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Indometacina: nueva indicación predicha, Síndrome de braquidactilia-sindactilia (brachydactyly-syndactyly syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 9 (en el listado vigente: 9)"
 ---
 
@@ -74,13 +74,19 @@ Actualmente no hay literatura relacionada disponible.
 
 La indometacina se encuentra comercializada en Argentina, con 9 autorizaciones vigentes de productos de un solo principio activo (se listan hasta 5).
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 46251 | INDOMET LAFEDAR | Crema 2 % x 100 g |
-| 5771 | IM 75 MONTPELLIER | Cápsulas x 24 |
-| 5772 | IM 75 MONTPELLIER | Cápsulas x 50 |
-| 17309 | INDOTEX | Supositorios 100 mg x 10 |
-| 22059 | IM 75 MONTPELLIER | Gel x 50 g |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 46251 | INDOMET LAFEDAR | 2% cr.x 100 g | Lafedar | Vigente |
+| 5771 | IM 75 MONTPELLIER | cáps.x 24 | Montpellier | Vigente |
+| 5772 | IM 75 MONTPELLIER | cáps.x 50 | Montpellier | Vigente |
+| 17309 | INDOTEX | 100 mg sup.x 10 | Rontag | Vigente |
+| 22059 | IM 75 MONTPELLIER | gel x 50 g | Montpellier | Vigente |
+
+La tabla muestra 5 de los 9 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

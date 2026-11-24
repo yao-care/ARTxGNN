@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "DIAZEPAM"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "sleep disorder, initiating and maintaining sleep", "attention deficit hyperactivity disorder, inattentive type", "barbiturate abuse", "antidepressant type abuse", "hallucinogen abuse", "specific developmental disorder", "attention deficit-hyperactivity disorder", "obsolete neurogenic bladder (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Diazepam: nueva indicación predicha, Insomnio (insomnia (disease)) (nivel de evidencia L2). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -85,13 +85,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Diazepam figura como **comercializado** en Argentina. Hay al menos 20 autorizaciones vigentes, y la lista disponible puede ser parcial. Se muestran las 5 primeras.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 26975 | VALIUM | 10 mg a. x 5 x 2 ml | No registrada en los datos locales |
-| 10881 | CUADEL | 10 mg comp. x 20 | No registrada en los datos locales |
-| 8527 | SAROMET FULLTIME | cáps. x 20 | No registrada en los datos locales |
-| 32665 | PLIDAN | 2 mg comp. rec. x 20 | No registrada en los datos locales |
-| 28713 | DIACTAL ENEMA | pomo aplic. x 1 x 2,5 ml | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 26975 | VALIUM | 10 mg a.x 5 x 2 ml | Siegfried | Vigente |
+| 10881 | CUADEL | 10 mg comp.x 20 | Cetus | Vigente |
+| 8527 | SAROMET FULLTIME | cáps.x 20 | Rontag | Vigente |
+| 32665 | PLIDAN | 2 mg comp.rec.x 20 | Roemmers | Vigente |
+| 28713 | DIACTAL ENEMA | pomo aplic.x 1 x 2.5 ml | Roemmers | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

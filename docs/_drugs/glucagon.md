@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 154
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "GLUCAGON"
 predicted_indications: ["irritable bowel syndrome"]
 description: "Glucagon: nueva indicación predicha, Síndrome del intestino irritable (irritable bowel syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)"
@@ -83,9 +83,15 @@ Las publicaciones se refieren a GLP-1 y sus agonistas, no al glucagón.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 27440 | GLUCAGEN HYPOKIT (Novo Nordisk) | 1 mg polvo liofilizado ×1 + disolvente en jeringa prellenada | No disponible en los datos compilados |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 27440 | GLUCAGEN HYPOKIT | 1mg f.a.x1+disolv.jga.pr | Novo Nordisk | Vigente |
+
+La tabla muestra el único producto de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 El producto figura como vigente (1 autorización válida, ninguna cancelada).
 

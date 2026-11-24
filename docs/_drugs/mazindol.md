@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "MAZINDOL"
 predicted_indications: ["hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "obsolete hypertelorism (disease)", "frontorhiny", "postural orthostatic tachycardia syndrome", "pentosuria", "lethal polymalformative syndrome, Boissel type"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Mazindol: nueva indicación predicha, hipervitaminosis (hypervitaminosis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)"
 ---
 
@@ -72,12 +72,18 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 50919 | MZ1 | 1 mg comp.rec.x 30 | No registrada en los datos locales |
-| 50920 | MZ2 | 2 mg comp.rec.x 30 | No registrada en los datos locales |
-| 51529 | FAGOLIP PLUS | comp.x 30 | No registrada en los datos locales |
-| 33936 | DIMAGRIR | caps.x 30 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 50919 | MZ1 | 1 mg comp.rec.x 30 | Eurofarma | Vigente |
+| 50920 | MZ2 | 2 mg comp.rec.x 30 | Eurofarma | Vigente |
+| 51529 | FAGOLIP PLUS | comp.x 30 | Cetus | Vigente |
+| 33936 | DIMAGRIR | caps.x 30 | Gador | Vigente |
+
+La tabla muestra los 4 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Las cuatro autorizaciones están vigentes.
 

@@ -8,7 +8,7 @@ indication_count: 9
 drugbank_id: DB00635
 monitor_inn: "Prednisone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Prednisona: nueva indicación predicha, Alopecia areata (nivel de evidencia L3). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)"
 ---
 
@@ -86,12 +86,18 @@ Se muestran las publicaciones más relevantes (prioridad: ensayos aleatorizados,
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 36836 | METILPRES | 5 mg comp. ran. x 60 | No registrada |
-| 36835 | METILPRES | 5 mg comp. ran. x 30 | No registrada |
-| 38112 | METILPRES | 20 mg comp. ran. x 20 | No registrada |
-| 40714 | METILPRES 50 | 50 mg comp. rec. trirran. x 20 | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 36836 | METILPRES | 5 mg comp.ran.x 60 | Trb-Pharma | Vigente |
+| 36835 | METILPRES | 5 mg comp.ran.x 30 | Trb-Pharma | Vigente |
+| 38112 | METILPRES | 20 mg comp.ran.x 20 | Trb-Pharma | Vigente |
+| 40714 | METILPRES 50 | 50mgcomp.rec.trirran.x20 | Trb-Pharma | Vigente |
+
+La tabla muestra los 4 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

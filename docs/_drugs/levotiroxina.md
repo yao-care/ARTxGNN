@@ -8,7 +8,7 @@ indication_count: 4
 drugbank_id: DB00451
 monitor_inn: "Levothyroxine"
 predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "Potter sequence", "Carney complex"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Levotiroxina: nueva indicación predicha, hipodisplasia/aplasia renal (renal hypodysplasia/aplasia) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -66,13 +66,19 @@ Por lo tanto, el vínculo mecanístico es especulativo y no se identifica un mec
 
 Se registran al menos 20 autorizaciones vigentes de producto de un solo principio activo (la lista puede ser parcial). Principales autorizaciones:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 42758 | EUTHYROX | 88 mcg, comprimidos birranurados x 50 | No registrada en los datos locales |
-| 39848 | T4 MONTPELLIER 175 | 175 mcg, comprimidos x 50 | No registrada en los datos locales |
-| 38312 | T4 MONTPELLIER | 200 mcg, inyectable x 1 ml | No registrada en los datos locales |
-| 26920 | LEVOTIROXINA GSK | 175 mcg, comprimidos x 50 | No registrada en los datos locales |
-| 33625 | T4 MONTPELLIER 50 | 50 mcg, comprimidos x 50 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 42758 | EUTHYROX | 88 mcg comp.birran.x 50 | Elea | Vigente |
+| 39848 | T4 MONTPELLIER 175 | 175 mcg comp.x 50 | Montpellier | Vigente |
+| 38312 | T4 MONTPELLIER | 200 mcg iny.a.x 1 ml | Montpellier | Vigente |
+| 26920 | LEVOTIROXINA GSK | 175 mcg comp.x 50 | GlaxoSmithKline | Vigente |
+| 33625 | T4 MONTPELLIER 50 | 50 mcg comp.x 50 | Montpellier | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

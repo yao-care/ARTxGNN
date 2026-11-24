@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 149
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "flurbiprofen"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "hypermobility of coccyx"]
 description: "Flurbiprofen: nueva indicación predicha, displasia acromesomélica tipo Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) (nivel de evidencia L5)."
@@ -71,12 +71,18 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 18400 | CLINADOL FORTE (Gador) | Comprimidos de 100 mg x 8 |
-| 18401 | CLINADOL FORTE (Gador) | Comprimidos de 100 mg x 16 |
-| 41619 | CLINADOL FORTE AP (Gador) | Comprimidos recubiertos de liberación prolongada de 200 mg x 8 |
-| 45673 | CLINADOL COLUTORIO (Gador) | Frasco de 150 ml |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 18400 | CLINADOL FORTE | 100 mg comp.x 8 | Gador | Vigente |
+| 18401 | CLINADOL FORTE | 100 mg comp.x 16 | Gador | Vigente |
+| 41619 | CLINADOL FORTE AP | 200mgcomp.rec.lib.prolx8 | Gador | Vigente |
+| 45673 | CLINADOL COLUTORIO | frasco x 150 ml | Gador | Vigente |
+
+La tabla muestra los 4 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

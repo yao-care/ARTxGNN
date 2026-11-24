@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 126
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Diltiazem: usos conocidos y situación de mercado en Argentina; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -72,25 +72,31 @@ Los candidatos del modelo TxGNN (puntuación ≥ 0,99) para Diltiazem correspond
 
 ## Informacion de Mercado en Argentina
 
-| Registro | Producto | Forma farmacéutica | Estado |
-|------|------|------|------|
-| 17872 | diltiazem | 240 mg caps.x 30 | Vigente |
-| 7577 | diltiazem | 60 mg comp.x 50 | Vigente |
-| 8691 | diltiazem | 60 mg comp.x 50 | Vigente |
-| 9274 | diltiazem | 120 mg comp.x 30 | Vigente |
-| 38108 | diltiazem | 300 mg cáps.x 30 | Vigente |
-| 9278 | diltiazem | 240 mg comp.x 30 | Vigente |
-| 4545 | diltiazem | 120 mg comp.x 50 | Vigente |
-| 22294 | diltiazem | 300 mg comp.x 30 | Vigente |
-| 7578 | diltiazem | 120 mg cáps.x 30 | Vigente |
-| 968 | diltiazem | 60 mg comp.x 60 | Vigente |
-| 969 | diltiazem | 90 mg comp.x 30 | Vigente |
-| 9277 | diltiazem | 180 mg comp.x 30 | Vigente |
-| 17871 | diltiazem | 180 mg caps.x 30 | Vigente |
-| 4532 | diltiazem | 90 mg comp.x 50 | Vigente |
-| 970 | diltiazem | 90 mg comp.x 60 | Vigente |
-| 38107 | diltiazem | 240 mg cáps.x 30 | Vigente |
-| 38106 | diltiazem | 180 mg cáps.x 30 | Vigente |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 17872 | ACALIX CD | 240 mg caps.x 30 | Roemmers | Vigente |
+| 7577 | ACALIX | 60 mg comp.x 50 | Roemmers | Vigente |
+| 8691 | HART | 60 mg comp.x 50 | Teva Argentina | Vigente |
+| 9274 | INCORIL AP 120 | 120 mg comp.x 30 | Bagó | Vigente |
+| 38108 | ACALIX CRONOS | 300 mg cáps.x 30 | Roemmers | Vigente |
+| 9278 | INCORIL MONODOSIS 240 | 240 mg comp.x 30 | Bagó | Vigente |
+| 4545 | ACALIX | 120 mg comp.x 50 | Roemmers | Vigente |
+| 22294 | INCORIL MONODOSIS 300 | 300 mg comp.x 30 | Bagó | Vigente |
+| 7578 | ACALIX AP | 120 mg cáps.x 30 | Roemmers | Vigente |
+| 968 | INCORIL 60 | 60 mg comp.x 60 | Bagó | Vigente |
+| 969 | INCORIL AP 90 | 90 mg comp.x 30 | Bagó | Vigente |
+| 9277 | INCORIL MONODOSIS 180 | 180 mg comp.x 30 | Bagó | Vigente |
+| 17871 | ACALIX CD | 180 mg caps.x 30 | Roemmers | Vigente |
+| 4532 | ACALIX | 90 mg comp.x 50 | Roemmers | Vigente |
+| 970 | INCORIL AP 90 | 90 mg comp.x 60 | Bagó | Vigente |
+| 38107 | ACALIX CRONOS | 240 mg cáps.x 30 | Roemmers | Vigente |
+| 38106 | ACALIX CRONOS | 180 mg cáps.x 30 | Roemmers | Vigente |
+
+La tabla muestra los 17 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -8,7 +8,7 @@ indication_count: 2
 drugbank_id: DB00388
 monitor_inn: "Phenylephrine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Fenilefrina: nueva indicación predicha, enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 10 (en el listado vigente: 10)"
 ---
 
@@ -75,13 +75,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 246 | PREDNEFRIN 0.12% | Suspensión oftálmica x 10 ml | No registrada |
-| 42315 | OFTALDROP | Suspensión oftálmica x 10 ml | No registrada |
-| 36802 | DELTAR | Suspensión oftálmica x 10 ml | No registrada |
-| 11796 | ALZATEN DISGRELENT | Grageas x 20 | No registrada |
-| 245 | PREDNEFRIN FORTE | Suspensión oftálmica x 10 ml | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 246 | PREDNEFRIN 0.12% | susp.oft.x 10 ml | Abbvie | Vigente |
+| 42315 | OFTALDROP | susp.oft.x 10 ml | Denver Farma | Vigente |
+| 36802 | DELTAR | susp.oft.x 10 ml | Elea | Vigente |
+| 11796 | ALZATEN DISGRELENT | grag.x 20 | Ariston | Vigente |
+| 245 | PREDNEFRIN FORTE | susp.oft.x 10 ml | Abbvie | Vigente |
+
+La tabla muestra 5 de los 10 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

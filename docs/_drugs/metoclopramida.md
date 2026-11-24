@@ -8,7 +8,7 @@ indication_count: 2
 drugbank_id: DB01233
 monitor_inn: "Metoclopramide"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Metoclopramida: nueva indicación predicha, Gastroduodenitis (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 19 (en el listado vigente: 19)"
 ---
 
@@ -97,13 +97,19 @@ Se listan las publicaciones más relevantes. Ninguna estudia directamente la gas
 
 Metoclopramida figura como comercializada en Argentina, con 19 autorizaciones vigentes de producto de un solo principio activo. Se muestran las principales:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 2217 | RELIVERAN | Gotas (20 ml) | No registrada |
-| 48614 | RILAQUIN SL | Comprimidos sublinguales de 10 mg | No registrada |
-| 2219 | RELIVERAN | Gotas para adultos (20 ml) | No registrada |
-| 21308 | RILAQUIN | Comprimidos de 10 mg | No registrada |
-| 52482 | RELIVERAN INYECTABLE | Ampollas de 10 mg (2 ml) | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 2217 | RELIVERAN | nñ.gts.x 20 ml | Gador | Vigente |
+| 48614 | RILAQUIN SL | 10 mg comp.subl.x 10 | Microsules Arg. | Vigente |
+| 2219 | RELIVERAN | ad.gts.x 20 ml | Gador | Vigente |
+| 21308 | RILAQUIN | 10 mg comp.x 20 | Microsules Arg. | Vigente |
+| 2220 | RELIVERAN | ad.gts.x 60 ml | Gador | Vigente |
+
+La tabla muestra 5 de los 19 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ---
 

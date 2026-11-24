@@ -8,7 +8,7 @@ indication_count: 8
 drugbank_id: DB01242
 monitor_inn: "Clomipramine"
 predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of infancy", "schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder", "agoraphobia", "attention deficit-hyperactivity disorder"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clomipramina: nueva indicación predicha, trastorno de ansiedad (anxiety disorder) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 5 (en el listado vigente: 5)"
 ---
 
@@ -93,13 +93,19 @@ Importante: la evidencia compilada es sobre condiciones relacionadas (TOC, páni
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 2173 | ANAFRANIL | grag. x 30 | — |
-| 56798 | CLOMISAL DIVIDOSIS | comp. ran. divids. x 20 | — |
-| 2174 | ANAFRANIL | a. x 10 | — |
-| 16003 | ANAFRANIL 75 DIVITABS | 75 mg comp. rec. x 20 | — |
-| 56799 | CLOMISAL DIVIDOSIS | comp. ran. divids. x 30 | — |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 2173 | ANAFRANIL | grag.x 30 | Biosidus S.A.U. | Vigente |
+| 56798 | CLOMISAL DIVIDOSIS | comp.ran.divids.x 20 | Ariston | Vigente |
+| 2174 | ANAFRANIL | a.x 10 | Novartis-Sandoz | Vigente |
+| 16003 | ANAFRANIL 75 DIVITABS | 75 mg comp.rec.x 20 | Biosidus S.A.U. | Vigente |
+| 56799 | CLOMISAL DIVIDOSIS | comp.ran.divids.x 30 | Ariston | Vigente |
+
+La tabla muestra los 5 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

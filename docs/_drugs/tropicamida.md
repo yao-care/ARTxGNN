@@ -8,7 +8,7 @@ indication_count: 3
 drugbank_id: DB00809
 monitor_inn: "Tropicamide"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tropicamida: nueva indicación predicha, síndrome de la cola de caballo (cauda equina syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)"
 ---
 
@@ -72,11 +72,17 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 138 | ALCON MYDRIL | Solución oftálmica 1 % x 5 ml | No registrada en los datos locales |
-| 44489 | MIDRIAX-T | Gotas oftálmicas x 5 ml | No registrada en los datos locales |
-| 31702 | TROPIOFTAL F | Solución oftálmica x 5 ml | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 138 | ALCON MYDRIL | 1% sol.oft.x 5 ml | Alcon | Vigente |
+| 44489 | MIDRIAX-T | gts.oft.x 5 ml | Klonal | Vigente |
+| 31702 | TROPIOFTAL F | sol.oft.x 5 ml | Denver Farma | Vigente |
+
+La tabla muestra los 3 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

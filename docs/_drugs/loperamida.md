@@ -8,7 +8,7 @@ indication_count: 10
 drugbank_id: DB00836
 monitor_inn: "Loperamide"
 predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "conjunctivitis", "gastroduodenitis", "pseudomembranous conjunctivitis", "chronic follicular conjunctivitis", "conjunctival folliculosis", "serous conjunctivitis except viral", "parasitic conjunctivitis", "Angelucci syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Loperamida: nueva indicación predicha, conjuntivitis contagiosa aguda (acute contagious conjunctivitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -75,13 +75,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Los datos locales muestran que el fármaco está comercializado, con al menos 20 autorizaciones vigentes de productos de un solo principio activo (la lista puede ser parcial). Principales autorizaciones:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 20312 | IONET | comp. x 10 |
-| 20401 | LOPERAMIDA FABRA | comp. x 10 |
-| 20141 | LANSEKA | 2 mg comp. x 10 |
-| 47217 | LOVOPREN | 2 mg comp. x 10 |
-| 20842 | REGULANE SOLUCIÓN | sol. x 60 ml |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 20312 | IONET | comp.x 10 | Cetus | Vigente |
+| 20401 | LOPERAMIDA FABRA | comp.x 10 | Fabra | Vigente |
+| 20141 | LANSEKA | 2 mg comp.x 10 | Lafedar | Vigente |
+| 47217 | LOVOPREN | 2 mg comp.x 10 | Eczane | Vigente |
+| 20842 | REGULANE SOLUCION | sol.x 60 ml | Finadiet | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

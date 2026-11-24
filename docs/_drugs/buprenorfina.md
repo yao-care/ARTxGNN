@@ -8,7 +8,7 @@ indication_count: 6
 drugbank_id: DB00921
 monitor_inn: "Buprenorphine"
 predicted_indications: ["acute intermittent porphyria", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "continuous spikes and waves during sleep", "benign shuddering attacks", "extrapyramidal and movement disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Buprenorfina: nueva indicación predicha, porfiria aguda intermitente (acute intermittent porphyria) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)"
 ---
 
@@ -75,12 +75,18 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 61001 | BUPRIVA | Parche 10 mg x 1 | No registrada |
-| 60425 | BIVALIS | Parche 20 mg x 4 | No registrada |
-| 61000 | BUPRIVA | Parche 5 mg x 1 | No registrada |
-| 61002 | BUPRIVA | Parche 20 mg x 1 | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 61001 | BUPRIVA | 10 mg parche x 1 | Adium | Vigente |
+| 60425 | BIVALIS | 20 mg parche x 4 | Vannier-Grunent | Vigente |
+| 61000 | BUPRIVA | 5 mg parche x 1 | Adium | Vigente |
+| 61002 | BUPRIVA | 20 mg parche x 1 | Adium | Vigente |
+
+La tabla muestra los 4 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Conclusión y Próximos Pasos
 

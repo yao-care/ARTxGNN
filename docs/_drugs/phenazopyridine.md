@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 211
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Phenazopyridine: nueva indicación predicha, Bronquitis (nivel de evidencia L5). Indicación original: No disponible en la licencia de ANMAT (el fármaco se describe como an…"
 monitor_inn: "phenazopyridine"
 predicted_indications: ["bronchitis"]
@@ -81,9 +81,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 30587 | UROTEM DOL | Comprimidos (10 + 10) | No especificada en los datos disponibles |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 30587 | UROTEM DOL | comp.x 10 + 10 | Temis-Lostaló | Vigente |
+
+La tabla muestra el único producto de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ---
 

@@ -8,7 +8,7 @@ indication_count: 4
 drugbank_id: DB00915
 monitor_inn: "Amantadine"
 predicted_indications: ["Rasmussen subacute encephalitis", "transaldolase deficiency", "myelitis", "PLA2G6-associated neurodegeneration"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Amantadina: nueva indicación predicha, Encefalitis subaguda de Rasmussen (Rasmussen subacute encephalitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)"
 ---
 
@@ -73,12 +73,18 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 46782 | VIROSOL | 100 mg comp. x 30 | No registrada en los datos locales |
-| 7636 | VIROSOL | 100 mg comp. x 10 | No registrada en los datos locales |
-| 39691 | AMPAKINE | 100 mg comp. x 60 | No registrada en los datos locales |
-| 39690 | AMPAKINE | 100 mg comp. x 30 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 46782 | VIROSOL | 100 mg comp.x 30 | Elea | Vigente |
+| 7636 | VIROSOL | 100 mg comp.x 10 | Elea | Vigente |
+| 39691 | AMPAKINE | 100 mg comp.x 60 | Rontag | Vigente |
+| 39690 | AMPAKINE | 100 mg comp.x 30 | Rontag | Vigente |
+
+La tabla muestra los 4 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

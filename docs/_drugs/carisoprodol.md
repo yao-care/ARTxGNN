@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 83
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Carisoprodol: nueva indicación predicha, Insomnio (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "CARISOPRODOL"
 predicted_indications: ["insomnia (disease)"]
@@ -74,13 +74,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 49423 | LISTAFLEX | Comprimidos x 30 | No especificada |
-| 15750 | LISTAFLEX | Comprimidos x 20 | No especificada |
-| 40275 | NAPRUX DISTEN | Comprimidos x 30 | No especificada |
-| 8367 | FLEXICAMIN | Comprimidos x 20 | No especificada |
-| 8258 | SOLOCALM FLEX | Comprimidos x 20 | No especificada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 49423 | LISTAFLEX | comp.x 30 | Finadiet | Vigente |
+| 15750 | LISTAFLEX | comp.x 20 | Finadiet | Vigente |
+| 40275 | NAPRUX DISTEN | comp.x 30 | Andrómaco | Vigente |
+| 8367 | FLEXICAMIN | comp.x 20 | Roemmers | Vigente |
+| 8258 | SOLOCALM FLEX | comp.x 20 | Laboratorios Be | Vigente |
+
+La tabla muestra 5 de los 10 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Se muestran 5 de las 10 autorizaciones vigentes (todas de monofármaco).
 

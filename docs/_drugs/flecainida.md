@@ -8,7 +8,7 @@ indication_count: 9
 drugbank_id: DB01195
 monitor_inn: "Flecainide"
 predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "ABri amyloidosis", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "duodenal obstruction", "cerebrovascular disorder", "nephrogenic syndrome of inappropriate antidiuresis"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Flecainida: nueva indicación predicha, Accidente cerebrovascular (stroke disorder) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)"
 ---
 
@@ -100,10 +100,16 @@ Ninguna de estas publicaciones estudia directamente la flecainida en la prevenci
 
 La flecainida figura como **comercializada** en Argentina. Las dos autorizaciones registradas son de producto de principio activo único y están vigentes.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 7701 | DIONDEL | Comprimidos x 20 |
-| 7702 | DIONDEL | Comprimidos x 50 |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 7701 | DIONDEL | comp.x 20 | Roemmers | Vigente |
+| 7702 | DIONDEL | comp.x 50 | Roemmers | Vigente |
+
+La tabla muestra los 2 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ---
 

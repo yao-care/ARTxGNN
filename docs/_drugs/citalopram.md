@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 5
 monitor_inn: "CITALOPRAM"
 predicted_indications: ["obsessive-compulsive disorder", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Citalopram: nueva indicación predicha, Trastorno obsesivo-compulsivo (obsessive-compulsive disorder) (nivel de evidencia L3). En Argentina, productos en el listado de PAMI: 7 (en el listado vigente: 7)"
 ---
 
@@ -90,13 +90,19 @@ Ninguno de estos ensayos evalúa citalopram como intervención principal. Aporta
 
 Hay 7 autorizaciones vigentes, todas de productos de principio activo único. El texto de indicación aprobada no figura en los datos locales. Se muestran 5.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
-|---------|------|------|-----------|
-| 51103 | CITTA | 20 mg comp. x 28 | Eurofarma |
-| 30387 | PSICONOR | 20 mg comp. x 30 | Teva Argentina |
-| 24696 | ZENTIUS | comp. rec. x 30 | Roemmers |
-| 51102 | CITTA | 20 mg comp. x 14 | Eurofarma |
-| 33725 | HUMORAP 40 | 40 mg comp. x 28 | Bagó |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 51103 | CITTA | 20 mg comp.x 28 | Eurofarma | Vigente |
+| 30387 | PSICONOR | 20 mg comp.x 30 | Teva Argentina | Vigente |
+| 24696 | ZENTIUS | comp.rec.x 30 | Roemmers | Vigente |
+| 51102 | CITTA | 20 mg comp.x 14 | Eurofarma | Vigente |
+| 33725 | HUMORAP 40 | 40 mg comp.x 28 | Bagó | Vigente |
+
+La tabla muestra 5 de los 7 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

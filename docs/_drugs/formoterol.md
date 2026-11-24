@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "FORMOTEROL"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-24
 description: "Formoterol: nueva indicación predicha, malformación respiratoria (respiratory malformation) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -82,13 +82,19 @@ Las publicaciones recopiladas tratan sobre EPOC, asma y otras condiciones respir
 
 Formoterol figura como comercializado en Argentina, con al menos 20 autorizaciones vigentes (la lista puede ser parcial). Los registros no incluyen texto de indicación aprobada.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 20365 | OXIS TURBUHALER | 9 mcg, envase x 60 dosis |
-| 28199 | SYMBICORT TURBUHALER | 160/4,5 mcg, 120 dosis |
-| 43180 | FREVIA | 160/4,5 mcg, 120 dosis |
-| 57938 | NEUMOTEROL AEROSOL | 160/4,5, 120 dosis |
-| 49181 | HEXALER BRONQUIAL DUO | 200/10 mcg, cápsulas para inhalar x 60 |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 20365 | OXIS TURBUHALER | 9 mcg env.x 60 dosis | AstraZeneca | Vigente |
+| 57567 | NEUMOCORT PLUS | cáps.c/polvo x120+aplic. | Cassará | Vigente |
+| 47443 | FORMOVENT + BUDE | cáps.p/inhal.x60 s/aplic | Lab Internacion | Vigente |
+| 57938 | NEUMOTEROL AEROSOL | 160/4.5 x 120 dosis | Elea | Vigente |
+| 43180 | FREVIA | 160/4.5 mcg x 120 dosis | AstraZeneca | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

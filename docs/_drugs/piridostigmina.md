@@ -8,7 +8,7 @@ indication_count: 4
 drugbank_id: DB00545
 monitor_inn: "Pyridostigmine"
 predicted_indications: ["autoimmune disease of peripheral nervous system", "disease of receptor activity", "hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Piridostigmina: nueva indicación predicha, enfermedad autoinmune del sistema nervioso periférico (autoimmune disease of peripheral nervous system) (nivel de evidencia L5)."
 ---
 
@@ -85,10 +85,16 @@ Se listan las publicaciones más relevantes (priorizando revisiones y estudios d
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 39267 | MESTINON TS | 180 mg comp. x 30 | No registrada en los datos locales |
-| 27096 | MESTINON | 60 mg comp. x 100 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 39267 | MESTINON TS | 180 mg comp.x 30 | Roemmers | Vigente |
+| 27096 | MESTINON | 60 mg comp.x 100 | Roemmers | Vigente |
+
+La tabla muestra los 2 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "ATENOLOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Atenolol: nueva indicación predicha, Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -74,13 +74,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Se registran al menos 20 autorizaciones vigentes de productos con atenolol como único principio activo; la lista puede ser parcial. Se muestran las 5 principales:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 3849 | ATENOLOL GADOR | 100 mg comprimidos x 28 | No registrada en los datos locales |
-| 32121 | ATENOLOL MICROSULES | 50 mg comprimidos x 28 | No registrada en los datos locales |
-| 59354 | VERICORDIN | 100 mg comprimidos x 60 | No registrada en los datos locales |
-| 35433 | PLENACOR 50 | 50 mg comprimidos x 60 | No registrada en los datos locales |
-| 34628 | ATENOLOL GADOR | 25 mg comprimidos x 30 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 3849 | ATENOLOL GADOR | 100 mg comp.x 28 | Gador | Vigente |
+| 32121 | ATENOLOL MICROSULES | 50 mg comp.x 28 | Microsules Arg. | Vigente |
+| 59354 | VERICORDIN | 100 mg comp.x 60 | Lazar | Vigente |
+| 35433 | PLENACOR 50 | 50 mg comp.x 60 | Bagó | Vigente |
+| 34628 | ATENOLOL GADOR | 25 mg comp.x 30 | Gador | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

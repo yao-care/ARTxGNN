@@ -8,7 +8,7 @@ indication_count: 4
 drugbank_id: DB00796
 monitor_inn: "Candesartan cilexetil"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Candesartán Cilexetil: nueva indicación predicha, Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5)."
 ---
 
@@ -75,13 +75,19 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 
 El fármaco está comercializado en Argentina, con 15 autorizaciones vigentes, todas de monofármaco según los registros. Ninguna incluye texto de indicación aprobada.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
-|---------|------|------|-----------|
-| 28929 | DACTEN | 8 mg comp. x 15 | Elea |
-| 55471 | ATACAND | 8 mg comp. divisibles x 28 | Biopas Argentina |
-| 55473 | ATACAND | 32 mg comp. divisibles x 28 | Biopas Argentina |
-| 47502 | CANDESARTAN RICHET | 16 mg comp. x 30 | Richet |
-| 28932 | DACTEN | 16 mg comp. x 30 | Elea |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 28929 | DACTEN | 8 mg comp.x 15 | Elea | Vigente |
+| 55471 | ATACAND | 8 mg comp.divis.x 28 | Biopas Argentin | Vigente |
+| 55473 | ATACAND | 32 mg comp.divis.x 28 | Biopas Argentin | Vigente |
+| 47502 | CANDESARTAN RICHET | 16 mg comp.x 30 | Richet | Vigente |
+| 28932 | DACTEN | 16 mg comp.x 30 | Elea | Vigente |
+
+La tabla muestra 5 de los 15 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Se muestran las 5 primeras de 15 autorizaciones.
 

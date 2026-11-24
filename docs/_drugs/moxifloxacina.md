@@ -8,7 +8,7 @@ indication_count: 9
 drugbank_id: DB00218
 monitor_inn: "Moxifloxacin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder", "hematopoietic and lymphoid system neoplasm"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Moxifloxacina: nueva indicación predicha, Síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 10 (en el listado vigente: 10)"
 ---
 
@@ -74,13 +74,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Las 10 autorizaciones registradas están vigentes y corresponden a productos de un solo principio activo.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 43812 | AVELOX I.V. | 400 mg solución para infusión x 250 ml |
-| 58352 | FLOMOX | Solución oftálmica x 5 ml |
-| 36318 | VIGAMOX | 0,5 % solución oftálmica x 5 ml |
-| 25691 | AVELOX | 400 mg comprimidos recubiertos x 5 |
-| 56081 | MOXIBASE | 400 mg comprimidos recubiertos x 10 |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 43812 | AVELOX I.V. | 400 mg sol.p/inf.x 250ml | Bayer (PH) | Vigente |
+| 58352 | FLOMOX | sol.oft.x 5 ml | Max Vision | Vigente |
+| 36318 | VIGAMOX | 0.5% sol.oft.x 5 ml | Novartis | Vigente |
+| 25691 | AVELOX | 400 mg comp.rec.x 5 | Bayer (PH) | Vigente |
+| 56081 | MOXIBASE | 400 mg comp.rec.x 10 | Cassará | Vigente |
+
+La tabla muestra 5 de los 10 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Se muestran las 5 principales; existen otras 5 autorizaciones vigentes (AVELOX x 7, MOXIDROP, MOFLAG, VIGADEXA y MOFLAG D).
 

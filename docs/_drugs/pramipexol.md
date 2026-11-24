@@ -8,7 +8,7 @@ indication_count: 10
 drugbank_id: DB00413
 monitor_inn: "Pramipexole"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "attention deficit hyperactivity disorder, inattentive type", "specific developmental disorder", "chondromyxoid fibroma", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "atypical glycine encephalopathy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pramipexol: nueva indicación predicha, Trastorno por déficit de atención e hiperactividad (attention deficit-hyperactivity disorder) (nivel de evidencia L5)."
 ---
 
@@ -83,13 +83,19 @@ Ninguno de los siguientes trabajos evalúa directamente la eficacia de pramipexo
 
 Los registros locales muestran pramipexol como monofármaco con autorizaciones vigentes. La lista disponible es parcial, por lo que puede haber más autorizaciones. A continuación se muestran las principales:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 22598 | SIFROL | 0,250 mg comprimidos x 30 | No registrada en los datos locales |
-| 45178 | SIFROL ER | 0,75 mg comprimidos de liberación prolongada x 30 | No registrada en los datos locales |
-| 43970 | NOXOPRAN | 0,25 mg comprimidos x 30 | No registrada en los datos locales |
-| 49023 | NULIPAR LP | 0,375 mg comprimidos de liberación prolongada x 10 | No registrada en los datos locales |
-| 44951 | NEUROSOMAT 0.25 MG | 0,25 mg comprimidos x 30 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 43970 | NOXOPRAN | 0.25 mg comp.x 30 | Casasco | Vigente |
+| 49023 | NULIPAR LP | 0.375mg comp.lib.prolx10 | Baliarda | Vigente |
+| 43971 | NOXOPRAN | 0.25 mg comp.x 60 | Casasco | Vigente |
+| 22599 | SIFROL | 0.250 mg comp.x 100 | Boehringer Inge | Vigente |
+| 22600 | SIFROL | 1 mg comp.x 30 | Boehringer Inge | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

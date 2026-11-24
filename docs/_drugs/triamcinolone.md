@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "triamcinolone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Triamcinolone: nueva indicación predicha, alopecia mucinosa (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 5 (en el listado vigente: 5)"
 ---
 
@@ -74,13 +74,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 21316 | GLYTOP | Crema, 30 g | No registrada |
-| 21317 | GLYTOP-F | Crema, 30 g | No registrada |
-| 17884 | MANTUS | Pomada/polvo, 30 g | No registrada |
-| 896 | BAGOVIT A PLUS | Crema, 100 g | No registrada |
-| 17883 | MANTUS | Pomada/polvo, 10 g | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 21316 | GLYTOP | cr.x 30 g | Pharmatrix | Vigente |
+| 21317 | GLYTOP-F | cr.x 30 g | Pharmatrix | Vigente |
+| 17884 | MANTUS | pda.x 30 g | Siegfried | Vigente |
+| 896 | BAGOVIT A PLUS | cr.x 100 g | Bagó | Vigente |
+| 17883 | MANTUS | pda.x 10 g | Siegfried | Vigente |
+
+La tabla muestra los 5 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

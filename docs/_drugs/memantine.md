@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "MEMANTINE"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Memantine: nueva indicación predicha, hipertensión pulmonar (pulmonary hypertension) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -74,13 +74,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 55079 | CARRIER XR | 21 mg comp. x 30 | No registrada |
-| 51633 | NEUROPLUS XR | 7 mg comp. rec. lib. pro. x 30 | No registrada |
-| 51921 | TONIBRAL XR | 14 mg cáps. x 30 | No registrada |
-| 30251 | FENTINA | 10 mg comp. x 30 | No registrada |
-| 45317 | CONEXINE 20 | 20 mg comp. rec. x 30 | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 55079 | CARRIER XR | 21 mg comp.x 30 | Casasco | Vigente |
+| 51633 | NEUROPLUS XR | 7mg comp.rec.lib.pro.x30 | Baliarda | Vigente |
+| 51921 | TONIBRAL XR | 14 mg cáps.x 30 | Ariston | Vigente |
+| 30251 | FENTINA | 10 mg comp.x 30 | Megalabs Argent | Vigente |
+| 45317 | CONEXINE 20 | 20 mg comp.rec.x 30 | Beta | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 La lista es parcial; existen al menos 20 autorizaciones vigentes.
 

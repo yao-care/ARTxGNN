@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "HALOPERIDOL"
 predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Haloperidol: nueva indicación predicha, Defecto congénito de la glicosilación con fucosilación defectuosa (congenital disorder of glycosylation with defective… (nivel de evidencia L5). Indicación ori…"
 ---
 
@@ -74,13 +74,19 @@ Actualmente no hay literatura relacionada disponible.
 
 La lista de autorizaciones puede ser parcial: se registran al menos 20 autorizaciones, todas vigentes y de producto de un solo principio activo.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 9662 | HALOPERIDOL MEDIPHARMA | 10 mg comp. x 30 | No registrada en los datos locales |
-| 26686 | NEUPRAM | 1 mg comp. x 30 | No registrada en los datos locales |
-| 32796 | ENABRAN | 10 mg comp. x 60 | No registrada en los datos locales |
-| 3974 | HALOPIDOL | 1 mg comp. x 100 | No registrada en los datos locales |
-| 27526 | HALOPERIDOL DENVER FARMA DECANOATO | 150 mg amp. x 3 ml | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 9662 | HALOPERIDOL MEDIPHARMA | 10 mg comp.x 30 | Medipharma | Vigente |
+| 26686 | NEUPRAM | 1 mg comp.x 30 | Sidus | Vigente |
+| 32796 | ENABRAN | 10 mg comp.x 60 | Casasco | Vigente |
+| 3974 | HALOPIDOL | 1 mg comp.x 100 | Janssen-Cilag | Vigente |
+| 26690 | NEUPRAM | 10 mg comp.x 30 | Sidus | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

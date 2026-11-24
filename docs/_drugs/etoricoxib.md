@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 139
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Etoricoxib: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: No disponible en las licencias de ANMAT (uso clínico conocido: artrit…"
 monitor_inn: "ETORICOXIB"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "benign prostatic hyperplasia (disease)", "kyphoscoliotic heart disease", "headache disorder", "trigeminal autonomic cephalalgia"]
@@ -75,13 +75,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Se registran 20 autorizaciones vigentes, todas de monofármaco (sin combinaciones ni canceladas). Los textos de indicación aprobada no figuran en los datos compilados. Se listan las 5 principales:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 33993 | ARCOXIA (Organon Arg.) | 60 mg comp. rec. x 28 | No disponible |
-| 36921 | ARCOXIA (Organon Arg.) | 120 mg comp. rec. x 7 | No disponible |
-| 54070 | BLOKIUM COX (Casasco) | 60 mg comp. x 28 | No disponible |
-| 54048 | DORICOXIB 120 (Roemmers) | 120 mg comp. rec. x 10 | No disponible |
-| 54154 | KEMPO (Teva Argentina) | 90 mg comp. rec. x 30 | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 54070 | BLOKIUM COX | 60 mg comp.x 28 | Casasco | Vigente |
+| 58427 | FLOGOCOX CB 90 | 90 mg cáps. bl. x 14 | Bagó | Vigente |
+| 33993 | ARCOXIA | 60 mg comp.rec.x 28 | Organon Arg. | Vigente |
+| 54075 | FLOGOCOX 60 | 60 mg comp.x 28 | Bagó | Vigente |
+| 54048 | DORICOXIB 120 | 120 mg comp.rec.x 10 | Roemmers | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 112
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clobetasol: nueva indicación predicha, Linfoma cutáneo primario de células T (nivel de evidencia L3). Indicación original: No disponible en los registros de ANMAT compilados (todos los textos…"
 monitor_inn: "CLOBETASOL"
 predicted_indications: ["primary cutaneous T-cell lymphoma"]
@@ -96,13 +96,19 @@ Las demás publicaciones recuperadas son reportes de caso sobre diagnóstico dif
 
 Se listan 5 de las 20 autorizaciones vigentes (todas de producto único). Ninguna tiene texto de indicación aprobada en los registros.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 43829 | SALAC (Andrómaco) | Champú 140 ml | No disponible |
-| 28767 | RIBATRA (Panalab) | Loción 0,05 % 30 ml | No disponible |
-| 23212 | SALAC (Andrómaco) | Crema 20 g | No disponible |
-| 44511 | CLOBESOL (Siegfried) | Crema 20 g | No disponible |
-| 6548 | DERMADEX (GlaxoSmithKline) | Crema 15 g | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 43829 | SALAC | shamp.x 140 ml | Andrómaco | Vigente |
+| 28767 | RIBATRA | 0.05% loc.x 30 ml | Panalab | Vigente |
+| 23212 | SALAC | cr.x 20 g | Andrómaco | Vigente |
+| 28765 | RIBATRA | 0.05% cr.x 30 g | Panalab | Vigente |
+| 44511 | CLOBESOL | cr.x 20 g | Siegfried | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Todas las presentaciones son de uso tópico (cremas, ungüentos, lociones, champús y espuma).
 

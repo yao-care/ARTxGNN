@@ -8,7 +8,7 @@ indication_count: 3
 drugbank_id: DB00564
 monitor_inn: "Carbamazepine"
 predicted_indications: ["trigeminal nerve neoplasm", "beta-ketothiolase deficiency", "Rett syndrome, congenital variant"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Carbamazepina: nueva indicación predicha, Neoplasia del nervio trigémino (trigeminal nerve neoplasm) (nivel de evidencia L4). En Argentina, productos en el listado de PAMI: 17 (en el listado vigente: 17)"
 ---
 
@@ -95,13 +95,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Carbamazepina tiene autorizaciones vigentes en Argentina como producto de un solo principio activo. A continuación se muestran cinco de ellas. El texto de indicación aprobada no está registrado en los datos locales.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 10635 | ACTINERVAL | 200 mg comp. x 60 | No registrada en los datos locales |
-| 9400 | ELEBE | 200 mg comp. x 30 | No registrada en los datos locales |
-| 15837 | CARBAMAZEPINA FABRA | 200 mg comp. x 30 | No registrada en los datos locales |
-| 43335 | TEGRETOL | Jarabe x 100 ml | No registrada en los datos locales |
-| 9259 | TEGRETOL 400 LC | 400 mg comp. x 30 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 10635 | ACTINERVAL | 200 mg comp.x 60 | Bagó | Vigente |
+| 9400 | ELEBE | 200 mg comp.x 30 | Medipharma | Vigente |
+| 15837 | CARBAMAZEPINA FABRA | 200 mg comp.x 30 | Fabra | Vigente |
+| 9403 | ELEBE | 200 mg comp.x 60 | Medipharma | Vigente |
+| 43335 | TEGRETOL | jbe.x 100 ml | Novartis | Vigente |
+
+La tabla muestra 5 de los 17 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ---
 

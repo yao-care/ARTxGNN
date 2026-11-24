@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 33
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Aniracetam: nueva indicación predicha, Insomnio (nivel de evidencia L4). Indicación original: No disponible en los registros de ANMAT compilados"
 monitor_inn: "ANIRACETAM"
 drugbank_id: DB04599
@@ -85,10 +85,16 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 17308 | PERGAMID | 750 mg comprimidos x 60 | No especificada en los datos disponibles |
-| 17307 | PERGAMID | 750 mg comprimidos x 30 | No especificada en los datos disponibles |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 17308 | PERGAMID | 750 mg comp.x 60 | Pfizer | Vigente |
+| 17307 | PERGAMID | 750 mg comp.x 30 | Pfizer | Vigente |
+
+La tabla muestra los 2 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Ambas autorizaciones son de monofármaco, vigentes, y su titular es Pfizer.
 

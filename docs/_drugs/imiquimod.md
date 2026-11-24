@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 164
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Imiquimod: nueva indicación predicha, Neoplasia premaligna (nivel de evidencia L5). Indicación original: Verruga común, infección anogenital por virus del papiloma humano…"
 monitor_inn: "IMIQUIMOD"
 predicted_indications: ["pre-malignant neoplasm", "benign neoplasm of buccal mucosa", "cervical neuroblastoma", "odontogenic cyst", "benign neoplasm of tongue", "nasopharyngeal teratoma", "cystic neoplasm", "inner ear neoplasm", "neoplasm of major salivary gland", "schwannoma of jugular foramen"]
@@ -85,13 +85,19 @@ La evidencia es de apoyo pero heterogénea según la localización anatómica: i
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 43203 | VIROSUPRIL | Crema 5%, 5 g | No disponible en los datos |
-| 43878 | IMIMORE | Crema 5%, sobres 24 x 0,25 g | No disponible en los datos |
-| 52441 | IMIMORE | Crema 5%, 3 g | No disponible en los datos |
-| 52442 | IMIMORE | Crema 5%, 6 g | No disponible en los datos |
-| 33157 | MIQUIMOD | Crema 5%, 3 g | No disponible en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 43203 | VIROSUPRIL | 5% cr.x 5 g | Megalabs Argent | Vigente |
+| 43878 | IMIMORE | 5% cr.sob.x 24 x 0.25 g | Panalab | Vigente |
+| 52441 | IMIMORE | 5% cr.x 3 g | Panalab | Vigente |
+| 52442 | IMIMORE | 5% cr.x 6 g | Panalab | Vigente |
+| 33157 | MIQUIMOD | 5% cr.x 3 g | Lazar | Vigente |
+
+La tabla muestra 5 de los 10 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Se registran 10 autorizaciones vigentes, todas de monofármaco y ninguna cancelada. También existen presentaciones al 3,75% (VIROSUPRIL 3.75 y MIQUIMOD) y otras presentaciones en sobres (IMIMORE) y de uso dermatológico (MODULCASS).
 

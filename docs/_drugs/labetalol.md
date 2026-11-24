@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "LABETALOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Labetalol: nueva indicación predicha, Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)"
 ---
 
@@ -72,12 +72,18 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 30277 | BIASCOR | 200 mg comp. x 20 |
-| 61054 | BIASCOR | 200 mg comp. x 60 |
-| 51245 | BLOCAMINE | 200 mg comp. x 20 |
-| 30278 | BIASCOR | 5 mg/ml amp. x 10 x 4 ml |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 30277 | BIASCOR | 200 mg comp.x 20 | Biol | Vigente |
+| 61054 | BIASCOR | 200 mg comp.x 60 | Biol | Vigente |
+| 51245 | BLOCAMINE | 200 mg comp.x 20 | Lafedar | Vigente |
+| 30278 | BIASCOR | 5 mg/ml a.x 10 x 4 ml | Biol | Vigente |
+
+La tabla muestra los 4 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Las cuatro autorizaciones figuran como vigentes.
 

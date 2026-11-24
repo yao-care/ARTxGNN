@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 221
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Quinidine: nueva indicación predicha, Síndrome nefrogénico de antidiuresis inapropiada (nivel de evidencia L5). Indicación original: Fibrilación auricular y malaria"
 monitor_inn: "quinidine"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
@@ -64,9 +64,15 @@ El puntaje elevado de TxGNN (0.9927) es solo una predicción computacional del m
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 51706 | QUINIDINA | Grageas x 20 | No especificada en los datos disponibles |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 51706 | QUINIDINA | grag.x 20 | Domínguez | Vigente |
+
+La tabla muestra el único producto de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

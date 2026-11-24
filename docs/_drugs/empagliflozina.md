@@ -8,7 +8,7 @@ indication_count: 3
 drugbank_id: DB09038
 monitor_inn: "Empagliflozin"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Empagliflozina: nueva indicación predicha, Síndrome de la persona rígida clásica (classic stiff person syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)"
 ---
 
@@ -72,12 +72,18 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 51925 | JARDIANCE | 10 mg comp. x 30 | No registrada en los datos locales |
-| 51926 | JARDIANCE | 25 mg comp. x 30 | No registrada en los datos locales |
-| 61745 | ENCLYNA | 10 mg comp. x 30 | No registrada en los datos locales |
-| 61746 | ENCLYNA | 25 mg comp. x 30 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 51925 | JARDIANCE | 10 mg comp.x 30 | Boehringer Inge | Vigente |
+| 61745 | ENCLYNA | 10 mg comp.x 30 | Gador | Vigente |
+| 61746 | ENCLYNA | 25 mg comp.x 30 | Gador | Vigente |
+| 51926 | JARDIANCE | 25 mg comp.x 30 | Boehringer Inge | Vigente |
+
+La tabla muestra los 4 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

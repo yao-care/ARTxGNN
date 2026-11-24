@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 227
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SALMETEROL"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
 description: "Salmeterol: nueva indicación predicha, malformación respiratoria (respiratory malformation) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
@@ -87,13 +87,19 @@ Ninguna de las publicaciones estudia directamente la malformación respiratoria.
 
 Se registran 20 autorizaciones vigentes, todas de producto con un solo principio activo según los registros; la lista puede ser parcial. Principales autorizaciones:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 43666 | PROAIR BRONQUIAL | 250/25 mcg aerosol x 120 dosis | No disponible en los datos |
-| 54355 | VETALONE | 250/25 mcg aerosol x 120 dosis | No disponible en los datos |
-| 45233 | PROAIR BRONQUIAL 500/50 | Cápsulas para inhalación x 60 + aplicador | No disponible en los datos |
-| 47968 | FLUTIVENT HFA | 250/25 mcg x 120 dosis | No disponible en los datos |
-| 26250 | SERETIDE DISKUS | 50/500 mcg x 60 dosis | No disponible en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 43666 | PROAIR BRONQUIAL | 250/25mcg aer.x 120dosis | Montpellier | Vigente |
+| 54355 | VETALONE | 250/25 mcg aer.ds.x 120 | Lersan | Vigente |
+| 45233 | PROAIR BRONQUIAL 500/50 | cáps.p/inh.x 60+aplic. | Montpellier | Vigente |
+| 47968 | FLUTIVENT HFA | 250/25 mcg dosis x 120 | Cassará | Vigente |
+| 26250 | SERETIDE DISKUS | 50/500 mcg dosis x 60 | GlaxoSmithKline | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 152
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Ginseng: nueva indicación predicha, Osteoporosis inducida por fármacos (nivel de evidencia L5). Indicación original: No disponible en los registros (las autorizaciones no incluyen texto…"
 monitor_inn: "GINSENG"
 predicted_indications: ["drug-induced osteoporosis", "acne (disease)", "severe nonproliferative diabetic retinopathy", "hemorrhagic disease of newborn", "cortical cataract", "nuclear senile cataract", "diabetic retinopathy", "amenorrhea (disease)", "immature cataract", "craniostenosis cataract"]
@@ -97,13 +97,19 @@ Para acné, la única publicación es un estudio preclínico/in vitro de 2019 ([
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 15431 | TANVIMIL GINSENG | Cápsulas x 60 | No especificada |
-| 18042 | MARATHON | Cápsulas x 60 | No especificada |
-| 45694 | TOTAL MAGNESIANO GINSENG | Polvo en sobres x 30 | No especificada |
-| 18041 | MARATHON | Cápsulas x 30 | No especificada |
-| 31593 | MARATHON | Cápsulas x 20 | No especificada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 15431 | TANVIMIL GINSENG | cáps.x 60 | Megalabs Argent | Vigente |
+| 18042 | MARATHON | cáps.x 60 | Laboratorio Mil | Vigente |
+| 45694 | TOTAL MAGNESIANO GINSENG | pvo.sob.x 30 | Temis-Lostaló | Vigente |
+| 18041 | MARATHON | cáps.x 30 | Laboratorio Mil | Vigente |
+| 31593 | MARATHON | cáps.x 20 | Laboratorio Mil | Vigente |
+
+La tabla muestra 5 de los 6 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Existe una sexta autorización vigente (15430, TANVIMIL GINSENG, cápsulas x 30). Las 6 autorizaciones son de producto único y están vigentes.
 

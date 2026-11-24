@@ -8,7 +8,7 @@ indication_count: 3
 drugbank_id: DB01174
 monitor_inn: "Phenobarbital"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fenobarbital: nueva indicación predicha, neoplasia del nervio trigémino (trigeminal nerve neoplasm) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 7 (en el listado vigente: 7)"
 ---
 
@@ -74,13 +74,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 17477 | LUMINAL | comp. x 60 | No registrada en los datos locales |
-| 12624 | ALEPSAL | comp. x 60 | No registrada en los datos locales |
-| 48440 | FENROS | 15 mg comp. x 30 | No registrada en los datos locales |
-| 48442 | FENROS | 100 mg comp. x 60 | No registrada en los datos locales |
-| 48441 | FENROS | 100 mg comp. x 20 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 17477 | LUMINAL | comp.x 60 | Bayer (PH) | Vigente |
+| 12624 | ALEPSAL | comp.x 60 | Ariston | Vigente |
+| 48440 | FENROS | 15 mg comp.x 30 | Rospaw | Vigente |
+| 48442 | FENROS | 100 mg comp.x 60 | Rospaw | Vigente |
+| 48441 | FENROS | 100 mg comp.x 20 | Rospaw | Vigente |
+
+La tabla muestra 5 de los 7 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

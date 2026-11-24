@@ -8,7 +8,7 @@ indication_count: 10
 drugbank_id: DB01156
 monitor_inn: "Bupropion"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "benign paroxysmal torticollis of infancy", "trigeminal nerve neoplasm", "obsolete hypertelorism (disease)"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Bupropión: nueva indicación predicha, Trastorno por déficit de atención con hiperactividad (attention deficit-hyperactivity disorder) (nivel de evidencia L1)."
 ---
 
@@ -91,13 +91,19 @@ Conviene tener cautela: se trataría de una opción de segunda línea o fuera de
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 23483 | ODRANAL | 150 mg comprimidos de liberación prolongada x 30 | No registrada |
-| 26876 | ODRANAL | 150 mg comprimidos de liberación prolongada x 60 | No registrada |
-| 49601 | BUP | 150 mg comprimidos de liberación prolongada x 30 | No registrada |
-| 49602 | BUP | 150 mg comprimidos de liberación prolongada x 60 | No registrada |
-| 41544 | WELLBUTRIN XL | 150 mg comprimidos de liberación extendida x 30 | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 23483 | ODRANAL | 150mg comp.lib.prol.x 30 | Adium | Vigente |
+| 49602 | BUP | 150mg comp.lib.prol.x 60 | Eurofarma | Vigente |
+| 26876 | ODRANAL | 150mg comp.lib.prol.x 60 | Adium | Vigente |
+| 41545 | WELLBUTRIN XL | 300mg comp.lib.ext.x 30 | GlaxoSmithKline | Vigente |
+| 41544 | WELLBUTRIN XL | 150mg comp.lib.ext.x 30 | GlaxoSmithKline | Vigente |
+
+La tabla muestra 5 de los 6 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -8,7 +8,7 @@ indication_count: 8
 drugbank_id: DB00795
 monitor_inn: "Sulfasalazine"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "WHIM syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sulfasalazina: nueva indicación predicha, síndrome de braquidactilia-sindactilia (brachydactyly-syndactyly syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)"
 ---
 
@@ -73,10 +73,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 36460 | FLOGOSTOP | 500 mg comprimidos recubiertos x 60 | No registrada en los datos locales |
-| 22307 | AZULFIDINE EN-TABS | 500 mg comprimidos x 60 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 36460 | FLOGOSTOP | 500 mg comp.rec.x 60 | Teva Argentina | Vigente |
+| 22307 | AZULFIDINE EN-TABS | 500 mg tab.x 60 | Pfizer | Vigente |
+
+La tabla muestra los 2 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

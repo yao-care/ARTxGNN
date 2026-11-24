@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "tetracycline"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "chronic ethmoidal sinusitis", "chronic rhinosinusitis", "paranasal sinus neoplasm (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tetracycline: nueva indicación predicha, Queratoconjuntivitis epitelial punctata (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5). Indicación original: No consta en los datos locale"
 ---
 
@@ -74,10 +74,16 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 6177 | TETRACICLINA OMEGA | Comprimidos x 16 | No registrada en los datos locales |
-| 3657 | SOLUSTRES | Grageas x 16 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 6177 | TETRACICLINA OMEGA | comp.x 16 | Omega | Vigente |
+| 3657 | SOLUSTRES | grag.x 16 | Finadiet | Vigente |
+
+La tabla muestra los 2 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

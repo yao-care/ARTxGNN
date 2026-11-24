@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "natamycin"
 predicted_indications: ["vulvitis", "trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "tinea nigra"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Natamycin: nueva indicación predicha, Vulvitis (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)"
 ---
 
@@ -74,9 +74,15 @@ Actualmente no hay literatura disponible que estudie directamente la vulvitis co
 
 El estado de mercado es **comercializado**, con 1 autorización vigente (monofármaco).
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 11149 | NATACYN | Frasco x 15 ml | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 11149 | NATACYN | fco.x 15 ml | Daxley | Vigente |
+
+La tabla muestra el único producto de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 La presentación local es un frasco de 15 ml. No se ha establecido su compatibilidad con una vía de administración vulvar, y una eventual aplicación requeriría evaluar la formulación.
 

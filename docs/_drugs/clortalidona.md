@@ -8,7 +8,7 @@ indication_count: 9
 drugbank_id: DB00310
 monitor_inn: "Chlorthalidone"
 predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "acute pulmonary heart disease", "congenital hypotrichosis milia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clortalidona: nueva indicación predicha, Glaucoma hereditario primario (primary hereditary glaucoma) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 7 (en el listado vigente: 7)"
 ---
 
@@ -75,13 +75,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Hay 7 autorizaciones vigentes, todas de producto de un solo principio activo. Se listan las 5 principales:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
-|---------|------|------|-----------|
-| 58994 | EURETICO | 25 mg comp. x 30 | Casasco |
-| 36177 | EURETICO | 50 mg comp. x 30 | Casasco |
-| 10758 | BEMPLAS | comp. x 30 | Casasco |
-| 12200 | PRENORETIC | 100 mg comp. x 56 | AstraZeneca |
-| 12201 | PRENORETIC | 50 mg comp. x 56 | AstraZeneca |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 58994 | EURETICO | 25 mg comp.x 30 | Casasco | Vigente |
+| 36177 | EURETICO | 50 mg comp.x 30 | Casasco | Vigente |
+| 10758 | BEMPLAS | comp.x 30 | Casasco | Vigente |
+| 12200 | PRENORETIC | 100 mg comp.x 56 | AstraZeneca | Vigente |
+| 12201 | PRENORETIC | 50 mg comp.x 56 | AstraZeneca | Vigente |
+
+La tabla muestra 5 de los 7 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

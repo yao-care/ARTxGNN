@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "CALCITRIOL"
 predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis", "acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "hereditary hypophosphatemic rickets"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Calcitriol: nueva indicación predicha, Deficiencia de vitamina D obsoleta (obsolete vitamin D deficiency) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)"
 ---
 
@@ -73,11 +73,17 @@ Actualmente no hay literatura relacionada disponible para esta predicción.
 
 El medicamento figura como comercializado, con 3 autorizaciones vigentes de productos de un solo principio activo.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 46020 | CALCIRAQUIFEROL | Cápsulas blandas x 30 | No registrada en los datos locales |
-| 7483 | CALCITRIOL | 0,25 mcg, cápsulas x 30 | No registrada en los datos locales |
-| 24450 | CALCITRIOL MEGALABS | Cápsulas x 30 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 46020 | CALCIRAQUIFEROL | cáps.blandas x 30 | Roemmers | Vigente |
+| 7483 | CALCITRIOL | 0.25 mcg cáps.x 30 | Siegfried | Vigente |
+| 24450 | CALCITRIOL MEGALABS | cáps.x 30 | Megalabs Argent | Vigente |
+
+La tabla muestra los 3 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

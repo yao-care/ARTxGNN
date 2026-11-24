@@ -8,7 +8,7 @@ indication_count: 9
 drugbank_id: DB01132
 monitor_inn: "Pioglitazone"
 predicted_indications: ["opsismodysplasia", "focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pioglitazona: nueva indicación predicha, opsismodisplasia (opsismodysplasia) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 12 (en el listado vigente: 12)"
 ---
 
@@ -73,13 +73,19 @@ Actualmente no hay literatura relacionada disponible.
 
 El estado de mercado es comercializado: las 12 autorizaciones registradas están vigentes y corresponden a productos de un solo principio activo o a asociaciones con metformina. Los registros locales no incluyen texto de indicación aprobada.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 39737 | HIGLUCEM | 45 mg comprimidos x 30 |
-| 38780 | PIOTAMAX 45 | 45 mg comprimidos birranurados x 30 |
-| 39736 | HIGLUCEM | 30 mg comprimidos x 28 |
-| 27173 | CERELUC | 30 mg comprimidos x 30 |
-| 27845 | CERELUC | 15 mg comprimidos x 30 |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 39737 | HIGLUCEM | 45 mg comp.x 30 | Lazar | Vigente |
+| 38780 | PIOTAMAX 45 | 45 mg comp.birran.x 30 | Francelab | Vigente |
+| 39736 | HIGLUCEM | 30 mg comp.x 28 | Lazar | Vigente |
+| 27173 | CERELUC | 30 mg comp.x 30 | Beta | Vigente |
+| 27845 | CERELUC | 15 mg comp.x 30 | Beta | Vigente |
+
+La tabla muestra 5 de los 12 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "heparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Heparin: nueva indicación predicha, trombofilia por deficiencia de proteína C, autosómica recesiva (thrombophilia due to protein C deficiency… (nivel de evidencia L5). Indicación original: No consta …"
 ---
 
@@ -71,10 +71,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 42347 | HEPATRIET | gel tópico x 60 g | No registrada en los datos locales |
-| 44887 | CYCLOPARIN | gel tópico x 60 g | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 42347 | HEPATRIET | gel tópico x 60 g | Craveri | Vigente |
+| 44887 | CYCLOPARIN | gel tópico x 60 g | Siegfried | Vigente |
+
+La tabla muestra los 2 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Ambas autorizaciones están vigentes y corresponden a formulaciones tópicas (gel), no a presentaciones sistémicas.
 

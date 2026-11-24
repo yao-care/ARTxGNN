@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "dexlansoprazole"
 predicted_indications: ["gastroduodenitis", "duodenal obstruction", "achlorhydria", "leather-bottle stomach"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Dexlansoprazole: nueva indicación predicha, gastroduodenitis (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 15 (en el listado vigente: 15)"
 ---
 
@@ -74,13 +74,19 @@ Actualmente no hay literatura relacionada disponible.
 
 El fármaco figura como comercializado, con autorizaciones vigentes de productos de un solo principio activo. Principales autorizaciones:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 53829 | IBEPRAL 60 | Cápsulas x 15 | No registrada en los datos locales |
-| 53830 | IBEPRAL 60 | Cápsulas x 30 | No registrada en los datos locales |
-| 50098 | APATRIX 30 | Cápsulas x 30 | No registrada en los datos locales |
-| 50099 | APATRIX 60 | Cápsulas x 15 | No registrada en los datos locales |
-| 59411 | ARIGASTRIL 30 | Cápsulas x 30 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 53829 | IBEPRAL 60 | cáps.x 15 | Domínguez | Vigente |
+| 53830 | IBEPRAL 60 | cáps.x 30 | Domínguez | Vigente |
+| 50098 | APATRIX 30 | cáps. x 30 | Adium | Vigente |
+| 50099 | APATRIX 60 | cáps. x 15 | Takeda | Vigente |
+| 59411 | ARIGASTRIL 30 | cáps.x 30 | Ariston | Vigente |
+
+La tabla muestra 5 de los 15 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

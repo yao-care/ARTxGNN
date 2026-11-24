@@ -8,7 +8,7 @@ indication_count: 9
 drugbank_id: DB00415
 monitor_inn: "Ampicillin"
 predicted_indications: ["laryngitis", "Ureaplasma urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ampicilina: nueva indicación predicha, laringitis (laryngitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 13 (en el listado vigente: 13)"
 ---
 
@@ -86,13 +86,19 @@ Selección de las publicaciones más relevantes (todas tratan condiciones relaci
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 999 | AMPICILINA RICHET | 1 g comp. x 16 | No registrada |
-| 928 | AMPICILINA RICHET | 1 g comp. x 8 | No registrada |
-| 1039 | TRIFACILINA FORTE | Jarabe x 120 ml | No registrada |
-| 7153 | AMPICILINA RICHET | 500 mg comp. x 16 | No registrada |
-| 1044 | TRIFACILINA | 1000 mg inyectable liofilizado x 1 + solvente | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 999 | AMPICILINA RICHET | 1 g comp.x 16 | Richet | Vigente |
+| 928 | AMPICILINA RICHET | 1 g comp.x 8 | Richet | Vigente |
+| 1039 | TRIFACILINA FORTE | jbe.x 120 ml | Bagó | Vigente |
+| 7153 | AMPICILINA RICHET | 500 mg comp.x 16 | Richet | Vigente |
+| 1044 | TRIFACILINA | 1000mg iny.liof.x1+solv. | Bagó | Vigente |
+
+La tabla muestra 5 de los 13 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Se muestran 5 de las 13 autorizaciones vigentes.
 

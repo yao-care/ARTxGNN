@@ -8,7 +8,7 @@ indication_count: 6
 drugbank_id: DB01190
 monitor_inn: "Clindamycin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "non-human animal disease", "neurotrophic keratopathy", "epidemic keratoconjunctivitis", "postmenopausal atrophic vaginitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clindamicina: nueva indicación predicha, queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5)."
 ---
 
@@ -74,13 +74,19 @@ Actualmente no hay literatura relacionada disponible.
 
 El estado de mercado es **comercializado**: las 20 autorizaciones listadas están vigentes y la lista puede ser parcial (al menos 20 autorizaciones).
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
-|---------|------|------|-----------|
-| 36632 | CLIDAN | Gel dérmico x 15 g | Cassarß |
-| 17438 | CLINDAMICINA RICHET | Cápsulas 300 mg x 16 | Richet |
-| 59420 | MICROBION | Cápsulas 300 mg x 16 | Montpellier |
-| 15812 | CLINDAMICINA FABRA | Ampollas 600 mg x 1 | Fabra |
-| 21796 | DALACIN C 300 | Cápsulas 300 mg x 16 | Pfizer |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 36632 | CLIDAN | gel dérm.x 15 g | Cassará | Vigente |
+| 17438 | CLINDAMICINA RICHET | 300 mg cáps.x 16 | Richet | Vigente |
+| 59420 | MICROBION | 300 mg cáps.x 16 | Montpellier | Vigente |
+| 15812 | CLINDAMICINA FABRA | 600 mg a.x 1 | Fabra | Vigente |
+| 54601 | RESBIOTIC | 300 mg cáps.x 16 | Casasco | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Las presentaciones incluyen vías oral, inyectable, tópica (geles, loción, solución) y vaginal (óvulos y cápsulas blandas).
 

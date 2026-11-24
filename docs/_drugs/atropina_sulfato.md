@@ -8,7 +8,7 @@ indication_count: 2
 drugbank_id: DB00572
 monitor_inn: "Atropine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Atropina Sulfato: nueva indicación predicha, trastorno de migraña (migraine disorder) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)"
 ---
 
@@ -83,10 +83,16 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 21822 | KLONATROPINA | Solución oftálmica x 5 ml | No registrada |
-| 163 | ALCON ATROPINA 1% | Solución oftálmica 1% x 5 ml | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 21822 | KLONATROPINA | sol.oft.x 5 ml | Klonal | Vigente |
+| 163 | ALCON ATROPINA 1% | 1% sol.oft.x 5 ml | Alcon | Vigente |
+
+La tabla muestra los 2 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

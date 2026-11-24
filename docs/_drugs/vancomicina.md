@@ -8,7 +8,7 @@ indication_count: 10
 drugbank_id: DB00512
 monitor_inn: "Vancomycin"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "congenital analbuminemia", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "typhoid fever", "blood group incompatibility", "streptococcal pneumonia", "premalignant hematological system disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Vancomicina: nueva indicación predicha, Esclerodermia difusa (diffuse scleroderma) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)"
 ---
 
@@ -77,10 +77,16 @@ Ninguna publicación aborda directamente la esclerodermia difusa, por lo que el 
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 15836 | VANCOMICINA FABRA | 1000 mg iny.f.a.x 1 | No registrada en los datos locales |
-| 15835 | VANCOMICINA FABRA | 500 mg iny.f.a.x 1 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 15836 | VANCOMICINA FABRA | 1000 mg iny.f.a.x 1 | Fabra | Vigente |
+| 15835 | VANCOMICINA FABRA | 500 mg iny.f.a.x 1 | Fabra | Vigente |
+
+La tabla muestra los 2 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Ambas autorizaciones son de producto único y están vigentes.
 

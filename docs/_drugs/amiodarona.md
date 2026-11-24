@@ -8,7 +8,7 @@ indication_count: 9
 drugbank_id: DB01118
 monitor_inn: "Amiodarone"
 predicted_indications: ["catecholaminergic polymorphic ventricular tachycardia", "incessant infant ventricular tachycardia", "obsolete bundle branch block", "rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "heparin cofactor 2 deficiency", "trichotillomania", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "gout"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Amiodarona: nueva indicación predicha, taquicardia ventricular polimórfica catecolaminérgica (catecholaminergic polymorphic ventricular tachycardia) (nivel de evidencia L5)."
 ---
 
@@ -83,12 +83,18 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 7639 | ATLANSIL | comp. x 50 | — |
-| 37428 | MIODARONA | 200 mg comp. x 40 | — |
-| 37427 | MIODARONA | 200 mg comp. x 20 | — |
-| 7638 | ATLANSIL | comp. x 20 | — |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 7639 | ATLANSIL | comp.x 50 | Roemmers | Vigente |
+| 37428 | MIODARONA | 200 mg comp.x 40 | Lafedar | Vigente |
+| 37427 | MIODARONA | 200 mg comp.x 20 | Lafedar | Vigente |
+| 7638 | ATLANSIL | comp.x 20 | Roemmers | Vigente |
+
+La tabla muestra los 4 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 206
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Orlistat: nueva indicación predicha, Hipervitaminosis (nivel de evidencia L5). Indicación original: Trastorno de obesidad / obesidad monogénica"
 monitor_inn: "ORLISTAT"
 predicted_indications: ["hypervitaminosis"]
@@ -82,13 +82,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 41192 | CRISPLUS | 120 mg cápsulas x 60 | No especificada en los datos |
-| 21840 | XENICAL | 120 mg cápsulas x 84 | No especificada en los datos |
-| 47587 | ORLIST | 60 mg cápsulas x 30 | No especificada en los datos |
-| 42070 | OLEOFIN | 120 mg cápsulas x 30 | No especificada en los datos |
-| 41191 | CRISPLUS | 120 mg cápsulas x 30 | No especificada en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 41192 | CRISPLUS | 120 mg cáps.x 60 | Elea | Vigente |
+| 21840 | XENICAL | 120 mg caps.x 84 | Siegfried | Vigente |
+| 47587 | ORLIST | 60 mg cáps.x 30 | Wunder Pharm | Vigente |
+| 42070 | OLEOFIN | 120 mg cáps.x 30 | Casasco | Vigente |
+| 41191 | CRISPLUS | 120 mg cáps.x 30 | Elea | Vigente |
+
+La tabla muestra 5 de los 15 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Se muestran 5 de las 15 autorizaciones vigentes (todas de monofármaco, ninguna cancelada).
 

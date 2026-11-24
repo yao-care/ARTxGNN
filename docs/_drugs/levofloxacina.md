@@ -8,7 +8,7 @@ indication_count: 9
 drugbank_id: DB01137
 monitor_inn: "Levofloxacin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Levofloxacina: nueva indicación predicha, Queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5)."
 ---
 
@@ -77,13 +77,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Levofloxacina está **comercializada** en Argentina, con al menos 20 autorizaciones vigentes (la lista puede ser parcial). Los registros locales no contienen texto de indicación aprobada. A continuación se muestran cinco de ellas:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
-|---------|------|------|-----------|
-| 43011 | FENTAXINA | 750 mg comprimidos recubiertos x 5 | Casasco |
-| 44818 | BACTOCILINA | 750 mg comprimidos recubiertos x 5 | Lazar |
-| 38313 | LEVOFLOXACINA RICHET | 500 mg comprimidos recubiertos x 7 | Richet |
-| 44693 | BACFURON | 500 mg comprimidos recubiertos x 14 | Laboratorios Be |
-| 21154 | LEVAQUIN | 500 mg comprimidos x 7 | Janssen-Cilag |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 43011 | FENTAXINA | 750 mg comp.rec.x 5 | Casasco | Vigente |
+| 44818 | BACTOCILINA | 750 mg comp.rec.x 5 | Lazar | Vigente |
+| 38313 | LEVOFLOXACINA RICHET | 500 mg comp. rec.x 7 | Richet | Vigente |
+| 44693 | BACFURON | 500 mg comp.rec.x 14 | Laboratorios Be | Vigente |
+| 38673 | SEPTIBIOTIC | 500 mg comp.rec.ran.x 7 | Sidus | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Las presentaciones registradas son comprimidos de 500 mg y 750 mg y una presentación de 25 mg/ml en frasco ampolla de 20 ml. Entre ellas no figura ninguna formulación oftálmica, lo que sería una limitación práctica para esta nueva indicación.
 

@@ -8,7 +8,7 @@ indication_count: 1
 drugbank_id: DB00338
 monitor_inn: "Omeprazole"
 predicted_indications: ["duodenal obstruction"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Omeprazol: nueva indicación predicha, obstrucción duodenal (duodenal obstruction) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 11 (en el listado vigente: 11)"
 ---
 
@@ -82,13 +82,19 @@ En conjunto, esta literatura no muestra beneficio de omeprazol en la obstrucció
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 53945 | ULCOZOL 20 | Polvo para suspensión oral x 30 sobres |
-| 24356 | OMEPRAZOL RICHET | 40 mg IV, frasco ampolla x 1 |
-| 46116 | DIOXAFLEX PROTECT | Cápsulas x 10 |
-| 50468 | BLOKIUM PROTECT | Cápsulas x 30 |
-| 52115 | BLOKIUM PROTECT | Cápsulas x 10 |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 53945 | ULCOZOL 20 | pvo.p/susp.oral x30 sob. | Bagó | Vigente |
+| 24356 | OMEPRAZOL RICHET | 40 mg IV f.a.x 1 | Richet | Vigente |
+| 46116 | DIOXAFLEX PROTECT | cáps.x 10 | Bagó | Vigente |
+| 50468 | BLOKIUM PROTECT | cáps.x 30 | Casasco | Vigente |
+| 52115 | BLOKIUM PROTECT | cáps.x 10 | Casasco | Vigente |
+
+La tabla muestra 5 de los 11 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Se muestran 5 de las 11 autorizaciones vigentes (todas de producto de un solo principio activo).
 

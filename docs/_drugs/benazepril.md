@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "BENAZEPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Benazepril: nueva indicación predicha, Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 12 (en el listado vigente: 12)"
 ---
 
@@ -65,13 +65,19 @@ Esta justificación es solo un razonamiento indirecto de clase. No hay estudios 
 
 Hay 12 autorizaciones vigentes, todas de productos con asociación a dosis fija (presentaciones con dos concentraciones, p. ej. 5/10 mg). Los datos locales no incluyen texto de indicación aprobada.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 36106 | ILDUC DUO | 5/10 mg cáps. x 30 |
-| 31897 | ARTERIOSAN PLUS | 5/10 mg cáps. x 30 |
-| 46167 | ARTERIOSAN PLUS | 5/20 mg cáps. x 30 |
-| 36107 | ILDUC DUO | 2.5/10 mg cáps. x 30 |
-| 39462 | ILDUC DUO | 5/20 mg cáps. x 30 |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 36106 | ILDUC DUO | 5/10 mg cáps.x 30 | Baliarda | Vigente |
+| 31897 | ARTERIOSAN PLUS | 5/10 mg cáps.x 30 | Laboratorios Be | Vigente |
+| 46167 | ARTERIOSAN PLUS | 5/20 mg cáps.x 30 | Laboratorios Be | Vigente |
+| 36107 | ILDUC DUO | 2.5/10 mg cáps.x 30 | Baliarda | Vigente |
+| 39462 | ILDUC DUO | 5/20 mg cáps.x 30 | Baliarda | Vigente |
+
+La tabla muestra 5 de los 12 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 La lista muestra las 5 autorizaciones principales de un total de 12.
 

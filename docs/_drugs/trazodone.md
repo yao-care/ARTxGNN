@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 9
 monitor_inn: "TRAZODONE"
 predicted_indications: ["obsessive-compulsive disorder", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "phobic disorder", "Ohdo syndrome and variants"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Trazodone: nueva indicación predicha, Trastorno obsesivo-compulsivo (obsessive-compulsive disorder) (nivel de evidencia L2). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)"
 ---
 
@@ -83,12 +83,18 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 59181 | TAXAGON AD | 100 mg comprimidos x 30 | No registrada |
-| 59180 | TAXAGON AD | 50 mg comprimidos x 30 | No registrada |
-| 7116 | TAXAGON AD | 50 mg comprimidos x 20 | No registrada |
-| 7114 | TAXAGON AD | 100 mg comprimidos x 20 | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 59181 | TAXAGON AD | 100 mg comp.x 30 | Teva Argentina | Vigente |
+| 59180 | TAXAGON AD | 50 mg comp.x 30 | Teva Argentina | Vigente |
+| 7116 | TAXAGON AD | 50 mg comp.x 20 | Teva Argentina | Vigente |
+| 7114 | TAXAGON AD | 100 mg comp.x 20 | Teva Argentina | Vigente |
+
+La tabla muestra los 4 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

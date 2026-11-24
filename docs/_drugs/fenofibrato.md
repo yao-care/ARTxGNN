@@ -8,7 +8,7 @@ indication_count: 1
 drugbank_id: DB01039
 monitor_inn: "Fenofibrate"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Fenofibrato: nueva indicación predicha, Deficiencia de la proteína de transferencia de ésteres de colesterol (cholesterol-ester transfer protein deficiency) (nivel de evidencia L5)."
 ---
 
@@ -89,13 +89,19 @@ Ninguna de estas publicaciones estudia directamente la deficiencia de CETP en pa
 
 Estado de mercado: ✓ Comercializado. A continuación se listan cinco de las autorizaciones registradas.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 47731 | LIPTUIN | 200 mg cápsulas x 30 | No registrada en los datos locales |
-| 52158 | FENOSANE | 200 mg cápsulas x 30 | No registrada en los datos locales |
-| 35060 | CRAVERIL | Comprimidos recubiertos x 30 | No registrada en los datos locales |
-| 1289 | PROCETOKEN | 100 mg comprimidos x 60 | No registrada en los datos locales |
-| 28384 | MINUSLIP | 200 mg cápsulas x 30 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 47731 | LIPTUIN | 200 mg cáps.x 30 | Temis-Lostaló | Vigente |
+| 52158 | FENOSANE | 200 mg cáps.x 30 | Eczane | Vigente |
+| 35060 | CRAVERIL | comp.rec.x 30 | Craveri | Vigente |
+| 1289 | PROCETOKEN | 100 mg comp.x 60 | Laboratorios Be | Vigente |
+| 28384 | MINUSLIP | 200 mg cáps.x 30 | Teva Argentina | Vigente |
+
+La tabla muestra 5 de los 17 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ---
 

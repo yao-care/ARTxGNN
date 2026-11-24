@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 66
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Budesonide: nueva indicación predicha, Eccema atópico (nivel de evidencia L5). Indicación original: Enfermedad de Crohn, enfermedad inflamatoria intestinal, asma…"
 monitor_inn: "BUDESONIDE"
 predicted_indications: ["atopic eczema", "bronchitis", "dermatitis, atopic", "polyp of vocal cord", "polyp of middle ear", "epulis", "fibroepithelial polyp", "uterine polyp", "polyp of frontal sinus", "polyp of external auditory canal"]
@@ -86,13 +86,19 @@ Las publicaciones disponibles son indirectas. Ninguna demuestra eficacia clínic
 
 Se registran 20 autorizaciones vigentes, todas de monofármaco. A continuación se muestran 5 de ellas. Ninguna incluye texto de indicación aprobada en los datos compilados.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Laboratorio |
-|---------|------|------|-----------|
-| 46033 | AEROVIAL HFA | Aerosol x 200 dosis + adaptador bucal | Lab Internacional |
-| 22488 | RINO-B 50 | Aerosol x 200 dosis | Elea |
-| 28697 | HYPERSOL B 50 | Spray nasal x 200 dosis | Cassarß |
-| 45935 | NEUMOCORT HFA | Aerosol 200 mcg x 200 dosis | Cassarß |
-| 47091 | BUDENOFALK | Espuma rectal x 14 aplicaciones | LKM |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 46033 | AEROVIAL HFA | aer.x 200 ds.+adap.buc. | Lab Internacion | Vigente |
+| 22488 | RINO-B 50 | aerosol x 200 dosis | Elea | Vigente |
+| 28697 | HYPERSOL B 50 | spray nasal x 200 dosis | Cassará | Vigente |
+| 45935 | NEUMOCORT HFA | 200 mcg aer.x 200 dosis | Cassará | Vigente |
+| 46879 | EXUDROL BUDE | sol.x 20 ml | Lafedar | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Las formas disponibles son inhalatorias, nasales, nebulizables y rectales. No se identifica una presentación dérmica, por lo que una eventual indicación en eccema atópico requeriría desarrollar una formulación tópica o justificar otra vía.
 

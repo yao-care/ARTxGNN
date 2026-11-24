@@ -8,7 +8,7 @@ indication_count: 4
 drugbank_id: DB01409
 monitor_inn: "Tiotropium"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tiotropio: nueva indicación predicha, malformación respiratoria (respiratory malformation) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)"
 ---
 
@@ -85,9 +85,15 @@ Ninguno de estos ensayos estudia malformaciones respiratorias; aportan solo apoy
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 45181 | SPIRIVA RESPIMAT | Solución para inhalación x 30 dosis + inhalador | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 45181 | SPIRIVA RESPIMAT | sol.p/inh.x 30ds.+inhal. | Boehringer Inge | Vigente |
+
+La tabla muestra el único producto de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

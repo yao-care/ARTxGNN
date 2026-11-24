@@ -8,7 +8,7 @@ indication_count: 7
 drugbank_id: DB01173
 monitor_inn: "Orphenadrine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "schizophrenia", "myopia X-linked", "myopia 26, X-linked, female-limited"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Orfenadrina: nueva indicación predicha, Distrofia retiniana con o sin anomalías extraoculares (retinal dystrophy with or without extraocular anomalies) (nivel de evidencia L5)."
 ---
 
@@ -75,10 +75,16 @@ Actualmente no hay literatura relacionada disponible.
 
 Hay 2 autorizaciones vigentes, ambas de productos con un único principio activo.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
-|---------|------|------|-----------|
-| 60291 | JOKER FLEX | comp. x 30 | Trb-Pharma |
-| 2139 | BELMALEN | comp. rec. x 20 | Cetus |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 60291 | JOKER FLEX | comp. x 30 | Trb-Pharma | Vigente |
+| 2139 | BELMALEN | comp.rec.x 20 | Cetus | Vigente |
+
+La tabla muestra los 2 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

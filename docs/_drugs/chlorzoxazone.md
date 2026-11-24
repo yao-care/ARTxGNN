@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 96
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Chlorzoxazone: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: No disponible en las autorizaciones de ANMAT (los textos de indicació…"
 monitor_inn: "chlorzoxazone"
 predicted_indications: ["migraine disorder", "nephrogenic syndrome of inappropriate antidiuresis", "migraine with brainstem aura", "pulmonary hypertension", "atrophoderma vermiculata", "ulerythema ophryogenesis", "kyphoscoliotic heart disease", "rheumatoid arthritis"]
@@ -84,13 +84,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 51613 | Ibupirac Flex Cápsulas Blandas | 400 mg cápsulas blandas x 20 | No especificada en los datos |
-| 15696 | Ibupirac Flex | 400 mg comprimidos recubiertos x 20 | No especificada en los datos |
-| 51612 | Ibupirac Flex Cápsulas Blandas | 400 mg cápsulas blandas x 10 | No especificada en los datos |
-| 36771 | Ibupirac Flex 600 | Comprimidos recubiertos x 10 | No especificada en los datos |
-| 49033 | Ibupirac Flex 600 | Comprimidos recubiertos x 20 | No especificada en los datos |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 51613 | IBUPIRAC FLEX CAPSULAS BLANDAS | 400 mg cáps.bl.x 20 | Pfizer | Vigente |
+| 15696 | IBUPIRAC FLEX | 400 mg comp.rec.x 20 | Pfizer | Vigente |
+| 51612 | IBUPIRAC FLEX CAPSULAS BLANDAS | 400 mg cáps.bl.x 10 | Pfizer | Vigente |
+| 36771 | IBUPIRAC FLEX 600 | comp.rec.x 10 | Pfizer | Vigente |
+| 49033 | IBUPIRAC FLEX 600 | comp.rec.x 20 | Pfizer | Vigente |
+
+La tabla muestra 5 de los 7 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Hay 7 autorizaciones vigentes en total (6 de Pfizer y 1 de Siegfried, Flexina 600); se muestran las 5 principales.
 

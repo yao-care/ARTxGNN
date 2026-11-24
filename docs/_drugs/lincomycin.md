@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "lincomycin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lincomycin: nueva indicación predicha, hiperamilasemia (hyperamylasemia) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)"
 ---
 
@@ -71,10 +71,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 6675 | FRADEMICINA | 500 mg cápsulas x 16 | No registrada en los datos locales |
-| 2276 | FRADEMICINA | 300 mg ampollas x 4 x 1 ml | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 6675 | FRADEMICINA | 500 mg caps.x 16 | Janssen-Cilag | Vigente |
+| 2276 | FRADEMICINA | 300 mg a.x 4 x 1 ml | Janssen-Cilag | Vigente |
+
+La tabla muestra los 2 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

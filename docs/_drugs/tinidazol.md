@@ -8,7 +8,7 @@ indication_count: 10
 drugbank_id: DB00911
 monitor_inn: "Tinidazole"
 predicted_indications: ["postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "breast fibrocystic disease", "AIDS", "blunt duct adenosis of breast", "apocrine adenosis of breast", "AIDS related complex", "congenital human immunodeficiency virus", "benign mammary dysplasia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tinidazol: nueva indicación predicha, Vaginitis atrófica posmenopáusica (postmenopausal atrophic vaginitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 5 (en el listado vigente: 5)"
 ---
 
@@ -74,6 +74,20 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 ## Información de Mercado en Argentina
 
 Tinidazol figura como **comercializado** en Argentina, con autorizaciones vigentes de ANMAT. El detalle de las autorizaciones lo incorpora el sistema a partir de los registros locales.
+
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 15700 | FASIGYN | 1 g tab.orales x 4 | Pfizer | Vigente |
+| 11457 | TRU COMPUESTO | comp.x 6 | Laboratorio Val | Vigente |
+| 302 | MEBUTAR COMPUESTO | comp.rec.x 6 | Andrómaco | Vigente |
+| 11458 | TRU COMPUESTO | susp.x 30 ml | Laboratorio Val | Vigente |
+| 32780 | MEBUTAR COMPUESTO | pvo.susp.oral x 18 g | Andrómaco | Vigente |
+
+La tabla muestra los 5 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

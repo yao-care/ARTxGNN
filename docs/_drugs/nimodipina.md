@@ -8,7 +8,7 @@ indication_count: 2
 drugbank_id: DB00393
 monitor_inn: "Nimodipine"
 predicted_indications: ["homozygous familial hypercholesterolemia", "nephrogenic syndrome of inappropriate antidiuresis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Nimodipina: nueva indicación predicha, hipercolesterolemia familiar homocigota (homozygous familial hypercholesterolemia) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -75,13 +75,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Los datos compilados muestran al menos 20 autorizaciones vigentes de productos con nimodipina como único principio activo (la lista puede ser parcial). Principales autorizaciones:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 12530 | NIVAS FORTE | 60 mg comp. rec. x 60 | No registrada en los datos locales |
-| 17442 | NIVAS | 30 mg comp. rec. x 30 | No registrada en los datos locales |
-| 34915 | NIMODILAT | comp. rec. x 30 | No registrada en los datos locales |
-| 8483 | NIMOTOP | 30 mg comp. x 60 | No registrada en los datos locales |
-| 27828 | EXPLANER | 30 mg comp. x 60 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 12530 | NIVAS FORTE | 60 mg comp.rec.x 60 | Adium | Vigente |
+| 17442 | NIVAS | 30 mg comp.rec.x 30 | Adium | Vigente |
+| 34915 | NIMODILAT | comp.rec.x 30 | Lazar | Vigente |
+| 8483 | NIMOTOP | 30 mg comp.x 60 | Bayer (PH) | Vigente |
+| 27828 | EXPLANER | 30 mg comp.x 60 | Casasco | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 62
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bromazepam: nueva indicación predicha, Trastorno de migraña (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (las autorizaciones no incluyen…"
 monitor_inn: "BROMAZEPAM"
 predicted_indications: ["migraine disorder"]
@@ -65,13 +65,19 @@ Sin embargo, este vínculo es especulativo. El puntaje de TxGNN es muy alto (0.9
 
 Se registran 20 autorizaciones vigentes, todas de monofármaco (sin combinaciones) y ninguna cancelada. Se muestran las 5 principales:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 7510 | LEXOTANIL (Biopas Argentina) | 6 mg, comprimidos x 50 | No especificada |
-| 7509 | LEXOTANIL (Biopas Argentina) | 3 mg, comprimidos x 50 | No especificada |
-| 10449 | LEXOTANIL (Biopas Argentina) | 3 mg, comprimidos x 30 | No especificada |
-| 3196 | CREOSEDIN (Rontag) | 6 mg, comprimidos x 50 | No especificada |
-| 2768 | NULASTRES (Duncan) | 6 mg, comprimidos x 50 | No especificada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 7510 | LEXOTANIL | 6 mg comp.x 50 | Biopas Argentin | Vigente |
+| 7509 | LEXOTANIL | 3 mg comp.x 50 | Biopas Argentin | Vigente |
+| 10449 | LEXOTANIL | 3 mg comp.x 30 | Biopas Argentin | Vigente |
+| 3196 | CREOSEDIN | 6 mg comp.x 50 | Rontag | Vigente |
+| 2768 | NULASTRES | 6 mg comp.x 50 | Duncan | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -8,7 +8,7 @@ indication_count: 10
 drugbank_id: DB05271
 monitor_inn: "Rotigotine"
 predicted_indications: ["attention deficit-hyperactivity disorder", "schizophrenia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "faciodigitogenital syndrome", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "atypical glycine encephalopathy", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Rotigotina: nueva indicación predicha, Trastorno por déficit de atención e hiperactividad (attention deficit-hyperactivity disorder) (nivel de evidencia L5)."
 ---
 
@@ -77,12 +77,18 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 47994 | NEUPRO | Parche transdérmico 6 mg/24 h x 14 | No registrada en los datos locales |
-| 47995 | NEUPRO | Parche transdérmico 8 mg/24 h x 14 | No registrada en los datos locales |
-| 47992 | NEUPRO | Parche transdérmico 2 mg/24 h x 7 | No registrada en los datos locales |
-| 47993 | NEUPRO | Parche transdérmico 4 mg/24 h x 14 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 47994 | NEUPRO | 6mg/24h parch.transd.x14 | Biopas Argentin | Vigente |
+| 47995 | NEUPRO | 8mg/24h parch.transd.x14 | Biopas Argentin | Vigente |
+| 47992 | NEUPRO | 2mg/24h parch.transd.x 7 | Biopas Argentin | Vigente |
+| 47993 | NEUPRO | 4mg/24h parch.transd.x14 | Biopas Argentin | Vigente |
+
+La tabla muestra los 4 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Las 4 autorizaciones están vigentes y corresponden a productos de un solo principio activo.
 

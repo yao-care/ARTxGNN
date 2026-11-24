@@ -8,7 +8,7 @@ indication_count: 9
 drugbank_id: DB00537
 monitor_inn: "Ciprofloxacin"
 predicted_indications: ["diffuse scleroderma", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "punctate epithelial keratoconjunctivitis", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ciprofloxacina: nueva indicación predicha, esclerodermia difusa (diffuse scleroderma) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -76,13 +76,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Ciprofloxacina cuenta con al menos 20 autorizaciones vigentes de productos de un solo principio activo (la lista puede ser parcial). Los textos de indicación aprobada no están registrados en los datos locales.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 15656 | CIPROTENK | 500 mg comprimidos recubiertos x 10 | No registrada |
-| 11052 | CIPROFLOXACINA LAZAR | 500 mg comprimidos recubiertos x 10 | No registrada |
-| 30021 | REXNER | 500 mg comprimidos x 6 | No registrada |
-| 44634 | REXNER XR | 500 mg comprimidos x 5 | No registrada |
-| 34782 | CIPRO XR | 1000 mg comprimidos x 7 | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 15656 | CIPROTENK | 500 mg comp.rec.x 10 | Biotenk | Vigente |
+| 11052 | CIPROFLOXACINA LAZAR | 500 mg comp.rec.x 10 | Lazar | Vigente |
+| 30021 | REXNER | 500 mg comp.x 6 | Casasco | Vigente |
+| 44634 | REXNER XR | 500 mg comp.x 5 | Casasco | Vigente |
+| 25748 | ARGEFLOX | 500 mg comp.x 20 | Siegfried | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

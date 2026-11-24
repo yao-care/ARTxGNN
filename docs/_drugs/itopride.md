@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "ITOPRIDE"
 predicted_indications: ["small bowel Crohn disease", "venous insufficiency (disease)", "achlorhydria", "hiatus hernia (disease)"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Itopride: nueva indicación predicha, Enfermedad de Crohn del intestino delgado (small bowel Crohn disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 12 (en el listado vigente: 12)"
 ---
 
@@ -74,13 +74,19 @@ Actualmente no hay literatura relacionada disponible.
 
 El fármaco figura como comercializado, con 12 autorizaciones, todas vigentes y de producto de un solo principio activo. Los textos de indicación aprobada no están registrados en los datos locales.
 
-| Numero de Autorizacion | Nombre del Producto | Forma Farmaceutica | Indicacion Aprobada |
-|---------|------|------|-----------|
-| 51944 | ITOPLUS | 50 mg comp. x 10 | No registrada |
-| 50125 | DOMEKA | 50 mg comp. x 60 | No registrada |
-| 51945 | ITOPLUS | 50 mg comp. x 30 | No registrada |
-| 50124 | DOMEKA | 50 mg comp. x 30 | No registrada |
-| 47759 | AFLUSAN | 50 mg comp. x 10 | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 51944 | ITOPLUS | 50 mg comp.x 10 | Eczane | Vigente |
+| 50125 | DOMEKA | 50 mg comp.x 60 | Rossmore Pharma | Vigente |
+| 51945 | ITOPLUS | 50 mg comp.x 30 | Eczane | Vigente |
+| 50124 | DOMEKA | 50 mg comp.x 30 | Rossmore Pharma | Vigente |
+| 47759 | AFLUSAN | 50 mg comp.x 10 | Domínguez | Vigente |
+
+La tabla muestra 5 de los 12 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Se muestran las 5 primeras de 12 autorizaciones; las restantes corresponden a las marcas IDELIS, ITOPLUS, DOMEKA, ITOPRID y AFLUSAN.
 

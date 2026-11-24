@@ -8,7 +8,7 @@ indication_count: 10
 drugbank_id: DB00268
 monitor_inn: "Ropinirole"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "Charcot-Marie-Tooth disease, demyelinating, type 1G"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Ropinirol: nueva indicación predicha, Trastorno por déficit de atención e hiperactividad (attention deficit-hyperactivity disorder) (nivel de evidencia L2)."
 ---
 
@@ -82,13 +82,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 44019 | REQUIP PD | 4 mg comp. lib. prol. x 28 | No registrada en los datos locales |
-| 42589 | REQUIP | 1 mg comp. x 21 | No registrada en los datos locales |
-| 42587 | REQUIP | 0,25 mg comp. x 12 | No registrada en los datos locales |
-| 42590 | REQUIP | 2 mg comp. x 21 | No registrada en los datos locales |
-| 44020 | REQUIP PD | 8 mg comp. lib. prol. x 28 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 44019 | REQUIP PD | 4 mg comp.lib.prol.x 28 | GlaxoSmithKline | Vigente |
+| 42589 | REQUIP | 1 mg comp.x 21 | GlaxoSmithKline | Vigente |
+| 42587 | REQUIP | 0.25 mg comp.x 12 | GlaxoSmithKline | Vigente |
+| 42590 | REQUIP | 2 mg comp.x 21 | GlaxoSmithKline | Vigente |
+| 44020 | REQUIP PD | 8 mg comp.lib.prol.x 28 | GlaxoSmithKline | Vigente |
+
+La tabla muestra 5 de los 7 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

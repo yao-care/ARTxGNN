@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "DICLOFENAC"
 predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "brachyolmia", "brachyolmia-amelogenesis imperfecta syndrome", "congenital hypotrichosis milia", "myosclerosis", "diffuse alopecia areata", "juvenile idiopathic arthritis", "WHIM syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Diclofenac: nueva indicación predicha, hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -73,13 +73,19 @@ Actualmente no hay literatura relacionada disponible.
 
 El diclofenaco se encuentra comercializado en Argentina. Los datos compilados muestran al menos 20 autorizaciones vigentes, y la lista puede ser parcial. Principales autorizaciones:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 30268 | VESALION | 75 mg comprimidos x 15 | No registrada en los datos locales |
-| 57006 | OXA 75 | comprimidos recubiertos x 15 | No registrada en los datos locales |
-| 50302 | METAFLEX 75 CB | cápsulas blandas x 15 | No registrada en los datos locales |
-| 37442 | OXA 100 | comprimidos recubiertos x 30 | No registrada en los datos locales |
-| 29732 | OXA GEL PLUS | gel x 50 g | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 30268 | VESALION | 75 mg comp.x 15 | Siegfried | Vigente |
+| 57006 | OXA 75 | comp.rec.x 15 | Beta | Vigente |
+| 50302 | METAFLEX 75 CB | cáps.blandas x 15 | Montpellier | Vigente |
+| 37442 | OXA 100 | comp.rec.x 30 | Beta | Vigente |
+| 2752 | CURINFLAM A.P. | cáps.x 15 | Duncan | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

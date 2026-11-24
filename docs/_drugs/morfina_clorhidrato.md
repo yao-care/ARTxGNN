@@ -8,7 +8,7 @@ indication_count: 10
 drugbank_id: DB00295
 monitor_inn: "Morphine"
 predicted_indications: ["myofascial pain syndrome", "manic bipolar affective disorder", "Tourette syndrome", "restless legs syndrome", "attention deficit hyperactivity disorder, inattentive type", "migraine disorder", "trichotillomania", "methemoglobinemia", "migraine with brainstem aura", "specific developmental disorder"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Morfina Clorhidrato: nueva indicación predicha, síndrome de dolor miofascial (myofascial pain syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 17 (en el listado vigente: 17)"
 ---
 
@@ -80,13 +80,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 El estado de mercado es **comercializado**, con 17 autorizaciones vigentes de productos de un solo principio activo.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 18343 | NEOCALMANS | 30 mg supositorios x 10 | No registrada en los datos locales |
-| 15581 | NEOCALMANS | 2 % ampollas x 1 x 1 ml | No registrada en los datos locales |
-| 44915 | NEOCALMANS RETARD | 30 mg comprimidos x 50 | No registrada en los datos locales |
-| 15729 | G.N.O. 30 MG | comprimidos x 50 | No registrada en los datos locales |
-| 44918 | NEOCALMANS IT | 1 mg/ml ampollas x 1 x 2 ml | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 18343 | NEOCALMANS | 30 mg sup.x 10 | Soubeiran Chobe | Vigente |
+| 15581 | NEOCALMANS | 2% a.x 1 x 1 ml | Soubeiran Chobe | Vigente |
+| 44915 | NEOCALMANS RETARD | 30 mg comp.x 50 | Soubeiran Chobe | Vigente |
+| 15729 | G.N.O. 30 MG | comp.x 50 | Rospaw | Vigente |
+| 44914 | NEOCALMANS RETARD | 30 mg comp.x 20 | Soubeiran Chobe | Vigente |
+
+La tabla muestra 5 de los 17 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -8,7 +8,7 @@ indication_count: 1
 drugbank_id: DB00250
 monitor_inn: "Dapsone"
 predicted_indications: ["pneumocystosis"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Dapsona: nueva indicación predicha, neumocistosis (pneumocystosis) (nivel de evidencia L1). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)"
 ---
 
@@ -94,10 +94,16 @@ Esta explicación mecanística proviene de conocimiento farmacológico general y
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 51571 | DAPSONA LAZAR | 100 mg comprimidos x 50 |
-| 8465 | D.A.P.S. | 100 mg comprimidos x 100 |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 51571 | DAPSONA LAZAR | 100 mg comp.x 50 | Lazar | Vigente |
+| 8465 | D.A.P.S. | 100 mg comp.x 100 | Rontag | Vigente |
+
+La tabla muestra los 2 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

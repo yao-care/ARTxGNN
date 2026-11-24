@@ -8,7 +8,7 @@ indication_count: 1
 drugbank_id: DB00643
 monitor_inn: "Mebendazole"
 predicted_indications: ["acne (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Mebendazol: nueva indicación predicha, acné (acne (disease)) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 11 (en el listado vigente: 11)"
 ---
 
@@ -76,13 +76,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Mebendazol se comercializa en Argentina con 11 autorizaciones vigentes de productos de un solo principio activo.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 12138 | MEBUTAR 200 | Suspensión x 30 ml | — |
-| 4567 | NEMASOLE AD | Comprimidos x 6 | — |
-| 30667 | MEBENDAZOL FABRA | 500 mg, comprimidos x 6 | — |
-| 45488 | TRU M | 200 mg, comprimidos x 6 | — |
-| 22451 | NEMASOLE 200 | Comprimidos x 6 | — |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 12138 | MEBUTAR 200 | susp.x 30 ml | Andrómaco | Vigente |
+| 4567 | NEMASOLE AD | comp.x 6 | Janssen-Cilag | Vigente |
+| 30667 | MEBENDAZOL FABRA | 500 mg comp.x 6 | Fabra | Vigente |
+| 45488 | TRU M | 200 mg comp.x 6 | Laboratorio Val | Vigente |
+| 22451 | NEMASOLE 200 | comp.x 6 | Janssen-Cilag | Vigente |
+
+La tabla muestra 5 de los 11 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

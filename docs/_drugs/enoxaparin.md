@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "enoxaparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Enoxaparin: nueva indicación predicha, Trombofilia por deficiencia de proteína C, autosómica recesiva (thrombophilia due to protein C deficiency… (nivel de evidencia L5). Indicación original: No cons…"
 ---
 
@@ -74,13 +74,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Hay 12 autorizaciones vigentes, todas de productos con enoxaparina como único principio activo. Los registros no incluyen texto de indicación aprobada.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 13528 | CLEXANE | 20 mg jeringa prellenada x 10 | No registrada |
-| 56201 | OMATEX | 40 mg jeringa prellenada x 2 | No registrada |
-| 18694 | CLEXANE | 80 mg jeringa prellenada x 10 | No registrada |
-| 41210 | OMATEX | 80 mg jeringa prellenada x 10 | No registrada |
-| 18693 | CLEXANE | 60 mg jeringa prellenada x 10 | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 13528 | CLEXANE | 20 mg jga.prell.x 10 | Sanofi-Aventis | Vigente |
+| 56201 | OMATEX | 40 mg jga.prell.x 2 | Elea | Vigente |
+| 18694 | CLEXANE | 80 mg jga.prell.x 10 | Sanofi-Aventis | Vigente |
+| 41210 | OMATEX | 80 mg jga.prell.x 10 | Elea | Vigente |
+| 18693 | CLEXANE | 60 mg jga.prell.x 10 | Sanofi-Aventis | Vigente |
+
+La tabla muestra 5 de los 12 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

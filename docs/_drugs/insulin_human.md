@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "insulin human"
 predicted_indications: ["autoimmune oophoritis", "focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "pancreatic agenesis", "idiopathic localized lipodystrophy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Insulin Human: nueva indicación predicha, ooforitis autoinmune (autoimmune oophoritis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 12 (en el listado vigente: 12)"
 ---
 
@@ -70,13 +70,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Los datos compilados muestran 12 autorizaciones, todas vigentes y de producto de un solo principio activo.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 47620 | INSULINA INSUMAN N SOLOSTAR | 100UI lap.prell.x 5 x3ml | — |
-| 26450 | INSULINA INSUMAN | N 100 UI cart.x 5 x 3 ml | — |
-| 24018 | INSULINA INSULATARD PENFILL | HM 100 UI cart.x 5 x 3ml | — |
-| 26449 | INSULINA INSUMAN | N 100 UI vial x 1 x 5 ml | — |
-| 38604 | INSULINA DENSULIN N | 100 UI fco. a. x 10ml | — |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 47620 | INSULINA INSUMAN N SOLOSTAR | 100UI lap.prell.x 5 x3ml | Sanofi-Aventis | Vigente |
+| 26450 | INSULINA INSUMAN | N 100 UI cart.x 5 x 3 ml | Sanofi-Aventis | Vigente |
+| 24018 | INSULINA INSULATARD PENFILL | HM 100 UI cart.x 5 x 3ml | Novo Nordisk | Vigente |
+| 26449 | INSULINA INSUMAN | N 100 UI vial x 1 x 5 ml | Sanofi-Aventis | Vigente |
+| 38604 | INSULINA DENSULIN N | 100 UI fco. a. x 10ml | Denver Farma | Vigente |
+
+La tabla muestra 5 de los 12 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 218
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-24
 description: "Pridinol: nueva indicación predicha, Insomnio (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "PRIDINOL"
 drugbank_id: DB13642
@@ -84,13 +84,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Se registran 20 autorizaciones vigentes, todas de productos de un solo registro (sin cancelaciones). Se muestran las 5 principales; los textos de indicación aprobada no figuran en los datos compilados.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 44309 | DIOXAFLEX PLUS | Inyectable x 6 | No disponible |
-| 47973 | DICLOMAR FLEX POTASICO | Comprimidos x 15 | No disponible |
-| 38086 | FLEXIDOL RELAX | Comprimidos recubiertos/ranurados x 20 | No disponible |
-| 54325 | MELOXICAM + PRIDINOL TEVA | Comprimidos 15/4 mg x 10 | No disponible |
-| 44208 | PRINIL | Comprimidos ranurados 4 mg x 10 | No disponible |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 44309 | DIOXAFLEX PLUS | iny.a.x 6 | Bagó | Vigente |
+| 47973 | DICLOMAR FLEX POTASICO | comp.x 15 | Mar | Vigente |
+| 38086 | FLEXIDOL RELAX | comp.ran.x 20 | Adium | Vigente |
+| 16309 | DIOXAFLEX PLUS | comp.x 30 | Bagó | Vigente |
+| 35297 | OXADISTEN | comp.rec.x 100 | Beta | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ---
 

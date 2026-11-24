@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 171
 evidence_level: L1
 indication_count: 3
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-24
 description: "Ketorolac: nueva indicación predicha, Trastorno de cefalea (headache disorder) (nivel de evidencia L1). Indicación original: Conjuntivitis atópica, papilar y primaveral"
 monitor_inn: "KETOROLAC"
 predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
@@ -99,13 +99,19 @@ Se muestran las 10 publicaciones más relevantes (de 18), priorizando guías, re
 
 Se muestran 5 de las 20 autorizaciones vigentes (todas de monofármaco). Los registros no incluyen texto de indicación aprobada.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 9606 | DOLTEN (Pfizer) | 30 mg inyectable x 5 x 2 ml | — |
-| 9605 | DOLTEN (Pfizer) | 10 mg comprimidos x 10 | — |
-| 40045 | TELEDOL (Casasco) | 30 mg ampollas x 3 x 2 ml | — |
-| 47042 | DORIXINA FORTE NF (Roemmers) | 20 mg comprimidos recubiertos x 10 | — |
-| 14099 | POENKERAT (Poen) | 0.5% colirio x 5 ml | — |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 48453 | DUPRAC | 20 mg comp.x 10 | Savant Generic | Vigente |
+| 47686 | KERAMIX | 20 mg comp.rec.x 10 | Finadiet | Vigente |
+| 19126 | SINALGICO | 60 mg a.x 3 x 2 ml | Laboratorios Be | Vigente |
+| 20202 | KETOROLAC FABRA | 10 mg comp.x 20 | Fabra | Vigente |
+| 40045 | TELEDOL | 30 mg a.x 3 x 2 ml | Casasco | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

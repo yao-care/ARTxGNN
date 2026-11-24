@@ -8,7 +8,7 @@ indication_count: 1
 drugbank_id: DB00366
 monitor_inn: "Doxylamine"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Doxilamina: nueva indicación predicha, enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)"
 ---
 
@@ -72,12 +72,18 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 51937 | TONVAL | 10/10 mg cáps. x 30 | No registrada en los datos locales |
-| 39716 | EPIDAC | Cáps. x 24 | No registrada en los datos locales |
-| 54367 | DETIXOL | Cáps. x 30 | No registrada en los datos locales |
-| 52593 | TUERIS | Cáps. x 24 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 51937 | TONVAL | 10/10 mg cáps.x 30 | Craveri | Vigente |
+| 39716 | EPIDAC | cáps.x 24 | Eurolab | Vigente |
+| 54367 | DETIXOL | cáps.x 30 | Casasco | Vigente |
+| 52593 | TUERIS | cáps.x 24 | Megalabs Argent | Vigente |
+
+La tabla muestra los 4 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

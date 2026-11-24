@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "fluorometholone"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "otitis externa", "infective urethral stricture", "post-infectious syndrome", "punctate epithelial keratoconjunctivitis", "infection-related hemolytic uremic syndrome", "Chagas cardiomyopathy", "glaucomatocyclitic crisis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fluorometholone: nueva indicación predicha, Vasculitis postinfecciosa (postinfectious vasculitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)"
 ---
 
@@ -71,11 +71,17 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 11935 | FLAREX | Suspensión oftálmica x 5 ml |
-| 241 | F M L LIQUIFILM | Suspensión oftálmica x 10 ml |
-| 242 | F M L NEO LIQUIFILM | Suspensión oftálmica x 5 ml |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 11935 | FLAREX | susp.oft.x 5 ml | Novartis | Vigente |
+| 241 | F M L LIQUIFILM | susp.oft.x 10 ml | Abbvie | Vigente |
+| 242 | F M L NEO LIQUIFILM | susp.oft.x 5 ml | Abbvie | Vigente |
+
+La tabla muestra los 3 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Las tres autorizaciones están vigentes y son de productos de un solo principio activo.
 

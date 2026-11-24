@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "oxytetracycline"
 predicted_indications: ["chronic rhinosinusitis", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "punctate epithelial keratoconjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "otitis externa"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Oxytetracycline: nueva indicación predicha, rinosinusitis crónica (chronic rhinosinusitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)"
 ---
 
@@ -81,10 +81,16 @@ Actualmente no hay literatura relacionada disponible para rinosinusitis crónica
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 6413 | TERRA CORTRIL | Ungüento tópico 14,2 g | No registrada en los datos locales |
-| 28596 | TERRA CORTRIL | Spray x 100 ml | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 6413 | TERRA CORTRIL | ung.tópico 14.2 g | Pfizer | Vigente |
+| 28596 | TERRA CORTRIL | spray x 100 ml | Pfizer | Vigente |
+
+La tabla muestra los 2 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Las dos autorizaciones están vigentes y corresponden a productos de un solo principio activo, fabricados por Pfizer.
 

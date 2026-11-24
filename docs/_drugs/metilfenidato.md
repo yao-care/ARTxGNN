@@ -8,7 +8,7 @@ indication_count: 4
 drugbank_id: DB00422
 monitor_inn: "Methylphenidate"
 predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Metilfenidato: nueva indicación predicha, Síndrome faciodigitogenital (faciodigitogenital syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 17 (en el listado vigente: 17)"
 ---
 
@@ -73,13 +73,19 @@ Actualmente no hay literatura relacionada disponible.
 
 El metilfenidato figura como **comercializado** en Argentina, con 17 autorizaciones vigentes, todas de productos de un solo principio activo. Los datos locales no registran el texto de la indicación aprobada.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
-|---------|------|------|-----------|
-| 13494 | RITALINA | Comprimidos x 30 | Novartis |
-| 33839 | RITALINA LA | 20 mg, cápsulas x 30 | Novartis |
-| 47988 | CONCERTA | 36 mg, comprimidos x 30 | Janssen-Cilag |
-| 58486 | METICIL | 54 mg, comprimidos recubiertos x 30 | Teva Argentina |
-| 50252 | MFD | 10 mg, comprimidos x 60 | Sidus |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 13494 | RITALINA | comp.x 30 | Novartis | Vigente |
+| 33839 | RITALINA LA | 20 mg cáps.x 30 | Novartis | Vigente |
+| 47988 | CONCERTA | 36 mg comp.x 30 | Janssen-Cilag | Vigente |
+| 58486 | METICIL | 54 mg comp.rec.x 30 | Teva Argentina | Vigente |
+| 50252 | MFD | 10 mg comp.x 60 | Sidus | Vigente |
+
+La tabla muestra 5 de los 17 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 La lista muestra 5 de las 17 autorizaciones. Las demás corresponden a otras concentraciones y marcas, como RUBIFEN, RUBIFEN SR y las distintas presentaciones de CONCERTA, RITALINA LA, METICIL y MFD.
 

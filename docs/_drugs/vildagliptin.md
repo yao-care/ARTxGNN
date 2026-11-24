@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "VILDAGLIPTIN"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Vildagliptin: nueva indicación predicha, Síndrome de la persona rígida clásica (classic stiff person syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -73,13 +73,19 @@ Actualmente no hay literatura relacionada disponible.
 
 La lista de autorizaciones puede ser parcial (se registran al menos 20 autorizaciones vigentes). Se muestran las 5 principales; los datos locales no incluyen texto de indicación aprobada.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 57233 | CARFLAX | 50 mg comp. x 30 | No registrada |
-| 42278 | GALVUS | 50 mg comp. x 56 | No registrada |
-| 57293 | ZATIUM | 50 mg comp. x 60 | No registrada |
-| 43667 | ZOMARIST | 50 mg comp. x 28 | No registrada |
-| 58633 | JOVIUS | 50 mg comp. x 30 | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 57233 | CARFLAX | 50 mg comp.x 30 | Lazar | Vigente |
+| 42278 | GALVUS | 50 mg comp.x 56 | Celnova Argenti | Vigente |
+| 57293 | ZATIUM | 50 mg comp.x 60 | Elea | Vigente |
+| 43667 | ZOMARIST | 50 mg comp.x 28 | Montpellier | Vigente |
+| 57294 | ZATIUM | 50 mg comp.x 30 | Elea | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

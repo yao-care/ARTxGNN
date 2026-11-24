@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "cyproheptadine"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Cyproheptadine: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 2)"
 ---
 
@@ -72,11 +72,17 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 49668 | CIPROVIT CALCICO | comp. blíster x 60 | No registrada en los datos locales |
-| 158 | CIPROVIT MAGNESICO | gránulos sobres x 20 | No registrada en los datos locales |
-| 50366 | CIPROVIT CALCICO | jarabe x 150 ml | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 49668 | CIPROVIT CALCICO | comp.blíst.x 60 | Beta | Vigente |
+| 158 | CIPROVIT MAGNESICO | gran.sob.x 20 | Beta | Vigente |
+| 50366 | CIPROVIT CALCICO | jbe.x 150 ml | Beta | Ya no figura en el listado de PAMI |
+
+La tabla muestra los 3 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Dos de los tres productos (fabricante: Beta) siguen en el listado de medicamentos de PAMI; el tercero (50366, CIPROVIT CALCICO jarabe x 150 ml) ya no figura en el listado vigente de PAMI.
 

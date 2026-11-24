@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "mupirocin"
 predicted_indications: ["pleural empyema (disease)", "punctate epithelial keratoconjunctivitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Mupirocin: nueva indicación predicha, Empiema pleural (pleural empyema) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 10 (en el listado vigente: 10)"
 ---
 
@@ -72,13 +72,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 28302 | MUPIROX NASAL | 2% ung. x 5 g | No registrada en los datos locales |
-| 17082 | BACTROBAN NASAL | ung. x 3 g | No registrada en los datos locales |
-| 28358 | BACTROBAN CREMA | pomo x 15 g | No registrada en los datos locales |
-| 48667 | QUEMICETINA NF NASAL | 2% ung. x 3 g | No registrada en los datos locales |
-| 30464 | MUPIROX | 2% ung. x 15 g | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 28302 | MUPIROX NASAL | 2% ung.x 5 g | Fortbenton | Vigente |
+| 17082 | BACTROBAN NASAL | ung.x 3 g | GlaxoSmithKline | Vigente |
+| 28358 | BACTROBAN CREMA | pomo x 15 g | GlaxoSmithKline | Vigente |
+| 48667 | QUEMICETINA NF NASAL | 2% ung.x 3 g | Lafedar | Vigente |
+| 30464 | MUPIROX | 2% ung.x 15 g | Fortbenton | Vigente |
+
+La tabla muestra 5 de los 10 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Se muestran las 5 primeras de 10 autorizaciones vigentes (todas de producto de un solo principio activo).
 

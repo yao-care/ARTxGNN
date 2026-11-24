@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "SULBACTAM"
 predicted_indications: ["bacterial arthritis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Sulbactam: nueva indicación predicha, artritis bacteriana (bacterial arthritis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 9 (en el listado vigente: 9)"
 ---
 
@@ -81,13 +81,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 26362 | TRIFAMOX IBL DUO 200/50 | Suspensión 20 g x 60 ml | No registrada en los datos locales |
-| 1074 | TRIFAMOX IBL | Jarabe 500 mg x 60 ml | No registrada en los datos locales |
-| 26356 | TRIFAMOX IBL DUO 875/125 | Comprimidos 875 mg x 14 | No registrada en los datos locales |
-| 3635 | TRIFAMOX IBL 1500 | Inyectable 1500 mg x 1 | No registrada en los datos locales |
-| 10002 | TRIFAMOX IBL 500 | Comprimidos 500 mg x 16 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 26362 | TRIFAMOX IBL DUO 200/50 | 20 g susp.x 60 ml | Bagó | Vigente |
+| 1074 | TRIFAMOX IBL | 500 mg jbe.x 60 ml | Bagó | Vigente |
+| 26356 | TRIFAMOX IBL DUO 875/125 | 875 mg comp.x 14 | Bagó | Vigente |
+| 3635 | TRIFAMOX IBL 1500 | 1500 mg iny.x 1 | Bagó | Vigente |
+| 10002 | TRIFAMOX IBL 500 | 500 mg comp.x 16 | Bagó | Vigente |
+
+La tabla muestra 5 de los 9 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

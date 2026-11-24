@@ -8,7 +8,7 @@ indication_count: 8
 drugbank_id: DB01327
 monitor_inn: "Cefazolin"
 predicted_indications: ["infectious otitis media", "bronchitis", "middle ear disease", "chronic otitis media", "suppurative otitis media", "otosalpingitis", "non-suppurative otitis media", "allergic otitis media"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Cefazolina: nueva indicación predicha, Otitis media infecciosa (infectious otitis media) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)"
 ---
 
@@ -92,10 +92,16 @@ Ninguna de estas publicaciones evalúa directamente la eficacia de la cefazolina
 
 El fármaco se encuentra comercializado en Argentina, con autorizaciones vigentes.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 7171 | CEFAZOLINA RICHET | 1000 mg iny.f.a.x 1 |
-| 911 | CEFALOMICINA | 1000 mg iny.liof.f.a.x 1 |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 7171 | CEFAZOLINA RICHET | 1000 mg iny.f.a.x 1 | Richet | Vigente |
+| 911 | CEFALOMICINA | 1000 mg iny.liof.f.a.x 1 | Bagó | Vigente |
+
+La tabla muestra los 2 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ---
 

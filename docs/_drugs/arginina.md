@@ -8,7 +8,7 @@ indication_count: 1
 drugbank_id: DB00125
 monitor_inn: "Arginine"
 predicted_indications: ["gastroparesis (disease)"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Arginina: nueva indicación predicha, Gastroparesia (gastroparesis (disease)) (nivel de evidencia L4). En Argentina, productos en el listado de PAMI: 1 (en el listado vigente: 1)"
 ---
 
@@ -93,9 +93,15 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 La autorización registrada está vigente. Los datos locales no registran el texto de la indicación aprobada.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
-|---------|------|------|-----------|
-| 8587 | LACORENE | Frasco x 200 ml con dosificador | Ariston |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 8587 | LACORENE | fco.x 200 ml c/dosif. | Ariston | Vigente |
+
+La tabla muestra el único producto de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ---
 

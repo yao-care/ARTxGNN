@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "LORAZEPAM"
 predicted_indications: ["trigeminal nerve neoplasm"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Lorazepam: nueva indicación predicha, Neoplasia del nervio trigémino (trigeminal nerve neoplasm) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -73,13 +73,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Se registran al menos 20 autorizaciones vigentes de producto de un solo principio activo (la lista puede ser parcial). Ninguna está cancelada ni sin comercializar según los datos disponibles. Principales autorizaciones:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 9243 | TRAPAX | 1 mg comp. x 50 | No registrada en los datos locales |
-| 41050 | CALMATRON | 2,5 mg comp. x 50 | No registrada en los datos locales |
-| 11733 | EMOTIVAL | 2 mg comp. x 30 | No registrada en los datos locales |
-| 28209 | TRAPAX | 2,5 mg comp. x 30 | No registrada en los datos locales |
-| 8026 | LORAZEPAN CHOBET | 2 mg comp. x 100 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 9243 | TRAPAX | 1 mg comp.x 50 | Pfizer | Vigente |
+| 41050 | CALMATRON | 2.5 mg comp.x 50 | Savant Generic | Vigente |
+| 11733 | EMOTIVAL | 2 mg comp.x 30 | Teva Argentina | Vigente |
+| 28209 | TRAPAX | 2.5 mg comp.x 30 | Pfizer | Vigente |
+| 8026 | LORAZEPAN CHOBET | 2 mg comp.x 100 | Soubeiran Chobe | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

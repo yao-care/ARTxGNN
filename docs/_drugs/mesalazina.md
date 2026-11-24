@@ -8,7 +8,7 @@ indication_count: 6
 drugbank_id: DB00244
 monitor_inn: "Mesalazine"
 predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "vulvar inverted follicular keratosis", "pseudoachondroplasia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Mesalazina: nueva indicación predicha, hipotricosis congénita con distrofia macular juvenil (congenital hypotrichosis with juvenile macular dystrophy) (nivel de evidencia L5)."
 ---
 
@@ -74,13 +74,19 @@ Actualmente no hay literatura relacionada disponible.
 
 La mesalazina tiene al menos 20 autorizaciones vigentes en Argentina (la lista puede ser parcial). Principales autorizaciones:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 18874 | PENTASA | 500 mg comprimidos x 50 | No registrada en los datos locales |
-| 18875 | PENTASA | 500 mg comprimidos x 100 | No registrada en los datos locales |
-| 11105 | 5-ASA 400 | 400 mg comprimidos x 30 | No registrada en los datos locales |
-| 33568 | YOLECOL | 800 mg comprimidos x 60 | No registrada en los datos locales |
-| 53164 | 5-ASA 1000 | 1 g sobres x 30 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 18874 | PENTASA | 500 mg comp.x 50 | Ferring | Vigente |
+| 18875 | PENTASA | 500 mg comp.x 100 | Ferring | Vigente |
+| 11105 | 5-ASA 400 | 400 mg comp.x 30 | Domínguez | Vigente |
+| 33568 | YOLECOL | 800 mg comp.x 60 | Takeda Argentin | Vigente |
+| 53164 | 5-ASA 1000 | 1 g sob.x 30 | Domínguez | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -8,7 +8,7 @@ indication_count: 1
 drugbank_id: DB00776
 monitor_inn: "Oxcarbazepine"
 predicted_indications: ["restless legs syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Oxcarbazepina: nueva indicación predicha, Síndrome de piernas inquietas (restless legs syndrome) (nivel de evidencia L4). En Argentina, productos en el listado de PAMI: 13 (en el listado vigente: 13)"
 ---
 
@@ -78,13 +78,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Hay 13 autorizaciones vigentes de oxcarbazepina como monofármaco. Se listan las 5 principales:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
-|---------|------|------|-----------|
-| 10129 | TRILEPTAL | 300 mg comp. x 30 | Novartis |
-| 10130 | TRILEPTAL | 300 mg comp. x 60 | Novartis |
-| 10131 | TRILEPTAL | 600 mg comp. x 30 | Novartis |
-| 22592 | TRILEPTAL | Jarabe x 100 ml | Novartis |
-| 14088 | AURENE | 300 mg comp. x 30 | Teva Argentina |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 10129 | TRILEPTAL | 300 mg comp.x 30 | Novartis | Vigente |
+| 10130 | TRILEPTAL | 300 mg comp.x 60 | Novartis | Vigente |
+| 10131 | TRILEPTAL | 600 mg comp.x 30 | Novartis | Vigente |
+| 22592 | TRILEPTAL | jbe.x 100 ml | Novartis | Vigente |
+| 14088 | AURENE | 300 mg comp.x 30 | Teva Argentina | Vigente |
+
+La tabla muestra 5 de los 13 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Los demás productos pertenecen a las marcas RUPOX (Medipharma), AURENE (Teva Argentina) y TRILEPTAL (Novartis).
 

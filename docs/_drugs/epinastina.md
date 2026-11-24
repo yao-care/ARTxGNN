@@ -8,7 +8,7 @@ indication_count: 2
 drugbank_id: DB00751
 monitor_inn: "Epinastine"
 predicted_indications: ["rosacea conjunctivitis", "allergic urticaria"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Epinastina: nueva indicación predicha, conjuntivitis rosácea (rosacea conjunctivitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)"
 ---
 
@@ -73,11 +73,17 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 41748 | RELESTAT | Solución oftálmica x 5 ml | No registrada |
-| 39943 | EPIOFTAL | Solución oftálmica x 5 ml | No registrada |
-| 36698 | ALKET | Solución oftálmica x 5 ml | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 41748 | RELESTAT | sol.oft.x 5 ml | Abbvie | Vigente |
+| 39943 | EPIOFTAL | sol.oft.x 5 ml | Lab Internacion | Vigente |
+| 36698 | ALKET | sol.oft.x 5 ml | Max Vision | Vigente |
+
+La tabla muestra los 3 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

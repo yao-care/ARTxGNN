@@ -8,7 +8,7 @@ indication_count: 5
 drugbank_id: DB00748
 monitor_inn: "Carbinoxamine"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Carbinoxamina: nueva indicación predicha, enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)"
 ---
 
@@ -75,12 +75,18 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 6169 | OMEGA 100 | comp.x 50 | No registrada |
-| 16869 | OMEGA 100 | jbe.x 120 ml | No registrada |
-| 6168 | OMEGA 100 | comp.x 20 | No registrada |
-| 6170 | OMEGA 100 | gts.x 20 ml | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 6169 | OMEGA 100 | comp.x 50 | Omega | Vigente |
+| 16869 | OMEGA 100 | jbe.x 120 ml | Omega | Vigente |
+| 6168 | OMEGA 100 | comp.x 20 | Omega | Vigente |
+| 6170 | OMEGA 100 | gts.x 20 ml | Omega | Vigente |
+
+La tabla muestra los 4 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

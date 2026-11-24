@@ -8,7 +8,7 @@ indication_count: 10
 drugbank_id: DB00810
 monitor_inn: "Biperiden"
 predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-associated neurodegeneration", "transaldolase deficiency", "fructose-1,6-bisphosphatase deficiency", "progressive supranuclear palsy-corticobasal syndrome", "paralysis agitans, juvenile, of Hunt", "Lewy body dementia", "attention deficit-hyperactivity disorder", "X-linked intellectual disability-ataxia-apraxia syndrome"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Biperideno: nueva indicación predicha, Encefalitis subaguda de Rasmussen (Rasmussen subacute encephalitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 6 (en el listado vigente: 6)"
 ---
 
@@ -75,13 +75,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Hay 6 autorizaciones de productos de un solo principio activo. Todas están vigentes. Se listan 5:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 29404 | BIPERIDENO VANNIER | 2 mg, comprimidos x 20 |
-| 42289 | BIPERIDENO ROSPAW | 2 mg, comprimidos x 20 |
-| 4635 | AKINETON | Comprimidos x 20 |
-| 4637 | AKINETON | Comprimidos x 60 |
-| 35824 | BIPERIDENO ROSPAW | 2 mg, comprimidos x 60 |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 29404 | BIPERIDENO VANNIER | 2 mg comp.x 20 | Vannier | Vigente |
+| 42289 | BIPERIDENO ROSPAW | 2 mg comp.x 20 | Rospaw | Vigente |
+| 4635 | AKINETON | comp.x 20 | Bagó | Vigente |
+| 4637 | AKINETON | comp.x 60 | Bagó | Vigente |
+| 35824 | BIPERIDENO ROSPAW | 2 mg comp.x 60 | Rospaw | Vigente |
+
+La tabla muestra 5 de los 6 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

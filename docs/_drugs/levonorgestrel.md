@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 5
 monitor_inn: "LEVONORGESTREL"
 predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Levonorgestrel: nueva indicación predicha, Acné (acne (disease)) (nivel de evidencia L2). En Argentina, productos en el listado de PAMI: 13 (en el listado vigente: 13)"
 ---
 
@@ -79,13 +79,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Levonorgestrel se comercializa en Argentina, con 13 autorizaciones vigentes, ninguna cancelada. Se listan las principales:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 39903 | NORFEN | comp. x 28 | No registrada |
-| 22495 | APRIL | comp. x 21 | No registrada |
-| 41701 | APRIL 28 | comp. x 28 | No registrada |
-| 8317 | TRIQUILAR | blíster grageas x 21 | No registrada |
-| 10107 | DOS DIAS N | comp. x 2 | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 39903 | NORFEN | comp.x 28 | PharmaDorf | Vigente |
+| 22495 | APRIL | comp.x 21 | Gador | Vigente |
+| 41701 | APRIL 28 | comp.x 28 | Gador | Vigente |
+| 8317 | TRIQUILAR | blist.grag.x 21 | Adium | Vigente |
+| 10107 | DOS DIAS N | comp.x 2 | Elea | Vigente |
+
+La tabla muestra 5 de los 13 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

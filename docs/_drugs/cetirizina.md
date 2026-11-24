@@ -8,7 +8,7 @@ indication_count: 3
 drugbank_id: DB00341
 monitor_inn: "Cetirizine"
 predicted_indications: ["nasal cavity disease", "rosacea conjunctivitis", "recalcitrant atopic dermatitis"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Cetirizina: nueva indicación predicha, enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 18 (en el listado vigente: 18)"
 ---
 
@@ -82,13 +82,19 @@ Ninguna de las publicaciones estudia directamente la enfermedad de la cavidad na
 
 Cetirizina cuenta con 18 autorizaciones, todas vigentes y de producto de un solo principio activo. Se listan las 5 principales:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 32730 | CETIZINE | 10 mg comprimidos recubiertos x 10 | No registrada en los datos locales |
-| 32340 | CABAL | comprimidos x 30 | No registrada en los datos locales |
-| 28354 | CABAL | comprimidos x 10 | No registrada en los datos locales |
-| 56957 | ALIDIAL | comprimidos recubiertos x 10 | No registrada en los datos locales |
-| 33080 | CETIRIZINA CETUS | comprimidos x 10 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 32730 | CETIZINE | 10 mg comp.rec.x 10 | Lazar | Vigente |
+| 32340 | CABAL | comp.x 30 | Dallas | Vigente |
+| 28354 | CABAL | comp.x 10 | Dallas | Vigente |
+| 56957 | ALIDIAL | comp.rec.x 10 | Siegfried | Vigente |
+| 33080 | CETIRIZINA CETUS | comp.x 10 | Cetus | Vigente |
+
+La tabla muestra 5 de los 18 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

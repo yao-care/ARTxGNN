@@ -8,7 +8,7 @@ indication_count: 2
 drugbank_id: DB00540
 monitor_inn: "Nortriptyline"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Nortriptilina: nueva indicación predicha, Trastorno por déficit de atención e hiperactividad (attention deficit-hyperactivity disorder) (nivel de evidencia L2)."
 ---
 
@@ -98,12 +98,18 @@ Se muestran las 10 publicaciones más relevantes, priorizando ensayos controlado
 
 Las 4 autorizaciones registradas están vigentes y corresponden a productos de un solo principio activo.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Titular |
-|---------|------|------|-----------|
-| 6490 | KARILE | 10 mg, comprimidos x 20 | PharmaDorf |
-| 6491 | KARILE | 20 mg, comprimidos x 20 | PharmaDorf |
-| 6492 | KARILE | 40 mg, comprimidos x 20 | PharmaDorf |
-| 57618 | KARILE | 40 mg, comprimidos x 50 | PharmaDorf |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 6492 | KARILE | 40 mg comp.x 20 | PharmaDorf | Vigente |
+| 6490 | KARILE | 10 mg comp.x 20 | PharmaDorf | Vigente |
+| 57618 | KARILE | 40 mg comp.x 50 | PharmaDorf | Vigente |
+| 6491 | KARILE | 20 mg comp.x 20 | PharmaDorf | Vigente |
+
+La tabla muestra los 4 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ---
 

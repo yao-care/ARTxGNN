@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 144
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fludrocortisone: nueva indicación predicha, Linfoma cutáneo primario de células T (nivel de evidencia L5). Indicación original: No disponible en la licencia de ANMAT (texto de indicación vacío)"
 monitor_inn: "fludrocortisone"
 predicted_indications: ["primary cutaneous T-cell lymphoma", "cystic teratoma", "spinal cord dermoid cyst", "dermoid cyst of ovary", "disease of orbital part of eye adnexa", "eye disease", "disease of orbital region", "exostosis"]
@@ -89,9 +89,15 @@ Para la predicción de enfermedad ocular se recuperaron 20 publicaciones; se mue
 
 ## Informacion de Mercado en Argentina
 
-| Numero de Autorizacion | Nombre del Producto | Forma Farmaceutica | Indicacion Aprobada |
-|---------|------|------|-----------|
-| 22808 | LONIKAN (Elea) | Comprimidos x 50 | No especificada en el registro |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 22808 | LONIKAN | comp.x 50 | Elea | Vigente |
+
+La tabla muestra el único producto de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

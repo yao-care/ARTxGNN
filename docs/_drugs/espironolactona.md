@@ -8,7 +8,7 @@ indication_count: 2
 drugbank_id: DB00421
 monitor_inn: "Spironolactone"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Espironolactona: nueva indicación predicha, hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -75,13 +75,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Hay al menos 20 autorizaciones vigentes de productos de un solo principio activo (la lista puede ser parcial). Principales:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 37124 | REDIUN-E 25 | 25 mg comprimidos recubiertos x 30 | No registrada |
-| 36476 | ESPIRONOLACTONA DENVER FARMA | 25 mg comprimidos x 30 | No registrada |
-| 36969 | DRIMUX A | 50 mg comprimidos x 30 | No registrada |
-| 31634 | LANX | 100 mg comprimidos x 30 | No registrada |
-| 18719 | ALDACTONE A | 25 mg comprimidos x 30 | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 37124 | REDIUN-E 25 | 25 mg comp.ran.x 30 | Baliarda | Vigente |
+| 36476 | ESPIRONOLACTONA DENVER FARMA | 25 mg comp.x 30 | Denver Farma | Vigente |
+| 36969 | DRIMUX A | 50 mg comp.x 30 | Gador | Vigente |
+| 31634 | LANX | 100 mg comp.x 30 | Elea | Vigente |
+| 18719 | ALDACTONE A | 25 mg comp.x 30 | Pfizer | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

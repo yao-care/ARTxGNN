@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "eplerenone"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Eplerenone: nueva indicación predicha, Hipertensión pulmonar debida a enfermedad pulmonar y/o hipoxia (pulmonary hypertension owing to lung disease and/or hyp… (nivel de evidencia L5). Indicación ori…"
 ---
 
@@ -83,13 +83,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 44228 | SUFICARD | 25 mg comp. rec. x 30 | No registrada en los datos locales |
-| 44229 | SUFICARD | 50 mg comp. rec. x 30 | No registrada en los datos locales |
-| 45621 | OLDREN | 25 mg comp. rec. x 30 | No registrada en los datos locales |
-| 45623 | OLDREN | 50 mg comp. rec. x 30 | No registrada en los datos locales |
-| 47291 | LANX EP 25 MG | 25 mg comp. x 30 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 44228 | SUFICARD | 25 mg comp.rec.x 30 | Teva Argentina | Vigente |
+| 44229 | SUFICARD | 50 mg comp.rec.x 30 | Teva Argentina | Vigente |
+| 45621 | OLDREN | 25 mg comp.rec.x 30 | Roemmers | Vigente |
+| 45623 | OLDREN | 50 mg comp.rec.x 30 | Roemmers | Vigente |
+| 47291 | LANX EP 25 MG | 25 mg comp.x 30 | Elea | Vigente |
+
+La tabla muestra 5 de los 12 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Se muestran 5 de las 12 autorizaciones vigentes (todas de producto de un solo principio activo).
 

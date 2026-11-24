@@ -8,7 +8,7 @@ indication_count: 9
 drugbank_id: DB00860
 monitor_inn: "Prednisolone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Prednisolona: nueva indicación predicha, Alopecia areata (nivel de evidencia L2). En Argentina, productos en el listado de PAMI: 9 (en el listado vigente: 9)"
 ---
 
@@ -82,13 +82,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 246 | PREDNEFRIN 0.12% | Suspensión oftálmica x 10 ml | No registrada |
-| 42315 | OFTALDROP | Suspensión oftálmica x 10 ml | No registrada |
-| 36802 | DELTAR | Suspensión oftálmica x 10 ml | No registrada |
-| 245 | PREDNEFRIN FORTE | Suspensión oftálmica x 10 ml | No registrada |
-| 37851 | PROCTO VENART | Pomada x 10 g | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 246 | PREDNEFRIN 0.12% | susp.oft.x 10 ml | Abbvie | Vigente |
+| 42315 | OFTALDROP | susp.oft.x 10 ml | Denver Farma | Vigente |
+| 36802 | DELTAR | susp.oft.x 10 ml | Elea | Vigente |
+| 245 | PREDNEFRIN FORTE | susp.oft.x 10 ml | Abbvie | Vigente |
+| 37851 | PROCTO VENART | pda.x 10 g | Casasco | Vigente |
+
+La tabla muestra 5 de los 9 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

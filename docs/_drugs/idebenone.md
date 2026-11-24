@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "idebenone"
 predicted_indications: ["hepatic porphyria", "primitive portal vein thrombosis", "early-onset familial noncirrhotic portal hypertension", "idiopathic copper-associated cirrhosis", "hepatoportal sclerosis", "hepatopulmonary syndrome", "immune-mediated necrotizing myopathy", "osteogenesis imperfecta-retinopathy-seizures-intellectual disability syndrome", "antisynthetase syndrome", "focal myositis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Idebenone: nueva indicación predicha, porfiria hepática (hepatic porphyria) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 5 (en el listado vigente: 5)"
 ---
 
@@ -73,13 +73,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Las cinco autorizaciones registradas están vigentes y corresponden a productos de un solo principio activo del laboratorio Teva Argentina. El texto de indicación aprobada no figura en los registros locales.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 16987 | NEMOCEBRAL | 45 mg grag. x 30 |
-| 14970 | NEMOCEBRAL | 100 mg grag. x 30 |
-| 16988 | NEMOCEBRAL | 45 mg grag. x 60 |
-| 11258 | NEMOCEBRAL | 30 mg grag. x 30 |
-| 32707 | NEMOCEBRAL PLUS | comp. x 30 |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 16987 | NEMOCEBRAL | 45 mg grag.x 30 | Teva Argentina | Vigente |
+| 14970 | NEMOCEBRAL | 100 mg grag.x 30 | Teva Argentina | Vigente |
+| 16988 | NEMOCEBRAL | 45 mg grag.x 60 | Teva Argentina | Vigente |
+| 11258 | NEMOCEBRAL | 30 mg grag.x 30 | Teva Argentina | Vigente |
+| 32707 | NEMOCEBRAL PLUS | comp.x 30 | Teva Argentina | Vigente |
+
+La tabla muestra los 5 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

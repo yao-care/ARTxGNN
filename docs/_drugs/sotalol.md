@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 229
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sotalol: nueva indicación predicha, Síndrome del seno enfermo tipo 2, autosómico dominante (nivel de evidencia L5). Indicación original: Fibrilación auricular"
 monitor_inn: "SOTALOL"
 predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "Wildervanck syndrome", "sarcoglycanopathy", "stroke disorder", "manic bipolar affective disorder", "macrocephaly, dysmorphic facies, and psychomotor retardation"]
@@ -82,10 +82,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Fabricante |
-|---------|------|------|-----------|
-| 29548 | SOTACOR | Comprimidos de 160 mg x 20 | Siegfried |
-| 29546 | SOTACOR | Comprimidos de 80 mg x 20 | Siegfried |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 29548 | SOTACOR | 160 mg comp.x 20 | Siegfried | Vigente |
+| 29546 | SOTACOR | 80 mg comp.x 20 | Siegfried | Vigente |
+
+La tabla muestra los 2 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Las dos autorizaciones están vigentes y corresponden a productos de principio activo único. Los registros disponibles no incluyen el texto de la indicación aprobada.
 

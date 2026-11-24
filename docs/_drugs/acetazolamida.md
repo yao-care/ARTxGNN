@@ -8,7 +8,7 @@ indication_count: 10
 drugbank_id: DB00819
 monitor_inn: "Acetazolamide"
 predicted_indications: ["exercise-induced malignant hyperthermia", "hypertrophic cardiomyopathy", "congenital myopathy with excess of thin filaments", "hypertrophic cardiomyopathy due to intensive athletic training", "distal myopathy, Tateyama type", "cirrhotic cardiomyopathy", "cardiomyopathy", "intestinal obstruction", "glycogen storage disease due to acid maltase deficiency, late-onset", "unclassified intestinal pseudoobstruction"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Acetazolamida: nueva indicación predicha, hipertermia maligna inducida por ejercicio (exercise-induced malignant hyperthermia) (nivel de evidencia L5)."
 ---
 
@@ -72,10 +72,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 48845 | ACETA (Novoplos) | Comprimidos 250 mg x 20 | No registrada en los datos locales |
-| 45899 | DIABO (Max Vision) | Comprimidos 250 mg x 50 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 48845 | ACETA | 250 mg comp.x 20 | Novoplos | Vigente |
+| 45899 | DIABO | 250 mg comp.x 50 | Max Vision | Vigente |
+
+La tabla muestra los 2 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -8,7 +8,7 @@ indication_count: 2
 drugbank_id: DB00257
 monitor_inn: "Clotrimazole"
 predicted_indications: ["acne (disease)", "postmenopausal atrophic vaginitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clotrimazol: nueva indicación predicha, acné (acne (disease)) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 9 (en el listado vigente: 9)"
 ---
 
@@ -74,13 +74,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 34526 | MYCANDEN | Crema x 20 g |
-| 2042 | MICOMAZOL | Crema dérmica x 30 g |
-| 32028 | MYCANDEN | Spray x 60 ml |
-| 20139 | IKOLAN | Crema 1% x 25 g |
-| 32425 | MICOSEP | Pasta dérmica x 30 g |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 34526 | MYCANDEN | cr.x 20 g | Ronnet | Vigente |
+| 2042 | MICOMAZOL | cr.derm.x 30 g | Siegfried | Vigente |
+| 32028 | MYCANDEN | spray x 60 ml | Ronnet | Vigente |
+| 20139 | IKOLAN | 1% cr.x 25 g | Siegfried | Vigente |
+| 32425 | MICOSEP | pasta dérm.x 30 g | Cassará | Vigente |
+
+La tabla muestra 5 de los 9 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Se muestran las 5 primeras de 9 autorizaciones vigentes, todas de productos de un solo principio activo.
 

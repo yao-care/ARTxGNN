@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 10
 monitor_inn: "rifampicin"
 predicted_indications: ["conjunctivitis", "multiple endocrine neoplasia", "acne (disease)", "conjunctivitis (disease)", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acute contagious conjunctivitis", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Rifampicin: nueva indicación predicha, conjuntivitis (conjunctivitis) (nivel de evidencia L4). En Argentina, productos en el listado de PAMI: 6 (en el listado vigente: 6)"
 ---
 
@@ -82,13 +82,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 5094 | RIFADIN | 300 mg cápsulas x 8 | No registrada en los datos locales |
-| 18141 | RIFAMPICINA RICHET | Jarabe x 50 ml | No registrada en los datos locales |
-| 45742 | RIFALEP | 300 mg cápsulas x 8 | No registrada en los datos locales |
-| 18140 | RIFAMPICINA RICHET | 300 mg cápsulas x 8 | No registrada en los datos locales |
-| 24354 | RIFAMPICINA AA RICHET | 600 mg inyectable, frasco ampolla x 1 de 50 ml | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 5094 | RIFADIN | 300 mg caps.x 8 | Sanofi-Aventis | Vigente |
+| 18141 | RIFAMPICINA RICHET | jbe.x 50 ml | Richet | Vigente |
+| 45742 | RIFALEP | 300 mg cáps.x 8 | Austral | Vigente |
+| 18140 | RIFAMPICINA RICHET | 300 mg cáps.x 8 | Richet | Vigente |
+| 24354 | RIFAMPICINA AA RICHET | 600 mg iny.f.a.x 1x 50ml | Richet | Vigente |
+
+La tabla muestra 5 de los 6 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

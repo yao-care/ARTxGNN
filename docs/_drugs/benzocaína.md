@@ -8,7 +8,7 @@ indication_count: 1
 drugbank_id: DB01086
 monitor_inn: "Benzocaine"
 predicted_indications: ["papillary conjunctivitis"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Benzocaína: nueva indicación predicha, conjuntivitis papilar (papillary conjunctivitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 8 (en el listado vigente: 8)"
 ---
 
@@ -81,13 +81,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 10501 | FILOTRICIN A | Colutorio x 45 ml | No registrada en los datos locales |
-| 54528 | BUCASMOL A SPRAY BUCAL | Envase x 45 ml | No registrada en los datos locales |
-| 51443 | FILOTRICIN A | Spray x 30 ml | No registrada en los datos locales |
-| 48483 | BUCOTRICIN | Colutorio x 60 ml | No registrada en los datos locales |
-| 13487 | FILOTRICIN A | Caramelos x 10 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 10501 | FILOTRICIN A | colut.x 45 ml | Siegfried | Vigente |
+| 54528 | BUCASMOL A SPRAY BUCAL | env.x 45 ml | Fecofar | Vigente |
+| 51443 | FILOTRICIN A | spray x 30 ml | Siegfried | Vigente |
+| 48483 | BUCOTRICIN | colut.x 60 ml | Monserrat | Vigente |
+| 13487 | FILOTRICIN A | caram.x 10 | Siegfried | Vigente |
+
+La tabla muestra 5 de los 8 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ---
 

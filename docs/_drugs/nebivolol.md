@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "NEBIVOLOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Nebivolol: nueva indicación predicha, enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -73,13 +73,19 @@ Actualmente no hay literatura relacionada disponible.
 
 El estado de mercado es **comercializado**. La lista de autorizaciones puede ser parcial (al menos 20 registros, todos vigentes). Se muestran las 5 principales:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 52016 | GADOCOR | 10 mg comp. ran. x 30 | No registrada en los datos locales |
-| 56489 | NEBIVOLOL DENVER FARMA | 5 mg comp. x 28 | No registrada en los datos locales |
-| 58881 | CORPRES 2.5 | 2,5 mg comp. x 60 | No registrada en los datos locales |
-| 48494 | NIDIB | 5 mg comp. birran. x 28 | No registrada en los datos locales |
-| 52551 | NIDIB | 10 mg comp. birran. x 28 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 52016 | GADOCOR | 10 mg comp.ran.x 30 | Gador | Vigente |
+| 56489 | NEBIVOLOL DENVER FARMA | 5 mg comp.x 28 | Denver Farma | Vigente |
+| 58881 | CORPRES 2.5 | 2.5 mg comp.x 60 | Roemmers | Vigente |
+| 48494 | NIDIB | 5 mg comp.birran.x 28 | Baliarda | Vigente |
+| 52551 | NIDIB | 10 mg comp.birran.x 28 | Baliarda | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

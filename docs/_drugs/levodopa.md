@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "LEVODOPA"
 predicted_indications: ["Rasmussen subacute encephalitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Levodopa: nueva indicación predicha, Encefalitis subaguda de Rasmussen (Rasmussen subacute encephalitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -72,13 +72,19 @@ Actualmente no hay literatura relacionada disponible.
 
 El fármaco figura como comercializado, con al menos 20 autorizaciones vigentes (la lista puede ser parcial). Principales autorizaciones:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 37910 | PARKINEL 250/25 | 250 mg/25 mg comp. x 60 |
-| 20074 | LECARGE | 250/25 mg comp. x 30 |
-| 19636 | MADOPAR DISPERSABLE | 62,5 mg tab. dispers. x 100 |
-| 11017 | LEBOCAR | 250/25 comp. x 60 |
-| 49290 | SINEMET 250/25 | comp. x 50 |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 37910 | PARKINEL 250/25 | 250 mg/25 mg comp.x 60 | Bagó | Vigente |
+| 20074 | LECARGE | 250/25 mg comp.x 30 | Klonal | Vigente |
+| 19636 | MADOPAR DISPERSABLE | 62.5 mg tab.dispers.x100 | Siegfried | Vigente |
+| 11017 | LEBOCAR | 250/25 comp. x 60 | Pfizer | Vigente |
+| 36510 | PARKINEL 250/25 | 250 mg/25 mg comp.x 30 | Bagó | Vigente |
+
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

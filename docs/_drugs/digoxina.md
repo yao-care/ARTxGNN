@@ -8,7 +8,7 @@ indication_count: 5
 drugbank_id: DB00390
 monitor_inn: "Digoxin"
 predicted_indications: ["Prinzmetal angina", "duodenal obstruction", "duodenal ulcer (disease)", "duodenogastric reflux", "hypoalphalipoproteinemia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Digoxina: nueva indicación predicha, Angina de Prinzmetal (Prinzmetal angina) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 5 (en el listado vigente: 5)"
 ---
 
@@ -73,13 +73,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 29874 | DIGOXINA LAFEDAR | 0.25 mg comp. x 40 | No registrada |
-| 4370 | LANOXIN (DIGOXINA) | 0.25 mg comp. x 100 | No registrada |
-| 29875 | DIGOXINA LAFEDAR | 75 mg gts. x 10 ml | No registrada |
-| 9110 | LANOXIN (DIGOXINA) | 0.25 mg comp. x 50 | No registrada |
-| 9109 | LANOXIN (DIGOXINA) | 0.25 mg comp. x 25 | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 29874 | DIGOXINA LAFEDAR | 0.25 mg comp.x 40 | Lafedar | Vigente |
+| 4370 | LANOXIN (DIGOXINA) | 0.25 mg comp.x 100 | Roemmers | Vigente |
+| 29875 | DIGOXINA LAFEDAR | 75 mg gts.x 10 ml | Lafedar | Vigente |
+| 9110 | LANOXIN (DIGOXINA) | 0.25 mg comp.x 50 | Roemmers | Vigente |
+| 9109 | LANOXIN (DIGOXINA) | 0.25 mg comp.x 25 | Roemmers | Vigente |
+
+La tabla muestra los 5 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

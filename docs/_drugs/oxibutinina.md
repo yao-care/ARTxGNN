@@ -8,7 +8,7 @@ indication_count: 3
 drugbank_id: DB01062
 monitor_inn: "Oxybutynin"
 predicted_indications: ["restless legs syndrome", "gastroduodenitis", "peptic ulcer disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Oxibutinina: nueva indicación predicha, Síndrome de piernas inquietas (restless legs syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 19 (en el listado vigente: 19)"
 ---
 
@@ -75,13 +75,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Los datos compilados muestran 19 autorizaciones, todas vigentes y de producto de un solo principio activo. Principales autorizaciones:
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 23095 | DELAK | Comprimidos x 60 | No registrada en los datos locales |
-| 22173 | OXIBUTININA FERRING | Comprimidos 5 mg x 20 | No registrada en los datos locales |
-| 22520 | DITROPAN UD | Comprimidos 15 mg x 20 | No registrada en los datos locales |
-| 46487 | DITROPAN UD | Comprimidos 5 mg x 30 | No registrada en los datos locales |
-| 48820 | GELIDINA | Gel dérmico x 30 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 23095 | DELAK | comp.x 60 | Adium | Vigente |
+| 22173 | OXIBUTININA FERRING | 5 mg comp.x 20 | Ferring | Vigente |
+| 22520 | DITROPAN UD | 15 mg comp.x 20 | Elea | Vigente |
+| 46487 | DITROPAN UD | 5 mg comp.x 30 | Elea | Vigente |
+| 9494 | DITROPAN | comp.x 50 | Elea | Vigente |
+
+La tabla muestra 5 de los 19 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

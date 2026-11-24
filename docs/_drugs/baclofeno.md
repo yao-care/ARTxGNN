@@ -8,7 +8,7 @@ indication_count: 2
 drugbank_id: DB00181
 monitor_inn: "Baclofen"
 predicted_indications: ["attention deficit-hyperactivity disorder", "nicotine dependence"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Baclofeno: nueva indicación predicha, Trastorno por déficit de atención e hiperactividad (attention deficit-hyperactivity disorder) (nivel de evidencia L5)."
 ---
 
@@ -83,13 +83,19 @@ Ninguno de estos trabajos estudia directamente baclofeno en TDAH.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 55717 | ISEDIS | 10 mg comp. x 60 | No registrada en los datos locales |
-| 43963 | LIORESAL | comp. x 60 | No registrada en los datos locales |
-| 17748 | LIORESAL INTRATECAL | 10 mg/20 ml iny. x 1 | No registrada en los datos locales |
-| 25864 | LIORESAL INTRATECAL | 10 mg/5 ml iny. x 1 | No registrada en los datos locales |
-| 60101 | BACLOX | 25 mg comp. x 30 | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 55717 | ISEDIS | 10 mg comp.x 60 | Lafedar | Vigente |
+| 43963 | LIORESAL | comp.x 60 | Novartis | Vigente |
+| 17748 | LIORESAL INTRATECAL | 10 mg/20 ml iny.a.x 1 | Novartis | Vigente |
+| 25864 | LIORESAL INTRATECAL | 10 mg/5 ml iny.a.x 1 | Novartis | Vigente |
+| 60101 | BACLOX | 25 mg comp.x 30 | Ariston | Vigente |
+
+La tabla muestra 5 de los 7 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

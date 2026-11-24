@@ -8,7 +8,7 @@ indication_count: 4
 drugbank_id: DB00199
 monitor_inn: "Erythromycin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "lymphogranuloma venereum", "necrotizing ulcerative gingivitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Eritromicina: nueva indicación predicha, queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5)."
 ---
 
@@ -75,13 +75,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 23320 | ERITROFARM | Colirio x 5 ml | No registrada en los datos locales |
-| 11986 | PANTOMICINA 500 | Comprimidos x 16 (500 mg) | No registrada en los datos locales |
-| 46126 | ERITROMICINA ELEA | Ungüento x 3,5 g | No registrada en los datos locales |
-| 31844 | ERITROFARM | Ungüento oftálmico unidosis x 20 | No registrada en los datos locales |
-| 9947 | PANTOMICINA 200 | Suspensión x 100 ml (200 mg) | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 23320 | ERITROFARM | colirio x 5 ml | Poen | Vigente |
+| 11986 | PANTOMICINA 500 | E.S.500 mg comp.x 16 | Bagó | Vigente |
+| 46126 | ERITROMICINA ELEA | ung.x 3.5 g | Elea | Vigente |
+| 31844 | ERITROFARM | ung.oft.unidosis x 20 | Poen | Vigente |
+| 9947 | PANTOMICINA 200 | E.S.200 mg susp.x 100 ml | Bagó | Vigente |
+
+La tabla muestra 5 de los 16 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Se muestran 5 de las 16 autorizaciones vigentes de productos de un solo principio activo.
 

@@ -8,7 +8,7 @@ indication_count: 5
 drugbank_id: DB01023
 monitor_inn: "Felodipine"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Felodipina: nueva indicación predicha, Hipertensión pulmonar de mecanismo multifactorial poco claro (pulmonary hypertension with unclear multifactorial mechanism) (nivel de evidencia L5)."
 ---
 
@@ -72,13 +72,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Los datos locales registran 6 autorizaciones vigentes de productos con felodipina, todas del laboratorio AstraZeneca.
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 55481 | PLENDIL | 10 mg comprimidos de liberación prolongada x 28 |
-| 55482 | PLENDIL | 5 mg comprimidos de liberación prolongada x 28 |
-| 45022 | ATACAND DUO | 16 mg/5 mg comprimidos x 60 |
-| 45019 | ATACAND DUO | 8 mg/2,5 mg comprimidos x 60 |
-| 45021 | ATACAND DUO | 16 mg/2,5 mg comprimidos x 60 |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 55481 | PLENDIL | 10 mg comp.lib.prol.x 28 | AstraZeneca | Vigente |
+| 55482 | PLENDIL | 5 mg comp.lib.prol.x 28 | AstraZeneca | Vigente |
+| 45022 | ATACAND DUO | 16mg/5mg comp.x 60 | AstraZeneca | Vigente |
+| 45019 | ATACAND DUO | 8mg/2.5mg comp.x 60 | AstraZeneca | Vigente |
+| 45021 | ATACAND DUO | 16mg/2.5mg comp.x 60 | AstraZeneca | Vigente |
+
+La tabla muestra 5 de los 6 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

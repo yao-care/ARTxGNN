@@ -8,7 +8,7 @@ indication_count: 1
 drugbank_id: DB01114
 monitor_inn: "Chlorpheniramine"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clorfeniramina: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 14 (en el listado vigente: 14)"
 ---
 
@@ -81,13 +81,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 3525 | ALERGITRAT | Jarabe x 120 ml | No registrada en los datos locales |
-| 3524 | ALERGITRAT | Comprimidos x 20 | No registrada en los datos locales |
-| 8666 | DEXALERGIN | Comprimidos recubiertos x 20 | No registrada en los datos locales |
-| 8670 | DEXALERGIN | Jarabe x 100 ml | No registrada en los datos locales |
-| 8766 | ASEPTOBRON | Jarabe x 150 ml | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 3525 | ALERGITRAT | jbe.x 120 ml | Fecofar | Vigente |
+| 3524 | ALERGITRAT | comp.x 20 | Fecofar | Vigente |
+| 8666 | DEXALERGIN | comp.rec.x 20 | Teva Argentina | Vigente |
+| 8670 | DEXALERGIN | jbe.x 100 ml | Teva Argentina | Vigente |
+| 8766 | ASEPTOBRON | jbe.x 150 ml | Temis-Lostaló | Vigente |
+
+La tabla muestra 5 de los 14 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 Se muestran 5 de las 14 autorizaciones vigentes.
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 234
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Thiocolchicoside: nueva indicación predicha, Insomnio (nivel de evidencia L5). Indicación original: No disponible en las autorizaciones registradas (el texto de indicaci…"
 monitor_inn: "thiocolchicoside"
 drugbank_id: DB11582
@@ -82,10 +82,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 45510 | MOLAGAR (Finadiet) | 4 mg a.x 6 | No especificada |
-| 45397 | MOLAGAR (Finadiet) | 4 mg comp.x 20 | No especificada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 45510 | MOLAGAR | 4 mg a.x 6 | Finadiet | Vigente |
+| 45397 | MOLAGAR | 4 mg comp.x 20 | Finadiet | Vigente |
+
+La tabla muestra los 2 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ---
 

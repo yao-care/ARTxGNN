@@ -8,7 +8,7 @@ indication_count: 2
 drugbank_id: DB01394
 monitor_inn: "Colchicine"
 predicted_indications: ["Plasmodium falciparum malaria", "dermatofibrosarcoma protuberans"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Colchicina: nueva indicación predicha, Malaria por Plasmodium falciparum (Plasmodium falciparum malaria) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 7 (en el listado vigente: 7)"
 ---
 
@@ -74,13 +74,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Argentina
 
-| Número de Autorización | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 24160 | COLCHICINA HOUDE | comp. x 60 | No registrada |
-| 8577 | COLCHICINA HOUDE | comp. x 20 | No registrada |
-| 6445 | COLPURIL | 100 mg comp. rec. x 20 | No registrada |
-| 6449 | COLPURIL 300 RETARD | cáps. lib. prol. x 20 | No registrada |
-| 6450 | COLPURIL 300 RETARD | cáps. lib. prol. x 50 | No registrada |
+<!-- licenses:begin -->
+
+| Número de Autorización | Nombre del Producto | Presentación | Laboratorio | Estado |
+|------|------|------|------|------|
+| 24160 | COLCHICINA HOUDE | comp.x 60 | Ariston | Vigente |
+| 8577 | COLCHICINA HOUDE | comp.x 20 | Ariston | Vigente |
+| 6445 | COLPURIL | 100 mg comp.rec.x 20 | Siegfried | Vigente |
+| 6449 | COLPURIL 300 RETARD | cáps.lib.prol.x 20 | Siegfried | Vigente |
+| 6450 | COLPURIL 300 RETARD | cáps.lib.prol.x 50 | Siegfried | Vigente |
+
+La tabla muestra 5 de los 7 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 
