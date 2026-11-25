@@ -128,3 +128,13 @@ noindex 不補、再跑 0 頁；另以拿掉市場／安全性／結論段的 ac
 
 用戶 2026-11-24 決定：事實層依各站成分欄正確切分。reviewer/drug_evidence_pack.py 原本用「;;」切成分，本站 PAMI 成分欄的複方以「+」連接（diosmina+hesperidina、「+asoc.」），都算成單方；改用 `src/artxgnn/regulatory/ingredients.py`（逗號是「成分,鹽類」寫法，不切）。
 事實層 479 藥中 165 藥 single_total 改變；證據包 122 個重算（data-overlay）。寬偵測掃事實有變的頁：第二輪紀錄已更正，跟新事實矛盾 0 句；B（單方數字只驗不改）判斷不了 0 句；checker 0→0。
+
+## 每週排程存現行 PAMI 清單的成分、量新代碼漏收（2026-11-25 第五輪）
+
+用戶 2026-11-25 決定（第五輪第 3 條）：`scripts/license_adapter.py` 的 fetch() 原本只存 ALFABETA 代碼，改成連同 PRINCIPIO ACTIVO、MARCA COMERCIAL、PRESENTACION、LABORATORIO
+一起存進 `data/raw/pami_alfabeta.json`（欄名同 ar_fda_drugs.json：nombre_generico、nombre_comercial、presentacion、laboratorio_titular；成分欄大多空白就 raise），Release 就帶著現行清單的成分。
+2026-11-25 抓 2026-11-05 版（8,734 列）寫入，經 data-overlay 進 Release。
+- `scripts/measure_pami_new_items.py`（只量、不改）：照原收集器規則（成分字串已在 drug_mapping.csv 就沿用其 DrugBank ID，否則用 run_kg_prediction 同一支 map_fda_drugs_to_drugbank 逐成分對照，跟證據包 drugbank_ids 有交集）量現行清單有、證據包沒收的代碼。
+- 2026-11-25 量測：不在 2026-03 基準的新代碼 754 個，對得到 DrugBank 671 個、屬於某證據包 645 個；涉及 151 個證據包、890 筆（公開頁 108、noindex 22、轉址 3、沒有頁 18；部分收錄 89 包、完整 62 包）。
+  例：amlodipina 29、carvedilol 31、empagliflozina 20（證據包原本 4 筆）、diclofenac 19、bisoprolol 14、etoricoxib 13。複方依原規則逐成分歸屬（例 ciproheptadina+calcio+asoc. 也歸 calcio）。
+  超過 50 個證據包，照第五輪說明先停下回報，沒有補收、沒有接進排程（待用戶決定）。

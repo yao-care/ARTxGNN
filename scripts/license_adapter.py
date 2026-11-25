@@ -3,7 +3,7 @@
 注意：AR 站的本地資料原本就是 PAMI（國家退休人員醫療機構）的給付價目表，不是 ANMAT 的許可證資料；ANMAT 沒有可程式下載的全量註冊檔
 （2026-10-30 查證：VNM 開放資料只有 2018 年兩份更新檔）。用戶 2026-10-30 選「沿用現有來源排程」。
 來源：datos.pami.org.ar CKAN 資料集 medicamentos-para-entidades，取最新的 CSV 資源（免金鑰；; 分隔、latin-1）。
-欄位 ALFABETA（＝證據包 license_id）。只列當期在價目表的品項、沒有狀態欄：在列不改紀錄，
+欄位 ALFABETA（＝證據包 license_id）；2026-11-25 起 RAW_FILE 另存 PRINCIPIO ACTIVO 等欄（見 fetch）。只列當期在價目表的品項、沒有狀態欄：在列不改紀錄，
 新清單查不到的代碼保留原狀態、列在 summary（不推定為撤銷）。
 
 2026-11-17（用戶要求確認 11-16 排程「新資料查不到」的 53 張）：ALFABETA 是 Alfabeta（Manual Farmacéutico）的品項代碼，
@@ -55,7 +55,14 @@ def fetch():
     rows = csv.DictReader(io.StringIO(text), delimiter=";")
     if "ALFABETA" not in (rows.fieldnames or []):
         raise RuntimeError(f"欄位改變：{rows.fieldnames}")
-    out = [{"alfabeta": (x["ALFABETA"] or "").strip()} for x in rows if x.get("ALFABETA")]
+    # 2026-11-25（用戶第五輪決定）：連同成分、品名、包裝、廠商一起存（Release 帶著現行清單的成分，才能依原收集規則量／補收新代碼）。
+    # 欄位寫法同 data/raw/ar_fda_drugs.json（process_fda_data.py 由 2026-03 版價目表產生）：PRINCIPIO ACTIVO→nombre_generico 等。
+    g = lambda x, k: (x.get(k) or "").strip()  # noqa: E731
+    out = [{"alfabeta": g(x, "ALFABETA"), "nombre_generico": g(x, "PRINCIPIO ACTIVO"), "nombre_comercial": g(x, "MARCA COMERCIAL"),
+            "presentacion": g(x, "PRESENTACION"), "laboratorio_titular": g(x, "LABORATORIO")}
+           for x in rows if x.get("ALFABETA")]
+    if out and sum(1 for r in out if r["nombre_generico"]) < 0.9 * len(out):
+        raise RuntimeError("PRINCIPIO ACTIVO 欄大多空白，疑似格式改變")
     CURRENT.clear()
     if len(out) >= MIN_CURRENT:
         CURRENT.update(r["alfabeta"] for r in out)
