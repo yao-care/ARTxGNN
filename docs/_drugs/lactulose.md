@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "lactulose"
 predicted_indications: ["acute urate nephropathy", "nephrolithiasis", "obstructive jaundice", "bile duct disease", "biliary tract disease", "hyperphosphatemia (disease)", "exercise-induced malignant hyperthermia", "bile duct neoplasm"]
-last_modified_at: 2026-11-24
-description: "Lactulose: nueva indicación predicha, Nefropatía aguda por uratos (acute urate nephropathy) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 6 (en el listado vigente: 6)"
+last_modified_at: 2026-11-25
+description: "Lactulose: nueva indicación predicha, Nefropatía aguda por uratos (acute urate nephropathy) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 8 (en el listado vigente: 8)"
 ---
 
 # Lactulose
@@ -50,8 +50,8 @@ Sin embargo, no se encontraron ensayos clínicos ni publicaciones que respalden 
 | Nueva Indicación Predicha | Nefropatía aguda por uratos (acute urate nephropathy) |
 | Puntaje de Predicción TxGNN | 0.9989 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (6 de 6) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de productos en el listado PAMI | 6 (vigentes: 6) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (8 de 8) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de productos en el listado PAMI | 8 (vigentes: 8) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -72,7 +72,13 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-Todas las autorizaciones registradas están vigentes (6 de 6) y el fármaco figura como comercializado. El texto de indicación aprobada no está registrado en los datos locales.
+Todas las autorizaciones registradas están vigentes y el fármaco figura como comercializado. El texto de indicación aprobada no está registrado en los datos locales.
+
+<!-- review:begin ar-lic-20261125-lactulose-1 -->
+
+> **Corrección de verificación (2026-11-25)**: Texto original: «Todas las autorizaciones registradas están vigentes (6 de 6) y el fármaco figura como comercializado.» Corregido: desde el 2026-11-25 se incorporan a los datos los productos del listado vigente de PAMI posteriores a marzo de 2026, con el mismo criterio de recogida; la frase ya no coincidía con ellos. Las cifras actuales están en el resumen rápido y en la tabla de Información de Mercado en Argentina. El estado del registro en ANMAT no está incluido en estos datos. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261125-lactulose-1 -->
 
 <!-- licenses:begin -->
 
@@ -84,7 +90,7 @@ Todas las autorizaciones registradas están vigentes (6 de 6) y el fármaco figu
 | 1402 | LACTULON | jbe.x 120 ml | Lazar | Vigente |
 | 36218 | LAFELAX | jbe.x 120 ml | Lafedar | Vigente |
 
-La tabla muestra 5 de los 6 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+La tabla muestra 5 de los 8 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
 
 <!-- licenses:end -->
 
@@ -111,11 +117,12 @@ La predicción no cuenta con ensayos clínicos ni literatura, no tiene un mecani
 
 ## Registro de verificación
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de verificación | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Enulose (lactulose) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fa3aae7c-6f98-4fbb-85dc-32affe9874d5) |
+| 2026-11-25 | «(6 de 6)» eliminado | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
 
 <!-- review:end log -->
 

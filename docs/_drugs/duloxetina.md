@@ -8,7 +8,7 @@ indication_count: 10
 drugbank_id: DB00476
 monitor_inn: "Duloxetine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "schizoid personality disorder", "paranoid personality disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Duloxetina: nueva indicación predicha, Tortícolis paroxística benigna de la infancia (benign paroxysmal torticollis of infancy) (nivel de evidencia L5)."
 ---
 
@@ -51,8 +51,8 @@ La duloxetina es un antidepresivo de la clase de los inhibidores de la recaptaci
 | Nueva Indicación Predicha | Tortícolis paroxística benigna de la infancia (benign paroxysmal torticollis of infancy) |
 | Puntaje de Predicción TxGNN | 0.9985 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (17 de 17) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorización | 17 (vigentes: 17) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (18 de 18) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de Autorización | 18 (vigentes: 18) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -93,7 +93,7 @@ El estado de mercado es **Comercializado**, y las autorizaciones listadas figura
 | 44429 | NITIDEX | 60 mg cáps.x 28 | Teva Argentina | Vigente |
 | 57323 | ALACIR | 60 mg comp.rec.x 28 | Megalabs Argent | Vigente |
 
-La tabla muestra 5 de los 17 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+La tabla muestra 5 de los 18 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
 
 <!-- licenses:end -->
 

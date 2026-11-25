@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 63
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Bromfenac: nueva indicación predicha, Enfermedad ocular (eye disease) (nivel de evidencia L1). Indicación original: No disponible (los textos de indicación de las autorizaciones están v…"
 monitor_inn: "BROMFENAC"
 predicted_indications: ["eye disease", "optic papillitis", "von Hippel anomaly", "mcpherson robertson cammarano syndrome", "vulvar inverted follicular keratosis", "lagophthalmos", "microblepharon-ablephara syndrome", "seborrheic keratosis", "conjunctival degeneration", "luxation of globe"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **enfermedad ocular** (cat
 | Nueva Indicación Predicha | Enfermedad ocular (eye disease) |
 | Puntaje de Predicción TxGNN | 0.9980 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (4 de 4) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de productos en el listado PAMI | 4 (vigentes: 4) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (5 de 5) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de productos en el listado PAMI | 5 (vigentes: 5) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -114,7 +114,7 @@ Se listan los ensayos más relevantes (de un total de 38 registrados):
 | 40085 | NATAX | fco.gotero x 5 ml | Poen | Vigente |
 | 58196 | OFTALFENAC | sol.oft.x 5 ml | Denver Farma | Vigente |
 
-La tabla muestra los 4 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+La tabla muestra 4 de los 5 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
 
 <!-- licenses:end -->
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 199
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Naphazoline: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "naphazoline"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "primary hereditary glaucoma", "hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "open-angle glaucoma", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
@@ -50,8 +50,8 @@ Nafazolina es un vasoconstrictor simpaticomimético (agonista alfa-adrenérgico)
 | Nueva Indicación Predicha | Hipotricosis simple del cuero cabelludo |
 | Puntaje de Predicción TxGNN | 0.9983 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (5 de 9) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de productos en el listado PAMI | 9 (vigentes: 5) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (7 de 11) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de productos en el listado PAMI | 11 (vigentes: 7) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -90,7 +90,7 @@ Actualmente no hay literatura relacionada disponible para la indicación princip
 | 12536 | RINOGEL | gel nasal x 15 ml | Cassará | Vigente |
 | 42850 | MIRA KLONAL | fco.gotero x 5 ml | Klonal | Ya no figura en el listado de PAMI |
 
-La tabla muestra 5 de los 9 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+La tabla muestra 5 de los 11 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
 
 <!-- licenses:end -->
 

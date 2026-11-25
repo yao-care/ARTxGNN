@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "modafinil"
 predicted_indications: ["insomnia (disease)"]
-last_modified_at: 2026-11-24
-description: "Modafinil: nueva indicación predicha, insomnio (insomnia (disease)) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 7 (en el listado vigente: 7)"
+last_modified_at: 2026-11-25
+description: "Modafinil: nueva indicación predicha, insomnio (insomnia (disease)) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 9 (en el listado vigente: 9)"
 ---
 
 # Modafinil
@@ -48,8 +48,8 @@ Modafinilo es un agente promotor de la vigilia que cuenta con autorizaciones vig
 | Nueva Indicación Predicha | insomnio (insomnia (disease)) |
 | Puntaje de Predicción TxGNN | 0.9985 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (7 de 7) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de productos en el listado PAMI | 7 (vigentes: 7) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (9 de 9) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de productos en el listado PAMI | 9 (vigentes: 9) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -79,11 +79,17 @@ Una posible vía de aplicación sería indirecta: mejorar el funcionamiento diur
 | 49670 | VIGICER | 200 mg comp.x 30 | Beta | Vigente |
 | 42592 | INTENSIT | 200 mg comp.x 10 | Rontag | Vigente |
 
-La tabla muestra 5 de los 7 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+La tabla muestra 5 de los 9 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
 
 <!-- licenses:end -->
 
-Hay 7 autorizaciones vigentes en total; se muestran las 5 principales. Las otras dos corresponden a FORCILIN (58761 y 58762).
+Todas las autorizaciones están vigentes; entre ellas figuran las de FORCILIN (58761 y 58762).
+
+<!-- review:begin ar-lic-20261125-modafinil-1 -->
+
+> **Corrección de verificación (2026-11-25)**: Texto original: «Hay 7 autorizaciones vigentes en total; se muestran las 5 principales. Las otras dos corresponden a FORCILIN (58761 y 58762).» Corregido: desde el 2026-11-25 se incorporan a los datos los productos del listado vigente de PAMI posteriores a marzo de 2026, con el mismo criterio de recogida; la frase ya no coincidía con ellos. Las cifras actuales están en el resumen rápido y en la tabla de Información de Mercado en Argentina. El estado del registro en ANMAT no está incluido en estos datos. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261125-modafinil-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -108,11 +114,12 @@ La predicción no cuenta con estudios que la respalden: el único ensayo directa
 
 ## Registro de verificación
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de verificación | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Provigil (modafinil) prescribing information, Apotex Corp](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0391f182-1958-9fef-a944-53b229ce99e7) |
+| 2026-11-25 | Número de autorizaciones y «las otras dos» eliminados | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
 
 <!-- review:end log -->
 

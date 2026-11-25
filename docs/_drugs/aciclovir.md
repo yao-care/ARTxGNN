@@ -8,7 +8,7 @@ indication_count: 10
 drugbank_id: DB00787
 monitor_inn: "Acyclovir"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "common wart", "post-infectious neuralgia", "hepatitis C induced liver cirrhosis", "eosinophilic pustular folliculitis", "sequela of COVID-19", "vulvovaginal candidiasis", "papular urticaria", "disease of orbital region", "epidemic keratoconjunctivitis"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Aciclovir: nueva indicación predicha, queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
@@ -39,8 +39,14 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Aciclovir es un antiviral análogo de nucleósidos que se comercializa en Argentina en comprimidos, cápsulas, suspensión y liofilizado inyectable.
+Aciclovir es un antiviral análogo de nucleósidos que se comercializa en Argentina en comprimidos, cápsulas, suspensión, liofilizado inyectable y, asociado a hidrocortisona, en presentaciones de uso tópico.
 El modelo TxGNN predice que podría ser efectivo para **queratoconjuntivitis epitelial punteada (punctate epithelial keratoconjunctivitis)**, pero no hay ensayos clínicos y las **2 publicaciones** recuperadas no estudian directamente esta enfermedad, por lo que la predicción carece de respaldo clínico.
+
+<!-- review:begin ar-lic-20261125-aciclovir-1 -->
+
+> **Corrección de verificación (2026-11-25)**: Texto original: «se comercializa en Argentina en comprimidos, cápsulas, suspensión y liofilizado inyectable.» Corregido: desde el 2026-11-25 se incorporan a los datos los productos del listado vigente de PAMI posteriores a marzo de 2026, con el mismo criterio de recogida; la frase ya no coincidía con ellos. Las cifras actuales están en el resumen rápido y en la tabla de Información de Mercado en Argentina. El estado del registro en ANMAT no está incluido en estos datos. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261125-aciclovir-1 -->
 
 ---
 
@@ -114,7 +120,13 @@ No hay ensayos clínicos ni estudios que evalúen aciclovir en queratoconjuntivi
 - Definir si el cuadro predicho corresponde a casos de etiología herpética, único escenario con mecanismo plausible.
 - Búsqueda dirigida de estudios clínicos de aciclovir en queratoconjuntivitis viral epitelial.
 - Datos del mecanismo de acción y del prospecto aprobado por ANMAT (advertencias y contraindicaciones).
-- Evaluar la vía de administración (por ejemplo, oftálmica), ya que las presentaciones locales son orales y un liofilizado inyectable.
+- Evaluar la vía de administración (por ejemplo, oftálmica).
+
+<!-- review:begin ar-lic-20261125-aciclovir-2 -->
+
+> **Corrección de verificación (2026-11-25)**: Texto original: «Evaluar la vía de administración (por ejemplo, oftálmica), ya que las presentaciones locales son orales y un liofilizado inyectable.» Corregido: desde el 2026-11-25 se incorporan a los datos los productos del listado vigente de PAMI posteriores a marzo de 2026, con el mismo criterio de recogida; la frase ya no coincidía con ellos. Las cifras actuales están en el resumen rápido y en la tabla de Información de Mercado en Argentina. El estado del registro en ANMAT no está incluido en estos datos. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261125-aciclovir-2 -->
 
 <!-- review:begin log -->
 
@@ -127,6 +139,8 @@ A continuación, el registro de verificación de esta página: afirmaciones cont
 | 2026-11-06 | Eliminado: «3. **Ausencia de datos regulatorios en Argentina**: El fármaco no cuenta con autorizaciones de comercialización registradas en Argentina (0 » | Ya no aparece tras regenerar el informe (2026-11-16: The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page; antes: Corregido) | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
 | 2026-11-06 | Eliminado: «No se identificaron autorizaciones de comercialización vigentes (total de licencias: 0)» | Ya no aparece tras regenerar el informe (2026-11-16: The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page; antes: Corregido) | [PAMI – Medicamentos para entidades (datos abiertos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: acyclovir prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=499c6a98-0614-4ded-8526-909942bae8a4) |
+| 2026-11-25 | Se añaden las presentaciones tópicas | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+| 2026-11-25 | Próximos pasos: eliminada la premisa sobre las presentaciones locales | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
 
 <!-- review:end log -->
 

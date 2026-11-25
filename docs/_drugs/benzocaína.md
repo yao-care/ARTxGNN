@@ -8,8 +8,8 @@ indication_count: 1
 drugbank_id: DB01086
 monitor_inn: "Benzocaine"
 predicted_indications: ["papillary conjunctivitis"]
-last_modified_at: 2026-11-24
-description: "Benzocaína: nueva indicación predicha, conjuntivitis papilar (papillary conjunctivitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 8 (en el listado vigente: 8)"
+last_modified_at: 2026-11-25
+description: "Benzocaína: nueva indicación predicha, conjuntivitis papilar (papillary conjunctivitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 9 (en el listado vigente: 9)"
 ---
 
 # Benzocaína
@@ -51,8 +51,8 @@ La benzocaína es un anestésico local tópico de tipo éster que bloquea los ca
 | Nueva Indicación Predicha | conjuntivitis papilar (papillary conjunctivitis) |
 | Puntaje de Predicción TxGNN | 0.9938 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (8 de 8) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorización | 8 (vigentes: 8) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (9 de 9) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de Autorización | 9 (vigentes: 9) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -91,7 +91,7 @@ Actualmente no hay literatura relacionada disponible.
 | 48483 | BUCOTRICIN | colut.x 60 ml | Monserrat | Vigente |
 | 13487 | FILOTRICIN A | caram.x 10 | Siegfried | Vigente |
 
-La tabla muestra 5 de los 8 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+La tabla muestra 5 de los 9 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
 
 <!-- licenses:end -->
 

@@ -8,7 +8,7 @@ indication_count: 4
 drugbank_id: DB00796
 monitor_inn: "Candesartan cilexetil"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Candesartán Cilexetil: nueva indicación predicha, Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5)."
 ---
 
@@ -51,8 +51,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden dir
 | Nueva Indicación Predicha | Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) |
 | Puntaje de Predicción TxGNN | 0.9968 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (15 de 15) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorización | 15 (vigentes: 15) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (18 de 18) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de Autorización | 18 (vigentes: 18) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -91,11 +91,11 @@ El fármaco está comercializado en Argentina, como monofármaco y en asociació
 | 47502 | CANDESARTAN RICHET | 16 mg comp.x 30 | Richet | Vigente |
 | 28932 | DACTEN | 16 mg comp.x 30 | Elea | Vigente |
 
-La tabla muestra 5 de los 15 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+La tabla muestra 5 de los 18 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
 
 <!-- licenses:end -->
 
-Se muestran las 5 primeras de 15 autorizaciones.
+Se muestran las 5 primeras de 18 autorizaciones.
 
 ## Consideraciones de Seguridad
 

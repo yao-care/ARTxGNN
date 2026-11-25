@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 164
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Imiquimod: nueva indicación predicha, Neoplasia premaligna (nivel de evidencia L5). Indicación original: Verruga común, infección anogenital por virus del papiloma humano…"
 monitor_inn: "IMIQUIMOD"
 predicted_indications: ["pre-malignant neoplasm", "benign neoplasm of buccal mucosa", "cervical neuroblastoma", "odontogenic cyst", "benign neoplasm of tongue", "nasopharyngeal teratoma", "cystic neoplasm", "inner ear neoplasm", "neoplasm of major salivary gland", "schwannoma of jugular foramen"]
@@ -50,8 +50,8 @@ con **2 ensayos clínicos** y **9 publicaciones** que actualmente respaldan esta
 | Nueva Indicación Predicha | Neoplasia premaligna |
 | Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (10 de 10) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de productos en el listado PAMI | 10 (vigentes: 10) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (12 de 12) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de productos en el listado PAMI | 12 (vigentes: 12) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -95,11 +95,17 @@ La evidencia es de apoyo pero heterogénea según la localización anatómica: i
 | 52442 | IMIMORE | 5% cr.x 6 g | Panalab | Vigente |
 | 33157 | MIQUIMOD | 5% cr.x 3 g | Lazar | Vigente |
 
-La tabla muestra 5 de los 10 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+La tabla muestra 5 de los 12 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
 
 <!-- licenses:end -->
 
-Se registran 10 autorizaciones vigentes, todas de monofármaco y ninguna cancelada. También existen presentaciones al 3,75% (VIROSUPRIL 3.75 y MIQUIMOD) y otras presentaciones en sobres (IMIMORE) y de uso dermatológico (MODULCASS).
+Todas las autorizaciones registradas están vigentes y son de monofármaco. También existen presentaciones al 3,75% (VIROSUPRIL 3.75 y MIQUIMOD) y otras presentaciones en sobres (IMIMORE) y de uso dermatológico (MODULCASS).
+
+<!-- review:begin ar-lic-20261125-imiquimod-1 -->
+
+> **Corrección de verificación (2026-11-25)**: Texto original: «Se registran 10 autorizaciones vigentes, todas de monofármaco y ninguna cancelada.» Corregido: desde el 2026-11-25 se incorporan a los datos los productos del listado vigente de PAMI posteriores a marzo de 2026, con el mismo criterio de recogida; la frase ya no coincidía con ellos. Las cifras actuales están en el resumen rápido y en la tabla de Información de Mercado en Argentina. El estado del registro en ANMAT no está incluido en estos datos. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261125-imiquimod-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -124,6 +130,19 @@ El mecanismo inmunomodulador es plausible y coincide con el uso aprobado en quer
 - Plan de monitoreo de seguridad, con atención a reacciones cutáneas locales, fotosensibilidad y pacientes con enfermedades autoinmunes o inmunosuprimidos.
 
 **Otras predicciones del modelo (para referencia):** neoplasia benigna de mucosa bucal y quiste odontogénico (nivel L4, pregunta de investigación; la primera con una señal de seguridad por resolver), y neoplasia benigna de lengua, neoplasia quística, neoplasia del oído interno y otras (L4-L5, en espera por falta de evidencia).
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-25 | Número de autorizaciones eliminado | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

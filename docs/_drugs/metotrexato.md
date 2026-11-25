@@ -8,8 +8,8 @@ indication_count: 7
 drugbank_id: DB00563
 monitor_inn: "Methotrexate"
 predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "Hodgkins lymphoma", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
-last_modified_at: 2026-11-24
-description: "Metotrexato: nueva indicación predicha, Blastoma pulmonar (pulmonary blastoma) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 14 (en el listado vigente: 14)"
+last_modified_at: 2026-11-25
+description: "Metotrexato: nueva indicación predicha, Blastoma pulmonar (pulmonary blastoma) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 18 (en el listado vigente: 18)"
 ---
 
 # Metotrexato
@@ -49,8 +49,8 @@ El metotrexato es un antimetabolito antifolato, ya comercializado en Argentina. 
 | Nueva Indicación Predicha | Blastoma pulmonar (pulmonary blastoma) |
 | Puntaje de Predicción TxGNN | 0.9945 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (14 de 14) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorización | 14 (vigentes: 14) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (18 de 18) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de Autorización | 18 (vigentes: 18) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -83,7 +83,7 @@ El metotrexato figura como **comercializado** en Argentina, con autorizaciones v
 | 26155 | ARTRAIT | 7.5 mg comp.ran.x 10 | Trb-Pharma | Vigente |
 | 44943 | ARTRAIT | 15 mg comp.ran.x 8 | Trb-Pharma | Vigente |
 
-La tabla muestra 5 de los 14 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+La tabla muestra 5 de los 18 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
 
 <!-- licenses:end -->
 

@@ -8,8 +8,8 @@ indication_count: 10
 drugbank_id: DB00047
 monitor_inn: "Insulin glargine"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy"]
-last_modified_at: 2026-11-24
-description: "Insulina Glargina: nueva indicación predicha, ooforitis autoinmune (autoimmune oophoritis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 3)"
+last_modified_at: 2026-11-25
+description: "Insulina Glargina: nueva indicación predicha, ooforitis autoinmune (autoimmune oophoritis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 5 (en el listado vigente: 4)"
 ---
 
 # Insulina Glargina
@@ -51,8 +51,8 @@ Insulina glargina es un análogo de insulina de acción prolongada que se comerc
 | Nueva Indicación Predicha | ooforitis autoinmune (autoimmune oophoritis) |
 | Puntaje de Predicción TxGNN | 0.9988 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (3 de 4) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorización | 4 (vigentes: 3) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (4 de 5) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de Autorización | 5 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -96,9 +96,9 @@ Los productos corresponden a un solo principio activo; el cartucho 32734 (INSULI
 | 53290 | TOUJEO | 300U/ml lapicerax3x1.5ml | Sanofi-Aventis | Vigente |
 | 41517 | INSULINA LANTUS SOLOSTAR | 100UI/ml lap.prellx5x3ml | Sanofi-Aventis | Vigente |
 | 50984 | INSULINA OPTISULIN SOLOSTAR | lap.prell.desc.x5x3ml | Montpellier | Vigente |
-| 32734 | INSULINA LANTUS | cart.x 5 x 3 ml | Sanofi-Aventis | Ya no figura en el listado de PAMI |
+| 55810 | INSULINA BASAGLAR KWIKPEN | 100U/ml iny.prell.x5x3ml | Adium | Vigente |
 
-La tabla muestra los 4 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+La tabla muestra 4 de los 5 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI), primero los que siguen en el listado vigente; el estado del registro en ANMAT no está incluido en estos datos.
 
 <!-- licenses:end -->
 

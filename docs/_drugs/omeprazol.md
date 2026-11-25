@@ -8,8 +8,8 @@ indication_count: 1
 drugbank_id: DB00338
 monitor_inn: "Omeprazole"
 predicted_indications: ["duodenal obstruction"]
-last_modified_at: 2026-11-24
-description: "Omeprazol: nueva indicación predicha, obstrucción duodenal (duodenal obstruction) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 11 (en el listado vigente: 11)"
+last_modified_at: 2026-11-25
+description: "Omeprazol: nueva indicación predicha, obstrucción duodenal (duodenal obstruction) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 13 (en el listado vigente: 13)"
 ---
 
 # Omeprazol
@@ -50,8 +50,8 @@ El modelo TxGNN predice que podría ser útil para **obstrucción duodenal (duod
 | Nueva Indicación Predicha | obstrucción duodenal (duodenal obstruction) |
 | Puntaje de Predicción TxGNN | 0.9964 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (11 de 11) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorización | 11 (vigentes: 11) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (13 de 13) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de Autorización | 13 (vigentes: 13) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -92,7 +92,7 @@ En conjunto, esta literatura no muestra beneficio de omeprazol en la obstrucció
 | 50468 | BLOKIUM PROTECT | cáps.x 30 | Casasco | Vigente |
 | 52115 | BLOKIUM PROTECT | cáps.x 10 | Casasco | Vigente |
 
-La tabla muestra 5 de los 11 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+La tabla muestra 5 de los 13 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
 
 <!-- licenses:end -->
 

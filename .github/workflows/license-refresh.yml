@@ -51,6 +51,21 @@ jobs:
       - name: Restore data from Release
         run: bash scripts/restore_data.sh
 
+      # 2026-11-25 第六輪（用戶決定）：證據包只收得到 2026-03 drug_mapping.csv 裡的代碼，之後才出現在 PAMI 價目表的永遠收不進來。
+      # 每週先照原收集規則（collectors/arfda.py；每個證據包用它收集時的那份 drug_mapping）補收現行清單有、證據包沒收的本藥代碼
+      # （scripts/add_current_licenses.py，只加不刪、全程不用 AI），再跑 license_refresh（重算證據包、概覽列、程式表、正文張數）。下載失敗不擋排程。
+      - name: Add new PAMI codes (original collector rule)
+        id: addlic
+        run: |
+          set +e
+          out=$("$GITHUB_WORKSPACE/.venv/bin/python" scripts/add_current_licenses.py --download 2>&1)
+          code=$?
+          set -e
+          echo "$out"; echo "$out" >> "$GITHUB_STEP_SUMMARY"
+          n=$(echo "$out" | sed -n 's/.*依原收集規則補收：[0-9]* 個證據包、\([0-9]*\) 筆.*/\1/p')
+          [ "$code" = "0" ] || { echo "⚠ 補收失敗（exit $code），不擋排程"; n=0; }
+          echo "changed=${n:-0}" >> "$GITHUB_OUTPUT"
+
       - name: Refresh licenses
         id: refresh
         env:
@@ -81,8 +96,8 @@ jobs:
           git push
           gh workflow run pages.yml --ref main
 
-      - name: Publish updated data to Release   # records＝許可證狀態變動＋證據包重算有變（2026-11-12）
-        if: (steps.refresh.outputs.code == '0' || steps.refresh.outputs.code == '6') && steps.refresh.outputs.records != '0' && inputs.dry_run != 'true'
+      - name: Publish updated data to Release   # records＝許可證狀態變動＋證據包重算有變（2026-11-12）；addlic＝補收新代碼（2026-11-25）
+        if: (steps.refresh.outputs.code == '0' || steps.refresh.outputs.code == '6') && (steps.refresh.outputs.records != '0' || steps.addlic.outputs.changed != '0') && inputs.dry_run != 'true'
         run: |
           SITE=$(cat tools/txgnn/SITE)
           TAG="data-$(date -u +%Y%m%d-%H%M%S)"   # 每次新 tag，舊 tag 一律不覆蓋（pm 2026-10-30 第 3 點）

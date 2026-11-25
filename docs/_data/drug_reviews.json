@@ -8888,6 +8888,486 @@
    ],
    "checked": "2026-11-24",
    "summary": "Próximos pasos: eliminada la premisa «búsqueda sin resultados»"
+  },
+  {
+   "id": "ar-lic-20261125-dutasteride-1",
+   "drug": "dutasteride",
+   "file": "dutasteride.md",
+   "action": "correct",
+   "claim": "con licencias vigentes en los registros locales (17 en total, ninguna cancelada).",
+   "replacement": "con licencias vigentes en los registros locales (ninguna cancelada; las cifras están en el resumen rápido).",
+   "note": "Corregido: desde el 2026-11-25 se incorporan a los datos los productos del listado vigente de PAMI posteriores a marzo de 2026, con el mismo criterio de recogida; la frase ya no coincidía con ellos. Las cifras actuales están en el resumen rápido y en la tabla de Información de Mercado en Argentina. El estado del registro en ANMAT no está incluido en estos datos.",
+   "finding": "2026-11-25 第六輪（用戶決定）：scripts/add_current_licenses.py 依原收集規則補收 PAMI 現行價目表（2026-11-05 版）的新代碼後，逐句對照證據包全部紀錄（records＋records_not_stored，對現行清單）與快照事實層：新增 DUTAKLAR（單方）與 DIUFORTAN PLUS、URALOS PLUS（dutasterida＋tamsulosina），共 20 張、全部在清單。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-25"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Número de licencias eliminado (ya no coincidía)"
+  },
+  {
+   "id": "ar-lic-20261125-eplerenone-1",
+   "drug": "eplerenone",
+   "file": "eplerenone.md",
+   "action": "correct",
+   "claim": "Se muestran 5 de las 12 autorizaciones vigentes (todas de producto de un solo principio activo).",
+   "replacement": "Todas las autorizaciones están vigentes y son de producto de un solo principio activo.",
+   "note": "Corregido: desde el 2026-11-25 se incorporan a los datos los productos del listado vigente de PAMI posteriores a marzo de 2026, con el mismo criterio de recogida; la frase ya no coincidía con ellos. Las cifras actuales están en el resumen rápido y en la tabla de Información de Mercado en Argentina. El estado del registro en ANMAT no está incluido en estos datos.",
+   "finding": "2026-11-25 第六輪（用戶決定）：scripts/add_current_licenses.py 依原收集規則補收 PAMI 現行價目表（2026-11-05 版）的新代碼後，逐句對照證據包全部紀錄（records＋records_not_stored，對現行清單）與快照事實層：新增 PLERIAM 25、50 mg（單方），共 14 張、全部單方、全部在清單；表下程式句已寫顯示筆數。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-25"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "«5 de las 12» → todas"
+  },
+  {
+   "id": "ar-lic-20261125-flecainida-1",
+   "drug": "flecainida",
+   "file": "flecainida.md",
+   "action": "correct",
+   "claim": "Las dos autorizaciones registradas son de producto de principio activo único y están vigentes.",
+   "replacement": "Todas las autorizaciones registradas son de producto de principio activo único y están vigentes.",
+   "note": "Corregido: desde el 2026-11-25 se incorporan a los datos los productos del listado vigente de PAMI posteriores a marzo de 2026, con el mismo criterio de recogida; la frase ya no coincidía con ellos. Las cifras actuales están en el resumen rápido y en la tabla de Información de Mercado en Argentina. El estado del registro en ANMAT no está incluido en estos datos.",
+   "finding": "2026-11-25 第六輪（用戶決定）：scripts/add_current_licenses.py 依原收集規則補收 PAMI 現行價目表（2026-11-05 版）的新代碼後，逐句對照證據包全部紀錄（records＋records_not_stored，對現行清單）與快照事實層：新增 FLENOMID XR 100 mg（單方），共 3 張。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-25"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "«Las dos» → todas"
+  },
+  {
+   "id": "ar-lic-20261125-imiquimod-1",
+   "drug": "imiquimod",
+   "file": "imiquimod.md",
+   "action": "correct",
+   "claim": "Se registran 10 autorizaciones vigentes, todas de monofármaco y ninguna cancelada.",
+   "replacement": "Todas las autorizaciones registradas están vigentes y son de monofármaco.",
+   "note": "Corregido: desde el 2026-11-25 se incorporan a los datos los productos del listado vigente de PAMI posteriores a marzo de 2026, con el mismo criterio de recogida; la frase ya no coincidía con ellos. Las cifras actuales están en el resumen rápido y en la tabla de Información de Mercado en Argentina. El estado del registro en ANMAT no está incluido en estos datos.",
+   "finding": "2026-11-25 第六輪（用戶決定）：scripts/add_current_licenses.py 依原收集規則補收 PAMI 現行價目表（2026-11-05 版）的新代碼後，逐句對照證據包全部紀錄（records＋records_not_stored，對現行清單）與快照事實層：新增 MODULCASS、MIQUIMOD 5%（單方），共 12 張、全部單方、全部在清單。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-25"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Número de autorizaciones eliminado"
+  },
+  {
+   "id": "ar-lic-20261125-labetalol-1",
+   "drug": "labetalol",
+   "file": "labetalol.md",
+   "action": "correct",
+   "claim": "Las cuatro autorizaciones figuran como vigentes.",
+   "replacement": "Todas las autorizaciones figuran como vigentes.",
+   "note": "Corregido: desde el 2026-11-25 se incorporan a los datos los productos del listado vigente de PAMI posteriores a marzo de 2026, con el mismo criterio de recogida; la frase ya no coincidía con ellos. Las cifras actuales están en el resumen rápido y en la tabla de Información de Mercado en Argentina. El estado del registro en ANMAT no está incluido en estos datos.",
+   "finding": "2026-11-25 第六輪（用戶決定）：scripts/add_current_licenses.py 依原收集規則補收 PAMI 現行價目表（2026-11-05 版）的新代碼後，逐句對照證據包全部紀錄（records＋records_not_stored，對現行清單）與快照事實層：新增 LABETALOL RICHET 200 mg，共 5 張、全部在清單。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-25"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "«Las cuatro» → todas"
+  },
+  {
+   "id": "ar-lic-20261125-lactulose-1",
+   "drug": "lactulose",
+   "file": "lactulose.md",
+   "action": "correct",
+   "claim": "Todas las autorizaciones registradas están vigentes (6 de 6) y el fármaco figura como comercializado.",
+   "replacement": "Todas las autorizaciones registradas están vigentes y el fármaco figura como comercializado.",
+   "note": "Corregido: desde el 2026-11-25 se incorporan a los datos los productos del listado vigente de PAMI posteriores a marzo de 2026, con el mismo criterio de recogida; la frase ya no coincidía con ellos. Las cifras actuales están en el resumen rápido y en la tabla de Información de Mercado en Argentina. El estado del registro en ANMAT no está incluido en estos datos.",
+   "finding": "2026-11-25 第六輪（用戶決定）：scripts/add_current_licenses.py 依原收集規則補收 PAMI 現行價目表（2026-11-05 版）的新代碼後，逐句對照證據包全部紀錄（records＋records_not_stored，對現行清單）與快照事實層：新增 LACTULON sobres 15 ml x 8、x 16，共 8 張、全部在清單。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-25"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "«(6 de 6)» eliminado"
+  },
+  {
+   "id": "ar-lic-20261125-metilfenidato-1",
+   "drug": "metilfenidato",
+   "file": "metilfenidato.md",
+   "action": "correct",
+   "claim": "con 17 autorizaciones vigentes, todas de productos de un solo principio activo.",
+   "replacement": "con autorizaciones vigentes, todas de productos de un solo principio activo (las cifras están en el resumen rápido).",
+   "note": "Corregido: desde el 2026-11-25 se incorporan a los datos los productos del listado vigente de PAMI posteriores a marzo de 2026, con el mismo criterio de recogida; la frase ya no coincidía con ellos. Las cifras actuales están en el resumen rápido y en la tabla de Información de Mercado en Argentina. El estado del registro en ANMAT no está incluido en estos datos.",
+   "finding": "2026-11-25 第六輪（用戶決定）：scripts/add_current_licenses.py 依原收集規則補收 PAMI 現行價目表（2026-11-05 版）的新代碼後，逐句對照證據包全部紀錄（records＋records_not_stored，對現行清單）與快照事實層：新增 RUBIFEN LA 20／30／40 mg（單方），共 20 張、全部單方、全部在清單。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-25"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Número de autorizaciones eliminado"
+  },
+  {
+   "id": "ar-lic-20261125-metilfenidato-2",
+   "drug": "metilfenidato",
+   "file": "metilfenidato.md",
+   "action": "correct",
+   "claim": "La lista muestra 5 de las 17 autorizaciones.",
+   "replacement": "La tabla muestra algunas de las autorizaciones.",
+   "note": "Corregido: desde el 2026-11-25 se incorporan a los datos los productos del listado vigente de PAMI posteriores a marzo de 2026, con el mismo criterio de recogida; la frase ya no coincidía con ellos. Las cifras actuales están en el resumen rápido y en la tabla de Información de Mercado en Argentina. El estado del registro en ANMAT no está incluido en estos datos.",
+   "finding": "2026-11-25 第六輪（用戶決定）：scripts/add_current_licenses.py 依原收集規則補收 PAMI 現行價目表（2026-11-05 版）的新代碼後，逐句對照證據包全部紀錄（records＋records_not_stored，對現行清單）與快照事實層：同上；表下程式句已寫顯示筆數與總數，後一句（其餘品牌舉例）照留。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-25"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "«5 de las 17» eliminado"
+  },
+  {
+   "id": "ar-lic-20261125-modafinil-1",
+   "drug": "modafinil",
+   "file": "modafinil.md",
+   "action": "correct",
+   "claim": "Hay 7 autorizaciones vigentes en total; se muestran las 5 principales. Las otras dos corresponden a FORCILIN (58761 y 58762).",
+   "replacement": "Todas las autorizaciones están vigentes; entre ellas figuran las de FORCILIN (58761 y 58762).",
+   "note": "Corregido: desde el 2026-11-25 se incorporan a los datos los productos del listado vigente de PAMI posteriores a marzo de 2026, con el mismo criterio de recogida; la frase ya no coincidía con ellos. Las cifras actuales están en el resumen rápido y en la tabla de Información de Mercado en Argentina. El estado del registro en ANMAT no está incluido en estos datos.",
+   "finding": "2026-11-25 第六輪（用戶決定）：scripts/add_current_licenses.py 依原收集規則補收 PAMI 現行價目表（2026-11-05 版）的新代碼後，逐句對照證據包全部紀錄（records＋records_not_stored，對現行清單）與快照事實層：新增 INTENSIT 200 mg x 20、ACTEMIN 200 mg x 10，共 9 張、全部在清單；「另外兩張是 FORCILIN」不再成立。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-25"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Número de autorizaciones y «las otras dos» eliminados"
+  },
+  {
+   "id": "ar-lic-20261125-orlistat-1",
+   "drug": "orlistat",
+   "file": "orlistat.md",
+   "action": "correct",
+   "claim": "Se muestran 5 de las 15 autorizaciones vigentes (todas de monofármaco, ninguna cancelada).",
+   "replacement": "Todas las autorizaciones están vigentes y son de monofármaco.",
+   "note": "Corregido: desde el 2026-11-25 se incorporan a los datos los productos del listado vigente de PAMI posteriores a marzo de 2026, con el mismo criterio de recogida; la frase ya no coincidía con ellos. Las cifras actuales están en el resumen rápido y en la tabla de Información de Mercado en Argentina. El estado del registro en ANMAT no está incluido en estos datos.",
+   "finding": "2026-11-25 第六輪（用戶決定）：scripts/add_current_licenses.py 依原收集規則補收 PAMI 現行價目表（2026-11-05 版）的新代碼後，逐句對照證據包全部紀錄（records＋records_not_stored，對現行清單）與快照事實層：新增 LIPOSOL 60 mg（單方），共 16 張、全部單方、全部在清單。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-25"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "«5 de las 15» → todas"
+  },
+  {
+   "id": "ar-lic-20261125-oxibutinina-1",
+   "drug": "oxibutinina",
+   "file": "oxibutinina.md",
+   "action": "correct",
+   "claim": "Los datos compilados muestran 19 autorizaciones, todas vigentes y de producto de un solo principio activo.",
+   "replacement": "Los datos compilados muestran autorizaciones vigentes, todas de producto de un solo principio activo.",
+   "note": "Corregido: desde el 2026-11-25 se incorporan a los datos los productos del listado vigente de PAMI posteriores a marzo de 2026, con el mismo criterio de recogida; la frase ya no coincidía con ellos. Las cifras actuales están en el resumen rápido y en la tabla de Información de Mercado en Argentina. El estado del registro en ANMAT no está incluido en estos datos.",
+   "finding": "2026-11-25 第六輪（用戶決定）：scripts/add_current_licenses.py 依原收集規則補收 PAMI 現行價目表（2026-11-05 版）的新代碼後，逐句對照證據包全部紀錄（records＋records_not_stored，對現行清單）與快照事實層：新增 OXIBUTININA VANNIER 5 mg（單方），共 20 張、全部單方、全部在清單。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-25"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Número de autorizaciones eliminado"
+  },
+  {
+   "id": "ar-lic-20261125-prednisolona-1",
+   "drug": "prednisolona",
+   "file": "prednisolona.md",
+   "action": "correct",
+   "claim": "con nueve autorizaciones vigentes en Argentina.",
+   "replacement": "con autorizaciones vigentes en Argentina.",
+   "note": "Corregido: desde el 2026-11-25 se incorporan a los datos los productos del listado vigente de PAMI posteriores a marzo de 2026, con el mismo criterio de recogida; la frase ya no coincidía con ellos. Las cifras actuales están en el resumen rápido y en la tabla de Información de Mercado en Argentina. El estado del registro en ANMAT no está incluido en estos datos.",
+   "finding": "2026-11-25 第六輪（用戶決定）：scripts/add_current_licenses.py 依原收集規則補收 PAMI 現行價目表（2026-11-05 版）的新代碼後，逐句對照證據包全部紀錄（records＋records_not_stored，對現行清單）與快照事實層：新增 PREDNIPLOS、SOPHIPREN OFTENO（眼用單方），共 11 張、全部在清單；同一行的模型預測文字不動。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-25"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "«nueve» eliminado"
+  },
+  {
+   "id": "ar-lic-20261125-terazosin-1",
+   "drug": "terazosin",
+   "file": "terazosin.md",
+   "action": "correct",
+   "claim": "Todas las autorizaciones registradas (18) son de productos de un solo principio activo y están vigentes.",
+   "replacement": "Todas las autorizaciones registradas son de productos de un solo principio activo y están vigentes.",
+   "note": "Corregido: desde el 2026-11-25 se incorporan a los datos los productos del listado vigente de PAMI posteriores a marzo de 2026, con el mismo criterio de recogida; la frase ya no coincidía con ellos. Las cifras actuales están en el resumen rápido y en la tabla de Información de Mercado en Argentina. El estado del registro en ANMAT no está incluido en estos datos.",
+   "finding": "2026-11-25 第六輪（用戶決定）：scripts/add_current_licenses.py 依原收集規則補收 PAMI 現行價目表（2026-11-05 版）的新代碼後，逐句對照證據包全部紀錄（records＋records_not_stored，對現行清單）與快照事實層：新增 TERAZOSINA VANNIER 5 mg（單方），共 19 張。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-25"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "«(18)» eliminado"
+  },
+  {
+   "id": "ar-lic-20261125-zolpidem-1",
+   "drug": "zolpidem",
+   "file": "zolpidem.md",
+   "action": "correct",
+   "claim": "Hay 15 autorizaciones, todas vigentes y de producto de un solo principio activo.",
+   "replacement": "Todas las autorizaciones están vigentes y son de producto de un solo principio activo.",
+   "note": "Corregido: desde el 2026-11-25 se incorporan a los datos los productos del listado vigente de PAMI posteriores a marzo de 2026, con el mismo criterio de recogida; la frase ya no coincidía con ellos. Las cifras actuales están en el resumen rápido y en la tabla de Información de Mercado en Argentina. El estado del registro en ANMAT no está incluido en estos datos.",
+   "finding": "2026-11-25 第六輪（用戶決定）：scripts/add_current_licenses.py 依原收集規則補收 PAMI 現行價目表（2026-11-05 版）的新代碼後，逐句對照證據包全部紀錄（records＋records_not_stored，對現行清單）與快照事實層：新增 ZOLPIDEM VANNIER 10 mg（單方），共 16 張、全部單方。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-25"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Número de autorizaciones eliminado"
+  },
+  {
+   "id": "ar-lic-20261125-midazolam-1",
+   "drug": "midazolam",
+   "file": "midazolam.md",
+   "action": "correct",
+   "claim": "Las cinco autorizaciones (fabricante: Soubeiran Chobet) están vigentes y corresponden a producto de un solo principio activo.",
+   "replacement": "Todas las autorizaciones están vigentes y corresponden a producto de un solo principio activo (laboratorios: Soubeiran Chobet y Siegfried).",
+   "note": "Corregido: desde el 2026-11-25 se incorporan a los datos los productos del listado vigente de PAMI posteriores a marzo de 2026, con el mismo criterio de recogida; la frase ya no coincidía con ellos. Las cifras actuales están en el resumen rápido y en la tabla de Información de Mercado en Argentina. El estado del registro en ANMAT no está incluido en estos datos.",
+   "finding": "2026-11-25 第六輪（用戶決定）：scripts/add_current_licenses.py 依原收集規則補收 PAMI 現行價目表（2026-11-05 版）的新代碼後，逐句對照證據包全部紀錄（records＋records_not_stored，對現行清單）與快照事實層：新增 DORMICUM 15 mg comp.（Siegfried），共 6 張；原本 5 張都是 Soubeiran Chobet 的 REM CHOBET。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-25"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "«Las cinco … Soubeiran Chobet» → todas; se añade Siegfried"
+  },
+  {
+   "id": "ar-lic-20261125-phenazopyridine-1",
+   "drug": "phenazopyridine",
+   "file": "phenazopyridine.md",
+   "action": "correct",
+   "claim": "comercializado en Argentina como UROTEM DOL;",
+   "replacement": "comercializado en Argentina como CISTALGINA (monofármaco) y UROTEM DOL (asociación con norfloxacina);",
+   "note": "Corregido: desde el 2026-11-25 se incorporan a los datos los productos del listado vigente de PAMI posteriores a marzo de 2026, con el mismo criterio de recogida; la frase ya no coincidía con ellos. Las cifras actuales están en el resumen rápido y en la tabla de Información de Mercado en Argentina. El estado del registro en ANMAT no está incluido en estos datos.",
+   "finding": "2026-11-25 第六輪（用戶決定）：scripts/add_current_licenses.py 依原收集規則補收 PAMI 現行價目表（2026-11-05 版）的新代碼後，逐句對照證據包全部紀錄（records＋records_not_stored，對現行清單）與快照事實層：新增 CISTALGINA 200 mg（fenazopiridina 單方，Fortbenton）；UROTEM DOL 是 norfloxacina＋fenazopiridina 複方。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-25"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Se añade CISTALGINA"
+  },
+  {
+   "id": "ar-lic-20261125-idebenone-1",
+   "drug": "idebenone",
+   "file": "idebenone.md",
+   "action": "correct",
+   "claim": "comercializado en Argentina bajo la marca NEMOCEBRAL,",
+   "replacement": "comercializado en Argentina bajo las marcas NEMOCEBRAL y GENICERAL,",
+   "note": "Corregido: desde el 2026-11-25 se incorporan a los datos los productos del listado vigente de PAMI posteriores a marzo de 2026, con el mismo criterio de recogida; la frase ya no coincidía con ellos. Las cifras actuales están en el resumen rápido y en la tabla de Información de Mercado en Argentina. El estado del registro en ANMAT no está incluido en estos datos.",
+   "finding": "2026-11-25 第六輪（用戶決定）：scripts/add_current_licenses.py 依原收集規則補收 PAMI 現行價目表（2026-11-05 版）的新代碼後，逐句對照證據包全部紀錄（records＋records_not_stored，對現行清單）與快照事實層：新增 GENICERAL、GENICERAL 45（Casasco，單方），共 8 張；後文「NEMOCEBRAL PLUS 是複方、其餘單方」仍成立。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-25"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Se añade GENICERAL"
+  },
+  {
+   "id": "ar-lic-20261125-fluorouracil-1",
+   "drug": "fluorouracil",
+   "file": "fluorouracil.md",
+   "action": "correct",
+   "claim": "Además, la única presentación autorizada en Argentina es una crema, que no es compatible con el tratamiento sistémico de un sarcoma.",
+   "replacement": "Además, las presentaciones de estos datos en Argentina son de uso tópico (crema y ungüento), no compatibles con el tratamiento sistémico de un sarcoma.",
+   "note": "Corregido: desde el 2026-11-25 se incorporan a los datos los productos del listado vigente de PAMI posteriores a marzo de 2026, con el mismo criterio de recogida; la frase ya no coincidía con ellos. Las cifras actuales están en el resumen rápido y en la tabla de Información de Mercado en Argentina. El estado del registro en ANMAT no está incluido en estos datos.",
+   "finding": "2026-11-25 第六輪（用戶決定）：scripts/add_current_licenses.py 依原收集規則補收 PAMI 現行價目表（2026-11-05 版）的新代碼後，逐句對照證據包全部紀錄（records＋records_not_stored，對現行清單）與快照事實層：新增 5 FU ungüento 20 g（Cassará），共 2 張（ACLER 5% crema、5 FU ungüento），都是外用；結論的論點（不適合全身治療）不變。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-25"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "«la única presentación … una crema» → crema y ungüento"
+  },
+  {
+   "id": "ar-lic-20261125-aciclovir-1",
+   "drug": "aciclovir",
+   "file": "aciclovir.md",
+   "action": "correct",
+   "claim": "se comercializa en Argentina en comprimidos, cápsulas, suspensión y liofilizado inyectable.",
+   "replacement": "se comercializa en Argentina en comprimidos, cápsulas, suspensión, liofilizado inyectable y, asociado a hidrocortisona, en presentaciones de uso tópico.",
+   "note": "Corregido: desde el 2026-11-25 se incorporan a los datos los productos del listado vigente de PAMI posteriores a marzo de 2026, con el mismo criterio de recogida; la frase ya no coincidía con ellos. Las cifras actuales están en el resumen rápido y en la tabla de Información de Mercado en Argentina. El estado del registro en ANMAT no está incluido en estos datos.",
+   "finding": "2026-11-25 第六輪（用戶決定）：scripts/add_current_licenses.py 依原收集規則補收 PAMI 現行價目表（2026-11-05 版）的新代碼後，逐句對照證據包全部紀錄（records＋records_not_stored，對現行清單）與快照事實層：新增 XICLOVIR H crema（aciclovir＋hidrocortisona）等 4 張；證據包原本未存的 LISOVYR CORT pomo（52177，aciclovir＋hidrocortisona）也是外用，原句在補收前就不完整，一併更正。部分收錄頁（26 張）。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-25"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Se añaden las presentaciones tópicas"
+  },
+  {
+   "id": "ar-lic-20261125-aciclovir-2",
+   "drug": "aciclovir",
+   "file": "aciclovir.md",
+   "action": "correct",
+   "claim": "- Evaluar la vía de administración (por ejemplo, oftálmica), ya que las presentaciones locales son orales y un liofilizado inyectable.",
+   "replacement": "- Evaluar la vía de administración (por ejemplo, oftálmica).",
+   "note": "Corregido: desde el 2026-11-25 se incorporan a los datos los productos del listado vigente de PAMI posteriores a marzo de 2026, con el mismo criterio de recogida; la frase ya no coincidía con ellos. Las cifras actuales están en el resumen rápido y en la tabla de Información de Mercado en Argentina. El estado del registro en ANMAT no está incluido en estos datos.",
+   "finding": "2026-11-25 第六輪（用戶決定）：scripts/add_current_licenses.py 依原收集規則補收 PAMI 現行價目表（2026-11-05 版）的新代碼後，逐句對照證據包全部紀錄（records＋records_not_stored，對現行清單）與快照事實層：同上；待辦條目只拿掉錯的前提，建議（評估給藥途徑）不動。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-25"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Próximos pasos: eliminada la premisa sobre las presentaciones locales"
   }
  ]
 }

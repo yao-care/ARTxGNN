@@ -6,7 +6,7 @@ nav_exclude: true
 title: TESTOSTERONA
 drugbank_id: DB00624
 permalink: /drugs/testosterona/
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-25
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -24,8 +24,8 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 
 | Item | Contenido |
 |------|-----------|
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (3 de 3) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de productos en el listado PAMI | 3 (vigentes: 3) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (4 de 4) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de productos en el listado PAMI | 4 (vigentes: 4) |
 | DrugBank ID | [DB00624](https://go.drugbank.com/drugs/DB00624) |
 
 ---

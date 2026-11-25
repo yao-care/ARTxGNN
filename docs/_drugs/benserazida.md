@@ -5,7 +5,7 @@ layout: default
 title: Benserazida
 parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 46
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-25
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -41,8 +41,8 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 | Item | Contenido |
 |------|------|
 | Indicación Original | No consta en los datos locales |
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (5 de 5) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de productos en el listado PAMI | 5 (vigentes: 5) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (6 de 6) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de productos en el listado PAMI | 6 (vigentes: 6) |
 
 ## Descargo de responsabilidad
 

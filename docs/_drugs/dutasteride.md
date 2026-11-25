@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "DUTASTERIDE"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "migraine with brainstem aura", "familial isolated trichomegaly"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Dutasteride: nueva indicación predicha, Hipertricosis universal congénita tipo Ambras (Ambras type hypertrichosis universalis congenita) (nivel de evidencia L5). Indicación original: No consta en los…"
 ---
 
@@ -50,8 +50,8 @@ Actualmente hay **0 ensayos clínicos** y **0 publicaciones** que estudien direc
 | Nueva Indicación Predicha | Hipertricosis universal congénita tipo Ambras (Ambras type hypertrichosis universalis congenita) |
 | Puntaje de Predicción TxGNN | 1,0000 (valor sin redondear: 0,99997938) |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (17 de 17) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de productos en el listado PAMI | 17 (vigentes: 17) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (20 de 20) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de productos en el listado PAMI | 20 (vigentes: 20) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -78,13 +78,19 @@ Por ello, el nivel de evidencia se mantiene en L5.
 
 ## Información de Mercado en Argentina
 
-Dutasterida figura como **comercializada**, con licencias vigentes en los registros locales (17 en total, ninguna cancelada). Productos de dutasterida como único principio activo y en asociación con tamsulosina:
+Dutasterida figura como **comercializada**, con licencias vigentes en los registros locales (ninguna cancelada; las cifras están en el resumen rápido). Productos de dutasterida como único principio activo y en asociación con tamsulosina:
 
 <!-- review:begin ar-lic-20261124-dutasteride-1 -->
 
 > **Corrección de verificación (2026-11-24)**: Texto original: «Productos de un solo principio activo, como ejemplo:» Corregido: según los datos (listado de medicamentos de PAMI), varios productos (DUODART, LINUS DUO, PROSTOKLAR DUO, entre otros) son asociaciones de dutasterida con tamsulosina; las cifras actualizadas y el estado de cada producto están en el resumen rápido y en la tabla de la información de mercado. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
 
 <!-- review:end ar-lic-20261124-dutasteride-1 -->
+
+<!-- review:begin ar-lic-20261125-dutasteride-1 -->
+
+> **Corrección de verificación (2026-11-25)**: Texto original: «con licencias vigentes en los registros locales (17 en total, ninguna cancelada).» Corregido: desde el 2026-11-25 se incorporan a los datos los productos del listado vigente de PAMI posteriores a marzo de 2026, con el mismo criterio de recogida; la frase ya no coincidía con ellos. Las cifras actuales están en el resumen rápido y en la tabla de Información de Mercado en Argentina. El estado del registro en ANMAT no está incluido en estos datos. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261125-dutasteride-1 -->
 
 <!-- licenses:begin -->
 
@@ -96,7 +102,7 @@ Dutasterida figura como **comercializada**, con licencias vigentes en los regist
 | 52217 | DOXATEN | 0.5 mg cáps.x 30 | Beta | Vigente |
 | 47805 | LINUS | comp.x 30 | Elea | Vigente |
 
-La tabla muestra 5 de los 17 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+La tabla muestra 5 de los 20 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
 
 <!-- licenses:end -->
 
@@ -131,6 +137,7 @@ A continuación, el registro de verificación de esta página: afirmaciones cont
 | Fecha de verificación | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-24 | «Productos de un solo principio activo» → también asociaciones con tamsulosina | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+| 2026-11-25 | Número de licencias eliminado (ya no coincidía) | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
 
 <!-- review:end log -->
 

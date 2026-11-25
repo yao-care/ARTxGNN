@@ -8,8 +8,8 @@ indication_count: 3
 drugbank_id: DB09038
 monitor_inn: "Empagliflozin"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia"]
-last_modified_at: 2026-11-24
-description: "Empagliflozina: nueva indicación predicha, Síndrome de la persona rígida clásica (classic stiff person syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)"
+last_modified_at: 2026-11-25
+description: "Empagliflozina: nueva indicación predicha, Síndrome de la persona rígida clásica (classic stiff person syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
 # Empagliflozina
@@ -50,8 +50,8 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de la perso
 | Nueva Indicación Predicha | Síndrome de la persona rígida clásica (classic stiff person syndrome) |
 | Puntaje de Predicción TxGNN | 0.9906 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (4 de 4) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorización | 4 (vigentes: 4) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (al menos 20) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de Autorización | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -81,7 +81,7 @@ Actualmente no hay literatura relacionada disponible.
 | 61746 | ENCLYNA | 25 mg comp.x 30 | Gador | Vigente |
 | 51926 | JARDIANCE | 25 mg comp.x 30 | Boehringer Inge | Vigente |
 
-La tabla muestra los 4 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+La tabla muestra 4 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
 
 <!-- licenses:end -->
 

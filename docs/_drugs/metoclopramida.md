@@ -8,8 +8,8 @@ indication_count: 2
 drugbank_id: DB01233
 monitor_inn: "Metoclopramide"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
-last_modified_at: 2026-11-24
-description: "Metoclopramida: nueva indicación predicha, Gastroduodenitis (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 19 (en el listado vigente: 19)"
+last_modified_at: 2026-11-25
+description: "Metoclopramida: nueva indicación predicha, Gastroduodenitis (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
 # Metoclopramida
@@ -52,8 +52,8 @@ El modelo TxGNN predice que podría ser efectivo para **gastroduodenitis (gastro
 | Nueva Indicación Predicha | Gastroduodenitis |
 | Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (19 de 19) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorización | 19 (vigentes: 19) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (al menos 20) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de Autorización | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ---
@@ -113,7 +113,7 @@ Metoclopramida figura como comercializada en Argentina, como único principio ac
 | 21308 | RILAQUIN | 10 mg comp.x 20 | Microsules Arg. | Vigente |
 | 2220 | RELIVERAN | ad.gts.x 60 ml | Gador | Vigente |
 
-La tabla muestra 5 de los 19 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
 
 <!-- licenses:end -->
 

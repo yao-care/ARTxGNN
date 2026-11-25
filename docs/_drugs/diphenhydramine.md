@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "diphenhydramine"
 predicted_indications: ["rosacea conjunctivitis"]
-last_modified_at: 2026-11-24
-description: "Diphenhydramine: nueva indicación predicha, conjuntivitis rosácea (rosacea conjunctivitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 11 (en el listado vigente: 11)"
+last_modified_at: 2026-11-25
+description: "Diphenhydramine: nueva indicación predicha, conjuntivitis rosácea (rosacea conjunctivitis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 12 (en el listado vigente: 12)"
 ---
 
 # Diphenhydramine
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser útil para **conjuntivitis rosácea (ros
 | Nueva Indicación Predicha | conjuntivitis rosácea (rosacea conjunctivitis) |
 | Puntaje de Predicción TxGNN | 0,9920 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (11 de 11) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de productos en el listado PAMI | 11 (vigentes: 11) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (12 de 12) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de productos en el listado PAMI | 12 (vigentes: 12) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -89,7 +89,7 @@ El fármaco figura como comercializado, como único principio activo y en asocia
 | 30218 | DIFENHIDRAMINA DENVER FARMA | 50 mg comp.x 20 | Denver Farma | Vigente |
 | 49749 | BENADRYL | jbe.x 240 ml | Elea | Vigente |
 
-La tabla muestra 5 de los 11 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+La tabla muestra 5 de los 12 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
 
 <!-- licenses:end -->
 

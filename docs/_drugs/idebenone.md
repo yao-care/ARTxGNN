@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "idebenone"
 predicted_indications: ["hepatic porphyria", "primitive portal vein thrombosis", "early-onset familial noncirrhotic portal hypertension", "idiopathic copper-associated cirrhosis", "hepatoportal sclerosis", "hepatopulmonary syndrome", "immune-mediated necrotizing myopathy", "osteogenesis imperfecta-retinopathy-seizures-intellectual disability syndrome", "antisynthetase syndrome", "focal myositis"]
-last_modified_at: 2026-11-24
-description: "Idebenone: nueva indicación predicha, porfiria hepática (hepatic porphyria) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 5 (en el listado vigente: 5)"
+last_modified_at: 2026-11-25
+description: "Idebenone: nueva indicación predicha, porfiria hepática (hepatic porphyria) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 8 (en el listado vigente: 8)"
 ---
 
 # Idebenone
@@ -38,8 +38,14 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Idebenona es un fármaco comercializado en Argentina bajo la marca NEMOCEBRAL, con datos de mecanismo de acción aún no disponibles en la información compilada para este informe.
+Idebenona es un fármaco comercializado en Argentina bajo las marcas NEMOCEBRAL y GENICERAL, con datos de mecanismo de acción aún no disponibles en la información compilada para este informe.
 El modelo TxGNN predice que podría ser efectivo para **porfiria hepática (hepatic porphyria)**, pero actualmente no hay ensayos clínicos ni publicaciones que respalden esta dirección: es una predicción puramente computacional.
+
+<!-- review:begin ar-lic-20261125-idebenone-1 -->
+
+> **Corrección de verificación (2026-11-25)**: Texto original: «comercializado en Argentina bajo la marca NEMOCEBRAL,» Corregido: desde el 2026-11-25 se incorporan a los datos los productos del listado vigente de PAMI posteriores a marzo de 2026, con el mismo criterio de recogida; la frase ya no coincidía con ellos. Las cifras actuales están en el resumen rápido y en la tabla de Información de Mercado en Argentina. El estado del registro en ANMAT no está incluido en estos datos. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261125-idebenone-1 -->
 
 ## Resumen Rápido
 
@@ -49,8 +55,8 @@ El modelo TxGNN predice que podría ser efectivo para **porfiria hepática (hepa
 | Nueva Indicación Predicha | porfiria hepática (hepatic porphyria) |
 | Puntaje de Predicción TxGNN | 0,9992 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (5 de 5) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de productos en el listado PAMI | 5 (vigentes: 5) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (8 de 8) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de productos en el listado PAMI | 8 (vigentes: 8) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -89,7 +95,7 @@ Los productos son del laboratorio Teva Argentina; NEMOCEBRAL PLUS es una asociac
 | 11258 | NEMOCEBRAL | 30 mg grag.x 30 | Teva Argentina | Vigente |
 | 32707 | NEMOCEBRAL PLUS | comp.x 30 | Teva Argentina | Vigente |
 
-La tabla muestra los 5 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+La tabla muestra 5 de los 8 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
 
 <!-- licenses:end -->
 
@@ -120,6 +126,7 @@ A continuación, el registro de verificación de esta página: afirmaciones cont
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; versión anterior conservada en el registro) | [ChEMBL CHEMBL252556 (idebenone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL252556) |
 | 2026-11-24 | «de un solo principio activo» → NEMOCEBRAL PLUS es asociación | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+| 2026-11-25 | Se añade GENICERAL | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
 
 <!-- review:end log -->
 

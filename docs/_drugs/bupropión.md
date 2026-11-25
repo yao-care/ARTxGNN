@@ -8,7 +8,7 @@ indication_count: 10
 drugbank_id: DB01156
 monitor_inn: "Bupropion"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "benign paroxysmal torticollis of infancy", "trigeminal nerve neoplasm", "obsolete hypertelorism (disease)"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Bupropión: nueva indicación predicha, Trastorno por déficit de atención con hiperactividad (attention deficit-hyperactivity disorder) (nivel de evidencia L1)."
 ---
 
@@ -51,8 +51,8 @@ con **6 ensayos clínicos** y **18 publicaciones** que actualmente respaldan est
 | Nueva Indicación Predicha | Trastorno por déficit de atención con hiperactividad (attention deficit-hyperactivity disorder) |
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (6 de 6) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorización | 6 (vigentes: 6) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (8 de 8) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de Autorización | 8 (vigentes: 8) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -101,7 +101,7 @@ Conviene tener cautela: se trataría de una opción de segunda línea o fuera de
 | 41545 | WELLBUTRIN XL | 300mg comp.lib.ext.x 30 | GlaxoSmithKline | Vigente |
 | 41544 | WELLBUTRIN XL | 150mg comp.lib.ext.x 30 | GlaxoSmithKline | Vigente |
 
-La tabla muestra 5 de los 6 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+La tabla muestra 5 de los 8 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
 
 <!-- licenses:end -->
 

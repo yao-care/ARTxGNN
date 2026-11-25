@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "ZOLPIDEM"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Zolpidem: nueva indicación predicha, Tortícolis paroxística benigna de la infancia (benign paroxysmal torticollis of infancy) (nivel de evidencia L5). Indicación original: No consta en los datos loca…"
 ---
 
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **tortícolis paroxística
 | Nueva Indicación Predicha | Tortícolis paroxística benigna de la infancia (benign paroxysmal torticollis of infancy) |
 | Puntaje de Predicción TxGNN | 0,9926 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (15 de 15) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de productos en el listado PAMI | 15 (vigentes: 15) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (16 de 16) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de productos en el listado PAMI | 16 (vigentes: 16) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -71,7 +71,13 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-Hay 15 autorizaciones, todas vigentes y de producto de un solo principio activo. Se listan las 5 principales:
+Todas las autorizaciones están vigentes y son de producto de un solo principio activo. Se listan las 5 principales:
+
+<!-- review:begin ar-lic-20261125-zolpidem-1 -->
+
+> **Corrección de verificación (2026-11-25)**: Texto original: «Hay 15 autorizaciones, todas vigentes y de producto de un solo principio activo.» Corregido: desde el 2026-11-25 se incorporan a los datos los productos del listado vigente de PAMI posteriores a marzo de 2026, con el mismo criterio de recogida; la frase ya no coincidía con ellos. Las cifras actuales están en el resumen rápido y en la tabla de Información de Mercado en Argentina. El estado del registro en ANMAT no está incluido en estos datos. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261125-zolpidem-1 -->
 
 <!-- licenses:begin -->
 
@@ -83,7 +89,7 @@ Hay 15 autorizaciones, todas vigentes y de producto de un solo principio activo.
 | 42613 | AMBIEN CR | 12.5 mg comp.x 28 | Sanofi-Aventis | Vigente |
 | 54332 | ZOLPIDEM TEVA | 10 mg tab.x 30 | Teva Argentina | Vigente |
 
-La tabla muestra 5 de los 15 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+La tabla muestra 5 de los 16 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
 
 <!-- licenses:end -->
 
@@ -107,6 +113,19 @@ La predicción no tiene ningún ensayo clínico ni publicación que la respalde 
 - Revisión sistemática de la literatura sobre tortícolis paroxística benigna de la infancia y el papel de la vía GABAérgica.
 - Datos detallados del mecanismo de acción y del prospecto aprobado por ANMAT (advertencias y contraindicaciones).
 - Evaluación de la plausibilidad biológica y de la seguridad en población pediátrica antes de formular cualquier pregunta de investigación.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-25 | Número de autorizaciones eliminado | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

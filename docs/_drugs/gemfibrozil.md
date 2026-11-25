@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "GEMFIBROZIL"
 predicted_indications: ["rheumatoid arthritis", "multiple endocrine neoplasia", "HIV infectious disease", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "methemoglobinemia, alpha type", "sclerosing cholangitis", "methemoglobin reductase deficiency"]
-last_modified_at: 2026-11-24
-description: "Gemfibrozil: nueva indicación predicha, Artritis reumatoide (rheumatoid arthritis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 7 (en el listado vigente: 7)"
+last_modified_at: 2026-11-25
+description: "Gemfibrozil: nueva indicación predicha, Artritis reumatoide (rheumatoid arthritis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 8 (en el listado vigente: 8)"
 ---
 
 # Gemfibrozil
@@ -50,8 +50,8 @@ Gemfibrozil es un fármaco hipolipemiante que actúa sobre los receptores PPAR-a
 | Nueva Indicación Predicha | Artritis reumatoide (rheumatoid arthritis) |
 | Puntaje de Predicción TxGNN | 0,9990 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (7 de 7) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de productos en el listado PAMI | 7 (vigentes: 7) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (8 de 8) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de productos en el listado PAMI | 8 (vigentes: 8) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -95,7 +95,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 6326 | LOPID 600 | comp.x 30 | Pfizer | Vigente |
 | 45027 | HIPOLIXAN 900 | comp.x 30 | Bagó | Vigente |
 
-La tabla muestra 5 de los 7 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+La tabla muestra 5 de los 8 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
 
 <!-- licenses:end -->
 

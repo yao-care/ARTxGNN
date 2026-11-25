@@ -8,8 +8,8 @@ indication_count: 3
 drugbank_id: DB06282
 monitor_inn: "Levocetirizine"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
-last_modified_at: 2026-11-24
-description: "Levocetirizina: nueva indicación predicha, artritis reumatoide (rheumatoid arthritis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 10 (en el listado vigente: 3)"
+last_modified_at: 2026-11-25
+description: "Levocetirizina: nueva indicación predicha, artritis reumatoide (rheumatoid arthritis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 11 (en el listado vigente: 4)"
 ---
 
 # Levocetirizina
@@ -52,8 +52,8 @@ El modelo TxGNN predice que podría ser útil para **artritis reumatoide (rheuma
 | Nueva Indicación Predicha | artritis reumatoide (rheumatoid arthritis) |
 | Puntaje de Predicción TxGNN | 0.9973 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (3 de 10) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorización | 10 (vigentes: 3) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (4 de 11) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de Autorización | 11 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -100,7 +100,7 @@ Los productos de estos datos contienen levocetirizina como único principio acti
 | 41031 | ANALERG | 5 mg comp.rec.x 30 | Rontag | Ya no figura en el listado de PAMI |
 | 44841 | LEVOMINE | 5 mg comp.x 30 | Andrómaco | Ya no figura en el listado de PAMI |
 
-La tabla muestra 5 de los 10 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+La tabla muestra 5 de los 11 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
 
 <!-- licenses:end -->
 

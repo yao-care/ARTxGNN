@@ -8,8 +8,8 @@ indication_count: 4
 drugbank_id: DB00422
 monitor_inn: "Methylphenidate"
 predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder"]
-last_modified_at: 2026-11-24
-description: "Metilfenidato: nueva indicación predicha, Síndrome faciodigitogenital (faciodigitogenital syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 17 (en el listado vigente: 17)"
+last_modified_at: 2026-11-25
+description: "Metilfenidato: nueva indicación predicha, Síndrome faciodigitogenital (faciodigitogenital syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 20 (en el listado vigente: 20)"
 ---
 
 # Metilfenidato
@@ -49,8 +49,8 @@ Metilfenidato es un estimulante del sistema nervioso central que se comercializa
 | Nueva Indicación Predicha | Síndrome faciodigitogenital (faciodigitogenital syndrome) |
 | Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (17 de 17) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorización | 17 (vigentes: 17) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (20 de 20) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de Autorización | 20 (vigentes: 20) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -71,7 +71,13 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-El metilfenidato figura como **comercializado** en Argentina, con 17 autorizaciones vigentes, todas de productos de un solo principio activo. Los datos locales no registran el texto de la indicación aprobada.
+El metilfenidato figura como **comercializado** en Argentina, con autorizaciones vigentes, todas de productos de un solo principio activo (las cifras están en el resumen rápido). Los datos locales no registran el texto de la indicación aprobada.
+
+<!-- review:begin ar-lic-20261125-metilfenidato-1 -->
+
+> **Corrección de verificación (2026-11-25)**: Texto original: «con 17 autorizaciones vigentes, todas de productos de un solo principio activo.» Corregido: desde el 2026-11-25 se incorporan a los datos los productos del listado vigente de PAMI posteriores a marzo de 2026, con el mismo criterio de recogida; la frase ya no coincidía con ellos. Las cifras actuales están en el resumen rápido y en la tabla de Información de Mercado en Argentina. El estado del registro en ANMAT no está incluido en estos datos. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261125-metilfenidato-1 -->
 
 <!-- licenses:begin -->
 
@@ -83,11 +89,17 @@ El metilfenidato figura como **comercializado** en Argentina, con 17 autorizacio
 | 58486 | METICIL | 54 mg comp.rec.x 30 | Teva Argentina | Vigente |
 | 50252 | MFD | 10 mg comp.x 60 | Sidus | Vigente |
 
-La tabla muestra 5 de los 17 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+La tabla muestra 5 de los 20 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
 
 <!-- licenses:end -->
 
-La lista muestra 5 de las 17 autorizaciones. Las demás corresponden a otras concentraciones y marcas, como RUBIFEN, RUBIFEN SR y las distintas presentaciones de CONCERTA, RITALINA LA, METICIL y MFD.
+La tabla muestra algunas de las autorizaciones. Las demás corresponden a otras concentraciones y marcas, como RUBIFEN, RUBIFEN SR y las distintas presentaciones de CONCERTA, RITALINA LA, METICIL y MFD.
+
+<!-- review:begin ar-lic-20261125-metilfenidato-2 -->
+
+> **Corrección de verificación (2026-11-25)**: Texto original: «La lista muestra 5 de las 17 autorizaciones.» Corregido: desde el 2026-11-25 se incorporan a los datos los productos del listado vigente de PAMI posteriores a marzo de 2026, con el mismo criterio de recogida; la frase ya no coincidía con ellos. Las cifras actuales están en el resumen rápido y en la tabla de Información de Mercado en Argentina. El estado del registro en ANMAT no está incluido en estos datos. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261125-metilfenidato-2 -->
 
 ## Consideraciones de Seguridad
 
@@ -106,6 +118,20 @@ Consultar el prospecto para información de seguridad.
 - Una revisión de literatura específica sobre este síndrome, en particular sobre síntomas conductuales y respuesta a estimulantes.
 - Información de seguridad y contraindicaciones tomada del prospecto aprobado por ANMAT.
 - Una evaluación de si existe alguna hipótesis clínica concreta, como el tratamiento sintomático de rasgos conductuales, antes de plantear estudios.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-25 | Número de autorizaciones eliminado | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+| 2026-11-25 | «5 de las 17» eliminado | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

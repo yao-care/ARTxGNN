@@ -8,8 +8,8 @@ indication_count: 6
 drugbank_id: DB00921
 monitor_inn: "Buprenorphine"
 predicted_indications: ["acute intermittent porphyria", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "continuous spikes and waves during sleep", "benign shuddering attacks", "extrapyramidal and movement disease"]
-last_modified_at: 2026-11-24
-description: "Buprenorfina: nueva indicación predicha, porfiria aguda intermitente (acute intermittent porphyria) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)"
+last_modified_at: 2026-11-25
+description: "Buprenorfina: nueva indicación predicha, porfiria aguda intermitente (acute intermittent porphyria) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 7 (en el listado vigente: 7)"
 ---
 
 # Buprenorfina
@@ -51,8 +51,8 @@ pero solo existe **1 publicación** (un reporte de caso de manejo anestésico de
 | Nueva Indicación Predicha | porfiria aguda intermitente (acute intermittent porphyria) |
 | Puntaje de Predicción TxGNN | 0.9941 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (4 de 4) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorización | 4 (vigentes: 4) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (7 de 7) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de Autorización | 7 (vigentes: 7) |
 | Decisión Recomendada | Hold |
 
 ## Por qué es Razonable esta Predicción?
@@ -84,7 +84,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 61000 | BUPRIVA | 5 mg parche x 1 | Adium | Vigente |
 | 61002 | BUPRIVA | 20 mg parche x 1 | Adium | Vigente |
 
-La tabla muestra los 4 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+La tabla muestra 4 de los 7 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
 
 <!-- licenses:end -->
 

@@ -8,8 +8,8 @@ indication_count: 8
 drugbank_id: DB00446
 monitor_inn: "Chloramphenicol"
 predicted_indications: ["diffuse scleroderma", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis"]
-last_modified_at: 2026-11-24
-description: "Cloranfenicol: nueva indicación predicha, esclerodermia difusa (diffuse scleroderma) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)"
+last_modified_at: 2026-11-25
+description: "Cloranfenicol: nueva indicación predicha, esclerodermia difusa (diffuse scleroderma) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)"
 ---
 
 # Cloranfenicol
@@ -50,8 +50,8 @@ El modelo TxGNN predice que podría ser efectivo para **esclerodermia difusa (di
 | Nueva Indicación Predicha | esclerodermia difusa (diffuse scleroderma) |
 | Puntaje de Predicción TxGNN | 0.9965 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (3 de 3) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorización | 3 (vigentes: 3) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (4 de 4) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de Autorización | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es razonable esta predicción?
@@ -87,7 +87,7 @@ Ninguno de estos estudios evalúa el cloranfenicol; describen la biología de la
 | 4640 | IRUXOL | ung.x 30 g | Abbott EPD | Vigente |
 | 21877 | IRUXOL | ung.x 50 g | Abbott EPD | Vigente |
 
-La tabla muestra los 3 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+La tabla muestra 3 de los 4 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
 
 <!-- licenses:end -->
 

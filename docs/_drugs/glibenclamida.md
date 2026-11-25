@@ -7,7 +7,7 @@ title: GLIBENCLAMIDA
 drugbank_id: DB01016
 permalink: /drugs/glibenclamida/
 search_exclude: true
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-25
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -25,8 +25,8 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 
 | Item | Contenido |
 |------|-----------|
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (20 de 20) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de productos en el listado PAMI | 20 (vigentes: 20) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (al menos 20) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de productos en el listado PAMI | al menos 20 |
 | DrugBank ID | [DB01016](https://go.drugbank.com/drugs/DB01016) |
 
 ---

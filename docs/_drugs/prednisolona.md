@@ -8,8 +8,8 @@ indication_count: 9
 drugbank_id: DB00860
 monitor_inn: "Prednisolone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
-last_modified_at: 2026-11-24
-description: "Prednisolona: nueva indicación predicha, Alopecia areata (nivel de evidencia L2). En Argentina, productos en el listado de PAMI: 9 (en el listado vigente: 9)"
+last_modified_at: 2026-11-25
+description: "Prednisolona: nueva indicación predicha, Alopecia areata (nivel de evidencia L2). En Argentina, productos en el listado de PAMI: 11 (en el listado vigente: 11)"
 ---
 
 # Prednisolona
@@ -39,7 +39,13 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **9**
 
 ## Resumen en Una Frase
 
-Prednisolona es un glucocorticoide de uso sistémico y local, con nueve autorizaciones vigentes en Argentina. El modelo TxGNN predice que podría ser efectivo para **alopecia areata (alopecia areata)**, con **0 ensayos clínicos registrados** y **20 publicaciones** recuperadas, entre ellas un ensayo aleatorizado controlado con placebo de pulsos orales de prednisolona.
+Prednisolona es un glucocorticoide de uso sistémico y local, con autorizaciones vigentes en Argentina. El modelo TxGNN predice que podría ser efectivo para **alopecia areata (alopecia areata)**, con **0 ensayos clínicos registrados** y **20 publicaciones** recuperadas, entre ellas un ensayo aleatorizado controlado con placebo de pulsos orales de prednisolona.
+
+<!-- review:begin ar-lic-20261125-prednisolona-1 -->
+
+> **Corrección de verificación (2026-11-25)**: Texto original: «con nueve autorizaciones vigentes en Argentina.» Corregido: desde el 2026-11-25 se incorporan a los datos los productos del listado vigente de PAMI posteriores a marzo de 2026, con el mismo criterio de recogida; la frase ya no coincidía con ellos. Las cifras actuales están en el resumen rápido y en la tabla de Información de Mercado en Argentina. El estado del registro en ANMAT no está incluido en estos datos. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261125-prednisolona-1 -->
 
 ## Resumen Rápido
 
@@ -49,8 +55,8 @@ Prednisolona es un glucocorticoide de uso sistémico y local, con nueve autoriza
 | Nueva Indicación Predicha | Alopecia areata |
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (9 de 9) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorización | 9 (vigentes: 9) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (11 de 11) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de Autorización | 11 (vigentes: 11) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -92,7 +98,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 245 | PREDNEFRIN FORTE | susp.oft.x 10 ml | Abbvie | Vigente |
 | 37851 | PROCTO VENART | pda.x 10 g | Casasco | Vigente |
 
-La tabla muestra 5 de los 9 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+La tabla muestra 5 de los 11 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
 
 <!-- licenses:end -->
 
@@ -130,6 +136,7 @@ A continuación, el registro de verificación de esta página: afirmaciones cont
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Orapred Odt (prednisolone sodium phosphate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e379543-c4cf-4e72-953b-db15b7f0c2a1) |
 | 2026-11-24 | Eliminado: «y orales de otro tipo» | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+| 2026-11-25 | «nueve» eliminado | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
 
 <!-- review:end log -->
 

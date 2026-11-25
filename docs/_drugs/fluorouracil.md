@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 148
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Fluorouracil: nueva indicación predicha, rabdomiosarcoma embrionario de tipo botrioide de la vagina (nivel de evidencia L5). Indicación original: Las licencias locales no incluyen texto d…"
 monitor_inn: "fluorouracil"
 predicted_indications: ["botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "sickle cell-beta-thalassemia disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-hemoglobin E disease syndrome"]
@@ -50,8 +50,8 @@ La evidencia actual es muy limitada y se basa principalmente en la predicción d
 | Nueva Indicación Predicha | Rabdomiosarcoma (la predicción de mayor puntaje es la variante botrioide embrionaria de vagina; la primera con literatura es rabdomiosarcoma general) |
 | Puntaje de Predicción TxGNN | 0.9975 (rabdomiosarcoma botrioide embrionario de vagina); 0.9974 (rabdomiosarcoma general) |
 | Nivel de Evidencia | L5 (predicción principal); L4 para rabdomiosarcoma general |
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (1 de 1) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de productos en el listado PAMI | 1 (vigentes: 1) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (2 de 2) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de productos en el listado PAMI | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -87,7 +87,7 @@ Para otras predicciones (sarcoma hepático, rabdomiosarcoma de vía biliar extra
 |------|------|------|------|------|
 | 40612 | ACLER | cr.x 20 g | Pharmatrix | Vigente |
 
-La tabla muestra el único producto de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+La tabla muestra 1 de los 2 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
 
 <!-- licenses:end -->
 
@@ -113,7 +113,13 @@ Consultar el prospecto para la información de seguridad completa de la presenta
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya casi solo en el modelo: no hay ensayos clínicos y la literatura es antigua, indirecta o anecdótica. El fluorouracilo no forma parte de los esquemas estándar de rabdomiosarcoma y su toxicidad es considerable. Además, la única presentación autorizada en Argentina es una crema, que no es compatible con el tratamiento sistémico de un sarcoma.
+La predicción se apoya casi solo en el modelo: no hay ensayos clínicos y la literatura es antigua, indirecta o anecdótica. El fluorouracilo no forma parte de los esquemas estándar de rabdomiosarcoma y su toxicidad es considerable. Además, las presentaciones de estos datos en Argentina son de uso tópico (crema y ungüento), no compatibles con el tratamiento sistémico de un sarcoma.
+
+<!-- review:begin ar-lic-20261125-fluorouracil-1 -->
+
+> **Corrección de verificación (2026-11-25)**: Texto original: «Además, la única presentación autorizada en Argentina es una crema, que no es compatible con el tratamiento sistémico de un sarcoma.» Corregido: desde el 2026-11-25 se incorporan a los datos los productos del listado vigente de PAMI posteriores a marzo de 2026, con el mismo criterio de recogida; la frase ya no coincidía con ellos. Las cifras actuales están en el resumen rápido y en la tabla de Información de Mercado en Argentina. El estado del registro en ANMAT no está incluido en estos datos. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261125-fluorouracil-1 -->
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (MOA) desde DrugBank
@@ -126,11 +132,12 @@ La predicción se apoya casi solo en el modelo: no hay ensayos clínicos y la li
 
 ## Registro de verificación
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de verificación | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Favlyxa (fluorouracil) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1daf714b-704c-4bcc-b6e0-6f0eb2bfe66b) |
+| 2026-11-25 | «la única presentación … una crema» → crema y ungüento | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
 
 <!-- review:end log -->
 

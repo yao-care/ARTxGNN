@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "dexlansoprazole"
 predicted_indications: ["gastroduodenitis", "duodenal obstruction", "achlorhydria", "leather-bottle stomach"]
-last_modified_at: 2026-11-24
-description: "Dexlansoprazole: nueva indicación predicha, gastroduodenitis (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 15 (en el listado vigente: 15)"
+last_modified_at: 2026-11-25
+description: "Dexlansoprazole: nueva indicación predicha, gastroduodenitis (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: al menos 20"
 ---
 
 # Dexlansoprazole
@@ -50,8 +50,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | gastroduodenitis (gastroduodenitis) |
 | Puntaje de Predicción TxGNN | 0,9998 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (15 de 15) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de productos en el listado PAMI | 15 (vigentes: 15) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (al menos 20) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de productos en el listado PAMI | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -84,7 +84,7 @@ El fármaco figura como comercializado, con autorizaciones vigentes de productos
 | 50099 | APATRIX 60 | cáps. x 15 | Takeda | Vigente |
 | 59411 | ARIGASTRIL 30 | cáps.x 30 | Ariston | Vigente |
 
-La tabla muestra 5 de los 15 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+La tabla muestra 5 de los 20 productos recopilados de este medicamento en los datos (listado de medicamentos para entidades de PAMI); los datos solo incluyen una parte de los productos y la lista puede estar incompleta; el estado del registro en ANMAT no está incluido en estos datos.
 
 <!-- licenses:end -->
 

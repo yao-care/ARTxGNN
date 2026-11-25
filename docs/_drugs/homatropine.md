@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "homatropine"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "gastroduodenitis", "overactive bladder (disease)"]
-last_modified_at: 2026-11-24
-description: "Homatropine: nueva indicación predicha, Síndrome de la cola de caballo (cauda equina syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)"
+last_modified_at: 2026-11-25
+description: "Homatropine: nueva indicación predicha, Síndrome de la cola de caballo (cauda equina syndrome) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 4)"
 ---
 
 # Homatropine
@@ -50,8 +50,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | Síndrome de la cola de caballo (cauda equina syndrome) |
 | Puntaje de Predicción TxGNN | 0,9989 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (3 de 3) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de productos en el listado PAMI | 3 (vigentes: 3) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (4 de 4) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de productos en el listado PAMI | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -88,7 +88,7 @@ El estado de mercado es comercializado, con productos que asocian homatropina me
 | 49685 | FACTOR AG ANTIESPASMODICO | gts.x 30 ml | Casasco | Vigente |
 | 18623 | SUMAL | comp.x 10 | Megalabs Argent | Vigente |
 
-La tabla muestra los 3 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+La tabla muestra 3 de los 4 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
 
 <!-- licenses:end -->
 

@@ -8,7 +8,7 @@ indication_count: 2
 drugbank_id: DB00181
 monitor_inn: "Baclofen"
 predicted_indications: ["attention deficit-hyperactivity disorder", "nicotine dependence"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Baclofeno: nueva indicación predicha, Trastorno por déficit de atención e hiperactividad (attention deficit-hyperactivity disorder) (nivel de evidencia L5)."
 ---
 
@@ -49,8 +49,8 @@ Baclofeno es un agonista del receptor GABA-B que cuenta con autorizaciones vigen
 | Nueva Indicación Predicha | Trastorno por déficit de atención e hiperactividad (attention deficit-hyperactivity disorder) |
 | Puntaje de Predicción TxGNN | 0.9932 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (7 de 7) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorización | 7 (vigentes: 7) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (8 de 8) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de Autorización | 8 (vigentes: 8) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -93,7 +93,7 @@ Ninguno de estos trabajos estudia directamente baclofeno en TDAH.
 | 25864 | LIORESAL INTRATECAL | 10 mg/5 ml iny.a.x 1 | Novartis | Vigente |
 | 60101 | BACLOX | 25 mg comp.x 30 | Ariston | Vigente |
 
-La tabla muestra 5 de los 7 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+La tabla muestra 5 de los 8 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
 
 <!-- licenses:end -->
 

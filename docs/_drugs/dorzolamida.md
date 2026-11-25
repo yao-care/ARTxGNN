@@ -8,8 +8,8 @@ indication_count: 7
 drugbank_id: DB00869
 monitor_inn: "Dorzolamide"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "alopecia", "diffuse alopecia areata", "congestive heart failure", "acute pulmonary heart disease", "respiratory failure"]
-last_modified_at: 2026-11-24
-description: "Dorzolamida: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 8 (en el listado vigente: 8)"
+last_modified_at: 2026-11-25
+description: "Dorzolamida: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 14 (en el listado vigente: 14)"
 ---
 
 # Dorzolamida
@@ -50,8 +50,8 @@ El modelo TxGNN predice que podría ser efectivo para **hipotricosis simple del 
 | Nueva Indicación Predicha | Hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp) |
 | Puntaje de Predicción TxGNN | 0.9995 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (8 de 8) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorización | 8 (vigentes: 8) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (14 de 14) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de Autorización | 14 (vigentes: 14) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es razonable esta predicción?
@@ -82,11 +82,11 @@ Actualmente no hay literatura relacionada disponible.
 | 36326 | DORLAMIDA T | sol.oft.x 5 ml | Lab Internacion | Vigente |
 | 39900 | ALIVIAPRES | sol.oft.x 5 ml | Denver Farma | Vigente |
 
-La tabla muestra 5 de los 8 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+La tabla muestra 5 de los 14 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
 
 <!-- licenses:end -->
 
-Se muestran 5 de las 8 autorizaciones vigentes. El texto de indicación aprobada no figura en los datos locales.
+Se muestran 5 de las 14 autorizaciones vigentes. El texto de indicación aprobada no figura en los datos locales.
 
 ## Consideraciones de Seguridad
 

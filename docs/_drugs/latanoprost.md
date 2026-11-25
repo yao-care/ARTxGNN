@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "LATANOPROST"
 predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the scalp", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "congenital hypotrichosis milia", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis"]
-last_modified_at: 2026-11-24
-description: "Latanoprost: nueva indicación predicha, calcifilaxia visceral (visceral calciphylaxis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 14 (en el listado vigente: 14)"
+last_modified_at: 2026-11-25
+description: "Latanoprost: nueva indicación predicha, calcifilaxia visceral (visceral calciphylaxis) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 17 (en el listado vigente: 17)"
 ---
 
 # Latanoprost
@@ -50,8 +50,8 @@ Actualmente no hay ensayos clínicos ni publicaciones que respalden esta direcci
 | Nueva Indicación Predicha | calcifilaxia visceral (visceral calciphylaxis) |
 | Puntaje de Predicción TxGNN | 0.9983 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (14 de 14) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de productos en el listado PAMI | 14 (vigentes: 14) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (17 de 17) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de productos en el listado PAMI | 17 (vigentes: 17) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -90,7 +90,7 @@ El medicamento figura como comercializado, como único principio activo y en aso
 | 37736 | LATANOFLAX | 50mcg/ml gts.oft.x 2.5ml | Sidus | Vigente |
 | 19634 | XALATAN | gts.oft.x 2.5 ml | Aspen Pharma | Vigente |
 
-La tabla muestra 5 de los 14 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+La tabla muestra 5 de los 17 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
 
 <!-- licenses:end -->
 

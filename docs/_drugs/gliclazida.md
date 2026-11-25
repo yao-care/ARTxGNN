@@ -7,7 +7,7 @@ title: GLICLAZIDA
 drugbank_id: DB01120
 permalink: /drugs/gliclazida/
 search_exclude: true
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-25
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -25,8 +25,8 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 
 | Item | Contenido |
 |------|-----------|
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (10 de 10) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de productos en el listado PAMI | 10 (vigentes: 10) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (14 de 14) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de productos en el listado PAMI | 14 (vigentes: 14) |
 | DrugBank ID | [DB01120](https://go.drugbank.com/drugs/DB01120) |
 
 ---

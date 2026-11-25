@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "cyproheptadine"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-11-24
-description: "Cyproheptadine: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 2)"
+last_modified_at: 2026-11-25
+description: "Cyproheptadine: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 4 (en el listado vigente: 3)"
 ---
 
 # Cyproheptadine
@@ -50,8 +50,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** en los datos comp
 | Nueva Indicación Predicha | Enfermedad de la cavidad nasal (nasal cavity disease) |
 | Puntaje de Predicción TxGNN | 0,9921 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (2 de 3) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de productos en el listado PAMI | 3 (vigentes: 2) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (3 de 4) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de productos en el listado PAMI | 4 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -78,9 +78,9 @@ Actualmente no hay literatura relacionada disponible.
 |------|------|------|------|------|
 | 49668 | CIPROVIT CALCICO | comp.blíst.x 60 | Beta | Vigente |
 | 158 | CIPROVIT MAGNESICO | gran.sob.x 20 | Beta | Vigente |
-| 50366 | CIPROVIT CALCICO | jbe.x 150 ml | Beta | Ya no figura en el listado de PAMI |
+| 64672 | CIPROVIT CALCICO | susp.x 150 ml | Beta | Vigente |
 
-La tabla muestra los 3 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+La tabla muestra 3 de los 4 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI), primero los que siguen en el listado vigente; el estado del registro en ANMAT no está incluido en estos datos.
 
 <!-- licenses:end -->
 

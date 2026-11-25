@@ -7,8 +7,8 @@ evidence_level: L3
 indication_count: 1
 monitor_inn: "MIDAZOLAM"
 predicted_indications: ["insomnia (disease)"]
-last_modified_at: 2026-11-24
-description: "Midazolam: nueva indicación predicha, insomnio (insomnia (disease)) (nivel de evidencia L3). En Argentina, productos en el listado de PAMI: 5 (en el listado vigente: 5)"
+last_modified_at: 2026-11-25
+description: "Midazolam: nueva indicación predicha, insomnio (insomnia (disease)) (nivel de evidencia L3). En Argentina, productos en el listado de PAMI: 6 (en el listado vigente: 6)"
 ---
 
 # Midazolam
@@ -48,8 +48,8 @@ Midazolam es una benzodiazepina de acción corta con efecto sedante-ansiolítico
 | Nueva Indicación Predicha | insomnio (insomnia (disease)) |
 | Puntaje de Predicción TxGNN | 0,9974 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (5 de 5) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de productos en el listado PAMI | 5 (vigentes: 5) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (6 de 6) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de productos en el listado PAMI | 6 (vigentes: 6) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -92,11 +92,17 @@ Ninguno de los ensayos estudia insomnio primario; ambos son de relevancia indire
 | 52499 | REM CHOBET | 15 mg comp.x 10 | Soubeiran Chobe | Vigente |
 | 52501 | REM CHOBET | 15 mg comp.x 50 | Soubeiran Chobe | Vigente |
 
-La tabla muestra los 5 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+La tabla muestra 5 de los 6 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
 
 <!-- licenses:end -->
 
-Las cinco autorizaciones (fabricante: Soubeiran Chobet) están vigentes y corresponden a producto de un solo principio activo.
+Todas las autorizaciones están vigentes y corresponden a producto de un solo principio activo (laboratorios: Soubeiran Chobet y Siegfried).
+
+<!-- review:begin ar-lic-20261125-midazolam-1 -->
+
+> **Corrección de verificación (2026-11-25)**: Texto original: «Las cinco autorizaciones (fabricante: Soubeiran Chobet) están vigentes y corresponden a producto de un solo principio activo.» Corregido: desde el 2026-11-25 se incorporan a los datos los productos del listado vigente de PAMI posteriores a marzo de 2026, con el mismo criterio de recogida; la frase ya no coincidía con ellos. Las cifras actuales están en el resumen rápido y en la tabla de Información de Mercado en Argentina. El estado del registro en ANMAT no está incluido en estos datos. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261125-midazolam-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -116,6 +122,19 @@ Existen estudios clásicos (incluido un ensayo aleatorizado en insomnes crónico
 - Confirmar el mecanismo de acción en una fuente de referencia.
 - Definir la población objetivo (insomnio agudo o secundario) y evaluar la practicidad frente a hipnóticos ya establecidos.
 - Plan de manejo de interacciones (CYP3A4, opioides, depresores del SNC) y de riesgo de dependencia y depresión respiratoria.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-25 | «Las cinco … Soubeiran Chobet» → todas; se añade Siegfried | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

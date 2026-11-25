@@ -5,6 +5,8 @@
 跟證據包 tfda.drugbank_ids 有交集、代碼不在證據包 records／excluded_records 的，算漏收。不放寬。
 「新代碼」＝不在 data/raw/ar_fda_drugs.json（2026-03-01 版價目表，drug_mapping 的基準）的代碼。
 用法：python3 scripts/measure_pami_new_items.py [--out 檔.json]
+2026-11-25 第六輪起補收由 scripts/add_current_licenses.py 做（每個證據包照它收集時的那份 drug_mapping）；這支一律用現行 drug_mapping，
+所以補收後剩下的是 2026-10-12 rescue 之前收的證據包、只有現行對照才對得到的代碼（不是原規則會收的，見 CLAUDE.md）。
 """
 import argparse, collections, csv, glob, json, re, sys
 from pathlib import Path
@@ -48,7 +50,7 @@ def main():
         slug = Path(bf).parent.name
         t = json.loads(Path(bf).read_text(encoding="utf-8")).get("tfda") or {}
         ids = {x.upper() for x in t.get("drugbank_ids") or []}
-        have = {str(r.get("license_id")) for r in (t.get("records") or []) + (t.get("excluded_records") or [])}
+        have = {str(r.get("license_id")) for r in (t.get("records") or []) + (t.get("excluded_records") or [])} | {str(x) for x in t.get("records_not_stored") or []}
         hit = [i for i in new if db[i] & ids and i not in have]
         if not hit:
             continue

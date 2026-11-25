@@ -8,8 +8,8 @@ indication_count: 9
 drugbank_id: DB01195
 monitor_inn: "Flecainide"
 predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "ABri amyloidosis", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "duodenal obstruction", "cerebrovascular disorder", "nephrogenic syndrome of inappropriate antidiuresis"]
-last_modified_at: 2026-11-24
-description: "Flecainida: nueva indicación predicha, Accidente cerebrovascular (stroke disorder) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 2 (en el listado vigente: 2)"
+last_modified_at: 2026-11-25
+description: "Flecainida: nueva indicación predicha, Accidente cerebrovascular (stroke disorder) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 3 (en el listado vigente: 3)"
 ---
 
 # Flecainida
@@ -51,8 +51,8 @@ La flecainida es un antiarrítmico de clase IC que bloquea los canales de sodio 
 | Nueva Indicación Predicha | Accidente cerebrovascular (stroke disorder) |
 | Puntaje de Predicción TxGNN | 0.9991 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (2 de 2) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorización | 2 (vigentes: 2) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (3 de 3) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de Autorización | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -98,7 +98,13 @@ Ninguna de estas publicaciones estudia directamente la flecainida en la prevenci
 
 ## Información de Mercado en Argentina
 
-La flecainida figura como **comercializada** en Argentina. Las dos autorizaciones registradas son de producto de principio activo único y están vigentes.
+La flecainida figura como **comercializada** en Argentina. Todas las autorizaciones registradas son de producto de principio activo único y están vigentes.
+
+<!-- review:begin ar-lic-20261125-flecainida-1 -->
+
+> **Corrección de verificación (2026-11-25)**: Texto original: «Las dos autorizaciones registradas son de producto de principio activo único y están vigentes.» Corregido: desde el 2026-11-25 se incorporan a los datos los productos del listado vigente de PAMI posteriores a marzo de 2026, con el mismo criterio de recogida; la frase ya no coincidía con ellos. Las cifras actuales están en el resumen rápido y en la tabla de Información de Mercado en Argentina. El estado del registro en ANMAT no está incluido en estos datos. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261125-flecainida-1 -->
 
 <!-- licenses:begin -->
 
@@ -107,7 +113,7 @@ La flecainida figura como **comercializada** en Argentina. Las dos autorizacione
 | 7701 | DIONDEL | comp.x 20 | Roemmers | Vigente |
 | 7702 | DIONDEL | comp.x 50 | Roemmers | Vigente |
 
-La tabla muestra los 2 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+La tabla muestra 2 de los 3 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
 
 <!-- licenses:end -->
 
@@ -138,6 +144,19 @@ Para el resto de las advertencias y contraindicaciones, consultar el prospecto.
 - Advertencias y contraindicaciones del prospecto aprobado por ANMAT.
 - Datos detallados del mecanismo de acción.
 - Una definición estricta de los pacientes elegibles, con exclusión de cardiopatía estructural o isquémica, síndrome de Brugada y disfunción del nodo sinusal sin marcapasos.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-25 | «Las dos» → todas | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

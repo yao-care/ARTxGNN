@@ -12,20 +12,20 @@
  "public_pages": 325,
  "licence_snapshot": "ar_licenses.json.gz",
  "licence": {
-  "drugs_with_data": 244,
-  "drugs_with_current": 242,
+  "drugs_with_data": 239,
+  "drugs_with_current": 237,
   "drugs_none_current": 2,
-  "drugs_without_data": 81,
+  "drugs_without_data": 86,
   "drugs_partial": 0,
-  "items_total": 1446,
-  "items_current": 1407
+  "items_total": 1448,
+  "items_current": 1409
  },
  "reviews": {
-  "records": 320,
-  "pages": 252,
-  "public_pages_with_records": 246,
+  "records": 340,
+  "pages": 258,
+  "public_pages_with_records": 252,
   "by_action": {
-   "correct": 95,
+   "correct": 115,
    "mechanism": 225
   }
  },
@@ -34,6 +34,15 @@
   "clinical_use_definition": 1833
  },
  "top_licensed": [
+  {
+   "t": "Dutasteride",
+   "u": "/drugs/dutasteride/",
+   "l": "L5",
+   "lt": 20,
+   "lv": 20,
+   "r": 2,
+   "i": "Hipertricosis universal congénita tipo Ambras"
+  },
   {
    "t": "Finasteride",
    "u": "/drugs/finasteride/",
@@ -53,30 +62,21 @@
    "i": "Neumocistosis"
   },
   {
-   "t": "Norfloxacina",
-   "u": "/drugs/norfloxacina/",
+   "t": "Metilfenidato",
+   "u": "/drugs/metilfenidato/",
    "l": "L5",
    "lt": 20,
    "lv": 20,
    "r": 2,
-   "i": "hiperamilasemia"
-  },
-  {
-   "t": "Metoclopramida",
-   "u": "/drugs/metoclopramida/",
-   "l": "L5",
-   "lt": 19,
-   "lv": 19,
-   "r": 1,
-   "i": "gastroduodenitis"
+   "i": "Síndrome faciodigitogenital"
   },
   {
    "t": "Oxibutinina",
    "u": "/drugs/oxibutinina/",
    "l": "L5",
-   "lt": 19,
-   "lv": 19,
-   "r": 1,
+   "lt": 20,
+   "lv": 20,
+   "r": 2,
    "i": "Síndrome de piernas inquietas"
   },
   {
@@ -89,22 +89,22 @@
    "i": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
   },
   {
-   "t": "Cetirizina",
-   "u": "/drugs/cetirizina/",
-   "l": "L5",
-   "lt": 18,
-   "lv": 18,
-   "r": 3,
-   "i": "enfermedad de la cavidad nasal"
-  },
-  {
    "t": "Terazosin",
    "u": "/drugs/terazosin/",
+   "l": "L5",
+   "lt": 19,
+   "lv": 19,
+   "r": 2,
+   "i": "hipotricosis simple del cuero cabelludo"
+  },
+  {
+   "t": "Candesartán Cilexetil",
+   "u": "/drugs/candesartán-cilexetil/",
    "l": "L5",
    "lt": 18,
    "lv": 18,
    "r": 1,
-   "i": "hipotricosis simple del cuero cabelludo"
+   "i": "Enfermedad renal hipertensiva maligna"
   }
  ],
  "no_current": [
@@ -135,7 +135,7 @@
    "l": "L5",
    "lt": 0,
    "lv": 20,
-   "r": 3,
+   "r": 5,
    "i": "queratoconjuntivitis epitelial punteada"
   },
   {
@@ -166,35 +166,143 @@
    "i": "enfermedad granulomatosa crónica autosómica recesiva"
   },
   {
-   "t": "Acetazolamida",
-   "u": "/drugs/acetazolamida/",
+   "t": "Idebenone",
+   "u": "/drugs/idebenone/",
    "l": "L5",
-   "lt": 2,
-   "lv": 2,
-   "r": 2,
-   "i": "hipertermia maligna inducida por ejercicio"
+   "lt": 8,
+   "lv": 8,
+   "r": 3,
+   "i": "porfiria hepática"
   },
   {
-   "t": "Allopurinol",
-   "u": "/drugs/allopurinol/",
-   "l": "L5",
-   "lt": 0,
-   "lv": 20,
-   "r": 2,
-   "i": "porfiria hepática"
+   "t": "Prednisolona",
+   "u": "/drugs/prednisolona/",
+   "l": "L2",
+   "lt": 11,
+   "lv": 11,
+   "r": 3,
+   "i": "alopecia areata"
   }
  ],
  "example": {
   "t": "Bupropión",
   "u": "/drugs/bupropión/",
   "l": "L1",
-  "lt": 6,
-  "lv": 6,
+  "lt": 8,
+  "lv": 8,
   "r": 1,
   "i": "Trastorno por déficit de atención con hiperactividad"
  },
  "recent_reviews": [
   {
+   "t": "Zolpidem",
+   "u": "/drugs/zolpidem/",
+   "s": "Número de autorizaciones eliminado",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Terazosin",
+   "u": "/drugs/terazosin/",
+   "s": "«(18)» eliminado",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Prednisolona",
+   "u": "/drugs/prednisolona/",
+   "s": "«nueve» eliminado",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Phenazopyridine",
+   "u": "/drugs/phenazopyridine/",
+   "s": "Se añade CISTALGINA",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Oxibutinina",
+   "u": "/drugs/oxibutinina/",
+   "s": "Número de autorizaciones eliminado",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Orlistat",
+   "u": "/drugs/orlistat/",
+   "s": "«5 de las 15» → todas",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Modafinil",
+   "u": "/drugs/modafinil/",
+   "s": "Número de autorizaciones y «las otras dos» eliminados",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Midazolam",
+   "u": "/drugs/midazolam/",
+   "s": "«Las cinco … Soubeiran Chobet» → todas; se añade Siegfried",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Metilfenidato",
+   "u": "/drugs/metilfenidato/",
+   "s": "«5 de las 17» eliminado",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Lactulose",
+   "u": "/drugs/lactulose/",
+   "s": "«(6 de 6)» eliminado",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Labetalol",
+   "u": "/drugs/labetalol/",
+   "s": "«Las cuatro» → todas",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Imiquimod",
+   "u": "/drugs/imiquimod/",
+   "s": "Número de autorizaciones eliminado",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Idebenone",
+   "u": "/drugs/idebenone/",
+   "s": "Se añade GENICERAL",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Fluorouracil",
+   "u": "/drugs/fluorouracil/",
+   "s": "«la única presentación … una crema» → crema y ungüento",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Flecainida",
+   "u": "/drugs/flecainida/",
+   "s": "«Las dos» → todas",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Eplerenone",
+   "u": "/drugs/eplerenone/",
+   "s": "«5 de las 12» → todas",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Dutasteride",
+   "u": "/drugs/dutasteride/",
+   "s": "Número de licencias eliminado (ya no coincidía)",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Aciclovir",
+   "u": "/drugs/aciclovir/",
+   "s": "Próximos pasos: eliminada la premisa sobre las presentaciones locales",
+   "d": "2026-11-25"
+  },
+  {
    "t": "Varenicline",
    "u": "/drugs/varenicline/",
    "s": "«autorizaciones vigentes de ANMAT» → productos en el listado de PAMI",
@@ -204,12 +312,6 @@
    "t": "Tinidazol",
    "u": "/drugs/tinidazol/",
    "s": "«autorizaciones vigentes de ANMAT» → productos en el listado de PAMI",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Prednisolona",
-   "u": "/drugs/prednisolona/",
-   "s": "Eliminado: «y orales de otro tipo»",
    "d": "2026-11-24"
   },
   {
@@ -234,159 +336,57 @@
    "t": "Salmeterol",
    "u": "/drugs/salmeterol/",
    "s": "«de un solo principio activo» → asociaciones con fluticasona",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Salbutamol",
-   "u": "/drugs/salbutamol/",
-   "s": "«todas … de un solo principio activo» → también asociaciones",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Sacubitril",
-   "u": "/drugs/sacubitril/",
-   "s": "«de un solo principio activo» → asociación con valsartán",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Pseudoephedrine",
-   "u": "/drugs/pseudoephedrine/",
-   "s": "«de un solo principio activo» → asociaciones",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Prasterone",
-   "u": "/drugs/prasterone/",
-   "s": "«de un solo principio activo» → asociaciones",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Piroxicam",
-   "u": "/drugs/piroxicam/",
-   "s": "«de un solo principio activo» → también asociaciones",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Oxytetracycline",
-   "u": "/drugs/oxytetracycline/",
-   "s": "«de un solo principio activo» → asociación con hidrocortisona",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Orfenadrina",
-   "u": "/drugs/orfenadrina/",
-   "s": "«un único principio activo» → asociaciones",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Omeprazol",
-   "u": "/drugs/omeprazol/",
-   "s": "«todas de un solo principio activo» → mayoría asociaciones",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Nortriptilina",
-   "u": "/drugs/nortriptilina/",
-   "s": "«de un solo principio activo» → asociación",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Norfloxacina",
-   "u": "/drugs/norfloxacina/",
-   "s": "«todas de un solo principio activo» → UROTEM DOL es asociación",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Nistatina",
-   "u": "/drugs/nistatina/",
-   "s": "«de un solo principio activo» → O BIOL es asociación",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Nimodipina",
-   "u": "/drugs/nimodipina/",
-   "s": "«al menos 20 … como único principio activo» → también asociaciones",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Naproxeno",
-   "u": "/drugs/naproxeno/",
-   "s": "«todas … de un solo principio activo» → también asociaciones",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Moxifloxacina",
-   "u": "/drugs/moxifloxacina/",
-   "s": "«de un solo principio activo» → VIGADEXA y MOFLAG D son asociaciones",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Miconazol",
-   "u": "/drugs/miconazol/",
-   "s": "«de producto único» → también asociaciones",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Metoclopramida",
-   "u": "/drugs/metoclopramida/",
-   "s": "«de un solo principio activo» → también asociaciones",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Meloxicam",
-   "u": "/drugs/meloxicam/",
-   "s": "«de un solo principio activo» → también asociaciones",
    "d": "2026-11-24"
   }
  ],
  "recent_licence_reviews": [
   {
-   "t": "Varenicline",
-   "u": "/drugs/varenicline/",
-   "s": "«autorizaciones vigentes de ANMAT» → productos en el listado de PAMI",
-   "d": "2026-11-24"
+   "t": "Zolpidem",
+   "u": "/drugs/zolpidem/",
+   "s": "Número de autorizaciones eliminado",
+   "d": "2026-11-25"
   },
   {
-   "t": "Tinidazol",
-   "u": "/drugs/tinidazol/",
-   "s": "«autorizaciones vigentes de ANMAT» → productos en el listado de PAMI",
-   "d": "2026-11-24"
+   "t": "Terazosin",
+   "u": "/drugs/terazosin/",
+   "s": "«(18)» eliminado",
+   "d": "2026-11-25"
   },
   {
    "t": "Prednisolona",
    "u": "/drugs/prednisolona/",
-   "s": "Eliminado: «y orales de otro tipo»",
-   "d": "2026-11-24"
+   "s": "«nueve» eliminado",
+   "d": "2026-11-25"
   },
   {
-   "t": "Trimetoprima",
-   "u": "/drugs/trimetoprima/",
-   "s": "«como único principio activo» → asociaciones con sulfametoxazol",
-   "d": "2026-11-24"
+   "t": "Phenazopyridine",
+   "u": "/drugs/phenazopyridine/",
+   "s": "Se añade CISTALGINA",
+   "d": "2026-11-25"
   },
   {
-   "t": "Sulpirida",
-   "u": "/drugs/sulpirida/",
-   "s": "«como único principio activo» → la mayoría asociaciones",
-   "d": "2026-11-24"
+   "t": "Oxibutinina",
+   "u": "/drugs/oxibutinina/",
+   "s": "Número de autorizaciones eliminado",
+   "d": "2026-11-25"
   },
   {
-   "t": "Sulfametoxazol",
-   "u": "/drugs/sulfametoxazol/",
-   "s": "«como único principio activo» → asociaciones con trimetoprima",
-   "d": "2026-11-24"
+   "t": "Orlistat",
+   "u": "/drugs/orlistat/",
+   "s": "«5 de las 15» → todas",
+   "d": "2026-11-25"
   },
   {
-   "t": "Salmeterol",
-   "u": "/drugs/salmeterol/",
-   "s": "«de un solo principio activo» → asociaciones con fluticasona",
-   "d": "2026-11-24"
+   "t": "Modafinil",
+   "u": "/drugs/modafinil/",
+   "s": "Número de autorizaciones y «las otras dos» eliminados",
+   "d": "2026-11-25"
   },
   {
-   "t": "Salbutamol",
-   "u": "/drugs/salbutamol/",
-   "s": "«todas … de un solo principio activo» → también asociaciones",
-   "d": "2026-11-24"
+   "t": "Midazolam",
+   "u": "/drugs/midazolam/",
+   "s": "«Las cinco … Soubeiran Chobet» → todas; se añade Siegfried",
+   "d": "2026-11-25"
   }
  ],
  "files": {

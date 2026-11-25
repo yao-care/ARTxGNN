@@ -8,8 +8,8 @@ indication_count: 4
 drugbank_id: DB00927
 monitor_inn: "Famotidine"
 predicted_indications: ["duodenal obstruction", "abnormality of glucagon secretion", "multiple endocrine neoplasia", "acne (disease)"]
-last_modified_at: 2026-11-24
-description: "Famotidina: nueva indicación predicha, obstrucción duodenal (duodenal obstruction) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 10 (en el listado vigente: 10)"
+last_modified_at: 2026-11-25
+description: "Famotidina: nueva indicación predicha, obstrucción duodenal (duodenal obstruction) (nivel de evidencia L5). En Argentina, productos en el listado de PAMI: 11 (en el listado vigente: 11)"
 ---
 
 # Famotidina
@@ -50,8 +50,8 @@ El modelo TxGNN predice que podría ser útil para **obstrucción duodenal (duod
 | Nueva Indicación Predicha | obstrucción duodenal (duodenal obstruction) |
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (10 de 10) – el estado del registro en ANMAT no está incluido en estos datos |
-| Número de Autorización | 10 (vigentes: 10) |
+| Estado de Mercado en Argentina | Incluido en el listado de medicamentos de PAMI (11 de 11) – el estado del registro en ANMAT no está incluido en estos datos |
+| Número de Autorización | 11 (vigentes: 11) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -87,11 +87,11 @@ Ninguna de las publicaciones estudia directamente el efecto de famotidina sobre 
 | 57103 | TAURAL F 20 | 20 mg comp.x 30 | Roemmers | Vigente |
 | 58338 | LAZARTIDINA | 20 mg comp.rec.x 30 | Lazar | Vigente |
 
-La tabla muestra 5 de los 10 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
+La tabla muestra 5 de los 11 productos de este medicamento en los datos (listado de medicamentos para entidades de PAMI); el estado del registro en ANMAT no está incluido en estos datos.
 
 <!-- licenses:end -->
 
-Se muestran 5 de las 10 autorizaciones vigentes.
+Se muestran 5 de las 11 autorizaciones vigentes.
 
 ## Consideraciones de Seguridad
 
