@@ -1,24 +1,37 @@
-"""rescue_20261012：2026-10-12 補救 drug_mapping.csv 失敗成分的規則（2026-11-25 第六輪補收用）。
+#!/usr/bin/env python3
+"""補救 drug_mapping.csv 裡失敗的成分（2026-10-12 盤點 E 項，見 .claude/AUDIT_20261011.md 環節 1）。
 
-逐字取自母 repo txgnn/.claude/rescue_mapping.py（2026-10-12 盤點 E 項；只取比對函式，不含改檔的 process／main），
-只把詞表路徑改成本 repo 的 data/external/drugbank_vocab.csv（原檔讀 ESTxGNN 的同一份共用詞表）。
-用途：2026-10-12 之後收集的證據包（tfda.collection_rule＝drug_mapping.csv）用的是 rescue 後的對照；
-2026-03 之後才出現在 PAMI 價目表、drug_mapping 沒見過的成分字串，Phase 1 mapper 對不到的成分照同一套規則補救（只接受唯一命中）。
-規則與數字見 CLAUDE.md「PAMI 現行清單新代碼依原規則補收」一節。
+只動 mapping_success != True 的列，成功的列一律不碰；規則都是確定性的，且只接受「唯一命中」：
+  1. 去重音、轉大寫、去劑量字樣（10 MG、5%）
+  2. 括號內外各試一次（NORTRIPTYLINE (NORTRIPTYLINE HYDROCHLORIDE)）
+  3. 去多語鹽類／水合物／介詞（CLORHIDRATO、BÉSILATE D'、FUMARATE DIHYDRATE、NATRIUM…）
+  4. 酸類語序（ÁCIDO X-ICO / ACIDE X-IQUE / ACIDUM X-ICUM → X-IC ACID）
+  5. 語尾規則（-O/-A、-INA→-INE、-OLO→-OLE、-ID→-IDE、-IN→-INE、-UM/-INUM、-E…）與 K→C、F→PH 拼字
+  6. 長字（≥8）容許 1 個字元差，仍須唯一
+  7. 複方（; , + / " Y " " ET " " UND "）拆開逐一比對，命中的成分各自成一列（同 license_id）
+改過的列 mapping_source = "rescue_20261012:<規則>"。原檔備份為 drug_mapping.csv.bak_20261012（已存在就不覆蓋）。
+
+用法: python3 .claude/rescue_mapping.py [--apply] [--sample N] [<ProjDir> ...]   （預設空跑、30 站）
 """
+import sys as _sys, pathlib as _pl; _sys.path.insert(0, str(_pl.Path(__file__).resolve().parent)); import site_registry as _site_registry  # noqa: E402  # 30 站名單（不含 CnTxGNN）
 import csv
+import os
 import re
+import shutil
 import sys
 import unicodedata
 from collections import defaultdict
 from pathlib import Path
 
 csv.field_size_limit(10**9)
-ROOT = Path(__file__).resolve().parents[3]
+BASE = Path("/Users/lightman/yao.care/TxGNN")
 TAG = "rescue_20261012"
 
+# 詞表：預設讀 ESTxGNN 的共用 drugbank_vocab.csv（母目錄批次用）；各站 tools/txgnn 複本由站上程式在 import 前設
+# RESCUE_MAPPING_VOCAB 指向本站 data/external/drugbank_vocab.csv（2026-11-25 第七輪，取代 AR、SE 的站上複本）
+VOCAB_FILE = Path(os.environ.get("RESCUE_MAPPING_VOCAB") or BASE / "ESTxGNN/data/external/drugbank_vocab.csv")
 vocab = {}
-for r in csv.DictReader(open(ROOT / "data/external/drugbank_vocab.csv", encoding="utf-8")):
+for r in csv.DictReader(open(VOCAB_FILE, encoding="utf-8")):
     vocab[r["drug_name_upper"]] = r["drugbank_id"]
 # 常見 INN／BAN 異名 → DrugBank 名稱（目標都已確認在 vocab）
 ALIASES = {"PARACETAMOL": "ACETAMINOPHEN", "ADRENALINE": "EPINEPHRINE", "NORADRENALINE": "NOREPINEPHRINE",
@@ -271,3 +284,67 @@ def rescue_ingredient(raw: str):
     return out
 
 
+def process(proj: Path, apply: bool, sample: int):
+    f = proj / "data/processed/drug_mapping.csv"
+    if not f.exists():
+        return None
+    rows = list(csv.reader(open(f, encoding="utf-8-sig")))
+    head, body = rows[0], rows[1:]
+    have = {r[5] for r in body if len(r) > 6 and r[6] == "True" and r[5]}
+    new_body, changed, new_ids, examples = [], 0, set(), []
+    cache = {}
+    for r in body:
+        if len(r) <= 7 or r[6] == "True":
+            new_body.append(r)
+            continue
+        ing = r[3] or r[2]
+        if ing not in cache:
+            cache[ing] = rescue_ingredient(ing)
+        res = cache[ing]
+        if not res:
+            new_body.append(r)
+            continue
+        for k, (name, rule) in enumerate(res):
+            nr = list(r)
+            nr[5], nr[6], nr[7] = vocab[name], "True", f"{TAG}:{rule}"
+            if len(res) > 1:
+                nr[3] = name
+            new_body.append(nr)
+            if vocab[name] not in have:
+                new_ids.add(vocab[name])
+        changed += 1
+        if len(examples) < sample:
+            examples.append(f"{ing[:45]!r} -> {' + '.join(n for n, _ in res)} [{','.join(rl for _, rl in res)}]")
+    if apply and changed:
+        bak = f.with_name("drug_mapping.csv.bak_20261012")
+        if not bak.exists():
+            shutil.copy2(f, bak)
+        with open(f, "w", encoding="utf-8", newline="") as fo:
+            w = csv.writer(fo)
+            w.writerow(head)
+            w.writerows(new_body)
+    return changed, len(body), len(have), new_ids, examples
+
+
+def main():
+    apply = "--apply" in sys.argv
+    sample = 0
+    if "--sample" in sys.argv:
+        sample = int(sys.argv[sys.argv.index("--sample") + 1])
+    args = [a for i, a in enumerate(sys.argv[1:], 1) if not a.startswith("--") and sys.argv[i - 1] != "--sample"]
+    targets = [BASE / a for a in args] or sorted(_site_registry.glob_sites(BASE))
+    tot_new = 0
+    for p in targets:
+        r = process(p, apply, sample)
+        if r is None:
+            continue
+        changed, n, had, new_ids, ex = r
+        tot_new += len(new_ids)
+        print(f"{p.name:10} rows={n:6} rescued_rows={changed:5} drugs_before={had:5} new_drugs={len(new_ids):4}")
+        for e in ex:
+            print("    ", e)
+    print(("applied" if apply else "dry-run"), "total new drugs", tot_new)
+
+
+if __name__ == "__main__":
+    main()

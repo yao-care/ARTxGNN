@@ -15,7 +15,7 @@
 - 代碼不在（新代碼）→ 成分字串（PRINCIPIO ACTIVO，寫法同 ar_fda_drugs.json 的 nombre_generico）照同一份 drug_mapping 的
   「原始成分字串 → DrugBank ID」對照（見過、當時對不到的照舊對不到）；沒見過的字串用 Phase 1 的 mapping/drugbank_mapper
   （map_fda_drugs_to_drugbank 同一套：get_all_synonyms 拆成分、逐成分對照，成分各自成立）；現行對照（rescue 後）另把對不到的成分
-  照 rescue_20261012 的規則補救（src/artxgnn/mapping/rescue_20261012.py，逐字取自母 repo）。
+  照 rescue_20261012 的規則補救（tools/txgnn/.claude/rescue_mapping.py，母 repo 同步來的那份；2026-11-25 第七輪前是站上複本）。
 對到本藥 DrugBank ID、證據包還沒有（records、records_not_stored、excluded_records）的就補：records 未滿 20 筆存進 records（單方在前），
 滿了只記代碼在 records_not_stored；兩者都算進 total_matches。每筆記 source（清單與日期、規則）與 added（補收日）。
 EXCLUDE（每筆附理由）：看起來不是原規則該收的類別，不補。
@@ -73,6 +73,25 @@ def load_map(p):
     return {"lic": lic, "oi": oi, "ids": ids_all}
 
 
+def load_rescue():
+    """2026-10-12 rescue_mapping 的規則（tools/txgnn/.claude/rescue_mapping.py＝母 repo .claude/rescue_mapping.py，sync_site_tools.py 同步；
+    2026-11-25 第七輪起改讀這份、不再放站上複本）。詞表由 RESCUE_MAPPING_VOCAB 指向本站 data/external/drugbank_vocab.csv。"""
+    import importlib.util
+    import os
+    p = ROOT / "tools/txgnn/.claude/rescue_mapping.py"
+    if not p.exists():
+        raise SystemExit(f"找不到 {p.relative_to(ROOT)}，判斷不了現行對照，不補收")
+    os.environ["RESCUE_MAPPING_VOCAB"] = str(ROOT / "data/external/drugbank_vocab.csv")
+    saved = list(sys.path)  # 它會把 tools/txgnn/.claude 插到 sys.path 最前面，載完還原，免得遮住本站同名模組
+    try:
+        spec = importlib.util.spec_from_file_location("rescue_mapping", p)
+        mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(mod)
+    finally:
+        sys.path[:] = saved
+    return mod
+
+
 class Phase1:
     """Phase 1 的成分 → DrugBank 對照（map_fda_drugs_to_drugbank 同一套）；rescue=True 時對不到的成分再照 rescue_20261012 補救"""
 
@@ -86,8 +105,7 @@ class Phase1:
 
     def rescue(self, name):
         if self._rc is None:
-            from artxgnn.mapping import rescue_20261012 as R
-            self._rc = R
+            self._rc = load_rescue()
         return {self._rc.vocab[n] for n, _ in self._rc.rescue_ingredient(name)}
 
     def ids(self, s, rescue):
