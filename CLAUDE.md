@@ -150,3 +150,12 @@ noindex 不補、再跑 0 頁；另以拿掉市場／安全性／結論段的 ac
 - 正文：寬偵測（改到的 152 包的頁，含 noindex，市場與摘要的張數、todas／ambas／las N、único／solo、劑型、品牌、廠商）226 句逐句對照證據包全部代碼（records＋records_not_stored，對現行清單），跟新事實矛盾的 20 處以 `ar-lic-20261125-*` 更正（更正文字不寫張數）：eplerenone、flecainida、imiquimod、labetalol、lactulose、metilfenidato×2、modafinil（「另外兩張是 FORCILIN」）、orlistat、oxibutinina、prednisolona、terazosin、zolpidem、dutasteride 的張數或「Las N」；midazolam（新增 DORMICUM，Siegfried）、phenazopyridine（新增 CISTALGINA 單方）、idebenone（新增 GENICERAL）、fluorouracil（「唯一劑型是乳膏」→另有 5 FU 軟膏）、aciclovir 摘要與待辦（另有 aciclovir＋hidrocortisona 外用；LISOVYR CORT 補收前就在證據包未存的代碼裡，一併更正）。prednisolona 同一行的模型預測文字不動。
   沒改：部分收錄頁原本就寫「Se registran 20 autorizaciones」的 etoricoxib、pridinol（補收前就是部分收錄、句子早就不精確，不是這次造成的）。
 - 驗證：checker 全量前後都是 0、--row-status 0；gate exit 0；apply --check 0；rewrite_license_counts --list 改前 0、補收後 10 句、更正後 0；ar_wide 寬偵測回到改前的 8 句（都是第一輪判定的誤中）。正文有變的 58 頁 last_modified_at 改 2026-11-25。證據包經 data-overlay 推進 Release。
+
+## 部分收錄頁正文寫死的總數（2026-11-25 第七輪）
+
+用戶 2026-11-25 決定（第七輪第 2 條）：部分收錄頁（快照事實層 partial，證據包存 20 筆、total_matches 較多）正文寫死的總數或表上列數，小於 total_matches 或跟程式表列數不符的，照之前部分收錄頁的做法改成不寫死數字（查核紀錄）。
+- 全量掃（快照 partial 的 102 頁，含 noindex；排除查核框、程式區塊）：數字＋許可字樣的句子 68 句，其中 58 句是「al menos 20」等保留語（20 ≤ total_matches，成立）、5 句是「Se listan 5 …」這類講表上列數（＝程式表 5 列，成立）。
+  不成立的 9 句以 9 筆 `ar-lic-20261125b-<藥>-1` 更正（更正文字不寫張數，指向概覽表與程式表）：etoricoxib、pridinol「Se registran 20 autorizaciones vigentes」（91、71 張；pridinol 另把「todas de productos de un solo registro」照實改成「en su mayoría asociaciones」，存下的 20 筆單方只有 2 筆）、
+  clobetasol、ketorolac「5 de las 20」（26、42 張）、hidrocortisona「Se listan 20」、ezetimibe「se muestran 20 registros」（表上 5 列）、clindamicina、metformina「las 20 (autorizaciones) listadas」、meloxicam「20 autorizaciones vigentes en la lista disponible」。單方／全部在清單的說法只講「存下的紀錄」（事實層只涵蓋這 20 筆），其餘只記號碼的代碼不另推定。
+- 另寫的獨立寬偵測（不靠名詞鄰接：許可字樣 ±80 字內任何數字或文字數詞，小於 total_matches、不是 5、同句沒有保留語；含 description、快速總覽格）：改前 16 句（6 句是上面的、metformina 1 句是 scan 漏的，已併入；其餘是作用機轉節錄與 Data Gaps 誤中），改後 10 句全是誤中。
+- 驗證：apply --check 0、rewrite_license_counts --check 0、sync_license_tables --from-snapshot --dry-run 0；checker 前後都是 P1 160（本機沒還原證據包，P1 前後相同、跟許可證無關）、--row-status 0；gate exit 0。正文有變的 9 頁 last_modified_at 改 2026-11-25。證據包沒有改，不用 data-overlay。

@@ -21,11 +21,11 @@
   "items_current": 1409
  },
  "reviews": {
-  "records": 340,
-  "pages": 258,
-  "public_pages_with_records": 252,
+  "records": 349,
+  "pages": 260,
+  "public_pages_with_records": 254,
   "by_action": {
-   "correct": 115,
+   "correct": 124,
    "mechanism": 225
   }
  },
@@ -175,13 +175,13 @@
    "i": "porfiria hepática"
   },
   {
-   "t": "Prednisolona",
-   "u": "/drugs/prednisolona/",
-   "l": "L2",
-   "lt": 11,
-   "lv": 11,
+   "t": "Meloxicam",
+   "u": "/drugs/meloxicam/",
+   "l": "L5",
+   "lt": 0,
+   "lv": 20,
    "r": 3,
-   "i": "alopecia areata"
+   "i": "Displasia acromesomélica tipo Hunter-Thompson"
   }
  ],
  "example": {
@@ -194,6 +194,60 @@
   "i": "Trastorno por déficit de atención con hiperactividad"
  },
  "recent_reviews": [
+  {
+   "t": "Pridinol",
+   "u": "/drugs/pridinol/",
+   "s": "«20 autorizaciones … un solo registro» → mayoría asociaciones, sin cifra",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Metformina",
+   "u": "/drugs/metformina/",
+   "s": "«las 20 listadas» → sin cifra",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Meloxicam",
+   "u": "/drugs/meloxicam/",
+   "s": "«20 autorizaciones» → sin cifra",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Ketorolac",
+   "u": "/drugs/ketorolac/",
+   "s": "«5 de las 20» → sin cifra",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Hidrocortisona",
+   "u": "/drugs/hidrocortisona/",
+   "s": "«Se listan 20» → sin cifra",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Ezetimibe",
+   "u": "/drugs/ezetimibe/",
+   "s": "«se muestran 20» → sin cifra",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Etoricoxib",
+   "u": "/drugs/etoricoxib/",
+   "s": "«20 autorizaciones» → sin cifra",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Clobetasol",
+   "u": "/drugs/clobetasol/",
+   "s": "«5 de las 20» → sin cifra",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Clindamicina",
+   "u": "/drugs/clindamicina/",
+   "s": "«las 20 listadas» → sin cifra",
+   "d": "2026-11-25"
+  },
   {
    "t": "Zolpidem",
    "u": "/drugs/zolpidem/",
@@ -283,109 +337,55 @@
    "u": "/drugs/flecainida/",
    "s": "«Las dos» → todas",
    "d": "2026-11-25"
-  },
-  {
-   "t": "Eplerenone",
-   "u": "/drugs/eplerenone/",
-   "s": "«5 de las 12» → todas",
-   "d": "2026-11-25"
-  },
-  {
-   "t": "Dutasteride",
-   "u": "/drugs/dutasteride/",
-   "s": "Número de licencias eliminado (ya no coincidía)",
-   "d": "2026-11-25"
-  },
-  {
-   "t": "Aciclovir",
-   "u": "/drugs/aciclovir/",
-   "s": "Próximos pasos: eliminada la premisa sobre las presentaciones locales",
-   "d": "2026-11-25"
-  },
-  {
-   "t": "Varenicline",
-   "u": "/drugs/varenicline/",
-   "s": "«autorizaciones vigentes de ANMAT» → productos en el listado de PAMI",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Tinidazol",
-   "u": "/drugs/tinidazol/",
-   "s": "«autorizaciones vigentes de ANMAT» → productos en el listado de PAMI",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Trimetoprima",
-   "u": "/drugs/trimetoprima/",
-   "s": "«como único principio activo» → asociaciones con sulfametoxazol",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Sulpirida",
-   "u": "/drugs/sulpirida/",
-   "s": "«como único principio activo» → la mayoría asociaciones",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Sulfametoxazol",
-   "u": "/drugs/sulfametoxazol/",
-   "s": "«como único principio activo» → asociaciones con trimetoprima",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Salmeterol",
-   "u": "/drugs/salmeterol/",
-   "s": "«de un solo principio activo» → asociaciones con fluticasona",
-   "d": "2026-11-24"
   }
  ],
  "recent_licence_reviews": [
   {
-   "t": "Zolpidem",
-   "u": "/drugs/zolpidem/",
-   "s": "Número de autorizaciones eliminado",
+   "t": "Pridinol",
+   "u": "/drugs/pridinol/",
+   "s": "«20 autorizaciones … un solo registro» → mayoría asociaciones, sin cifra",
    "d": "2026-11-25"
   },
   {
-   "t": "Terazosin",
-   "u": "/drugs/terazosin/",
-   "s": "«(18)» eliminado",
+   "t": "Metformina",
+   "u": "/drugs/metformina/",
+   "s": "«las 20 listadas» → sin cifra",
    "d": "2026-11-25"
   },
   {
-   "t": "Prednisolona",
-   "u": "/drugs/prednisolona/",
-   "s": "«nueve» eliminado",
+   "t": "Meloxicam",
+   "u": "/drugs/meloxicam/",
+   "s": "«20 autorizaciones» → sin cifra",
    "d": "2026-11-25"
   },
   {
-   "t": "Phenazopyridine",
-   "u": "/drugs/phenazopyridine/",
-   "s": "Se añade CISTALGINA",
+   "t": "Ketorolac",
+   "u": "/drugs/ketorolac/",
+   "s": "«5 de las 20» → sin cifra",
    "d": "2026-11-25"
   },
   {
-   "t": "Oxibutinina",
-   "u": "/drugs/oxibutinina/",
-   "s": "Número de autorizaciones eliminado",
+   "t": "Hidrocortisona",
+   "u": "/drugs/hidrocortisona/",
+   "s": "«Se listan 20» → sin cifra",
    "d": "2026-11-25"
   },
   {
-   "t": "Orlistat",
-   "u": "/drugs/orlistat/",
-   "s": "«5 de las 15» → todas",
+   "t": "Ezetimibe",
+   "u": "/drugs/ezetimibe/",
+   "s": "«se muestran 20» → sin cifra",
    "d": "2026-11-25"
   },
   {
-   "t": "Modafinil",
-   "u": "/drugs/modafinil/",
-   "s": "Número de autorizaciones y «las otras dos» eliminados",
+   "t": "Etoricoxib",
+   "u": "/drugs/etoricoxib/",
+   "s": "«20 autorizaciones» → sin cifra",
    "d": "2026-11-25"
   },
   {
-   "t": "Midazolam",
-   "u": "/drugs/midazolam/",
-   "s": "«Las cinco … Soubeiran Chobet» → todas; se añade Siegfried",
+   "t": "Clobetasol",
+   "u": "/drugs/clobetasol/",
+   "s": "«5 de las 20» → sin cifra",
    "d": "2026-11-25"
   }
  ],

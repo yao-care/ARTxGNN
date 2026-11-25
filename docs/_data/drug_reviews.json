@@ -9368,6 +9368,222 @@
    ],
    "checked": "2026-11-25",
    "summary": "Próximos pasos: eliminada la premisa sobre las presentaciones locales"
+  },
+  {
+   "id": "ar-lic-20261125b-etoricoxib-1",
+   "drug": "etoricoxib",
+   "file": "etoricoxib.md",
+   "action": "correct",
+   "claim": "Se registran 20 autorizaciones vigentes, todas de monofármaco (sin combinaciones ni canceladas).",
+   "replacement": "Las autorizaciones recopiladas en los datos están vigentes y son de monofármaco; los datos solo incluyen una parte de los productos (las cifras están en el resumen rápido).",
+   "note": "Corregido: los datos de este medicamento solo incluyen una parte de los productos del listado de PAMI, y la frase daba como total o como número de filas mostradas una cifra fija que no coincide con ellos. Las cifras actuales están en el resumen rápido y en la tabla de Información de Mercado en Argentina. El estado del registro en ANMAT no está incluido en estos datos.",
+   "finding": "2026-11-25 第七輪（用戶決定）：部分收錄頁（快照 partial，total_matches 91、證據包存 20 筆）：「Se registran 20」把收錄筆數寫成總數；存下的 20 筆全部在 PAMI 現行清單、全為單方（事實層 single_total 20），其餘 71 個代碼只記號碼，狀態與成分不另推定。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-25"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "«20 autorizaciones» → sin cifra"
+  },
+  {
+   "id": "ar-lic-20261125b-pridinol-1",
+   "drug": "pridinol",
+   "file": "pridinol.md",
+   "action": "correct",
+   "claim": "Se registran 20 autorizaciones vigentes, todas de productos de un solo registro (sin cancelaciones).",
+   "replacement": "Las autorizaciones recopiladas en los datos están vigentes y en su mayoría son asociaciones de pridinol con otros principios activos; los datos solo incluyen una parte de los productos (las cifras están en el resumen rápido).",
+   "note": "Corregido: los datos de este medicamento solo incluyen una parte de los productos del listado de PAMI, y la frase daba como total o como número de filas mostradas una cifra fija que no coincide con ellos. Las cifras actuales están en el resumen rápido y en la tabla de Información de Mercado en Argentina. El estado del registro en ANMAT no está incluido en estos datos.",
+   "finding": "2026-11-25 第七輪（用戶決定）：部分收錄頁（total_matches 71、存 20 筆）：「Se registran 20」把收錄筆數寫成總數；「todas de productos de un solo registro」語意不明，存下的 20 筆中單方只有 2 筆（事實層 single_total 2，其餘如 DIOXAFLEX PLUS、FLEXIDOL RELAX 為複方），照實改寫。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-25"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "«20 autorizaciones … un solo registro» → mayoría asociaciones, sin cifra"
+  },
+  {
+   "id": "ar-lic-20261125b-hidrocortisona-1",
+   "drug": "hidrocortisona",
+   "file": "hidrocortisona.md",
+   "action": "correct",
+   "claim": "Se listan 20 autorizaciones vigentes; el total es de al menos 20 y la lista puede ser parcial.",
+   "replacement": "Las autorizaciones recopiladas en los datos están vigentes; los datos solo incluyen una parte de los productos y la lista puede ser parcial (las cifras están en el resumen rápido).",
+   "note": "Corregido: los datos de este medicamento solo incluyen una parte de los productos del listado de PAMI, y la frase daba como total o como número de filas mostradas una cifra fija que no coincide con ellos. Las cifras actuales están en el resumen rápido y en la tabla de Información de Mercado en Argentina. El estado del registro en ANMAT no está incluido en estos datos.",
+   "finding": "2026-11-25 第七輪（用戶決定）：部分收錄頁（total_matches 35、存 20 筆、程式表列 5 列）：「Se listan 20」與表上列數不符，「al menos 20」改成不寫數字。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-25"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "«Se listan 20» → sin cifra"
+  },
+  {
+   "id": "ar-lic-20261125b-clobetasol-1",
+   "drug": "clobetasol",
+   "file": "clobetasol.md",
+   "action": "correct",
+   "claim": "Se listan 5 de las 20 autorizaciones vigentes (todas de producto único).",
+   "replacement": "Las autorizaciones recopiladas en los datos están vigentes y son todas de producto único; los datos solo incluyen una parte de los productos (las cifras están en el resumen rápido).",
+   "note": "Corregido: los datos de este medicamento solo incluyen una parte de los productos del listado de PAMI, y la frase daba como total o como número de filas mostradas una cifra fija que no coincide con ellos. Las cifras actuales están en el resumen rápido y en la tabla de Información de Mercado en Argentina. El estado del registro en ANMAT no está incluido en estos datos.",
+   "finding": "2026-11-25 第七輪（用戶決定）：部分收錄頁（total_matches 26、存 20 筆）：「5 de las 20」把收錄筆數寫成總數；存下的 20 筆全為單方、全部在清單。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-25"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "«5 de las 20» → sin cifra"
+  },
+  {
+   "id": "ar-lic-20261125b-ketorolac-1",
+   "drug": "ketorolac",
+   "file": "ketorolac.md",
+   "action": "correct",
+   "claim": "Se muestran 5 de las 20 autorizaciones vigentes (todas de monofármaco).",
+   "replacement": "Las autorizaciones recopiladas en los datos están vigentes y son todas de monofármaco; los datos solo incluyen una parte de los productos (las cifras están en el resumen rápido).",
+   "note": "Corregido: los datos de este medicamento solo incluyen una parte de los productos del listado de PAMI, y la frase daba como total o como número de filas mostradas una cifra fija que no coincide con ellos. Las cifras actuales están en el resumen rápido y en la tabla de Información de Mercado en Argentina. El estado del registro en ANMAT no está incluido en estos datos.",
+   "finding": "2026-11-25 第七輪（用戶決定）：部分收錄頁（total_matches 42、存 20 筆）：「5 de las 20」把收錄筆數寫成總數；存下的 20 筆全為單方、全部在清單。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-25"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "«5 de las 20» → sin cifra"
+  },
+  {
+   "id": "ar-lic-20261125b-ezetimibe-1",
+   "drug": "ezetimibe",
+   "file": "ezetimibe.md",
+   "action": "correct",
+   "claim": "La lista de autorizaciones es parcial (se muestran 20 registros, con al menos 20 en total);",
+   "replacement": "La lista de autorizaciones es parcial (las cifras están en el resumen rápido);",
+   "note": "Corregido: los datos de este medicamento solo incluyen una parte de los productos del listado de PAMI, y la frase daba como total o como número de filas mostradas una cifra fija que no coincide con ellos. Las cifras actuales están en el resumen rápido y en la tabla de Información de Mercado en Argentina. El estado del registro en ANMAT no está incluido en estos datos.",
+   "finding": "2026-11-25 第七輪（用戶決定）：部分收錄頁（total_matches 87、存 20 筆、程式表列 5 列）：「se muestran 20 registros」與表上列數不符。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-25"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "«se muestran 20» → sin cifra"
+  },
+  {
+   "id": "ar-lic-20261125b-clindamicina-1",
+   "drug": "clindamicina",
+   "file": "clindamicina.md",
+   "action": "correct",
+   "claim": "las 20 autorizaciones listadas están vigentes y la lista puede ser parcial (al menos 20 autorizaciones).",
+   "replacement": "las autorizaciones recopiladas en los datos están vigentes y la lista puede ser parcial (las cifras están en el resumen rápido).",
+   "note": "Corregido: los datos de este medicamento solo incluyen una parte de los productos del listado de PAMI, y la frase daba como total o como número de filas mostradas una cifra fija que no coincide con ellos. Las cifras actuales están en el resumen rápido y en la tabla de Información de Mercado en Argentina. El estado del registro en ANMAT no está incluido en estos datos.",
+   "finding": "2026-11-25 第七輪（用戶決定）：部分收錄頁（total_matches 28、存 20 筆、程式表列 5 列）：「las 20 autorizaciones listadas」讀起來是表上列數（實為 5 列），改成不寫數字。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-25"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "«las 20 listadas» → sin cifra"
+  },
+  {
+   "id": "ar-lic-20261125b-metformina-1",
+   "drug": "metformina",
+   "file": "metformina.md",
+   "action": "correct",
+   "claim": "las 20 listadas están vigentes y corresponden a productos de un solo principio activo.",
+   "replacement": "las recopiladas en los datos están vigentes y corresponden a productos de un solo principio activo (los datos solo incluyen una parte de los productos; las cifras están en el resumen rápido).",
+   "note": "Corregido: los datos de este medicamento solo incluyen una parte de los productos del listado de PAMI, y la frase daba como total o como número de filas mostradas una cifra fija que no coincide con ellos. Las cifras actuales están en el resumen rápido y en la tabla de Información de Mercado en Argentina. El estado del registro en ANMAT no está incluido en estos datos.",
+   "finding": "2026-11-25 第七輪（用戶決定）：部分收錄頁（total_matches 270、存 20 筆、程式表列 5 列）：「las 20 listadas」讀起來是表上列數，改成不寫數字；存下的 20 筆全為單方（其餘 250 個代碼只記號碼，含複方與否不另推定，所以註明只收部分）。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-25"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "«las 20 listadas» → sin cifra"
+  },
+  {
+   "id": "ar-lic-20261125b-meloxicam-1",
+   "drug": "meloxicam",
+   "file": "meloxicam.md",
+   "action": "correct",
+   "claim": "con 20 autorizaciones vigentes en la lista disponible (la cantidad total es de al menos 20 y la lista puede ser parcial).",
+   "replacement": "con autorizaciones vigentes en la lista disponible (los datos solo incluyen una parte de los productos; las cifras están en el resumen rápido).",
+   "note": "Corregido: los datos de este medicamento solo incluyen una parte de los productos del listado de PAMI, y la frase daba como total o como número de filas mostradas una cifra fija que no coincide con ellos. Las cifras actuales están en el resumen rápido y en la tabla de Información de Mercado en Argentina. El estado del registro en ANMAT no está incluido en estos datos.",
+   "finding": "2026-11-25 第七輪（用戶決定）：部分收錄頁（total_matches 40、存 20 筆）：「20 autorizaciones vigentes en la lista disponible」與「al menos 20」改成不寫數字。",
+   "sources": [
+    {
+     "title": "PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)",
+     "url": "https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv",
+     "accessed": "2026-11-25"
+    },
+    {
+     "title": "PAMI – Medicamentos para entidades (ficha del conjunto de datos)",
+     "url": "https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "«20 autorizaciones» → sin cifra"
   }
  ]
 }

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 218
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Pridinol: nueva indicación predicha, Insomnio (nivel de evidencia L5). Indicación original: No disponible en los datos compilados (los textos de indicación de la…"
 monitor_inn: "PRIDINOL"
 drugbank_id: DB13642
@@ -82,7 +82,13 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Argentina
 
-Se registran 20 autorizaciones vigentes, todas de productos de un solo registro (sin cancelaciones). Se muestran las 5 principales; los textos de indicación aprobada no figuran en los datos compilados.
+Las autorizaciones recopiladas en los datos están vigentes y en su mayoría son asociaciones de pridinol con otros principios activos; los datos solo incluyen una parte de los productos (las cifras están en el resumen rápido). Se muestran las 5 principales; los textos de indicación aprobada no figuran en los datos compilados.
+
+<!-- review:begin ar-lic-20261125b-pridinol-1 -->
+
+> **Corrección de verificación (2026-11-25)**: Texto original: «Se registran 20 autorizaciones vigentes, todas de productos de un solo registro (sin cancelaciones).» Corregido: los datos de este medicamento solo incluyen una parte de los productos del listado de PAMI, y la frase daba como total o como número de filas mostradas una cifra fija que no coincide con ellos. Las cifras actuales están en el resumen rápido y en la tabla de Información de Mercado en Argentina. El estado del registro en ANMAT no está incluido en estos datos. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261125b-pridinol-1 -->
 
 <!-- licenses:begin -->
 
@@ -120,6 +126,19 @@ La única base es una predicción del modelo sin ensayos clínicos ni literatura
 - Realizar una búsqueda sistemática de literatura y ensayos sobre pridinol (u otros antimuscarínicos centrales) en trastornos del sueño
 - Evaluar la similitud con la indicación original y la compatibilidad de vías de administración
 - Considerar estudios preclínicos o de mecanismo antes de cualquier ensayo clínico
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-25 | «20 autorizaciones … un solo registro» → mayoría asociaciones, sin cifra | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

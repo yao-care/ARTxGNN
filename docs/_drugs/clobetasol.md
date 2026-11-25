@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 112
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Clobetasol: nueva indicación predicha, Linfoma cutáneo primario de células T (nivel de evidencia L3). Indicación original: No disponible en los registros de ANMAT compilados (todos los textos…"
 monitor_inn: "CLOBETASOL"
 predicted_indications: ["primary cutaneous T-cell lymphoma"]
@@ -94,7 +94,13 @@ Las demás publicaciones recuperadas son reportes de caso sobre diagnóstico dif
 
 ## Información de Mercado en Argentina
 
-Se listan 5 de las 20 autorizaciones vigentes (todas de producto único). Ninguna tiene texto de indicación aprobada en los registros.
+Las autorizaciones recopiladas en los datos están vigentes y son todas de producto único; los datos solo incluyen una parte de los productos (las cifras están en el resumen rápido). Ninguna tiene texto de indicación aprobada en los registros.
+
+<!-- review:begin ar-lic-20261125b-clobetasol-1 -->
+
+> **Corrección de verificación (2026-11-25)**: Texto original: «Se listan 5 de las 20 autorizaciones vigentes (todas de producto único).» Corregido: los datos de este medicamento solo incluyen una parte de los productos del listado de PAMI, y la frase daba como total o como número de filas mostradas una cifra fija que no coincide con ellos. Las cifras actuales están en el resumen rápido y en la tabla de Información de Mercado en Argentina. El estado del registro en ANMAT no está incluido en estos datos. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261125b-clobetasol-1 -->
 
 <!-- licenses:begin -->
 
@@ -141,11 +147,12 @@ La literatura observacional (cohortes y series de casos) respalda el uso de clob
 
 ## Registro de verificación
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de verificación | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Clobetasol Propionate (Emollient) (clobetasol propionate) prescribing information, The J. Molner Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26ccb1d8-c466-e238-e063-6394a90a0069) |
+| 2026-11-25 | «5 de las 20» → sin cifra | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
 
 <!-- review:end log -->
 

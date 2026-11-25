@@ -9,7 +9,7 @@
   "with_current": 16,
   "none_current": 0,
   "without_data": 5,
-  "with_reviews": 12,
+  "with_reviews": 13,
   "rows": [
    {
     "t": "Bromfenac",
@@ -51,8 +51,8 @@
     "i": "alopecia areata",
     "lt": 0,
     "lv": 20,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«Se listan 20» → sin cifra",
     "x": 0
    },
    {
@@ -62,8 +62,8 @@
     "i": "Trastorno de cefalea",
     "lt": 0,
     "lv": 20,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "«5 de las 20» → sin cifra",
     "x": 0
    },
    {
@@ -282,8 +282,8 @@
     "i": "primary cutaneous T-cell lymphoma",
     "lt": 0,
     "lv": 20,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«5 de las 20» → sin cifra",
     "x": 0
    },
    {
@@ -503,7 +503,7 @@
   "with_current": 280,
   "none_current": 2,
   "without_data": 75,
-  "with_reviews": 223,
+  "with_reviews": 224,
   "rows": [
    {
     "t": "Aciclovir",
@@ -677,8 +677,8 @@
     "i": "queratoconjuntivitis epitelial punteada",
     "lt": 0,
     "lv": 20,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«las 20 listadas» → sin cifra",
     "x": 0
    },
    {
@@ -809,8 +809,8 @@
     "i": "Trastorno de migraña",
     "lt": 0,
     "lv": 20,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«20 autorizaciones» → sin cifra",
     "x": 0
    },
    {
@@ -820,8 +820,8 @@
     "i": "cholesterol-ester transfer protein deficiency",
     "lt": 0,
     "lv": 20,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«se muestran 20» → sin cifra",
     "x": 0
    },
    {
@@ -1007,8 +1007,8 @@
     "i": "Displasia acromesomélica tipo Hunter-Thompson",
     "lt": 0,
     "lv": 20,
-    "r": 2,
-    "rs": "«de un solo principio activo» → también asociaciones",
+    "r": 3,
+    "rs": "«20 autorizaciones» → sin cifra",
     "x": 0
    },
    {
@@ -1040,8 +1040,8 @@
     "i": "síndrome de rigidez focal de las extremidades",
     "lt": 0,
     "lv": 20,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "«las 20 listadas» → sin cifra",
     "x": 0
    },
    {
@@ -1194,8 +1194,8 @@
     "i": "insomnia (disease)",
     "lt": 0,
     "lv": 20,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "«20 autorizaciones … un solo registro» → mayoría asociaciones, sin cifra",
     "x": 0
    },
    {

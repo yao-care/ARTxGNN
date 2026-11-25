@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 171
 evidence_level: L1
 indication_count: 3
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Ketorolac: nueva indicación predicha, Trastorno de cefalea (headache disorder) (nivel de evidencia L1). Indicación original: Conjuntivitis atópica, papilar y primaveral"
 monitor_inn: "KETOROLAC"
 predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
@@ -97,7 +97,13 @@ Se muestran las 10 publicaciones más relevantes (de 18), priorizando guías, re
 
 ## Información de Mercado en Argentina
 
-Se muestran 5 de las 20 autorizaciones vigentes (todas de monofármaco). Los registros no incluyen texto de indicación aprobada.
+Las autorizaciones recopiladas en los datos están vigentes y son todas de monofármaco; los datos solo incluyen una parte de los productos (las cifras están en el resumen rápido). Los registros no incluyen texto de indicación aprobada.
+
+<!-- review:begin ar-lic-20261125b-ketorolac-1 -->
+
+> **Corrección de verificación (2026-11-25)**: Texto original: «Se muestran 5 de las 20 autorizaciones vigentes (todas de monofármaco).» Corregido: los datos de este medicamento solo incluyen una parte de los productos del listado de PAMI, y la frase daba como total o como número de filas mostradas una cifra fija que no coincide con ellos. Las cifras actuales están en el resumen rápido y en la tabla de Información de Mercado en Argentina. El estado del registro en ANMAT no está incluido en estos datos. Fuente: [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades).
+
+<!-- review:end ar-lic-20261125b-ketorolac-1 -->
 
 <!-- licenses:begin -->
 
@@ -142,6 +148,19 @@ Existen múltiples ensayos de Fases 2 a 4 completados y varias revisiones sistem
 **Otras indicaciones predichas (no priorizadas):**
 - *Conjuntivitis rosácea* (TxGNN 0.9940): sin ensayos ni literatura, solo predicción del modelo (L5). Decisión: **Hold**.
 - *Cefalea trigémino-autonómica* (TxGNN 0.9939): único ensayo retirado sin participantes y literatura limitada (L4), con una señal de seguridad por interacción con litio. Decisión: **Hold**.
+
+<!-- review:begin log -->
+
+## Registro de verificación
+
+A continuación, el registro de verificación de esta página: afirmaciones contrastadas con los datos oficiales (listado de medicamentos de PAMI). Las correcciones se limitan a datos básicos; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de verificación | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-25 | «5 de las 20» → sin cifra | Corregido | [PAMI – Listado de precios de medicamentos para entidades (datos abiertos; CSV gavade_20261105_024225, PVP PAMI al 05/11/2026)](https://datos.pami.org.ar/dataset/b7a2600f-94e0-48ba-8042-0cd4b556423b/resource/59b035cf-09b3-4058-b06b-8e49b99fa698/download/gavade_20261105_024225.csv); [PAMI – Medicamentos para entidades (ficha del conjunto de datos)](https://datos.pami.org.ar/api/3/action/package_show?id=medicamentos-para-entidades) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
